@@ -250,7 +250,7 @@ public static partial class LineValidation
         }
 
         // Removed :
-        if (raw.Contains(':') && !result.Contains(':'))
+        if (raw.Contains(':') && !result.Contains(':') && !raw.Contains(":'"))
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectColonSegementPrompt");
@@ -276,9 +276,6 @@ public static partial class LineValidation
             ("）", ")"), 
             //("...", "..."), //Problematic still
             //("…", "..."),
-            ("：", ":"),
-            ("：", ":"),
-            (":", ":"),
         };
 
         foreach (var check in checkForRemoval)
@@ -293,7 +290,7 @@ public static partial class LineValidation
         if (raw.Contains("\\n") && !result.Contains("\\n"))
         {
             response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");            
         }
 
         if (raw.Contains('-') && !result.Contains('-') && !result.Contains("\u2011"))
@@ -338,8 +335,10 @@ public static partial class LineValidation
 
         if (result.Contains('\n') && !raw.Contains('\n'))
         {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
+            //response = false;
+            //correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
+
+            result = result.Replace("\n", " \\n");
         }
 
         if (Regex.IsMatch(result, ChineseCharPattern) && !Regex.IsMatch(result, ChinesePlaceholderPattern))

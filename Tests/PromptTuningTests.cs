@@ -36,7 +36,7 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("而且我已经不再迷惘，已经在你的帮助下……更加坚定了。"),         
+            new("你唯恐被二師兄追殺，因此逃離唐門，遠避回疆避禍，被苗人壯女逼婚，婚後多子多孫。可你始終鬱鬱寡歡，未滿四旬(四十歲)便無疾而終。")
         };
 
         var cache = new Dictionary<string, string>();

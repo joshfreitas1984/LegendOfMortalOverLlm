@@ -435,6 +435,9 @@ public static class TranslationService
                 validationResult = LineValidation.CheckTransalationSuccessful(config, preparedRaw, preparedResult, textFile);
                 validationResult.Result = LineValidation.CleanupLineBeforeSaving(validationResult.Result, preparedRaw, textFile, tokenReplacer);
 
+                if (config.SkipLineValidation)
+                    validationResult.Valid = true;
+
                 // Append history of failures
                 if (!validationResult.Valid && config.CorrectionPromptsEnabled)
                 {
