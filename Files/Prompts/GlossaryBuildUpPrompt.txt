@@ -1,0 +1,21 @@
+﻿Your task is to build up Glossary entries.
+You will be provided with Chinese text. 
+
+Using the text, identify text that fits the following criteria:
+- Name
+- Location
+- Faction
+- Family Title
+- Nobility Title
+- Professional Title
+
+If there are no matches - do not return anything. 
+
+If there are matches - For each match, you need to provide the following details:
+- Criteria: The criterion that the text fits.
+- Original Text: The original Chinese text.
+- Translated Text: The translated text in English.
+- Transliterated Text: The pinyin or transliterated text.
+
+You MUST NOT use any other criterion.
+You MUST respond in VALID Json

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Raw\Remaining\**" />
+    <Compile Remove="Raw\SplitDb\**" />
+    <EmbeddedResource Remove="Raw\Remaining\**" />
+    <EmbeddedResource Remove="Raw\SplitDb\**" />
+    <None Remove="Raw\Remaining\**" />
+    <None Remove="Raw\SplitDb\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Converted\" />
+    <Folder Include="Mod\English\" />
+    <Folder Include="TestResults\OldFiles\" />
+  </ItemGroup>
+
+</Project>

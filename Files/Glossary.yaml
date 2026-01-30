@@ -1,0 +1,1997 @@
+﻿
+# Terms
+- raw: 攻击力
+  result: Attack Power
+  badtrans: false
+  direct: attack power
+  literal: gong ji li
+- raw: 防御力
+  result: Defense
+  allowalt:
+    - Defensive
+  badtrans: true
+  direct: Defense
+  literal: fang yu li
+- raw: 命中率
+  result: Accuracy
+  badtrans: true
+  direct: hit rate
+  literal: ming zhong 
+- raw: 气势
+  result: Momentum
+  badtrans: false
+  direct: Qi force
+  literal: Qishi
+- raw: 化境
+  result: Transcendant
+  allowalt: 
+    - Transcendence
+  badtrans: true
+  direct: transform realm
+  literal: hua jing
+- raw: 护卫  
+  result: Guard  
+  badtrans: false  
+  direct: protect defend  
+  literal: hu wei
+- raw: 心魔  
+  result: Inner Demon  
+  badtrans: true  
+  direct: Heart Demon  
+  literal: Xinmo  
+- raw: 有苏花  
+  result: Yousu Flower  
+  badtrans: true  
+  direct: Yousu Flower  
+  literal: You Su Hua  
+- raw: 交给我吧  
+  result: Leave it to me  
+  badtrans: false
+  direct: Give to me  
+  literal: Jiao gei wo ba  
+- raw: 海色宝会  
+  result: Sea Treasure Gathering
+  badtrans: true  
+  direct: Sea Color Treasure Gathering  
+  literal: Hai Se Bao Hui  
+- raw: 空军  
+  result: Sky Warrior
+  badtrans: true  
+  direct: Sky Warrior  
+  literal: Kōng jūn 
+# - raw: 黑衣人  
+#   result: Black clothed person  
+#   allowalt: 
+#     - Black clothed people
+#     - people dressed in black
+#   badtrans: true  
+#   direct: Black-Clothed Person  
+#   literal: Heiyiren  
+# - raw: 道人
+#   result: Taoist
+#   badtrans: true
+#   direct: Dao Person
+#   literal: Dao Ren
+- raw: 真人
+  result: Immortal
+  badtrans: true
+  direct: True Person
+  literal: Zhen Ren
+- raw: 三恶
+  result: Three Evils
+  badtrans: true
+  direct: Three Evil
+  literal: San E
+- raw: 三恶老大
+  result: Three Evils Old One
+  badtrans: true
+  direct: Three Evil Old One
+  literal: San E Lao Da
+- raw: 三恶老二
+  result: Three Evils Old Two
+  badtrans: true
+  direct: Three Evil Old Two
+  literal: San E Lao Er
+- raw: 三恶老三
+  result: Three Evils Old Three
+  badtrans: true
+  direct: Three Evil Old Three
+  literal: San E Lao San
+- raw: 小二
+  result: Waiter
+  badtrans: true
+  direct: Little Two
+  literal: Xiao Er
+- raw: 丹师
+  result: Alchemist
+  badtrans: true
+  direct: Dan Shi
+  literal: Dan Shi
+- raw: 西王爷
+  result: Western Prince
+  badtrans: true
+  direct: Xi Wang Ye
+  literal: Xi Wang Ye
+- raw: 流民  
+  result: Refugee  
+  badtrans: true  
+  direct: Displaced people  
+  literal: Liu min  
+- raw: 双击
+  result: Double-tap
+  badtrans: true  
+  direct: Double-click  
+  literal: Shuangji  
+- raw: 心法  
+  result: Heart Method  
+  badtrans: true  
+  direct: Heart Method  
+  literal: Xin Fa  
+- raw: 武侠
+  result: Wuxia
+  badtrans: true
+- raw: 天书
+  result: Heavenly Scripture
+  badtrans: false
+- raw: 八卦
+  result: Bagua
+  allowalt:
+    - Gossip
+    - Rumors
+  badtrans: true
+- raw: 武林
+  result: Wulin
+  allowalt: 
+    - Martial World
+  badtrans: false
+- raw: 江湖
+  result: Jianghu
+  badtrans: true
+- raw: 马帮
+  result: Horse Gang
+  badtrans: true
+- raw: 盐帮
+  result: Salt Gang
+  badtrans: true
+- raw: 河图
+  result: River Map
+  allowalt: 
+    - Hetu
+  context: Hetu is river map but can be part of Hetu Luoshu 
+  badtrans: false
+- raw: 河出马图
+  result: Hetu Luoshu
+  badtrans: true
+- raw: 江湖故事
+  result: Jianghu Tales
+  badtrans: true
+- raw: 祖传宝刀
+  result: Ancestral Treasure Blade
+  badtrans: true
+- raw: 完成菩提
+  result: Attain Enlightenment
+  badtrans: true
+- raw: 完成书院
+  result: Complete the Academy
+  badtrans: true
+- raw: 完成机杼
+  result: Attain Weaving Skills
+  allowalt: 
+    - complete the weaving skills
+    - learning weaving skills
+  badtrans: false
+- raw: 完成言家
+  result: Complete for the Yan Family
+  badtrans: true
+- raw: 完成农家
+  result: Complete for the Farm Family
+  badtrans: true
+- raw: 学会秘术
+  result: Learn the secret arts
+  badtrans: true
+- raw: 学会秘法
+  result: Learn the secret method
+  badtrans: true    
+# - raw: 国
+#   result: Kingdom
+#   badtrans: true  
+- raw: 门派
+  result: Sect
+  badtrans: false
+  context: Refers to a school or faction, especially in martial arts or cultivation settings, often with a specific philosophy or technique.
+  transliteration: Ménpài
+- raw: 门派背景
+  result: Sect Background
+  badtrans: false
+  context: Refers to the history, origin, or cultural background of a particular sect, often detailing its philosophies, teachings, or important events.
+  transliteration: Ménpài Bèijǐng
+- raw: 流派
+  result: Style
+  allowalt:
+    - School
+  badtrans: false
+  context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
+  transliteration: Liúpài
+- raw: 败北失利  
+  result: Defeat and Loss  
+  badtrans: false
+  direct: Loss and Failure  
+  literal: Bai bei shi li  
+- raw: 机关  
+  result: Mechanism  
+  allowalt:
+    - Organization  
+    - Scheme
+    - Mechanical
+  badtrans: true  
+  direct: Organization  
+  literal: Jiguan  
+- raw: "（有机关）"  
+  result: "(with mechanism)"  
+  badtrans: true  
+  direct: "(Organization)"  
+  literal: "(You jiguan)"
+# - raw: "机关·"
+#   result: "Mechanism ·"
+#   badtrans: true
+#   direct: "Organization·"
+#   literal: "Jiguan·"
+- raw: 侠窟  
+  result: Outlaws' Den
+  badtrans: true  
+  literal: Xia Ku  
+- raw: 秘宝  
+  result: Secret Treasure  
+  badtrans: true  
+  direct: Secret Treasure  
+  literal: Mibao
+- raw: 什长  
+  result: Squad Leader  
+  badtrans: true  
+  direct: Ten-Man Commander  
+  literal: Shi Zhang  
+- raw: 新兵  
+  result: Recruit  
+  badtrans: true  
+  direct: New Soldier  
+  literal: Xin Bing 
+- raw: 侧翼支援  
+  result: Flank Support  
+  badtrans: true  
+  direct: Side-Wing Assistance  
+  literal: Ceyi Zhiyuan  
+- raw: 段公子
+  result: Young Lord Duan
+  badtrans: true
+- raw: 朝廷  
+  result: Imperial Court  
+  badtrans: true  
+  direct: Court of the Emperor  
+  literal: Chaoting  
+- raw: 草寇  
+  result: Bandit  
+  badtrans: true  
+  direct: Grass Bandit  
+  literal: Cao Kou
+- raw: 孔夫子  
+  result: Teacher Kong  
+  badtrans: true  
+  direct: Teacher Kong  
+  literal: Kong Fuzi  
+- raw: 韩夫子  
+  result: Teacher Han  
+  badtrans: true  
+  direct: Teacher Han  
+  literal: Han Fuzi  
+- raw: 流浪武者  
+  result: Wandering Warrior  
+  badtrans: true  
+  direct: Drifting Fighter  
+  literal: Liulang Wuzhe  
+- raw: 茗心羽士  
+  result: Tea-hearted Taoist  
+  badtrans: true  
+  direct: Tea-hearted Practitioner  
+  literal: Mingxin Yushi
+- raw: 老年羽士  
+  result: Elder Taoist  
+  badtrans: true  
+  direct: Elder Feathered Practitioner  
+  literal: Laonian Yushi  
+- raw: 闲散羽士  
+  result: Idle Taoist  
+  badtrans: true  
+  direct: Leisurely Taoist Practitioner  
+  literal: Xiansan Yushi  
+- raw: 冷却中  
+  result: Cooldown  
+  badtrans: true  
+  direct: In Cooling Process  
+  literal: Lengque Zhong 
+- raw: 委托  
+  result: Commission  
+  badtrans: true  
+  direct: Entrust  
+  literal: Wei tuo  
+
+# Time
+- raw: 秒  
+  result: Second  
+  badtrans: true  
+  direct: Second  
+  literal: Miao 
+
+# Dates
+- raw: 年  
+  result: Year 
+  badtrans: false  
+  direct: Year  
+  literal: Nian 
+- raw: 月  
+  result: Month 
+  badtrans: false  
+  direct: Month  
+  literal: Yue
+- raw: 日
+  result: Day 
+  badtrans: false  
+  direct: Day  
+  literal: Ri
+
+# Time
+- raw: 子时
+  result: Zi Hour
+  badtrans: true
+  direct: "11:00 PM - 1:00 AM"
+  literal: zi shi
+  only:
+    - horoscope.txt
+- raw: 丑时
+  result: Chou Hour
+  badtrans: true
+  direct: "1:00 AM - 3:00 AM"
+  literal: chou shi
+  only:
+    - horoscope.txt
+- raw: 寅时
+  result: Yin Hour
+  badtrans: true
+  direct: "3:00 AM - 5:00 AM"
+  literal: yin shi
+  only:
+    - horoscope.txt
+- raw: 卯时
+  result: Mao Hour
+  badtrans: true
+  direct: "5:00 AM - 7:00 AM"
+  literal: mao shi
+  only:
+    - horoscope.txt
+- raw: 辰时
+  result: Chen Hour
+  badtrans: true
+  direct: "7:00 AM - 9:00 AM"
+  literal: chen shi
+  only:
+    - horoscope.txt
+- raw: 巳时
+  result: Si Hour
+  badtrans: true
+  direct: "9:00 AM - 11:00 AM"
+  literal: si shi
+  only:
+    - horoscope.txt
+- raw: 午时
+  result: Wu Hour
+  badtrans: true
+  direct: "11:00 AM - 1:00 PM"
+  literal: wu shi
+  only:
+    - horoscope.txt
+- raw: 未时
+  result: Wei Hour
+  badtrans: true
+  direct: "1:00 PM - 3:00 PM"
+  literal: wei shi
+  only:
+    - horoscope.txt
+- raw: 申时
+  result: Shen Hour
+  badtrans: true
+  direct: "3:00 PM - 5:00 PM"
+  literal: shen shi
+  only:
+    - horoscope.txt
+- raw: 酉时
+  result: You Hour
+  badtrans: true
+  direct: "5:00 PM - 7:00 PM"
+  literal: you shi
+  only:
+    - horoscope.txt
+- raw: 戌时
+  result: Xu Hour
+  badtrans: true
+  direct: "7:00 PM - 9:00 PM"
+  literal: xu shi
+  only:
+    - horoscope.txt
+- raw: 亥时
+  result: Hai Hour
+  badtrans: true
+  direct: "9:00 PM - 11:00 PM"
+  literal: hai shi
+  only:
+    - horoscope.txt
+
+
+# Ancient Factions
+- raw: 西夏
+  result: Western Xia
+  badtrans: true
+  direct: Western Xia
+  literal: Xixia
+- raw: 吐蕃
+  result: Tubo
+  badtrans: true
+  direct: Tubo
+  literal: Tufan (Tibetan)
+- raw: 唐門
+  result: Tang Clan
+  badtrans: true
+  direct: Tang gate
+  literal: Tangmen
+- raw: 飛石幫
+  result: Flying Stone Gang
+  badtrans: true
+- raw: 青城
+  result: Qingcheng
+  badtrans: true
+  direct: Green City
+  literal: Qingcheng
+- raw: 武當
+  result: Wudang
+  badtrans: true
+  direct: Martial Hall
+  literal: Wudang
+- raw: 少林
+  result: Shaolin
+  badtrans: true
+  direct: Small Forest
+  literal: Shaolin
+- raw: 峨嵋
+  result: Emei
+  badtrans: true
+  direct: Lofty Eyebrow
+  literal: Emei
+- raw: 丐幫
+  result: Beggar Sect
+  badtrans: true
+  direct: Beggar Gang
+  literal: Gaibang
+- raw: 天山
+  result: Tianshan
+  badtrans: true
+  direct: Heaven Mountain
+  literal: Tianshan
+- raw: 雪山派
+  result: Snow Mountain Sect
+  badtrans: true
+  direct: Snow Mountain Faction
+  literal: Xueshan pai
+- raw: 鳳凰山
+  result: Phoenix Mountain
+  badtrans: true
+  direct: Phoenix Mountain
+  literal: Fenghuang shan
+- raw: 嵩山
+  result: Songshan
+  badtrans: true
+  direct: Lofty Mountain
+  literal: Songshan
+- raw: 嶺南
+  result: Lingnan
+  badtrans: true
+  direct: South of Mountains
+  literal: Lingnan
+- raw: 逍遙派
+  result: Carefree Sect
+  badtrans: true
+  direct: Carefree Faction
+  literal: Xiaoyao pai
+- raw: 日月神教
+  result: Sun Moon Holy Cult
+  badtrans: true
+  direct: Sun Moon Divine Cult
+  literal: Riyue shenjiao
+- raw: 岳家
+  result: Yue Clan
+  badtrans: true
+  direct: Mountain Family
+  literal: Yue jia
+- raw: 段家
+  result: Duan Clan
+  badtrans: true
+  direct: Segment Family
+  literal: Duan jia
+- raw: 胡家
+  result: Hu Clan
+  badtrans: true
+  direct: Hu Family
+  literal: Hu jia
+- raw: 全真
+  result: Quanzhen
+  badtrans: true
+  direct: Complete Truth
+  literal: Quanzhen
+- raw: 錦香
+  result: Jinxiang
+  badtrans: true
+  direct: Brocade Fragrance
+  literal: Jin Xiang
+- raw: 點蒼
+  result: Diancang
+  badtrans: true
+  direct: Spot Cyan
+  literal: Diancang
+- raw: 鐵拳
+  result: Iron Fist
+  badtrans: true
+  direct: Iron Fist
+  literal: Tiequan
+- raw: 泥教
+  result: Mud Cult
+  badtrans: true
+  direct: Mud Teaching
+  literal: Ni jiao
+- raw: 奪魄
+  result: Soul-Stealer
+  badtrans: true
+  direct: Seize Soul
+  literal: Duopo
+- raw: 南宮
+  result: Nangong
+  badtrans: true
+  direct: Southern Palace
+  literal: Nangong
+- raw: 崆峒
+  result: Kongtong
+  badtrans: true
+  direct: Lofty Peak
+  literal: Kongtong
+- raw: 玄功
+  result: Xuanggong
+  badtrans: true
+  direct: Profound Skill
+  literal: Xuanggong
+
+# Weapons
+- raw: 刀
+  result: Blade
+  context: Dao is Blade or Cleaver or Knife
+  allowalt: 
+    - Knife
+    - Knives
+    - Cleaver
+    - Scissor
+    - Saber
+    - Dao
+    - Scabbard 
+  badtrans: false
+- raw: 剑
+  result: Sword
+  allowalt: 
+    - Jian
+    - scabbard
+  context: Sometimes gets translated inccorectly
+  badtrans: true
+- raw: 暗器
+  result: Hidden Weapon
+  badtrans: true
+- raw: 槍
+  result: Spear
+  badtrans: true
+- raw: 枪
+  result: Spear
+  allowalt: 
+    - Sharp
+    - Qiang
+  badtrans: true
+- raw: 枪棍
+  result: Spear & Staff
+  allowalt: 
+    - Spear and Staff
+    - Spear   
+  badtrans: true
+- raw: 棍
+  result: Staff
+  context: More like club or cludgel or stick. Also used as part of other words
+  badtrans: false
+- raw: 杖
+  result: Staff
+  context: More like walking stick or formal staff
+  badtrans: false
+
+# Arts
+- raw: 枪法
+  result: Spear Art
+  allowalt: 
+    - Spear Technique
+  badtrans: true
+- raw: 槍法
+  result: Spear Art
+  allowalt: 
+    - Spear Technique
+  badtrans: true
+- raw: 刀法
+  result: Blade Art
+  allowalt: 
+    - Knife Technique
+    - Blade Technique
+  badtrans: false
+- raw: 刀式
+  result: Blade Form
+  allowalt:
+    - Blade Technique
+    - Blade Style
+  badtrans: false
+- raw: 剑法
+  result: Sword Art
+  allowalt: 
+    - Sword Technique
+    - Swordsmanship
+  badtrans: false
+- raw: 剑术  
+  result: Swordsmanship  
+  allowalt: 
+    - Sword Technique
+    - Swordsmanship
+  badtrans: false  
+  direct: Sword Technique  
+  literal: Jianshu  
+
+# Stats
+- raw: 胆识
+  result: Courage
+  context: Courage and Insight
+  badtrans: false  
+- raw: 修养
+  result: Cultivation
+  allowalt: 
+    - Cultivate
+  badtrans: true  
+- raw: 元气  
+  result: Vitality  
+  badtrans: true  
+  direct: Primordial energy  
+  literal: Yuanqi  
+- raw: 气血  
+  result: Lifeforce  
+  badtrans: false 
+  direct: Qi and Blood  
+  literal: Qixue  
+- raw: 真气
+  result: True Qi
+  badtrans: true 
+  context: True Qi / True Energy
+  literal: Zhenqi  
+- raw: 根骨
+  result: Potential
+  context: refers to a person's natural physical foundation or constitution, often indicating their inherent strength, potential, or aptitude, especially in martial arts or cultivation contexts. It can also imply the sturdiness or resilience of one's physical body. Synonymous to Bone Structure
+  badtrans: false  
+- raw: 力道  
+  result: Strength  
+  badtrans: false  
+  direct: Strength path  
+  literal: Lidao  
+- raw: 筋骨
+  result: Muscle & Bone
+  context: refers to the tendons and bones, representing the physical strength, flexibility, and overall robustness of the body. In traditional Chinese contexts, it is often used to describe a person's physical condition or potential for martial prowess.
+  badtrans: false 
+  literal: Jingu  
+- raw: 体魄
+  result: Resilience
+  context: refers to the physical body or physique, often implying strength, health, or robustness in terms of physical constitution.
+  badtrans: true
+- raw: 命中  
+  result: Hit Rate  
+  badtrans: false  
+  direct: Ming Zhong  
+  literal: Ming Zhong  
+- raw: 太阴
+  result: Great Yin
+  badtrans: false
+- raw: 太阳
+  result: Great Yang
+  context: Conflicts with temples
+  badtrans: false
+- raw: 阴
+  result: Yin
+  context: Commonly used in other translations
+  badtrans: false
+- raw: 阳
+  result: Yang
+  context: Commonly used in other translations
+  badtrans: false
+- raw: 刚
+  result: Hard
+  context: Commonly used in other translations
+  badtrans: false
+- raw: 柔
+  result: Soft
+  context: Commonly used in other translations
+  badtrans: false
+- raw: 毒
+  result: Poison
+  context:
+  badtrans: false
+- raw: 生命
+  result: Health
+  context:
+  badtrans: false
+- raw: 闪避
+  result: Dodge
+  context:
+  badtrans: false
+- raw: 御心
+  result: Discipline
+  context: refers to the ability to control and guard one's mind, emotions, and inner state. It is often associated with mental discipline, emotional resilience, and maintaining focus in combat
+  badtrans: false
+- raw: 诛心
+  result: Mind Attack
+  context: refers to a strategy or technique aimed at breaking an opponent's willpower, confidence, or mental stability rather than physically harming them.
+  badtrans: true
+  allowalt:
+    - heartbreak
+- raw: 轻功
+  result: Qinggong
+  badtrans: true
+- raw: 内功
+  result: Neigong
+  context: Neigong refers to the practice of cultivating internal energy through breathing techniques, meditation, and specialized training. It enhances endurance, strength, and resilience. Examples include Qi cultivation and techniques like Taichi or Qigong.
+  badtrans: true
+- raw: 外功
+  result: External Skill
+  context: External Martial Arts
+  badtrans: false
+- raw: 内攻
+  result: Internal Attack
+  context: refers to offensive techniques that use neigong to damage an opponent's internal organs or disrupt their Qi flow.
+  badtrans: false
+- raw: 内力
+  result: Inner Power
+  context: refers to the cultivated energy stored within the body, which martial artists use to enhance strength, resilience, and combat techniques. It is often built through long-term training and can be projected outward to attack or defend.
+  badtrans: false  
+- raw: 外防
+  result: External Defense
+  context: Defense against physical attacks (e.g., armor-like body techniques, blocking).
+  badtrans: false 
+- raw: 内防
+  result: Internal Defense
+  context: Defense against internal attacks (e.g., resisting Qi disruptions, protecting organs).
+  badtrans: false    
+- raw: 内息
+  result: Inner Qi
+  context:  It represents the circulation of Qi within the body, closely tied to breathing techniques and cultivation. 
+  badtrans: false
+- raw: 精神
+  result: Willpower
+  allowalt:
+    - Spirit
+  context: refers to a person's mental state, spirit, or vigor, often implying focus, willpower, or emotional energy
+  badtrans: false
+- raw: 身法
+  result: Agility
+  context: refers to a practitioner's movement skills or techniques in martial arts, focusing on agility, speed, and the ability to maneuver the body efficiently during combat or training. It involves the coordination of footwork, balance, and posture to enhance overall performance.
+  badtrans: false
+- raw: 专注
+  result: Focus
+  allowalt:
+    - Concentration
+  context: refers to a high level of concentration or mental focus. Reaching a level of 50 indicates a significant mastery of maintaining intense focus, which is crucial for improving technique, anticipating movements, and staying calm during combat.
+  badtrans: false
+- raw: 要害
+  result: Vital Point
+  context: refers to critical or vital points of the body that, if struck, can cause significant damage or even death. In martial arts, it refers to vital areas like the head, neck, or heart. In gaming, it could be used to represent weak spots or critical hit zones that deal more damage when targeted.
+  badtrans: false
+- raw: 化解
+  result: Counter
+  context: refers to the act of neutralizing, resolving, or dissolving an opponent's attack, often through a defensive or counter technique.
+  badtrans: false
+- raw: 外攻
+  result: External Attack
+  context: refers to offensive techniques that rely on external strength and power, typically involving physical force or direct strikes.
+  badtrans: false
+
+# Sayings
+- raw: 阿弥陀佛
+  result: Amituofo
+  badtrans: true
+- raw: 承让了  
+  result: Thank you for letting me win  
+  badtrans: true  
+  direct: accept yielding  
+  literal: cheng rang le
+- raw: 柔茹刚吐
+  result: Softness devours hardness and spits it out.
+  badtrans: true
+  direct: Rouru gang tu
+  literal: Rouru gang tu
+
+# Sounds
+- raw: 吼
+  result: Roar
+  badtrans: false
+- raw: 咕
+  result: Cluck
+  badtrans: false
+- raw: 呜呜呜
+  result: Wuwuwu
+  badtrans: true
+- raw: 呜呜
+  result: Wuwu
+  badtrans: true
+- raw: 呜...
+  result: Wu...
+  badtrans: false
+- raw: 齁齁齁
+  result: Hohoho
+  badtrans: true
+- raw: 齁齁
+  result: Hoho
+  badtrans: true
+- raw: 齁...
+  result: Ho..
+  badtrans: false
+- raw: 嘎嘎嘎
+  result: Gagaga
+  badtrans: true
+- raw: 嘎嘎
+  result: Gaga
+  badtrans: true
+- raw: 嘎...
+  result: Ga...
+  badtrans: false
+- raw: 嘶…
+  result: Hiss
+  badtrans: true
+- raw: 嘶嘶
+  result: Hiss
+  badtrans: true
+- raw: 咕咕咕
+  result: Gugugu
+  badtrans: true
+- raw: 咕咕
+  result: Gugu
+  context: Can conflict with clucking
+  allowalt: 
+    - Clucking
+  badtrans: true
+- raw: 咕...
+  result: Gu...
+  badtrans: false
+- raw: 咯咯咯
+  result: Gegege
+  badtrans: true
+- raw: 咯咯
+  result: Gege
+  allowalt:
+    - laugh
+  badtrans: true
+- raw: 咯...
+  result: Ge...
+  badtrans: false
+- raw: 吱吱吱
+  result: Zhizhizhi
+  badtrans: true
+- raw: 吱吱
+  result: Zhizhi
+  badtrans: true
+- raw: 吱...
+  result: Zhi...
+  badtrans: false
+- raw: 唔吱
+  result: Wuzhi
+  badtrans: true
+- raw: 吱喳
+  result: Zhizha
+  badtrans: true
+- raw: 吱吱喳
+  result: Zhizhizha
+  badtrans: true
+
+# Status
+- raw: 内伤
+  result: Internal Injury
+  allowalt:  
+    - Internal Injuries
+    - Wound
+  badtrans: true
+- raw: 外伤
+  result: External Injury
+  allowalt: 
+    - Extra Damage # For situations like 额外伤害
+    - Damage
+    - External Injuries
+  badtrans: false
+- raw: 中毒
+  result: Poisoned
+  allowalt:
+    - Poisoning
+    - Poison effect
+  badtrans: false
+- raw: 迷惑
+  result: Confusion
+  allowalt:
+    - Confuse
+    - mesmerizing
+  badtrans: false
+- raw: 冰封
+  result: Frozen
+  badtrans: false
+
+# Ranks
+- raw: 一阶  
+  result: Tier 1
+  badtrans: false  
+- raw: 二阶  
+  result: Tier 2
+  badtrans: false
+- raw: 三阶  
+  result: Tier 3
+  badtrans: false
+- raw: 四阶  
+  result: Tier 4
+  badtrans: false
+- raw: 五阶  
+  result: Tier 5
+  badtrans: false
+- raw: 六阶  
+  result: Tier 6
+  badtrans: false
+- raw: 七阶  
+  result: Tier 7
+  badtrans: false
+- raw: 八阶  
+  result: Tier 8
+  badtrans: false
+- raw: 九阶  
+  result: Tier 9
+  badtrans: false
+- raw: 十阶  
+  result: Tier 10
+  badtrans: false
+
+# Items and Minerals
+- raw: 钱
+  result: Coin
+  allowalt: 
+    - Qian
+    - Money 
+  badtrans: false
+- raw: 铁矿石  
+  result: Iron Ore  
+  badtrans: true
+- raw: 铜矿石  
+  result: Copper Ore  
+  badtrans: true  
+  direct: Copper Mineral  
+  literal: Tong kuang shi  
+- raw: 金属矿石
+  result: Metallic ore
+  badtrans: true
+  direct: Jinshu kuangshi
+  literal: Jinshu kuangshi
+- raw: 玄铁
+  result: Dark Steel
+  badtrans: true
+- raw: 黑铁
+  result: Dark Iron
+  badtrans: true
+- raw: 寒铁
+  result: Cold Iron
+  badtrans: true
+- raw: 镔铁
+  result: Refined Iron
+  badtrans: true
+- raw: 黑金
+  result: Black Gold
+  badtrans: true
+- raw: 乌金
+  result: Black Gold
+  badtrans: true
+- raw: 熊掌
+  result: Bear Paw
+  badtrans: true
+- raw: 豹胎
+  result: Leopard Fetus
+  badtrans: true
+- raw: 黄连
+  result: Coptis root
+  badtrans: true
+- raw: 槟榔
+  result: Betel nut
+  badtrans: true
+- raw: 龙珠
+  result: Dragon ball
+  badtrans: true
+- raw: 炼狱
+  result: Purgatory
+  badtrans: true
+- raw: 千年灵芝
+  result: Thousand-year old Lingzhi
+  badtrans: true
+- raw: 一条根
+  result: One Root
+  badtrans: true
+- raw: 腹皮
+  result: Rhizome Bark
+  badtrans: true
+- raw: 金不换
+  result: Priceless Gold
+  allowalt: 
+    - Gold
+  badtrans: true
+- raw: 生姜
+  result: Raw Ginger
+  badtrans: true
+- raw: 甘草
+  result: Licorice
+  badtrans: true
+- raw: 续断
+  result: Teasel Root
+  badtrans: true
+- raw: 茯苓
+  result: Poria
+  allowalt: 
+    - Ding Fuling
+  badtrans: true
+- raw: 三七
+  result: Sanqi
+  badtrans: false
+- raw: 细辛
+  result: Fragrant Root
+  allowalt:
+    - Liu Xixin
+  badtrans: true
+  direct: Xi Xin
+  literal: Xi Xin
+- raw: 软筋散
+  result: Tendon-Softening Powder
+  badtrans: true
+- raw: 杜康酒
+  result: Dukang Wine
+  badtrans: true
+- raw: 即墨老酒
+  result: Jimo Old Wine
+  badtrans: true
+- raw: 竹叶青
+  result: Bamboo Leaf Tea
+  badtrans: true
+- raw: 葡萄酒
+  result: Grape Wine
+  badtrans: true
+- raw: 猴儿酒
+  result: Monkey Wine
+  badtrans: true
+- raw: 梅香酎  
+  result: Plum-Scented Liquor  
+  badtrans: true  
+  direct: Mei Xiang Zhou  
+  literal: Mei Xiang Zhou  
+- raw: 杂黍菊华
+  result: Mixed Millet and Chrysanthemum
+  badtrans: true
+  direct: Zashi Juhua
+  literal: Zashi Juhua
+
+# People
+- raw: 枪士
+  result: Spearman
+  badtrans: true
+- raw: 士兵枪
+  result: Spearman
+  badtrans: true
+- raw: 枪兵
+  result: Spearman
+  badtrans: true
+- raw: 狼蛮
+  result: Wolf Barbarian
+  badtrans: true
+- raw: 纳西
+  result: Naxi
+  badtrans: true
+- raw: 锦衣卫
+  result: Imperial Guard
+  badtrans: true
+- raw: 禁军
+  result: Forbidden Army
+  badtrans: true
+- raw: 讲经先生
+  result: Scripture Teacher
+  badtrans: true
+- raw: 船工
+  result: Boatman
+  badtrans: true
+- raw: 船夫
+  result: Boatman
+  badtrans: true
+- raw: 缇骑
+  result: Official Riders
+  badtrans: true
+- raw: 打更士兵
+  result: Nightwatch Soldier
+  badtrans: true
+- raw: 鹿
+  result: Deer
+  allowalt: 
+    - Lu
+  badtrans: false
+- raw: 虎
+  result: Tiger
+  context: Sometimes used as literal names
+  allowalt: 
+    - Hu
+    - Gecko #Wall Tiger
+  badtrans: false
+- raw: 僧侣
+  result: Monk
+  badtrans: true
+- raw: 侠客
+  result: Wanderer
+  # allowalt: 
+  #   - Martial Artist
+  badtrans: false
+- raw: 江湖侠客
+  result: Jianghu Wanderer
+  badtrans: false
+
+# Titles
+- raw: 宗主
+  result: Sect Leader
+  badtrans: true
+  direct: sect master
+  literal: zong zhu
+- raw: 将军  
+  result: General  
+  badtrans: true  
+  direct: general  
+  literal: jiangjun
+- raw: 长老
+  result: Elder
+  allowalt: 
+    - Senior
+    - Master
+  badtrans: true
+  direct: Long Old
+  literal: Chang Lao
+- raw: 师叔
+  result: Master Uncle
+  allowalt: 
+    - Master
+  badtrans: true
+  direct: Teacher Uncle
+  literal: Shi Shu
+- raw: 羽士
+  result: Taoist
+  badtrans: true
+  direct: Feathered Practitioner
+  literal: Yu Shi
+- raw: 大夫
+  result: Doctor
+  context: A title used to address or refer to a medical professional or physician.
+  literal: Da Fu
+  badtrans: true
+  allowalt: 
+    - Dr
+- raw: 二当家
+  result: Second Boss
+  badtrans: true
+  direct: Er Dang Jia
+  literal: Er Dang Jia
+- raw: 帮主
+  result: Chief
+  badtrans: true
+  direct: Bang Zhu
+  literal: Bang Zhu
+- raw: 掌门
+  result: Sect Leader
+  badtrans: true
+- raw: 大侠
+  result: Great Hero
+  allowalt:
+    - Hero
+  badtrans: true
+- raw: 少侠
+  result: Young Hero
+  allowalt:
+    - Hero
+  badtrans: true
+- raw: 前辈
+  result: Senior
+  allowalt:
+    - Elder
+  context: A respectful term used to address or refer to someone older, more experienced, or who has achieved certain accomplishments before the speaker.
+  literal: Qian Bei
+  badtrans: true
+- raw: 哥哥
+  result: Brother
+  context: Used to refer to or address one's own older brother, often with affection.
+  literal: Ge Ge
+  badtrans: true
+- raw: 兄弟
+  result: Brother
+  context: A term that can refer to literal brothers by birth or metaphorically to close friends or comrades who share a bond similar to familial ties.
+  literal: Xiong Di
+  badtrans: true
+- raw: 小兄弟
+  result: Little Brother
+  context: Used to address a younger male peer in a friendly, respectful manner.
+  literal: Xiao Xiong Di
+  badtrans: true
+- raw: 师弟
+  result: Junior Brother
+  allowalt: 
+    - Younger Brother
+    - Brother
+  badtrans: true
+- raw: 弟弟
+  result: Younger Brother
+  context: Refers to one's younger brother.
+  literal: Di Di
+  allowalt: 
+    - Brother
+  badtrans: true
+- raw: 大哥
+  result: Senior Brother
+  context: A respectful term used among siblings for the older brother.
+  allowalt: 
+    - Brother
+  literal: Da Ge
+  badtrans: true
+- raw: 师兄
+  result: Senior Brother
+  allowalt: 
+    - Brother
+  literal: Shixiong
+  badtrans: true
+- raw: 阿兄
+  result: Elder Brother
+  allowalt: 
+    - Brother
+  badtrans: true
+- raw: 师妹
+  result: Junior Sister
+  allowalt: 
+    - Younger Sister
+    - Sister
+  badtrans: true
+- raw: 妹妹
+  result: Younger Sister
+  allowalt: 
+    - Sister
+  context: Refers to one's younger sister.
+  literal: Mei Mei
+  badtrans: true
+- raw: 姐姐
+  result: Older Sister
+  allowalt: 
+    - Sister
+  context: Refers to one's older sister.
+  literal: Jie Jie
+  badtrans: true
+- raw: 大姐
+  result: Senior Sister
+  context: A respectful term used among siblings for the older brother.
+  allowalt: 
+    - Sister
+  literal: Da Jie
+  badtrans: true
+- raw: 义姐
+  result: Sworn Sister
+  allowalt: 
+    - Brother
+  badtrans: true
+- raw: 义兄
+  result: Sworn Brother
+  allowalt: 
+    - Brother
+  badtrans: true
+- raw: 大郎
+  result: First Young Master
+  allowalt: 
+    - Dalang
+  badtrans: true
+- raw: 二郎
+  result: Second Young Master 
+  allowalt: 
+    - Erlang
+  badtrans: true
+- raw: 三郎
+  result: Third Young Master 
+  allowalt: 
+    - Sanlang
+  badtrans: true
+- raw: 爹
+  result: Father
+  literal: Die
+  badtrans: false
+- raw: 婆婆
+  result: Grandma
+  literal: Po Po
+  context: Conflicts with idiom moms and grandmas (fussing around)
+  allowalt: 
+    - Fussing
+  badtrans: true
+- raw: 舅舅
+  result: Uncle
+  badtrans: true
+# - raw: 先生
+#   result: Gentleman
+#   
+#   badtrans: true
+- raw: 公子
+  result: Young Lord
+  context: Often used to refer to the son of nobility, indicating both status and youth.
+  literal: Gong Zi
+  badtrans: true
+- raw: 公主
+  result: Young Lady
+  context: The daughter of a king or nobleman, indicating royal status and nobility.
+  allowalt: 
+    - Princess
+  literal: Gong Zhu
+  badtrans: true
+- raw: 夫人
+  result: Lady
+  allowalt: 
+    - Wife
+    - Madam
+  context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
+  literal: Fu Ren
+  badtrans: true
+- raw: 大人
+  result: Lord
+  allowalt: 
+    - Husband
+  context: Used as a respectful address for man of noble status or of a high-ranking official.
+  literal: Da Ren
+  badtrans: false
+- raw: 师傅
+  result: Master
+  context: Used for an experienced person in a particular skill or trade, similar to master craftsman or teacher.
+  literal: Shi Fu
+  badtrans: true
+- raw: 姑娘
+  result: Miss  
+  context: A respectful yet informal address to young women, often implying youthfulness or elegance. Can also be used for Girl.
+  allowalt: 
+    - Girl
+    - Daughter
+  literal: Gu Niang
+  badtrans: false
+- raw: 掌柜
+  result: Shopkeeper
+  badtrans: true
+- raw: 大善人
+  result: Great Benefactor
+  badtrans: true
+- raw: 贡献堂主
+  result: Contribution Hall Master
+  badtrans: true
+  allowalt: 
+    - Contributions Hall Master
+- raw: 副帮主
+  result: Deputy Chief
+  badtrans: true
+- raw: 锅头
+  result: Pot Head
+  badtrans: true
+- raw: 大锅头
+  result: Great Pot Head
+  badtrans: true
+- raw: 二锅头
+  result: Second Pot Head
+  badtrans: true
+- raw: 寨主
+  result: Fort Master
+  badtrans: true
+- raw: 二寨主
+  result: Second Fort Master
+  badtrans: true
+- raw: 禅师
+  result: Zen Master
+  badtrans: true
+- raw: 小沙弥
+  result: Junior Monk
+  badtrans: true
+- raw: 知客僧
+  result: Welcoming Monk
+  badtrans: true
+- raw: 庄主
+  result: Manor Master 
+  badtrans: true
+- raw: 三庄主
+  result: Third Manor Master
+  badtrans: true
+- raw: 二庄主
+  result: Second Manor Master 
+  badtrans: true
+- raw: 刀客
+  result: Blade Master
+  badtrans: true
+- raw: 大娘
+  result: Great Aunt
+  allowalt:
+    - Aunt
+    - Lady
+  badtrans: true
+
+# Places
+- raw: 红妆苑
+  result: Crimson Adornment Court
+  badtrans: true
+  direct: red adornment courtyard
+  literal: hong zhuang yuan
+- raw: 茶庄
+  result: Tea Estate
+  badtrans: true
+- raw: 茶铺
+  result: Tea Shop
+  badtrans: true
+- raw: 茶馆
+  result: Tea House
+  badtrans: true
+- raw: 据点
+  result: Outpost
+  badtrans: true
+- raw: 码头
+  result: Port
+  badtrans: true
+- raw: 酒楼
+  result: Tavern
+  badtrans: true
+- raw: 酒家
+  result: Tavern
+  badtrans: true
+- raw: 酒馆
+  result: Tavern
+  badtrans: true
+- raw: 酒坊
+  result: Winery
+  allowalt:
+    - Wineries
+  badtrans: true
+- raw: 青楼
+  result: Pleasure House
+  badtrans: true
+- raw: 医馆
+  result: Medical Pavilion
+  badtrans: true
+- raw: 当铺
+  result: Pawnshop
+  badtrans: true
+- raw: 鱼塘
+  result: Fish pond
+  badtrans: true
+- raw: 锯木厂
+  result: Sawmill
+  badtrans: true
+- raw: 石料厂
+  result: Stone Quarry
+  badtrans: true
+- raw: 盐场
+  result: Salt Farm
+  badtrans: true
+- raw: 香料场
+  result: Spice Farm
+  badtrans: true
+- raw: 牧场
+  result: Pasture
+  badtrans: true
+- raw: 煤场
+  result: Coal Yard
+  badtrans: true
+- raw: 铜矿场
+  result: Copper Mine
+  badtrans: true
+- raw: 铁矿场
+  result: Iron Mine
+  badtrans: true
+- raw: 瓷器窑
+  result: Pottery Kiln
+  badtrans: true
+- raw: 茶叶园
+  result: Tea Garden
+  badtrans: true
+- raw: 草药园
+  result: Herb Garden
+  badtrans: true
+- raw: 人参园
+  result: Ginseng Garden
+  badtrans: true
+- raw: 农田
+  result: Crop Field
+  badtrans: true
+- raw: 麻田
+  result: Hemp Field
+  badtrans: true
+- raw: 棉花田
+  result: Cotton Field
+  badtrans: true
+- raw: 桑田
+  result: Mulberry Field
+  badtrans: true
+- raw: 炼丹坊
+  result: Alchemical Workshop
+  badtrans: true
+- raw: 胭脂坊
+  result: Cosmetic Workshop
+  badtrans: true
+- raw: 珠宝坊
+  result: Jewelry Workshop
+  badtrans: true
+- raw: 丝坊
+  result: Silk Workshop
+  badtrans: true
+- raw: 染坊
+  result: Dyeing Workshop
+  badtrans: true
+- raw: 冶炼工坊
+  result: Metalworking Workshop
+  badtrans: true
+- raw: 赌坊
+  result: Gambling Den
+  badtrans: true
+- raw: 外城
+  result: Outer City
+  badtrans: true
+
+# Idioms
+- raw: 找死
+  result: courting death
+  allowalt:
+    - court death  
+    - seek death
+    - seeks death
+    - seeking death
+  badtrans: true
+  direct: Seeking death
+  literal: Zhǎo sǐ.
+- raw: 刀剑无眼
+  result: Blades and swords have no eyes
+  badtrans: true
+  direct: Blade sword has no eyes
+  literal: Dāo jiàn wú yǎn
+- raw: 破釜沉舟
+  result: Breaking the pots and sinking the boats
+  badtrans: true
+  direct: Breaking the pots and sinking the boats.
+  literal: Pò fǔ chén zhōu.
+- raw: 弱肉强食
+  result: The weak are prey to the strong
+  badtrans: true
+  direct: Weak meat, strong eat.
+  literal: Ruò ròu qiáng shí.
+- raw: 高手如云
+  result: Experts are as common as clouds
+  badtrans: false
+  direct: Masters like clouds.
+  literal: Gāo shǒu rú yún.
+- raw: 事半功倍
+  result: Half the effort for double the result  
+  badtrans: true
+  direct: Half work, double the achievement.
+  literal: Shì bàn gōng bèi.
+- raw: 事倍功半
+  result: Double the effort for half the result
+  badtrans: true
+  allowalt:
+    - Double the effort with half the result
+  direct: Double the work, half the achievement.
+  literal: Shì bèi gōng bàn.
+- raw: 调虎离山
+  result: Lure the tiger out of the mountain
+  badtrans: true
+  direct: Move the tiger away from the mountain.
+  literal: Tiáo hǔ lí shān.
+- raw: 冰清玉洁
+  result: Clear as ice and clean as jade
+  badtrans: true
+  direct: Ice-clear, jade-pure.
+  literal: Bīng qīng yù jié.
+- raw: 鲤鱼跳龙门
+  result: Carp leaps through the Dragon Gate
+  badtrans: true
+  direct: The carp jumps the Dragon Gate.
+  literal: Lǐ yú tiào lóng mén.
+- raw: 易如反掌
+  result: As easy as turning one's hand
+  badtrans: true
+  direct: Easy as turning the palm.
+  literal: Yì rú fǎn zhǎng.
+- raw: 剑拔弩张
+  result: swords drawn and bows bent
+  badtrans: false
+  allowalt: 
+    - swords were drawn and bows bent
+    - swords are drawn and bows bent
+  direct: Sword drawn, crossbow set.
+  literal: Jiàn bá nǔ zhāng.
+- raw: 井底之蛙
+  result: Frog at the bottom of the well
+  badtrans: true
+  direct: Frog at the bottom of the well.
+  literal: Jǐng dǐ zhī wā.
+- raw: 坐井观天
+  result: View the sky from the bottom of a well
+  allowalt:
+    - Viewing the sky from the bottom of a well
+  badtrans: true
+  direct: Sitting in the well, watching the sky.
+  literal: Zuò jǐng guān tiān.
+- raw: 以毒攻毒
+  result: Fight poison with poison
+  badtrans: false
+  direct: Use poison to attack poison.
+  literal: Yǐ dú gōng dú.
+- raw: 不共戴天
+  result: Cannot live under the same sky 
+  badtrans: true
+  direct: Cannot share the same sky.
+  literal: Bù gòng dài tiān.
+- raw: 金盆洗手
+  result: Wash one's hands in a Golden Basin
+  badtrans: false
+  direct: Wash hands in a golden basin.
+  literal: Jīn pén xǐ shǒu.
+
+# Prefix
+- raw: "{P}师兄"
+  result: Senior Brother {P}
+  badtrans: true
+- raw: "{P}宗主"
+  result: Sect Leader {P}
+  badtrans: true
+- raw: "{P}将军"
+  result: "General {P}"
+  badtrans: true
+  direct: "{P} general"
+  literal: "{P} jiang jun"
+
+# Character Names 
+
+- raw: 火閃電
+  result: Fire Lightning
+  badtrans: true
+
+- raw: 百萬趙活
+  result: Million Zhao Huo
+  badtrans: true
+- raw: 趙活的娘
+  result: Zhao Huo's mother
+  badtrans: true
+- raw: 南宮婦人
+  result: Madam Nangong
+  badtrans: true
+- raw: 南宮老人
+  result: Elder Nangong
+  badtrans: true
+- raw: 狄傲
+  result: Di Ao
+  badtrans: true
+- raw: 唐嬌嬌
+  result: Tang Jiao Jiao
+  badtrans: true
+- raw: 唐門女弟子
+  result: Tang Clan female disciple
+  badtrans: true
+- raw: 許大鯨
+  result: Xu Daqing
+  badtrans: true
+- raw: 唐大鯨
+  result: Tang Dajing
+  badtrans: true
+- raw: 郁竹
+  result: Yu Zhu
+  badtrans: true
+- raw: 魏菊
+  result: Wei Ju
+  badtrans: true
+- raw: 上官螢
+  result: Shangguan Ying
+  badtrans: true
+- raw: 葉雲裳
+  result: Ye Yunshang
+  badtrans: true
+- raw: 虞小梅
+  result: Yu Xiaomei
+  badtrans: true
+- raw: 龍湘
+  result: Long Xiang
+  badtrans: true
+- raw: 夏侯蘭
+  result: Xiahou Lan
+  badtrans: true
+- raw: 上官隼
+  result: Shangguan Jun
+  badtrans: true
+- raw: 葉雲舟
+  result: Ye Yunzhao
+  badtrans: true
+- raw: 車軒轅
+  result: Che Xuanxuan
+  badtrans: true
+- raw: 瑞杏
+  result: Rui Xing
+  badtrans: true
+- raw: 瑞笙
+  result: Rui Sheng
+  badtrans: true
+- raw: 葉雲啾
+  result: Ye Yunjiao
+  badtrans: true
+- raw: 向無憂
+  result: Xiang Wuyou
+  badtrans: true
+- raw: 溫夫人
+  result: Lady Wen
+  badtrans: true
+- raw: 丹霞子
+  result: Danxiazi
+  badtrans: true
+- raw: 蘇迎香
+  result: Su Yingxiang
+  badtrans: true
+- raw: 王二壯
+  result: Wang Erzhuang
+  badtrans: true
+- raw: 吳鄉
+  result: Wu Xiang
+  badtrans: true
+- raw: 趙逵
+  result: Zhao Kui
+  badtrans: true
+- raw: 李紫穹
+  result: Li Ziqiong
+  badtrans: true
+- raw: 無相祖師
+  result: Wuxiang Patriarch
+  badtrans: true
+- raw: 申屠龍
+  result: Shentu Long
+  badtrans: true
+- raw: 鐵冠道人
+  result: Iron Crown Daoist
+  badtrans: true
+- raw: 鄒博
+  result: Zou Bo
+  badtrans: true
+- raw: 成吉思汗
+  result: Genghis Khan
+  badtrans: true
+- raw: 丘處機
+  result: Qiu Chuji
+  badtrans: true
+- raw: 尹志平
+  result: Yin Zhiping
+  badtrans: true
+- raw: 福韞
+  result: Fu Yun
+  badtrans: true
+- raw: 觀雲客
+  result: Guan Yun Ke
+  badtrans: true
+- raw: 晁和
+  result: Chao He
+  badtrans: true
+- raw: 火龍仙君
+  result: Fire Dragon Immortal Monarch
+  badtrans: true
+- raw: 聽海生
+  result: Ting Haisheng
+  badtrans: true
+- raw: 金烏上人
+  result: Jinwu Shangren
+  badtrans: true
+- raw: 唐芳
+  result: Tang Fang
+  badtrans: true
+- raw: 南宮秀
+  result: Nangong Xiu
+  badtrans: true
+- raw: 段智秀
+  result: Duan Zhixiu
+  badtrans: true
+- raw: 南宮深
+  result: Nangong Shen
+  badtrans: true
+- raw: 南宮橫
+  result: Nangong Heng
+  badtrans: true
+- raw: 段婉清
+  result: Duan Wanqing
+  badtrans: true
+- raw: 方獨弱
+  result: Fang Duoruo
+  badtrans: true
+- raw: 南宮遠
+  result: Nangong Yuan
+  badtrans: true
+- raw: 南宮淺
+  result: Nangong Qian
+  badtrans: true
+- raw: 南宮己
+  result: Nangong Ji
+  badtrans: true
+- raw: 梁有詩
+  result: Liang You Shi
+  badtrans: true
+- raw: 孟仙謠
+  result: Meng Xianyao
+  badtrans: true
+- raw: 釋明
+  result: Shi Ming
+  badtrans: true
+- raw: 南溪
+  result: Nan Xi
+  badtrans: true
+- raw: 呼延菊
+  result: Hu Yanju
+  badtrans: true
+- raw: 荊紅
+  result: Jing Hong
+  badtrans: true
+- raw: 余公子
+  result: Young Lord Yu
+  badtrans: true
+- raw: 夏靈犀
+  result: Xia Lingxi
+  badtrans: true
+- raw: 滄幫幫主
+  result: Cang Bang Leader
+  badtrans: true
+- raw: 袁無憲
+  result: Yuan Wuxian
+  badtrans: true
+- raw: 畫中仙
+  result: Painting Immortal
+  badtrans: true
+- raw: 完顏珣
+  result: Wanyan Xun
+  badtrans: true
+- raw: 趙擴
+  result: Zhao Kuo
+  badtrans: true
+- raw: 石夫人
+  result: Lady Shi
+  badtrans: true
+- raw: 萬勝
+  result: Wan Sheng
+  badtrans: true
+- raw: 書蓉
+  result: Shu Rong
+  badtrans: true
+- raw: 第三香
+  result: Di San Xiang
+  badtrans: true
+- raw: 唐守鴻
+  result: Tang Shouhong
+  badtrans: true
+- raw: 夏侯梅
+  result: Xiahou Mei
+  badtrans: true
+- raw: 樂屏
+  result: Le Ping
+  badtrans: true
+- raw: 辛儒
+  result: Xin Ru
+  badtrans: true
+- raw: 唐衫
+  result: Tang Shan
+  badtrans: true
+- raw: 雷謙
+  result: Lei Qian
+  badtrans: true
+- raw: 呂翁
+  result: Lu Weng
+  badtrans: true
+- raw: 李富貴
+  result: Li Fugui
+  badtrans: true
+- raw: 解無塵
+  result: Jie Wuchen
+  badtrans: true
+- raw: 江行老
+  result: Jiang Xinglao
+  badtrans: true
+- raw: 劉顎
+  result: Liu E
+  badtrans: true
+- raw: 譚霸刀
+  result: Tan Ba Dao
+  badtrans: true
+- raw: 宋悲
+  result: Song Bei
+  badtrans: true
+- raw: 萬里鵬程
+  result: Wanli Pengcheng
+  badtrans: true
+- raw: 石公遠
+  result: Shi Gongyuan
+  badtrans: true
+- raw: 龍淵
+  result: Longyuan
+  badtrans: true
+- raw: 葉雲舟
+  result: Ye Yunzhao
+  badtrans: true
+- raw: 樊嘯天
+  result: Fan Xiaotian
+  badtrans: true
+- raw: 唐錚
+  result: Tang Zheng
+  badtrans: true
+- raw: 趙活
+  result: Zhao Huo
+  badtrans: true
+- raw: 少年唐錚
+  result: Young Tang Zheng
+  badtrans: true
+- raw: 唐陞
+  result: Tang Sheng
+  badtrans: true
+- raw: 唐中翎
+  result: Tang Zhongling
+  badtrans: true
+- raw: 唐布衣
+  result: Tang Buyi
+  badtrans: true
+- raw: 玄衣少年
+  result: Xuan Yi Shao Nian
+  badtrans: true
+- raw: 唐默鈴
+  result: Tang Meling
+  badtrans: true
+- raw: 唐惟元
+  result: Tang Weiyuan
+  badtrans: true
+- raw: 少年唐布衣
+  result: Young Tang Buyi
+  badtrans: true
+- raw: 少年趙活
+  result: Young Zhao Huo
+  badtrans: true
+- raw: 幼年趙活
+  result: Young Zhao Huo
+  badtrans: true
+- raw: 上官千金
+  result: Shangguan Qianjin
+  badtrans: true
+- raw: 趙活屁股
+  result: Zhao Huo's Rear
+  badtrans: true
+- raw: 二師兄
+  result: Second Senior Brother
+  badtrans: true
+- raw: 四師兄
+  result: Fourth Senior Brother
+  badtrans: true
+- raw: 小師妹
+  result: Junior Martial Sister
+  badtrans: true
+- raw: 三師兄
+  result: Third Senior Brother
+  badtrans: true
+
+# Terms
+- raw: 爆發
+  result: Burst
+  badtrans: true
+  direct: Explode Emerge
+  literal: Baofa
+- raw: 絕招
+  result: Ultimate
+  badtrans: true
+  direct: Ultimate Technique
+  literal: Juezhao
