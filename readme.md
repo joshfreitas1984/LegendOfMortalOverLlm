@@ -2,7 +2,7 @@
 
 Install guide:
 
-Extract the [Latest Release](https://github.com/joshfreitas1984/LegendOfMortalOverLlm/releases) into your `<Game Folder>` folder where 下一站江湖Ⅱ.exe is.
+Extract the [Latest Release](https://github.com/joshfreitas1984/LegendOfMortalOverLlm/releases) into your `<Game Folder>` folder where Mortal.exe is.
 
 # Contacting us
 
