@@ -74,7 +74,7 @@
 #   literal: Dao Ren
 - raw: 真人
   result: Immortal
-  badtrans: true
+  badtrans: false
   direct: True Person
   literal: Zhen Ren
 - raw: 三恶
@@ -162,36 +162,6 @@
 - raw: 河出马图
   result: Hetu Luoshu
   badtrans: true
-- raw: 江湖故事
-  result: Jianghu Tales
-  badtrans: true
-- raw: 祖传宝刀
-  result: Ancestral Treasure Blade
-  badtrans: true
-- raw: 完成菩提
-  result: Attain Enlightenment
-  badtrans: true
-- raw: 完成书院
-  result: Complete the Academy
-  badtrans: true
-- raw: 完成机杼
-  result: Attain Weaving Skills
-  allowalt: 
-    - complete the weaving skills
-    - learning weaving skills
-  badtrans: false
-- raw: 完成言家
-  result: Complete for the Yan Family
-  badtrans: true
-- raw: 完成农家
-  result: Complete for the Farm Family
-  badtrans: true
-- raw: 学会秘术
-  result: Learn the secret arts
-  badtrans: true
-- raw: 学会秘法
-  result: Learn the secret method
-  badtrans: true    
 # - raw: 国
 #   result: Kingdom
 #   badtrans: true  
@@ -226,83 +196,6 @@
   badtrans: true  
   direct: Organization  
   literal: Jiguan  
-- raw: "（有机关）"  
-  result: "(with mechanism)"  
-  badtrans: true  
-  direct: "(Organization)"  
-  literal: "(You jiguan)"
-# - raw: "机关·"
-#   result: "Mechanism ·"
-#   badtrans: true
-#   direct: "Organization·"
-#   literal: "Jiguan·"
-- raw: 侠窟  
-  result: Outlaws' Den
-  badtrans: true  
-  literal: Xia Ku  
-- raw: 秘宝  
-  result: Secret Treasure  
-  badtrans: true  
-  direct: Secret Treasure  
-  literal: Mibao
-- raw: 什长  
-  result: Squad Leader  
-  badtrans: true  
-  direct: Ten-Man Commander  
-  literal: Shi Zhang  
-- raw: 新兵  
-  result: Recruit  
-  badtrans: true  
-  direct: New Soldier  
-  literal: Xin Bing 
-- raw: 侧翼支援  
-  result: Flank Support  
-  badtrans: true  
-  direct: Side-Wing Assistance  
-  literal: Ceyi Zhiyuan  
-- raw: 段公子
-  result: Young Lord Duan
-  badtrans: true
-- raw: 朝廷  
-  result: Imperial Court  
-  badtrans: true  
-  direct: Court of the Emperor  
-  literal: Chaoting  
-- raw: 草寇  
-  result: Bandit  
-  badtrans: true  
-  direct: Grass Bandit  
-  literal: Cao Kou
-- raw: 孔夫子  
-  result: Teacher Kong  
-  badtrans: true  
-  direct: Teacher Kong  
-  literal: Kong Fuzi  
-- raw: 韩夫子  
-  result: Teacher Han  
-  badtrans: true  
-  direct: Teacher Han  
-  literal: Han Fuzi  
-- raw: 流浪武者  
-  result: Wandering Warrior  
-  badtrans: true  
-  direct: Drifting Fighter  
-  literal: Liulang Wuzhe  
-- raw: 茗心羽士  
-  result: Tea-hearted Taoist  
-  badtrans: true  
-  direct: Tea-hearted Practitioner  
-  literal: Mingxin Yushi
-- raw: 老年羽士  
-  result: Elder Taoist  
-  badtrans: true  
-  direct: Elder Feathered Practitioner  
-  literal: Laonian Yushi  
-- raw: 闲散羽士  
-  result: Idle Taoist  
-  badtrans: true  
-  direct: Leisurely Taoist Practitioner  
-  literal: Xiansan Yushi  
 - raw: 冷却中  
   result: Cooldown  
   badtrans: true  
@@ -491,7 +384,7 @@
   literal: Songshan
 - raw: 嶺南
   result: Lingnan
-  badtrans: true
+  badtrans: false
   direct: South of Mountains
   literal: Lingnan
 - raw: 逍遙派
@@ -506,16 +399,22 @@
   literal: Riyue shenjiao
 - raw: 岳家
   result: Yue Clan
+  allowalt:
+    - Yue Family
   badtrans: true
   direct: Mountain Family
   literal: Yue jia
 - raw: 段家
   result: Duan Clan
+  allowalt:
+    - Duan Family
   badtrans: true
   direct: Segment Family
   literal: Duan jia
 - raw: 胡家
   result: Hu Clan
+  allowalt:
+    - Hu Family
   badtrans: true
   direct: Hu Family
   literal: Hu jia
@@ -531,7 +430,7 @@
   literal: Jin Xiang
 - raw: 點蒼
   result: Diancang
-  badtrans: true
+  badtrans: false
   direct: Spot Cyan
   literal: Diancang
 - raw: 鐵拳
@@ -560,7 +459,7 @@
   direct: Lofty Peak
   literal: Kongtong
 - raw: 玄功
-  result: Xuanggong
+  result: Mystic Skill
   badtrans: true
   direct: Profound Skill
   literal: Xuanggong
@@ -590,7 +489,7 @@
   badtrans: true
 - raw: 槍
   result: Spear
-  badtrans: true
+  badtrans: false
 - raw: 枪
   result: Spear
   allowalt: 
@@ -1112,10 +1011,10 @@
   badtrans: true
 - raw: 船工
   result: Boatman
-  badtrans: true
+  badtrans: false
 - raw: 船夫
   result: Boatman
-  badtrans: true
+  badtrans: false
 - raw: 缇骑
   result: Official Riders
   badtrans: true
@@ -1308,7 +1207,7 @@
   result: Second Young Master 
   allowalt: 
     - Erlang
-  badtrans: true
+  badtrans: false
 - raw: 三郎
   result: Third Young Master 
   allowalt: 
@@ -1343,13 +1242,16 @@
   allowalt: 
     - Princess
   literal: Gong Zhu
-  badtrans: true
+  badtrans: false
 - raw: 夫人
   result: Lady
   allowalt: 
     - Wife
     - Madam
     - Ladies
+    - beauties
+    - Beauty
+    - Wives
   context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
   literal: Fu Ren
   badtrans: true
@@ -1428,6 +1330,7 @@
   allowalt:
     - Aunt
     - Lady
+    - ladies
   badtrans: true
 
 # Places
@@ -1563,17 +1466,17 @@
   literal: Zhǎo sǐ.
 - raw: 刀剑无眼
   result: Blades and swords have no eyes
-  badtrans: true
+  badtrans: false
   direct: Blade sword has no eyes
   literal: Dāo jiàn wú yǎn
 - raw: 破釜沉舟
   result: Breaking the pots and sinking the boats
-  badtrans: true
+  badtrans: false
   direct: Breaking the pots and sinking the boats.
   literal: Pò fǔ chén zhōu.
 - raw: 弱肉强食
   result: The weak are prey to the strong
-  badtrans: true
+  badtrans: false
   direct: Weak meat, strong eat.
   literal: Ruò ròu qiáng shí.
 - raw: 高手如云
@@ -1583,34 +1486,34 @@
   literal: Gāo shǒu rú yún.
 - raw: 事半功倍
   result: Half the effort for double the result  
-  badtrans: true
+  badtrans: false
   direct: Half work, double the achievement.
   literal: Shì bàn gōng bèi.
 - raw: 事倍功半
   result: Double the effort for half the result
-  badtrans: true
+  badtrans: false
   allowalt:
     - Double the effort with half the result
   direct: Double the work, half the achievement.
   literal: Shì bèi gōng bàn.
 - raw: 调虎离山
   result: Lure the tiger out of the mountain
-  badtrans: true
+  badtrans: false
   direct: Move the tiger away from the mountain.
   literal: Tiáo hǔ lí shān.
 - raw: 冰清玉洁
   result: Clear as ice and clean as jade
-  badtrans: true
+  badtrans: false
   direct: Ice-clear, jade-pure.
   literal: Bīng qīng yù jié.
 - raw: 鲤鱼跳龙门
   result: Carp leaps through the Dragon Gate
-  badtrans: true
+  badtrans: false
   direct: The carp jumps the Dragon Gate.
   literal: Lǐ yú tiào lóng mén.
 - raw: 易如反掌
   result: As easy as turning one's hand
-  badtrans: true
+  badtrans: false
   direct: Easy as turning the palm.
   literal: Yì rú fǎn zhǎng.
 - raw: 剑拔弩张
@@ -1623,14 +1526,14 @@
   literal: Jiàn bá nǔ zhāng.
 - raw: 井底之蛙
   result: Frog at the bottom of the well
-  badtrans: true
+  badtrans: false
   direct: Frog at the bottom of the well.
   literal: Jǐng dǐ zhī wā.
 - raw: 坐井观天
   result: View the sky from the bottom of a well
   allowalt:
     - Viewing the sky from the bottom of a well
-  badtrans: true
+  badtrans: false
   direct: Sitting in the well, watching the sky.
   literal: Zuò jǐng guān tiān.
 - raw: 以毒攻毒
@@ -1640,7 +1543,7 @@
   literal: Yǐ dú gōng dú.
 - raw: 不共戴天
   result: Cannot live under the same sky 
-  badtrans: true
+  badtrans: false
   direct: Cannot share the same sky.
   literal: Bù gòng dài tiān.
 - raw: 金盆洗手
@@ -1990,7 +1893,7 @@
 # Terms
 - raw: 爆發
   result: Burst
-  badtrans: true
+  badtrans: false
   direct: Explode Emerge
   literal: Baofa
 - raw: 絕招

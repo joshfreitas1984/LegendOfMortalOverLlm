@@ -15,7 +15,7 @@
 # url: "https://api.fireworks.ai/inference/v1/chat/completions"
 # model: "accounts/fireworks/models/qwen3-8b"
 
-apiKey: "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"
+
 apiKeyRequired: true
 url: "https://api.openai.com/v1/chat/completions"
 model: "gpt-4o-mini"
@@ -54,7 +54,7 @@ modelParams:
   # presence_penalty: 0
   # num_ctx: 8192
 retryCount: 1
-batchSize: 3
+batchSize: 500
 skipLineValidation: true
 correctionPromptsEnabled: false
 translateFlagged: true

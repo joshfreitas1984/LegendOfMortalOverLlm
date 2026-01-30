@@ -215,7 +215,7 @@ public static partial class LineValidation
 
         // Small source with 'or' is usually an alternative
         if ((result.Contains(" or") || result.Contains("(or"))
-            && raw.Length <= 4
+            && raw.Length <= 3
             && !result.Contains("ore", StringComparison.OrdinalIgnoreCase)) //Handle edge case
         {
             response = false;
@@ -270,10 +270,10 @@ public static partial class LineValidation
         // Removed characters
         (string raw, string trans)[] checkForRemoval = { 
             ("·", "·"), 
-            ("(", "("),
-            ("（", "("), 
-            (")", ")"),
-            ("）", ")"), 
+            //("(", "("),
+            //("（", "("), 
+            //(")", ")"),
+            //("）", ")"), 
             //("...", "..."), //Problematic still
             //("…", "..."),
         };
@@ -293,11 +293,11 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");            
         }
 
-        if (raw.Contains('-') && !result.Contains('-') && !result.Contains("\u2011"))
-        {
-            response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "-");
-        }
+        //if (raw.Contains('-') && !result.Contains('-') && !result.Contains("\u2011"))
+        //{
+        //    response = false;
+        //    correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "-");
+        //}
 
         // This can cause bad hallucinations if not being explicit on retries
         if (raw.Contains("<br>") && !result.Contains("<br>"))
@@ -368,7 +368,7 @@ public static partial class LineValidation
             correctionPrompts.AddPromptWithValues(config, "CorrectAlternativesPrompt", "\\");
         }
 
-        if (raw.Contains('<') && raw != "<商贩>")
+        if (raw.Contains('<') && raw != "<商贩>" && !textFile.IgnoreHtmlTagsInText)
             if (!HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags))
                 response = false;
 

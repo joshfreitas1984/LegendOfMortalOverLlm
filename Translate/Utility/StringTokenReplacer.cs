@@ -54,6 +54,9 @@ public class StringTokenReplacer
 
     public static int CalculateNewSize(string sizeTag)
     {
+        if (Int32.TryParse(sizeTag, out int directSize))
+            return (int)Math.Round(directSize * 0.7);
+
         var sizeString = SizeValueRegex.Match(sizeTag).Value;
         if (string.IsNullOrEmpty(sizeString))
             sizeString = SizeValue2Regex.Match(sizeTag).Value;
@@ -69,6 +72,17 @@ public class StringTokenReplacer
         placeholderMap.Clear();
         colorMap.Clear();
         var result = new StringBuilder(input);
+
+        // Handle {size=24} style tags
+        result.Replace(SizeValueCurlyRegex, match =>
+        {
+            var sizeString = match.Groups[1].Value;
+            var sizeValue = CalculateNewSize(sizeString);
+            var key = $"{{size={sizeIndex++}}}";
+            var replacement = $"{{size={sizeValue}}}";
+            sizeMap.Add(key, replacement);
+            return key;
+        });
 
         result.Replace(PlaceholderRegex, match =>
         {
@@ -108,16 +122,7 @@ public class StringTokenReplacer
             return key;
         });
 
-        // Handle {size=24} style tags
-        result.Replace(SizeValueCurlyRegex, match =>
-        {
-            var sizeString = match.Groups[1].Value;
-            var sizeValue = CalculateNewSize(sizeString);
-            var key = $"{{size={sizeIndex++}}}";
-            var replacement = $"{{size={sizeValue}}}";
-            sizeMap.Add(key, replacement);
-            return key;
-        });
+     
 
         result.Replace(NumericValueRegex, match =>
         {

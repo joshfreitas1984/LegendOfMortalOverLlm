@@ -41,4 +41,6 @@ public class TextFileToSplit
     public bool NameCleanupRoutines2 { get; set; } = false;
 
     public bool AllowMissingColorTags { get; set; } = true;
+
+    public bool IgnoreHtmlTagsInText { get; set; } = false;
 }

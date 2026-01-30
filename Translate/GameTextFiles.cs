@@ -10,6 +10,6 @@ public class GameTextFiles
 
     public static readonly TextFileToSplit[] TextFilesToSplit = [
         //Biggest one
-        new() {Path = "StringTable.csv", PackageOutput = true, }
+        new() {Path = "StringTable.csv", PackageOutput = true, IgnoreHtmlTagsInText = true }
     ];
 }
