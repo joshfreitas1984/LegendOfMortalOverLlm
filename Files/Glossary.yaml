@@ -1336,7 +1336,7 @@
   result: Young Lord
   context: Often used to refer to the son of nobility, indicating both status and youth.
   literal: Gong Zi
-  badtrans: true
+  badtrans: false
 - raw: 公主
   result: Young Lady
   context: The daughter of a king or nobleman, indicating royal status and nobility.
@@ -1349,6 +1349,7 @@
   allowalt: 
     - Wife
     - Madam
+    - Ladies
   context: Used as a respectful address for married women of noble status or the wife of a high-ranking official.
   literal: Fu Ren
   badtrans: true

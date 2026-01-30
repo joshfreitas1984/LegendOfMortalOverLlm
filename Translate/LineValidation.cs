@@ -338,7 +338,7 @@ public static partial class LineValidation
             //response = false;
             //correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", "\\n");
 
-            result = result.Replace("\n", " \\n");
+            result = result.Replace("\n", " ");
         }
 
         if (Regex.IsMatch(result, ChineseCharPattern) && !Regex.IsMatch(result, ChinesePlaceholderPattern))
