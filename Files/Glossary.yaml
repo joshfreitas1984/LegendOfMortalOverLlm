@@ -1922,7 +1922,7 @@
   badtrans: true
 - raw: 道長
   result: Daoist
-  badtrans: true
+  badtrans: false
   direct: Tao elder
   literal: dao zhang
 
@@ -1942,8 +1942,31 @@
   result: Worldliness
   badtrans: false
 
+
+- raw: 阿淺
+  result: A'Qian
+  badtrans: true
+- raw: 阿活
+  result: A'Huo
+  badtrans: true
+
 - raw: 上官
   result: Shangguan
   badtrans: true
   direct: upper official
   literal: shang guan
+- raw: 螢兒
+  result: Ying'er
+  badtrans: true
+  direct: firefly child
+  literal: ying er
+- raw: 花月樓
+  result: Flower Moon Tower  
+  badtrans: true
+  direct: flower moon tower
+  literal: hua yue lou
+- raw: 飛燕流星翎
+  result: Flying Swallow Meteor Feather
+  badtrans: true
+  direct: fly swallow flow star feather
+  literal: fei yan liu xing ling
