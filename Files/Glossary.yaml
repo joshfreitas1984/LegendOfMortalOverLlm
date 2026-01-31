@@ -1101,11 +1101,33 @@
   allowalt:
     - Hero
   badtrans: true
+- raw: 大俠
+  result: Great Hero
+  allowalt:
+    - Hero
+- raw: 二俠
+  result: Second Hero
+  allowalt:
+    - Hero
+- raw: 三俠
+  result: Third Hero
+  allowalt:
+    - Hero
+  badtrans: true
+  direct: three heroes
+  literal: san xia
 - raw: 少侠
   result: Young Hero
   allowalt:
     - Hero
   badtrans: true
+- raw: 少俠
+  result: Young Hero
+  allowalt:
+    - Hero
+  badtrans: true
+  direct: young knight
+  literal: shao xia
 - raw: 前辈
   result: Senior
   allowalt:
@@ -1275,6 +1297,15 @@
     - Daughter
   literal: Gu Niang
   badtrans: false
+- raw: 小娘
+  result: Young Miss
+  allowalt: 
+    - Little Miss
+    - Miss
+    - Lady
+  badtrans: true
+  direct: little woman
+  literal: xiao niang
 - raw: 掌柜
   result: Shopkeeper
   badtrans: true
@@ -1901,3 +1932,12 @@
   badtrans: true
   direct: Ultimate Technique
   literal: Juezhao
+- raw: 處世
+  result: Worldliness
+  badtrans: false
+
+- raw: 上官
+  result: Shangguan
+  badtrans: true
+  direct: upper official
+  literal: shang guan

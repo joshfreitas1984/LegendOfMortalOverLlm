@@ -36,7 +36,8 @@ public class PromptTuningTests
         var batchSize = config.BatchSize ?? 50;
 
         var testLines = new List<TranslatedRaw> {
-            new("{size=24}這就是習練點蒼心法，以劍問道的代價嗎？{/size}"),
+            //new("{size=24}這就是習練點蒼心法，以劍問道的代價嗎？{/size}"),
+            new("我如何處世自有計較，上官娘子管得未免過寬。 妳都還沒嫁進南宮世家，這就管起帳房開支，想執掌中饋了？ 真當自己是女主人了嗎！溫順不了片刻，潑辣性子便暴露無遺！"),
         };
 
         var cache = new Dictionary<string, string>();

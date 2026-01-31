@@ -45,7 +45,7 @@ public class FileOutputHandling
                     if (Regex.IsMatch(split.Translated, @"(?<!\\)\n"))
                         failed = true;
                     else if (!string.IsNullOrEmpty(split.Translated))
-                        splits[split.Split] = split.Translated;
+                        splits[split.Split] = $"\"{split.Translated}\"";
                     //If it was already blank its all good
                     else if (!string.IsNullOrEmpty(split.Text))
                         failed = true;
@@ -55,11 +55,7 @@ public class FileOutputHandling
 
                 if (!failed)
                 {
-                    var rawSplits = line.Translated.Split(",");
-                    //if (rawSplits.Length < 2)
-                    //   outputLines.Add($"{rawSplits[0]},\"\"");
-                    //else
-                        outputLines.Add($"{rawSplits[0]},\"{rawSplits[1]}\"");
+                    outputLines.Add(line.Translated);
                 }
                 else
                 {
