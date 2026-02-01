@@ -1167,6 +1167,38 @@
   context: Used to address a younger male peer in a friendly, respectful manner.
   literal: Xiao Xiong Di
   badtrans: true
+- raw: 師弟
+  result: Junior Disciple
+  allowalt: 
+    - Younger Brother
+    - Brother
+    - Junior Brother
+    - Disciple
+    - Junior
+  badtrans: true
+  direct: shi di
+  literal: teacher younger brother
+- raw: 世伯
+  result: Uncle
+  allowalt: 
+    - Elder Uncle
+    - Senior Uncle
+    - Elder
+  badtrans: true
+  direct: Shi Bo
+  literal: generation elder / senior uncle
+- raw: 三爺
+  result: Third Master
+  badtrans: true
+  direct: san ye
+- raw: 四俠
+  result: Fourth Hero
+  badtrans: true
+  direct: si xia
+- raw: 老四
+  result: Old Fourth
+  badtrans: true
+  direct: lao si
 - raw: 师弟
   result: Junior Brother
   allowalt: 
@@ -2060,7 +2092,7 @@
   direct: e gui dao
   literal: hungry ghost path
 - raw: 地獄道
-  result: Hell Path
+  result: Hell's Path
   badtrans: true
   direct: di yu dao
   literal: earth prison path / hell path
@@ -2069,3 +2101,33 @@
   badtrans: true
   direct: chu sheng dao
   literal: beast path / animal path
+- raw: 修羅道
+  result: Asura Path
+  badtrans: true
+  direct: Xiu Luo Dao
+  literal: Asura path / path of demonic warriors
+- raw: 魔教
+  result: Demon Sect
+  badtrans: true
+  direct: mo jiao
+  literal: demon sect
+- raw: 極樂教
+  result: Supreme Bliss Sect
+  badtrans: true
+  direct: Ji Le Jiao
+  literal: supreme bliss sect
+- raw: 瑞公子
+  result: Young Lord Rui
+  badtrans: true
+  direct: Rui gong zi
+  literal: Rui young master
+- raw: 二公子
+  result: Second Young Lord
+  badtrans: true
+  direct: er gong zi
+  literal: second young master
+- raw: 勾魂叟
+  result: Old Soul‑Reaper 
+  badtrans: true
+  direct: Gou Hun Sou
+  literal: hook-soul old man

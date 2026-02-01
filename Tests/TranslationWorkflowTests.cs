@@ -230,6 +230,7 @@ public class TranslationWorkflowTests
 
         if (MatchesBadWords(split.Translated))
         {
+            logLines.Add($"Matches Bad words ... {textFile.Path} Replaces: \n{split.Translated}");
             split.FlaggedForRetranslation = true;
             modified = true;
         }
