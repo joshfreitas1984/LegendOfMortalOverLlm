@@ -320,7 +320,7 @@
   result: Soul‑stealer Disciple
   badtrans: true
 - raw: 飛天弟子
-  result: Feitian Disciple
+  result: Flying Heaven Disciple
   badtrans: true
 - raw: 南宮家丁
   result: Nangong Family Servant
@@ -582,7 +582,7 @@
   result: Blood Letters of Battle
   badtrans: true
 - raw: 飛天腳
-  result: Feitian Kick
+  result: Flying Heaven Kick
   badtrans: true
 - raw: 蛇形拳
   result: Snake Style Fist
@@ -1841,13 +1841,13 @@
   result: Internal Skill
   badtrans: true
 - raw: 形意拳
-  result: Xingyi Quan
+  result: Xingyi Fist
   badtrans: true
 - raw: 釋學
-  result: Exegesis
+  result: Buddhism
   badtrans: true
 - raw: 道學
-  result: Taoism
+  result: Daoism
   badtrans: true
 - raw: 槍棍
   result: Spear Staff
@@ -1868,7 +1868,7 @@
   result: Qimen
   badtrans: true
 - raw: 抗麻
-  result: Resist anesthesia
+  result: Resist Paralysis
   badtrans: true
 - raw: 武學
   result: Martial Arts
@@ -1883,7 +1883,7 @@
   result: Soft weapons
   badtrans: true
 - raw: 抗毒
-  result: Antipoison
+  result: Resist Poison
   badtrans: true
 - raw: 腿法
   result: Leg Techniques
@@ -1916,31 +1916,10 @@
   result: Villain
   badtrans: true
 - raw: 飛天
-  result: Feitian
+  result: Flying Heaven
   badtrans: true
   direct: Fly Heaven
-  literal: Feitian
+  literal: Flying Heaven
 - raw: 門人
   result: Disciple
-  badtrans: true
-# - raw: 我如何處世自有計較，上官娘子管得未免過寬。 妳都還沒嫁進南宮世家，這就管起帳房開支，想執掌中饋了？ 真當自己是女主人了嗎！溫順不了片刻，潑辣性子便暴露無遺！
-#   result: I have my own way of navigating the world, yet Lady Shangguan is overly controlling. You haven’t even married into the Nangong family yet, and already you’re managing household finances, thinking you can run the kitchen? Do you really see yourself as the mistress here? You can’t stay gentle for a moment before your fiery temper shows itself completely!
-#   badtrans: true
-# - raw: 魏小娘子別緊張，我弟子近日練功老是分心恍神。 這才請妳過來幫個忙。
-#   result: Lady Wei, don’t be nervous. My disciple has been distracted during his practice lately. That’s why I asked you to come and give us a hand.
-#   badtrans: true
-# - raw: 前兩問都是鋪陳，向無憂這第三問才終於點題，一鳴驚人：有天爾等殲滅金兵，隨軍北伐收復國土，將領一聲令下，士兵必定沿路掠奪，補充軍資，若遇著果決的將領，還會燒殺屠城，斷絕金兵再興之路。 兩國交征，那是時代的洪流，難以一言論斷善惡，可是百姓何辜？那一日金國百姓喪生於宋人刀斧之下，爾等還能自稱為俠客嗎？ 古來王侯將相開疆拓土，建功立業，試問建的是什麼功？立的不全是殺業嗎？一將功成萬骨枯，那是別人的成功，你個踏腳的枯骨在那得意什麼勁？ 在座俠士與金人同樣身在天與地中間，都是由人生殺予奪、為了別人功業殉難的百姓而已。 此問既是問，也不是問，聽在各人耳中，感受俱不相同。 有人動搖省思，有人氣憤難當，認為向掌門身為中原人，卻自墮國威，無異於國賊。 上官尚智，此問他自然有解，恐怕也是最切實際的解，但卻不能宣之於口，因為這必不是眾人願聽的話語，是以嗤之以鼻，不予置評。 南宮尚仁，此問與世家宿願不謀而合，他南宮世家上一代、上上一代，乃至曾任武林盟主的曾高祖，不都是窮究一生，明知不可為而為之，向著這個理想全力奔赴嗎？ 大道之行也，天下為公。
-#   result: "The first two questions were just prelude; it is in this third question posed to Xiang Wuyou that the point finally comes into focus, startling all: One day, you will annihilate the Jin soldiers, march north with the army to reclaim the land, and at the command of your general, the soldiers will inevitably plunder along the way to replenish military supplies. If they meet a decisive general, they may even burn, kill, and massacre cities, cutting off the Jin army’s path to resurgence. When two nations clash, it is the torrent of the times, impossible to judge good or evil in a word—but what fault lies with the common people? That day, when the Jin civilians perished under the Song blades, could you still call yourselves heroes? Throughout history, kings, princes, and generals have expanded territories and built their achievements—ask what achievements they truly build. Aren’t they mostly deeds of killing? When one general succeeds, ten thousand bones wither. That is someone else’s success; what pride can your own crushed bones bring you? The heroes present and the Jin people alike are caught between heaven and earth, all merely civilians sacrificed for the achievements of others. This question is both a question and not a question; each listener feels it differently. Some are shaken into reflection; some are angered beyond bearing, seeing Xiang Zhangmen, a native of the Central Plains, as betraying national prestige, no different from a traitor. Shangguan Shangzhi naturally has an answer to this question, likely the most practical one, but cannot speak it aloud, for it is not what the crowd wishes to hear, and is thus met with scorn and silence. Nangong Shangren finds this question coinciding with the longstanding wishes of his family: his predecessors, even those who once led the martial alliance, devoted their lives to pursuing an ideal they knew could not be attained, yet committed fully toward it. In the great way of things, the world belongs to all."
-#   badtrans: true 
-# - raw: ……你行走江湖，可不能心存僥倖，時時盼人相救。 實力姑且不提，你還得處世謹慎，遇事卻不要退縮，別跟人太客氣。 你太客氣的話，別人要爬你頭上撒野的。
-#   result: …When you walk the Jianghu, you must not rely on luck or constantly hope for someone to save you. Setting aside your strength, you must still navigate the world cautiously. When trouble comes, don’t shrink back, and don’t be overly polite to others. If you’re too polite, others will climb all over you and take advantage.
-#   badtrans: true
-# - raw: 上官小娘子好。 唐某早聽聞，上官家有女英華外放，不讓鬚眉，今日得見，果然名不虛傳。
-#   result: Greetings, Lady Shangguan. I, Tang, have long heard that the Shangguan family has a daughter whose brilliance shines outward, surpassing men. Now that I see you in person, indeed, the reputation is well deserved.
-#   badtrans: true
-# - raw: 本來以鄙人淺薄見識，不敢在唐三俠這樣的大儒面前賣弄。 只是呂翁相詢，不得已只好獻醜，說說鄙人拙見。
-#   result: Originally, with my humble and shallow knowledge, I dared not show off before a great scholar like Third Hero Tang. But since Elder Lu inquired, I have no choice but to expose my shortcomings and share my clumsy thoughts.
-#   badtrans: true
-- raw: 這想必是唐三俠這等儒俠風範，才有幸與耕陽讀書齋的雅士結交。 南宮某人沾了你的光，必將此字畫尋覓好地方掛上，日日鑑賞。
-  result: This must be the scholarly, heroic style of Third Hero Tang, which grants the honor of associating with the refined literati of Gengyang Study. I, Nangong, have benefited from your grace and will surely find a good place to hang this painting, appreciating it daily.
   badtrans: true

@@ -430,7 +430,7 @@
   literal: Jin Xiang
 - raw: 點蒼
   result: Diancang
-  badtrans: false
+  badtrans: true
   direct: Spot Cyan
   literal: Diancang
 - raw: 鐵拳
@@ -1245,6 +1245,7 @@
   context: Conflicts with idiom moms and grandmas (fussing around)
   allowalt: 
     - Fussing
+    - Fussy
   badtrans: true
 - raw: 舅舅
   result: Uncle
@@ -1265,6 +1266,21 @@
     - Princess
   literal: Gong Zhu
   badtrans: false
+- raw: 娘子
+  result: Wife
+  allowalt: 
+    - Lady
+    - Madam
+    - Wives
+    - beauties
+    - Beauty
+  context: A respectful address for one's own wife
+  badtrans: true
+- raw: 施主
+  result: Benefactor
+  badtrans: true
+  direct: bestow master
+  literal: shi zhu
 - raw: 夫人
   result: Lady
   allowalt: 
