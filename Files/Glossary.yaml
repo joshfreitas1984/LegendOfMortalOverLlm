@@ -1051,6 +1051,21 @@
   badtrans: true
   direct: sect master
   literal: zong zhu
+- raw: 掌門師兄
+  result: Sect Leader Brother
+  badtrans: true
+  direct: zhang men shi xiong
+- raw: 掌門
+  result: Sect Leader
+  allowalt:
+    - Palm Leader
+    - Palm Master
+    - Sect Master
+    - Master
+    - Leader
+  badtrans: true
+  direct: zhang men
+  literal: palm/leader of the sect
 - raw: 将军  
   result: General  
   badtrans: true  
@@ -2039,3 +2054,18 @@
   badtrans: true
   direct: Banyu Terrace
   literal: half-rain screen
+- raw: 餓鬼道
+  result: Hungry Ghost Path
+  badtrans: true
+  direct: e gui dao
+  literal: hungry ghost path
+- raw: 地獄道
+  result: Hell Path
+  badtrans: true
+  direct: di yu dao
+  literal: earth prison path / hell path
+- raw: 畜生道
+  result: Beast Path
+  badtrans: true
+  direct: chu sheng dao
+  literal: beast path / animal path
