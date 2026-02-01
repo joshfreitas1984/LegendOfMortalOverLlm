@@ -40,7 +40,6 @@ public class GlossaryLine
 
         foreach (var line in glossaryLines)
         {
-            //TODO: Test
             //Exclusions and Targetted Glossary
             if (line.OnlyOutputFiles.Count > 0 && !line.OnlyOutputFiles.Contains(outputFile))
                 continue;
@@ -49,17 +48,25 @@ public class GlossaryLine
 
             if (raw.Contains(line.Raw))
             {
-                prompt.Append($"- {line.Raw}: {line.Result}\n");
+                prompt.AppendLine(ToPromptString(line.Raw, line.Result));
 
                 if (line.AllowedAlternatives != null)
                     foreach (var alternative in line.AllowedAlternatives)
-                        prompt.Append($"- {line.Raw}: {alternative}\n");
+                        prompt.AppendLine(ToPromptString(line.Raw, alternative));
             }
         }
 
         if (prompt.Length > 0)
-            return $"##### Glossary Items\n{prompt.ToString()}";
+            return prompt.ToString();
         else
             return string.Empty;
+    }
+
+    public static string ToPromptString(string raw, string translated)
+    {
+        var prompt = new StringBuilder();
+        prompt.AppendLine($"- raw: \"{raw}\"");
+        prompt.AppendLine($"  result: \"{translated}\"");
+        return prompt.ToString();
     }
 }

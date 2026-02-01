@@ -29,7 +29,7 @@ modelParams:
   min_p: 0.05
   frequency_penalty: 0
   presence_penalty: 0
-  num_ctx: 8192
+  num_ctx: 34000
   
   #Fire works
   # temperature: 0.2
@@ -55,6 +55,6 @@ modelParams:
   # num_ctx: 8192
 retryCount: 1
 batchSize: 10000
-skipLineValidation: false
+skipLineValidation: true
 correctionPromptsEnabled: false
 translateFlagged: true
