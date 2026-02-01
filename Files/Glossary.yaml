@@ -1266,18 +1266,11 @@
     - Princess
   literal: Gong Zhu
   badtrans: false
-- raw: 娘子
-  result: Wife
-  allowalt: 
-    - Lady
-    - Madam
-    - Wives
-    - beauties
-    - Beauty
-  context: A respectful address for one's own wife
-  badtrans: true
 - raw: 施主
   result: Benefactor
+  allowalt: 
+    - Master
+    - Patron
   badtrans: true
   direct: bestow master
   literal: shi zhu
@@ -1322,6 +1315,39 @@
   badtrans: true
   direct: little woman
   literal: xiao niang
+- raw: 娘子
+  result: Wife
+  allowalt: 
+    - Lady
+    - ladies
+    - Madam
+    - Wives
+    - beauties
+    - Beauty
+    - Miss
+    - Misses
+    - Woman
+    - Women
+    - Aunt
+    - Auntie
+    - Bride
+    - Girl
+    - Daughter
+    - Dear
+    - Darling
+  literal: Niang Zi
+  context: A respectful address for one's own wife
+  badtrans: true
+- raw: 幫主
+  result: Gang Leader
+  allowalt:
+    - Sect Leader
+    - Sect Master
+    - Gang Master
+    - Leader
+  badtrans: true
+  direct: bang zhu
+  literal: gang/master
 - raw: 掌柜
   result: Shopkeeper
   badtrans: true
@@ -1802,7 +1828,7 @@
   result: Xia Lingxi
   badtrans: true
 - raw: 滄幫幫主
-  result: Cang Bang Leader
+  result: Cang Gang Leader
   badtrans: true
 - raw: 袁無憲
   result: Yuan Wuxian
@@ -1901,7 +1927,7 @@
   result: Tang Buyi
   badtrans: true
 - raw: 玄衣少年
-  result: Xuan Yi Shao Nian
+  result: Youth in dark robes
   badtrans: true
 - raw: 唐默鈴
   result: Tang Meling
@@ -1986,3 +2012,25 @@
   badtrans: true
   direct: fly swallow flow star feather
   literal: fei yan liu xing ling
+- raw: 石幫主
+  result: Gang Leader Shi
+  allowalt:
+    - Leader Shi
+    - Sect Leader Shi
+    - Sect Master Shi
+    - Gang Master Shi
+    - Gang Leader Shi
+    - Flying Stone Gang Leader
+  badtrans: true
+  direct: Shi bang zhu
+  literal: Shi gang leader
+- raw: 飛石幫主
+  result: Flying Stone Gang Leader
+  allowalt:
+    - Flying Stone Gang Master
+  badtrans: true
+- raw: 臥雲崗
+  result: Woyun Ridge
+  badtrans: true
+  direct: Wo Yun Gang
+  literal: lying-cloud ridge
