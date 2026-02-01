@@ -706,6 +706,9 @@
 - raw: 阿弥陀佛
   result: Amituofo
   badtrans: true
+- raw: 阿彌陀佛
+  result: Amituofo
+  badtrans: true
 - raw: 承让了  
   result: Thank you for letting me win  
   badtrans: true  
@@ -1187,6 +1190,13 @@
   badtrans: true
   direct: Shi Bo
   literal: generation elder / senior uncle
+- raw: 賢姪
+  result: Nephew
+  allowalt:
+    - Niece
+  badtrans: true
+  direct: xian zhi
+  literal: virtuous nephew
 - raw: 三爺
   result: Third Master
   badtrans: true
