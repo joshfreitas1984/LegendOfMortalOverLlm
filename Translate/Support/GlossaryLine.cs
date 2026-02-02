@@ -65,8 +65,10 @@ public class GlossaryLine
     public static string ToPromptString(string raw, string translated)
     {
         var prompt = new StringBuilder();
-        prompt.AppendLine($"- raw: \"{raw}\"");
-        prompt.AppendLine($"  result: \"{translated}\"");
+        //prompt.AppendLine($"- raw: \"{raw}\"");
+        //prompt.AppendLine($"  result: \"{translated}\"");
+
+        prompt.AppendLine($"- \"{raw}\": \"{translated}\"");
         return prompt.ToString();
     }
 }
