@@ -48,11 +48,7 @@ public class GlossaryLine
 
             if (raw.Contains(line.Raw))
             {
-                prompt.AppendLine(ToPromptString(line.Raw, line.Result));
-
-                if (line.AllowedAlternatives != null)
-                    foreach (var alternative in line.AllowedAlternatives)
-                        prompt.AppendLine(ToPromptString(line.Raw, alternative));
+                prompt.AppendLine(ToPromptString(line.Raw, line.Result, line.AllowedAlternatives));                
             }
         }
 
@@ -62,13 +58,31 @@ public class GlossaryLine
             return string.Empty;
     }
 
-    public static string ToPromptString(string raw, string translated)
+    public static string ToPromptString(string raw, string translated, List<string>? alternatives)
     {
         var prompt = new StringBuilder();
         //prompt.AppendLine($"- raw: \"{raw}\"");
         //prompt.AppendLine($"  result: \"{translated}\"");
 
-        prompt.AppendLine($"- \"{raw}\": \"{translated}\"");
+        //if (alternatives != null)
+        //{ 
+        //    foreach (var alternative in alternatives)
+        //    {
+        //        prompt.AppendLine($"- raw: \"{raw}\"");
+        //        prompt.AppendLine($"  result: \"{alternative}\"");
+        //    }
+        //}
+
+        //prompt.AppendLine($"- \"{raw}\": \"{translated}\"");
+
+        prompt.AppendLine($"- \"{raw}\"");
+        prompt.AppendLine($"  - \"{translated}\"");
+
+        foreach (var alternative in alternatives ?? [])
+        {
+            prompt.AppendLine($"  - \"{alternative}\"");
+        }
+
         return prompt.ToString();
     }
 }
