@@ -141,8 +141,6 @@
   badtrans: true
 - raw: 武林
   result: Wulin
-  allowalt: 
-    - Martial World
   badtrans: false
 - raw: 江湖
   result: Jianghu
@@ -206,6 +204,50 @@
   badtrans: true  
   direct: Entrust  
   literal: Wei tuo  
+- raw: 操你媽
+  result: Fuck your mother
+  badtrans: true
+  direct: fuck you mother
+  literal: Cao ni ma
+- raw: 戰你娘親啦
+  result: Fuck your mother!
+  badtrans: true
+  direct: fight you mother
+  literal: Zhan ni niang qin la
+- raw: 拍拍
+  result: Pat
+  allowalt:
+    - slap
+  badtrans: true
+  direct: pat pat
+  literal: Pai Pai
+- raw: 盟主
+  result: Alliance Leader
+  allowalt:   
+    - Leader
+  badtrans: true
+  direct: Alliance Master
+  literal: Meng Zhu
+- raw: 武林盟
+  result: Wulin Alliance
+  badtrans: true
+  direct: martial forest alliance
+  literal: wulin meng
+- raw: 法王
+  result: Dharma King
+  badtrans: true
+  direct: Six Paths Dharma King
+  literal: Liu Dao Fa Wang
+- raw: 魔教
+  result: Demon Sect
+  badtrans: true
+  direct: mo jiao
+  literal: demon sect
+- raw: 極樂教
+  result: Supreme Bliss Sect
+  badtrans: true
+  direct: Ji Le Jiao
+  literal: supreme bliss sect
 
 # Time
 - raw: 秒  
@@ -1462,6 +1504,33 @@
     - Lady
     - ladies
   badtrans: true
+- raw: 二師兄
+  result: Second Senior Brother
+  badtrans: true
+- raw: 四師兄
+  result: Fourth Senior Brother
+  badtrans: true
+- raw: 小師妹
+  result: Junior Martial Sister
+  badtrans: true
+- raw: 三師兄
+  result: Third Senior Brother
+  badtrans: true
+- raw: 道長
+  result: Daoist
+  badtrans: false
+  direct: Tao elder
+  literal: dao zhang
+- raw: 二公子
+  result: Second Young Lord
+  badtrans: true
+  direct: er gong zi
+  literal: second young master
+- raw: 肩甲
+  result: Shoulder Armor
+  badtrans: true
+  direct: jian jia
+  literal: shoulder armor
 
 # Places
 - raw: 红妆苑
@@ -2007,23 +2076,6 @@
 - raw: 趙活屁股
   result: Zhao Huo's Rear
   badtrans: true
-- raw: 二師兄
-  result: Second Senior Brother
-  badtrans: true
-- raw: 四師兄
-  result: Fourth Senior Brother
-  badtrans: true
-- raw: 小師妹
-  result: Junior Martial Sister
-  badtrans: true
-- raw: 三師兄
-  result: Third Senior Brother
-  badtrans: true
-- raw: 道長
-  result: Daoist
-  badtrans: false
-  direct: Tao elder
-  literal: dao zhang
 
 
 # Terms
@@ -2096,43 +2148,18 @@
   badtrans: true
   direct: Banyu Terrace
   literal: half-rain screen
-- raw: 魔教
-  result: Demon Sect
-  badtrans: true
-  direct: mo jiao
-  literal: demon sect
-- raw: 極樂教
-  result: Supreme Bliss Sect
-  badtrans: true
-  direct: Ji Le Jiao
-  literal: supreme bliss sect
 - raw: 瑞公子
   result: Young Lord Rui
   badtrans: true
   direct: Rui gong zi
   literal: Rui young master
-- raw: 二公子
-  result: Second Young Lord
-  badtrans: true
-  direct: er gong zi
-  literal: second young master
 - raw: 勾魂叟
   result: Old Soul‑Reaper 
   badtrans: true
   direct: Gou Hun Sou
   literal: hook-soul old man
-- raw: 肩甲
-  result: Shoulder Armor
-  badtrans: true
-  direct: jian jia
-  literal: shoulder armor
 - raw: 六道法王
   result: Six Paths Dharma King
-  badtrans: true
-  direct: Six Paths Dharma King
-  literal: Liu Dao Fa Wang
-- raw: 法王
-  result: Dharma King
   badtrans: true
   direct: Six Paths Dharma King
   literal: Liu Dao Fa Wang
@@ -2166,32 +2193,13 @@
   badtrans: true
   direct: Xiu Luo Dao
   literal: Asura path / path of demonic warriors
-- raw: 操你媽
-  result: Fuck your mother
-  badtrans: true
-  direct: fuck you mother
-  literal: Cao ni ma
-- raw: 戰你娘親啦
-  result: Fuck your mother!
-  badtrans: true
-  direct: fight you mother
-  literal: Zhan ni niang qin la
 - raw: 義田
   result: Righteous Field
   badtrans: true
   direct: Righteous Field
   literal: Yi Tian
-- raw: 拍拍
-  result: Pat
-  allowalt:
-    - slap
+- raw: 阿隼
+  result: A'Sun
   badtrans: true
-  direct: pat pat
-  literal: Pai Pai
-- raw: 盟主
-  result: Alliance Leader
-  allowalt:   
-    - Leader
-  badtrans: true
-  direct: Alliance Master
-  literal: Meng Zhu
+  literal: A Sun
+
