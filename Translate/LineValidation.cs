@@ -98,6 +98,7 @@ public static partial class LineValidation
 
             //Take out wide quotes and line split items
             result = result
+                .Replace("。", ".")
                 .Replace("’", "'")
                 .Replace("‘", "'")
                 .Replace("—", "-")

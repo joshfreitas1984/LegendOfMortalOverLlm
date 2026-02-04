@@ -190,9 +190,6 @@
 - raw: 大夫
   result: Doctor
   badtrans: true
-- raw: 通判
-  result: Deputy Judge
-  badtrans: true
 - raw: 蒙古摔角手
   result: Mongolian wrestler
   badtrans: true
@@ -386,7 +383,7 @@
   result: Flying Stone Gang Leader
   badtrans: true
 - raw: 千面人魔
-  result: Thousand‑Faced Demon
+  result: Thousand Faced Demon
   badtrans: true
 - raw: 拳師
   result: Fist Master
@@ -1978,3 +1975,8 @@
   badtrans: true
   direct: Present, present.
   literal: Zai, Zai
+- raw: 是！！
+  result: Yes!! 
+  badtrans: true
+  direct: is / yes
+  literal: shi

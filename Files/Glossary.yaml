@@ -230,6 +230,8 @@
   literal: Meng Zhu
 - raw: 武林盟
   result: Wulin Alliance
+  allowalt: 
+    - Alliance
   badtrans: true
   direct: martial forest alliance
   literal: wulin meng
@@ -248,6 +250,9 @@
   badtrans: true
   direct: Ji Le Jiao
   literal: supreme bliss sect
+- raw: 通判
+  result: Vice Magistrate
+  badtrans: true
 
 # Time
 - raw: 秒  
@@ -2202,4 +2207,26 @@
   result: A'Sun
   badtrans: true
   literal: A Sun
+- raw: 龍大俠
+  result: Great Hero Long
+  allowalt: 
+    - Hero Long
+  badtrans: true
+  direct: dragon great hero
+  literal: long daxia
+- raw: 龍女俠
+  result: Heroine Long
+  badtrans: true
+  direct: dragon female hero
+  literal: long nuxia
+- raw: 風雨山
+  result: Fengyu Mountain
+  badtrans: true
+  direct: wind rain mountain
+  literal: Fengyu Shan
+- raw: 千面人魔
+  result: Thousand Faced Demon
+  badtrans: true
+  direct: thousand face human demon
+  literal: qianmian renmo
 

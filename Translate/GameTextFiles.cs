@@ -3,7 +3,10 @@
 public class GameTextFiles
 {
     // "。" doesnt work like u think it would   
-    public static string[] SplitCharactersList = []; //[":", "<br>", "\\n", "-", "|"];
+    public static string[] SplitCharactersList = [
+            // "。"
+            // ":", "<br>", "\\n", "-", "|"
+        ];
 
     public static string[] FilesNotHandled = [
     ];

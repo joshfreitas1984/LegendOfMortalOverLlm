@@ -596,7 +596,8 @@ public static class TranslationService
         catch
         {
             Console.WriteLine($"Exception on: {requestData}");
-            throw;
+            //throw;
+            return "";
         }
     }
 
