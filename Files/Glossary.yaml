@@ -2193,6 +2193,11 @@
   badtrans: true
   direct: animal beast path
   literal: Chu Sheng Dao
+- raw: 天道
+  result: Heavenly path
+  badtrans: true
+  direct: heaven way
+  literal: Tiandao
 - raw: 修羅道
   result: Asura Path
   badtrans: true
@@ -2229,4 +2234,30 @@
   badtrans: true
   direct: thousand face human demon
   literal: qianmian renmo
-
+- raw: 深兒
+  result: Shen'er
+  badtrans: true
+  direct: deep child
+  literal: Shen er
+- raw: 淺兒
+  result: Qian'er
+  badtrans: true
+  direct: shallow child
+  literal: Qian er
+- raw: 螢兒
+  result: Ying'er
+  badtrans: true
+- raw: 晁和
+  result: Chao He
+  badtrans: true
+  direct: Chao harmony
+  literal: Chao He
+- raw: 戰他娘親
+  result: Fight their mother
+  allowAlt:
+    - fuck their mother
+    - fight his mother
+    - fuck his mother
+  badtrans: true
+  direct: fight his mother
+  literal: Zhan ta niang qin
