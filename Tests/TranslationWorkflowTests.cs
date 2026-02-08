@@ -74,10 +74,11 @@ public class TranslationWorkflowTests
         var newGlossaryStrings = new List<string>{};
         var badRegexes = new List<string>{ 
             //"<size=[^>]+>" 
+            //@"master and disciple"
         };
 
         // Compile regexes once for reuse
-        var compiledBadRegexes = badRegexes.Select(r => new Regex(r, RegexOptions.Compiled)).ToList();
+        var compiledBadRegexes = badRegexes.Select(r => new Regex(r, RegexOptions.Compiled | RegexOptions.IgnoreCase)).ToList();
         var chineseCharRegex = new Regex(LineValidation.ChineseCharPattern, RegexOptions.Compiled);
 
         // Use parallelization for file iteration
@@ -179,7 +180,7 @@ public class TranslationWorkflowTests
 
         foreach (var badRegex in compiledBadRegexes)
         {
-            if (badRegex.IsMatch(split.Text))
+            if (badRegex.IsMatch(split.Text) || badRegex.IsMatch(split.Translated ?? string.Empty))
             {
                 logLines.Add($"Bad Regex {textFile.Path} Replaces: \n{split.Translated}");
                 split.FlaggedForRetranslation = true;
