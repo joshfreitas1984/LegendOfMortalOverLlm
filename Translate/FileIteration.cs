@@ -11,7 +11,7 @@ public class FileIteration
 
         foreach (var textFileToTranslate in GameTextFiles.TextFilesToSplit)
         {
-            var outputFile = $"{outputPath}/{textFileToTranslate.Path}";
+            var outputFile = $"{outputPath}/{textFileToTranslate.Path}.yaml";
 
             if (!File.Exists(outputFile))
                 continue;
@@ -33,7 +33,7 @@ public class FileIteration
         var tasks = GameTextFiles.TextFilesToSplit
             .Select(async textFileToTranslate =>
             {
-                var outputFile = $"{outputPath}/{textFileToTranslate.Path}";
+                var outputFile = $"{outputPath}/{textFileToTranslate.Path}.yaml";
 
                 if (!File.Exists(outputFile))
                     return;

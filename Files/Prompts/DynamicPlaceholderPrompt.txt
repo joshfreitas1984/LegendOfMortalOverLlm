@@ -1,4 +1,5 @@
 ﻿**Placeholders:**
-- Maintain placeholders such as `{0}`, `{1}` without alteration.
-- Never remove placeholders from any text.
-- Interpret placeholders contextually, treating them as specific objects.
+- Maintain all placeholders such as `{0}`, `{1}`, `{BR0}`, `{BR1}` verbatim in your output.
+- Placeholders MUST appear in the translated text exactly as written — never remove, expand, or replace them, even if you recognise what they represent.
+- Do not infer or substitute placeholder content from context — treat them as literal opaque tokens.
+- Position each placeholder naturally within the translated sentence to maintain grammatical flow.

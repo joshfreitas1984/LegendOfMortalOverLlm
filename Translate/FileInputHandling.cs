@@ -29,20 +29,24 @@ public class InputFileHandling
             // Step 1: Read the entire file as a single string
             string fileContent = File.ReadAllText(file.FullName);
 
+
             // Step 2: Use a regex to find quoted fields and replace any \n or \r\n inside them with a space
             // This regex matches quoted fields, including those with escaped quotes ("")
             string patternQuotes = "\"((?:[^\"]|\"\")*)\"";
             string cleanedContent = Regex.Replace(fileContent, patternQuotes, match =>
             {
                 // Replace newlines inside quoted fields with a space
-                string quoted = match.Groups[1].Value.Replace("\r\n", " ").Replace("\n", " ");
+                string quoted = match.Groups[1].Value.Replace("\r\n", "\\n").Replace("\n", "\\n");
                 // Restore double quotes if present
                 quoted = quoted.Replace("\"\"", "\"");
                 return $"\"{quoted}\"";
             });
 
-            // Step 3: Split the cleaned content into lines
-            var lines = cleanedContent.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
+            // Step 3: Split the cleaned content into lines, removing literal \n from non-LegendInfo lines
+            var lines = cleanedContent.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(line => line.StartsWith("LegendInfo") ? line : line.Replace("\\n", " "))
+                .Select(line => Regex.Replace(line, @"\{size=\d+\}|\{/size\}", string.Empty))
+                .ToArray();
 
             File.WriteAllLines($"{outputPath}/{file.Name}.stripped.csv", lines);
 
@@ -85,11 +89,11 @@ public class InputFileHandling
 
             // Write the found lines
             var yaml = serializer.Serialize(foundLines);
-            File.WriteAllText($"{outputPath}/{file.Name}", yaml);
+            File.WriteAllText($"{outputPath}/{file.Name}.yaml", yaml);
 
             // Add missing converted file if it doesnt exist yet
-            if (!File.Exists($"{convertedPath}/{file.Name}"))
-                File.Copy($"{outputPath}/{file.Name}", $"{convertedPath}/{file.Name}");
+            if (!File.Exists($"{convertedPath}/{file.Name}.yaml"))
+                File.Copy($"{outputPath}/{file.Name}", $"{convertedPath}/{file.Name}.yaml");
         }
     }
       

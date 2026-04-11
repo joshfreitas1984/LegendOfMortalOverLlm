@@ -5,8 +5,10 @@ public class ValidationResult
     public bool Valid;
     public string Result = string.Empty;
     public string CorrectionPrompt = string.Empty;
+    public bool RequiresSentenceBySentenceCorrection = false;
 
-    public ValidationResult() { 
+    public ValidationResult()
+    {
     }
 
     public ValidationResult(bool valid, string result)

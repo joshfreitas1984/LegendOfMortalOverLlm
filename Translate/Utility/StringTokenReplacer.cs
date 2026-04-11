@@ -9,7 +9,9 @@ namespace Translate.Utility;
 /// </summary>
 public class StringTokenReplacer
 {
-    private static readonly Regex PlaceholderRegex = new(@"(\{[^{}]+\})", RegexOptions.Compiled);
+    // Excludes {BRn} patterns used by SplitBracketsRegexIfNeededAsync so they are not re-tokenized
+    // to {0}, {1} etc. and lost when the LLM sees a simple numeric placeholder in context.
+    private static readonly Regex PlaceholderRegex = new(@"(\{(?!BR\d+\})[^{}]+\})", RegexOptions.Compiled);
     private static readonly Regex CoordinateRegex = new(@"\(-?\d+,-?\d+\)", RegexOptions.Compiled);
     private static readonly Regex NumericValueRegex = new(@"(?<![{<]|color=|<[^>]*)(?:[+-]?(?:\d+\.\d*|\.\d+|\d+))(?![}>])", RegexOptions.Compiled);   
     private static readonly Regex ColorStartRegex = new(@"<color=[^>]+>", RegexOptions.Compiled);

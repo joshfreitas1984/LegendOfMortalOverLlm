@@ -146,6 +146,8 @@
   rawSimplified: 武侠
   rawTraditional: 武俠
   result: Wuxia
+  allowalt: 
+  - martial hero
 - raw: 天书
   rawSimplified: 天书
   rawTraditional: 天書
@@ -216,6 +218,7 @@
   - Mechanical
   direct: Organization
   literal: Jiguan
+  badtrans: false
 - raw: 冷却中
   rawSimplified: 冷却中
   rawTraditional: 冷卻中
@@ -244,6 +247,7 @@
   result: Pat
   allowalt:
   - slap
+  - flap
   direct: pat pat
   literal: Pai Pai
 - raw: 盟主
@@ -564,7 +568,7 @@
 - raw: 奪魄
   rawSimplified: 夺魄
   rawTraditional: 奪魄
-  result: Soul-Stealer
+  result: Soul Stealer
   direct: Seize Soul
   literal: Duopo
 - raw: 南宮
@@ -680,12 +684,12 @@
   result: Cultivation
   allowalt:
   - Cultivate
-- raw: 元气
-  rawSimplified: 元气
-  rawTraditional: 元氣
-  result: Vitality
-  direct: Primordial energy
-  literal: Yuanqi
+# - raw: 元气
+#   rawSimplified: 元气
+#   rawTraditional: 元氣
+#   result: Vitality
+#   direct: Primordial energy
+#   literal: Yuanqi
 - raw: 氣血
   rawSimplified: 气血
   rawTraditional: 氣血
@@ -784,6 +788,7 @@
   rawSimplified: 轻功
   rawTraditional: 輕功
   result: Qinggong
+  badtrans: false
 - raw: 内功
   rawSimplified: 内功
   rawTraditional: 內功
@@ -861,8 +866,11 @@
   rawSimplified: 承让了
   rawTraditional: 承讓了
   result: Thank you for letting me win
+  allowalt:
+    - Thank you for showing mercy
   direct: accept yielding
   literal: cheng rang le
+  badtrans: false
 - raw: 柔茹刚吐
   rawSimplified: 柔茹刚吐
   rawTraditional: 柔茹剛吐
@@ -1075,6 +1083,8 @@
   result: Black Gold
 - raw: 熊掌
   result: Bear Paw
+  allowalt:
+  - Bear's Paw
 - raw: 豹胎
   result: Leopard Fetus
 - raw: 黄连
@@ -1096,7 +1106,7 @@
 - raw: 千年灵芝
   rawSimplified: 千年灵芝
   rawTraditional: 千年靈芝
-  result: Thousand-year old Lingzhi
+  result: Thousand year old Lingzhi
 - raw: 一条根
   rawSimplified: 一条根
   rawTraditional: 一條根
@@ -1137,7 +1147,7 @@
 - raw: 软筋散
   rawSimplified: 软筋散
   rawTraditional: 軟筋散
-  result: Tendon-Softening Powder
+  result: Soft Muscle Powder
 - raw: 杜康酒
   result: Dukang Wine
 - raw: 即墨老酒
@@ -2178,7 +2188,7 @@
   rawTraditional: 書蓉
   result: Shu Rong
 - raw: 第三香
-  result: Di San Xiang
+  result: Third Fragrance
 - raw: 唐守鴻
   rawSimplified: 唐守鸿
   rawTraditional: 唐守鴻
@@ -2262,7 +2272,7 @@
 - raw: 唐默鈴
   rawSimplified: 唐默铃
   rawTraditional: 唐默鈴
-  result: Tang Meling
+  result: Tang Moling
 - raw: 唐惟元
   result: Tang Weiyuan
 - raw: 少年唐布衣
@@ -2421,3 +2431,98 @@
   result: Rui
   direct: auspicious young man
   literal: Rui lang
+- raw: 滄幫
+  rawSimplified: 沧帮
+  rawTraditional: 滄幫
+  result: Cang Gang
+  badtrans: true
+  direct: blue/ancient gang
+  literal: cang bang
+- raw: 眉山鎮
+  rawSimplified: 眉山镇
+  rawTraditional: 眉山鎮
+  result: Meishan Town
+  badtrans: true
+  direct: brow mountain town
+  literal: mei shan zhen
+- raw: 吕员外
+  rawSimplified: 吕员外
+  rawTraditional: 呂員外
+  result: Master Lu
+  badtrans: true
+  direct: Lu member outside
+  literal: lu yuan wai
+- raw: 白鯊幫
+  rawSimplified: 白鲨帮
+  rawTraditional: 白鯊幫
+  result: White Shark Gang
+  badtrans: true
+  direct: white shark gang
+  literal: bai sha bang
+- raw: 天王崩架
+  rawSimplified: 天王崩架
+  rawTraditional: 天王崩架
+  result: Heavenly King Collapse Form
+  badtrans: true
+  direct: heavenly king collapse frame
+  literal: tian wang beng jia
+- raw: 天王座
+  rawSimplified: 天王座
+  rawTraditional: 天王座
+  result: Heavenly King
+  badtrans: true
+  direct: heavenly king seat
+  literal: tian wang zuo
+- raw: 風雷神腿
+  rawSimplified: 风雷神腿
+  rawTraditional: 風雷神腿
+  result: Wind Thunder Divine Leg
+  badtrans: true
+  direct: wind thunder god leg
+  literal: feng lei shen tui
+- raw: 風雷神腳
+  rawSimplified: 风雷神脚
+  rawTraditional: 風雷神腳
+  result: Wind Thunder Divine Foot
+  badtrans: true
+  direct: wind thunder god foot
+  literal: feng lei shen jiao
+
+
+# Cultivation
+# Common stages
+- raw: 炼气
+  rawSimplified: 炼气
+  rawTraditional: 煉氣
+  result: Qi Refining
+  badtrans: true
+  direct: refine qi
+  literal: lian qi
+- raw: 筑基
+  rawSimplified: 筑基
+  rawTraditional: 築基
+  result: Foundation Establishment
+  badtrans: true
+  direct: build foundation
+  literal: zhu ji
+- raw: 结丹
+  rawSimplified: 结丹
+  rawTraditional: 結丹
+  result: Core Formation
+  badtrans: true
+  direct: form core
+  literal: jie dan
+- raw: 元婴
+  rawSimplified: 元婴
+  rawTraditional: 元嬰
+  result: Nascent Soul
+  badtrans: true
+  direct: primordial infant
+  literal: yuan ying
+- raw: 化神
+  rawSimplified: 化神
+  rawTraditional: 化神
+  result: Soul Formation
+  badtrans: true
+  direct: transform spirit
+  literal: hua shen

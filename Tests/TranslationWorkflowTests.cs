@@ -32,12 +32,24 @@ public class TranslationWorkflowTests
     {
         if (keepCleaning)
         {
+            Console.WriteLine("-------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------------");
             int remaining = await UpdateCurrentTranslationLines(false);
+            Console.WriteLine("-------------------------------------------------------------------");
+            Console.WriteLine("-------------------------------------------------------------------");
+
             int iterations = 0;
             while (remaining > 0 && iterations < 30)
             {
                 await TranslationService.TranslateViaLlmAsync(WorkingDirectory, false);
+
+                Console.WriteLine("-------------------------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------------------");
                 remaining = await UpdateCurrentTranslationLines(false);
+                Console.WriteLine("-------------------------------------------------------------------");
+                Console.WriteLine("-------------------------------------------------------------------");
+
+
                 iterations++;
             }
 
@@ -63,6 +75,93 @@ public class TranslationWorkflowTests
             await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
         });
     }
+
+    [Fact(DisplayName = "5. Flag some regexes")]
+    public async Task SetSplitAsInvalid()
+    {
+        var config = Configuration.GetConfiguration(WorkingDirectory);
+        var serializer = Yaml.CreateSerializer();
+
+        var badStrings = new List<string>
+        {
+            "⑩",
+            "⓪",
+            "①",
+            "②",
+            "③",
+            "④",
+            "⑤",
+            "⑥",
+            "⑦",
+            "⑧",
+            "⑨",
+
+            "《",
+            "〈",
+            "「",
+            "『",
+            "【",
+            "〖",
+            "“",
+        };
+
+        await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            var recordsModded = 0;
+
+            foreach (var line in fileLines)
+                foreach (var split in line.Splits)
+                {
+                    if (badStrings.Any(s => split.Text.Contains(s)))
+                    {
+                        split.FlaggedForRetranslation = true;
+                        split.FlaggedMistranslation = "Bad Character";
+                        recordsModded++;
+                    }
+                }
+
+            await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
+            Console.WriteLine($"Writing {recordsModded} records to {outputFile}");
+        });
+    }
+
+    [Fact(DisplayName = "6. Clean up some regexes")]
+    public static async Task CleanUpSomeRegexes()
+    {
+        var config = Configuration.GetConfiguration(WorkingDirectory);
+        var serializer = Yaml.CreateSerializer();
+
+        var regex = new List<(string pattern, string replacement)>
+        {
+            // Look for Number then "coin" or "wen" or "money" or "quan" or "liang", get the number portion
+            (@"(\d+)(\s*)(coin|wen|money|quan|liang)", "$1 coin"),
+        };
+
+        await FileIteration.IterateTranslatedFilesInParallelAsync(WorkingDirectory, async (outputFile, textFileToTranslate, fileLines) =>
+        {
+            var recordsModded = 0;
+
+            foreach (var line in fileLines)
+                foreach (var split in line.Splits)
+                {
+
+                    // Replace using pattern and replacement
+                    if (regex.Any(r => Regex.IsMatch(split.Translated, r.pattern)))
+                    {
+                        var original = split.Text;
+                        foreach (var (pattern, replacement) in regex)
+                        {
+                            split.Translated = Regex.Replace(split.Translated, pattern, replacement);
+                            recordsModded++;
+                        }
+                    }
+                }
+
+            await File.WriteAllTextAsync(outputFile, serializer.Serialize(fileLines));
+            Console.WriteLine($"Writing {recordsModded} records to {outputFile}");
+        });
+    }
+
 
     public static async Task<int> UpdateCurrentTranslationLines(bool resetFlag)
     {
@@ -317,7 +416,10 @@ public class TranslationWorkflowTests
             else if (item.ExcludeOutputFiles.Count > 0 && item.ExcludeOutputFiles.Contains(textFile.Path))
                 continue;
 
-            if (preparedRaw.Contains(item.Raw) && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
+            if ((preparedRaw.Contains(item.Raw)
+                || (item.RawSimplified != string.Empty && preparedRaw.Contains(item.RawSimplified))
+                || (item.RawTraditional != string.Empty && preparedRaw.Contains(item.RawTraditional)))
+                && !split.Translated.Contains(item.Result, StringComparison.OrdinalIgnoreCase))
             {
                 var found = false;
                 foreach (var alternative in item.AllowedAlternatives)

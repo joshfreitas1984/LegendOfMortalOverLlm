@@ -129,7 +129,7 @@
   badtrans: true
 - raw: 馬
   result: Horse
-  badtrans: true
+  badtrans: false
 - raw: 雞
   result: Chicken
   badtrans: true
@@ -329,7 +329,7 @@
   result: Xia Yulian (Temporary)
   badtrans: true
 - raw: 白衣少年
-  result: White‑clad youth
+  result: White clad youth
   badtrans: true
 - raw: 無名
   result: Wuming
@@ -483,7 +483,7 @@
   result: Sun Tzu's Art of War
   badtrans: true
 - raw: 枯榮神功上卷
-  result: Volume One of Withered and Flourishing Divine Skill
+  result: Volume One of Withering and Flourishing Divine Skill
   badtrans: true
 - raw: 混元童子炁
   result: Primordial Youth Qi
@@ -567,13 +567,13 @@
   result: Luohan Fist Manual
   badtrans: true
 - raw: 清峰三十六路
-  result: Qingfeng Thirty‑Six Techniques
+  result: Qingfeng Thirty Six Techniques
   badtrans: true
 - raw: 八荒奪路逃
   result: Eight Desolations and the Road to Escape
   badtrans: true
 - raw: 仙鶴迷蹤拳
-  result: Crane's Mysterious Footsteps Fist
+  result: Immortal Crane Lost Trace Fist
   badtrans: true
 - raw: 金剛腿
   result: Diamond Leg
@@ -657,10 +657,10 @@
   result: Mandarin Duck Fist and Sword Manual
   badtrans: true
 - raw: 斬天黑翼雙龍劍
-  result: Heaven‑Slaying Black Wing Twin Dragon Sword
+  result: Heaven Slaying Black Wing Twin Dragon Sword
   badtrans: true
 - raw: 三五斬妖劍
-  result: Three‑Five Demon‑Slaying Sword
+  result: Three Five Demon Slaying Sword
   badtrans: true
 - raw: 金鐘罩
   result: Golden Bell Shield
@@ -743,7 +743,7 @@
   result: Protect Yunshang
   badtrans: true
 - raw: 養命丹
-  result: Life‑Sustaining Pill
+  result: Life Sustaining Pill
   badtrans: true
 - raw: 棧道不穩
   result: Path is unstable
@@ -794,19 +794,19 @@
   result: Mechanism Box ‑ Slaughter Type
   badtrans: true
 - raw: 機關篋笥．聖衣型態
-  result: Mechanism Chest. Sacred Garment Form.
+  result: Mechanism Box ‑ Sacred Garment Form
   badtrans: true
 - raw: 戰術
   result: Tactics
   badtrans: true
 - raw: 機關篋笥
-  result: Mechanical box
+  result: Mechanism box
   badtrans: true
 - raw: 機關篋笥・狩獵型態
   result: Mechanism Box ‑ Hunting Type
   badtrans: true
 - raw: 機關篋笥・捕鳥型態
-  result: Trap Box ‑ Bird Catching Type
+  result: Mechanism Box ‑ Bird Catching Type
   badtrans: true
 - raw: 猿王劈山
   result: Yuan Wang Splitting Mountain
@@ -929,7 +929,7 @@
   result: Ten Thousand Longevity Corpse Blood Needle
   badtrans: true
 - raw: 鐵石心腸
-  result: Iron‑hearted
+  result: Iron hearted
   badtrans: true
 - raw: 焚天烈焰
   result: Burning Sky Flames
@@ -1046,10 +1046,10 @@
   result: Flower Folding Technique Lv5
   badtrans: true
 - raw: 一趾御風
-  result: One‑Toe Wind Control
+  result: One Toe Wind Control
   badtrans: true
 - raw: 一趾神通
-  result: One‑Toe Divine Skill
+  result: One Toe Divine Skill
   badtrans: true
 - raw: 醫術Lv8
   result: Medical Skill Lv8
@@ -1064,10 +1064,10 @@
   result: Medical Skill Lv7
   badtrans: true
 - raw: 仙鶴迷蹤步
-  result: Immortal Crane's Elusive Steps
+  result: Immortal Crane Lost Trace Steps
   badtrans: true
 - raw: 仙鶴迷蹤
-  result: Immortal Crane's Elusive Steps
+  result: Immortal Crane Lost Trace 
   badtrans: true
 - raw: 醫術Lv9
   result: Medical Skill Lv9
@@ -1217,7 +1217,7 @@
   result: Beware of Hidden Weapon Lv2
   badtrans: true
 - raw: 迎難而上
-  result: Face challenges head‑on
+  result: Face challenges head on
   badtrans: true
 - raw: 提防暗器Lv3
   result: Beware of Hidden Weapon Lv3
@@ -1319,13 +1319,13 @@
   result: Iron Cloth Shirt Lv8
   badtrans: true
 - raw: 核棗釘Lv1
-  result: Nuclear Jujube Nail Lv1
+  result: Jujube Pit Nail Lv1
   badtrans: true
 - raw: 鐵布衫Lv9
   result: Iron Cloth Shirt Lv9
   badtrans: true
 - raw: 核棗釘
-  result: Nuclear Date Nail
+  result: Jujube Pit Nail
   badtrans: true
 - raw: 金剛腿Lv6
   result: Diamond Leg Lv6
@@ -1625,7 +1625,7 @@
   result: Tang Clan Hidden Weapon Lv6
   badtrans: true
 - raw: 單手
-  result: One‑Handed
+  result: One Handed
   badtrans: true
 - raw: 牽制
   result: Restraining technique
@@ -1793,7 +1793,7 @@
   result: Disciple's health points
   badtrans: true
 - raw: 內功
-  result: Internal Skill
+  result: Neigong
   badtrans: true
 - raw: 形意拳
   result: Xingyi Fist
@@ -1917,7 +1917,7 @@
   literal: He
 - raw: "放馬過來。"
   result: Bring it on!
-  badtrans: true
+  badtrans: false
   direct: Release horse come over
   literal: Fang Ma Guo Lai
 - raw: 清理門戶
@@ -1965,3 +1965,17 @@
   badtrans: true
   direct: Two
   literal: Liang
+- raw: 並沒有
+  rawSimplified: 并没有
+  rawTraditional: 並沒有
+  result: Not in the slightest
+  badtrans: true
+  direct: not even a little have
+  literal: bing mei you
+- raw: "放馬過來！"
+  rawSimplified: 放马过来
+  rawTraditional: 放馬過來
+  result: Bring it on!
+  badtrans: true
+  direct: release horse come
+  literal: fang ma guo lai
