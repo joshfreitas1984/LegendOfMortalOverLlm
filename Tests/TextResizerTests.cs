@@ -1,4 +1,5 @@
-﻿using SharedAssembly.TextResizer;
+﻿using FanslationStudio.LlmKit.Utility;
+using SharedAssembly.TextResizer;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,7 +7,6 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Translate.Utility;
 
 namespace Translate.Tests;
 
@@ -91,8 +91,8 @@ public class TextResizerTests
     [Fact]
     public void ReserializeResizerTest()
     {
-        var serializer = Yaml.CreateSerializer();
-        var deserializer = Yaml.CreateDeserializer();
+        var serializer = YamlHelper.CreateSerializer();
+        var deserializer = YamlHelper.CreateDeserializer();
         var folder = $"{workingDirectory}/Resizers";
 
         foreach (var file in Directory.EnumerateFiles(folder))

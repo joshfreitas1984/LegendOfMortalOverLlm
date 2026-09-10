@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <AssemblyName>FanslationStudio.LegendOfMortal.Plugin</AssemblyName>
+    <Product>Legend of Mortal English Patch</Product>
+    <Version>1.0.0</Version>
+    <Authors>joshfreitas1984</Authors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json;
+      https://nuget.samboy.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>LegendOfMortalPlugin</RootNamespace>
+
+    <!-- Local dev convenience: PostBuild copies the built DLL straight into the installed game's
+         BepInEx/plugins (so F5/dotnet build is enough to test in-game) and into a ReleaseFolder
+         staging area next to the game install, mirroring DragonHierOverLlm/DragonHeirPlugin's
+         GamePlugin.csproj convention - override these on another machine as needed. -->
+    <GameDir>C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\BepInEx\plugins</GameDir>
+    <ReleaseFolder>C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\ReleaseFolder\Files\BepInEx\plugins</ReleaseFolder>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="5.*" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+    <PackageReference Include="HarmonyX" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.2" PrivateAssets="all" />
+  </ItemGroup>
+
+  <!-- Mono game assemblies (plain IL, not IL2CPP interop stubs) - referenced straight from the
+       installed game's Managed folder, same HintPath convention DragonHeirPlugin/GamePlugin.csproj
+       uses for its IL2CPP interop assemblies. -->
+  <ItemGroup>
+    <Reference Include="LeanLocalization">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\Mortal_Data\Managed\LeanLocalization.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Mortal.Core">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\Mortal_Data\Managed\Mortal.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\Mortal_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\LegendOfMortal\Mortal_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="Build" Condition="'$(CI)' != 'true'">
+    <Exec Command="XCOPY /Y /I &quot;$(TargetDir)$(TargetName)$(TargetExt)&quot; &quot;$(GameDir)&quot;" ContinueOnError="true" />
+    <Exec Command="XCOPY /Y /I &quot;$(TargetDir)$(TargetName)$(TargetExt)&quot; &quot;$(ReleaseFolder)&quot;" ContinueOnError="true" />
+  </Target>
+
+</Project>

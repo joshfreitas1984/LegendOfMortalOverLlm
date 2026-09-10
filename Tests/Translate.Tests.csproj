@@ -20,6 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Translate\Translate.csproj" />
+    <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.LlmKit\FanslationStudio.LlmKit.csproj" />
   </ItemGroup>
 
   <ItemGroup>
