@@ -1,0 +1,1945 @@
+- raw: "PlayerTalent/Format/New,技能[{0}]觉醒"
+  splits:
+  - split: 1
+    text: "技能"
+  - split: 1
+    subIndex: 1
+    text: "觉醒"
+  templates:
+  - split: 1
+    template: "{0}[⟦0⟧]{1}"
+- raw: "PlayerTalent/Format/Remove,技能[{0}]消灭"
+  splits:
+  - split: 1
+    text: "技能"
+  - split: 1
+    subIndex: 1
+    text: "消灭"
+  templates:
+  - split: 1
+    template: "{0}[⟦0⟧]{1}"
+- raw: "PlayerTalent/Format/LevelUp,技能[{0}]等级上升为{1}"
+  splits:
+  - split: 1
+    text: "技能"
+  - split: 1
+    subIndex: 1
+    text: "等级上升为"
+  templates:
+  - split: 1
+    template: "{0}[⟦0⟧]{1}⟦1⟧"
+- raw: "PlayerTalent/Format/LevelDown,技能[{0}]等级下降为{1}"
+  splits:
+  - split: 1
+    text: "技能"
+  - split: 1
+    subIndex: 1
+    text: "等级下降为"
+  templates:
+  - split: 1
+    template: "{0}[⟦0⟧]{1}⟦1⟧"
+- raw: "PlayerTalent/Format/LevelMax,技能[{0}]等级已达最高"
+  splits:
+  - split: 1
+    text: "技能"
+  - split: 1
+    subIndex: 1
+    text: "等级已达最高"
+  templates:
+  - split: 1
+    template: "{0}[⟦0⟧]{1}"
+- raw: "PlayerTalent/Name/0000,自恋"
+  splits:
+  - split: 1
+    text: "自恋"
+- raw: "PlayerTalent/Desc/0000,你在自己眼里变得稍微顺眼了一点\\n(只有一点)，\\n但是情绪激动时会原形毕露。"
+  splits:
+  - split: 1
+    text: "你在自己眼里变得稍微顺眼了一点"
+  - split: 1
+    subIndex: 1
+    text: "只有一点"
+  - split: 1
+    subIndex: 2
+    text: "但是情绪激动时会原形毕露。"
+  templates:
+  - split: 1
+    template: "{0}\\n({1})，\\n{2}"
+- raw: "PlayerTalent/Name/0001,强化防御"
+  splits:
+  - split: 1
+    text: "强化防御"
+- raw: "PlayerTalent/Desc/0001,[决斗]\\n提升所有伤害减免。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "提升所有伤害减免。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0002,额外暗器"
+  splits:
+  - split: 1
+    text: "额外暗器"
+- raw: "PlayerTalent/Desc/0002,[决斗]\\n使用捅人、暗器指令，\\n额外发动「暗器」效果"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "使用捅人、暗器指令，"
+  - split: 1
+    subIndex: 2
+    text: "额外发动「暗器」效果"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/0003,唐门暗器"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+- raw: "PlayerTalent/Desc/0003,[决斗]\\n提升暗器命中、伤害、爆击骰。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "提升暗器命中、伤害、爆击骰。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0004,唐门毒术"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+- raw: "PlayerTalent/Desc/0004,[决斗]\\n提升毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "提升毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0005,君子风"
+  splits:
+  - split: 1
+    text: "君子风"
+- raw: "PlayerTalent/Desc/0005,[决斗]\\n修养、性情、处世三项皆为中庸时，提升最终伤害及伤害减免。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "修养、性情、处世三项皆为中庸时，提升最终伤害及伤害减免。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0006,全真体操"
+  splits:
+  - split: 1
+    text: "全真体操"
+- raw: "PlayerTalent/Desc/0006,[决斗]\\n根据体力提升内力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据体力提升内力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0007,三教合一"
+  splits:
+  - split: 1
+    text: "三教合一"
+    translated: "Three Teachings Unification"
+- raw: "PlayerTalent/Desc/0007,[决斗]\\n根据已精通之儒道释学提升内力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据已精通之儒道释学提升内力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0008,炼精化气"
+  splits:
+  - split: 1
+    text: "炼精化气"
+- raw: "PlayerTalent/Desc/0008,[决斗]\\n根据体力提升内力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据体力提升内力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0009,炼气化神"
+  splits:
+  - split: 1
+    text: "炼气化神"
+- raw: "PlayerTalent/Desc/0009,[决斗]\\n根据内力提升气上限。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据内力提升气上限。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0010,炼神还虚"
+  splits:
+  - split: 1
+    text: "炼神还虚"
+- raw: "PlayerTalent/Desc/0010,[决斗]\\n根据气的上限获得额外回气。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据气的上限获得额外回气。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0011,练气神通"
+  splits:
+  - split: 1
+    text: "练气神通"
+- raw: "PlayerTalent/Desc/0011,[决斗]\\n根据道学提升内力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据道学提升内力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0012,白猿身法"
+  splits:
+  - split: 1
+    text: "白猿身法"
+    translated: "Agility of the White Monkey"
+- raw: "PlayerTalent/Desc/0012,[决斗]\\n根据轻功、拳掌获得回避机率"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌获得回避机率"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0013,心剑"
+  splits:
+  - split: 1
+    text: "心剑"
+- raw: "PlayerTalent/Desc/0013,[决斗]\\n根据刀剑提升拳掌。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑提升拳掌。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0014,峨嵋十九桩"
+  splits:
+  - split: 1
+    text: "峨嵋十九桩"
+- raw: "PlayerTalent/Desc/0014,[决斗]\\n全属性根据形意拳精通数获得提升。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "全属性根据形意拳精通数获得提升。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0015,不坏金身"
+  splits:
+  - split: 1
+    text: "不坏金身"
+- raw: "PlayerTalent/Desc/0015,[战役]\\可施展金刚罩。"
+  splits:
+  - split: 1
+    text: "战役"
+  - split: 1
+    subIndex: 1
+    text: "可施展金刚罩。"
+  templates:
+  - split: 1
+    template: "[{0}]\\{1}"
+- raw: "PlayerTalent/Name/0017,千机百变"
+  splits:
+  - split: 1
+    text: "千机百变"
+- raw: "PlayerTalent/Desc/0017,[决斗]\\n根据暗器提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0019,肩甲"
+  splits:
+  - split: 1
+    text: "肩甲"
+    translated: "Shoulder Armor"
+- raw: "PlayerTalent/Desc/0019,[决斗]\\n防御+20%、轻功-10%。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "防御+20%、轻功"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}-10%。"
+- raw: "PlayerTalent/Name/0020,豪华肩甲"
+  splits:
+  - split: 1
+    text: "豪华肩甲"
+- raw: "PlayerTalent/Desc/0020,[决斗]\\n防御+40%、轻功-20%。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "防御+40%、轻功"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}-20%。"
+- raw: "PlayerTalent/Name/0021,终极肩甲"
+  splits:
+  - split: 1
+    text: "终极肩甲"
+- raw: "PlayerTalent/Desc/0021,[决斗]\\n防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0025,高手风范"
+  splits:
+  - split: 1
+    text: "高手风范"
+- raw: "PlayerTalent/Desc/0025,[决斗]\\n根据修养提升每回合的气力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据修养提升每回合的气力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0026,做人没有下限"
+  splits:
+  - split: 1
+    text: "做人没有下限"
+- raw: "PlayerTalent/Desc/0026,[决斗]\\n道德越低，爆击骰越多。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "道德越低，爆击骰越多。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0027,化劲"
+  splits:
+  - split: 1
+    text: "化劲"
+- raw: "PlayerTalent/Desc/0027,[决斗]\\n根据拳掌、轻功提升防御。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功提升防御。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0035,龙渊七绝"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+- raw: "PlayerTalent/Desc/0035,[决斗]\\n根据六维提升所有伤害。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据六维提升所有伤害。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0036,借势"
+  splits:
+  - split: 1
+    text: "借势"
+- raw: "PlayerTalent/Desc/0036,[决斗]\\n回避成功时，根据等级回复气。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，根据等级回复气。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0037,咄咄逼人"
+  splits:
+  - split: 1
+    text: "咄咄逼人"
+    translated: "Inspiritingly aggressive"
+- raw: "PlayerTalent/Desc/0037,[决斗]\\n造成伤害时，根据连击数，追加气伤害。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "造成伤害时，根据连击数，追加气伤害。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1001,傲慢"
+  splits:
+  - split: 1
+    text: "傲慢"
+    translated: "Arrogance"
+- raw: "PlayerTalent/Desc/1001,[决斗]\\n所有伤害提升50%，\\n受到伤害增加10%。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "所有伤害提升50%，"
+  - split: 1
+    subIndex: 2
+    text: "受到伤害增加10%。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/1002,铁布衫"
+  splits:
+  - split: 1
+    text: "铁布衫"
+- raw: "PlayerTalent/Desc/1002,[决斗]\\n根据体力提升防御。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据体力提升防御。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1010,金钟罩"
+  splits:
+  - split: 1
+    text: "金钟罩"
+- raw: "PlayerTalent/Desc/1010,[决斗]\\n气20以上时，\\n备揍指令变化为「金钟罩」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "气20以上时，"
+  - split: 1
+    subIndex: 2
+    text: "备揍指令变化为「金钟罩」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/1011,不动如山"
+  splits:
+  - split: 1
+    text: "不动如山"
+- raw: "PlayerTalent/Desc/1011,[决斗]\\n根据技能「战术」提升防御。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据技能「战术」提升防御。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1012,金刚腿"
+  splits:
+  - split: 1
+    text: "金刚腿"
+- raw: "PlayerTalent/Desc/1012,[决斗]\\n根据拳掌提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1100,落井下石"
+  splits:
+  - split: 1
+    text: "落井下石"
+    translated: "Adding insult to injury"
+- raw: "PlayerTalent/Desc/1100,[决斗]\\n对身有异常状态的敌人嘴攻时，激怒成功率更高。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "对身有异常状态的敌人嘴攻时，激怒成功率更高。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1101,得理不饶人"
+  splits:
+  - split: 1
+    text: "得理不饶人"
+- raw: "PlayerTalent/Desc/1101,[决斗]\\n连续嘴攻时效果上升。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "连续嘴攻时效果上升。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1102,孟子曰"
+  splits:
+  - split: 1
+    text: "孟子曰"
+    translated: "Mencius said"
+- raw: "PlayerTalent/Desc/1102,[决斗]\\n敌人身有[愤怒]状态时发动。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "敌人身有"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+  - split: 1
+    subIndex: 3
+    text: "状态时发动。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]{3}"
+- raw: "PlayerTalent/Name/1103,烈火禅"
+  splits:
+  - split: 1
+    text: "烈火禅"
+- raw: "PlayerTalent/Desc/1103,[决斗]\\n愤怒时不再捅人，变成嘴攻并口喷烈火。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "愤怒时不再捅人，变成嘴攻并口喷烈火。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1105,龙吟功"
+  splits:
+  - split: 1
+    text: "龙吟功"
+- raw: "PlayerTalent/Desc/1105,[决斗]\\n境界二以上，嘴攻变为「苍龙吟」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「苍龙吟」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1106,狮吼功"
+  splits:
+  - split: 1
+    text: "狮吼功"
+- raw: "PlayerTalent/Desc/1106,[决斗]\\n境界二以上，嘴攻变为「狮吼功」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「狮吼功」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1107,虎啸功"
+  splits:
+  - split: 1
+    text: "虎啸功"
+- raw: "PlayerTalent/Desc/1107,[决斗]\\n境界二以上，嘴攻变为「虎啸吼」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「虎啸吼」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1200,揍狗拳"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+    translated: "Dog Punch"
+- raw: "PlayerTalent/Desc/1200,[决斗]\\n敌人气低于自身时，获得「揍狗拳」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "敌人气低于自身时，获得「揍狗拳」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1201,极端揍狗拳"
+  splits:
+  - split: 1
+    text: "极端揍狗拳"
+- raw: "PlayerTalent/Desc/1201,[决斗]\\n锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1202,翻浪刀法"
+  splits:
+  - split: 1
+    text: "翻浪刀法"
+    translated: "Surging Wave Blade Technique"
+- raw: "PlayerTalent/Desc/1202,[决斗]\\n捅人命中时获得「翻浪刀法」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "捅人命中时获得「翻浪刀法」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1203,蛮勇"
+  splits:
+  - split: 1
+    text: "蛮勇"
+- raw: "PlayerTalent/Desc/1203,[决斗]\\n捅人指令不会被暗器打断，但受到的伤害+50%。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "捅人指令不会被暗器打断，但受到的伤害"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}+50%。"
+- raw: "PlayerTalent/Name/1205,反手拳"
+  splits:
+  - split: 1
+    text: "反手拳"
+    translated: "Backhand Punch"
+- raw: "PlayerTalent/Desc/1205,[决斗]\\n回避成功时，\\n捅人指令变化为[反击]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，"
+  - split: 1
+    subIndex: 2
+    text: "捅人指令变化为"
+  - split: 1
+    subIndex: 3
+    text: "反击"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}[{3}]。"
+- raw: "PlayerTalent/Name/1206,夺魄幽灵爪"
+  splits:
+  - split: 1
+    text: "夺魄幽灵爪"
+- raw: "PlayerTalent/Desc/1206,[决斗]\\n境界二以上，捅人变化为[夺魄幽灵爪]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，捅人变化为"
+  - split: 1
+    subIndex: 2
+    text: "夺魄幽灵爪"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/1207,犯劍"
+  splits:
+  - split: 1
+    text: "犯劍"
+    translated: "Sword Offense"
+- raw: "PlayerTalent/Desc/1207,[決鬥]\\n劉顎專用技能，取代捅人。"
+  splits:
+  - split: 1
+    text: "決鬥"
+  - split: 1
+    subIndex: 1
+    text: "劉顎專用技能，取代捅人。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1209,雪山飞鸿爪"
+  splits:
+  - split: 1
+    text: "雪山飞鸿爪"
+- raw: "PlayerTalent/Desc/1209,[决斗]\\n境界二以上，捅人变化为[雪山飞鸿爪]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，捅人变化为"
+  - split: 1
+    subIndex: 2
+    text: "雪山飞鸿爪"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/2010,核枣钉"
+  splits:
+  - split: 1
+    text: "核枣钉"
+- raw: "PlayerTalent/Desc/2010,[决斗]\\n气20以上时，\\n嘴攻指令变化为「核枣钉」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "气20以上时，"
+  - split: 1
+    subIndex: 2
+    text: "嘴攻指令变化为「核枣钉」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/2020,粹毒"
+  splits:
+  - split: 1
+    text: "粹毒"
+    translated: "Purified Poison"
+- raw: "PlayerTalent/Desc/2020,[决斗]\\n备揍时涂毒，获得一个粹毒，\\n提升下回暗器效果。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时涂毒，获得一个粹毒，"
+  - split: 1
+    subIndex: 2
+    text: "提升下回暗器效果。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/2030,石灰粉"
+  splits:
+  - split: 1
+    text: "石灰粉"
+    translated: "Lime powder"
+- raw: "PlayerTalent/Desc/2030,[决斗]\\n气20以上时，\\n备揍指令变化为「石灰粉」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "气20以上时，"
+  - split: 1
+    subIndex: 2
+    text: "备揍指令变化为「石灰粉」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/2100,运气活血"
+  splits:
+  - split: 1
+    text: "运气活血"
+- raw: "PlayerTalent/Desc/2100,[决斗]\\n备揍时，根据等级加速代谢麻痹累积值。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据等级加速代谢麻痹累积值。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/2101,医术"
+  splits:
+  - split: 1
+    text: "医术"
+- raw: "PlayerTalent/Desc/2101,[决斗]\\n备揍时，根据等级回复血，额外代谢毒麻累积值。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据等级回复血，额外代谢毒麻累积值。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/2102,仙鹤迷踪步"
+  splits:
+  - split: 1
+    text: "仙鹤迷踪步"
+- raw: "PlayerTalent/Desc/2102,[决斗]\\n备揍成功后，获得一个「仙鹤迷踪」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍成功后，获得一个「仙鹤迷踪」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/2103,一趾神通"
+  splits:
+  - split: 1
+    text: "一趾神通"
+    translated: "One Toe Divine Skill"
+- raw: "PlayerTalent/Desc/2103,[决斗]\\n境界二以上，备揍变为[一趾神通]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，备揍变为"
+  - split: 1
+    subIndex: 2
+    text: "一趾神通"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/2104,折花手"
+  splits:
+  - split: 1
+    text: "折花手"
+    translated: "Flower‑folded Hands"
+- raw: "PlayerTalent/Desc/2104,[决斗]\\n备揍时，根据技能等级机率接住暗器。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据技能等级机率接住暗器。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/2105,如意境"
+  splits:
+  - split: 1
+    text: "如意境"
+    translated: "As if in Accordance with Will Scenario"
+- raw: "PlayerTalent/Desc/2105,[决斗]\\n每回合有30%机率施展[如意境]，提升拳掌。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "每回合有30%机率施展"
+  - split: 1
+    subIndex: 2
+    text: "如意境"
+  - split: 1
+    subIndex: 3
+    text: "，提升拳掌。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]{3}"
+- raw: "PlayerTalent/Name/2108,铁棋盘"
+  splits:
+  - split: 1
+    text: "铁棋盘"
+- raw: "PlayerTalent/Desc/2108,[决斗]\\n备揍时，备揍时启动机关，可收去所有暗器，下回暗器伤害上升。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，备揍时启动机关，可收去所有暗器，下回暗器伤害上升。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/2109,万剑归宗"
+  splits:
+  - split: 1
+    text: "万剑归宗"
+- raw: "PlayerTalent/Desc/2109,[决斗]\\n备揍时，消费所有连击数，额外获得气。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，消费所有连击数，额外获得气。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/2110,归元"
+  splits:
+  - split: 1
+    text: "归元"
+- raw: "PlayerTalent/Desc/2110,[决斗]\\n当连击数大于2时，备揍变成[归元]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，备揍变成"
+  - split: 1
+    subIndex: 2
+    text: "归元"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/2111,枯荣神功"
+  splits:
+  - split: 1
+    text: "枯荣神功"
+- raw: "PlayerTalent/Desc/2111,[决斗]\\n气20以上时，备揍变成[枯荣神功]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "气20以上时，备揍变成"
+  - split: 1
+    subIndex: 2
+    text: "枯荣神功"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/3000,点苍快剑"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+- raw: "PlayerTalent/Desc/3000,[决斗]\\n根据轻功提升刀剑。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功提升刀剑。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3001,提气轻身"
+  splits:
+  - split: 1
+    text: "提气轻身"
+- raw: "PlayerTalent/Desc/3001,[决斗]\\n根据内力提升轻功。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据内力提升轻功。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3002,千里不留行"
+  splits:
+  - split: 1
+    text: "千里不留行"
+    translated: "A journey of a thousand miles leaves no trace."
+- raw: "PlayerTalent/Desc/3002,[决斗]\\n根据刀剑50%提升轻功、内力、初始气。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑50%提升轻功、内力、初始气。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3003,行云流水"
+  splits:
+  - split: 1
+    text: "行云流水"
+- raw: "PlayerTalent/Desc/3003,[决斗]\\n捅人命中时获得「行云流水」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "捅人命中时获得「行云流水」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3004,勇气"
+  splits:
+  - split: 1
+    text: "勇气"
+- raw: "PlayerTalent/Desc/3004,[决斗]\\n额外新增初始气力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "额外新增初始气力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3100,欺善怕恶"
+  splits:
+  - split: 1
+    text: "欺善怕恶"
+- raw: "PlayerTalent/Desc/3100,[决斗]\\n对手气力影响自身属性。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "对手气力影响自身属性。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3102,思想战"
+  splits:
+  - split: 1
+    text: "思想战"
+- raw: "PlayerTalent/Desc/3102,[决斗]\\n依据等级，决斗开始时即默认有连击，并额外获得气。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "依据等级，决斗开始时即默认有连击，并额外获得气。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3103,飒踏流星剑"
+  splits:
+  - split: 1
+    text: "飒踏流星剑"
+- raw: "PlayerTalent/Desc/3103,[决斗]\\n决斗开始第一回合，攻击力为3倍。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始第一回合，攻击力为3倍。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3104,地轴锁天关"
+  splits:
+  - split: 1
+    text: "地轴锁天关"
+- raw: "PlayerTalent/Desc/3104,[决斗]\\n境界一以上，获得「化境」。此后提升境界，「化境」效果亦会提升。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界一以上，获得「化境」。此后提升境界，「化境」效果亦会提升。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3105,剑界"
+  splits:
+  - split: 1
+    text: "剑界"
+- raw: "PlayerTalent/Desc/3105,[决斗]\\n境界三以上，发动「剑界」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，发动「剑界」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3107,苦恼拳"
+  splits:
+  - split: 1
+    text: "苦恼拳"
+- raw: "PlayerTalent/Desc/3107,[决斗]\\n当前心相低于中庸时，\\n每1点提升1%攻击力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "当前心相低于中庸时，"
+  - split: 1
+    subIndex: 2
+    text: "每1点提升1%攻击力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/3112,无影爪"
+  splits:
+  - split: 1
+    text: "无影爪"
+- raw: "PlayerTalent/Desc/3112,[决斗]\\n攻击爆击骰子+10。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "攻击爆击骰子"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}+10。"
+- raw: "PlayerTalent/Name/3115,狮子之心"
+  splits:
+  - split: 1
+    text: "狮子之心"
+- raw: "PlayerTalent/Desc/3115,[决斗]\\n根据受到的伤害，大幅回升气。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据受到的伤害，大幅回升气。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4010,动如雷震"
+  splits:
+  - split: 1
+    text: "动如雷震"
+- raw: "PlayerTalent/Desc/4010,[决斗]\\n施展绝招时追加「震撼」效果。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "施展绝招时追加「震撼」效果。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4011,疾如风"
+  splits:
+  - split: 1
+    text: "疾如风"
+- raw: "PlayerTalent/Desc/4011,[决斗]\\n根据技能「战术」提升轻功。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据技能「战术」提升轻功。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4012,徐如林"
+  splits:
+  - split: 1
+    text: "徐如林"
+    translated: "Xu Rulin"
+- raw: "PlayerTalent/Desc/4012,[决斗]\\n根据技能「战术」每回合额外获得气力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据技能「战术」每回合额外获得气力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4013,侵掠如火"
+  splits:
+  - split: 1
+    text: "侵掠如火"
+    translated: "Invasion like a blazing fire"
+- raw: "PlayerTalent/Desc/4013,[决斗]\\n根据技能「战术」提升伤害。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据技能「战术」提升伤害。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4014,难知如阴"
+  splits:
+  - split: 1
+    text: "难知如阴"
+- raw: "PlayerTalent/Desc/4014,[决斗]\\n根据技能「战术」提升嘴力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据技能「战术」提升嘴力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4018,败絮功"
+  splits:
+  - split: 1
+    text: "败絮功"
+- raw: "PlayerTalent/Desc/4018,[决斗]\\n施展败絮功，身有[失衡]异常时失效。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "施展败絮功，身有"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  - split: 1
+    subIndex: 3
+    text: "异常时失效。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]{3}"
+- raw: "PlayerTalent/Name/4100,暗箭伤人"
+  splits:
+  - split: 1
+    text: "暗箭伤人"
+- raw: "PlayerTalent/Desc/4100,[决斗]\\n不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4103,虚张声势"
+  splits:
+  - split: 1
+    text: "虚张声势"
+- raw: "PlayerTalent/Desc/4103,[决斗]\\n决斗开始时，气-10，嘴力提升100%。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，气-10，嘴力提升100%。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/4104,毅力"
+  splits:
+  - split: 1
+    text: "毅力"
+    translated: "Perseverance"
+- raw: "PlayerTalent/Desc/4104,[决斗]\\n受到致命攻击时，以10%血幸存。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "受到致命攻击时，以10%血幸存。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/5000,白鲨语"
+  splits:
+  - split: 1
+    text: "白鲨语"
+- raw: "PlayerTalent/Desc/5000,能够听懂白鲨语。"
+  splits:
+  - split: 1
+    text: "能够听懂白鲨语。"
+- raw: "PlayerTalent/Name/6000,彼岸香"
+  splits:
+  - split: 1
+    text: "彼岸香"
+    translated: "Fragrant Shore"
+- raw: "PlayerTalent/Desc/6000,[决斗]\\n敌我每回合增加毒性累积值。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "敌我每回合增加毒性累积值。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/6001,温柔香"
+  splits:
+  - split: 1
+    text: "温柔香"
+- raw: "PlayerTalent/Desc/6001,[决斗]\\n敌我每回合增加麻痹累积值。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "敌我每回合增加麻痹累积值。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/6008,万寿尸血针"
+  splits:
+  - split: 1
+    text: "万寿尸血针"
+- raw: "PlayerTalent/Desc/6008,[决斗]\\n受到伤害时，造成敌人毒、麻累积。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "受到伤害时，造成敌人毒、麻累积。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/6011,毒功"
+  splits:
+  - split: 1
+    text: "毒功"
+    translated: "Poison Skill"
+- raw: "PlayerTalent/Desc/6011,[决斗]\\n捅人时附带50%的毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "捅人时附带50%的毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/7001,火拂尘"
+  splits:
+  - split: 1
+    text: "火拂尘"
+- raw: "PlayerTalent/Desc/7001,[决斗]\\n所有攻击都有40%机率造成[燃烧]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "所有攻击都有40%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "燃烧"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/7007,焚心火印"
+  splits:
+  - split: 1
+    text: "焚心火印"
+    translated: "Heartburn Seal"
+- raw: "PlayerTalent/Desc/7007,[决斗]\\n属性为阳时，每回合累积若干[毒]累积值，额外回复[气]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "属性为阳时，每回合累积若干"
+  - split: 1
+    subIndex: 2
+    text: "毒"
+  - split: 1
+    subIndex: 3
+    text: "累积值，额外回复"
+  - split: 1
+    subIndex: 4
+    text: "气"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]{3}[{4}]。"
+- raw: "PlayerTalent/Name/7008,逐浪诀"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+- raw: "PlayerTalent/Desc/7008,[决斗]\\n根据当前连击数，攻击有额外机率造成[失衡]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据当前连击数，攻击有额外机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/7010,地狱使者"
+  splits:
+  - split: 1
+    text: "地狱使者"
+- raw: "PlayerTalent/Desc/7010,[决斗]\\n每回合有机率对胆小的人造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "每回合有机率对胆小的人造成"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8001,天地无声势"
+  splits:
+  - split: 1
+    text: "天地无声势"
+- raw: "PlayerTalent/Desc/8001,[决斗]\\n小师妹的独门武功。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "小师妹的独门武功。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/8002,金钱镖"
+  splits:
+  - split: 1
+    text: "金钱镖"
+- raw: "PlayerTalent/Desc/8002,[决斗]\\n暗器命中时造成大额麻痹累积。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时造成大额麻痹累积。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/8003,飞燕流星翎"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+- raw: "PlayerTalent/Desc/8003,[决斗]\\n境界三以上，暗器变为[飞燕流星翎]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "飞燕流星翎"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8004,金刚神枪指"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+- raw: "PlayerTalent/Desc/8004,[决斗]\\n境界三以上，暗器变为[金刚神枪指]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "金刚神枪指"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8101,霹雳刀"
+  splits:
+  - split: 1
+    text: "霹雳刀"
+- raw: "PlayerTalent/Desc/8101,[决斗]\\n境界二以上，绝招变为[云霄雷霆霹雳刀]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "云霄雷霆霹雳刀"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8103,点破云关"
+  splits:
+  - split: 1
+    text: "点破云关"
+- raw: "PlayerTalent/Desc/8103,[决斗]\\n当连击数大于2时，绝招变成[点破云关]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "点破云关"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8106,阴阳夺"
+  splits:
+  - split: 1
+    text: "阴阳夺"
+- raw: "PlayerTalent/Desc/8106,[决斗]\\n境界二以上，绝招变为[阴阳夺]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "阴阳夺"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8108,铁臂飞拳"
+  splits:
+  - split: 1
+    text: "铁臂飞拳"
+- raw: "PlayerTalent/Desc/8108,[决斗]\\n境界二以上，绝招变为[铁臂飞拳]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "铁臂飞拳"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8111,神雷"
+  splits:
+  - split: 1
+    text: "神雷"
+    translated: "Divine Thunder"
+- raw: "PlayerTalent/Desc/8111,[决斗]\\n境界三以上，绝招变为「神雷」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，绝招变为「神雷」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/8112,太白仙迹"
+  splits:
+  - split: 1
+    text: "太白仙迹"
+- raw: "PlayerTalent/Desc/8112,[决斗]\\n境界二以上，绝招变为「太白仙迹」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为「太白仙迹」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/8113,绝影奇袭"
+  splits:
+  - split: 1
+    text: "绝影奇袭"
+- raw: "PlayerTalent/Desc/8113,[决斗]\\n境界三以上，绝招变为「绝影奇袭」。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，绝招变为「绝影奇袭」。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/8119,天罡伏魔剑"
+  splits:
+  - split: 1
+    text: "天罡伏魔剑"
+- raw: "PlayerTalent/Desc/8119,[决斗]\\n境界三以上，绝招变为[天罡伏魔剑]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "天罡伏魔剑"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8121,风雷神脚"
+  splits:
+  - split: 1
+    text: "风雷神脚"
+- raw: "PlayerTalent/Desc/8121,[决斗]\\n境界二以上，连击数大于3时，绝招变为[风雷神脚]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，连击数大于3时，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "风雷神脚"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8125,同舟剑法"
+  splits:
+  - split: 1
+    text: "同舟剑法"
+- raw: "PlayerTalent/Desc/8125,[决斗]\\n有支持同伴时，全属性上升。\\n且连击数>2时，绝招变为[同舟剑法]。\\n无法使用[点破云关]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "有支持同伴时，全属性上升。"
+  - split: 1
+    subIndex: 2
+    text: "且连击数"
+  - split: 1
+    subIndex: 3
+    text: "2时，绝招变为"
+  - split: 1
+    subIndex: 4
+    text: "同舟剑法"
+  - split: 1
+    subIndex: 5
+    text: "无法使用"
+  - split: 1
+    subIndex: 6
+    text: "点破云关"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}\\n{2}>{3}[{4}]。\\n{5}[{6}]。"
+- raw: "PlayerTalent/Name/8126,剑圣第一极招"
+  splits:
+  - split: 1
+    text: "剑圣第一极招"
+- raw: "PlayerTalent/Desc/8126,[决斗]\\n当连击数大于3时，绝招变为[第一极招]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于3时，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "第一极招"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8127,剑圣第二极招"
+  splits:
+  - split: 1
+    text: "剑圣第二极招"
+- raw: "PlayerTalent/Desc/8127,[决斗]\\n当连击数大于3时，绝招变为[第二极招]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于3时，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "第二极招"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8128,剑圣第三极招"
+  splits:
+  - split: 1
+    text: "剑圣第三极招"
+- raw: "PlayerTalent/Desc/8128,[决斗]\\n当连击数大于3时，绝招变为[第三极招]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于3时，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "第三极招"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/9000,不洗澡"
+  splits:
+  - split: 1
+    text: "不洗澡"
+    translated: "No bath taken"
+- raw: "PlayerTalent/Desc/9000,不洗澡"
+  splits:
+  - split: 1
+    text: "不洗澡"
+    translated: "No bath taken"
+- raw: "PlayerTalent/Name/9100,战术"
+  splits:
+  - split: 1
+    text: "战术"
+- raw: "PlayerTalent/Desc/9100,[决斗]\\n根据等级，强化战术类技能的效果。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据等级，强化战术类技能的效果。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9102,铁琵琶功"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+- raw: "PlayerTalent/Desc/9102,[决斗]\\n崆峒奥义铁琵琶功。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "崆峒奥义铁琵琶功。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9103,大焦热神功"
+  splits:
+  - split: 1
+    text: "大焦热神功"
+- raw: "PlayerTalent/Desc/9103,大焦热神功。"
+  splits:
+  - split: 1
+    text: "大焦热神功。"
+- raw: "PlayerTalent/Name/9104,南宫护心诀"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+- raw: "PlayerTalent/Desc/9104,[决斗]\\n可抵挡致命攻击，並恢复气力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，並恢复气力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9105,失魂落魄"
+  splits:
+  - split: 1
+    text: "失魂落魄"
+    translated: "Lost in thought"
+- raw: "PlayerTalent/Desc/9105,[决斗]\\n有10%机率发作，忘记自己自谁、为何在此，不能行动。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "有10%机率发作，忘记自己自谁、为何在此，不能行动。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9106,经脉闭塞"
+  splits:
+  - split: 1
+    text: "经脉闭塞"
+- raw: "PlayerTalent/Desc/9106,内力大幅弱化。"
+  splits:
+  - split: 1
+    text: "内力大幅弱化。"
+- raw: "PlayerTalent/Name/9107,玄黄纳心纲"
+  splits:
+  - split: 1
+    text: "玄黄纳心纲"
+- raw: "PlayerTalent/Desc/9107,玄黄纳心纲"
+  splits:
+  - split: 1
+    text: "玄黄纳心纲"
+- raw: "PlayerTalent/Name/9108,雪山心法"
+  splits:
+  - split: 1
+    text: "雪山心法"
+    translated: "Snow Mountain Heart Method"
+- raw: "PlayerTalent/Desc/9108,雪山心法"
+  splits:
+  - split: 1
+    text: "雪山心法"
+    translated: "Snow Mountain Heart Method"
+- raw: "PlayerTalent/Name/9109,战术诱导"
+  splits:
+  - split: 1
+    text: "战术诱导"
+- raw: "PlayerTalent/Desc/9109,[决斗]\\n根据[战术]技能等级，有更高机率看穿对手意图。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "战术"
+  - split: 1
+    subIndex: 3
+    text: "技能等级，有更高机率看穿对手意图。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]{3}"
+- raw: "PlayerTalent/Name/9110,兵器损毁"
+  splits:
+  - split: 1
+    text: "兵器损毁"
+- raw: "PlayerTalent/Desc/9110,兵器损毁"
+  splits:
+  - split: 1
+    text: "兵器损毁"
+- raw: "PlayerTalent/Name/9111,寂灭三摩地"
+  splits:
+  - split: 1
+    text: "寂灭三摩地"
+- raw: "PlayerTalent/Desc/9111,寂灭三摩地"
+  splits:
+  - split: 1
+    text: "寂灭三摩地"
+- raw: "PlayerTalent/Name/9112,九转轮回"
+  splits:
+  - split: 1
+    text: "九转轮回"
+- raw: "PlayerTalent/Desc/9112,[决斗]\\n可抵挡致命攻击，并恢复满血。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，并恢复满血。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9113,偕老誓"
+  splits:
+  - split: 1
+    text: "偕老誓"
+    translated: "Vow of Growing Old Together"
+- raw: "PlayerTalent/Desc/9113,[决斗]\\n可抵挡致命攻击，并恢复气力。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，并恢复气力。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9200,打穴娟索"
+  splits:
+  - split: 1
+    text: "打穴娟索"
+    translated: "Acupoint Striking and Threading"
+- raw: "PlayerTalent/Desc/9200,[決鬥]\\n气高于对手时，暗器变为[打穴娟索]。"
+  splits:
+  - split: 1
+    text: "決鬥"
+  - split: 1
+    subIndex: 1
+    text: "气高于对手时，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "打穴娟索"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/9201,猿王劈山"
+  splits:
+  - split: 1
+    text: "猿王劈山"
+    translated: "Yuan Wang Splitting Mountain"
+- raw: "PlayerTalent/Desc/9201,[决斗]\\n根据连击数造成伤害。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "根据连击数造成伤害。"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/9202,猿王回风"
+  splits:
+  - split: 1
+    text: "猿王回风"
+- raw: "PlayerTalent/Desc/9202,[决斗]\\n备揍时格档、闪避大幅上升，成功回避攻击时获得[猿王回风]。"
+  splits:
+  - split: 1
+    text: "决斗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时格档、闪避大幅上升，成功回避攻击时获得"
+  - split: 1
+    subIndex: 2
+    text: "猿王回风"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/9500,儒学"
+  splits:
+  - split: 1
+    text: "儒学"
+- raw: "PlayerTalent/Desc/9500,儒学精通"
+  splits:
+  - split: 1
+    text: "儒学精通"
+- raw: "PlayerTalent/Name/9501,道学"
+  splits:
+  - split: 1
+    text: "道学"
+- raw: "PlayerTalent/Desc/9501,道学精通"
+  splits:
+  - split: 1
+    text: "道学精通"
+- raw: "PlayerTalent/Name/9502,佛学"
+  splits:
+  - split: 1
+    text: "佛学"
+- raw: "PlayerTalent/Desc/9502,佛学精通"
+  splits:
+  - split: 1
+    text: "佛学精通"
+- raw: "PlayerTalent/Name/9503,形意拳"
+  splits:
+  - split: 1
+    text: "形意拳"
+    translated: "Xingyi Fist"
+- raw: "PlayerTalent/Desc/9503,形意拳精通"
+  splits:
+  - split: 1
+    text: "形意拳精通"
+    translated: "Form Sandboxing Fist proficiently"

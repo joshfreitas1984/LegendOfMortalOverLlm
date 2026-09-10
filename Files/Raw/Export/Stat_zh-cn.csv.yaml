@@ -1,0 +1,515 @@
+- raw: "PlayerStat/money,银两"
+  splits:
+  - split: 1
+    text: "银两"
+- raw: "PlayerStat/life,体力"
+  splits:
+  - split: 1
+    text: "体力"
+- raw: "PlayerStat/stamina,内力"
+  splits:
+  - split: 1
+    text: "内力"
+- raw: "PlayerStat/dexterity,轻功"
+  splits:
+  - split: 1
+    text: "轻功"
+- raw: "PlayerStat/charisma,魅力"
+  splits:
+  - split: 1
+    text: "魅力"
+- raw: "PlayerStat/literacy,学问"
+  splits:
+  - split: 1
+    text: "学问"
+- raw: "PlayerStat/mental,心相"
+  splits:
+  - split: 1
+    text: "心相"
+- raw: "PlayerStat/fate,命运"
+  splits:
+  - split: 1
+    text: "命运"
+- raw: "PlayerStat/disposition,性情"
+  splits:
+  - split: 1
+    text: "性情"
+- raw: "PlayerStat/behaviour,处世"
+  splits:
+  - split: 1
+    text: "处世"
+- raw: "PlayerStat/training,修养"
+  splits:
+  - split: 1
+    text: "修养"
+- raw: "PlayerStat/karma,道德"
+  splits:
+  - split: 1
+    text: "道德"
+- raw: "PlayerStat/talking,嘴力"
+  splits:
+  - split: 1
+    text: "嘴力"
+- raw: "PlayerStat/fame,名声"
+  splits:
+  - split: 1
+    text: "名声"
+- raw: "PlayerStat/people,门人"
+  splits:
+  - split: 1
+    text: "门人"
+- raw: "PlayerStat/team,向心"
+  splits:
+  - split: 1
+    text: "向心"
+- raw: "PlayerStat/faction,门派规模"
+  splits:
+  - split: 1
+    text: "门派规模"
+- raw: "PlayerStat/weapon,锻造"
+  splits:
+  - split: 1
+    text: "锻造"
+- raw: "PlayerStat/poison,炼丹"
+  splits:
+  - split: 1
+    text: "炼丹"
+- raw: "PlayerStat/contribution,贡献度"
+  splits:
+  - split: 1
+    text: "贡献度"
+- raw: "PlayerStat/internal,阴阳"
+  splits:
+  - split: 1
+    text: "阴阳"
+- raw: "PlayerStat/change-heart,变心"
+  splits:
+  - split: 1
+    text: "变心"
+- raw: "PlayerStat/action,行动次数"
+  splits:
+  - split: 1
+    text: "行动次数"
+- raw: "PlayerStat/action2,行动"
+  splits:
+  - split: 1
+    text: "行动"
+- raw: "PlayerStat/poison-resistance,抗毒"
+  splits:
+  - split: 1
+    text: "抗毒"
+- raw: "PlayerStat/paralysis-resistance,抗麻"
+  splits:
+  - split: 1
+    text: "抗麻"
+- raw: "PlayerStat/martial-point,武学"
+  splits:
+  - split: 1
+    text: "武学"
+- raw: "PlayerStat/assets,门派资产"
+  splits:
+  - split: 1
+    text: "门派资产"
+- raw: "PlayerStat/m-sword,刀剑"
+  splits:
+  - split: 1
+    text: "刀剑"
+- raw: "PlayerStat/m-projectile,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+- raw: "PlayerStat/m-fist,拳掌"
+  splits:
+  - split: 1
+    text: "拳掌"
+- raw: "PlayerStat/m-leg,腿法"
+  splits:
+  - split: 1
+    text: "腿法"
+- raw: "PlayerStat/m-odd,奇门"
+  splits:
+  - split: 1
+    text: "奇门"
+- raw: "PlayerStat/m-soft,软兵器"
+  splits:
+  - split: 1
+    text: "软兵器"
+- raw: "PlayerStat/m-stick,枪棍"
+  splits:
+  - split: 1
+    text: "枪棍"
+- raw: "PlayerStat/m-internal,内功"
+  splits:
+  - split: 1
+    text: "内功"
+- raw: "PlayerStat/poison-value,毒药"
+  splits:
+  - split: 1
+    text: "毒药"
+- raw: "PlayerStat/paralysis-value,麻痹"
+  splits:
+  - split: 1
+    text: "麻痹"
+- raw: "PlayerStat/confucianism,儒学"
+  splits:
+  - split: 1
+    text: "儒学"
+- raw: "PlayerStat/taoism,道学"
+  splits:
+  - split: 1
+    text: "道学"
+- raw: "PlayerStat/buddhism,释学"
+  splits:
+  - split: 1
+    text: "释学"
+- raw: "PlayerStat/xingyi,形意拳"
+  splits:
+  - split: 1
+    text: "形意拳"
+- raw: "PlayerStat/relationship,好感度"
+  splits:
+  - split: 1
+    text: "好感度"
+- raw: "PlayerStat/default-battle-hp,门人血量"
+  splits:
+  - split: 1
+    text: "门人血量"
+- raw: "PlayerStat/battle-people,门人数量"
+  splits:
+  - split: 1
+    text: "门人数量"
+- raw: "PlayerStat/lover,心上人"
+  splits:
+  - split: 1
+    text: "心上人"
+- raw: "PlayerStat/combat-attack,攻击"
+  splits:
+  - split: 1
+    text: "攻击"
+- raw: "PlayerStat/combat-defence,防御"
+  splits:
+  - split: 1
+    text: "防御"
+- raw: "PlayerStat/combat-ultimate,绝招"
+  splits:
+  - split: 1
+    text: "绝招"
+- raw: "PlayerStat/combat-attack-dice,爆发"
+  splits:
+  - split: 1
+    text: "爆发"
+- raw: "PlayerStat/combat-weapon,暗器威力"
+  splits:
+  - split: 1
+    text: "暗器威力"
+- raw: "PlayerStat/combat-weapon-dice,暗器爆发"
+  splits:
+  - split: 1
+    text: "暗器爆发"
+- raw: "PlayerStatDesc/life,影响生命、绝招威力（小）。"
+  splits:
+  - split: 1
+    text: "影响生命、绝招威力（小）。"
+- raw: "PlayerStatDesc/stamina,影响攻击力(中)、绝招威力(中)、战役回气速度。"
+  splits:
+  - split: 1
+    text: "影响攻击力"
+  - split: 1
+    subIndex: 1
+    text: "中"
+  - split: 1
+    subIndex: 2
+    text: "、绝招威力"
+  - split: 1
+    subIndex: 3
+    text: "中"
+  - split: 1
+    subIndex: 4
+    text: "、战役回气速度。"
+  templates:
+  - split: 1
+    template: "{0}({1}){2}({3}){4}"
+- raw: "PlayerStatDesc/dexterity,影响回避机率、绝招威力（中）、战役移动速度。"
+  splits:
+  - split: 1
+    text: "影响回避机率、绝招威力（中）、战役移动速度。"
+- raw: "PlayerStatDesc/m-sword,影响攻击力(大)。"
+  splits:
+  - split: 1
+    text: "影响攻击力"
+  - split: 1
+    subIndex: 1
+    text: "大"
+  templates:
+  - split: 1
+    template: "{0}({1})。"
+- raw: "PlayerStatDesc/m-fist,影响攻击力(小)、影响防御(大)。"
+  splits:
+  - split: 1
+    text: "影响攻击力"
+  - split: 1
+    subIndex: 1
+    text: "小"
+  - split: 1
+    subIndex: 2
+    text: "、影响防御"
+  - split: 1
+    subIndex: 3
+    text: "大"
+  templates:
+  - split: 1
+    template: "{0}({1}){2}({3})。"
+- raw: "PlayerStatDesc/m-projectile,影响暗器的威力、爆击。"
+  splits:
+  - split: 1
+    text: "影响暗器的威力、爆击。"
+- raw: "PlayerStatDesc/poison-resistance,影响血毒的抗性、代谢率。"
+  splits:
+  - split: 1
+    text: "影响血毒的抗性、代谢率。"
+- raw: "PlayerStatDesc/paralysis-resistance,影响神经毒的抗性、代谢率。"
+  splits:
+  - split: 1
+    text: "影响神经毒的抗性、代谢率。"
+- raw: "PlayerStatDesc/talking,说话的才能，影响嘴攻效果。"
+  splits:
+  - split: 1
+    text: "说话的才能，影响嘴攻效果。"
+- raw: "PlayerStatDesc/literacy,学习所得的知识。"
+  splits:
+  - split: 1
+    text: "学习所得的知识。"
+- raw: "PlayerStatDesc/charisma,你所没有的某种东西。"
+  splits:
+  - split: 1
+    text: "你所没有的某种东西。"
+- raw: "PlayerStatDesc/mental,影响锻冶、炼丹、修练活动成功率。"
+  splits:
+  - split: 1
+    text: "影响锻冶、炼丹、修练活动成功率。"
+- raw: "PlayerStatDesc/weapon,锻造点数。[锻冶场使用]"
+  splits:
+  - split: 1
+    text: "锻造点数。"
+  - split: 1
+    subIndex: 1
+    text: "锻冶场使用"
+  templates:
+  - split: 1
+    template: "{0}[{1}]"
+- raw: "PlayerStatDesc/poison,炼丹点数。[炼丹房使用]"
+  splits:
+  - split: 1
+    text: "炼丹点数。"
+  - split: 1
+    subIndex: 1
+    text: "炼丹房使用"
+  templates:
+  - split: 1
+    template: "{0}[{1}]"
+- raw: "PlayerStatDesc/people,门派的门人数量。"
+  splits:
+  - split: 1
+    text: "门派的门人数量。"
+- raw: "PlayerStatDesc/fame,门派的名声。"
+  splits:
+  - split: 1
+    text: "门派的名声。"
+- raw: "PlayerStatDesc/team,门派的向心力。"
+  splits:
+  - split: 1
+    text: "门派的向心力。"
+- raw: "PlayerStatDesc/assets,门派的资产。"
+  splits:
+  - split: 1
+    text: "门派的资产。"
+- raw: "PlayerStatDesc/martial-point,武学点数。[修练秘籍使用]"
+  splits:
+  - split: 1
+    text: "武学点数。"
+  - split: 1
+    subIndex: 1
+    text: "修练秘籍使用"
+  templates:
+  - split: 1
+    template: "{0}[{1}]"
+- raw: "PlayerStatDesc/combat-attack,攻击：基础杀伤力。"
+  splits:
+  - split: 1
+    text: "攻击"
+  - split: 1
+    subIndex: 1
+    text: "基础杀伤力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "PlayerStatDesc/combat-defence,防御：备揍减伤率、格档率。"
+  splits:
+  - split: 1
+    text: "防御"
+  - split: 1
+    subIndex: 1
+    text: "备揍减伤率、格档率。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "PlayerStatDesc/combat-ultimate,绝招：绝招的威力。"
+  splits:
+  - split: 1
+    text: "绝招"
+  - split: 1
+    subIndex: 1
+    text: "绝招的威力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "PlayerStatDesc/combat-attack-dice,爆发：影响攻击的骰子。"
+  splits:
+  - split: 1
+    text: "爆发"
+  - split: 1
+    subIndex: 1
+    text: "影响攻击的骰子。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "PlayerStatDesc/combat-weapon,暗器：暗器的威力。"
+  splits:
+  - split: 1
+    text: "暗器"
+  - split: 1
+    subIndex: 1
+    text: "暗器的威力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "PlayerStatDesc/combat-weapon-dice,爆发：影响暗器的骰子。"
+  splits:
+  - split: 1
+    text: "爆发"
+  - split: 1
+    subIndex: 1
+    text: "影响暗器的骰子。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "PlayerStatDesc/poison-value,暗器击中毒药累积值。"
+  splits:
+  - split: 1
+    text: "暗器击中毒药累积值。"
+- raw: "PlayerStatDesc/paralysis-value,暗器击中麻痹累积值。"
+  splits:
+  - split: 1
+    text: "暗器击中麻痹累积值。"
+- raw: "StatLevel/karma01,恶棍"
+  splits:
+  - split: 1
+    text: "恶棍"
+- raw: "StatLevel/karma02,坏人"
+  splits:
+  - split: 1
+    text: "坏人"
+- raw: "StatLevel/karma03,中庸"
+  splits:
+  - split: 1
+    text: "中庸"
+- raw: "StatLevel/karma04,好人"
+  splits:
+  - split: 1
+    text: "好人"
+- raw: "StatLevel/karma05,侠客"
+  splits:
+  - split: 1
+    text: "侠客"
+- raw: "StatLevel/disposition01,懦夫"
+  splits:
+  - split: 1
+    text: "懦夫"
+- raw: "StatLevel/disposition02,谨慎"
+  splits:
+  - split: 1
+    text: "谨慎"
+- raw: "StatLevel/disposition03,中庸"
+  splits:
+  - split: 1
+    text: "中庸"
+- raw: "StatLevel/disposition04,勇敢"
+  splits:
+  - split: 1
+    text: "勇敢"
+- raw: "StatLevel/disposition05,莽夫"
+  splits:
+  - split: 1
+    text: "莽夫"
+- raw: "StatLevel/behaviour01,矫情"
+  splits:
+  - split: 1
+    text: "矫情"
+- raw: "StatLevel/behaviour02,知礼"
+  splits:
+  - split: 1
+    text: "知礼"
+- raw: "StatLevel/behaviour03,中庸"
+  splits:
+  - split: 1
+    text: "中庸"
+- raw: "StatLevel/behaviour04,豪爽"
+  splits:
+  - split: 1
+    text: "豪爽"
+- raw: "StatLevel/behaviour05,粗鲁"
+  splits:
+  - split: 1
+    text: "粗鲁"
+- raw: "StatLevel/training01,疯狂"
+  splits:
+  - split: 1
+    text: "疯狂"
+- raw: "StatLevel/training02,暴躁"
+  splits:
+  - split: 1
+    text: "暴躁"
+- raw: "StatLevel/training03,中庸"
+  splits:
+  - split: 1
+    text: "中庸"
+- raw: "StatLevel/training04,沉着"
+  splits:
+  - split: 1
+    text: "沉着"
+- raw: "StatLevel/training05,君子"
+  splits:
+  - split: 1
+    text: "君子"
+- raw: "StatLevel/mental01,忧郁"
+  splits:
+  - split: 1
+    text: "忧郁"
+- raw: "StatLevel/mental02,平静"
+  splits:
+  - split: 1
+    text: "平静"
+- raw: "StatLevel/mental03,快乐"
+  splits:
+  - split: 1
+    text: "快乐"
+- raw: "StatLevel/internal01,老阴"
+  splits:
+  - split: 1
+    text: "老阴"
+- raw: "StatLevel/internal02,少阴"
+  splits:
+  - split: 1
+    text: "少阴"
+- raw: "StatLevel/internal03,调和"
+  splits:
+  - split: 1
+    text: "调和"
+- raw: "StatLevel/internal04,少阳"
+  splits:
+  - split: 1
+    text: "少阳"
+- raw: "StatLevel/internal05,老阳"
+  splits:
+  - split: 1
+    text: "老阳"

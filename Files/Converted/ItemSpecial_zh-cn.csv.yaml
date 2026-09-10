@@ -1,0 +1,887 @@
+- raw: "Special/Name/1000,小师妹的香囊"
+  splits:
+  - split: 1
+    text: "小师妹的香囊"
+- raw: "Special/Desc/1000,小师妹随身配戴的香囊，有她喜欢的香料。\\n可以驱虫、驱蛇，但闻久会中毒。"
+  splits:
+  - split: 1
+    text: "小师妹随身配戴的香囊，有她喜欢的香料。"
+  - split: 1
+    subIndex: 1
+    text: "可以驱虫、驱蛇，但闻久会中毒。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/1001,大师兄的涂鸦"
+  splits:
+  - split: 1
+    text: "大师兄的涂鸦"
+- raw: "Special/Desc/1001,完全不知道在画什么东西，\\n但是很好笑所以姑且留着。"
+  splits:
+  - split: 1
+    text: "完全不知道在画什么东西，"
+  - split: 1
+    subIndex: 1
+    text: "但是很好笑所以姑且留着。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/1002,夏侯兰的发带"
+  splits:
+  - split: 1
+    text: "夏侯兰的发带"
+- raw: "Special/Desc/1002,夏侯兰爱用的发带，不是什么希罕的事物，质地也普通。\\n因为她配戴过，所以才意义非凡。"
+  splits:
+  - split: 1
+    text: "夏侯兰爱用的发带，不是什么希罕的事物，质地也普通。"
+  - split: 1
+    subIndex: 1
+    text: "因为她配戴过，所以才意义非凡。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/1003,上官萤的发簪"
+  splits:
+  - split: 1
+    text: "上官萤的发簪"
+- raw: "Special/Desc/1003,上官萤的发簪，簪身纯金，串有三颗珍珠，异常名贵。\\n是她谈成第一笔大买卖时，奢侈一回送给自己的礼物。"
+  splits:
+  - split: 1
+    text: "上官萤的发簪，簪身纯金，串有三颗珍珠，异常名贵。"
+  - split: 1
+    subIndex: 1
+    text: "是她谈成第一笔大买卖时，奢侈一回送给自己的礼物。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/1004,龙湘的发簪"
+  splits:
+  - split: 1
+    text: "龙湘的发簪"
+- raw: "Special/Desc/1004,龙湘的玉髓发髻，共有两对，来自大宋进贡给金国的一尊玉龙像。\\n她爹龙渊少年时引以为耻，愤而折断龙角逃亡，后来做成发簪，留赠女儿。"
+  splits:
+  - split: 1
+    text: "龙湘的玉髓发髻，共有两对，来自大宋进贡给金国的一尊玉龙像。"
+  - split: 1
+    subIndex: 1
+    text: "她爹龙渊少年时引以为耻，愤而折断龙角逃亡，后来做成发簪，留赠女儿。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/1005,叶云裳的梳子"
+  splits:
+  - split: 1
+    text: "叶云裳的梳子"
+- raw: "Special/Desc/1005,叶云裳所收藏的第一号宝物，象牙梳子。\\n纹饰为云与叶，赠你以为结发之证。"
+  splits:
+  - split: 1
+    text: "叶云裳所收藏的第一号宝物，象牙梳子。"
+  - split: 1
+    subIndex: 1
+    text: "纹饰为云与叶，赠你以为结发之证。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/2000,反唐门联盟成员清单"
+  splits:
+  - split: 1
+    text: "反唐门联盟成员清单"
+- raw: "Special/Desc/2000,反唐门联盟成员清单"
+  splits:
+  - split: 1
+    text: "反唐门联盟成员清单"
+- raw: "Special/Name/2001,机巧飞蝗"
+  splits:
+  - split: 1
+    text: "机巧飞蝗"
+- raw: "Special/Desc/2001,你以纯熟匠艺打造的掌心玩物，\\n会叫会跳，有多种变速与音效。\\n无法当作暗器使用，会坏掉。"
+  splits:
+  - split: 1
+    text: "你以纯熟匠艺打造的掌心玩物，"
+  - split: 1
+    subIndex: 1
+    text: "会叫会跳，有多种变速与音效。"
+  - split: 1
+    subIndex: 2
+    text: "无法当作暗器使用，会坏掉。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Special/Name/2002,崆峒磨喝乐"
+  splits:
+  - split: 1
+    text: "崆峒磨喝乐"
+- raw: "Special/Desc/2002,七夕日供乞巧用的娃娃。常用木、泥或蜡制成，好一点的会用瓷、玉。\\n常做成可爱儿童的模样，沦为孩童的玩具。"
+  splits:
+  - split: 1
+    text: "七夕日供乞巧用的娃娃。常用木、泥或蜡制成，好一点的会用瓷、玉。"
+  - split: 1
+    subIndex: 1
+    text: "常做成可爱儿童的模样，沦为孩童的玩具。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/2003,小竹按摩券"
+  splits:
+  - split: 1
+    text: "小竹按摩券"
+    translated: "Xiao Zhu Massage Voucher"
+- raw: "Special/Desc/2003,小竹满怀感激，鼓起勇气送出的按摩券。\\n多年无人敢用，辗转易主，来到你的手里。"
+  splits:
+  - split: 1
+    text: "小竹满怀感激，鼓起勇气送出的按摩券。"
+  - split: 1
+    subIndex: 1
+    text: "多年无人敢用，辗转易主，来到你的手里。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/2004,文房四宝"
+  splits:
+  - split: 1
+    text: "文房四宝"
+- raw: "Special/Desc/2004,质地上好的文房四宝，即为毛笔、墨、宣纸、砚台"
+  splits:
+  - split: 1
+    text: "质地上好的文房四宝，即为毛笔、墨、宣纸、砚台"
+- raw: "Special/Name/2005,发簪"
+  splits:
+  - split: 1
+    text: "发簪"
+- raw: "Special/Desc/2005,你自己手削的发簪，其实做工挺精细的，自己看着都挺满意的。"
+  splits:
+  - split: 1
+    text: "你自己手削的发簪，其实做工挺精细的，自己看着都挺满意的。"
+- raw: "Special/Name/2006,赵活磨喝乐"
+  splits:
+  - split: 1
+    text: "赵活磨喝乐"
+- raw: "Special/Desc/2006,赵活磨喝乐"
+  splits:
+  - split: 1
+    text: "赵活磨喝乐"
+- raw: "Special/Name/3104,江湖快报四月号"
+  splits:
+  - split: 1
+    text: "江湖快报四月号"
+- raw: "Special/Desc/3104,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3105,江湖快报五月号"
+  splits:
+  - split: 1
+    text: "江湖快报五月号"
+- raw: "Special/Desc/3105,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3106,江湖快报六月号"
+  splits:
+  - split: 1
+    text: "江湖快报六月号"
+- raw: "Special/Desc/3106,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3107,江湖快报七月号"
+  splits:
+  - split: 1
+    text: "江湖快报七月号"
+- raw: "Special/Desc/3107,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3108,江湖快报八月号"
+  splits:
+  - split: 1
+    text: "江湖快报八月号"
+- raw: "Special/Desc/3108,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3109,江湖快报九月号"
+  splits:
+  - split: 1
+    text: "江湖快报九月号"
+- raw: "Special/Desc/3109,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3110,江湖快报十月号"
+  splits:
+  - split: 1
+    text: "江湖快报十月号"
+- raw: "Special/Desc/3110,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3111,江湖快报十一月号"
+  splits:
+  - split: 1
+    text: "江湖快报十一月号"
+- raw: "Special/Desc/3111,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3112,江湖快报十二月号"
+  splits:
+  - split: 1
+    text: "江湖快报十二月号"
+- raw: "Special/Desc/3112,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3201,江湖快报一月号"
+  splits:
+  - split: 1
+    text: "江湖快报一月号"
+- raw: "Special/Desc/3201,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3202,江湖快报二月号"
+  splits:
+  - split: 1
+    text: "江湖快报二月号"
+- raw: "Special/Desc/3202,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3203,江湖快报三月号"
+  splits:
+  - split: 1
+    text: "江湖快报三月号"
+- raw: "Special/Desc/3203,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3204,江湖快报四月号"
+  splits:
+  - split: 1
+    text: "江湖快报四月号"
+- raw: "Special/Desc/3204,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3205,江湖快报五月号"
+  splits:
+  - split: 1
+    text: "江湖快报五月号"
+- raw: "Special/Desc/3205,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3206,江湖快报六月号"
+  splits:
+  - split: 1
+    text: "江湖快报六月号"
+- raw: "Special/Desc/3206,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3207,江湖快报七月号"
+  splits:
+  - split: 1
+    text: "江湖快报七月号"
+- raw: "Special/Desc/3207,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3208,江湖快报八月号"
+  splits:
+  - split: 1
+    text: "江湖快报八月号"
+- raw: "Special/Desc/3208,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3209,江湖快报九月号"
+  splits:
+  - split: 1
+    text: "江湖快报九月号"
+- raw: "Special/Desc/3209,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3210,江湖快报十月号"
+  splits:
+  - split: 1
+    text: "江湖快报十月号"
+- raw: "Special/Desc/3210,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3211,江湖快报十一月号"
+  splits:
+  - split: 1
+    text: "江湖快报十一月号"
+- raw: "Special/Desc/3211,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3212,江湖快报十二月号"
+  splits:
+  - split: 1
+    text: "江湖快报十二月号"
+- raw: "Special/Desc/3212,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3301,江湖快报一月号"
+  splits:
+  - split: 1
+    text: "江湖快报一月号"
+- raw: "Special/Desc/3301,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3302,江湖快报二月号"
+  splits:
+  - split: 1
+    text: "江湖快报二月号"
+- raw: "Special/Desc/3302,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3303,江湖快报三月号"
+  splits:
+  - split: 1
+    text: "江湖快报三月号"
+- raw: "Special/Desc/3303,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3304,江湖快报四月号"
+  splits:
+  - split: 1
+    text: "江湖快报四月号"
+- raw: "Special/Desc/3304,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3305,江湖快报五月号"
+  splits:
+  - split: 1
+    text: "江湖快报五月号"
+- raw: "Special/Desc/3305,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3306,江湖快报六月号"
+  splits:
+  - split: 1
+    text: "江湖快报六月号"
+- raw: "Special/Desc/3306,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3307,江湖快报七月号"
+  splits:
+  - split: 1
+    text: "江湖快报七月号"
+- raw: "Special/Desc/3307,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3308,江湖快报八月号"
+  splits:
+  - split: 1
+    text: "江湖快报八月号"
+- raw: "Special/Desc/3308,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3309,江湖快报九月号"
+  splits:
+  - split: 1
+    text: "江湖快报九月号"
+- raw: "Special/Desc/3309,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3310,江湖快报十月号"
+  splits:
+  - split: 1
+    text: "江湖快报十月号"
+- raw: "Special/Desc/3310,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3311,江湖快报十一月号"
+  splits:
+  - split: 1
+    text: "江湖快报十一月号"
+- raw: "Special/Desc/3311,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/3312,江湖快报十二月号"
+  splits:
+  - split: 1
+    text: "江湖快报十二月号"
+- raw: "Special/Desc/3312,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  splits:
+  - split: 1
+    text: "出自神秘组织耕阳读书斋的江湖刊物。"
+  - split: 1
+    subIndex: 1
+    text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4001,切鱼刀"
+  splits:
+  - split: 1
+    text: "切鱼刀"
+- raw: "Special/Desc/4001,造型奇特、却极其锋利的东洋杀鱼刀。"
+  splits:
+  - split: 1
+    text: "造型奇特、却极其锋利的东洋杀鱼刀。"
+- raw: "Special/Name/4002,无形箭"
+  splits:
+  - split: 1
+    text: "无形箭"
+- raw: "Special/Desc/4002,唐门失传的暗器，这枚透明的花瓣，其庐山真面目是一种名叫「玻璃」的宝物。\\n与寻常琉璃不同，清澈如水，击发出去无影无形，凶险异常。"
+  splits:
+  - split: 1
+    text: "唐门失传的暗器，这枚透明的花瓣，其庐山真面目是一种名叫「玻璃」的宝物。"
+  - split: 1
+    subIndex: 1
+    text: "与寻常琉璃不同，清澈如水，击发出去无影无形，凶险异常。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4003,乌蚕宝衣"
+  splits:
+  - split: 1
+    text: "乌蚕宝衣"
+- raw: "Special/Desc/4003,小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。\\n她拙于言词，只能以此表明心迹，只愿风雨雷电不能加诸你身，余生无病无灾。"
+  splits:
+  - split: 1
+    text: "小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。"
+  - split: 1
+    subIndex: 1
+    text: "她拙于言词，只能以此表明心迹，只愿风雨雷电不能加诸你身，余生无病无灾。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4004,玉霄神匕"
+  splits:
+  - split: 1
+    text: "玉霄神匕"
+    translated: "Jade Sky Divine Dagger"
+- raw: "Special/Desc/4004,小梅爱用的匕首，乃是铁拳前掌门手把手带着小竹，为小梅打造的兵器。\\n玉霄神是对梅花高洁品行的至高赞赏。"
+  splits:
+  - split: 1
+    text: "小梅爱用的匕首，乃是铁拳前掌门手把手带着小竹，为小梅打造的兵器。"
+  - split: 1
+    subIndex: 1
+    text: "玉霄神是对梅花高洁品行的至高赞赏。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4005,唐门传承小剑"
+  splits:
+  - split: 1
+    text: "唐门传承小剑"
+- raw: "Special/Desc/4005,唐门承传至今的古老小剑，以现今弃用的方法铸造。将剑中钢 球灌注水银，使重心无时不刻变动，须以内力制驭。如果能够熟练使用，可谓变化无穷。"
+  splits:
+  - split: 1
+    text: "唐门承传至今的古老小剑，以现今弃用的方法铸造。将剑中钢"
+  - split: 1
+    subIndex: 1
+    text: "球灌注水银，使重心无时不刻变动，须以内力制驭。如果能够熟练使用，可谓变化无穷。"
+  templates:
+  - split: 1
+    template: "{0} {1}"
+- raw: "Special/Name/4006,密密缝"
+  splits:
+  - split: 1
+    text: "密密缝"
+- raw: "Special/Desc/4006,青衫有缺，蓝衣来补。\\n用师父袍子衣料缝补的破衣，不仔细看的话青蓝两色不分彼此，说是雪山派弟子的制服也不为过。"
+  splits:
+  - split: 1
+    text: "青衫有缺，蓝衣来补。"
+  - split: 1
+    subIndex: 1
+    text: "用师父袍子衣料缝补的破衣，不仔细看的话青蓝两色不分彼此，说是雪山派弟子的制服也不为过。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4007,连环火箭图纸"
+  splits:
+  - split: 1
+    text: "连环火箭图纸"
+- raw: "Special/Desc/4007,空前未有的危险兵器图纸。\\n小竹被恨意支配，画就了此物，冷静下来，连她本人都为之胆怯。\\n不知把这件事物带来人间究竟是对是错。"
+  splits:
+  - split: 1
+    text: "空前未有的危险兵器图纸。"
+  - split: 1
+    subIndex: 1
+    text: "小竹被恨意支配，画就了此物，冷静下来，连她本人都为之胆怯。"
+  - split: 1
+    subIndex: 2
+    text: "不知把这件事物带来人间究竟是对是错。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Special/Name/4008,连环火箭"
+  splits:
+  - split: 1
+    text: "连环火箭"
+- raw: "Special/Desc/4008,单方面火力压制、凌迟敌军的战争兵器。\\n不必经年累月的训练就能轻易操作，令天下弓手尽皆黯然。\\n这件兵器将是导致火器被广泛实用于战争的元凶。"
+  splits:
+  - split: 1
+    text: "单方面火力压制、凌迟敌军的战争兵器。"
+  - split: 1
+    subIndex: 1
+    text: "不必经年累月的训练就能轻易操作，令天下弓手尽皆黯然。"
+  - split: 1
+    subIndex: 2
+    text: "这件兵器将是导致火器被广泛实用于战争的元凶。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Special/Name/4009,纸甲图纸"
+  splits:
+  - split: 1
+    text: "纸甲图纸"
+- raw: "Special/Desc/4009,将韧性极强的树皮和棉混合，以唐门药水浸泡，经过反复垂打而成。\\n虽然是纸，但层层堆栈，异常结实，遇水更韧，利刃飞矢亦不能轻易洞穿，而且远较寻常铁甲轻盈。"
+  splits:
+  - split: 1
+    text: "将韧性极强的树皮和棉混合，以唐门药水浸泡，经过反复垂打而成。"
+  - split: 1
+    subIndex: 1
+    text: "虽然是纸，但层层堆栈，异常结实，遇水更韧，利刃飞矢亦不能轻易洞穿，而且远较寻常铁甲轻盈。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4010,猛火油柜图纸"
+  splits:
+  - split: 1
+    text: "猛火油柜图纸"
+- raw: "Special/Desc/4010,为了大量杀伤而发想设计出的暗器，能喷火伤敌，奈何不了武林高手，但在乱阵之中能奏奇功，令马兽失惊制造混乱，恫吓敌军引发延烧。"
+  splits:
+  - split: 1
+    text: "为了大量杀伤而发想设计出的暗器，能喷火伤敌，奈何不了武林高手，但在乱阵之中能奏奇功，令马兽失惊制造混乱，恫吓敌军引发延烧。"
+- raw: "Special/Name/4011,金钱剑"
+  splits:
+  - split: 1
+    text: "金钱剑"
+- raw: "Special/Desc/4011,道士驱邪用的法器，没人会拿来与人搏斗，除了你。倒持的时候，是一柄出人意料的凶残钝器。"
+  splits:
+  - split: 1
+    text: "道士驱邪用的法器，没人会拿来与人搏斗，除了你。倒持的时候，是一柄出人意料的凶残钝器。"
+- raw: "Special/Name/4012,牛皮制服"
+  splits:
+  - split: 1
+    text: "牛皮制服"
+    translated: "Leather uniform"
+- raw: "Special/Desc/4012,叶云裳参详青城剑法，为你改良的制服。\\n在诸要害处缝上牛皮，不妨碍活动，却能有效预防意外发生。"
+  splits:
+  - split: 1
+    text: "叶云裳参详青城剑法，为你改良的制服。"
+  - split: 1
+    subIndex: 1
+    text: "在诸要害处缝上牛皮，不妨碍活动，却能有效预防意外发生。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4013,沥泉枪头"
+  splits:
+  - split: 1
+    text: "沥泉枪头"
+- raw: "Special/Desc/4013,岳王爷生前爱用的名枪，浇过英雄碧血，可昭浩然正气，破虏光复河山。\\n天命会指引它，来到下一个英雄手中。"
+  splits:
+  - split: 1
+    text: "岳王爷生前爱用的名枪，浇过英雄碧血，可昭浩然正气，破虏光复河山。"
+  - split: 1
+    subIndex: 1
+    text: "天命会指引它，来到下一个英雄手中。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/5001,叫化鸡食谱"
+  splits:
+  - split: 1
+    text: "叫化鸡食谱"
+- raw: "Special/Desc/5001,记载了特别好吃的叫化鸡秘方，是王二壮拿手绝活。\\n导致龙湘终生不能摆脱鸡腿的罪魁祸首。"
+  splits:
+  - split: 1
+    text: "记载了特别好吃的叫化鸡秘方，是王二壮拿手绝活。"
+  - split: 1
+    subIndex: 1
+    text: "导致龙湘终生不能摆脱鸡腿的罪魁祸首。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/6001,五彩龙砂丹"
+  splits:
+  - split: 1
+    text: "五彩龙砂丹"
+- raw: "Special/Desc/6001,岭南派青脸天王亲赠的五彩龙砂丹，分别代表五行，分开服用每一粒都足以致命。\\n但若按着正确的顺序、时辰服用，则能相生相克，化其药力以为己用。\\n龙渊弄丢了一粒，导致相克循环无法收束，只好送你碰碰运气，死了也是你自找的。"
+  splits:
+  - split: 1
+    text: "岭南派青脸天王亲赠的五彩龙砂丹，分别代表五行，分开服用每一粒都足以致命。"
+  - split: 1
+    subIndex: 1
+    text: "但若按着正确的顺序、时辰服用，则能相生相克，化其药力以为己用。"
+  - split: 1
+    subIndex: 2
+    text: "龙渊弄丢了一粒，导致相克循环无法收束，只好送你碰碰运气，死了也是你自找的。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Special/Name/6002,九泉丹方"
+  splits:
+  - split: 1
+    text: "九泉丹方"
+    translated: "Nine Springs Elixir Formula"
+- raw: "Special/Desc/6002,龙渊从极乐教夺来的九泉丹方。\\n相传「九转轮回大法」功力每深一层，就会面临一次生死大关，\\n届时就得靠这九泉丹由死苏生，脱胎换骨。\\n你可以拿去炼丹试试，但是吃了后果自行负责。"
+  splits:
+  - split: 1
+    text: "龙渊从极乐教夺来的九泉丹方。"
+  - split: 1
+    subIndex: 1
+    text: "相传「九转轮回大法」功力每深一层，就会面临一次生死大关，"
+  - split: 1
+    subIndex: 2
+    text: "届时就得靠这九泉丹由死苏生，脱胎换骨。"
+  - split: 1
+    subIndex: 3
+    text: "你可以拿去炼丹试试，但是吃了后果自行负责。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Special/Name/6003,还虚丹"
+  splits:
+  - split: 1
+    text: "还虚丹"
+- raw: "Special/Desc/6003,还虚丹"
+  splits:
+  - split: 1
+    text: "还虚丹"
+- raw: "Special/Name/6004,睡丹药方"
+  splits:
+  - split: 1
+    text: "睡丹药方"
+- raw: "Special/Desc/6004,希夷老祖高卧华山，一睡不起，于睡中得道。\\n此丹方仅为辅药，倘若再得心诀，合为《睡功》。"
+  splits:
+  - split: 1
+    text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
+  - split: 1
+    subIndex: 1
+    text: "此丹方仅为辅药，倘若再得心诀，合为《睡功》。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/6005,万灵油药方"
+  splits:
+  - split: 1
+    text: "万灵油药方"
+- raw: "Special/Desc/6005,真名为「万法通灵神验膏」。\\n传说能够医死人、肉白骨，治万病解万毒，调水可以外敷，内服可以镇毒，舔一舔消暑止腹泻，研磨成粉末，点燃还可以驱蚊，与胡椒粉毒并为唐门两大神药。\\n可惜自从唐门药典被焚，药方早已失佚。"
+  splits:
+  - split: 1
+    text: "真名为「万法通灵神验膏」。"
+  - split: 1
+    subIndex: 1
+    text: "传说能够医死人、肉白骨，治万病解万毒，调水可以外敷，内服可以镇毒，舔一舔消暑止腹泻，研磨成粉末，点燃还可以驱蚊，与胡椒粉毒并为唐门两大神药。"
+  - split: 1
+    subIndex: 2
+    text: "可惜自从唐门药典被焚，药方早已失佚。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"

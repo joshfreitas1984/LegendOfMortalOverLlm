@@ -1,0 +1,199 @@
+- raw: "Credit/Header/Credit,制作群"
+  splits:
+  - split: 1
+    text: "制作群"
+- raw: "Credit/Header/Producer,制作人"
+  splits:
+  - split: 1
+    text: "制作人"
+- raw: "Credit/Header/GameDesign,游戏设计"
+  splits:
+  - split: 1
+    text: "游戏设计"
+- raw: "Credit/Header/LevelDesign,关卡设计"
+  splits:
+  - split: 1
+    text: "关卡设计"
+- raw: "Credit/Header/StatDesign,数值设计"
+  splits:
+  - split: 1
+    text: "数值设计"
+- raw: "Credit/Header/SystemDesign,系统设计"
+  splits:
+  - split: 1
+    text: "系统设计"
+- raw: "Credit/Header/Story,故事剧本"
+  splits:
+  - split: 1
+    text: "故事剧本"
+- raw: "Credit/Header/ScriptEditor,文本编辑"
+  splits:
+  - split: 1
+    text: "文本编辑"
+- raw: "Credit/Header/Program,程序"
+  splits:
+  - split: 1
+    text: "程序"
+- raw: "Credit/Header/Narrative,叙事设计"
+  splits:
+  - split: 1
+    text: "叙事设计"
+- raw: "Credit/Header/StoryCharDesign,故事人物设计"
+  splits:
+  - split: 1
+    text: "故事人物设计"
+- raw: "Credit/Header/CombatChartDesign,决斗人物设计"
+  splits:
+  - split: 1
+    text: "决斗人物设计"
+- raw: "Credit/Header/BattleCharDesign,战役人物设计"
+  splits:
+  - split: 1
+    text: "战役人物设计"
+- raw: "Credit/Header/SceneDesign,场景设计"
+  splits:
+  - split: 1
+    text: "场景设计"
+- raw: "Credit/Header/Picture,插画插图"
+  splits:
+  - split: 1
+    text: "插画插图"
+- raw: "Credit/Header/VFX,特效设计"
+  splits:
+  - split: 1
+    text: "特效设计"
+- raw: "Credit/Header/TechnicalArt,技术美术"
+  splits:
+  - split: 1
+    text: "技术美术"
+- raw: "Credit/Header/UIDesign,界面设计"
+  splits:
+  - split: 1
+    text: "界面设计"
+- raw: "Credit/Header/SoundProgram,音效程序"
+  splits:
+  - split: 1
+    text: "音效程序"
+- raw: "Credit/Header/External,外部协力"
+  splits:
+  - split: 1
+    text: "外部协力"
+- raw: "Credit/Header/3D_Art,3D 美术"
+  splits:
+  - split: 1
+    text: "美术"
+  templates:
+  - split: 1
+    template: "3D {0}"
+- raw: "Credit/Header/2D_Art,2D 美术"
+  splits:
+  - split: 1
+    text: "美术"
+  templates:
+  - split: 1
+    template: "2D {0}"
+- raw: "Credit/Header/CombatArt,决斗角色美术"
+  splits:
+  - split: 1
+    text: "决斗角色美术"
+- raw: "Credit/Header/External2,九六伏绘工作室"
+  splits:
+  - split: 1
+    text: "九六伏绘工作室"
+- raw: "Credit/Header/SceneArt,场景美术"
+  splits:
+  - split: 1
+    text: "场景美术"
+- raw: "Credit/Header/ParasStaff,Paras 工作室"
+  splits:
+  - split: 1
+    text: "工作室"
+  templates:
+  - split: 1
+    template: "Paras {0}"
+- raw: "Credit/Header/Project,项目统筹"
+  splits:
+  - split: 1
+    text: "项目统筹"
+- raw: "Credit/Header/Animation,动画制作"
+  splits:
+  - split: 1
+    text: "动画制作"
+- raw: "Credit/Header/TestSupport,测试支持"
+  splits:
+  - split: 1
+    text: "测试支持"
+- raw: "Credit/Header/Music,音乐"
+  splits:
+  - split: 1
+    text: "音乐"
+- raw: "Credit/Header/MusicComposer,作曲"
+  splits:
+  - split: 1
+    text: "作曲"
+    translated: "Composing music"
+- raw: "Credit/Header/MusicWriter,编曲"
+  splits:
+  - split: 1
+    text: "编曲"
+- raw: "Credit/Header/MusicOriginal,子夜寄君书原曲"
+  splits:
+  - split: 1
+    text: "子夜寄君书原曲"
+- raw: "Credit/Header/LocalizationKorean,韩文翻译 & QA"
+  splits:
+  - split: 1
+    text: "韩文翻译"
+  templates:
+  - split: 1
+    template: "{0} & QA"
+- raw: "Credit/Header/Staff,工作人员"
+  splits:
+  - split: 1
+    text: "工作人员"
+- raw: "Credit/Header/SpecialThank,特别感谢"
+  splits:
+  - split: 1
+    text: "特别感谢"
+- raw: "Credit/Header/ExternalTest,外部测试"
+  splits:
+  - split: 1
+    text: "外部测试"
+- raw: "Credit/Header/ExternalResource,外部资源"
+  splits:
+  - split: 1
+    text: "外部资源"
+- raw: "Credit/Header/FontResource,字体"
+  splits:
+  - split: 1
+    text: "字体"
+- raw: "Credit/Header/SoundResource,音效素材"
+  splits:
+  - split: 1
+    text: "音效素材"
+    translated: "Sound effect samples"
+- raw: "Credit/Header/ArtResource,美术素材"
+  splits:
+  - split: 1
+    text: "美术素材"
+- raw: "Credit/Header/ThirdPartyResource,第三方资源"
+  splits:
+  - split: 1
+    text: "第三方资源"
+- raw: "Credit/Header/ThankPlaying,感谢游玩"
+  splits:
+  - split: 1
+    text: "感谢游玩"
+- raw: "Credit/Header/Reinforcement,增援"
+  splits:
+  - split: 1
+    text: "增援"
+    translated: "Reinforcements"
+- raw: "Credit/Header/Marketing,营销"
+  splits:
+  - split: 1
+    text: "营销"
+- raw: "Credit/Header/SocialMarketing,社群营销"
+  splits:
+  - split: 1
+    text: "社群营销"

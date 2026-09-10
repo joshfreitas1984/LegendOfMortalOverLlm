@@ -1,0 +1,732 @@
+- raw: "Equip/Name/Melee_01,唐门小剑"
+  splits:
+  - split: 1
+    text: "唐门小剑"
+- raw: "Equip/Desc/Melee_01,唐门弟子人手一柄的标准配备。\\n外型看似与脱手标相去不远，\\n实则是柄机关剑，\\n剑身中空，内有钢球。\\n若非习练暗器总纲，等闲难以驾驭。"
+  splits:
+  - split: 1
+    text: "唐门弟子人手一柄的标准配备。"
+  - split: 1
+    subIndex: 1
+    text: "外型看似与脱手标相去不远，"
+  - split: 1
+    subIndex: 2
+    text: "实则是柄机关剑，"
+  - split: 1
+    subIndex: 3
+    text: "剑身中空，内有钢球。"
+  - split: 1
+    subIndex: 4
+    text: "若非习练暗器总纲，等闲难以驾驭。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "Equip/Name/Melee_10,唐门菁英小剑"
+  splits:
+  - split: 1
+    text: "唐门菁英小剑"
+- raw: "Equip/Desc/Melee_10,根据图谱改良的新型武器，\\n取消钢球设计，将刃身打造得极薄，\\n平时收纳起来，临阵时以软鞭手法打出，\\n出其不意，这也是一种暗器。"
+  splits:
+  - split: 1
+    text: "根据图谱改良的新型武器，"
+  - split: 1
+    subIndex: 1
+    text: "取消钢球设计，将刃身打造得极薄，"
+  - split: 1
+    subIndex: 2
+    text: "平时收纳起来，临阵时以软鞭手法打出，"
+  - split: 1
+    subIndex: 3
+    text: "出其不意，这也是一种暗器。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Melee_11,切鱼刀"
+  splits:
+  - split: 1
+    text: "切鱼刀"
+- raw: "Equip/Desc/Melee_11,造型奇特、\\n却极其锋利的东洋杀鱼刀。"
+  splits:
+  - split: 1
+    text: "造型奇特、"
+  - split: 1
+    subIndex: 1
+    text: "却极其锋利的东洋杀鱼刀。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Equip/Name/Melee_12,金钱剑"
+  splits:
+  - split: 1
+    text: "金钱剑"
+- raw: "Equip/Desc/Melee_12,道士驱邪用的法器，\\n没人会拿来与人搏斗，除了你。\\n倒持的时候，\\n是一柄出人意料的凶残钝器。"
+  splits:
+  - split: 1
+    text: "道士驱邪用的法器，"
+  - split: 1
+    subIndex: 1
+    text: "没人会拿来与人搏斗，除了你。"
+  - split: 1
+    subIndex: 2
+    text: "倒持的时候，"
+  - split: 1
+    subIndex: 3
+    text: "是一柄出人意料的凶残钝器。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Melee_20,唐门传承小剑"
+  splits:
+  - split: 1
+    text: "唐门传承小剑"
+- raw: "Equip/Desc/Melee_20,唐门承传至今的古老小剑，\\n以现今弃用的方法铸造。\\n将剑中钢球灌注水银，\\n使重心无时不刻变动，\\n须以内力制驭。\\n如果能够熟练使用，可谓其变无穷。"
+  splits:
+  - split: 1
+    text: "唐门承传至今的古老小剑，"
+  - split: 1
+    subIndex: 1
+    text: "以现今弃用的方法铸造。"
+  - split: 1
+    subIndex: 2
+    text: "将剑中钢球灌注水银，"
+  - split: 1
+    subIndex: 3
+    text: "使重心无时不刻变动，"
+  - split: 1
+    subIndex: 4
+    text: "须以内力制驭。"
+  - split: 1
+    subIndex: 5
+    text: "如果能够熟练使用，可谓其变无穷。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "Equip/Name/Melee_21,玉霄神匕"
+  splits:
+  - split: 1
+    text: "玉霄神匕"
+    translated: "Jade Sky Divine Dagger"
+- raw: "Equip/Desc/Melee_21,小梅爱用的匕首，\\n乃是铁拳前掌门手把手带着小竹，\\n为小梅打造的兵器。\\n玉霄神是对梅花高洁品行的至高赞赏。"
+  splits:
+  - split: 1
+    text: "小梅爱用的匕首，"
+  - split: 1
+    subIndex: 1
+    text: "乃是铁拳前掌门手把手带着小竹，"
+  - split: 1
+    subIndex: 2
+    text: "为小梅打造的兵器。"
+  - split: 1
+    subIndex: 3
+    text: "玉霄神是对梅花高洁品行的至高赞赏。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Melee_22,沥泉小剑"
+  splits:
+  - split: 1
+    text: "沥泉小剑"
+- raw: "Equip/Desc/Melee_22,岳王爷生前爱用的名枪，\\n浇过英雄碧血，\\n可昭浩然正气，\\n破虏光复河山。\\n天命会指引它，\\n来到下一个英雄手中。"
+  splits:
+  - split: 1
+    text: "岳王爷生前爱用的名枪，"
+  - split: 1
+    subIndex: 1
+    text: "浇过英雄碧血，"
+  - split: 1
+    subIndex: 2
+    text: "可昭浩然正气，"
+  - split: 1
+    subIndex: 3
+    text: "破虏光复河山。"
+  - split: 1
+    subIndex: 4
+    text: "天命会指引它，"
+  - split: 1
+    subIndex: 5
+    text: "来到下一个英雄手中。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "Equip/Name/Melee_30,唐门祖师剑"
+  splits:
+  - split: 1
+    text: "唐门祖师剑"
+- raw: "Equip/Desc/Melee_30,按造失传图谱重铸的祖师短剑，\\n此剑是唐门小剑的祖宗，\\n形无虚实，势无刚柔，\\n执在掌中似剑而非剑，\\n脱手可飞旋来去。\\n江湖讹传御剑仙术之说，便是由此而生。"
+  splits:
+  - split: 1
+    text: "按造失传图谱重铸的祖师短剑，"
+  - split: 1
+    subIndex: 1
+    text: "此剑是唐门小剑的祖宗，"
+  - split: 1
+    subIndex: 2
+    text: "形无虚实，势无刚柔，"
+  - split: 1
+    subIndex: 3
+    text: "执在掌中似剑而非剑，"
+  - split: 1
+    subIndex: 4
+    text: "脱手可飞旋来去。"
+  - split: 1
+    subIndex: 5
+    text: "江湖讹传御剑仙术之说，便是由此而生。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "Equip/Name/Knife_01,脱手镖"
+  splits:
+  - split: 1
+    text: "脱手镖"
+- raw: "Equip/Desc/Knife_01,江湖中人最常用的暗器，\\n唐门弟子使飞镖时，\\n常往镖身涂毒，纵使一镖射不死人，\\n也可制伏敌人。"
+  splits:
+  - split: 1
+    text: "江湖中人最常用的暗器，"
+  - split: 1
+    subIndex: 1
+    text: "唐门弟子使飞镖时，"
+  - split: 1
+    subIndex: 2
+    text: "常往镖身涂毒，纵使一镖射不死人，"
+  - split: 1
+    subIndex: 3
+    text: "也可制伏敌人。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Knife_10,铁橄榄"
+  splits:
+  - split: 1
+    text: "铁橄榄"
+- raw: "Equip/Desc/Knife_10,形似橄榄的暗器，\\n又称核子钉、枣核箭，\\n通常以手投掷伤人，亦有高手可以含入口中，\\n以内力呵气发射。"
+  splits:
+  - split: 1
+    text: "形似橄榄的暗器，"
+  - split: 1
+    subIndex: 1
+    text: "又称核子钉、枣核箭，"
+  - split: 1
+    subIndex: 2
+    text: "通常以手投掷伤人，亦有高手可以含入口中，"
+  - split: 1
+    subIndex: 3
+    text: "以内力呵气发射。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Knife_11,飞梭"
+  splits:
+  - split: 1
+    text: "飞梭"
+- raw: "Equip/Desc/Knife_11,打造得极为扁薄的银梭，\\n唐门打造的飞梭尤其细小，\\n不以杀伤力为目标，而是淬以毒药，\\n威胁性丝毫不逊于利刃。"
+  splits:
+  - split: 1
+    text: "打造得极为扁薄的银梭，"
+  - split: 1
+    subIndex: 1
+    text: "唐门打造的飞梭尤其细小，"
+  - split: 1
+    subIndex: 2
+    text: "不以杀伤力为目标，而是淬以毒药，"
+  - split: 1
+    subIndex: 3
+    text: "威胁性丝毫不逊于利刃。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Knife_12,袖里箭"
+  splits:
+  - split: 1
+    text: "袖里箭"
+- raw: "Equip/Desc/Knife_12,藏在护腕里，掀动机关发射的暗器，\\n为了掩饰护腕秘密，\\n唐门中人使用袖箭时还是会假作挥掷姿势。"
+  splits:
+  - split: 1
+    text: "藏在护腕里，掀动机关发射的暗器，"
+  - split: 1
+    subIndex: 1
+    text: "为了掩饰护腕秘密，"
+  - split: 1
+    subIndex: 2
+    text: "唐门中人使用袖箭时还是会假作挥掷姿势。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Knife_20,飞煌石"
+  splits:
+  - split: 1
+    text: "飞煌石"
+- raw: "Equip/Desc/Knife_20,路边掂来趁手的坚石皆能作为暗器，\\n一股脑儿投出时有如飞蝗过境，\\n因而得名，费用低廉，\\n难以淬毒，纯以重量伤人。"
+  splits:
+  - split: 1
+    text: "路边掂来趁手的坚石皆能作为暗器，"
+  - split: 1
+    subIndex: 1
+    text: "一股脑儿投出时有如飞蝗过境，"
+  - split: 1
+    subIndex: 2
+    text: "因而得名，费用低廉，"
+  - split: 1
+    subIndex: 3
+    text: "难以淬毒，纯以重量伤人。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Knife_21,无形箭"
+  splits:
+  - split: 1
+    text: "无形箭"
+- raw: "Equip/Desc/Knife_21,无影无形，无声无兆，\\n乍见锋芒，人已封喉。\\n是唐门暗器总纲之中的终极暗器，\\n真面目是近乎完全透明的琉璃玉镖，\\n造价极其昂贵，其威力亦冠绝天下。"
+  splits:
+  - split: 1
+    text: "无影无形，无声无兆，"
+  - split: 1
+    subIndex: 1
+    text: "乍见锋芒，人已封喉。"
+  - split: 1
+    subIndex: 2
+    text: "是唐门暗器总纲之中的终极暗器，"
+  - split: 1
+    subIndex: 3
+    text: "真面目是近乎完全透明的琉璃玉镖，"
+  - split: 1
+    subIndex: 4
+    text: "造价极其昂贵，其威力亦冠绝天下。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "Equip/Name/Ball_01,鞭炮"
+  splits:
+  - split: 1
+    text: "鞭炮"
+    translated: "Firecrackers"
+- raw: "Equip/Desc/Ball_01,以硝石、硫磺、碳合成，\\n点燃引信掷出后，以霹雳火星伤人。"
+  splits:
+  - split: 1
+    text: "以硝石、硫磺、碳合成，"
+  - split: 1
+    subIndex: 1
+    text: "点燃引信掷出后，以霹雳火星伤人。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Equip/Name/Ball_10,神奇球"
+  splits:
+  - split: 1
+    text: "神奇球"
+    translated: "Magic Ball"
+- raw: "Equip/Desc/Ball_10,经唐门改良的法宝，只在命中目标时启动，\\n展开绳网，将敌人收于袋中，\\n同时致毒。时常用来打猎。"
+  splits:
+  - split: 1
+    text: "经唐门改良的法宝，只在命中目标时启动，"
+  - split: 1
+    subIndex: 1
+    text: "展开绳网，将敌人收于袋中，"
+  - split: 1
+    subIndex: 2
+    text: "同时致毒。时常用来打猎。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Ball_11,流星箭"
+  splits:
+  - split: 1
+    text: "流星箭"
+    translated: "Meteor Arrow"
+- raw: "Equip/Desc/Ball_11,以护腕机括射出的箭雨，\\n流星雨从天而降，故称流星箭。"
+  splits:
+  - split: 1
+    text: "以护腕机括射出的箭雨，"
+  - split: 1
+    subIndex: 1
+    text: "流星雨从天而降，故称流星箭。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Equip/Name/Ball_20,雷火弹"
+  splits:
+  - split: 1
+    text: "雷火弹"
+- raw: "Equip/Desc/Ball_20,硫磺、焰硝、麻茹、黄蜡、松脂……等诸多种材料揉成的黑色药粉，\\n一旦触地摩擦，就会瞬间引爆，\\n威力强大，绝非闹着玩的。"
+  splits:
+  - split: 1
+    text: "硫磺、焰硝、麻茹、黄蜡、松脂"
+  - split: 1
+    subIndex: 1
+    text: "等诸多种材料揉成的黑色药粉，"
+  - split: 1
+    subIndex: 2
+    text: "一旦触地摩擦，就会瞬间引爆，"
+  - split: 1
+    subIndex: 3
+    text: "威力强大，绝非闹着玩的。"
+  templates:
+  - split: 1
+    template: "{0}……{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Trap_01,似草针"
+  splits:
+  - split: 1
+    text: "似草针"
+- raw: "Equip/Desc/Trap_01,锻造成草状，涂成绿色的毒针，\\n置于地面，使人难以辨识，\\n惊觉的时候，往往便已着了道。\\n此陷阱在我方近战弟子阵亡时原地安装。"
+  splits:
+  - split: 1
+    text: "锻造成草状，涂成绿色的毒针，"
+  - split: 1
+    subIndex: 1
+    text: "置于地面，使人难以辨识，"
+  - split: 1
+    subIndex: 2
+    text: "惊觉的时候，往往便已着了道。"
+  - split: 1
+    subIndex: 3
+    text: "此陷阱在我方近战弟子阵亡时原地安装。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Trap_10,地鸣雷"
+  splits:
+  - split: 1
+    text: "地鸣雷"
+- raw: "Equip/Desc/Trap_10,以机关制造的小型机雷，\\n中有雷火弹，置于地面，\\n一旦踩中，便会爆炸。\\n此陷阱在我方弟子阵亡时原地安装。"
+  splits:
+  - split: 1
+    text: "以机关制造的小型机雷，"
+  - split: 1
+    subIndex: 1
+    text: "中有雷火弹，置于地面，"
+  - split: 1
+    subIndex: 2
+    text: "一旦踩中，便会爆炸。"
+  - split: 1
+    subIndex: 3
+    text: "此陷阱在我方弟子阵亡时原地安装。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Trap_11,猛火油柜"
+  splits:
+  - split: 1
+    text: "猛火油柜"
+- raw: "Equip/Desc/Trap_11,与四师兄箧笥有相近的变形机构，\\n安装以后会回旋喷火。"
+  splits:
+  - split: 1
+    text: "与四师兄箧笥有相近的变形机构，"
+  - split: 1
+    subIndex: 1
+    text: "安装以后会回旋喷火。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Equip/Name/Poison_01,赤炼砂"
+  splits:
+  - split: 1
+    text: "赤炼砂"
+- raw: "Equip/Desc/Poison_01,唐门毒经所载，\\n以赤炼蛇毒为基调的经典入门款。\\n毒性虽烈，却非无药可救。"
+  splits:
+  - split: 1
+    text: "唐门毒经所载，"
+  - split: 1
+    subIndex: 1
+    text: "以赤炼蛇毒为基调的经典入门款。"
+  - split: 1
+    subIndex: 2
+    text: "毒性虽烈，却非无药可救。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Poison_10,乌水仙"
+  splits:
+  - split: 1
+    text: "乌水仙"
+- raw: "Equip/Desc/Poison_10,唐门毒经所载，\\n以黄水仙花的球根、草乌炼制的入门麻痹毒药。\\n唐门弟子常以此毒涂于暗器，用来打野味。"
+  splits:
+  - split: 1
+    text: "唐门毒经所载，"
+  - split: 1
+    subIndex: 1
+    text: "以黄水仙花的球根、草乌炼制的入门麻痹毒药。"
+  - split: 1
+    subIndex: 2
+    text: "唐门弟子常以此毒涂于暗器，用来打野味。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Poison_11,三阴虫草胶"
+  splits:
+  - split: 1
+    text: "三阴虫草胶"
+- raw: "Equip/Desc/Poison_11,唐门代表毒药之一，以三种阴毒虫草制成，\\n兼具血毒、麻痹两种毒性，\\n甚是厉害，适合涂抹在兵刃上伤敌。"
+  splits:
+  - split: 1
+    text: "唐门代表毒药之一，以三种阴毒虫草制成，"
+  - split: 1
+    subIndex: 1
+    text: "兼具血毒、麻痹两种毒性，"
+  - split: 1
+    subIndex: 2
+    text: "甚是厉害，适合涂抹在兵刃上伤敌。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Poison_20,彼岸仙香"
+  splits:
+  - split: 1
+    text: "彼岸仙香"
+    translated: "Other Shore Immortal Fragrance"
+- raw: "Equip/Desc/Poison_20,唐门一位医毒双绝的女前辈所研发的毒香，\\n此香对常人有剧毒，\\n却对身具胡椒粉的唐门中人有补益效果，\\n甚是神妙，正心堂里所焚即为此香。"
+  splits:
+  - split: 1
+    text: "唐门一位医毒双绝的女前辈所研发的毒香，"
+  - split: 1
+    subIndex: 1
+    text: "此香对常人有剧毒，"
+  - split: 1
+    subIndex: 2
+    text: "却对身具胡椒粉的唐门中人有补益效果，"
+  - split: 1
+    subIndex: 3
+    text: "甚是神妙，正心堂里所焚即为此香。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Medi_01,南蝥礜石散"
+  splits:
+  - split: 1
+    text: "南蝥礜石散"
+    translated: "Southern Mantis Stone Powder"
+- raw: "Equip/Desc/Medi_01,用毒虫、毒砂以醋淬煅七次制成的药散，\\n味辛热，有蒜臭。\\n常人服之五内俱焚，\\n唐门弟子服之可以活血祛湿寒。"
+  splits:
+  - split: 1
+    text: "用毒虫、毒砂以醋淬煅七次制成的药散，"
+  - split: 1
+    subIndex: 1
+    text: "味辛热，有蒜臭。"
+  - split: 1
+    subIndex: 2
+    text: "常人服之五内俱焚，"
+  - split: 1
+    subIndex: 3
+    text: "唐门弟子服之可以活血祛湿寒。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Medi_02,穿心龙胆汤"
+  splits:
+  - split: 1
+    text: "穿心龙胆汤"
+- raw: "Equip/Desc/Medi_02,用穿心莲、龙胆等药草熬汁炖煮的汤药，\\n其苦非常人之所能受，药性之重业已成毒，\\n常人服之心悸头疼，唐门弟子服之清热解渴。"
+  splits:
+  - split: 1
+    text: "用穿心莲、龙胆等药草熬汁炖煮的汤药，"
+  - split: 1
+    subIndex: 1
+    text: "其苦非常人之所能受，药性之重业已成毒，"
+  - split: 1
+    subIndex: 2
+    text: "常人服之心悸头疼，唐门弟子服之清热解渴。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Medi_03,胡椒粉丸"
+  splits:
+  - split: 1
+    text: "胡椒粉丸"
+    translated: "Pepper powder ball"
+- raw: "Equip/Desc/Medi_03,把胡椒粉跟山药泥混在一起，\\n炙烤成丸。有毒，但是好吃。"
+  splits:
+  - split: 1
+    text: "把胡椒粉跟山药泥混在一起，"
+  - split: 1
+    subIndex: 1
+    text: "炙烤成丸。有毒，但是好吃。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Equip/Name/Medi_04,乖乖水"
+  splits:
+  - split: 1
+    text: "乖乖水"
+    translated: "Sweetwater"
+- raw: "Equip/Desc/Medi_04,可以让人变得听话的药水，\\n喝了以后性情会变得温驯。"
+  splits:
+  - split: 1
+    text: "可以让人变得听话的药水，"
+  - split: 1
+    subIndex: 1
+    text: "喝了以后性情会变得温驯。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Equip/Name/Medi_05,睡丹"
+  splits:
+  - split: 1
+    text: "睡丹"
+    translated: "Sleeping Pill"
+- raw: "Equip/Desc/Medi_05,希夷老祖高卧华山，一睡不起，于睡中得道。\\n采精神以为药，取静定以为火，\\n心息相依，反璞归真。"
+  splits:
+  - split: 1
+    text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
+  - split: 1
+    subIndex: 1
+    text: "采精神以为药，取静定以为火，"
+  - split: 1
+    subIndex: 2
+    text: "心息相依，反璞归真。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Medi_22,万灵油"
+  splits:
+  - split: 1
+    text: "万灵油"
+- raw: "Equip/Desc/Medi_22,唐门药典残方，出门必备灵药。\\n气味清凉，嗅之可提神醒脑，\\n夏可解暑、冬可点燃取暖，\\n兑水喝可以治腹泻，\\n抹在腕上可防蛇虺蚊蚋。\\n天下疑难，此方解得十之八九"
+  splits:
+  - split: 1
+    text: "唐门药典残方，出门必备灵药。"
+  - split: 1
+    subIndex: 1
+    text: "气味清凉，嗅之可提神醒脑，"
+  - split: 1
+    subIndex: 2
+    text: "夏可解暑、冬可点燃取暖，"
+  - split: 1
+    subIndex: 3
+    text: "兑水喝可以治腹泻，"
+  - split: 1
+    subIndex: 4
+    text: "抹在腕上可防蛇虺蚊蚋。"
+  - split: 1
+    subIndex: 5
+    text: "天下疑难，此方解得十之八九"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "Equip/Name/Cloth_01,唐门制服"
+  splits:
+  - split: 1
+    text: "唐门制服"
+- raw: "Equip/Desc/Cloth_01,唐门弟子的旧款制服，\\n含护腕，但可动性很差，\\n大家都不爱戴。\\n制服里刻意缝了沙包，令弟子习惯负重，\\n以此锻炼体魄。"
+  splits:
+  - split: 1
+    text: "唐门弟子的旧款制服，"
+  - split: 1
+    subIndex: 1
+    text: "含护腕，但可动性很差，"
+  - split: 1
+    subIndex: 2
+    text: "大家都不爱戴。"
+  - split: 1
+    subIndex: 3
+    text: "制服里刻意缝了沙包，令弟子习惯负重，"
+  - split: 1
+    subIndex: 4
+    text: "以此锻炼体魄。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "Equip/Name/Cloth_10,护心镜"
+  splits:
+  - split: 1
+    text: "护心镜"
+- raw: "Equip/Desc/Cloth_10,往制服内里缝进铜镜，\\n保护心脏要害，进一步变重了，\\n与此同时，防护的效果也大幅上升了。"
+  splits:
+  - split: 1
+    text: "往制服内里缝进铜镜，"
+  - split: 1
+    subIndex: 1
+    text: "保护心脏要害，进一步变重了，"
+  - split: 1
+    subIndex: 2
+    text: "与此同时，防护的效果也大幅上升了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Cloth_11,轻量化"
+  splits:
+  - split: 1
+    text: "轻量化"
+- raw: "Equip/Desc/Cloth_11,舍弃了沙包这等不人道设计的新型制服，\\n大伙儿的步伐顿时轻快了许多，\\n但是防御性能也趋近没有了。"
+  splits:
+  - split: 1
+    text: "舍弃了沙包这等不人道设计的新型制服，"
+  - split: 1
+    subIndex: 1
+    text: "大伙儿的步伐顿时轻快了许多，"
+  - split: 1
+    subIndex: 2
+    text: "但是防御性能也趋近没有了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Cloth_20,密密缝"
+  splits:
+  - split: 1
+    text: "密密缝"
+- raw: "Equip/Desc/Cloth_20,青衫有缺，蓝衣来补。\\n用师父袍子衣料缝补的破衣，\\n不仔细看的话青蓝两色不分彼此，\\n说是雪山派弟子的制服也不为过。"
+  splits:
+  - split: 1
+    text: "青衫有缺，蓝衣来补。"
+  - split: 1
+    subIndex: 1
+    text: "用师父袍子衣料缝补的破衣，"
+  - split: 1
+    subIndex: 2
+    text: "不仔细看的话青蓝两色不分彼此，"
+  - split: 1
+    subIndex: 3
+    text: "说是雪山派弟子的制服也不为过。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "Equip/Name/Cloth_21,纸甲"
+  splits:
+  - split: 1
+    text: "纸甲"
+- raw: "Equip/Desc/Cloth_21,将韧性极强的树皮和棉混合，\\n以唐门药水浸泡，\\n经过反复垂打而成。\\n虽然是纸，但层层堆栈，\\n异常结实，遇水更韧，\\n利刃飞矢亦不能轻易洞穿，\\n而且远较寻常铁甲轻盈。"
+  splits:
+  - split: 1
+    text: "将韧性极强的树皮和棉混合，"
+  - split: 1
+    subIndex: 1
+    text: "以唐门药水浸泡，"
+  - split: 1
+    subIndex: 2
+    text: "经过反复垂打而成。"
+  - split: 1
+    subIndex: 3
+    text: "虽然是纸，但层层堆栈，"
+  - split: 1
+    subIndex: 4
+    text: "异常结实，遇水更韧，"
+  - split: 1
+    subIndex: 5
+    text: "利刃飞矢亦不能轻易洞穿，"
+  - split: 1
+    subIndex: 6
+    text: "而且远较寻常铁甲轻盈。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}\\n{6}"
+- raw: "Equip/Name/Cloth_22,牛皮制服"
+  splits:
+  - split: 1
+    text: "牛皮制服"
+    translated: "Leather uniform"
+- raw: "Equip/Desc/Cloth_22,叶云裳参详青城剑法，\\n为你改良的制服。\\n在诸要害处缝上牛皮，\\n不妨碍活动，\\n却能有效预防意外发生。"
+  splits:
+  - split: 1
+    text: "叶云裳参详青城剑法，"
+  - split: 1
+    subIndex: 1
+    text: "为你改良的制服。"
+  - split: 1
+    subIndex: 2
+    text: "在诸要害处缝上牛皮，"
+  - split: 1
+    subIndex: 3
+    text: "不妨碍活动，"
+  - split: 1
+    subIndex: 4
+    text: "却能有效预防意外发生。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"

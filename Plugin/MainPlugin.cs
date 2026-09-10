@@ -19,6 +19,10 @@ public class MainPlugin : BaseUnityPlugin
     {
         Logger = base.Logger;
 
+        StringTableDumpPatches.TargetLanguage = Config.Bind(
+            "General", "DumpLanguage", "ChineseSimplified",
+            "The LeanLocalization Language value to dump - the game ships ChineseSimplified/ChineseTraditional/Korean variants of most files, and several of them (e.g. every Story_N chapter) all share the same TextAsset name across languages, so only one Language is ever dumped at a time to avoid them overwriting each other.").Value;
+
         var harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
         harmony.PatchAll(typeof(StringTableDumpPatches));
         harmony.PatchAll(typeof(StringTableInjectionPatches));

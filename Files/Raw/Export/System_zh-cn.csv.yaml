@@ -1,0 +1,1354 @@
+- raw: "System/Start/StartGame,启程"
+  splits:
+  - split: 1
+    text: "启程"
+- raw: "System/Start/StartActGame,启程(活动)"
+  splits:
+  - split: 1
+    text: "启程"
+  - split: 1
+    subIndex: 1
+    text: "活动"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "System/Start/Setting,环境设定"
+  splits:
+  - split: 1
+    text: "环境设定"
+- raw: "System/Start/Library,讲经堂"
+  splits:
+  - split: 1
+    text: "讲经堂"
+- raw: "System/Start/Exit,归隐山林"
+  splits:
+  - split: 1
+    text: "归隐山林"
+- raw: "System/Menu/Continue,继续游戏"
+  splits:
+  - split: 1
+    text: "继续游戏"
+- raw: "System/Menu/SaveGame,储存游戏"
+  splits:
+  - split: 1
+    text: "储存游戏"
+- raw: "System/Menu/LoadGame,读取游戏"
+  splits:
+  - split: 1
+    text: "读取游戏"
+- raw: "System/Menu/Setting,环境设定"
+  splits:
+  - split: 1
+    text: "环境设定"
+- raw: "System/Menu/Title,回到标题"
+  splits:
+  - split: 1
+    text: "回到标题"
+- raw: "System/Menu/Giveup,投降"
+  splits:
+  - split: 1
+    text: "投降"
+- raw: "System/Menu/Submit,确定"
+  splits:
+  - split: 1
+    text: "确定"
+- raw: "System/Menu/Cancel,取消"
+  splits:
+  - split: 1
+    text: "取消"
+- raw: "System/Menu/KeyboardSetting,键盘设定"
+  splits:
+  - split: 1
+    text: "键盘设定"
+- raw: "System/Menu/LibraryEnd,汗青书"
+  splits:
+  - split: 1
+    text: "汗青书"
+- raw: "System/Menu/LibraryDead,生死簿"
+  splits:
+  - split: 1
+    text: "生死簿"
+- raw: "System/Menu/LibraryAchievement,风云史"
+  splits:
+  - split: 1
+    text: "风云史"
+- raw: "System/Menu/LibraryLegend,活侠传"
+  splits:
+  - split: 1
+    text: "活侠传"
+- raw: "System/Menu/AutoSave,自动存档"
+  splits:
+  - split: 1
+    text: "自动存档"
+- raw: "System/Menu/ManualSave,手动存档"
+  splits:
+  - split: 1
+    text: "手动存档"
+- raw: "System/Menu/CommunityContent,玩家社群"
+  splits:
+  - split: 1
+    text: "玩家社群"
+- raw: "System/Menu/DataBackup,数据备份"
+  splits:
+  - split: 1
+    text: "数据备份"
+- raw: "System/Menu/RecentSave,最近存档"
+  splits:
+  - split: 1
+    text: "最近存档"
+- raw: "System/AutoSaveText,剧情自动存档"
+  splits:
+  - split: 1
+    text: "剧情自动存档"
+- raw: "System/FreeAutoSaveText,养成自动存档"
+  splits:
+  - split: 1
+    text: "养成自动存档"
+- raw: "System/EnableSaveText,手动存档解锁"
+  splits:
+  - split: 1
+    text: "手动存档解锁"
+- raw: "System/DisableSaveText,手动存档上锁"
+  splits:
+  - split: 1
+    text: "手动存档上锁"
+- raw: "System/Loading,读取中..."
+  splits:
+  - split: 1
+    text: "读取中..."
+- raw: "System/CombatStartText,战‧你‧娘‧亲"
+  splits:
+  - split: 1
+    text: "战"
+  - split: 1
+    subIndex: 1
+    text: "你"
+  - split: 1
+    subIndex: 2
+    text: "娘"
+  - split: 1
+    subIndex: 3
+    text: "亲"
+  templates:
+  - split: 1
+    template: "{0}‧{1}‧{2}‧{3}"
+- raw: "System/StoryInfoTip,选单 - [ESC]\\n状态 - [S]\\n回想 - [L]\\n自动 - [A]\\n快带- [左Ctrl]"
+  splits:
+  - split: 1
+    text: "选单"
+  - split: 1
+    subIndex: 1
+    text: "状态"
+  - split: 1
+    subIndex: 2
+    text: "回想"
+  - split: 1
+    subIndex: 3
+    text: "自动"
+  - split: 1
+    subIndex: 4
+    text: "快带"
+  - split: 1
+    subIndex: 5
+    text: "左"
+  templates:
+  - split: 1
+    template: "{0} - [ESC]\\n{1} - [S]\\n{2} - [L]\\n{3} - [A]\\n{4}- [{5}Ctrl]"
+- raw: "System/EndText,结局{0}"
+  splits:
+  - split: 1
+    text: "结局"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "System/AchieveText,已达成"
+  splits:
+  - split: 1
+    text: "已达成"
+- raw: "System/NotAchieveText,未达成"
+  splits:
+  - split: 1
+    text: "未达成"
+- raw: "System/CountText,{0} 次"
+  splits:
+  - split: 1
+    text: "次"
+  templates:
+  - split: 1
+    template: "⟦0⟧ {0}"
+- raw: "System/SaveLegnedText,记载活侠传故事"
+  splits:
+  - split: 1
+    text: "记载活侠传故事"
+- raw: "System/Read,阅读"
+  splits:
+  - split: 1
+    text: "阅读"
+- raw: "System/Export,导出"
+  splits:
+  - split: 1
+    text: "导出"
+- raw: "System/ExportSuccess,导出成功：{0}"
+  splits:
+  - split: 1
+    text: "导出成功"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "System/GetAchievementText,达成风云史《{0}》"
+  splits:
+  - split: 1
+    text: "达成风云史"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "System/AutoSaveStory,剧情"
+  splits:
+  - split: 1
+    text: "剧情"
+- raw: "System/AutoSaveFree,养成"
+  splits:
+  - split: 1
+    text: "养成"
+- raw: "System/AutoSaveBattle,战斗"
+  splits:
+  - split: 1
+    text: "战斗"
+- raw: "System/Skip,快带"
+  splits:
+  - split: 1
+    text: "快带"
+- raw: "System/Operate,操作"
+  splits:
+  - split: 1
+    text: "操作"
+- raw: "System/BackupSuccess,数据备份完成"
+  splits:
+  - split: 1
+    text: "数据备份完成"
+- raw: "System/Title/Setting,设定"
+  splits:
+  - split: 1
+    text: "设定"
+- raw: "System/Title/Status,状态"
+  splits:
+  - split: 1
+    text: "状态"
+- raw: "System/Title/Alchemy,炼丹"
+  splits:
+  - split: 1
+    text: "炼丹"
+- raw: "System/Title/Alchemy_01,炼"
+  splits:
+  - split: 1
+    text: "炼"
+- raw: "System/Title/Alchemy_02,丹"
+  splits:
+  - split: 1
+    text: "丹"
+- raw: "System/Title/Forge,锻造"
+  splits:
+  - split: 1
+    text: "锻造"
+- raw: "System/Title/Forge_01,锻"
+  splits:
+  - split: 1
+    text: "锻"
+- raw: "System/Title/Forge_02,造"
+  splits:
+  - split: 1
+    text: "造"
+- raw: "System/Title/Develop,开发"
+  splits:
+  - split: 1
+    text: "开发"
+- raw: "System/Title/Develop_01,开"
+  splits:
+  - split: 1
+    text: "开"
+- raw: "System/Title/Develop_02,发"
+  splits:
+  - split: 1
+    text: "发"
+- raw: "System/Title/Training,修练"
+  splits:
+  - split: 1
+    text: "修练"
+- raw: "System/Title/Training_01,修"
+  splits:
+  - split: 1
+    text: "修"
+- raw: "System/Title/Training_02,练"
+  splits:
+  - split: 1
+    text: "练"
+- raw: "System/Title/Property,属性"
+  splits:
+  - split: 1
+    text: "属性"
+- raw: "System/Title/Talent,技能"
+  splits:
+  - split: 1
+    text: "技能"
+- raw: "System/Title/Book,书籍"
+  splits:
+  - split: 1
+    text: "书籍"
+- raw: "System/Title/Misc,杂物"
+  splits:
+  - split: 1
+    text: "杂物"
+- raw: "System/Title/Special,宝物"
+  splits:
+  - split: 1
+    text: "宝物"
+- raw: "System/Title/Bag,行囊"
+  splits:
+  - split: 1
+    text: "行囊"
+- raw: "System/Title/Equip,装备"
+  splits:
+  - split: 1
+    text: "装备"
+- raw: "System/Title/Weapon,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+- raw: "System/Title/Home,门派"
+  splits:
+  - split: 1
+    text: "门派"
+- raw: "System/Title/Legend,传奇"
+  splits:
+  - split: 1
+    text: "传奇"
+- raw: "System/Title/Social,人际"
+  splits:
+  - split: 1
+    text: "人际"
+- raw: "System/Title/Buy,买入"
+  splits:
+  - split: 1
+    text: "买入"
+- raw: "System/Title/Buy_01,买"
+  splits:
+  - split: 1
+    text: "买"
+- raw: "System/Title/Sell,卖出"
+  splits:
+  - split: 1
+    text: "卖出"
+- raw: "System/Title/Sell_01,卖"
+  splits:
+  - split: 1
+    text: "卖"
+- raw: "System/Title/Sword,刀剑"
+  splits:
+  - split: 1
+    text: "刀剑"
+- raw: "System/Title/Fist,拳掌"
+  splits:
+  - split: 1
+    text: "拳掌"
+- raw: "System/Title/Internal,内功"
+  splits:
+  - split: 1
+    text: "内功"
+- raw: "System/Title/Etc,其他"
+  splits:
+  - split: 1
+    text: "其他"
+- raw: "System/Title/Quit,离开"
+  splits:
+  - split: 1
+    text: "离开"
+- raw: "System/Title/AlreadyDevelop,已开发"
+  splits:
+  - split: 1
+    text: "已开发"
+- raw: "System/Title/FateBonus,继承"
+  splits:
+  - split: 1
+    text: "继承"
+- raw: "System/Title/Reset,复原"
+  splits:
+  - split: 1
+    text: "复原"
+- raw: "System/Upgrade/Melee,武器"
+  splits:
+  - split: 1
+    text: "武器"
+- raw: "System/Upgrade/Equip,防具"
+  splits:
+  - split: 1
+    text: "防具"
+- raw: "System/Upgrade/Dart,平射"
+  splits:
+  - split: 1
+    text: "平射"
+- raw: "System/Upgrade/Projectile,抛射"
+  splits:
+  - split: 1
+    text: "抛射"
+- raw: "System/Upgrade/Trap,陷阱"
+  splits:
+  - split: 1
+    text: "陷阱"
+- raw: "System/Upgrade/Poison,毒药"
+  splits:
+  - split: 1
+    text: "毒药"
+- raw: "System/Upgrade/Medi,灵丹"
+  splits:
+  - split: 1
+    text: "灵丹"
+- raw: "System/Status,状态"
+  splits:
+  - split: 1
+    text: "状态"
+- raw: "System/System,系统"
+  splits:
+  - split: 1
+    text: "系统"
+- raw: "System/Save,储存"
+  splits:
+  - split: 1
+    text: "储存"
+- raw: "System/SaveText_01,储"
+  splits:
+  - split: 1
+    text: "储"
+- raw: "System/SaveText_02,存"
+  splits:
+  - split: 1
+    text: "存"
+- raw: "System/DeleteText_01,删"
+  splits:
+  - split: 1
+    text: "删"
+- raw: "System/DeleteText_02,除"
+  splits:
+  - split: 1
+    text: "除"
+- raw: "System/DeleteText,删除"
+  splits:
+  - split: 1
+    text: "删除"
+- raw: "System/SaveSlotText,传奇{0}"
+  splits:
+  - split: 1
+    text: "传奇"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "System/NoData,无资料"
+  splits:
+  - split: 1
+    text: "无资料"
+- raw: "System/NoStory,无记载"
+  splits:
+  - split: 1
+    text: "无记载"
+- raw: "System/NA,无"
+  splits:
+  - split: 1
+    text: "无"
+- raw: "System/Infinity,无限"
+  splits:
+  - split: 1
+    text: "无限"
+- raw: "System/MaxLevel,最高等级"
+  splits:
+  - split: 1
+    text: "最高等级"
+- raw: "System/GameTimeText,第{0}年{1}{2}"
+  splits:
+  - split: 1
+    text: "第"
+  - split: 1
+    subIndex: 1
+    text: "年"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}⟦1⟧⟦2⟧"
+- raw: "System/Auto,自动"
+  splits:
+  - split: 1
+    text: "自动"
+- raw: "System/Log,回想"
+  splits:
+  - split: 1
+    text: "回想"
+- raw: "System/Develop,开发项目"
+  splits:
+  - split: 1
+    text: "开发项目"
+- raw: "System/Accountant,账房"
+  splits:
+  - split: 1
+    text: "账房"
+- raw: "System/Money,钱"
+  splits:
+  - split: 1
+    text: "钱"
+- raw: "System/Money2,两"
+  splits:
+  - split: 1
+    text: "两"
+- raw: "System/Level,等级"
+  splits:
+  - split: 1
+    text: "等级"
+- raw: "System/Combat,决斗"
+  splits:
+  - split: 1
+    text: "决斗"
+- raw: "System/Battle,战役"
+  splits:
+  - split: 1
+    text: "战役"
+- raw: "System/NotDevelop,需求条件不足"
+  splits:
+  - split: 1
+    text: "需求条件不足"
+- raw: "System/DevelopMouse,长按以开发"
+  splits:
+  - split: 1
+    text: "长按以开发"
+- raw: "System/ConfirmSave,确定覆盖目前的纪录吗?"
+  splits:
+  - split: 1
+    text: "确定覆盖目前的纪录吗"
+  templates:
+  - split: 1
+    template: "{0}?"
+- raw: "System/ConfirmDelete,确定删除选择的纪录吗？"
+  splits:
+  - split: 1
+    text: "确定删除选择的纪录吗？"
+- raw: "System/CostAction,消耗行动 {0}"
+  splits:
+  - split: 1
+    text: "消耗行动"
+  templates:
+  - split: 1
+    template: "{0} ⟦0⟧"
+- raw: "System/ConfirmBonusText,此页面有已分配的点数尚未确定"
+  splits:
+  - split: 1
+    text: "此页面有已分配的点数尚未确定"
+- raw: "System/CharacterInfo,列传"
+  splits:
+  - split: 1
+    text: "列传"
+- raw: "System/Shop,商店"
+  splits:
+  - split: 1
+    text: "商店"
+- raw: "System/NoSellItem,没有任何的杂物。"
+  splits:
+  - split: 1
+    text: "没有任何的杂物。"
+- raw: "System/NoSkills,没有任何的技能。"
+  splits:
+  - split: 1
+    text: "没有任何的技能。"
+- raw: "System/NoItems,没有任何的物品。"
+  splits:
+  - split: 1
+    text: "没有任何的物品。"
+- raw: "System/NoMartialBook,没有任何的秘笈。"
+  splits:
+  - split: 1
+    text: "没有任何的秘笈。"
+- raw: "System/NoMoneyDialog,师弟…你没有这么多钱吧？"
+  splits:
+  - split: 1
+    text: "师弟"
+  - split: 1
+    subIndex: 1
+    text: "你没有这么多钱吧？"
+  templates:
+  - split: 1
+    template: "{0}…{1}"
+- raw: "System/BuyDialog,买得好！"
+  splits:
+  - split: 1
+    text: "买得好！"
+- raw: "System/TotalAmount,总额"
+  splits:
+  - split: 1
+    text: "总额"
+- raw: "System/Enable,启动"
+  splits:
+  - split: 1
+    text: "启动"
+- raw: "System/Revolution,逆天"
+  splits:
+  - split: 1
+    text: "逆天"
+- raw: "System/DiceRange,收束"
+  splits:
+  - split: 1
+    text: "收束"
+- raw: "System/Continue,继续"
+  splits:
+  - split: 1
+    text: "继续"
+- raw: "System/YourChoice,你的抉择……"
+  splits:
+  - split: 1
+    text: "你的抉择"
+  templates:
+  - split: 1
+    template: "{0}……"
+- raw: "System/BattleSkill,–战术支援–"
+  splits:
+  - split: 1
+    text: "战术支援"
+  templates:
+  - split: 1
+    template: "–{0}–"
+- raw: "System/BattleFriend,我"
+  splits:
+  - split: 1
+    text: "我"
+- raw: "System/BattleEnemy,敌"
+  splits:
+  - split: 1
+    text: "敌"
+- raw: "System/BattleSkillSetting,技能设置"
+  splits:
+  - split: 1
+    text: "技能设置"
+- raw: "System/BattleStartText_01,出"
+  splits:
+  - split: 1
+    text: "出"
+- raw: "System/BattleStartText_02,征"
+  splits:
+  - split: 1
+    text: "征"
+- raw: "System/BattleStartText,出征"
+  splits:
+  - split: 1
+    text: "出征"
+- raw: "System/BattleHeader,决战"
+  splits:
+  - split: 1
+    text: "决战"
+- raw: "System/BattleVictory,胜"
+  splits:
+  - split: 1
+    text: "胜"
+- raw: "System/BattleLose,败"
+  splits:
+  - split: 1
+    text: "败"
+- raw: "System/BattleVictoryText_01,大获全胜"
+  splits:
+  - split: 1
+    text: "大获全胜"
+- raw: "System/BattleLoseText_01,一败涂地"
+  splits:
+  - split: 1
+    text: "一败涂地"
+- raw: "System/BattleTimeoutText_01,时间结束"
+  splits:
+  - split: 1
+    text: "时间结束"
+- raw: "System/BattleGetMoney,获得 {0}钱"
+  splits:
+  - split: 1
+    text: "获得"
+  - split: 1
+    subIndex: 1
+    text: "钱"
+  templates:
+  - split: 1
+    template: "{0} ⟦0⟧{1}"
+- raw: "System/EmptyBattleSkill,没朋友"
+  splits:
+  - split: 1
+    text: "没朋友"
+- raw: "System/BattleInfoHeader,操作"
+  splits:
+  - split: 1
+    text: "操作"
+- raw: "System/BattleInfoText_01,选单 - [ESC]\\n移动 - [箭头键]\\n翻滚 - [空格键]"
+  splits:
+  - split: 1
+    text: "选单"
+  - split: 1
+    subIndex: 1
+    text: "移动"
+  - split: 1
+    subIndex: 2
+    text: "箭头键"
+  - split: 1
+    subIndex: 3
+    text: "翻滚"
+  - split: 1
+    subIndex: 4
+    text: "空格键"
+  templates:
+  - split: 1
+    template: "{0} - [ESC]\\n{1} - [{2}]\\n{3} - [{4}]"
+- raw: "System/BattleInfoText_02,近战 - [Z]\\n平射 - [X]\\n抛射 - [长按X]\\n嘴攻 - [C]"
+  splits:
+  - split: 1
+    text: "近战"
+  - split: 1
+    subIndex: 1
+    text: "平射"
+  - split: 1
+    subIndex: 2
+    text: "抛射"
+  - split: 1
+    subIndex: 3
+    text: "长按"
+  - split: 1
+    subIndex: 4
+    text: "嘴攻"
+  templates:
+  - split: 1
+    template: "{0} - [Z]\\n{1} - [X]\\n{2} - [{3}X]\\n{4} - [C]"
+- raw: "System/BattleInfoText_03,技能1 - [Q]\\n技能2 - [W]\\n技能3 - [E]\\n技能4 - [R]"
+  splits:
+  - split: 1
+    text: "技能1"
+  - split: 1
+    subIndex: 1
+    text: "技能2"
+  - split: 1
+    subIndex: 2
+    text: "技能3"
+  - split: 1
+    subIndex: 3
+    text: "技能4"
+  templates:
+  - split: 1
+    template: "{0} - [Q]\\n{1} - [W]\\n{2} - [E]\\n{3} - [R]"
+- raw: "System/BattlePause,—暂停—"
+  splits:
+  - split: 1
+    text: "暂停"
+  templates:
+  - split: 1
+    template: "—{0}—"
+- raw: "System/BattleTime,时间"
+  splits:
+  - split: 1
+    text: "时间"
+- raw: "System/Header/Lover,心系："
+  splits:
+  - split: 1
+    text: "心系"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/Mental,心相："
+  splits:
+  - split: 1
+    text: "心相"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/Property,阴阳："
+  splits:
+  - split: 1
+    text: "阴阳"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/Fate,命运："
+  splits:
+  - split: 1
+    text: "命运"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/TrainCondition,修练条件："
+  splits:
+  - split: 1
+    text: "修练条件"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/TrainCondition_02,以下条件其一达成"
+  splits:
+  - split: 1
+    text: "以下条件其一达成"
+- raw: "System/Header/MaxCost,最大消费："
+  splits:
+  - split: 1
+    text: "最大消费"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/CostMoney,花费银两："
+  splits:
+  - split: 1
+    text: "花费银两"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/MaxBaseDice,[基础骰子下限：{0} 上限：{1}]"
+  splits:
+  - split: 1
+    text: "基础骰子下限"
+  - split: 1
+    subIndex: 1
+    text: "上限"
+  templates:
+  - split: 1
+    template: "[{0}：⟦0⟧ {1}：⟦1⟧]"
+- raw: "System/Number_0,零"
+  splits:
+  - split: 1
+    text: "零"
+- raw: "System/Number_1,一"
+  splits:
+  - split: 1
+    text: "一"
+- raw: "System/Number_2,二"
+  splits:
+  - split: 1
+    text: "二"
+- raw: "System/Number_3,三"
+  splits:
+  - split: 1
+    text: "三"
+- raw: "System/Number_4,四"
+  splits:
+  - split: 1
+    text: "四"
+- raw: "System/Number_5,五"
+  splits:
+  - split: 1
+    text: "五"
+- raw: "System/Number_6,六"
+  splits:
+  - split: 1
+    text: "六"
+- raw: "System/Number_7,七"
+  splits:
+  - split: 1
+    text: "七"
+- raw: "System/Number_8,八"
+  splits:
+  - split: 1
+    text: "八"
+- raw: "System/Number_9,九"
+  splits:
+  - split: 1
+    text: "九"
+- raw: "System/Number_10,十"
+  splits:
+  - split: 1
+    text: "十"
+- raw: "System/Number_11,十一"
+  splits:
+  - split: 1
+    text: "十一"
+- raw: "System/Number_12,十二"
+  splits:
+  - split: 1
+    text: "十二"
+- raw: "System/Month_1,一月"
+  splits:
+  - split: 1
+    text: "一月"
+- raw: "System/Month_2,二月"
+  splits:
+  - split: 1
+    text: "二月"
+- raw: "System/Month_3,三月"
+  splits:
+  - split: 1
+    text: "三月"
+- raw: "System/Month_4,四月"
+  splits:
+  - split: 1
+    text: "四月"
+- raw: "System/Month_5,五月"
+  splits:
+  - split: 1
+    text: "五月"
+- raw: "System/Month_6,六月"
+  splits:
+  - split: 1
+    text: "六月"
+- raw: "System/Month_7,七月"
+  splits:
+  - split: 1
+    text: "七月"
+- raw: "System/Month_8,八月"
+  splits:
+  - split: 1
+    text: "八月"
+- raw: "System/Month_9,九月"
+  splits:
+  - split: 1
+    text: "九月"
+- raw: "System/Month_10,十月"
+  splits:
+  - split: 1
+    text: "十月"
+- raw: "System/Month_11,十一月"
+  splits:
+  - split: 1
+    text: "十一月"
+- raw: "System/Month_12,十二月"
+  splits:
+  - split: 1
+    text: "十二月"
+- raw: "System/Stage_1,上旬"
+  splits:
+  - split: 1
+    text: "上旬"
+- raw: "System/Stage_2,中旬"
+  splits:
+  - split: 1
+    text: "中旬"
+- raw: "System/Stage_3,下旬"
+  splits:
+  - split: 1
+    text: "下旬"
+- raw: "System/Restart,重新开始"
+  splits:
+  - split: 1
+    text: "重新开始"
+- raw: "System/GoMenu,回主选单"
+  splits:
+  - split: 1
+    text: "回主选单"
+- raw: "System/ClickContinue,–点击继续–"
+  splits:
+  - split: 1
+    text: "点击继续"
+  templates:
+  - split: 1
+    template: "–{0}–"
+- raw: "System/Dead_1,你死了。"
+  splits:
+  - split: 1
+    text: "你死了。"
+- raw: "System/Dead_2,这是你的尸体，没有人爱你。"
+  splits:
+  - split: 1
+    text: "这是你的尸体，没有人爱你。"
+- raw: "System/ListenKeyRebind,请输入新的...或ESC取消"
+  splits:
+  - split: 1
+    text: "请输入新的...或"
+  - split: 1
+    subIndex: 1
+    text: "取消"
+  templates:
+  - split: 1
+    template: "{0}ESC{1}"
+- raw: "SystemSetting/Title/Lang,游戏语言"
+  splits:
+  - split: 1
+    text: "游戏语言"
+- raw: "SystemSetting/Title/Game,游戏设定"
+  splits:
+  - split: 1
+    text: "游戏设定"
+- raw: "SystemSetting/Title/Graphic,画面设定"
+  splits:
+  - split: 1
+    text: "画面设定"
+- raw: "SystemSetting/Title/Sound,声音设定"
+  splits:
+  - split: 1
+    text: "声音设定"
+- raw: "SystemSetting/Title/MustReturnTitle,需返回到游戏标题设定"
+  splits:
+  - split: 1
+    text: "需返回到游戏标题设定"
+- raw: "SystemSetting/Game/ManualDestiny,手动启动天命轮盘"
+  splits:
+  - split: 1
+    text: "手动启动天命轮盘"
+- raw: "SystemSetting/Game/AutoSave,养成回合自动存档"
+  splits:
+  - split: 1
+    text: "养成回合自动存档"
+- raw: "SystemSetting/Game/SkipUnreadStory,可快转未读文字"
+  splits:
+  - split: 1
+    text: "可快转未读文字"
+- raw: "SystemSetting/Game/ReadStoryColor,已读文字变色"
+  splits:
+  - split: 1
+    text: "已读文字变色"
+- raw: "SystemSetting/Graphic/Resolution,分辨率"
+  splits:
+  - split: 1
+    text: "分辨率"
+- raw: "SystemSetting/Graphic/Fullscreen,全屏幕(只适用16:9比例显示器)"
+  splits:
+  - split: 1
+    text: "全屏幕"
+  - split: 1
+    subIndex: 1
+    text: "只适用16"
+  - split: 1
+    subIndex: 2
+    text: "9比例显示器"
+  templates:
+  - split: 1
+    template: "{0}({1}:{2})"
+- raw: "SystemSetting/Graphic/GamepadIcon,控制器图示"
+  splits:
+  - split: 1
+    text: "控制器图示"
+- raw: "SystemSetting/Sound/Master,主音量"
+  splits:
+  - split: 1
+    text: "主音量"
+- raw: "SystemSetting/Sound/Music,音乐音量"
+  splits:
+  - split: 1
+    text: "音乐音量"
+- raw: "SystemSetting/Sound/SFX,音效音量"
+  splits:
+  - split: 1
+    text: "音效音量"
+- raw: "System/NextFactionLevel,下一等级：门派规模{0}"
+  splits:
+  - split: 1
+    text: "下一等级"
+  - split: 1
+    subIndex: 1
+    text: "门派规模"
+  templates:
+  - split: 1
+    template: "{0}：{1}⟦0⟧"
+- raw: "System/NoMoney,银两不足"
+  splits:
+  - split: 1
+    text: "银两不足"
+- raw: "System/NoPoint,点数不足"
+  splits:
+  - split: 1
+    text: "点数不足"
+- raw: "System/itemSold,售罄"
+  splits:
+  - split: 1
+    text: "售罄"
+- raw: "DevelopCondition/Require,需要"
+  splits:
+  - split: 1
+    text: "需要"
+- raw: "DevelopCondition/FactionLevel,门派规模{0}"
+  splits:
+  - split: 1
+    text: "门派规模"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "DevelopCondition/ItemLevel,装备等级{0}"
+  splits:
+  - split: 1
+    text: "装备等级"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "DevelopRefund/ForgePoint,归还{0}点锻造点数"
+  splits:
+  - split: 1
+    text: "归还"
+  - split: 1
+    subIndex: 1
+    text: "点锻造点数"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "DevelopRefund/AlchemyPoint,归还{0}点炼丹点数"
+  splits:
+  - split: 1
+    text: "归还"
+  - split: 1
+    subIndex: 1
+    text: "点炼丹点数"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "DevelopRefund/Money,归还{0}银两"
+  splits:
+  - split: 1
+    text: "归还"
+  - split: 1
+    subIndex: 1
+    text: "银两"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "DevelopRefund/CurrentDevelopRef,依目前开发项目"
+  splits:
+  - split: 1
+    text: "依目前开发项目"
+- raw: "Develop/RequireLevel,需求：等级 {0}"
+  splits:
+  - split: 1
+    text: "需求"
+  - split: 1
+    subIndex: 1
+    text: "等级"
+  templates:
+  - split: 1
+    template: "{0}：{1} ⟦0⟧"
+- raw: "Develop/Unknown,未知"
+  splits:
+  - split: 1
+    text: "未知"
+- raw: "MartialCondition/Stat,{0}{1}{2}(目前{3}) ({4})"
+  splits:
+  - split: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "⟦0⟧⟦1⟧⟦2⟧({0}⟦3⟧) (⟦4⟧)"
+- raw: "MartialCondition/Character,{0}好感度{1}{2}(目前{3}) ({4})"
+  splits:
+  - split: 1
+    text: "好感度"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "⟦0⟧{0}⟦1⟧⟦2⟧({1}⟦3⟧) (⟦4⟧)"
+- raw: "MartialCondition/Book,需要《{0}》({1})"
+  splits:
+  - split: 1
+    text: "需要"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》(⟦1⟧)"
+- raw: "MartialCondition/Special,需要《{0}》(持有{1}) ({2})"
+  splits:
+  - split: 1
+    text: "需要"
+  - split: 1
+    subIndex: 1
+    text: "持有"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
+- raw: "MartialCondition/Misc,需要《{0}》(持有{1}) ({2})"
+  splits:
+  - split: 1
+    text: "需要"
+  - split: 1
+    subIndex: 1
+    text: "持有"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
+- raw: "MartialCondition/Talent,技能《{0}Lv{1}》(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "技能"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧Lv⟦1⟧》({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Confucianism,儒学{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "儒学"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Taoism,道学{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "道学"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Buddhism,释学{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "释学"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Xingyi,形意拳{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "形意拳"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialStatDisplay/Stat,属性：{0} [{1}/{2}]"
+  splits:
+  - split: 1
+    text: "属性"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
+- raw: "MartialStatDisplay/StatPreview,影响：{0}"
+  splits:
+  - split: 1
+    text: "影响"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "MartialStatDisplay/Talent,技能：{0} [{1}/{2}]"
+  splits:
+  - split: 1
+    text: "技能"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
+- raw: "MartialStatDisplay/TalentNoLevel,技能：{0}"
+  splits:
+  - split: 1
+    text: "技能"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "MartialStatDisplay/TalentPreview,可习得：{0}"
+  splits:
+  - split: 1
+    text: "可习得"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "Middle/Title/Issue,议题"
+  splits:
+  - split: 1
+    text: "议题"
+- raw: "Middle/Title/CostAction,消耗行动"
+  splits:
+  - split: 1
+    text: "消耗行动"
+- raw: "Middle/Title/CostContribution,消耗贡献"
+  splits:
+  - split: 1
+    text: "消耗贡献"
+- raw: "Middle/Title/Combat,决斗"
+  splits:
+  - split: 1
+    text: "决斗"
+- raw: "Middle/Title/Battle,战役"
+  splits:
+  - split: 1
+    text: "战役"
+- raw: "Middle/Title/Talk,闲聊"
+  splits:
+  - split: 1
+    text: "闲聊"
+- raw: "Middle/Title/Shop,商店"
+  splits:
+  - split: 1
+    text: "商店"
+- raw: "Middle/Title/Change,切换"
+  splits:
+  - split: 1
+    text: "切换"
+- raw: "Middle/Title/Event,事件"
+  splits:
+  - split: 1
+    text: "事件"
+- raw: "Middle/Title/Quit,离开"
+  splits:
+  - split: 1
+    text: "离开"
+- raw: "Middle/Title/Move,移动"
+  splits:
+  - split: 1
+    text: "移动"
+- raw: "Middle/Title/Default,其他"
+  splits:
+  - split: 1
+    text: "其他"
+- raw: "BattleKey/Name/Up,上"
+  splits:
+  - split: 1
+    text: "上"
+- raw: "BattleKey/Name/Down,下"
+  splits:
+  - split: 1
+    text: "下"
+- raw: "BattleKey/Name/Left,左"
+  splits:
+  - split: 1
+    text: "左"
+- raw: "BattleKey/Name/Right,右"
+  splits:
+  - split: 1
+    text: "右"
+- raw: "BattleKey/Name/Attack1,近战"
+  splits:
+  - split: 1
+    text: "近战"
+- raw: "BattleKey/Name/Attack2,平射(长按抛射)"
+  splits:
+  - split: 1
+    text: "平射"
+  - split: 1
+    subIndex: 1
+    text: "长按抛射"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "BattleKey/Name/Attack3,抛射"
+  splits:
+  - split: 1
+    text: "抛射"
+- raw: "BattleKey/Name/Curse,嘴功"
+  splits:
+  - split: 1
+    text: "嘴功"
+- raw: "BattleKey/Name/Dodge,闪避"
+  splits:
+  - split: 1
+    text: "闪避"
+- raw: "BattleKey/Name/Skill_1,技能1"
+  splits:
+  - split: 1
+    text: "技能1"
+- raw: "BattleKey/Name/Skill_2,技能2"
+  splits:
+  - split: 1
+    text: "技能2"
+- raw: "BattleKey/Name/Skill_3,技能3"
+  splits:
+  - split: 1
+    text: "技能3"
+- raw: "BattleKey/Name/Skill_4,技能4"
+  splits:
+  - split: 1
+    text: "技能4"
+- raw: "BattleKey/Name/Setting,设定"
+  splits:
+  - split: 1
+    text: "设定"
+- raw: "BattleKey/Name/Reset,预设"
+  splits:
+  - split: 1
+    text: "预设"
+- raw: "System/StoryEvent,事件"
+  splits:
+  - split: 1
+    text: "事件"

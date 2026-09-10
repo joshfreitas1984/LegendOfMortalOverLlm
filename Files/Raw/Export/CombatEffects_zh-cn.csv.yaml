@@ -1,0 +1,9235 @@
+- raw: "CombatSkill/Name/T001,唐门之力"
+  splits:
+  - split: 1
+    text: "唐门之力"
+- raw: "CombatSkill/Desc/T001,唐门之力：敌人全数值-50%。我方命中率+80%，伤害减免+30%"
+  splits:
+  - split: 1
+    text: "唐门之力"
+  - split: 1
+    subIndex: 1
+    text: "敌人全数值-50%。我方命中率+80%，伤害减免"
+  templates:
+  - split: 1
+    template: "{0}：{1}+30%"
+- raw: "CombatSkill/Name/A001,封印"
+  splits:
+  - split: 1
+    text: "封印"
+- raw: "CombatSkill/Desc/A001,封印：无法使用绝招。"
+  splits:
+  - split: 1
+    text: "封印"
+  - split: 1
+    subIndex: 1
+    text: "无法使用绝招。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A002,疯狂攻击"
+  splits:
+  - split: 1
+    text: "疯狂攻击"
+- raw: "CombatSkill/Desc/A002,疯狂攻击：只会使用捅人。"
+  splits:
+  - split: 1
+    text: "疯狂攻击"
+  - split: 1
+    subIndex: 1
+    text: "只会使用捅人。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A003,爆气"
+  splits:
+  - split: 1
+    text: "爆气"
+- raw: "CombatSkill/Desc/A003,爆气"
+  splits:
+  - split: 1
+    text: "爆气"
+- raw: "CombatSkill/Name/A004,单手"
+  splits:
+  - split: 1
+    text: "单手"
+- raw: "CombatSkill/Desc/A004,单手：对方单手跟你过招，单数回合不行动。"
+  splits:
+  - split: 1
+    text: "单手"
+  - split: 1
+    subIndex: 1
+    text: "对方单手跟你过招，单数回合不行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A005,乱丢钱"
+  splits:
+  - split: 1
+    text: "乱丢钱"
+- raw: "CombatSkill/Desc/A005,乱丢钱：受到物理攻击时大师兄会掷出铜钱。"
+  splits:
+  - split: 1
+    text: "乱丢钱"
+  - split: 1
+    subIndex: 1
+    text: "受到物理攻击时大师兄会掷出铜钱。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A006,揍狗拳"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+- raw: "CombatSkill/Desc/A006,揍狗拳：适合欺负弱者的乱战拳法，每回合揍扁一名伙伴，使其退场。"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+  - split: 1
+    subIndex: 1
+    text: "适合欺负弱者的乱战拳法，每回合揍扁一名伙伴，使其退场。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A007,鹰爪手"
+  splits:
+  - split: 1
+    text: "鹰爪手"
+- raw: "CombatSkill/Desc/A007,鹰爪手"
+  splits:
+  - split: 1
+    text: "鹰爪手"
+- raw: "CombatSkill/Name/A008,喂招"
+  splits:
+  - split: 1
+    text: "喂招"
+- raw: "CombatSkill/Desc/A008,喂招：所有攻击伤害效果减半。"
+  splits:
+  - split: 1
+    text: "喂招"
+  - split: 1
+    subIndex: 1
+    text: "所有攻击伤害效果减半。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A009,傲慢"
+  splits:
+  - split: 1
+    text: "傲慢"
+- raw: "CombatSkill/Desc/A009,傲慢：所有伤害提升50%，受到伤害增加10%。"
+  splits:
+  - split: 1
+    text: "傲慢"
+  - split: 1
+    subIndex: 1
+    text: "所有伤害提升50%，受到伤害增加10%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A010,忌惮"
+  splits:
+  - split: 1
+    text: "忌惮"
+- raw: "CombatSkill/Desc/A010,忌惮：担心动作太大会弄坏桌椅，不由得留手，所有伤害-30%。"
+  splits:
+  - split: 1
+    text: "忌惮"
+  - split: 1
+    subIndex: 1
+    text: "担心动作太大会弄坏桌椅，不由得留手，所有伤害"
+  templates:
+  - split: 1
+    template: "{0}：{1}-30%。"
+- raw: "CombatSkill/Name/A011,牵制"
+  splits:
+  - split: 1
+    text: "牵制"
+- raw: "CombatSkill/Desc/A011,牵制：受到大师兄的牵制，只有单数回合能行动。"
+  splits:
+  - split: 1
+    text: "牵制"
+  - split: 1
+    subIndex: 1
+    text: "受到大师兄的牵制，只有单数回合能行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/A012_1,唐门暗器Lv1"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/A012_1,唐门暗器Lv1：提升1%暗器命中、1%暗器伤害、增加1个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升1%暗器命中、1%暗器伤害、增加1个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/A012_2,唐门暗器Lv2"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/A012_2,唐门暗器Lv2：提升2%暗器命中、3%暗器伤害、增加2个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升2%暗器命中、3%暗器伤害、增加2个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/A012_3,唐门暗器Lv3"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/A012_3,唐门暗器Lv3：提升4%暗器命中、5%暗器伤害、增加3个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升4%暗器命中、5%暗器伤害、增加3个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/A012_4,唐门暗器Lv4"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/A012_4,唐门暗器Lv4：提升6%暗器命中、6%暗器伤害、增加3个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升6%暗器命中、6%暗器伤害、增加3个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}"
+- raw: "CombatSkill/Name/A012_5,唐门暗器Lv5"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/A012_5,唐门暗器Lv5：提升8%暗器命中、8%暗器伤害、增加4个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升8%暗器命中、8%暗器伤害、增加4个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}"
+- raw: "CombatSkill/Name/A012_6,唐门暗器Lv6"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/A012_6,唐门暗器Lv6：提升10%暗器命中、10%暗器伤害、增加4个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升10%暗器命中、10%暗器伤害、增加4个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}"
+- raw: "CombatSkill/Name/A012_7,唐门暗器Lv7"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/A012_7,唐门暗器Lv7：提升12%暗器命中、12%暗器伤害、增加6个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升12%暗器命中、12%暗器伤害、增加6个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}"
+- raw: "CombatSkill/Name/A012_8,唐门暗器Lv8"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/A012_8,唐门暗器Lv8：提升14%暗器命中、14%暗器伤害、增加6个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升14%暗器命中、14%暗器伤害、增加6个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}"
+- raw: "CombatSkill/Name/A012_9,唐门暗器Lv9"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/A012_9,唐门暗器Lv9：提升16%暗器命中、16%暗器伤害、增加8个暗器骰子。"
+  splits:
+  - split: 1
+    text: "唐门暗器"
+  - split: 1
+    subIndex: 1
+    text: "提升16%暗器命中、16%暗器伤害、增加8个暗器骰子。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}"
+- raw: "CombatSkill/Name/A013_1,唐门毒术Lv1"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/A013_1,唐门毒术Lv1：提升2%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升2%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/A013_2,唐门毒术Lv2"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/A013_2,唐门毒术Lv2：提升5%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升5%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/A013_3,唐门毒术Lv3"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/A013_3,唐门毒术Lv3：提升8%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升8%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/A013_4,唐门毒术Lv4"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/A013_4,唐门毒术Lv4：提升10%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升10%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}"
+- raw: "CombatSkill/Name/A013_5,唐门毒术Lv5"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/A013_5,唐门毒术Lv5：提升12%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升12%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}"
+- raw: "CombatSkill/Name/A013_6,唐门毒术Lv6"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/A013_6,唐门毒术Lv6：提升15%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升15%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}"
+- raw: "CombatSkill/Name/A013_7,唐门毒术Lv7"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/A013_7,唐门毒术Lv7：提升17%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升17%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}"
+- raw: "CombatSkill/Name/A013_8,唐门毒术Lv8"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/A013_8,唐门毒术Lv8：提升20%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升20%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}"
+- raw: "CombatSkill/Name/A013_9,唐门毒术Lv9"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/A013_9,唐门毒术Lv9：提升23%毒药、麻痹累积值。"
+  splits:
+  - split: 1
+    text: "唐门毒术"
+  - split: 1
+    subIndex: 1
+    text: "提升23%毒药、麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}"
+- raw: "CombatSkill/Name/A014,君子风"
+  splits:
+  - split: 1
+    text: "君子风"
+- raw: "CombatSkill/Desc/A014,君子风：修养、性情、处世三项皆为中庸时，最终伤害+20%，伤害减免+20%。"
+  splits:
+  - split: 1
+    text: "君子风"
+  - split: 1
+    subIndex: 1
+    text: "修养、性情、处世三项皆为中庸时，最终伤害+20%，伤害减免"
+  templates:
+  - split: 1
+    template: "{0}：{1}+20%。"
+- raw: "CombatSkill/Name/B001,愤怒"
+  splits:
+  - split: 1
+    text: "愤怒"
+- raw: "CombatSkill/Desc/B001,愤怒：伤害增加1.5倍，无法采取捅人以外的指令，且有50%机率落空。"
+  splits:
+  - split: 1
+    text: "愤怒"
+  - split: 1
+    subIndex: 1
+    text: "伤害增加1.5倍，无法采取捅人以外的指令，且有50%机率落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B002,阻挡最后一击"
+  splits:
+  - split: 1
+    text: "阻挡最后一击"
+- raw: "CombatSkill/Desc/B002,阻挡最后一击"
+  splits:
+  - split: 1
+    text: "阻挡最后一击"
+- raw: "CombatSkill/Name/B003,超绝暴怒"
+  splits:
+  - split: 1
+    text: "超绝暴怒"
+- raw: "CombatSkill/Desc/B003,超绝暴怒"
+  splits:
+  - split: 1
+    text: "超绝暴怒"
+- raw: "CombatSkill/Name/B004,发在意先"
+  splits:
+  - split: 1
+    text: "发在意先"
+- raw: "CombatSkill/Desc/B004,武学中的至高境界，还未动念，已经出手。说穿了其实就是「还没想清楚就打人」的意思。绝对先制攻击。"
+  splits:
+  - split: 1
+    text: "武学中的至高境界，还未动念，已经出手。说穿了其实就是「还没想清楚就打人」的意思。绝对先制攻击。"
+- raw: "CombatSkill/Name/B005,额外暗器"
+  splits:
+  - split: 1
+    text: "额外暗器"
+- raw: "CombatSkill/Desc/B005,额外暗器：使用捅人或暗器动作时，将施展「暗器」"
+  splits:
+  - split: 1
+    text: "额外暗器"
+  - split: 1
+    subIndex: 1
+    text: "使用捅人或暗器动作时，将施展「暗器」"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B006_1,强化防御(一)"
+  splits:
+  - split: 1
+    text: "强化防御"
+  - split: 1
+    subIndex: 1
+    text: "一"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "CombatSkill/Desc/B006_1,强化防御(一)：伤害减免5%"
+  splits:
+  - split: 1
+    text: "强化防御"
+  - split: 1
+    subIndex: 1
+    text: "一"
+  - split: 1
+    subIndex: 2
+    text: "伤害减免5%"
+  templates:
+  - split: 1
+    template: "{0}({1})：{2}"
+- raw: "CombatSkill/Name/B006_2,强化防御(二)"
+  splits:
+  - split: 1
+    text: "强化防御"
+  - split: 1
+    subIndex: 1
+    text: "二"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "CombatSkill/Desc/B006_2,强化防御(二)：伤害减免10%"
+  splits:
+  - split: 1
+    text: "强化防御"
+  - split: 1
+    subIndex: 1
+    text: "二"
+  - split: 1
+    subIndex: 2
+    text: "伤害减免10%"
+  templates:
+  - split: 1
+    template: "{0}({1})：{2}"
+- raw: "CombatSkill/Name/B006_3,强化防御(三)"
+  splits:
+  - split: 1
+    text: "强化防御"
+  - split: 1
+    subIndex: 1
+    text: "三"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "CombatSkill/Desc/B006_3,强化防御(三)：伤害减免20%"
+  splits:
+  - split: 1
+    text: "强化防御"
+  - split: 1
+    subIndex: 1
+    text: "三"
+  - split: 1
+    subIndex: 2
+    text: "伤害减免20%"
+  templates:
+  - split: 1
+    template: "{0}({1})：{2}"
+- raw: "CombatSkill/Name/B007_1,狂化Lv1"
+  splits:
+  - split: 1
+    text: "狂化"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B007_1,狂化Lv1：每回合伤害翻倍，被伤害亦翻倍。"
+  splits:
+  - split: 1
+    text: "狂化"
+  - split: 1
+    subIndex: 1
+    text: "每回合伤害翻倍，被伤害亦翻倍。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/B007_2,狂化Lv1"
+  splits:
+  - split: 1
+    text: "狂化"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B007_2,狂化Lv1：每回合伤害翻倍，被伤害亦翻倍。"
+  splits:
+  - split: 1
+    text: "狂化"
+  - split: 1
+    subIndex: 1
+    text: "每回合伤害翻倍，被伤害亦翻倍。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/B007_2,狂化Lv1"
+  splits:
+  - split: 1
+    text: "狂化"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B007_2,狂化Lv1：每回合伤害翻倍，被伤害亦翻倍。"
+  splits:
+  - split: 1
+    text: "狂化"
+  - split: 1
+    subIndex: 1
+    text: "每回合伤害翻倍，被伤害亦翻倍。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/B008,腾空"
+  splits:
+  - split: 1
+    text: "腾空"
+- raw: "CombatSkill/Desc/B008,腾空：绝招变化为[追击]，消耗少量气，造成多段伤害。\\n备揍变化为[收势]。"
+  splits:
+  - split: 1
+    text: "腾空"
+  - split: 1
+    subIndex: 1
+    text: "绝招变化为"
+  - split: 1
+    subIndex: 2
+    text: "追击"
+  - split: 1
+    subIndex: 3
+    text: "，消耗少量气，造成多段伤害。"
+  - split: 1
+    subIndex: 4
+    text: "备揍变化为"
+  - split: 1
+    subIndex: 5
+    text: "收势"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}\\n{4}[{5}]。"
+- raw: "CombatSkill/Name/B0012_1,白猿身法Lv1"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B0012_1,白猿身法Lv1：根据轻功、拳掌的[2%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[2%]{2}"
+- raw: "CombatSkill/Name/B0012_2,白猿身法Lv2"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B0012_2,白猿身法Lv2：根据轻功、拳掌的[4%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[4%]{2}"
+- raw: "CombatSkill/Name/B0012_3,白猿身法Lv3"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B0012_3,白猿身法Lv3：根据轻功、拳掌的[6%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[6%]{2}"
+- raw: "CombatSkill/Name/B0012_4,白猿身法Lv4"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B0012_4,白猿身法Lv4：根据轻功、拳掌的[8%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[8%]{2}"
+- raw: "CombatSkill/Name/B0012_5,白猿身法Lv5"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B0012_5,白猿身法Lv5：根据轻功、拳掌的[10%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[10%]{2}"
+- raw: "CombatSkill/Name/B0012_6,白猿身法Lv6"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B0012_6,白猿身法Lv6：根据轻功、拳掌的[12%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[12%]{2}"
+- raw: "CombatSkill/Name/B0012_7,白猿身法Lv7"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B0012_7,白猿身法Lv7：根据轻功、拳掌的[14%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[14%]{2}"
+- raw: "CombatSkill/Name/B0012_8,白猿身法Lv8"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B0012_8,白猿身法Lv8：根据轻功、拳掌的[16%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[16%]{2}"
+- raw: "CombatSkill/Name/B0012_9,白猿身法Lv9"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B0012_9,白猿身法Lv9：根据轻功、拳掌的[18%]获得回避机率。"
+  splits:
+  - split: 1
+    text: "白猿身法"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功、拳掌的"
+  - split: 1
+    subIndex: 2
+    text: "获得回避机率。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[18%]{2}"
+- raw: "CombatSkill/Name/B0013_1,心剑Lv1"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B0013_1,心剑Lv1：根据刀剑[2%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[2%]{2}"
+- raw: "CombatSkill/Name/B0013_2,心剑Lv2"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B0013_2,心剑Lv2：根据刀剑[4%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[4%]{2}"
+- raw: "CombatSkill/Name/B0013_3,心剑Lv3"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B0013_3,心剑Lv3：根据刀剑[6%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[6%]{2}"
+- raw: "CombatSkill/Name/B0013_4,心剑Lv4"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B0013_4,心剑Lv4：根据刀剑[8%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[8%]{2}"
+- raw: "CombatSkill/Name/B0013_5,心剑Lv5"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B0013_5,心剑Lv5：根据刀剑[10%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[10%]{2}"
+- raw: "CombatSkill/Name/B0013_6,心剑Lv6"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B0013_6,心剑Lv6：根据刀剑[12%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[12%]{2}"
+- raw: "CombatSkill/Name/B0013_7,心剑Lv7"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B0013_7,心剑Lv7：根据刀剑[14%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[14%]{2}"
+- raw: "CombatSkill/Name/B0013_8,心剑Lv8"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B0013_8,心剑Lv8：根据刀剑[16%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[16%]{2}"
+- raw: "CombatSkill/Name/B0013_9,心剑Lv9"
+  splits:
+  - split: 1
+    text: "心剑"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B0013_9,心剑Lv9：根据刀剑[18%]提升拳掌。"
+  splits:
+  - split: 1
+    text: "心剑"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑"
+  - split: 1
+    subIndex: 2
+    text: "提升拳掌。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[18%]{2}"
+- raw: "CombatSkill/Name/B0014,峨嵋十九桩"
+  splits:
+  - split: 1
+    text: "峨嵋十九桩"
+- raw: "CombatSkill/Desc/B0014,峨嵋十九桩：全属性根据形意拳精通数获得提升。"
+  splits:
+  - split: 1
+    text: "峨嵋十九桩"
+  - split: 1
+    subIndex: 1
+    text: "全属性根据形意拳精通数获得提升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B017_1,千机百变Lv1"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B017_1,千机百变Lv1：根据暗器[2%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[2%]{2}"
+- raw: "CombatSkill/Name/B017_2,千机百变Lv2"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B017_2,千机百变Lv2：根据暗器[4%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[4%]{2}"
+- raw: "CombatSkill/Name/B017_3,千机百变Lv3"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B017_3,千机百变Lv3：根据暗器[6%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[6%]{2}"
+- raw: "CombatSkill/Name/B017_4,千机百变Lv4"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B017_4,千机百变Lv4：根据暗器[8%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[8%]{2}"
+- raw: "CombatSkill/Name/B017_5,千机百变Lv5"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B017_5,千机百变Lv5：根据暗器[10%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[10%]{2}"
+- raw: "CombatSkill/Name/B017_6,千机百变Lv6"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B017_6,千机百变Lv6：根据暗器[12%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[12%]{2}"
+- raw: "CombatSkill/Name/B017_7,千机百变Lv7"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B017_7,千机百变Lv7：根据暗器[14%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[14%]{2}"
+- raw: "CombatSkill/Name/B017_8,千机百变Lv8"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B017_8,千机百变Lv8：根据暗器[16%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[16%]{2}"
+- raw: "CombatSkill/Name/B017_9,千机百变Lv9"
+  splits:
+  - split: 1
+    text: "千机百变"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B017_9,千机百变Lv9：根据暗器[18%]提升武器爆击骰。"
+  splits:
+  - split: 1
+    text: "千机百变"
+  - split: 1
+    subIndex: 1
+    text: "根据暗器"
+  - split: 1
+    subIndex: 2
+    text: "提升武器爆击骰。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[18%]{2}"
+- raw: "CombatSkill/Name/B0019,肩甲"
+  splits:
+  - split: 1
+    text: "肩甲"
+- raw: "CombatSkill/Desc/B0019,肩甲：防御+20%、轻功-10%。"
+  splits:
+  - split: 1
+    text: "肩甲"
+  - split: 1
+    subIndex: 1
+    text: "防御+20%、轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}-10%。"
+- raw: "CombatSkill/Name/B0020,豪华肩甲"
+  splits:
+  - split: 1
+    text: "豪华肩甲"
+- raw: "CombatSkill/Desc/B0020,豪华肩甲：防御+40%、轻功-20%。"
+  splits:
+  - split: 1
+    text: "豪华肩甲"
+  - split: 1
+    subIndex: 1
+    text: "防御+40%、轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%。"
+- raw: "CombatSkill/Name/B0021,终极肩甲"
+  splits:
+  - split: 1
+    text: "终极肩甲"
+- raw: "CombatSkill/Desc/B0021,终极肩甲：防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
+  splits:
+  - split: 1
+    text: "终极肩甲"
+  - split: 1
+    subIndex: 1
+    text: "防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B0025,高手风范"
+  splits:
+  - split: 1
+    text: "高手风范"
+- raw: "CombatSkill/Desc/B0025,高手风范：根据修养提升每回合的气力。"
+  splits:
+  - split: 1
+    text: "高手风范"
+  - split: 1
+    subIndex: 1
+    text: "根据修养提升每回合的气力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B0026,做人没有下限"
+  splits:
+  - split: 1
+    text: "做人没有下限"
+- raw: "CombatSkill/Desc/B0026,做人没有下限：道德越低，爆击骰越多。"
+  splits:
+  - split: 1
+    text: "做人没有下限"
+  - split: 1
+    subIndex: 1
+    text: "道德越低，爆击骰越多。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B0027_1,化劲Lv1"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B0027_1,化劲Lv1：根据拳掌、轻功的[2%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[2%]{2}"
+- raw: "CombatSkill/Name/B0027_2,化劲Lv2"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B0027_2,化劲Lv2：根据拳掌、轻功的[4%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[4%]{2}"
+- raw: "CombatSkill/Name/B0027_3,化劲Lv3"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B0027_3,化劲Lv3：根据拳掌、轻功的[6%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[6%]{2}"
+- raw: "CombatSkill/Name/B0027_4,化劲Lv4"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B0027_4,化劲Lv4：根据拳掌、轻功的[8%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[8%]{2}"
+- raw: "CombatSkill/Name/B0027_5,化劲Lv5"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B0027_5,化劲Lv5：根据拳掌、轻功的[10%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[10%]{2}"
+- raw: "CombatSkill/Name/B0027_6,化劲Lv6"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B0027_6,化劲Lv6：根据拳掌、轻功的[12%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[12%]{2}"
+- raw: "CombatSkill/Name/B0027_7,化劲Lv7"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B0027_7,化劲Lv7：根据拳掌、轻功的[14%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[14%]{2}"
+- raw: "CombatSkill/Name/B0027_8,化劲Lv8"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B0027_8,化劲Lv8：根据拳掌、轻功的[16%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[16%]{2}"
+- raw: "CombatSkill/Name/B0027_9,化劲Lv9"
+  splits:
+  - split: 1
+    text: "化劲"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B0027_9,化劲Lv9：根据拳掌、轻功的[18%]提升防御。"
+  splits:
+  - split: 1
+    text: "化劲"
+  - split: 1
+    subIndex: 1
+    text: "根据拳掌、轻功的"
+  - split: 1
+    subIndex: 2
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[18%]{2}"
+- raw: "CombatSkill/Name/B0035_1,龙渊七绝Lv1"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B0035_1,龙渊七绝Lv1：根据六维的[2%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[2%]{2}"
+- raw: "CombatSkill/Name/B0035_2,龙渊七绝Lv2"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B0035_2,龙渊七绝Lv2：根据六维的[4%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[4%]{2}"
+- raw: "CombatSkill/Name/B0035_3,龙渊七绝Lv3"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B0035_3,龙渊七绝Lv3：根据六维的[6%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[6%]{2}"
+- raw: "CombatSkill/Name/B0035_4,龙渊七绝Lv4"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B0035_4,龙渊七绝Lv4：根据六维的[8%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[8%]{2}"
+- raw: "CombatSkill/Name/B0035_5,龙渊七绝Lv5"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B0035_5,龙渊七绝Lv5：根据六维的[10%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[10%]{2}"
+- raw: "CombatSkill/Name/B0035_6,龙渊七绝Lv6"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B0035_6,龙渊七绝Lv6：根据六维的[12%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[12%]{2}"
+- raw: "CombatSkill/Name/B0035_7,龙渊七绝Lv7"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B0035_7,龙渊七绝Lv7：根据六维的[14%]提升所有伤害。"
+  splits:
+  - split: 1
+    text: "龙渊七绝"
+  - split: 1
+    subIndex: 1
+    text: "根据六维的"
+  - split: 1
+    subIndex: 2
+    text: "提升所有伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[14%]{2}"
+- raw: "CombatSkill/Name/B0036_1,借势Lv1"
+  splits:
+  - split: 1
+    text: "借势"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B0036_1,借势Lv1：回避成功时，气力+2。"
+  splits:
+  - split: 1
+    text: "借势"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，气力"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}+2。"
+- raw: "CombatSkill/Name/B0036_2,借势Lv2"
+  splits:
+  - split: 1
+    text: "借势"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B0036_2,借势Lv2：回避成功时，气力+3。"
+  splits:
+  - split: 1
+    text: "借势"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，气力"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}+3。"
+- raw: "CombatSkill/Name/B0036_3,借势Lv3"
+  splits:
+  - split: 1
+    text: "借势"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B0036_3,借势Lv3：回避成功时，气力+4。"
+  splits:
+  - split: 1
+    text: "借势"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，气力"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}+4。"
+- raw: "CombatSkill/Name/B0036_4,借势Lv4"
+  splits:
+  - split: 1
+    text: "借势"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B0036_4,借势Lv4：回避成功时，气力+5。"
+  splits:
+  - split: 1
+    text: "借势"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，气力"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}+5。"
+- raw: "CombatSkill/Name/B0036_5,借势Lv5"
+  splits:
+  - split: 1
+    text: "借势"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B0036_5,借势Lv5：回避成功时，气力+6。"
+  splits:
+  - split: 1
+    text: "借势"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，气力"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}+6。"
+- raw: "CombatSkill/Name/B111_1,金钟罩Lv1"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B111_1,金钟罩Lv1：备揍指令变化为「金钟罩」，使用后获得「护体气罩Lv1」。"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  - split: 1
+    subIndex: 1
+    text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}Lv1」。"
+- raw: "CombatSkill/Name/B111_2,金钟罩Lv2"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B111_2,金钟罩Lv2：备揍指令变化为「金钟罩」，使用后获得「护体气罩Lv2」。"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  - split: 1
+    subIndex: 1
+    text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}Lv2」。"
+- raw: "CombatSkill/Name/B111_3,金钟罩Lv3"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B111_3,金钟罩Lv3：备揍指令变化为「金钟罩」，使用后获得「护体气罩Lv3」。"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  - split: 1
+    subIndex: 1
+    text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}Lv3」。"
+- raw: "CombatSkill/Name/B111_4,金钟罩Lv4"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B111_4,金钟罩Lv4：备揍指令变化为「金钟罩」，使用后获得「护体气罩Lv4」。"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  - split: 1
+    subIndex: 1
+    text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}Lv4」。"
+- raw: "CombatSkill/Name/B111_5,金钟罩Lv5"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B111_5,金钟罩Lv5：备揍指令变化为「金钟罩」，使用后获得「护体气罩Lv5」。"
+  splits:
+  - split: 1
+    text: "金钟罩"
+  - split: 1
+    subIndex: 1
+    text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}Lv5」。"
+- raw: "CombatSkill/Name/B112_1,护体气罩Lv1"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B112_1,护体气罩Lv1：根据[内力50%]提升防御，并反弹来自敌人[捅人]、[绝招]的75%伤害。"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力50%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御，并反弹来自敌人"
+  - split: 1
+    subIndex: 4
+    text: "捅人"
+  - split: 1
+    subIndex: 5
+    text: "绝招"
+  - split: 1
+    subIndex: 6
+    text: "的75%伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]{3}[{4}]、[{5}]{6}"
+- raw: "CombatSkill/Name/B112_2,护体气罩Lv2"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B112_2,护体气罩Lv2：根据[内力50%]提升防御，并反弹来自敌人[捅人]、[绝招]的80%伤害。"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力50%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御，并反弹来自敌人"
+  - split: 1
+    subIndex: 4
+    text: "捅人"
+  - split: 1
+    subIndex: 5
+    text: "绝招"
+  - split: 1
+    subIndex: 6
+    text: "的80%伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]{3}[{4}]、[{5}]{6}"
+- raw: "CombatSkill/Name/B112_3,护体气罩Lv3"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B112_3,护体气罩Lv3：根据[内力50%]提升防御，并反弹来自敌人[捅人]、[绝招]的85%伤害。"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力50%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御，并反弹来自敌人"
+  - split: 1
+    subIndex: 4
+    text: "捅人"
+  - split: 1
+    subIndex: 5
+    text: "绝招"
+  - split: 1
+    subIndex: 6
+    text: "的85%伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]{3}[{4}]、[{5}]{6}"
+- raw: "CombatSkill/Name/B112_4,护体气罩Lv4"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B112_4,护体气罩Lv4：根据[内力50%]提升防御，并反弹来自敌人[捅人]、[绝招]的90%伤害。"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力50%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御，并反弹来自敌人"
+  - split: 1
+    subIndex: 4
+    text: "捅人"
+  - split: 1
+    subIndex: 5
+    text: "绝招"
+  - split: 1
+    subIndex: 6
+    text: "的90%伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[{2}]{3}[{4}]、[{5}]{6}"
+- raw: "CombatSkill/Name/B112_5,护体气罩Lv5"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B112_5,护体气罩Lv5：根据[内力50%]提升防御，并反弹来自敌人[捅人]、[绝招]的100%伤害。"
+  splits:
+  - split: 1
+    text: "护体气罩"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力50%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御，并反弹来自敌人"
+  - split: 1
+    subIndex: 4
+    text: "捅人"
+  - split: 1
+    subIndex: 5
+    text: "绝招"
+  - split: 1
+    subIndex: 6
+    text: "的100%伤害。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[{2}]{3}[{4}]、[{5}]{6}"
+- raw: "CombatSkill/Name/B114_1,金刚腿Lv1"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B114_1,金刚腿Lv1：根据[拳掌2%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌2%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_2,金刚腿Lv2"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B114_2,金刚腿Lv2：根据[拳掌4%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌4%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_3,金刚腿Lv3"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B114_3,金刚腿Lv3：根据[拳掌6%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌6%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_4,金刚腿Lv4"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B114_4,金刚腿Lv4：根据[拳掌8%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌8%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_5,金刚腿Lv5"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B114_5,金刚腿Lv5：根据[拳掌10%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌10%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_6,金刚腿Lv6"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B114_6,金刚腿Lv6：根据[拳掌12%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌12%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_7,金刚腿Lv7"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B114_7,金刚腿Lv7：根据[拳掌14%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌14%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_8,金刚腿Lv8"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B114_8,金刚腿Lv8：根据[拳掌16%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌16%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B114_9,金刚腿Lv9"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B114_9,金刚腿Lv9：根据[拳掌18%]提升轻功、防御。"
+  splits:
+  - split: 1
+    text: "金刚腿"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "拳掌18%"
+  - split: 1
+    subIndex: 3
+    text: "提升轻功、防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_1,铁布衫Lv1"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B115_1,铁布衫Lv1：根据[体力2%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力2%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_2,铁布衫Lv2"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B115_2,铁布衫Lv2：根据[体力4%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力4%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_3,铁布衫Lv3"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B115_3,铁布衫Lv3：根据[体力6%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力6%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_4,铁布衫Lv4"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B115_4,铁布衫Lv4：根据[体力8%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力8%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_5,铁布衫Lv5"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B115_5,铁布衫Lv5：根据[体力10%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力10%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_6,铁布衫Lv6"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B115_6,铁布衫Lv6：根据[体力12%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力12%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_7,铁布衫Lv7"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B115_7,铁布衫Lv7：根据[体力14%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力14%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_8,铁布衫Lv8"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B115_8,铁布衫Lv8：根据[体力16%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力16%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B115_9,铁布衫Lv9"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B115_9,铁布衫Lv9：根据[体力18%]提升防御。"
+  splits:
+  - split: 1
+    text: "铁布衫"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "体力18%"
+  - split: 1
+    subIndex: 3
+    text: "提升防御。"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/B211_1,核枣钉Lv1"
+  splits:
+  - split: 1
+    text: "核枣钉"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B211_1,核枣钉Lv1：嘴攻指令变化为「核枣钉」，发动具有暗器威力的嘴攻。"
+  splits:
+  - split: 1
+    text: "核枣钉"
+  - split: 1
+    subIndex: 1
+    text: "嘴攻指令变化为「核枣钉」，发动具有暗器威力的嘴攻。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/B212,核枣钉"
+  splits:
+  - split: 1
+    text: "核枣钉"
+- raw: "CombatSkill/Desc/B212,核枣钉：回合倒数结束后，对敌方造成大量伤害。"
+  splits:
+  - split: 1
+    text: "核枣钉"
+  - split: 1
+    subIndex: 1
+    text: "回合倒数结束后，对敌方造成大量伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B221_1,粹毒Lv1"
+  splits:
+  - split: 1
+    text: "粹毒"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B221_1,粹毒Lv1：暗器累积值提升20%。"
+  splits:
+  - split: 1
+    text: "粹毒"
+  - split: 1
+    subIndex: 1
+    text: "暗器累积值提升20%。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/B231_1,石灰粉"
+  splits:
+  - split: 1
+    text: "石灰粉"
+- raw: "CombatSkill/Desc/B231_1,石灰粉：防御指令变化为「石灰粉」，发动后造成敌人「盲目」异常状态。"
+  splits:
+  - split: 1
+    text: "石灰粉"
+  - split: 1
+    subIndex: 1
+    text: "防御指令变化为「石灰粉」，发动后造成敌人「盲目」异常状态。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B232_1,盲目"
+  splits:
+  - split: 1
+    text: "盲目"
+- raw: "CombatSkill/Desc/B232_1,盲目：所有主动攻击的行动都有额外50%机率导致落空。"
+  splits:
+  - split: 1
+    text: "盲目"
+  - split: 1
+    subIndex: 1
+    text: "所有主动攻击的行动都有额外50%机率导致落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B300_1,点苍快剑Lv1"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B300_1,点苍快剑Lv1：根据[轻功2%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功2%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_2,点苍快剑Lv2"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B300_2,点苍快剑Lv2：根据[轻功4%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功4%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_3,点苍快剑Lv3"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B300_3,点苍快剑Lv3：根据[轻功6%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功6%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_4,点苍快剑Lv4"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B300_4,点苍快剑Lv4：根据[轻功8%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功8%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_5,点苍快剑Lv5"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B300_5,点苍快剑Lv5：根据[轻功10%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功10%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_6,点苍快剑Lv6"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B300_6,点苍快剑Lv6：根据[轻功12%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功12%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_7,点苍快剑Lv7"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B300_7,点苍快剑Lv7：根据[轻功14%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功14%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_8,点苍快剑Lv8"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B300_8,点苍快剑Lv8：根据[轻功16%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功16%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B300_9,点苍快剑Lv9"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B300_9,点苍快剑Lv9：根据[轻功18%]提升[刀剑]。"
+  splits:
+  - split: 1
+    text: "点苍快剑"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "轻功18%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "刀剑"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_1,提气轻身Lv1"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B301_1,提气轻身Lv1：根据[内力2%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力2%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_2,提气轻身Lv2"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B301_2,提气轻身Lv2：根据[内力4%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力4%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_3,提气轻身Lv3"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B301_3,提气轻身Lv3：根据[内力6%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力6%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_4,提气轻身Lv4"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B301_4,提气轻身Lv4：根据[内力8%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力8%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_5,提气轻身Lv5"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B301_5,提气轻身Lv5：根据[内力10%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力10%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_6,提气轻身Lv6"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B301_6,提气轻身Lv6：根据[内力12%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力12%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_7,提气轻身Lv7"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B301_7,提气轻身Lv7：根据[内力14%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力14%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_8,提气轻身Lv8"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B301_8,提气轻身Lv8：根据[内力16%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力16%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B301_9,提气轻身Lv9"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B301_9,提气轻身Lv9：根据[内力18%]提升[轻功]。"
+  splits:
+  - split: 1
+    text: "提气轻身"
+  - split: 1
+    subIndex: 1
+    text: "根据"
+  - split: 1
+    subIndex: 2
+    text: "内力18%"
+  - split: 1
+    subIndex: 3
+    text: "提升"
+  - split: 1
+    subIndex: 4
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/B302_1,千里不留行"
+  splits:
+  - split: 1
+    text: "千里不留行"
+- raw: "CombatSkill/Desc/B302_1,千里不留行：根据刀剑50%提升轻功、内力、初始气。"
+  splits:
+  - split: 1
+    text: "千里不留行"
+  - split: 1
+    subIndex: 1
+    text: "根据刀剑50%提升轻功、内力、初始气。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B303_1,行云流水"
+  splits:
+  - split: 1
+    text: "行云流水"
+- raw: "CombatSkill/Desc/B303_1,行云流水：捅人指令变化为[追击]，追加额外[轻功%]的伤害。"
+  splits:
+  - split: 1
+    text: "行云流水"
+  - split: 1
+    subIndex: 1
+    text: "捅人指令变化为"
+  - split: 1
+    subIndex: 2
+    text: "追击"
+  - split: 1
+    subIndex: 3
+    text: "，追加额外"
+  - split: 1
+    subIndex: 4
+    text: "轻功%"
+  - split: 1
+    subIndex: 5
+    text: "的伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]{5}"
+- raw: "CombatSkill/Name/B4018_1,败絮功"
+  splits:
+  - split: 1
+    text: "败絮功"
+- raw: "CombatSkill/Desc/B4018_1,败絮功：境界一以下，受到攻击时消费少量气，减轻10%伤害。\\n境界一以上，受到绝招攻击时自动消费所有气，回避攻击，并造成敌人失衡。\\n身有[失衡]异常时失效。"
+  splits:
+  - split: 1
+    text: "败絮功"
+  - split: 1
+    subIndex: 1
+    text: "境界一以下，受到攻击时消费少量气，减轻10%伤害。"
+  - split: 1
+    subIndex: 2
+    text: "境界一以上，受到绝招攻击时自动消费所有气，回避攻击，并造成敌人失衡。"
+  - split: 1
+    subIndex: 3
+    text: "身有"
+  - split: 1
+    subIndex: 4
+    text: "失衡"
+  - split: 1
+    subIndex: 5
+    text: "异常时失效。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}\\n{3}[{4}]{5}"
+- raw: "CombatSkill/Name/B4100,暗箭伤人"
+  splits:
+  - split: 1
+    text: "暗箭伤人"
+- raw: "CombatSkill/Desc/B4100,暗箭伤人：不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
+  splits:
+  - split: 1
+    text: "暗箭伤人"
+  - split: 1
+    subIndex: 1
+    text: "不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B4103,虚张声势"
+  splits:
+  - split: 1
+    text: "虚张声势"
+- raw: "CombatSkill/Desc/B4103,虚张声势：决斗开始时，气-10，嘴力提升100%。"
+  splits:
+  - split: 1
+    text: "虚张声势"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，气-10，嘴力提升100%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B4104,毅力"
+  splits:
+  - split: 1
+    text: "毅力"
+- raw: "CombatSkill/Desc/B4104,毅力：受到致命攻击时，以10%血幸存。"
+  splits:
+  - split: 1
+    text: "毅力"
+  - split: 1
+    subIndex: 1
+    text: "受到致命攻击时，以10%血幸存。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B4108_1,提防暗器Lv1"
+  splits:
+  - split: 1
+    text: "提防暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B4108_1,提防暗器Lv1：有60%机率可抵挡暗器攻击，成功发动后即失效。"
+  splits:
+  - split: 1
+    text: "提防暗器"
+  - split: 1
+    subIndex: 1
+    text: "有60%机率可抵挡暗器攻击，成功发动后即失效。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/B4108_2,提防暗器Lv2"
+  splits:
+  - split: 1
+    text: "提防暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B4108_2,提防暗器Lv2：有70%机率可抵挡暗器攻击，成功发动后即失效。"
+  splits:
+  - split: 1
+    text: "提防暗器"
+  - split: 1
+    subIndex: 1
+    text: "有70%机率可抵挡暗器攻击，成功发动后即失效。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/B4108_3,提防暗器Lv3"
+  splits:
+  - split: 1
+    text: "提防暗器"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B4108_3,提防暗器Lv3：有80%机率可抵挡暗器攻击，成功发动后即失效。"
+  splits:
+  - split: 1
+    text: "提防暗器"
+  - split: 1
+    subIndex: 1
+    text: "有80%机率可抵挡暗器攻击，成功发动后即失效。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/B4109,迎难而上"
+  splits:
+  - split: 1
+    text: "迎难而上"
+- raw: "CombatSkill/Desc/B4109,迎难而上：捅人不会被暗器阻止行动。"
+  splits:
+  - split: 1
+    text: "迎难而上"
+  - split: 1
+    subIndex: 1
+    text: "捅人不会被暗器阻止行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D101,中毒Lv1"
+  splits:
+  - split: 1
+    text: "中毒"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/D101,中毒Lv1：每回合损耗5%的血。"
+  splits:
+  - split: 1
+    text: "中毒"
+  - split: 1
+    subIndex: 1
+    text: "每回合损耗5%的血。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/D102,中毒Lv2"
+  splits:
+  - split: 1
+    text: "中毒"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/D102,中毒Lv2：每回合损耗10%的血及3%的气。"
+  splits:
+  - split: 1
+    text: "中毒"
+  - split: 1
+    subIndex: 1
+    text: "每回合损耗10%的血及3%的气。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/D103,中毒Lv3"
+  splits:
+  - split: 1
+    text: "中毒"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/D103,中毒Lv3：回合结束后损耗50%的血"
+  splits:
+  - split: 1
+    text: "中毒"
+  - split: 1
+    subIndex: 1
+    text: "回合结束后损耗50%的血"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/D201,麻痹Lv1"
+  splits:
+  - split: 1
+    text: "麻痹"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/D201,麻痹Lv1：嘴力、轻功-10%，20%机率行动失败。"
+  splits:
+  - split: 1
+    text: "麻痹"
+  - split: 1
+    subIndex: 1
+    text: "嘴力、轻功-10%，20%机率行动失败。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/D202,麻痹Lv2"
+  splits:
+  - split: 1
+    text: "麻痹"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/D202,麻痹Lv2：嘴力、轻功、攻击、防御-15%，40%机率行动失败。"
+  splits:
+  - split: 1
+    text: "麻痹"
+  - split: 1
+    subIndex: 1
+    text: "嘴力、轻功、攻击、防御-15%，40%机率行动失败。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/D203,麻痹Lv3"
+  splits:
+  - split: 1
+    text: "麻痹"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/D203,麻痹Lv3：100%机率行动失败，受到伤害为3倍。"
+  splits:
+  - split: 1
+    text: "麻痹"
+  - split: 1
+    subIndex: 1
+    text: "100%机率行动失败，受到伤害为3倍。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/D003,破气"
+  splits:
+  - split: 1
+    text: "破气"
+- raw: "CombatSkill/Desc/D003,破气"
+  splits:
+  - split: 1
+    text: "破气"
+- raw: "CombatSkill/Name/D004,幻觉"
+  splits:
+  - split: 1
+    text: "幻觉"
+- raw: "CombatSkill/Name/D004,幻觉"
+  splits:
+  - split: 1
+    text: "幻觉"
+- raw: "CombatSkill/Name/D005,胆怯"
+  splits:
+  - split: 1
+    text: "胆怯"
+- raw: "CombatSkill/Desc/D005,胆怯：每回合无法自然回复气力。"
+  splits:
+  - split: 1
+    text: "胆怯"
+  - split: 1
+    subIndex: 1
+    text: "每回合无法自然回复气力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D005_1,胆怯"
+  splits:
+  - split: 1
+    text: "胆怯"
+- raw: "CombatSkill/Desc/D005_1,胆怯：每回合无法自然回复气力。"
+  splits:
+  - split: 1
+    text: "胆怯"
+  - split: 1
+    subIndex: 1
+    text: "每回合无法自然回复气力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D006,醍醐软筋散"
+  splits:
+  - split: 1
+    text: "醍醐软筋散"
+- raw: "CombatSkill/Desc/D006,醍醐软筋散：无色无味的奇毒，根据麻痹累积值降低命中率。"
+  splits:
+  - split: 1
+    text: "醍醐软筋散"
+  - split: 1
+    subIndex: 1
+    text: "无色无味的奇毒，根据麻痹累积值降低命中率。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D007,彼岸仙香"
+  splits:
+  - split: 1
+    text: "彼岸仙香"
+- raw: "CombatSkill/Desc/D007,彼岸仙香：无色无味的奇毒，使中毒者产生极为逼真的幻觉，命中率-30%。"
+  splits:
+  - split: 1
+    text: "彼岸仙香"
+  - split: 1
+    subIndex: 1
+    text: "无色无味的奇毒，使中毒者产生极为逼真的幻觉，命中率"
+  templates:
+  - split: 1
+    template: "{0}：{1}-30%。"
+- raw: "CombatSkill/Name/D008,白日梦"
+  splits:
+  - split: 1
+    text: "白日梦"
+- raw: "CombatSkill/Desc/D008,白日梦：无色无味的奇毒，使中毒者意识偶尔会飞走而本人完全没有自觉。30%机率无法行动。"
+  splits:
+  - split: 1
+    text: "白日梦"
+  - split: 1
+    subIndex: 1
+    text: "无色无味的奇毒，使中毒者意识偶尔会飞走而本人完全没有自觉。30%机率无法行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D009,凄聋蛛"
+  splits:
+  - split: 1
+    text: "凄聋蛛"
+- raw: "CombatSkill/Desc/D009,凄聋蛛：唐门奇毒，中者双耳溢血即聋，发出凄厉惨叫，若不及时运气镇毒，后果堪忧。下一回合生命骤降40%，并附加「胆怯」异常。"
+  splits:
+  - split: 1
+    text: "凄聋蛛"
+  - split: 1
+    subIndex: 1
+    text: "唐门奇毒，中者双耳溢血即聋，发出凄厉惨叫，若不及时运气镇毒，后果堪忧。下一回合生命骤降40%，并附加「胆怯」异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D010,鄙夷"
+  splits:
+  - split: 1
+    text: "鄙夷"
+- raw: "CombatSkill/Desc/D010,鄙夷：对弱者没有丝毫兴趣，若非暴怒状态将不会主动攻击你。"
+  splits:
+  - split: 1
+    text: "鄙夷"
+  - split: 1
+    subIndex: 1
+    text: "对弱者没有丝毫兴趣，若非暴怒状态将不会主动攻击你。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D011,惊吓"
+  splits:
+  - split: 1
+    text: "惊吓"
+- raw: "CombatSkill/Desc/D011,惊吓"
+  splits:
+  - split: 1
+    text: "惊吓"
+- raw: "CombatSkill/Name/D012,震撼"
+  splits:
+  - split: 1
+    text: "震撼"
+- raw: "CombatSkill/Desc/D012,震撼：防御-50%，受到伤害1.5倍。"
+  splits:
+  - split: 1
+    text: "震撼"
+  - split: 1
+    subIndex: 1
+    text: "防御-50%，受到伤害1.5倍。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D014,定身"
+  splits:
+  - split: 1
+    text: "定身"
+- raw: "CombatSkill/Desc/D014,定身：彻底丧失行动能力，受到伤害大幅上升。"
+  splits:
+  - split: 1
+    text: "定身"
+  - split: 1
+    subIndex: 1
+    text: "彻底丧失行动能力，受到伤害大幅上升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D015,点穴"
+  splits:
+  - split: 1
+    text: "点穴"
+- raw: "CombatSkill/Desc/D015,点穴：难以达成但是非常强力的异常状态，造成无法行动。"
+  splits:
+  - split: 1
+    text: "点穴"
+  - split: 1
+    subIndex: 1
+    text: "难以达成但是非常强力的异常状态，造成无法行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D016,扰乱"
+  splits:
+  - split: 1
+    text: "扰乱"
+- raw: "CombatSkill/Desc/D016,扰乱：回合内无法行动。"
+  splits:
+  - split: 1
+    text: "扰乱"
+  - split: 1
+    subIndex: 1
+    text: "回合内无法行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D017,失衡"
+  splits:
+  - split: 1
+    text: "失衡"
+- raw: "CombatSkill/Desc/D017,失衡：轻功-50%。"
+  splits:
+  - split: 1
+    text: "失衡"
+  - split: 1
+    subIndex: 1
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}-50%。"
+- raw: "CombatSkill/Name/D019,虚脱"
+  splits:
+  - split: 1
+    text: "虚脱"
+- raw: "CombatSkill/Desc/D019,虚脱：每回合伤害-90%。"
+  splits:
+  - split: 1
+    text: "虚脱"
+  - split: 1
+    subIndex: 1
+    text: "每回合伤害"
+  templates:
+  - split: 1
+    template: "{0}：{1}-90%。"
+- raw: "CombatSkill/Name/D020,盲目"
+  splits:
+  - split: 1
+    text: "盲目"
+- raw: "CombatSkill/Desc/D020,盲目：所有攻击行动都有30%机率落空。"
+  splits:
+  - split: 1
+    text: "盲目"
+  - split: 1
+    subIndex: 1
+    text: "所有攻击行动都有30%机率落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D021,投鼠忌器"
+  splits:
+  - split: 1
+    text: "投鼠忌器"
+- raw: "CombatSkill/Desc/D021,投鼠忌器：心有忌惮，不敢反抗。"
+  splits:
+  - split: 1
+    text: "投鼠忌器"
+  - split: 1
+    subIndex: 1
+    text: "心有忌惮，不敢反抗。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D022,投鼠忌器"
+  splits:
+  - split: 1
+    text: "投鼠忌器"
+- raw: "CombatSkill/Desc/D022,投鼠忌器：二师兄唯恐损害丹房中的名药药物，不敢全力以赴。[绝招封印]"
+  splits:
+  - split: 1
+    text: "投鼠忌器"
+  - split: 1
+    subIndex: 1
+    text: "二师兄唯恐损害丹房中的名药药物，不敢全力以赴。"
+  - split: 1
+    subIndex: 2
+    text: "绝招封印"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]"
+- raw: "CombatSkill/Name/D023,油尽灯枯"
+  splits:
+  - split: 1
+    text: "油尽灯枯"
+- raw: "CombatSkill/Desc/D023,油尽灯枯：强自提气硬抗，命不久矣。[绝招封印]"
+  splits:
+  - split: 1
+    text: "油尽灯枯"
+  - split: 1
+    subIndex: 1
+    text: "强自提气硬抗，命不久矣。"
+  - split: 1
+    subIndex: 2
+    text: "绝招封印"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]"
+- raw: "CombatSkill/Name/D024,破功"
+  splits:
+  - split: 1
+    text: "破功"
+- raw: "CombatSkill/Desc/D024,破功：轻功-50%。"
+  splits:
+  - split: 1
+    text: "破功"
+  - split: 1
+    subIndex: 1
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}-50%。"
+- raw: "CombatSkill/Name/D025,腹痛"
+  splits:
+  - split: 1
+    text: "腹痛"
+- raw: "CombatSkill/Desc/D025,腹痛：一动真气，就会催化药力。屁股感到一阵不寻常的异响，状况即将一发不可收拾！高机率造成行动失败。"
+  splits:
+  - split: 1
+    text: "腹痛"
+  - split: 1
+    subIndex: 1
+    text: "一动真气，就会催化药力。屁股感到一阵不寻常的异响，状况即将一发不可收拾！高机率造成行动失败。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D026,留力不发"
+  splits:
+  - split: 1
+    text: "留力不发"
+- raw: "CombatSkill/Desc/D026,留力不发：内力减半，不能使用绝招。"
+  splits:
+  - split: 1
+    text: "留力不发"
+  - split: 1
+    subIndex: 1
+    text: "内力减半，不能使用绝招。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D027,怠惰"
+  splits:
+  - split: 1
+    text: "怠惰"
+- raw: "CombatSkill/Desc/D027,怠惰：成为掌派人之后妄尊自大，沉迷逸乐，被绝招攻击时气大幅损伤，并且追加[震撼]。"
+  splits:
+  - split: 1
+    text: "怠惰"
+  - split: 1
+    subIndex: 1
+    text: "成为掌派人之后妄尊自大，沉迷逸乐，被绝招攻击时气大幅损伤，并且追加"
+  - split: 1
+    subIndex: 2
+    text: "震撼"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/D301_1,内伤Lv1"
+  splits:
+  - split: 1
+    text: "内伤"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/D301_1,内伤Lv1：消费气同时也会损伤同额的血。"
+  splits:
+  - split: 1
+    text: "内伤"
+  - split: 1
+    subIndex: 1
+    text: "消费气同时也会损伤同额的血。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/D301_2,内伤Lv2"
+  splits:
+  - split: 1
+    text: "内伤"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/D301_2,内伤Lv2：消费气同时也会损伤同额的血。"
+  splits:
+  - split: 1
+    text: "内伤"
+  - split: 1
+    subIndex: 1
+    text: "消费气同时也会损伤同额的血。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/D301_3,内伤Lv3"
+  splits:
+  - split: 1
+    text: "内伤"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/D301_3,内伤Lv3：消费气同时也会损伤同额的血。"
+  splits:
+  - split: 1
+    text: "内伤"
+  - split: 1
+    subIndex: 1
+    text: "消费气同时也会损伤同额的血。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/D302,燃烧"
+  splits:
+  - split: 1
+    text: "燃烧"
+- raw: "CombatSkill/Desc/D302,燃烧：每回合损耗7%的血。"
+  splits:
+  - split: 1
+    text: "燃烧"
+  - split: 1
+    subIndex: 1
+    text: "每回合损耗7%的血。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C001,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C001,唐门弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C002,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C002,唐门弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C003,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C003,唐门弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C004,唐大鲸"
+  splits:
+  - split: 1
+    text: "唐大鲸"
+- raw: "CombatSkill/Desc/C004,唐大鲸《蛮力拳》：每次造成中幅伤害，但有50%机率落空。"
+  splits:
+  - split: 1
+    text: "唐大鲸《蛮力拳》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成中幅伤害，但有50%机率落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C004_2,唐大鲸"
+  splits:
+  - split: 1
+    text: "唐大鲸"
+- raw: "CombatSkill/Desc/C004_2,唐大鲸《蛮力拳》：每次造成大幅伤害，但有50%机率落空。"
+  splits:
+  - split: 1
+    text: "唐大鲸《蛮力拳》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成大幅伤害，但有50%机率落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C005_1,唐默铃"
+  splits:
+  - split: 1
+    text: "唐默铃"
+- raw: "CombatSkill/Desc/C005_1,唐默铃《极怒无定飞梭》：每次造成4次微幅伤害，伤害超过18时中断敌人行动。"
+  splits:
+  - split: 1
+    text: "唐默铃《极怒无定飞梭》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成4次微幅伤害，伤害超过18时中断敌人行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C005_2,唐默铃"
+  splits:
+  - split: 1
+    text: "唐默铃"
+- raw: "CombatSkill/Desc/C005_2,唐默铃《极怒无定飞梭》：每次造成10次微幅伤害，伤害超过40中断敌人行动。"
+  splits:
+  - split: 1
+    text: "唐默铃《极怒无定飞梭》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成10次微幅伤害，伤害超过40中断敌人行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C0004,唐布衣"
+  splits:
+  - split: 1
+    text: "唐布衣"
+- raw: "CombatSkill/Desc/C0004,唐布衣"
+  splits:
+  - split: 1
+    text: "唐布衣"
+- raw: "CombatSkill/Name/C0005,唐铮"
+  splits:
+  - split: 1
+    text: "唐铮"
+- raw: "CombatSkill/Desc/C0005,唐铮"
+  splits:
+  - split: 1
+    text: "唐铮"
+- raw: "CombatSkill/Name/C0006,唐升"
+  splits:
+  - split: 1
+    text: "唐升"
+- raw: "CombatSkill/Desc/C0006,唐升"
+  splits:
+  - split: 1
+    text: "唐升"
+- raw: "CombatSkill/Name/C006,龙渊"
+  splits:
+  - split: 1
+    text: "龙渊"
+- raw: "CombatSkill/Desc/C006,龙渊《龙渊七绝》：可抵挡敌方的绝招，当上述效果不发动时，每回合进行一次强力攻击。"
+  splits:
+  - split: 1
+    text: "龙渊《龙渊七绝》"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡敌方的绝招，当上述效果不发动时，每回合进行一次强力攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C007,千面人魔"
+  splits:
+  - split: 1
+    text: "千面人魔"
+- raw: "CombatSkill/Desc/C007,千面人魔《阴阳夺》：使敌人所有攻击都有50%机率落空，每回合有50%机率发动威力强大的攻击。"
+  splits:
+  - split: 1
+    text: "千面人魔《阴阳夺》"
+  - split: 1
+    subIndex: 1
+    text: "使敌人所有攻击都有50%机率落空，每回合有50%机率发动威力强大的攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C008_1,二煞"
+  splits:
+  - split: 1
+    text: "二煞"
+- raw: "CombatSkill/Desc/C008_1,二煞《罗汉拳》：30%机率造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "二煞《罗汉拳》"
+  - split: 1
+    subIndex: 1
+    text: "30%机率造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C008_2,三煞"
+  splits:
+  - split: 1
+    text: "三煞"
+- raw: "CombatSkill/Desc/C008_2,三煞《单鞭铁爪拳》：30%机率降低对方微幅气力"
+  splits:
+  - split: 1
+    text: "三煞《单鞭铁爪拳》"
+  - split: 1
+    subIndex: 1
+    text: "30%机率降低对方微幅气力"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C009,唐升"
+  splits:
+  - split: 1
+    text: "唐升"
+- raw: "CombatSkill/Desc/C009,唐升《袖里乾坤》：每回合发动1次中幅攻击，每6回合发动1次强力攻击。"
+  splits:
+  - split: 1
+    text: "唐升《袖里乾坤》"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动1次中幅攻击，每6回合发动1次强力攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C010,唐铮"
+  splits:
+  - split: 1
+    text: "唐铮"
+- raw: "CombatSkill/Desc/C010,唐铮：每6回合造成敌人毒巨量累积。"
+  splits:
+  - split: 1
+    text: "唐铮"
+  - split: 1
+    subIndex: 1
+    text: "每6回合造成敌人毒巨量累积。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C011_1,唐布衣"
+  splits:
+  - split: 1
+    text: "唐布衣"
+- raw: "CombatSkill/Desc/C011_1,唐布衣《金钱镖》：每回合造成小幅伤害并累积大量麻痹值，同时排除一名增援对手。"
+  splits:
+  - split: 1
+    text: "唐布衣《金钱镖》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害并累积大量麻痹值，同时排除一名增援对手。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C012_1,辛儒"
+  splits:
+  - split: 1
+    text: "辛儒"
+- raw: "CombatSkill/Desc/C012_1,辛儒《唐门暗器总纲》：25%造成小幅伤害并打断敌人行动。"
+  splits:
+  - split: 1
+    text: "辛儒《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "25%造成小幅伤害并打断敌人行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C013,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C013,唐门女弟子《唐门暗器总纲》：每次造成超幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成超幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C014,唐升"
+  splits:
+  - split: 1
+    text: "唐升"
+- raw: "CombatSkill/Desc/C014,唐升《袖里乾坤》：每回合发动1次中幅攻击，每6回合发动1次强力攻击。"
+  splits:
+  - split: 1
+    text: "唐升《袖里乾坤》"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动1次中幅攻击，每6回合发动1次强力攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C015,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C015,唐门女弟子《爱之力》：爱的力量，使情郎不分青红皂白，被打倒几次都可以再度站起。(复活3次)"
+  splits:
+  - split: 1
+    text: "唐门女弟子《爱之力》"
+  - split: 1
+    subIndex: 1
+    text: "爱的力量，使情郎不分青红皂白，被打倒几次都可以再度站起。"
+  - split: 1
+    subIndex: 2
+    text: "复活3次"
+  templates:
+  - split: 1
+    template: "{0}：{1}({2})"
+- raw: "CombatSkill/Name/C016,人多势众"
+  splits:
+  - split: 1
+    text: "人多势众"
+- raw: "CombatSkill/Desc/C016,人多势众：被击败时，换一个人来说服你。"
+  splits:
+  - split: 1
+    text: "人多势众"
+  - split: 1
+    subIndex: 1
+    text: "被击败时，换一个人来说服你。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C017_1,官差"
+  splits:
+  - split: 1
+    text: "官差"
+- raw: "CombatSkill/Desc/C017_1,官差《补快刀法》：每回合有1/2机率造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "官差《补快刀法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合有1"
+  - split: 1
+    subIndex: 2
+    text: "2机率造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}/{2}"
+- raw: "CombatSkill/Name/C017_2,官差"
+  splits:
+  - split: 1
+    text: "官差"
+- raw: "CombatSkill/Desc/C017_2,官差《补快刀法》：每回合有1/2机率造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "官差《补快刀法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合有1"
+  - split: 1
+    subIndex: 2
+    text: "2机率造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}/{2}"
+- raw: "CombatSkill/Name/C017_3,官差"
+  splits:
+  - split: 1
+    text: "官差"
+- raw: "CombatSkill/Desc/C017_3,官差《补快刀法》：每回合有1/2机率造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "官差《补快刀法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合有1"
+  - split: 1
+    subIndex: 2
+    text: "2机率造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}/{2}"
+- raw: "CombatSkill/Name/C018,官差"
+  splits:
+  - split: 1
+    text: "官差"
+- raw: "CombatSkill/Desc/C018,官差：被击败时，消灭一个官差并替补上阵。"
+  splits:
+  - split: 1
+    text: "官差"
+  - split: 1
+    subIndex: 1
+    text: "被击败时，消灭一个官差并替补上阵。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C019,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C019,唐门女弟子《唐门暗器总纲》：每次造成大幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成大幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C020,江湖拳师"
+  splits:
+  - split: 1
+    text: "江湖拳师"
+- raw: "CombatSkill/Desc/C020,江湖拳师《蛮力拳》：每次造成中幅伤害，但有50%机率落空。"
+  splits:
+  - split: 1
+    text: "江湖拳师《蛮力拳》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成中幅伤害，但有50%机率落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C021,许大鲸"
+  splits:
+  - split: 1
+    text: "许大鲸"
+- raw: "CombatSkill/Desc/C021,许大鲸《蛮力拳》：每次造成中幅伤害，但有50%机率落空。"
+  splits:
+  - split: 1
+    text: "许大鲸《蛮力拳》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成中幅伤害，但有50%机率落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C022,唐衫"
+  splits:
+  - split: 1
+    text: "唐衫"
+- raw: "CombatSkill/Desc/C022,唐衫《唐門暗器總綱》：每次造成大幅傷害。"
+  splits:
+  - split: 1
+    text: "唐衫《唐門暗器總綱》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成大幅傷害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C023,唐嬌嬌"
+  splits:
+  - split: 1
+    text: "唐嬌嬌"
+- raw: "CombatSkill/Desc/C023,唐嬌嬌《花拳戳眼功》：每回合造成5次小幅傷害，有機率造成[盲目]。"
+  splits:
+  - split: 1
+    text: "唐嬌嬌《花拳戳眼功》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成5次小幅傷害，有機率造成"
+  - split: 1
+    subIndex: 2
+    text: "盲目"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/C024,唐芳"
+  splits:
+  - split: 1
+    text: "唐芳"
+- raw: "CombatSkill/Desc/C024,唐芳《毒经药典》：每回合为我方回复血、毒麻累积值；同时对敌方造成微幅伤害，累积中量血毒、麻毒。"
+  splits:
+  - split: 1
+    text: "唐芳《毒经药典》"
+  - split: 1
+    subIndex: 1
+    text: "每回合为我方回复血、毒麻累积值；同时对敌方造成微幅伤害，累积中量血毒、麻毒。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C101,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+- raw: "CombatSkill/Desc/C101,暗器：回合倒数结束后，对敌方造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "暗器"
+  - split: 1
+    subIndex: 1
+    text: "回合倒数结束后，对敌方造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C103,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+- raw: "CombatSkill/Desc/C103,暗器：回合倒数结束后，对敌方造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "暗器"
+  - split: 1
+    subIndex: 1
+    text: "回合倒数结束后，对敌方造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C110,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+- raw: "CombatSkill/Desc/C110,暗器：回合倒数结束后，对敌方造成大量伤害。"
+  splits:
+  - split: 1
+    text: "暗器"
+  - split: 1
+    subIndex: 1
+    text: "回合倒数结束后，对敌方造成大量伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C150,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C150,唐门弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C151,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C151,唐门弟子《唐门暗器总纲》：每次造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C152,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C152,唐门弟子《唐门暗器总纲》：每次造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C153,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C153,唐门弟子《唐门暗器总纲》：每次造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C154,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C154,唐门弟子《唐门暗器总纲》：每次造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C155,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C155,唐门弟子《唐门暗器总纲》：每次造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C160,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C160,唐门女弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C161,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C161,唐门女弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C162,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C162,唐门女弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C163,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C163,唐门女弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C170,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C170,唐门弟子《唐门毒经》：每次造成微幅毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门毒经》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C171,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C171,唐门弟子《唐门毒经》：每次造成微幅毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门毒经》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C172,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C172,唐门弟子《唐门毒经》：每次造成微幅毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门毒经》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C173,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C173,唐门弟子《唐门暗器总纲》：每次造成中幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子《唐门暗器总纲》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C174_1,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C174_1,唐门女弟子《惊吓反击》：蓦地受到惊吓，不假思索出手反击，造成大量伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《惊吓反击》"
+  - split: 1
+    subIndex: 1
+    text: "蓦地受到惊吓，不假思索出手反击，造成大量伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C174_2,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C174_2,唐门女弟子《惊吓反击》：蓦地受到惊吓，不假思索出手反击，造成大量伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《惊吓反击》"
+  - split: 1
+    subIndex: 1
+    text: "蓦地受到惊吓，不假思索出手反击，造成大量伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C175_1,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C175_1,唐门女弟子《唐门毒经》：每次造成微幅毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门毒经》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C175_2,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "CombatSkill/Desc/C175_2,唐门女弟子《唐门毒经》：每次造成微幅毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门毒经》"
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C201,青城弟子"
+  splits:
+  - split: 1
+    text: "青城弟子"
+- raw: "CombatSkill/Desc/C201,青城弟子《拳法》：50%机率造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "青城弟子《拳法》"
+  - split: 1
+    subIndex: 1
+    text: "50%机率造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C202,点苍弟子"
+  splits:
+  - split: 1
+    text: "点苍弟子"
+- raw: "CombatSkill/Desc/C202,点苍弟子《剑法》：50%机率造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "点苍弟子《剑法》"
+  - split: 1
+    subIndex: 1
+    text: "50%机率造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C203,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "CombatSkill/Desc/C203,峨嵋弟子《飞踢》：50%机率造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "峨嵋弟子《飞踢》"
+  - split: 1
+    subIndex: 1
+    text: "50%机率造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C204,丐帮弟子"
+  splits:
+  - split: 1
+    text: "丐帮弟子"
+- raw: "CombatSkill/Desc/C204,丐帮弟子《咒骂》：30%机率降低对方微幅气力"
+  splits:
+  - split: 1
+    text: "丐帮弟子《咒骂》"
+  - split: 1
+    subIndex: 1
+    text: "30%机率降低对方微幅气力"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C205,飞石帮弟子"
+  splits:
+  - split: 1
+    text: "飞石帮弟子"
+- raw: "CombatSkill/Desc/C205,飞石帮弟子《咒骂》：30%机率降低对方微幅气力"
+  splits:
+  - split: 1
+    text: "飞石帮弟子《咒骂》"
+  - split: 1
+    subIndex: 1
+    text: "30%机率降低对方微幅气力"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C210,岭南大侠"
+  splits:
+  - split: 1
+    text: "岭南大侠"
+- raw: "CombatSkill/Desc/C210,岭南大侠：每回合发动1次中幅攻击，每5回合发动1次大幅攻击。"
+  splits:
+  - split: 1
+    text: "岭南大侠"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动1次中幅攻击，每5回合发动1次大幅攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C211,襄阳大侠"
+  splits:
+  - split: 1
+    text: "襄阳大侠"
+- raw: "CombatSkill/Desc/C211,襄阳大侠：伤害减免30%，被攻击后有30%机率发动50%伤害反弹。"
+  splits:
+  - split: 1
+    text: "襄阳大侠"
+  - split: 1
+    subIndex: 1
+    text: "伤害减免30%，被攻击后有30%机率发动50%伤害反弹。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C212,丐帮弟子"
+  splits:
+  - split: 1
+    text: "丐帮弟子"
+- raw: "CombatSkill/Desc/C212,丐帮弟子《江湖伎俩》：15%机率撒石灰粉造成目盲、15%机率泼油造成失衡。"
+  splits:
+  - split: 1
+    text: "丐帮弟子《江湖伎俩》"
+  - split: 1
+    subIndex: 1
+    text: "15%机率撒石灰粉造成目盲、15%机率泼油造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C221,点苍弟子"
+  splits:
+  - split: 1
+    text: "点苍弟子"
+- raw: "CombatSkill/Desc/C221,点苍弟子《点破云关》：每三回合发动1次大幅伤害，根据我方连击数加成伤害。"
+  splits:
+  - split: 1
+    text: "点苍弟子《点破云关》"
+  - split: 1
+    subIndex: 1
+    text: "每三回合发动1次大幅伤害，根据我方连击数加成伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C231,南宫家丁"
+  splits:
+  - split: 1
+    text: "南宫家丁"
+- raw: "CombatSkill/Desc/C231,南宫家丁《风流扇法》：施展扇法牵制对手，降低敌方10%命中率。己方所受伤害减轻10%。"
+  splits:
+  - split: 1
+    text: "南宫家丁《风流扇法》"
+  - split: 1
+    subIndex: 1
+    text: "施展扇法牵制对手，降低敌方10%命中率。己方所受伤害减轻10%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C241,全真弟子众"
+  splits:
+  - split: 1
+    text: "全真弟子众"
+- raw: "CombatSkill/Desc/C241,全真弟子众《北斗七星阵》：全方位强化我方，每回合发动中幅攻击。有任何异常时阵法失效。"
+  splits:
+  - split: 1
+    text: "全真弟子众《北斗七星阵》"
+  - split: 1
+    subIndex: 1
+    text: "全方位强化我方，每回合发动中幅攻击。有任何异常时阵法失效。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C251,沧帮弟子"
+  splits:
+  - split: 1
+    text: "沧帮弟子"
+- raw: "CombatSkill/Desc/C251,沧帮弟子《翻浪刀法》：根据连段数造成小幅伤害，并有20%机率造成[失衡]异常。"
+  splits:
+  - split: 1
+    text: "沧帮弟子《翻浪刀法》"
+  - split: 1
+    subIndex: 1
+    text: "根据连段数造成小幅伤害，并有20%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C251_2,沧帮弟子"
+  splits:
+  - split: 1
+    text: "沧帮弟子"
+- raw: "CombatSkill/Desc/C251_2,沧帮弟子《翻浪刀法》：根据连段数造成小幅伤害，并有20%机率造成[失衡]异常。"
+  splits:
+  - split: 1
+    text: "沧帮弟子《翻浪刀法》"
+  - split: 1
+    subIndex: 1
+    text: "根据连段数造成小幅伤害，并有20%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C251_3,沧帮弟子"
+  splits:
+  - split: 1
+    text: "沧帮弟子"
+- raw: "CombatSkill/Desc/C251_3,沧帮弟子《翻浪刀法》：根据连段数造成小幅伤害，并有20%机率造成[失衡]异常。"
+  splits:
+  - split: 1
+    text: "沧帮弟子《翻浪刀法》"
+  - split: 1
+    subIndex: 1
+    text: "根据连段数造成小幅伤害，并有20%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C251_4,沧帮弟子"
+  splits:
+  - split: 1
+    text: "沧帮弟子"
+- raw: "CombatSkill/Desc/C251_4,沧帮弟子《翻浪刀法》：根据连段数造成小幅伤害，并有20%机率造成[失衡]异常。"
+  splits:
+  - split: 1
+    text: "沧帮弟子《翻浪刀法》"
+  - split: 1
+    subIndex: 1
+    text: "根据连段数造成小幅伤害，并有20%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C301,人海战术"
+  splits:
+  - split: 1
+    text: "人海战术"
+- raw: "CombatSkill/Desc/C301,人海战术：血量低于10%时，将恢复满血。"
+  splits:
+  - split: 1
+    text: "人海战术"
+  - split: 1
+    subIndex: 1
+    text: "血量低于10%时，将恢复满血。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C302,人海战术"
+  splits:
+  - split: 1
+    text: "人海战术"
+- raw: "CombatSkill/Desc/C302,人海战术：血量低于10%时，将恢复满血。"
+  splits:
+  - split: 1
+    text: "人海战术"
+  - split: 1
+    subIndex: 1
+    text: "血量低于10%时，将恢复满血。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C400,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "CombatSkill/Desc/C400,唐门弟子：每次造成中幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+  - split: 1
+    subIndex: 1
+    text: "每次造成中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C501,海盗"
+  splits:
+  - split: 1
+    text: "海盗"
+- raw: "CombatSkill/Desc/C501,海盗《假打》：每回合100%机率出手妨碍海盗的行动。"
+  splits:
+  - split: 1
+    text: "海盗《假打》"
+  - split: 1
+    subIndex: 1
+    text: "每回合100%机率出手妨碍海盗的行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C502,南宫家丁"
+  splits:
+  - split: 1
+    text: "南宫家丁"
+- raw: "CombatSkill/Desc/C502,南宫家丁：会毫不留情地殴打二公子，打完二公子后打你。每回合造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "南宫家丁"
+  - split: 1
+    subIndex: 1
+    text: "会毫不留情地殴打二公子，打完二公子后打你。每回合造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C503,南宫浅"
+  splits:
+  - split: 1
+    text: "南宫浅"
+- raw: "CombatSkill/Desc/C503,南宫浅：每回合造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "南宫浅"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C504,飞天弟子"
+  splits:
+  - split: 1
+    text: "飞天弟子"
+- raw: "CombatSkill/Desc/C504,飞天弟子《头部》：有了指挥会变聪明，嘴力+30。"
+  splits:
+  - split: 1
+    text: "飞天弟子《头部》"
+  - split: 1
+    subIndex: 1
+    text: "有了指挥会变聪明，嘴力"
+  templates:
+  - split: 1
+    template: "{0}：{1}+30。"
+- raw: "CombatSkill/Name/C505,夺魄弟子"
+  splits:
+  - split: 1
+    text: "夺魄弟子"
+- raw: "CombatSkill/Desc/C505,夺魄弟子《脚和腿》：用神出鬼没的身法迷惑你，轻功+30。"
+  splits:
+  - split: 1
+    text: "夺魄弟子《脚和腿》"
+  - split: 1
+    subIndex: 1
+    text: "用神出鬼没的身法迷惑你，轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}+30。"
+- raw: "CombatSkill/Name/C506,？？？"
+- raw: "CombatSkill/Desc/C506,？？？《缟衣剑少》：吸引所有攻击。"
+  splits:
+  - split: 1
+    text: "？？？《缟衣剑少》"
+  - split: 1
+    subIndex: 1
+    text: "吸引所有攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C507,玄功弟子"
+  splits:
+  - split: 1
+    text: "玄功弟子"
+- raw: "CombatSkill/Desc/C507,玄功弟子《临阵指点》：爆击骰+50颗，减伤+50%。"
+  splits:
+  - split: 1
+    text: "玄功弟子《临阵指点》"
+  - split: 1
+    subIndex: 1
+    text: "爆击骰+50颗，减伤"
+  templates:
+  - split: 1
+    template: "{0}：{1}+50%。"
+- raw: "CombatSkill/Name/C508,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+- raw: "CombatSkill/Desc/C508,铁拳弟子《铁臂神拳》：每回合低机率造成小幅伤害，有机率为队友格档攻击。"
+  splits:
+  - split: 1
+    text: "铁拳弟子《铁臂神拳》"
+  - split: 1
+    subIndex: 1
+    text: "每回合低机率造成小幅伤害，有机率为队友格档攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C509,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "CombatSkill/Desc/C509,郁竹《大铁锤》：每回合低机率造成极大幅伤害，并追加[震撼]。"
+  splits:
+  - split: 1
+    text: "郁竹《大铁锤》"
+  - split: 1
+    subIndex: 1
+    text: "每回合低机率造成极大幅伤害，并追加"
+  - split: 1
+    subIndex: 2
+    text: "震撼"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/C510,丐帮弟子"
+  splits:
+  - split: 1
+    text: "丐帮弟子"
+- raw: "CombatSkill/Desc/C510,丐帮弟子《暗器》：每回合造成中幅伤害。"
+  splits:
+  - split: 1
+    text: "丐帮弟子《暗器》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C511,左右开弓"
+  splits:
+  - split: 1
+    text: "左右开弓"
+- raw: "CombatSkill/Desc/C511,左右开弓：分心二用，左手打你，右手揍南宫浅。"
+  splits:
+  - split: 1
+    text: "左右开弓"
+  - split: 1
+    subIndex: 1
+    text: "分心二用，左手打你，右手揍南宫浅。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C512,路人俠"
+  splits:
+  - split: 1
+    text: "路人俠"
+- raw: "CombatSkill/Desc/C512,路人俠《豹心牛泣斩》：看都沒看就一直打你，一直打你。每回合造成2次微小傷害或落空。"
+  splits:
+  - split: 1
+    text: "路人俠《豹心牛泣斩》"
+  - split: 1
+    subIndex: 1
+    text: "看都沒看就一直打你，一直打你。每回合造成2次微小傷害或落空。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C513,飞天弟子"
+  splits:
+  - split: 1
+    text: "飞天弟子"
+- raw: "CombatSkill/Desc/C513,飞天弟子《飞天脚》：每回合造成小幅伤害，并有中机率造成失衡异常。"
+  splits:
+  - split: 1
+    text: "飞天弟子《飞天脚》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，并有中机率造成失衡异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C514,青城弟子"
+  splits:
+  - split: 1
+    text: "青城弟子"
+- raw: "CombatSkill/Desc/C514,青城弟子《八门金锁刀》：每回合造成中幅伤害，并对气造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "青城弟子《八门金锁刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成中幅伤害，并对气造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C515,叶云舟"
+  splits:
+  - split: 1
+    text: "叶云舟"
+- raw: "CombatSkill/Desc/C515,叶云舟《点破云关．雷动九天》：每三回合发动致命的超爆击伤害，造成震撼。"
+  splits:
+  - split: 1
+    text: "叶云舟《点破云关．雷动九天》"
+  - split: 1
+    subIndex: 1
+    text: "每三回合发动致命的超爆击伤害，造成震撼。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C516,叶云舟"
+  splits:
+  - split: 1
+    text: "叶云舟"
+- raw: "CombatSkill/Desc/C516,叶云舟《点破云关》：每三回合发动一次大幅爆击伤害。"
+  splits:
+  - split: 1
+    text: "叶云舟《点破云关》"
+  - split: 1
+    subIndex: 1
+    text: "每三回合发动一次大幅爆击伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C517,叶云裳"
+  splits:
+  - split: 1
+    text: "叶云裳"
+- raw: "CombatSkill/Desc/C517,叶云裳《点苍棒法》：每回合发动一次命中率极低的微幅伤害。叶云裳在场时，所有点苍门人攻击力-50%。"
+  splits:
+  - split: 1
+    text: "叶云裳《点苍棒法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动一次命中率极低的微幅伤害。叶云裳在场时，所有点苍门人攻击力"
+  templates:
+  - split: 1
+    template: "{0}：{1}-50%。"
+- raw: "CombatSkill/Name/C518,点苍弟子"
+  splits:
+  - split: 1
+    text: "点苍弟子"
+- raw: "CombatSkill/Desc/C518,点苍弟子《双剑合壁》：命中时连击数+1，随着连击数提高攻击/防御/气回复速度。"
+  splits:
+  - split: 1
+    text: "点苍弟子《双剑合壁》"
+  - split: 1
+    subIndex: 1
+    text: "命中时连击数+1，随着连击数提高攻击"
+  - split: 1
+    subIndex: 2
+    text: "防御"
+  - split: 1
+    subIndex: 3
+    text: "气回复速度。"
+  templates:
+  - split: 1
+    template: "{0}：{1}/{2}/{3}"
+- raw: "CombatSkill/Name/C519,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "CombatSkill/Desc/C519,虞小梅《焚心火印・飞天脚》：每回合发动2次猛攻，造成大幅伤害。(5回合)"
+  splits:
+  - split: 1
+    text: "虞小梅《焚心火印"
+  - split: 1
+    subIndex: 1
+    text: "飞天脚》"
+  - split: 1
+    subIndex: 2
+    text: "每回合发动2次猛攻，造成大幅伤害。"
+  - split: 1
+    subIndex: 3
+    text: "5回合"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}({3})"
+- raw: "CombatSkill/Name/C520,夏侯兰"
+  splits:
+  - split: 1
+    text: "夏侯兰"
+- raw: "CombatSkill/Desc/C520,夏侯兰《威压》：封印敌人的绝招、嘴攻。"
+  splits:
+  - split: 1
+    text: "夏侯兰《威压》"
+  - split: 1
+    subIndex: 1
+    text: "封印敌人的绝招、嘴攻。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C521,夏侯兰"
+  splits:
+  - split: 1
+    text: "夏侯兰"
+- raw: "CombatSkill/Desc/C521,夏侯兰《夺魄幽兰》：在场时，敌方爆击归零。50%机率陷入[胆怯]状态。"
+  splits:
+  - split: 1
+    text: "夏侯兰《夺魄幽兰》"
+  - split: 1
+    subIndex: 1
+    text: "在场时，敌方爆击归零。50%机率陷入"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  - split: 1
+    subIndex: 3
+    text: "状态。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C522,上官萤"
+  splits:
+  - split: 1
+    text: "上官萤"
+- raw: "CombatSkill/Desc/C522,上官萤《苦恼拳》：每回合对敌人造成小伤害，并有33%机率额外造成大伤害。"
+  splits:
+  - split: 1
+    text: "上官萤《苦恼拳》"
+  - split: 1
+    subIndex: 1
+    text: "每回合对敌人造成小伤害，并有33%机率额外造成大伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C523,锦香弟子"
+  splits:
+  - split: 1
+    text: "锦香弟子"
+- raw: "CombatSkill/Desc/C523,锦香弟子《剑法》：50%机率造成中伤害。"
+  splits:
+  - split: 1
+    text: "锦香弟子《剑法》"
+  - split: 1
+    subIndex: 1
+    text: "50%机率造成中伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C524,画中仙"
+  splits:
+  - split: 1
+    text: "画中仙"
+- raw: "CombatSkill/Desc/C524,画中仙《剑法》：50%机率造成中伤害。"
+  splits:
+  - split: 1
+    text: "画中仙《剑法》"
+  - split: 1
+    subIndex: 1
+    text: "50%机率造成中伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C525_1,小梅的守望"
+  splits:
+  - split: 1
+    text: "小梅的守望"
+- raw: "CombatSkill/Desc/C525_1,小梅的守望：在心上人面前，勇气百倍，每回合气回复量上升。"
+  splits:
+  - split: 1
+    text: "小梅的守望"
+  - split: 1
+    subIndex: 1
+    text: "在心上人面前，勇气百倍，每回合气回复量上升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C525_2,小梅的守望"
+  splits:
+  - split: 1
+    text: "小梅的守望"
+- raw: "CombatSkill/Desc/C525_2,小梅的守望：在心上人面前，勇气百倍，但因为你移情别恋所以无效。"
+  splits:
+  - split: 1
+    text: "小梅的守望"
+  - split: 1
+    subIndex: 1
+    text: "在心上人面前，勇气百倍，但因为你移情别恋所以无效。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C526,温夫人"
+  splits:
+  - split: 1
+    text: "温夫人"
+- raw: "CombatSkill/Desc/C526,温夫人《仙侣宫・哪咤令・龙游浅水》：挟带内力的琴声，每回合造成敌方气-3，HP-8%，并有25%机率造成胆怯、愤怒随机异常。"
+  splits:
+  - split: 1
+    text: "温夫人《仙侣宫"
+  - split: 1
+    subIndex: 1
+    text: "哪咤令"
+  - split: 1
+    subIndex: 2
+    text: "龙游浅水》"
+  - split: 1
+    subIndex: 3
+    text: "挟带内力的琴声，每回合造成敌方气"
+  - split: 1
+    subIndex: 4
+    text: "-8%，并有25%机率造成胆怯、愤怒随机异常。"
+  templates:
+  - split: 1
+    template: "{0}・{1}・{2}：{3}-3，HP{4}"
+- raw: "CombatSkill/Name/C527,温夫人"
+  splits:
+  - split: 1
+    text: "温夫人"
+- raw: "CombatSkill/Desc/C527,温夫人《越调・凭栏人・相忘远》：没有挟带内力的琴声，每回合我方气+4、敌方气-4。"
+  splits:
+  - split: 1
+    text: "温夫人《越调"
+  - split: 1
+    subIndex: 1
+    text: "凭栏人"
+  - split: 1
+    subIndex: 2
+    text: "相忘远》"
+  - split: 1
+    subIndex: 3
+    text: "没有挟带内力的琴声，每回合我方气+4、敌方气"
+  templates:
+  - split: 1
+    template: "{0}・{1}・{2}：{3}-4。"
+- raw: "CombatSkill/Name/C528,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "CombatSkill/Desc/C528,虞小梅《一趾驭风・飞天脚》：每回合有造成小幅伤害，攻击时有50%机率造成失衡。我方失衡时放弃攻击，搀扶，打消失衡异常状态。"
+  splits:
+  - split: 1
+    text: "虞小梅《一趾驭风"
+  - split: 1
+    subIndex: 1
+    text: "飞天脚》"
+  - split: 1
+    subIndex: 2
+    text: "每回合有造成小幅伤害，攻击时有50%机率造成失衡。我方失衡时放弃攻击，搀扶，打消失衡异常状态。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/C529,龙湘"
+  splits:
+  - split: 1
+    text: "龙湘"
+- raw: "CombatSkill/Desc/C529,龙湘《龙渊七绝》：可抵挡敌人的绝招，当上述效果不发动时，每回合进行一次强力攻击。"
+  splits:
+  - split: 1
+    text: "龙湘《龙渊七绝》"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡敌人的绝招，当上述效果不发动时，每回合进行一次强力攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C530,唐默铃"
+  splits:
+  - split: 1
+    text: "唐默铃"
+- raw: "CombatSkill/Desc/C530,唐默铃《无定飞梭》：每回合生成一个[无定飞梭]，可以抵销对手暗器。\\n[无定飞梭]三回合后发射造成小幅伤害。场中存在三个[无定飞梭]时，消费所有无飞梭，造成激烈爆击伤害。"
+  splits:
+  - split: 1
+    text: "唐默铃《无定飞梭》"
+  - split: 1
+    subIndex: 1
+    text: "每回合生成一个"
+  - split: 1
+    subIndex: 2
+    text: "无定飞梭"
+  - split: 1
+    subIndex: 3
+    text: "，可以抵销对手暗器。"
+  - split: 1
+    subIndex: 4
+    text: "无定飞梭"
+  - split: 1
+    subIndex: 5
+    text: "三回合后发射造成小幅伤害。场中存在三个"
+  - split: 1
+    subIndex: 6
+    text: "无定飞梭"
+  - split: 1
+    subIndex: 7
+    text: "时，消费所有无飞梭，造成激烈爆击伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}\\n[{4}]{5}[{6}]{7}"
+- raw: "CombatSkill/Name/C531,袁无宪"
+  splits:
+  - split: 1
+    text: "袁无宪"
+- raw: "CombatSkill/Desc/C531,袁无宪《猿王棍》：一边防御来自南宫浅的攻击，一边撩拨你们互相攻击。"
+  splits:
+  - split: 1
+    text: "袁无宪《猿王棍》"
+  - split: 1
+    subIndex: 1
+    text: "一边防御来自南宫浅的攻击，一边撩拨你们互相攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C532,荆红"
+  splits:
+  - split: 1
+    text: "荆红"
+- raw: "CombatSkill/Desc/C532,荆红《红葵着雨腿胭脂]》：每2回合有50%机率造成中幅伤害，并获得3连击。"
+  splits:
+  - split: 1
+    text: "荆红《红葵着雨腿胭脂"
+  - split: 1
+    subIndex: 1
+    text: "每2回合有50%机率造成中幅伤害，并获得3连击。"
+  templates:
+  - split: 1
+    template: "{0}]》：{1}"
+- raw: "CombatSkill/Name/C533,唐升"
+  splits:
+  - split: 1
+    text: "唐升"
+- raw: "CombatSkill/Desc/C533,唐升《袖底乾坤》：30%机率保护战友，30%机率造成小幅伤害并累积中量麻痹值，40%机率观望并出口伤人，造成气中幅损伤。"
+  splits:
+  - split: 1
+    text: "唐升《袖底乾坤》"
+  - split: 1
+    subIndex: 1
+    text: "30%机率保护战友，30%机率造成小幅伤害并累积中量麻痹值，40%机率观望并出口伤人，造成气中幅损伤。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C534,唐惟元"
+  splits:
+  - split: 1
+    text: "唐惟元"
+- raw: "CombatSkill/Desc/C534,唐惟元《见缝插针》：我方造成伤害时，立刻追击，造成多段微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐惟元《见缝插针》"
+  - split: 1
+    subIndex: 1
+    text: "我方造成伤害时，立刻追击，造成多段微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C535,丹霞子"
+  splits:
+  - split: 1
+    text: "丹霞子"
+- raw: "CombatSkill/Desc/C535,丹霞子《风刀火剑》：每回合造成2次中幅伤害，并有50%机率造成失衡。"
+  splits:
+  - split: 1
+    text: "丹霞子《风刀火剑》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成2次中幅伤害，并有50%机率造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C536,樊啸天"
+  splits:
+  - split: 1
+    text: "樊啸天"
+- raw: "CombatSkill/Desc/C536,樊啸天《揍狗拳》：每回合造成5次小幅连击伤害。"
+  splits:
+  - split: 1
+    text: "樊啸天《揍狗拳》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成5次小幅连击伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C537,解无尘"
+  splits:
+  - split: 1
+    text: "解无尘"
+- raw: "CombatSkill/Desc/C537,解无尘《很是用力踢》：每二回合发动一次，造成1~8段不等的小幅连击伤害，并有30%机率造成对手失衡。"
+  splits:
+  - split: 1
+    text: "解无尘《很是用力踢》"
+  - split: 1
+    subIndex: 1
+    text: "每二回合发动一次，造成1"
+  - split: 1
+    subIndex: 2
+    text: "8段不等的小幅连击伤害，并有30%机率造成对手失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}~{2}"
+- raw: "CombatSkill/Name/C538,李富贵"
+  splits:
+  - split: 1
+    text: "李富贵"
+- raw: "CombatSkill/Desc/C538,李富贵《惊蛇杖》：每回合造成小幅伤害及气损伤，有30%机率造成[胆怯]异常。"
+  splits:
+  - split: 1
+    text: "李富贵《惊蛇杖》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害及气损伤，有30%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C539,福韫"
+  splits:
+  - split: 1
+    text: "福韫"
+- raw: "CombatSkill/Desc/C539,福韫《喋喋不休》：每回合说教，造成对手中幅气损伤，有50%机率造成[愤怒]异常。"
+  splits:
+  - split: 1
+    text: "福韫《喋喋不休》"
+  - split: 1
+    subIndex: 1
+    text: "每回合说教，造成对手中幅气损伤，有50%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C540,邹博"
+  splits:
+  - split: 1
+    text: "邹博"
+- raw: "CombatSkill/Desc/C540,邹博《参同掌．天师剑》：每回合随机攻/防，攻击时造成对手中幅伤害，附加震撼；防守时减轻我方伤害60%，气力+5。"
+  splits:
+  - split: 1
+    text: "邹博《参同掌．天师剑》"
+  - split: 1
+    subIndex: 1
+    text: "每回合随机攻"
+  - split: 1
+    subIndex: 2
+    text: "防，攻击时造成对手中幅伤害，附加震撼；防守时减轻我方伤害60%，气力"
+  templates:
+  - split: 1
+    template: "{0}：{1}/{2}+5。"
+- raw: "CombatSkill/Name/C541,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "CombatSkill/Desc/C541,虞小梅《天龙地虎式》：在金乌上人不主动攻击的时候进行中幅攻击伤害，增加连击；在金乌上人攻击时防守，使所受伤害减轻20%。"
+  splits:
+  - split: 1
+    text: "虞小梅《天龙地虎式》"
+  - split: 1
+    subIndex: 1
+    text: "在金乌上人不主动攻击的时候进行中幅攻击伤害，增加连击；在金乌上人攻击时防守，使所受伤害减轻20%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C542,嵩山弟子"
+  splits:
+  - split: 1
+    text: "嵩山弟子"
+- raw: "CombatSkill/Desc/C542,嵩山弟子《嵩山般若掌》：每回合造成一次小幅伤害。"
+  splits:
+  - split: 1
+    text: "嵩山弟子《嵩山般若掌》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成一次小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C543,嵩山弟子"
+  splits:
+  - split: 1
+    text: "嵩山弟子"
+- raw: "CombatSkill/Desc/C543,嵩山弟子《嵩山风波棍》：两回合造成一次中幅伤害，并有30%机率造成失衡。"
+  splits:
+  - split: 1
+    text: "嵩山弟子《嵩山风波棍》"
+  - split: 1
+    subIndex: 1
+    text: "两回合造成一次中幅伤害，并有30%机率造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C544,夏侯兰"
+  splits:
+  - split: 1
+    text: "夏侯兰"
+- raw: "CombatSkill/Desc/C544,夏侯兰《夺魄幽灵爪・铁伞功》：敌方暗器必定被格档。每三回合发动一次超爆击伤害。"
+  splits:
+  - split: 1
+    text: "夏侯兰《夺魄幽灵爪"
+  - split: 1
+    subIndex: 1
+    text: "铁伞功》"
+  - split: 1
+    subIndex: 2
+    text: "敌方暗器必定被格档。每三回合发动一次超爆击伤害。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/C545,南宫深"
+  splits:
+  - split: 1
+    text: "南宫深"
+- raw: "CombatSkill/Desc/C545,南宫深《风流扇真传》：在场时我方减伤20%，并为我方追加大量爆击骰子，每回合造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "南宫深《风流扇真传》"
+  - split: 1
+    subIndex: 1
+    text: "在场时我方减伤20%，并为我方追加大量爆击骰子，每回合造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C546,释明"
+  splits:
+  - split: 1
+    text: "释明"
+- raw: "CombatSkill/Desc/C546,释明《那由它劫指》：每回合造成中幅伤害，并累积中量麻痹值。"
+  splits:
+  - split: 1
+    text: "释明《那由它劫指》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成中幅伤害，并累积中量麻痹值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C547,唐默铃"
+  splits:
+  - split: 1
+    text: "唐默铃"
+- raw: "CombatSkill/Desc/C547,唐默铃《天地无声势・暗杀剑》：下定决心要杀人的小师妹。低机率造成无法招架、回避的超爆击伤害。"
+  splits:
+  - split: 1
+    text: "唐默铃《天地无声势"
+  - split: 1
+    subIndex: 1
+    text: "暗杀剑》"
+  - split: 1
+    subIndex: 2
+    text: "下定决心要杀人的小师妹。低机率造成无法招架、回避的超爆击伤害。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/C548,夏侯兰"
+  splits:
+  - split: 1
+    text: "夏侯兰"
+- raw: "CombatSkill/Desc/C548,夏侯兰《雪山飞鸿爪・铁伞功》：敌方暗器必定被格档。每三回合发动一次高爆击伤害，必定造成失衡。"
+  splits:
+  - split: 1
+    text: "夏侯兰《雪山飞鸿爪"
+  - split: 1
+    subIndex: 1
+    text: "铁伞功》"
+  - split: 1
+    subIndex: 2
+    text: "敌方暗器必定被格档。每三回合发动一次高爆击伤害，必定造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/C549,福韫"
+  splits:
+  - split: 1
+    text: "福韫"
+- raw: "CombatSkill/Desc/C549,福韫《喋喋不休风波棍》：一边打人，一边说教。\\n每回合造成小幅气伤害，两回合造成一次中幅伤害，并有低机率造成失衡。"
+  splits:
+  - split: 1
+    text: "福韫《喋喋不休风波棍》"
+  - split: 1
+    subIndex: 1
+    text: "一边打人，一边说教。"
+  - split: 1
+    subIndex: 2
+    text: "每回合造成小幅气伤害，两回合造成一次中幅伤害，并有低机率造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/C550,唐升"
+  splits:
+  - split: 1
+    text: "唐升"
+- raw: "CombatSkill/Desc/C550,唐升《袖里乾坤》：每回合发动一次中幅攻击，每6回合发动一次绝招攻击，并阻止对方行动。"
+  splits:
+  - split: 1
+    text: "唐升《袖里乾坤》"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动一次中幅攻击，每6回合发动一次绝招攻击，并阻止对方行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C551,释明"
+  splits:
+  - split: 1
+    text: "释明"
+- raw: "CombatSkill/Desc/C551,释明《捻花指》：大幅提升我方格档机率，并造成敌方气力-3。"
+  splits:
+  - split: 1
+    text: "释明《捻花指》"
+  - split: 1
+    subIndex: 1
+    text: "大幅提升我方格档机率，并造成敌方气力"
+  templates:
+  - split: 1
+    template: "{0}：{1}-3。"
+- raw: "CombatSkill/Name/C552,尹志平"
+  splits:
+  - split: 1
+    text: "尹志平"
+- raw: "CombatSkill/Desc/C552,尹志平《逆踏北斗七星》：双方攻击力伤害下降60%、气力-5。"
+  splits:
+  - split: 1
+    text: "尹志平《逆踏北斗七星》"
+  - split: 1
+    subIndex: 1
+    text: "双方攻击力伤害下降60%、气力"
+  templates:
+  - split: 1
+    template: "{0}：{1}-5。"
+- raw: "CombatSkill/Name/C553,尹志平"
+  splits:
+  - split: 1
+    text: "尹志平"
+- raw: "CombatSkill/Desc/C553,尹志平《地轴锁天关》：在场时，镇压全局，敌我双方所有支持失效。"
+  splits:
+  - split: 1
+    text: "尹志平《地轴锁天关》"
+  - split: 1
+    subIndex: 1
+    text: "在场时，镇压全局，敌我双方所有支持失效。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C554,点苍双尊"
+  splits:
+  - split: 1
+    text: "点苍双尊"
+- raw: "CombatSkill/Desc/C554,点苍双尊《阴阳双剑》：命中时追击，使连击数+2，随着连击数提高攻击/防御/气回复。\\n连击数>8时，发动[剑界]。\\n连击数>12时，消费连击数，发动绝招[云山雾海邀天剑]，造成无视减伤效果超绝强力伤害。"
+  splits:
+  - split: 1
+    text: "点苍双尊《阴阳双剑》"
+  - split: 1
+    subIndex: 1
+    text: "命中时追击，使连击数+2，随着连击数提高攻击"
+  - split: 1
+    subIndex: 2
+    text: "防御"
+  - split: 1
+    subIndex: 3
+    text: "气回复。"
+  - split: 1
+    subIndex: 4
+    text: "连击数"
+  - split: 1
+    subIndex: 5
+    text: "8时，发动"
+  - split: 1
+    subIndex: 6
+    text: "剑界"
+  - split: 1
+    subIndex: 7
+    text: "连击数"
+  - split: 1
+    subIndex: 8
+    text: "12时，消费连击数，发动绝招"
+  - split: 1
+    subIndex: 9
+    text: "云山雾海邀天剑"
+  - split: 1
+    subIndex: 10
+    text: "，造成无视减伤效果超绝强力伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}/{2}/{3}\\n{4}>{5}[{6}]。\\n{7}>{8}[{9}]{10}"
+- raw: "CombatSkill/Name/C555,向无忧"
+  splits:
+  - split: 1
+    text: "向无忧"
+- raw: "CombatSkill/Desc/C555,向无忧《心剑雷神脚》：每回合有高机率使我方回避大幅上升，回避时高机率反击，使连击数+1。\\n随着连击数上升，机率使出绝招[雷神脚]，造成超强力伤害，并追加[震撼]异常。"
+  splits:
+  - split: 1
+    text: "向无忧《心剑雷神脚》"
+  - split: 1
+    subIndex: 1
+    text: "每回合有高机率使我方回避大幅上升，回避时高机率反击，使连击数"
+  - split: 1
+    subIndex: 2
+    text: "随着连击数上升，机率使出绝招"
+  - split: 1
+    subIndex: 3
+    text: "雷神脚"
+  - split: 1
+    subIndex: 4
+    text: "，造成超强力伤害，并追加"
+  - split: 1
+    subIndex: 5
+    text: "震撼"
+  - split: 1
+    subIndex: 6
+    text: "异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}+1。\\n{2}[{3}]{4}[{5}]{6}"
+- raw: "CombatSkill/Name/C556,画中仙"
+  splits:
+  - split: 1
+    text: "画中仙"
+- raw: "CombatSkill/Desc/C556,画中仙《无相神功》：敌方防御、招架、回避率大幅弱化，我方爆击骰大幅上升。每回合造成小幅伤害，并累积麻痹。"
+  splits:
+  - split: 1
+    text: "画中仙《无相神功》"
+  - split: 1
+    subIndex: 1
+    text: "敌方防御、招架、回避率大幅弱化，我方爆击骰大幅上升。每回合造成小幅伤害，并累积麻痹。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C901,书生"
+  splits:
+  - split: 1
+    text: "书生"
+- raw: "CombatSkill/Desc/C901,书生《惊慌失措》：两回合后回神，即将放声大叫。"
+  splits:
+  - split: 1
+    text: "书生《惊慌失措》"
+  - split: 1
+    subIndex: 1
+    text: "两回合后回神，即将放声大叫。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C902,全真弟子"
+  splits:
+  - split: 1
+    text: "全真弟子"
+- raw: "CombatSkill/Desc/C902,全真弟子《全真剑法》：每回合中机率造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "全真弟子《全真剑法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合中机率造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C903,唐默铃"
+  splits:
+  - split: 1
+    text: "唐默铃"
+- raw: "CombatSkill/Desc/C903,唐默铃《极怒无定飞梭》：气疯了，暗器全弹发射中。\\n每回合造成10次微幅伤害，伤害超过40中断敌人行动。"
+  splits:
+  - split: 1
+    text: "唐默铃《极怒无定飞梭》"
+  - split: 1
+    subIndex: 1
+    text: "气疯了，暗器全弹发射中。"
+  - split: 1
+    subIndex: 2
+    text: "每回合造成10次微幅伤害，伤害超过40中断敌人行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/C904,叶云裳"
+  splits:
+  - split: 1
+    text: "叶云裳"
+- raw: "CombatSkill/Desc/C904,叶云裳《点苍棍法》：气疯了，混乱挥舞棍棒中。每回合有30%机率造成1次微幅伤害。"
+  splits:
+  - split: 1
+    text: "叶云裳《点苍棍法》"
+  - split: 1
+    subIndex: 1
+    text: "气疯了，混乱挥舞棍棒中。每回合有30%机率造成1次微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C905,唐默铃和叶云裳"
+  splits:
+  - split: 1
+    text: "唐默铃和叶云裳"
+- raw: "CombatSkill/Desc/C905,《阴阳合击剑》：有50%机率使你造成的伤害落空，每回合造成强大伤害。"
+  splits:
+  - split: 1
+    text: "《阴阳合击剑》"
+  - split: 1
+    subIndex: 1
+    text: "有50%机率使你造成的伤害落空，每回合造成强大伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C906,上官萤"
+  splits:
+  - split: 1
+    text: "上官萤"
+- raw: "CombatSkill/Desc/C906,上官萤《苦恼拳・毁天灭地式》：气疯了，苦恼拳超越极限中。每回合有40%机率造成超爆击伤害。"
+  splits:
+  - split: 1
+    text: "上官萤《苦恼拳"
+  - split: 1
+    subIndex: 1
+    text: "毁天灭地式》"
+  - split: 1
+    subIndex: 2
+    text: "气疯了，苦恼拳超越极限中。每回合有40%机率造成超爆击伤害。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/C907,龙湘"
+  splits:
+  - split: 1
+    text: "龙湘"
+- raw: "CombatSkill/Desc/C907,龙湘《龙渊七绝剑》：气疯了，杀意凛冽中。"
+  splits:
+  - split: 1
+    text: "龙湘《龙渊七绝剑》"
+  - split: 1
+    subIndex: 1
+    text: "气疯了，杀意凛冽中。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C908,谭霸刀"
+  splits:
+  - split: 1
+    text: "谭霸刀"
+- raw: "CombatSkill/Desc/C908,谭霸刀《霸刀》：在场时，挥舞大刀虎虎生风，气势逼人，使己方额外气回复+5。每二回合发动一次大幅伤害。"
+  splits:
+  - split: 1
+    text: "谭霸刀《霸刀》"
+  - split: 1
+    subIndex: 1
+    text: "在场时，挥舞大刀虎虎生风，气势逼人，使己方额外气回复+5。每二回合发动一次大幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C909,余公子"
+  splits:
+  - split: 1
+    text: "余公子"
+- raw: "CombatSkill/Desc/C909,余公子《多金风流扇》：在场时，施展扇法牵制对手。己方所受伤害减轻20%。每二回合发动一次中幅伤害。"
+  splits:
+  - split: 1
+    text: "余公子《多金风流扇》"
+  - split: 1
+    subIndex: 1
+    text: "在场时，施展扇法牵制对手。己方所受伤害减轻20%。每二回合发动一次中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C910,木仙姑"
+  splits:
+  - split: 1
+    text: "木仙姑"
+- raw: "CombatSkill/Desc/C910,木仙姑《拂尘功》：在场时，挥舞拂尘扰乱视线。敌方命中率下降20%。每二回合发动一次中幅伤害。"
+  splits:
+  - split: 1
+    text: "木仙姑《拂尘功》"
+  - split: 1
+    subIndex: 1
+    text: "在场时，挥舞拂尘扰乱视线。敌方命中率下降20%。每二回合发动一次中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C911,黑衣人"
+  splits:
+  - split: 1
+    text: "黑衣人"
+- raw: "CombatSkill/Desc/C911,黑衣人《手足无措》：你们尊重一下前辈不行吗？（100%无效化敌方造成的伤害）"
+  splits:
+  - split: 1
+    text: "黑衣人《手足无措》"
+  - split: 1
+    subIndex: 1
+    text: "你们尊重一下前辈不行吗？（100%无效化敌方造成的伤害）"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C912,黑衣人"
+  splits:
+  - split: 1
+    text: "黑衣人"
+- raw: "CombatSkill/Desc/C912,黑衣人《指导者》：观棋不语真君子，我是伪君子，所以可以说话。"
+  splits:
+  - split: 1
+    text: "黑衣人《指导者》"
+  - split: 1
+    subIndex: 1
+    text: "观棋不语真君子，我是伪君子，所以可以说话。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C913,唐布衣"
+  splits:
+  - split: 1
+    text: "唐布衣"
+- raw: "CombatSkill/Desc/C913,唐布衣《激战龙湘》：没空理你。每回合对敌方造成高爆击伤害，并累积麻痹值。"
+  splits:
+  - split: 1
+    text: "唐布衣《激战龙湘》"
+  - split: 1
+    subIndex: 1
+    text: "没空理你。每回合对敌方造成高爆击伤害，并累积麻痹值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C914,丐帮长老"
+  splits:
+  - split: 1
+    text: "丐帮长老"
+- raw: "CombatSkill/Desc/C914,丐帮长老《牧蛇》：每三回合召唤一个[毒蛇]。"
+  splits:
+  - split: 1
+    text: "丐帮长老《牧蛇》"
+  - split: 1
+    subIndex: 1
+    text: "每三回合召唤一个"
+  - split: 1
+    subIndex: 2
+    text: "毒蛇"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/C915,毒蛇"
+  splits:
+  - split: 1
+    text: "毒蛇"
+- raw: "CombatSkill/Desc/C915,毒蛇：每回合造成小幅伤害、40毒素累积值。"
+  splits:
+  - split: 1
+    text: "毒蛇"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害、40毒素累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C916,狗"
+  splits:
+  - split: 1
+    text: "狗"
+- raw: "CombatSkill/Desc/C916,狗《咆哮》：尽是叫，却不咬人。每回合造成敌人气微弱损伤，并有机率咬死一条毒蛇。"
+  splits:
+  - split: 1
+    text: "狗《咆哮》"
+  - split: 1
+    subIndex: 1
+    text: "尽是叫，却不咬人。每回合造成敌人气微弱损伤，并有机率咬死一条毒蛇。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C917,唐布衣"
+  splits:
+  - split: 1
+    text: "唐布衣"
+- raw: "CombatSkill/Desc/C917,唐布衣《光说不练》：每回合进行嘴攻刺激敌人，小幅减少敌人气力，有机率造成愤怒。"
+  splits:
+  - split: 1
+    text: "唐布衣《光说不练》"
+  - split: 1
+    subIndex: 1
+    text: "每回合进行嘴攻刺激敌人，小幅减少敌人气力，有机率造成愤怒。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E001,落井下石"
+  splits:
+  - split: 1
+    text: "落井下石"
+- raw: "CombatSkill/Desc/E001,落井下石：对身有异常状态的敌人嘴攻时，激怒成功率更高。"
+  splits:
+  - split: 1
+    text: "落井下石"
+  - split: 1
+    subIndex: 1
+    text: "对身有异常状态的敌人嘴攻时，激怒成功率更高。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E002,得理不饶人"
+  splits:
+  - split: 1
+    text: "得理不饶人"
+- raw: "CombatSkill/Desc/E002,得理不饶人：连续嘴攻时效果上升。"
+  splits:
+  - split: 1
+    text: "得理不饶人"
+  - split: 1
+    subIndex: 1
+    text: "连续嘴攻时效果上升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E002_1,得理不饶人"
+  splits:
+  - split: 1
+    text: "得理不饶人"
+- raw: "CombatSkill/Desc/E002_1,得理不饶人：嘴攻效果提升50%。"
+  splits:
+  - split: 1
+    text: "得理不饶人"
+  - split: 1
+    subIndex: 1
+    text: "嘴攻效果提升50%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E003,孟子曰"
+  splits:
+  - split: 1
+    text: "孟子曰"
+- raw: "CombatSkill/Desc/E003,孟子曰：敌人身有[愤怒]状态时发动。"
+  splits:
+  - split: 1
+    text: "孟子曰"
+  - split: 1
+    subIndex: 1
+    text: "敌人身有"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+  - split: 1
+    subIndex: 3
+    text: "状态时发动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/E003_1,孟子曰"
+  splits:
+  - split: 1
+    text: "孟子曰"
+- raw: "CombatSkill/Desc/E003_1,孟子曰：敌人身有[愤怒]状态时，嘴攻变为[战神语录]。\\n使对方行动无效，并造成[内伤]。"
+  splits:
+  - split: 1
+    text: "孟子曰"
+  - split: 1
+    subIndex: 1
+    text: "敌人身有"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+  - split: 1
+    subIndex: 3
+    text: "状态时，嘴攻变为"
+  - split: 1
+    subIndex: 4
+    text: "战神语录"
+  - split: 1
+    subIndex: 5
+    text: "使对方行动无效，并造成"
+  - split: 1
+    subIndex: 6
+    text: "内伤"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。\\n{5}[{6}]。"
+- raw: "CombatSkill/Name/E004,烈火禅"
+  splits:
+  - split: 1
+    text: "烈火禅"
+- raw: "CombatSkill/Desc/E004,烈火禅：愤怒时不再捅人，变成嘴攻并口喷烈火。"
+  splits:
+  - split: 1
+    text: "烈火禅"
+  - split: 1
+    subIndex: 1
+    text: "愤怒时不再捅人，变成嘴攻并口喷烈火。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E004_1,烈火禅"
+  splits:
+  - split: 1
+    text: "烈火禅"
+- raw: "CombatSkill/Desc/E004_1,烈火禅：愤怒时不再捅人，变成嘴攻并口喷烈火造成「燃烧」。"
+  splits:
+  - split: 1
+    text: "烈火禅"
+  - split: 1
+    subIndex: 1
+    text: "愤怒时不再捅人，变成嘴攻并口喷烈火造成「燃烧」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E006,龙吟功"
+  splits:
+  - split: 1
+    text: "龙吟功"
+- raw: "CombatSkill/Desc/E006,龙吟功：境界二以上，嘴攻变为「苍龙吟」。"
+  splits:
+  - split: 1
+    text: "龙吟功"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「苍龙吟」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E006_1,龙吟功"
+  splits:
+  - split: 1
+    text: "龙吟功"
+- raw: "CombatSkill/Desc/E006_1,龙吟功：境界二以上，嘴攻变为「苍龙吟」，消费额外内力，使嘴攻具有实质伤害。"
+  splits:
+  - split: 1
+    text: "龙吟功"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「苍龙吟」，消费额外内力，使嘴攻具有实质伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E007,狮吼功"
+  splits:
+  - split: 1
+    text: "狮吼功"
+- raw: "CombatSkill/Desc/E007,狮吼功：境界二以上，嘴攻变为「狮子吼」。"
+  splits:
+  - split: 1
+    text: "狮吼功"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「狮子吼」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E007_1,狮吼功"
+  splits:
+  - split: 1
+    text: "狮吼功"
+- raw: "CombatSkill/Desc/E007_1,狮吼功：境界二以上，嘴攻变为「狮子吼」，消费额外内力，使嘴攻具有实质伤害。"
+  splits:
+  - split: 1
+    text: "狮吼功"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「狮子吼」，消费额外内力，使嘴攻具有实质伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E008,虎啸功"
+  splits:
+  - split: 1
+    text: "虎啸功"
+- raw: "CombatSkill/Desc/E008,虎啸功：境界二以上，嘴攻变为「虎啸吼」。"
+  splits:
+  - split: 1
+    text: "虎啸功"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「虎啸吼」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E008_1,虎啸功"
+  splits:
+  - split: 1
+    text: "虎啸功"
+- raw: "CombatSkill/Desc/E008_1,虎啸功：境界二以上，嘴攻变为「虎啸吼」，消费额外内力，使嘴攻具有实质伤害。"
+  splits:
+  - split: 1
+    text: "虎啸功"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，嘴攻变为「虎啸吼」，消费额外内力，使嘴攻具有实质伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/F001,揍狗拳"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+- raw: "CombatSkill/Desc/F001,揍狗拳：敌人气低于自身时，获得「揍狗拳」。"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+  - split: 1
+    subIndex: 1
+    text: "敌人气低于自身时，获得「揍狗拳」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/F001_1,揍狗拳"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+- raw: "CombatSkill/Desc/F001_1,揍狗拳：捅人指令变化为[追击]，追加额外气的伤害。"
+  splits:
+  - split: 1
+    text: "揍狗拳"
+  - split: 1
+    subIndex: 1
+    text: "捅人指令变化为"
+  - split: 1
+    subIndex: 2
+    text: "追击"
+  - split: 1
+    subIndex: 3
+    text: "，追加额外气的伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/F002,极端揍狗拳"
+  splits:
+  - split: 1
+    text: "极端揍狗拳"
+- raw: "CombatSkill/Desc/F002,极端揍狗拳：锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
+  splits:
+  - split: 1
+    text: "极端揍狗拳"
+  - split: 1
+    subIndex: 1
+    text: "锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/F003,翻浪刀法"
+  splits:
+  - split: 1
+    text: "翻浪刀法"
+- raw: "CombatSkill/Desc/F003,翻浪刀法：捅人命中时获得「翻浪刀法」。"
+  splits:
+  - split: 1
+    text: "翻浪刀法"
+  - split: 1
+    subIndex: 1
+    text: "捅人命中时获得「翻浪刀法」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/F003_1,翻浪刀法"
+  splits:
+  - split: 1
+    text: "翻浪刀法"
+- raw: "CombatSkill/Desc/F003_1,翻浪刀法：捅人指令变化为[追击]，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "翻浪刀法"
+  - split: 1
+    subIndex: 1
+    text: "捅人指令变化为"
+  - split: 1
+    subIndex: 2
+    text: "追击"
+  - split: 1
+    subIndex: 3
+    text: "，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/F004,蛮勇"
+  splits:
+  - split: 1
+    text: "蛮勇"
+- raw: "CombatSkill/Desc/F004,蛮勇：捅人指令不会被暗器打断，但受到的伤害+50%。"
+  splits:
+  - split: 1
+    text: "蛮勇"
+  - split: 1
+    subIndex: 1
+    text: "捅人指令不会被暗器打断，但受到的伤害"
+  templates:
+  - split: 1
+    template: "{0}：{1}+50%。"
+- raw: "CombatSkill/Name/F005,心印掌"
+  splits:
+  - split: 1
+    text: "心印掌"
+- raw: "CombatSkill/Desc/F005,心印掌。"
+  splits:
+  - split: 1
+    text: "心印掌。"
+- raw: "CombatSkill/Name/F006,反手拳"
+  splits:
+  - split: 1
+    text: "反手拳"
+- raw: "CombatSkill/Desc/F006,反手拳：回避成功时，捅人指令变化为[反击]。"
+  splits:
+  - split: 1
+    text: "反手拳"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，捅人指令变化为"
+  - split: 1
+    subIndex: 2
+    text: "反击"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/F006_1,反手拳"
+  splits:
+  - split: 1
+    text: "反手拳"
+- raw: "CombatSkill/Desc/F006_1,反手拳：回避成功时，捅人指令变化为[反击]，造成250%伤害。"
+  splits:
+  - split: 1
+    text: "反手拳"
+  - split: 1
+    subIndex: 1
+    text: "回避成功时，捅人指令变化为"
+  - split: 1
+    subIndex: 2
+    text: "反击"
+  - split: 1
+    subIndex: 3
+    text: "，造成250%伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/G002_1,医术Lv1"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/G002_1,医术Lv1：备揍时，根据最大血量回复2%血。\\n额外代谢5点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复2%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢5点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_2,医术Lv2"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/G002_2,医术Lv2：备揍时，根据最大血量回复4%血。\\n额外代谢10点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复4%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢10点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_3,医术Lv3"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/G002_3,医术Lv3：备揍时，根据最大血量回复6%血。\\n额外代谢15点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复6%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢15点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_4,医术Lv4"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/G002_4,医术Lv4：备揍时，根据最大血量回复8%血。\\n额外代谢20点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复8%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢20点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_5,医术Lv5"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/G002_5,医术Lv5：备揍时，根据最大血量回复10%血。\\n额外代谢25点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复10%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢25点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_6,医术Lv6"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/G002_6,医术Lv6：备揍时，根据最大血量回复10%血。\\n额外代谢25点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复10%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢25点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_7,医术Lv7"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/G002_7,医术Lv7：备揍时，根据最大血量回复10%血。\\n额外代谢25点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复10%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢25点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_8,医术Lv8"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/G002_8,医术Lv8：备揍时，根据最大血量回复10%血。\\n额外代谢25点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复10%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢25点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}\\n{2}"
+- raw: "CombatSkill/Name/G002_9,医术Lv9"
+  splits:
+  - split: 1
+    text: "医术"
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/G002_9,医术Lv9：备揍时，根据最大血量回复10%血。\\n额外代谢25点毒麻累积值"
+  splits:
+  - split: 1
+    text: "医术"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，根据最大血量回复10%血。"
+  - split: 1
+    subIndex: 2
+    text: "额外代谢25点毒麻累积值"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}\\n{2}"
+- raw: "CombatSkill/Name/G003,仙鹤迷踪步"
+  splits:
+  - split: 1
+    text: "仙鹤迷踪步"
+- raw: "CombatSkill/Desc/G003,仙鹤迷踪步：备揍成功后，获得一个「仙鹤迷踪」。"
+  splits:
+  - split: 1
+    text: "仙鹤迷踪步"
+  - split: 1
+    subIndex: 1
+    text: "备揍成功后，获得一个「仙鹤迷踪」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/G003_1,仙鹤迷踪"
+  splits:
+  - split: 1
+    text: "仙鹤迷踪"
+- raw: "CombatSkill/Desc/G003_1,仙鹤迷踪：根据轻功[50%]提升回避率，持续2回合。"
+  splits:
+  - split: 1
+    text: "仙鹤迷踪"
+  - split: 1
+    subIndex: 1
+    text: "根据轻功"
+  - split: 1
+    subIndex: 2
+    text: "提升回避率，持续2回合。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[50%]{2}"
+- raw: "CombatSkill/Name/G004,一趾神通"
+  splits:
+  - split: 1
+    text: "一趾神通"
+- raw: "CombatSkill/Desc/G004,一趾神通：境界二以上，备揍变为[一趾神通]。"
+  splits:
+  - split: 1
+    text: "一趾神通"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，备揍变为"
+  - split: 1
+    subIndex: 2
+    text: "一趾神通"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/G004_1,一趾神通"
+  splits:
+  - split: 1
+    text: "一趾神通"
+- raw: "CombatSkill/Desc/G004_1,一趾神通：境界二以上，备揍变为[一趾神通]，备揍成功后，获得「一趾御风」。"
+  splits:
+  - split: 1
+    text: "一趾神通"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，备揍变为"
+  - split: 1
+    subIndex: 2
+    text: "一趾神通"
+  - split: 1
+    subIndex: 3
+    text: "，备揍成功后，获得「一趾御风」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/G004_2,一趾御风"
+  splits:
+  - split: 1
+    text: "一趾御风"
+- raw: "CombatSkill/Desc/G004_2,一趾御风：根据内力[100%]提升轻功，根据轻功[50%]提升回避率，持续2回合。"
+  splits:
+  - split: 1
+    text: "一趾御风"
+  - split: 1
+    subIndex: 1
+    text: "根据内力"
+  - split: 1
+    subIndex: 2
+    text: "提升轻功，根据轻功"
+  - split: 1
+    subIndex: 3
+    text: "提升回避率，持续2回合。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[100%]{2}[50%]{3}"
+- raw: "CombatSkill/Name/G005_1,折花手Lv1"
+  splits:
+  - split: 1
+    text: "折花手"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/G005_1,折花手Lv1：备揍时，有5%机率接住暗器。\\n若接暗器成功，造成对手追加「胆怯」。"
+  splits:
+  - split: 1
+    text: "折花手"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，有5%机率接住暗器。"
+  - split: 1
+    subIndex: 2
+    text: "若接暗器成功，造成对手追加「胆怯」。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}\\n{2}"
+- raw: "CombatSkill/Name/G005_2,折花手Lv2"
+  splits:
+  - split: 1
+    text: "折花手"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/G005_2,折花手Lv2：备揍时，有10%机率接住暗器。\\n若接暗器成功，造成对手追加「胆怯」。"
+  splits:
+  - split: 1
+    text: "折花手"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，有10%机率接住暗器。"
+  - split: 1
+    subIndex: 2
+    text: "若接暗器成功，造成对手追加「胆怯」。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}\\n{2}"
+- raw: "CombatSkill/Name/G005_3,折花手Lv3"
+  splits:
+  - split: 1
+    text: "折花手"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/G005_3,折花手Lv3：备揍时，有15%机率接住暗器。\\n若接暗器成功，造成对手追加「胆怯」。"
+  splits:
+  - split: 1
+    text: "折花手"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，有15%机率接住暗器。"
+  - split: 1
+    subIndex: 2
+    text: "若接暗器成功，造成对手追加「胆怯」。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}\\n{2}"
+- raw: "CombatSkill/Name/G005_4,折花手Lv4"
+  splits:
+  - split: 1
+    text: "折花手"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/G005_4,折花手Lv4：备揍时，有20%机率接住暗器。\\n若接暗器成功，造成对手追加「胆怯」。"
+  splits:
+  - split: 1
+    text: "折花手"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，有20%机率接住暗器。"
+  - split: 1
+    subIndex: 2
+    text: "若接暗器成功，造成对手追加「胆怯」。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}\\n{2}"
+- raw: "CombatSkill/Name/G005_5,折花手Lv5"
+  splits:
+  - split: 1
+    text: "折花手"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/G005_5,折花手Lv5：备揍时，有25%机率接住暗器。\\n若接暗器成功，造成对手追加「胆怯」。"
+  splits:
+  - split: 1
+    text: "折花手"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，有25%机率接住暗器。"
+  - split: 1
+    subIndex: 2
+    text: "若接暗器成功，造成对手追加「胆怯」。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}\\n{2}"
+- raw: "CombatSkill/Name/G008,万剑归宗"
+  splits:
+  - split: 1
+    text: "万剑归宗"
+- raw: "CombatSkill/Desc/G008,万剑归宗：备揍时，消费所有连击数，并根据连击数额外获得气。"
+  splits:
+  - split: 1
+    text: "万剑归宗"
+  - split: 1
+    subIndex: 1
+    text: "备揍时，消费所有连击数，并根据连击数额外获得气。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/G009,归元"
+  splits:
+  - split: 1
+    text: "归元"
+- raw: "CombatSkill/Desc/G009,归元：当连击数大于2时，备揍变成[归元]。"
+  splits:
+  - split: 1
+    text: "归元"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，备揍变成"
+  - split: 1
+    subIndex: 2
+    text: "归元"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/G009_1,归元"
+  splits:
+  - split: 1
+    text: "归元"
+- raw: "CombatSkill/Desc/G009_1,归元：当连击数大于2时，备揍变成[归元]。\\n根据连击数，生成「护体气罩」，最高等级5。"
+  splits:
+  - split: 1
+    text: "归元"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，备揍变成"
+  - split: 1
+    subIndex: 2
+    text: "归元"
+  - split: 1
+    subIndex: 3
+    text: "根据连击数，生成「护体气罩」，最高等级5。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。\\n{3}"
+- raw: "CombatSkill/Name/G2108_1,铁棋盘"
+  splits:
+  - split: 1
+    text: "铁棋盘"
+- raw: "CombatSkill/Desc/G2108_1,铁棋盘：备揍时启动机关，可收去所有暗器，下回暗器伤害上升30%。"
+  splits:
+  - split: 1
+    text: "铁棋盘"
+  - split: 1
+    subIndex: 1
+    text: "备揍时启动机关，可收去所有暗器，下回暗器伤害上升30%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/G2111_1,枯荣神功"
+  splits:
+  - split: 1
+    text: "枯荣神功"
+- raw: "CombatSkill/Desc/G2111_1,枯荣神功：备揍变为「枯荣神功」，恢复10%血，获得「护体气罩Lv3」。"
+  splits:
+  - split: 1
+    text: "枯荣神功"
+  - split: 1
+    subIndex: 1
+    text: "备揍变为「枯荣神功」，恢复10%血，获得「护体气罩"
+  templates:
+  - split: 1
+    template: "{0}：{1}Lv3」。"
+- raw: "CombatSkill/Name/H003_1,思想战Lv1"
+  splits:
+  - split: 1
+    text: "思想战"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/H003_1,思想战Lv1：决斗开始时，即默认已有1次连击，并获得5气。"
+  splits:
+  - split: 1
+    text: "思想战"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，即默认已有1次连击，并获得5气。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/H003_2,思想战Lv2"
+  splits:
+  - split: 1
+    text: "思想战"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/H003_2,思想战Lv2：决斗开始时，即默认已有2次连击，并获得10气。"
+  splits:
+  - split: 1
+    text: "思想战"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，即默认已有2次连击，并获得10气。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/H003_3,思想战Lv3"
+  splits:
+  - split: 1
+    text: "思想战"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/H003_3,思想战Lv3：决斗开始时，即默认已有3次连击，并获得15气。"
+  splits:
+  - split: 1
+    text: "思想战"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，即默认已有3次连击，并获得15气。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/H003_4,思想战Lv4"
+  splits:
+  - split: 1
+    text: "思想战"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/H003_4,思想战Lv4：决斗开始时，即默认已有4次连击，并获得20气。"
+  splits:
+  - split: 1
+    text: "思想战"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，即默认已有4次连击，并获得20气。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}"
+- raw: "CombatSkill/Name/H003_5,思想战Lv5"
+  splits:
+  - split: 1
+    text: "思想战"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/H003_5,思想战Lv5：决斗开始时，即默认已有5次连击，并获得25气。"
+  splits:
+  - split: 1
+    text: "思想战"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始时，即默认已有5次连击，并获得25气。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}"
+- raw: "CombatSkill/Name/H004,飒踏流星剑"
+  splits:
+  - split: 1
+    text: "飒踏流星剑"
+- raw: "CombatSkill/Desc/H004,飒踏流星剑：决斗开始第一回合，攻击力为3倍。"
+  splits:
+  - split: 1
+    text: "飒踏流星剑"
+  - split: 1
+    subIndex: 1
+    text: "决斗开始第一回合，攻击力为3倍。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/H005,地轴锁天关"
+  splits:
+  - split: 1
+    text: "地轴锁天关"
+- raw: "CombatSkill/Desc/H005,地轴锁天关：境界一以上，获得「化境」。\\n此后提升境界，「化境」效果亦会提升。"
+  splits:
+  - split: 1
+    text: "地轴锁天关"
+  - split: 1
+    subIndex: 1
+    text: "境界一以上，获得「化境」。"
+  - split: 1
+    subIndex: 2
+    text: "此后提升境界，「化境」效果亦会提升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/H005_1,化境Lv1"
+  splits:
+  - split: 1
+    text: "化境"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/H005_1,化境Lv1：我方回气+10、轻功+10%、防御+10%\\n敌方回气-10、轻功-10%、防御-10%"
+  splits:
+  - split: 1
+    text: "化境"
+  - split: 1
+    subIndex: 1
+    text: "我方回气+10、轻功+10%、防御"
+  - split: 1
+    subIndex: 2
+    text: "敌方回气-10、轻功-10%、防御"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}+10%\\n{2}-10%"
+- raw: "CombatSkill/Name/H005_2,化境Lv2"
+  splits:
+  - split: 1
+    text: "化境"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/H005_2,化境Lv2：我方回气+20、轻功+20%、防御+20%\\n敌方回气-20、轻功-20%、防御-20%"
+  splits:
+  - split: 1
+    text: "化境"
+  - split: 1
+    subIndex: 1
+    text: "我方回气+20、轻功+20%、防御"
+  - split: 1
+    subIndex: 2
+    text: "敌方回气-20、轻功-20%、防御"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}+20%\\n{2}-20%"
+- raw: "CombatSkill/Name/H005_3,化境Lv3"
+  splits:
+  - split: 1
+    text: "化境"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/H005_3,化境Lv3：我方回气+30、轻功+30%、防御+30%\\n敌方回气-30、轻功-30%、防御-30%"
+  splits:
+  - split: 1
+    text: "化境"
+  - split: 1
+    subIndex: 1
+    text: "我方回气+30、轻功+30%、防御"
+  - split: 1
+    subIndex: 2
+    text: "敌方回气-30、轻功-30%、防御"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}+30%\\n{2}-30%"
+- raw: "CombatSkill/Name/H006,剑界"
+  splits:
+  - split: 1
+    text: "剑界"
+- raw: "CombatSkill/Desc/H006,剑界："
+  splits:
+  - split: 1
+    text: "剑界"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "CombatSkill/Name/H006_1,剑界"
+  splits:
+  - split: 1
+    text: "剑界"
+- raw: "CombatSkill/Desc/H006_1,剑界：境界三以上，我方刀剑+30%，敌方刀剑-30%。\\n根据刀剑落差提升招架机率。"
+  splits:
+  - split: 1
+    text: "剑界"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，我方刀剑+30%，敌方刀剑"
+  - split: 1
+    subIndex: 2
+    text: "根据刀剑落差提升招架机率。"
+  templates:
+  - split: 1
+    template: "{0}：{1}-30%。\\n{2}"
+- raw: "CombatSkill/Name/H007,苦恼拳"
+  splits:
+  - split: 1
+    text: "苦恼拳"
+- raw: "CombatSkill/Desc/H007,苦恼拳：当前心相低于中庸时，每1点提升1%攻击力。"
+  splits:
+  - split: 1
+    text: "苦恼拳"
+  - split: 1
+    subIndex: 1
+    text: "当前心相低于中庸时，每1点提升1%攻击力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/H3100,欺善怕恶"
+  splits:
+  - split: 1
+    text: "欺善怕恶"
+- raw: "CombatSkill/Desc/H3100,欺善怕恶：对手气大于自身时，自身全属性-20%；对手气小于自身时，自身全属性+20%。"
+  splits:
+  - split: 1
+    text: "欺善怕恶"
+  - split: 1
+    subIndex: 1
+    text: "对手气大于自身时，自身全属性-20%；对手气小于自身时，自身全属性"
+  templates:
+  - split: 1
+    template: "{0}：{1}+20%。"
+- raw: "CombatSkill/Name/S001,关注"
+  splits:
+  - split: 1
+    text: "关注"
+- raw: "CombatSkill/Desc/S001,关注：被小师妹注视，使你精神抖擞。每回合气+3。"
+  splits:
+  - split: 1
+    text: "关注"
+  - split: 1
+    subIndex: 1
+    text: "被小师妹注视，使你精神抖擞。每回合气"
+  templates:
+  - split: 1
+    template: "{0}：{1}+3。"
+- raw: "CombatSkill/Name/S002,断臂"
+  splits:
+  - split: 1
+    text: "断臂"
+- raw: "CombatSkill/Desc/S002,断臂：攻防-25%。"
+  splits:
+  - split: 1
+    text: "断臂"
+  - split: 1
+    subIndex: 1
+    text: "攻防"
+  templates:
+  - split: 1
+    template: "{0}：{1}-25%。"
+- raw: "CombatSkill/Name/S100,拳剑合璧"
+  splits:
+  - split: 1
+    text: "拳剑合璧"
+- raw: "CombatSkill/Desc/S100,拳剑合璧：攻击备揍对象时，造成失衡异常；\\n自身防御成功时，追加反击伤害；受到伤害时，气回复上升。"
+  splits:
+  - split: 1
+    text: "拳剑合璧"
+  - split: 1
+    subIndex: 1
+    text: "攻击备揍对象时，造成失衡异常；"
+  - split: 1
+    subIndex: 2
+    text: "自身防御成功时，追加反击伤害；受到伤害时，气回复上升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/S101_1,同门之情Lv1"
+  splits:
+  - split: 1
+    text: "同门之情"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S101_1,同门之情Lv1：伤害减少25%，每回合气-2"
+  splits:
+  - split: 1
+    text: "同门之情"
+  - split: 1
+    subIndex: 1
+    text: "伤害减少25%，每回合气"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}-2"
+- raw: "CombatSkill/Name/S101_2,同门之情Lv2"
+  splits:
+  - split: 1
+    text: "同门之情"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S101_2,同门之情Lv2：伤害减少50%，每回合气-4"
+  splits:
+  - split: 1
+    text: "同门之情"
+  - split: 1
+    subIndex: 1
+    text: "伤害减少50%，每回合气"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}-4"
+- raw: "CombatSkill/Name/S101_3,同门之情Lv3"
+  splits:
+  - split: 1
+    text: "同门之情"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S101_3,同门之情Lv3：伤害减少75%，每回合气-6"
+  splits:
+  - split: 1
+    text: "同门之情"
+  - split: 1
+    subIndex: 1
+    text: "伤害减少75%，每回合气"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}-6"
+- raw: "CombatSkill/Name/S102,佩服"
+  splits:
+  - split: 1
+    text: "佩服"
+- raw: "CombatSkill/Desc/S102,佩服：他内心深处佩服你，攻击-20%、防御-20%"
+  splits:
+  - split: 1
+    text: "佩服"
+  - split: 1
+    subIndex: 1
+    text: "他内心深处佩服你，攻击-20%、防御"
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%"
+- raw: "CombatSkill/Name/S103,翻江龙王刀"
+  splits:
+  - split: 1
+    text: "翻江龙王刀"
+- raw: "CombatSkill/Desc/S103,翻江龙王刀：上官刀法的真髓，是遇困则强，刀风卷成骇浪，造成集体失衡。\\n根据连击数，攻击时有机率造成失衡并中断行动，回合结束时，场中每有一人气额外+3。"
+  splits:
+  - split: 1
+    text: "翻江龙王刀"
+  - split: 1
+    subIndex: 1
+    text: "上官刀法的真髓，是遇困则强，刀风卷成骇浪，造成集体失衡。"
+  - split: 1
+    subIndex: 2
+    text: "根据连击数，攻击时有机率造成失衡并中断行动，回合结束时，场中每有一人气额外"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}+3。"
+- raw: "CombatSkill/Name/S104,无相神功・参同秘契"
+  splits:
+  - split: 1
+    text: "无相神功"
+  - split: 1
+    subIndex: 1
+    text: "参同秘契"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S104,无相神功・参同秘契：无异常状态时，额外气力+3。"
+  splits:
+  - split: 1
+    text: "无相神功"
+  - split: 1
+    subIndex: 1
+    text: "参同秘契"
+  - split: 1
+    subIndex: 2
+    text: "无异常状态时，额外气力"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}+3。"
+- raw: "CombatSkill/Name/S105,北斗七星阵"
+  splits:
+  - split: 1
+    text: "北斗七星阵"
+- raw: "CombatSkill/Desc/S105,北斗七星阵：全数值+10%。"
+  splits:
+  - split: 1
+    text: "北斗七星阵"
+  - split: 1
+    subIndex: 1
+    text: "全数值"
+  templates:
+  - split: 1
+    template: "{0}：{1}+10%。"
+- raw: "CombatSkill/Name/S106_1,领悟Lv1"
+  splits:
+  - split: 1
+    text: "领悟"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S106_1,领悟Lv1：防御+20。"
+  splits:
+  - split: 1
+    text: "领悟"
+  - split: 1
+    subIndex: 1
+    text: "防御"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}+20。"
+- raw: "CombatSkill/Name/S106_2,领悟Lv2"
+  splits:
+  - split: 1
+    text: "领悟"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S106_2,领悟Lv2：防御+30、每回合气力+4。"
+  splits:
+  - split: 1
+    text: "领悟"
+  - split: 1
+    subIndex: 1
+    text: "防御+30、每回合气力"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}+4。"
+- raw: "CombatSkill/Name/S106_3,领悟Lv3"
+  splits:
+  - split: 1
+    text: "领悟"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S106_3,领悟Lv3：防御+40、每回合气力+6、爆击骰子+10。"
+  splits:
+  - split: 1
+    text: "领悟"
+  - split: 1
+    subIndex: 1
+    text: "防御+40、每回合气力+6、爆击骰子"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}+10。"
+- raw: "CombatSkill/Name/S106_4,领悟Lv4"
+  splits:
+  - split: 1
+    text: "领悟"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/S106_4,领悟Lv4：防御+50、每回合气力+8、爆击骰子+30、所有伤害+20%。"
+  splits:
+  - split: 1
+    text: "领悟"
+  - split: 1
+    subIndex: 1
+    text: "防御+50、每回合气力+8、爆击骰子+30、所有伤害"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}+20%。"
+- raw: "CombatSkill/Name/S107,激战唐布衣"
+  splits:
+  - split: 1
+    text: "激战唐布衣"
+- raw: "CombatSkill/Desc/S107,激战唐布衣：没空理你。"
+  splits:
+  - split: 1
+    text: "激战唐布衣"
+  - split: 1
+    subIndex: 1
+    text: "没空理你。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S108,左右开弓"
+  splits:
+  - split: 1
+    text: "左右开弓"
+- raw: "CombatSkill/Desc/S108,左右开弓：右手持剑激战大师兄，左手剑鞘毒打你。"
+  splits:
+  - split: 1
+    text: "左右开弓"
+  - split: 1
+    subIndex: 1
+    text: "右手持剑激战大师兄，左手剑鞘毒打你。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S109,试探"
+  splits:
+  - split: 1
+    text: "试探"
+- raw: "CombatSkill/Desc/S109,试探：连击为零时或愤怒时，对大师兄进行1次攻击，并且连击+1。（当回合不会使用攻击指令）"
+  splits:
+  - split: 1
+    text: "试探"
+  - split: 1
+    subIndex: 1
+    text: "连击为零时或愤怒时，对大师兄进行1次攻击，并且连击+1。（当回合不会使用攻击指令）"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S110,针对三师兄"
+  splits:
+  - split: 1
+    text: "针对三师兄"
+- raw: "CombatSkill/Desc/S110,针对三师兄：主力对付三师兄，分心应付你。攻击力-50%。"
+  splits:
+  - split: 1
+    text: "针对三师兄"
+  - split: 1
+    subIndex: 1
+    text: "主力对付三师兄，分心应付你。攻击力"
+  templates:
+  - split: 1
+    template: "{0}：{1}-50%。"
+- raw: "CombatSkill/Name/S111,焚天烈焰"
+  splits:
+  - split: 1
+    text: "焚天烈焰"
+- raw: "CombatSkill/Desc/S111,焚天烈焰：受到暗器以外的攻击时，造成对手燃烧异常。"
+  splits:
+  - split: 1
+    text: "焚天烈焰"
+  - split: 1
+    subIndex: 1
+    text: "受到暗器以外的攻击时，造成对手燃烧异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S112,烈火风流扇"
+  splits:
+  - split: 1
+    text: "烈火风流扇"
+- raw: "CombatSkill/Desc/S112,烈火风流扇：投射扇子之前先凑到肩甲下边点燃，暗器命中时造成燃烧异常。"
+  splits:
+  - split: 1
+    text: "烈火风流扇"
+  - split: 1
+    subIndex: 1
+    text: "投射扇子之前先凑到肩甲下边点燃，暗器命中时造成燃烧异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S113,铁石心肠"
+  splits:
+  - split: 1
+    text: "铁石心肠"
+- raw: "CombatSkill/Desc/S113,铁石心肠：连击为零时，对上官萤进行攻击，并且连段+1（当回合不会使用攻击指令）"
+  splits:
+  - split: 1
+    text: "铁石心肠"
+  - split: 1
+    subIndex: 1
+    text: "连击为零时，对上官萤进行攻击，并且连段+1（当回合不会使用攻击指令）"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S114,天选之人"
+  splits:
+  - split: 1
+    text: "天选之人"
+- raw: "CombatSkill/Desc/S114,天选之人：命运的宠儿，得天独厚，提升一切有利的机率。"
+  splits:
+  - split: 1
+    text: "天选之人"
+  - split: 1
+    subIndex: 1
+    text: "命运的宠儿，得天独厚，提升一切有利的机率。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S115,勇者"
+  splits:
+  - split: 1
+    text: "勇者"
+- raw: "CombatSkill/Desc/S115,勇者：平凡如你纵使跌跌撞撞，依然勇于挑战人生。没有任何特殊能力，这才叫勇者。"
+  splits:
+  - split: 1
+    text: "勇者"
+  - split: 1
+    subIndex: 1
+    text: "平凡如你纵使跌跌撞撞，依然勇于挑战人生。没有任何特殊能力，这才叫勇者。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S1206_1,夺魄幽灵爪"
+  splits:
+  - split: 1
+    text: "夺魄幽灵爪"
+- raw: "CombatSkill/Desc/S1206_1,夺魄幽灵爪：境界二以上，捅人变化为[夺魄幽灵爪]，可造成[失衡]。"
+  splits:
+  - split: 1
+    text: "夺魄幽灵爪"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，捅人变化为"
+  - split: 1
+    subIndex: 2
+    text: "夺魄幽灵爪"
+  - split: 1
+    subIndex: 3
+    text: "，可造成"
+  - split: 1
+    subIndex: 4
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/S1207,犯剑"
+  splits:
+  - split: 1
+    text: "犯剑"
+- raw: "CombatSkill/Desc/S1207,犯剑：低伤害，可激怒对手，若对身具[愤怒]异常的对手使用，可以造成200%伤害。"
+  splits:
+  - split: 1
+    text: "犯剑"
+  - split: 1
+    subIndex: 1
+    text: "低伤害，可激怒对手，若对身具"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+  - split: 1
+    subIndex: 3
+    text: "异常的对手使用，可以造成200%伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S1209_1,雪山飞鸿爪"
+  splits:
+  - split: 1
+    text: "雪山飞鸿爪"
+- raw: "CombatSkill/Desc/S1209_1,雪山飞鸿爪：境界二以上，捅人变化为[雪山飞鸿爪]，可造成[失衡]。"
+  splits:
+  - split: 1
+    text: "雪山飞鸿爪"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，捅人变化为"
+  - split: 1
+    subIndex: 2
+    text: "雪山飞鸿爪"
+  - split: 1
+    subIndex: 3
+    text: "，可造成"
+  - split: 1
+    subIndex: 4
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/S3112,无影爪"
+  splits:
+  - split: 1
+    text: "无影爪"
+- raw: "CombatSkill/Desc/S3112,无影爪：攻击爆击骰子+10。"
+  splits:
+  - split: 1
+    text: "无影爪"
+  - split: 1
+    subIndex: 1
+    text: "攻击爆击骰子"
+  templates:
+  - split: 1
+    template: "{0}：{1}+10。"
+- raw: "CombatSkill/Name/S3115,狮子之心"
+  splits:
+  - split: 1
+    text: "狮子之心"
+- raw: "CombatSkill/Desc/S3115,狮子之心：根据受到的伤害，大幅回升气。"
+  splits:
+  - split: 1
+    text: "狮子之心"
+  - split: 1
+    subIndex: 1
+    text: "根据受到的伤害，大幅回升气。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S600,彼岸香"
+  splits:
+  - split: 1
+    text: "彼岸香"
+- raw: "CombatSkill/Desc/S600,彼岸香：敌我每回合增加毒性累积值。"
+  splits:
+  - split: 1
+    text: "彼岸香"
+  - split: 1
+    subIndex: 1
+    text: "敌我每回合增加毒性累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S601,温柔香"
+  splits:
+  - split: 1
+    text: "温柔香"
+- raw: "CombatSkill/Desc/S601,温柔香：敌我每回合增加麻痹累积值。"
+  splits:
+  - split: 1
+    text: "温柔香"
+  - split: 1
+    subIndex: 1
+    text: "敌我每回合增加麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S608,万寿尸血针"
+  splits:
+  - split: 1
+    text: "万寿尸血针"
+- raw: "CombatSkill/Desc/S608,万寿尸血针：受到伤害时，造成敌人毒、麻累积。"
+  splits:
+  - split: 1
+    text: "万寿尸血针"
+  - split: 1
+    subIndex: 1
+    text: "受到伤害时，造成敌人毒、麻累积。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S707_1,焚心火印Lv1"
+  splits:
+  - split: 1
+    text: "焚心火印"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S707_1,焚心火印Lv1：属性为阳时，每回合增加35毒累积值，额外气+5。(老阳时效果强化)"
+  splits:
+  - split: 1
+    text: "焚心火印"
+  - split: 1
+    subIndex: 1
+    text: "属性为阳时，每回合增加35毒累积值，额外气"
+  - split: 1
+    subIndex: 2
+    text: "老阳时效果强化"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}+5。({2})"
+- raw: "CombatSkill/Name/S707_2,焚心火印Lv2"
+  splits:
+  - split: 1
+    text: "焚心火印"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S707_2,焚心火印Lv2：属性为阳时，每回合增加50毒累积值，额外气+10。(老阳时效果强化)"
+  splits:
+  - split: 1
+    text: "焚心火印"
+  - split: 1
+    subIndex: 1
+    text: "属性为阳时，每回合增加50毒累积值，额外气"
+  - split: 1
+    subIndex: 2
+    text: "老阳时效果强化"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}+10。({2})"
+- raw: "CombatSkill/Name/S707_3,焚心火印Lv3"
+  splits:
+  - split: 1
+    text: "焚心火印"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S707_3,焚心火印Lv3：属性为阳时，每回合增加80毒累积值，额外气+20。(老阳时效果强化)"
+  splits:
+  - split: 1
+    text: "焚心火印"
+  - split: 1
+    subIndex: 1
+    text: "属性为阳时，每回合增加80毒累积值，额外气"
+  - split: 1
+    subIndex: 2
+    text: "老阳时效果强化"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}+20。({2})"
+- raw: "CombatSkill/Name/S7001,火拂尘"
+  splits:
+  - split: 1
+    text: "火拂尘"
+- raw: "CombatSkill/Desc/S7001,火拂尘：所有攻击都有40%机率造成[燃烧]。"
+  splits:
+  - split: 1
+    text: "火拂尘"
+  - split: 1
+    subIndex: 1
+    text: "所有攻击都有40%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "燃烧"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7008_1,逐浪诀Lv1"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S7008_1,逐浪诀Lv1：根据当前连击数，攻击有额外机率造成[失衡]。"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+  - split: 1
+    subIndex: 1
+    text: "根据当前连击数，攻击有额外机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7008_2,逐浪诀Lv2"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S7008_2,逐浪诀Lv2：根据当前连击数，攻击有额外机率造成[失衡]。"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+  - split: 1
+    subIndex: 1
+    text: "根据当前连击数，攻击有额外机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7008_3,逐浪诀Lv3"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S7008_3,逐浪诀Lv3：根据当前连击数，攻击有额外机率造成[失衡]。"
+  splits:
+  - split: 1
+    text: "逐浪诀"
+  - split: 1
+    subIndex: 1
+    text: "根据当前连击数，攻击有额外机率造成"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7010_1,地狱使者Lv1"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S7010_1,地狱使者Lv1：每回合有10%机率对胆小的人造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  - split: 1
+    subIndex: 1
+    text: "每回合有10%机率对胆小的人造成"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7010_2,地狱使者Lv2"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S7010_2,地狱使者Lv2：每回合有15%机率对胆小的人造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  - split: 1
+    subIndex: 1
+    text: "每回合有15%机率对胆小的人造成"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7010_3,地狱使者Lv3"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S7010_3,地狱使者Lv3：每回合有20%机率对胆小的人造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  - split: 1
+    subIndex: 1
+    text: "每回合有20%机率对胆小的人造成"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7010_4,地狱使者Lv4"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/S7010_4,地狱使者Lv4：每回合有25%机率对胆小的人造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "地狱使者"
+  - split: 1
+    subIndex: 1
+    text: "每回合有25%机率对胆小的人造成"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[{2}]。"
+- raw: "CombatSkill/Name/S801,天地无声势"
+  splits:
+  - split: 1
+    text: "天地无声势"
+- raw: "CombatSkill/Desc/S801,天地无声势：小师妹的独门武功。\\n使用捅人、暗器指令额外发动「无定飞梭」。\\n施展绝招时，消费所有「无定飞梭」，并重新生成5个「无定飞梭」。"
+  splits:
+  - split: 1
+    text: "天地无声势"
+  - split: 1
+    subIndex: 1
+    text: "小师妹的独门武功。"
+  - split: 1
+    subIndex: 2
+    text: "使用捅人、暗器指令额外发动「无定飞梭」。"
+  - split: 1
+    subIndex: 3
+    text: "施展绝招时，消费所有「无定飞梭」，并重新生成5个「无定飞梭」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}\\n{3}"
+- raw: "CombatSkill/Name/S802,无定飞梭"
+  splits:
+  - split: 1
+    text: "无定飞梭"
+- raw: "CombatSkill/Desc/S802,无定飞梭：可消耗此技能抵销敌人发射的暗器。\\n倒数结束时，射出伤人。"
+  splits:
+  - split: 1
+    text: "无定飞梭"
+  - split: 1
+    subIndex: 1
+    text: "可消耗此技能抵销敌人发射的暗器。"
+  - split: 1
+    subIndex: 2
+    text: "倒数结束时，射出伤人。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/S803,金钱镖"
+  splits:
+  - split: 1
+    text: "金钱镖"
+- raw: "CombatSkill/Desc/S803,金钱镖：暗器命中时造成大额麻痹累积。"
+  splits:
+  - split: 1
+    text: "金钱镖"
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时造成大额麻痹累积。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S804,飞燕流星翎"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+- raw: "CombatSkill/Desc/S804,飞燕流星翎：境界三以上，暗器变为[飞燕流星翎]。"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "飞燕流星翎"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S804_1,飞燕流星翎"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+- raw: "CombatSkill/Desc/S804_1,飞燕流星翎：境界三以上，暗器变为[飞燕流星翎]\\n消费大量气造成暗器伤害，并生成四个暗器「飞燕流星翎」。"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "飞燕流星翎"
+  - split: 1
+    subIndex: 3
+    text: "消费大量气造成暗器伤害，并生成四个暗器「飞燕流星翎」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]\\n{3}"
+- raw: "CombatSkill/Name/S805,飞燕流星翎"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+- raw: "CombatSkill/Desc/S805,飞燕流星翎：每回合自动射击造成伤害。\\n敌方投射暗器时，会消耗存续时间并抵挡暗器。"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+  - split: 1
+    subIndex: 1
+    text: "每回合自动射击造成伤害。"
+  - split: 1
+    subIndex: 2
+    text: "敌方投射暗器时，会消耗存续时间并抵挡暗器。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/S806,金刚神枪指"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+- raw: "CombatSkill/Desc/S806,金刚神枪指：境界三以上，暗器变为[金刚神枪指]。"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "金刚神枪指"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S806_1,金刚神枪指"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+- raw: "CombatSkill/Desc/S806_1,金刚神枪指：境界三以上，暗器变为[金刚神枪指]，当回合无法行动。\\n下回合[开始]时，造成超幅伤害，并根据内力[200%]强化威力。"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "金刚神枪指"
+  - split: 1
+    subIndex: 3
+    text: "，当回合无法行动。"
+  - split: 1
+    subIndex: 4
+    text: "下回合"
+  - split: 1
+    subIndex: 5
+    text: "开始"
+  - split: 1
+    subIndex: 6
+    text: "时，造成超幅伤害，并根据内力"
+  - split: 1
+    subIndex: 7
+    text: "强化威力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}\\n{4}[{5}]{6}[200%]{7}"
+- raw: "CombatSkill/Name/S904,点破云关"
+  splits:
+  - split: 1
+    text: "点破云关"
+- raw: "CombatSkill/Desc/S904,点破云关：当连击数大于2时，绝招变成[点破云关]。"
+  splits:
+  - split: 1
+    text: "点破云关"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "点破云关"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S904_1,点破云关"
+  splits:
+  - split: 1
+    text: "点破云关"
+- raw: "CombatSkill/Desc/S904_1,点破云关：当连击数大于2时，绝招变成[点破云关]，根据当前连击数影响伤害。\\n当连击数大于8时，清除所有连击数。"
+  splits:
+  - split: 1
+    text: "点破云关"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "点破云关"
+  - split: 1
+    subIndex: 3
+    text: "，根据当前连击数影响伤害。"
+  - split: 1
+    subIndex: 4
+    text: "当连击数大于8时，清除所有连击数。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}\\n{4}"
+- raw: "CombatSkill/Name/S6011,毒功"
+  splits:
+  - split: 1
+    text: "毒功"
+- raw: "CombatSkill/Desc/S6011,毒功：捅人时附带50%的毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "毒功"
+  - split: 1
+    subIndex: 1
+    text: "捅人时附带50%的毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S8101_1,霹雳刀"
+  splits:
+  - split: 1
+    text: "霹雳刀"
+- raw: "CombatSkill/Desc/S8101_1,霹雳刀：境界二以上，绝招变为[云霄雷霆霹雳刀]，根据性情造成额外伤害。"
+  splits:
+  - split: 1
+    text: "霹雳刀"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "云霄雷霆霹雳刀"
+  - split: 1
+    subIndex: 3
+    text: "，根据性情造成额外伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S8106_1,阴阳夺"
+  splits:
+  - split: 1
+    text: "阴阳夺"
+- raw: "CombatSkill/Desc/S8106_1,阴阳夺：境界二以上，绝招变为[阴阳夺]。\\n造成失衡。"
+  splits:
+  - split: 1
+    text: "阴阳夺"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "阴阳夺"
+  - split: 1
+    subIndex: 3
+    text: "造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。\\n{3}"
+- raw: "CombatSkill/Name/S8108_1,铁臂飞拳"
+  splits:
+  - split: 1
+    text: "铁臂飞拳"
+- raw: "CombatSkill/Desc/S8108_1,铁臂飞拳：境界二以上，绝招变为[铁臂飞拳]。\\n追加[震撼]。"
+  splits:
+  - split: 1
+    text: "铁臂飞拳"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "铁臂飞拳"
+  - split: 1
+    subIndex: 3
+    text: "追加"
+  - split: 1
+    subIndex: 4
+    text: "震撼"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。\\n{3}[{4}]。"
+- raw: "CombatSkill/Name/S8111_1,神雷"
+  splits:
+  - split: 1
+    text: "神雷"
+- raw: "CombatSkill/Desc/S8111_1,神雷：境界三以上，绝招变为[神雷]。\\n纵身上跃，必定使敌人所有指令无效。\\n并根据形意拳精通数提升伤害。"
+  splits:
+  - split: 1
+    text: "神雷"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "神雷"
+  - split: 1
+    subIndex: 3
+    text: "纵身上跃，必定使敌人所有指令无效。"
+  - split: 1
+    subIndex: 4
+    text: "并根据形意拳精通数提升伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。\\n{3}\\n{4}"
+- raw: "CombatSkill/Name/S8112_1,太白仙迹"
+  splits:
+  - split: 1
+    text: "太白仙迹"
+- raw: "CombatSkill/Desc/S8112_1,太白仙迹：境界二以上，绝招变为[太白仙迹]。\\n四回合内，全属性超幅提升，有50%机率回避敌人攻击，四回合后气归零。\\n捅人指令变为「舞剑」，造成1~3段伤害。\\n连击数>10时，立即追加超强大伤害，并解除太白仙迹状态。"
+  splits:
+  - split: 1
+    text: "太白仙迹"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "太白仙迹"
+  - split: 1
+    subIndex: 3
+    text: "四回合内，全属性超幅提升，有50%机率回避敌人攻击，四回合后气归零。"
+  - split: 1
+    subIndex: 4
+    text: "捅人指令变为「舞剑」，造成1"
+  - split: 1
+    subIndex: 5
+    text: "3段伤害。"
+  - split: 1
+    subIndex: 6
+    text: "连击数"
+  - split: 1
+    subIndex: 7
+    text: "10时，立即追加超强大伤害，并解除太白仙迹状态。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。\\n{3}\\n{4}~{5}\\n{6}>{7}"
+- raw: "CombatSkill/Name/S8113_1,绝影奇袭"
+  splits:
+  - split: 1
+    text: "绝影奇袭"
+- raw: "CombatSkill/Desc/S8113_1,绝影奇袭：境界三以上，绝招变为「绝影奇袭」，造成超大量报击骰攻击。\\n若敌人采取攻击行动，则威力倍增，若敌人采取防御手段，则威力倍减。\\n下一回合对我方造成debuff[失衡]。"
+  splits:
+  - split: 1
+    text: "绝影奇袭"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，绝招变为「绝影奇袭」，造成超大量报击骰攻击。"
+  - split: 1
+    subIndex: 2
+    text: "若敌人采取攻击行动，则威力倍增，若敌人采取防御手段，则威力倍减。"
+  - split: 1
+    subIndex: 3
+    text: "下一回合对我方造成"
+  - split: 1
+    subIndex: 4
+    text: "失衡"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}\\n{3}debuff[{4}]。"
+- raw: "CombatSkill/Name/S8119_1,天罡伏魔剑"
+  splits:
+  - split: 1
+    text: "天罡伏魔剑"
+- raw: "CombatSkill/Desc/S8119_1,天罡伏魔剑：境界三以上，造成超绝强大攻击。随后自身气归零，进入虚脱状态。"
+  splits:
+  - split: 1
+    text: "天罡伏魔剑"
+  - split: 1
+    subIndex: 1
+    text: "境界三以上，造成超绝强大攻击。随后自身气归零，进入虚脱状态。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S8121_1,风雷神脚"
+  splits:
+  - split: 1
+    text: "风雷神脚"
+- raw: "CombatSkill/Desc/S8121_1,风雷神脚：境界二以上，连击数大于3时，绝招变为[风雷神脚]。\\n消耗中量气，造成多段伤害。绝招命中时获得[腾空]，持续一回合。"
+  splits:
+  - split: 1
+    text: "风雷神脚"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，连击数大于3时，绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "风雷神脚"
+  - split: 1
+    subIndex: 3
+    text: "消耗中量气，造成多段伤害。绝招命中时获得"
+  - split: 1
+    subIndex: 4
+    text: "腾空"
+  - split: 1
+    subIndex: 5
+    text: "，持续一回合。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。\\n{3}[{4}]{5}"
+- raw: "CombatSkill/Name/S9102_1,铁琵琶功Lv1"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S9102_1,铁琵琶功Lv1：当敌人采取捅人且备揍成功时，造成敌人气力-3。\\n境界二以上，攻击造成气力-3。\\n境界三以上，攻防有50%机率追加[震憾]。"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  - split: 1
+    subIndex: 1
+    text: "当敌人采取捅人且备揍成功时，造成敌人气力"
+  - split: 1
+    subIndex: 2
+    text: "境界二以上，攻击造成气力"
+  - split: 1
+    subIndex: 3
+    text: "境界三以上，攻防有50%机率追加"
+  - split: 1
+    subIndex: 4
+    text: "震憾"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}-3。\\n{2}-3。\\n{3}[{4}]。"
+- raw: "CombatSkill/Name/S9102_2,铁琵琶功Lv2"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S9102_2,铁琵琶功Lv2：当敌人采取捅人且备揍成功时，造成敌人气力-4。\\n境界二以上，攻击造成气力-4。\\n境界三以上，攻防有60%机率追加[震憾]。"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  - split: 1
+    subIndex: 1
+    text: "当敌人采取捅人且备揍成功时，造成敌人气力"
+  - split: 1
+    subIndex: 2
+    text: "境界二以上，攻击造成气力"
+  - split: 1
+    subIndex: 3
+    text: "境界三以上，攻防有60%机率追加"
+  - split: 1
+    subIndex: 4
+    text: "震憾"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}-4。\\n{2}-4。\\n{3}[{4}]。"
+- raw: "CombatSkill/Name/S9102_3,铁琵琶功Lv3"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S9102_3,铁琵琶功Lv3：当敌人采取捅人且备揍成功时，造成敌人气力-5。\\n境界二以上，攻击造成气力-5。\\n境界三以上，攻防有70%机率追加[震憾]。"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  - split: 1
+    subIndex: 1
+    text: "当敌人采取捅人且备揍成功时，造成敌人气力"
+  - split: 1
+    subIndex: 2
+    text: "境界二以上，攻击造成气力"
+  - split: 1
+    subIndex: 3
+    text: "境界三以上，攻防有70%机率追加"
+  - split: 1
+    subIndex: 4
+    text: "震憾"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}-5。\\n{2}-5。\\n{3}[{4}]。"
+- raw: "CombatSkill/Name/S9102_4,铁琵琶功Lv4"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/S9102_4,铁琵琶功Lv4：当敌人采取捅人且备揍成功时，造成敌人气力-6。\\n境界二以上，攻击造成气力-6。\\n境界三以上，攻防有80%机率追加[震憾]。"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  - split: 1
+    subIndex: 1
+    text: "当敌人采取捅人且备揍成功时，造成敌人气力"
+  - split: 1
+    subIndex: 2
+    text: "境界二以上，攻击造成气力"
+  - split: 1
+    subIndex: 3
+    text: "境界三以上，攻防有80%机率追加"
+  - split: 1
+    subIndex: 4
+    text: "震憾"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}-6。\\n{2}-6。\\n{3}[{4}]。"
+- raw: "CombatSkill/Name/S9102_5,铁琵琶功Lv5"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/S9102_5,铁琵琶功Lv5：当敌人采取捅人且备揍成功时，造成敌人气力-7。\\n境界二以上，攻击造成气力-7。\\n境界三以上，攻防有90%机率追加[震憾]。"
+  splits:
+  - split: 1
+    text: "铁琵琶功"
+  - split: 1
+    subIndex: 1
+    text: "当敌人采取捅人且备揍成功时，造成敌人气力"
+  - split: 1
+    subIndex: 2
+    text: "境界二以上，攻击造成气力"
+  - split: 1
+    subIndex: 3
+    text: "境界三以上，攻防有90%机率追加"
+  - split: 1
+    subIndex: 4
+    text: "震憾"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}-7。\\n{2}-7。\\n{3}[{4}]。"
+- raw: "CombatSkill/Name/S9105,失魂落魄"
+  splits:
+  - split: 1
+    text: "失魂落魄"
+- raw: "CombatSkill/Desc/S9105,失魂落魄：有10%机率发作，忘记自己是谁、为何在此，不能行动。"
+  splits:
+  - split: 1
+    text: "失魂落魄"
+  - split: 1
+    subIndex: 1
+    text: "有10%机率发作，忘记自己是谁、为何在此，不能行动。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S9106,经脉闭塞"
+  splits:
+  - split: 1
+    text: "经脉闭塞"
+- raw: "CombatSkill/Desc/S9106,经脉闭塞：内力大幅弱化。"
+  splits:
+  - split: 1
+    text: "经脉闭塞"
+  - split: 1
+    subIndex: 1
+    text: "内力大幅弱化。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S9200_1,打穴娟索"
+  splits:
+  - split: 1
+    text: "打穴娟索"
+- raw: "CombatSkill/Desc/S9200_1,打穴娟索：气高于对手时，暗器变为[打穴娟索]，造成大量麻痹累积值。"
+  splits:
+  - split: 1
+    text: "打穴娟索"
+  - split: 1
+    subIndex: 1
+    text: "气高于对手时，暗器变为"
+  - split: 1
+    subIndex: 2
+    text: "打穴娟索"
+  - split: 1
+    subIndex: 3
+    text: "，造成大量麻痹累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S9201,猿王劈山"
+  splits:
+  - split: 1
+    text: "猿王劈山"
+- raw: "CombatSkill/Desc/S9201,猿王劈山：根据连击数造成伤害。"
+  splits:
+  - split: 1
+    text: "猿王劈山"
+  - split: 1
+    subIndex: 1
+    text: "根据连击数造成伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S9202_1,猿王回风"
+  splits:
+  - split: 1
+    text: "猿王回风"
+- raw: "CombatSkill/Desc/S9202_1,猿王回风：绝招变为[猿王回风]，不消耗气，造成小幅伤害且获得3连击，并有50%机率造成失衡。"
+  splits:
+  - split: 1
+    text: "猿王回风"
+  - split: 1
+    subIndex: 1
+    text: "绝招变为"
+  - split: 1
+    subIndex: 2
+    text: "猿王回风"
+  - split: 1
+    subIndex: 3
+    text: "，不消耗气，造成小幅伤害且获得3连击，并有50%机率造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/Z001,战术"
+  splits:
+  - split: 1
+    text: "战术"
+- raw: "CombatSkill/Desc/Z001,战术：根据等级，强化战术类技能的效果。"
+  splits:
+  - split: 1
+    text: "战术"
+  - split: 1
+    subIndex: 1
+    text: "根据等级，强化战术类技能的效果。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S116,机关箧笥"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+- raw: "CombatSkill/Desc/S116,机关箧笥：每回合随机变成下列型态\\n机关箧笥・捕鸟型态\\n机关箧笥・拌马型态\\n机关箧笥・迷烟型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "每回合随机变成下列型态"
+  - split: 1
+    subIndex: 2
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 3
+    text: "捕鸟型态"
+  - split: 1
+    subIndex: 4
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 5
+    text: "拌马型态"
+  - split: 1
+    subIndex: 6
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 7
+    text: "迷烟型态"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}・{3}\\n{4}・{5}\\n{6}・{7}"
+- raw: "CombatSkill/Name/S116_1,机关箧笥・捕鸟型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "捕鸟型态"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S116_1,机关箧笥・捕鸟型态：发射飞针造成多段小幅伤害。"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "捕鸟型态"
+  - split: 1
+    subIndex: 2
+    text: "发射飞针造成多段小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/S116_2,机关箧笥・拌马型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "拌马型态"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S116_2,机关箧笥・拌马型态：发射拌马绳造成失衡。"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "拌马型态"
+  - split: 1
+    subIndex: 2
+    text: "发射拌马绳造成失衡。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/S116_3,机关箧笥・迷烟型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "迷烟型态"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S116_3,机关箧笥・迷烟型态：散播迷烟造成盲目。"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "迷烟型态"
+  - split: 1
+    subIndex: 2
+    text: "散播迷烟造成盲目。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/S117,机关箧笥"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+- raw: "CombatSkill/Desc/S117,机关箧笥：每回合随机变成下列型态\\n机关箧笥・狩猎型态\\n机关箧笥・斩马型态\\n机关箧笥・屠杀型态\\n境界二以上解锁绝招：机关箧笥．圣衣型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "每回合随机变成下列型态"
+  - split: 1
+    subIndex: 2
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 3
+    text: "狩猎型态"
+  - split: 1
+    subIndex: 4
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 5
+    text: "斩马型态"
+  - split: 1
+    subIndex: 6
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 7
+    text: "屠杀型态"
+  - split: 1
+    subIndex: 8
+    text: "境界二以上解锁绝招"
+  - split: 1
+    subIndex: 9
+    text: "机关箧笥．圣衣型态"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}・{3}\\n{4}・{5}\\n{6}・{7}\\n{8}：{9}"
+- raw: "CombatSkill/Name/S117_1,机关箧笥・狩猎型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "狩猎型态"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S117_1,机关箧笥・狩猎型态：发射弩箭造成多段中幅伤害"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "狩猎型态"
+  - split: 1
+    subIndex: 2
+    text: "发射弩箭造成多段中幅伤害"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/S117_2,机关箧笥・斩马型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "斩马型态"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S117_2,机关箧笥・斩马型态：发射斩马飞刀造成中幅伤害，并追加失衡。"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "斩马型态"
+  - split: 1
+    subIndex: 2
+    text: "发射斩马飞刀造成中幅伤害，并追加失衡。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/S117_3,机关箧笥・屠杀型态"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "屠杀型态"
+  templates:
+  - split: 1
+    template: "{0}・{1}"
+- raw: "CombatSkill/Desc/S117_3,机关箧笥・屠杀型态：散播毒烟造成盲目，并累积80血毒。"
+  splits:
+  - split: 1
+    text: "机关箧笥"
+  - split: 1
+    subIndex: 1
+    text: "屠杀型态"
+  - split: 1
+    subIndex: 2
+    text: "散播毒烟造成盲目，并累积80血毒。"
+  templates:
+  - split: 1
+    template: "{0}・{1}：{2}"
+- raw: "CombatSkill/Name/S117_4,机关箧笥．圣衣型态"
+  splits:
+  - split: 1
+    text: "机关箧笥．圣衣型态"
+- raw: "CombatSkill/Desc/S117_4,机关箧笥．圣衣型态：境界二以上，四师兄着装机关箧笥，使出流星般的强力打击，必定发动绝招。"
+  splits:
+  - split: 1
+    text: "机关箧笥．圣衣型态"
+  - split: 1
+    subIndex: 1
+    text: "境界二以上，四师兄着装机关箧笥，使出流星般的强力打击，必定发动绝招。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S118,呕吐物"
+  splits:
+  - split: 1
+    text: "呕吐物"
+- raw: "CombatSkill/Desc/S118,呕吐物：地上有呕吐物，很滑，而且恶心。轻功-30%"
+  splits:
+  - split: 1
+    text: "呕吐物"
+  - split: 1
+    subIndex: 1
+    text: "地上有呕吐物，很滑，而且恶心。轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}-30%"
+- raw: "CombatSkill/Name/S119,手下留情"
+  splits:
+  - split: 1
+    text: "手下留情"
+- raw: "CombatSkill/Desc/S119,手下留情：攻击力-50%，封印绝招"
+  splits:
+  - split: 1
+    text: "手下留情"
+  - split: 1
+    subIndex: 1
+    text: "攻击力-50%，封印绝招"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S905,绝世"
+  splits:
+  - split: 1
+    text: "绝世"
+- raw: "CombatSkill/Desc/S905,绝世：强大的气势令对手本能紧绷，一时动弹不得。使对方无法攻击。"
+  splits:
+  - split: 1
+    text: "绝世"
+  - split: 1
+    subIndex: 1
+    text: "强大的气势令对手本能紧绷，一时动弹不得。使对方无法攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S906,铁拂尘"
+  splits:
+  - split: 1
+    text: "铁拂尘"
+- raw: "CombatSkill/Desc/S906,铁拂尘：备揍成功时，扫人眼目，80%机率造成[盲目]。"
+  splits:
+  - split: 1
+    text: "铁拂尘"
+  - split: 1
+    subIndex: 1
+    text: "备揍成功时，扫人眼目，80%机率造成"
+  - split: 1
+    subIndex: 2
+    text: "盲目"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/C918,蛇"
+  splits:
+  - split: 1
+    text: "蛇"
+- raw: "CombatSkill/Desc/C918,蛇《毒牙》：每回合机率造成对方微幅伤害，并造成30毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "蛇《毒牙》"
+  - split: 1
+    subIndex: 1
+    text: "每回合机率造成对方微幅伤害，并造成30毒、麻累积值。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C919,鬼卒"
+  splits:
+  - split: 1
+    text: "鬼卒"
+- raw: "CombatSkill/Desc/C919,鬼卒《虚张声势》：每回合50%机率开口恫吓造成气损伤，50%机率造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "鬼卒《虚张声势》"
+  - split: 1
+    subIndex: 1
+    text: "每回合50%机率开口恫吓造成气损伤，50%机率造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C920,山贼"
+  splits:
+  - split: 1
+    text: "山贼"
+- raw: "CombatSkill/Desc/C920,山贼《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "山贼《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C921_1,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+- raw: "CombatSkill/Desc/C921_1,铁拳弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "铁拳弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C921_2,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+- raw: "CombatSkill/Desc/C921_2,铁拳弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "铁拳弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C921_3,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+- raw: "CombatSkill/Desc/C921_3,铁拳弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "铁拳弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C922_1,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "CombatSkill/Desc/C922_1,峨嵋弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "峨嵋弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C922_2,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "CombatSkill/Desc/C922_2,峨嵋弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "峨嵋弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C922_3,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "CombatSkill/Desc/C922_3,峨嵋弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "峨嵋弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C922_4,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "CombatSkill/Desc/C922_4,峨嵋弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "峨嵋弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C922_5,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "CombatSkill/Desc/C922_5,峨嵋弟子《五虎断门刀》：每回合造成小幅伤害，30%机率追加「失衡」。"
+  splits:
+  - split: 1
+    text: "峨嵋弟子《五虎断门刀》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，30%机率追加「失衡」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C923,鬼卒"
+  splits:
+  - split: 1
+    text: "鬼卒"
+- raw: "CombatSkill/Desc/C923,鬼卒《叉法》：每回合造成微幅伤害，并有20%机率追加「扰乱」。"
+  splits:
+  - split: 1
+    text: "鬼卒《叉法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成微幅伤害，并有20%机率追加「扰乱」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C924,叶云裳"
+  splits:
+  - split: 1
+    text: "叶云裳"
+- raw: "CombatSkill/Desc/C924,叶云裳《恐吓》：恶语相向，同时挥舞棍棒进行恫吓，中机率造成敌人气小幅损伤。"
+  splits:
+  - split: 1
+    text: "叶云裳《恐吓》"
+  - split: 1
+    subIndex: 1
+    text: "恶语相向，同时挥舞棍棒进行恫吓，中机率造成敌人气小幅损伤。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C925,铁冠道人"
+  splits:
+  - split: 1
+    text: "铁冠道人"
+- raw: "CombatSkill/Desc/C925,铁冠道人《天师剑法》：每回合造成中幅伤害，对恶人有额外伤害，并有15%机率造成震撼。"
+  splits:
+  - split: 1
+    text: "铁冠道人《天师剑法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成中幅伤害，对恶人有额外伤害，并有15%机率造成震撼。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C926_1,青城弟子"
+  splits:
+  - split: 1
+    text: "青城弟子"
+- raw: "CombatSkill/Desc/C926_1,青城弟子《八仙剑法》：每回合造成小幅伤害，对恶人有额外伤害。"
+  splits:
+  - split: 1
+    text: "青城弟子《八仙剑法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，对恶人有额外伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C926_2,青城弟子"
+  splits:
+  - split: 1
+    text: "青城弟子"
+- raw: "CombatSkill/Desc/C926_2,青城弟子《八仙剑法》：每回合造成小幅伤害，对恶人有额外伤害。"
+  splits:
+  - split: 1
+    text: "青城弟子《八仙剑法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，对恶人有额外伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C927,狼"
+  splits:
+  - split: 1
+    text: "狼"
+- raw: "CombatSkill/Desc/C927,狼《咬人》：每回合造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "狼《咬人》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S120,狼群"
+  splits:
+  - split: 1
+    text: "狼群"
+- raw: "CombatSkill/Desc/S120,狼群：每三回合呼叫一头狼。"
+  splits:
+  - split: 1
+    text: "狼群"
+  - split: 1
+    subIndex: 1
+    text: "每三回合呼叫一头狼。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S121,狼嚎"
+  splits:
+  - split: 1
+    text: "狼嚎"
+- raw: "CombatSkill/Desc/S121,狼嚎：嘴功后召唤一头狼。"
+  splits:
+  - split: 1
+    text: "狼嚎"
+  - split: 1
+    subIndex: 1
+    text: "嘴功后召唤一头狼。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C928,鸟说脏话"
+  splits:
+  - split: 1
+    text: "鸟说脏话"
+- raw: "CombatSkill/Desc/C928,鸟说脏话：鸟盘旋在天上，口出恶言侮辱你。\\n每回合造成微幅气损伤。可以为山猪抵挡一次暗器。"
+  splits:
+  - split: 1
+    text: "鸟说脏话"
+  - split: 1
+    subIndex: 1
+    text: "鸟盘旋在天上，口出恶言侮辱你。"
+  - split: 1
+    subIndex: 2
+    text: "每回合造成微幅气损伤。可以为山猪抵挡一次暗器。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/S122_1,拷打"
+  splits:
+  - split: 1
+    text: "拷打"
+- raw: "CombatSkill/Desc/S122_1,拷打：无法使用[暗器]，[捅人]变化为[抽人]。\\n可以同时伤害血跟气，但是伤害很低。\\n愤怒时会失效。"
+  splits:
+  - split: 1
+    text: "拷打"
+  - split: 1
+    subIndex: 1
+    text: "无法使用"
+  - split: 1
+    subIndex: 2
+    text: "暗器"
+  - split: 1
+    subIndex: 3
+    text: "捅人"
+  - split: 1
+    subIndex: 4
+    text: "变化为"
+  - split: 1
+    subIndex: 5
+    text: "抽人"
+  - split: 1
+    subIndex: 6
+    text: "可以同时伤害血跟气，但是伤害很低。"
+  - split: 1
+    subIndex: 7
+    text: "愤怒时会失效。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]，[{3}]{4}[{5}]。\\n{6}\\n{7}"
+- raw: "CombatSkill/Name/S123,内功反震"
+  splits:
+  - split: 1
+    text: "内功反震"
+- raw: "CombatSkill/Desc/S123,内功反震：抓准时机，运功反震，受击时发动反击造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "内功反震"
+  - split: 1
+    subIndex: 1
+    text: "抓准时机，运功反震，受击时发动反击造成微幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D028,醍醐软筋散"
+  splits:
+  - split: 1
+    text: "醍醐软筋散"
+- raw: "CombatSkill/Desc/D028,醍醐软筋散：药力沁入百骸，使不出半分力气，无法进行攻击。"
+  splits:
+  - split: 1
+    text: "醍醐软筋散"
+  - split: 1
+    subIndex: 1
+    text: "药力沁入百骸，使不出半分力气，无法进行攻击。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C557,叶云裳"
+  splits:
+  - split: 1
+    text: "叶云裳"
+- raw: "CombatSkill/Desc/C557,叶云裳《越调・凭栏人・偕老誓》：每回合我方气+3，血低于50%时，每回合恢复10%。"
+  splits:
+  - split: 1
+    text: "叶云裳《越调"
+  - split: 1
+    subIndex: 1
+    text: "凭栏人"
+  - split: 1
+    subIndex: 2
+    text: "偕老誓》"
+  - split: 1
+    subIndex: 3
+    text: "每回合我方气+3，血低于50%时，每回合恢复10%。"
+  templates:
+  - split: 1
+    template: "{0}・{1}・{2}：{3}"
+- raw: "CombatSkill/Name/S124,栈道不稳"
+  splits:
+  - split: 1
+    text: "栈道不稳"
+- raw: "CombatSkill/Desc/S124,栈道不稳：轻功-20%。"
+  splits:
+  - split: 1
+    text: "栈道不稳"
+  - split: 1
+    subIndex: 1
+    text: "轻功"
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%。"
+- raw: "CombatSkill/Name/S907,千变万化"
+  splits:
+  - split: 1
+    text: "千变万化"
+- raw: "CombatSkill/Desc/S907,千变万化：博览天下武学，每一回合会随机施展一组六派系统技能。"
+  splits:
+  - split: 1
+    text: "千变万化"
+  - split: 1
+    subIndex: 1
+    text: "博览天下武学，每一回合会随机施展一组六派系统技能。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S125_1,分心"
+  splits:
+  - split: 1
+    text: "分心"
+- raw: "CombatSkill/Desc/S125_1,分心：[绝招]变成[保护云裳]。"
+  splits:
+  - split: 1
+    text: "分心"
+  - split: 1
+    subIndex: 1
+    text: "绝招"
+  - split: 1
+    subIndex: 2
+    text: "变成"
+  - split: 1
+    subIndex: 3
+    text: "保护云裳"
+  templates:
+  - split: 1
+    template: "{0}：[{1}]{2}[{3}]。"
+- raw: "CombatSkill/Name/S126,保护云裳"
+  splits:
+  - split: 1
+    text: "保护云裳"
+- raw: "CombatSkill/Desc/S126,保护云裳：所受伤害+50%。"
+  splits:
+  - split: 1
+    text: "保护云裳"
+  - split: 1
+    subIndex: 1
+    text: "所受伤害"
+  templates:
+  - split: 1
+    template: "{0}：{1}+50%。"
+- raw: "CombatSkill/Name/S127,养命丹"
+  splits:
+  - split: 1
+    text: "养命丹"
+- raw: "CombatSkill/Desc/S127,养命丹：体力+40。"
+  splits:
+  - split: 1
+    text: "养命丹"
+  - split: 1
+    subIndex: 1
+    text: "体力"
+  templates:
+  - split: 1
+    template: "{0}：{1}+40。"
+- raw: "CombatSkill/Name/S128,彼岸香"
+  splits:
+  - split: 1
+    text: "彼岸香"
+- raw: "CombatSkill/Desc/S128,彼岸香：所有攻击皆会累积血毒60。"
+  splits:
+  - split: 1
+    text: "彼岸香"
+  - split: 1
+    subIndex: 1
+    text: "所有攻击皆会累积血毒60。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S129,胡椒粉毒"
+  splits:
+  - split: 1
+    text: "胡椒粉毒"
+- raw: "CombatSkill/Desc/S129,胡椒粉毒：压抑真气，使自身每回合气-2。"
+  splits:
+  - split: 1
+    text: "胡椒粉毒"
+  - split: 1
+    subIndex: 1
+    text: "压抑真气，使自身每回合气"
+  templates:
+  - split: 1
+    template: "{0}：{1}-2。"
+- raw: "CombatSkill/Name/C929,叶云裳"
+  splits:
+  - split: 1
+    text: "叶云裳"
+- raw: "CombatSkill/Desc/C929,叶云裳《与你同行》：所有伤害减半，每回合恢复毒麻累积值20。"
+  splits:
+  - split: 1
+    text: "叶云裳《与你同行》"
+  - split: 1
+    subIndex: 1
+    text: "所有伤害减半，每回合恢复毒麻累积值20。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S130,浩劫余生"
+  splits:
+  - split: 1
+    text: "浩劫余生"
+- raw: "CombatSkill/Desc/S130,浩劫余生：他刚被一群女人围殴过。"
+  splits:
+  - split: 1
+    text: "浩劫余生"
+  - split: 1
+    subIndex: 1
+    text: "他刚被一群女人围殴过。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D029,骨折"
+  splits:
+  - split: 1
+    text: "骨折"
+- raw: "CombatSkill/Desc/D029,骨折：伤害减少50%。"
+  splits:
+  - split: 1
+    text: "骨折"
+  - split: 1
+    subIndex: 1
+    text: "伤害减少50%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D030_1,点到为止"
+  splits:
+  - split: 1
+    text: "点到为止"
+- raw: "CombatSkill/Desc/D030_1,点到为止：敌方血低于30%，将不会使用绝招。"
+  splits:
+  - split: 1
+    text: "点到为止"
+  - split: 1
+    subIndex: 1
+    text: "敌方血低于30%，将不会使用绝招。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C930,赵逵"
+  splits:
+  - split: 1
+    text: "赵逵"
+- raw: "CombatSkill/Desc/C930,赵逵《地狱法王》：每回合造成中幅伤害，造成燃烧异常。敌方每回气-3，并有机率造成胆怯异常。"
+  splits:
+  - split: 1
+    text: "赵逵《地狱法王》"
+  - split: 1
+    subIndex: 1
+    text: "每回合造成中幅伤害，造成燃烧异常。敌方每回气-3，并有机率造成胆怯异常。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S9104_1,南宫护心诀Lv1"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S9104_1,南宫护心诀Lv1：可抵挡致命攻击，恢复20气力。"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，恢复20气力。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/S9104_2,南宫护心诀Lv2"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S9104_2,南宫护心诀Lv2：可抵挡致命攻击，恢复30气力。"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，恢复30气力。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/S9104_3,南宫护心诀Lv3"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S9104_3,南宫护心诀Lv3：可抵挡致命攻击，恢复40气力。"
+  splits:
+  - split: 1
+    text: "南宫护心诀"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，恢复40气力。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/S9113,偕老誓"
+  splits:
+  - split: 1
+    text: "偕老誓"
+- raw: "CombatSkill/Desc/S9113,偕老誓：可抵挡致命攻击，恢复100气力。"
+  splits:
+  - split: 1
+    text: "偕老誓"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，恢复100气力。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S9112,九转轮回"
+  splits:
+  - split: 1
+    text: "九转轮回"
+- raw: "CombatSkill/Desc/S9112,九转轮回：可抵挡致命攻击，恢复100%血。"
+  splits:
+  - split: 1
+    text: "九转轮回"
+  - split: 1
+    subIndex: 1
+    text: "可抵挡致命攻击，恢复100%血。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S2105_1_1,如意境Lv1"
+  splits:
+  - split: 1
+    text: "如意境"
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S2105_1_1,如意境Lv1：自身拳掌提升10%。"
+  splits:
+  - split: 1
+    text: "如意境"
+  - split: 1
+    subIndex: 1
+    text: "自身拳掌提升10%。"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/S2105_2_1,如意境Lv2"
+  splits:
+  - split: 1
+    text: "如意境"
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S2105_2_1,如意境Lv2：自身拳掌提升20%。"
+  splits:
+  - split: 1
+    text: "如意境"
+  - split: 1
+    subIndex: 1
+    text: "自身拳掌提升20%。"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/S2105_3_1,如意境Lv3"
+  splits:
+  - split: 1
+    text: "如意境"
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S2105_3_1,如意境Lv3：自身拳掌提升30%。"
+  splits:
+  - split: 1
+    text: "如意境"
+  - split: 1
+    subIndex: 1
+    text: "自身拳掌提升30%。"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/S2105_4_1,如意境Lv4"
+  splits:
+  - split: 1
+    text: "如意境"
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/S2105_4_1,如意境Lv4：自身拳掌提升40%。"
+  splits:
+  - split: 1
+    text: "如意境"
+  - split: 1
+    subIndex: 1
+    text: "自身拳掌提升40%。"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}"
+- raw: "CombatSkill/Name/S2105_5_1,如意境Lv5"
+  splits:
+  - split: 1
+    text: "如意境"
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/S2105_5_1,如意境Lv5：自身拳掌提升50%。"
+  splits:
+  - split: 1
+    text: "如意境"
+  - split: 1
+    subIndex: 1
+    text: "自身拳掌提升50%。"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}"
+- raw: "CombatSkill/Name/S8125,同舟剑法"
+  splits:
+  - split: 1
+    text: "同舟剑法"
+- raw: "CombatSkill/Desc/S8125,同舟剑法：当连击数大于2时，绝招变成[同舟剑法]。"
+  splits:
+  - split: 1
+    text: "同舟剑法"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "同舟剑法"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S8125_1,同舟剑法"
+  splits:
+  - split: 1
+    text: "同舟剑法"
+- raw: "CombatSkill/Desc/S8125_1,同舟剑法：当连击数大于2时，绝招变成[同舟剑法]，根据当前连击数影响伤害。当连击数大于12时，清除所有连击数。"
+  splits:
+  - split: 1
+    text: "同舟剑法"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于2时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "同舟剑法"
+  - split: 1
+    subIndex: 3
+    text: "，根据当前连击数影响伤害。当连击数大于12时，清除所有连击数。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S8126_1,第一极招"
+  splits:
+  - split: 1
+    text: "第一极招"
+- raw: "CombatSkill/Desc/S8126_1,第一极招：当连击数大于3时，绝招变成[第一极招]，根据当前连击数及轻功影响伤害。当连击数大于12时，清除所有连击数。"
+  splits:
+  - split: 1
+    text: "第一极招"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于3时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "第一极招"
+  - split: 1
+    subIndex: 3
+    text: "，根据当前连击数及轻功影响伤害。当连击数大于12时，清除所有连击数。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S8127_1,第二极招"
+  splits:
+  - split: 1
+    text: "第二极招"
+- raw: "CombatSkill/Desc/S8127_1,第二极招：当连击数大于3时，绝招变成[第二极招]，根据当前连击数影响伤害，额外造成气力伤害。当连击数大于12时，清除所有连击数。"
+  splits:
+  - split: 1
+    text: "第二极招"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于3时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "第二极招"
+  - split: 1
+    subIndex: 3
+    text: "，根据当前连击数影响伤害，额外造成气力伤害。当连击数大于12时，清除所有连击数。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S8128_1,第三极招"
+  splits:
+  - split: 1
+    text: "第三极招"
+- raw: "CombatSkill/Desc/S8128_1,第三极招：当连击数大于3时，绝招变成[第三极招]，根据当前连击数影响伤害。当连击数大于20时，清除所有连击数。"
+  splits:
+  - split: 1
+    text: "第三极招"
+  - split: 1
+    subIndex: 1
+    text: "当连击数大于3时，绝招变成"
+  - split: 1
+    subIndex: 2
+    text: "第三极招"
+  - split: 1
+    subIndex: 3
+    text: "，根据当前连击数影响伤害。当连击数大于20时，清除所有连击数。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C558,南溪"
+  splits:
+  - split: 1
+    text: "南溪"
+- raw: "CombatSkill/Desc/C558,南溪《七星剑法》：抵销[逆踏北斗七星]对我方的减伤效果，每回合造成一次中幅伤害。"
+  splits:
+  - split: 1
+    text: "南溪《七星剑法》"
+  - split: 1
+    subIndex: 1
+    text: "抵销"
+  - split: 1
+    subIndex: 2
+    text: "逆踏北斗七星"
+  - split: 1
+    subIndex: 3
+    text: "对我方的减伤效果，每回合造成一次中幅伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S131,焚心大火印"
+  splits:
+  - split: 1
+    text: "焚心大火印"
+- raw: "CombatSkill/Desc/S131,焚心大火印：倒数结束时，牺牲一半血为代价，强行进入境界三，绝招变为「金刚神枪指」。"
+  splits:
+  - split: 1
+    text: "焚心大火印"
+  - split: 1
+    subIndex: 1
+    text: "倒数结束时，牺牲一半血为代价，强行进入境界三，绝招变为「金刚神枪指」。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S131_1,金刚神枪指"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+- raw: "CombatSkill/Desc/S131_1,金刚神枪指：必定使出绝招，造成超绝致命伤害。"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+  - split: 1
+    subIndex: 1
+    text: "必定使出绝招，造成超绝致命伤害。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"

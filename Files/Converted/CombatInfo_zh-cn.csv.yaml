@@ -1,0 +1,489 @@
+- raw: "CombatInfo/curse,嘴攻：\\n出口伤人的控制手段，可挫敌锐气，降低绝招伤害，\\n使人投鼠忌器不敢轻举妄动，有时会激怒对方。"
+  splits:
+  - split: 1
+    text: "嘴攻"
+  - split: 1
+    subIndex: 1
+    text: "出口伤人的控制手段，可挫敌锐气，降低绝招伤害，"
+  - split: 1
+    subIndex: 2
+    text: "使人投鼠忌器不敢轻举妄动，有时会激怒对方。"
+  templates:
+  - split: 1
+    template: "{0}：\\n{1}\\n{2}"
+- raw: "CombatInfo/stab,捅人：\\n使用兵刃造成伤害，可强行压制嘴攻行动。\\n根据性情，有时会因为把人捅出了血来，导致自己陷入恐慌。"
+  splits:
+  - split: 1
+    text: "捅人"
+  - split: 1
+    subIndex: 1
+    text: "使用兵刃造成伤害，可强行压制嘴攻行动。"
+  - split: 1
+    subIndex: 2
+    text: "根据性情，有时会因为把人捅出了血来，导致自己陷入恐慌。"
+  templates:
+  - split: 1
+    template: "{0}：\\n{1}\\n{2}"
+- raw: "CombatInfo/weapon,暗器：\\n唐门拿手绝活，投掷暗器造成伤害，\\n累积异常状态，可中断嘴攻、捅人行动。"
+  splits:
+  - split: 1
+    text: "暗器"
+  - split: 1
+    subIndex: 1
+    text: "唐门拿手绝活，投掷暗器造成伤害，"
+  - split: 1
+    subIndex: 2
+    text: "累积异常状态，可中断嘴攻、捅人行动。"
+  templates:
+  - split: 1
+    template: "{0}：\\n{1}\\n{2}"
+- raw: "CombatInfo/ultimate,绝招：\\n消耗大量的气力，造成强大的伤害。\\n<color=#FF0000>可中断捅人、暗器行动</color>"
+  splits:
+  - split: 1
+    text: "绝招"
+  - split: 1
+    subIndex: 1
+    text: "消耗大量的气力，造成强大的伤害。"
+  - split: 1
+    subIndex: 2
+    text: "可中断捅人、暗器行动"
+  templates:
+  - split: 1
+    template: "{0}：\\n{1}\\n<color=#FF0000>{2}</color>"
+- raw: "CombatInfo/block,备揍：\\n做好挨揍的心理准备，减轻伤害，\\n并有额外机率回避暗器或招架兵器。"
+  splits:
+  - split: 1
+    text: "备揍"
+  - split: 1
+    subIndex: 1
+    text: "做好挨揍的心理准备，减轻伤害，"
+  - split: 1
+    subIndex: 2
+    text: "并有额外机率回避暗器或招架兵器。"
+  templates:
+  - split: 1
+    template: "{0}：\\n{1}\\n{2}"
+- raw: "CombatInfo/level0,寻常的你。"
+  splits:
+  - split: 1
+    text: "寻常的你。"
+- raw: "CombatInfo/level1,蓄势待发，不寻常的你。攻防微幅上升。"
+  splits:
+  - split: 1
+    text: "蓄势待发，不寻常的你。攻防微幅上升。"
+- raw: "CombatInfo/level2,穷究武学，状态绝佳的你。攻防大幅上升。"
+  splits:
+  - split: 1
+    text: "穷究武学，状态绝佳的你。攻防大幅上升。"
+- raw: "CombatInfo/level3,臻入化境，超凡入圣的你。攻防超幅上升。"
+  splits:
+  - split: 1
+    text: "臻入化境，超凡入圣的你。攻防超幅上升。"
+- raw: "CombatInfo/hp,维持心脏跳动的神奇力量。"
+  splits:
+  - split: 1
+    text: "维持心脏跳动的神奇力量。"
+- raw: "CombatInfo/mp,做点什么的勇气，每回合回复{0}点。"
+  splits:
+  - split: 1
+    text: "做点什么的勇气，每回合回复"
+  - split: 1
+    subIndex: 1
+    text: "点。"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "CombatInfo/dice,你所无法控制的那一部分，俗称运气。"
+  splits:
+  - split: 1
+    text: "你所无法控制的那一部分，俗称运气。"
+- raw: "CombatInfo/costMp,消耗气：{0}"
+  splits:
+  - split: 1
+    text: "消耗气"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "CombatInfo/restoreMp,恢复气：{0}"
+  splits:
+  - split: 1
+    text: "恢复气"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "CombatInfo/actionHitRate,命中\\n{0:P0}"
+  splits:
+  - split: 1
+    text: "命中"
+  templates:
+  - split: 1
+    template: "{0}\\n⟦0:P0⟧"
+- raw: "CombatInfo/actionTalking,嘴力\\n{0}"
+  splits:
+  - split: 1
+    text: "嘴力"
+  templates:
+  - split: 1
+    template: "{0}\\n⟦0⟧"
+- raw: "CombatInfo/actionDodge,回避\\n{0:P0}"
+  splits:
+  - split: 1
+    text: "回避"
+  templates:
+  - split: 1
+    template: "{0}\\n⟦0:P0⟧"
+- raw: "CombatInfo/combo,{0}连击"
+  splits:
+  - split: 1
+    text: "连击"
+  templates:
+  - split: 1
+    template: "⟦0⟧{0}"
+- raw: "CombatInfo/noDamage,毫发无伤"
+  splits:
+  - split: 1
+    text: "毫发无伤"
+- raw: "CombatInfo/displayHp,血{0}"
+  splits:
+  - split: 1
+    text: "血"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "CombatInfo/displayMp,气{0}"
+  splits:
+  - split: 1
+    text: "气"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "CombatInfo/miss,未命中"
+  splits:
+  - split: 1
+    text: "未命中"
+    translated: "Missed Hit Rate"
+- raw: "CombatInfo/parrySuccess,招架成功"
+  splits:
+  - split: 1
+    text: "招架成功"
+    translated: "Successfully defended"
+- raw: "CombatInfo/dodgeSuccess,回避成功"
+  splits:
+  - split: 1
+    text: "回避成功"
+- raw: "CombatInfo/enemyAttackIntension,敌人好像蠢蠢欲动"
+  splits:
+  - split: 1
+    text: "敌人好像蠢蠢欲动"
+- raw: "CombatInfo/enemyDefenseIntension,敌人好像有所防备"
+  splits:
+  - split: 1
+    text: "敌人好像有所防备"
+- raw: "CombatInfo/getAngry,感到愤怒"
+  splits:
+  - split: 1
+    text: "感到愤怒"
+- raw: "CombatInfo/collapse,虚脱"
+  splits:
+  - split: 1
+    text: "虚脱"
+- raw: "CombatInfo/collapseAll,双方用尽全力，都感到虚脱。"
+  splits:
+  - split: 1
+    text: "双方用尽全力，都感到虚脱。"
+- raw: "CombatInfo/catchWeapon,接住暗器"
+  splits:
+  - split: 1
+    text: "接住暗器"
+    translated: "Catch the hidden weapon"
+- raw: "CombatInfo/poison1,毒性累积值：{0}\\n累积至50时造成「毒Lv1」异常状态。"
+  splits:
+  - split: 1
+    text: "毒性累积值"
+  - split: 1
+    subIndex: 1
+    text: "累积至50时造成「毒"
+  - split: 1
+    subIndex: 2
+    text: "1」异常状态。"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧\\n{1}Lv{2}"
+- raw: "CombatInfo/poison2,毒性累积值：{0}\\n累积至100时造成「毒Lv2」异常状态。"
+  splits:
+  - split: 1
+    text: "毒性累积值"
+  - split: 1
+    subIndex: 1
+    text: "累积至100时造成「毒"
+  - split: 1
+    subIndex: 2
+    text: "2」异常状态。"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧\\n{1}Lv{2}"
+- raw: "CombatInfo/poison3,毒性累积值：{0}\\n累积至150时造成「毒Lv3」异常状态，引发后清空累积值。"
+  splits:
+  - split: 1
+    text: "毒性累积值"
+  - split: 1
+    subIndex: 1
+    text: "累积至150时造成「毒"
+  - split: 1
+    subIndex: 2
+    text: "3」异常状态，引发后清空累积值。"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧\\n{1}Lv{2}"
+- raw: "CombatInfo/paralyzed1,麻痹累积值：{0}\\n累积至50时造成「麻Lv1」异常状态。"
+  splits:
+  - split: 1
+    text: "麻痹累积值"
+  - split: 1
+    subIndex: 1
+    text: "累积至50时造成「麻"
+  - split: 1
+    subIndex: 2
+    text: "1」异常状态。"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧\\n{1}Lv{2}"
+- raw: "CombatInfo/paralyzed2,麻痹累积值：{0}\\n累积至100时造成「麻Lv2」异常状态。"
+  splits:
+  - split: 1
+    text: "麻痹累积值"
+  - split: 1
+    subIndex: 1
+    text: "累积至100时造成「麻"
+  - split: 1
+    subIndex: 2
+    text: "2」异常状态。"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧\\n{1}Lv{2}"
+- raw: "CombatInfo/paralyzed3,麻痹累积值：{0}\\n累积至150时造成「麻Lv3」异常状态，引发后清空累积值。"
+  splits:
+  - split: 1
+    text: "麻痹累积值"
+  - split: 1
+    subIndex: 1
+    text: "累积至150时造成「麻"
+  - split: 1
+    subIndex: 2
+    text: "3」异常状态，引发后清空累积值。"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧\\n{1}Lv{2}"
+- raw: "CombatInfo/buff_1,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+    translated: "Hidden Weapon"
+- raw: "CombatInfo/buff_2,技能"
+  splits:
+  - split: 1
+    text: "技能"
+    translated: "Skills"
+- raw: "CombatInfo/buff_3,特殊"
+  splits:
+  - split: 1
+    text: "特殊"
+    translated: "Special"
+- raw: "CombatAction/action,指令"
+  splits:
+  - split: 1
+    text: "指令"
+    translated: "Instruction"
+- raw: "CombatAction/curse,嘴攻"
+  splits:
+  - split: 1
+    text: "嘴攻"
+    translated: "Verbal Attack"
+- raw: "CombatAction/attack,捅人"
+  splits:
+  - split: 1
+    text: "捅人"
+    translated: "Stab"
+- raw: "CombatAction/weapon,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+    translated: "Hidden Weapon"
+- raw: "CombatAction/block,备揍"
+  splits:
+  - split: 1
+    text: "备揍"
+- raw: "CombatAction/ultimate,绝招"
+  splits:
+  - split: 1
+    text: "绝招"
+- raw: "CombatAction/idle,闲置"
+  splits:
+  - split: 1
+    text: "闲置"
+- raw: "CombatInfo/round,第 {0} 回合"
+  splits:
+  - split: 1
+    text: "第"
+  - split: 1
+    subIndex: 1
+    text: "回合"
+  templates:
+  - split: 1
+    template: "{0} ⟦0⟧ {1}"
+- raw: "CombatInfo/staminaLevel,境界‧{0}"
+  splits:
+  - split: 1
+    text: "境界"
+  templates:
+  - split: 1
+    template: "{0}‧⟦0⟧"
+- raw: "CombatAction/block_001,一趾神通"
+  splits:
+  - split: 1
+    text: "一趾神通"
+    translated: "One Toe Divine Skill"
+- raw: "CombatAction/block_002,归元"
+  splits:
+  - split: 1
+    text: "归元"
+- raw: "CombatAction/block_003,石灰粉"
+  splits:
+  - split: 1
+    text: "石灰粉"
+    translated: "Lime powder"
+- raw: "CombatAction/block_004,金钟罩"
+  splits:
+  - split: 1
+    text: "金钟罩"
+- raw: "CombatAction/block_005,收势"
+  splits:
+  - split: 1
+    text: "收势"
+- raw: "CombatAction/block_006,枯荣神功"
+  splits:
+  - split: 1
+    text: "枯荣神功"
+- raw: "CombatAction/curse_001,战神语录"
+  splits:
+  - split: 1
+    text: "战神语录"
+- raw: "CombatAction/curse_002,核枣钉"
+  splits:
+  - split: 1
+    text: "核枣钉"
+- raw: "CombatAction/curse_003,狮子吼"
+  splits:
+  - split: 1
+    text: "狮子吼"
+- raw: "CombatAction/curse_004,苍龙吟"
+  splits:
+  - split: 1
+    text: "苍龙吟"
+- raw: "CombatAction/curse_005,虎啸吼"
+  splits:
+  - split: 1
+    text: "虎啸吼"
+- raw: "CombatAction/attack_001,反击"
+  splits:
+  - split: 1
+    text: "反击"
+- raw: "CombatAction/attack_002,犯剑"
+  splits:
+  - split: 1
+    text: "犯剑"
+- raw: "CombatAction/attack_003,舞剑"
+  splits:
+  - split: 1
+    text: "舞剑"
+- raw: "CombatAction/attack_004,追击"
+  splits:
+  - split: 1
+    text: "追击"
+- raw: "CombatAction/attack_005,夺魄幽灵爪"
+  splits:
+  - split: 1
+    text: "夺魄幽灵爪"
+- raw: "CombatAction/attack_006,雪山飞鸿爪"
+  splits:
+  - split: 1
+    text: "雪山飞鸿爪"
+- raw: "CombatAction/attack_007,抽人"
+  splits:
+  - split: 1
+    text: "抽人"
+    translated: "Draw someone"
+- raw: "CombatAction/weapon_001,打穴娟索"
+  splits:
+  - split: 1
+    text: "打穴娟索"
+    translated: "Acupoint Striking and Threading"
+- raw: "CombatAction/weapon_002,金刚神枪指"
+  splits:
+  - split: 1
+    text: "金刚神枪指"
+- raw: "CombatAction/weapon_003,飞燕流星翎"
+  splits:
+  - split: 1
+    text: "飞燕流星翎"
+- raw: "CombatAction/ultimate_001,天罡伏魔剑"
+  splits:
+  - split: 1
+    text: "天罡伏魔剑"
+- raw: "CombatAction/ultimate_002,太白仙迹"
+  splits:
+  - split: 1
+    text: "太白仙迹"
+- raw: "CombatAction/ultimate_003,猿王回风"
+  splits:
+  - split: 1
+    text: "猿王回风"
+- raw: "CombatAction/ultimate_004,绝影奇袭"
+  splits:
+  - split: 1
+    text: "绝影奇袭"
+- raw: "CombatAction/ultimate_005,铁臂飞拳"
+  splits:
+  - split: 1
+    text: "铁臂飞拳"
+- raw: "CombatAction/ultimate_006,阴阳夺"
+  splits:
+  - split: 1
+    text: "阴阳夺"
+- raw: "CombatAction/ultimate_007,点破云关"
+  splits:
+  - split: 1
+    text: "点破云关"
+- raw: "CombatAction/ultimate_008,云霄雷霆霹雳刀"
+  splits:
+  - split: 1
+    text: "云霄雷霆霹雳刀"
+- raw: "CombatAction/ultimate_009,风雷神脚"
+  splits:
+  - split: 1
+    text: "风雷神脚"
+- raw: "CombatAction/ultimate_010,神雷"
+  splits:
+  - split: 1
+    text: "神雷"
+    translated: "Divine Thunder"
+- raw: "CombatAction/ultimate_011,保护云裳"
+  splits:
+  - split: 1
+    text: "保护云裳"
+- raw: "CombatAction/ultimate_012,同舟剑法"
+  splits:
+  - split: 1
+    text: "同舟剑法"
+- raw: "CombatAction/ultimate_013,第一极招"
+  splits:
+  - split: 1
+    text: "第一极招"
+- raw: "CombatAction/ultimate_014,第二极招"
+  splits:
+  - split: 1
+    text: "第二极招"
+- raw: "CombatAction/ultimate_015,第三极招"
+  splits:
+  - split: 1
+    text: "第三极招"
