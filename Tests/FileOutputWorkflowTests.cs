@@ -41,7 +41,8 @@ public class FileOutputWorkflowTests
         File.Copy($"{WorkingDirectory}/Autotranslator/status.resizer.txt", $"{releaseFolder}/BepInEx/Translation/en/Text/status.resizer.txt", true);
         File.Copy($"{WorkingDirectory}/Autotranslator/story.resizer.txt", $"{releaseFolder}/BepInEx/Translation/en/Text/story.resizer.txt", true);
 
-        FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Resizers", $"{releaseFolder}/BepInEx/resizers");
+
+        FileOutputHandling.CopyDirectory($"{WorkingDirectory}/Resizers", $"{releaseFolder}/BepInEx/resizers", true);
 
         ZipFile.CreateFromDirectory($"{releaseFolder}", $"{releaseFolder}/../EnglishPatch-{version}.zip");
         await Task.CompletedTask;

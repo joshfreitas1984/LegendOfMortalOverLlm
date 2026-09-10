@@ -55,14 +55,17 @@
   adjustX: -10
   adjustY: -10
 - path: '[UI]/MainUI/Layer_*/ActionInfo/MentalBar/Header'
-  sampleText: Mind Affinity
+  sampleText: Connection
   idealFontSize: 14.0
   allowWordWrap: true
-  adjustWidth: 25
+  adjustWidth: 40
+  adjustX: -20
+  adjustY: -5
 - path: '[UI]/MainUI/Layer_*/ActionInfo/Action/ActionText'
   sampleText: Action
   idealFontSize: 14.0
   allowWordWrap: true
+  adjustWidth: 10
   adjustY: -4
   adjustX: -14
   alignment: topLeft
@@ -180,6 +183,7 @@
 - path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/HoverPanel/*/Text (1)'
   sampleText: 'Affinity:'
   idealFontSize: 16.0
+  adjustWidth: 10
   allowWordWrap: true
 - path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/HoverPanel/*/Value'
   sampleText: Happiness
@@ -245,12 +249,12 @@
   allowWordWrap: true
 - path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/SkillPanel/Scroll View/Viewport/Content/Skill_Item(Clone)/*/Name'
   sampleText: As swift as the wind
-  idealFontSize: 18.0
+  idealFontSize: 16.0
   adjustHeight: 40
   adjustWidth: 40
   allowWordWrap: true
 - path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/SkillPanel/Scroll View/Viewport/Content/Skill_Item(Clone)/*/Level'
-  idealFontSize: 18.0
+  idealFontSize: 16.0
   allowWordWrap: true
   adjustX: 40
 
@@ -353,7 +357,7 @@
   adjustY: -10
   alignment: topLeft
   
-# Chronicles 
+# Legends 
 - path: UI/Layer_3/LibraryPanel/Buttons/MenuButton_*/*/Text
   sampleText: Book of Life and Death
   idealFontSize: 30.0
@@ -366,6 +370,36 @@
   adjustWidth: 10
   adjustX: -4
   adjustY: -20
+- path: UI/Layer_3/LibraryPanel/Panels/Legend/Title/Text
+  sampleText: Legend of Living Heroes
+  idealFontSize: 28.0
+  adjustWidth: -20
+  adjustX: 20
+  adjustY: 20
+  allowWordWrap: true
+  adjustHeight: 40
+- path: UI/Layer_3/LibraryPanel/Panels/Dead/Title/Text
+  sampleText: Book of life and death
+  idealFontSize: 28.0
+  adjustWidth: -40
+  adjustHeight: 40
+  adjustX: 20
+  adjustY: 20
+  allowWordWrap: true
+- path: UI/Layer_3/LibraryPanel/Panels/EndGame/Title/Text
+  sampleText: History book
+  idealFontSize: 28.0
+  adjustWidth: -60
+  adjustHeight: 40
+  adjustX: 40
+  adjustY: 20
+  allowWordWrap: true
+
+- path: UI/Layer_3/LibraryPanel/Panels/Legend/SaveLegendPanel/Detail/Name
+  sampleText: The Hidden Weapons of the Tang Clan
+  idealFontSize: 22.0
+  adjustHeight: 20
+  allowWordWrap: true
 
 # New Game
 - path: '[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton*/Text (TMP)'
@@ -568,4 +602,26 @@
   idealFontSize: 20.0
   allowWordWrap: true
   adjustWidth: 1000
+  adjustY: -100
+- path: '[UI]/TopPanel/CG_Panel/VerticalDesc/CgText(Clone)'
+  sampleText: Yunshang and you hold hands to wander through Jiangnan, taking a boat to listen to the rain and sleep. With you by their side, cherished and adored, they are fearless, their past filled with misdeeds, never settling down until old age, living this life without regrets. In this era of strict moral teachings, without the orders of parents and not relying on the words of matchmakers, they stay together purely by fate.
+  idealFontSize: 20
+  adjustY: -100
+  allowWordWrap: true
+  adjustWidth: 1000
+
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Home/Title/Text'
+  sampleText: Clouds part to reveal a clear day
+  idealFontSize: 30.0
+  adjustHeight: 20
+  adjustWidth: 40
+  allowWordWrap: true
+  
+# Map  
+- path: '[UI]/MainUI/Layer_5/Map/Background/[Name]/*'
+  sampleText: Tang Sect
+  idealFontSize: 12.0
+  allowWordWrap: true
+  adjustWidth: 75
+  adjustX: -50
   adjustY: -50

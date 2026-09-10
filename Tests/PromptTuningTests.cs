@@ -287,7 +287,7 @@ public class PromptTuningTests
         List<object> messages = TranslationService.GenerateBaseMessages(config, raw, textFile);
 
         // Tweak Correction Prompt here
-        var correctionPrompt = LineValidation.CalulateCorrectionPrompt(config, origValidationResult, raw, origResult);
+        var correctionPrompt = TranslationService.CalulateCorrectionPrompt(config, origValidationResult, raw, origResult);
         //var correctionPrompt = "Try again. The markup rules were not followed.";
 
         // Add what the correction prompt would have been

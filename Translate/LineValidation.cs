@@ -24,10 +24,10 @@ public static partial class LineValidation
             .Replace("…", "...")
             .Replace("：", ":")
             .Replace("：", ":")
-            .Replace("「", "'")
-            .Replace("」", "'")
-            .Replace("《", "'")
-            .Replace("》", "'")
+            //.Replace("「", "'")
+            //.Replace("」", "'")
+            //.Replace("《", "'")
+            //.Replace("》", "'")
             .Replace("（", "(")
             .Replace("）", ")")
             .Replace("？", "?")
@@ -53,7 +53,9 @@ public static partial class LineValidation
         if (raw.EndsWith("...") && !llmResult.EndsWith("...") && llmResult.EndsWith("."))
             llmResult = $"{llmResult}..";
 
-        return llmResult;
+        return llmResult
+            .Replace("’", "'")
+            .Replace("‘", "'");
     }
 
     public static string CleanupLineBeforeSaving(string input, string raw, TextFileToSplit textFile, StringTokenReplacer tokenReplacer)
@@ -174,6 +176,22 @@ public static partial class LineValidation
 
         result = tokenReplacer.Restore(result);
 
+        //TODO: Do a way where we can do regexes in text and replace with common templates like achieves in HTLS
+        //result = result.Replace("友好到达", " friendship reached ");
+
+        result = result
+            .Replace("⑩", "10. ")
+            .Replace("⓪", "0. ")
+            .Replace("①", "1. ")
+            .Replace("②", "2. ")
+            .Replace("③", "3. ")
+            .Replace("④", "4. ")
+            .Replace("⑤", "5. ")
+            .Replace("⑥", "6. ")
+            .Replace("⑦", "7. ")
+            .Replace("⑧", "8. ")
+            .Replace("⑨", "9. ");
+
         return result;
     }
 
@@ -268,9 +286,15 @@ public static partial class LineValidation
             }
         }
 
+        if (raw.Contains('\'') && !result.Contains('\''))
+        {
+            response = false;
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovedQuotesPrompt");
+        }
+
         // Removed characters
         (string raw, string trans)[] checkForRemoval = { 
-            ("·", "·"), 
+            //("'", "'"), 
             //("(", "("),
             //("（", "("), 
             //(")", ")"),
@@ -278,6 +302,7 @@ public static partial class LineValidation
             //("...", "..."), //Problematic still
             //("…", "..."),
         };
+
 
         foreach (var check in checkForRemoval)
         {
@@ -291,7 +316,7 @@ public static partial class LineValidation
         if (raw.Contains("\\n") && !result.Contains("\\n"))
         {
             response = false;
-            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");            
+            correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", "\\n");
         }
 
         //if (raw.Contains('-') && !result.Contains('-') && !result.Contains("\u2011"))
@@ -346,6 +371,16 @@ public static partial class LineValidation
         {
             response = false;
             correctionPrompts.AddPromptWithValues(config, "CorrectChinesePrompt");
+
+            // Flag for sentence-by-sentence correction strategy
+            var validationResult = new ValidationResult
+            {
+                Valid = response,
+                Result = result,
+                CorrectionPrompt = correctionPrompts.ToString(),
+                RequiresSentenceBySentenceCorrection = true
+            };
+            return validationResult;
         }
 
         // Dialog specific
@@ -370,8 +405,19 @@ public static partial class LineValidation
         }
 
         if (raw.Contains('<') && raw != "<商贩>" && !textFile.IgnoreHtmlTagsInText)
-            if (!HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags))
+        {
+            var validateTags = HtmlTagHelpers.ValidateTags(raw, result, textFile.AllowMissingColorTags);
+            if (!validateTags.IsValid)
+            {
                 response = false;
+
+                foreach (var tag in validateTags.MissingTags)
+                    correctionPrompts.AddPromptWithValues(config, "CorrectRemovalPrompt", $"<{tag}>");
+
+                foreach (var tag in validateTags.ExtraTags)
+                    correctionPrompts.AddPromptWithValues(config, "CorrectAdditionalPrompt", $"<{tag}>");
+            }
+        }
 
         if (textFile.NameCleanupRoutines)
         {
@@ -387,11 +433,6 @@ public static partial class LineValidation
             Result = result,
             CorrectionPrompt = correctionPrompts.ToString(),
         };
-    }
-
-    public static string CalulateCorrectionPrompt(LlmConfig config, ValidationResult validationResult, string raw, string result)
-    {
-        return string.Format(config.Prompts["BaseCorrectionPrompt"], raw, result, validationResult.CorrectionPrompt);
     }
 
     public static List<string> FindMarkup(string input)

@@ -2,16 +2,20 @@
 
 namespace Translate.Utility;
 
+public record TagValidationResult(bool IsValid, HashSet<string> MissingTags, HashSet<string> ExtraTags);
+
 public static class HtmlTagHelpers
 {
-    public static bool ValidateTags(string raw, string translated, bool allowMissingColors)
+    public static TagValidationResult ValidateTags(string raw, string translated, bool allowMissingColors)
     {
         HashSet<string> rawTags = ExtractTagsWithAttributes(raw, true);
-        HashSet<string> translatedTags = ExtractTagsWithAttributes(translated, false);     
-    
-        var response = rawTags.SetEquals(translatedTags);
+        HashSet<string> translatedTags = ExtractTagsWithAttributes(translated, false);
 
-        if (!response 
+        var response = rawTags.SetEquals(translatedTags);
+        var missingTags = new HashSet<string>();
+        var extraTags = new HashSet<string>();
+
+        if (!response
             && allowMissingColors
             && rawTags.Count != translatedTags.Count) //So if its got them get it right
         {
@@ -28,9 +32,22 @@ public static class HtmlTagHelpers
                 trimmedTags.Add(tag.Trim());
 
             response = trimmedTags.SetEquals(translatedTags);
+
+            if (!response)
+            {
+                // Calculate missing and extra tags
+                missingTags = new HashSet<string>(trimmedTags.Except(translatedTags));
+                extraTags = new HashSet<string>(translatedTags.Except(trimmedTags));
+            }
+        }
+        else if (!response)
+        {
+            // Calculate missing and extra tags without trimming
+            missingTags = new HashSet<string>(rawTags.Except(translatedTags));
+            extraTags = new HashSet<string>(translatedTags.Except(rawTags));
         }
 
-        return response;
+        return new TagValidationResult(response, missingTags, extraTags);
     }
 
     private static HashSet<string> ExtractTagsWithAttributes(string input, bool updateSizes)
@@ -53,14 +70,15 @@ public static class HtmlTagHelpers
         return tags;
     }
 
-    public static List<string> ExtractTagsListWithAttributes(string input, string ignore)
+    public static List<string> ExtractTagsListWithAttributes(string input, params string[] ignore)
     {
         var tags = new List<string>();
         var regex = new Regex(@"<(\w+\s*[^/>]*)>");
         foreach (Match match in regex.Matches(input))
         {
-            if (!match.Groups[1].Value.StartsWith(ignore))
-                tags.Add($"<{match.Groups[1].Value}>");
+            var tagValue = match.Groups[1].Value;
+            if (!ignore.Any(i => tagValue.StartsWith(i)))
+                tags.Add($"<{tagValue}>");
         }
         return tags;
     }

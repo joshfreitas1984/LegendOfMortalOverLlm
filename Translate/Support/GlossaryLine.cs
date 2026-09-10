@@ -42,6 +42,8 @@ public class GlossaryLine
     {
         var prompt = new StringBuilder();
 
+        prompt.AppendLine("```");
+
         foreach (var line in glossaryLines)
         {
             //Exclusions and Targetted Glossary
@@ -57,6 +59,8 @@ public class GlossaryLine
             else if (line.RawTraditional != string.Empty && raw.Contains(line.RawTraditional))
                 prompt.AppendLine(ToPromptString(line.RawTraditional, line.Result, line.AllowedAlternatives));
         }
+
+        prompt.AppendLine("```");
 
         if (prompt.Length > 0)
             return prompt.ToString();
@@ -82,10 +86,17 @@ public class GlossaryLine
         //prompt.AppendLine($"- \"{raw}\": \"{translated}\"");
 
         prompt.AppendLine($"- raw: \"{raw}\"");
-        prompt.AppendLine($"  - trans: \"{translated}\"");
+        //prompt.AppendLine($"  result: \"{translated}\"");
+        prompt.AppendLine($"  result:");
+        prompt.AppendLine($"    - \"{translated}\"");
+
+        //if (alternatives != null)
+        //    prompt.AppendLine($"  alternatives: \"{translated}\"");
 
         foreach (var alternative in alternatives ?? [])
-            prompt.AppendLine($"  - trans: \"{alternative}\"");
+            //prompt.AppendLine($"    - \"{alternative}\"");
+            prompt.AppendLine($"    - \"{alternative}\"");
+
         return prompt.ToString();
     }
 }
