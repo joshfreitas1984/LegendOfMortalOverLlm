@@ -2,13 +2,18 @@
   splits:
   - split: 1
     text: "启程"
+    translated: "Departure"
 - raw: "System/Start/StartActGame,启程(活动)"
   splits:
   - split: 1
     text: "启程"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "活动"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -16,34 +21,42 @@
   splits:
   - split: 1
     text: "环境设定"
+    translated: "Environment settings"
 - raw: "System/Start/Library,讲经堂"
   splits:
   - split: 1
     text: "讲经堂"
+    translated: "Scripture Hall"
 - raw: "System/Start/Exit,归隐山林"
   splits:
   - split: 1
     text: "归隐山林"
+    translated: "Retiring to the mountains"
 - raw: "System/Menu/Continue,继续游戏"
   splits:
   - split: 1
     text: "继续游戏"
+    translated: "Continue the game"
 - raw: "System/Menu/SaveGame,储存游戏"
   splits:
   - split: 1
     text: "储存游戏"
+    translated: "Save Game"
 - raw: "System/Menu/LoadGame,读取游戏"
   splits:
   - split: 1
     text: "读取游戏"
+    translated: "Read the game instructions"
 - raw: "System/Menu/Setting,环境设定"
   splits:
   - split: 1
     text: "环境设定"
+    translated: "Environment settings"
 - raw: "System/Menu/Title,回到标题"
   splits:
   - split: 1
     text: "回到标题"
+    translated: "Go back to the title"
 - raw: "System/Menu/Giveup,投降"
   splits:
   - split: 1
@@ -53,6 +66,7 @@
   splits:
   - split: 1
     text: "确定"
+    translated: "Confirm"
 - raw: "System/Menu/Cancel,取消"
   splits:
   - split: 1
@@ -62,10 +76,12 @@
   splits:
   - split: 1
     text: "键盘设定"
+    translated: "Keyboard settings"
 - raw: "System/Menu/LibraryEnd,汗青书"
   splits:
   - split: 1
     text: "汗青书"
+    translated: "Records of the Bamboo Tablets"
 - raw: "System/Menu/LibraryDead,生死簿"
   splits:
   - split: 1
@@ -75,18 +91,22 @@
   splits:
   - split: 1
     text: "风云史"
+    translated: "Chronicles of Wind and Cloud"
 - raw: "System/Menu/LibraryLegend,活侠传"
   splits:
   - split: 1
     text: "活侠传"
+    translated: "Legend of the Living Hero"
 - raw: "System/Menu/AutoSave,自动存档"
   splits:
   - split: 1
     text: "自动存档"
+    translated: "Auto‑save"
 - raw: "System/Menu/ManualSave,手动存档"
   splits:
   - split: 1
     text: "手动存档"
+    translated: "Manual save"
 - raw: "System/Menu/CommunityContent,玩家社群"
   splits:
   - split: 1
@@ -96,43 +116,58 @@
   splits:
   - split: 1
     text: "数据备份"
+    translated: "Data backup"
 - raw: "System/Menu/RecentSave,最近存档"
   splits:
   - split: 1
     text: "最近存档"
+    translated: "Recent save file"
 - raw: "System/AutoSaveText,剧情自动存档"
   splits:
   - split: 1
     text: "剧情自动存档"
+    translated: "Game saves automatically"
 - raw: "System/FreeAutoSaveText,养成自动存档"
   splits:
   - split: 1
     text: "养成自动存档"
+    translated: "Set Automatic Save"
 - raw: "System/EnableSaveText,手动存档解锁"
   splits:
   - split: 1
     text: "手动存档解锁"
+    translated: "Manual save unlocked"
 - raw: "System/DisableSaveText,手动存档上锁"
   splits:
   - split: 1
     text: "手动存档上锁"
+    translated: "Manual save locked"
 - raw: "System/Loading,读取中..."
   splits:
   - split: 1
     text: "读取中..."
+    translated: "Loading..."
 - raw: "System/CombatStartText,战‧你‧娘‧亲"
   splits:
   - split: 1
     text: "战"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "你"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "娘"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "亲"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}‧{1}‧{2}‧{3}"
@@ -140,21 +175,33 @@
   splits:
   - split: 1
     text: "选单"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "状态"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "回想"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "自动"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 4
     text: "快带"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 5
     text: "左"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} - [ESC]\\n{1} - [S]\\n{2} - [L]\\n{3} - [A]\\n{4}- [{5}Ctrl]"
@@ -162,6 +209,7 @@
   splits:
   - split: 1
     text: "结局"
+    translated: "Outcome {0}"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -169,14 +217,17 @@
   splits:
   - split: 1
     text: "已达成"
+    translated: "Achieved"
 - raw: "System/NotAchieveText,未达成"
   splits:
   - split: 1
     text: "未达成"
+    translated: "Unfulfilled"
 - raw: "System/CountText,{0} 次"
   splits:
   - split: 1
     text: "次"
+    translated: "{0} times"
   templates:
   - split: 1
     template: "⟦0⟧ {0}"
@@ -184,18 +235,22 @@
   splits:
   - split: 1
     text: "记载活侠传故事"
+    translated: "The Story of the Heroic Wanderer"
 - raw: "System/Read,阅读"
   splits:
   - split: 1
     text: "阅读"
+    translated: "Reading"
 - raw: "System/Export,导出"
   splits:
   - split: 1
     text: "导出"
+    translated: "Export"
 - raw: "System/ExportSuccess,导出成功：{0}"
   splits:
   - split: 1
     text: "导出成功"
+    translated: "Export successful: {0}"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -203,6 +258,7 @@
   splits:
   - split: 1
     text: "达成风云史"
+    translated: "Achieve the Wind and Cloud History '{0}'"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》"
@@ -210,18 +266,22 @@
   splits:
   - split: 1
     text: "剧情"
+    translated: "Plot"
 - raw: "System/AutoSaveFree,养成"
   splits:
   - split: 1
     text: "养成"
+    translated: "Training"
 - raw: "System/AutoSaveBattle,战斗"
   splits:
   - split: 1
     text: "战斗"
+    translated: "Battle"
 - raw: "System/Skip,快带"
   splits:
   - split: 1
     text: "快带"
+    translated: "Hurry up and bring it"
 - raw: "System/Operate,操作"
   splits:
   - split: 1
@@ -231,22 +291,27 @@
   splits:
   - split: 1
     text: "数据备份完成"
+    translated: "Data backup completed"
 - raw: "System/Title/Setting,设定"
   splits:
   - split: 1
     text: "设定"
+    translated: "Setting"
 - raw: "System/Title/Status,状态"
   splits:
   - split: 1
     text: "状态"
+    translated: "Status"
 - raw: "System/Title/Alchemy,炼丹"
   splits:
   - split: 1
     text: "炼丹"
+    translated: "Alchemy"
 - raw: "System/Title/Alchemy_01,炼"
   splits:
   - split: 1
     text: "炼"
+    translated: "Refine"
 - raw: "System/Title/Alchemy_02,丹"
   splits:
   - split: 1
@@ -256,10 +321,12 @@
   splits:
   - split: 1
     text: "锻造"
+    translated: "Forging"
 - raw: "System/Title/Forge_01,锻"
   splits:
   - split: 1
     text: "锻"
+    translated: "Forge"
 - raw: "System/Title/Forge_02,造"
   splits:
   - split: 1
@@ -269,18 +336,22 @@
   splits:
   - split: 1
     text: "开发"
+    translated: "Development"
 - raw: "System/Title/Develop_01,开"
   splits:
   - split: 1
     text: "开"
+    translated: "Open"
 - raw: "System/Title/Develop_02,发"
   splits:
   - split: 1
     text: "发"
+    translated: "Release"
 - raw: "System/Title/Training,修练"
   splits:
   - split: 1
     text: "修练"
+    translated: "Cultivation"
 - raw: "System/Title/Training_01,修"
   splits:
   - split: 1
@@ -290,10 +361,12 @@
   splits:
   - split: 1
     text: "练"
+    translated: "Practice"
 - raw: "System/Title/Property,属性"
   splits:
   - split: 1
     text: "属性"
+    translated: "Attributes"
 - raw: "System/Title/Talent,技能"
   splits:
   - split: 1
@@ -303,14 +376,17 @@
   splits:
   - split: 1
     text: "书籍"
+    translated: "Book"
 - raw: "System/Title/Misc,杂物"
   splits:
   - split: 1
     text: "杂物"
+    translated: "Miscellaneous Items"
 - raw: "System/Title/Special,宝物"
   splits:
   - split: 1
     text: "宝物"
+    translated: "Treasure"
 - raw: "System/Title/Bag,行囊"
   splits:
   - split: 1
@@ -320,6 +396,7 @@
   splits:
   - split: 1
     text: "装备"
+    translated: "Equipment"
 - raw: "System/Title/Weapon,暗器"
   splits:
   - split: 1
@@ -329,34 +406,42 @@
   splits:
   - split: 1
     text: "门派"
+    translated: "Clan"
 - raw: "System/Title/Legend,传奇"
   splits:
   - split: 1
     text: "传奇"
+    translated: "Legend"
 - raw: "System/Title/Social,人际"
   splits:
   - split: 1
     text: "人际"
+    translated: "Interpersonal relations"
 - raw: "System/Title/Buy,买入"
   splits:
   - split: 1
     text: "买入"
+    translated: "Buy"
 - raw: "System/Title/Buy_01,买"
   splits:
   - split: 1
     text: "买"
+    translated: "Buy"
 - raw: "System/Title/Sell,卖出"
   splits:
   - split: 1
     text: "卖出"
+    translated: "Sell out"
 - raw: "System/Title/Sell_01,卖"
   splits:
   - split: 1
     text: "卖"
+    translated: "Sell"
 - raw: "System/Title/Sword,刀剑"
   splits:
   - split: 1
     text: "刀剑"
+    translated: "Blade and sword"
 - raw: "System/Title/Fist,拳掌"
   splits:
   - split: 1
@@ -366,6 +451,7 @@
   splits:
   - split: 1
     text: "内功"
+    translated: "Neigong"
 - raw: "System/Title/Etc,其他"
   splits:
   - split: 1
@@ -375,18 +461,22 @@
   splits:
   - split: 1
     text: "离开"
+    translated: "Leave"
 - raw: "System/Title/AlreadyDevelop,已开发"
   splits:
   - split: 1
     text: "已开发"
+    translated: "Developed"
 - raw: "System/Title/FateBonus,继承"
   splits:
   - split: 1
     text: "继承"
+    translated: "Inheritance"
 - raw: "System/Title/Reset,复原"
   splits:
   - split: 1
     text: "复原"
+    translated: "Recovery"
 - raw: "System/Upgrade/Melee,武器"
   splits:
   - split: 1
@@ -406,6 +496,7 @@
   splits:
   - split: 1
     text: "抛射"
+    translated: "Projection"
 - raw: "System/Upgrade/Trap,陷阱"
   splits:
   - split: 1
@@ -415,26 +506,32 @@
   splits:
   - split: 1
     text: "毒药"
+    translated: "Poison"
 - raw: "System/Upgrade/Medi,灵丹"
   splits:
   - split: 1
     text: "灵丹"
+    translated: "Elixir"
 - raw: "System/Status,状态"
   splits:
   - split: 1
     text: "状态"
+    translated: "Status"
 - raw: "System/System,系统"
   splits:
   - split: 1
     text: "系统"
+    translated: "System"
 - raw: "System/Save,储存"
   splits:
   - split: 1
     text: "储存"
+    translated: "Save"
 - raw: "System/SaveText_01,储"
   splits:
   - split: 1
     text: "储"
+    translated: "Store"
 - raw: "System/SaveText_02,存"
   splits:
   - split: 1
@@ -444,6 +541,7 @@
   splits:
   - split: 1
     text: "删"
+    translated: "Delete"
 - raw: "System/DeleteText_02,除"
   splits:
   - split: 1
@@ -453,10 +551,12 @@
   splits:
   - split: 1
     text: "删除"
+    translated: "Delete"
 - raw: "System/SaveSlotText,传奇{0}"
   splits:
   - split: 1
     text: "传奇"
+    translated: "Legend {0}"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -464,29 +564,38 @@
   splits:
   - split: 1
     text: "无资料"
+    translated: "No data available"
 - raw: "System/NoStory,无记载"
   splits:
   - split: 1
     text: "无记载"
+    translated: "Not recorded"
 - raw: "System/NA,无"
   splits:
   - split: 1
     text: "无"
+    translated: "None"
 - raw: "System/Infinity,无限"
   splits:
   - split: 1
     text: "无限"
+    translated: "Infinite"
 - raw: "System/MaxLevel,最高等级"
   splits:
   - split: 1
     text: "最高等级"
+    translated: "Highest rank"
 - raw: "System/GameTimeText,第{0}年{1}{2}"
   splits:
   - split: 1
     text: "第"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "年"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}⟦1⟧⟦2⟧"
@@ -494,6 +603,7 @@
   splits:
   - split: 1
     text: "自动"
+    translated: "Automatic"
 - raw: "System/Log,回想"
   splits:
   - split: 1
@@ -503,42 +613,52 @@
   splits:
   - split: 1
     text: "开发项目"
+    translated: "Developing projects"
 - raw: "System/Accountant,账房"
   splits:
   - split: 1
     text: "账房"
+    translated: "Bookkeeper"
 - raw: "System/Money,钱"
   splits:
   - split: 1
     text: "钱"
+    translated: "Money"
 - raw: "System/Money2,两"
   splits:
   - split: 1
     text: "两"
+    translated: "Taels"
 - raw: "System/Level,等级"
   splits:
   - split: 1
     text: "等级"
+    translated: "Rank"
 - raw: "System/Combat,决斗"
   splits:
   - split: 1
     text: "决斗"
+    translated: "Duel"
 - raw: "System/Battle,战役"
   splits:
   - split: 1
     text: "战役"
+    translated: "Battle"
 - raw: "System/NotDevelop,需求条件不足"
   splits:
   - split: 1
     text: "需求条件不足"
+    translated: "Insufficient conditions provided"
 - raw: "System/DevelopMouse,长按以开发"
   splits:
   - split: 1
     text: "长按以开发"
+    translated: "Long press to develop"
 - raw: "System/ConfirmSave,确定覆盖目前的纪录吗?"
   splits:
   - split: 1
     text: "确定覆盖目前的纪录吗"
+    translated: "Are you sure you want to cover the current record?"
   templates:
   - split: 1
     template: "{0}?"
@@ -546,10 +666,12 @@
   splits:
   - split: 1
     text: "确定删除选择的纪录吗？"
+    translated: "Are you sure you want to delete the selected records?"
 - raw: "System/CostAction,消耗行动 {0}"
   splits:
   - split: 1
     text: "消耗行动"
+    translated: "Spends action on {0}"
   templates:
   - split: 1
     template: "{0} ⟦0⟧"
@@ -557,10 +679,12 @@
   splits:
   - split: 1
     text: "此页面有已分配的点数尚未确定"
+    translated: "This page has assigned points that have not yet been confirmed."
 - raw: "System/CharacterInfo,列传"
   splits:
   - split: 1
     text: "列传"
+    translated: "Biographies"
 - raw: "System/Shop,商店"
   splits:
   - split: 1
@@ -570,25 +694,33 @@
   splits:
   - split: 1
     text: "没有任何的杂物。"
+    translated: "There was nothing but purity"
 - raw: "System/NoSkills,没有任何的技能。"
   splits:
   - split: 1
     text: "没有任何的技能。"
+    translated: "No skills at all"
 - raw: "System/NoItems,没有任何的物品。"
   splits:
   - split: 1
     text: "没有任何的物品。"
+    translated: "There are no items at all"
 - raw: "System/NoMartialBook,没有任何的秘笈。"
   splits:
   - split: 1
     text: "没有任何的秘笈。"
+    translated: "There are no secret techniques"
 - raw: "System/NoMoneyDialog,师弟…你没有这么多钱吧？"
   splits:
   - split: 1
     text: "师弟"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "你没有这么多钱吧？"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}…{1}"
@@ -596,14 +728,17 @@
   splits:
   - split: 1
     text: "买得好！"
+    translated: "Bought well!"
 - raw: "System/TotalAmount,总额"
   splits:
   - split: 1
     text: "总额"
+    translated: "Total amount"
 - raw: "System/Enable,启动"
   splits:
   - split: 1
     text: "启动"
+    translated: "Activate"
 - raw: "System/Revolution,逆天"
   splits:
   - split: 1
@@ -618,10 +753,12 @@
   splits:
   - split: 1
     text: "继续"
+    translated: "Continue"
 - raw: "System/YourChoice,你的抉择……"
   splits:
   - split: 1
     text: "你的抉择"
+    translated: "Your choice......"
   templates:
   - split: 1
     template: "{0}……"
@@ -629,6 +766,7 @@
   splits:
   - split: 1
     text: "战术支援"
+    translated: "‑Tactical Support‑"
   templates:
   - split: 1
     template: "–{0}–"
@@ -641,10 +779,12 @@
   splits:
   - split: 1
     text: "敌"
+    translated: "Enemy"
 - raw: "System/BattleSkillSetting,技能设置"
   splits:
   - split: 1
     text: "技能设置"
+    translated: "Skill settings"
 - raw: "System/BattleStartText_01,出"
   splits:
   - split: 1
@@ -664,33 +804,43 @@
   splits:
   - split: 1
     text: "决战"
+    translated: "Final Clash"
 - raw: "System/BattleVictory,胜"
   splits:
   - split: 1
     text: "胜"
+    translated: "Victory"
 - raw: "System/BattleLose,败"
   splits:
   - split: 1
     text: "败"
+    translated: "Defeat"
 - raw: "System/BattleVictoryText_01,大获全胜"
   splits:
   - split: 1
     text: "大获全胜"
+    translated: "Won decisively"
 - raw: "System/BattleLoseText_01,一败涂地"
   splits:
   - split: 1
     text: "一败涂地"
+    translated: "Utter defeat"
 - raw: "System/BattleTimeoutText_01,时间结束"
   splits:
   - split: 1
     text: "时间结束"
+    translated: "Time's up"
 - raw: "System/BattleGetMoney,获得 {0}钱"
   splits:
   - split: 1
     text: "获得"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "钱"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} ⟦0⟧{1}"
@@ -698,6 +848,7 @@
   splits:
   - split: 1
     text: "没朋友"
+    translated: "No friends"
 - raw: "System/BattleInfoHeader,操作"
   splits:
   - split: 1
@@ -707,18 +858,28 @@
   splits:
   - split: 1
     text: "选单"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "移动"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "箭头键"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "翻滚"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 4
     text: "空格键"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} - [ESC]\\n{1} - [{2}]\\n{3} - [{4}]"
@@ -726,18 +887,28 @@
   splits:
   - split: 1
     text: "近战"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "平射"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "抛射"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "长按"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 4
     text: "嘴攻"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} - [Z]\\n{1} - [X]\\n{2} - [{3}X]\\n{4} - [C]"
@@ -745,15 +916,23 @@
   splits:
   - split: 1
     text: "技能1"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "技能2"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "技能3"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "技能4"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} - [Q]\\n{1} - [W]\\n{2} - [E]\\n{3} - [R]"
@@ -761,6 +940,7 @@
   splits:
   - split: 1
     text: "暂停"
+    translated: "‑Pause‑"
   templates:
   - split: 1
     template: "—{0}—"
@@ -768,10 +948,12 @@
   splits:
   - split: 1
     text: "时间"
+    translated: "Time"
 - raw: "System/Header/Lover,心系："
   splits:
   - split: 1
     text: "心系"
+    translated: "Heartbound:"
   templates:
   - split: 1
     template: "{0}："
@@ -779,6 +961,7 @@
   splits:
   - split: 1
     text: "心相"
+    translated: "Heart Connection"
   templates:
   - split: 1
     template: "{0}："
@@ -786,6 +969,7 @@
   splits:
   - split: 1
     text: "阴阳"
+    translated: "Yin Yang:"
   templates:
   - split: 1
     template: "{0}："
@@ -793,6 +977,7 @@
   splits:
   - split: 1
     text: "命运"
+    translated: "Destiny:"
   templates:
   - split: 1
     template: "{0}："
@@ -800,6 +985,7 @@
   splits:
   - split: 1
     text: "修练条件"
+    translated: "Training Conditions:"
   templates:
   - split: 1
     template: "{0}："
@@ -807,10 +993,12 @@
   splits:
   - split: 1
     text: "以下条件其一达成"
+    translated: "One of the following conditions is met"
 - raw: "System/Header/MaxCost,最大消费："
   splits:
   - split: 1
     text: "最大消费"
+    translated: "Maximum consumption:"
   templates:
   - split: 1
     template: "{0}："
@@ -818,6 +1006,7 @@
   splits:
   - split: 1
     text: "花费银两"
+    translated: "Spending silver dollars:"
   templates:
   - split: 1
     template: "{0}："
@@ -825,9 +1014,13 @@
   splits:
   - split: 1
     text: "基础骰子下限"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "上限"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "[{0}：⟦0⟧ {1}：⟦1⟧]"
@@ -975,14 +1168,17 @@
   splits:
   - split: 1
     text: "重新开始"
+    translated: "Start over"
 - raw: "System/GoMenu,回主选单"
   splits:
   - split: 1
     text: "回主选单"
+    translated: "Go back to the main menu"
 - raw: "System/ClickContinue,–点击继续–"
   splits:
   - split: 1
     text: "点击继续"
+    translated: "–Click to continue–"
   templates:
   - split: 1
     template: "–{0}–"
@@ -995,13 +1191,18 @@
   splits:
   - split: 1
     text: "这是你的尸体，没有人爱你。"
+    translated: "This is your corpse; no one loved you."
 - raw: "System/ListenKeyRebind,请输入新的...或ESC取消"
   splits:
   - split: 1
     text: "请输入新的...或"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "取消"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}ESC{1}"
@@ -1009,52 +1210,68 @@
   splits:
   - split: 1
     text: "游戏语言"
+    translated: "Game language"
 - raw: "SystemSetting/Title/Game,游戏设定"
   splits:
   - split: 1
     text: "游戏设定"
+    translated: "Game setting"
 - raw: "SystemSetting/Title/Graphic,画面设定"
   splits:
   - split: 1
     text: "画面设定"
+    translated: "Scene settings"
 - raw: "SystemSetting/Title/Sound,声音设定"
   splits:
   - split: 1
     text: "声音设定"
+    translated: "Sound settings"
 - raw: "SystemSetting/Title/MustReturnTitle,需返回到游戏标题设定"
   splits:
   - split: 1
     text: "需返回到游戏标题设定"
+    translated: "Need to return to the game title settings"
 - raw: "SystemSetting/Game/ManualDestiny,手动启动天命轮盘"
   splits:
   - split: 1
     text: "手动启动天命轮盘"
+    translated: "Manually activating the Mandate of Heaven Wheel"
 - raw: "SystemSetting/Game/AutoSave,养成回合自动存档"
   splits:
   - split: 1
     text: "养成回合自动存档"
+    translated: "Save game at turn intervals"
 - raw: "SystemSetting/Game/SkipUnreadStory,可快转未读文字"
   splits:
   - split: 1
     text: "可快转未读文字"
+    translated: "Skip unread text"
 - raw: "SystemSetting/Game/ReadStoryColor,已读文字变色"
   splits:
   - split: 1
     text: "已读文字变色"
+    translated: "Read text changes color"
 - raw: "SystemSetting/Graphic/Resolution,分辨率"
   splits:
   - split: 1
     text: "分辨率"
+    translated: "Resolution"
 - raw: "SystemSetting/Graphic/Fullscreen,全屏幕(只适用16:9比例显示器)"
   splits:
   - split: 1
     text: "全屏幕"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "只适用16"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "9比例显示器"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1}:{2})"
@@ -1062,6 +1279,7 @@
   splits:
   - split: 1
     text: "控制器图示"
+    translated: "Controller icon"
 - raw: "SystemSetting/Sound/Master,主音量"
   splits:
   - split: 1
@@ -1071,6 +1289,7 @@
   splits:
   - split: 1
     text: "音乐音量"
+    translated: "Music volume"
 - raw: "SystemSetting/Sound/SFX,音效音量"
   splits:
   - split: 1
@@ -1080,9 +1299,13 @@
   splits:
   - split: 1
     text: "下一等级"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "门派规模"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}⟦0⟧"
@@ -1090,10 +1313,12 @@
   splits:
   - split: 1
     text: "银两不足"
+    translated: "Silver coins are insufficient"
 - raw: "System/NoPoint,点数不足"
   splits:
   - split: 1
     text: "点数不足"
+    translated: "Insufficient points"
 - raw: "System/itemSold,售罄"
   splits:
   - split: 1
@@ -1108,6 +1333,7 @@
   splits:
   - split: 1
     text: "门派规模"
+    translated: "The scale of the sect {0}"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -1115,6 +1341,7 @@
   splits:
   - split: 1
     text: "装备等级"
+    translated: "Equipment Level {0}"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -1122,9 +1349,13 @@
   splits:
   - split: 1
     text: "归还"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "点锻造点数"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -1132,9 +1363,13 @@
   splits:
   - split: 1
     text: "归还"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "点炼丹点数"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -1142,9 +1377,13 @@
   splits:
   - split: 1
     text: "归还"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "银两"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -1152,13 +1391,18 @@
   splits:
   - split: 1
     text: "依目前开发项目"
+    translated: "Given the current development project"
 - raw: "Develop/RequireLevel,需求：等级 {0}"
   splits:
   - split: 1
     text: "需求"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "等级"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1} ⟦0⟧"
@@ -1171,6 +1415,8 @@
   splits:
   - split: 1
     text: "目前"
+    translated: "{0}{1}{2} (Currently {3}) ({4})"
+    flaggedForRetranslation: true
   templates:
   - split: 1
     template: "⟦0⟧⟦1⟧⟦2⟧({0}⟦3⟧) (⟦4⟧)"
@@ -1178,9 +1424,12 @@
   splits:
   - split: 1
     text: "好感度"
+    translated: "Affinity"
   - split: 1
     subIndex: 1
     text: "目前"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "⟦0⟧{0}⟦1⟧⟦2⟧({1}⟦3⟧) (⟦4⟧)"
@@ -1188,6 +1437,8 @@
   splits:
   - split: 1
     text: "需要"
+    translated: "Need '{0}'({1})"
+    flaggedForRetranslation: true
   templates:
   - split: 1
     template: "{0}《⟦0⟧》(⟦1⟧)"
@@ -1195,9 +1446,13 @@
   splits:
   - split: 1
     text: "需要"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "持有"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
@@ -1205,9 +1460,13 @@
   splits:
   - split: 1
     text: "需要"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "持有"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
@@ -1215,9 +1474,13 @@
   splits:
   - split: 1
     text: "技能"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "目前"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}《⟦0⟧Lv⟦1⟧》({1}⟦2⟧) (⟦3⟧)"
@@ -1225,9 +1488,13 @@
   splits:
   - split: 1
     text: "儒学"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "目前"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1235,9 +1502,13 @@
   splits:
   - split: 1
     text: "道学"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "目前"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1245,9 +1516,13 @@
   splits:
   - split: 1
     text: "释学"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "目前"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1255,9 +1530,12 @@
   splits:
   - split: 1
     text: "形意拳"
+    translated: "Xingyi Fist"
   - split: 1
     subIndex: 1
     text: "目前"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1265,6 +1543,8 @@
   splits:
   - split: 1
     text: "属性"
+    translated: "Attribute: {0} [{1}/{2}]"
+    flaggedForRetranslation: true
   templates:
   - split: 1
     template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
@@ -1272,6 +1552,7 @@
   splits:
   - split: 1
     text: "影响"
+    translated: "Impact: {0}"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1279,6 +1560,8 @@
   splits:
   - split: 1
     text: "技能"
+    translated: "Skill: {0} [{1}/{2}]"
+    flaggedForRetranslation: true
   templates:
   - split: 1
     template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
@@ -1286,6 +1569,7 @@
   splits:
   - split: 1
     text: "技能"
+    translated: "Skill: {0}"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1293,6 +1577,7 @@
   splits:
   - split: 1
     text: "可习得"
+    translated: "Can be learned: {0}"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1300,26 +1585,32 @@
   splits:
   - split: 1
     text: "议题"
+    translated: "Topic"
 - raw: "Middle/Title/CostAction,消耗行动"
   splits:
   - split: 1
     text: "消耗行动"
+    translated: "Spend Action Points"
 - raw: "Middle/Title/CostContribution,消耗贡献"
   splits:
   - split: 1
     text: "消耗贡献"
+    translated: "Consume Contributions"
 - raw: "Middle/Title/Combat,决斗"
   splits:
   - split: 1
     text: "决斗"
+    translated: "Duel"
 - raw: "Middle/Title/Battle,战役"
   splits:
   - split: 1
     text: "战役"
+    translated: "Battle"
 - raw: "Middle/Title/Talk,闲聊"
   splits:
   - split: 1
     text: "闲聊"
+    translated: "Idle chat"
 - raw: "Middle/Title/Shop,商店"
   splits:
   - split: 1
@@ -1329,6 +1620,7 @@
   splits:
   - split: 1
     text: "切换"
+    translated: "Switch"
 - raw: "Middle/Title/Event,事件"
   splits:
   - split: 1
@@ -1338,10 +1630,12 @@
   splits:
   - split: 1
     text: "离开"
+    translated: "Leave"
 - raw: "Middle/Title/Move,移动"
   splits:
   - split: 1
     text: "移动"
+    translated: "Move"
 - raw: "Middle/Title/Default,其他"
   splits:
   - split: 1
@@ -1371,13 +1665,18 @@
   splits:
   - split: 1
     text: "近战"
+    translated: "Close combat"
 - raw: "BattleKey/Name/Attack2,平射(长按抛射)"
   splits:
   - split: 1
     text: "平射"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "长按抛射"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -1385,6 +1684,7 @@
   splits:
   - split: 1
     text: "抛射"
+    translated: "Projection"
 - raw: "BattleKey/Name/Curse,嘴功"
   splits:
   - split: 1
@@ -1394,6 +1694,7 @@
   splits:
   - split: 1
     text: "闪避"
+    translated: "Dodge"
 - raw: "BattleKey/Name/Skill_1,技能1"
   splits:
   - split: 1
@@ -1418,10 +1719,12 @@
   splits:
   - split: 1
     text: "设定"
+    translated: "Setting"
 - raw: "BattleKey/Name/Reset,预设"
   splits:
   - split: 1
     text: "预设"
+    translated: "Default"
 - raw: "System/StoryEvent,事件"
   splits:
   - split: 1

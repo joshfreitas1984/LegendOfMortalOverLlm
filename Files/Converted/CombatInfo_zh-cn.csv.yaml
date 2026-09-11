@@ -2,12 +2,18 @@
   splits:
   - split: 1
     text: "嘴攻"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "出口伤人的控制手段，可挫敌锐气，降低绝招伤害，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "使人投鼠忌器不敢轻举妄动，有时会激怒对方。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -15,12 +21,18 @@
   splits:
   - split: 1
     text: "捅人"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "使用兵刃造成伤害，可强行压制嘴攻行动。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "根据性情，有时会因为把人捅出了血来，导致自己陷入恐慌。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -28,12 +40,18 @@
   splits:
   - split: 1
     text: "暗器"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "唐门拿手绝活，投掷暗器造成伤害，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "累积异常状态，可中断嘴攻、捅人行动。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -41,12 +59,18 @@
   splits:
   - split: 1
     text: "绝招"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "消耗大量的气力，造成强大的伤害。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "可中断捅人、暗器行动"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n<color=#FF0000>{2}</color>"
@@ -54,12 +78,18 @@
   splits:
   - split: 1
     text: "备揍"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "做好挨揍的心理准备，减轻伤害，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "并有额外机率回避暗器或招架兵器。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -67,29 +97,38 @@
   splits:
   - split: 1
     text: "寻常的你。"
+    translated: "Ordinary you"
 - raw: "CombatInfo/level1,蓄势待发，不寻常的你。攻防微幅上升。"
   splits:
   - split: 1
     text: "蓄势待发，不寻常的你。攻防微幅上升。"
+    translated: "Gathering momentum, the unusual you. Both offense and defense have slightly increased."
 - raw: "CombatInfo/level2,穷究武学，状态绝佳的你。攻防大幅上升。"
   splits:
   - split: 1
     text: "穷究武学，状态绝佳的你。攻防大幅上升。"
+    translated: "Dedicating yourself to Martial Arts, you are in excellent condition. Your offense and defense have greatly improved."
 - raw: "CombatInfo/level3,臻入化境，超凡入圣的你。攻防超幅上升。"
   splits:
   - split: 1
     text: "臻入化境，超凡入圣的你。攻防超幅上升。"
+    translated: "You have reached a state of transcendence, extraordinary and holy. Your offensive and defensive capabilities have significantly increased."
 - raw: "CombatInfo/hp,维持心脏跳动的神奇力量。"
   splits:
   - split: 1
     text: "维持心脏跳动的神奇力量。"
+    translated: "The magical power that sustains the heartbeat"
 - raw: "CombatInfo/mp,做点什么的勇气，每回合回复{0}点。"
   splits:
   - split: 1
     text: "做点什么的勇气，每回合回复"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "点。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -97,10 +136,12 @@
   splits:
   - split: 1
     text: "你所无法控制的那一部分，俗称运气。"
+    translated: "The part you cannot control is commonly known as luck."
 - raw: "CombatInfo/costMp,消耗气：{0}"
   splits:
   - split: 1
     text: "消耗气"
+    translated: "Qi Cost: {0}"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -108,6 +149,7 @@
   splits:
   - split: 1
     text: "恢复气"
+    translated: "Restore Qi: {0}"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -115,6 +157,7 @@
   splits:
   - split: 1
     text: "命中"
+    translated: "Hit Rate {0:P0}"
   templates:
   - split: 1
     template: "{0}\\n⟦0:P0⟧"
@@ -122,6 +165,7 @@
   splits:
   - split: 1
     text: "嘴力"
+    translated: "Mouth Power"
   templates:
   - split: 1
     template: "{0}\\n⟦0⟧"
@@ -129,6 +173,7 @@
   splits:
   - split: 1
     text: "回避"
+    translated: "Evade {0:P0}"
   templates:
   - split: 1
     template: "{0}\\n⟦0:P0⟧"
@@ -136,6 +181,7 @@
   splits:
   - split: 1
     text: "连击"
+    translated: "{0} Combo Attack"
   templates:
   - split: 1
     template: "⟦0⟧{0}"
@@ -143,10 +189,12 @@
   splits:
   - split: 1
     text: "毫发无伤"
+    translated: "Unscathed"
 - raw: "CombatInfo/displayHp,血{0}"
   splits:
   - split: 1
     text: "血"
+    translated: "Blood {0}"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -154,6 +202,7 @@
   splits:
   - split: 1
     text: "气"
+    translated: "Qi {0}"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -171,26 +220,32 @@
   splits:
   - split: 1
     text: "回避成功"
+    translated: "Avoidance Success"
 - raw: "CombatInfo/enemyAttackIntension,敌人好像蠢蠢欲动"
   splits:
   - split: 1
     text: "敌人好像蠢蠢欲动"
+    translated: "The enemy seems to be stirring restlessly"
 - raw: "CombatInfo/enemyDefenseIntension,敌人好像有所防备"
   splits:
   - split: 1
     text: "敌人好像有所防备"
+    translated: "The enemy seems to be on guard"
 - raw: "CombatInfo/getAngry,感到愤怒"
   splits:
   - split: 1
     text: "感到愤怒"
+    translated: "Feeling anger"
 - raw: "CombatInfo/collapse,虚脱"
   splits:
   - split: 1
     text: "虚脱"
+    translated: "Exhaustion"
 - raw: "CombatInfo/collapseAll,双方用尽全力，都感到虚脱。"
   splits:
   - split: 1
     text: "双方用尽全力，都感到虚脱。"
+    translated: "Both sides exerted all their strength and felt exhausted."
 - raw: "CombatInfo/catchWeapon,接住暗器"
   splits:
   - split: 1
@@ -200,12 +255,18 @@
   splits:
   - split: 1
     text: "毒性累积值"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "累积至50时造成「毒"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "1」异常状态。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -213,12 +274,18 @@
   splits:
   - split: 1
     text: "毒性累积值"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "累积至100时造成「毒"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "2」异常状态。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -226,12 +293,18 @@
   splits:
   - split: 1
     text: "毒性累积值"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "累积至150时造成「毒"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "3」异常状态，引发后清空累积值。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -239,12 +312,18 @@
   splits:
   - split: 1
     text: "麻痹累积值"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "累积至50时造成「麻"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "1」异常状态。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -252,12 +331,18 @@
   splits:
   - split: 1
     text: "麻痹累积值"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "累积至100时造成「麻"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "2」异常状态。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -265,12 +350,18 @@
   splits:
   - split: 1
     text: "麻痹累积值"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "累积至150时造成「麻"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "3」异常状态，引发后清空累积值。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -313,21 +404,28 @@
   splits:
   - split: 1
     text: "备揍"
+    translated: "Guard"
 - raw: "CombatAction/ultimate,绝招"
   splits:
   - split: 1
     text: "绝招"
+    translated: "Ultimate"
 - raw: "CombatAction/idle,闲置"
   splits:
   - split: 1
     text: "闲置"
+    translated: "Idle"
 - raw: "CombatInfo/round,第 {0} 回合"
   splits:
   - split: 1
     text: "第"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "回合"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} ⟦0⟧ {1}"
@@ -335,6 +433,7 @@
   splits:
   - split: 1
     text: "境界"
+    translated: "Realm‧{0}"
   templates:
   - split: 1
     template: "{0}‧⟦0⟧"
@@ -347,6 +446,7 @@
   splits:
   - split: 1
     text: "归元"
+    translated: "Return to Origin"
 - raw: "CombatAction/block_003,石灰粉"
   splits:
   - split: 1
@@ -356,58 +456,74 @@
   splits:
   - split: 1
     text: "金钟罩"
+    translated: "Golden Bell Shield"
 - raw: "CombatAction/block_005,收势"
   splits:
   - split: 1
     text: "收势"
+    translated: "Reeling in the momentum"
 - raw: "CombatAction/block_006,枯荣神功"
   splits:
   - split: 1
     text: "枯荣神功"
+    translated: "Withering and Flourishing Divine Skill"
 - raw: "CombatAction/curse_001,战神语录"
   splits:
   - split: 1
     text: "战神语录"
+    translated: "War God's Sayings"
 - raw: "CombatAction/curse_002,核枣钉"
   splits:
   - split: 1
     text: "核枣钉"
+    translated: "Jujube Pit Nail"
 - raw: "CombatAction/curse_003,狮子吼"
   splits:
   - split: 1
     text: "狮子吼"
+    translated: "Lion's Roar"
 - raw: "CombatAction/curse_004,苍龙吟"
   splits:
   - split: 1
     text: "苍龙吟"
+    translated: "Canglong Yin"
 - raw: "CombatAction/curse_005,虎啸吼"
   splits:
   - split: 1
     text: "虎啸吼"
+    translated: "Tiger Roar"
 - raw: "CombatAction/attack_001,反击"
   splits:
   - split: 1
     text: "反击"
+    translated: "Counterattack"
 - raw: "CombatAction/attack_002,犯剑"
   splits:
   - split: 1
     text: "犯剑"
+    translated: "Sword Offense"
 - raw: "CombatAction/attack_003,舞剑"
   splits:
   - split: 1
     text: "舞剑"
+    translated: "Sword dance"
 - raw: "CombatAction/attack_004,追击"
   splits:
   - split: 1
     text: "追击"
+    translated: "Pursuit"
 - raw: "CombatAction/attack_005,夺魄幽灵爪"
   splits:
   - split: 1
     text: "夺魄幽灵爪"
+    translated: "Soul‑Stealer Phantom Claw"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Soul Stealer,奪魄,"
 - raw: "CombatAction/attack_006,雪山飞鸿爪"
   splits:
   - split: 1
     text: "雪山飞鸿爪"
+    translated: "Snow Mountain Flying Swan Claw"
 - raw: "CombatAction/attack_007,抽人"
   splits:
   - split: 1
@@ -422,46 +538,59 @@
   splits:
   - split: 1
     text: "金刚神枪指"
+    translated: "Vajra Divine Spear Technique"
 - raw: "CombatAction/weapon_003,飞燕流星翎"
   splits:
   - split: 1
     text: "飞燕流星翎"
+    translated: "Flying Swallow Meteor Feather"
 - raw: "CombatAction/ultimate_001,天罡伏魔剑"
   splits:
   - split: 1
     text: "天罡伏魔剑"
+    translated: "Heavenly Gang Subduing Demon Sword"
 - raw: "CombatAction/ultimate_002,太白仙迹"
   splits:
   - split: 1
     text: "太白仙迹"
+    translated: "Taibai Immortal Footprints"
 - raw: "CombatAction/ultimate_003,猿王回风"
   splits:
   - split: 1
     text: "猿王回风"
+    translated: "Monkey King's Wind Return"
 - raw: "CombatAction/ultimate_004,绝影奇袭"
   splits:
   - split: 1
     text: "绝影奇袭"
+    translated: "Shadowless Surprise Attack"
 - raw: "CombatAction/ultimate_005,铁臂飞拳"
   splits:
   - split: 1
     text: "铁臂飞拳"
+    translated: "Iron Arm Flying Fist"
 - raw: "CombatAction/ultimate_006,阴阳夺"
   splits:
   - split: 1
     text: "阴阳夺"
+    translated: "Yin and Yang Theft"
 - raw: "CombatAction/ultimate_007,点破云关"
   splits:
   - split: 1
     text: "点破云关"
+    translated: "Breakthrough of Cloud Pass"
 - raw: "CombatAction/ultimate_008,云霄雷霆霹雳刀"
   splits:
   - split: 1
     text: "云霄雷霆霹雳刀"
+    translated: "Cloud Sky Thunderbolt Blade"
 - raw: "CombatAction/ultimate_009,风雷神脚"
   splits:
   - split: 1
     text: "风雷神脚"
+    translated: "Wind Thunder God Foot"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Wind Thunder Divine Foot,風雷神腳,"
 - raw: "CombatAction/ultimate_010,神雷"
   splits:
   - split: 1
@@ -471,19 +600,24 @@
   splits:
   - split: 1
     text: "保护云裳"
+    translated: "Protect Yunshang"
 - raw: "CombatAction/ultimate_012,同舟剑法"
   splits:
   - split: 1
     text: "同舟剑法"
+    translated: "Tongzhou Sword Technique"
 - raw: "CombatAction/ultimate_013,第一极招"
   splits:
   - split: 1
     text: "第一极招"
+    translated: "First Extreme Move"
 - raw: "CombatAction/ultimate_014,第二极招"
   splits:
   - split: 1
     text: "第二极招"
+    translated: "Second Extreme Move"
 - raw: "CombatAction/ultimate_015,第三极招"
   splits:
   - split: 1
     text: "第三极招"
+    translated: "Third Extreme Technique"

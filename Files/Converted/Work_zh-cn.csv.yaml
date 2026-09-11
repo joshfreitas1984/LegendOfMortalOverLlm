@@ -2,12 +2,18 @@
   splits:
   - split: 1
     text: "焚香"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "烹茶"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "掌灯"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}·{1}‧{2}"
@@ -15,21 +21,28 @@
   splits:
   - split: 1
     text: "扫除"
+    translated: "Cleaning"
 - raw: "Work/Content/Poison,炼毒制药"
   splits:
   - split: 1
     text: "炼毒制药"
+    translated: "Refining poison into medicine"
 - raw: "Work/Content/Forge,锻造暗器"
   splits:
   - split: 1
     text: "锻造暗器"
+    translated: "Forging Hidden Weapons"
 - raw: "Work/Content/BackMountain,挑柴/挑水"
   splits:
   - split: 1
     text: "挑柴"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "挑水"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}/{1}"
@@ -37,28 +50,38 @@
   splits:
   - split: 1
     text: "偷懒"
+    translated: "Slacking off"
 - raw: "Work/Content/Door,购案"
   splits:
   - split: 1
     text: "购案"
+    translated: "Purchase Case"
 - raw: "Work/Content/Study,庶务"
   splits:
   - split: 1
     text: "庶务"
+    translated: "Miscellaneous duties"
 - raw: "Work/Content/Kitchen,掌厨"
   splits:
   - split: 1
     text: "掌厨"
+    translated: "Head chef"
 - raw: "Work/Dialog/Mall,在正心堂担任值日生，只需要做一些简单的风雅工作。\\n非但不会造成心理负担，还可以修身养性。\\n不过老是挑这种轻松的活，会惹人眼红的。"
   splits:
   - split: 1
     text: "在正心堂担任值日生，只需要做一些简单的风雅工作。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "非但不会造成心理负担，还可以修身养性。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "不过老是挑这种轻松的活，会惹人眼红的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -66,12 +89,18 @@
   splits:
   - split: 1
     text: "由于练习用的暗器装有墨水的缘故，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "所以无论清扫得多干净，每日早操完之后铁定会变很脏乱。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "总得有人把环境整理好的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -79,20 +108,28 @@
   splits:
   - split: 1
     text: "到不见天日的炼丹房去供人差遣吧。"
+    translated: "Go to the dark and dim alchemy room to be at someone's disposal."
 - raw: "Work/Dialog/Forge,到热死人的锻冶场去供人差遣吧。"
   splits:
   - split: 1
     text: "到热死人的锻冶场去供人差遣吧。"
+    translated: "Go to that scorching forge to be at someone's disposal."
 - raw: "Work/Dialog/BackMountain,为唐门上下打足明日用的柴薪与日常用水。\\n没有人想做这苦差事，因为很累。\\n此外栈道陡峭，为了不摔死必须步步为营，跑多几趟说不定轻功会变好，呵。"
   splits:
   - split: 1
     text: "为唐门上下打足明日用的柴薪与日常用水。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "没有人想做这苦差事，因为很累。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "此外栈道陡峭，为了不摔死必须步步为营，跑多几趟说不定轻功会变好，呵。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -100,9 +137,13 @@
   splits:
   - split: 1
     text: "我今天不想工作。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "我压力很大！"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -110,12 +151,18 @@
   splits:
   - split: 1
     text: "为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "等到入了夜，小师妹就会在窗边折纸鹤。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "我没打算做坏事，我只是想听她的呼吸声！"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -123,9 +170,13 @@
   splits:
   - split: 1
     text: "下山去采买生活必需品。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "可以透透气是不错，可是往往一去就多日不能回来，见不到小师妹"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}……。"
@@ -133,12 +184,18 @@
   splits:
   - split: 1
     text: "当三师兄的助手，协助处理门中大小杂务。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "兼任讲经堂藏书管理员，专司出借纪录。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "闲暇时也可以自己翻翻书，挺好的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -146,6 +203,7 @@
   splits:
   - split: 1
     text: "烧几道好菜拢络人心吧。"
+    translated: "Let's cook a few good dishes to win people's hearts."
 - raw: "Work/Dialog/Secret,神秘的房子。"
   splits:
   - split: 1
@@ -155,29 +213,38 @@
   splits:
   - split: 1
     text: "静坐冥想"
+    translated: "Sitting meditation"
 - raw: "Free/Content/Center,团练"
   splits:
   - split: 1
     text: "团练"
+    translated: "Group training"
 - raw: "Free/Content/Poison,当二师兄的助手"
   splits:
   - split: 1
     text: "当二师兄的助手"
+    translated: "To serve as the Second Senior Brother's assistant."
 - raw: "Free/Content/BackMountain,修练秘籍"
   splits:
   - split: 1
     text: "修练秘籍"
+    translated: "Cultivation Secrets"
 - raw: "Free/Content/Room1,耍废"
   splits:
   - split: 1
     text: "耍废"
+    translated: "Wasting time"
 - raw: "Free/Content/Door,门外选项(长假)"
   splits:
   - split: 1
     text: "门外选项"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "长假"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -185,21 +252,28 @@
   splits:
   - split: 1
     text: "听三师兄讲课"
+    translated: "Listen to the Third Senior Brother's lecture"
 - raw: "Free/Content/Room2,小师妹房外蹲哨"
   splits:
   - split: 1
     text: "小师妹房外蹲哨"
+    translated: "Little Junior Sister squatting on guard outside the room."
 - raw: "Free/Dialog/Mall,修心课，无论入室弟子或外姓弟子都可以自由参加。"
   splits:
   - split: 1
     text: "修心课，无论入室弟子或外姓弟子都可以自由参加。"
+    translated: "Heart Cultivation Class: Both inner‑disciples and outsider disciples can freely participate."
 - raw: "Free/Dialog/Center,团练除了可以强身健体、敦亲睦邻之外，\\n最重要的是可以见到小师妹！"
   splits:
   - split: 1
     text: "团练除了可以强身健体、敦亲睦邻之外，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "最重要的是可以见到小师妹！"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -207,17 +281,23 @@
   splits:
   - split: 1
     text: "二师兄就喜欢一边使唤人做事一边骂人。"
+    translated: "Second Senior Brother just likes to order people around while scolding them."
 - raw: "Free/Dialog/BackMountain,唐门不肯传我真功夫，我就躲起来自己偷练武功。"
   splits:
   - split: 1
     text: "唐门不肯传我真功夫，我就躲起来自己偷练武功。"
+    translated: "The Tang Clan won't teach me the true techniques, so I'll sneak away to practice the martial arts on my own."
 - raw: "Free/Dialog/Room1,朕今天什么也不想做。\\n难得的假日就该东床高卧。"
   splits:
   - split: 1
     text: "朕今天什么也不想做。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "难得的假日就该东床高卧。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -225,20 +305,28 @@
   splits:
   - split: 1
     text: "出门玩耍去。"
+    translated: "Go out and play"
 - raw: "Free/Dialog/Study,听三师兄讲些圣贤道理，增长学问见识。"
   splits:
   - split: 1
     text: "听三师兄讲些圣贤道理，增长学问见识。"
+    translated: "Listen to Third Senior Brother talk about the principles of the sages to increase knowledge and insight."
 - raw: "Free/Dialog/Room2,为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。\\n等到入了夜，小师妹就会在窗边折纸鹤。\\n我没打算做坏事，我只是想听她的呼吸声！"
   splits:
   - split: 1
     text: "为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "等到入了夜，小师妹就会在窗边折纸鹤。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "我没打算做坏事，我只是想听她的呼吸声！"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"

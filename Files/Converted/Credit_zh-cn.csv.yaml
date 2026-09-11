@@ -2,86 +2,107 @@
   splits:
   - split: 1
     text: "制作群"
+    translated: "Production Team"
 - raw: "Credit/Header/Producer,制作人"
   splits:
   - split: 1
     text: "制作人"
+    translated: "Producer"
 - raw: "Credit/Header/GameDesign,游戏设计"
   splits:
   - split: 1
     text: "游戏设计"
+    translated: "Game design"
 - raw: "Credit/Header/LevelDesign,关卡设计"
   splits:
   - split: 1
     text: "关卡设计"
+    translated: "Level Design"
 - raw: "Credit/Header/StatDesign,数值设计"
   splits:
   - split: 1
     text: "数值设计"
+    translated: "Stats Design"
 - raw: "Credit/Header/SystemDesign,系统设计"
   splits:
   - split: 1
     text: "系统设计"
+    translated: "System Design"
 - raw: "Credit/Header/Story,故事剧本"
   splits:
   - split: 1
     text: "故事剧本"
+    translated: "Story Script"
 - raw: "Credit/Header/ScriptEditor,文本编辑"
   splits:
   - split: 1
     text: "文本编辑"
+    translated: "Text editing"
 - raw: "Credit/Header/Program,程序"
   splits:
   - split: 1
     text: "程序"
+    translated: "Program"
 - raw: "Credit/Header/Narrative,叙事设计"
   splits:
   - split: 1
     text: "叙事设计"
+    translated: "Narrative design"
 - raw: "Credit/Header/StoryCharDesign,故事人物设计"
   splits:
   - split: 1
     text: "故事人物设计"
+    translated: "Character Design for the Story"
 - raw: "Credit/Header/CombatChartDesign,决斗人物设计"
   splits:
   - split: 1
     text: "决斗人物设计"
+    translated: "Duel Character Design"
 - raw: "Credit/Header/BattleCharDesign,战役人物设计"
   splits:
   - split: 1
     text: "战役人物设计"
+    translated: "Campaign Character Design"
 - raw: "Credit/Header/SceneDesign,场景设计"
   splits:
   - split: 1
     text: "场景设计"
+    translated: "Scene Design"
 - raw: "Credit/Header/Picture,插画插图"
   splits:
   - split: 1
     text: "插画插图"
+    translated: "Illustration illustration"
 - raw: "Credit/Header/VFX,特效设计"
   splits:
   - split: 1
     text: "特效设计"
+    translated: "Special effects design"
 - raw: "Credit/Header/TechnicalArt,技术美术"
   splits:
   - split: 1
     text: "技术美术"
+    translated: "Technical Art"
 - raw: "Credit/Header/UIDesign,界面设计"
   splits:
   - split: 1
     text: "界面设计"
+    translated: "Interface design"
 - raw: "Credit/Header/SoundProgram,音效程序"
   splits:
   - split: 1
     text: "音效程序"
+    translated: "Sound effect program"
 - raw: "Credit/Header/External,外部协力"
   splits:
   - split: 1
     text: "外部协力"
+    translated: "External Cooperation"
 - raw: "Credit/Header/3D_Art,3D 美术"
   splits:
   - split: 1
     text: "美术"
+    translated: "3D Art"
   templates:
   - split: 1
     template: "3D {0}"
@@ -89,6 +110,7 @@
   splits:
   - split: 1
     text: "美术"
+    translated: "2D Art"
   templates:
   - split: 1
     template: "2D {0}"
@@ -96,18 +118,22 @@
   splits:
   - split: 1
     text: "决斗角色美术"
+    translated: "Duel Character Art"
 - raw: "Credit/Header/External2,九六伏绘工作室"
   splits:
   - split: 1
     text: "九六伏绘工作室"
+    translated: "Jiu Liu Fu Hui Studio"
 - raw: "Credit/Header/SceneArt,场景美术"
   splits:
   - split: 1
     text: "场景美术"
+    translated: "Scene Art"
 - raw: "Credit/Header/ParasStaff,Paras 工作室"
   splits:
   - split: 1
     text: "工作室"
+    translated: "Paras Studio"
   templates:
   - split: 1
     template: "Paras {0}"
@@ -115,18 +141,22 @@
   splits:
   - split: 1
     text: "项目统筹"
+    translated: "Project Coordinator"
 - raw: "Credit/Header/Animation,动画制作"
   splits:
   - split: 1
     text: "动画制作"
+    translated: "Animation Production"
 - raw: "Credit/Header/TestSupport,测试支持"
   splits:
   - split: 1
     text: "测试支持"
+    translated: "Test Support"
 - raw: "Credit/Header/Music,音乐"
   splits:
   - split: 1
     text: "音乐"
+    translated: "Music"
 - raw: "Credit/Header/MusicComposer,作曲"
   splits:
   - split: 1
@@ -136,14 +166,17 @@
   splits:
   - split: 1
     text: "编曲"
+    translated: "Arrangement"
 - raw: "Credit/Header/MusicOriginal,子夜寄君书原曲"
   splits:
   - split: 1
     text: "子夜寄君书原曲"
+    translated: "Midnight Letter to You: Original Melody"
 - raw: "Credit/Header/LocalizationKorean,韩文翻译 & QA"
   splits:
   - split: 1
     text: "韩文翻译"
+    translated: "Korean Translation & QA"
   templates:
   - split: 1
     template: "{0} & QA"
@@ -151,22 +184,27 @@
   splits:
   - split: 1
     text: "工作人员"
+    translated: "Staff"
 - raw: "Credit/Header/SpecialThank,特别感谢"
   splits:
   - split: 1
     text: "特别感谢"
+    translated: "Special thanks"
 - raw: "Credit/Header/ExternalTest,外部测试"
   splits:
   - split: 1
     text: "外部测试"
+    translated: "External testing"
 - raw: "Credit/Header/ExternalResource,外部资源"
   splits:
   - split: 1
     text: "外部资源"
+    translated: "External Resources"
 - raw: "Credit/Header/FontResource,字体"
   splits:
   - split: 1
     text: "字体"
+    translated: "Font"
 - raw: "Credit/Header/SoundResource,音效素材"
   splits:
   - split: 1
@@ -176,14 +214,17 @@
   splits:
   - split: 1
     text: "美术素材"
+    translated: "Art materials"
 - raw: "Credit/Header/ThirdPartyResource,第三方资源"
   splits:
   - split: 1
     text: "第三方资源"
+    translated: "Third‑party resources"
 - raw: "Credit/Header/ThankPlaying,感谢游玩"
   splits:
   - split: 1
     text: "感谢游玩"
+    translated: "Thank you for playing"
 - raw: "Credit/Header/Reinforcement,增援"
   splits:
   - split: 1
@@ -193,7 +234,9 @@
   splits:
   - split: 1
     text: "营销"
+    translated: "Marketing"
 - raw: "Credit/Header/SocialMarketing,社群营销"
   splits:
   - split: 1
     text: "社群营销"
+    translated: "Social media marketing"

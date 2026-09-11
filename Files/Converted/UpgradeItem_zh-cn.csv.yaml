@@ -2,9 +2,13 @@
   splits:
   - split: 1
     text: "捅人伤害"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "骰子"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧  {1}+⟦1:N0⟧"
@@ -12,6 +16,7 @@
   splits:
   - split: 1
     text: "捅人伤害"
+    translated: "Stabbing someone causing injury plus {0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -19,6 +24,7 @@
   splits:
   - split: 1
     text: "暗器伤害"
+    translated: "Hidden weapon damage increased by {0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -26,6 +32,7 @@
   splits:
   - split: 1
     text: "暗器命中补正"
+    translated: "Hidden weapon hit rate correction +{0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -33,9 +40,13 @@
   splits:
   - split: 1
     text: "暗器伤害"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "暗器骰子"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧  {1}+⟦1:N0⟧"
@@ -43,6 +54,7 @@
   splits:
   - split: 1
     text: "备揍减免"
+    translated: "Prepare to reduce the punishment by {0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -50,6 +62,7 @@
   splits:
   - split: 1
     text: "血量"
+    translated: "Health +{0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -57,6 +70,7 @@
   splits:
   - split: 1
     text: "移动速度加成"
+    translated: "Speed increase by {0:N0}%"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -64,6 +78,7 @@
   splits:
   - split: 1
     text: "血毒"
+    translated: "Venomous Poison + {0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -71,6 +86,7 @@
   splits:
   - split: 1
     text: "神经毒"
+    translated: "Poison nerve + {0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -78,6 +94,7 @@
   splits:
   - split: 1
     text: "抗毒"
+    translated: "Resist Poison"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -85,6 +102,7 @@
   splits:
   - split: 1
     text: "抗麻"
+    translated: "Resist Paralysis"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -92,9 +110,13 @@
   splits:
   - split: 1
     text: "近战伤害"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "爆击率"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧  {1}⟦1:P0⟧"
@@ -102,9 +124,13 @@
   splits:
   - split: 1
     text: "平射伤害"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "爆击率"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧  {1}⟦1:P0⟧"
@@ -112,9 +138,13 @@
   splits:
   - split: 1
     text: "抛射伤害"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "爆击率"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧  {1}⟦1:P0⟧"
@@ -122,6 +152,7 @@
   splits:
   - split: 1
     text: "陷阱伤害"
+    translated: "The trap inflicted damage on {0:N0}"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -129,6 +160,7 @@
   splits:
   - split: 1
     text: "范围"
+    translated: "Range {0:N0}"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -136,6 +168,7 @@
   splits:
   - split: 1
     text: "全部生命"
+    translated: "All health + {0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -143,6 +176,7 @@
   splits:
   - split: 1
     text: "防御等级"
+    translated: "Defensive rank +{0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -150,6 +184,7 @@
   splits:
   - split: 1
     text: "每秒回血"
+    translated: "HP regeneration per second +{0:N0}"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -157,9 +192,13 @@
   splits:
   - split: 1
     text: "触发"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "种异常状态"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧{1}"
@@ -167,9 +206,13 @@
   splits:
   - split: 1
     text: "异常状态"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "中毒等级"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"
@@ -177,9 +220,13 @@
   splits:
   - split: 1
     text: "异常状态"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "麻痹等级"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"
@@ -187,9 +234,13 @@
   splits:
   - split: 1
     text: "异常状态"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "抗毒等级"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"
@@ -197,9 +248,13 @@
   splits:
   - split: 1
     text: "异常状态"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "抗麻等级"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"

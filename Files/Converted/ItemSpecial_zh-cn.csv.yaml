@@ -2,13 +2,18 @@
   splits:
   - split: 1
     text: "小师妹的香囊"
+    translated: "Little Junior Sister's sachet"
 - raw: "Special/Desc/1000,小师妹随身配戴的香囊，有她喜欢的香料。\\n可以驱虫、驱蛇，但闻久会中毒。"
   splits:
   - split: 1
     text: "小师妹随身配戴的香囊，有她喜欢的香料。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "可以驱虫、驱蛇，但闻久会中毒。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -16,13 +21,20 @@
   splits:
   - split: 1
     text: "大师兄的涂鸦"
+    translated: "Big Brother's Doodle"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Big Senior Brother,大师兄,"
 - raw: "Special/Desc/1001,完全不知道在画什么东西，\\n但是很好笑所以姑且留着。"
   splits:
   - split: 1
     text: "完全不知道在画什么东西，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "但是很好笑所以姑且留着。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -30,13 +42,18 @@
   splits:
   - split: 1
     text: "夏侯兰的发带"
+    translated: "Xiahou Lan's hairband"
 - raw: "Special/Desc/1002,夏侯兰爱用的发带，不是什么希罕的事物，质地也普通。\\n因为她配戴过，所以才意义非凡。"
   splits:
   - split: 1
     text: "夏侯兰爱用的发带，不是什么希罕的事物，质地也普通。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "因为她配戴过，所以才意义非凡。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -44,13 +61,18 @@
   splits:
   - split: 1
     text: "上官萤的发簪"
+    translated: "Shangguan Ying's hairpin"
 - raw: "Special/Desc/1003,上官萤的发簪，簪身纯金，串有三颗珍珠，异常名贵。\\n是她谈成第一笔大买卖时，奢侈一回送给自己的礼物。"
   splits:
   - split: 1
     text: "上官萤的发簪，簪身纯金，串有三颗珍珠，异常名贵。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "是她谈成第一笔大买卖时，奢侈一回送给自己的礼物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -58,13 +80,18 @@
   splits:
   - split: 1
     text: "龙湘的发簪"
+    translated: "Hairpin of Long Xiang"
 - raw: "Special/Desc/1004,龙湘的玉髓发髻，共有两对，来自大宋进贡给金国的一尊玉龙像。\\n她爹龙渊少年时引以为耻，愤而折断龙角逃亡，后来做成发簪，留赠女儿。"
   splits:
   - split: 1
     text: "龙湘的玉髓发髻，共有两对，来自大宋进贡给金国的一尊玉龙像。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "她爹龙渊少年时引以为耻，愤而折断龙角逃亡，后来做成发簪，留赠女儿。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -72,13 +99,18 @@
   splits:
   - split: 1
     text: "叶云裳的梳子"
+    translated: "Ye Yunshang's comb"
 - raw: "Special/Desc/1005,叶云裳所收藏的第一号宝物，象牙梳子。\\n纹饰为云与叶，赠你以为结发之证。"
   splits:
   - split: 1
     text: "叶云裳所收藏的第一号宝物，象牙梳子。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "纹饰为云与叶，赠你以为结发之证。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -86,24 +118,33 @@
   splits:
   - split: 1
     text: "反唐门联盟成员清单"
+    translated: "List of Members of the Anti‑Tang Clan Alliance"
 - raw: "Special/Desc/2000,反唐门联盟成员清单"
   splits:
   - split: 1
     text: "反唐门联盟成员清单"
+    translated: "List of Members of the Anti‑Tang Clan Alliance"
 - raw: "Special/Name/2001,机巧飞蝗"
   splits:
   - split: 1
     text: "机巧飞蝗"
+    translated: "Mechanical Grasshopper"
 - raw: "Special/Desc/2001,你以纯熟匠艺打造的掌心玩物，\\n会叫会跳，有多种变速与音效。\\n无法当作暗器使用，会坏掉。"
   splits:
   - split: 1
     text: "你以纯熟匠艺打造的掌心玩物，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "会叫会跳，有多种变速与音效。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "无法当作暗器使用，会坏掉。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -111,13 +152,18 @@
   splits:
   - split: 1
     text: "崆峒磨喝乐"
+    translated: "Kongtong Mohe Le"
 - raw: "Special/Desc/2002,七夕日供乞巧用的娃娃。常用木、泥或蜡制成，好一点的会用瓷、玉。\\n常做成可爱儿童的模样，沦为孩童的玩具。"
   splits:
   - split: 1
     text: "七夕日供乞巧用的娃娃。常用木、泥或蜡制成，好一点的会用瓷、玉。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "常做成可爱儿童的模样，沦为孩童的玩具。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -130,9 +176,13 @@
   splits:
   - split: 1
     text: "小竹满怀感激，鼓起勇气送出的按摩券。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "多年无人敢用，辗转易主，来到你的手里。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -140,37 +190,48 @@
   splits:
   - split: 1
     text: "文房四宝"
+    translated: "The Four Treasures of the Study"
 - raw: "Special/Desc/2004,质地上好的文房四宝，即为毛笔、墨、宣纸、砚台"
   splits:
   - split: 1
     text: "质地上好的文房四宝，即为毛笔、墨、宣纸、砚台"
+    translated: "The four treasures of the study, which are of high quality, are the brush, ink, Xuan paper, and inkstone."
 - raw: "Special/Name/2005,发簪"
   splits:
   - split: 1
     text: "发簪"
+    translated: "Hairpin"
 - raw: "Special/Desc/2005,你自己手削的发簪，其实做工挺精细的，自己看着都挺满意的。"
   splits:
   - split: 1
     text: "你自己手削的发簪，其实做工挺精细的，自己看着都挺满意的。"
+    translated: "The hairpin you carved yourself is actually quite finely made, and you feel quite satisfied just looking at it."
 - raw: "Special/Name/2006,赵活磨喝乐"
   splits:
   - split: 1
     text: "赵活磨喝乐"
+    translated: "Zhao Huo grinds, drinks, and enjoys"
 - raw: "Special/Desc/2006,赵活磨喝乐"
   splits:
   - split: 1
     text: "赵活磨喝乐"
+    translated: "Zhao Huo grinds, drinks, and enjoys"
 - raw: "Special/Name/3104,江湖快报四月号"
   splits:
   - split: 1
     text: "江湖快报四月号"
+    translated: "Jianghu Bulletin, April Issue"
 - raw: "Special/Desc/3104,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -178,13 +239,18 @@
   splits:
   - split: 1
     text: "江湖快报五月号"
+    translated: "Jianghu Bulletin, May Issue"
 - raw: "Special/Desc/3105,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -192,13 +258,18 @@
   splits:
   - split: 1
     text: "江湖快报六月号"
+    translated: "Jianghu Bulletin, June Issue"
 - raw: "Special/Desc/3106,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -206,13 +277,18 @@
   splits:
   - split: 1
     text: "江湖快报七月号"
+    translated: "Jianghu Bulletin, July Issue"
 - raw: "Special/Desc/3107,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -220,13 +296,18 @@
   splits:
   - split: 1
     text: "江湖快报八月号"
+    translated: "Jianghu Bulletin, August Issue"
 - raw: "Special/Desc/3108,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -234,13 +315,18 @@
   splits:
   - split: 1
     text: "江湖快报九月号"
+    translated: "Jianghu Bulletin, September Issue"
 - raw: "Special/Desc/3109,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -248,13 +334,18 @@
   splits:
   - split: 1
     text: "江湖快报十月号"
+    translated: "Jianghu Bulletin, October Issue"
 - raw: "Special/Desc/3110,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -262,13 +353,18 @@
   splits:
   - split: 1
     text: "江湖快报十一月号"
+    translated: "Jianghu Express, November Issue"
 - raw: "Special/Desc/3111,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -276,13 +372,18 @@
   splits:
   - split: 1
     text: "江湖快报十二月号"
+    translated: "Jianghu Express, December Issue"
 - raw: "Special/Desc/3112,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -290,13 +391,18 @@
   splits:
   - split: 1
     text: "江湖快报一月号"
+    translated: "Jianghu Bulletin, January Issue"
 - raw: "Special/Desc/3201,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -304,13 +410,18 @@
   splits:
   - split: 1
     text: "江湖快报二月号"
+    translated: "Jianghu Express, February Issue"
 - raw: "Special/Desc/3202,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -318,13 +429,18 @@
   splits:
   - split: 1
     text: "江湖快报三月号"
+    translated: "Jianghu Bulletin, March Issue"
 - raw: "Special/Desc/3203,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -332,13 +448,18 @@
   splits:
   - split: 1
     text: "江湖快报四月号"
+    translated: "Jianghu Bulletin, April Issue"
 - raw: "Special/Desc/3204,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -346,13 +467,18 @@
   splits:
   - split: 1
     text: "江湖快报五月号"
+    translated: "Jianghu Bulletin, May Issue"
 - raw: "Special/Desc/3205,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -360,13 +486,18 @@
   splits:
   - split: 1
     text: "江湖快报六月号"
+    translated: "Jianghu Bulletin, June Issue"
 - raw: "Special/Desc/3206,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -374,13 +505,18 @@
   splits:
   - split: 1
     text: "江湖快报七月号"
+    translated: "Jianghu Bulletin, July Issue"
 - raw: "Special/Desc/3207,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -388,13 +524,18 @@
   splits:
   - split: 1
     text: "江湖快报八月号"
+    translated: "Jianghu Bulletin, August Issue"
 - raw: "Special/Desc/3208,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -402,13 +543,18 @@
   splits:
   - split: 1
     text: "江湖快报九月号"
+    translated: "Jianghu Bulletin, September Issue"
 - raw: "Special/Desc/3209,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -416,13 +562,18 @@
   splits:
   - split: 1
     text: "江湖快报十月号"
+    translated: "Jianghu Bulletin, October Issue"
 - raw: "Special/Desc/3210,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -430,13 +581,18 @@
   splits:
   - split: 1
     text: "江湖快报十一月号"
+    translated: "Jianghu Express, November Issue"
 - raw: "Special/Desc/3211,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -444,13 +600,18 @@
   splits:
   - split: 1
     text: "江湖快报十二月号"
+    translated: "Jianghu Express, December Issue"
 - raw: "Special/Desc/3212,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -458,13 +619,18 @@
   splits:
   - split: 1
     text: "江湖快报一月号"
+    translated: "Jianghu Bulletin, January Issue"
 - raw: "Special/Desc/3301,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -472,13 +638,18 @@
   splits:
   - split: 1
     text: "江湖快报二月号"
+    translated: "Jianghu Express, February Issue"
 - raw: "Special/Desc/3302,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -486,13 +657,18 @@
   splits:
   - split: 1
     text: "江湖快报三月号"
+    translated: "Jianghu Bulletin, March Issue"
 - raw: "Special/Desc/3303,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -500,13 +676,18 @@
   splits:
   - split: 1
     text: "江湖快报四月号"
+    translated: "Jianghu Bulletin, April Issue"
 - raw: "Special/Desc/3304,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -514,13 +695,18 @@
   splits:
   - split: 1
     text: "江湖快报五月号"
+    translated: "Jianghu Bulletin, May Issue"
 - raw: "Special/Desc/3305,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -528,13 +714,18 @@
   splits:
   - split: 1
     text: "江湖快报六月号"
+    translated: "Jianghu Bulletin, June Issue"
 - raw: "Special/Desc/3306,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -542,13 +733,18 @@
   splits:
   - split: 1
     text: "江湖快报七月号"
+    translated: "Jianghu Bulletin, July Issue"
 - raw: "Special/Desc/3307,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -556,13 +752,18 @@
   splits:
   - split: 1
     text: "江湖快报八月号"
+    translated: "Jianghu Bulletin, August Issue"
 - raw: "Special/Desc/3308,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -570,13 +771,18 @@
   splits:
   - split: 1
     text: "江湖快报九月号"
+    translated: "Jianghu Bulletin, September Issue"
 - raw: "Special/Desc/3309,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -584,13 +790,18 @@
   splits:
   - split: 1
     text: "江湖快报十月号"
+    translated: "Jianghu Bulletin, October Issue"
 - raw: "Special/Desc/3310,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -598,13 +809,18 @@
   splits:
   - split: 1
     text: "江湖快报十一月号"
+    translated: "Jianghu Express, November Issue"
 - raw: "Special/Desc/3311,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -612,13 +828,18 @@
   splits:
   - split: 1
     text: "江湖快报十二月号"
+    translated: "Jianghu Express, December Issue"
 - raw: "Special/Desc/3312,出自神秘组织耕阳读书斋的江湖刊物。\\n除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -626,21 +847,28 @@
   splits:
   - split: 1
     text: "切鱼刀"
+    translated: "Fish knife"
 - raw: "Special/Desc/4001,造型奇特、却极其锋利的东洋杀鱼刀。"
   splits:
   - split: 1
     text: "造型奇特、却极其锋利的东洋杀鱼刀。"
+    translated: "A uniquely shaped yet extremely sharp Eastern fish‑slicing knife."
 - raw: "Special/Name/4002,无形箭"
   splits:
   - split: 1
     text: "无形箭"
+    translated: "Formless Arrow"
 - raw: "Special/Desc/4002,唐门失传的暗器，这枚透明的花瓣，其庐山真面目是一种名叫「玻璃」的宝物。\\n与寻常琉璃不同，清澈如水，击发出去无影无形，凶险异常。"
   splits:
   - split: 1
     text: "唐门失传的暗器，这枚透明的花瓣，其庐山真面目是一种名叫「玻璃」的宝物。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "与寻常琉璃不同，清澈如水，击发出去无影无形，凶险异常。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -648,13 +876,18 @@
   splits:
   - split: 1
     text: "乌蚕宝衣"
+    translated: "Black Silkworm Treasure Garment"
 - raw: "Special/Desc/4003,小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。\\n她拙于言词，只能以此表明心迹，只愿风雨雷电不能加诸你身，余生无病无灾。"
   splits:
   - split: 1
     text: "小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "她拙于言词，只能以此表明心迹，只愿风雨雷电不能加诸你身，余生无病无灾。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -667,9 +900,13 @@
   splits:
   - split: 1
     text: "小梅爱用的匕首，乃是铁拳前掌门手把手带着小竹，为小梅打造的兵器。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "玉霄神是对梅花高洁品行的至高赞赏。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -677,13 +914,18 @@
   splits:
   - split: 1
     text: "唐门传承小剑"
+    translated: "Tang Clan's Inherited Small Sword"
 - raw: "Special/Desc/4005,唐门承传至今的古老小剑，以现今弃用的方法铸造。将剑中钢 球灌注水银，使重心无时不刻变动，须以内力制驭。如果能够熟练使用，可谓变化无穷。"
   splits:
   - split: 1
     text: "唐门承传至今的古老小剑，以现今弃用的方法铸造。将剑中钢"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "球灌注水银，使重心无时不刻变动，须以内力制驭。如果能够熟练使用，可谓变化无穷。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0} {1}"
@@ -691,13 +933,18 @@
   splits:
   - split: 1
     text: "密密缝"
+    translated: "Dense seams"
 - raw: "Special/Desc/4006,青衫有缺，蓝衣来补。\\n用师父袍子衣料缝补的破衣，不仔细看的话青蓝两色不分彼此，说是雪山派弟子的制服也不为过。"
   splits:
   - split: 1
     text: "青衫有缺，蓝衣来补。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "用师父袍子衣料缝补的破衣，不仔细看的话青蓝两色不分彼此，说是雪山派弟子的制服也不为过。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -705,16 +952,23 @@
   splits:
   - split: 1
     text: "连环火箭图纸"
+    translated: "Blueprints for the Continuous Rocket"
 - raw: "Special/Desc/4007,空前未有的危险兵器图纸。\\n小竹被恨意支配，画就了此物，冷静下来，连她本人都为之胆怯。\\n不知把这件事物带来人间究竟是对是错。"
   splits:
   - split: 1
     text: "空前未有的危险兵器图纸。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "小竹被恨意支配，画就了此物，冷静下来，连她本人都为之胆怯。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "不知把这件事物带来人间究竟是对是错。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -722,16 +976,23 @@
   splits:
   - split: 1
     text: "连环火箭"
+    translated: "Chain Rocket"
 - raw: "Special/Desc/4008,单方面火力压制、凌迟敌军的战争兵器。\\n不必经年累月的训练就能轻易操作，令天下弓手尽皆黯然。\\n这件兵器将是导致火器被广泛实用于战争的元凶。"
   splits:
   - split: 1
     text: "单方面火力压制、凌迟敌军的战争兵器。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "不必经年累月的训练就能轻易操作，令天下弓手尽皆黯然。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "这件兵器将是导致火器被广泛实用于战争的元凶。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -739,13 +1000,18 @@
   splits:
   - split: 1
     text: "纸甲图纸"
+    translated: "Paper armor blueprint"
 - raw: "Special/Desc/4009,将韧性极强的树皮和棉混合，以唐门药水浸泡，经过反复垂打而成。\\n虽然是纸，但层层堆栈，异常结实，遇水更韧，利刃飞矢亦不能轻易洞穿，而且远较寻常铁甲轻盈。"
   splits:
   - split: 1
     text: "将韧性极强的树皮和棉混合，以唐门药水浸泡，经过反复垂打而成。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "虽然是纸，但层层堆栈，异常结实，遇水更韧，利刃飞矢亦不能轻易洞穿，而且远较寻常铁甲轻盈。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -753,18 +1019,22 @@
   splits:
   - split: 1
     text: "猛火油柜图纸"
+    translated: "Blueprint for the Oil Fire Cabinet"
 - raw: "Special/Desc/4010,为了大量杀伤而发想设计出的暗器，能喷火伤敌，奈何不了武林高手，但在乱阵之中能奏奇功，令马兽失惊制造混乱，恫吓敌军引发延烧。"
   splits:
   - split: 1
     text: "为了大量杀伤而发想设计出的暗器，能喷火伤敌，奈何不了武林高手，但在乱阵之中能奏奇功，令马兽失惊制造混乱，恫吓敌军引发延烧。"
+    translated: "The hidden weapons designed for mass destruction can spray fire to harm enemies; however, they are ineffective against masters of the Wulin. Yet, in the chaos of battle, they can achieve remarkable results, startling horses and beasts, creating confusion, and intimidating the enemy forces, leading to further chaos."
 - raw: "Special/Name/4011,金钱剑"
   splits:
   - split: 1
     text: "金钱剑"
+    translated: "Money Sword"
 - raw: "Special/Desc/4011,道士驱邪用的法器，没人会拿来与人搏斗，除了你。倒持的时候，是一柄出人意料的凶残钝器。"
   splits:
   - split: 1
     text: "道士驱邪用的法器，没人会拿来与人搏斗，除了你。倒持的时候，是一柄出人意料的凶残钝器。"
+    translated: "The talismans used by Taoist priests to exorcise evil spirits are never meant for combat, except by you. When held upside down, it becomes an unexpectedly brutal blunt weapon."
 - raw: "Special/Name/4012,牛皮制服"
   splits:
   - split: 1
@@ -774,9 +1044,13 @@
   splits:
   - split: 1
     text: "叶云裳参详青城剑法，为你改良的制服。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "在诸要害处缝上牛皮，不妨碍活动，却能有效预防意外发生。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -784,13 +1058,18 @@
   splits:
   - split: 1
     text: "沥泉枪头"
+    translated: "Dripping Spring Spearhead"
 - raw: "Special/Desc/4013,岳王爷生前爱用的名枪，浇过英雄碧血，可昭浩然正气，破虏光复河山。\\n天命会指引它，来到下一个英雄手中。"
   splits:
   - split: 1
     text: "岳王爷生前爱用的名枪，浇过英雄碧血，可昭浩然正气，破虏光复河山。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "天命会指引它，来到下一个英雄手中。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -798,13 +1077,18 @@
   splits:
   - split: 1
     text: "叫化鸡食谱"
+    translated: "Beggar's Chicken Recipe"
 - raw: "Special/Desc/5001,记载了特别好吃的叫化鸡秘方，是王二壮拿手绝活。\\n导致龙湘终生不能摆脱鸡腿的罪魁祸首。"
   splits:
   - split: 1
     text: "记载了特别好吃的叫化鸡秘方，是王二壮拿手绝活。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "导致龙湘终生不能摆脱鸡腿的罪魁祸首。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -812,16 +1096,23 @@
   splits:
   - split: 1
     text: "五彩龙砂丹"
+    translated: "Multicolored Dragon Sand Dan"
 - raw: "Special/Desc/6001,岭南派青脸天王亲赠的五彩龙砂丹，分别代表五行，分开服用每一粒都足以致命。\\n但若按着正确的顺序、时辰服用，则能相生相克，化其药力以为己用。\\n龙渊弄丢了一粒，导致相克循环无法收束，只好送你碰碰运气，死了也是你自找的。"
   splits:
   - split: 1
     text: "岭南派青脸天王亲赠的五彩龙砂丹，分别代表五行，分开服用每一粒都足以致命。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "但若按着正确的顺序、时辰服用，则能相生相克，化其药力以为己用。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "龙渊弄丢了一粒，导致相克循环无法收束，只好送你碰碰运气，死了也是你自找的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -834,15 +1125,23 @@
   splits:
   - split: 1
     text: "龙渊从极乐教夺来的九泉丹方。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "相传「九转轮回大法」功力每深一层，就会面临一次生死大关，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "届时就得靠这九泉丹由死苏生，脱胎换骨。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "你可以拿去炼丹试试，但是吃了后果自行负责。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}"
@@ -850,21 +1149,28 @@
   splits:
   - split: 1
     text: "还虚丹"
+    translated: "Xuanxu Pill"
 - raw: "Special/Desc/6003,还虚丹"
   splits:
   - split: 1
     text: "还虚丹"
+    translated: "Xuanxu Pill"
 - raw: "Special/Name/6004,睡丹药方"
   splits:
   - split: 1
     text: "睡丹药方"
+    translated: "Sleeping Pill Recipe"
 - raw: "Special/Desc/6004,希夷老祖高卧华山，一睡不起，于睡中得道。\\n此丹方仅为辅药，倘若再得心诀，合为《睡功》。"
   splits:
   - split: 1
     text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "此丹方仅为辅药，倘若再得心诀，合为《睡功》。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -872,16 +1178,23 @@
   splits:
   - split: 1
     text: "万灵油药方"
+    translated: "Universal Healing Oil Recipe"
 - raw: "Special/Desc/6005,真名为「万法通灵神验膏」。\\n传说能够医死人、肉白骨，治万病解万毒，调水可以外敷，内服可以镇毒，舔一舔消暑止腹泻，研磨成粉末，点燃还可以驱蚊，与胡椒粉毒并为唐门两大神药。\\n可惜自从唐门药典被焚，药方早已失佚。"
   splits:
   - split: 1
     text: "真名为「万法通灵神验膏」。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "传说能够医死人、肉白骨，治万病解万毒，调水可以外敷，内服可以镇毒，舔一舔消暑止腹泻，研磨成粉末，点燃还可以驱蚊，与胡椒粉毒并为唐门两大神药。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "可惜自从唐门药典被焚，药方早已失佚。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"

@@ -12,26 +12,32 @@
   splits:
   - split: 1
     text: "药铺"
+    translated: "Pharmacy"
 - raw: "Facility/Name/004,温泉"
   splits:
   - split: 1
     text: "温泉"
+    translated: "Hot spring"
 - raw: "Facility/Name/005,义田"
   splits:
   - split: 1
     text: "义田"
+    translated: "Righteous Field"
 - raw: "Facility/Name/006,练功塔"
   splits:
   - split: 1
     text: "练功塔"
+    translated: "Training Tower"
 - raw: "Facility/Name/007,饭店"
   splits:
   - split: 1
     text: "饭店"
+    translated: "Hotel"
 - raw: "Facility/Title/AddMoney,+{0:0}两"
   splits:
   - split: 1
     text: "两"
+    translated: "+{0:0} Taels"
   templates:
   - split: 1
     template: "+⟦0:0⟧{0}"
@@ -39,10 +45,12 @@
   splits:
   - split: 1
     text: "尚未赎回"
+    translated: "Not yet redeemed"
 - raw: "Facility/Effect/001_1,【效果】+50两"
   splits:
   - split: 1
     text: "【效果】+50两"
+    translated: "Effect: +50 Taels"
 - raw: "Facility/Effect/001_2,【效果】"
   splits:
   - split: 1
@@ -62,6 +70,7 @@
   splits:
   - split: 1
     text: "【效果】+30两"
+    translated: "Effect: +30 Taels"
 - raw: "Facility/Effect/002_2,【效果】"
   splits:
   - split: 1
@@ -81,6 +90,7 @@
   splits:
   - split: 1
     text: "【效果】+30两"
+    translated: "Effect: +30 Taels"
 - raw: "Facility/Effect/003_2,【效果】"
   splits:
   - split: 1
@@ -100,6 +110,7 @@
   splits:
   - split: 1
     text: "【效果】+30两"
+    translated: "Effect: +30 Taels"
 - raw: "Facility/Effect/004_2,【效果】"
   splits:
   - split: 1
@@ -119,6 +130,7 @@
   splits:
   - split: 1
     text: "【效果】+30两"
+    translated: "Effect: +30 Taels"
 - raw: "Facility/Effect/005_2,【效果】"
   splits:
   - split: 1

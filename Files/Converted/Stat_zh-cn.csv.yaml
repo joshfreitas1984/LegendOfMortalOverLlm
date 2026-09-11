@@ -2,18 +2,22 @@
   splits:
   - split: 1
     text: "银两"
+    translated: "Silver taels"
 - raw: "PlayerStat/life,体力"
   splits:
   - split: 1
     text: "体力"
+    translated: "Stamina"
 - raw: "PlayerStat/stamina,内力"
   splits:
   - split: 1
     text: "内力"
+    translated: "Inner strength"
 - raw: "PlayerStat/dexterity,轻功"
   splits:
   - split: 1
     text: "轻功"
+    translated: "Qinggong"
 - raw: "PlayerStat/charisma,魅力"
   splits:
   - split: 1
@@ -23,6 +27,7 @@
   splits:
   - split: 1
     text: "学问"
+    translated: "Knowledge"
 - raw: "PlayerStat/mental,心相"
   splits:
   - split: 1
@@ -32,6 +37,7 @@
   splits:
   - split: 1
     text: "命运"
+    translated: "Fate"
 - raw: "PlayerStat/disposition,性情"
   splits:
   - split: 1
@@ -41,10 +47,12 @@
   splits:
   - split: 1
     text: "处世"
+    translated: "Worldliness"
 - raw: "PlayerStat/training,修养"
   splits:
   - split: 1
     text: "修养"
+    translated: "Cultivation"
 - raw: "PlayerStat/karma,道德"
   splits:
   - split: 1
@@ -59,10 +67,12 @@
   splits:
   - split: 1
     text: "名声"
+    translated: "Reputation"
 - raw: "PlayerStat/people,门人"
   splits:
   - split: 1
     text: "门人"
+    translated: "Disciple"
 - raw: "PlayerStat/team,向心"
   splits:
   - split: 1
@@ -72,34 +82,42 @@
   splits:
   - split: 1
     text: "门派规模"
+    translated: "Sect Size"
 - raw: "PlayerStat/weapon,锻造"
   splits:
   - split: 1
     text: "锻造"
+    translated: "Forging"
 - raw: "PlayerStat/poison,炼丹"
   splits:
   - split: 1
     text: "炼丹"
+    translated: "Alchemy"
 - raw: "PlayerStat/contribution,贡献度"
   splits:
   - split: 1
     text: "贡献度"
+    translated: "Contribution Level"
 - raw: "PlayerStat/internal,阴阳"
   splits:
   - split: 1
     text: "阴阳"
+    translated: "Yin and Yang"
 - raw: "PlayerStat/change-heart,变心"
   splits:
   - split: 1
     text: "变心"
+    translated: "Change of heart"
 - raw: "PlayerStat/action,行动次数"
   splits:
   - split: 1
     text: "行动次数"
+    translated: "Action Count"
 - raw: "PlayerStat/action2,行动"
   splits:
   - split: 1
     text: "行动"
+    translated: "Action"
 - raw: "PlayerStat/poison-resistance,抗毒"
   splits:
   - split: 1
@@ -114,14 +132,17 @@
   splits:
   - split: 1
     text: "武学"
+    translated: "Martial Arts"
 - raw: "PlayerStat/assets,门派资产"
   splits:
   - split: 1
     text: "门派资产"
+    translated: "Sect Assets"
 - raw: "PlayerStat/m-sword,刀剑"
   splits:
   - split: 1
     text: "刀剑"
+    translated: "Blade and sword"
 - raw: "PlayerStat/m-projectile,暗器"
   splits:
   - split: 1
@@ -141,38 +162,47 @@
   splits:
   - split: 1
     text: "奇门"
+    translated: "Qimen"
 - raw: "PlayerStat/m-soft,软兵器"
   splits:
   - split: 1
     text: "软兵器"
+    translated: "Soft weapons"
 - raw: "PlayerStat/m-stick,枪棍"
   splits:
   - split: 1
     text: "枪棍"
+    translated: "Spear Staff"
 - raw: "PlayerStat/m-internal,内功"
   splits:
   - split: 1
     text: "内功"
+    translated: "Neigong"
 - raw: "PlayerStat/poison-value,毒药"
   splits:
   - split: 1
     text: "毒药"
+    translated: "Poison"
 - raw: "PlayerStat/paralysis-value,麻痹"
   splits:
   - split: 1
     text: "麻痹"
+    translated: "Paralysis"
 - raw: "PlayerStat/confucianism,儒学"
   splits:
   - split: 1
     text: "儒学"
+    translated: "Confucianism"
 - raw: "PlayerStat/taoism,道学"
   splits:
   - split: 1
     text: "道学"
+    translated: "Daoism"
 - raw: "PlayerStat/buddhism,释学"
   splits:
   - split: 1
     text: "释学"
+    translated: "Buddhism"
 - raw: "PlayerStat/xingyi,形意拳"
   splits:
   - split: 1
@@ -187,10 +217,12 @@
   splits:
   - split: 1
     text: "门人血量"
+    translated: "Disciple's health points"
 - raw: "PlayerStat/battle-people,门人数量"
   splits:
   - split: 1
     text: "门人数量"
+    translated: "Number of disciples"
 - raw: "PlayerStat/lover,心上人"
   splits:
   - split: 1
@@ -200,18 +232,22 @@
   splits:
   - split: 1
     text: "攻击"
+    translated: "Attack"
 - raw: "PlayerStat/combat-defence,防御"
   splits:
   - split: 1
     text: "防御"
+    translated: "Defense"
 - raw: "PlayerStat/combat-ultimate,绝招"
   splits:
   - split: 1
     text: "绝招"
+    translated: "Ultimate"
 - raw: "PlayerStat/combat-attack-dice,爆发"
   splits:
   - split: 1
     text: "爆发"
+    translated: "Burst"
 - raw: "PlayerStat/combat-weapon,暗器威力"
   splits:
   - split: 1
@@ -221,26 +257,38 @@
   splits:
   - split: 1
     text: "暗器爆发"
+    translated: "Hidden Weapon Burst"
 - raw: "PlayerStatDesc/life,影响生命、绝招威力（小）。"
   splits:
   - split: 1
     text: "影响生命、绝招威力（小）。"
+    translated: "Affects health, ultimate move power (small)"
 - raw: "PlayerStatDesc/stamina,影响攻击力(中)、绝招威力(中)、战役回气速度。"
   splits:
   - split: 1
     text: "影响攻击力"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "中"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "、绝招威力"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "中"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 4
     text: "、战役回气速度。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1}){2}({3}){4}"
@@ -248,13 +296,18 @@
   splits:
   - split: 1
     text: "影响回避机率、绝招威力（中）、战役移动速度。"
+    translated: "Affects evasion probability, ultimate skill power (medium), and battle movement speed."
 - raw: "PlayerStatDesc/m-sword,影响攻击力(大)。"
   splits:
   - split: 1
     text: "影响攻击力"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "大"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1})。"
@@ -262,15 +315,23 @@
   splits:
   - split: 1
     text: "影响攻击力"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "小"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "、影响防御"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "大"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}({1}){2}({3})。"
@@ -278,37 +339,48 @@
   splits:
   - split: 1
     text: "影响暗器的威力、爆击。"
+    translated: "Affects the power of hidden weapons and critical hits."
 - raw: "PlayerStatDesc/poison-resistance,影响血毒的抗性、代谢率。"
   splits:
   - split: 1
     text: "影响血毒的抗性、代谢率。"
+    translated: "Affects resistance to blood poison and metabolic rate."
 - raw: "PlayerStatDesc/paralysis-resistance,影响神经毒的抗性、代谢率。"
   splits:
   - split: 1
     text: "影响神经毒的抗性、代谢率。"
+    translated: "Affects resistance to poison and metabolic rate"
 - raw: "PlayerStatDesc/talking,说话的才能，影响嘴攻效果。"
   splits:
   - split: 1
     text: "说话的才能，影响嘴攻效果。"
+    translated: "Speaking talent affects mouth attack effectiveness"
 - raw: "PlayerStatDesc/literacy,学习所得的知识。"
   splits:
   - split: 1
     text: "学习所得的知识。"
+    translated: "Knowledge gained from learning"
 - raw: "PlayerStatDesc/charisma,你所没有的某种东西。"
   splits:
   - split: 1
     text: "你所没有的某种东西。"
+    translated: "Something you do not have"
 - raw: "PlayerStatDesc/mental,影响锻冶、炼丹、修练活动成功率。"
   splits:
   - split: 1
     text: "影响锻冶、炼丹、修练活动成功率。"
+    translated: "Affects success rate of forging, alchemy, and cultivation activities."
 - raw: "PlayerStatDesc/weapon,锻造点数。[锻冶场使用]"
   splits:
   - split: 1
     text: "锻造点数。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "锻冶场使用"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}[{1}]"
@@ -316,9 +388,13 @@
   splits:
   - split: 1
     text: "炼丹点数。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "炼丹房使用"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}[{1}]"
@@ -326,25 +402,33 @@
   splits:
   - split: 1
     text: "门派的门人数量。"
+    translated: "Number of disciples in the sect"
 - raw: "PlayerStatDesc/fame,门派的名声。"
   splits:
   - split: 1
     text: "门派的名声。"
+    translated: "Reputation of the sect"
 - raw: "PlayerStatDesc/team,门派的向心力。"
   splits:
   - split: 1
     text: "门派的向心力。"
+    translated: "Cohesion of the sect"
 - raw: "PlayerStatDesc/assets,门派的资产。"
   splits:
   - split: 1
     text: "门派的资产。"
+    translated: "Assets of the sect"
 - raw: "PlayerStatDesc/martial-point,武学点数。[修练秘籍使用]"
   splits:
   - split: 1
     text: "武学点数。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "修练秘籍使用"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}[{1}]"
@@ -352,9 +436,13 @@
   splits:
   - split: 1
     text: "攻击"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "基础杀伤力。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -362,9 +450,13 @@
   splits:
   - split: 1
     text: "防御"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "备揍减伤率、格档率。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -372,9 +464,13 @@
   splits:
   - split: 1
     text: "绝招"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "绝招的威力。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -382,9 +478,13 @@
   splits:
   - split: 1
     text: "爆发"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "影响攻击的骰子。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -392,9 +492,13 @@
   splits:
   - split: 1
     text: "暗器"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "暗器的威力。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -402,9 +506,13 @@
   splits:
   - split: 1
     text: "爆发"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "影响暗器的骰子。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -412,18 +520,22 @@
   splits:
   - split: 1
     text: "暗器击中毒药累积值。"
+    translated: "Hidden Weapon hits accumulate Poison value"
 - raw: "PlayerStatDesc/paralysis-value,暗器击中麻痹累积值。"
   splits:
   - split: 1
     text: "暗器击中麻痹累积值。"
+    translated: "Hidden Weapon hit paralysis accumulation value"
 - raw: "StatLevel/karma01,恶棍"
   splits:
   - split: 1
     text: "恶棍"
+    translated: "Villain"
 - raw: "StatLevel/karma02,坏人"
   splits:
   - split: 1
     text: "坏人"
+    translated: "Bad Person"
 - raw: "StatLevel/karma03,中庸"
   splits:
   - split: 1
@@ -438,6 +550,7 @@
   splits:
   - split: 1
     text: "侠客"
+    translated: "Heroic"
 - raw: "StatLevel/disposition01,懦夫"
   splits:
   - split: 1
@@ -447,6 +560,7 @@
   splits:
   - split: 1
     text: "谨慎"
+    translated: "Cautious"
 - raw: "StatLevel/disposition03,中庸"
   splits:
   - split: 1
@@ -466,10 +580,12 @@
   splits:
   - split: 1
     text: "矫情"
+    translated: "Pretentiousness"
 - raw: "StatLevel/behaviour02,知礼"
   splits:
   - split: 1
     text: "知礼"
+    translated: "Courteous"
 - raw: "StatLevel/behaviour03,中庸"
   splits:
   - split: 1
@@ -484,10 +600,12 @@
   splits:
   - split: 1
     text: "粗鲁"
+    translated: "Rude"
 - raw: "StatLevel/training01,疯狂"
   splits:
   - split: 1
     text: "疯狂"
+    translated: "Crazy"
 - raw: "StatLevel/training02,暴躁"
   splits:
   - split: 1
@@ -502,6 +620,7 @@
   splits:
   - split: 1
     text: "沉着"
+    translated: "Calmness"
 - raw: "StatLevel/training05,君子"
   splits:
   - split: 1
@@ -511,31 +630,39 @@
   splits:
   - split: 1
     text: "忧郁"
+    translated: "Melancholy"
 - raw: "StatLevel/mental02,平静"
   splits:
   - split: 1
     text: "平静"
+    translated: "Calm"
 - raw: "StatLevel/mental03,快乐"
   splits:
   - split: 1
     text: "快乐"
+    translated: "Happiness"
 - raw: "StatLevel/internal01,老阴"
   splits:
   - split: 1
     text: "老阴"
+    translated: "Greater Yin"
 - raw: "StatLevel/internal02,少阴"
   splits:
   - split: 1
     text: "少阴"
+    translated: "Lesser Yin"
 - raw: "StatLevel/internal03,调和"
   splits:
   - split: 1
     text: "调和"
+    translated: "Harmony"
 - raw: "StatLevel/internal04,少阳"
   splits:
   - split: 1
     text: "少阳"
+    translated: "Lesser Yang"
 - raw: "StatLevel/internal05,老阳"
   splits:
   - split: 1
     text: "老阳"
+    translated: "Greater Yang"

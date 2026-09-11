@@ -2,26 +2,32 @@
   splits:
   - split: 1
     text: "测试杂物"
+    translated: "Test clutter"
 - raw: "Misc/Desc/0000,测试杂物"
   splits:
   - split: 1
     text: "测试杂物"
+    translated: "Test clutter"
 - raw: "Misc/Name/0001,唐门改良金创药"
   splits:
   - split: 1
     text: "唐门改良金创药"
+    translated: "Tang Clan's Improved Golden Wound Medicine"
 - raw: "Misc/Desc/0001,唐门改良金创药"
   splits:
   - split: 1
     text: "唐门改良金创药"
+    translated: "Tang Clan's Improved Golden Wound Medicine"
 - raw: "Misc/Name/0002,唐门金创药"
   splits:
   - split: 1
     text: "唐门金创药"
+    translated: "Tang Clan Golden Healing Ointment"
 - raw: "Misc/Desc/0002,唐门金创药"
   splits:
   - split: 1
     text: "唐门金创药"
+    translated: "Tang Clan Golden Healing Ointment"
 - raw: "Misc/Name/0003,狼毒散"
   splits:
   - split: 1
@@ -36,37 +42,48 @@
   splits:
   - split: 1
     text: "健胃药"
+    translated: "Stomach tonic"
 - raw: "Misc/Desc/0004,健胃药"
   splits:
   - split: 1
     text: "健胃药"
+    translated: "Stomach tonic"
 - raw: "Misc/Name/0005,无效健胃药"
   splits:
   - split: 1
     text: "无效健胃药"
+    translated: "Ineffective digestive tonic"
 - raw: "Misc/Desc/0005,无效健胃药"
   splits:
   - split: 1
     text: "无效健胃药"
+    translated: "Ineffective digestive tonic"
 - raw: "Misc/Name/1001,岁月欺霜残盒"
   splits:
   - split: 1
     text: "岁月欺霜残盒"
+    translated: "Time deceives the frost and withers the box."
 - raw: "Misc/Desc/1001,岁月欺霜残盒"
   splits:
   - split: 1
     text: "岁月欺霜残盒"
+    translated: "Time deceives the frost and withers the box."
 - raw: "Misc/Name/2001,黄酒"
   splits:
   - split: 1
     text: "黄酒"
+    translated: "Huangjiu"
 - raw: "Misc/Desc/2001,四师兄从山下酒家打来，兑水抬价卖给师兄弟们的廉价酒。\\n喝了心情会变好，但是喝多不太健康。"
   splits:
   - split: 1
     text: "四师兄从山下酒家打来，兑水抬价卖给师兄弟们的廉价酒。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "喝了心情会变好，但是喝多不太健康。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -79,9 +96,13 @@
   splits:
   - split: 1
     text: "产自贵州，酱香型大曲白酒，气味芳香浓郁，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "一瓶能顶两次喝，够劲儿赞。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -89,13 +110,18 @@
   splits:
   - split: 1
     text: "烧刀子"
+    translated: "Burning the blade"
 - raw: "Misc/Desc/2003,不调味、酒气浓烈，似火烧，故得此名。\\n是百姓的酒，是天下万民的酒。"
   splits:
   - split: 1
     text: "不调味、酒气浓烈，似火烧，故得此名。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "是百姓的酒，是天下万民的酒。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -103,13 +129,18 @@
   splits:
   - split: 1
     text: "苏合香酒"
+    translated: "Su He Xiang Wine"
 - raw: "Misc/Desc/2004,相传为宫廷御用的药酒，与苏合香同煮，融其效于酒水中，能安顺五气之气，极为名贵。\\n此酒是四师兄历时数月，冒着被官府追缉的风险与同伙私酿的，只敢卖熟人。"
   splits:
   - split: 1
     text: "相传为宫廷御用的药酒，与苏合香同煮，融其效于酒水中，能安顺五气之气，极为名贵。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "此酒是四师兄历时数月，冒着被官府追缉的风险与同伙私酿的，只敢卖熟人。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -122,12 +153,18 @@
   splits:
   - split: 1
     text: "起源于汉魏，兴盛于唐宋之间的高级酒。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "《东京梦华录》有云"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "色泽白莹，入口绵甘，是以羊羔肉、木香、杏仁等药材入锅煮烂，与黍米同酿而成。能健脾胃、益腰身、大捕元气。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}：{2}"
@@ -135,24 +172,33 @@
   splits:
   - split: 1
     text: "猴儿酒"
+    translated: "Monkey Wine"
 - raw: "Misc/Desc/2006,猴儿酒"
   splits:
   - split: 1
     text: "猴儿酒"
+    translated: "Monkey Wine"
 - raw: "Misc/Name/3001,纳溪梅岭"
   splits:
   - split: 1
     text: "纳溪梅岭"
+    translated: "Naxi Meiling"
 - raw: "Misc/Desc/3001,产于四川泸县的名茶。\\n总是在地最早采摘摘的茶业，每年除夕前煮上，作为年夜茶。\\n这茶买来，是你闲来自饮的。"
   splits:
   - split: 1
     text: "产于四川泸县的名茶。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "总是在地最早采摘摘的茶业，每年除夕前煮上，作为年夜茶。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "这茶买来，是你闲来自饮的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -160,16 +206,23 @@
   splits:
   - split: 1
     text: "蒙顶露芽"
+    translated: "Mengding Luyou"
 - raw: "Misc/Desc/3002,产于四川蒙山顶的名茶。\\n蒙顶石花是前朝第一名茶，蒙山茶又称仙茶，世代入贡。\\n这茶买来，是你闲来自饮的。"
   splits:
   - split: 1
     text: "产于四川蒙山顶的名茶。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "蒙顶石花是前朝第一名茶，蒙山茶又称仙茶，世代入贡。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "这茶买来，是你闲来自饮的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -182,12 +235,18 @@
   splits:
   - split: 1
     text: "盛产于峨嵋山云深雾缠处的四川名茶。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "香气清新馥郁，茶汤明亮淡雅，又名「雪香」、「清明香」。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "这茶买来，是你闲来自饮的。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -195,13 +254,18 @@
   splits:
   - split: 1
     text: "龙象豹力子丹"
+    translated: "Dragon Elephant Leopard Power Dan"
 - raw: "Misc/Desc/4001,崆峒铁拳门秘传灵药「龙象豹力丹」，传说服之能生龙象之力，开天辟地。\\n这枚是炉底残渣搓成的子丹，母丹被小竹吃了。"
   splits:
   - split: 1
     text: "崆峒铁拳门秘传灵药「龙象豹力丹」，传说服之能生龙象之力，开天辟地。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "这枚是炉底残渣搓成的子丹，母丹被小竹吃了。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -209,25 +273,38 @@
   splits:
   - split: 1
     text: "养命丹"
+    translated: "Life Sustaining Pill"
 - raw: "_Misc/Desc/4101,李大夫祖传密方，\\n无病可延年益寿，即令是弥留之人，\\n服之亦能吊住一口气，此丹虽然灵验，\\n却须花费数十载方得炼成，\\n你以药典改良，虽得速成，\\n效果却大打折扣。"
   splits:
   - split: 1
     text: "李大夫祖传密方，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "无病可延年益寿，即令是弥留之人，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "服之亦能吊住一口气，此丹虽然灵验，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
     text: "却须花费数十载方得炼成，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 4
     text: "你以药典改良，虽得速成，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 5
     text: "效果却大打折扣。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
@@ -240,9 +317,13 @@
   splits:
   - split: 1
     text: "用毒虫、毒砂以醋淬煅七次制成的药散，味辛热，有蒜臭。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "常人服之五内俱焚，唐门弟子服之可以活血祛湿寒。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -250,10 +331,12 @@
   splits:
   - split: 1
     text: "穿心龙胆汤"
+    translated: "Chuanxinlongdan Soup"
 - raw: "Misc/Desc/4102,用穿心莲、龙胆等药草熬汁炖煮的汤药，其苦非常人之所能受，药性之重业已成毒，常人服之心悸头疼，唐门弟子服之清热解渴。"
   splits:
   - split: 1
     text: "用穿心莲、龙胆等药草熬汁炖煮的汤药，其苦非常人之所能受，药性之重业已成毒，常人服之心悸头疼，唐门弟子服之清热解渴。"
+    translated: "The soup medicine made by simmering herbs like Chuanxinlian and Longdan is extremely bitter, something that most people cannot tolerate. The potency of the medicine has already turned it into poison; ordinary people who consume it experience heart palpitations and headaches, while Tang Clan Disciples take it to clear heat and quench thirst."
 - raw: "Misc/Name/4103,胡椒粉丸"
   splits:
   - split: 1
@@ -263,6 +346,7 @@
   splits:
   - split: 1
     text: "把胡椒粉跟山药泥混在一起，炙烤成丸。有毒，但是好吃。"
+    translated: "Mix the pepper powder with the yam paste, roast it into balls. It's poisonous, but delicious."
 - raw: "Misc/Name/4104,乖乖水"
   splits:
   - split: 1
@@ -272,6 +356,7 @@
   splits:
   - split: 1
     text: "可以让人变得听话的药水，喝了以后性情会变得温驯。"
+    translated: "A potion that can make a person obedient; after drinking it, their personality will become docile."
 - raw: "Misc/Name/4105,睡丹"
   splits:
   - split: 1
@@ -281,9 +366,13 @@
   splits:
   - split: 1
     text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "采精神以为药，取静定以为火，心息相依，反璞归真。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -291,16 +380,23 @@
   splits:
   - split: 1
     text: "万灵油"
+    translated: "Universal Oil"
 - raw: "Misc/Desc/4106,唐门药典残方，出门必备灵药。\\n气味清凉，嗅之可提神醒脑，夏可解暑、冬可点燃取暖，兑水喝可以治腹泻，抹在腕上可防蛇虺蚊蚋。\\n天下疑难，此方解得十之八九。"
   splits:
   - split: 1
     text: "唐门药典残方，出门必备灵药。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "气味清凉，嗅之可提神醒脑，夏可解暑、冬可点燃取暖，兑水喝可以治腹泻，抹在腕上可防蛇虺蚊蚋。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "天下疑难，此方解得十之八九。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -313,9 +409,13 @@
   splits:
   - split: 1
     text: "又名紫檀香，道士开坛请神、作醮、科仪皆用此香。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "青城降真香配方乃当代掌门邹博独门研制，焚之有调养性情，增益修行的效果。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -328,9 +428,13 @@
   splits:
   - split: 1
     text: "后山砍来的甘蔗，闲时啃一根清凉消暑。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "请不要在床上吃，会弄得到处黏黏的长蚂蚁。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -338,16 +442,23 @@
   splits:
   - split: 1
     text: "烤鱼"
+    translated: "Grilled fish"
 - raw: "Misc/Desc/5002,山溪里捉来的鱼，\\n一度因为唐门弟子滥捕几乎绝迹。\\n唐门弟子变少了以后，此鱼的香火又鼎盛了起来。"
   splits:
   - split: 1
     text: "山溪里捉来的鱼，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "一度因为唐门弟子滥捕几乎绝迹。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "唐门弟子变少了以后，此鱼的香火又鼎盛了起来。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -355,16 +466,23 @@
   splits:
   - split: 1
     text: "肉馅馒头"
+    translated: "Meat‑filled steamed buns"
 - raw: "Misc/Desc/5003,宋国的馒头，是有馅儿的，与包子的区分就是皮的薄厚、馅的多寡罢了。\\n馒头可能有各种口味，但这颗是猪肉包子，因为四师兄酷爱肥滋滋的猪肉，吃来满嘴油花。\\n很香，吃的时候经常令旁人垂涎。"
   splits:
   - split: 1
     text: "宋国的馒头，是有馅儿的，与包子的区分就是皮的薄厚、馅的多寡罢了。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "馒头可能有各种口味，但这颗是猪肉包子，因为四师兄酷爱肥滋滋的猪肉，吃来满嘴油花。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "很香，吃的时候经常令旁人垂涎。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -372,16 +490,23 @@
   splits:
   - split: 1
     text: "肉干"
+    translated: "Jerky"
 - raw: "Misc/Desc/5004,方便保存的干粮。\\n有时是炙鸡、有时是鹿脯、獐豝、猪肉。\\n吃起来风味不同，滋味也过得去，没赶上饭点的时候可以充饥。"
   splits:
   - split: 1
     text: "方便保存的干粮。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "有时是炙鸡、有时是鹿脯、獐豝、猪肉。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "吃起来风味不同，滋味也过得去，没赶上饭点的时候可以充饥。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -389,32 +514,43 @@
   splits:
   - split: 1
     text: "姜记肉包"
+    translated: "Jiang's Meat Bun"
 - raw: "Misc/Desc/5005,传说中的姜记肉包，好吃到不行。"
   splits:
   - split: 1
     text: "传说中的姜记肉包，好吃到不行。"
+    translated: "The legendary Jiang's Meat Bun is unbelievably delicious."
 - raw: "Misc/Name/5006,中药蜜饯"
   splits:
   - split: 1
     text: "中药蜜饯"
+    translated: "Traditional Chinese herbal candied fruits"
 - raw: "Misc/Desc/5006,唐芳之姐发明的甜点，以川贝母、枇杷叶、甘草、白芍、蜂蜜、桔梗、三阴虫草胶所腌渍的蜜饯，不仅有清热止血的功效，常用于治疗喉咙痛、咳嗽等症状，而且还很好吃，哄骗小孩的利器，二师兄孩提时候曾因此蛀牙。"
   splits:
   - split: 1
     text: "唐芳之姐发明的甜点，以川贝母、枇杷叶、甘草、白芍、蜂蜜、桔梗、三阴虫草胶所腌渍的蜜饯，不仅有清热止血的功效，常用于治疗喉咙痛、咳嗽等症状，而且还很好吃，哄骗小孩的利器，二师兄孩提时候曾因此蛀牙。"
+    translated: "The dessert invented by Tang Fang's sister is a candied treat made with Fritillaria, loquat leaves, licorice, white peony, honey, balloon flower, and Cordyceps sinensis gel. It not only has the effects of clearing heat and stopping bleeding, often used to treat symptoms like sore throat and cough, but it is also very delicious, a perfect tool for deceiving children. Second Senior Brother once got a cavity because of it during their childhood."
 - raw: "Misc/Name/5007,盐腌山猪肉"
   splits:
   - split: 1
     text: "盐腌山猪肉"
+    translated: "Salted Mountain Pork"
 - raw: "Misc/Desc/5007,用唐门赤炼砂盐腌的山猪肉，\\n味辛而咸香，很有嚼劲\\n，有一股原始而质朴的风味，但是有毒。"
   splits:
   - split: 1
     text: "用唐门赤炼砂盐腌的山猪肉，"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "味辛而咸香，很有嚼劲"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "，有一股原始而质朴的风味，但是有毒。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -427,17 +563,23 @@
   splits:
   - split: 1
     text: "揉以甜豆馅中和苦味的药包子，叶云裳咬了一口。"
+    translated: "Ye Yunshang took a bite of the medicinal bun filled with sweet bean paste to balance its bitterness."
 - raw: "Misc/Name/5009,湘妃鱼糕"
   splits:
   - split: 1
     text: "湘妃鱼糕"
+    translated: "Xiangfei Fish Cake"
 - raw: "Misc/Desc/5009,相传是女英所创，因为娥皇想吃鱼却怕刺，故以鱼糜混以蛋清、蜂蜜、糯米粉，蒸煮成糕。江陵无羡居的鱼膏尤为名贵，价格不斐。\\n四师兄送你的这一块，是从地上捡到的，沾了灰尘，还发霉。"
   splits:
   - split: 1
     text: "相传是女英所创，因为娥皇想吃鱼却怕刺，故以鱼糜混以蛋清、蜂蜜、糯米粉，蒸煮成糕。江陵无羡居的鱼膏尤为名贵，价格不斐。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "四师兄送你的这一块，是从地上捡到的，沾了灰尘，还发霉。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -455,32 +597,43 @@
   splits:
   - split: 1
     text: "海芋的茎"
+    translated: "The stem of the calla lily"
 - raw: "Misc/Desc/6002,海芋的茎"
   splits:
   - split: 1
     text: "海芋的茎"
+    translated: "The stem of the calla lily"
 - raw: "Misc/Name/7001,折价卷"
   splits:
   - split: 1
     text: "折价卷"
+    translated: "Discount coupon"
 - raw: "Misc/Desc/7001,折价卷"
   splits:
   - split: 1
     text: "折价卷"
+    translated: "Discount coupon"
 - raw: "Misc/Name/7002,色纸"
   splits:
   - split: 1
     text: "色纸"
+    translated: "Colored paper"
 - raw: "Misc/Desc/7002,四师兄知道这笔买卖绝对不会失败。\\n唐门里必定会有人买下这件事物，送给小师妹。\\n不论是你或是谁都可以，四师兄不在意你们的儿女情长，他只在意他自己。"
   splits:
   - split: 1
     text: "四师兄知道这笔买卖绝对不会失败。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "唐门里必定会有人买下这件事物，送给小师妹。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "不论是你或是谁都可以，四师兄不在意你们的儿女情长，他只在意他自己。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -488,16 +641,23 @@
   splits:
   - split: 1
     text: "磨喝乐"
+    translated: "Mo he le"
 - raw: "Misc/Desc/7003,时下流行的玩具，在京师贵人口里谓之磨喝乐，源自梵文音译。\\n但在你西蜀乡下，就朴实的称作泥孩儿。\\n以土、木为材料做成的玩偶，栩栩如生。"
   splits:
   - split: 1
     text: "时下流行的玩具，在京师贵人口里谓之磨喝乐，源自梵文音译。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "但在你西蜀乡下，就朴实的称作泥孩儿。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
     text: "以土、木为材料做成的玩偶，栩栩如生。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -505,29 +665,38 @@
   splits:
   - split: 1
     text: "失败木剑"
+    translated: "Failed Wooden Sword"
 - raw: "Misc/Desc/7100,叶云舟应外堡孩童要求所削的木剑，因为不太熟练，所以削得像狗啃，惨不忍睹。"
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，因为不太熟练，所以削得像狗啃，惨不忍睹。"
+    translated: "The wooden sword that Ye Yunzhao carved at the request of the children from the outer fortress was poorly done, resembling something chewed by a dog, and was a sight to behold."
 - raw: "Misc/Name/7101,木剑"
   splits:
   - split: 1
     text: "木剑"
+    translated: "Wooden Sword"
 - raw: "Misc/Desc/7101,叶云舟应外堡孩童要求所削的木剑，削得多了自然掌握诀窍，因此变得熟练了一点，可以削出笔直的剑形了。"
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，削得多了自然掌握诀窍，因此变得熟练了一点，可以削出笔直的剑形了。"
+    translated: "At the request of the children from the outer fortress, Ye Yunzhao carved wooden swords. With practice, they naturally grasped the technique and became a bit more skilled, able to carve straight sword shapes."
 - raw: "Misc/Name/7102,听云木剑"
   splits:
   - split: 1
     text: "听云木剑"
+    translated: "Listening to the Cloudwood Sword"
 - raw: "Misc/Desc/7102,叶云舟应外堡孩童要求所削的木剑，最近削出心得来了。\\n不仅学会用工具，还有闲心雕花，做成了听云剑的造型。"
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，最近削出心得来了。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
     text: "不仅学会用工具，还有闲心雕花，做成了听云剑的造型。"
+    flaggedForRetranslation: true
+    flaggedMistranslation: "Failed"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -535,10 +704,12 @@
   splits:
   - split: 1
     text: "龙湘的碎银"
+    translated: "Long Xiang's broken silver"
 - raw: "Misc/Desc/7200,龙湘被偷走的盘缠。"
   splits:
   - split: 1
     text: "龙湘被偷走的盘缠。"
+    translated: "The money that Long Xiang had stolen"
 - raw: "Misc/Name/7300,金念珠"
   splits:
   - split: 1

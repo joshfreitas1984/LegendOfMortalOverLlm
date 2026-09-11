@@ -1,5 +1,6 @@
 using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Utility;
+using ToolGood.Words;
 
 namespace Translate;
 
@@ -26,9 +27,21 @@ namespace Translate;
 /// resulting piece containing Chinese characters as its own TranslationSplit - it did NOT use
 /// anything like the new CompoundFieldSplitter.Decompose's structured fragment/template model, so
 /// an old line's Splits do not necessarily line up positionally with a new line's Splits (a new
-/// per-column fragment index vs the old naive whole-line comma-split index). Matching is therefore
-/// done by comparing each split's raw <see cref="TranslationSplit.Text"/> content within a
-/// line matched by key, rather than assuming the two Splits lists share the same shape/order.
+/// per-column fragment index vs the old naive whole-line comma-split index). When a line matched
+/// by key happens to have the same split COUNT on both sides, position is trusted directly (both
+/// splitters walk the same original cell left-to-right, so an equal count means an equal shape) -
+/// this is the common case and needs no text comparison at all. Only when the counts differ is a
+/// split paired up by comparing its raw <see cref="TranslationSplit.Text"/> content against the
+/// old line's splits, since then there's no other way to tell which fragment corresponds to which.
+///
+/// The old StringTable.csv donor was dumped from the game's ChineseTraditional source, while the
+/// new per-category dumps are ChineseSimplified only (see StringTableDumpPatches.TargetLanguage),
+/// so an old split's Text never equals its matching new split's Text verbatim - both sides are
+/// normalized to Simplified (via ToolGood.Words' WordsHelper, see <see cref="NormalizeForComparison"/>)
+/// before comparing. A handful of Taiwanese vocabulary variants (e.g. "妳" vs "你") survive that
+/// script-level conversion untouched since they're distinct codepoints in both scripts rather than
+/// simplified/traditional forms of each other - <see cref="VariantNormalizations"/> folds the known
+/// ones on top.
 /// </summary>
 public static class LegacyDataMigration
 {
@@ -43,6 +56,27 @@ public static class LegacyDataMigration
     {
         public string Raw { get; set; } = string.Empty;
         public List<OldTranslationSplit> Splits { get; set; } = [];
+    }
+
+    // Taiwanese/Traditional vocabulary variants that WordsHelper.ToSimplifiedChinese (a plain
+    // character-level t2s mapping) doesn't fold - these are distinct codepoints in both scripts,
+    // not simplified/traditional forms of each other, so the library correctly leaves them alone.
+    // Applied on top of ToSimplifiedChinese when comparing old vs new split text so pairs like the
+    // old donor's "妳" (female-specific "you") vs the new dump's "你" still match. Extend as more
+    // of these turn up.
+    private static readonly Dictionary<string, string> VariantNormalizations = new()
+    {
+        ["妳"] = "你",
+        ["祢"] = "你",
+    };
+
+    private static string NormalizeForComparison(string text)
+    {
+        var normalized = WordsHelper.ToSimplifiedChinese(text);
+        foreach (var (from, to) in VariantNormalizations)
+            normalized = normalized.Replace(from, to);
+
+        return normalized;
     }
 
     /// <summary>
@@ -72,6 +106,9 @@ public static class LegacyDataMigration
         var oldByKey = new Dictionary<string, OldTranslationLine>();
         foreach (var line in oldLines)
         {
+            //if (line.Raw.StartsWith("Story/"))
+            //    line.Raw = line.Raw.Replace("\n", "");
+
             var oldCols = CompoundFieldSplitter.ParseCsvRow(line.Raw);
             if (oldCols.Length == 0)
                 continue;
@@ -106,13 +143,31 @@ public static class LegacyDataMigration
                     && !oldByKey.TryGetValue($"{category}/{newKey}", out oldLine))
                     continue;
 
-                foreach (var split in newLine.Splits)
+                // Both the old (naive whole-line comma-split) and new (CompoundFieldSplitter,
+                // template-aware) splitters walk the same original cell left-to-right, so when
+                // they happen to produce the same number of fragments for a line, position alone
+                // is a reliable pairing - trust the key match and skip text comparison entirely.
+                // This is what lets a line survive even when its split text was never going to
+                // compare equal (Traditional/Simplified script differences beyond what
+                // NormalizeForComparison folds, punctuation/whitespace the two splitters handle
+                // differently, etc.) - the key match already told us these are the same line.
+                // Only fall back to matching by (normalized) text when the fragment counts differ,
+                // since then there's no other way to tell which old fragment corresponds to which
+                // new one.
+                var samePositionCount = oldLine.Splits.Count == newLine.Splits.Count;
+
+                for (var i = 0; i < newLine.Splits.Count; i++)
                 {
+                    var split = newLine.Splits[i];
+
                     // Only fill blanks - never overwrite an already-translated new-pipeline value.
                     if (!string.IsNullOrEmpty(split.Translated))
                         continue;
 
-                    var oldSplit = oldLine.Splits.FirstOrDefault(s => s.Text == split.Text);
+                    var oldSplit = samePositionCount
+                        ? oldLine.Splits[i]
+                        : oldLine.Splits.FirstOrDefault(s => NormalizeForComparison(s.Text) == NormalizeForComparison(split.Text));
+
                     if (oldSplit == null || string.IsNullOrEmpty(oldSplit.Translated))
                         continue;
 
