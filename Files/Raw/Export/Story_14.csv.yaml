@@ -33,13 +33,7 @@
 - raw: "Story/D_Talk_Brother3_02_01_007,要是以剑为妻的话，相当于再娶吧……。要是一人有很多柄剑，是不是等于三妻四妾呢？"
   splits:
   - split: 1
-    text: "要是以剑为妻的话，相当于再娶吧"
-  - split: 1
-    subIndex: 1
-    text: "。要是一人有很多柄剑，是不是等于三妻四妾呢？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "要是以剑为妻的话，相当于再娶吧……。要是一人有很多柄剑，是不是等于三妻四妾呢？"
 - raw: "Story/D_Talk_Brother3_02_01_008,但也有一些点苍剑客追求剑道，近乎疯魔。以为不能顿悟，是因尘世牵绊太多，才拌住了出剑的速度。为了参悟天机，挥剑斩情丝亦在所不辞，抛妻弃子的也大有人在。"
   splits:
   - split: 1
@@ -191,10 +185,7 @@
 - raw: "Story/D_Talk_Brother3_03_03_001,……当年旧魔教颠峰决战最末，正邪各出三名绝世高手，决生死、论英雄。盟主大侠龙渊对决极乐教主李仁友、我们掌门对决极乐右使。最后一名人选，便是青城邹掌门的师弟赵逵，对战极乐左使。"
   splits:
   - split: 1
-    text: "当年旧魔教颠峰决战最末，正邪各出三名绝世高手，决生死、论英雄。盟主大侠龙渊对决极乐教主李仁友、我们掌门对决极乐右使。最后一名人选，便是青城邹掌门的师弟赵逵，对战极乐左使。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……当年旧魔教颠峰决战最末，正邪各出三名绝世高手，决生死、论英雄。盟主大侠龙渊对决极乐教主李仁友、我们掌门对决极乐右使。最后一名人选，便是青城邹掌门的师弟赵逵，对战极乐左使。"
 - raw: "Story/D_Talk_Brother3_03_03_002,那场传奇决战，龙大侠的天觞剑击碎了极乐教主的鬼莲王刀；掌门服毒催谷功力，险胜一筹，诛杀了右使。但是第三阵却败了下来。"
   splits:
   - split: 1
@@ -380,13 +371,7 @@
 - raw: "Story/D_Talk_Brother3_06_01_001,崆峒派也是中原六大派之一，不过嘛……这说法有种种争议。"
   splits:
   - split: 1
-    text: "崆峒派也是中原六大派之一，不过嘛"
-  - split: 1
-    subIndex: 1
-    text: "这说法有种种争议。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "崆峒派也是中原六大派之一，不过嘛……这说法有种种争议。"
 - raw: "Story/D_Talk_Brother3_06_01_002,第一，崆峒派究竟算不算中原门派，实属难说。座落在秦州，自古便是兵家必争之地。一会儿属于宋国，一会儿属于金国，一会儿属于西夏，情势复杂得很。"
   splits:
   - split: 1
@@ -422,10 +407,7 @@
 - raw: "Story/D_Talk_Brother3_06_01_010,掌派人在位的时候，崆峒必有天佑，所向无敌……。"
   splits:
   - split: 1
-    text: "掌派人在位的时候，崆峒必有天佑，所向无敌"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "掌派人在位的时候，崆峒必有天佑，所向无敌……。"
 - raw: "Story/D_Talk_Brother3_06_01_011,没想到崆峒翘首以盼的之人居然是你，真够离谱。"
   splits:
   - split: 1
@@ -493,13 +475,7 @@
 - raw: "Story/D_Talk_Brother3_06_02_012,只可惜魏才女昙花一现，一夕之间便消失了。诗作、画作全都失佚，如今千金难求，我还道是……道是红颜薄命，没想到却入了江湖！"
   splits:
   - split: 1
-    text: "只可惜魏才女昙花一现，一夕之间便消失了。诗作、画作全都失佚，如今千金难求，我还道是"
-  - split: 1
-    subIndex: 1
-    text: "道是红颜薄命，没想到却入了江湖！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "只可惜魏才女昙花一现，一夕之间便消失了。诗作、画作全都失佚，如今千金难求，我还道是……道是红颜薄命，没想到却入了江湖！"
 - raw: "Story/D_Talk_Brother3_06_03_001,当代崆峒派，还有一位特别有名的奇人。和我们大师兄，那是不一样的有名法。"
   splits:
   - split: 1
@@ -527,13 +503,7 @@
 - raw: "Story/D_Talk_Brother3_06_03_007,没想到……唉。"
   splits:
   - split: 1
-    text: "没想到"
-  - split: 1
-    subIndex: 1
-    text: "唉。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "没想到……唉。"
 - raw: "Story/D_Talk_Brother3_06_03_008,过份，你那什么眼神？我当掌派人，你干嘛叹气！"
   splits:
   - split: 1
@@ -557,36 +527,21 @@
 - raw: "Story/D_Talk_Brother3_07_01_003,传说南宫、宇文二大世家曾经水火不容，并出过两位奇才—南宫凉、宇文馨。此二人懂事以来便知世仇， 却在武林大会上仅凭一面之缘，深自萦挂于心。"
   splits:
   - split: 1
-    text: "传说南宫、宇文二大世家曾经水火不容，并出过两位奇才"
+    text: "传说南宫、宇文二大世家曾经水火不容，并出过两位奇才—南宫凉、宇文馨。此二人懂事以来便知世仇，"
   - split: 1
     subIndex: 1
-    text: "南宫凉、宇文馨。此二人懂事以来便知世仇，"
-  - split: 1
-    subIndex: 2
     text: "却在武林大会上仅凭一面之缘，深自萦挂于心。"
   templates:
   - split: 1
-    template: "{0}—{1} {2}"
+    template: "{0} {1}"
 - raw: "Story/D_Talk_Brother3_07_01_004,江南舟中夜会、齐上昆仑救孤、合璧击破匪王、峨嵋金顶并肩坐看拂晓。本来应该有情人终成眷属的……。"
   splits:
   - split: 1
-    text: "江南舟中夜会、齐上昆仑救孤、合璧击破匪王、峨嵋金顶并肩坐看拂晓。本来应该有情人终成眷属的"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "江南舟中夜会、齐上昆仑救孤、合璧击破匪王、峨嵋金顶并肩坐看拂晓。本来应该有情人终成眷属的……。"
 - raw: "Story/D_Talk_Brother3_07_01_005,不巧，当年本门有一个前辈「烛骷髅」唐烛，这个……这个……总之就是做了一些不好的事，让他们情侣又反目成仇。这二人背负着家族悲愿，终究还是只能活一个。"
   splits:
   - split: 1
-    text: "不巧，当年本门有一个前辈「烛骷髅」唐烛，这个"
-  - split: 1
-    subIndex: 1
-    text: "这个"
-  - split: 1
-    subIndex: 2
-    text: "总之就是做了一些不好的事，让他们情侣又反目成仇。这二人背负着家族悲愿，终究还是只能活一个。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "不巧，当年本门有一个前辈「烛骷髅」唐烛，这个……这个……总之就是做了一些不好的事，让他们情侣又反目成仇。这二人背负着家族悲愿，终究还是只能活一个。"
 - raw: "Story/D_Talk_Brother3_07_01_006,酣斗之末，二人双掌相对，比拚内力。难得有情人，却走到了不死不休的田地。宇文馨恬然一笑，将内力暗送南宫凉疗伤，甘受掌力而死。"
   splits:
   - split: 1
@@ -618,16 +573,7 @@
 - raw: "Story/D_Talk_Brother3_07_02_006,至于本门……哈哈……你想必清楚的很了。"
   splits:
   - split: 1
-    text: "至于本门"
-  - split: 1
-    subIndex: 1
-    text: "哈哈"
-  - split: 1
-    subIndex: 2
-    text: "你想必清楚的很了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "至于本门……哈哈……你想必清楚的很了。"
 - raw: "Story/D_Talk_Brother3_08_01_001,想不到极乐教败亡匆匆数载，江湖又有魔教趁机崛起。对，我说的就是泥教。"
   splits:
   - split: 1
@@ -663,13 +609,7 @@
 - raw: "Story/D_Talk_Brother3_08_01_009,至于人间道……唉，那更是谁也意料不到。锦香宫行侠仗义，有目共睹，比起她们，武林群侠不分青红皂白，难道不是更像疯魔了一般吗？"
   splits:
   - split: 1
-    text: "至于人间道"
-  - split: 1
-    subIndex: 1
-    text: "唉，那更是谁也意料不到。锦香宫行侠仗义，有目共睹，比起她们，武林群侠不分青红皂白，难道不是更像疯魔了一般吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "至于人间道……唉，那更是谁也意料不到。锦香宫行侠仗义，有目共睹，比起她们，武林群侠不分青红皂白，难道不是更像疯魔了一般吗？"
 - raw: "Story/D_Talk_Brother3_08_01_010,也不知他们如何严守消息，这些年来，硬是不透一点风声。畜生道、修罗道、人间道法王都不知何许人也、有何阴谋。"
   splits:
   - split: 1
@@ -765,10 +705,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_01_004,……难怪我看师弟妹们对你都一脸鄙夷。指望你这懒猪去做事，看来是不可能的。"
   splits:
   - split: 1
-    text: "难怪我看师弟妹们对你都一脸鄙夷。指望你这懒猪去做事，看来是不可能的。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……难怪我看师弟妹们对你都一脸鄙夷。指望你这懒猪去做事，看来是不可能的。"
 - raw: "Story/D_Talk_Brother4_02_01_01_005,也不是不做，我就忙嘛，先放着，过几年再做。"
   splits:
   - split: 1
@@ -776,13 +713,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_01_006,废物……看来这笔生意是注定亏本了。"
   splits:
   - split: 1
-    text: "废物"
-  - split: 1
-    subIndex: 1
-    text: "看来这笔生意是注定亏本了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "废物……看来这笔生意是注定亏本了。"
 - raw: "Story/D_Talk_Brother4_02_01_01_007,你请我去打听的事－－"
   splits:
   - split: 1
@@ -814,10 +745,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_02_005,……你刚刚那句话对我的心灵造成了伤害。"
   splits:
   - split: 1
-    text: "你刚刚那句话对我的心灵造成了伤害。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你刚刚那句话对我的心灵造成了伤害。"
 - raw: "Story/D_Talk_Brother4_02_01_02_006,就实话嘛。"
   splits:
   - split: 1
@@ -849,13 +777,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_02_013,这个嘛……我可不知该怎么说了。我怕被发现，只敢趁她夫君不在时翻上墙檐，远远地张望。"
   splits:
   - split: 1
-    text: "这个嘛"
-  - split: 1
-    subIndex: 1
-    text: "我可不知该怎么说了。我怕被发现，只敢趁她夫君不在时翻上墙檐，远远地张望。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这个嘛……我可不知该怎么说了。我怕被发现，只敢趁她夫君不在时翻上墙檐，远远地张望。"
 - raw: "Story/O_Talk_Brother4_02_01_02_001,四师兄，你果真好胆识。(真心)"
   splits:
   - split: 1
@@ -893,10 +815,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_02_019,……那倒不尽然，小师妹往往吃了一两口，便不吃了。她气色不差，但是比往昔瘦了一些。"
   splits:
   - split: 1
-    text: "那倒不尽然，小师妹往往吃了一两口，便不吃了。她气色不差，但是比往昔瘦了一些。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……那倒不尽然，小师妹往往吃了一两口，便不吃了。她气色不差，但是比往昔瘦了一些。"
 - raw: "Story/D_Talk_Brother4_02_01_02_020,只怕是想家了吧。"
   splits:
   - split: 1
@@ -916,10 +835,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_03_004,那么仙丹……！"
   splits:
   - split: 1
-    text: "那么仙丹"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "那么仙丹……！"
 - raw: "Story/D_Talk_Brother4_02_01_03_005,－－没了。"
   splits:
   - split: 1
@@ -931,10 +847,7 @@
 - raw: "Story/D_Talk_Brother4_02_01_03_007,……命该如此吗。"
   splits:
   - split: 1
-    text: "命该如此吗。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……命该如此吗。"
 - raw: "Story/D_Talk_Brother4_02_01_03_008,嗯，前辈传了我仙丹的方子。只是此丹非得炼足七七四十九个寒暑，方能臻至圆满。"
   splits:
   - split: 1
@@ -1062,10 +975,7 @@
 - raw: "Story/D_Talk_Brother4_02_02_009,……这事并非萤儿主导的，请别迁怒她喔。"
   splits:
   - split: 1
-    text: "这事并非萤儿主导的，请别迁怒她喔。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这事并非萤儿主导的，请别迁怒她喔。"
 - raw: "Story/D_Talk_Brother4_02_02_010,行了，怕啥？我又不是不讲理，那能为难师弟媳。何况冤有头债有主，我有啥冤仇，只会记你的恨。"
   splits:
   - split: 1
@@ -1117,13 +1027,7 @@
 - raw: "Story/D_Talk_Brother4_02_02_020,呃……就算是这样好了，总不能重蹈覆辙。"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "就算是这样好了，总不能重蹈覆辙。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呃……就算是这样好了，总不能重蹈覆辙。"
 - raw: "Story/D_Talk_Brother4_02_02_021,你怎不照照镜子。"
   splits:
   - split: 1
@@ -1183,13 +1087,7 @@
 - raw: "Story/D_Talk_Brother4_02_02_033,是吗……你心意已决就好。"
   splits:
   - split: 1
-    text: "是吗"
-  - split: 1
-    subIndex: 1
-    text: "你心意已决就好。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是吗……你心意已决就好。"
 - raw: "Story/D_Talk_Brother4_02_02_034,四师兄你呢？你四处奔走，找到想要找的东西了吗？"
   splits:
   - split: 1
@@ -1295,10 +1193,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_010,……就这样？"
   splits:
   - split: 1
-    text: "就这样？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……就这样？"
 - raw: "Story/D_Talk_Brother4_02_03_01_011,好吧，既然收了你的钱，只好再说点。"
   splits:
   - split: 1
@@ -1332,10 +1227,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_016,你这不是废话吗……。"
   splits:
   - split: 1
-    text: "你这不是废话吗"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "你这不是废话吗……。"
 - raw: "Story/D_Talk_Brother4_02_03_01_017,你为什么能说出这种废话？为什么，到底为什么你要说出这种理所当然的事？你不觉得匪夷所思吗？"
   splits:
   - split: 1
@@ -1347,13 +1239,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_019,抱歉，想到一个武功比我高的人居然没长脑子，而且还长得丑，我就忽然气不打一处来，还萌生了杀意。我懂了……这就是二师兄脾气不好的原因吧。"
   splits:
   - split: 1
-    text: "抱歉，想到一个武功比我高的人居然没长脑子，而且还长得丑，我就忽然气不打一处来，还萌生了杀意。我懂了"
-  - split: 1
-    subIndex: 1
-    text: "这就是二师兄脾气不好的原因吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "抱歉，想到一个武功比我高的人居然没长脑子，而且还长得丑，我就忽然气不打一处来，还萌生了杀意。我懂了……这就是二师兄脾气不好的原因吧。"
 - raw: "Story/D_Talk_Brother4_02_03_01_020,何必呢？"
   splits:
   - split: 1
@@ -1480,10 +1366,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_045,哦……。"
   splits:
   - split: 1
-    text: "哦"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "哦……。"
 - raw: "Story/D_Talk_Brother4_02_03_01_046,我受限于武功，可能说错了，但不接受抗议与退费，是你自己要问我的。"
   splits:
   - split: 1
@@ -1515,10 +1398,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_053,……说不定还真是这样。"
   splits:
   - split: 1
-    text: "说不定还真是这样。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……说不定还真是这样。"
 - raw: "Story/D_Talk_Brother4_02_03_01_054,屁啦，屁啦，我这是真功夫！"
   splits:
   - split: 1
@@ -1550,13 +1430,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_061,该不会……哎，你不能这样！"
   splits:
   - split: 1
-    text: "该不会"
-  - split: 1
-    subIndex: 1
-    text: "哎，你不能这样！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "该不会……哎，你不能这样！"
 - raw: "Story/D_Talk_Brother4_02_03_01_062,很在意吗？一定很在意吧。这次要收一贯钱。"
   splits:
   - split: 1
@@ -1582,13 +1456,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_064,嘿嘿，嘿嘿……贪财，贪财。"
   splits:
   - split: 1
-    text: "嘿嘿，嘿嘿"
-  - split: 1
-    subIndex: 1
-    text: "贪财，贪财。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嘿嘿，嘿嘿……贪财，贪财。"
 - raw: "Story/O_Talk_Brother4_02_03_01_009,我才不上你当"
   splits:
   - split: 1
@@ -1620,10 +1488,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_071,……那结果呢，谁赌赢了？"
   splits:
   - split: 1
-    text: "那结果呢，谁赌赢了？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……那结果呢，谁赌赢了？"
 - raw: "Story/D_Talk_Brother4_02_03_01_072,我们两人都输了，因为你根本没练成。你练了个似是而非，就心满意足的点点头继续下一页。不只那个招数，你所有武功都是这样不求甚解。"
   splits:
   - split: 1
@@ -1748,10 +1613,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_102,师父，你……"
   splits:
   - split: 1
-    text: "师父，你"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "师父，你……"
 - raw: "Story/D_Talk_Brother4_02_03_01_103,此间无人，别叫我师父。"
   splits:
   - split: 1
@@ -1784,13 +1646,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_110,呃……呃，那不然还能叫什么？"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "呃，那不然还能叫什么？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呃……呃，那不然还能叫什么？"
 - raw: "Story/D_Talk_Brother4_02_03_01_111,算了，你心底对我有敬意，也是好事。改口也不必急于一时。"
   splits:
   - split: 1
@@ -1817,10 +1673,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_114,……我说错了？我要被打死了？"
   splits:
   - split: 1
-    text: "我说错了？我要被打死了？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我说错了？我要被打死了？"
 - raw: "Story/D_Talk_Brother4_02_03_01_115,没有说错，以后没人的时候就这样叫我吧。"
   splits:
   - split: 1
@@ -1892,16 +1745,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_127,谁是你老婆……你这欺师的孽徒，呜……不要脸。"
   splits:
   - split: 1
-    text: "谁是你老婆"
-  - split: 1
-    subIndex: 1
-    text: "你这欺师的孽徒，呜"
-  - split: 1
-    subIndex: 2
-    text: "不要脸。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "谁是你老婆……你这欺师的孽徒，呜……不要脸。"
 - raw: "Story/D_Talk_Brother4_02_03_01_128,我活了！"
   splits:
   - split: 1
@@ -1929,13 +1773,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_134,应……应该不会吧……？"
   splits:
   - split: 1
-    text: "应"
-  - split: 1
-    subIndex: 1
-    text: "应该不会吧"
-  templates:
-  - split: 1
-    template: "{0}……{1}……？"
+    text: "应……应该不会吧……？"
 - raw: "Story/D_Talk_Brother4_02_03_01_135,我要是当真变鬼、变殭尸，阴魂不散，一定不会放过你。"
   splits:
   - split: 1
@@ -1959,10 +1797,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_01_140,……说不定还真是这样。"
   splits:
   - split: 1
-    text: "说不定还真是这样。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……说不定还真是这样。"
 - raw: "Story/T_Talk_Brother4_02_03_01_002,说不定我就是放心不下唐门，向阎王请命回来的。等我使命完成，就会化为飞灰消散。"
   splits:
   - split: 1
@@ -2014,13 +1849,7 @@
 - raw: "Story/D_Talk_Brother4_02_03_03_002,喔……喔。"
   splits:
   - split: 1
-    text: "喔"
-  - split: 1
-    subIndex: 1
-    text: "喔。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "喔……喔。"
 - raw: "Story/D_Talk_Brother4_02_03_03_003,怎么样，受伤了吗？"
   splits:
   - split: 1
@@ -2100,13 +1929,7 @@
 - raw: "Story/D_Talk_Brother4_02_05_01_002,呼……呼……。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "呼"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "呼……呼……。"
 - raw: "Story/T_Talk_Brother4_02_05_01_001,四師兄居然如此厲害，我真是太小看他了。"
   splits:
   - split: 1
@@ -2237,13 +2060,7 @@
 - raw: "Story/D_S0202_01_005,唔咕……卑鄙！"
   splits:
   - split: 1
-    text: "唔咕"
-  - split: 1
-    subIndex: 1
-    text: "卑鄙！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唔咕……卑鄙！"
 - raw: "Story/D_S0202_01_006,臭丫头，敬酒不吃吃罚酒！"
   splits:
   - split: 1
@@ -2283,10 +2100,7 @@
 - raw: "Story/D_S0202_01_015,这是……"
   splits:
   - split: 1
-    text: "这是"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "这是……"
 - raw: "Story/D_S0202_01_016,我的日记！"
   splits:
   - split: 1
@@ -2318,29 +2132,11 @@
 - raw: "Story/D_S0202_01_020,呜呜……呜咕……呜呜……大夫，我要死惹……。"
   splits:
   - split: 1
-    text: "呜呜"
-  - split: 1
-    subIndex: 1
-    text: "呜咕"
-  - split: 1
-    subIndex: 2
-    text: "呜呜"
-  - split: 1
-    subIndex: 3
-    text: "大夫，我要死惹"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}……。"
+    text: "呜呜……呜咕……呜呜……大夫，我要死惹……。"
 - raw: "Story/D_S0202_01_021,人家的屁股方才……受了它所不应承受的劫难，已经彻底崩溃的说，瓦解的说……！"
   splits:
   - split: 1
-    text: "人家的屁股方才"
-  - split: 1
-    subIndex: 1
-    text: "受了它所不应承受的劫难，已经彻底崩溃的说，瓦解的说"
-  templates:
-  - split: 1
-    template: "{0}……{1}……！"
+    text: "人家的屁股方才……受了它所不应承受的劫难，已经彻底崩溃的说，瓦解的说……！"
 - raw: "Story/D_S0202_01_022,拍拍，云裳别哭。"
   splits:
   - split: 1
@@ -2368,13 +2164,7 @@
 - raw: "Story/D_S0202_01_028,嗯，嗯……等我。"
   splits:
   - split: 1
-    text: "嗯，嗯"
-  - split: 1
-    subIndex: 1
-    text: "等我。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嗯，嗯……等我。"
 - raw: "Story/D_S0202_01_029,手来。"
   splits:
   - split: 1
@@ -2386,10 +2176,7 @@
 - raw: "Story/D_S0202_01_031,……哼，你们在耍我不成？"
   splits:
   - split: 1
-    text: "哼，你们在耍我不成？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……哼，你们在耍我不成？"
 - raw: "Story/D_S0202_01_032,这姑娘根本没──嗯？"
   splits:
   - split: 1
@@ -2403,10 +2190,7 @@
 - raw: "Story/T_S0202_01_001,并非错觉，虽然微弱，但这果真是……。"
   splits:
   - split: 1
-    text: "并非错觉，虽然微弱，但这果真是"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "并非错觉，虽然微弱，但这果真是……。"
 - raw: "Story/T_S0202_01_002,二师兄听脉这么久，一言不发，实为罕见。云裳妹子的病情，果然很是严重吗？"
   splits:
   - split: 1
@@ -2426,10 +2210,7 @@
 - raw: "Story/D_S0202_01_033,……唐国手仁心仁术，济世功深。不知舍妹的病情，可有头绪吗？"
   splits:
   - split: 1
-    text: "唐国手仁心仁术，济世功深。不知舍妹的病情，可有头绪吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……唐国手仁心仁术，济世功深。不知舍妹的病情，可有头绪吗？"
 - raw: "Story/D_S0202_01_034,少费心机胡拍马屁，那个国手的称呼，给我改掉。这些话由点苍弟子嘴里说出来，听着格外刺耳。"
   splits:
   - split: 1
@@ -2437,10 +2218,7 @@
 - raw: "Story/D_S0202_01_035,是……。"
   splits:
   - split: 1
-    text: "是"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "是……。"
 - raw: "Story/D_S0202_01_036,可以了。"
   splits:
   - split: 1
@@ -2468,13 +2246,7 @@
 - raw: "Story/D_S0202_01_042,好歹要试一下……说不定他很好骗呢？"
   splits:
   - split: 1
-    text: "好歹要试一下"
-  - split: 1
-    subIndex: 1
-    text: "说不定他很好骗呢？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "好歹要试一下……说不定他很好骗呢？"
 - raw: "Story/D_S0202_01_043,唐二侠，实不相瞒，我这妹子命苦，自小身娇体弱，又生了这怪病，反反复覆，久治难愈。"
   splits:
   - split: 1
@@ -2519,10 +2291,7 @@
 - raw: "Story/D_S0202_01_053,是吗……。"
   splits:
   - split: 1
-    text: "是吗"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "是吗……。"
 - raw: "Story/T_S0202_01_007,听闻妹子无恙，叶兄怎么丝毫不喜，却是这样的神色？"
   splits:
   - split: 1
@@ -2592,13 +2361,7 @@
 - raw: "Story/D_S0202_01_067,二师兄，你……你这也太过了。把个脉就下逐客令，就算不医，好歹说个所以然来啊。"
   splits:
   - split: 1
-    text: "二师兄，你"
-  - split: 1
-    subIndex: 1
-    text: "你这也太过了。把个脉就下逐客令，就算不医，好歹说个所以然来啊。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "二师兄，你……你这也太过了。把个脉就下逐客令，就算不医，好歹说个所以然来啊。"
 - raw: "Story/D_S0202_01_068,笑话，他们点苍高足来求医，尚自疑心本门心怀不轨。我不欠他们什么，徒然受此屈辱，凭何相帮？"
   splits:
   - split: 1
@@ -2614,13 +2377,7 @@
 - raw: "Story/D_S0202_01_071,这……这……。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "这……这……。"
 - raw: "Story/N_S0202_01_001,兄妹俩对视一眼，叶云裳淡然摇头。"
   splits:
   - split: 1
@@ -2769,13 +2526,7 @@
 - raw: "Story/D_S0202_01_097,唐大夫这话是说……愿意医治舍妹吗？"
   splits:
   - split: 1
-    text: "唐大夫这话是说"
-  - split: 1
-    subIndex: 1
-    text: "愿意医治舍妹吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唐大夫这话是说……愿意医治舍妹吗？"
 - raw: "Story/D_S0202_01_098,你们厚脸皮赖着不走，我难道还能违逆掌门号令？丑话说在前头，你们隐瞒伤情，必须后果自负。我只负责医，至于医死医活，却又另当别论。"
   splits:
   - split: 1
@@ -2835,13 +2586,7 @@
 - raw: "Story/D_S0202_01_112,那……要扎针吗？应该不用吧？"
   splits:
   - split: 1
-    text: "那"
-  - split: 1
-    subIndex: 1
-    text: "要扎针吗？应该不用吧？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "那……要扎针吗？应该不用吧？"
 - raw: "Story/D_S0202_01_113,要。"
   splits:
   - split: 1
@@ -2987,13 +2732,7 @@
 - raw: "Story/T_S0202_01_018,……事隔多年，我还道世上再无那人的痕迹，不想兜兜转转，还是来到我的眼前……这便是宿缘吗？"
   splits:
   - split: 1
-    text: "事隔多年，我还道世上再无那人的痕迹，不想兜兜转转，还是来到我的眼前"
-  - split: 1
-    subIndex: 1
-    text: "这便是宿缘吗？"
-  templates:
-  - split: 1
-    template: "……{0}……{1}"
+    text: "……事隔多年，我还道世上再无那人的痕迹，不想兜兜转转，还是来到我的眼前……这便是宿缘吗？"
 - raw: "Story/D_S0202_01_155,可以。这回由我亲手了断。我来扑灭你活过的痕迹。"
   splits:
   - split: 1
@@ -3141,13 +2880,7 @@
 - raw: "Story/D_S0202_02_033,你说什么……老妈子？"
   splits:
   - split: 1
-    text: "你说什么"
-  - split: 1
-    subIndex: 1
-    text: "老妈子？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你说什么……老妈子？"
 - raw: "Story/T_S0202_02_003,萤姑娘说话恁地大胆！"
   splits:
   - split: 1
@@ -3183,13 +2916,7 @@
 - raw: "Story/D_S0202_02_040,哼……行吧。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "行吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……行吧。"
 - raw: "Story/D_S0202_02_041,不得了，借过！借过！"
   splits:
   - split: 1
@@ -3311,10 +3038,7 @@
 - raw: "Story/D_S0202_02_068,……怎么想都不踏实。"
   splits:
   - split: 1
-    text: "怎么想都不踏实。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……怎么想都不踏实。"
 - raw: "Story/D_S0202_02_069,英雄所见略同。"
   splits:
   - split: 1
@@ -3353,13 +3077,7 @@
 - raw: "Story/D_S0202_02_077,哼……但愿如此吧。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "但愿如此吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……但愿如此吧。"
 - raw: "Story/D_S0202_02_078,我反倒担心云裳的病情，途中发作。"
   splits:
   - split: 1
@@ -3415,10 +3133,7 @@
 - raw: "Story/D_S0202_02_091,蛤？你来做……？"
   splits:
   - split: 1
-    text: "蛤？你来做"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "蛤？你来做……？"
 - raw: "Story/D_S0202_02_092,二师兄，你会腌酱瓜茄吗？"
   splits:
   - split: 1
@@ -3458,10 +3173,7 @@
 - raw: "Story/D_S0202_02_101,……要我再说一次吗？"
   splits:
   - split: 1
-    text: "要我再说一次吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……要我再说一次吗？"
 - raw: "Story/D_S0202_02_102,不必，你跟上她们，别被发现了。"
   splits:
   - split: 1
@@ -3473,13 +3185,7 @@
 - raw: "Story/D_S0202_02_104,哼……瞧你得意的样子。往缸里腌酱菜是头一回，拿药腌渍活人我却得心应手。你要不试试我的手段？"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "瞧你得意的样子。往缸里腌酱菜是头一回，拿药腌渍活人我却得心应手。你要不试试我的手段？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……瞧你得意的样子。往缸里腌酱菜是头一回，拿药腌渍活人我却得心应手。你要不试试我的手段？"
 - raw: "Story/D_S0202_02_105,不不不必了吧～啊，她们，她们要走远了，我赶紧去追！"
   splits:
   - split: 1
@@ -3515,13 +3221,7 @@
 - raw: "Story/D_S0202_02_113,会是会……你怎么忽然问这个？想吃？"
   splits:
   - split: 1
-    text: "会是会"
-  - split: 1
-    subIndex: 1
-    text: "你怎么忽然问这个？想吃？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "会是会……你怎么忽然问这个？想吃？"
 - raw: "Story/D_S0202_02_114,你过来帮忙。"
   splits:
   - split: 1
@@ -3541,17 +3241,11 @@
 - raw: "Story/D_S0202_02_01_003,呃嗯……！"
   splits:
   - split: 1
-    text: "呃嗯"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "呃嗯……！"
 - raw: "Story/D_S0202_02_01_004,呼……。"
   splits:
   - split: 1
-    text: "呼"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呼……。"
 - raw: "Story/D_S0202_02_01_005,二位女侠快请收功吧，不必用这种眼神看我，我去给你们买就是了。"
   splits:
   - split: 1
@@ -3586,16 +3280,7 @@
 - raw: "Story/D_S0202_02_01_012,这个……这个……小本经营，您别为难我啦。小人每日出摊，站到太阳下山，卖完就算，就指望这点零钱填饱肚子呢。大娘子上来就对半砍，忒也凶残。"
   splits:
   - split: 1
-    text: "这个"
-  - split: 1
-    subIndex: 1
-    text: "这个"
-  - split: 1
-    subIndex: 2
-    text: "小本经营，您别为难我啦。小人每日出摊，站到太阳下山，卖完就算，就指望这点零钱填饱肚子呢。大娘子上来就对半砍，忒也凶残。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "这个……这个……小本经营，您别为难我啦。小人每日出摊，站到太阳下山，卖完就算，就指望这点零钱填饱肚子呢。大娘子上来就对半砍，忒也凶残。"
 - raw: "Story/D_S0202_02_01_013,小兄，你这可就太不会盘算了，我心情正好，不妨教教你。"
   splits:
   - split: 1
@@ -3615,16 +3300,7 @@
 - raw: "Story/D_S0202_02_01_017,这……这……嘿嘿，没亏可也没赚，来回只挣十余文，我这趟出摊不就白忙一场？天下没这样做买卖的。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这"
-  - split: 1
-    subIndex: 2
-    text: "嘿嘿，没亏可也没赚，来回只挣十余文，我这趟出摊不就白忙一场？天下没这样做买卖的。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "这……这……嘿嘿，没亏可也没赚，来回只挣十余文，我这趟出摊不就白忙一场？天下没这样做买卖的。"
 - raw: "Story/D_S0202_02_01_018,便是薄利，也是利。你等若赚了一晌午光阴，不必在此叫卖。"
   splits:
   - split: 1
@@ -3636,13 +3312,7 @@
 - raw: "Story/D_S0202_02_01_020,对呀……我怎么没有想到？"
   splits:
   - split: 1
-    text: "对呀"
-  - split: 1
-    subIndex: 1
-    text: "我怎么没有想到？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "对呀……我怎么没有想到？"
 - raw: "Story/D_S0202_02_01_021,你再想，这两位小美人喜孜孜的吃着，可有多赏心悦目。也算替你家冰糖葫芦宣传，可以说是两全其美的双赢之策。"
   splits:
   - split: 1
@@ -3754,10 +3424,7 @@
 - raw: "Story/D_S0202_02_01_044,……你去。"
   splits:
   - split: 1
-    text: "你去。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你去。"
 - raw: "Story/D_S0202_02_01_045,为何？"
   splits:
   - split: 1
@@ -3777,26 +3444,11 @@
 - raw: "Story/D_S0202_02_01_049,呃……那啥，真巧。我不是跟踪你们，只是来劝云裳别吃太多甜的……。你那是什么眼神？好像刀子一样，等等，有话好说……啊！！"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "那啥，真巧。我不是跟踪你们，只是来劝云裳别吃太多甜的"
-  - split: 1
-    subIndex: 2
-    text: "。你那是什么眼神？好像刀子一样，等等，有话好说"
-  - split: 1
-    subIndex: 3
-    text: "啊！！"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}"
+    text: "呃……那啥，真巧。我不是跟踪你们，只是来劝云裳别吃太多甜的……。你那是什么眼神？好像刀子一样，等等，有话好说……啊！！"
 - raw: "Story/D_S0202_02_01_01_001,……事情的经过就是这样。"
   splits:
   - split: 1
-    text: "事情的经过就是这样。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……事情的经过就是这样。"
 - raw: "Story/D_S0202_02_01_01_002,衙门就在旁边，你这狂徒，竟连御船监造的千金都敢殴打。不知该说你鲁莽还是勇敢了。"
   splits:
   - split: 1
@@ -3831,13 +3483,7 @@
 - raw: "Story/D_S0202_02_01_01_008,果然被打了……还好被打的不是我。"
   splits:
   - split: 1
-    text: "果然被打了"
-  - split: 1
-    subIndex: 1
-    text: "还好被打的不是我。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "果然被打了……还好被打的不是我。"
 - raw: "Story/D_S0202_02_01_01_009,唐芳，你果然又迟到。"
   splits:
   - split: 1
@@ -3921,10 +3567,7 @@
 - raw: "Story/D_S0202_02_02_014,……我还真的说过。但钱不是问题，问题是二师兄吩咐过，不能给你吃甜的。"
   splits:
   - split: 1
-    text: "我还真的说过。但钱不是问题，问题是二师兄吩咐过，不能给你吃甜的。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我还真的说过。但钱不是问题，问题是二师兄吩咐过，不能给你吃甜的。"
 - raw: "Story/D_S0202_02_02_015,我们买点别的吃吧，五香糕怎么样？"
   splits:
   - split: 1
@@ -3964,10 +3607,7 @@
 - raw: "Story/D_S0202_02_02_023,原来是这样……。"
   splits:
   - split: 1
-    text: "原来是这样"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "原来是这样……。"
 - raw: "Story/D_S0202_02_02_024,你真好。"
   splits:
   - split: 1
@@ -4017,10 +3657,7 @@
 - raw: "Story/D_S0202_02_02_033,还真是……。"
   splits:
   - split: 1
-    text: "还真是"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "还真是……。"
 - raw: "Story/D_S0202_02_02_034,这样我就放心了，多谢师姑。"
   splits:
   - split: 1
@@ -4032,13 +3669,7 @@
 - raw: "Story/D_S0202_02_02_036,家姊……我是说，小师姑她自然不能与我相比。"
   splits:
   - split: 1
-    text: "家姊"
-  - split: 1
-    subIndex: 1
-    text: "我是说，小师姑她自然不能与我相比。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "家姊……我是说，小师姑她自然不能与我相比。"
 - raw: "Story/D_S0202_02_02_037,作姊姊的是我师妹，作妹妹的却是晚辈。我那掌门师弟真是越来越不象话，搞的什么玩意。"
   splits:
   - split: 1
@@ -4124,13 +3755,7 @@
 - raw: "Story/D_S0202_02_03_015,怎、怎么能这样呢……那也太不讲理了。"
   splits:
   - split: 1
-    text: "怎、怎么能这样呢"
-  - split: 1
-    subIndex: 1
-    text: "那也太不讲理了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "怎、怎么能这样呢……那也太不讲理了。"
 - raw: "Story/D_S0202_02_03_016,别说师姑我蛮横不留情，那叶家兄妹若弃暗投明，舍了那一身刺眼的绿衣，献出宝藏改投唐门，那还能够破例网开一面。"
   splits:
   - split: 1
@@ -4150,13 +3775,7 @@
 - raw: "Story/D_S0202_02_03_020,哼……谅你不敢。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "谅你不敢。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……谅你不敢。"
 - raw: "Story/D_S0202_02_03_021,就算果真没有宝藏，这妞儿模样也是不坏，嫁我干儿子也还凑合。我再给她立几条规矩，好好调教也就是了。"
   splits:
   - split: 1
@@ -4176,13 +3795,7 @@
 - raw: "Story/D_S0202_02_03_024,唉……如今唐门虽然没有师长能够倚仗，但也乐得清静。要是师姑没有嫁出去，每天唠叨，就该换我待不住了。"
   splits:
   - split: 1
-    text: "唉"
-  - split: 1
-    subIndex: 1
-    text: "如今唐门虽然没有师长能够倚仗，但也乐得清静。要是师姑没有嫁出去，每天唠叨，就该换我待不住了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唉……如今唐门虽然没有师长能够倚仗，但也乐得清静。要是师姑没有嫁出去，每天唠叨，就该换我待不住了。"
 - raw: "Story/T_S0202_02_03_003,云裳妹子也真命苦，清清白白的人，还是忠良之后，平白给那些缺德家伙造谣，沦为众矢之的。若非她兄长护着，又有掌门收留，只怕早已误了终生。"
   splits:
   - split: 1
@@ -4198,16 +3811,7 @@
 - raw: "Story/D_S0202_02_03_027,我不……我呃……呃……。"
   splits:
   - split: 1
-    text: "我不"
-  - split: 1
-    subIndex: 1
-    text: "我呃"
-  - split: 1
-    subIndex: 2
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……。"
+    text: "我不……我呃……呃……。"
 - raw: "Story/D_S0202_02_03_028,哦～是吗？你确定吗？你难道就不怕下回针灸的时候，我卯起来闹腾，一个打挺腾到天花板上去吗？"
   splits:
   - split: 1
@@ -4247,13 +3851,7 @@
 - raw: "Story/D_S0202_02_03_036,这……这……。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "这……这……。"
 - raw: "Story/D_S0202_02_03_037,行了，你先到后边去，替我看着两个小妹子。"
   splits:
   - split: 1
@@ -4301,13 +3899,7 @@
 - raw: "Story/D_S0202_02_03_048,你……你……。"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "你"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "你……你……。"
 - raw: "Story/T_S0202_02_03_004,萤姊姊好剽悍。"
   splits:
   - split: 1
@@ -4323,13 +3915,7 @@
 - raw: "Story/D_S0202_02_03_050,你敢打我！你……你竟敢在唐门地界打我！"
   splits:
   - split: 1
-    text: "你敢打我！你"
-  - split: 1
-    subIndex: 1
-    text: "你竟敢在唐门地界打我！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你敢打我！你……你竟敢在唐门地界打我！"
 - raw: "Story/D_S0202_02_03_051,念你无知，我只说这一次，仔细听好。家父乃是朝廷命官，并非商人。族中产业商贸，由我上官萤掌管，皆与上官大人无涉。"
   splits:
   - split: 1
@@ -4345,10 +3931,7 @@
 - raw: "Story/D_S0202_02_03_054,没、没有，我就随便说说……。"
   splits:
   - split: 1
-    text: "没、没有，我就随便说说"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "没、没有，我就随便说说……。"
 - raw: "Story/D_S0202_02_03_055,你再敢造谣毁谤官员，我便拿你见官，绝不宽贷。你不信大可试试，看我敢不敢整治你。"
   splits:
   - split: 1
@@ -4412,10 +3995,7 @@
 - raw: "Story/D_S0202_02_03_067,……我该怎么说，你才肯信呢？"
   splits:
   - split: 1
-    text: "我该怎么说，你才肯信呢？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我该怎么说，你才肯信呢？"
 - raw: "Story/D_S0202_02_03_068,不论你怎么说，都是空口白话。"
   splits:
   - split: 1
@@ -4480,23 +4060,11 @@
 - raw: "Story/T_S0202_02_03_008,倒也并非不能体会上官娘子的感受。我还小的时候，小师姑……我亲姊姊也是把我翻来覆去的宠。"
   splits:
   - split: 1
-    text: "倒也并非不能体会上官娘子的感受。我还小的时候，小师姑"
-  - split: 1
-    subIndex: 1
-    text: "我亲姊姊也是把我翻来覆去的宠。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "倒也并非不能体会上官娘子的感受。我还小的时候，小师姑……我亲姊姊也是把我翻来覆去的宠。"
 - raw: "Story/T_S0202_02_03_009,上官娘子那眼神，简直跟我姊姊当年如出一辙……同样的危险。想来并非矫情，难怪云裳跟小师妹亲近我，她会吃醋，这下真相大白了。"
   splits:
   - split: 1
-    text: "上官娘子那眼神，简直跟我姊姊当年如出一辙"
-  - split: 1
-    subIndex: 1
-    text: "同样的危险。想来并非矫情，难怪云裳跟小师妹亲近我，她会吃醋，这下真相大白了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "上官娘子那眼神，简直跟我姊姊当年如出一辙……同样的危险。想来并非矫情，难怪云裳跟小师妹亲近我，她会吃醋，这下真相大白了。"
 - raw: "Story/D_S0202_02_03_082,耽搁了这么久，我得快点去外堡才行，回头山上见了。"
   splits:
   - split: 1
@@ -4508,23 +4076,11 @@
 - raw: "Story/D_S0202_02_03_084,呼……呼……。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "呼"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "呼……呼……。"
 - raw: "Story/D_S0202_02_03_085,不……不行，我搞错了。萤姊姊想要的不是什么藏宝图，她想要的是我们的命啊！"
   splits:
   - split: 1
-    text: "不"
-  - split: 1
-    subIndex: 1
-    text: "不行，我搞错了。萤姊姊想要的不是什么藏宝图，她想要的是我们的命啊！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不……不行，我搞错了。萤姊姊想要的不是什么藏宝图，她想要的是我们的命啊！"
 - raw: "Story/D_S0202_02_03_086,哎唷！你看看我，压抑太久，一时情不自禁，下回我会轻点。"
   splits:
   - split: 1
@@ -4552,16 +4108,7 @@
 - raw: "Story/D_S0202_02_03_092,好吃的……冰糖葫芦串，一串六文钱……。好心的大爷大妈小祖宗们，快来买啊。"
   splits:
   - split: 1
-    text: "好吃的"
-  - split: 1
-    subIndex: 1
-    text: "冰糖葫芦串，一串六文钱"
-  - split: 1
-    subIndex: 2
-    text: "。好心的大爷大妈小祖宗们，快来买啊。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "好吃的……冰糖葫芦串，一串六文钱……。好心的大爷大妈小祖宗们，快来买啊。"
 - raw: "Story/O_S0202_02_03_001,惨淡"
   splits:
   - split: 1
@@ -4625,10 +4172,7 @@
 - raw: "Story/D_2_4_2_102,我妹？我自小离家，和家人十年不曾见面，早已断了联系。却是哪里来的妹妹……。"
   splits:
   - split: 1
-    text: "我妹？我自小离家，和家人十年不曾见面，早已断了联系。却是哪里来的妹妹"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "我妹？我自小离家，和家人十年不曾见面，早已断了联系。却是哪里来的妹妹……。"
 - raw: "Story/T_2_4_2_010,啊！"
   splits:
   - split: 1
@@ -4672,10 +4216,7 @@
 - raw: "Story/D_2_4_2_110,还、还真挺过份的……。"
   splits:
   - split: 1
-    text: "还、还真挺过份的"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "还、还真挺过份的……。"
 - raw: "Story/D_2_4_2_111,我真无话可说，万幸事情没有闹大，对不住了。"
   splits:
   - split: 1
@@ -4722,13 +4263,7 @@
 - raw: "Story/D_2_4_2_117,这……这样啊。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这样啊。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……这样啊。"
 - raw: "Story/D_2_4_2_118,你至多是给我们请出店去。那晁和再敢来，不是打断腿脚扔街上，便是报官请他吃牢饭。"
   splits:
   - split: 1
@@ -4752,13 +4287,7 @@
 - raw: "Story/D_2_4_2_123,唉……一来一去天都要黑了，还没地方落脚。没法子，看来只能将就破庙了。"
   splits:
   - split: 1
-    text: "唉"
-  - split: 1
-    subIndex: 1
-    text: "一来一去天都要黑了，还没地方落脚。没法子，看来只能将就破庙了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唉……一来一去天都要黑了，还没地方落脚。没法子，看来只能将就破庙了。"
 - raw: "Story/D_2_4_2_124,都怪云裳那个害人精啦！"
   splits:
   - split: 1
@@ -4774,10 +4303,7 @@
 - raw: "Story/D_2_4_2_1_002,……喂～丐帮的老哥们！有人在吗？你们丐帮弟子，行乞难道都是倾巢而出？都没一些老弱病残留守？"
   splits:
   - split: 1
-    text: "喂～丐帮的老哥们！有人在吗？你们丐帮弟子，行乞难道都是倾巢而出？都没一些老弱病残留守？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……喂～丐帮的老哥们！有人在吗？你们丐帮弟子，行乞难道都是倾巢而出？都没一些老弱病残留守？"
 - raw: "Story/D_2_4_2_1_003,真不对劲，我还道至少会留几个人才对。还真就一点痕迹也不剩，好像大义分舵搬家了似的。"
   splits:
   - split: 1
@@ -4793,10 +4319,7 @@
 - raw: "Story/D_2_4_2_1_006,……想到破庙，就想到湘姐，也不知她此刻在做甚。可能是在那处行侠仗义，千万别再上别人的当才好。"
   splits:
   - split: 1
-    text: "想到破庙，就想到湘姐，也不知她此刻在做甚。可能是在那处行侠仗义，千万别再上别人的当才好。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……想到破庙，就想到湘姐，也不知她此刻在做甚。可能是在那处行侠仗义，千万别再上别人的当才好。"
 - raw: "Story/D_2_4_2_1_007,唉，开始怀念起唐家大院的通铺了。"
   splits:
   - split: 1
@@ -4808,13 +4331,7 @@
 - raw: "Story/D_2_4_2_Break_01_001,想好下一步往哪之前，只得先在这处落脚。虽然与露宿相去不远……好歹有墙，只要不下雨，还能将就。"
   splits:
   - split: 1
-    text: "想好下一步往哪之前，只得先在这处落脚。虽然与露宿相去不远"
-  - split: 1
-    subIndex: 1
-    text: "好歹有墙，只要不下雨，还能将就。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "想好下一步往哪之前，只得先在这处落脚。虽然与露宿相去不远……好歹有墙，只要不下雨，还能将就。"
 - raw: "Story/D_2_4_2_Break_01_002,往好处想，起码不用花钱，破庙无主，也不必担心被赶走。"
   splits:
   - split: 1
@@ -4850,13 +4367,7 @@
 - raw: "Story/D_2_4_2_Break_01_006,还想着能来叨扰几天……说不定我就顺势加入丐帮了。结果一声不吭居然全都不见了。"
   splits:
   - split: 1
-    text: "还想着能来叨扰几天"
-  - split: 1
-    subIndex: 1
-    text: "说不定我就顺势加入丐帮了。结果一声不吭居然全都不见了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "还想着能来叨扰几天……说不定我就顺势加入丐帮了。结果一声不吭居然全都不见了。"
 - raw: "Story/D_2_4_2_Break_01_007,总不能是知道我要来，故意躲着我吧？"
   splits:
   - split: 1
@@ -4872,13 +4383,7 @@
 - raw: "Story/D_2_4_2_Break_01_009,可恶……掌门到底为何如此偏心。我熬了这么多年，始终不得入室，眼看着别人一个一个转正，只有我始终都是外姓弟子，这公平吗？"
   splits:
   - split: 1
-    text: "可恶"
-  - split: 1
-    subIndex: 1
-    text: "掌门到底为何如此偏心。我熬了这么多年，始终不得入室，眼看着别人一个一个转正，只有我始终都是外姓弟子，这公平吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "可恶……掌门到底为何如此偏心。我熬了这么多年，始终不得入室，眼看着别人一个一个转正，只有我始终都是外姓弟子，这公平吗？"
 - raw: "Story/D_2_4_2_Break_01_010,我还道掌门是天下第一直性情的真英雄、真豪杰，结果到头还是这偏心，那为何不直接了当将我扫地出门？平白要我在唐门当牛做马，供他们唐家人驱策这么多年！"
   splits:
   - split: 1
@@ -4886,16 +4391,7 @@
 - raw: "Story/D_2_4_2_Break_01_011,妈的！掌门那糟老……老匹……老人家到底为何如此偏心。我赵活到底哪里不妥，任劳任怨熬了这么多年，竟没一个师长看得上我。"
   splits:
   - split: 1
-    text: "妈的！掌门那糟老"
-  - split: 1
-    subIndex: 1
-    text: "老匹"
-  - split: 1
-    subIndex: 2
-    text: "老人家到底为何如此偏心。我赵活到底哪里不妥，任劳任怨熬了这么多年，竟没一个师长看得上我。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "妈的！掌门那糟老……老匹……老人家到底为何如此偏心。我赵活到底哪里不妥，任劳任怨熬了这么多年，竟没一个师长看得上我。"
 - raw: "Story/D_2_4_2_Break_01_012,眼看新来的、比我坏、甚至比我蠢上十倍的废物都一个一个转正，只有我始终都是外姓弟子，这公平吗？枉我拼命巴结、花钱拜托师兄打点都丁点屁用。"
   splits:
   - split: 1
@@ -4912,13 +4408,7 @@
 - raw: "Story/D_2_4_2_Break_01_016,唉……我这么多牢骚，发给谁听呢？像我这样的人啊，就算喊得声嘶力竭，也没人理会的。"
   splits:
   - split: 1
-    text: "唉"
-  - split: 1
-    subIndex: 1
-    text: "我这么多牢骚，发给谁听呢？像我这样的人啊，就算喊得声嘶力竭，也没人理会的。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唉……我这么多牢骚，发给谁听呢？像我这样的人啊，就算喊得声嘶力竭，也没人理会的。"
 - raw: "Story/O_2_4_2_Break_01_004,将来的事"
   splits:
   - split: 1
@@ -4934,10 +4424,7 @@
 - raw: "Story/D_2_4_2_Break_01_019,……我其实也没穷成怎样，但是钱还是省着点花吧。"
   splits:
   - split: 1
-    text: "我其实也没穷成怎样，但是钱还是省着点花吧。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我其实也没穷成怎样，但是钱还是省着点花吧。"
 - raw: "Story/D_2_4_2_Break_01_020,我终于离开了唐门。说到底，我为何宁可屈居于此，也不愿离开？"
   splits:
   - split: 1
@@ -4953,10 +4440,7 @@
 - raw: "Story/D_2_4_2_Break_01_023,……将来我要去哪呢？"
   splits:
   - split: 1
-    text: "将来我要去哪呢？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……将来我要去哪呢？"
 - raw: "Story/D_2_4_2_Break_01_024,回到家乡的话，我能干什么呢？大概是种田种菜吧。至少自己吃自己，不至于随便饿死，说不定日子还能比在唐门当下人滋润。不过那也要家里人还愿意接纳我才行。"
   splits:
   - split: 1
@@ -4964,10 +4448,7 @@
 - raw: "Story/D_2_4_2_Break_01_025,……想都不敢想。"
   splits:
   - split: 1
-    text: "想都不敢想。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……想都不敢想。"
 - raw: "Story/D_2_4_2_Break_01_026,干脆落草为寇吧，我多少会点功夫，无论各个山寨应该都乐意收容。"
   splits:
   - split: 1
@@ -5003,13 +4484,7 @@
 - raw: "Story/D_2_4_2_Break_01_034,点苍……远在大理，用走的起码要一个月。而且听说入门必须考核，条件极为严苛，我看还是算了吧。"
   splits:
   - split: 1
-    text: "点苍"
-  - split: 1
-    subIndex: 1
-    text: "远在大理，用走的起码要一个月。而且听说入门必须考核，条件极为严苛，我看还是算了吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "点苍……远在大理，用走的起码要一个月。而且听说入门必须考核，条件极为严苛，我看还是算了吧。"
 - raw: "Story/D_2_4_2_Break_01_035,听说崆峒派较不排外，只要有一技之长，就算武艺低微也不至饿死。"
   splits:
   - split: 1
@@ -5021,13 +4496,7 @@
 - raw: "Story/D_2_4_2_Break_01_037,再来的话……全真派各处都有道观，徒子徒孙遍布天下，可是入门容易学成难，江湖人都说全真派十有九个不济事。我去了又如何会受重视呢？"
   splits:
   - split: 1
-    text: "再来的话"
-  - split: 1
-    subIndex: 1
-    text: "全真派各处都有道观，徒子徒孙遍布天下，可是入门容易学成难，江湖人都说全真派十有九个不济事。我去了又如何会受重视呢？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "再来的话……全真派各处都有道观，徒子徒孙遍布天下，可是入门容易学成难，江湖人都说全真派十有九个不济事。我去了又如何会受重视呢？"
 - raw: "Story/D_2_4_2_Break_01_038,索性我就剃光头发，皈依嵩山派当和尚算了。可笑我不是勘破红尘，是被生计逼得剃度出家。"
   splits:
   - split: 1
@@ -5035,10 +4504,7 @@
 - raw: "Story/D_2_4_2_Break_01_039,……还有什么门派肯要我呢。我资质、根骨都平平无奇，虚度那么久的光阴，就算侥幸拜师，也来不及练了吧。"
   splits:
   - split: 1
-    text: "还有什么门派肯要我呢。我资质、根骨都平平无奇，虚度那么久的光阴，就算侥幸拜师，也来不及练了吧。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……还有什么门派肯要我呢。我资质、根骨都平平无奇，虚度那么久的光阴，就算侥幸拜师，也来不及练了吧。"
 - raw: "Story/D_2_4_2_Break_01_040,其实我有自知之明，想当大侠，不过是痴人说梦而已。我天生就输人一截，输了好大一截，沟壑之大，投胎都未必能填。"
   splits:
   - split: 1
@@ -5046,20 +4512,11 @@
 - raw: "Story/D_2_4_2_Break_01_041,……我死皮赖脸想当入室弟子，只是不死心、不服输而已啊。总想着『迟早有一天我会让你们都知道我的厉害』！"
   splits:
   - split: 1
-    text: "我死皮赖脸想当入室弟子，只是不死心、不服输而已啊。总想着『迟早有一天我会让你们都知道我的厉害』！"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我死皮赖脸想当入室弟子，只是不死心、不服输而已啊。总想着『迟早有一天我会让你们都知道我的厉害』！"
 - raw: "Story/D_2_4_2_Break_01_042,可是啊……像我这种人，连梦想都不配有。"
   splits:
   - split: 1
-    text: "可是啊"
-  - split: 1
-    subIndex: 1
-    text: "像我这种人，连梦想都不配有。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "可是啊……像我这种人，连梦想都不配有。"
 - raw: "Story/D_2_4_6_1_001,运气好，今日捕到一尾大草鱼，有口福了！"
   splits:
   - split: 1
@@ -5073,13 +4530,7 @@
 - raw: "Story/D_2_4_6_1_005,唉……我究竟在做什么啊。日复一日在这里虚度，怎是长远之计。该早做打算才是，下定决心离了眉山，今后便不再回来。"
   splits:
   - split: 1
-    text: "唉"
-  - split: 1
-    subIndex: 1
-    text: "我究竟在做什么啊。日复一日在这里虚度，怎是长远之计。该早做打算才是，下定决心离了眉山，今后便不再回来。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唉……我究竟在做什么啊。日复一日在这里虚度，怎是长远之计。该早做打算才是，下定决心离了眉山，今后便不再回来。"
 - raw: "Story/T_2_4_6_1_001,像这样的觉悟，我三天两头就有一次。我还在等什么呢？"
   splits:
   - split: 1
@@ -5091,10 +4542,7 @@
 - raw: "Story/D_2_4_6_1_006,……喂。"
   splits:
   - split: 1
-    text: "喂。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……喂。"
 - raw: "Story/D_2_4_6_1_007,你是点苍派的人？"
   splits:
   - split: 1
@@ -5152,16 +4600,7 @@
 - raw: "Story/D_2_4_6_1_1_009,这……这是怎么回事？地上这人……死了？"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这是怎么回事？地上这人"
-  - split: 1
-    subIndex: 2
-    text: "死了？"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "这……这是怎么回事？地上这人……死了？"
 - raw: "Story/O_2_4_6_1_1_001,「山林墨骨书香，花街锦衣铜臭！」"
   splits:
   - split: 1
@@ -5169,10 +4608,7 @@
 - raw: "Story/O_2_4_6_1_1_002,「啊，唔，呃，那个……」"
   splits:
   - split: 1
-    text: "「啊，唔，呃，那个"
-  templates:
-  - split: 1
-    template: "{0}……」"
+    text: "「啊，唔，呃，那个……」"
 - raw: "Story/D_2_4_6_1_1_010,山林墨骨书香，花街锦衣铜臭？"
   splits:
   - split: 1
@@ -5180,10 +4616,7 @@
 - raw: "Story/D_2_4_6_1_1_011,啊，唔，呃，那个……"
   splits:
   - split: 1
-    text: "啊，唔，呃，那个"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "啊，唔，呃，那个……"
 - raw: "Story/D_2_4_6_1_1_012,──各位兄弟，来呀！把这厮嘴给堵上！"
   splits:
   - split: 1
@@ -5247,10 +4680,7 @@
 - raw: "Story/D_2_4_6_2_009,这……。"
   splits:
   - split: 1
-    text: "这"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "这……。"
 - raw: "Story/D_2_4_6_2_010,不是你这一身破烂，未免太过刻意造作。你想，唐门资深弟子，那能不识门中老人？你再看看我。"
   splits:
   - split: 1
@@ -5518,10 +4948,7 @@
 - raw: "Story/D_2_4_6_2_059,……那倒说的也是。"
   splits:
   - split: 1
-    text: "那倒说的也是。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……那倒说的也是。"
 - raw: "Story/D_2_4_6_2_060,就算不挣这笔钱，也争一口气。那狗崽子唐布衣与我还有旧恨，不还以颜色，实在气闷。免不了要仰仗各位出力，方才是兄弟我得罪了。"
   splits:
   - split: 1
@@ -5601,13 +5028,7 @@
 - raw: "Story/D_2_4_6_2_074,这么寒酸地方……比我鞋底都脏。算了，什么样的人，就得到什么样的地方找，本公子忍了。"
   splits:
   - split: 1
-    text: "这么寒酸地方"
-  - split: 1
-    subIndex: 1
-    text: "比我鞋底都脏。算了，什么样的人，就得到什么样的地方找，本公子忍了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这么寒酸地方……比我鞋底都脏。算了，什么样的人，就得到什么样的地方找，本公子忍了。"
 - raw: "Story/D_2_4_6_2_075,蛤？这谁？"
   splits:
   - split: 1
@@ -5619,10 +5040,7 @@
 - raw: "Story/T_2_4_6_2_019,好可疑啊……。"
   splits:
   - split: 1
-    text: "好可疑啊"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "好可疑啊……。"
 - raw: "Story/D_2_4_6_2_076,阿己，这便是你给本公子找的人？除了这个小道士穿得还算得体，其余都邋里邋遢的。仔细一看，还有一个丑得不像人。办事当真牢靠吗？"
   splits:
   - split: 1
@@ -5662,19 +5080,7 @@
 - raw: "Story/D_2_4_6_2_085,依我看，嘶……这个……这个……嘿嘿，这活儿当真不大好办呀。"
   splits:
   - split: 1
-    text: "依我看，嘶"
-  - split: 1
-    subIndex: 1
-    text: "这个"
-  - split: 1
-    subIndex: 2
-    text: "这个"
-  - split: 1
-    subIndex: 3
-    text: "嘿嘿，这活儿当真不大好办呀。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}"
+    text: "依我看，嘶……这个……这个……嘿嘿，这活儿当真不大好办呀。"
 - raw: "Story/D_2_4_6_2_086,难办也要办，定金都收了，你莫非还想坐地起价不成？"
   splits:
   - split: 1
@@ -5682,10 +5088,7 @@
 - raw: "Story/D_2_4_6_2_087,不敢，不敢，只是为保万无一失，要多花点时间筹备。少说要花上……。"
   splits:
   - split: 1
-    text: "不敢，不敢，只是为保万无一失，要多花点时间筹备。少说要花上"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "不敢，不敢，只是为保万无一失，要多花点时间筹备。少说要花上……。"
 - raw: "Story/D_2_4_6_2_088,行了，我还不知你打什么歪主意？本公子无甚耐性，但胜在有钱，你等只管放心。事成以后，除了说好的价，本公子还重重有赏，包你们满意便是。"
   splits:
   - split: 1
@@ -5701,13 +5104,7 @@
 - raw: "Story/D_2_4_6_2_091,那点苍叛徒叶家兄妹如今就在唐门。你们有本事拿住那兄妹俩任何一人，必须交我手里，本公子给双倍……不，三倍！"
   splits:
   - split: 1
-    text: "那点苍叛徒叶家兄妹如今就在唐门。你们有本事拿住那兄妹俩任何一人，必须交我手里，本公子给双倍"
-  - split: 1
-    subIndex: 1
-    text: "不，三倍！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "那点苍叛徒叶家兄妹如今就在唐门。你们有本事拿住那兄妹俩任何一人，必须交我手里，本公子给双倍……不，三倍！"
 - raw: "Story/T_2_4_6_2_020,笑话，你当我傻呢？宝藏传闻传得沸沸扬扬，地图当真到手，还有你公子什么事。"
   splits:
   - split: 1
@@ -5731,13 +5128,7 @@
 - raw: "Story/D_2_4_6_2_096,虽说不指望你们这群乌合之众能够动摇唐门根本，不过盗亦有道，各位从掮客手里收了钱财，可得出力为公子分忧，否则……哼哼。"
   splits:
   - split: 1
-    text: "虽说不指望你们这群乌合之众能够动摇唐门根本，不过盗亦有道，各位从掮客手里收了钱财，可得出力为公子分忧，否则"
-  - split: 1
-    subIndex: 1
-    text: "哼哼。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "虽说不指望你们这群乌合之众能够动摇唐门根本，不过盗亦有道，各位从掮客手里收了钱财，可得出力为公子分忧，否则……哼哼。"
 - raw: "Story/D_2_4_6_2_097,咱家公子明面上不能对付唐门，可是讨伐绿林贼寇，何愁没有名目？你懂我意思吧？"
   splits:
   - split: 1
@@ -5767,10 +5158,7 @@
 - raw: "Story/D_2_4_6_2_101,……哈，那兄弟我就不客气了。"
   splits:
   - split: 1
-    text: "哈，那兄弟我就不客气了。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……哈，那兄弟我就不客气了。"
 - raw: "Story/D_2_4_6_2_102,其实嘛，大伙都是混口饭吃，谁容易了？趁夜到唐门打砸些事物，往柴房放把火交差也就是了，犯不着真的拼命。公子那边，自然有我替你们敷衍。"
   splits:
   - split: 1
@@ -5802,13 +5190,7 @@
 - raw: "Story/D_2_4_6_2_109,我呃……我埋了地上尸体再去相会，几位先走一步……。"
   splits:
   - split: 1
-    text: "我呃"
-  - split: 1
-    subIndex: 1
-    text: "我埋了地上尸体再去相会，几位先走一步"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "我呃……我埋了地上尸体再去相会，几位先走一步……。"
 - raw: "Story/D_2_4_6_2_110,没人要理我。"
   splits:
   - split: 1
@@ -5824,13 +5206,7 @@
 - raw: "Story/D_2_4_6_2_113,呼……总算走了。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "总算走了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呼……总算走了。"
 - raw: "Story/D_2_4_6_2_1_001,这些人漏夜偷袭，大家恐怕猝不及防。虽说唐门对我不仁，我却不能不义，既然被我听见了，是不是应该连夜上山示警才对？"
   splits:
   - split: 1
@@ -5994,13 +5370,7 @@
 - raw: "Story/D_2_4_6_2_2_019,你们是……地狱道的鬼卒？"
   splits:
   - split: 1
-    text: "你们是"
-  - split: 1
-    subIndex: 1
-    text: "地狱道的鬼卒？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你们是……地狱道的鬼卒？"
 - raw: "Story/D_2_4_6_2_2_020,废话少说，既然碰上了，就纳命来吧！"
   splits:
   - split: 1
@@ -6016,13 +5386,7 @@
 - raw: "Story/D_2_4_6_2_2_1_003,你少虚张声势，以为我头一天混江湖，能被你骗……吗……？"
   splits:
   - split: 1
-    text: "你少虚张声势，以为我头一天混江湖，能被你骗"
-  - split: 1
-    subIndex: 1
-    text: "吗"
-  templates:
-  - split: 1
-    template: "{0}……{1}……？"
+    text: "你少虚张声势，以为我头一天混江湖，能被你骗……吗……？"
 - raw: "Story/D_2_4_6_2_2_1_004,我的天！"
   splits:
   - split: 1
@@ -6046,17 +5410,11 @@
 - raw: "Story/D_2_4_6_2_2_1_009,呃……。"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呃……。"
 - raw: "Story/D_2_4_6_2_2_1_010,……走吧，总不能当街杀人，打草惊蛇。追是追不到了，算他走运。"
   splits:
   - split: 1
-    text: "走吧，总不能当街杀人，打草惊蛇。追是追不到了，算他走运。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……走吧，总不能当街杀人，打草惊蛇。追是追不到了，算他走运。"
 - raw: "Story/D_2_4_6_2_2_1_011,一尾不起眼的杂鱼烂虾罢了，无关紧要。"
   splits:
   - split: 1
@@ -6164,13 +5522,7 @@
 - raw: "Story/T_2_4_6_2_3_004,什么……这群人是来帮唐门的？为何？"
   splits:
   - split: 1
-    text: "什么"
-  - split: 1
-    subIndex: 1
-    text: "这群人是来帮唐门的？为何？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "什么……这群人是来帮唐门的？为何？"
 - raw: "Story/D_2_4_6_2_3_017,本想在这庙里歇到入夜，不知怎的地上居然有死人，真晦气。我看还是另外找地方吧。"
   splits:
   - split: 1
@@ -6178,13 +5530,7 @@
 - raw: "Story/D_2_4_6_2_3_018,这也太玄了……实在不对劲。"
   splits:
   - split: 1
-    text: "这也太玄了"
-  - split: 1
-    subIndex: 1
-    text: "实在不对劲。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这也太玄了……实在不对劲。"
 - raw: "Story/D_2_4_6_2_3_019,我得即刻回山上报讯，交掌门定夺。"
   splits:
   - split: 1
@@ -6204,13 +5550,7 @@
 - raw: "Story/D_2_4_6_2_3_021,我不管了……我才不管……。"
   splits:
   - split: 1
-    text: "我不管了"
-  - split: 1
-    subIndex: 1
-    text: "我才不管"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "我不管了……我才不管……。"
 - raw: "Story/D_2_4_6_2_3_022,怎么能不管啊！"
   splits:
   - split: 1
@@ -6275,13 +5615,7 @@
 - raw: "Story/D_2_4_6_2_4_007,你……你……？"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "你"
-  templates:
-  - split: 1
-    template: "{0}……{1}……？"
+    text: "你……你……？"
 - raw: "Story/D_2_4_6_2_4_008,好哇，竟然被你们看破我等行踪！连手来与我泥教为难！"
   splits:
   - split: 1
@@ -6289,13 +5623,7 @@
 - raw: "Story/D_2_4_6_2_4_009,你……你又是何方妖怪？"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "你又是何方妖怪？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……你又是何方妖怪？"
 - raw: "Story/D_2_4_6_2_4_010,咦？"
   splits:
   - split: 1
@@ -6303,13 +5631,7 @@
 - raw: "Story/D_2_4_6_2_4_011,咦？什么……泥教？！"
   splits:
   - split: 1
-    text: "咦？什么"
-  - split: 1
-    subIndex: 1
-    text: "泥教？！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "咦？什么……泥教？！"
 - raw: "Story/D_2_4_6_2_4_012,泥教？众位师兄弟！快！快起来啊！有泥教杀上门来了！"
   splits:
   - split: 1
@@ -6321,13 +5643,7 @@
 - raw: "Story/D_2_4_6_2_4_1_001,怎么……怎么会这样！"
   splits:
   - split: 1
-    text: "怎么"
-  - split: 1
-    subIndex: 1
-    text: "怎么会这样！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "怎么……怎么会这样！"
 - raw: "Story/D_2_4_6_2_4_1_002,我还想问你。"
   splits:
   - split: 1
@@ -6367,10 +5683,7 @@
 - raw: "Story/D_2_4_6_2_4_1_011,……你还有什么话说？"
   splits:
   - split: 1
-    text: "你还有什么话说？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你还有什么话说？"
 - raw: "Story/D_2_4_6_2_4_1_012,不是这样的，你听我说，我跟这些人完全不认识啊！"
   splits:
   - split: 1
@@ -6386,10 +5699,7 @@
 - raw: "Story/D_2_4_6_2_4_1_015,……我也是个被玩弄于股掌中的被害者？"
   splits:
   - split: 1
-    text: "我也是个被玩弄于股掌中的被害者？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我也是个被玩弄于股掌中的被害者？"
 - raw: "Story/D_2_4_6_2_4_1_016,去死吧！"
   splits:
   - split: 1
@@ -6397,13 +5707,7 @@
 - raw: "Story/D_2_4_6_2_4_2_001,哦……赢了？"
   splits:
   - split: 1
-    text: "哦"
-  - split: 1
-    subIndex: 1
-    text: "赢了？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……赢了？"
 - raw: "Story/T_2_4_6_2_4_2_001,意外的难缠。"
   splits:
   - split: 1
@@ -6423,13 +5727,7 @@
 - raw: "Story/D_2_4_6_2_4_2_004,师弟……不，赵活！你竟敢背叛师门、伤二师兄！我今日就来清理门户！"
   splits:
   - split: 1
-    text: "师弟"
-  - split: 1
-    subIndex: 1
-    text: "不，赵活！你竟敢背叛师门、伤二师兄！我今日就来清理门户！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "师弟……不，赵活！你竟敢背叛师门、伤二师兄！我今日就来清理门户！"
 - raw: "Story/D_2_4_6_2_4_2_005,师姊，我们来帮你！"
   splits:
   - split: 1
@@ -6437,13 +5735,7 @@
 - raw: "Story/D_2_4_6_2_4_3_001,二师兄……快、快走！这人武功很高……！"
   splits:
   - split: 1
-    text: "二师兄"
-  - split: 1
-    subIndex: 1
-    text: "快、快走！这人武功很高"
-  templates:
-  - split: 1
-    template: "{0}……{1}……！"
+    text: "二师兄……快、快走！这人武功很高……！"
 - raw: "Story/D_2_4_6_2_4_3_002,不必你瞎操心，这厮已中我麻毒，离死不远。"
   splits:
   - split: 1
@@ -6459,13 +5751,7 @@
 - raw: "Story/D_2_4_6_2_4_3_005,不……不要哇！"
   splits:
   - split: 1
-    text: "不"
-  - split: 1
-    subIndex: 1
-    text: "不要哇！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不……不要哇！"
 - raw: "Story/D_2_4_6_2_4_3_006,且慢。"
   splits:
   - split: 1
@@ -6513,13 +5799,7 @@
 - raw: "Story/D_2_4_6_2_4_3_017,哈哈……哈……。"
   splits:
   - split: 1
-    text: "哈哈"
-  - split: 1
-    subIndex: 1
-    text: "哈"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "哈哈……哈……。"
 - raw: "Story/D_2_4_6_2_4_3_018,可是如此一来，我在蜀中是真的留不住了啊。"
   splits:
   - split: 1
@@ -6619,10 +5899,7 @@
 - raw: "Story/D_S0203_01_020,穿着本门女弟子的红衣，请问尊驾是……？"
   splits:
   - split: 1
-    text: "穿着本门女弟子的红衣，请问尊驾是"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "穿着本门女弟子的红衣，请问尊驾是……？"
 - raw: "Story/D_S0203_01_021,什么尊驾，我才出门一两个月，师弟你就忘记我了？"
   splits:
   - split: 1
@@ -6630,10 +5907,7 @@
 - raw: "Story/D_S0203_01_022,你是……？"
   splits:
   - split: 1
-    text: "你是"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "你是……？"
 - raw: "Story/D_S0203_01_023,师姊才出门一两个月，师弟你这就忘记我了？"
   splits:
   - split: 1
@@ -6641,16 +5915,7 @@
 - raw: "Story/D_S0203_01_024,我都还记得你名字呢什么……什么……陈冠东。"
   splits:
   - split: 1
-    text: "我都还记得你名字呢什么"
-  - split: 1
-    subIndex: 1
-    text: "什么"
-  - split: 1
-    subIndex: 2
-    text: "陈冠东。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "我都还记得你名字呢什么……什么……陈冠东。"
 - raw: "Story/D_S0203_01_025,全错！没一个字对的，我叫赵活好吗！"
   splits:
   - split: 1
@@ -6666,13 +5931,7 @@
 - raw: "Story/D_S0203_01_028,我迟归这么久了？死定了……难怪二师兄信里语气那么凶。"
   splits:
   - split: 1
-    text: "我迟归这么久了？死定了"
-  - split: 1
-    subIndex: 1
-    text: "难怪二师兄信里语气那么凶。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我迟归这么久了？死定了……难怪二师兄信里语气那么凶。"
 - raw: "Story/D_S0203_01_029,你和辛儒师姊并称唐门迷糊大王，一个睡姿差，一个爱迟到。"
   splits:
   - split: 1
@@ -6772,10 +6031,7 @@
 - raw: "Story/D_S0203_01_047,辛苦你啦！聊胜于无嘛……。"
   splits:
   - split: 1
-    text: "辛苦你啦！聊胜于无嘛"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "辛苦你啦！聊胜于无嘛……。"
 - raw: "Story/D_S0203_01_048,这本医书怎么湿臭湿臭的？"
   splits:
   - split: 1
@@ -6799,13 +6055,7 @@
 - raw: "Story/D_S0203_01_052,针具、医书、药秤、药材……不但没少，还多了新的草药。"
   splits:
   - split: 1
-    text: "针具、医书、药秤、药材"
-  - split: 1
-    subIndex: 1
-    text: "不但没少，还多了新的草药。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "针具、医书、药秤、药材……不但没少，还多了新的草药。"
 - raw: "Story/D_S0203_01_053,我顺手摘回来的，想说有用。"
   splits:
   - split: 1
@@ -6869,10 +6119,7 @@
 - raw: "Story/D_S0203_01_065,终究难逃一死……！"
   splits:
   - split: 1
-    text: "终究难逃一死"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "终究难逃一死……！"
 - raw: "Story/O_Food_Menu_001_017,中药蜜饯"
   splits:
   - split: 1
@@ -6924,13 +6171,7 @@
 - raw: "Story/D_S0205_01_001,师姐，我来送柴火……她们俩这是在干嘛？两个人的眼神都不大对劲啊。"
   splits:
   - split: 1
-    text: "师姐，我来送柴火"
-  - split: 1
-    subIndex: 1
-    text: "她们俩这是在干嘛？两个人的眼神都不大对劲啊。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "师姐，我来送柴火……她们俩这是在干嘛？两个人的眼神都不大对劲啊。"
 - raw: "Story/D_S0205_01_002,那是决斗者的眼神，你先不要吵！"
   splits:
   - split: 1
@@ -6965,27 +6206,18 @@
     text: "想悔棋也没有用喔。赵哥哥死超惨的，他死前还说"
   - split: 1
     subIndex: 1
-    text: "『小师妹，快逃』"
-  - split: 1
-    subIndex: 2
-    text: "然后就死翘翘了！"
+    text: "『小师妹，快逃』……然后就死翘翘了！"
   templates:
   - split: 1
-    template: "{0}：{1}……{2}"
+    template: "{0}：{1}"
 - raw: "Story/D_S0205_01_010,……才没有，这又不是真的。"
   splits:
   - split: 1
-    text: "才没有，这又不是真的。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……才没有，这又不是真的。"
 - raw: "Story/D_S0205_01_011,……好吧。"
   splits:
   - split: 1
-    text: "好吧。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……好吧。"
 - raw: "Story/D_S0205_01_012,既然死掉了也没办法。"
   splits:
   - split: 1
@@ -6997,10 +6229,7 @@
 - raw: "Story/D_S0205_01_013,……哼，哼，还挺冷静的嘛，难缠的小妞。我就看你个区区小铃儿，还能面不改色到几时。"
   splits:
   - split: 1
-    text: "哼，哼，还挺冷静的嘛，难缠的小妞。我就看你个区区小铃儿，还能面不改色到几时。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……哼，哼，还挺冷静的嘛，难缠的小妞。我就看你个区区小铃儿，还能面不改色到几时。"
 - raw: "Story/D_S0205_01_014,她们这是在玩什么？"
   splits:
   - split: 1
@@ -7044,10 +6273,7 @@
 - raw: "Story/D_S0205_01_024,休想得逞……！"
   splits:
   - split: 1
-    text: "休想得逞"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "休想得逞……！"
 - raw: "Story/O_S0205_01_001,小师妹大展神威"
   splits:
   - split: 1
@@ -7075,10 +6301,7 @@
 - raw: "Story/D_S0205_01_030,什么……！"
   splits:
   - split: 1
-    text: "什么"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "什么……！"
 - raw: "Story/D_S0205_01_031,牺牲一个师兄，喂狗，狗长大，然后装备一个师兄，并且把最后一个师兄当成肉盾。"
   splits:
   - split: 1
@@ -7087,13 +6310,7 @@
 - raw: "Story/D_S0205_01_033,住手！不能……不能这样玩！哪有人这样的？"
   splits:
   - split: 1
-    text: "住手！不能"
-  - split: 1
-    subIndex: 1
-    text: "不能这样玩！哪有人这样的？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "住手！不能……不能这样玩！哪有人这样的？"
 - raw: "Story/D_S0205_01_034,赵哥哥的性命才不是这样用的！你这个冷血的疯子！住、住手啊！想想他对你的好，你能下得了手？"
   splits:
   - split: 1
@@ -7117,10 +6334,7 @@
 - raw: "Story/D_S0205_01_038,赢了……！"
   splits:
   - split: 1
-    text: "赢了"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "赢了……！"
 - raw: "Story/N_S0205_01_002,你不知道详细的游戏规则，但莫名很受伤。"
   splits:
   - split: 1
@@ -7128,13 +6342,7 @@
 - raw: "Story/D_S0205_01_039,有一套……你证明了就算是赵哥哥，滋生得太多也不好对付这件事。"
   splits:
   - split: 1
-    text: "有一套"
-  - split: 1
-    subIndex: 1
-    text: "你证明了就算是赵哥哥，滋生得太多也不好对付这件事。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "有一套……你证明了就算是赵哥哥，滋生得太多也不好对付这件事。"
 - raw: "Story/D_S0205_01_040,没错。"
   splits:
   - split: 1
@@ -7170,16 +6378,7 @@
 - raw: "Story/D_S0205_01_046,然后……然后原地待命，保护唐门……结束回合。"
   splits:
   - split: 1
-    text: "然后"
-  - split: 1
-    subIndex: 1
-    text: "然后原地待命，保护唐门"
-  - split: 1
-    subIndex: 2
-    text: "结束回合。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "然后……然后原地待命，保护唐门……结束回合。"
 - raw: "Story/D_S0205_01_047,可怜的小铃儿，你的抵抗就到此为止了吗？"
   splits:
   - split: 1
@@ -7187,10 +6386,7 @@
 - raw: "Story/D_S0205_01_048,唔……！"
   splits:
   - split: 1
-    text: "唔"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "唔……！"
 - raw: "Story/N_S0205_01_004,输过几轮，小师妹心中已有必胜之策，但是太过没人道，事到临头还是畏缩了。"
   splits:
   - split: 1
@@ -7202,13 +6398,7 @@
 - raw: "Story/D_S0205_01_050,这下要决出胜负了……！叶云舟的绝活可以一回合进攻三次。只要杀死一个赵活，就可以长驱直入，放火烧小师妹的本阵了。"
   splits:
   - split: 1
-    text: "这下要决出胜负了"
-  - split: 1
-    subIndex: 1
-    text: "！叶云舟的绝活可以一回合进攻三次。只要杀死一个赵活，就可以长驱直入，放火烧小师妹的本阵了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这下要决出胜负了……！叶云舟的绝活可以一回合进攻三次。只要杀死一个赵活，就可以长驱直入，放火烧小师妹的本阵了。"
 - raw: "Story/D_S0205_01_051,这到底怎么玩的，我怎么从头到尾没听懂？"
   splits:
   - split: 1
@@ -7236,20 +6426,11 @@
 - raw: "Story/D_S0205_01_056,……你还想干嘛？"
   splits:
   - split: 1
-    text: "你还想干嘛？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你还想干嘛？"
 - raw: "Story/D_S0205_01_057,哼哼……你问我想干嘛？"
   splits:
   - split: 1
-    text: "哼哼"
-  - split: 1
-    subIndex: 1
-    text: "你问我想干嘛？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼哼……你问我想干嘛？"
 - raw: "Story/D_S0205_01_058,我要这样，这样，然后这样！"
   splits:
   - split: 1
@@ -7285,10 +6466,7 @@
 - raw: "Story/D_S0205_01_066,……就在方才，裳儿对默铃的好感度又上升了。"
   splits:
   - split: 1
-    text: "就在方才，裳儿对默铃的好感度又上升了。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……就在方才，裳儿对默铃的好感度又上升了。"
 - raw: "Story/D_S0205_01_067,云裳妹子虽然调皮爱捉弄人，可是她俩的友情，那是真的好啊。大家见了都时常莞尔。"
   splits:
   - split: 1
@@ -7352,10 +6530,7 @@
 - raw: "Story/D_S0206_01_005,你们两个……。"
   splits:
   - split: 1
-    text: "你们两个"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "你们两个……。"
 - raw: "Story/D_S0206_01_006,玩！"
   splits:
   - split: 1
@@ -7467,10 +6642,7 @@
 - raw: "Story/D_S0206_01_029,云裳……。"
   splits:
   - split: 1
-    text: "云裳"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "云裳……。"
 - raw: "Story/D_S0206_01_030,哈，师弟你被讨厌了。"
   splits:
   - split: 1
@@ -7490,13 +6662,7 @@
 - raw: "Story/D_S0207_01_003,谁呀，一大清早就……是、是叶家妹子！"
   splits:
   - split: 1
-    text: "谁呀，一大清早就"
-  - split: 1
-    subIndex: 1
-    text: "是、是叶家妹子！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "谁呀，一大清早就……是、是叶家妹子！"
 - raw: "Story/N_S0207_01_001,见是俏佳人来，众弟子不喜反惧，各自瑟缩在床角，有的检查衣衫、有的翻看宝箱，还有人摸索裤裆。足见此人行凶无数，恶名昭彰。"
   splits:
   - split: 1
@@ -7516,13 +6682,7 @@
 - raw: "Story/D_S0207_01_006,不，这就我家啊……怎么你反而一副主人口吻。"
   splits:
   - split: 1
-    text: "不，这就我家啊"
-  - split: 1
-    subIndex: 1
-    text: "怎么你反而一副主人口吻。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不，这就我家啊……怎么你反而一副主人口吻。"
 - raw: "Story/D_S0207_01_007,还敢嘴硬，本姑娘太久没整治你，皮痒痒了是吧！"
   splits:
   - split: 1
@@ -7603,13 +6763,7 @@
 - raw: "Story/D_S0207_01_022,居然……居然真的跳了……。"
   splits:
   - split: 1
-    text: "居然"
-  - split: 1
-    subIndex: 1
-    text: "居然真的跳了"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "居然……居然真的跳了……。"
 - raw: "Story/D_S0207_01_023,不、不关我的事的说，不是我害的说。"
   splits:
   - split: 1
@@ -7621,10 +6775,7 @@
 - raw: "Story/D_S0207_01_025,我、我才没有，是他自己……！"
   splits:
   - split: 1
-    text: "我、我才没有，是他自己"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "我、我才没有，是他自己……！"
 - raw: "Story/D_S0207_01_026,……。"
 - raw: "Story/D_S0207_01_027,……。"
 - raw: "Story/N_S0207_01_003,叶云裳见你纵身一跃，当场吓得腿软。"
@@ -7634,19 +6785,7 @@
 - raw: "Story/D_S0207_01_028,你怎么……那么傻啊，笨哥哥……！你怎么可以死，我明明是跟你开玩笑的……呜！"
   splits:
   - split: 1
-    text: "你怎么"
-  - split: 1
-    subIndex: 1
-    text: "那么傻啊，笨哥哥"
-  - split: 1
-    subIndex: 2
-    text: "！你怎么可以死，我明明是跟你开玩笑的"
-  - split: 1
-    subIndex: 3
-    text: "呜！"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}"
+    text: "你怎么……那么傻啊，笨哥哥……！你怎么可以死，我明明是跟你开玩笑的……呜！"
 - raw: "Story/D_S0207_01_029,我、我这就去求人下悬崖，你等我！"
   splits:
   - split: 1
@@ -7654,29 +6793,11 @@
 - raw: "Story/D_S0207_01_030,怎么……站不起来，这烂腿……还要来干嘛！动啊，快动啊！"
   splits:
   - split: 1
-    text: "怎么"
-  - split: 1
-    subIndex: 1
-    text: "站不起来，这烂腿"
-  - split: 1
-    subIndex: 2
-    text: "还要来干嘛！动啊，快动啊！"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "怎么……站不起来，这烂腿……还要来干嘛！动啊，快动啊！"
 - raw: "Story/D_S0207_01_031,我不想你死，你活转来嘛……。裳儿再也不哭不闹了……呜呜……。"
   splits:
   - split: 1
-    text: "我不想你死，你活转来嘛"
-  - split: 1
-    subIndex: 1
-    text: "。裳儿再也不哭不闹了"
-  - split: 1
-    subIndex: 2
-    text: "呜呜"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……。"
+    text: "我不想你死，你活转来嘛……。裳儿再也不哭不闹了……呜呜……。"
 - raw: "Story/D_S0207_01_032,此话当真？我活转来，你就不许闹了哦。"
   splits:
   - split: 1
@@ -7729,13 +6850,7 @@
 - raw: "Story/T_S0207_01_001,从来只有我耍人，没有人敢欺负我……好新鲜哦，兴奋。"
   splits:
   - split: 1
-    text: "从来只有我耍人，没有人敢欺负我"
-  - split: 1
-    subIndex: 1
-    text: "好新鲜哦，兴奋。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "从来只有我耍人，没有人敢欺负我……好新鲜哦，兴奋。"
 - raw: "Story/O_S0207_01_003,像你这种顽劣的孩子就该打屁股伺候"
   splits:
   - split: 1
@@ -7775,10 +6890,7 @@
 - raw: "Story/D_S0207_01_052,……这里好高，我看一眼就腿软了，你来抱我。"
   splits:
   - split: 1
-    text: "这里好高，我看一眼就腿软了，你来抱我。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这里好高，我看一眼就腿软了，你来抱我。"
 - raw: "Story/D_S0207_01_053,真拿你没办法。"
   splits:
   - split: 1
@@ -7790,10 +6902,7 @@
 - raw: "Story/D_S0207_01_054,我再也不要陪这家伙玩了……！"
   splits:
   - split: 1
-    text: "我再也不要陪这家伙玩了"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "我再也不要陪这家伙玩了……！"
 - raw: "Story/O_S0207_01_005,打爆"
   splits:
   - split: 1
@@ -7817,13 +6926,7 @@
 - raw: "Story/D_S0207_01_059,呜～呜哇啊啊啊啊～不要打了～快停手～再打……再打的话……"
   splits:
   - split: 1
-    text: "呜～呜哇啊啊啊啊～不要打了～快停手～再打"
-  - split: 1
-    subIndex: 1
-    text: "再打的话"
-  templates:
-  - split: 1
-    template: "{0}……{1}……"
+    text: "呜～呜哇啊啊啊啊～不要打了～快停手～再打……再打的话……"
 - raw: "Story/D_S0207_01_060,哥哥就要死了！"
   splits:
   - split: 1
@@ -7859,10 +6962,7 @@
 - raw: "Story/D_S0207_01_068,……不行了，这些人都被迷惑了心智，沦为她的傀儡。"
   splits:
   - split: 1
-    text: "不行了，这些人都被迷惑了心智，沦为她的傀儡。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……不行了，这些人都被迷惑了心智，沦为她的傀儡。"
 - raw: "Story/D_S0207_01_069,哼哼，哥哥，这些师姊都是我的人，你拿什么跟我斗？识趣的就退下吧～哇哈哈哈～"
   splits:
   - split: 1
@@ -7870,10 +6970,7 @@
 - raw: "Story/D_S0207_01_070,可、可恶……。"
   splits:
   - split: 1
-    text: "可、可恶"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "可、可恶……。"
 - raw: "Story/N_S0207_01_005,有那群吃里扒外的同门师姊妹在的一天，你就动不了叶云裳。你最好长点记性，她是不会让你好过的。"
   splits:
   - split: 1
@@ -7885,10 +6982,7 @@
 - raw: "Story/D_S0207_01_071,……那我到时可以喝冰的熟水吗？"
   splits:
   - split: 1
-    text: "那我到时可以喝冰的熟水吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……那我到时可以喝冰的熟水吗？"
 - raw: "Story/D_S0207_01_072,可以，我买给你就是了。"
   splits:
   - split: 1
@@ -7896,10 +6990,7 @@
 - raw: "Story/D_S0207_01_073,你身子不好，还是别喝冰的比较好……"
   splits:
   - split: 1
-    text: "你身子不好，还是别喝冰的比较好"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "你身子不好，还是别喝冰的比较好……"
 - raw: "Story/D_S0207_01_074,我吃冰会伤身，哭也会伤身，你二选一吧！"
   splits:
   - split: 1
@@ -7907,10 +6998,7 @@
 - raw: "Story/D_S0207_01_075,……好吧，大不了放温一点，没那么凉才喝。"
   splits:
   - split: 1
-    text: "好吧，大不了放温一点，没那么凉才喝。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……好吧，大不了放温一点，没那么凉才喝。"
 - raw: "Story/D_S0207_01_076,好极啦！那我去叫默铃，等会儿门口见。"
   splits:
   - split: 1
@@ -7926,10 +7014,7 @@
 - raw: "Story/D_S0207_01_079,……这也算江湖义气？"
   splits:
   - split: 1
-    text: "这也算江湖义气？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这也算江湖义气？"
 - raw: "Story/T_S0207_01_002,不过她约小师妹，正合我心意。我也想带小师妹下山同游，只愁没名义而已。"
   splits:
   - split: 1
@@ -8031,13 +7116,7 @@
 - raw: "Story/D_2_4_7_1_002,怎么……人虽然多，今天就没一个唐门弟子在外堡吗？"
   splits:
   - split: 1
-    text: "怎么"
-  - split: 1
-    subIndex: 1
-    text: "人虽然多，今天就没一个唐门弟子在外堡吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "怎么……人虽然多，今天就没一个唐门弟子在外堡吗？"
 - raw: "Story/D_2_4_7_1_003,没办法，只能亲自跑一趟大院了。"
   splits:
   - split: 1
@@ -8057,17 +7136,11 @@
 - raw: "Story/D_2_4_7_1_004,这个气息是……！"
   splits:
   - split: 1
-    text: "这个气息是"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "这个气息是……！"
 - raw: "Story/D_2_4_7_1_005,……小师妹？你在吗？"
   splits:
   - split: 1
-    text: "小师妹？你在吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……小师妹？你在吗？"
 - raw: "Story/D_2_4_7_1_006,在。"
   splits:
   - split: 1
@@ -8146,36 +7219,18 @@
 - raw: "Story/D_2_4_7_1_2_005,……穷寇莫追，须防他是调虎离山！还是上山要紧！"
   splits:
   - split: 1
-    text: "穷寇莫追，须防他是调虎离山！还是上山要紧！"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……穷寇莫追，须防他是调虎离山！还是上山要紧！"
 - raw: "Story/D_2_4_7_2_001,呼……呼……喂，唐门的大家，大事不好了──"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "呼"
-  - split: 1
-    subIndex: 2
-    text: "喂，唐门的大家，大事不好了"
+    text: "呼……呼……喂，唐门的大家，大事不好了"
   templates:
   - split: 1
-    template: "{0}……{1}……{2}──"
+    template: "{0}──"
 - raw: "Story/D_2_4_7_2_002,呼……不行，我要……要先喘一下。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "不行，我要"
-  - split: 1
-    subIndex: 2
-    text: "要先喘一下。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "呼……不行，我要……要先喘一下。"
 - raw: "Story/D_2_4_7_2_003,拍拍，辛苦了。"
   splits:
   - split: 1
@@ -8191,10 +7246,7 @@
 - raw: "Story/D_2_4_7_2_006,去江陵了，人少，大家都比较忙……。"
   splits:
   - split: 1
-    text: "去江陵了，人少，大家都比较忙"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "去江陵了，人少，大家都比较忙……。"
 - raw: "Story/D_2_4_7_2_007,啊。"
   splits:
   - split: 1
@@ -8238,13 +7290,7 @@
 - raw: "Story/D_2_4_7_2_014,等等……你来得正好。"
   splits:
   - split: 1
-    text: "等等"
-  - split: 1
-    subIndex: 1
-    text: "你来得正好。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "等等……你来得正好。"
 - raw: "Story/D_2_4_7_2_015,你会烧菜吧？过来，替我代一下班。"
   splits:
   - split: 1
@@ -8300,16 +7346,7 @@
 - raw: "Story/D_2_4_7_2_1_002,呼……呼……累死我了。就已经快喘不上气了，还闹，存心欠打！"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "呼"
-  - split: 1
-    subIndex: 2
-    text: "累死我了。就已经快喘不上气了，还闹，存心欠打！"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "呼……呼……累死我了。就已经快喘不上气了，还闹，存心欠打！"
 - raw: "Story/D_2_4_7_2_1_003,不是要烧菜吗？妈的，死猪！给我起来，看我不把你剁了红烧！"
   splits:
   - split: 1
@@ -8352,10 +7389,7 @@
 - raw: "Story/D_2_4_7_2_1_012,……本门的家事，不劳外人费心。"
   splits:
   - split: 1
-    text: "本门的家事，不劳外人费心。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……本门的家事，不劳外人费心。"
 - raw: "Story/D_2_4_7_2_1_013,呃。"
   splits:
   - split: 1
@@ -8403,10 +7437,7 @@
 - raw: "Story/D_2_4_7_2_1_024,唔……！"
   splits:
   - split: 1
-    text: "唔"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "唔……！"
 - raw: "Story/D_2_4_7_2_1_025,哈，师弟，你武功未免太不济！让本大侠教你几手！再来呀！"
   splits:
   - split: 1
@@ -8438,13 +7469,7 @@
 - raw: "Story/D_2_4_7_2_1_032,不、不是，我没有……这，唉，我错了还不行吗？"
   splits:
   - split: 1
-    text: "不、不是，我没有"
-  - split: 1
-    subIndex: 1
-    text: "这，唉，我错了还不行吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不、不是，我没有……这，唉，我错了还不行吗？"
 - raw: "Story/D_2_4_7_2_1_033,诚意呢？甜食呢？钱呢？"
   splits:
   - split: 1
@@ -8504,13 +7529,7 @@
 - raw: "Story/D_2_4_7_2_1_047,哦……哥哥，事情好像不大妙！"
   splits:
   - split: 1
-    text: "哦"
-  - split: 1
-    subIndex: 1
-    text: "哥哥，事情好像不大妙！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……哥哥，事情好像不大妙！"
 - raw: "Story/D_2_4_7_2_1_048,怎么了？"
   splits:
   - split: 1
@@ -8583,13 +7602,7 @@
 - raw: "Story/D_2_4_7_2_1_066,二师兄，可是我……我怎能……？"
   splits:
   - split: 1
-    text: "二师兄，可是我"
-  - split: 1
-    subIndex: 1
-    text: "我怎能"
-  templates:
-  - split: 1
-    template: "{0}……{1}……？"
+    text: "二师兄，可是我……我怎能……？"
 - raw: "Story/D_2_4_7_2_1_067,你怕出手过重伤了他？放心，我在这里，只要你不宰了他，我都救得活。"
   splits:
   - split: 1
@@ -8609,10 +7622,7 @@
 - raw: "Story/D_2_4_7_2_2_002,还是别打了吧……？"
   splits:
   - split: 1
-    text: "还是别打了吧"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "还是别打了吧……？"
 - raw: "Story/D_2_4_7_2_2_003,似你这般无能透顶窝囊废、娘娘腔，看着就碍眼！立刻给我滚！"
   splits:
   - split: 1
@@ -8641,10 +7651,7 @@
 - raw: "Story/D_2_4_7_2_2_006,……啧。"
   splits:
   - split: 1
-    text: "啧。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……啧。"
 - raw: "Story/N_2_4_7_2_2_003,只见二师兄不动声色掀了掀袖子，唐大鲸可怖情状顿时缓解。"
   splits:
   - split: 1
@@ -8676,13 +7683,7 @@
 - raw: "Story/D_2_4_7_2_2_010,呼……呼……。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "呼"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "呼……呼……。"
 - raw: "Story/D_2_4_7_2_2_011,师弟，很疼是吗？"
   splits:
   - split: 1
@@ -8702,10 +7703,7 @@
 - raw: "Story/D_2_4_7_2_2_015,……我、我知错了，对不住。"
   splits:
   - split: 1
-    text: "我、我知错了，对不住。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我、我知错了，对不住。"
 - raw: "Story/N_2_4_7_2_2_005,二师兄看向你，似乎示意你也说点什么。"
   splits:
   - split: 1
@@ -8797,13 +7795,7 @@
 - raw: "Story/D_2_4_7_3_005,哦……有这种事？详细说来。"
   splits:
   - split: 1
-    text: "哦"
-  - split: 1
-    subIndex: 1
-    text: "有这种事？详细说来。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……有这种事？详细说来。"
 - raw: "Story/N_2_4_7_3_001,你遂将破庙中所见所闻告诉二师兄。"
   splits:
   - split: 1
@@ -8811,10 +7803,7 @@
 - raw: "Story/D_2_4_7_3_006,……你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门？"
   splits:
   - split: 1
-    text: "你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门？"
 - raw: "Story/D_2_4_7_3_007,正是。"
   splits:
   - split: 1
@@ -8822,10 +7811,7 @@
 - raw: "Story/D_2_4_7_3_008,……你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门，又有一群泥教的人马追着你打？"
   splits:
   - split: 1
-    text: "你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门，又有一群泥教的人马追着你打？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门，又有一群泥教的人马追着你打？"
 - raw: "Story/D_2_4_7_3_009,没错，我打赢了两个鬼卒，可惜他们人太多，要不我就捉回来了。"
   splits:
   - split: 1
@@ -8857,10 +7843,7 @@
 - raw: "Story/D_2_4_7_3_015,……与你相斗之人并非地狱道鬼卒，是假冒的。"
   splits:
   - split: 1
-    text: "与你相斗之人并非地狱道鬼卒，是假冒的。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……与你相斗之人并非地狱道鬼卒，是假冒的。"
 - raw: "Story/D_2_4_7_3_016,果然不是啊。"
   splits:
   - split: 1
@@ -8888,13 +7871,7 @@
 - raw: "Story/D_2_4_7_3_022,我感觉……好像没有那种味儿。"
   splits:
   - split: 1
-    text: "我感觉"
-  - split: 1
-    subIndex: 1
-    text: "好像没有那种味儿。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我感觉……好像没有那种味儿。"
 - raw: "Story/D_2_4_7_3_023,那就对了，因为他们是冒牌货。"
   splits:
   - split: 1
@@ -8926,10 +7903,7 @@
 - raw: "Story/D_2_4_7_3_029,……你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门，又有一群乔装成泥教的人马，要帮本门？"
   splits:
   - split: 1
-    text: "你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门，又有一群乔装成泥教的人马，要帮本门？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你说，有一群乔装打扮成六派人士的宵小，打算夜袭本门，又有一群乔装成泥教的人马，要帮本门？"
 - raw: "Story/D_2_4_7_3_030,正是。"
   splits:
   - split: 1
@@ -8937,10 +7911,7 @@
 - raw: "Story/D_2_4_7_3_031,……我且来问你，姑且不论前面一拨乌合之众，乔装泥教的那伙人，你认为他们用意为何？"
   splits:
   - split: 1
-    text: "我且来问你，姑且不论前面一拨乌合之众，乔装泥教的那伙人，你认为他们用意为何？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我且来问你，姑且不论前面一拨乌合之众，乔装泥教的那伙人，你认为他们用意为何？"
 - raw: "Story/O_2_4_7_3_001,好心"
   splits:
   - split: 1
@@ -8948,10 +7919,7 @@
 - raw: "Story/D_2_4_7_3_032,也许他们好心想帮忙，做好事替泥教挽回名声……？"
   splits:
   - split: 1
-    text: "也许他们好心想帮忙，做好事替泥教挽回名声"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "也许他们好心想帮忙，做好事替泥教挽回名声……？"
 - raw: "Story/D_2_4_7_3_033,啧。"
   splits:
   - split: 1
@@ -8963,10 +7931,7 @@
 - raw: "Story/D_2_4_7_3_035,呃……。"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呃……。"
 - raw: "Story/O_2_4_7_3_002,嫁祸"
   splits:
   - split: 1
@@ -8994,13 +7959,7 @@
 - raw: "Story/D_2_4_7_3_041,是点苍派吗……不，点苍派不会用这种绕弯子的手段。除此之外，还有谁会与本门为难？"
   splits:
   - split: 1
-    text: "是点苍派吗"
-  - split: 1
-    subIndex: 1
-    text: "不，点苍派不会用这种绕弯子的手段。除此之外，还有谁会与本门为难？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是点苍派吗……不，点苍派不会用这种绕弯子的手段。除此之外，还有谁会与本门为难？"
 - raw: "Story/D_2_4_7_3_042,多到数不完。"
   splits:
   - split: 1
@@ -9008,13 +7967,7 @@
 - raw: "Story/D_2_4_7_3_043,哼……还真是这样，那索性不想了。将人擒住，拷问一番，自然水落石出。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "还真是这样，那索性不想了。将人擒住，拷问一番，自然水落石出。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……还真是这样，那索性不想了。将人擒住，拷问一番，自然水落石出。"
 - raw: "Story/D_2_4_7_3_044,你随我去正心堂，将你方才的话原封不动禀报掌门。"
   splits:
   - split: 1
@@ -9026,17 +7979,11 @@
 - raw: "Story/D_2_4_7_3_046,……不，我就不去了。我不告而别，何来颜面再见掌门。既然二师兄已经知情，我便就此告辞了。"
   splits:
   - split: 1
-    text: "不，我就不去了。我不告而别，何来颜面再见掌门。既然二师兄已经知情，我便就此告辞了。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……不，我就不去了。我不告而别，何来颜面再见掌门。既然二师兄已经知情，我便就此告辞了。"
 - raw: "Story/D_2_4_7_3_047,……我就不去了吧。我报了讯便走，省得他老人家见了我，还道我图什么嘉许。既然用不着我了，趁着天还没黑，我自下山去得了。"
   splits:
   - split: 1
-    text: "我就不去了吧。我报了讯便走，省得他老人家见了我，还道我图什么嘉许。既然用不着我了，趁着天还没黑，我自下山去得了。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我就不去了吧。我报了讯便走，省得他老人家见了我，还道我图什么嘉许。既然用不着我了，趁着天还没黑，我自下山去得了。"
 - raw: "Story/T_2_4_7_3_002,这回我是真走了，后会无期，云裳。愿你早日康复，一生平安无忧。"
   splits:
   - split: 1
@@ -9064,13 +8011,7 @@
 - raw: "Story/D_2_4_8_1_001,贱人，给我起床，还想睡……等等，你拿根棍子是想干嘛？"
   splits:
   - split: 1
-    text: "贱人，给我起床，还想睡"
-  - split: 1
-    subIndex: 1
-    text: "等等，你拿根棍子是想干嘛？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "贱人，给我起床，还想睡……等等，你拿根棍子是想干嘛？"
 - raw: "Story/D_2_4_8_1_002,啊！谁打我！"
   splits:
   - split: 1
@@ -9129,10 +8070,7 @@
 - raw: "Story/D_2_4_8_1_014,本门大多男弟子都去江陵了，剩下的妇孺……"
   splits:
   - split: 1
-    text: "本门大多男弟子都去江陵了，剩下的妇孺"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "本门大多男弟子都去江陵了，剩下的妇孺……"
 - raw: "Story/D_2_4_8_1_015,也不能说是妇孺，我们女弟子都剽悍的很。"
   splits:
   - split: 1
@@ -9184,26 +8122,11 @@
 - raw: "Story/D_2_4_8_10_001,三师兄……你们在忙什么？"
   splits:
   - split: 1
-    text: "三师兄"
-  - split: 1
-    subIndex: 1
-    text: "你们在忙什么？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "三师兄……你们在忙什么？"
 - raw: "Story/D_2_4_8_10_002,师弟！你……你……唉。"
   splits:
   - split: 1
-    text: "师弟！你"
-  - split: 1
-    subIndex: 1
-    text: "你"
-  - split: 1
-    subIndex: 2
-    text: "唉。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "师弟！你……你……唉。"
 - raw: "Story/D_2_4_8_10_003,我猜到你始终会回来，真不知该觉得感动，还是感叹。"
   splits:
   - split: 1
@@ -9271,10 +8194,7 @@
 - raw: "Story/D_2_4_8_10_017,……这么一想，这纸甲还挺危险的。一不小心碰着大雨，还不如给人一刀杀死，好歹能够保全尊严。"
   splits:
   - split: 1
-    text: "这么一想，这纸甲还挺危险的。一不小心碰着大雨，还不如给人一刀杀死，好歹能够保全尊严。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这么一想，这纸甲还挺危险的。一不小心碰着大雨，还不如给人一刀杀死，好歹能够保全尊严。"
 - raw: "Story/O_2_4_8_10_002,猛火油柜图纸"
   splits:
   - split: 1
@@ -9314,13 +8234,7 @@
 - raw: "Story/D_2_4_8_10_025,哦，哇！这……这可真是不得了！"
   splits:
   - split: 1
-    text: "哦，哇！这"
-  - split: 1
-    subIndex: 1
-    text: "这可真是不得了！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦，哇！这……这可真是不得了！"
 - raw: "Story/D_2_4_8_10_026,是啊，不知讲经楼中怎会藏有这样的书。小师妹见了一定欢喜得紧。"
   splits:
   - split: 1
@@ -9368,10 +8282,7 @@
 - raw: "Story/D_2_4_8_10_036,呼……。"
   splits:
   - split: 1
-    text: "呼"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呼……。"
 - raw: "Story/D_2_4_8_10_037,这都陈年旧事了，又算不上什么大奸大恶。小师妹当时不懂事，现在想必学好了。"
   splits:
   - split: 1
@@ -9399,13 +8310,7 @@
 - raw: "Story/D_2_4_8_10_042,你……你这家伙，背叛了吗！那你就跟这群唐门的畜生死一块儿得了！"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "你这家伙，背叛了吗！那你就跟这群唐门的畜生死一块儿得了！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……你这家伙，背叛了吗！那你就跟这群唐门的畜生死一块儿得了！"
 - raw: "Story/D_2_4_8_10_043,贼子，休得猖狂！"
   splits:
   - split: 1
@@ -9504,13 +8409,7 @@
 - raw: "Story/D_2_4_8_11_013,哥哥，默铃害我在山里吃尽了苦头，整夜担惊受怕，心力交瘁的说！人家已经走不动啦～背……不，牵我手。"
   splits:
   - split: 1
-    text: "哥哥，默铃害我在山里吃尽了苦头，整夜担惊受怕，心力交瘁的说！人家已经走不动啦～背"
-  - split: 1
-    subIndex: 1
-    text: "不，牵我手。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哥哥，默铃害我在山里吃尽了苦头，整夜担惊受怕，心力交瘁的说！人家已经走不动啦～背……不，牵我手。"
 - raw: "Story/D_2_4_8_11_014,别以为我不知你打什么歪主意，你是打算呈烂泥状，靠我拖曳吧。"
   splits:
   - split: 1
@@ -9538,20 +8437,11 @@
 - raw: "Story/D_2_4_8_11_019,小师妹……？"
   splits:
   - split: 1
-    text: "小师妹"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "小师妹……？"
 - raw: "Story/D_2_4_8_11_020,师兄……见到你真好。"
   splits:
   - split: 1
-    text: "师兄"
-  - split: 1
-    subIndex: 1
-    text: "见到你真好。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "师兄……见到你真好。"
 - raw: "Story/D_2_4_8_11_021,是、是吗？真的吗？见到我，你会觉得欢喜？"
   splits:
   - split: 1
@@ -9575,13 +8465,7 @@
 - raw: "Story/D_2_4_8_11_026,我……我也是。"
   splits:
   - split: 1
-    text: "我"
-  - split: 1
-    subIndex: 1
-    text: "我也是。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我……我也是。"
 - raw: "Story/D_2_4_8_11_027,只可惜我寡不敌众，给人家打倒在这。"
   splits:
   - split: 1
@@ -9597,13 +8481,7 @@
 - raw: "Story/D_2_4_8_11_030,今天不算……那是坏人害的。"
   splits:
   - split: 1
-    text: "今天不算"
-  - split: 1
-    subIndex: 1
-    text: "那是坏人害的。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "今天不算……那是坏人害的。"
 - raw: "Story/T_2_4_8_11_002,总不能抛下小师妹不管，说不得，还得上山一趟。"
   splits:
   - split: 1
@@ -9647,10 +8525,7 @@
 - raw: "Story/D_2_4_8_11_038,我不，呃……。"
   splits:
   - split: 1
-    text: "我不，呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "我不，呃……。"
 - raw: "Story/D_2_4_8_11_039,赵当家的，我们几路人马都就位了，就差你。你的人马呢？"
   splits:
   - split: 1
@@ -9658,10 +8533,7 @@
 - raw: "Story/D_2_4_8_11_040,这个嘛……。"
   splits:
   - split: 1
-    text: "这个嘛"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "这个嘛……。"
 - raw: "Story/O_2_4_8_11_003,哑口无言"
   splits:
   - split: 1
@@ -9669,13 +8541,7 @@
 - raw: "Story/D_2_4_8_11_041,这个……这个这个这个……。"
   splits:
   - split: 1
-    text: "这个"
-  - split: 1
-    subIndex: 1
-    text: "这个这个这个"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "这个……这个这个这个……。"
 - raw: "Story/D_2_4_8_11_042,这家伙有点儿古怪呀。"
   splits:
   - split: 1
@@ -9687,16 +8553,7 @@
 - raw: "Story/D_2_4_8_11_044,呃……那当然是……秘密。"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "那当然是"
-  - split: 1
-    subIndex: 2
-    text: "秘密。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "呃……那当然是……秘密。"
 - raw: "Story/D_2_4_8_11_045,总不能是去通风报信吧？"
   splits:
   - split: 1
@@ -9732,13 +8589,7 @@
 - raw: "Story/D_2_4_8_11_049,哼……哪用得着什么人马？"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "哪用得着什么人马？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……哪用得着什么人马？"
 - raw: "Story/D_2_4_8_11_050,我一人足矣。"
   splits:
   - split: 1
@@ -9774,13 +8625,7 @@
 - raw: "Story/D_2_4_8_11_055,哼……哼哼哼，嘿嘿嘿。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "哼哼哼，嘿嘿嘿。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……哼哼哼，嘿嘿嘿。"
 - raw: "Story/D_2_4_8_11_056,妈的，你说话就说话，天那么黑，别笑得那么古怪行不行？怪渗人的。"
   splits:
   - split: 1
@@ -9824,13 +8669,7 @@
 - raw: "Story/T_2_4_8_11_006,破庙相见，我还想这人扮唐门弟子实属大胆。他一个人说不定还能蒙混过关，总不能他手下人个个都穿青衣。万万没想到，他竟脸皮厚到把人派去拜师……高招，受教了。"
   splits:
   - split: 1
-    text: "破庙相见，我还想这人扮唐门弟子实属大胆。他一个人说不定还能蒙混过关，总不能他手下人个个都穿青衣。万万没想到，他竟脸皮厚到把人派去拜师"
-  - split: 1
-    subIndex: 1
-    text: "高招，受教了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "破庙相见，我还想这人扮唐门弟子实属大胆。他一个人说不定还能蒙混过关，总不能他手下人个个都穿青衣。万万没想到，他竟脸皮厚到把人派去拜师……高招，受教了。"
 - raw: "Story/T_2_4_8_11_007,难怪这人会被海捕文书通缉。这等心机胆识，在绿林黑道里也殊为罕见。"
   splits:
   - split: 1
@@ -9865,10 +8704,10 @@
 - raw: "Story/D_2_4_8_11_068,{size=50}呃啊！你、你怎会……！{/size}"
   splits:
   - split: 1
-    text: "呃啊！你、你怎会"
+    text: "呃啊！你、你怎会……！"
   templates:
   - split: 1
-    template: "⟦size=50⟧{0}……！⟦/size⟧"
+    template: "⟦size=50⟧{0}⟦/size⟧"
 - raw: "Story/D_2_4_8_11_069,{size=50}哇啊！怎会走漏风声的？{/size}"
   splits:
   - split: 1
@@ -9898,23 +8737,11 @@
 - raw: "Story/D_2_4_8_11_074,哼……赵氏蠢猪，这回事情干得不错。如你所料，带头闹事的都在这里了，正好一网打尽！"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "赵氏蠢猪，这回事情干得不错。如你所料，带头闹事的都在这里了，正好一网打尽！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……赵氏蠢猪，这回事情干得不错。如你所料，带头闹事的都在这里了，正好一网打尽！"
 - raw: "Story/D_2_4_8_11_075,我懂了……我懂了！这姓赵的龟孙子家伙是叛徒！他出卖我们！"
   splits:
   - split: 1
-    text: "我懂了"
-  - split: 1
-    subIndex: 1
-    text: "我懂了！这姓赵的龟孙子家伙是叛徒！他出卖我们！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我懂了……我懂了！这姓赵的龟孙子家伙是叛徒！他出卖我们！"
 - raw: "Story/D_2_4_8_11_076,妈巴羔子的，洒家早就疑心他！"
   splits:
   - split: 1
@@ -9981,16 +8808,13 @@
 - raw: "Story/D_2_4_8_2_010,{size=24}你……好，算你狠。{/size}{size=24}掌门在此，我暂时不跟你计较。{/size}"
   splits:
   - split: 1
-    text: "你"
+    text: "你……好，算你狠。"
   - split: 1
     subIndex: 1
-    text: "好，算你狠。"
-  - split: 1
-    subIndex: 2
     text: "掌门在此，我暂时不跟你计较。"
   templates:
   - split: 1
-    template: "⟦size=24⟧{0}……{1}⟦/size⟧⟦size=24⟧{2}⟦/size⟧"
+    template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
 - raw: "Story/D_2_4_8_2_011,掌门和小师妹在此，正心堂戒备森严，看来是用不着弟子。我去别处看看，有无可以效劳。"
   splits:
   - split: 1
@@ -10063,13 +8887,7 @@
 - raw: "Story/D_2_4_8_2_026,你、你嫌我吵……太伤人了！"
   splits:
   - split: 1
-    text: "你、你嫌我吵"
-  - split: 1
-    subIndex: 1
-    text: "太伤人了！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你、你嫌我吵……太伤人了！"
 - raw: "Story/D_2_4_8_2_027,啊！为什么是打我！"
   splits:
   - split: 1
@@ -10085,10 +8903,7 @@
 - raw: "Story/D_2_4_8_2_030,除非……。"
   splits:
   - split: 1
-    text: "除非"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "除非……。"
 - raw: "Story/D_2_4_8_2_031,可以放糖。"
   splits:
   - split: 1
@@ -10124,13 +8939,7 @@
 - raw: "Story/D_2_4_8_2_039,呃……好像还真是这样，当我没说吧。"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "好像还真是这样，当我没说吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呃……好像还真是这样，当我没说吧。"
 - raw: "Story/D_2_4_8_3_001,我就守这里好了。"
   splits:
   - split: 1
@@ -10158,26 +8967,11 @@
 - raw: "Story/D_2_4_8_4_005,这……这……不是你想的那样。我们绝对不是想把好吃的吃掉，再嫁祸给闯进来捣乱的贼人。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这"
-  - split: 1
-    subIndex: 2
-    text: "不是你想的那样。我们绝对不是想把好吃的吃掉，再嫁祸给闯进来捣乱的贼人。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "这……这……不是你想的那样。我们绝对不是想把好吃的吃掉，再嫁祸给闯进来捣乱的贼人。"
 - raw: "Story/D_2_4_8_4_006,哦……是哦。"
   splits:
   - split: 1
-    text: "哦"
-  - split: 1
-    subIndex: 1
-    text: "是哦。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……是哦。"
 - raw: "Story/D_2_4_8_4_007,师妹，冷静点！事到如今，唯有他也吃了，大家同一条船上，才不怕他去告状！"
   splits:
   - split: 1
@@ -10223,37 +9017,19 @@
 - raw: "Story/D_2_4_8_4_1_001,不行，吃太撑，好难活动……！"
   splits:
   - split: 1
-    text: "不行，吃太撑，好难活动"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "不行，吃太撑，好难活动……！"
 - raw: "Story/D_2_4_8_4_1_002,我好像快吐了……呕～"
   splits:
   - split: 1
-    text: "我好像快吐了"
-  - split: 1
-    subIndex: 1
-    text: "呕～"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我好像快吐了……呕～"
 - raw: "Story/D_2_4_8_4_1_003,你、你真恶心，害我也想……呕～"
   splits:
   - split: 1
-    text: "你、你真恶心，害我也想"
-  - split: 1
-    subIndex: 1
-    text: "呕～"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你、你真恶心，害我也想……呕～"
 - raw: "Story/D_2_4_8_4_1_004,……这可不能怪我喔，是你们自己要打的。"
   splits:
   - split: 1
-    text: "这可不能怪我喔，是你们自己要打的。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这可不能怪我喔，是你们自己要打的。"
 - raw: "Story/D_2_4_8_4_1_005,吃！吃了这个，你就是共犯了！"
   splits:
   - split: 1
@@ -10273,13 +9049,7 @@
 - raw: "Story/D_2_4_8_4_1_009,可恶……良心好痛，但是真好吃！"
   splits:
   - split: 1
-    text: "可恶"
-  - split: 1
-    subIndex: 1
-    text: "良心好痛，但是真好吃！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "可恶……良心好痛，但是真好吃！"
 - raw: "Story/D_2_4_8_4_2_001,老大，我们跑进唐门伙房做甚？下毒吗？"
   splits:
   - split: 1
@@ -10291,13 +9061,7 @@
 - raw: "Story/D_2_4_8_4_2_003,说起来，他们伙房怎么有股味儿？像是……像是有人吐过似的。"
   splits:
   - split: 1
-    text: "说起来，他们伙房怎么有股味儿？像是"
-  - split: 1
-    subIndex: 1
-    text: "像是有人吐过似的。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "说起来，他们伙房怎么有股味儿？像是……像是有人吐过似的。"
 - raw: "Story/D_2_4_8_4_2_004,你也是？我还道是错觉，弄得我也有点儿犯恶心。"
   splits:
   - split: 1
@@ -10339,13 +9103,7 @@
 - raw: "Story/D_2_4_8_4_2_012,血！好多血……我、我要死了？啊，好像不是我的血。那没事了。"
   splits:
   - split: 1
-    text: "血！好多血"
-  - split: 1
-    subIndex: 1
-    text: "我、我要死了？啊，好像不是我的血。那没事了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "血！好多血……我、我要死了？啊，好像不是我的血。那没事了。"
 - raw: "Story/D_2_4_8_4_2_013,是你这家伙背叛了吗！"
   splits:
   - split: 1
@@ -10411,10 +9169,7 @@
 - raw: "Story/D_2_4_8_6_002,正好，你来替我站哨……。"
   splits:
   - split: 1
-    text: "正好，你来替我站哨"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "正好，你来替我站哨……。"
 - raw: "Story/D_2_4_8_6_003,怎么是你啊。"
   splits:
   - split: 1
@@ -10430,10 +9185,7 @@
 - raw: "Story/D_2_4_8_6_006,没、没有那回事，别说了，一想起来老子的胃又开始疼……。"
   splits:
   - split: 1
-    text: "没、没有那回事，别说了，一想起来老子的胃又开始疼"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "没、没有那回事，别说了，一想起来老子的胃又开始疼……。"
 - raw: "Story/T_2_4_8_6_001,看来是有阴霾了。"
   splits:
   - split: 1
@@ -10445,10 +9197,7 @@
 - raw: "Story/D_2_4_8_6_008,没、没有那回事，别说了，一想起来老子的胃又开始疼……。"
   splits:
   - split: 1
-    text: "没、没有那回事，别说了，一想起来老子的胃又开始疼"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "没、没有那回事，别说了，一想起来老子的胃又开始疼……。"
 - raw: "Story/T_2_4_8_6_002,看来是有阴霾了。"
   splits:
   - split: 1
@@ -10456,13 +9205,7 @@
 - raw: "Story/D_2_4_8_6_009,我哪敢，师弟……师兄，你请入内坐。这里有我大鲸看着就好。"
   splits:
   - split: 1
-    text: "我哪敢，师弟"
-  - split: 1
-    subIndex: 1
-    text: "师兄，你请入内坐。这里有我大鲸看着就好。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我哪敢，师弟……师兄，你请入内坐。这里有我大鲸看着就好。"
 - raw: "Story/D_2_4_8_6_010,态度转变真大。"
   splits:
   - split: 1
@@ -10545,10 +9288,7 @@
 - raw: "Story/D_2_4_8_6_1_002,大哥！你……！"
   splits:
   - split: 1
-    text: "大哥！你"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "大哥！你……！"
 - raw: "Story/D_2_4_8_6_1_003,没用的，待我捅死了你，再追上去捅死你兄弟！"
   splits:
   - split: 1
@@ -10608,23 +9348,11 @@
 - raw: "Story/D_2_4_8_7_003,这个嘛……一言难尽。"
   splits:
   - split: 1
-    text: "这个嘛"
-  - split: 1
-    subIndex: 1
-    text: "一言难尽。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这个嘛……一言难尽。"
 - raw: "Story/D_2_4_8_7_004,呼嘶……好了，搞定。"
   splits:
   - split: 1
-    text: "呼嘶"
-  - split: 1
-    subIndex: 1
-    text: "好了，搞定。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呼嘶……好了，搞定。"
 - raw: "Story/D_2_4_8_7_005,师兄，你们这么晚拿锤子，是在敲什么事物？"
   splits:
   - split: 1
@@ -10636,10 +9364,7 @@
 - raw: "Story/D_2_4_8_7_007,地鸣……"
   splits:
   - split: 1
-    text: "地鸣"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "地鸣……"
 - raw: "Story/D_2_4_8_7_008,你们方才敲的是地鸣雷！？"
   splits:
   - split: 1
@@ -10703,10 +9428,7 @@
 - raw: "Story/D_2_4_8_8_007,……这个赵师弟丑归丑，还算挺心细的。"
   splits:
   - split: 1
-    text: "这个赵师弟丑归丑，还算挺心细的。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这个赵师弟丑归丑，还算挺心细的。"
 - raw: "Story/D_2_4_8_8_008,废话，那可是本娇娇看上的男人。"
   splits:
   - split: 1
@@ -10811,10 +9533,7 @@
 - raw: "Story/D_2_4_8_9_015,我……。"
   splits:
   - split: 1
-    text: "我"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "我……。"
 - raw: "Story/D_2_4_8_9_016,无须理睬。"
   splits:
   - split: 1
@@ -10954,13 +9673,7 @@
 - raw: "Story/D_2_4_9_2_001,大势已去……唐门毕竟是唐门。"
   splits:
   - split: 1
-    text: "大势已去"
-  - split: 1
-    subIndex: 1
-    text: "唐门毕竟是唐门。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "大势已去……唐门毕竟是唐门。"
 - raw: "Story/D_2_4_9_2_002,原来我会死在这里。"
   splits:
   - split: 1
@@ -10976,13 +9689,7 @@
 - raw: "Story/T_2_4_9_2_001,到底哪里出错了……这样我投奔段公子的事情，岂不是要泡汤了吗？"
   splits:
   - split: 1
-    text: "到底哪里出错了"
-  - split: 1
-    subIndex: 1
-    text: "这样我投奔段公子的事情，岂不是要泡汤了吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "到底哪里出错了……这样我投奔段公子的事情，岂不是要泡汤了吗？"
 - raw: "Story/T_2_4_9_2_002,不行，绝对不行！我已经受够给那无能二公子擦屁股了。以我的才干，怎能一生都在江陵虚度！不，绝不！"
   splits:
   - split: 1
@@ -11002,13 +9709,7 @@
 - raw: "Story/D_2_4_9_2_007,快……快带人拦住他们！"
   splits:
   - split: 1
-    text: "快"
-  - split: 1
-    subIndex: 1
-    text: "快带人拦住他们！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "快……快带人拦住他们！"
 - raw: "Story/D_2_4_9_2_008,师妹，你没事吧！"
   splits:
   - split: 1
@@ -11016,13 +9717,7 @@
 - raw: "Story/D_2_4_9_2_009,快……快带人拦住他们！"
   splits:
   - split: 1
-    text: "快"
-  - split: 1
-    subIndex: 1
-    text: "快带人拦住他们！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "快……快带人拦住他们！"
 - raw: "Story/D_2_4_9_2_010,当心！"
   splits:
   - split: 1
@@ -11034,10 +9729,7 @@
 - raw: "Story/D_2_4_9_2_012,……裳儿，你到老夫身侧来，现在。"
   splits:
   - split: 1
-    text: "裳儿，你到老夫身侧来，现在。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……裳儿，你到老夫身侧来，现在。"
 - raw: "Story/D_2_4_9_2_013,噢。"
   splits:
   - split: 1
@@ -11061,13 +9753,7 @@
 - raw: "Story/D_2_4_9_2_018,别想……动我妹子……。"
   splits:
   - split: 1
-    text: "别想"
-  - split: 1
-    subIndex: 1
-    text: "动我妹子"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "别想……动我妹子……。"
 - raw: "Story/D_2_4_9_2_019,已经像破布一样凄惨的家伙，还想碍事！"
   splits:
   - split: 1
@@ -11096,13 +9782,7 @@
 - raw: "Story/D_2_4_9_2_023,也有可能……是疝气……。"
   splits:
   - split: 1
-    text: "也有可能"
-  - split: 1
-    subIndex: 1
-    text: "是疝气"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "也有可能……是疝气……。"
 - raw: "Story/D_2_4_9_2_024,话说哥哥，你怎么动也不动，一声不吭？"
   splits:
   - split: 1
@@ -11154,16 +9834,7 @@
 - raw: "Story/D_2_4_9_2_034,我不甘心……以我的才干……干！"
   splits:
   - split: 1
-    text: "我不甘心"
-  - split: 1
-    subIndex: 1
-    text: "以我的才干"
-  - split: 1
-    subIndex: 2
-    text: "干！"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "我不甘心……以我的才干……干！"
 - raw: "Story/N_2_4_9_2_003,今宵上山的，多属流氓山贼一类乌合之众，论武功远远不如唐门弟子。更有泥教相助，纵有趁乱逃奔者，亦不能幸免，通通一网打尽。"
   splits:
   - split: 1
@@ -11229,17 +9900,11 @@
 - raw: "Story/D_2_4_9_2_046,呃……。"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呃……。"
 - raw: "Story/D_2_4_9_2_047,呃……。"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呃……。"
 - raw: "Story/D_2_4_9_2_048,发信号箭，召回追击的人，让他们去找小师妹。但凡她少一根汗毛，抑或天亮之前找不到人，我便拿你们这群废物试药。"
   splits:
   - split: 1
@@ -11251,13 +9916,7 @@
 - raw: "Story/D_2_4_9_2_050,二师兄……能问一下是什么药吗？"
   splits:
   - split: 1
-    text: "二师兄"
-  - split: 1
-    subIndex: 1
-    text: "能问一下是什么药吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "二师兄……能问一下是什么药吗？"
 - raw: "Story/D_2_4_9_2_051,脱毛的药膏。抹在头顶，一生都不能再长头发。"
   splits:
   - split: 1
@@ -11277,10 +9936,7 @@
 - raw: "Story/D_2_4_9_2_054,……看来是稳重了一点。我还道你又不经思索冲出门去，迷路在山里，哭哭啼啼。"
   splits:
   - split: 1
-    text: "看来是稳重了一点。我还道你又不经思索冲出门去，迷路在山里，哭哭啼啼。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……看来是稳重了一点。我还道你又不经思索冲出门去，迷路在山里，哭哭啼啼。"
 - raw: "Story/D_2_4_9_2_055,冲了，可是师兄拦住我，不让去。"
   splits:
   - split: 1
@@ -11300,13 +9956,7 @@
 - raw: "Story/D_2_4_9_2_058,哼……天生我才必有用。那赵氏蠢猪活到今日，总算派上用场，不算废物透顶。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "天生我才必有用。那赵氏蠢猪活到今日，总算派上用场，不算废物透顶。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……天生我才必有用。那赵氏蠢猪活到今日，总算派上用场，不算废物透顶。"
 - raw: "Story/D_2_4_10_1_001,到家了，去吧。"
   splits:
   - split: 1
@@ -11322,13 +9972,7 @@
 - raw: "Story/D_2_4_10_1_004,嗯，嗯，反正你们不会不管我。我一夜提心吊胆，困得很……好想睡的说。"
   splits:
   - split: 1
-    text: "嗯，嗯，反正你们不会不管我。我一夜提心吊胆，困得很"
-  - split: 1
-    subIndex: 1
-    text: "好想睡的说。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嗯，嗯，反正你们不会不管我。我一夜提心吊胆，困得很……好想睡的说。"
 - raw: "Story/D_2_4_10_1_005,可是你还没洗澡。"
   splits:
   - split: 1
@@ -11336,13 +9980,7 @@
 - raw: "Story/D_2_4_10_1_006,嗯～我想睡……你帮我洗吧。"
   splits:
   - split: 1
-    text: "嗯～我想睡"
-  - split: 1
-    subIndex: 1
-    text: "你帮我洗吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嗯～我想睡……你帮我洗吧。"
 - raw: "Story/D_2_4_10_1_007,好。"
   splits:
   - split: 1
@@ -11377,13 +10015,7 @@
 - raw: "Story/D_2_4_10_1_017,小师妹……不是的，这里不是我的家。"
   splits:
   - split: 1
-    text: "小师妹"
-  - split: 1
-    subIndex: 1
-    text: "不是的，这里不是我的家。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "小师妹……不是的，这里不是我的家。"
 - raw: "Story/D_2_4_10_1_018,你总算知道回来了。"
   splits:
   - split: 1
@@ -11411,10 +10043,7 @@
 - raw: "Story/D_2_4_10_1_024,……去和掌门问安，之后到炼丹房找我领罚。"
   splits:
   - split: 1
-    text: "去和掌门问安，之后到炼丹房找我领罚。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……去和掌门问安，之后到炼丹房找我领罚。"
 - raw: "Story/D_2_4_10_1_025,好。"
   splits:
   - split: 1
@@ -11430,10 +10059,7 @@
 - raw: "Story/D_2_4_10_1_028,……功过相抵，饶你临阵脱逃之罪吧。"
   splits:
   - split: 1
-    text: "功过相抵，饶你临阵脱逃之罪吧。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……功过相抵，饶你临阵脱逃之罪吧。"
 - raw: "Story/D_2_4_10_1_029,师弟！整夜不见你踪影，还怕你有不测。你回来，可真是太好了。"
   splits:
   - split: 1
@@ -11441,13 +10067,7 @@
 - raw: "Story/D_2_4_10_1_030,呃……昨夜打杀，本门师兄姊们可有损伤吗？"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "昨夜打杀，本门师兄姊们可有损伤吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呃……昨夜打杀，本门师兄姊们可有损伤吗？"
 - raw: "Story/D_2_4_10_1_031,放心，都没事，掌门正要招开家会，总结昨夜事情。还有什么话，一并到正心堂去说吧。"
   splits:
   - split: 1
@@ -11495,13 +10115,7 @@
 - raw: "Story/D_2_4_10_1_041,呃……抱歉。"
   splits:
   - split: 1
-    text: "呃"
-  - split: 1
-    subIndex: 1
-    text: "抱歉。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呃……抱歉。"
 - raw: "Story/T_2_4_10_1_002,我有什么办法，穷到住破庙的人，还有什么闲情讲究干净。"
   splits:
   - split: 1
@@ -11525,10 +10139,7 @@
 - raw: "Story/D_2_4_10_1_046,……这是要拿我试毒的意思吗？"
   splits:
   - split: 1
-    text: "这是要拿我试毒的意思吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这是要拿我试毒的意思吗？"
 - raw: "Story/D_2_4_10_1_047,你别小人之心度君子之腹，没下毒。"
   splits:
   - split: 1
@@ -11536,10 +10147,7 @@
 - raw: "Story/D_2_4_10_1_048,哦，多谢师兄……？"
   splits:
   - split: 1
-    text: "哦，多谢师兄"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "哦，多谢师兄……？"
 - raw: "Story/D_2_4_10_1_049,不必那么客气。"
   splits:
   - split: 1
@@ -11587,10 +10195,7 @@
 - raw: "Story/D_2_4_10_2_004,那不然……？"
   splits:
   - split: 1
-    text: "那不然"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "那不然……？"
 - raw: "Story/D_2_4_10_2_005,我突然之间极度想大便，必须即刻到茅房报到！你快帮我代一下班，去地窖看着那几个家伙。"
   splits:
   - split: 1
@@ -11606,10 +10211,7 @@
 - raw: "Story/D_2_4_10_2_008,呃……。"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呃……。"
 - raw: "Story/D_2_4_10_2_009,唔呃呃──快！别逼我发飙大在你床上！"
   splits:
   - split: 1
@@ -11743,10 +10345,7 @@
 - raw: "Story/D_2_4_10_2_2_002,二师兄，你来了……。"
   splits:
   - split: 1
-    text: "二师兄，你来了"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "二师兄，你来了……。"
 - raw: "Story/T_2_4_10_2_2_001,二师兄心绪好像不太好。"
   splits:
   - split: 1
@@ -11775,13 +10374,7 @@
 - raw: "Story/D_2_4_10_2_2_007,哼……哼！干这没本钱买卖的，迟早都有这么一天，早将生死置之度外，你辣手相公便是活阎罗，也吓不倒我！"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "哼！干这没本钱买卖的，迟早都有这么一天，早将生死置之度外，你辣手相公便是活阎罗，也吓不倒我！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……哼！干这没本钱买卖的，迟早都有这么一天，早将生死置之度外，你辣手相公便是活阎罗，也吓不倒我！"
 - raw: "Story/D_2_4_10_2_2_008,没错，既然失风被你们擒住，那还有什么好说的？"
   splits:
   - split: 1
@@ -11825,20 +10418,11 @@
 - raw: "Story/D_2_4_10_2_2_018,……「白蛇」丁侃，籍贯嘉禾，祖上曾任盐户，为上官世家故，落草梅州长滩为盗。"
   splits:
   - split: 1
-    text: "「白蛇」丁侃，籍贯嘉禾，祖上曾任盐户，为上官世家故，落草梅州长滩为盗。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……「白蛇」丁侃，籍贯嘉禾，祖上曾任盐户，为上官世家故，落草梅州长滩为盗。"
 - raw: "Story/D_2_4_10_2_2_019,你……你知道我？"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "你知道我？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……你知道我？"
 - raw: "Story/D_2_4_10_2_2_020,「豺狼」赖裕廷，河中府的金国马贼头目，怎么跑到宋国来了？"
   splits:
   - split: 1
@@ -11846,13 +10430,7 @@
 - raw: "Story/D_2_4_10_2_2_021,我……我……。"
   splits:
   - split: 1
-    text: "我"
-  - split: 1
-    subIndex: 1
-    text: "我"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "我……我……。"
 - raw: "Story/D_2_4_10_2_2_022,虔州「虬髯猪」曹建军，盘据笔架山，恶名昭彰的采花盗。怎么，唐布衣那厮没去找过你麻烦？"
   splits:
   - split: 1
@@ -11868,13 +10446,7 @@
 - raw: "Story/D_2_4_10_2_2_025,我那是……讨生活。"
   splits:
   - split: 1
-    text: "我那是"
-  - split: 1
-    subIndex: 1
-    text: "讨生活。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我那是……讨生活。"
 - raw: "Story/D_2_4_10_2_2_026,何况宋人也未必无辜。"
   splits:
   - split: 1
@@ -11886,13 +10458,7 @@
 - raw: "Story/D_2_4_10_2_2_028,哼……告诉你也无妨。"
   splits:
   - split: 1
-    text: "哼"
-  - split: 1
-    subIndex: 1
-    text: "告诉你也无妨。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哼……告诉你也无妨。"
 - raw: "Story/D_2_4_10_2_2_029,听闻你们这些废物失风被捉，绿林牙子唯恐引火烧身，天没亮就跪在我唐家大院之外，叩手求饶，一五一十交代了个清楚。"
   splits:
   - split: 1
@@ -11900,16 +10466,7 @@
 - raw: "Story/D_2_4_10_2_2_030,这下完了……全完了……我飞黄腾达的梦啊……。"
   splits:
   - split: 1
-    text: "这下完了"
-  - split: 1
-    subIndex: 1
-    text: "全完了"
-  - split: 1
-    subIndex: 2
-    text: "我飞黄腾达的梦啊"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……。"
+    text: "这下完了……全完了……我飞黄腾达的梦啊……。"
 - raw: "Story/N_2_4_10_2_2_002,被二师兄道破来历，各人面如死灰，比死了还要难受。"
   splits:
   - split: 1
@@ -11929,17 +10486,11 @@
 - raw: "Story/D_2_4_10_2_2_033,……本该如此。"
   splits:
   - split: 1
-    text: "本该如此。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……本该如此。"
 - raw: "Story/D_2_4_10_2_2_034,「本该」如此，意思是说……？"
   splits:
   - split: 1
-    text: "「本该」如此，意思是说"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "「本该」如此，意思是说……？"
 - raw: "Story/D_2_4_10_2_2_035,白蛇，你贩私盐通缉在榜，图利不假，但遇孤儿寡母赊账难偿者，亦曾有撕毁借据的义举，足见利民之心，名声不恶。"
   splits:
   - split: 1
@@ -11983,10 +10534,7 @@
 - raw: "Story/D_2_4_10_2_2_043,……你祖上三代是岳王爷部下，为抱不平，而受牵连。可叹杨存中老将军殚精竭虑，也保不住你家人。"
   splits:
   - split: 1
-    text: "你祖上三代是岳王爷部下，为抱不平，而受牵连。可叹杨存中老将军殚精竭虑，也保不住你家人。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……你祖上三代是岳王爷部下，为抱不平，而受牵连。可叹杨存中老将军殚精竭虑，也保不住你家人。"
 - raw: "Story/D_2_4_10_2_2_044,那也不然，杨将军起码保住了俺。"
   splits:
   - split: 1
@@ -11998,20 +10546,11 @@
 - raw: "Story/D_2_4_10_2_2_046,这……洒家娶这么多老婆也生不出儿子，就想多收一些义子养老，又因自己没读书抬不起头，想给孩子铺路呗。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "洒家娶这么多老婆也生不出儿子，就想多收一些义子养老，又因自己没读书抬不起头，想给孩子铺路呗。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……洒家娶这么多老婆也生不出儿子，就想多收一些义子养老，又因自己没读书抬不起头，想给孩子铺路呗。"
 - raw: "Story/D_2_4_10_2_2_047,……经查，尔等虽为盗贼，然良心未泯，素行颇有侠义风范。袭扰唐门不可赦，然因未遂，不见死伤，故此掌门网开一面，从宽处置。"
   splits:
   - split: 1
-    text: "经查，尔等虽为盗贼，然良心未泯，素行颇有侠义风范。袭扰唐门不可赦，然因未遂，不见死伤，故此掌门网开一面，从宽处置。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……经查，尔等虽为盗贼，然良心未泯，素行颇有侠义风范。袭扰唐门不可赦，然因未遂，不见死伤，故此掌门网开一面，从宽处置。"
 - raw: "Story/D_2_4_10_2_2_048,尔等即行下山，首级且寄项上，一年余命，供汝安家。明年今日再赴唐门受死，怙恶不悛者，以决杀令示告江湖。"
   splits:
   - split: 1
@@ -12031,13 +10570,7 @@
 - raw: "Story/D_2_4_10_2_2_049,……你们……你们都听得懂？那个啥怙恶不悛，是啥玩意？谁来俺翻译翻译？"
   splits:
   - split: 1
-    text: "你们"
-  - split: 1
-    subIndex: 1
-    text: "你们都听得懂？那个啥怙恶不悛，是啥玩意？谁来俺翻译翻译？"
-  templates:
-  - split: 1
-    template: "……{0}……{1}"
+    text: "……你们……你们都听得懂？那个啥怙恶不悛，是啥玩意？谁来俺翻译翻译？"
 - raw: "Story/D_2_4_10_2_2_050,意思是你作恶多端，不肯悔改。"
   splits:
   - split: 1
@@ -12057,10 +10590,7 @@
 - raw: "Story/T_2_4_10_2_2_009,……路虽然远了点，我就回去一趟吧。让兄弟们散了，把老婆接回中原住，一路还能游山玩水，不枉夫妻一场。"
   splits:
   - split: 1
-    text: "路虽然远了点，我就回去一趟吧。让兄弟们散了，把老婆接回中原住，一路还能游山玩水，不枉夫妻一场。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……路虽然远了点，我就回去一趟吧。让兄弟们散了，把老婆接回中原住，一路还能游山玩水，不枉夫妻一场。"
 - raw: "Story/T_2_4_10_2_2_010,我要回剑阁，参加神兵会。就算把血肉都镕铸在剑里，也要以我铸造的神兵利器，在史书留下痕迹！"
   splits:
   - split: 1
@@ -12076,10 +10606,7 @@
 - raw: "Story/D_2_4_10_2_2_055,我这是真伤啊……！"
   splits:
   - split: 1
-    text: "我这是真伤啊"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "我这是真伤啊……！"
 - raw: "Story/N_2_4_10_2_2_004,话虽如此，你还是整肃打理了一番。"
   splits:
   - split: 1
@@ -12095,10 +10622,7 @@
 - raw: "Story/D_2_4_10_2_2_058,是……。"
   splits:
   - split: 1
-    text: "是"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "是……。"
 - raw: "Story/D_2_4_10_2_2_059,几位，这边请。"
   splits:
   - split: 1
@@ -12141,10 +10665,7 @@
 - raw: "Story/D_2_4_10_2_2_068,……唐二侠，我赖某人并非不识好歹之人。今日唐掌门开恩，给我一年余命交代后事，赖某人很承他老人家的恩情。我与唐布衣那些烂账，从此一笔勾消了。"
   splits:
   - split: 1
-    text: "唐二侠，我赖某人并非不识好歹之人。今日唐掌门开恩，给我一年余命交代后事，赖某人很承他老人家的恩情。我与唐布衣那些烂账，从此一笔勾消了。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……唐二侠，我赖某人并非不识好歹之人。今日唐掌门开恩，给我一年余命交代后事，赖某人很承他老人家的恩情。我与唐布衣那些烂账，从此一笔勾消了。"
 - raw: "Story/D_2_4_10_2_2_069,那倒不必，你在这一年之中有办法杀了他，我也没意见。"
   splits:
   - split: 1
@@ -12152,26 +10673,11 @@
 - raw: "Story/D_2_4_10_2_2_070,喔……告辞。"
   splits:
   - split: 1
-    text: "喔"
-  - split: 1
-    subIndex: 1
-    text: "告辞。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "喔……告辞。"
 - raw: "Story/D_2_4_10_2_2_071,唐二侠！洒家……俺……小人走了，告辞。"
   splits:
   - split: 1
-    text: "唐二侠！洒家"
-  - split: 1
-    subIndex: 1
-    text: "俺"
-  - split: 1
-    subIndex: 2
-    text: "小人走了，告辞。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "唐二侠！洒家……俺……小人走了，告辞。"
 - raw: "Story/D_2_4_10_2_2_072,少废话，滚。"
   splits:
   - split: 1
@@ -12183,16 +10689,7 @@
 - raw: "Story/D_2_4_10_2_2_074,搞什么……你搞什么？还真放走了他们？唐……唐二侠，你明明放走了这些绿林强盗，却不放我，这是什么意思？"
   splits:
   - split: 1
-    text: "搞什么"
-  - split: 1
-    subIndex: 1
-    text: "你搞什么？还真放走了他们？唐"
-  - split: 1
-    subIndex: 2
-    text: "唐二侠，你明明放走了这些绿林强盗，却不放我，这是什么意思？"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "搞什么……你搞什么？还真放走了他们？唐……唐二侠，你明明放走了这些绿林强盗，却不放我，这是什么意思？"
 - raw: "Story/D_2_4_10_2_2_075,什么意思，你该心知肚明。这些人不过是杀人的刀，无足轻重。"
   splits:
   - split: 1
@@ -12204,19 +10701,7 @@
 - raw: "Story/D_2_4_10_2_2_077,我……我可是南宫世家……的……的……。"
   splits:
   - split: 1
-    text: "我"
-  - split: 1
-    subIndex: 1
-    text: "我可是南宫世家"
-  - split: 1
-    subIndex: 2
-    text: "的"
-  - split: 1
-    subIndex: 3
-    text: "的"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}……。"
+    text: "我……我可是南宫世家……的……的……。"
 - raw: "Story/D_2_4_10_3_001,启禀掌门，那干人等已经全都打发下山去了。"
   splits:
   - split: 1
@@ -12340,10 +10825,7 @@
 - raw: "Story/D_2_4_10_3_025,那么弟子也……"
   splits:
   - split: 1
-    text: "那么弟子也"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "那么弟子也……"
 - raw: "Story/D_2_4_10_3_026,赵活，你留下。"
   splits:
   - split: 1
@@ -12387,13 +10869,7 @@
 - raw: "Story/T_2_4_10_3_006,莫非……莫非掌门终于要收我入室了吗！"
   splits:
   - split: 1
-    text: "莫非"
-  - split: 1
-    subIndex: 1
-    text: "莫非掌门终于要收我入室了吗！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "莫非……莫非掌门终于要收我入室了吗！"
 - raw: "Story/N_2_4_10_3_002,你怦然心跳，口干舌燥。"
   splits:
   - split: 1
@@ -12409,13 +10885,7 @@
 - raw: "Story/D_2_4_10_3_038,掌门……请问这是……？"
   splits:
   - split: 1
-    text: "掌门"
-  - split: 1
-    subIndex: 1
-    text: "请问这是"
-  templates:
-  - split: 1
-    template: "{0}……{1}……？"
+    text: "掌门……请问这是……？"
 - raw: "Story/D_2_4_10_3_039,此物赠你，以示嘉勉。下去歇息吧。"
   splits:
   - split: 1
@@ -12423,17 +10893,11 @@
 - raw: "Story/D_2_4_10_3_040,是……。"
   splits:
   - split: 1
-    text: "是"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "是……。"
 - raw: "Story/T_2_4_10_3_007,……就这样吗？可我要的不是这些，我又不贪图赏赐。只想要容身之处，想要公平罢了。"
   splits:
   - split: 1
-    text: "就这样吗？可我要的不是这些，我又不贪图赏赐。只想要容身之处，想要公平罢了。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……就这样吗？可我要的不是这些，我又不贪图赏赐。只想要容身之处，想要公平罢了。"
 - raw: "Story/T_2_4_10_3_008,唉，掌门说不定都不知道我离家出走了。我看我还是死了这条心，收收东西走吧。"
   splits:
   - split: 1
@@ -12481,13 +10945,7 @@
 - raw: "Story/D_2_4_10_3_050,这……我……。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "我"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "这……我……。"
 - raw: "Story/D_2_4_10_3_051,这木匣子装什么？你的新名牌吗？"
   splits:
   - split: 1
@@ -12511,13 +10969,7 @@
 - raw: "Story/D_2_4_10_3_054,怎么……不是钱？匣子里没钱？"
   splits:
   - split: 1
-    text: "怎么"
-  - split: 1
-    subIndex: 1
-    text: "不是钱？匣子里没钱？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "怎么……不是钱？匣子里没钱？"
 - raw: "Story/D_2_4_10_3_055,我有看错吗？是我想的那件东西吗？"
   splits:
   - split: 1
@@ -12560,10 +11012,7 @@
 - raw: "Story/D_2_4_10_3_063,……大家这是中邪了吗？莫非这小剑有涂了什么乱人心智的毒物？"
   splits:
   - split: 1
-    text: "大家这是中邪了吗？莫非这小剑有涂了什么乱人心智的毒物？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……大家这是中邪了吗？莫非这小剑有涂了什么乱人心智的毒物？"
 - raw: "Story/O_2_4_10_3_001,端详一下"
   splits:
   - split: 1
@@ -12583,17 +11032,11 @@
 - raw: "Story/D_2_4_10_3_067,喂，你若闲着没事，就过——"
   splits:
   - split: 1
-    text: "喂，你若闲着没事，就过"
-  templates:
-  - split: 1
-    template: "{0}——"
+    text: "喂，你若闲着没事，就过——"
 - raw: "Story/D_2_4_10_3_068,……你手里的兵器……！"
   splits:
   - split: 1
-    text: "你手里的兵器"
-  templates:
-  - split: 1
-    template: "……{0}……！"
+    text: "……你手里的兵器……！"
 - raw: "Story/D_2_4_10_3_069,二师兄，你知道这小剑的来历吗？"
   splits:
   - split: 1
@@ -12609,10 +11052,7 @@
 - raw: "Story/D_2_4_10_3_071,喂，你若闲着没事，就过——"
   splits:
   - split: 1
-    text: "喂，你若闲着没事，就过"
-  templates:
-  - split: 1
-    template: "{0}——"
+    text: "喂，你若闲着没事，就过——"
 - raw: "Story/D_2_4_10_3_072,你个杂种立刻给我住手！"
   splits:
   - split: 1
@@ -12632,10 +11072,7 @@
 - raw: "Story/D_2_4_10_3_076,……这是一柄『传承小剑』。掌门从先掌门手里继承而来，持之以横行江湖的兵器。铸法失传，无双无对，普天之下只此一柄。"
   splits:
   - split: 1
-    text: "这是一柄『传承小剑』。掌门从先掌门手里继承而来，持之以横行江湖的兵器。铸法失传，无双无对，普天之下只此一柄。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这是一柄『传承小剑』。掌门从先掌门手里继承而来，持之以横行江湖的兵器。铸法失传，无双无对，普天之下只此一柄。"
 - raw: "Story/D_2_4_10_3_077,那、那掌门如何以此物赠我？莫不是小师妹拿错匣子了？"
   splits:
   - split: 1
@@ -12647,10 +11084,7 @@
 - raw: "Story/D_2_4_10_3_079,……问这么多做甚？掌门自有深意。"
   splits:
   - split: 1
-    text: "问这么多做甚？掌门自有深意。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……问这么多做甚？掌门自有深意。"
 - raw: "Story/D_2_4_10_3_080,你给我正经听着。此物虽非掌门信物，却是向来都与掌门令牌、碧血玉一起传给新任掌门。已经历朝数代，比你一条贱命都贵重百倍！"
   splits:
   - split: 1
@@ -12662,19 +11096,7 @@
 - raw: "Story/D_2_4_10_3_082,这……这……我……我定当小心翼翼的藏好，或者我干脆拿回去还给掌门吧。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这"
-  - split: 1
-    subIndex: 2
-    text: "我"
-  - split: 1
-    subIndex: 3
-    text: "我定当小心翼翼的藏好，或者我干脆拿回去还给掌门吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}"
+    text: "这……这……我……我定当小心翼翼的藏好，或者我干脆拿回去还给掌门吧。"
 - raw: "Story/D_2_4_10_3_083,蠢材，掌门既然赐你，你就该妥善使用，捍卫师门！你若将此剑束之高阁，那算什么意思？"
   splits:
   - split: 1
@@ -12730,13 +11152,7 @@
 - raw: "Story/D_2_4_10_3_094,话说回来，掌门竟然将这等重宝赐我……原来不是没把我放眼里吗。"
   splits:
   - split: 1
-    text: "话说回来，掌门竟然将这等重宝赐我"
-  - split: 1
-    subIndex: 1
-    text: "原来不是没把我放眼里吗。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "话说回来，掌门竟然将这等重宝赐我……原来不是没把我放眼里吗。"
 - raw: "Story/N_2_4_10_3_007,在那之后，你拿着传承小剑到处显摆，越有资历的师兄姐越是惊骇。你得意忘形，离家出走的事也抛诸脑后，忘得一乾二净。"
   splits:
   - split: 1
@@ -12811,10 +11227,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_010,这……。"
   splits:
   - split: 1
-    text: "这"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "这……。"
 - raw: "Story/D_3_3_1_1_Break_01_011,不，你始终恋栈红尘，只是无处可去，才来的嵩山罢了。"
   splits:
   - split: 1
@@ -12842,10 +11255,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_016,你问我为什么……。"
   splits:
   - split: 1
-    text: "你问我为什么"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "你问我为什么……。"
 - raw: "Story/D_3_3_1_1_Break_01_017,拜托你也为我考虑考虑，你一看面相就知道不是好东西。一想到你在附近，我每晚都睡不安稳。"
   splits:
   - split: 1
@@ -12869,13 +11279,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_021,得给你取个响亮的名号……有了。"
   splits:
   - split: 1
-    text: "得给你取个响亮的名号"
-  - split: 1
-    subIndex: 1
-    text: "有了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "得给你取个响亮的名号……有了。"
 - raw: "Story/D_3_3_1_1_Break_01_022,就叫「杂草剑客」好了。"
   splits:
   - split: 1
@@ -12955,13 +11359,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_040,这……我、我也不知道。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "我、我也不知道。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……我、我也不知道。"
 - raw: "Story/D_3_3_1_1_Break_01_041,好了好了，向老兄，说话别这么伤人嘛。猴拳嘛，当然是我教他的。"
   splits:
   - split: 1
@@ -13025,10 +11423,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_054,……人也太多了吧，我都被挤街上了。我这样下去真能熬出头吗？"
   splits:
   - split: 1
-    text: "人也太多了吧，我都被挤街上了。我这样下去真能熬出头吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……人也太多了吧，我都被挤街上了。我这样下去真能熬出头吗？"
 - raw: "Story/D_3_3_1_1_Break_01_055,让开，前面的丑男快让开！"
   splits:
   - split: 1
@@ -13048,13 +11443,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_058,是啊……那年我离了唐门，就来投靠大小姐，简直就像昨天的事。"
   splits:
   - split: 1
-    text: "是啊"
-  - split: 1
-    subIndex: 1
-    text: "那年我离了唐门，就来投靠大小姐，简直就像昨天的事。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是啊……那年我离了唐门，就来投靠大小姐，简直就像昨天的事。"
 - raw: "Story/D_3_3_1_1_Break_01_059,我老了，你却还依旧年轻貌美。"
   splits:
   - split: 1
@@ -13070,13 +11459,7 @@
 - raw: "Story/D_3_3_1_1_Break_01_062,大小姐，你这是……不要老奴伺候了吗？"
   splits:
   - split: 1
-    text: "大小姐，你这是"
-  - split: 1
-    subIndex: 1
-    text: "不要老奴伺候了吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "大小姐，你这是……不要老奴伺候了吗？"
 - raw: "Story/D_3_3_1_1_Break_01_063,怨我无情也无妨。你已经太老了，挺直脊背都费劲，更无别的长处。我用不上你了，这便去吧。"
   splits:
   - split: 1
@@ -13092,10 +11475,7 @@
 - raw: "Story/D_3_3_1_2_001,……我这是在哪儿？这里不是唐门吧？"
   splits:
   - split: 1
-    text: "我这是在哪儿？这里不是唐门吧？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我这是在哪儿？这里不是唐门吧？"
 - raw: "Story/O_3_3_1_2_001,出门去看看"
   splits:
   - split: 1
@@ -13129,10 +11509,7 @@
 - raw: "Story/O_3_3_1_2_005,钱……？"
   splits:
   - split: 1
-    text: "钱"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "钱……？"
 - raw: "Story/D_3_3_1_2_004,这个好，把线拆了，不就是铜钱？"
   splits:
   - split: 1
@@ -13144,23 +11521,11 @@
 - raw: "Story/D_3_3_1_2_005,这是……道家的刀法，好像很深奥的样子，我就收下了！"
   splits:
   - split: 1
-    text: "这是"
-  - split: 1
-    subIndex: 1
-    text: "道家的刀法，好像很深奥的样子，我就收下了！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这是……道家的刀法，好像很深奥的样子，我就收下了！"
 - raw: "Story/D_3_3_1_2_006,这……这是哪儿啊！"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "这是哪儿啊！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……这是哪儿啊！"
 - raw: "Story/D_3_3_1_2_007,这里是青城派，常风观。"
   splits:
   - split: 1
@@ -13192,13 +11557,7 @@
 - raw: "Story/D_3_3_1_2_012,这……我与道长一面之缘，只怕不合适。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "我与道长一面之缘，只怕不合适。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……我与道长一面之缘，只怕不合适。"
 - raw: "Story/D_3_3_1_2_013,赵居士莫要多想，贫道只是为你把脉。"
   splits:
   - split: 1
@@ -13247,13 +11606,7 @@
 - raw: "Story/D_3_3_1_2_1_005,你……！卑鄙小人！"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "！卑鄙小人！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……！卑鄙小人！"
 - raw: "Story/D_3_3_1_2_1_006,你不死，我怎能安心？我镖上涂的是唐门见血封喉的毒药，你就下去跟云裳团聚吧！"
   splits:
   - split: 1
@@ -13265,20 +11618,14 @@
 - raw: "Story/D_3_3_1_2_1_008,她喊你作兄长，你也一起上路吧……。"
   splits:
   - split: 1
-    text: "她喊你作兄长，你也一起上路吧"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "她喊你作兄长，你也一起上路吧……。"
 - raw: "Story/D_3_3_1_2_1_009,呜……呜哇──！"
   splits:
   - split: 1
-    text: "呜"
-  - split: 1
-    subIndex: 1
-    text: "呜哇"
+    text: "呜……呜哇"
   templates:
   - split: 1
-    template: "{0}……{1}──！"
+    template: "{0}──！"
 - raw: "Story/N_3_3_1_2_1_004,叶云舟没有取你性命，任你被困云裳坟前，一生被内疚煎熬。"
   splits:
   - split: 1
@@ -13290,26 +11637,11 @@
 - raw: "Story/T_3_3_1_2_1_002,毫无破绽……就算是我也知道，他的武功绝计非我能敌。一出手，我就会死。"
   splits:
   - split: 1
-    text: "毫无破绽"
-  - split: 1
-    subIndex: 1
-    text: "就算是我也知道，他的武功绝计非我能敌。一出手，我就会死。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "毫无破绽……就算是我也知道，他的武功绝计非我能敌。一出手，我就会死。"
 - raw: "Story/T_3_3_1_2_1_003,打不动……完全看不到胜机。这人的武功高深莫测，好像……好像比大师兄还要厉害。"
   splits:
   - split: 1
-    text: "打不动"
-  - split: 1
-    subIndex: 1
-    text: "完全看不到胜机。这人的武功高深莫测，好像"
-  - split: 1
-    subIndex: 2
-    text: "好像比大师兄还要厉害。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "打不动……完全看不到胜机。这人的武功高深莫测，好像……好像比大师兄还要厉害。"
 - raw: "Story/T_3_3_1_2_1_004,真是一个庸俗的莽人。"
   splits:
   - split: 1
@@ -13321,17 +11653,11 @@
 - raw: "Story/D_3_3_1_2_2_002,呜……！"
   splits:
   - split: 1
-    text: "呜"
-  templates:
-  - split: 1
-    template: "{0}……！"
+    text: "呜……！"
 - raw: "Story/D_3_3_1_2_2_003,云裳，你怎么也在……"
   splits:
   - split: 1
-    text: "云裳，你怎么也在"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "云裳，你怎么也在……"
 - raw: "Story/D_3_3_1_2_2_004,哥哥～你可终于醒转来啦！"
   splits:
   - split: 1
@@ -13347,13 +11673,7 @@
 - raw: "Story/T_3_3_1_2_2_003,但是真的太香太软，我竟半点推拒不开，要死……那柳下惠到底是如何坐怀不乱的？定是坐他的女子不够美貌！"
   splits:
   - split: 1
-    text: "但是真的太香太软，我竟半点推拒不开，要死"
-  - split: 1
-    subIndex: 1
-    text: "那柳下惠到底是如何坐怀不乱的？定是坐他的女子不够美貌！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "但是真的太香太软，我竟半点推拒不开，要死……那柳下惠到底是如何坐怀不乱的？定是坐他的女子不够美貌！"
 - raw: "Story/T_3_3_1_2_2_004,叶姑娘粉妆玉琢的人儿，看也是及笄待嫁的花季少女，怎会如此放荡，和这丑怪的男子如斯亲密。"
   splits:
   - split: 1
@@ -13497,16 +11817,7 @@
 - raw: "Story/D_3_3_1_2_2_033,我哦……我……我还是先看看情况好了，哈哈。因为我有点懒，哈哈。"
   splits:
   - split: 1
-    text: "我哦"
-  - split: 1
-    subIndex: 1
-    text: "我"
-  - split: 1
-    subIndex: 2
-    text: "我还是先看看情况好了，哈哈。因为我有点懒，哈哈。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "我哦……我……我还是先看看情况好了，哈哈。因为我有点懒，哈哈。"
 - raw: "Story/D_3_3_1_2_2_034,赵居士，既来到西蜀第一山，便安心在青城养伤吧。期间起居一切自便，早晚课诵、修行，可随心参与。待到功成圆满，隐患尽除之日，贫道才好向唐掌门交代。"
   splits:
   - split: 1
@@ -13518,13 +11829,7 @@
 - raw: "Story/D_3_3_1_2_2_036,……青城山一般不禁女香客上山参拜，但是叶姑娘的话……。还请高抬贵手，止步于上清宫，勿扰青城弟子修行为佳。"
   splits:
   - split: 1
-    text: "青城山一般不禁女香客上山参拜，但是叶姑娘的话"
-  - split: 1
-    subIndex: 1
-    text: "。还请高抬贵手，止步于上清宫，勿扰青城弟子修行为佳。"
-  templates:
-  - split: 1
-    template: "……{0}……{1}"
+    text: "……青城山一般不禁女香客上山参拜，但是叶姑娘的话……。还请高抬贵手，止步于上清宫，勿扰青城弟子修行为佳。"
 - raw: "Story/D_3_3_1_2_2_037,呿～小气鬼。不过就是在你们蒲团里塞了一些尖锐的竹笋吗，至于那么爱记恨吗？"
   splits:
   - split: 1
@@ -13544,10 +11849,7 @@
 - raw: "Story/D_3_3_2_1_001,……屋里的陈设不一样了，有人动过。"
   splits:
   - split: 1
-    text: "屋里的陈设不一样了，有人动过。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……屋里的陈设不一样了，有人动过。"
 - raw: "Story/D_3_3_2_1_002,有、有吗～？"
   splits:
   - split: 1
@@ -13559,10 +11861,7 @@
 - raw: "Story/D_3_3_2_1_004,我虽然不知道凶手是谁，但有一件事可以肯定……"
   splits:
   - split: 1
-    text: "我虽然不知道凶手是谁，但有一件事可以肯定"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "我虽然不知道凶手是谁，但有一件事可以肯定……"
 - raw: "Story/D_3_3_2_1_005,凶手是一名男子，长得很丑，而且穿着青蓝色的衣服！"
   splits:
   - split: 1
@@ -13870,13 +12169,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_064,唐伯伯那日当众发话保我兄妹，试问蜀地之内……不，中原之内，还有人敢动我一根毫毛吗？"
   splits:
   - split: 1
-    text: "唐伯伯那日当众发话保我兄妹，试问蜀地之内"
-  - split: 1
-    subIndex: 1
-    text: "不，中原之内，还有人敢动我一根毫毛吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唐伯伯那日当众发话保我兄妹，试问蜀地之内……不，中原之内，还有人敢动我一根毫毛吗？"
 - raw: "Story/D_3_3_2_1_Break_01_065,何况青城派乃六大派之一，道门清修之地，比之唐门守备更为森严。出不了什么乱子的，把心放回肚里吧。"
   splits:
   - split: 1
@@ -13884,13 +12177,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_066,我就怕有坏道士不安好心……但愿是我小人之心度君子之腹吧。"
   splits:
   - split: 1
-    text: "我就怕有坏道士不安好心"
-  - split: 1
-    subIndex: 1
-    text: "但愿是我小人之心度君子之腹吧。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我就怕有坏道士不安好心……但愿是我小人之心度君子之腹吧。"
 - raw: "Story/T_3_3_2_1_Break_01_007,话说，哥哥只关心我的病情，没问宝藏的事呢。是对青城派很放心，还是打从心里不信岳王宝藏的传闻，事过就忘了呢？"
   splits:
   - split: 1
@@ -13902,13 +12189,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_067,你问申屠道长哦……我觉得他很好啊。"
   splits:
   - split: 1
-    text: "你问申屠道长哦"
-  - split: 1
-    subIndex: 1
-    text: "我觉得他很好啊。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你问申屠道长哦……我觉得他很好啊。"
 - raw: "Story/D_3_3_2_1_Break_01_068,面如冠玉，仙风道骨，内功深湛，位份还高，难得他一点也没架子，从不争名夺利，待人接物温柔和煦，外号取作逸尘道子，最是贴切不过了。"
   splits:
   - split: 1
@@ -13920,13 +12201,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_070,还好啦～就……觉得他挺不错的。"
   splits:
   - split: 1
-    text: "还好啦～就"
-  - split: 1
-    subIndex: 1
-    text: "觉得他挺不错的。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "还好啦～就……觉得他挺不错的。"
 - raw: "Story/D_3_3_2_1_Break_01_071,又、又不止我作如是想！听说上青城进香的女香客，十有七八醉翁之意不在酒，都是慕申屠道长名声而来的。"
   splits:
   - split: 1
@@ -13950,30 +12225,15 @@
 - raw: "Story/D_3_3_2_1_Break_01_074,嗯……容我仔细想想。"
   splits:
   - split: 1
-    text: "嗯"
-  - split: 1
-    subIndex: 1
-    text: "容我仔细想想。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嗯……容我仔细想想。"
 - raw: "Story/T_3_3_2_1_Break_01_010,纵然不愿，也不得不承认，如同师姊说的一样。申屠道长面如冠玉，武功高强、谦和大度，在青城派地位也高，近乎完人……。"
   splits:
   - split: 1
-    text: "纵然不愿，也不得不承认，如同师姊说的一样。申屠道长面如冠玉，武功高强、谦和大度，在青城派地位也高，近乎完人"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "纵然不愿，也不得不承认，如同师姊说的一样。申屠道长面如冠玉，武功高强、谦和大度，在青城派地位也高，近乎完人……。"
 - raw: "Story/T_3_3_2_1_Break_01_011,我记得青城派道士是可以成亲的……云裳该不会……。"
   splits:
   - split: 1
-    text: "我记得青城派道士是可以成亲的"
-  - split: 1
-    subIndex: 1
-    text: "云裳该不会"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "我记得青城派道士是可以成亲的……云裳该不会……。"
 - raw: "Story/D_3_3_2_1_Break_01_075,申屠道长的相貌，算得上是顶好的。可他也是我自下点苍山以来，见过最无聊的人。"
   splits:
   - split: 1
@@ -14061,13 +12321,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_092,这……地上这该不会是我的晚饭吧？"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "地上这该不会是我的晚饭吧？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……地上这该不会是我的晚饭吧？"
 - raw: "Story/D_3_3_2_1_Break_01_093,你说呢？"
   splits:
   - split: 1
@@ -14095,13 +12349,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_099,什……什么？"
   splits:
   - split: 1
-    text: "什"
-  - split: 1
-    subIndex: 1
-    text: "什么？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "什……什么？"
 - raw: "Story/D_3_3_2_1_Break_01_100,我以为你早就趁热吃掉了！亏我想你怕苦，费那么多功夫把药泥和甜豆馅儿捣在一块儿！"
   splits:
   - split: 1
@@ -14117,13 +12365,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_103,唉……是啊，煎水药她嫌苦，强灌她又会吐，吐完还一副幸灾乐祸的样子嘲讽人，你都不知道这小坏蛋多会气人。"
   splits:
   - split: 1
-    text: "唉"
-  - split: 1
-    subIndex: 1
-    text: "是啊，煎水药她嫌苦，强灌她又会吐，吐完还一副幸灾乐祸的样子嘲讽人，你都不知道这小坏蛋多会气人。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "唉……是啊，煎水药她嫌苦，强灌她又会吐，吐完还一副幸灾乐祸的样子嘲讽人，你都不知道这小坏蛋多会气人。"
 - raw: "Story/D_3_3_2_1_Break_01_104,算了，如今那包子都放凉了，药力已经大打折扣。师弟你便留着吃了吧，反正有益无害，回头我再煎一帖新的给她。"
   splits:
   - split: 1
@@ -14208,10 +12450,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_123,……万一舍妹又胡搅蛮缠，而叶某不在左近，比起威逼，利诱更有效果，尤以甜食为最。还请女大夫多担待，此间一切花销，由叶某承担。"
   splits:
   - split: 1
-    text: "万一舍妹又胡搅蛮缠，而叶某不在左近，比起威逼，利诱更有效果，尤以甜食为最。还请女大夫多担待，此间一切花销，由叶某承担。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……万一舍妹又胡搅蛮缠，而叶某不在左近，比起威逼，利诱更有效果，尤以甜食为最。还请女大夫多担待，此间一切花销，由叶某承担。"
 - raw: "Story/D_3_3_2_1_Break_01_124,如何利诱法？"
   splits:
   - split: 1
@@ -14219,17 +12458,11 @@
 - raw: "Story/D_3_3_2_1_Break_01_125,到时你便如此这般……。"
   splits:
   - split: 1
-    text: "到时你便如此这般"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "到时你便如此这般……。"
 - raw: "Story/D_3_3_2_1_Break_01_126,……云裳妹子，我们早点下山，看看能否赶上冰糖葫芦贩子收摊。"
   splits:
   - split: 1
-    text: "云裳妹子，我们早点下山，看看能否赶上冰糖葫芦贩子收摊。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……云裳妹子，我们早点下山，看看能否赶上冰糖葫芦贩子收摊。"
 - raw: "Story/D_3_3_2_1_Break_01_127,赶得上又如何，难道你今天这么好心，肯给我买～？"
   splits:
   - split: 1
@@ -14259,13 +12492,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_132,赵哥哥，你已经长大了，要懂得坚强，学会自立更生。裳儿的离开并非绝情，而是为了你好，人家也觉得痛心疾首……嗷！"
   splits:
   - split: 1
-    text: "赵哥哥，你已经长大了，要懂得坚强，学会自立更生。裳儿的离开并非绝情，而是为了你好，人家也觉得痛心疾首"
-  - split: 1
-    subIndex: 1
-    text: "嗷！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "赵哥哥，你已经长大了，要懂得坚强，学会自立更生。裳儿的离开并非绝情，而是为了你好，人家也觉得痛心疾首……嗷！"
 - raw: "Story/D_3_3_2_1_Break_01_133,贪吃就贪吃，这种话你也说得出来？"
   splits:
   - split: 1
@@ -14282,10 +12509,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_137,你昏迷不醒这段日子里，云裳妹子自责得紧。饭吃不香了，也不去玩，镇日坐你床边读话本子给你听。还不住的说，你若醒转来，她要怎样怎样待你好……"
   splits:
   - split: 1
-    text: "你昏迷不醒这段日子里，云裳妹子自责得紧。饭吃不香了，也不去玩，镇日坐你床边读话本子给你听。还不住的说，你若醒转来，她要怎样怎样待你好"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "你昏迷不醒这段日子里，云裳妹子自责得紧。饭吃不香了，也不去玩，镇日坐你床边读话本子给你听。还不住的说，你若醒转来，她要怎样怎样待你好……"
 - raw: "Story/D_3_3_2_1_Break_01_138,哇～芳姊姊你干嘛啦～说好不能说的！"
   splits:
   - split: 1
@@ -14301,13 +12525,7 @@
 - raw: "Story/D_3_3_2_1_Break_01_140,他……他到底是为了我受的伤嘛～我又不是忘恩负义，自然紧张他。不然你看他这德行，我不管他，谁来着紧？到时我哥又怪我薄情了。"
   splits:
   - split: 1
-    text: "他"
-  - split: 1
-    subIndex: 1
-    text: "他到底是为了我受的伤嘛～我又不是忘恩负义，自然紧张他。不然你看他这德行，我不管他，谁来着紧？到时我哥又怪我薄情了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "他……他到底是为了我受的伤嘛～我又不是忘恩负义，自然紧张他。不然你看他这德行，我不管他，谁来着紧？到时我哥又怪我薄情了。"
 - raw: "Story/T_3_3_2_1_Break_01_015,啊，我的心，融了。"
   splits:
   - split: 1
@@ -14384,13 +12602,7 @@
 - raw: "Story/D_3_3_2_2_005,你……你想杀了我吗？突然就跳我身上，肠子都差点给你踩出来！"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "你想杀了我吗？突然就跳我身上，肠子都差点给你踩出来！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……你想杀了我吗？突然就跳我身上，肠子都差点给你踩出来！"
 - raw: "Story/D_3_3_2_2_006,你是习武之人，连我这么轻盈的小娘子都承受不住，哪里说得过去？"
   splits:
   - split: 1
@@ -14422,16 +12634,7 @@
 - raw: "Story/D_3_3_2_2_011,嗯……都怪你追得急，长得又那么吓人。害我慌不择路，出了一身汗，连头发都乱了……我去那边照镜梳理一下。"
   splits:
   - split: 1
-    text: "嗯"
-  - split: 1
-    subIndex: 1
-    text: "都怪你追得急，长得又那么吓人。害我慌不择路，出了一身汗，连头发都乱了"
-  - split: 1
-    subIndex: 2
-    text: "我去那边照镜梳理一下。"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "嗯……都怪你追得急，长得又那么吓人。害我慌不择路，出了一身汗，连头发都乱了……我去那边照镜梳理一下。"
 - raw: "Story/D_3_3_2_2_012,自己爱玩，还怪我。"
   splits:
   - split: 1
@@ -14483,13 +12686,7 @@
 - raw: "Story/D_3_3_2_2_020,是吗，这……这多不好意思啊？真是难为申屠道长了。"
   splits:
   - split: 1
-    text: "是吗，这"
-  - split: 1
-    subIndex: 1
-    text: "这多不好意思啊？真是难为申屠道长了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是吗，这……这多不好意思啊？真是难为申屠道长了。"
 - raw: "Story/D_3_3_2_2_021,也很难为我啊，眼睁睁看着你住的比我好，又因着是别的男子寝房，不能鸠占鹊巢，我叫那个恨吶～"
   splits:
   - split: 1
@@ -14657,13 +12854,7 @@
 - raw: "Story/D_3_3_2_2_057,赵少……赵老弟客气了。我俩还有事要办，你随意，回头再找你一块儿喝酒。"
   splits:
   - split: 1
-    text: "赵少"
-  - split: 1
-    subIndex: 1
-    text: "赵老弟客气了。我俩还有事要办，你随意，回头再找你一块儿喝酒。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "赵少……赵老弟客气了。我俩还有事要办，你随意，回头再找你一块儿喝酒。"
 - raw: "Story/D_3_3_2_2_058,好，二位请。"
   splits:
   - split: 1
@@ -14696,13 +12887,7 @@
 - raw: "Story/D_3_3_2_2_062,这……对不住。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "对不住。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……对不住。"
 - raw: "Story/D_3_3_2_2_063,还有，你把食盒一扔就跑，害我没饭吃，这就是青城的待客之道吗？你要这样说，南宫老太爷想必很是灰心吧，大把银钱挥出去，想要弭平门户之见，到底还是太过天真了，青城派首先就不答应。"
   splits:
   - split: 1
@@ -14864,13 +13049,7 @@
 - raw: "Story/D_3_3_2_2_093,你……又是你！我申屠师弟不是明令禁止你这小魔头再踏足上清宫吗？"
   splits:
   - split: 1
-    text: "你"
-  - split: 1
-    subIndex: 1
-    text: "又是你！我申屠师弟不是明令禁止你这小魔头再踏足上清宫吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……又是你！我申屠师弟不是明令禁止你这小魔头再踏足上清宫吗？"
 - raw: "Story/D_3_3_2_2_094,糟糕，哥哥，我们快跑～"
   splits:
   - split: 1
@@ -14934,10 +13113,7 @@
 - raw: "Story/D_3_3_2_2_106,剑门关有官兵驻守，想去旅游颇为棘手；峨嵋的话，客客气气向峨嵋派递请帖，说要上山礼佛，想来不致被拒；至于夔门嘛……。"
   splits:
   - split: 1
-    text: "剑门关有官兵驻守，想去旅游颇为棘手；峨嵋的话，客客气气向峨嵋派递请帖，说要上山礼佛，想来不致被拒；至于夔门嘛"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "剑门关有官兵驻守，想去旅游颇为棘手；峨嵋的话，客客气气向峨嵋派递请帖，说要上山礼佛，想来不致被拒；至于夔门嘛……。"
 - raw: "Story/D_3_3_2_2_107,只要你将身子养好，倒是可以去白帝城遗迹走走，瞻仰前人伟业。"
   splits:
   - split: 1
@@ -14957,10 +13133,7 @@
 - raw: "Story/D_3_3_2_2_111,好……。"
   splits:
   - split: 1
-    text: "好"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "好……。"
 - raw: "Story/D_3_3_2_2_112,等等，不对吧，你不会刻意爽约害我吧？"
   splits:
   - split: 1
@@ -15040,13 +13213,7 @@
 - raw: "Story/D_3_3_2_2_3_001,啊……啊……！"
   splits:
   - split: 1
-    text: "啊"
-  - split: 1
-    subIndex: 1
-    text: "啊"
-  templates:
-  - split: 1
-    template: "{0}……{1}……！"
+    text: "啊……啊……！"
 - raw: "Story/D_3_3_2_2_3_002,你怎么了？不好吃吗？"
   splits:
   - split: 1
@@ -15086,13 +13253,7 @@
 - raw: "Story/D_3_3_2_2_4_002,是啊……美好的时光总是过得特别快。"
   splits:
   - split: 1
-    text: "是啊"
-  - split: 1
-    subIndex: 1
-    text: "美好的时光总是过得特别快。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是啊……美好的时光总是过得特别快。"
 - raw: "Story/D_3_3_2_2_4_003,好，接着下一站，我们去喝晚茶听曲儿。等到华灯初上、夜市开张，你我兄妹二人再冲入敌阵大吃四方！"
   splits:
   - split: 1
@@ -15116,10 +13277,7 @@
 - raw: "Story/D_3_3_2_2_4_008,蛤……？"
   splits:
   - split: 1
-    text: "蛤"
-  templates:
-  - split: 1
-    template: "{0}……？"
+    text: "蛤……？"
 - raw: "Story/D_3_3_2_2_4_009,没差啦，最坏就被除名而已吧，呵呵。"
   splits:
   - split: 1
@@ -15154,13 +13312,7 @@
 - raw: "Story/D_3_3_2_2_4_016,说的也是……那我走了。"
   splits:
   - split: 1
-    text: "说的也是"
-  - split: 1
-    subIndex: 1
-    text: "那我走了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "说的也是……那我走了。"
 - raw: "Story/D_3_3_2_2_4_017,哥哥，得空还是要来找我玩喔！"
   splits:
   - split: 1
@@ -15192,13 +13344,7 @@
 - raw: "Story/D_3_3_2_2_4_022,呼……呼……。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "呼"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "呼……呼……。"
 - raw: "Story/D_3_3_2_2_4_023,赵居士，何以行色匆匆？"
   splits:
   - split: 1
@@ -15210,13 +13356,7 @@
 - raw: "Story/D_3_3_2_2_4_025,晚……晚点名……。"
   splits:
   - split: 1
-    text: "晚"
-  - split: 1
-    subIndex: 1
-    text: "晚点名"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "晚……晚点名……。"
 - raw: "Story/D_3_3_2_2_4_026,晚点名？还没呢。"
   splits:
   - split: 1
@@ -15232,10 +13372,7 @@
 - raw: "Story/D_3_3_2_2_4_029,哦……。"
   splits:
   - split: 1
-    text: "哦"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "哦……。"
 - raw: "Story/D_3_3_2_2_4_030,伙房已经收拾干净，厨余也都喂了家畜。居士今晚挨过饿，下回请早。"
   splits:
   - split: 1
@@ -15309,13 +13446,7 @@
 - raw: "Story/D_Section_02_01_005,……赵小友面目狰……面目清奇，有鬼神之相，实在难得、难得。"
   splits:
   - split: 1
-    text: "赵小友面目狰"
-  - split: 1
-    subIndex: 1
-    text: "面目清奇，有鬼神之相，实在难得、难得。"
-  templates:
-  - split: 1
-    template: "……{0}……{1}"
+    text: "……赵小友面目狰……面目清奇，有鬼神之相，实在难得、难得。"
 - raw: "Story/D_Section_02_01_006,道长说笑了。"
   splits:
   - split: 1
@@ -15331,13 +13462,7 @@
 - raw: "Story/D_Section_02_01_008,……赵小友面目狰……面目清奇，有鬼神之相，实在难得、难得。"
   splits:
   - split: 1
-    text: "赵小友面目狰"
-  - split: 1
-    subIndex: 1
-    text: "面目清奇，有鬼神之相，实在难得、难得。"
-  templates:
-  - split: 1
-    template: "……{0}……{1}"
+    text: "……赵小友面目狰……面目清奇，有鬼神之相，实在难得、难得。"
 - raw: "Story/D_Section_02_01_009,道长谬赞了。"
   splits:
   - split: 1
@@ -15353,13 +13478,7 @@
 - raw: "Story/D_Section_02_01_011,这……从前也有位青城道长说过类似的话，莫非我真有修真的资质吗？"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "从前也有位青城道长说过类似的话，莫非我真有修真的资质吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……从前也有位青城道长说过类似的话，莫非我真有修真的资质吗？"
 - raw: "Story/D_Section_02_01_012,从前同你说这话的就是老道本人。"
   splits:
   - split: 1
@@ -15387,13 +13506,7 @@
 - raw: "Story/D_Section_02_01_018,这……勇猛精进之心。"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "勇猛精进之心。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……勇猛精进之心。"
 - raw: "Story/D_Section_02_01_019,非也，是远离尘世的决心。那赵小友面目丑陋，出身寒微。便他恋栈俗世，红尘亦不能相容。既然求不得，不如死心，入我道门修行。"
   splits:
   - split: 1
@@ -15445,10 +13558,7 @@
 - raw: "Story/D_Section_02_01_030,明白是明白了，不过你怎么说话突然……。"
   splits:
   - split: 1
-    text: "明白是明白了，不过你怎么说话突然"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "明白是明白了，不过你怎么说话突然……。"
 - raw: "Story/D_Section_02_01_031,突然变得随便起来？"
   splits:
   - split: 1
@@ -15536,10 +13646,7 @@
 - raw: "Story/D_Section_02_02_010,……道长找我，莫非是晚辈干了什么错事吗？"
   splits:
   - split: 1
-    text: "道长找我，莫非是晚辈干了什么错事吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……道长找我，莫非是晚辈干了什么错事吗？"
 - raw: "Story/D_Section_02_02_011,你怎么会这样想呢？"
   splits:
   - split: 1
@@ -15591,13 +13698,7 @@
 - raw: "Story/T_Section_02_02_005,哦……哦？难道我拜师有望了吗？"
   splits:
   - split: 1
-    text: "哦"
-  - split: 1
-    subIndex: 1
-    text: "哦？难道我拜师有望了吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……哦？难道我拜师有望了吗？"
 - raw: "Story/T_Section_02_02_006,但我还是先别报太大期望，这种事该有多少遍了？期盼越深，伤害越沉。"
   splits:
   - split: 1
@@ -15613,13 +13714,7 @@
 - raw: "Story/D_Section_02_02_025,他跟你商量过这种事？愿闻其详……不对。"
   splits:
   - split: 1
-    text: "他跟你商量过这种事？愿闻其详"
-  - split: 1
-    subIndex: 1
-    text: "不对。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "他跟你商量过这种事？愿闻其详……不对。"
 - raw: "Story/D_Section_02_02_026,加餐的事老道很感兴趣，但那事容后再议。老道说的，是入信青城的事情。"
   splits:
   - split: 1
@@ -15698,13 +13793,7 @@
 - raw: "Story/D_Section_02_02_043,慢而后而重，重而后能稳，稳而后则似山岳……我记住了。"
   splits:
   - split: 1
-    text: "慢而后而重，重而后能稳，稳而后则似山岳"
-  - split: 1
-    subIndex: 1
-    text: "我记住了。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "慢而后而重，重而后能稳，稳而后则似山岳……我记住了。"
 - raw: "Story/D_Section_02_02_044,不过，有一话兴许不大中听，但老道身为掌门，必须言明在先。"
   splits:
   - split: 1
@@ -15776,10 +13865,7 @@
 - raw: "Story/D_Section_02_02_055,噢……。"
   splits:
   - split: 1
-    text: "噢"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "噢……。"
 - raw: "Story/D_Section_02_02_056,不过你用不着太沮丧，应当放开眼界。习武这条路走不通，学道却不同，除了积累道法，也重顿悟。"
   splits:
   - split: 1
@@ -15787,13 +13873,7 @@
 - raw: "Story/D_Section_02_02_057,这……道长这是要我放弃习武吗？"
   splits:
   - split: 1
-    text: "这"
-  - split: 1
-    subIndex: 1
-    text: "道长这是要我放弃习武吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……道长这是要我放弃习武吗？"
 - raw: "Story/D_Section_02_02_058,这只是老道的提议罢了。人贵有自知之明，否则我又何尝不能发梦作皇帝？"
   splits:
   - split: 1
@@ -15813,13 +13893,7 @@
 - raw: "Story/D_Section_02_02_061,好，好，好。今日起，你便是我邹博的亲传弟子！道号……就叫做弃尘，不是凡尘弃你，是你忘弃红尘！"
   splits:
   - split: 1
-    text: "好，好，好。今日起，你便是我邹博的亲传弟子！道号"
-  - split: 1
-    subIndex: 1
-    text: "就叫做弃尘，不是凡尘弃你，是你忘弃红尘！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "好，好，好。今日起，你便是我邹博的亲传弟子！道号……就叫做弃尘，不是凡尘弃你，是你忘弃红尘！"
 - raw: "Story/N_Section_02_02_003,你放弃了不切实际的梦想，遁入青城，千朝习道，忘弃红尘。"
   splits:
   - split: 1
@@ -15843,10 +13917,7 @@
 - raw: "Story/D_Section_02_02_063,……善泳者溺，江湖中最容易死的不是杂鱼，而是二、三流人物。你明知此道是穷途，依然执迷不悟，末路已然可以预见。"
   splits:
   - split: 1
-    text: "善泳者溺，江湖中最容易死的不是杂鱼，而是二、三流人物。你明知此道是穷途，依然执迷不悟，末路已然可以预见。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……善泳者溺，江湖中最容易死的不是杂鱼，而是二、三流人物。你明知此道是穷途，依然执迷不悟，末路已然可以预见。"
 - raw: "Story/D_Section_02_02_064,你，会死。"
   splits:
   - split: 1
@@ -16052,10 +14123,7 @@
 - raw: "Story/D_Section_02_Free_02_02_502_01_001,可恶……。"
   splits:
   - split: 1
-    text: "可恶"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "可恶……。"
 - raw: "Story/D_Section_02_Free_02_02_502_01_002,师兄、师父，你们快来呀！这儿有魔教妖人！"
   splits:
   - split: 1
@@ -16198,13 +14266,7 @@
 - raw: "Story/D_Ch_3_1_1_002,还击鼓，是有请神仪式吗？怎么……怎么都没叫上我？我又被排挤了吗？"
   splits:
   - split: 1
-    text: "还击鼓，是有请神仪式吗？怎么"
-  - split: 1
-    subIndex: 1
-    text: "怎么都没叫上我？我又被排挤了吗？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "还击鼓，是有请神仪式吗？怎么……怎么都没叫上我？我又被排挤了吗？"
 - raw: "Story/D_Ch_3_1_1_003,赵兄弟，知客弟子上山通传，本派掌门归山来啦！你速速整装入列，一起迎接吧！"
   splits:
   - split: 1
@@ -16291,10 +14353,7 @@
 - raw: "Story/D_Ch_3_1_1_017,但是……。"
   splits:
   - split: 1
-    text: "但是"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "但是……。"
 - raw: "Story/D_Ch_3_1_1_018,{size=24}听我一句劝，不会害你，无论什么要紧事都等会儿再说。{/size}{size=24}何况真的事关重大，更不宜专断独行，若当场宣之于众，岂非喧宾夺主吗？{/size}{size=24}那也未免太过鲁莽！应该先禀报掌门才是。{/size}"
   splits:
   - split: 1
@@ -16323,10 +14382,7 @@
 - raw: "Story/D_Ch_3_1_1_021,……唉，惭愧，惭愧。"
   splits:
   - split: 1
-    text: "唉，惭愧，惭愧。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……唉，惭愧，惭愧。"
 - raw: "Story/N_Ch_3_1_1_001,邹博遂命随行弟子，将此行经过娓娓道来。"
   splits:
   - split: 1
@@ -16456,13 +14512,7 @@
 - raw: "Story/D_Ch_3_1_1_046,没有……吧？"
   splits:
   - split: 1
-    text: "没有"
-  - split: 1
-    subIndex: 1
-    text: "吧？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "没有……吧？"
 - raw: "Story/D_Section_02_03_001,南宫老太爷所定的留学之期未满，便出了这档子事，留学的人大多走了，山中门人也为数不多，一下子就变得冷清了。"
   splits:
   - split: 1
@@ -16562,13 +14612,7 @@
 - raw: "Story/D_Section_02_03_024,哦……出了什么事，那位小道长为何掩面哭泣。"
   splits:
   - split: 1
-    text: "哦"
-  - split: 1
-    subIndex: 1
-    text: "出了什么事，那位小道长为何掩面哭泣。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……出了什么事，那位小道长为何掩面哭泣。"
 - raw: "Story/D_Section_02_03_025,你！你是唐门来留学的？你没走？叫什么名字？"
   splits:
   - split: 1
@@ -16576,13 +14620,7 @@
 - raw: "Story/D_Section_02_03_026,我……晚辈是唐门赵活，道长，你捉着我做甚？"
   splits:
   - split: 1
-    text: "我"
-  - split: 1
-    subIndex: 1
-    text: "晚辈是唐门赵活，道长，你捉着我做甚？"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我……晚辈是唐门赵活，道长，你捉着我做甚？"
 - raw: "Story/D_Section_02_03_027,你想不想学武功？我青城「不平道人」亲自点拨！你甚至不必拜我为师，不要有压力！"
   splits:
   - split: 1
@@ -16606,17 +14644,11 @@
 - raw: "Story/O_Section_02_03_002,呃……"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "呃……"
 - raw: "Story/D_Section_02_03_030,呃……。"
   splits:
   - split: 1
-    text: "呃"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呃……。"
 - raw: "Story/D_Section_02_03_031,好的很，就是这种志气！"
   splits:
   - split: 1
@@ -16660,13 +14692,7 @@
 - raw: "Story/D_Section_02_03_036,多谢道……长……。"
   splits:
   - split: 1
-    text: "多谢道"
-  - split: 1
-    subIndex: 1
-    text: "长"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "多谢道……长……。"
 - raw: "Story/D_Section_02_03_037,咦？这不是武功秘籍吧？"
   splits:
   - split: 1
@@ -16682,10 +14708,7 @@
 - raw: "Story/D_S3001_01_001,你们方才使的那招「松下风」，势头都太快太急，内力犹未达到剑尖。若与敌人兵器交斫，届时拼的就是谁家兵器更利，有违青城武功的真谛……"
   splits:
   - split: 1
-    text: "你们方才使的那招「松下风」，势头都太快太急，内力犹未达到剑尖。若与敌人兵器交斫，届时拼的就是谁家兵器更利，有违青城武功的真谛"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "你们方才使的那招「松下风」，势头都太快太急，内力犹未达到剑尖。若与敌人兵器交斫，届时拼的就是谁家兵器更利，有违青城武功的真谛……"
 - raw: "Story/D_S3001_01_002,……。"
 - raw: "Story/D_S3001_01_003,怎、怎么突然不说了？"
   splits:
@@ -16702,18 +14725,12 @@
 - raw: "Story/D_S3001_01_006,心当如何静？气当如何运？正与道行相契。是以比起繁复剑招，尔等更应讲究心境……。"
   splits:
   - split: 1
-    text: "心当如何静？气当如何运？正与道行相契。是以比起繁复剑招，尔等更应讲究心境"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "心当如何静？气当如何运？正与道行相契。是以比起繁复剑招，尔等更应讲究心境……。"
 - raw: "Story/D_S3001_01_007,……。"
 - raw: "Story/D_S3001_01_008,……我不会又来迟一步，道长刚好讲完吗？"
   splits:
   - split: 1
-    text: "我不会又来迟一步，道长刚好讲完吗？"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我不会又来迟一步，道长刚好讲完吗？"
 - raw: "Story/D_S3001_01_009,并非如此。"
   splits:
   - split: 1
@@ -16805,10 +14822,7 @@
 - raw: "Story/D_S3001_01_027,这个嘛……。"
   splits:
   - split: 1
-    text: "这个嘛"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "这个嘛……。"
 - raw: "Story/D_S3001_01_028,就只是想跟你闹着玩，所以拿了一根绳子，想把自己垂吊在梁上。等你睡着，再垂降下来吓你一大跳。"
   splits:
   - split: 1
@@ -16853,13 +14867,7 @@
 - raw: "Story/T_S3001_01_003,因为勒到的不是脖子……虽然同样是喘不过气来。"
   splits:
   - split: 1
-    text: "因为勒到的不是脖子"
-  - split: 1
-    subIndex: 1
-    text: "虽然同样是喘不过气来。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "因为勒到的不是脖子……虽然同样是喘不过气来。"
 - raw: "Story/D_S3001_01_039,原来是你吓人不成，差点勒死自己。"
   splits:
   - split: 1
@@ -16891,10 +14899,7 @@
 - raw: "Story/D_S3001_01_045,呜呜……。"
   splits:
   - split: 1
-    text: "呜呜"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "呜呜……。"
 - raw: "Story/T_S3001_01_005,居然哭了。"
   splits:
   - split: 1
@@ -16922,10 +14927,7 @@
 - raw: "Story/D_S3001_01_049,……这算是秘籍吗？里边全是打雪仗时的阴损招数。这当儿你还消遣我。"
   splits:
   - split: 1
-    text: "这算是秘籍吗？里边全是打雪仗时的阴损招数。这当儿你还消遣我。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……这算是秘籍吗？里边全是打雪仗时的阴损招数。这当儿你还消遣我。"
 - raw: "Story/D_S3001_01_050,就是消遣没错，等你学有所成，我们就去打雪仗，消愁遣闷。"
   splits:
   - split: 1
@@ -16937,10 +14939,7 @@
 - raw: "Story/D_S3001_01_052,……赵居士，贫道此话并不是要为敝派开脱，但你有所不知。"
   splits:
   - split: 1
-    text: "赵居士，贫道此话并不是要为敝派开脱，但你有所不知。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……赵居士，贫道此话并不是要为敝派开脱，但你有所不知。"
 - raw: "Story/D_S3001_01_053,昔日旧魔教为祸中原，武林正派为了与其周旋，各派折损惨重。如今青城位分最长者，以掌门邹博为尊，下数至贫道，俱为十代弟子。"
   splits:
   - split: 1
@@ -16980,10 +14979,7 @@
 - raw: "Story/D_S3001_01_062,应该有更委婉的说法吧……。"
   splits:
   - split: 1
-    text: "应该有更委婉的说法吧"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "应该有更委婉的说法吧……。"
 - raw: "Story/D_S3001_01_063,精辟，精辟。"
   splits:
   - split: 1
@@ -16991,13 +14987,7 @@
 - raw: "Story/D_S3001_01_064,咳，叶姑娘这话说得虽然直白……倒也不算错。"
   splits:
   - split: 1
-    text: "咳，叶姑娘这话说得虽然直白"
-  - split: 1
-    subIndex: 1
-    text: "倒也不算错。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "咳，叶姑娘这话说得虽然直白……倒也不算错。"
 - raw: "Story/T_S3001_01_008,谁都想过得好，修真的道士亦未能免俗啊。"
   splits:
   - split: 1
@@ -17057,10 +15047,7 @@
 - raw: "Story/D_S3001_01_077,这……。"
   splits:
   - split: 1
-    text: "这"
-  templates:
-  - split: 1
-    template: "{0}……。"
+    text: "这……。"
 - raw: "Story/O_S3001_01_003,申屠龙的抵抗"
   splits:
   - split: 1
@@ -17126,13 +15113,7 @@
 - raw: "Story/T_S3001_01_009,但是唐门暗器之所以是暗器，便是不以秘辛示人。他大方坦荡，我总不敢轻易交出唐门暗器总纲……这是掌门给我的。"
   splits:
   - split: 1
-    text: "但是唐门暗器之所以是暗器，便是不以秘辛示人。他大方坦荡，我总不敢轻易交出唐门暗器总纲"
-  - split: 1
-    subIndex: 1
-    text: "这是掌门给我的。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "但是唐门暗器之所以是暗器，便是不以秘辛示人。他大方坦荡，我总不敢轻易交出唐门暗器总纲……这是掌门给我的。"
 - raw: "Story/D_S3001_01_093,好极，那这部秘籍，便交道长拿去钻研吧。"
   splits:
   - split: 1
@@ -17207,10 +15188,7 @@
 - raw: "Story/D_S3001_01_108,……呵呵。"
   splits:
   - split: 1
-    text: "呵呵。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……呵呵。"
 - raw: "Story/D_S3001_01_109,哈哈哈哈！吾这回这可真是交上大运、捡到宝了啊！"
   splits:
   - split: 1
@@ -17242,20 +15220,11 @@
 - raw: "Story/T_S3001_01_012,……我是不会让你如愿以偿的，邪魔歪道。"
   splits:
   - split: 1
-    text: "我是不会让你如愿以偿的，邪魔歪道。"
-  templates:
-  - split: 1
-    template: "……{0}"
+    text: "……我是不会让你如愿以偿的，邪魔歪道。"
 - raw: "Story/D_S3001_01_114,闭嘴……你这冤魂，吾要你永世不得超生，消失吧！"
   splits:
   - split: 1
-    text: "闭嘴"
-  - split: 1
-    subIndex: 1
-    text: "你这冤魂，吾要你永世不得超生，消失吧！"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "闭嘴……你这冤魂，吾要你永世不得超生，消失吧！"
 - raw: "Story/D_S3002_01_001,时候不早了，赵居士，不如今日就练到这儿吧。"
   splits:
   - split: 1
@@ -17279,13 +15248,7 @@
 - raw: "Story/D_S3002_01_006,呼……我也去擦把汗。"
   splits:
   - split: 1
-    text: "呼"
-  - split: 1
-    subIndex: 1
-    text: "我也去擦把汗。"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呼……我也去擦把汗。"
 - raw: "Story/D_S3002_01_007,哥哥～"
   splits:
   - split: 1

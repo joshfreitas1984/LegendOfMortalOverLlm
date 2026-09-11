@@ -2811,12 +2811,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
-    text: "究竟是谁带头这样的穿的"
+    text: "究竟是谁带头这样的穿的……？"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}\\n{2}……？"
+    template: "{0}\\n{1}\\n{2}"
 - raw: "LegendInfo/Ch_2_2_5_003,当家南宫远见了你们很是热切，丝毫不因唐门衰落而怠慢，足见气度恢弘。"
   splits:
   - split: 1
@@ -8505,12 +8505,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 5
-    text: "「总有一日，我要聚千军万马在你麾下，听你号令，就像你曾曾曾祖父，武林盟主南宫智一样。你得练好武功，要强过我才行！等我们都长大"
+    text: "「总有一日，我要聚千军万马在你麾下，听你号令，就像你曾曾曾祖父，武林盟主南宫智一样。你得练好武功，要强过我才行！等我们都长大……。」"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}：{5}……。」"
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}：{5}"
 - raw: "LegendInfo/Ch_3_13_1_001,\\n然而，你一口拒绝了魏掌门的邀请，不惜与那位玄功护法大打出手，也拒入崆峒，她非你敌手，愤而拂袖而去，下次再见，便不只有她一人与你作对。\\n你成了通缉对象，从今往后，崆峒派便是你的仇敌了。"
   splits:
   - split: 1
@@ -11917,12 +11917,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "忘形篇，这不是忘形篇吗！」"
+    text: "「……忘形篇，这不是忘形篇吗！」"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}：「……{1}"
+    template: "{0}：{1}"
 - raw: "LegendInfo/Ch_4_6_2_017,大师兄趁石帮主应接不暇之际，摸出一颗唐门飞蝗石，此物非同寻常石子，乃是精铁所铸，沉重异常，大师兄等闲不用，此刻夹杂在石雨中掷出，谁也没看清，正中石帮主要穴，将他制伏。\\n旁人不知大师兄暗算了人，还道他真是用对方的武功击败了对手，虽然同样是输，但却不是说唐门武功胜过了飞石帮的武功。\\n石公远却不领情，只因夺妻之恨，不共戴天，不是光分胜负便能握手言和，石公远颤巍巍起身，誓与大师兄拚个你死我活。"
   splits:
   - split: 1
@@ -34810,37 +34810,32 @@
 - raw: "LegendInfo/Ch_8_1_2_4_003,遂将武林盟高手如数家珍道出，龙王刀上官隼、清和子尹志平、鹰侠万里鹏程、释明……口中一个个全是方今武林顶儿尖儿的人物，如雷贯耳，每道一个名号，就令在场众人心跳一突。\\n当中威名之盛，要数盟主瑞笙为最。\\n不说他走南闯北的事迹脍炙人口，单是风雨山一役就足以名动江湖。\\n想江陵大战、风雨山之乱，畜生道、人间道法王各显神通，震惊当世，与这二人同列法王之尊的地狱道、饿鬼道更是穷凶极恶的悍匪，公然对抗朝廷，至今逍遥法外。\\n那少年盟主竟能单枪匹马力抗二大法王，武功深不可测，声望如日中天，比之当年龙渊也不惶多让。都盼他剑指六道峡，与天王座颠峰对决，歼灭魔教，还武林一片清明气象，但他如今居然剑指自己，那事情可就大大不妙了。"
   splits:
   - split: 1
-    text: "遂将武林盟高手如数家珍道出，龙王刀上官隼、清和子尹志平、鹰侠万里鹏程、释明"
+    text: "遂将武林盟高手如数家珍道出，龙王刀上官隼、清和子尹志平、鹰侠万里鹏程、释明……口中一个个全是方今武林顶儿尖儿的人物，如雷贯耳，每道一个名号，就令在场众人心跳一突。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "口中一个个全是方今武林顶儿尖儿的人物，如雷贯耳，每道一个名号，就令在场众人心跳一突。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "当中威名之盛，要数盟主瑞笙为最。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
-    subIndex: 3
+    subIndex: 2
     text: "不说他走南闯北的事迹脍炙人口，单是风雨山一役就足以名动江湖。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
-    subIndex: 4
+    subIndex: 3
     text: "想江陵大战、风雨山之乱，畜生道、人间道法王各显神通，震惊当世，与这二人同列法王之尊的地狱道、饿鬼道更是穷凶极恶的悍匪，公然对抗朝廷，至今逍遥法外。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
-    subIndex: 5
+    subIndex: 4
     text: "那少年盟主竟能单枪匹马力抗二大法王，武功深不可测，声望如日中天，比之当年龙渊也不惶多让。都盼他剑指六道峡，与天王座颠峰对决，歼灭魔教，还武林一片清明气象，但他如今居然剑指自己，那事情可就大大不妙了。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
 - raw: "LegendInfo/Ch_8_1_2_4_004,你还待反唇相讥，却给三师兄按住，不说别的，只是两手一拱送客下山。\\n眼看劝降无果，南宫深、宋悲唯有告辞而去，再上山来的时候，便是厮杀了。"
   splits:
   - split: 1
@@ -42291,12 +42286,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 3
-    text: "你是自己走的，爹娘没有不要你；你有梦想在远方，而不是因为此处再也容不下你"
+    text: "你是自己走的，爹娘没有不要你；你有梦想在远方，而不是因为此处再也容不下你……。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}\\n{2}\\n{3}……。"
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "LegendInfo/S0014_01_05_005,正陷于悲伤无法自拔，忽然有个女声幽幽飘来，骇得你霎时忘记抽噎。"
   splits:
   - split: 1
@@ -42946,17 +42941,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
-    text: "「什么，你也"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "？」你怔了一怔，霎时满头大汗，原来对方也下了毒，你们仨这是碰上黑吃黑，竟没一个是好东西。"
+    text: "「什么，你也……？」你怔了一怔，霎时满头大汗，原来对方也下了毒，你们仨这是碰上黑吃黑，竟没一个是好东西。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}：{2}……{3}"
+    template: "{0}\\n{1}：{2}"
 - raw: "LegendInfo/S0017_02_024,那公子不再刻意伪装，举手投足之间，自然就流露出习武之人的气势，一看便知不是庸手，更在方才酒菜之中下了毒，此刻可谓是胸有成竹，收拾你两个江湖小虾米，简直手到擒来。"
   splits:
   - split: 1

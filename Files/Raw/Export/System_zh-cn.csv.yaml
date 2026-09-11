@@ -564,13 +564,7 @@
 - raw: "System/NoMoneyDialog,师弟…你没有这么多钱吧？"
   splits:
   - split: 1
-    text: "师弟"
-  - split: 1
-    subIndex: 1
-    text: "你没有这么多钱吧？"
-  templates:
-  - split: 1
-    template: "{0}…{1}"
+    text: "师弟…你没有这么多钱吧？"
 - raw: "System/BuyDialog,买得好！"
   splits:
   - split: 1
@@ -598,10 +592,7 @@
 - raw: "System/YourChoice,你的抉择……"
   splits:
   - split: 1
-    text: "你的抉择"
-  templates:
-  - split: 1
-    template: "{0}……"
+    text: "你的抉择……"
 - raw: "System/BattleSkill,–战术支援–"
   splits:
   - split: 1
@@ -732,10 +723,7 @@
 - raw: "System/BattlePause,—暂停—"
   splits:
   - split: 1
-    text: "暂停"
-  templates:
-  - split: 1
-    template: "—{0}—"
+    text: "—暂停—"
 - raw: "System/BattleTime,时间"
   splits:
   - split: 1

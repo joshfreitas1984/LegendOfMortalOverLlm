@@ -563,19 +563,13 @@
 - raw: "CombatTalking/S100,……讨厌。"
   splits:
   - split: 1
-    text: "讨厌。"
+    text: "……讨厌。"
     translated: "...I hate it."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/S101,……走开。"
   splits:
   - split: 1
-    text: "走开。"
+    text: "……走开。"
     translated: "...Go away."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/S102,……。(眼神锐利)"
   splits:
   - split: 1
@@ -621,17 +615,8 @@
 - raw: "CombatTalking/E001,看我的……呜挖！！"
   splits:
   - split: 1
-    text: "看我的"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "呜挖！！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "看我的……呜挖！！"
+    translated: "Look at my... Wow!!"
 - raw: "CombatTalking/E002,师弟我跟你讲噢噢噢噢！！\\n你竟然趁我讲话暗算我！"
   splits:
   - split: 1
@@ -649,31 +634,13 @@
 - raw: "CombatTalking/E003,钱……咿啊！"
   splits:
   - split: 1
-    text: "钱"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "咿啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "钱……咿啊！"
+    translated: "Money... Ah!"
 - raw: "CombatTalking/E004,你……唔，很好，别怪我不客气啦！"
   splits:
   - split: 1
-    text: "你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "唔，很好，别怪我不客气啦！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你……唔，很好，别怪我不客气啦！"
+    translated: "You... um, very well, don't blame me for being rude!"
 - raw: "CombatTalking/E005,……！"
 - raw: "CombatTalking/E006,唔，好样的，瞧准了我换气的空档吗？"
   splits:
@@ -688,11 +655,8 @@
 - raw: "CombatTalking/F001,呜……"
   splits:
   - split: 1
-    text: "呜"
+    text: "呜……"
     translated: "Uh..."
-  templates:
-  - split: 1
-    template: "{0}……"
 - raw: "CombatTalking/F002,呵～有意思！"
   splits:
   - split: 1
@@ -737,11 +701,8 @@
 - raw: "CombatTalking/F011,……哼。"
   splits:
   - split: 1
-    text: "哼。"
+    text: "……哼。"
     translated: "...Hmph."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/F012,打就打，废话恁地多！"
   splits:
   - split: 1
@@ -805,17 +766,8 @@
 - raw: "CombatTalking/H001,呼……让我喘口气……"
   splits:
   - split: 1
-    text: "呼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "让我喘口气"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……"
+    text: "呼……让我喘口气……"
+    translated: "Huff... let me catch my breath..."
 - raw: "CombatTalking/H002,待会小心了！"
   splits:
   - split: 1
@@ -834,25 +786,13 @@
 - raw: "CombatTalking/E102,唔，师弟，容师兄我先行一步……。"
   splits:
   - split: 1
-    text: "唔，师弟，容师兄我先行一步"
+    text: "唔，师弟，容师兄我先行一步……。"
     translated: "Um, Junior Brother, allow me to go ahead first..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/E103,师兄……！好，咱俩待会儿见了。"
   splits:
   - split: 1
-    text: "师兄"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "！好，咱俩待会儿见了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "师兄……！好，咱俩待会儿见了。"
+    translated: "Senior Brother...! Alright, we'll see each other later."
 - raw: "CombatTalking/E104,三师兄缓缓阖上了双眼，先你一步逝去了。"
   splits:
   - split: 1
@@ -959,17 +899,8 @@
 - raw: "CombatTalking/Trainee4_001,岂有此理……真的是岂有此理！贫道不许你再继续呼吸了！"
   splits:
   - split: 1
-    text: "岂有此理"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "真的是岂有此理！贫道不许你再继续呼吸了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "岂有此理……真的是岂有此理！贫道不许你再继续呼吸了！"
+    translated: "How can this be... it truly is outrageous! I will not allow you to continue breathing!"
 - raw: "CombatTalking/Trainee4_002,贫道要杀了你，净化这个污浊的世间。"
   splits:
   - split: 1
@@ -997,22 +928,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "嗯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "？怎么定不住？难道"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "你、你其实是人？！"
+    text: "嗯……？怎么定不住？难道……你、你其实是人？！"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}……{2}……{3}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Trainee5_002,大胆妖孽，光天化日之下就敢现出原形，这是不把我青城道法放在眼里！"
   splits:
   - split: 1
@@ -1041,27 +962,17 @@
 - raw: "CombatTalking/Trainee6_003,火龙仙法，天眼开！哦哦……我看见了！\\n你的真身……就是大粪修练成的妖精，大便精！"
   splits:
   - split: 1
-    text: "火龙仙法，天眼开！哦哦"
+    text: "火龙仙法，天眼开！哦哦……我看见了！"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "我看见了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "你的真身"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "就是大粪修练成的妖精，大便精！"
+    text: "你的真身……就是大粪修练成的妖精，大便精！"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}……{3}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Trainee6_101,没人告诉过你，让你离我小梅师姊远一点吗！找死！"
   splits:
   - split: 1
@@ -1130,17 +1041,8 @@
 - raw: "CombatTalking/Trainee9_003,你怎配与我动手，认输……不，自裁吧。"
   splits:
   - split: 1
-    text: "你怎配与我动手，认输"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "不，自裁吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你怎配与我动手，认输……不，自裁吧。"
+    translated: "How dare you lay a hand on me? Surrender... no, just take your own life."
 - raw: "CombatTalking/Trainee9_101,魏掌门缘何对你另眼相看？我要证明她看走眼了！"
   splits:
   - split: 1
@@ -1213,17 +1115,8 @@
 - raw: "CombatTalking/Trainee11_002,呜呜，你为什么要让我看见你，我的眼睛……我的眼睛不清白了！"
   splits:
   - split: 1
-    text: "呜呜，你为什么要让我看见你，我的眼睛"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我的眼睛不清白了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呜呜，你为什么要让我看见你，我的眼睛……我的眼睛不清白了！"
+    translated: "Wuwu, why did you have to let me see you? My eyes... my eyes are no longer pure!"
 - raw: "CombatTalking/Trainee11_003,救命啊！救命啊！这个臭不要脸的用淫秽的目光打量我！"
   splits:
   - split: 1
@@ -1452,17 +1345,8 @@
 - raw: "CombatTalking/Special4_003,呜噜噜噜噜……！汪汪汪汪汪！"
   splits:
   - split: 1
-    text: "呜噜噜噜噜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "！汪汪汪汪汪！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呜噜噜噜噜……！汪汪汪汪汪！"
+    translated: "Woof woof woof woof...! Bark bark bark bark bark!"
 - raw: "CombatTalking/Special4_004,揍死你！揍死你！"
   splits:
   - split: 1
@@ -1486,17 +1370,8 @@
 - raw: "CombatTalking/Special401_001,啊……好麻烦，你想找死可以自己撞墙啊。"
   splits:
   - split: 1
-    text: "啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "好麻烦，你想找死可以自己撞墙啊。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "啊……好麻烦，你想找死可以自己撞墙啊。"
+    translated: "Ah... so troublesome. If you want to court death, you can just run into a wall yourself."
 - raw: "CombatTalking/Special401_002,为什么你想挨打，王某就非得打你？你欺人太甚，欠打。"
   splits:
   - split: 1
@@ -1559,30 +1434,22 @@
 - raw: "CombatTalking/Special103_002,我很弱的，你应该不太可能连我都打不赢吧，哈哈……。"
   splits:
   - split: 1
-    text: "我很弱的，你应该不太可能连我都打不赢吧，哈哈"
+    text: "我很弱的，你应该不太可能连我都打不赢吧，哈哈……。"
     translated: "I'm pretty weak; you probably shouldn't have any trouble beating me, right? Haha..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/Special103_003,不然我们还是别打了吧，就当平手……怎么样？\\n不然，不然算我输也可以。"
   splits:
   - split: 1
-    text: "不然我们还是别打了吧，就当平手"
+    text: "不然我们还是别打了吧，就当平手……怎么样？"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "怎么样？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "不然，不然算我输也可以。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Special103_004,我我我给你钱，不要打我！"
   splits:
   - split: 1
@@ -1591,22 +1458,17 @@
 - raw: "CombatTalking/Girl4_001,挺好的……哼哼，呵呵，就该这样才对。\\n来吧，让我们痛快淋漓的战一场！"
   splits:
   - split: 1
-    text: "挺好的"
+    text: "挺好的……哼哼，呵呵，就该这样才对。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "哼哼，呵呵，就该这样才对。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "来吧，让我们痛快淋漓的战一场！"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Girl4_002,弟，这一剑要接好喔，不然会死的。"
   splits:
   - split: 1
@@ -1615,17 +1477,8 @@
 - raw: "CombatTalking/Girl4_003,不愧是我弟，无懈可击的架势……那就出猛招打出破绽来吧！"
   splits:
   - split: 1
-    text: "不愧是我弟，无懈可击的架势"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "那就出猛招打出破绽来吧！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不愧是我弟，无懈可击的架势……那就出猛招打出破绽来吧！"
+    translated: "As expected of my sibling, their stance is impeccable... Then let's unleash a fierce move to expose their flaws!"
 - raw: "CombatTalking/Girl4_004,注意了，下一剑，你若挡不住，便决胜负。"
   splits:
   - split: 1
@@ -1640,19 +1493,13 @@
 - raw: "CombatTalking/Sister_003,師兄……！"
   splits:
   - split: 1
-    text: "師兄"
+    text: "師兄……！"
     translated: "Senior Brother...!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "CombatTalking/Sister_004,拍拍……！"
   splits:
   - split: 1
-    text: "拍拍"
+    text: "拍拍……！"
     translated: "Pat...!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "CombatTalking/Master_001,唉，你想清楚了？"
   splits:
   - split: 1
@@ -1706,31 +1553,13 @@
 - raw: "CombatTalking/Girl5_103,去死啊……去死！为什么还不肯去死！不要让我为难啊！"
   splits:
   - split: 1
-    text: "去死啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "去死！为什么还不肯去死！不要让我为难啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "去死啊……去死！为什么还不肯去死！不要让我为难啊！"
+    translated: "Go die... go die! Why won't you just die already! Don't make it difficult for me!"
 - raw: "CombatTalking/Girl5_104,啊啊……求你了，快死吧，要不然，夹着尾巴逃走也好啊！"
   splits:
   - split: 1
-    text: "啊啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "求你了，快死吧，要不然，夹着尾巴逃走也好啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "啊啊……求你了，快死吧，要不然，夹着尾巴逃走也好啊！"
+    translated: "Ah... I'm begging you, just die already, or at least run away with your tail between your legs!"
 - raw: "CombatTalking/Girl6_001,令人生厌，受死吧。"
   splits:
   - split: 1
@@ -2187,22 +2016,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "先休战一下，呼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "呼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "好了。"
+    text: "先休战一下，呼——呼——好了。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}——{2}——{3}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Brother1_101,师弟，和人比武的时候表情庄重点，\\n不要再无缘无故长那么奇怪害人想笑了。"
   splits:
   - split: 1
@@ -2220,7 +2039,7 @@
 - raw: "CombatTalking/Brother1_102,注意啦，金钱镖要打你坛中穴——！\\n被～骗～哈哈哈哈！"
   splits:
   - split: 1
-    text: "注意啦，金钱镖要打你坛中穴"
+    text: "注意啦，金钱镖要打你坛中穴——！"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
@@ -2230,26 +2049,21 @@
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}——！\\n{1}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Brother1_103,你的钱包掉了……啊，抱歉我看错了。\\n不是钱包，是你的脑子掉出来了。"
   splits:
   - split: 1
-    text: "你的钱包掉了"
+    text: "你的钱包掉了……啊，抱歉我看错了。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "啊，抱歉我看错了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "不是钱包，是你的脑子掉出来了。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Brother1_104,师弟，留心了喔～"
   splits:
   - split: 1
@@ -2359,17 +2173,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "师弟，你无知不仁又不知耻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "唉，不知道怎么说你。"
+    text: "师弟，你无知不仁又不知耻……唉，不知道怎么说你。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}……{2}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/Brother3_004,凡事豫则立，不豫则废，故天下之人莫若汝废。"
   splits:
   - split: 1
@@ -2503,11 +2312,8 @@
 - raw: "CombatTalking/Special_103,吼噢噢噢——！！"
   splits:
   - split: 1
-    text: "吼噢噢噢"
+    text: "吼噢噢噢——！！"
     translated: "Roar! Oh oh oh oh!!"
-  templates:
-  - split: 1
-    template: "{0}——！！"
 - raw: "CombatTalking/Special_104,老子今日要把你给活活打死！"
   splits:
   - split: 1
@@ -2574,16 +2380,8 @@
 - raw: "CombatTalking/T0001_01_005,咦？呃……好。"
   splits:
   - split: 1
-    text: "咦？呃"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "好。"
-    translated: "Okay"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "咦？呃……好。"
+    translated: "Hmm? Uh... Okay."
 - raw: "CombatTalking/T0001_01_006,指令「嘴攻」\\n嘴攻可以削弱敌人的「气」、额外恢复自身的「气」，\\n并使敌人「绝招」指令降低伤害及命中，时而还能激怒心性浮躁的敌人。"
   splits:
   - split: 1
@@ -3028,17 +2826,8 @@
 - raw: "CombatTalking/1100_04_006,我的天……我还以为我听错了。"
   splits:
   - split: 1
-    text: "我的天"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我还以为我听错了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我的天……我还以为我听错了。"
+    translated: "My goodness... I thought I had heard wrong."
 - raw: "CombatTalking/1100_04_007,所以你们来此，究竟所为何事？"
   splits:
   - split: 1
@@ -3280,25 +3069,13 @@
 - raw: "CombatTalking/1407_02_002,你不要吵，我等下就还手了，我……我等下就会揍扁你！"
   splits:
   - split: 1
-    text: "你不要吵，我等下就还手了，我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我等下就会揍扁你！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你不要吵，我等下就还手了，我……我等下就会揍扁你！"
+    translated: "Don't argue, I'll retaliate soon, I... I'll beat you up!"
 - raw: "CombatTalking/1407_02_003,……你真的下不了手？那你站着不要动，我轻轻刺你一下，就完事了。"
   splits:
   - split: 1
-    text: "你真的下不了手？那你站着不要动，我轻轻刺你一下，就完事了。"
+    text: "……你真的下不了手？那你站着不要动，我轻轻刺你一下，就完事了。"
     translated: "...You really can't do it? Then stand still and don't move, I'll lightly stab you once, and that's it."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/1505_01_01_001,你猜我没事来找碴干嘛？\\n嘻嘻，当然是刺探你们大师兄究竟是真死，还是假死啊。"
   splits:
   - split: 1
@@ -3366,17 +3143,8 @@
 - raw: "CombatTalking/1506_01_02_002,掌门吩咐过要拦住你，师兄，你还是……还是算了吧。"
   splits:
   - split: 1
-    text: "掌门吩咐过要拦住你，师兄，你还是"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "还是算了吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "掌门吩咐过要拦住你，师兄，你还是……还是算了吧。"
+    translated: "Master ordered you to stop you, Senior Brother, you're still... still forget it."
 - raw: "CombatTalking/1506_01_02_003,师兄，你苦战强敌，已经精疲力尽了才对。"
   splits:
   - split: 1
@@ -3486,11 +3254,8 @@
 - raw: "CombatTalking/1507_03_02_003,……不，我要帮你。"
   splits:
   - split: 1
-    text: "不，我要帮你。"
+    text: "……不，我要帮你。"
     translated: "......No, I want to help you."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/1507_03_02_004,吃里扒外的贱种！等我处理掉这厮，\\n就把你手脚割了卖窑子里去！"
   splits:
   - split: 1
@@ -3508,17 +3273,8 @@
 - raw: "CombatTalking/1507_03_03_001,阿活，你……你是来杀我的吗？"
   splits:
   - split: 1
-    text: "阿活，你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你是来杀我的吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "阿活，你……你是来杀我的吗？"
+    translated: "A'Huo, you... are you here to kill me?"
 - raw: "CombatTalking/1507_03_03_002,你要不就一起上，要不给我在旁边等着！"
   splits:
   - split: 1
@@ -3527,17 +3283,8 @@
 - raw: "CombatTalking/1507_03_03_003,是吗……你是来拼命的啊。"
   splits:
   - split: 1
-    text: "是吗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你是来拼命的啊。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是吗……你是来拼命的啊。"
+    translated: "Is that so... You're here to fight desperately."
 - raw: "CombatTalking/1507_03_03_004,吃里扒外的贱种！等我处理掉这厮，\\n就把你玩残卖窑子里去！"
   splits:
   - split: 1
@@ -3570,11 +3317,8 @@
 - raw: "CombatTalking/1507_03_04_004,……不，我两不相帮。"
   splits:
   - split: 1
-    text: "不，我两不相帮。"
+    text: "……不，我两不相帮。"
     translated: "...No, I won't help either."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/1507_03_05_001,无能的弟子，给我咬紧牙关站好。\\n你死了也有为师替你报仇。"
   splits:
   - split: 1
@@ -3642,11 +3386,8 @@
 - raw: "CombatTalking/1617_01_03_001,你们这是……！"
   splits:
   - split: 1
-    text: "你们这是"
+    text: "你们这是……！"
     translated: "You're this...!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "CombatTalking/1617_02_01_001,赵少侠不妨假戏真作，全力以赴，本宫试你身手。"
   splits:
   - split: 1
@@ -3660,17 +3401,8 @@
 - raw: "CombatTalking/1618_01_01_001,好弱……你是认真的吗？"
   splits:
   - split: 1
-    text: "好弱"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你是认真的吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "好弱……你是认真的吗？"
+    translated: "So weak... Are you serious?"
 - raw: "CombatTalking/1618_01_01_002,哦呵呵，挺带劲儿啊，师弟。"
   splits:
   - split: 1
@@ -3858,17 +3590,8 @@
 - raw: "CombatTalking/1623_01_08_002,那是……那是因为你……。"
   splits:
   - split: 1
-    text: "那是"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "那是因为你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "那是……那是因为你……。"
+    translated: "That's... That's because you..."
 - raw: "CombatTalking/1623_01_09_001,别赖我～我只是给了你一封书信。\\n你只看到你想看到的东西，就喜孜孜跳了出去。"
   splits:
   - split: 1
@@ -3943,17 +3666,8 @@
 - raw: "CombatTalking/1624_01_01_001,不会吧，你……他奶奶的，荆红！还不来帮我！"
   splits:
   - split: 1
-    text: "不会吧，你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "他奶奶的，荆红！还不来帮我！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不会吧，你……他奶奶的，荆红！还不来帮我！"
+    translated: "Not going to happen, you... damn it, Jing Hong! Why aren't you coming to help me!"
 - raw: "CombatTalking/1624_01_01_002,这都半死的人了，你竟还拾夺不下，要我帮忙？"
   splits:
   - split: 1
@@ -3991,11 +3705,8 @@
 - raw: "CombatTalking/1625_01_01_004,……不，接着来吧。"
   splits:
   - split: 1
-    text: "不，接着来吧。"
+    text: "……不，接着来吧。"
     translated: "...No, go ahead."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/1625_01_02_001,无须忌惮，使出全力来吧。"
   splits:
   - split: 1
@@ -4039,19 +3750,13 @@
 - raw: "CombatTalking/1704_01_03_002,他倒着滚出去了……。"
   splits:
   - split: 1
-    text: "他倒着滚出去了"
+    text: "他倒着滚出去了……。"
     translated: "He rolled out backwards..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1704_01_03_003,太假了吧……。"
   splits:
   - split: 1
-    text: "太假了吧"
+    text: "太假了吧……。"
     translated: "That's too fake..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1704_01_04_001,三师兄，你快投降。"
   splits:
   - split: 1
@@ -4108,17 +3813,8 @@
 - raw: "CombatTalking/1802_01_02_002,哇，唐布衣！你……你这卑鄙小人……。"
   splits:
   - split: 1
-    text: "哇，唐布衣！你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你这卑鄙小人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "哇，唐布衣！你……你这卑鄙小人……。"
+    translated: "Oh, Tang Buyi! You... you despicable person..."
 - raw: "CombatTalking/1802_02_01_001,有机可趁！"
   splits:
   - split: 1
@@ -4127,17 +3823,8 @@
 - raw: "CombatTalking/1802_02_01_002,哇，唐布衣！你竟然偷袭我……不是说堂堂正正对决吗……。"
   splits:
   - split: 1
-    text: "哇，唐布衣！你竟然偷袭我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "不是说堂堂正正对决吗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "哇，唐布衣！你竟然偷袭我……不是说堂堂正正对决吗……。"
+    translated: "Wow, Tang Buyi! You actually ambushed me... Didn't we agree to a fair duel?"
 - raw: "CombatTalking/1802_03_01_001,有机可趁！"
   splits:
   - split: 1
@@ -4146,17 +3833,8 @@
 - raw: "CombatTalking/1802_03_01_002,哇，唐布衣！你……你这卑鄙小人……。"
   splits:
   - split: 1
-    text: "哇，唐布衣！你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你这卑鄙小人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "哇，唐布衣！你……你这卑鄙小人……。"
+    translated: "Oh, Tang Buyi! You... you despicable person..."
 - raw: "CombatTalking/1803_02_01_001,他喷火了！他有好多手！他是真仙，我哪里打得赢！"
   splits:
   - split: 1
@@ -4170,22 +3848,8 @@
 - raw: "CombatTalking/1803_03_01_002,哇！你……你这卑鄙小人……冒牌货，竟敢伤我！"
   splits:
   - split: 1
-    text: "哇！你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你这卑鄙小人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "冒牌货，竟敢伤我！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}"
+    text: "哇！你……你这卑鄙小人……冒牌货，竟敢伤我！"
+    translated: "Oh! You... you despicable wretch... fraud, dare to harm me!"
 - raw: "CombatTalking/1803_03_03_001,萤儿，师叔本不想在你面前失态。\\n谁让这群人不讲武德，老衲只好提前动用后手。"
   splits:
   - split: 1
@@ -4258,11 +3922,8 @@
 - raw: "CombatTalking/1803_04_01_003,怎会……！"
   splits:
   - split: 1
-    text: "怎会"
+    text: "怎会……！"
     translated: "How could...!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "CombatTalking/1803_04_02_001,怎么回事，这小二武功这么高，是老道眼花了吗？"
   splits:
   - split: 1
@@ -4357,19 +4018,13 @@
 - raw: "CombatTalking/1805_01_02_004,……好妹妹。"
   splits:
   - split: 1
-    text: "好妹妹。"
+    text: "……好妹妹。"
     translated: "...Dear Younger Sister."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/1806_01_01_001,唔，师弟，容师兄我先行一步……。"
   splits:
   - split: 1
-    text: "唔，师弟，容师兄我先行一步"
+    text: "唔，师弟，容师兄我先行一步……。"
     translated: "Um, Junior Brother, allow me to go ahead first..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1806_01_01_002,三师兄语毕，就此没了气息。"
   splits:
   - split: 1
@@ -4402,11 +4057,8 @@
 - raw: "CombatTalking/1809_01_01_001,别的不必多说……。"
   splits:
   - split: 1
-    text: "别的不必多说"
+    text: "别的不必多说……。"
     translated: "Don't say anything else..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1809_01_01_002,一决胜负！"
   splits:
   - split: 1
@@ -4450,11 +4102,8 @@
 - raw: "CombatTalking/1809_02_01_002,呃……。"
   splits:
   - split: 1
-    text: "呃"
+    text: "呃……。"
     translated: "Uh..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1809_03_01_001,哦呵呵呵，真热闹啊。\\n妾身也来掺一脚，成不？"
   splits:
   - split: 1
@@ -4487,11 +4136,8 @@
 - raw: "CombatTalking/1809_04_01_002,尹道长一直挡着我出招，与其说他脚步错乱像外行……"
   splits:
   - split: 1
-    text: "尹道长一直挡着我出招，与其说他脚步错乱像外行"
+    text: "尹道长一直挡着我出招，与其说他脚步错乱像外行……"
     translated: "Yin Daoist has been blocking my attacks all along. Rather than saying his footwork is chaotic like that of an amateur..."
-  templates:
-  - split: 1
-    template: "{0}……"
 - raw: "CombatTalking/1809_04_01_003,他像是一个人反踏某种阵法，逼迫大家必须随之起舞。"
   splits:
   - split: 1
@@ -4538,17 +4184,8 @@
 - raw: "CombatTalking/1809_05_02_001,这……好吧。"
   splits:
   - split: 1
-    text: "这"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "好吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……好吧。"
+    translated: "This... well."
 - raw: "CombatTalking/1809_05_02_002,那我只好加入这一边了。"
   splits:
   - split: 1
@@ -4580,17 +4217,8 @@
 - raw: "CombatTalking/1809_05_03_001,这……唉。"
   splits:
   - split: 1
-    text: "这"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "唉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这……唉。"
+    translated: "This... sigh."
 - raw: "CombatTalking/1810_01_01_001,啊！"
   splits:
   - split: 1
@@ -4624,11 +4252,8 @@
 - raw: "CombatTalking/1813_01_01_001,这一切……"
   splits:
   - split: 1
-    text: "这一切"
+    text: "这一切……"
     translated: "All of this..."
-  templates:
-  - split: 1
-    template: "{0}……"
 - raw: "CombatTalking/1813_01_01_002,有意义。"
   splits:
   - split: 1
@@ -4651,17 +4276,8 @@
 - raw: "CombatTalking/1813_01_02_002,啊啊……你的斗争、你的喊声，震耳欲聋。"
   splits:
   - split: 1
-    text: "啊啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你的斗争、你的喊声，震耳欲聋。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "啊啊……你的斗争、你的喊声，震耳欲聋。"
+    translated: "Oh oh... your struggle, your shout, deafening."
 - raw: "CombatTalking/1813_01_03_001,厚重的意志透过剑锋震荡，渗透进他心底。"
   splits:
   - split: 1
@@ -4695,31 +4311,13 @@
 - raw: "CombatTalking/1813_01_05_003,仙谣……你说错了，这个人，是我生平所见最强者啊，我已经全力以赴了。"
   splits:
   - split: 1
-    text: "仙谣"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你说错了，这个人，是我生平所见最强者啊，我已经全力以赴了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "仙谣……你说错了，这个人，是我生平所见最强者啊，我已经全力以赴了。"
+    translated: "Xian Yao... You're wrong. This person is the strongest I've ever seen, ah! I've given my all."
 - raw: "CombatTalking/1813_01_06_001,够了……别、别打了，我们认输吧，你会死的！"
   splits:
   - split: 1
-    text: "够了"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "别、别打了，我们认输吧，你会死的！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "够了……别、别打了，我们认输吧，你会死的！"
+    translated: "Enough... Don't, don't fight anymore. We'll admit defeat. You'll die!"
 - raw: "CombatTalking/1813_01_06_002,你住口，安静看着。"
   splits:
   - split: 1
@@ -4738,17 +4336,8 @@
 - raw: "CombatTalking/1813_01_08_001,瑞笙……不要死。"
   splits:
   - split: 1
-    text: "瑞笙"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "不要死。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "瑞笙……不要死。"
+    translated: "Rui Sheng... Don't die."
 - raw: "CombatTalking/1813_01_08_002,哈，铃儿终于对我敞开了心扉，我可不忍心就死。"
   splits:
   - split: 1
@@ -4786,17 +4375,8 @@
 - raw: "CombatTalking/1813_01_09_002,我还不能死……小师妹等我回家。"
   splits:
   - split: 1
-    text: "我还不能死"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "小师妹等我回家。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我还不能死……小师妹等我回家。"
+    translated: "I can't die yet... Little Junior Sister, wait for me to go home."
 - raw: "CombatTalking/1813_01_10_001,就算今天是你的最后一天，我也不会移开目光。"
   splits:
   - split: 1
@@ -4810,53 +4390,23 @@
 - raw: "CombatTalking/1813_01_11_001,啊……笨弟子，你给我站稳了！"
   splits:
   - split: 1
-    text: "啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "笨弟子，你给我站稳了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "啊……笨弟子，你给我站稳了！"
+    translated: "Ah... you clumsy disciple, stand still!"
 - raw: "CombatTalking/1813_01_11_002,……是！"
   splits:
   - split: 1
-    text: "是！"
+    text: "……是！"
     translated: "......Yes!"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/1813_01_12_001,师兄，师兄！别……别走……！"
   splits:
   - split: 1
-    text: "师兄，师兄！别"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "别走"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……！"
+    text: "师兄，师兄！别……别走……！"
+    translated: "Senior Brother, Senior Brother! Don't... don't go...!"
 - raw: "CombatTalking/1813_01_12_002,小师妹在叫我……我答应师娘要照顾她的，我得挺住。"
   splits:
   - split: 1
-    text: "小师妹在叫我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我答应师娘要照顾她的，我得挺住。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "小师妹在叫我……我答应师娘要照顾她的，我得挺住。"
+    translated: "Little Junior Sister is calling me...... I promised Senior Sister I would take care of her, I have to hold on."
 - raw: "CombatTalking/1813_01_12_003,你是哪家的人啊！"
   splits:
   - split: 1
@@ -4875,11 +4425,8 @@
 - raw: "CombatTalking/1813_01_13_002,……没错！"
   splits:
   - split: 1
-    text: "没错！"
+    text: "……没错！"
     translated: "......Right!"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/3003_01_001,师弟好像快到极限了，我要抢先输掉！"
   splits:
   - split: 1
@@ -4908,11 +4455,8 @@
 - raw: "CombatTalking/PV_002_01_003,……你打赢的话。"
   splits:
   - split: 1
-    text: "你打赢的话。"
+    text: "……你打赢的话。"
     translated: "......If you win."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/PV_002_01_004,唔哦哦哦哦哦－－！"
   splits:
   - split: 1
@@ -5006,17 +4550,8 @@
 - raw: "CombatTalking/S0017_02_01_001,怎么……我何时中了毒的？"
   splits:
   - split: 1
-    text: "怎么"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我何时中了毒的？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "怎么……我何时中了毒的？"
+    translated: "How... when did I get poisoned?"
 - raw: "CombatTalking/S0017_02_02_001,先收拾一个！"
   splits:
   - split: 1
@@ -5045,11 +4580,8 @@
 - raw: "CombatTalking/S0018_02_01_002,……切勿莽进。"
   splits:
   - split: 1
-    text: "切勿莽进。"
+    text: "……切勿莽进。"
     translated: "......Do not act recklessly."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/S0018_02_01_003,叶大侠，我来助你！"
   splits:
   - split: 1
@@ -5100,11 +4632,8 @@
 - raw: "CombatTalking/S0018_02_03_009,你这几招……。"
   splits:
   - split: 1
-    text: "你这几招"
+    text: "你这几招……。"
     translated: "You these few moves..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/S0018_02_03_010,点苍剑法六十六式，『握手言和』！"
   splits:
   - split: 1
@@ -5118,19 +4647,13 @@
 - raw: "CombatTalking/S0018_02_03_012,点苍剑法哪来六十六式……。"
   splits:
   - split: 1
-    text: "点苍剑法哪来六十六式"
+    text: "点苍剑法哪来六十六式……。"
     translated: "Where does the Diancang Sword Technique have sixty‑six forms..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/S0018_02_03_013,……不打了，没听见师妹叫我们握手言和吗？"
   splits:
   - split: 1
-    text: "不打了，没听见师妹叫我们握手言和吗？"
+    text: "……不打了，没听见师妹叫我们握手言和吗？"
     translated: "...Let's stop fighting, didn't you hear the younger sister telling us to shake hands and make peace?"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/S0021_01_01_001,这位前辈不是从前那位前辈。"
   splits:
   - split: 1
@@ -5153,55 +4676,27 @@
 - raw: "CombatTalking/S0021_01_01_003,湘姊似乎在改变拍子……是在配合我的吗？"
   splits:
   - split: 1
-    text: "湘姊似乎在改变拍子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "是在配合我的吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "湘姊似乎在改变拍子……是在配合我的吗？"
+    translated: "Sister Xiang seems to be changing the rhythm... is she matching me?"
 - raw: "CombatTalking/S0021_01_01_004,居然……靠着自己的天赋跨越了门坎吗。\\n行招走式比起我来，更像是你娘亲。啊啊……温夫人教得好啊。"
   splits:
   - split: 1
-    text: "居然"
+    text: "居然……靠着自己的天赋跨越了门坎吗。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "靠着自己的天赋跨越了门坎吗。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "行招走式比起我来，更像是你娘亲。啊啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "温夫人教得好啊。"
+    text: "行招走式比起我来，更像是你娘亲。啊啊……温夫人教得好啊。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}……{3}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/S0021_02_01_001,你们俩小鬼头怎么打起来了……有没有搞错？"
   splits:
   - split: 1
-    text: "你们俩小鬼头怎么打起来了"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "有没有搞错？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "你们俩小鬼头怎么打起来了……有没有搞错？"
+    translated: "You two little brats, how did you start fighting... Did you guys get it wrong?"
 - raw: "CombatTalking/S0021_02_01_002,这是你逼我的，我先放倒你再说！"
   splits:
   - split: 1
@@ -5215,25 +4710,13 @@
 - raw: "CombatTalking/S0021_02_01_004,你们不要这样啦……。"
   splits:
   - split: 1
-    text: "你们不要这样啦"
+    text: "你们不要这样啦……。"
     translated: "Don't do that..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/S0021_02_02_001,湘……姑娘，三招已过，算得上公平，我可不护着你了。"
   splits:
   - split: 1
-    text: "湘"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "姑娘，三招已过，算得上公平，我可不护着你了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "湘……姑娘，三招已过，算得上公平，我可不护着你了。"
+    translated: "Xiang... Miss, three moves have passed; it's fair enough, I won't protect you anymore."
 - raw: "CombatTalking/S0021_02_02_002,我本来就不必你相护！"
   splits:
   - split: 1
@@ -5356,25 +4839,13 @@
 - raw: "CombatTalking/S0021_03_01_001,好像……好像快要捉摸到什么了，就差一点。"
   splits:
   - split: 1
-    text: "好像"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "好像快要捉摸到什么了，就差一点。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "好像……好像快要捉摸到什么了，就差一点。"
+    translated: "It's like... I'm almost there, just a little bit away."
 - raw: "CombatTalking/S0021_03_01_002,……湘姊，我来支持你，全力上吧。"
   splits:
   - split: 1
-    text: "湘姊，我来支持你，全力上吧。"
+    text: "……湘姊，我来支持你，全力上吧。"
     translated: "......Sister Xiang, I'll support you, go all out!"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "CombatTalking/S0021_03_01_003,……！"
 - raw: "CombatTalking/S0022_01_01_001,弟，你别闹喔！再不然姊可要生气了！"
   splits:
@@ -5444,22 +4915,17 @@
 - raw: "CombatTalking/S0023_02_01_005,你……你这小子，想干什么？\\n我可是七袋长老，你敢对我不敬？"
   splits:
   - split: 1
-    text: "你"
+    text: "你……你这小子，想干什么？"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "你这小子，想干什么？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "我可是七袋长老，你敢对我不敬？"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/S0023_02_01_006,赔我的狗命来！"
   splits:
   - split: 1
@@ -5663,22 +5129,17 @@
 - raw: "CombatTalking/1211_02_001,怎么……身体怪怪的，不大听使唤？\\n是、是二师兄方才下的毒！"
   splits:
   - split: 1
-    text: "怎么"
+    text: "怎么……身体怪怪的，不大听使唤？"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "身体怪怪的，不大听使唤？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "是、是二师兄方才下的毒！"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}"
+    template: "{0}\\n{1}"
 - raw: "CombatTalking/1216_01_001,大哥，我、我挺不住了，他们方才射我那镖上有毒！"
   splits:
   - split: 1
@@ -5687,31 +5148,13 @@
 - raw: "CombatTalking/1216_01_002,兄弟！可恶……可恶啊！"
   splits:
   - split: 1
-    text: "兄弟！可恶"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "可恶啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "兄弟！可恶……可恶啊！"
+    translated: "Brother! Damn it... damn it!"
 - raw: "CombatTalking/1216_01_003,大哥，我也不行了……抱歉！"
   splits:
   - split: 1
-    text: "大哥，我也不行了"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "抱歉！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "大哥，我也不行了……抱歉！"
+    translated: "Brother, I can't do it anymore... Sorry!"
 - raw: "CombatTalking/1216_01_004,唐门的畜生！"
   splits:
   - split: 1
@@ -5720,17 +5163,8 @@
 - raw: "CombatTalking/1216_01_005,大哥，快……你快跑，我拖住他们！"
   splits:
   - split: 1
-    text: "大哥，快"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你快跑，我拖住他们！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "大哥，快……你快跑，我拖住他们！"
+    translated: "Brother, hurry... you run quickly, I'll hold them off!"
 - raw: "CombatTalking/1216_01_006,不！！"
   splits:
   - split: 1
@@ -5758,17 +5192,8 @@
 - raw: "CombatTalking/1218_01_002,哦……哦哦！老大！这个北斗七星阵真的管用！"
   splits:
   - split: 1
-    text: "哦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "哦哦！老大！这个北斗七星阵真的管用！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……哦哦！老大！这个北斗七星阵真的管用！"
+    translated: "Oh... Oh oh! Leader! This Big Dipper Formation really works!"
 - raw: "CombatTalking/1218_01_003,你干什么不动？阵形都乱了！"
   splits:
   - split: 1
@@ -5807,17 +5232,8 @@
 - raw: "CombatTalking/D_Action_005,可…可恶阿！"
   splits:
   - split: 1
-    text: "可"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "可恶阿！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}…{1}"
+    text: "可…可恶阿！"
+    translated: "Oh... damn it!"
 - raw: "CombatTalking/Special_405_001,赵居士，切莫胡闹。"
   splits:
   - split: 1
@@ -5871,27 +5287,8 @@
 - raw: "CombatTalking/1318_03_003,我……你……他……啊，妈的！"
   splits:
   - split: 1
-    text: "我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
-    text: "他"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "啊，妈的！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……{2}……{3}"
+    text: "我……你……他……啊，妈的！"
+    translated: "I... you... he... damn it!"
 - raw: "CombatTalking/1319_01_001,下贱粗人，说的话就是粗鄙不文。\\n云裳妹妹，近朱者赤，你可别跟这种人来往。"
   splits:
   - split: 1
@@ -5914,11 +5311,8 @@
 - raw: "CombatTalking/1319_01_003,你……。"
   splits:
   - split: 1
-    text: "你"
+    text: "你……。"
     translated: "You..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1319_02_001,大胆狂徒，竟敢当着老道的面，在青城动手伤人！"
   splits:
   - split: 1
@@ -5957,17 +5351,8 @@
 - raw: "CombatTalking/1326_01_001,啊！他妈的……帮我报仇……。"
   splits:
   - split: 1
-    text: "啊！他妈的"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "帮我报仇"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "啊！他妈的……帮我报仇……。"
+    translated: "Ah! Damn it...... avenge me...... ."
 - raw: "CombatTalking/1328_01_001,有种来呀！"
   splits:
   - split: 1
@@ -6077,17 +5462,8 @@
 - raw: "CombatTalking/S0208_02_02_002,这……是这样没错，可是……。"
   splits:
   - split: 1
-    text: "这"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "是这样没错，可是"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "这……是这样没错，可是……。"
+    translated: "This... is correct, but..."
 - raw: "CombatTalking/S0208_02_02_003,怎么回事，这牛鼻子老道士，不是自个儿家里才横的吗？"
   splits:
   - split: 1
@@ -6096,17 +5472,8 @@
 - raw: "CombatTalking/S0208_02_02_004,这个人……至今都在扮猪吃老虎啊！"
   splits:
   - split: 1
-    text: "这个人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "至今都在扮猪吃老虎啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "这个人……至今都在扮猪吃老虎啊！"
+    translated: "This person has been pretending to be a pig eating a tiger all along!"
 - raw: "CombatTalking/S0208_02_02_005,呵呵，看到了没有，秀儿？\\n所谓底牌、绝招，就是要压在箱底，关键时刻吓人大一跳，这才管用。\\n趁他缓过气来之前，落井下石──"
   splits:
   - split: 1
@@ -6139,17 +5506,8 @@
 - raw: "CombatTalking/S0208_02_02_008,呀！你们……你们别晃，我快掉下去了！"
   splits:
   - split: 1
-    text: "呀！你们"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你们别晃，我快掉下去了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呀！你们……你们别晃，我快掉下去了！"
+    translated: "Oh! You all... you all, don't move, I'm about to fall!"
 - raw: "CombatTalking/S0208_02_02_009,云裳！妳可千万抓稳了！"
   splits:
   - split: 1
@@ -6158,17 +5516,8 @@
 - raw: "CombatTalking/S0208_02_02_010,师父，别……别踏了，踏坏了栈道，我们都得没命呀！"
   splits:
   - split: 1
-    text: "师父，别"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "别踏了，踏坏了栈道，我们都得没命呀！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "师父，别……别踏了，踏坏了栈道，我们都得没命呀！"
+    translated: "Master, don't... don't step on it, if you damage the mountain path, we'll all die!"
 - raw: "CombatTalking/S0208_02_02_011,呵呵呵呵呵呵呵呵。"
   splits:
   - split: 1
@@ -6191,17 +5540,8 @@
 - raw: "CombatTalking/S0209_01_01_001,如斯浑厚……这是青城的玄门气功？"
   splits:
   - split: 1
-    text: "如斯浑厚"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "这是青城的玄门气功？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "如斯浑厚……这是青城的玄门气功？"
+    translated: "So profound... Is this the Qingcheng sect's secret qigong?"
 - raw: "CombatTalking/S0209_01_02_001,这股真气，像是南宫世家的护心诀。"
   splits:
   - split: 1
@@ -6215,39 +5555,18 @@
 - raw: "CombatTalking/S0209_01_04_001,点苍剑气……两股！这是点苍双尊！"
   splits:
   - split: 1
-    text: "点苍剑气"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "两股！这是点苍双尊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "点苍剑气……两股！这是点苍双尊！"
+    translated: "Diancang Sword Qi... two streams! This is Diancang Shuangzun!"
 - raw: "CombatTalking/S0208_05_01_001,如斯浑厚……这是青城的玄门气功？"
   splits:
   - split: 1
-    text: "如斯浑厚"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "这是青城的玄门气功？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "如斯浑厚……这是青城的玄门气功？"
+    translated: "So profound... Is this the Qingcheng sect's secret qigong?"
 - raw: "CombatTalking/S0208_05_01_002,哥哥……！"
   splits:
   - split: 1
-    text: "哥哥"
+    text: "哥哥……！"
     translated: "Brother...!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "CombatTalking/S0208_05_01_003,此刻我与云裳同一脉、共一息，透过脉搏，心脏连在一起。"
   splits:
   - split: 1
@@ -6256,17 +5575,8 @@
 - raw: "CombatTalking/S0208_05_01_004,听见了心跳鼓动的响声……那便是我们依然活着的证明。"
   splits:
   - split: 1
-    text: "听见了心跳鼓动的响声"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "那便是我们依然活着的证明。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "听见了心跳鼓动的响声……那便是我们依然活着的证明。"
+    translated: "Hearing the sound of a heartbeat... that is proof that we are still alive."
 - raw: "CombatTalking/S0208_05_02_001,这股真气，像是南宫世家的护心诀。"
   splits:
   - split: 1
@@ -6280,17 +5590,8 @@
 - raw: "CombatTalking/S0208_05_04_001,点苍剑气……两股！这是两仪真气，点苍双尊！"
   splits:
   - split: 1
-    text: "点苍剑气"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "两股！这是两仪真气，点苍双尊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "点苍剑气……两股！这是两仪真气，点苍双尊！"
+    translated: "Diancang Sword Qi... two streams! This is the Two Principles True Qi, Diancang Shuangzun!"
 - raw: "CombatTalking/1814_01_01_001,我要将你们都拖进深渊，让尔等姓名被历史吞没。"
   splits:
   - split: 1
@@ -6343,11 +5644,8 @@
 - raw: "CombatTalking/1814_01_03_004,咳啊！卑鄙……。"
   splits:
   - split: 1
-    text: "咳啊！卑鄙"
+    text: "咳啊！卑鄙……。"
     translated: "Cough! Despicable..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "CombatTalking/1814_01_03_005,邹掌门！"
   splits:
   - split: 1
@@ -6423,17 +5721,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
-    text: "比方说"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 3
-    text: "戴着你的脸皮，扼死叶小娘子，你觉得如何？"
+    text: "比方说……戴着你的脸皮，扼死叶小娘子，你觉得如何？"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}\\n{2}……{3}"
+    template: "{0}\\n{1}\\n{2}"
 - raw: "CombatTalking/1814_01_06_002,你敢你试试！"
   splits:
   - split: 1

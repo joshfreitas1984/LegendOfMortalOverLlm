@@ -499,27 +499,22 @@
 - raw: "Equip/Desc/Ball_20,硫磺、焰硝、麻茹、黄蜡、松脂……等诸多种材料揉成的黑色药粉，\\n一旦触地摩擦，就会瞬间引爆，\\n威力强大，绝非闹着玩的。"
   splits:
   - split: 1
-    text: "硫磺、焰硝、麻茹、黄蜡、松脂"
+    text: "硫磺、焰硝、麻茹、黄蜡、松脂……等诸多种材料揉成的黑色药粉，"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 1
-    text: "等诸多种材料揉成的黑色药粉，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 2
     text: "一旦触地摩擦，就会瞬间引爆，"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   - split: 1
-    subIndex: 3
+    subIndex: 2
     text: "威力强大，绝非闹着玩的。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}……{1}\\n{2}\\n{3}"
+    template: "{0}\\n{1}\\n{2}"
 - raw: "Equip/Name/Trap_01,似草针"
   splits:
   - split: 1

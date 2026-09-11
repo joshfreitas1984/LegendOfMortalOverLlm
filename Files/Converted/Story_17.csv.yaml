@@ -166,11 +166,8 @@
 - raw: "Story/D_S0801_01_032,……有下毒？"
   splits:
   - split: 1
-    text: "有下毒？"
+    text: "……有下毒？"
     translated: "......Have you poisoned?"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_01_033,你是唐门的，有没有下毒，你怎会不清楚？丑又笨。"
   splits:
   - split: 1
@@ -234,11 +231,8 @@
 - raw: "Story/D_S0801_02_01_004,傻妹子，我们兄妹相依为命至今，哥哥哪时……"
   splits:
   - split: 1
-    text: "傻妹子，我们兄妹相依为命至今，哥哥哪时"
+    text: "傻妹子，我们兄妹相依为命至今，哥哥哪时……"
     translated: "Stupid sister, we have been relying on each other as siblings until now, Brother when..."
-  templates:
-  - split: 1
-    template: "{0}……"
 - raw: "Story/D_S0801_02_01_005,哥哥！"
   splits:
   - split: 1
@@ -252,17 +246,8 @@
 - raw: "Story/D_S0801_02_01_007,翻脸真快……我含辛茹苦拉拔大的妹妹啊。"
   splits:
   - split: 1
-    text: "翻脸真快"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我含辛茹苦拉拔大的妹妹啊。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "翻脸真快……我含辛茹苦拉拔大的妹妹啊。"
+    translated: "Changes face so quickly... my younger sister whom I raised with great hardship and effort."
 - raw: "Story/D_S0801_02_01_008,我不换个人黏，哥哥你怎么能有自己的人生？我们说过的，你可别吃味喔。"
   splits:
   - split: 1
@@ -346,11 +331,8 @@
 - raw: "Story/D_S0801_02_01_020,……有个故人碰巧路过，帮了我一把。"
   splits:
   - split: 1
-    text: "有个故人碰巧路过，帮了我一把。"
+    text: "……有个故人碰巧路过，帮了我一把。"
     translated: "...There was an old friend who happened to pass by and helped me out."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_01_021,是谁？我嫂子是谁？"
   splits:
   - split: 1
@@ -454,17 +436,8 @@
 - raw: "Story/D_S0801_02_02_006,不忙，方才有人送我……跑太快了吧。"
   splits:
   - split: 1
-    text: "不忙，方才有人送我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "跑太快了吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不忙，方才有人送我……跑太快了吧。"
+    translated: "No rush, someone just gave me... you ran too fast."
 - raw: "Story/D_S0801_02_02_007,别理他，你们大大大、大大院情况怎样？"
   splits:
   - split: 1
@@ -478,19 +451,13 @@
 - raw: "Story/D_S0801_02_02_009,……兄弟，没人不怕死。我们抛头颅、洒热血，捍卫的事物无质无形，但是意义重大，没什么值得叹气的。"
   splits:
   - split: 1
-    text: "兄弟，没人不怕死。我们抛头颅、洒热血，捍卫的事物无质无形，但是意义重大，没什么值得叹气的。"
+    text: "……兄弟，没人不怕死。我们抛头颅、洒热血，捍卫的事物无质无形，但是意义重大，没什么值得叹气的。"
     translated: "...Brother, no one is afraid of death. We shed our heads and spill our blood, defending things that are intangible, but of great significance‑there's nothing to be sad about."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_010,……李帮主说的再对也没有。"
   splits:
   - split: 1
-    text: "李帮主说的再对也没有。"
+    text: "……李帮主说的再对也没有。"
     translated: "...The Gang Master is right for once"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_011,义往往要舍身才能取，大家依然前仆后后后后后继，这就是它价值连城的证据。"
   splits:
   - split: 1
@@ -529,11 +496,8 @@
 - raw: "Story/D_S0801_02_02_018,……伤亡重吗？"
   splits:
   - split: 1
-    text: "伤亡重吗？"
+    text: "……伤亡重吗？"
     translated: "...Are the casualties severe?"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_019,实话说，挺凄惨的。你也知道，丐帮混江湖，凭的都是下三滥手段，没几个有真功夫。没有帮主指挥，像这种大阵仗不能取巧，自然是讨不了好。"
   splits:
   - split: 1
@@ -542,17 +506,8 @@
 - raw: "Story/D_S0801_02_02_020,是吗……唉。"
   splits:
   - split: 1
-    text: "是吗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "唉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "是吗……唉。"
+    translated: "Is that so... sigh."
 - raw: "Story/D_S0801_02_02_021,叹什么气你？我们又没埋怨。"
   splits:
   - split: 1
@@ -582,11 +537,8 @@
 - raw: "Story/D_S0801_02_02_027,为此，我们心存感激，别说什么伤感的话了。这就叫死在便所……。"
   splits:
   - split: 1
-    text: "为此，我们心存感激，别说什么伤感的话了。这就叫死在便所"
+    text: "为此，我们心存感激，别说什么伤感的话了。这就叫死在便所……。"
     translated: "For this, we are grateful; don't say anything sad. This is called dying in the toilet..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0801_02_02_028,{size=24}死得其所。{/size}"
   splits:
   - split: 1
@@ -633,17 +585,8 @@
 - raw: "Story/D_S0801_02_02_036,福韫法师……你怎么这样啦。"
   splits:
   - split: 1
-    text: "福韫法师"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你怎么这样啦。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "福韫法师……你怎么这样啦。"
+    translated: "Master Fu Yun... why are you acting like this?"
 - raw: "Story/D_S0801_02_02_037,赵施主！"
   splits:
   - split: 1
@@ -687,11 +630,8 @@
 - raw: "Story/D_S0801_02_02_045,你别瞎说，空口冤人清黑，我只是……！"
   splits:
   - split: 1
-    text: "你别瞎说，空口冤人清黑，我只是"
+    text: "你别瞎说，空口冤人清黑，我只是……！"
     translated: "Don't say nonsense, empty words can falsely accuse and clear the black, I'm just......!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "Story/D_S0801_02_02_046,好了好了，我知道，我知道，你最坏了。"
   splits:
   - split: 1
@@ -740,11 +680,8 @@
 - raw: "Story/D_S0801_02_02_054,……多谢法师指点迷津。"
   splits:
   - split: 1
-    text: "多谢法师指点迷津。"
+    text: "……多谢法师指点迷津。"
     translated: "...Thank you, Master, for guiding me out of confusion."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_055,善哉。"
   splits:
   - split: 1
@@ -788,17 +725,8 @@
 - raw: "Story/D_S0801_02_02_061,呃……意思即是说……？"
   splits:
   - split: 1
-    text: "呃"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "意思即是说"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……？"
+    text: "呃……意思即是说……？"
+    translated: "Um... so what you're saying is...?"
 - raw: "Story/D_S0801_02_02_062,你不入地狱，谁入地狱？你应该下地狱。"
   splits:
   - split: 1
@@ -827,11 +755,8 @@
 - raw: "Story/D_S0801_02_02_067,……不过招你找他想做甚？"
   splits:
   - split: 1
-    text: "不过招你找他想做甚？"
+    text: "……不过招你找他想做甚？"
     translated: "......But why did you summon him? What are you trying to do?"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_068,过招。"
   splits:
   - split: 1
@@ -865,25 +790,13 @@
 - raw: "Story/D_S0801_02_02_074,呃……这个恕难从命。"
   splits:
   - split: 1
-    text: "呃"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "这个恕难从命。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "呃……这个恕难从命。"
+    translated: "Um... I'm afraid I can't comply."
 - raw: "Story/D_S0801_02_02_075,峨嵋之耻……。"
   splits:
   - split: 1
-    text: "峨嵋之耻"
+    text: "峨嵋之耻……。"
     translated: "Emei's shame...... ."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0801_02_02_076,向掌门、解大侠二位好。"
   splits:
   - split: 1
@@ -912,11 +825,8 @@
 - raw: "Story/D_S0801_02_02_081,……叶少侠力战两大高手，身负重伤。你现在去找他比武，岂不是趁人之危？"
   splits:
   - split: 1
-    text: "叶少侠力战两大高手，身负重伤。你现在去找他比武，岂不是趁人之危？"
+    text: "……叶少侠力战两大高手，身负重伤。你现在去找他比武，岂不是趁人之危？"
     translated: "......Young Hero Ye fought two top experts with great strength and is now seriously injured. You go to challenge him now, isn't that taking advantage of his weakness?"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_082,还真是。"
   splits:
   - split: 1
@@ -925,17 +835,8 @@
 - raw: "Story/D_S0801_02_02_083,那我再忍耐几天好了，大约……两天？"
   splits:
   - split: 1
-    text: "那我再忍耐几天好了，大约"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "两天？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "那我再忍耐几天好了，大约……两天？"
+    translated: "Then I'll just wait a few more days, about... two days?"
 - raw: "Story/D_S0801_02_02_084,师兄，为何我们不创个合击腿法？"
   splits:
   - split: 1
@@ -969,11 +870,8 @@
 - raw: "Story/D_S0801_02_02_090,且慢，向掌门。关于决战眉山之巅，西武林盟侧的人选……。"
   splits:
   - split: 1
-    text: "且慢，向掌门。关于决战眉山之巅，西武林盟侧的人选"
+    text: "且慢，向掌门。关于决战眉山之巅，西武林盟侧的人选……。"
     translated: "Wait a moment, to the sect leader. Regarding the decisive battle at the peak of Meishan Mountain, the candidates from the Western Wulin Alliance..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0801_02_02_091,担心什么？当然是我。"
   splits:
   - split: 1
@@ -987,11 +885,8 @@
 - raw: "Story/D_S0801_02_02_093,……赵少侠，两盟交战当日，向某曾与盟主交手过。他年纪轻轻，却已臻至如斯境界，世所罕见。恐怕西武林盟之中，无人是他敌手。"
   splits:
   - split: 1
-    text: "赵少侠，两盟交战当日，向某曾与盟主交手过。他年纪轻轻，却已臻至如斯境界，世所罕见。恐怕西武林盟之中，无人是他敌手。"
+    text: "……赵少侠，两盟交战当日，向某曾与盟主交手过。他年纪轻轻，却已臻至如斯境界，世所罕见。恐怕西武林盟之中，无人是他敌手。"
     translated: "......Young Hero Zhao, on the day when our two alliances clashed, he once engaged in combat with the Alliance Leader. Though young in years, he has attained such a realm that is rare to see in this world. It seems there may be no one within the Western Wulin Alliance who could match him in battle."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_094,连向掌门也不能？"
   splits:
   - split: 1
@@ -1036,11 +931,8 @@
 - raw: "Story/D_S0801_02_02_103,……为何？"
   splits:
   - split: 1
-    text: "为何？"
+    text: "……为何？"
     translated: "......Why?"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_104,因为西武林盟是唐门招办的，至今没有盟主。各派都有伤亡，恩怨全仰赖此战清算，是你唐门应该展现实力的时候了。"
   splits:
   - split: 1
@@ -1071,11 +963,8 @@
 - raw: "Story/D_S0801_02_02_109,……其实我也有同感。"
   splits:
   - split: 1
-    text: "其实我也有同感。"
+    text: "……其实我也有同感。"
     translated: "......I also share the same feeling."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_110,你就不同了。"
   splits:
   - split: 1
@@ -1197,17 +1086,8 @@
 - raw: "Story/D_S0801_02_02_134,而且……而且男女都是邻居，以前我们结识男子的机会可不多。我觉得这样挺、挺好的。"
   splits:
   - split: 1
-    text: "而且"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "而且男女都是邻居，以前我们结识男子的机会可不多。我觉得这样挺、挺好的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "而且……而且男女都是邻居，以前我们结识男子的机会可不多。我觉得这样挺、挺好的。"
+    translated: "And also... And also, both men and women are neighbors. In the past, our opportunities to meet men weren't much. I think this is quite good."
 - raw: "Story/D_S0801_02_02_135,你们满意，那真是太好了。"
   splits:
   - split: 1
@@ -1256,27 +1136,15 @@
 - raw: "Story/D_S0801_02_02_143,石老哥，你怎么走了？再喝两杯……哎唷见鬼，师弟。"
   splits:
   - split: 1
-    text: "石老哥，你怎么走了？再喝两杯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "哎唷见鬼，师弟。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "石老哥，你怎么走了？再喝两杯……哎唷见鬼，师弟。"
+    translated: "Old Brother Shi, why did you leave? Have another two cups... Oh dear, damn it, my disciple."
 - raw: "Story/D_S0801_02_02_144,大师兄，你……。"
   splits:
   - split: 1
-    text: "大师兄，你"
+    text: "大师兄，你……。"
     translated: "Elder Brother, you......"
     flaggedForRetranslation: true
     flaggedMistranslation: "Big Senior Brother,大师兄,"
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0801_02_02_145,青山不改绿水長流就此别过。"
   splits:
   - split: 1
@@ -1325,17 +1193,8 @@
 - raw: "Story/D_S0801_02_02_154,太好了……我也是个有用的人了，妈妈～你看我出息了！"
   splits:
   - split: 1
-    text: "太好了"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我也是个有用的人了，妈妈～你看我出息了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "太好了……我也是个有用的人了，妈妈～你看我出息了！"
+    translated: "Great... I've become a useful person too, Mom～ Look at how I've grown!"
 - raw: "Story/D_S0801_02_02_155,他说我们不是混混，是英雄！呜呜呜～"
   splits:
   - split: 1
@@ -1424,17 +1283,8 @@
 - raw: "Story/D_S0801_02_02_170,哦……这我确实想不到……。"
   splits:
   - split: 1
-    text: "哦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "这我确实想不到"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "哦……这我确实想不到……。"
+    translated: "Oh... I really couldn't have thought of that..."
 - raw: "Story/D_S0801_02_02_171,如今看来，我师父都是骗我的吧。蠢笨如我，也不至于到这种地步还看不清楚。"
   splits:
   - split: 1
@@ -1448,11 +1298,8 @@
 - raw: "Story/D_S0801_02_02_173,……那就不敬丹霞子道长，敬丹霞子大侠，请！"
   splits:
   - split: 1
-    text: "那就不敬丹霞子道长，敬丹霞子大侠，请！"
+    text: "……那就不敬丹霞子道长，敬丹霞子大侠，请！"
     translated: "......That would be disrespectful to address Danxiazi as a Daoist master, but rather as a Martial Hero, please!"
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_174,好！干！"
   splits:
   - split: 1
@@ -1486,11 +1333,8 @@
 - raw: "Story/T_S0801_02_02_002,……烦死了。虽说伸手不打笑脸人，但我是真想拔剑砍了他。"
   splits:
   - split: 1
-    text: "烦死了。虽说伸手不打笑脸人，但我是真想拔剑砍了他。"
+    text: "……烦死了。虽说伸手不打笑脸人，但我是真想拔剑砍了他。"
     translated: "......I'm so fed up. Although the saying goes that you don't strike a smiling face, I really want to draw my sword and cut him down."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_179,小二，来壶上好的酒，再多拿一副碗筷过来。"
   splits:
   - split: 1
@@ -1509,11 +1353,8 @@
 - raw: "Story/D_S0801_02_02_182,……南女侠，赵某正好有事请教。"
   splits:
   - split: 1
-    text: "南女侠，赵某正好有事请教。"
+    text: "……南女侠，赵某正好有事请教。"
     translated: "......Southern Female Hero, Zhao has something to ask."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_183,若是想问盟主的事，别问。我不会泄漏你的消息，你也别想从我这里打听关于他的事，如此才公平。好奇他的为人，就用你的剑去问吧。"
   splits:
   - split: 1
@@ -1522,11 +1363,8 @@
 - raw: "Story/D_S0801_02_02_184,……明白了。"
   splits:
   - split: 1
-    text: "明白了。"
+    text: "……明白了。"
     translated: "......Understood."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0801_02_02_185,{size=24}赵少侠，赏脸外边说两句话。{/size}"
   splits:
   - split: 1
@@ -1563,17 +1401,8 @@
 - raw: "Story/D_S0801_02_02_191,找你出来说话，不为别的，我便直说了。你有没有觉得……南女侠风姿绰约、英气勃勃呀？"
   splits:
   - split: 1
-    text: "找你出来说话，不为别的，我便直说了。你有没有觉得"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "南女侠风姿绰约、英气勃勃呀？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "找你出来说话，不为别的，我便直说了。你有没有觉得……南女侠风姿绰约、英气勃勃呀？"
+    translated: "I called you out to talk, not for anything else‑I'll just say it directly. Have you noticed... the Southern Female Hero's graceful demeanor and heroic vitality?"
 - raw: "Story/D_S0801_02_02_192,啥？"
   splits:
   - split: 1
@@ -1587,11 +1416,8 @@
 - raw: "Story/D_S0801_02_02_193,这……。"
   splits:
   - split: 1
-    text: "这"
+    text: "这……。"
     translated: "This..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0801_02_02_194,确实有别于中原女子，饶富南人之美。"
   splits:
   - split: 1
@@ -1625,11 +1451,8 @@
 - raw: "Story/D_S0801_02_02_199,蛤……？"
   splits:
   - split: 1
-    text: "蛤"
+    text: "蛤……？"
     translated: "What the...?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Story/D_S0801_02_02_200,一来，她跟武林盟主瑞少侠翻了脸，二来，就算本人不在场，她还是给岭南掌门许配给了本公子，我才是她名正言顺的丈夫──"
   splits:
   - split: 1
@@ -1641,11 +1464,8 @@
 - raw: "Story/D_S0801_02_02_201,段……！"
   splits:
   - split: 1
-    text: "段"
+    text: "段……！"
     translated: "Duan......!"
-  templates:
-  - split: 1
-    template: "{0}……！"
 - raw: "Story/D_S0801_02_02_202,放心，我用剑背砍的。"
   splits:
   - split: 1
@@ -1689,31 +1509,13 @@
 - raw: "Story/D_S0801_02_02_210,哎……你死了没有？"
   splits:
   - split: 1
-    text: "哎"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "你死了没有？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哎……你死了没有？"
+    translated: "Hmm... Are you okay?"
 - raw: "Story/D_S0801_02_02_211,快……快帮本公子叫大夫。"
   splits:
   - split: 1
-    text: "快"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "快帮本公子叫大夫。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "快……快帮本公子叫大夫。"
+    translated: "Quickly... Quickly help the Young Lord call a Doctor."
 - raw: "Story/O_S0801_02_Break_01_001,回家"
   splits:
   - split: 1
@@ -1722,11 +1524,8 @@
 - raw: "Story/D_S0801_02_Break_01_001,……該回去了。"
   splits:
   - split: 1
-    text: "該回去了。"
+    text: "……該回去了。"
     translated: "...It's time to go back."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/N_S0801_02_Break_01_001,夕陽西下，你忽然心有感觸。看看這、看看那，不知不覺在這地方一住好多年，忽有預感，將要遠行，不由心生眷戀。"
   splits:
   - split: 1
@@ -1750,11 +1549,8 @@
 - raw: "Story/D_S0701_01_01_002,云裳……。"
   splits:
   - split: 1
-    text: "云裳"
+    text: "云裳……。"
     translated: "Yunshang..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0701_01_01_003,我、我方才到处找不到你。我听人说你好了，我好怕是假的。"
   splits:
   - split: 1
@@ -1768,17 +1564,8 @@
 - raw: "Story/D_S0701_01_01_005,我很想念你，一直都怕……怕见不到面了。"
   splits:
   - split: 1
-    text: "我很想念你，一直都怕"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "怕见不到面了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我很想念你，一直都怕……怕见不到面了。"
+    translated: "I miss you so much, always afraid... afraid we might never see each other again."
 - raw: "Story/D_S0701_01_01_006,你知道吗？我如今是你师嫂了。"
   splits:
   - split: 1
@@ -1822,11 +1609,8 @@
 - raw: "Story/D_S0701_01_01_012,……还好。"
   splits:
   - split: 1
-    text: "还好。"
+    text: "……还好。"
     translated: "...Fortunately."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/T_S0701_01_01_001,睁眼说瞎话，动摇到这种地步的小师妹，可谓前所未有。"
   splits:
   - split: 1
@@ -1871,17 +1655,8 @@
 - raw: "Story/D_S0701_01_01_020,我……我……。"
   splits:
   - split: 1
-    text: "我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}……。"
+    text: "我……我……。"
+    translated: "I... I..."
 - raw: "Story/T_S0701_01_01_003,我确实想问，只是不忍苛责小师妹而已。"
   splits:
   - split: 1
@@ -1890,17 +1665,8 @@
 - raw: "Story/D_S0701_01_01_021,我也不想这样的……我也有努力的啊。你们以为我什么都没想过吗。"
   splits:
   - split: 1
-    text: "我也不想这样的"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "我也有努力的啊。你们以为我什么都没想过吗。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我也不想这样的……我也有努力的啊。你们以为我什么都没想过吗。"
+    translated: "I don't want it to be this way either... I have been trying my best. Do you think I haven't thought about anything at all?"
 - raw: "Story/D_S0701_01_01_022,送钱、送礼物、跪在地上求人，这些我都做了。他也答应了，说会尽力，但是要顾全的人那么多，帮唐门，其他人就会死，根本就不是我想怎样就能怎样的！"
   splits:
   - split: 1
@@ -1914,11 +1680,8 @@
 - raw: "Story/D_S0701_01_01_024,小师妹……。"
   splits:
   - split: 1
-    text: "小师妹"
+    text: "小师妹……。"
     translated: "Little Junior Sister......."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0701_01_01_025,好了好了，知道你委屈了，可怜小铃儿，不哭不哭。"
   splits:
   - split: 1
@@ -1967,17 +1730,8 @@
 - raw: "Story/D_S0701_01_01_031,不……不客气。"
   splits:
   - split: 1
-    text: "不"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "不客气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "不……不客气。"
+    translated: "Not at all... You're being too polite."
 - raw: "Story/D_S0701_01_01_032,这是我应该做的事。我才要谢谢师兄，保护我的家。"
   splits:
   - split: 1
@@ -2093,11 +1847,8 @@
 - raw: "Story/D_S0701_01_01_047,哦……。"
   splits:
   - split: 1
-    text: "哦"
+    text: "哦……。"
     translated: "Oh..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0701_01_01_048,那我陪你走下山吧，路上说说话解闷也好。"
   splits:
   - split: 1
@@ -2321,11 +2072,8 @@
 - raw: "Story/D_S0030_01_023,……师弟性情坚毅，这许多年来，不知有多少苦是独自一人默默咽下的。"
   splits:
   - split: 1
-    text: "师弟性情坚毅，这许多年来，不知有多少苦是独自一人默默咽下的。"
+    text: "……师弟性情坚毅，这许多年来，不知有多少苦是独自一人默默咽下的。"
     translated: "...Junior Disciple has a tenacious temperament. Over these years, who knows how much hardship they have swallowed alone and in silence."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0030_01_024,不行，嫌我唠叨，也得跟掌门美言几句，帮师弟争取争取。"
   splits:
   - split: 1
@@ -2446,17 +2194,8 @@
 - raw: "Story/D_S0030_01_046,哦……原来还有这么多区别。"
   splits:
   - split: 1
-    text: "哦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "原来还有这么多区别。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "哦……原来还有这么多区别。"
+    translated: "Oh... there are so many differences after all."
 - raw: "Story/D_S0030_01_047,废话，你当天下人都如你这般命贱难杀？"
   splits:
   - split: 1
@@ -2587,11 +2326,8 @@
 - raw: "Story/D_S0030_01_070,所以，你将来被赶下山，流落街头，最好别自以为是强出头。医死了人，被报复打死也无所谓……。"
   splits:
   - split: 1
-    text: "所以，你将来被赶下山，流落街头，最好别自以为是强出头。医死了人，被报复打死也无所谓"
+    text: "所以，你将来被赶下山，流落街头，最好别自以为是强出头。医死了人，被报复打死也无所谓……。"
     translated: "So, you'll eventually be driven off the mountain, end up on the streets, better not think you're superior and force yourself to stand out. The doctor killed someone, being killed in retaliation is nothing to worry about......"
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0030_01_071,但若连累唐门名声，我便将你尸骨刨出来炼尸毒。"
   splits:
   - split: 1
@@ -2855,11 +2591,8 @@
 - raw: "Story/D_S0802_02_Break_01_010,……你确定？我可以杀了你吧。"
   splits:
   - split: 1
-    text: "你确定？我可以杀了你吧。"
+    text: "……你确定？我可以杀了你吧。"
     translated: "...Are you sure? I can kill you."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0802_02_Break_01_011,切磋而已！切磋而已！"
   splits:
   - split: 1
@@ -2903,11 +2636,8 @@
 - raw: "Story/D_S0802_02_Break_01_016,……甚好。难得有缘，不妨忘年。只是十日之约将至，切磋仍须留意分寸，莫要受伤，反而得不偿失。"
   splits:
   - split: 1
-    text: "甚好。难得有缘，不妨忘年。只是十日之约将至，切磋仍须留意分寸，莫要受伤，反而得不偿失。"
+    text: "……甚好。难得有缘，不妨忘年。只是十日之约将至，切磋仍须留意分寸，莫要受伤，反而得不偿失。"
     translated: "......Very good. A rare opportunity, so let's forget about the years. However, the ten‑day agreement is approaching, and even during sparring, one must remain mindful of the limits. Avoid injury, for otherwise, the loss would outweigh the gain."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/O_S0802_02_Break_01_012,向申屠龙请教"
   splits:
   - split: 1
@@ -2916,17 +2646,8 @@
 - raw: "Story/D_S0802_02_Break_01_017,嗯……不决高低，点到即止的话。贫道也颇为好奇，方今天下最拔尖的少年侠士，武艺多高。"
   splits:
   - split: 1
-    text: "嗯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "不决高低，点到即止的话。贫道也颇为好奇，方今天下最拔尖的少年侠士，武艺多高。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嗯……不决高低，点到即止的话。贫道也颇为好奇，方今天下最拔尖的少年侠士，武艺多高。"
+    translated: "Hmm... if we don't decide who is superior and stop at a certain point, I, the Daoist, am also quite curious about how high the martial arts skills of the top young martial artists in the world are."
 - raw: "Story/D_S0214_01_001,咦？叶兄，你来了，却在弟子房门口徘徊做甚？"
   splits:
   - split: 1
@@ -3085,20 +2806,14 @@
 - raw: "Story/D_S0214_01_030,她说她反正治不好，买药是浪费。不许我动她身上一分一毫，誓要带进坟墓里……。"
   splits:
   - split: 1
-    text: "她说她反正治不好，买药是浪费。不许我动她身上一分一毫，誓要带进坟墓里"
+    text: "她说她反正治不好，买药是浪费。不许我动她身上一分一毫，誓要带进坟墓里……。"
     translated: "She said she won't get better anyway, and buying medicine would be a waste. She won't let me touch a single thing of hers‑swears to take it all to the grave..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0214_01_031,……。"
 - raw: "Story/D_S0214_01_032,……叶某对这个妹妹，实是亏欠良多，愧疚得紧。不舍剥夺她心爱之物，是以这笔欠债迁延至今，迟迟不能还上，还望赵兄见谅。"
   splits:
   - split: 1
-    text: "叶某对这个妹妹，实是亏欠良多，愧疚得紧。不舍剥夺她心爱之物，是以这笔欠债迁延至今，迟迟不能还上，还望赵兄见谅。"
+    text: "……叶某对这个妹妹，实是亏欠良多，愧疚得紧。不舍剥夺她心爱之物，是以这笔欠债迁延至今，迟迟不能还上，还望赵兄见谅。"
     translated: "...Ye truly owes his little sister far too much, and the guilt weighs heavily on him. He cannot bear to deprive her of her beloved possessions. That is why this debt has dragged on for so long without being repaid. I beg Brother Zhao's forgiveness."
-  templates:
-  - split: 1
-    template: "……{0}"
 - raw: "Story/D_S0214_01_033,不，你言重了。"
   splits:
   - split: 1
@@ -3107,17 +2822,8 @@
 - raw: "Story/D_S0214_01_034,嗯……？叶兄，你数过吗？只怕给多了吧。"
   splits:
   - split: 1
-    text: "嗯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "？叶兄，你数过吗？只怕给多了吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "嗯……？叶兄，你数过吗？只怕给多了吧。"
+    translated: "Hmm...? Brother Ye, have you counted this? I'm afraid you might have overpaid."
 - raw: "Story/D_S0214_01_035,没有给多，叶某心知肚明。赵兄当时付的并非实数，而是你全部的身家。感此重义，自当涌泉以报。"
   splits:
   - split: 1
@@ -3151,11 +2857,8 @@
 - raw: "Story/D_S0214_01_041,这……。"
   splits:
   - split: 1
-    text: "这"
+    text: "这……。"
     translated: "This..."
-  templates:
-  - split: 1
-    template: "{0}……。"
 - raw: "Story/D_S0214_01_042,事到如今怎么还一脸愕然，你莫非不曾吃过他的亏？要不是门规所限，我四师兄入山为寇，去打家劫舍都不奇怪。"
   splits:
   - split: 1

@@ -574,67 +574,43 @@
 - raw: "Position/desc/brother2,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/brother3,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/brother4,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/sister1,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/girl5,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/girl6,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/girl7,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/desc/girl8,好像有谁在……？"
   splits:
   - split: 1
-    text: "好像有谁在"
+    text: "好像有谁在……？"
     translated: "It seems someone is......?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "MiddleMenu/Meet,唐门会议"
   splits:
   - split: 1
@@ -1025,11 +1001,8 @@
 - raw: "Position/Dialog/Door_7_5_2_001,我这就走了吗……？"
   splits:
   - split: 1
-    text: "我这就走了吗"
+    text: "我这就走了吗……？"
     translated: "Am I leaving now...?"
-  templates:
-  - split: 1
-    template: "{0}……？"
 - raw: "Position/Dialog/Mall_2_4_8_001,正心堂有掌门镇守，匪人再怎么狂也不至于去送死吧？\\n我去守正心堂，会不会太矫情了点？"
   splits:
   - split: 1
@@ -1047,17 +1020,8 @@
 - raw: "Position/Dialog/Center_2_4_8_001,练武场……需要有人守吗？我该躲哪儿？登柱后面？"
   splits:
   - split: 1
-    text: "练武场"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "需要有人守吗？我该躲哪儿？登柱后面？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "练武场……需要有人守吗？我该躲哪儿？登柱后面？"
+    translated: "Training ground... do we need someone to guard it? Where should I hide? Behind the pillar?"
 - raw: "Position/Dialog/Kitchen_2_4_8_001,四师兄要是人在，一定会守伙房。\\n匪人奇袭伙房是能干麻？糟蹋我们储粮？"
   splits:
   - split: 1
@@ -1089,17 +1053,8 @@
 - raw: "Position/Dialog/Room_2_4_8_002,我才刚被赶出来……又要进去讨骂？"
   splits:
   - split: 1
-    text: "我才刚被赶出来"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  - split: 1
-    subIndex: 1
-    text: "又要进去讨骂？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
-  templates:
-  - split: 1
-    template: "{0}……{1}"
+    text: "我才刚被赶出来……又要进去讨骂？"
+    translated: "I was just thrown out... do I have to go back in for another scolding?"
 - raw: "Position/Dialog/Forge_2_4_8_001,锻冶场中不少机关暗器，匪人会觊觎也不奇怪。"
   splits:
   - split: 1
@@ -1147,12 +1102,12 @@
     flaggedMistranslation: "Failed"
   - split: 1
     subIndex: 2
-    text: "不如提一盏灯笼就此下山去吧。"
+    text: "……不如提一盏灯笼就此下山去吧。"
     flaggedForRetranslation: true
     flaggedMistranslation: "Failed"
   templates:
   - split: 1
-    template: "{0}\\n{1}\\n……{2}"
+    template: "{0}\\n{1}\\n{2}"
 - raw: "Position/Dialog/M2010_02_001,累了，回房盥洗就睡吧。"
   splits:
   - split: 1
