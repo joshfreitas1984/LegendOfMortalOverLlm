@@ -5879,6 +5879,7 @@
   splits:
   - split: 1
     text: "虞小梅《焚心火印・飞天脚》"
+    translated: "Yu Xiaomei, Frenzied Heart Fire Seal • Sky‑Dancing Foot"
   - split: 1
     subIndex: 1
     text: "每回合发动2次猛攻，造成大幅伤害。"
@@ -6026,6 +6027,7 @@
   splits:
   - split: 1
     text: "温夫人《仙侣宫・哪咤令・龙游浅水》"
+    translated: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'"
   - split: 1
     subIndex: 1
     text: "挟带内力的琴声，每回合造成敌方气"
@@ -6046,6 +6048,7 @@
   splits:
   - split: 1
     text: "温夫人《越调・凭栏人・相忘远》"
+    translated: "While listening to Beyond the Barrier, Forgetful Distance in Mode Yuezhu, they remembered Lady Wen."
   - split: 1
     subIndex: 1
     text: "没有挟带内力的琴声，每回合我方气+4、敌方气"
@@ -6062,6 +6065,7 @@
   splits:
   - split: 1
     text: "虞小梅《一趾驭风・飞天脚》"
+    translated: "Yu Xiaomei One‑Toed Control of the Wind • Flying Heaven Foot"
   - split: 1
     subIndex: 1
     text: "每回合有造成小幅伤害，攻击时有50%机率造成失衡。我方失衡时放弃攻击，搀扶，打消失衡异常状态。"
@@ -6381,6 +6385,7 @@
   splits:
   - split: 1
     text: "夏侯兰《夺魄幽灵爪・铁伞功》"
+    translated: "Xiahou Lan Soul Stealer Phantom Claw • Iron Umbrella Technique"
   - split: 1
     subIndex: 1
     text: "敌方暗器必定被格档。每三回合发动一次超爆击伤害。"
@@ -6431,6 +6436,7 @@
   splits:
   - split: 1
     text: "唐默铃《天地无声势・暗杀剑》"
+    translated: "Tang Moling Heaven and Earth Silent Ambition • Assassination Sword"
   - split: 1
     subIndex: 1
     text: "下定决心要杀人的小师妹。低机率造成无法招架、回避的超爆击伤害。"
@@ -6447,6 +6453,7 @@
   splits:
   - split: 1
     text: "夏侯兰《雪山飞鸿爪・铁伞功》"
+    translated: "Xiahou Lan's Snow Mountain Soaring Crane Claws • Iron Parasol Techniques"
   - split: 1
     subIndex: 1
     text: "敌方暗器必定被格档。每三回合发动一次高爆击伤害，必定造成失衡。"
@@ -6748,6 +6755,7 @@
   splits:
   - split: 1
     text: "上官萤《苦恼拳・毁天灭地式》"
+    translated: "Shangguan Ying, Troubled Fist • Heaven‑Shattering Earth‑Breaking Style"
   - split: 1
     subIndex: 1
     text: "气疯了，苦恼拳超越极限中。每回合有40%机率造成超爆击伤害。"
@@ -8113,7 +8121,7 @@
   - split: 1
     subIndex: 1
     text: "我方回气+30、轻功+30%、防御"
-    translated: "Our side regenerates +30, Qiankong +30%, defense"
+    translated: "Our team regenerates +30, increases Lightness by +30%, and enhances defense."
   - split: 1
     subIndex: 2
     text: "敌方回气-30、轻功-30%、防御"
@@ -8346,10 +8354,12 @@
   splits:
   - split: 1
     text: "无相神功・参同秘契"
+    translated: "Wuxiang Divine Skill • Synergistic Secret Scripture"
 - raw: "CombatSkill/Desc/S104,无相神功・参同秘契：无异常状态时，额外气力+3。"
   splits:
   - split: 1
     text: "无相神功・参同秘契"
+    translated: "Wuxiang Divine Skill • Synergistic Secret Scripture"
   - split: 1
     subIndex: 1
     text: "无异常状态时，额外气力"
@@ -9818,12 +9828,15 @@
   - split: 1
     subIndex: 2
     text: "机关箧笥・捕鸟型态"
+    translated: "Mechanism Case • Bird‑Catching Mode"
   - split: 1
     subIndex: 3
     text: "机关箧笥・拌马型态"
+    translated: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
   - split: 1
     subIndex: 4
     text: "机关箧笥・迷烟型态"
+    translated: "Mechanism Coffer • Haze Form State"
   templates:
   - split: 1
     template: "{0}：{1}\\n{2}\\n{3}\\n{4}"
@@ -9831,10 +9844,12 @@
   splits:
   - split: 1
     text: "机关箧笥・捕鸟型态"
+    translated: "Mechanism Case • Bird‑Catching Mode"
 - raw: "CombatSkill/Desc/S116_1,机关箧笥・捕鸟型态：发射飞针造成多段小幅伤害。"
   splits:
   - split: 1
     text: "机关箧笥・捕鸟型态"
+    translated: "Mechanism Case • Bird‑Catching Mode"
   - split: 1
     subIndex: 1
     text: "发射飞针造成多段小幅伤害。"
@@ -9846,10 +9861,12 @@
   splits:
   - split: 1
     text: "机关箧笥・拌马型态"
+    translated: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
 - raw: "CombatSkill/Desc/S116_2,机关箧笥・拌马型态：发射拌马绳造成失衡。"
   splits:
   - split: 1
     text: "机关箧笥・拌马型态"
+    translated: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
   - split: 1
     subIndex: 1
     text: "发射拌马绳造成失衡。"
@@ -9861,10 +9878,12 @@
   splits:
   - split: 1
     text: "机关箧笥・迷烟型态"
+    translated: "Mechanism Coffer • Haze Form State"
 - raw: "CombatSkill/Desc/S116_3,机关箧笥・迷烟型态：散播迷烟造成盲目。"
   splits:
   - split: 1
     text: "机关箧笥・迷烟型态"
+    translated: "Mechanism Coffer • Haze Form State"
   - split: 1
     subIndex: 1
     text: "散播迷烟造成盲目。"
@@ -9889,12 +9908,15 @@
   - split: 1
     subIndex: 2
     text: "机关箧笥・狩猎型态"
+    translated: "Mechanism Satchel • Hunting Form State"
   - split: 1
     subIndex: 3
     text: "机关箧笥・斩马型态"
+    translated: "Mechanism Box • Saber Form"
   - split: 1
     subIndex: 4
     text: "机关箧笥・屠杀型态"
+    translated: "Mechanism Chest • Carnage Type"
   - split: 1
     subIndex: 5
     text: "境界二以上解锁绝招"
@@ -9910,10 +9932,12 @@
   splits:
   - split: 1
     text: "机关箧笥・狩猎型态"
+    translated: "Mechanism Satchel • Hunting Form State"
 - raw: "CombatSkill/Desc/S117_1,机关箧笥・狩猎型态：发射弩箭造成多段中幅伤害"
   splits:
   - split: 1
     text: "机关箧笥・狩猎型态"
+    translated: "Mechanism Satchel • Hunting Form State"
   - split: 1
     subIndex: 1
     text: "发射弩箭造成多段中幅伤害"
@@ -9925,10 +9949,12 @@
   splits:
   - split: 1
     text: "机关箧笥・斩马型态"
+    translated: "Mechanism Box • Saber Form"
 - raw: "CombatSkill/Desc/S117_2,机关箧笥・斩马型态：发射斩马飞刀造成中幅伤害，并追加失衡。"
   splits:
   - split: 1
     text: "机关箧笥・斩马型态"
+    translated: "Mechanism Box • Saber Form"
   - split: 1
     subIndex: 1
     text: "发射斩马飞刀造成中幅伤害，并追加失衡。"
@@ -9940,10 +9966,12 @@
   splits:
   - split: 1
     text: "机关箧笥・屠杀型态"
+    translated: "Mechanism Chest • Carnage Type"
 - raw: "CombatSkill/Desc/S117_3,机关箧笥・屠杀型态：散播毒烟造成盲目，并累积80血毒。"
   splits:
   - split: 1
     text: "机关箧笥・屠杀型态"
+    translated: "Mechanism Chest • Carnage Type"
   - split: 1
     subIndex: 1
     text: "散播毒烟造成盲目，并累积80血毒。"
@@ -10468,6 +10496,7 @@
   splits:
   - split: 1
     text: "叶云裳《越调・凭栏人・偕老誓》"
+    translated: "Ye Yunshang Even Tone Mode ‑ Beside the Rail ‑ Vow to Grow Old Together"
   - split: 1
     subIndex: 1
     text: "每回合我方气+3，血低于50%时，每回合恢复10%。"
