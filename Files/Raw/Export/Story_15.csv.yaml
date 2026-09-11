@@ -5031,19 +5031,7 @@
 - raw: "Story/D_3_1_4_3_2_077,混世魔王叶云裳，完・全・复・活！"
   splits:
   - split: 1
-    text: "混世魔王叶云裳，完"
-  - split: 1
-    subIndex: 1
-    text: "全"
-  - split: 1
-    subIndex: 2
-    text: "复"
-  - split: 1
-    subIndex: 3
-    text: "活！"
-  templates:
-  - split: 1
-    template: "{0}・{1}・{2}・{3}"
+    text: "混世魔王叶云裳，完・全・复・活！"
 - raw: "Story/N_3_1_4_3_2_002,昨日伤危就像梦一样，叶云裳神采奕奕康复了。"
   splits:
   - split: 1
@@ -9460,13 +9448,7 @@
 - raw: "Story/D_3_1_7_5_1_002,这种狗屁不通、让人失望的结果才是现实啊，大・侠！"
   splits:
   - split: 1
-    text: "这种狗屁不通、让人失望的结果才是现实啊，大"
-  - split: 1
-    subIndex: 1
-    text: "侠！"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "这种狗屁不通、让人失望的结果才是现实啊，大・侠！"
 - raw: "Story/D_3_1_7_5_1_003,是我们这边技高一筹！"
   splits:
   - split: 1

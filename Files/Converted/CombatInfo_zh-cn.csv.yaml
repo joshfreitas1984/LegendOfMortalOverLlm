@@ -2,18 +2,15 @@
   splits:
   - split: 1
     text: "嘴攻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Verbal Attack"
   - split: 1
     subIndex: 1
     text: "出口伤人的控制手段，可挫敌锐气，降低绝招伤害，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A method of verbal attack that can dampen an opponent's spirit and reduce the damage of their ultimate moves."
   - split: 1
     subIndex: 2
     text: "使人投鼠忌器不敢轻举妄动，有时会激怒对方。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This can make others hesitate to act, as if afraid of accidentally harming something they shouldn't, but it might also provoke them."
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -21,18 +18,15 @@
   splits:
   - split: 1
     text: "捅人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stab"
   - split: 1
     subIndex: 1
     text: "使用兵刃造成伤害，可强行压制嘴攻行动。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Using a weapon to deal damage can forcefully suppress verbal provocation."
   - split: 1
     subIndex: 2
     text: "根据性情，有时会因为把人捅出了血来，导致自己陷入恐慌。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sometimes, due to their temperament, they end up panicking after hurting someone badly enough to draw blood."
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -40,18 +34,15 @@
   splits:
   - split: 1
     text: "暗器"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hidden Weapon"
   - split: 1
     subIndex: 1
     text: "唐门拿手绝活，投掷暗器造成伤害，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Tang Clan's specialty is throwing Hidden Weapons to deal damage."
   - split: 1
     subIndex: 2
     text: "累积异常状态，可中断嘴攻、捅人行动。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Accumulated abnormal status, interruptible mouth attack, stabbing action."
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -59,18 +50,15 @@
   splits:
   - split: 1
     text: "绝招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ultimate"
   - split: 1
     subIndex: 1
     text: "消耗大量的气力，造成强大的伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Consume a great deal of energy to deal massive damage."
   - split: 1
     subIndex: 2
     text: "可中断捅人、暗器行动"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Interruptible stabbing, Hidden Weapon operation"
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n<color=#FF0000>{2}</color>"
@@ -78,18 +66,15 @@
   splits:
   - split: 1
     text: "备揍"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Guard"
   - split: 1
     subIndex: 1
     text: "做好挨揍的心理准备，减轻伤害，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Prepare mentally to take a beating and minimize the damage."
   - split: 1
     subIndex: 2
     text: "并有额外机率回避暗器或招架兵器。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Also has an additional chance to avoid Hidden Weapons or parry weapons."
   templates:
   - split: 1
     template: "{0}：\\n{1}\\n{2}"
@@ -122,13 +107,11 @@
   splits:
   - split: 1
     text: "做点什么的勇气，每回合回复"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The courage to do something, restores HP each turn"
   - split: 1
     subIndex: 1
     text: "点。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Point"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -255,18 +238,15 @@
   splits:
   - split: 1
     text: "毒性累积值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Toxicity accumulation value"
   - split: 1
     subIndex: 1
     text: "累积至50时造成「毒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Causes 「Poison」 when accumulated to 50"
   - split: 1
     subIndex: 2
     text: "1」异常状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "1 abnormal status"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -274,18 +254,15 @@
   splits:
   - split: 1
     text: "毒性累积值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Toxicity accumulation value"
   - split: 1
     subIndex: 1
     text: "累积至100时造成「毒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Deal Poison damage when accumulated to 100"
   - split: 1
     subIndex: 2
     text: "2」异常状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "2 abnormal status"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -293,18 +270,15 @@
   splits:
   - split: 1
     text: "毒性累积值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Toxicity accumulation value"
   - split: 1
     subIndex: 1
     text: "累积至150时造成「毒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Causes 「Poison」 when accumulated to 150"
   - split: 1
     subIndex: 2
     text: "3」异常状态，引发后清空累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Clear the accumulated value when the Abnormal Status 3 is triggered."
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -312,18 +286,15 @@
   splits:
   - split: 1
     text: "麻痹累积值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Nerve accumulation value"
   - split: 1
     subIndex: 1
     text: "累积至50时造成「麻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When accumulated to '50', it causes numbness"
   - split: 1
     subIndex: 2
     text: "1」异常状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "1 abnormal status"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -331,18 +302,15 @@
   splits:
   - split: 1
     text: "麻痹累积值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Nerve accumulation value"
   - split: 1
     subIndex: 1
     text: "累积至100时造成「麻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Deal Numb status effect when accumulated to 100."
   - split: 1
     subIndex: 2
     text: "2」异常状态。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "2 abnormal status"
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -350,18 +318,15 @@
   splits:
   - split: 1
     text: "麻痹累积值"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Nerve accumulation value"
   - split: 1
     subIndex: 1
     text: "累积至150时造成「麻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Deal Numb status at 150 cumulative hits"
   - split: 1
     subIndex: 2
     text: "3」异常状态，引发后清空累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Clear the accumulated value when the Abnormal Status 3 is triggered."
   templates:
   - split: 1
     template: "{0}：⟦0⟧\\n{1}Lv{2}"
@@ -419,13 +384,11 @@
   splits:
   - split: 1
     text: "第"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chapter 1"
   - split: 1
     subIndex: 1
     text: "回合"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Turn"
   templates:
   - split: 1
     template: "{0} ⟦0⟧ {1}"
@@ -516,9 +479,7 @@
   splits:
   - split: 1
     text: "夺魄幽灵爪"
-    translated: "Soul‑Stealer Phantom Claw"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Soul Stealer,奪魄,"
+    translated: "Soul Stealer Phantom Claw"
 - raw: "CombatAction/attack_006,雪山飞鸿爪"
   splits:
   - split: 1
@@ -588,9 +549,7 @@
   splits:
   - split: 1
     text: "风雷神脚"
-    translated: "Wind Thunder God Foot"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wind Thunder Divine Foot,風雷神腳,"
+    translated: "Wind Thunder Divine Foot"
 - raw: "CombatAction/ultimate_010,神雷"
   splits:
   - split: 1

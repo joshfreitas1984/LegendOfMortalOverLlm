@@ -267,28 +267,23 @@
   splits:
   - split: 1
     text: "影响攻击力"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Affects Attack Power"
   - split: 1
     subIndex: 1
     text: "中"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Middle"
   - split: 1
     subIndex: 2
     text: "、绝招威力"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: ", Ultimate power"
   - split: 1
     subIndex: 3
     text: "中"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Middle"
   - split: 1
     subIndex: 4
     text: "、战役回气速度。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: ", Recovery speed during battle"
   templates:
   - split: 1
     template: "{0}({1}){2}({3}){4}"
@@ -301,13 +296,11 @@
   splits:
   - split: 1
     text: "影响攻击力"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Affects Attack Power"
   - split: 1
     subIndex: 1
     text: "大"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Big"
   templates:
   - split: 1
     template: "{0}({1})。"
@@ -315,23 +308,19 @@
   splits:
   - split: 1
     text: "影响攻击力"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Affects Attack Power"
   - split: 1
     subIndex: 1
     text: "小"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Little one"
   - split: 1
     subIndex: 2
     text: "、影响防御"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: ", Affects defense"
   - split: 1
     subIndex: 3
     text: "大"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Big"
   templates:
   - split: 1
     template: "{0}({1}){2}({3})。"
@@ -374,13 +363,11 @@
   splits:
   - split: 1
     text: "锻造点数。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Forge points"
   - split: 1
     subIndex: 1
     text: "锻冶场使用"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Forge is in use"
   templates:
   - split: 1
     template: "{0}[{1}]"
@@ -388,13 +375,11 @@
   splits:
   - split: 1
     text: "炼丹点数。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alchemy point"
   - split: 1
     subIndex: 1
     text: "炼丹房使用"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alchemy lab in use"
   templates:
   - split: 1
     template: "{0}[{1}]"
@@ -422,13 +407,11 @@
   splits:
   - split: 1
     text: "武学点数。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Martial arts points"
   - split: 1
     subIndex: 1
     text: "修练秘籍使用"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Manual for cultivation techniques used"
   templates:
   - split: 1
     template: "{0}[{1}]"
@@ -436,13 +419,11 @@
   splits:
   - split: 1
     text: "攻击"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Attack"
   - split: 1
     subIndex: 1
     text: "基础杀伤力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Basic damage"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -450,13 +431,11 @@
   splits:
   - split: 1
     text: "防御"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Defense"
   - split: 1
     subIndex: 1
     text: "备揍减伤率、格档率。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Prepare to reduce damage taken and block rate."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -464,13 +443,11 @@
   splits:
   - split: 1
     text: "绝招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ultimate"
   - split: 1
     subIndex: 1
     text: "绝招的威力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The power of the ultimate move"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -478,13 +455,11 @@
   splits:
   - split: 1
     text: "爆发"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Burst"
   - split: 1
     subIndex: 1
     text: "影响攻击的骰子。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Affecting attack dice"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -492,13 +467,11 @@
   splits:
   - split: 1
     text: "暗器"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hidden Weapon"
   - split: 1
     subIndex: 1
     text: "暗器的威力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The power of the hidden weapon"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -506,13 +479,11 @@
   splits:
   - split: 1
     text: "爆发"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Burst"
   - split: 1
     subIndex: 1
     text: "影响暗器的骰子。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The dice that affect the Hidden Weapon"
   templates:
   - split: 1
     template: "{0}：{1}"

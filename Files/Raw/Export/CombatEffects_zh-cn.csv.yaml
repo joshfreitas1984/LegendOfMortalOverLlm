@@ -4851,19 +4851,16 @@
 - raw: "CombatSkill/Desc/C519,虞小梅《焚心火印・飞天脚》：每回合发动2次猛攻，造成大幅伤害。(5回合)"
   splits:
   - split: 1
-    text: "虞小梅《焚心火印"
+    text: "虞小梅《焚心火印・飞天脚》"
   - split: 1
     subIndex: 1
-    text: "飞天脚》"
-  - split: 1
-    subIndex: 2
     text: "每回合发动2次猛攻，造成大幅伤害。"
   - split: 1
-    subIndex: 3
+    subIndex: 2
     text: "5回合"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}({3})"
+    template: "{0}：{1}({2})"
 - raw: "CombatSkill/Name/C520,夏侯兰"
   splits:
   - split: 1
@@ -4975,22 +4972,16 @@
 - raw: "CombatSkill/Desc/C526,温夫人《仙侣宫・哪咤令・龙游浅水》：挟带内力的琴声，每回合造成敌方气-3，HP-8%，并有25%机率造成胆怯、愤怒随机异常。"
   splits:
   - split: 1
-    text: "温夫人《仙侣宫"
+    text: "温夫人《仙侣宫・哪咤令・龙游浅水》"
   - split: 1
     subIndex: 1
-    text: "哪咤令"
-  - split: 1
-    subIndex: 2
-    text: "龙游浅水》"
-  - split: 1
-    subIndex: 3
     text: "挟带内力的琴声，每回合造成敌方气"
   - split: 1
-    subIndex: 4
+    subIndex: 2
     text: "-8%，并有25%机率造成胆怯、愤怒随机异常。"
   templates:
   - split: 1
-    template: "{0}・{1}・{2}：{3}-3，HP{4}"
+    template: "{0}：{1}-3，HP{2}"
 - raw: "CombatSkill/Name/C527,温夫人"
   splits:
   - split: 1
@@ -4998,19 +4989,13 @@
 - raw: "CombatSkill/Desc/C527,温夫人《越调・凭栏人・相忘远》：没有挟带内力的琴声，每回合我方气+4、敌方气-4。"
   splits:
   - split: 1
-    text: "温夫人《越调"
+    text: "温夫人《越调・凭栏人・相忘远》"
   - split: 1
     subIndex: 1
-    text: "凭栏人"
-  - split: 1
-    subIndex: 2
-    text: "相忘远》"
-  - split: 1
-    subIndex: 3
     text: "没有挟带内力的琴声，每回合我方气+4、敌方气"
   templates:
   - split: 1
-    template: "{0}・{1}・{2}：{3}-4。"
+    template: "{0}：{1}-4。"
 - raw: "CombatSkill/Name/C528,虞小梅"
   splits:
   - split: 1
@@ -5018,16 +5003,13 @@
 - raw: "CombatSkill/Desc/C528,虞小梅《一趾驭风・飞天脚》：每回合有造成小幅伤害，攻击时有50%机率造成失衡。我方失衡时放弃攻击，搀扶，打消失衡异常状态。"
   splits:
   - split: 1
-    text: "虞小梅《一趾驭风"
+    text: "虞小梅《一趾驭风・飞天脚》"
   - split: 1
     subIndex: 1
-    text: "飞天脚》"
-  - split: 1
-    subIndex: 2
     text: "每回合有造成小幅伤害，攻击时有50%机率造成失衡。我方失衡时放弃攻击，搀扶，打消失衡异常状态。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C529,龙湘"
   splits:
   - split: 1
@@ -5281,16 +5263,13 @@
 - raw: "CombatSkill/Desc/C544,夏侯兰《夺魄幽灵爪・铁伞功》：敌方暗器必定被格档。每三回合发动一次超爆击伤害。"
   splits:
   - split: 1
-    text: "夏侯兰《夺魄幽灵爪"
+    text: "夏侯兰《夺魄幽灵爪・铁伞功》"
   - split: 1
     subIndex: 1
-    text: "铁伞功》"
-  - split: 1
-    subIndex: 2
     text: "敌方暗器必定被格档。每三回合发动一次超爆击伤害。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C545,南宫深"
   splits:
   - split: 1
@@ -5326,16 +5305,13 @@
 - raw: "CombatSkill/Desc/C547,唐默铃《天地无声势・暗杀剑》：下定决心要杀人的小师妹。低机率造成无法招架、回避的超爆击伤害。"
   splits:
   - split: 1
-    text: "唐默铃《天地无声势"
+    text: "唐默铃《天地无声势・暗杀剑》"
   - split: 1
     subIndex: 1
-    text: "暗杀剑》"
-  - split: 1
-    subIndex: 2
     text: "下定决心要杀人的小师妹。低机率造成无法招架、回避的超爆击伤害。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C548,夏侯兰"
   splits:
   - split: 1
@@ -5343,16 +5319,13 @@
 - raw: "CombatSkill/Desc/C548,夏侯兰《雪山飞鸿爪・铁伞功》：敌方暗器必定被格档。每三回合发动一次高爆击伤害，必定造成失衡。"
   splits:
   - split: 1
-    text: "夏侯兰《雪山飞鸿爪"
+    text: "夏侯兰《雪山飞鸿爪・铁伞功》"
   - split: 1
     subIndex: 1
-    text: "铁伞功》"
-  - split: 1
-    subIndex: 2
     text: "敌方暗器必定被格档。每三回合发动一次高爆击伤害，必定造成失衡。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C549,福韫"
   splits:
   - split: 1
@@ -5590,16 +5563,13 @@
 - raw: "CombatSkill/Desc/C906,上官萤《苦恼拳・毁天灭地式》：气疯了，苦恼拳超越极限中。每回合有40%机率造成超爆击伤害。"
   splits:
   - split: 1
-    text: "上官萤《苦恼拳"
+    text: "上官萤《苦恼拳・毁天灭地式》"
   - split: 1
     subIndex: 1
-    text: "毁天灭地式》"
-  - split: 1
-    subIndex: 2
     text: "气疯了，苦恼拳超越极限中。每回合有40%机率造成超爆击伤害。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C907,龙湘"
   splits:
   - split: 1
@@ -6910,26 +6880,17 @@
 - raw: "CombatSkill/Name/S104,无相神功・参同秘契"
   splits:
   - split: 1
-    text: "无相神功"
-  - split: 1
-    subIndex: 1
-    text: "参同秘契"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "无相神功・参同秘契"
 - raw: "CombatSkill/Desc/S104,无相神功・参同秘契：无异常状态时，额外气力+3。"
   splits:
   - split: 1
-    text: "无相神功"
+    text: "无相神功・参同秘契"
   - split: 1
     subIndex: 1
-    text: "参同秘契"
-  - split: 1
-    subIndex: 2
     text: "无异常状态时，额外气力"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}+3。"
+    template: "{0}：{1}+3。"
 - raw: "CombatSkill/Name/S105,北斗七星阵"
   splits:
   - split: 1
@@ -8119,94 +8080,58 @@
     text: "每回合随机变成下列型态"
   - split: 1
     subIndex: 2
-    text: "机关箧笥"
+    text: "机关箧笥・捕鸟型态"
   - split: 1
     subIndex: 3
-    text: "捕鸟型态"
+    text: "机关箧笥・拌马型态"
   - split: 1
     subIndex: 4
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 5
-    text: "拌马型态"
-  - split: 1
-    subIndex: 6
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 7
-    text: "迷烟型态"
+    text: "机关箧笥・迷烟型态"
   templates:
   - split: 1
-    template: "{0}：{1}\\n{2}・{3}\\n{4}・{5}\\n{6}・{7}"
+    template: "{0}：{1}\\n{2}\\n{3}\\n{4}"
 - raw: "CombatSkill/Name/S116_1,机关箧笥・捕鸟型态"
   splits:
   - split: 1
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 1
-    text: "捕鸟型态"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "机关箧笥・捕鸟型态"
 - raw: "CombatSkill/Desc/S116_1,机关箧笥・捕鸟型态：发射飞针造成多段小幅伤害。"
   splits:
   - split: 1
-    text: "机关箧笥"
+    text: "机关箧笥・捕鸟型态"
   - split: 1
     subIndex: 1
-    text: "捕鸟型态"
-  - split: 1
-    subIndex: 2
     text: "发射飞针造成多段小幅伤害。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S116_2,机关箧笥・拌马型态"
   splits:
   - split: 1
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 1
-    text: "拌马型态"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "机关箧笥・拌马型态"
 - raw: "CombatSkill/Desc/S116_2,机关箧笥・拌马型态：发射拌马绳造成失衡。"
   splits:
   - split: 1
-    text: "机关箧笥"
+    text: "机关箧笥・拌马型态"
   - split: 1
     subIndex: 1
-    text: "拌马型态"
-  - split: 1
-    subIndex: 2
     text: "发射拌马绳造成失衡。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S116_3,机关箧笥・迷烟型态"
   splits:
   - split: 1
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 1
-    text: "迷烟型态"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "机关箧笥・迷烟型态"
 - raw: "CombatSkill/Desc/S116_3,机关箧笥・迷烟型态：散播迷烟造成盲目。"
   splits:
   - split: 1
-    text: "机关箧笥"
+    text: "机关箧笥・迷烟型态"
   - split: 1
     subIndex: 1
-    text: "迷烟型态"
-  - split: 1
-    subIndex: 2
     text: "散播迷烟造成盲目。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S117,机关箧笥"
   splits:
   - split: 1
@@ -8220,100 +8145,64 @@
     text: "每回合随机变成下列型态"
   - split: 1
     subIndex: 2
-    text: "机关箧笥"
+    text: "机关箧笥・狩猎型态"
   - split: 1
     subIndex: 3
-    text: "狩猎型态"
+    text: "机关箧笥・斩马型态"
   - split: 1
     subIndex: 4
-    text: "机关箧笥"
+    text: "机关箧笥・屠杀型态"
   - split: 1
     subIndex: 5
-    text: "斩马型态"
-  - split: 1
-    subIndex: 6
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 7
-    text: "屠杀型态"
-  - split: 1
-    subIndex: 8
     text: "境界二以上解锁绝招"
   - split: 1
-    subIndex: 9
+    subIndex: 6
     text: "机关箧笥．圣衣型态"
   templates:
   - split: 1
-    template: "{0}：{1}\\n{2}・{3}\\n{4}・{5}\\n{6}・{7}\\n{8}：{9}"
+    template: "{0}：{1}\\n{2}\\n{3}\\n{4}\\n{5}：{6}"
 - raw: "CombatSkill/Name/S117_1,机关箧笥・狩猎型态"
   splits:
   - split: 1
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 1
-    text: "狩猎型态"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "机关箧笥・狩猎型态"
 - raw: "CombatSkill/Desc/S117_1,机关箧笥・狩猎型态：发射弩箭造成多段中幅伤害"
   splits:
   - split: 1
-    text: "机关箧笥"
+    text: "机关箧笥・狩猎型态"
   - split: 1
     subIndex: 1
-    text: "狩猎型态"
-  - split: 1
-    subIndex: 2
     text: "发射弩箭造成多段中幅伤害"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S117_2,机关箧笥・斩马型态"
   splits:
   - split: 1
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 1
-    text: "斩马型态"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "机关箧笥・斩马型态"
 - raw: "CombatSkill/Desc/S117_2,机关箧笥・斩马型态：发射斩马飞刀造成中幅伤害，并追加失衡。"
   splits:
   - split: 1
-    text: "机关箧笥"
+    text: "机关箧笥・斩马型态"
   - split: 1
     subIndex: 1
-    text: "斩马型态"
-  - split: 1
-    subIndex: 2
     text: "发射斩马飞刀造成中幅伤害，并追加失衡。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S117_3,机关箧笥・屠杀型态"
   splits:
   - split: 1
-    text: "机关箧笥"
-  - split: 1
-    subIndex: 1
-    text: "屠杀型态"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "机关箧笥・屠杀型态"
 - raw: "CombatSkill/Desc/S117_3,机关箧笥・屠杀型态：散播毒烟造成盲目，并累积80血毒。"
   splits:
   - split: 1
-    text: "机关箧笥"
+    text: "机关箧笥・屠杀型态"
   - split: 1
     subIndex: 1
-    text: "屠杀型态"
-  - split: 1
-    subIndex: 2
     text: "散播毒烟造成盲目，并累积80血毒。"
   templates:
   - split: 1
-    template: "{0}・{1}：{2}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S117_4,机关箧笥．圣衣型态"
   splits:
   - split: 1
@@ -8737,19 +8626,13 @@
 - raw: "CombatSkill/Desc/C557,叶云裳《越调・凭栏人・偕老誓》：每回合我方气+3，血低于50%时，每回合恢复10%。"
   splits:
   - split: 1
-    text: "叶云裳《越调"
+    text: "叶云裳《越调・凭栏人・偕老誓》"
   - split: 1
     subIndex: 1
-    text: "凭栏人"
-  - split: 1
-    subIndex: 2
-    text: "偕老誓》"
-  - split: 1
-    subIndex: 3
     text: "每回合我方气+3，血低于50%时，每回合恢复10%。"
   templates:
   - split: 1
-    template: "{0}・{1}・{2}：{3}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/S124,栈道不稳"
   splits:
   - split: 1

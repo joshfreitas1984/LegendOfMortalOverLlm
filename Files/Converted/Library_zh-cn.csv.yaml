@@ -27,13 +27,11 @@
   splits:
   - split: 1
     text: "生命有不可承受之轻，心伤到绝地，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Life has an unbearable lightness, and the heart is wounded to the point of despair."
   - split: 1
     subIndex: 1
     text: "了无生趣，死有何惧呢？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Life is meaningless anyway, so what do I have to fear about death?"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -66,13 +64,11 @@
   splits:
   - split: 1
     text: "你为了捍卫小师妹，挺身而出作了一回英雄，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You stepped up to be a hero to defend your Little Junior Sister."
   - split: 1
     subIndex: 1
     text: "纵使不为人知，亦死而无憾。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even if it goes unsung, I will die without regret."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -105,13 +101,11 @@
   splits:
   - split: 1
     text: "你搞失踪，而且大家都找不到你。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You went missing, and nobody could find you."
   - split: 1
     subIndex: 1
     text: "无所谓，根本没人在意你的感受。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who cares anyway? No one really cares about your feelings."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -124,13 +118,11 @@
   splits:
   - split: 1
     text: "小师妹心地善良，等闲不会取人性命的，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Little Junior Sister is kind‑hearted and rarely takes lives."
   - split: 1
     subIndex: 1
     text: "你一定做了什么天理不容的事情。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You must have done something that goes against the laws of heaven."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -173,18 +165,15 @@
   splits:
   - split: 1
     text: "比武过招，受伤在所难免，对方本来没想取你性命，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sparring inevitably leads to injuries. The other party didn't originally intend to take your life."
   - split: 1
     subIndex: 1
     text: "但是你揍起来手感太好，不小心就多打了两百多拳，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But your punches feel so good to throw that I accidentally hit you more than two hundred times."
   - split: 1
     subIndex: 2
     text: "怎知你中途就没气了，不关我的事哇。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How do I know you didn't run out of steam halfway through? It's not my problem."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -197,13 +186,11 @@
   splits:
   - split: 1
     text: "一山不容二虎，飞天门只能有一个神仙下凡，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There's no room for two tigers on the same mountain; Feitian Gate can only have one immortal descended to this world."
   - split: 1
     subIndex: 1
     text: "你来世向人吹嘘可得谨慎说法。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Be careful how you boast about this in your next life."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -226,13 +213,11 @@
   splits:
   - split: 1
     text: "你死的不明不白，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You died without anyone knowing what really happened."
   - split: 1
     subIndex: 1
     text: "直到瞑目都不知对方杀意何来。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Until their eyes closed for the last time, they didn't know where the killer's intent came from."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -245,13 +230,11 @@
   splits:
   - split: 1
     text: "你一时不慎，被人推倒在沸腾的热水锅中，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They stumbled and were pushed into a pot of boiling hot water."
   - split: 1
     subIndex: 1
     text: "还因被点穴爬不起来，被活活烫死。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unable to get up because they were immobilized by acupuncture points, they were literally burned to death."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -324,13 +307,11 @@
   splits:
   - split: 1
     text: "像那种别脚的谎言，轻易出口可是要付出代价的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Telling clumsy lies like that comes at a price."
   - split: 1
     subIndex: 1
     text: "性命诚可贵，但你的比较便宜。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Life is precious, but yours is rather cheap."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -353,13 +334,11 @@
   splits:
   - split: 1
     text: "你迫使别人割舍了一段深挚感情，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You forced someone to give up a deep and sincere affection."
   - split: 1
     subIndex: 1
     text: "难道还期待人家对你手下留情？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Don't you expect me to go easy on you?"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -382,13 +361,11 @@
   splits:
   - split: 1
     text: "你被投入炉中，活活炼死。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You were thrown into the furnace and roasted to death."
   - split: 1
     subIndex: 1
     text: "制成的丹药投入江中喂鱼。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Throw the pills made into the river to feed the fish."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -411,23 +388,19 @@
   splits:
   - split: 1
     text: "你与人当街斗殴致死，属于斗杀，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fighting someone in the street to the point of death is considered a homicide brawl."
   - split: 1
     subIndex: 1
     text: "情节较轻，又因江湖纷争，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The offense is relatively minor, and considering the disputes within Jianghu,"
   - split: 1
     subIndex: 2
     text: "官府睁一只眼闭一只眼，所以犯人没受惩罚，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The authorities turned a blind eye, so the criminals went unpunished."
   - split: 1
     subIndex: 3
     text: "打死了你这无名小卒，晚饭一样吃得很香。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even after killing a nobody like you, I still enjoyed my dinner just fine."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}"
@@ -440,13 +413,11 @@
   splits:
   - split: 1
     text: "在高手眼里，随手一草一木都能当作克敌制胜的兵器，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the eyes of a skilled fighter, every blade of grass and tree can be used as a weapon to defeat an opponent."
   - split: 1
     subIndex: 1
     text: "何况是鸡腿呢？你死去以后，被后人嘲笑了八百多年。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What about chicken legs? After you died, people mocked you for over eight hundred years."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -469,13 +440,11 @@
   splits:
   - split: 1
     text: "你武功实在太差，大师兄还以为你应付得来，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Your martial arts skills are really too poor; Big Senior Brother still thought you could handle it."
   - split: 1
     subIndex: 1
     text: "结果想救都来不及。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the end, they couldn't even manage to save them in time."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -488,13 +457,11 @@
   splits:
   - split: 1
     text: "左边归她，右边归她。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The left side is hers, the right side is hers."
   - split: 1
     subIndex: 1
     text: "大家都有，感情才不会散。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Only when everyone is there will our feelings stay intact."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -567,13 +534,11 @@
   splits:
   - split: 1
     text: "你没有家。你很早以前就死了，残喘至今的，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You don't have a home. You died long ago; what you've been doing since then is just barely scraping by."
   - split: 1
     subIndex: 1
     text: "不过是一具没有灵魂的躯壳罢了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But they are just empty shells without souls."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -616,13 +581,11 @@
   splits:
   - split: 1
     text: "你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You failed to overcome your fear, letting the illusory shadow spread without limit."
   - split: 1
     subIndex: 1
     text: "令你无法喘息，最终被掐停了呼吸。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Leaving you gasping for air until your breath is finally cut off."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -655,13 +618,11 @@
   splits:
   - split: 1
     text: "这位姑娘气急败坏，将你一阵狂殴，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The girl flew into a rage and beat you senselessly."
   - split: 1
     subIndex: 1
     text: "岂料打着打着你就不会动了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who would have thought that after fighting for a while, you wouldn't move anymore."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -674,13 +635,11 @@
   splits:
   - split: 1
     text: "庸俗的坏人要给下马威，经常随手杀几个喽啰路人，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Vulgar villains often establish their authority by casually killing a few of their underlings or bystanders."
   - split: 1
     subIndex: 1
     text: "以此彰显自己心狠手辣。于是你被杀了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This demonstrates their ruthlessness. So, you were killed."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -693,13 +652,11 @@
   splits:
   - split: 1
     text: "你该知道点苍唐门素有旧仇，既然刀剑相向，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You should know that the Tang Clan of Diancang has an old grudge. Since they are now facing each other with blades and swords,"
   - split: 1
     subIndex: 1
     text: "拿命为人新添一笔剑下功业，应属无怨无尤。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To add a new chapter of swordsmanship achievements with one's life should be without complaint or regret."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -722,13 +679,11 @@
   splits:
   - split: 1
     text: "你就像那些不经打的家具一样脆弱不堪，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You're as fragile as those cheap pieces of furniture that can't withstand a hit."
   - split: 1
     subIndex: 1
     text: "碰你两下就四分五裂。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Just touching you twice would cause you to fall apart."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -741,18 +696,15 @@
   splits:
   - split: 1
     text: "大夫嘱咐你静养可不是说笑的，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Doctor's orders to rest aren't kidding around"
   - split: 1
     subIndex: 1
     text: "你非要自创一套说词在那边乱动，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You insist on making up your own spiel and moving around over there."
   - split: 1
     subIndex: 2
     text: "这下可好，你永远不必动了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Now you'll never have to move again"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -765,13 +717,11 @@
   splits:
   - split: 1
     text: "二师兄研发的血毒令你死于阳光直晒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Second Senior Brother's blood poison causes you to die from direct exposure to sunlight."
   - split: 1
     subIndex: 1
     text: "后世称其此状为紫质症。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Later generations referred to this condition as the Purple Essence Syndrome."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -784,13 +734,11 @@
   splits:
   - split: 1
     text: "鱼若有灵必很怒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If fish could feel, they'd be furious"
   - split: 1
     subIndex: 1
     text: "「不要什么垃圾都往海里倒！」"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Don't dump garbage into the sea!"
   templates:
   - split: 1
     template: "{0}：\\n{1}"
@@ -813,13 +761,11 @@
   splits:
   - split: 1
     text: "身为反派应该有自觉，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As an antagonist, one should be self‑aware"
   - split: 1
     subIndex: 1
     text: "自己撞在正派人士手里，无异于送头。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Running into righteous people is no different from offering one's head to them."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -832,18 +778,15 @@
   splits:
   - split: 1
     text: "你失去的只是一条命，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What you've lost is merely your life,"
   - split: 1
     subIndex: 1
     text: "别的英雄少年失去的可是他的脚趾甲啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Other hero prodigies might lose just their toenails!"
   - split: 1
     subIndex: 2
     text: "就算他脚趾甲跟你无关，你也不能这么自私博取关注啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even if his toenails have nothing to do with you, you can't be so selfish to seek attention!"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -856,18 +799,15 @@
   splits:
   - split: 1
     text: "比武過招本就有風險，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Engaging in a martial arts duel inherently carries risks."
   - split: 1
     subIndex: 1
     text: "人一激動起來，就很難拿捏分寸，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When people get excited, it's hard for them to keep their emotions in check."
   - split: 1
     subIndex: 2
     text: "不小心多打了兩百多拳，請多擔待一下。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I ended up throwing a couple hundred extra punches, so please be a little more understanding."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -880,18 +820,15 @@
   splits:
   - split: 1
     text: "你很努力，吃足苦头活到今天。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You've worked hard and endured much suffering to survive until today."
   - split: 1
     subIndex: 1
     text: "但假货根本不在意你感受，他弄死了你，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But the fake one doesn't care about your feelings; they'll kill you without a second thought."
   - split: 1
     subIndex: 2
     text: "代替你享受你应得的福报。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enjoy the blessings that should be yours instead of you."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -904,18 +841,15 @@
   splits:
   - split: 1
     text: "唐门弟子服毒练功稀松平常，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Practicing skills by consuming poison is commonplace for Tang Clan disciples."
   - split: 1
     subIndex: 1
     text: "普通毒物尝着至多就味儿呛点，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Common poisons at most taste sharp and unpleasant."
   - split: 1
     subIndex: 2
     text: "然而这锅不是普通毒物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "However, this poison is no ordinary toxin"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -938,13 +872,11 @@
   splits:
   - split: 1
     text: "杀了你之后，江洋大盗的悬赏金攀至新高峰，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After killing them, the bounty on the heads of the river thieves reached a new high."
   - split: 1
     subIndex: 1
     text: "然而这并不是什么值得夸耀的事，又不是嫌命太长。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This isn't something to boast about; it's not like I'm tired of living."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -967,13 +899,11 @@
   splits:
   - split: 1
     text: "何方妖孽，纳命来！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wicked demon, surrender your life!"
   - split: 1
     subIndex: 1
     text: "什么，是人？妈的，这下糟了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What, is it a person? Shit, this is bad."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1026,13 +956,11 @@
   splits:
   - split: 1
     text: "夏侯兰冷眼看你犯蠢自杀，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Xiahou Lan coldly watched you commit a foolish act of suicide."
   - split: 1
     subIndex: 1
     text: "她可不想承认自己教过你这么个愚蠢又丢人的弟子。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "She certainly doesn't want to admit that she ever taught someone as foolish and shameful as you."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1065,13 +993,11 @@
   splits:
   - split: 1
     text: "夏侯兰抱着你的尸身，低声浅唱摇篮曲。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Xiahou Lan cradles your lifeless body and softly sings a lullaby."
   - split: 1
     subIndex: 1
     text: "将你放入墓穴，自己也跳了进去，与雪山先烈合葬。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They buried you in a tomb and jumped in after you, to be buried alongside the martyrs of the snow mountain."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1104,13 +1030,11 @@
   splits:
   - split: 1
     text: "没啥深仇大恨，不过你长得碍眼，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "We don't have any deep grudge, but your appearance irritates me."
   - split: 1
     subIndex: 1
     text: "所以人家不想让你活了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "So they don't want you to live"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1123,13 +1047,11 @@
   splits:
   - split: 1
     text: "你丧生在上官隼刀下，随你而来的师弟妹们，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You met your end at Shangguan Jun's blade. The junior disciples who came with you,"
   - split: 1
     subIndex: 1
     text: "一个也没能活着生离风雨山。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not a single one made it out of Fengyu Mountain alive."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1142,13 +1064,11 @@
   splits:
   - split: 1
     text: "软弱的正义发不出任何声响，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Weak justice makes no sound"
   - split: 1
     subIndex: 1
     text: "你的控诉被喧嚣掩没，深埋尘埃之下。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Your accusation was drowned out by the clamor and buried beneath the dust."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1161,13 +1081,11 @@
   splits:
   - split: 1
     text: "你死在南宫浅手里，南宫浅死在唐门手里，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You died at Nangong Qian's hands, and Nangong Qian died at the Tang Clan's hands."
   - split: 1
     subIndex: 1
     text: "唐门毁在南宫世家手里，冤冤相报何时了？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Tang Clan was destroyed by the Nangong family; when will this cycle of vengeance end?"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1190,18 +1108,15 @@
   splits:
   - split: 1
     text: "因为你不光明的行径，故称黑暗。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Because of your shadowy deeds, you are called dark."
   - split: 1
     subIndex: 1
     text: "因为你宛如施展法术般玩弄时间与人心，故称大法师。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Because you manipulate time and hearts as if casting a spell, you are called a Great Magician."
   - split: 1
     subIndex: 2
     text: "你负了几人，就被分成几半。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You are split into as many parts as the number of people you have wronged."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1214,13 +1129,11 @@
   splits:
   - split: 1
     text: "你快步追上了小梅，小梅又好气又好笑，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You quickly caught up to Xiao Mei, who was both amused and exasperated."
   - split: 1
     subIndex: 1
     text: "希望你下次别再那么冲动了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I hope you'll be less impulsive next time."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1243,13 +1156,11 @@
   splits:
   - split: 1
     text: "身为唐门弟子，却被毒蛇咬死，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As a disciple of the Tang Clan, they were bitten and killed by a poisonous snake."
   - split: 1
     subIndex: 1
     text: "非但无人同情，反而令人发噱。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not only does it fail to elicit sympathy, but it's actually quite amusing."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1262,23 +1173,19 @@
   splits:
   - split: 1
     text: "你眼看对方人多势众，打不过，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Seeing that the other side had the numerical advantage, you knew you couldn't win."
   - split: 1
     subIndex: 1
     text: "抓了几个肉包塞嘴里便跑，有道是天理昭昭"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They stuffed a few steamed buns in their mouth and ran, as the saying goes, justice will prevail."
   - split: 1
     subIndex: 2
     text: "，报应不爽，你给包子活活噎死了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: ", What goes around comes around; you ended up choking to death on a steamed bun."
   - split: 1
     subIndex: 3
     text: "路过的狗从你嘴里挖出包子吃掉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A passing dog dug a bun out of your mouth and ate it."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}"
@@ -1291,13 +1198,11 @@
   splits:
   - split: 1
     text: "真正的废物，连抢个劫都办不到。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A true waste of space; they can't even pull off a simple robbery."
   - split: 1
     subIndex: 1
     text: "对，说的就是你。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "That's right, I'm talking about you"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1310,13 +1215,11 @@
   splits:
   - split: 1
     text: "蛇见了你，心里害怕，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the snake sees you, they are afraid."
   - split: 1
     subIndex: 1
     text: "为了自保才咬你的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I only bit you to protect myself"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1329,13 +1232,11 @@
   splits:
   - split: 1
     text: "就算他南宫深不要的人，也轮不到你染指！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even if Nangong Shen doesn't want someone, it's not for you to lay claim to them!"
   - split: 1
     subIndex: 1
     text: "去死吧！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Die!"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1348,13 +1249,11 @@
   splits:
   - split: 1
     text: "你又没啥好希罕的，老丈人对你压根不需要容忍，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You don't have anything worth being tolerant of; your father‑in‑law doesn't need to put up with you at all."
   - split: 1
     subIndex: 1
     text: "剁碎了喂狗，再给女儿找个更好更俊的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chop it up and feed it to the dog, then find a better and more handsome one for my daughter."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1387,18 +1286,15 @@
   splits:
   - split: 1
     text: "杀了你，江湖少侠的经验值增加了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Killing you increased Young Hero's experience in Jianghu."
   - split: 1
     subIndex: 1
     text: "将来他还会杀掉很多像你这样的喽啰，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They will also kill many more lackeys like you in the future."
   - split: 1
     subIndex: 2
     text: "并且获得金钱与道具。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And gain money and items"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1411,13 +1307,11 @@
   splits:
   - split: 1
     text: "大半夜你不吱声就先露脸，是想吓死谁？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the dead of night, you show your face without a sound; are you trying to scare the living daylights out of someone?"
   - split: 1
     subIndex: 1
     text: "你活该啦！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You deserve it!"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1430,13 +1324,11 @@
   splits:
   - split: 1
     text: "叶家兄妹卸下了肩上重担，但盼能够投胎到好人家。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The siblings from the Ye family have put down their heavy burdens and hope to be reborn into good families."
   - split: 1
     subIndex: 1
     text: "而你个畜生自然要去到畜生道。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And you, as a beast, naturally belong in the Beast Path."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1449,13 +1341,11 @@
   splits:
   - split: 1
     text: "史书由胜者书写，赢家说的才算话。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The victors write history, and only their words matter."
   - split: 1
     subIndex: 1
     text: "你会输，只因为正义必胜！受死吧邪魔歪道！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You will lose, simply because justice always prevails! Fall before the power of righteousness, you wicked fiends!"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1528,13 +1418,11 @@
   splits:
   - split: 1
     text: "你生前没屁用，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You were useless in your past life"
   - split: 1
     subIndex: 1
     text: "好歹尸身腐朽之后，化作春泥尚能护花。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At the very least, even after my body rots away, I will still protect the flowers as spring mud."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1573,18 +1461,15 @@
   splits:
   - split: 1
     text: "你唯恐被二师兄追杀，因此逃离唐门，远避回疆避祸，被苗人壮女逼婚，婚后多子多孙。可你始终郁郁寡欢，未满四旬"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fearing that Second Senior Brother would hunt you down, you fled the Tang Clan and fled to the Xinjiang region to escape trouble. There, you were forced into marriage by a Miao warrior maiden and went on to have many children and grandchildren. Yet you remained gloomy and unhappy, not quite reaching forty years old."
   - split: 1
     subIndex: 1
     text: "四十岁"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Forty years old"
   - split: 1
     subIndex: 2
     text: "便无疾而终。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And it ended peacefully"
   templates:
   - split: 1
     template: "{0}({1}){2}"
@@ -1597,18 +1482,15 @@
   splits:
   - split: 1
     text: "对于世界而言，你来得太早了。你的歌声"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You came too early for the world. Your song"
   - split: 1
     subIndex: 1
     text: "咆哮"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Roar loudly"
   - split: 1
     subIndex: 2
     text: "唤醒了人们沉寂在心底的黑暗情感，使死亡金属音乐提前九百年降临在人间。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Awakened the dark emotions buried deep in people's hearts, bringing death metal music nine centuries early to humanity."
   templates:
   - split: 1
     template: "{0}({1}){2}"
@@ -1751,13 +1633,11 @@
   splits:
   - split: 1
     text: "《抱朴子》曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Book of Master Embracing Simplicity says"
   - split: 1
     subIndex: 1
     text: "「周穆王南征，一军尽化，君子为猿为鹤，小人为虫为沙。」死后尽归黄土。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "During King Mu of Zhou's southern campaign, his entire army was transformed: the nobles became apes and cranes, while the commoners turned into insects and grains of sand. After death, all return to the earth."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1800,18 +1680,15 @@
   splits:
   - split: 1
     text: "道可道，非常道。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Way that can be expressed is not the eternal Way."
   - split: 1
     subIndex: 1
     text: "你所悟越深，能言越少，终至万籁俱寂，天地无声。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The deeper your realization, the fewer words you speak, until finally all is silent, and the world is without sound."
   - split: 1
     subIndex: 2
     text: "你没有留下足迹，不施不欠，就像自始自终不曾存在。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You left no trace, neither owed nor owing, as if you had never existed from the start."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1824,18 +1701,15 @@
   splits:
   - split: 1
     text: "你封剑退隐，一生不再与人动武，活到天命之年。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You sheathed your sword and retired, never again engaging in combat with others, living until your appointed time."
   - split: 1
     subIndex: 1
     text: "偶尔有人对你友善，但有更多的人无端厌恶你、仇视你、嘲讽你。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sometimes someone is kind to you, but there are many more who dislike you for no reason, hate you, and mock you."
   - split: 1
     subIndex: 2
     text: "恶意无处不在，离了江湖亦然，人间就是这样。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Malice is everywhere, and even outside the Jianghu, it remains the same; that's just how the world is."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1848,13 +1722,11 @@
   splits:
   - split: 1
     text: "你的怒火将天边的云霞都烧得通红。报了恩，也报了仇。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Their anger turned the clouds on the horizon blood‑red. They avenged both a debt of gratitude and a grievance."
   - split: 1
     subIndex: 1
     text: "恩怨皆成灰，席卷上天，随风远去。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "All grudges and affections turn to ash, swept up to the heavens, carried away by the wind."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1867,18 +1739,15 @@
   splits:
   - split: 1
     text: "你学会官场交际，对上逢迎拍马，对下蛮横无情。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You've mastered political flattery, ingratiating yourself with superiors and bullying those below you with callous indifference."
   - split: 1
     subIndex: 1
     text: "就是面目丑恶，只要权势够大，一样没人敢说你闲话。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even if someone is hideously ugly, as long as they have enough power, no one will dare to gossip about them."
   - split: 1
     subIndex: 2
     text: "只是那些噤若寒蝉的人们、那些终生不来看望你的江湖旧友，心底有没有瞧不起你，那就难说了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's uncertain whether those who have kept silent like cicadas in winter, and your old Jianghu friends who never came to visit you, look down on you in their hearts."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1901,13 +1770,11 @@
   splits:
   - split: 1
     text: "你退隐之后，江湖故事再也不闻不问。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Since your retirement, you no longer hear anything about the stories of Jianghu."
   - split: 1
     subIndex: 1
     text: "波澜都在头先廿载，余生不受盛名所牵。你来过，你走了，也许没人在意，可是你自己晓得。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The ripples of my past twenty years have all subsided. For the rest of my life, I won't be bound by my fame. You came, you went, perhaps no one cared, but you know yourself."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1920,13 +1787,11 @@
   splits:
   - split: 1
     text: "你老年被称为山中老人，是天下暗杀者的老祖宗。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They were known in old age as Old Man of the Mountain, the ancestor of all assassins in the world."
   - split: 1
     subIndex: 1
     text: "千面人魔的传说还在延续，恐惧笼罩这片大地。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The legend of the Thousand Faced Demon continues, and fear casts a shadow over this land."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1949,13 +1814,11 @@
   splits:
   - split: 1
     text: "江湖人利欲熏心，无人猜得到你不怀好意。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "People in the Jianghu are blinded by greed; no one suspects your ill intentions."
   - split: 1
     subIndex: 1
     text: "你用这把刀给唐门报了仇，未斩一人，刀下已伏尸千万，血流成河。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You avenged the Tang Clan with this knife, yet you spared no one, leaving thousands dead at its blade, with blood flowing in rivers."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1968,13 +1831,11 @@
   splits:
   - split: 1
     text: "深谋远虑是假，只有其貌不扬是真的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Their far‑sighted plans are a facade; the only truth is that they are plain‑looking."
   - split: 1
     subIndex: 1
     text: "拜你所赐，唐门的冤屈得以平反，虽然大家各散东西，却都扬眉吐气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Thanks to you, the Tang Clan's wrongful accusations have been cleared, even though everyone has gone their separate ways, they all feel vindicated."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2027,13 +1888,11 @@
   splits:
   - split: 1
     text: "你活着，却已死了很久。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You are alive, yet you have been dead for a long time."
   - split: 1
     subIndex: 1
     text: "夏侯兰后悔那日不该绑着你，让你多受几十年煎熬。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Xiahou Lan regrets that day when they shouldn't have tied you up, making you suffer for decades."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2056,13 +1915,11 @@
   splits:
   - split: 1
     text: "人死如灯灭，你们燃尽了生命之火，还以颜色。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When a person dies, it's like a lamp going out. You have burned out your health, and now it's your turn to taste the same."
   - split: 1
     subIndex: 1
     text: "几十年后，世人依然记得唐门绝响。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Decades later, people still remember the final performance of the Tang Clan."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2075,13 +1932,11 @@
   splits:
   - split: 1
     text: "世上再无唐门，可是薪火不曾断绝。有你和小师妹，以及你们未来的家人。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Though the Tang Clan no longer exists, its legacy continues. With you and Little Junior Sister, and the future families you will build."
   - split: 1
     subIndex: 1
     text: "唐门最初是一家人，最后仍是一家人。唐家香火，还将继续传承。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Tang Clan started as a family, and in the end, they remain a family. The legacy of the Tang family will continue to be passed down."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2104,18 +1959,15 @@
   splits:
   - split: 1
     text: "托上官萤故，赵家成为富甲一方的大户人家。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Thanks to Shangguan Ying, the Zhao family became a wealthy household in the area."
   - split: 1
     subIndex: 1
     text: "上官萤渐渐把生意交给你，自己执掌中馈。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Shangguan Ying gradually handed over the business to you and took charge of managing the household."
   - split: 1
     subIndex: 2
     text: "身为贤妻良母，她从来不打小孩，倘若小孩犯了错，就打你。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As a virtuous wife and mother, she never hits children; if a child makes a mistake, she hits you instead."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2138,13 +1990,11 @@
   splits:
   - split: 1
     text: "你和小竹造出了精妙绝伦的机关人，藏于池水之下，因为机关构造过于复杂，不得不造得大些，分为人、狮、鹰，可以合体。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You and Xiao Zhu created an ingenious mechanical automaton, hiding it beneath the pond water. Due to its intricate design, it had to be larger, divided into human, lion, and eagle forms, which can combine."
   - split: 1
     subIndex: 1
     text: "如此成就，足以青史留名，但你们唯恐机关人遭到恶用，最终还是决定毁去。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Such achievements would have been enough to leave a name in history books, but fearing that Mechanisms might be put to evil use, you ultimately decided to destroy them."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2157,18 +2007,15 @@
   splits:
   - split: 1
     text: "你夫妻有风骨而不骄衿。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You both have integrity and composure without being arrogant."
   - split: 1
     subIndex: 1
     text: "文士雅士、贩夫走卒都无任欢迎。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Scholars and common traders alike are welcome"
   - split: 1
     subIndex: 2
     text: "谈笑有鸿儒，往来亦不拒白丁，士农工商皆可为友，平等尊敬认真生活的每个人。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chatting with refined scholars, also welcoming commoners without disdain, making friends with people from all walks of life‑scholars, farmers, artisans, and merchants‑respecting and valuing everyone who lives with dignity."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2181,18 +2028,15 @@
   splits:
   - split: 1
     text: "有了孩子以后，夏侯兰冰冷的心终于化了，而你也失宠了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After Xiahou Lan had a child, their cold heart finally melted, but you fell out of favor."
   - split: 1
     subIndex: 1
     text: "她专心相夫教子，经常庆幸孩子像她不像你，也不许你打骂小孩，极端宠腻。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "She focuses on caring for her husband and raising her children, often feeling fortunate that her kids take after her and not you. She doesn't allow you to hit or scold them, indulging them completely."
   - split: 1
     subIndex: 2
     text: "为了孩子能有良好的教育，某天出门活捉了魏菊回家担任夫子。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To ensure their child could receive a good education, one day they went out and brought Wei Ju home to serve as a tutor."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2205,13 +2049,11 @@
   splits:
   - split: 1
     text: "龙渊悄悄来看过你们，一度气得眼冒金星，想想自己也没啥出息，索性就由着你们。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Long Yuan secretly came to see you all once and was so furious that his eyes flashed with golden stars. Thinking about it, he figured he wasn't much better either, so he decided to let you all have your way."
   - split: 1
     subIndex: 1
     text: "反正轰轰烈烈的活、平平安安的过，同样是一生。你的岳丈对你要求不多，不用你管天下苍生，只要保护自己家人，只做她的英雄足矣。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Living life grandly or living it peacefully are both just one life. Your father‑in‑law doesn't expect much from you; you don't need to worry about the welfare of all people. You just need to protect your family and be her hero."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2234,9 +2076,7 @@
   splits:
   - split: 1
     text: "你们有时甚至不必准备剧本，随口说话就能引人发笑，你长得越奇怪反而越受欢迎，这才知道原来相声是你的天职。在这领域，你比大师兄还受欢迎，拥有他嫉妒不来的才能。"
-    translated: "Sometimes you don't even need to prepare a script; just speaking off the cuff can make people laugh. The stranger you look, the more popular you become, which makes it clear that cross‑talk is your calling. In this field, you are even more popular than Senior Brother, possessing talents that they can't help but envy."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You don't even need a script sometimes; you can make people laugh off the cuff. The weirder you look, the more popular you become. It's only then that you realize that crosstalk is your calling. In this field, you're more popular than Big Senior Brother, with a talent that even he can't help but envy."
 - raw: "Library/Title/20046,君所愿兮江湖行"
   splits:
   - split: 1
@@ -2256,18 +2096,15 @@
   splits:
   - split: 1
     text: "耕阳读书斋将你的事迹编撰成书，发行于市。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gengyang Reading Pavilion has compiled your deeds into a book and released it in the market."
   - split: 1
     subIndex: 1
     text: "唐门活侠的大名一朝传遍中原，无人不知、无人不晓。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The great name of the Tang Clan's living martial hero spread throughout Central China, known by all and spoken of by all."
   - split: 1
     subIndex: 2
     text: "你的名字，从今往后便是传说，受万人崇敬。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Your name will henceforth be legend, revered by thousands."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2290,13 +2127,11 @@
   splits:
   - split: 1
     text: "你成为峨嵋弟子，享受和旁人一样的待遇与义务。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You become an Emei disciple and enjoy the same treatment and obligations as everyone else."
   - split: 1
     subIndex: 1
     text: "以武林一员的身份参与了几件武林大事，无功无过，老了退隐。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As a member of Wulin, they participated in several major events within the martial arts community, neither gaining fame nor falling into disgrace. With age, they retired."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -2354,18 +2189,15 @@
   splits:
   - split: 1
     text: "开启二周目要素"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock second playthrough elements"
   - split: 1
     subIndex: 1
     text: "上旬"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Early Month"
   - split: 1
     subIndex: 2
     text: "命运"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fate"
   templates:
   - split: 1
     template: "{0}\\n{1}+1\\n{2}+2"
@@ -2378,9 +2210,7 @@
   splits:
   - split: 1
     text: "你从此刻脱胎换骨，像你从前望着大师兄，师弟妹们也信赖你。"
-    translated: "From this moment on, you will be reborn, just as you once looked up to Senior Brother; your junior brothers and sisters will also trust you."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "From this moment on, you will be reborn, just as you once looked up to Big Senior Brother. Your junior brothers and sisters will also trust you."
 - raw: "Library/Title/30002,烦人修仙"
   splits:
   - split: 1
@@ -2600,18 +2430,15 @@
   splits:
   - split: 1
     text: "你和小师妹结为夫妻，外出旅游。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You married your Little Junior Sister and went on a trip together."
   - split: 1
     subIndex: 1
     text: "都说唐门千金冷若冰霜，不苟言笑，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They all say that the Tang Clan's heiress is as cold as ice, seldom smiling."
   - split: 1
     subIndex: 2
     text: "可是游人见她在你身畔，总是笑口常开。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But whenever the visitors see them beside you, they always have a smile on their face."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2619,23 +2446,19 @@
   splits:
   - split: 1
     text: "你和龙湘结为侠侣，行走江湖，任侠四方。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You and Long Xiang became a pair of Jianghu warriors, traveling together and spreading chivalry far and wide."
   - split: 1
     subIndex: 1
     text: "夫妻俩经常切磋，有时你胜她，有时她胜你。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The husband and wife often practice and compete with each other; sometimes they win, sometimes they lose."
   - split: 1
     subIndex: 2
     text: "输的人负责张罗晚饭，餐餐有鸡腿，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The loser has to prepare dinner and make sure there are chicken legs in every meal."
   - split: 1
     subIndex: 3
     text: "无论输赢，都如胶似漆。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Whether they win or lose, they remain as close as glue to lacquer."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}"
@@ -2643,28 +2466,23 @@
   splits:
   - split: 1
     text: "你和夏侯兰回到大雪山，重建雪山派。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You and Xiahou Lan returned to the Great Snow Mountain to rebuild the Snow Mountain Sect."
   - split: 1
     subIndex: 1
     text: "不久夏侯兰诞下一子，忽然变成慈母，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not long after Xiahou Lan gave birth to a son, they suddenly became a loving mother."
   - split: 1
     subIndex: 2
     text: "往昔暴戾之气荡然无存。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Their former ruthless demeanor is gone without a trace."
   - split: 1
     subIndex: 3
     text: "对你也是千依百顺。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'll always follow your lead"
   - split: 1
     subIndex: 4
     text: "于是来年又生了一个女儿，子女都像娘亲。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "So the following year, they had another daughter, who, like her siblings, took after their mother."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
@@ -2672,28 +2490,23 @@
   splits:
   - split: 1
     text: "云裳与你执手游江南，乘舟听雨眠。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wear cloud‑like robes and wander hand in hand through the Jiangnan countryside; sail boats and sleep while listening to the rain."
   - split: 1
     subIndex: 1
     text: "有你纵着宠着，她有恃无恐，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "With you indulging and pampering her, she acts without fear or restraint."
   - split: 1
     subIndex: 2
     text: "劣迹斑斑，到老不曾消停，此生完满无憾。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "With a life full of misdeeds until the very end, they have no regrets and feel complete."
   - split: 1
     subIndex: 3
     text: "在这礼教森严的时代，没有父母之命，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In this era of strict social etiquette, without parental permission,"
   - split: 1
     subIndex: 4
     text: "不凭媒妁之言，所以厮守，纯粹投缘。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They are together not by arrangement through matchmakers, but because they hit it off."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"

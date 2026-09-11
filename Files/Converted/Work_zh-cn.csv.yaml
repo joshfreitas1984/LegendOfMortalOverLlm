@@ -2,18 +2,15 @@
   splits:
   - split: 1
     text: "焚香"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Burning incense"
   - split: 1
     subIndex: 1
     text: "烹茶"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Brewing tea"
   - split: 1
     subIndex: 2
     text: "掌灯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Light the lamps"
   templates:
   - split: 1
     template: "{0}·{1}‧{2}"
@@ -36,13 +33,11 @@
   splits:
   - split: 1
     text: "挑柴"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Carrying firewood"
   - split: 1
     subIndex: 1
     text: "挑水"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fetching water"
   templates:
   - split: 1
     template: "{0}/{1}"
@@ -70,18 +65,15 @@
   splits:
   - split: 1
     text: "在正心堂担任值日生，只需要做一些简单的风雅工作。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As the duty student at Zhengxin Hall, they only need to do some simple and elegant tasks."
   - split: 1
     subIndex: 1
     text: "非但不会造成心理负担，还可以修身养性。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not only will it not cause psychological stress, but it can also help cultivate one's character and nurture their spirit."
   - split: 1
     subIndex: 2
     text: "不过老是挑这种轻松的活，会惹人眼红的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If you keep picking these easy tasks, it will make others envious."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -89,18 +81,15 @@
   splits:
   - split: 1
     text: "由于练习用的暗器装有墨水的缘故，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Because the practice hidden weapons were filled with ink,"
   - split: 1
     subIndex: 1
     text: "所以无论清扫得多干净，每日早操完之后铁定会变很脏乱。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "So no matter how clean they swept, the place would always get messy again after morning exercises every day."
   - split: 1
     subIndex: 2
     text: "总得有人把环境整理好的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Someone's got to tidy up the place"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -118,18 +107,15 @@
   splits:
   - split: 1
     text: "为唐门上下打足明日用的柴薪与日常用水。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Prepare firewood and water for the Tang Clan's use tomorrow and for their daily needs."
   - split: 1
     subIndex: 1
     text: "没有人想做这苦差事，因为很累。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "No one wanted to do this grueling task because it was so tiring."
   - split: 1
     subIndex: 2
     text: "此外栈道陡峭，为了不摔死必须步步为营，跑多几趟说不定轻功会变好，呵。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Furthermore, the trail is steep, and to avoid falling to my death, I must proceed with caution. Running up and down a few more times might improve my qinggong, heh."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -137,13 +123,11 @@
   splits:
   - split: 1
     text: "我今天不想工作。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I don't want to work today"
   - split: 1
     subIndex: 1
     text: "我压力很大！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'm under a lot of pressure!"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -151,18 +135,15 @@
   splits:
   - split: 1
     text: "为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, hoping to catch them by surprise."
   - split: 1
     subIndex: 1
     text: "等到入了夜，小师妹就会在窗边折纸鹤。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "By nightfall, Little Junior Sister would be folding paper cranes by the window."
   - split: 1
     subIndex: 2
     text: "我没打算做坏事，我只是想听她的呼吸声！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I didn't plan on doing anything bad; I just wanted to hear their breathing!"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -170,13 +151,11 @@
   splits:
   - split: 1
     text: "下山去采买生活必需品。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Go down the mountain to buy essential supplies."
   - split: 1
     subIndex: 1
     text: "可以透透气是不错，可是往往一去就多日不能回来，见不到小师妹……。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's nice to get some fresh air, but I often end up away for many days and can't come back, unable to see Little Junior Sister..."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -184,18 +163,15 @@
   splits:
   - split: 1
     text: "当三师兄的助手，协助处理门中大小杂务。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Working as Third Senior Brother's assistant, helping to handle all sorts of tasks within the sect."
   - split: 1
     subIndex: 1
     text: "兼任讲经堂藏书管理员，专司出借纪录。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Serving as a part‑time librarian at the Lecture Hall, they are in charge of lending records."
   - split: 1
     subIndex: 2
     text: "闲暇时也可以自己翻翻书，挺好的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's pretty good to read some books in your free time."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -238,13 +214,11 @@
   splits:
   - split: 1
     text: "门外选项"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Options outside the door"
   - split: 1
     subIndex: 1
     text: "长假"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Long vacation"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -267,13 +241,11 @@
   splits:
   - split: 1
     text: "团练除了可以强身健体、敦亲睦邻之外，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gathering for training not only strengthens the body and mind but also promotes harmony and friendship among neighbors,"
   - split: 1
     subIndex: 1
     text: "最重要的是可以见到小师妹！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The most important thing is to see Little Junior Sister!"
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -291,13 +263,11 @@
   splits:
   - split: 1
     text: "朕今天什么也不想做。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I don't want to do anything today"
   - split: 1
     subIndex: 1
     text: "难得的假日就该东床高卧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A rare holiday should be spent sleeping in."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -315,18 +285,15 @@
   splits:
   - split: 1
     text: "为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, hoping to catch them by surprise."
   - split: 1
     subIndex: 1
     text: "等到入了夜，小师妹就会在窗边折纸鹤。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "By nightfall, Little Junior Sister would be folding paper cranes by the window."
   - split: 1
     subIndex: 2
     text: "我没打算做坏事，我只是想听她的呼吸声！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I didn't plan on doing anything bad; I just wanted to hear their breathing!"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"

@@ -2,13 +2,11 @@
   splits:
   - split: 1
     text: "捅人伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stabbing someone causing injury plus {0:N0}"
   - split: 1
     subIndex: 1
     text: "骰子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dice"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧  {1}+⟦1:N0⟧"
@@ -40,13 +38,11 @@
   splits:
   - split: 1
     text: "暗器伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hidden weapon damage increased by {0:N0}"
   - split: 1
     subIndex: 1
     text: "暗器骰子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hidden Weapon dice"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧  {1}+⟦1:N0⟧"
@@ -110,13 +106,11 @@
   splits:
   - split: 1
     text: "近战伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Close combat damage"
   - split: 1
     subIndex: 1
     text: "爆击率"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Critical hit rate"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧  {1}⟦1:P0⟧"
@@ -124,13 +118,11 @@
   splits:
   - split: 1
     text: "平射伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Straight‑line damage"
   - split: 1
     subIndex: 1
     text: "爆击率"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Critical hit rate"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧  {1}⟦1:P0⟧"
@@ -138,13 +130,11 @@
   splits:
   - split: 1
     text: "抛射伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Explosive damage"
   - split: 1
     subIndex: 1
     text: "爆击率"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Critical hit rate"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧  {1}⟦1:P0⟧"
@@ -192,13 +182,11 @@
   splits:
   - split: 1
     text: "触发"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Triggered"
   - split: 1
     subIndex: 1
     text: "种异常状态"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "An abnormal condition"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧{1}"
@@ -206,13 +194,11 @@
   splits:
   - split: 1
     text: "异常状态"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Abnormal state"
   - split: 1
     subIndex: 1
     text: "中毒等级"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Poison level"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"
@@ -220,13 +206,11 @@
   splits:
   - split: 1
     text: "异常状态"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Abnormal state"
   - split: 1
     subIndex: 1
     text: "麻痹等级"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Numbness level"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"
@@ -234,13 +218,11 @@
   splits:
   - split: 1
     text: "异常状态"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Abnormal state"
   - split: 1
     subIndex: 1
     text: "抗毒等级"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Poison resistance level"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"
@@ -248,13 +230,11 @@
   splits:
   - split: 1
     text: "异常状态"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Abnormal state"
   - split: 1
     subIndex: 1
     text: "抗麻等级"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Morphine Resistance Level"
   templates:
   - split: 1
     template: "{0}：{1}+⟦0:N0⟧"

@@ -17,13 +17,11 @@
   splits:
   - split: 1
     text: "小女子有一事不解，想要请问赵公子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I have a question that I'm unsure about and would like to ask Young Lord Zhao."
   - split: 1
     subIndex: 1
     text: "我方才使一招『晚风梳云』的时候，哪儿不对吗？怎么你好似要进攻，却又浑身一震，自己跌倒了？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When I just used the move 'Evening Breeze Through Clouds,' did something go wrong? Why did you seem like you were going to attack, but then your whole body shook and you fell over?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -61,13 +59,11 @@
   splits:
   - split: 1
     text: "小女子有一事不解，想要请问赵公子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I have a question that I'm unsure about and would like to ask Young Lord Zhao."
   - split: 1
     subIndex: 1
     text: "我方才使一招『晚风梳云』的时候，哪儿不对吗？怎么你好似要进攻，却又浑身一震，自己跌倒了？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When I just used the move 'Evening Breeze Through Clouds,' did something go wrong? Why did you seem like you were going to attack, but then your whole body shook and you fell over?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -340,9 +336,7 @@
   splits:
   - split: 1
     text: "师姐，你失踪以后，本门又出了不少事。大师兄已经过世了。"
-    translated: "Senior Sister, since you went missing, many incidents have occurred in our sect. The senior brother has passed away."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Senior Sister, after you went missing, our sect has had many more incidents. Big Senior Brother has passed away."
 - raw: "Story/D_6_4_3_4_018,我知道，虽然遗憾，但是这就是江湖啊。没有一个人是不会死的，谁没了也不奇怪。"
   splits:
   - split: 1
@@ -572,9 +566,7 @@
   splits:
   - split: 1
     text: "从旁看才知，原来师姐武功真不简单，不愧是二代千面人魔。身法不快，却飘逸如仙，与大师兄不相伯仲。娟索矫似灵蛇，圆转如意，乍看柔弱，却着实不易招架。"
-    translated: "From the sidelines, one can see that Senior Sister's martial arts are truly remarkable; she is indeed worthy of being the second‑generation Thousand Faced Demon. Her agility is not fast, yet it is ethereal like an immortal, on par with Elder Brother. Her movements are as graceful as a spirit snake, fluid and adaptable; at first glance, she may seem delicate, but she is truly difficult to contend with."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Only from the side can one see that Senior Sister's martial arts skills are truly impressive; no wonder she's the second‑generation Thousand Faced Demon. Though their agility isn't fast, it's as graceful as a celestial being, on par with Big Senior Brother. Her slender whip is as supple as a snake, moving with ease and grace, seeming delicate at first glance but actually hard to counter."
 - raw: "Story/T_6_4_3_4_004,小梅这一轮抢攻，要是还不能得手，就要任人鱼肉了。我得留心，小梅真气一失控，就要上前运功助她调匀两极，才不至伤身。"
   splits:
   - split: 1
@@ -709,9 +701,7 @@
   splits:
   - split: 1
     text: "她说得对，别怪我没提醒你喔～妾身论身法与大师兄大概不相上下，毒药对我也不大起作用。兼得唐门的暗器手法，与锦香宫以柔克刚的招数，可不是容易打发的。"
-    translated: "She's right, don't blame me for not warning you~ My agility is roughly on par with the master brother, and poison doesn't affect me much. Combined with the Tang Clan's hidden weapon techniques and the Jinxiang Palace's flexible, soft techniques, I'm not someone to be easily dismissed."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "She's right; don't blame me for not warning you~ My Agility is about on par with Big Senior Brother's, and Poison doesn't really affect me. Combined with Tang Clan's Hidden Weapon techniques and Jinxiang Palace's soft countermeasures, I'm not easy to deal with."
 - raw: "Story/D_6_4_3_4_083,此外，方才说要杀你的话，也有打算付诸行动喔。"
   splits:
   - split: 1
@@ -926,13 +916,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "心上人不是小梅"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "My beloved is not Little May"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1092,9 +1080,7 @@
   splits:
   - split: 1
     text: "要知你爱玩爱闹，也见长于轻功，颇有几分大师兄的影子，重点还是女子，保不定你会被当成大师兄替代品。"
-    translated: "Knowing that you love to play and prance around, and are quite skilled in qinggong, you bear a resemblance to the senior brother. The key point is that you're a woman; it's possible you might be seen as a substitute for the senior brother."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "I know you love to play around, but you're also skilled in qinggong and have a bit of Big Senior Brother's personality. Most importantly, since you're a girl, there's no telling you might be mistaken for a replacement for Big Senior Brother."
 - raw: "Story/D_6_4_3_4_2_053,你是说二师兄有龙阳之癖？！"
   splits:
   - split: 1
@@ -1232,13 +1218,11 @@
   splits:
   - split: 1
     text: "休息"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Rest"
   - split: 1
     subIndex: 1
     text: "这床榻与被子又香又软"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The bed and the quilt were both fragrant and soft."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1261,13 +1245,11 @@
   splits:
   - split: 1
     text: "修练"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cultivation"
   - split: 1
     subIndex: 1
     text: "武英殿"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wuying Pavilion"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1847,13 +1829,11 @@
   splits:
   - split: 1
     text: "只见纸条上写着"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Note read:"
   - split: 1
     subIndex: 1
     text: "『使君一何愚！使君自有妇，赵活自有夫。』"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lord, how foolish you are! You have your own wife, and Zhao Huo has her own husband."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -2915,13 +2895,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［修养］为［暴躁］以下且［性情］为［勇敢］以上"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cultivation is below irritable and temperament is above brave"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -3707,33 +3685,27 @@
   splits:
   - split: 1
     text: "我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I──"
   - split: 1
     subIndex: 1
     text: "没"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "No"
   - split: 1
     subIndex: 2
     text: "有"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yes"
   - split: 1
     subIndex: 3
     text: "要"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Need"
   - split: 1
     subIndex: 4
     text: "他"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They"
   - split: 1
     subIndex: 5
     text: "死。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Die"
   templates:
   - split: 1
     template: "{0} {1} {2} {3} {4} {5}"
@@ -3777,13 +3749,11 @@
   splits:
   - split: 1
     text: "地狱道赵逵、天道车轩辕、饿鬼道刘颚，还有最后的人间道"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hell's Path Zhao Kui, Heavenly Path Che Xuanxuan, Hungry Ghost Path Liu E, and finally the Human Path"
   - split: 1
     subIndex: 1
     text: "亦即是师父你。这就是泥教剩余四道覆灭的顺序。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "That's you, Master. This is the order in which the remaining four sects of the Mud Cult were obliterated."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -4737,9 +4707,7 @@
   splits:
   - split: 1
     text: "当时掌门健在，大师兄仍在世，二师兄未叛逃。本门就算人少，没钱，可是高手都在，出什么乱子，都有人扛着。"
-    translated: "At that time, the sect leader was still alive, the eldest senior brother was still alive, and the second senior brother had not defected. Even though our sect had few people and no money, all the experts were present, so if any trouble arose, there would always be someone to take responsibility."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "At the time, the Sect Leader was still alive, Big Senior Brother was still around, and Second Senior Brother had not defected. Even if our sect was short on people and money, all the experts were still there, so whatever trouble came our way, someone would step up to handle it."
 - raw: "Story/D_6_5_2_Break_01_010,现如今就剩我们了，你们这些新来的师弟妹，居然只能靠我们、靠赵师兄，你说我们能不紧张吗？"
   splits:
   - split: 1
@@ -4814,9 +4782,7 @@
   splits:
   - split: 1
     text: "大师兄还在的时候，不是曾经拉我们蹴鞠吗？当时除了踢球，还做了啥？你们之中比较资深的，应该都知道我在说什么。"
-    translated: "When the eldest brother was still around, didn't we used to play cuju together? Besides kicking the ball, what else did we do? The more experienced among you should all know what I'm talking about."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother used to invite us to play cuju, didn't he? Besides kicking the ball, what else did we do? Those of you who have been around longer should know what I'm talking about."
 - raw: "Story/D_6_5_2_Break_01_024,……抛掷小师妹？"
   splits:
   - split: 1
@@ -5208,13 +5174,11 @@
   splits:
   - split: 1
     text: "咳嗯，我替我哥哥转译一下"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cough, uh, let me translate for my brother."
   - split: 1
     subIndex: 1
     text: "「我迟早会向那厮讨回公道，现在比起他，你们比较重要。」"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'll sooner or later get my revenge on that guy, but right now you guys are more important than he is."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -5683,13 +5647,11 @@
   splits:
   - split: 1
     text: "这、这也太不对劲了，你不是应该会骂一句"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This, this is way too off, shouldn't you be cursing right about now?"
   - split: 1
     subIndex: 1
     text: "『你跟我很熟吗！』然后一拳打过来才对吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "'We're that close, huh?' Is that followed by a punch?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -6012,13 +5974,11 @@
   splits:
   - split: 1
     text: "我听说过！那好像是峨嵋派的前辈"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I've heard about it! That seems to be from an Elder of the Emei Sect."
   - split: 1
     subIndex: 1
     text: "『风中奇猿』袁乘风。世人都道他早已辞世，没想到竟然还在人世，还被你有缘遇见了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "'Wind Monkey Oddity' Yuan Chengfeng. Everyone thought he had long since passed away, yet here you are, meeting him by chance while he's still alive."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -6222,23 +6182,19 @@
   splits:
   - split: 1
     text: "六戒一曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Six Precepts, First:"
   - split: 1
     subIndex: 1
     text: "君子以明庶政，勿为久利之事。二曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A gentleman governs by clarifying public affairs and does not engage in pursuits for long‑term gain. Second point:"
   - split: 1
     subIndex: 2
     text: "君子以见善则迁，有过则改，勿以无心之咎误志。三曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A gentleman should improve upon seeing goodness and correct their mistakes when they make them; do not let unintentional errors mislead your resolve. Thirdly,"
   - split: 1
     subIndex: 3
     text: "君子以裒多益寡，称物平施，勿言人短夸己长。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A gentleman reduces the excess and supplements what is lacking, evaluates things fairly, and avoids speaking ill of others or boasting about their own virtues."
   templates:
   - split: 1
     template: "{0}：{1}：{2}：{3}"
@@ -6246,23 +6202,19 @@
   splits:
   - split: 1
     text: "四曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fourthly"
   - split: 1
     subIndex: 1
     text: "君子以厚德载物，勿以利大而独。五曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A gentleman carries things with virtue, not by selfishly seeking great profit. Five says."
   - split: 1
     subIndex: 2
     text: "亢龙有悔，盈不可久，勿恃才而骄。六曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Excess leads to decline, do not be arrogant because of your abilities. Sixthly,"
   - split: 1
     subIndex: 3
     text: "天行健，君子以自强不息，命数冥冥在天，勿妄自菲薄。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heaven's energy is ever‑renewing; gentlemen should strive for self‑improvement without end. Though one's destiny is predetermined in the heavens, do not belittle yourself."
   templates:
   - split: 1
     template: "{0}：{1}：{2}：{3}"
@@ -6543,9 +6495,7 @@
   splits:
   - split: 1
     text: "我们大师兄之死，跟你飞石帮脱离不了干系。还敢大摇大摆过来啊！"
-    translated: "The death of our master brother is surely tied to your Flying Stone Gang. Dare you come swaggering in like this!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Our Big Senior Brother's death is tied to your Flying Stone Gang. How dare you come here so confidently!"
 - raw: "Story/D_6_5_2_Break_01_283,有种打我啊，当着天下英雄的面打我啊！"
   splits:
   - split: 1
@@ -6827,13 +6777,11 @@
   splits:
   - split: 1
     text: "好过我们一群人挤"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Better than all of us crowded together"
   - split: 1
     subIndex: 1
     text: "等等。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wait a moment"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -7224,7 +7172,7 @@
   splits:
   - split: 1
     text: "那回江陵事变，朝野军民一心，击退魔教悍匪，有目共睹。溥天之下，莫非王土；率土之滨，莫非王臣；尔等江湖侠士，岂不也是我大宋栋梁？为的不都是国家百姓！"
-    translated: "During the incident in Jiangling, the imperial court and military civilians stood united to repel the fierce bandits of the Demon Sect‑everyone could see that. Under heaven, nothing is beyond the king's domain; by the king's side, no one is not a subject; you gentlemen of the Jianghu, are you not also the pillars of my Great Song? All for the sake of the country and its people!"
+    translated: "In the incident at Jiangling, the court and the people united with the military to drive back the Demon Sect's bandits, a fact witnessed by all. From the heavens to the earth, all lands belong to the king; from the rivers to the seas, all subjects serve the king. You heroes of Jianghu, are you not also pillars of the great Song dynasty? Aren't you all fighting for the country and its people?"
 - raw: "Story/D_6_5_3_025,这……。"
   splits:
   - split: 1
@@ -7389,13 +7337,11 @@
   splits:
   - split: 1
     text: "我倒不是怕，只是这话有点儿对不住远道而来的全真道友。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'm not afraid, but I feel a bit guilty towards my Quanzhen friends who have come from far away."
   - split: 1
     subIndex: 1
     text: "话说全真派总坛，不是开设在终南山吗？终南山，那是哪儿呀？那是金国地界不是吗！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Isn't the main headquarters of the Quanzhen sect located on Mount Zhongnan? Where is Mount Zhongnan, anyway? Isn't that in Jin territory?"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -7601,18 +7547,15 @@
   splits:
   - split: 1
     text: "觉慧师兄！你……你这是什么话？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Senior Brother Juehui! You... what are you saying?"
   - split: 1
     subIndex: 1
     text: "苍生有难，能者多劳，佛说我不入地狱，谁入地狱。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the people suffer, those capable must work hard; as the Buddha said, if I do not go to hell, who will?"
   - split: 1
     subIndex: 2
     text: "何况这是再振我嵩山威名，修证佛法的大好时机呀！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Besides, this is a great opportunity to revive the glory of Songshan and to study and verify Buddhist teachings!"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧⟦size=24⟧{2}⟦/size⟧"
@@ -7900,13 +7843,11 @@
   splits:
   - split: 1
     text: "不是不争，但还不是时候。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's not about not striving, but the time isn't right yet."
   - split: 1
     subIndex: 1
     text: "掌派人年轻，要等各派前辈先推却一轮，再提名讳，才合乎礼数。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The young leader should wait for the elders from each faction to decline first before nominating someone, which is proper etiquette."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -8263,13 +8204,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［性情］为［勇敢］以上"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "[Character Trait] is [Brave] or above"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -8540,8 +8479,7 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "嘴力"
@@ -8910,13 +8848,11 @@
   splits:
   - split: 1
     text: "虽说我上官某人多年不曾动武，难免生疏，但我兵行险着，祭出绝招竟只让他吐了一口血吗？我"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Though I, Shangguan Mou, haven't fought in years and may have become rusty, when I played it risky and pulled out my ultimate move, did it really only make them spit up a mouthful of blood?"
   - split: 1
     subIndex: 1
     text: "败了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Defeat"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -9462,18 +9398,15 @@
   splits:
   - split: 1
     text: "我没想岔，我全都知道。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I didn't stray from the point; I know everything."
   - split: 1
     subIndex: 1
     text: "小妹软弱，款款忠言难以入耳，得靠小萤你当头棒喝才行。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "My little sister is weak, and gentle advice falls on deaf ears; we need you, Xiao Ying, to give her a good shake."
   - split: 1
     subIndex: 2
     text: "替我骂一骂他吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cuss them out for me"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧⟦size=24⟧{2}⟦/size⟧"
@@ -9592,8 +9525,7 @@
   splits:
   - split: 1
     text: "赵活，你说你这么莽撞，到底图什么呢？总不能真是为了钱财。是为了之前的旧怨，想存心给我爹难堪，搅乱武林大会吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zhao Huo, you say you're so reckless, what are you after? Can't be just for money. Are you trying to deliberately embarrass my father and disrupt the Wulin conference because of some old grudge?"
 - raw: "Story/D_6_5_3_3_083,轮得到我嫌你吗？能让上官大小姐关心，难道不是殊荣。唠叨好过不闻不问，不要打人就好。"
   splits:
   - split: 1
@@ -9688,13 +9620,11 @@
   splits:
   - split: 1
     text: "人家是人家，我是我。哎"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You are you, and I am me. Sigh."
   - split: 1
     subIndex: 1
     text: "我当初好声好气跟你解释过，我只替客人刻名字，不是让你雕龙画凤！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I already explained to you nicely that I only carve names for customers, not dragon designs or decorative motifs!"
   templates:
   - split: 1
     template: "{0}~{1}"
@@ -9959,13 +9889,11 @@
   splits:
   - split: 1
     text: "你明知我为何有此问"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You know full well why I'm asking this."
   - split: 1
     subIndex: 1
     text: "龙师妹有心魔啊。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Junior Sister Long has an Inner Demon"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -9973,13 +9901,11 @@
   splits:
   - split: 1
     text: "你明知我为何有此问"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You know full well why I'm asking this."
   - split: 1
     subIndex: 1
     text: "你宝贝徒弟可是会受伤的喔，我是说心。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Your cherished disciple could get hurt, I mean, emotionally."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -10223,13 +10149,11 @@
   splits:
   - split: 1
     text: "岳家旧部，红篷王麾下六路联军，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,"
   - split: 1
     subIndex: 1
     text: "推举叶云舟入阵！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Nominate Ye Yunzhao to enter the formation!"
   templates:
   - split: 1
     template: "⟦size=50⟧{0}⟦/size⟧⟦size=50⟧{1}⟦/size⟧"
@@ -10346,13 +10270,11 @@
   splits:
   - split: 1
     text: "岳家旧部，红篷王麾下六路联军，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,"
   - split: 1
     subIndex: 1
     text: "推举叶云舟入阵！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Nominate Ye Yunzhao to enter the formation!"
   templates:
   - split: 1
     template: "⟦size=50⟧{0}⟦/size⟧⟦size=50⟧{1}⟦/size⟧"
@@ -10395,13 +10317,11 @@
   splits:
   - split: 1
     text: "峨嵋派虽不使剑，却向有『藏剑在心』的心剑之说。听说几百年前，蜀中没有其他门派，唯有峨嵋一家独大。那时峨嵋派是天下第一剑派，人称"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Although the Emei Sect does not wield swords, they have a saying called 'Heart Sword', which means keeping a sword in one's heart. It is said that several hundred years ago, when there were no other sects in Shu, only Emei was the dominant force. At that time, the Emei Sect was known as the number one sword sect in the world, and they were called"
   - split: 1
     subIndex: 1
     text: "蜀山剑派。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Shu Mountain Sword Sect"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -10464,13 +10384,11 @@
   splits:
   - split: 1
     text: "什么"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What?"
   - split: 1
     subIndex: 1
     text: "哇！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wow!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -11556,13 +11474,11 @@
   splits:
   - split: 1
     text: "接着是第二问"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Now for the second question"
   - split: 1
     subIndex: 1
     text: "金国屡次犯我大宋疆土，烧杀掳掠。全赖边关将士戍守襄阳，才能堪保黎民安生。若有朝一日朝廷号召，诸位可会遵从号令，保宋抗金？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Jin kingdom has repeatedly invaded our Great Song territory, burning, killing, and looting. It is thanks to the border guards who defend Xiangyang that our people can live in peace. If one day the court calls upon you, would you heed the orders and defend the Song against the Jin?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -11869,13 +11785,11 @@
   splits:
   - split: 1
     text: "但是，即使是吃力不讨好、会受人讥嘲讽刺的愚见，一样值得付诸行动。因为其中承载了我们南宫族人的志愿"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "However, even if it's a thankless and ridiculed endeavor, it's still worth acting upon, because it carries the aspirations of our Nangong clan."
   - split: 1
     subIndex: 1
     text: "天下大同。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A harmonious world"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -12139,13 +12053,11 @@
   splits:
   - split: 1
     text: "等等"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wait──"
   - split: 1
     subIndex: 1
     text: "你们犯规！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You guys are breaking the rules!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -12567,13 +12479,11 @@
   splits:
   - split: 1
     text: "让郎君见笑了。其实我不该说的。子贡曰"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'm sorry to have amused you, my lord. I shouldn't have said anything. Confucius' disciple Zi Gong says:"
   - split: 1
     subIndex: 1
     text: "君子亦有恶乎？子曰有恶，恶称人之恶者；恶居下流而讪上者；恶勇而无礼者；恶果敢而窒者。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Does a gentleman also have things they hate? Confucius says they hate certain things: those who spread others' faults; those who slander their superiors from a position of inferiority; the brave who lack ritual propriety; the resolute who are stubborn and unyielding."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -12997,13 +12907,11 @@
   splits:
   - split: 1
     text: "贫僧不小也不贫嘴。虽我不是儒家子弟，也不免要引一句孟子名言以自清"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I am neither petty nor a chatterbox. Though I am not a disciple of Confucianism, I cannot help but quote a famous saying of Mencius to clarify myself."
   - split: 1
     subIndex: 1
     text: "『予岂好辩哉？予不得已！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Am I fond of arguing? No, I have no choice!"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -13358,13 +13266,11 @@
   splits:
   - split: 1
     text: "何况打是情骂是爱，我打你是提醒你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After all, hitting shows affection and scolding shows care; I'm hitting you to remind you."
   - split: 1
     subIndex: 1
     text: "我情你。这位乞帮英雄骂你蓝色混蛋，显然是爱你。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I care for you. When this Hero of Beggar Clan calls you a blue bastard, it's clearly out of love."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -14081,13 +13987,11 @@
   splits:
   - split: 1
     text: "换作是我也难以置信，八成会想"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even I would find it hard to believe and probably think the same."
   - split: 1
     subIndex: 1
     text: "『这个尹志平一看就知道不是好人！他一定想把我拐去卖掉！』不过你想想，以老弟你的品貌，卖掉又值几个钱？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "'Yin Zhiping looks like a bad guy! He must want to kidnap me and sell me!' But think about it, with your looks and character, how much money would you fetch if you were sold?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -15425,13 +15329,11 @@
   splits:
   - split: 1
     text: "等等"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wait──"
   - split: 1
     subIndex: 1
     text: "在那之前，赵少侠先听我一言。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Before that, Young Hero Zhao, listen to what I have to say."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -16192,9 +16094,7 @@
   splits:
   - split: 1
     text: "是啊……大师兄就一直企图退隐江湖未遂，结果到底没能如愿以偿。"
-    translated: "Yes... Senior Brother has always tried to retire from the Jianghu but failed. In the end, he couldn't achieve his wish."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Yeah... Big Senior Brother has been trying to retire from Jianghu but hasn't succeeded, and in the end, things didn't go as they wished."
 - raw: "Story/D_6_7_1_204,……阿活，你什么时候退隐江湖，我想带你去个地方。"
   splits:
   - split: 1
@@ -16292,18 +16192,15 @@
   splits:
   - split: 1
     text: "大公子别急，我知道你要说啥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Young Lord, don't worry. I know what you're going to say."
   - split: 1
     subIndex: 1
     text: "『尊驾是何方神圣？』小爷不妨抢先回答你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "'Who are you to intrude?' I'll answer you first, Little Master."
   - split: 1
     subIndex: 2
     text: "我叫袁无宪，峨嵋无字辈的，与向掌门同一辈。没听过我也非希罕事，但是『风中奇猿』袁乘风，总不会没听过。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I am Yuan Wuxian, from the Wu generation of Emei. Since I'm the same generation as Sect Leader Xiang, it's not uncommon for people not to have heard of me. However, 'Wind Monkey' Yuan Chengfeng wouldn't be someone you haven't heard of."
   templates:
   - split: 1
     template: "{0}：{1}：{2}"
@@ -16357,13 +16254,11 @@
   splits:
   - split: 1
     text: "各位英雄，千万不能放锦香宫下山！她们清高形象只是个幌子，实则藏污纳垢！淫秽不堪！要说为何"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heroes, you must not let the Jinxiang Palace leave the mountain! Their image of purity is just a facade‑they are full of corruption and depravity! To explain why,"
   - split: 1
     subIndex: 1
     text: "因为锦香宫温夫人便是魔教人间道法王！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Because Lady Wen of Jinxiang Palace is the Dharma King of the Demon Sect's Human Path!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -17215,7 +17110,7 @@
   splits:
   - split: 1
     text: "这么说吧，本宫有把握在宫人死绝之前，杀掉十倍之于宫人的武林侠士。"
-    translated: "Let me put it this way: Before all the servants die, I can kill ten times as many martial artists as there are servants."
+    translated: "Let me put it this way: I am confident that before all the palace guards are dead, I will kill ten times as many heroes from Wulin as there are palace guards."
 - raw: "Story/N_6_7_1_018,温夫人以音波功闻名于江湖，在场侠客没一人会当是虚张声势，还道是自己包围了敌人，可以倚仗人多势众，稳操胜券。殊不知竟反被威胁，登时人人自危变色。"
   splits:
   - split: 1
@@ -17245,13 +17140,11 @@
   splits:
   - split: 1
     text: "上官大人明鉴"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lord Shangguan, please enlighten us"
   - split: 1
     subIndex: 1
     text: "江湖「正道」侠士待我不仁在先，我锦香宫妇人之见，却不忍不义。愿意弃械投降，不必非得大动干戈，兵戎相见。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The so‑called righteous heroes of Jianghu were unjust to me first. I, Jinxiang Palace, despite my feminine perspective, cannot bear to act unrighteously. I am willing to lay down my arms and surrender; there is no need for a full‑scale conflict and the shedding of blood."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -17420,13 +17313,11 @@
   splits:
   - split: 1
     text: "温夫人语调得虽轻，但是字字清晰，传入武林中人耳里，但凡还有良知的听见都不禁面有惭色，内心深处不禁自问"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lady Wen's tone was light, but each word was clear. When it reached the ears of those in Wulin, anyone with a conscience could not help but feel ashamed, questioning themselves deep down."
   - split: 1
     subIndex: 1
     text: "泥教真的罪不可赦吗？他们真不是人云亦云，一杆子打翻一船人吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Is the Mud Cult really beyond redemption? Aren't they just going along with what others say and punishing everyone involved?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -17467,13 +17358,11 @@
   splits:
   - split: 1
     text: "不可！万万不可！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "No! Under no circumstances!"
   - split: 1
     subIndex: 1
     text: "岂有此理，来人，快和本官一起大喊！不可以！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "How can this be! Everyone, come here and shout with me! It's not allowed!"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -17521,13 +17410,11 @@
   splits:
   - split: 1
     text: "是以上官大人请恕下官忠言相劝，莫因小利智昏，见疑于君！您若非要一意孤行，休怪下官言之不预，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It is for this reason, Lord Shangguan, that I implore you to forgive my earnest advice. Do not let petty gains cloud your judgment and cause suspicion in the eyes of your lord! Brother, please do not be so stubborn."
   - split: 1
     subIndex: 1
     text: "定要上奏朝廷参你一本！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I must report you to the imperial court!"
   templates:
   - split: 1
     template: "{0} {1}"
@@ -18080,13 +17967,11 @@
   splits:
   - split: 1
     text: "你这是什么话"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What are you saying?"
   - split: 1
     subIndex: 1
     text: "等等！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wait!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -18164,13 +18049,11 @@
   splits:
   - split: 1
     text: "你这是什么话"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What are you saying?"
   - split: 1
     subIndex: 1
     text: "等等！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wait!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -18516,13 +18399,11 @@
   splits:
   - split: 1
     text: "小梅夫人"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lady Xiao Mei"
   - split: 1
     subIndex: 1
     text: "好，你快去。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Okay, go quickly"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -19157,13 +19038,11 @@
   splits:
   - split: 1
     text: "唔哦哦哦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Oh no! Oh no! Oh no!──!"
   - split: 1
     subIndex: 1
     text: "！你们这些女流……！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "!You bunch of weak women......!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -19350,7 +19229,7 @@
   splits:
   - split: 1
     text: "你不怕死，却见不得宫人受难。本官拖住了你，没有音波功助势，正派侠士无所顾忌。如今锦香宫人已经力竭，阵形溃散，尔等叛逆大势已去！"
-    translated: "You fear not death but cannot bear to see the palace servants suffer. With me distracting you, without the aid of Sound Wave Technique, the righteous martial artists have nothing to hinder them. Now that the Jinxiang Palace servants are exhausted and the formation is collapsing, your rebellion is finished!"
+    translated: "You fear neither death nor seeing the palace attendants suffer. This official has restrained you, without the aid of sonic waves, and upright heroes know no bounds. Now, Jinxiang, the palace attendant, has exhausted her strength, and the formation is collapsing. Your rebellion is on the verge of defeat!"
 - raw: "Story/D_6_7_4_082,万事休矣……。"
   splits:
   - split: 1
@@ -19365,13 +19244,11 @@
   splits:
   - split: 1
     text: "唔哦哦哦"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Oh no! Oh no! Oh no!──!"
   - split: 1
     subIndex: 1
     text: "！你们这些小辈……！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You young brats...!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -20415,13 +20292,11 @@
   splits:
   - split: 1
     text: "均想"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Everyone thought"
   - split: 1
     subIndex: 1
     text: "温夫人重伤之下已无余力施展神通，宫人或死或伤，人间道确实走到尽头，无力回天了。她们就要死了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lady Wen, severely injured, no longer had the strength to use her supernatural abilities. The palace servants were either dead or injured. The Human Path truly had reached its end; there was nothing that could be done to save them now. They were going to die."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -20742,13 +20617,11 @@
   splits:
   - split: 1
     text: "张弦代语"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Zhanging Daidaigi"
   - split: 1
     subIndex: 1
     text: "这是我们锦香宫人才听得懂的悄悄话。宫主这是有话要说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This is the secret language that only the talented individuals of the Jinxiang Palace understand. The Palace Mistress has something to say."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -21448,13 +21321,11 @@
   splits:
   - split: 1
     text: "看你这么有诚意，就再给你一次机会吧，我们还像从前一样要好。妾身郑重地和你再说一次"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Seeing how sincere you are, I'll give you another chance. Let's be as close as we used to be. I solemnly tell you once more,"
   - split: 1
     subIndex: 1
     text: "我苏迎香非你不嫁，别再把我让给别人了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I, Su Yingxiang, will marry no one but you; don't keep giving me to other people."
   templates:
   - split: 1
     template: "{0}：{1}"

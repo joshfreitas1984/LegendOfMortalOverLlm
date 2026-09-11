@@ -2,13 +2,11 @@
   splits:
   - split: 1
     text: "技能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skills"
   - split: 1
     subIndex: 1
     text: "觉醒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Awakening"
   templates:
   - split: 1
     template: "{0}[⟦0⟧]{1}"
@@ -16,13 +14,11 @@
   splits:
   - split: 1
     text: "技能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skills"
   - split: 1
     subIndex: 1
     text: "消灭"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Eliminate"
   templates:
   - split: 1
     template: "{0}[⟦0⟧]{1}"
@@ -30,13 +26,11 @@
   splits:
   - split: 1
     text: "技能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skills"
   - split: 1
     subIndex: 1
     text: "等级上升为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Level has been upgraded to"
   templates:
   - split: 1
     template: "{0}[⟦0⟧]{1}⟦1⟧"
@@ -44,13 +38,11 @@
   splits:
   - split: 1
     text: "技能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skills"
   - split: 1
     subIndex: 1
     text: "等级下降为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Level decreased to"
   templates:
   - split: 1
     template: "{0}[⟦0⟧]{1}⟦1⟧"
@@ -58,13 +50,11 @@
   splits:
   - split: 1
     text: "技能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skills"
   - split: 1
     subIndex: 1
     text: "等级已达最高"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Level has reached the maximum"
   templates:
   - split: 1
     template: "{0}[⟦0⟧]{1}"
@@ -77,18 +67,15 @@
   splits:
   - split: 1
     text: "你在自己眼里变得稍微顺眼了一点"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You've become a little more palatable in your own eyes."
   - split: 1
     subIndex: 1
     text: "只有一点"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There is just one thing"
   - split: 1
     subIndex: 2
     text: "但是情绪激动时会原形毕露。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But when they get worked up, they reveal their true nature."
   templates:
   - split: 1
     template: "{0}\\n({1})，\\n{2}"
@@ -101,13 +88,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "提升所有伤害减免。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase all damage reduction"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -120,18 +105,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "使用捅人、暗器指令，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Use the stabbing and hidden weapon commands,"
   - split: 1
     subIndex: 2
     text: "额外发动「暗器」效果"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Activate the Hidden Weapon effect additionally"
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -144,13 +126,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "提升暗器命中、伤害、爆击骰。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase Hit Rate, Damage, and Critical Dice for Hidden Weapons."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -163,13 +143,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "提升毒药、麻痹累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase poison, accumulate paralysis"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -182,13 +160,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "修养、性情、处世三项皆为中庸时，提升最终伤害及伤害减免。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When Cultivation, Temperament, and Worldliness are all moderate, increase final damage and damage reduction."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -201,13 +177,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据体力提升内力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase Inner Power based on physical strength"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -220,13 +194,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据已精通之儒道释学提升内力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enhance Inner Power by studying the Confucianism, Taoism, and Buddhism they have mastered."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -239,13 +211,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据体力提升内力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase Inner Power based on physical strength"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -258,13 +228,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据内力提升气上限。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase your Qi limit based on your Inner Power."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -277,13 +245,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据气的上限获得额外回气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gain additional qi regeneration based on their qi limit."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -296,13 +262,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据道学提升内力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enhance Inner Power through Daoist studies"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -315,13 +279,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据轻功、拳掌获得回避机率"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While using qinggong, punches and palms gain evasion chances."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -334,13 +296,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据刀剑提升拳掌。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improve fists and palms according to the blade and sword."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -353,13 +313,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "全属性根据形意拳精通数获得提升。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "All attributes are enhanced based on the level of mastery of the Shape‑Intent Boxing style."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -372,13 +330,11 @@
   splits:
   - split: 1
     text: "战役"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Battle"
   - split: 1
     subIndex: 1
     text: "可施展金刚罩。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can use the Diamond Shield"
   templates:
   - split: 1
     template: "[{0}]\\{1}"
@@ -391,13 +347,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据暗器提升武器爆击骰。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase the critical hit dice for your Hidden Weapon."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -410,13 +364,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "防御+20%、轻功"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Defense +20%, Qinggong"
   templates:
   - split: 1
     template: "[{0}]\\n{1}-10%。"
@@ -429,13 +381,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "防御+40%、轻功"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Defense +40%, Qinggong"
   templates:
   - split: 1
     template: "[{0}]\\n{1}-20%。"
@@ -448,13 +398,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Defense +60%, Qinggong ‑30%. When taking an attack action, they receive moderate damage."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -467,13 +415,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据修养提升每回合的气力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase your mana every turn based on your Cultivation."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -486,13 +432,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "道德越低，爆击骰越多。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The lower your morals, the more critical hit dice you get."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -505,13 +449,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据拳掌、轻功提升防御。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improving punching and palm techniques increases Qinggong defense."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -524,13 +466,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据六维提升所有伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase all damage according to the six dimensions."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -543,13 +483,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "回避成功时，根据等级回复气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When evasion is successful, recover Qi based on the level."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -562,13 +500,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "造成伤害时，根据连击数，追加气伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When dealing damage, add Ki damage based on the number of consecutive hits."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -581,18 +517,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "所有伤害提升50%，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase all damage by 50%"
   - split: 1
     subIndex: 2
     text: "受到伤害增加10%。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increased damage taken by 10%"
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -605,13 +538,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据体力提升防御。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Boost your defense based on your stamina"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -624,18 +555,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "气20以上时，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the 20 is above a certain level,"
   - split: 1
     subIndex: 2
     text: "备揍指令变化为「金钟罩」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Beatdown Command has changed to Golden Bell Shield."
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -648,13 +576,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升防御。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Boost defense using the Tactics skill"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -667,13 +593,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据拳掌提升轻功、防御。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improve qinggong and defense based on fist and palm techniques."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -686,13 +610,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "对身有异常状态的敌人嘴攻时，激怒成功率更高。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When performing a mouth attack on enemies with abnormal status effects, the success rate of provoking them is higher."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -705,13 +627,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "连续嘴攻时效果上升。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The effect increases with continuous verbal attacks"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -724,23 +644,19 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "敌人身有"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The enemy has a [missing element]"
   - split: 1
     subIndex: 2
     text: "愤怒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Anger"
   - split: 1
     subIndex: 3
     text: "状态时发动。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Activates when the status condition is met"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]{3}"
@@ -753,13 +669,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "愤怒时不再捅人，变成嘴攻并口喷烈火。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Instead of stabbing people when angry, they become a verbal attacker and spout fiery words."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -772,13 +686,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，嘴攻变为「苍龙吟」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At the Second Stage and above, mouth attack becomes Azure Dragon's Roar."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -791,13 +703,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，嘴攻变为「狮吼功」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At Level Two and above, mouth attacks become Roar Technique."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -810,13 +720,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，嘴攻变为「虎啸吼」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At Level 2 and above, Mouth Attack becomes Tiger Roar."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -829,13 +737,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "敌人气低于自身时，获得「揍狗拳」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the enemy's qi is lower than their own, they gain the Punching Pup quan."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -848,13 +754,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Lock all commands, use the Dog‑Punching Fist without conditions, and activate Rage Mode."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -867,13 +771,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "捅人命中时获得「翻浪刀法」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gain Wave Flipping Blade Art when hitting a target."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -886,13 +788,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "捅人指令不会被暗器打断，但受到的伤害"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The command to stab someone is not interrupted by a hidden weapon, but the damage received is."
   templates:
   - split: 1
     template: "[{0}]\\n{1}+50%。"
@@ -905,23 +805,19 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "回避成功时，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Avoidance is successful when,"
   - split: 1
     subIndex: 2
     text: "捅人指令变化为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The command to stab someone has changed to"
   - split: 1
     subIndex: 3
     text: "反击"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Counterattack"
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}[{3}]。"
@@ -929,25 +825,20 @@
   splits:
   - split: 1
     text: "夺魄幽灵爪"
-    translated: "Soul‑Stealer Phantom Claw"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Soul Stealer,奪魄,"
+    translated: "Soul Stealer Phantom Claw"
 - raw: "PlayerTalent/Desc/1206,[决斗]\\n境界二以上，捅人变化为[夺魄幽灵爪]。"
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，捅人变化为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For Second Stage and above, stabbing someone transforms into [original game mechanic or term here, if any specific term is needed, otherwise leave as is]"
   - split: 1
     subIndex: 2
     text: "夺魄幽灵爪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Soul Stealer Phantom Claw"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -960,13 +851,11 @@
   splits:
   - split: 1
     text: "決鬥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "劉顎專用技能，取代捅人。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Liu E's special skill, replacing stabbing"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -979,18 +868,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，捅人变化为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For Second Stage and above, stabbing someone transforms into [original game mechanic or term here, if any specific term is needed, otherwise leave as is]"
   - split: 1
     subIndex: 2
     text: "雪山飞鸿爪"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Snow Mountain Flying Swan Claw"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1003,18 +889,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "气20以上时，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the 20 is above a certain level,"
   - split: 1
     subIndex: 2
     text: "嘴攻指令变化为「核枣钉」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mouth attack command changes to Nuclear Jujube Nail."
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -1027,18 +910,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时涂毒，获得一个粹毒，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When poisoning a weapon before a fight, gain one Poison."
   - split: 1
     subIndex: 2
     text: "提升下回暗器效果。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improve the effect of the Hidden Weapon"
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -1051,18 +931,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "气20以上时，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the 20 is above a certain level,"
   - split: 1
     subIndex: 2
     text: "备揍指令变化为「石灰粉」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Ready to Fight command has changed to Lime Powder."
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -1075,13 +952,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时，根据等级加速代谢麻痹累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When preparing to take a beating, increase the accumulation of paralysis damage based on your level."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1094,13 +969,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时，根据等级回复血，额外代谢毒麻累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When preparing to fight, restore health based on level and additionally metabolize accumulated poison and numbness values."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1113,13 +986,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍成功后，获得一个「仙鹤迷踪」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After successfully preparing to fight, they obtained a Crane Mystery Trace."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1132,13 +1003,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，备揍变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Level 2 and above, Bei Zhou becomes [punchable]"
   - split: 1
     subIndex: 2
     text: "一趾神通"
@@ -1155,13 +1024,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时，根据技能等级机率接住暗器。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When preparing to counterattack, there is a chance to catch a Hidden Weapon based on skill level."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1174,23 +1041,19 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "每回合有30%机率施展"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each turn, there is a 30% chance to cast"
   - split: 1
     subIndex: 2
     text: "如意境"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As if in Accordance with Will Scenario"
   - split: 1
     subIndex: 3
     text: "，提升拳掌。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: ", Improve fist and palm techniques"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]{3}"
@@ -1203,13 +1066,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时，备揍时启动机关，可收去所有暗器，下回暗器伤害上升。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When preparing to fight, activating the mechanism upon preparation will store all hidden weapons and increase the damage from hidden weapons in the next battle."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1222,13 +1083,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时，消费所有连击数，额外获得气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When preparing to attack, consume all combo counts and additionally gain Chi."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1241,18 +1100,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "当连击数大于2时，备揍变成"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the combo count exceeds 2, Prepared Punishment becomes active."
   - split: 1
     subIndex: 2
     text: "归元"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Return to Origin"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1265,18 +1121,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "气20以上时，备揍变成"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the gauge is at 20 or higher, the preparation for beating transforms into"
   - split: 1
     subIndex: 2
     text: "枯荣神功"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Withering and Flourishing Divine Skill"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1289,13 +1142,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据轻功提升刀剑。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improve Qinggong to enhance the Blade and Sword."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1308,13 +1159,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据内力提升轻功。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enhance Qinggong by increasing Inner Power"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1327,13 +1176,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据刀剑50%提升轻功、内力、初始气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Based on the 50% increase in Qinggong, Inner Power, and initial Qi from the Blade and Sword."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1346,13 +1193,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "捅人命中时获得「行云流水」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gain Flowing Like the Clouds and Water when hitting a target."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1365,13 +1210,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "额外新增初始气力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Additional initial qi power"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1384,13 +1227,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "对手气力影响自身属性。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Your opponent's strength affects your attributes"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1403,13 +1244,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "依据等级，决斗开始时即默认有连击，并额外获得气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Based on their rank, duelists automatically have a combo at the start of the duel and gain additional qi."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1422,13 +1261,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "决斗开始第一回合，攻击力为3倍。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the first round of the duel, Attack Power is 3 times."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1441,13 +1278,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界一以上，获得「化境」。此后提升境界，「化境」效果亦会提升。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Reach Rank 1 or above to obtain Transcendence. Thereafter, as you advance in rank, the effects of Transcendence will also improve."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1460,13 +1295,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界三以上，发动「剑界」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Level Three Sword World activates"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1479,18 +1312,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "当前心相低于中庸时，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When your current mindset falls below the median,"
   - split: 1
     subIndex: 2
     text: "每1点提升1%攻击力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each 1 point increases Attack Power by 1%."
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
@@ -1503,13 +1333,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "攻击爆击骰子"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Critical hit dice"
   templates:
   - split: 1
     template: "[{0}]\\n{1}+10。"
@@ -1522,13 +1350,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据受到的伤害，大幅回升气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Significantly restore qi based on the damage received."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1541,13 +1367,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "施展绝招时追加「震撼」效果。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When using an Ultimate move, add the Shocking effect."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1560,13 +1384,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升轻功。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Improve Qinggong according to the Tactics skill"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1579,13 +1401,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据技能「战术」每回合额外获得气力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Gain additional qi each turn according to the skill Tactics."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1598,13 +1418,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increase damage according to the skill Tactics"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1617,13 +1435,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升嘴力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Use the skill Tactics to boost charm"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1636,13 +1452,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "施展败絮功，身有"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Practicing the Decayed Cotton Technique, their body [begins to show signs of decay]."
   - split: 1
     subIndex: 2
     text: "失衡"
@@ -1650,8 +1464,7 @@
   - split: 1
     subIndex: 3
     text: "异常时失效。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fails during abnormal conditions"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]{3}"
@@ -1664,13 +1477,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Going against the code of martial ethics, they suddenly launch a Hidden Weapon at the start of a duel, dealing damage and having a chance to enrage the opponent."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1683,13 +1494,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1702,13 +1511,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "受到致命攻击时，以10%血幸存。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Survives with 10% health upon receiving a lethal attack."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1731,13 +1538,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "敌我每回合增加毒性累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each turn, both enemies and allies increase their poison accumulation."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1750,13 +1555,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "敌我每回合增加麻痹累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each turn, the paralysis accumulation value increases for both allies and enemies."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1769,13 +1572,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "受到伤害时，造成敌人毒、麻累积。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When damaged, inflict poison and numbness on the enemy, which accumulates."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1788,13 +1589,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "捅人时附带50%的毒、麻累积值。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When stabbing, apply 50% poison and numbness cumulative value."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1807,18 +1606,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "所有攻击都有40%机率造成"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "All attacks have a 40% chance to deal"
   - split: 1
     subIndex: 2
     text: "燃烧"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Burning"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1831,28 +1627,23 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "属性为阳时，每回合累积若干"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the attribute is Yang, accumulate a certain amount each turn."
   - split: 1
     subIndex: 2
     text: "毒"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Poison"
   - split: 1
     subIndex: 3
     text: "累积值，额外回复"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Accumulated value, additional recovery"
   - split: 1
     subIndex: 4
     text: "气"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Qi {0}"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]{3}[{4}]。"
@@ -1865,13 +1656,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据当前连击数，攻击有额外机率造成"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Based on the current combo count, attacks have an increased chance to cause"
   - split: 1
     subIndex: 2
     text: "失衡"
@@ -1888,18 +1677,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "每回合有机率对胆小的人造成"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Each turn, there's a chance to attack those who are cowardly."
   - split: 1
     subIndex: 2
     text: "胆怯"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Timidity"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1912,13 +1698,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "小师妹的独门武功。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Little Junior Sister's unique martial arts skill"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1931,13 +1715,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "暗器命中时造成大额麻痹累积。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the hidden weapon hits, it causes a large amount of paralysis buildup."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1950,18 +1732,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界三以上，暗器变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At the Third Stage of Jingjie, the Hidden Weapon becomes..."
   - split: 1
     subIndex: 2
     text: "飞燕流星翎"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Flying Swallow Meteor Feather"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1974,18 +1753,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界三以上，暗器变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At the Third Stage of Jingjie, the Hidden Weapon becomes..."
   - split: 1
     subIndex: 2
     text: "金刚神枪指"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Vajra Divine Spear Technique"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -1998,18 +1774,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For Level 2 and above, the Ultimate moves become available."
   - split: 1
     subIndex: 2
     text: "云霄雷霆霹雳刀"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cloud Sky Thunderbolt Blade"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2022,18 +1795,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "当连击数大于2时，绝招变成"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the combo count exceeds 2, the Ultimate moves become available."
   - split: 1
     subIndex: 2
     text: "点破云关"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Breakthrough of Cloud Pass"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2046,18 +1816,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For Level 2 and above, the Ultimate moves become available."
   - split: 1
     subIndex: 2
     text: "阴阳夺"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yin and Yang Theft"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2070,18 +1837,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For Level 2 and above, the Ultimate moves become available."
   - split: 1
     subIndex: 2
     text: "铁臂飞拳"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Iron Arm Flying Fist"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2094,13 +1858,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界三以上，绝招变为「神雷」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At the Third Stage and above, the Ultimate move becomes Divine Thunder."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2113,13 +1875,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为「太白仙迹」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At Rank 2 and above, the Ultimate move becomes Taibai Immortal Trail."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2132,13 +1892,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界三以上，绝招变为「绝影奇袭」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Above the third realm, the ultimate move becomes Shadowless Ambush."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2151,18 +1909,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界三以上，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Above the Third Stage, the Ultimate moves become available."
   - split: 1
     subIndex: 2
     text: "天罡伏魔剑"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heavenly Gang Subduing Demon Sword"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2170,25 +1925,20 @@
   splits:
   - split: 1
     text: "风雷神脚"
-    translated: "Wind Thunder God Foot"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Wind Thunder Divine Foot,風雷神腳,"
+    translated: "Wind Thunder Divine Foot"
 - raw: "PlayerTalent/Desc/8121,[决斗]\\n境界二以上，连击数大于3时，绝招变为[风雷神脚]。"
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "境界二以上，连击数大于3时，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the level is Rank 2 or above and the number of consecutive hits is greater than 3, the Ultimate skill changes."
   - split: 1
     subIndex: 2
     text: "风雷神脚"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wind Thunder Divine Foot"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2201,38 +1951,31 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "有支持同伴时，全属性上升。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Having support from allies increases all attributes"
   - split: 1
     subIndex: 2
     text: "且连击数"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "And combo count"
   - split: 1
     subIndex: 3
     text: "2时，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "At 2 time, the Ultimate move becomes"
   - split: 1
     subIndex: 4
     text: "同舟剑法"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tongzhou Sword Technique"
   - split: 1
     subIndex: 5
     text: "无法使用"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cannot use it"
   - split: 1
     subIndex: 6
     text: "点破云关"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Breakthrough of Cloud Pass"
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}>{3}[{4}]。\\n{5}[{6}]。"
@@ -2245,18 +1988,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "当连击数大于3时，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the combo count exceeds 3, the Ultimate technique changes to"
   - split: 1
     subIndex: 2
     text: "第一极招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "First Extreme Move"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2269,18 +2009,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "当连击数大于3时，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the combo count exceeds 3, the Ultimate technique changes to"
   - split: 1
     subIndex: 2
     text: "第二极招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Second Extreme Move"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2293,18 +2030,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "当连击数大于3时，绝招变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When the combo count exceeds 3, the Ultimate technique changes to"
   - split: 1
     subIndex: 2
     text: "第三极招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Third Extreme Technique"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -2327,13 +2061,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据等级，强化战术类技能的效果。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Enhance the effects of tactical skills based on level."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2346,13 +2078,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "崆峒奥义铁琵琶功。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Kongtong Inner Meaning Iron Flute Palm Technique"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2375,13 +2105,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "可抵挡致命攻击，並恢复气力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can withstand fatal attacks and restore energy"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2394,13 +2122,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "有10%机率发作，忘记自己自谁、为何在此，不能行动。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "There is a 10% chance that they will have an episode and forget who they are, why they are here, and be unable to act."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2443,23 +2169,19 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Based on"
   - split: 1
     subIndex: 2
     text: "战术"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tactics"
   - split: 1
     subIndex: 3
     text: "技能等级，有更高机率看穿对手意图。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Increases the chance of reading your opponent's intentions."
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]{3}"
@@ -2492,13 +2214,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "可抵挡致命攻击，并恢复满血。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can withstand fatal attacks and restore full health."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2511,13 +2231,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "可抵挡致命攻击，并恢复气力。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can withstand fatal attacks and restore energy"
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2530,13 +2248,11 @@
   splits:
   - split: 1
     text: "決鬥"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "气高于对手时，暗器变为"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When your qi surpasses your opponent's, the Hidden Weapon becomes"
   - split: 1
     subIndex: 2
     text: "打穴娟索"
@@ -2553,13 +2269,11 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "根据连击数造成伤害。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Deal damage based on the number of consecutive hits."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2572,18 +2286,15 @@
   splits:
   - split: 1
     text: "决斗"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Duel"
   - split: 1
     subIndex: 1
     text: "备揍时格档、闪避大幅上升，成功回避攻击时获得"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "When guarding against an impending attack, your dodge rate significantly increases, and you gain a bonus when you successfully evade the attack."
   - split: 1
     subIndex: 2
     text: "猿王回风"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Monkey King's Wind Return"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"

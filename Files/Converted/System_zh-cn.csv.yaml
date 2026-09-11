@@ -7,13 +7,11 @@
   splits:
   - split: 1
     text: "启程"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Departure"
   - split: 1
     subIndex: 1
     text: "活动"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Event"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -151,23 +149,19 @@
   splits:
   - split: 1
     text: "战"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fight!"
   - split: 1
     subIndex: 1
     text: "你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You"
   - split: 1
     subIndex: 2
     text: "娘"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mother"
   - split: 1
     subIndex: 3
     text: "亲"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dear"
   templates:
   - split: 1
     template: "{0}‧{1}‧{2}‧{3}"
@@ -175,33 +169,27 @@
   splits:
   - split: 1
     text: "选单"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Menu"
   - split: 1
     subIndex: 1
     text: "状态"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Status"
   - split: 1
     subIndex: 2
     text: "回想"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Recalling"
   - split: 1
     subIndex: 3
     text: "自动"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Automatic"
   - split: 1
     subIndex: 4
     text: "快带"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hurry up and bring it"
   - split: 1
     subIndex: 5
     text: "左"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Left"
   templates:
   - split: 1
     template: "{0} - [ESC]\\n{1} - [S]\\n{2} - [L]\\n{3} - [A]\\n{4}- [{5}Ctrl]"
@@ -556,7 +544,7 @@
   splits:
   - split: 1
     text: "传奇"
-    translated: "Legend {0}"
+    translated: "Legend"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -589,13 +577,11 @@
   splits:
   - split: 1
     text: "第"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Chapter 1"
   - split: 1
     subIndex: 1
     text: "年"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Year"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}⟦1⟧⟦2⟧"
@@ -822,13 +808,11 @@
   splits:
   - split: 1
     text: "获得"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Obtain"
   - split: 1
     subIndex: 1
     text: "钱"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Money"
   templates:
   - split: 1
     template: "{0} ⟦0⟧{1}"
@@ -846,28 +830,23 @@
   splits:
   - split: 1
     text: "选单"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Menu"
   - split: 1
     subIndex: 1
     text: "移动"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Move"
   - split: 1
     subIndex: 2
     text: "箭头键"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Arrow keys"
   - split: 1
     subIndex: 3
     text: "翻滚"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Roll away"
   - split: 1
     subIndex: 4
     text: "空格键"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Space bar"
   templates:
   - split: 1
     template: "{0} - [ESC]\\n{1} - [{2}]\\n{3} - [{4}]"
@@ -875,28 +854,23 @@
   splits:
   - split: 1
     text: "近战"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Close combat"
   - split: 1
     subIndex: 1
     text: "平射"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Direct fire"
   - split: 1
     subIndex: 2
     text: "抛射"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Projection"
   - split: 1
     subIndex: 3
     text: "长按"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Long press"
   - split: 1
     subIndex: 4
     text: "嘴攻"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Verbal Attack"
   templates:
   - split: 1
     template: "{0} - [Z]\\n{1} - [X]\\n{2} - [{3}X]\\n{4} - [C]"
@@ -904,23 +878,19 @@
   splits:
   - split: 1
     text: "技能1"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skill 1"
   - split: 1
     subIndex: 1
     text: "技能2"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skill 2"
   - split: 1
     subIndex: 2
     text: "技能3"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skill 3"
   - split: 1
     subIndex: 3
     text: "技能4"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skill 4"
   templates:
   - split: 1
     template: "{0} - [Q]\\n{1} - [W]\\n{2} - [E]\\n{3} - [R]"
@@ -999,13 +969,11 @@
   splits:
   - split: 1
     text: "基础骰子下限"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Basic dice minimum"
   - split: 1
     subIndex: 1
     text: "上限"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Limit"
   templates:
   - split: 1
     template: "[{0}：⟦0⟧ {1}：⟦1⟧]"
@@ -1181,13 +1149,11 @@
   splits:
   - split: 1
     text: "请输入新的...或"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Please enter a new... or"
   - split: 1
     subIndex: 1
     text: "取消"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cancel"
   templates:
   - split: 1
     template: "{0}ESC{1}"
@@ -1245,18 +1211,15 @@
   splits:
   - split: 1
     text: "全屏幕"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Full screen"
   - split: 1
     subIndex: 1
     text: "只适用16"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Only applies to 16"
   - split: 1
     subIndex: 2
     text: "9比例显示器"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "9 ratio display"
   templates:
   - split: 1
     template: "{0}({1}:{2})"
@@ -1284,13 +1247,11 @@
   splits:
   - split: 1
     text: "下一等级"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Next level"
   - split: 1
     subIndex: 1
     text: "门派规模"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sect Size"
   templates:
   - split: 1
     template: "{0}：{1}⟦0⟧"
@@ -1318,7 +1279,7 @@
   splits:
   - split: 1
     text: "门派规模"
-    translated: "The scale of the sect {0}"
+    translated: "Sect Size"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -1334,13 +1295,11 @@
   splits:
   - split: 1
     text: "归还"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Return"
   - split: 1
     subIndex: 1
     text: "点锻造点数"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spend forging points"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -1348,13 +1307,11 @@
   splits:
   - split: 1
     text: "归还"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Return"
   - split: 1
     subIndex: 1
     text: "点炼丹点数"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alchemy point expenditure"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -1362,13 +1319,11 @@
   splits:
   - split: 1
     text: "归还"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Return"
   - split: 1
     subIndex: 1
     text: "银两"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Silver taels"
   templates:
   - split: 1
     template: "{0}⟦0⟧{1}"
@@ -1381,13 +1336,11 @@
   splits:
   - split: 1
     text: "需求"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Requirements"
   - split: 1
     subIndex: 1
     text: "等级"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Rank"
   templates:
   - split: 1
     template: "{0}：{1} ⟦0⟧"
@@ -1400,8 +1353,7 @@
   splits:
   - split: 1
     text: "目前"
-    translated: "{0}{1}{2} (Currently {3}) ({4})"
-    flaggedForRetranslation: true
+    translated: "Currently"
   templates:
   - split: 1
     template: "⟦0⟧⟦1⟧⟦2⟧({0}⟦3⟧) (⟦4⟧)"
@@ -1413,8 +1365,7 @@
   - split: 1
     subIndex: 1
     text: "目前"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Currently"
   templates:
   - split: 1
     template: "⟦0⟧{0}⟦1⟧⟦2⟧({1}⟦3⟧) (⟦4⟧)"
@@ -1422,8 +1373,7 @@
   splits:
   - split: 1
     text: "需要"
-    translated: "Need '{0}'({1})"
-    flaggedForRetranslation: true
+    translated: "Need"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》(⟦1⟧)"
@@ -1431,13 +1381,11 @@
   splits:
   - split: 1
     text: "需要"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Need"
   - split: 1
     subIndex: 1
     text: "持有"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Holding"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
@@ -1445,13 +1393,11 @@
   splits:
   - split: 1
     text: "需要"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Need"
   - split: 1
     subIndex: 1
     text: "持有"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Holding"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
@@ -1459,13 +1405,11 @@
   splits:
   - split: 1
     text: "技能"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Skills"
   - split: 1
     subIndex: 1
     text: "目前"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Currently"
   templates:
   - split: 1
     template: "{0}《⟦0⟧Lv⟦1⟧》({1}⟦2⟧) (⟦3⟧)"
@@ -1473,13 +1417,11 @@
   splits:
   - split: 1
     text: "儒学"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Confucianism"
   - split: 1
     subIndex: 1
     text: "目前"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Currently"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1487,13 +1429,11 @@
   splits:
   - split: 1
     text: "道学"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Daoism"
   - split: 1
     subIndex: 1
     text: "目前"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Currently"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1501,13 +1441,11 @@
   splits:
   - split: 1
     text: "释学"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Buddhism"
   - split: 1
     subIndex: 1
     text: "目前"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Currently"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1519,8 +1457,7 @@
   - split: 1
     subIndex: 1
     text: "目前"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Currently"
   templates:
   - split: 1
     template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
@@ -1528,8 +1465,7 @@
   splits:
   - split: 1
     text: "属性"
-    translated: "Attribute: {0} [{1}/{2}]"
-    flaggedForRetranslation: true
+    translated: "Attributes"
   templates:
   - split: 1
     template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
@@ -1545,8 +1481,7 @@
   splits:
   - split: 1
     text: "技能"
-    translated: "Skill: {0} [{1}/{2}]"
-    flaggedForRetranslation: true
+    translated: "Skills"
   templates:
   - split: 1
     template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
@@ -1554,7 +1489,7 @@
   splits:
   - split: 1
     text: "技能"
-    translated: "Skill: {0}"
+    translated: "Skills"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1575,7 +1510,7 @@
   splits:
   - split: 1
     text: "消耗行动"
-    translated: "Spend Action Points"
+    translated: "Spends action on {0}"
 - raw: "Middle/Title/CostContribution,消耗贡献"
   splits:
   - split: 1
@@ -1655,13 +1590,11 @@
   splits:
   - split: 1
     text: "平射"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Direct fire"
   - split: 1
     subIndex: 1
     text: "长按抛射"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Hold to throw"
   templates:
   - split: 1
     template: "{0}({1})"

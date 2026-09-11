@@ -77,13 +77,11 @@
   splits:
   - split: 1
     text: "四师兄从山下酒家打来，兑水抬价卖给师兄弟们的廉价酒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fourth Senior Brother brought cheap wine from the tavern at the foot of the mountain, watering it down and selling it at inflated prices to their fellow disciples."
   - split: 1
     subIndex: 1
     text: "喝了心情会变好，但是喝多不太健康。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Drinking might improve your mood, but drinking too much isn't very healthy."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -96,13 +94,11 @@
   splits:
   - split: 1
     text: "产自贵州，酱香型大曲白酒，气味芳香浓郁，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A fragrant and richly aromatic sauce‑flavored strong spirit produced in Guizhou."
   - split: 1
     subIndex: 1
     text: "一瓶能顶两次喝，够劲儿赞。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This bottle is good for two drinks and packs a punch; well done."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -115,13 +111,11 @@
   splits:
   - split: 1
     text: "不调味、酒气浓烈，似火烧，故得此名。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Undiluted, the liquor is strong and fiery, like a burning flame, hence its name."
   - split: 1
     subIndex: 1
     text: "是百姓的酒，是天下万民的酒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's the people's wine, the wine of all the common folk across the land."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -134,13 +128,11 @@
   splits:
   - split: 1
     text: "相传为宫廷御用的药酒，与苏合香同煮，融其效于酒水中，能安顺五气之气，极为名贵。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This court‑exclusive medicinal wine, when brewed with styrax, infuses its effects into the wine, harmonizing the five types of qi, making it incredibly valuable."
   - split: 1
     subIndex: 1
     text: "此酒是四师兄历时数月，冒着被官府追缉的风险与同伙私酿的，只敢卖熟人。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This wine was privately brewed by Fourth Senior Brother over several months, risking arrest by the authorities. They only dare to sell it to acquaintances."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -153,18 +145,15 @@
   splits:
   - split: 1
     text: "起源于汉魏，兴盛于唐宋之间的高级酒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A high‑grade liquor that originated in the Han and Wei dynasties and flourished during the Tang and Song periods."
   - split: 1
     subIndex: 1
     text: "《东京梦华录》有云"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "According to the Tokyo Dream Splendor Record"
   - split: 1
     subIndex: 2
     text: "色泽白莹，入口绵甘，是以羊羔肉、木香、杏仁等药材入锅煮烂，与黍米同酿而成。能健脾胃、益腰身、大捕元气。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "White and translucent, with a sweet and smooth taste, this dish is made by simmering lamb, agarwood, almonds, and other herbs until tender, then brewing them together with millet. It strengthens the spleen and stomach, benefits the waist and body, and greatly replenishes vital energy."
   templates:
   - split: 1
     template: "{0}\\n{1}：{2}"
@@ -187,18 +176,15 @@
   splits:
   - split: 1
     text: "产于四川泸县的名茶。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A famous tea produced in Luzhou County, Sichuan."
   - split: 1
     subIndex: 1
     text: "总是在地最早采摘摘的茶业，每年除夕前煮上，作为年夜茶。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Always brewing the earliest picked tea of the year on New Year's Eve, to serve as the year‑end tea."
   - split: 1
     subIndex: 2
     text: "这茶买来，是你闲来自饮的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This tea was bought for you to drink in your free time."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -211,18 +197,15 @@
   splits:
   - split: 1
     text: "产于四川蒙山顶的名茶。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A renowned tea produced on Mount Meng in Sichuan."
   - split: 1
     subIndex: 1
     text: "蒙顶石花是前朝第一名茶，蒙山茶又称仙茶，世代入贡。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mengding Stone Bud is the top tea of the previous dynasty, and Mengshan tea is also known as Immortal Tea, having been offered to the imperial court for generations."
   - split: 1
     subIndex: 2
     text: "这茶买来，是你闲来自饮的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This tea was bought for you to drink in your free time."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -235,18 +218,15 @@
   splits:
   - split: 1
     text: "盛产于峨嵋山云深雾缠处的四川名茶。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A renowned Sichuan tea that is grown in the mist‑shrouded areas of Mount Emei."
   - split: 1
     subIndex: 1
     text: "香气清新馥郁，茶汤明亮淡雅，又名「雪香」、「清明香」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The fragrance is fresh and rich, with a tea broth that is bright and delicate. It is also known as Snow Fragrance and Clear Brightness Fragrance."
   - split: 1
     subIndex: 2
     text: "这茶买来，是你闲来自饮的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This tea was bought for you to drink in your free time."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -259,13 +239,11 @@
   splits:
   - split: 1
     text: "崆峒铁拳门秘传灵药「龙象豹力丹」，传说服之能生龙象之力，开天辟地。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The secret elixir of the Kongtong Iron Fist Sect, the Dragon Elephant Leopard Power Pill, is said to grant the strength of dragons and elephants, opening up new worlds."
   - split: 1
     subIndex: 1
     text: "这枚是炉底残渣搓成的子丹，母丹被小竹吃了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This one is made from the residue at the bottom of the furnace, formed into a zidan, with the mother dandan having been eaten by Little Bamboo."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -278,33 +256,27 @@
   splits:
   - split: 1
     text: "李大夫祖传密方，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Doctor Li's family‑secret prescription,"
   - split: 1
     subIndex: 1
     text: "无病可延年益寿，即令是弥留之人，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even those on their deathbed can benefit, prolonging their life and adding to their years."
   - split: 1
     subIndex: 2
     text: "服之亦能吊住一口气，此丹虽然灵验，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Even if they take it, they can still catch their breath. Although this pill is effective,"
   - split: 1
     subIndex: 3
     text: "却须花费数十载方得炼成，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But it takes decades to refine"
   - split: 1
     subIndex: 4
     text: "你以药典改良，虽得速成，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You have improved through the Pharmacopoeia and though it brings quick results,"
   - split: 1
     subIndex: 5
     text: "效果却大打折扣。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Effect is greatly diminished"
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
@@ -317,13 +289,11 @@
   splits:
   - split: 1
     text: "用毒虫、毒砂以醋淬煅七次制成的药散，味辛热，有蒜臭。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A powdered medicine made from venomous insects and toxic sand, refined seven times with vinegar, has a pungent and hot taste with a garlic‑like odor."
   - split: 1
     subIndex: 1
     text: "常人服之五内俱焚，唐门弟子服之可以活血祛湿寒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Common people who consume it will suffer internal burning, but Tang Clan disciples can use it to promote blood circulation and dispel dampness and cold."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -366,13 +336,11 @@
   splits:
   - split: 1
     text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Grandmaster Xi Yi retired to Mount Hua and fell into a long sleep from which they never woke, achieving enlightenment while sleeping."
   - split: 1
     subIndex: 1
     text: "采精神以为药，取静定以为火，心息相依，反璞归真。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Draw upon willpower as medicine, use stillness and composure as the fire, let your breath and spirit rely on each other, and return to your true nature."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -385,18 +353,15 @@
   splits:
   - split: 1
     text: "唐门药典残方，出门必备灵药。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Tang Clan's incomplete medicinal formulas, essential spirit medicines for travel."
   - split: 1
     subIndex: 1
     text: "气味清凉，嗅之可提神醒脑，夏可解暑、冬可点燃取暖，兑水喝可以治腹泻，抹在腕上可防蛇虺蚊蚋。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It has a refreshing scent that invigorates the mind and clears the head. In the summer, it can cool you down, and in the winter, it can be used to start a fire for warmth. Drinking it diluted in water can treat diarrhea, and applying it to your wrist can repel snakes, mosquitoes, and other pests."
   - split: 1
     subIndex: 2
     text: "天下疑难，此方解得十之八九。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This place can solve eight or nine out of ten of the world's most difficult problems."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -409,13 +374,11 @@
   splits:
   - split: 1
     text: "又名紫檀香，道士开坛请神、作醮、科仪皆用此香。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Also known as Purple Sandalwood Incense, Daoist priests use this incense when they consecrate altars to invite spirits, perform rituals, and conduct ceremonial rites."
   - split: 1
     subIndex: 1
     text: "青城降真香配方乃当代掌门邹博独门研制，焚之有调养性情，增益修行的效果。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The formula for Qingcheng Incense was uniquely developed by the current Sect Leader Zou Bo. Burning it has the effect of nurturing one's character and enhancing their cultivation."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -428,13 +391,11 @@
   splits:
   - split: 1
     text: "后山砍来的甘蔗，闲时啃一根清凉消暑。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The sugarcane chopped from the back mountain is refreshing and cooling on hot days; they can munch on a stalk during their free time."
   - split: 1
     subIndex: 1
     text: "请不要在床上吃，会弄得到处黏黏的长蚂蚁。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Please don't eat in bed; it will get sticky and attract long ants everywhere."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -447,18 +408,15 @@
   splits:
   - split: 1
     text: "山溪里捉来的鱼，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fish caught in the mountain stream,"
   - split: 1
     subIndex: 1
     text: "一度因为唐门弟子滥捕几乎绝迹。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Once, due to the excessive hunting by Tang Clan disciples, they were nearly extinct."
   - split: 1
     subIndex: 2
     text: "唐门弟子变少了以后，此鱼的香火又鼎盛了起来。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "After the number of Tang Clan disciples decreased, Master Fish's following flourished once again."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -471,18 +429,15 @@
   splits:
   - split: 1
     text: "宋国的馒头，是有馅儿的，与包子的区分就是皮的薄厚、馅的多寡罢了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In the Song Kingdom, steamed buns have fillings. The difference between them and baozi lies only in the thickness of the dough and the amount of filling."
   - split: 1
     subIndex: 1
     text: "馒头可能有各种口味，但这颗是猪肉包子，因为四师兄酷爱肥滋滋的猪肉，吃来满嘴油花。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mantou can come in various flavors, but this one is a pork bun. Fourth Senior Brother loves fatty pork, and it leaves his mouth greasy with oil."
   - split: 1
     subIndex: 2
     text: "很香，吃的时候经常令旁人垂涎。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's very fragrant, often making others salivate when they eat it."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -495,18 +450,15 @@
   splits:
   - split: 1
     text: "方便保存的干粮。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Portable dried rations"
   - split: 1
     subIndex: 1
     text: "有时是炙鸡、有时是鹿脯、獐豝、猪肉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Sometimes it's grilled chicken, sometimes it's deer meat, roe deer, or pork."
   - split: 1
     subIndex: 2
     text: "吃起来风味不同，滋味也过得去，没赶上饭点的时候可以充饥。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It tastes different and is quite satisfying; it can also serve as a meal when you miss a mealtime."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -539,18 +491,15 @@
   splits:
   - split: 1
     text: "用唐门赤炼砂盐腌的山猪肉，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mountain pork cured with Tang Clan Crimson Refining Salt,"
   - split: 1
     subIndex: 1
     text: "味辛而咸香，很有嚼劲"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Spicy and salty with a savory aroma, very chewy."
   - split: 1
     subIndex: 2
     text: "，有一股原始而质朴的风味，但是有毒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: ", There's a primal, earthy flavor, but it's poisonous."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -573,13 +522,11 @@
   splits:
   - split: 1
     text: "相传是女英所创，因为娥皇想吃鱼却怕刺，故以鱼糜混以蛋清、蜂蜜、糯米粉，蒸煮成糕。江陵无羡居的鱼膏尤为名贵，价格不斐。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It is said that this dish was created by Nu Ying because Empress Ehuang wanted to eat fish but was afraid of the bones. So, they mixed fish paste with egg white, honey, and glutinous rice flour, steaming it into a cake. The fish paste from the Wu brothers' residence in Jingling is especially precious and comes with a high price."
   - split: 1
     subIndex: 1
     text: "四师兄送你的这一块，是从地上捡到的，沾了灰尘，还发霉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fourth Senior Brother gave you this one; it was picked up off the ground, covered in dust, and even moldy."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -622,18 +569,15 @@
   splits:
   - split: 1
     text: "四师兄知道这笔买卖绝对不会失败。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fourth Senior Brother knows for sure that this transaction will never fail."
   - split: 1
     subIndex: 1
     text: "唐门里必定会有人买下这件事物，送给小师妹。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Someone in the Tang Clan will definitely buy this item and give it to Little Junior Sister."
   - split: 1
     subIndex: 2
     text: "不论是你或是谁都可以，四师兄不在意你们的儿女情长，他只在意他自己。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It doesn't matter if it's you or someone else; Fourth Senior Brother doesn't care about your romance, he only cares about himself."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -646,18 +590,15 @@
   splits:
   - split: 1
     text: "时下流行的玩具，在京师贵人口里谓之磨喝乐，源自梵文音译。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The popular toy of the time, known as Mohele in the mouths of the nobility in Jing Shi, is derived from a transliteration of the Sanskrit term."
   - split: 1
     subIndex: 1
     text: "但在你西蜀乡下，就朴实的称作泥孩儿。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In your western Shu countryside, it is simply and plainly called muddy child."
   - split: 1
     subIndex: 2
     text: "以土、木为材料做成的玩偶，栩栩如生。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dolls made from clay and wood are incredibly lifelike."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -690,13 +631,11 @@
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，最近削出心得来了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ye Yunzhao has recently gained new insights into the wooden Swords they carved at the request of the children from the outer fortress."
   - split: 1
     subIndex: 1
     text: "不仅学会用工具，还有闲心雕花，做成了听云剑的造型。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Not only did they learn to use tools, but they also took the time to carve flowers, crafting it into the shape of a Listening to the Clouds Sword."
   templates:
   - split: 1
     template: "{0}\\n{1}"

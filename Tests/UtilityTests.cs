@@ -96,6 +96,31 @@ public class UtilityTests
         Assert.Equal(expectedToken, replaced);
     }
 
+    // Regression test for the "・" (katakana middle dot, U+30FB) fragmentation bug: with the
+    // library's game-agnostic Default options, Decompose splits a "book・chapter"-style citation
+    // like "《宋刑统・户婚律》" into two independent fragments around a literal "・" - each
+    // translated with no shared context, then reassembled around that literal, which survives
+    // untranslated into the packaged output and fails line validation. GameFileHandling's
+    // SplitterOptions (see its comment for the full set of usages - "・" also separates
+    // skill/move names and provides dramatic character-spacing emphasis) absorbs "・" instead, so
+    // the whole unit stays one continuous fragment, sent to the LLM together with full context.
+    [Theory]
+    [InlineData("……按《宋刑统・户婚律》规定，男年十五，女年十三以上，可听婚嫁。")]
+    [InlineData("这是峨嵋派至高无上的神技，心剑・雷神脚。")]
+    [InlineData("完・全・复・活！")]
+    public void CompoundFieldSplitter_AbsorbsMiddleDot_KeepsUnitAsOneFragment(string cell)
+    {
+        var (defaultTemplate, defaultFragments) = CompoundFieldSplitter.Decompose(cell, CompoundFieldSplitterOptions.Default);
+        var (gameTemplate, gameFragments) = CompoundFieldSplitter.Decompose(cell, GameFileHandling.SplitterOptions);
+
+        Assert.True(defaultFragments.Count > 1, "Default options were expected to split around the middle dot for this regression to be meaningful.");
+        Assert.Contains("・", defaultTemplate);
+
+        Assert.Single(gameFragments);
+        Assert.Equal("{0}", gameTemplate);
+        Assert.Contains("・", gameFragments[0]);
+    }
+
     [Theory]
     [InlineData("[SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]", 1)]
     [InlineData("[System.Collections.Generic.Dictionary`2<System.Int64>，SweetPotato.Gift/GIFT_TYPE，System.Collections.Generic.Dictionary`2<System.Int64，System.Int32>>]", 2)]

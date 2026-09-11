@@ -1744,13 +1744,7 @@
 - raw: "Story/D_6_8_2_Break_01_100,哦．呵・呵。"
   splits:
   - split: 1
-    text: "哦．呵"
-  - split: 1
-    subIndex: 1
-    text: "呵。"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "哦．呵・呵。"
 - raw: "Story/D_6_8_2_Break_01_101,咦、咦？"
   splits:
   - split: 1
@@ -3491,22 +3485,7 @@
 - raw: "Story/D_6_8_3_323,放火・烧唐门！放火・烧唐门！大家跟我一起喊，放火・烧唐门！放火・烧唐门！"
   splits:
   - split: 1
-    text: "放火"
-  - split: 1
-    subIndex: 1
-    text: "烧唐门！放火"
-  - split: 1
-    subIndex: 2
-    text: "烧唐门！大家跟我一起喊，放火"
-  - split: 1
-    subIndex: 3
-    text: "烧唐门！放火"
-  - split: 1
-    subIndex: 4
-    text: "烧唐门！"
-  templates:
-  - split: 1
-    template: "{0}・{1}・{2}・{3}・{4}"
+    text: "放火・烧唐门！放火・烧唐门！大家跟我一起喊，放火・烧唐门！放火・烧唐门！"
 - raw: "Story/D_6_8_3_324,他妈的，臭巴婆，妳要玩火，先问我山火同不同意！把放火烧人这种恶毒的话挂嘴边，妳到底是什么样的人渣！"
   splits:
   - split: 1
@@ -5760,13 +5739,7 @@
 - raw: "Story/D_6_9_2_1_042,……按《宋刑统・户婚律》规定，男年十五，女年十三以上，可听婚嫁。"
   splits:
   - split: 1
-    text: "……按《宋刑统"
-  - split: 1
-    subIndex: 1
-    text: "户婚律》规定，男年十五，女年十三以上，可听婚嫁。"
-  templates:
-  - split: 1
-    template: "{0}・{1}"
+    text: "……按《宋刑统・户婚律》规定，男年十五，女年十三以上，可听婚嫁。"
 - raw: "Story/D_6_9_2_1_043,妾身命运乖舛，几番颠沛流离。其实今年二十有三，已过了适婚芳龄，说、说不定年纪比郎君还要大。换作别家，这年纪都不知是几个娃儿的娘亲，啊……啊呜。"
   splits:
   - split: 1

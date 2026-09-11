@@ -135,9 +135,7 @@
   splits:
   - split: 1
     text: "你将那日与大师兄遭到申屠龙袭击一事，告知邹掌门。"
-    translated: "You informed Sect Leader Zou that you and the Eldest Senior Brother had been attacked by Shentu Long that day."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You told Sect Leader Zou about the incident where you and Big Senior Brother were attacked by Shentu Long on that day."
 - raw: "Story/D_Travel_601_902_03_023,……你要说的，原来便是这事吗？"
   splits:
   - split: 1
@@ -1136,13 +1134,11 @@
   splits:
   - split: 1
     text: "牢牢记住一件事"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Remember one thing firmly"
   - split: 1
     subIndex: 1
     text: "我们岭南派弟子没有错，我们永远不会错，你不要向内找，要向外找！我们伤害别人都是为了正义！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Our Lingnan sect disciples are not wrong; we will never be wrong. Don't look inward, look outward! Any harm we cause others is for the sake of justice!"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1568,7 +1564,7 @@
   splits:
   - split: 1
     text: "岭南高足沉默过头了，使我无缘结识其他的侠士。我所知道的岭南弟子，全是这种人。"
-    translated: "The Lingnan Disciple was too silent, preventing me from meeting other martial artists. All the Lingnan Disciples I know are like this."
+    translated: "Lingnan's top disciple was too silent, leaving me no chance to meet other Heroes. All the Lingnan disciples I know are like this."
 - raw: "Story/D_6_9_2_3_114,各门各派，都有害群败类，你唐门难道就全是圣人？以偏概全可不好。"
   splits:
   - split: 1
@@ -1779,13 +1775,11 @@
   splits:
   - split: 1
     text: "叶家后人启"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Descendants of the Ye Family, read this"
   - split: 1
     subIndex: 1
     text: "「如晤，吾名岳珂，权任嘉兴军府奉议郎，兼管内勤农事。」"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As if we were face to face, my name is Yue Ke. I hold the position of Fengyi Lang at the Jiaxing Military Bureau and am also in charge of internal farming affairs."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1994,13 +1988,11 @@
   splits:
   - split: 1
     text: "弟，我生性如此，有许多话羞于启齿。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Little brother, this is just how I am; there are many things I'm too embarrassed to say."
   - split: 1
     subIndex: 1
     text: "情意满塞于胸，想让你知晓，却不善言词。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "My feelings are so full in my heart that I want you to know, but I'm not good with words."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -2008,13 +2000,11 @@
   splits:
   - split: 1
     text: "我……小、小女子独自练了很久的曲，满载我拙于表述的心迹。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I... I've been practicing this piece alone for a long time, filled with my clumsy attempts to express my feelings."
   - split: 1
     subIndex: 1
     text: "想学我师父，借丝竹代语，聊诉衷肠，请公子清听，成吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I want to learn from my master and use music from silk and bamboo to express my feelings. Will you, Young Lord, listen to me?"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -3116,18 +3106,15 @@
   splits:
   - split: 1
     text: "各位弟兄姊妹！欢呼吧！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Brothers and sisters! Rejoice!"
   - split: 1
     subIndex: 1
     text: "请君入瓮之计得售，他们要是还不投降，咱们就弃外堡上山包抄，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If luring them into a trap doesn't work, we'll abandon the outer fortress and encircle them from the mountains."
   - split: 1
     subIndex: 2
     text: "干掉他们首脑！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Take down their leader!"
   templates:
   - split: 1
     template: "⟦size=40⟧{0}⟦/size⟧⟦size=40⟧{1}⟦/size⟧⟦size=40⟧{2}⟦/size⟧"
@@ -3135,13 +3122,11 @@
   splits:
   - split: 1
     text: "我们以寡击众，能打成平手，等若是赢了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "We're outnumbered, yet we managed to fight to a draw‑that's as good as winning!"
   - split: 1
     subIndex: 1
     text: "笑给他们听！哈哈哈哈！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Laugh at them! HAHAHA!"
   templates:
   - split: 1
     template: "⟦size=40⟧{0}⟦/size⟧⟦size=40⟧{1}⟦/size⟧"
@@ -3195,13 +3180,11 @@
   splits:
   - split: 1
     text: "他们不上山，我们还不易拿到人质！全都在我们魏师嫂的意料之中！正是"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They won't go up the mountain, and it will be harder for us to get our hands on the hostages! Exactly as our Lady Wei predicted!"
   - split: 1
     subIndex: 1
     text: "帷幄于素帐之中，决胜于千里之外！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Strategize within the simple tent, and secure victory from a thousand miles away!"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -4049,13 +4032,11 @@
   splits:
   - split: 1
     text: "记得你从前住的那间空屋吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Do you remember the empty house where you used to live?"
   - split: 1
     subIndex: 1
     text: "因为靠近茅房，许多年来都没人租住，还维持当年陈设。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Because it was close to the privy, no one had rented it for many years, so it still maintained its original setup."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -4063,13 +4044,11 @@
   splits:
   - split: 1
     text: "当然记得，虽是空屋，但为了迟早能够租住出去，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Of course, even though it's an empty house, I still need to prepare it for whenever it can be rented out."
   - split: 1
     subIndex: 1
     text: "我还不时会去打扫。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I still occasionally go to clean it up."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -4077,13 +4056,11 @@
   splits:
   - split: 1
     text: "我先去布置一下，你等没人关注时，再来寻我。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'll go set things up. Wait until no one is paying attention, then come find me."
   - split: 1
     subIndex: 1
     text: "裳儿想在那里，告诉你从来无人知晓的秘密。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Shang'er wants to tell you there, a secret that no one has ever known."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -4465,13 +4442,11 @@
   splits:
   - split: 1
     text: "第一极招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "First Extreme Move"
   - split: 1
     subIndex: 1
     text: "烟波老钓叟。好醉亦难求。旧时梦、且寄云舟"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Foggy rivers, old fisherman. Drunken dreams are hard to find. Past dreams, entrust to the clouds and the boat."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -4484,13 +4459,11 @@
   splits:
   - split: 1
     text: "第二极招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Second Extreme Move"
   - split: 1
     subIndex: 1
     text: "卅载浮生功名求，终不过、土一抔。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A lifetime of thirty years in pursuit of fame and glory, in the end, no more than a handful of earth."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -4503,13 +4476,11 @@
   splits:
   - split: 1
     text: "第三极招"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Third Extreme Technique"
   - split: 1
     subIndex: 1
     text: "光阴能换酒。曲终愁更愁，好愿景、皆是空口。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Time can buy wine. When the music ends, sorrow grows. All beautiful wishes are but empty words."
   templates:
   - split: 1
     template: "{0}：{1}"

@@ -25,10 +25,28 @@ public static class GameFileHandling
     /// placeholders, then restores them with correct word-boundary spacing on reconstruct - see
     /// CompoundFieldSplitter.Decompose/Reconstruct), so no PlaceholderPatterns entry is needed for
     /// them either - DragonHeir's own GameFileHandling.cs deliberately leaves an equivalent
-    /// "\{\d+\}" pattern commented out for the same reason. Left as an empty/default instance;
-    /// revisit if a future dump reveals a real custom placeholder token.
+    /// "\{\d+\}" pattern commented out for the same reason.
+    ///
+    /// AdditionalAbsorbedCharacters carries one game-specific exception on top of that default: the
+    /// katakana middle dot '・' (U+30FB), which grepping Files/Raw/Dumped/*.csv for "・" shows used
+    /// throughout this game's text as an in-sentence separator within a single semantic unit - a
+    /// classical-text citation joining a book and chapter/section name (e.g. "《宋刑统・户婚律》"
+    /// citing the "Household and Marriage" chapter of the Song Code, or "《礼记・大学》" citing the
+    /// "Great Learning" chapter of the Book of Rites), a skill/move name joining a school technique
+    /// and its move (e.g. "心剑・雷神脚", "参同秘契・混元掌"), or dramatic emphasis spacing out
+    /// individual characters (e.g. "灭・谛・掌", "完・全・复・活") - never a genuine game-syntax
+    /// separator. Left unabsorbed, '・' sits outside CompoundFieldSplitter's default CJK-punctuation
+    /// absorption set (it lives in the "Katakana" Unicode block, not "CJK Symbols and
+    /// Punctuation"/"Halfwidth and Fullwidth Forms"), so it acts as a hard fragment boundary: e.g.
+    /// "……按《宋刑统・户婚律》规定，..." decomposes into two independent fragments translated with
+    /// no shared context, reassembled around a literal '・' that survives untranslated into the
+    /// English output and fails line validation. Absorbing it keeps each such unit
+    /// (e.g. "宋刑统・户婚律") as one continuous fragment, translated together with full context.
     /// </summary>
-    internal static readonly CompoundFieldSplitterOptions SplitterOptions = new();
+    public static readonly CompoundFieldSplitterOptions SplitterOptions = new()
+    {
+        AdditionalAbsorbedCharacters = ['・'],
+    };
 
     /// <summary>
     /// Game-specific translation repair/validation hooks - see

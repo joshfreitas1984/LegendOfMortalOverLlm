@@ -7,13 +7,11 @@
   splits:
   - split: 1
     text: "小师妹随身配戴的香囊，有她喜欢的香料。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The sachet that Little Junior Sister wears contains the fragrances they like."
   - split: 1
     subIndex: 1
     text: "可以驱虫、驱蛇，但闻久会中毒。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can repel insects and snakes, but prolonged exposure will cause Poisoning."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -21,20 +19,16 @@
   splits:
   - split: 1
     text: "大师兄的涂鸦"
-    translated: "Big Brother's Doodle"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother's doodles"
 - raw: "Special/Desc/1001,完全不知道在画什么东西，\\n但是很好笑所以姑且留着。"
   splits:
   - split: 1
     text: "完全不知道在画什么东西，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While completely clueless about what they're drawing,"
   - split: 1
     subIndex: 1
     text: "但是很好笑所以姑且留着。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's pretty funny, so I'll keep it for now."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -47,13 +41,11 @@
   splits:
   - split: 1
     text: "夏侯兰爱用的发带，不是什么希罕的事物，质地也普通。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Xiahou Lan's favorite hair tie is not something rare or special; it's just ordinary."
   - split: 1
     subIndex: 1
     text: "因为她配戴过，所以才意义非凡。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's significant because they have worn it before."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -66,13 +58,11 @@
   splits:
   - split: 1
     text: "上官萤的发簪，簪身纯金，串有三颗珍珠，异常名贵。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Shangguan Ying's hairpin is made of pure gold and features three pearls, making it extremely valuable."
   - split: 1
     subIndex: 1
     text: "是她谈成第一笔大买卖时，奢侈一回送给自己的礼物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It's a gift she treated herself to when she landed her first big deal."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -85,13 +75,11 @@
   splits:
   - split: 1
     text: "龙湘的玉髓发髻，共有两对，来自大宋进贡给金国的一尊玉龙像。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Long Xiang's jade marrow hairpin, of which there are two pairs, came from a jade dragon statue that the Song Dynasty had presented to the Jin Dynasty."
   - split: 1
     subIndex: 1
     text: "她爹龙渊少年时引以为耻，愤而折断龙角逃亡，后来做成发簪，留赠女儿。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While they were young, their father, Long Yuan, was ashamed of his dragon horns and angrily broke them off before fleeing his hometown. Later, he crafted the broken dragon horns into a hairpin and left it to his daughter. Later, he fashioned the broken horns into a hairpin and left it as a gift for his daughter."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -104,13 +92,11 @@
   splits:
   - split: 1
     text: "叶云裳所收藏的第一号宝物，象牙梳子。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ye Yunshang's prized possession number one: the ivory comb."
   - split: 1
     subIndex: 1
     text: "纹饰为云与叶，赠你以为结发之证。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The design is clouds and leaves, given to you as a symbol of our lifelong commitment."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -133,18 +119,15 @@
   splits:
   - split: 1
     text: "你以纯熟匠艺打造的掌心玩物，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The palm‑sized trinket crafted with masterful skill,"
   - split: 1
     subIndex: 1
     text: "会叫会跳，有多种变速与音效。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Can call out and jump, with multiple speed variations and sound effects."
   - split: 1
     subIndex: 2
     text: "无法当作暗器使用，会坏掉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Cannot be used as a hidden weapon; it will break."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -157,13 +140,11 @@
   splits:
   - split: 1
     text: "七夕日供乞巧用的娃娃。常用木、泥或蜡制成，好一点的会用瓷、玉。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dolls used on Qixi Day for wishing for dexterity. They are commonly made of wood, clay, or wax, with better ones made of porcelain or jade."
   - split: 1
     subIndex: 1
     text: "常做成可爱儿童的模样，沦为孩童的玩具。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Often taking the form of a cute child, they become the toy of a child."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -176,13 +157,11 @@
   splits:
   - split: 1
     text: "小竹满怀感激，鼓起勇气送出的按摩券。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Xiao Zhu, full of gratitude, plucked up the courage to give the massage voucher."
   - split: 1
     subIndex: 1
     text: "多年无人敢用，辗转易主，来到你的手里。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This has been unused for many years, changing hands repeatedly before landing in yours."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -225,13 +204,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -244,13 +221,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -263,13 +238,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -282,13 +255,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -301,13 +272,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -320,13 +289,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -339,13 +306,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -358,13 +323,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -377,13 +340,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -396,13 +357,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -415,13 +374,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -434,13 +391,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -453,13 +408,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -472,13 +425,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -491,13 +442,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -510,13 +459,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -529,13 +476,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -548,13 +493,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -567,13 +510,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -586,13 +527,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -605,13 +544,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -624,13 +561,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -643,13 +578,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -662,13 +595,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -681,13 +612,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -700,13 +629,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -719,13 +646,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -738,13 +663,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -757,13 +680,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -776,13 +697,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -795,13 +714,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -814,13 +731,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -833,13 +748,11 @@
   splits:
   - split: 1
     text: "出自神秘组织耕阳读书斋的江湖刊物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "From a mysterious organization called the Yang Cultivation Reading Pavilion, a publication for Jianghu."
   - split: 1
     subIndex: 1
     text: "除了讲说江湖奇闻轶事之外，还有连载武侠小说。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While sharing stories of Jianghu oddities and legends, they also serialize Wuxia novels."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -862,13 +775,11 @@
   splits:
   - split: 1
     text: "唐门失传的暗器，这枚透明的花瓣，其庐山真面目是一种名叫「玻璃」的宝物。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Tang Clan's lost Hidden Weapon, this transparent petal, in reality is a treasure called glass."
   - split: 1
     subIndex: 1
     text: "与寻常琉璃不同，清澈如水，击发出去无影无形，凶险异常。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlike ordinary glass, it is clear as water and, upon release, becomes invisible and traceless, exceptionally dangerous."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -881,13 +792,11 @@
   splits:
   - split: 1
     text: "小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Little Bamboo removed the water and fireproof black silkworm gloves and sewed them into your clothes."
   - split: 1
     subIndex: 1
     text: "她拙于言词，只能以此表明心迹，只愿风雨雷电不能加诸你身，余生无病无灾。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They are tongue‑tied and can only express their feelings in this way, hoping that storms and misfortunes will not befall you, and that the rest of your life will be free from illness and disaster."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -900,13 +809,11 @@
   splits:
   - split: 1
     text: "小梅爱用的匕首，乃是铁拳前掌门手把手带着小竹，为小梅打造的兵器。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Little May's favorite dagger was crafted by the former Sect Leader of Iron Fist, who personally guided Little Bamboo in creating the weapon for Little May."
   - split: 1
     subIndex: 1
     text: "玉霄神是对梅花高洁品行的至高赞赏。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Yuxiao Shrine is the highest praise for plum blossoms' noble virtue."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -919,13 +826,11 @@
   splits:
   - split: 1
     text: "唐门承传至今的古老小剑，以现今弃用的方法铸造。将剑中钢"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The ancient small Sword passed down by the Tang Clan, forged using methods that are now obsolete. Embed the steel within the Sword."
   - split: 1
     subIndex: 1
     text: "球灌注水银，使重心无时不刻变动，须以内力制驭。如果能够熟练使用，可谓变化无穷。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fill the sphere with mercury so that its center of gravity is always shifting. You must use Inner Power to control it. If you can use it skillfully, the possibilities are endless."
   templates:
   - split: 1
     template: "{0} {1}"
@@ -938,13 +843,11 @@
   splits:
   - split: 1
     text: "青衫有缺，蓝衣来补。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A tattered blue robe is mended by a blue‑clad savior."
   - split: 1
     subIndex: 1
     text: "用师父袍子衣料缝补的破衣，不仔细看的话青蓝两色不分彼此，说是雪山派弟子的制服也不为过。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The tattered clothes patched with material from a master's robe blend indigo and blue so seamlessly that they could easily pass as the uniform of a Snow Mountain Sect disciple upon closer inspection."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -957,18 +860,15 @@
   splits:
   - split: 1
     text: "空前未有的危险兵器图纸。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unprecedentedly dangerous weapon blueprints"
   - split: 1
     subIndex: 1
     text: "小竹被恨意支配，画就了此物，冷静下来，连她本人都为之胆怯。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Driven by hatred, Xiao Zhu drew this object, and even they themselves became afraid when they calmed down."
   - split: 1
     subIndex: 2
     text: "不知把这件事物带来人间究竟是对是错。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I don't know if bringing this thing to the human world was right or wrong."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -981,18 +881,15 @@
   splits:
   - split: 1
     text: "单方面火力压制、凌迟敌军的战争兵器。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While adjusting the strategy, they gradually wear down and torment the enemy."
   - split: 1
     subIndex: 1
     text: "不必经年累月的训练就能轻易操作，令天下弓手尽皆黯然。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Without years of rigorous training, they can effortlessly handle it, leaving all archers in the world in awe."
   - split: 1
     subIndex: 2
     text: "这件兵器将是导致火器被广泛实用于战争的元凶。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This weapon will be the catalyst for the widespread use of firearms in warfare."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1005,13 +902,11 @@
   splits:
   - split: 1
     text: "将韧性极强的树皮和棉混合，以唐门药水浸泡，经过反复垂打而成。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Mix extremely resilient tree bark with cotton, soak it in Tang Clan medicine solution, and beat it repeatedly to create the material."
   - split: 1
     subIndex: 1
     text: "虽然是纸，但层层堆栈，异常结实，遇水更韧，利刃飞矢亦不能轻易洞穿，而且远较寻常铁甲轻盈。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Though it is paper, when stacked in layers, it becomes incredibly sturdy. It withstands water and does not easily tear, even when struck by sharp blades or arrows. Moreover, it is much lighter than ordinary iron armor."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1044,13 +939,11 @@
   splits:
   - split: 1
     text: "叶云裳参详青城剑法，为你改良的制服。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ye Yunshang studied the Qingcheng Sword Technique and improved your uniform for you."
   - split: 1
     subIndex: 1
     text: "在诸要害处缝上牛皮，不妨碍活动，却能有效预防意外发生。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Stitch pieces of cowhide over the vital points; it won't impede movement but will effectively prevent accidents."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1063,13 +956,11 @@
   splits:
   - split: 1
     text: "岳王爷生前爱用的名枪，浇过英雄碧血，可昭浩然正气，破虏光复河山。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "General Yue's beloved spear, bathed in the green blood of heroes, shines with righteous spirit, breaking the enemy and restoring the land."
   - split: 1
     subIndex: 1
     text: "天命会指引它，来到下一个英雄手中。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Fate will guide it to the next hero."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1082,13 +973,11 @@
   splits:
   - split: 1
     text: "记载了特别好吃的叫化鸡秘方，是王二壮拿手绝活。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "While correcting, they found a secret recipe for particularly delicious Beggar's Chicken, which is Wang Erzhuang's signature dish."
   - split: 1
     subIndex: 1
     text: "导致龙湘终生不能摆脱鸡腿的罪魁祸首。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The culprit behind Long Xiang's lifelong inability to escape chicken legs."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1101,18 +990,15 @@
   splits:
   - split: 1
     text: "岭南派青脸天王亲赠的五彩龙砂丹，分别代表五行，分开服用每一粒都足以致命。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Five‑Colored Dragon Sand Pill, personally bestowed by the Green‑Faced Heavenly King of the Lingnan School, represents the five elements. Each pill, when taken separately, is enough to be fatal."
   - split: 1
     subIndex: 1
     text: "但若按着正确的顺序、时辰服用，则能相生相克，化其药力以为己用。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "But if taken in the correct order at the right times, the medicines will complement and counterbalance each other, harnessing their power for one's own use."
   - split: 1
     subIndex: 2
     text: "龙渊弄丢了一粒，导致相克循环无法收束，只好送你碰碰运气，死了也是你自找的。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Long Yuan lost one of them, causing the opposing cycle to go unchecked. They can only send you to try your luck. If you die, it's your own fault."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1125,23 +1011,19 @@
   splits:
   - split: 1
     text: "龙渊从极乐教夺来的九泉丹方。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Long Yuan obtained the recipe for the Nine Springs Pill from the Blissful Sect."
   - split: 1
     subIndex: 1
     text: "相传「九转轮回大法」功力每深一层，就会面临一次生死大关，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "It is said that with each deeper level of the Ninefold Cycle of Rebirth Technique, one faces a major life‑and‑death trial."
   - split: 1
     subIndex: 2
     text: "届时就得靠这九泉丹由死苏生，脱胎换骨。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Then it will rely on the Nine Springs Pill to bring them back to life, to rebirth and renewal. While correcting, they will rely on the Nine Springs Pill to revive them from the dead and bring about a complete transformation."
   - split: 1
     subIndex: 3
     text: "你可以拿去炼丹试试，但是吃了后果自行负责。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You can try making elixirs with it, but you'll be responsible for any consequences of consuming them."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}"
@@ -1164,13 +1046,11 @@
   splits:
   - split: 1
     text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Grandmaster Xi Yi retired to Mount Hua and fell into a long sleep from which they never woke, achieving enlightenment while sleeping."
   - split: 1
     subIndex: 1
     text: "此丹方仅为辅药，倘若再得心诀，合为《睡功》。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This formula is merely supplementary; if paired with the correct technique, it becomes part of the Sleeping Mastery."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1183,18 +1063,15 @@
   splits:
   - split: 1
     text: "真名为「万法通灵神验膏」。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Its true name is the 'Universal Divine Efficacy Ointment.'"
   - split: 1
     subIndex: 1
     text: "传说能够医死人、肉白骨，治万病解万毒，调水可以外敷，内服可以镇毒，舔一舔消暑止腹泻，研磨成粉末，点燃还可以驱蚊，与胡椒粉毒并为唐门两大神药。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Legend has it that they can revive the dead, heal bones, cure all diseases, and counter all poisons. Applied externally, they can soothe; taken internally, they can suppress poison. Even a lick can cool the heat and stop diarrhea, and ground into powder, they can be burned to repel mosquitoes. Along with pepper powder, these are considered the two divine medicines of the Tang Clan."
   - split: 1
     subIndex: 2
     text: "可惜自从唐门药典被焚，药方早已失佚。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unfortunately, since the Tang Clan's pharmacopoeia was burned, the prescriptions have long since been lost."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"

@@ -18,6 +18,8 @@ models:
 glossaryPreset:
   usePresetChineseGlossary: true
 
+useContinuousWorkerPool: true
+maxConcurrency: 4 # Ollama is capped anyway
 retryCount: 3
 batchSize: 20
 skipLineValidation: false

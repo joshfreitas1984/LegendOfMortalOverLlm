@@ -237,13 +237,11 @@
   splits:
   - split: 1
     text: "这地方好渗人……老人家都说"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This place is so creepy......The elders always say"
   - split: 1
     subIndex: 1
     text: "宁睡荒坟，不宿荒庙。我们还是别在这地方待了吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Rather than spend the night in an abandoned temple, they would prefer to sleep in a desolate grave. Let's leave this place, shall we?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -426,13 +424,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［道德］为［中庸］以下"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "[Morality] is below [the Mean]"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -490,18 +486,15 @@
   splits:
   - split: 1
     text: "这地方好渗人……你看那人一看就不是好东西，说不定是鬼。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This place is creepy......You look at that person and can tell they're not a good person; they might be a ghost. Look at that person; they don't seem like a good person, they might even be a ghost."
   - split: 1
     subIndex: 1
     text: "老人家都说"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Elders always say"
   - split: 1
     subIndex: 2
     text: "宁睡荒坟，不宿荒庙。我们还是别在这地方待了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Would rather sleep in a deserted tomb than spend the night in a deserted temple. We should leave this place."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}：{2}⟦/size⟧"
@@ -781,13 +774,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［道德］为［坏人］以下"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For the sake of the villains below, I uphold my morality."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -951,13 +942,11 @@
   splits:
   - split: 1
     text: "兄台，你不去追，我如何有脸说体己话，宽慰小娘子呢？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Brother, if you don't go after her, how can I have the face to say comforting words to the Young Miss?"
   - split: 1
     subIndex: 1
     text: "这点儿小玩意你拿着，回头我见着大公子，再替你说些好话得了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Take this little trinket with you. Later, when I see Young Lord, I'll say a few good words for you."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -1058,13 +1047,11 @@
   splits:
   - split: 1
     text: "实不相瞒，他是个假道士。经常对嫂子毛手毛脚，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "To be honest, he's a fake Taoist. He often makes inappropriate advances toward his aunt‑in‑law."
   - split: 1
     subIndex: 1
     text: "娘子受辱于他们兄弟，实因苦不堪言，又求助无门，才把芳心寄托在小生身上。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "My lady suffered at the hands of those brothers and found the pain unbearable, with no one to turn to for help. That's why she placed her heart in my care."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -1688,13 +1675,11 @@
   splits:
   - split: 1
     text: "公子侠"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Young Lord Xia"
   - split: 1
     subIndex: 1
     text: "「吃我的石灰粉啦！」"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Eat my lime powder!"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -2074,13 +2059,11 @@
   splits:
   - split: 1
     text: "我、我知道你在想什么。肯定在想"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I know what you're thinking. No doubt about it."
   - split: 1
     subIndex: 1
     text: "我要是不听废话，一剑刺死了他，他就没机会再使诡计了吧？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If I didn't listen to their nonsense and just stabbed them with my sword, they wouldn't have had the chance to scheme anymore, would they?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -2680,16 +2663,12 @@
   splits:
   - split: 1
     text: "我大师兄不是淫贼"
-    translated: "My senior brother is not a lecher"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "My Big Senior Brother is not a lecherous bandit."
 - raw: "Story/D_S0017_05_016,我大师兄唐布衣行事是放浪形骸，但他胸怀磊落，决计不会像这几个淫贼……应该不会。"
   splits:
   - split: 1
     text: "我大师兄唐布衣行事是放浪形骸，但他胸怀磊落，决计不会像这几个淫贼……应该不会。"
-    translated: "My senior brother Tang Buyi acts in a free‑spirited manner, but he has a broad mind and will definitely not be like these lecherous scoundrels... or at least, he shouldn't be."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "My Big Senior Brother Tang Buyi acts unrestrained, but his heart is noble and upright; he wouldn't behave like these lecherous bandits... he probably wouldn't."
 - raw: "Story/D_S0017_05_017,哦，明白了，我会调查清楚，核对过他本人口供才能动手。"
   splits:
   - split: 1
@@ -2699,16 +2678,12 @@
   splits:
   - split: 1
     text: "我大师兄是淫贼，你一定要杀了他"
-    translated: "My senior brother is a lecher; you must kill him."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "My Big Senior Brother is a lecher; you must kill him."
 - raw: "Story/D_S0017_05_018,我大师兄是个淫贼，不知坏了多少姑娘的名声。湘姐，你可千万不能放过他！"
   splits:
   - split: 1
     text: "我大师兄是个淫贼，不知坏了多少姑娘的名声。湘姐，你可千万不能放过他！"
-    translated: "My senior brother is a lecher, and I don't know how many girls' reputations he has ruined. Sister Xiang, you must not let him off the hook!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "My Big Senior Brother is a lecher; he has ruined the reputations of so many girls. Sister Xiang, you must not let him get away with it!"
 - raw: "Story/D_S0017_05_019,连同门师弟都这样说，看来这唐布衣真不是个好东西。不过事关人命，我得调查清楚，核对过他本人口供才能动手。"
   splits:
   - split: 1
@@ -2881,13 +2856,11 @@
   splits:
   - split: 1
     text: "当年高宗皇帝听信奸臣秦桧所言，一心向金求和，连下十二道金牌召回岳飞，岳王爷悲叹"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "During Emperor Gaozong's reign, he listened to the deceitful words of Chancellor Qin Hui and was determined to seek peace with the Jin. He issued twelve gold orders to recall Yue Fei, who lamented this turn of events."
   - split: 1
     subIndex: 1
     text: "『十年之功，废于一旦』。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A decade's work is ruined in an instant."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -2910,13 +2883,11 @@
   splits:
   - split: 1
     text: "江湖快报"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jianghu Daily News"
   - split: 1
     subIndex: 1
     text: "「江湖传说，并非如此。」"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Jianghu legends are not like that"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -3329,13 +3300,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "已经认识叶云舟"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I already know Ye Yunzhao"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -4027,13 +3996,11 @@
   splits:
   - split: 1
     text: "「啊！唐门的人来了！」"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ah! The Tang Clan people have arrived!"
   - split: 1
     subIndex: 1
     text: "虚张声势"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Bluffing"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -4883,13 +4850,11 @@
   splits:
   - split: 1
     text: "叶兄，配合一下，快配合一下。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Brother Ye, cooperate, hurry up and cooperate"
   - split: 1
     subIndex: 1
     text: "我二师兄医术可比李大夫都高明太多了，云裳妹子的病还须请他医治。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "My Second Senior Brother's medical skills are much more advanced than Doctor Li's. Yun Chang's illness should be treated by him."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -5555,13 +5520,11 @@
   splits:
   - split: 1
     text: "前辈明鉴"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Senior, please enlighten me"
   - split: 1
     subIndex: 1
     text: "叶家曾祖确实是武康军节度使岳云公的部属，有岳云公所赐听云剑为证。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The great‑great‑grandfather of the Ye family was indeed under the command of Lord Yueyun, the military governor of Wu‑Kang, as evidenced by the Cloud‑Listening Sword granted by Lord Yueyun."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -5594,13 +5557,11 @@
   splits:
   - split: 1
     text: "各位武林同道，恕叶某开门见山说了"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Dear fellow members of Wulin, please allow me to be straightforward."
   - split: 1
     subIndex: 1
     text: "宝藏一说，完全是子虚乌有。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The idea of a treasure is completely baseless."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -5628,13 +5589,11 @@
   splits:
   - split: 1
     text: "此言一出，偌大练武场上，鸦雀无声。心下不约而同均想"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "As soon as those words were spoken, the vast training ground fell silent. Everyone thought to themselves,"
   - split: 1
     subIndex: 1
     text: "天下有和事佬这么凶的吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Is there such a thing as a peaceful mediator who's this fierce?"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -5770,13 +5729,11 @@
   splits:
   - split: 1
     text: "不能说这种话，唐门心胸最狭窄，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Don't say things like that; the Tang Clan has the narrowest mind."
   - split: 1
     subIndex: 1
     text: "你要面子说来日再讨教，他们是真的会找到你家里去的！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If you save face and say you'll meet again another day, they'll genuinely come looking for you at your house!"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -5794,18 +5751,15 @@
   splits:
   - split: 1
     text: "走了，小伙子，你是初生之犊不畏虎。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Come on, young man, you're fearless like a calf that doesn't know tigers."
   - split: 1
     subIndex: 1
     text: "你不见外边这么多人，敢进大院的，就你们这些嘴上没毛的年轻小伙吗？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Don't you see all the people outside? Only you young guys with no facial hair dare to enter the compound."
   - split: 1
     subIndex: 2
     text: "你要是听过、看过唐老魔千里追命，就不敢放肆了，还不走，找死不成！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "If you've heard of or seen Tang Laomo chasing Death over a thousand miles, you wouldn't dare be so reckless. Aren't you leaving? Don't you want to court death?"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧⟦size=24⟧{2}⟦/size⟧"
@@ -6149,9 +6103,7 @@
   splits:
   - split: 1
     text: "……不知我如今的实力，和大师兄、二师兄比照如何。一直以来，难事都指望他们。"
-    translated: "...I wonder how my current strength compares to that of the First Senior Brother and the Second Senior Brother. I've always relied on them for difficult tasks."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "... I wonder how my current strength compares to Big Senior Brother and Second Senior Brother. All along, I've relied on them to handle difficult tasks."
 - raw: "Story/D_S0019_01_003,……唉，心急如焚啊。"
   splits:
   - split: 1
@@ -6268,13 +6220,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "心上人不是龙湘"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "My beloved is not Long Xiang"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -6648,9 +6598,7 @@
   splits:
   - split: 1
     text: "你！你给我听喔！一般人都会说好吧！我都这么烦恼了，你还这样！太坏了你！你和你大师兄就知道耍嘴皮子欺负别人老实！"
-    translated: "You! Listen to me! Most people would just say fine! I'm already so troubled, and you're still like this! You're so mean! You and your senior brother only know how to use your words to bully honest people!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You! You listen to me! Normally, people would say 'okay,' but when I'm this upset, you still act like this! That's really bad! You and your Big Senior Brother are always just using your words to bully honest people!"
 - raw: "Story/D_S0019_01_092,好啦，好啦，把剑收起来，冷静点。"
   splits:
   - split: 1
@@ -6912,13 +6860,11 @@
   splits:
   - split: 1
     text: "听说我爹辞世之前痛心疾首。疾呼"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I heard that before my father passed away, he was heartbroken and cried out in distress."
   - split: 1
     subIndex: 1
     text: "『怪我龙渊错信于人，今日断一手足，以谢英魂！』旋即拔剑代翼王受死，以谢旧魔教战役之中抛头颅、洒热血的好弟兄。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "'I blame myself, Long Yuan, for trusting the wrong people. Today, I sever one of my limbs to atone for the spirits of my fallen comrades from the battle against the old Demon Sect!' With that, they drew their sword to take the fall for Prince Yi, honoring the brothers who had given their lives in the fight against the old Demon Sect."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -7111,9 +7057,7 @@
   splits:
   - split: 1
     text: "要是大师兄还在，湘姊多半就舍不得走了。如今还有谁能让她留恋呢？"
-    translated: "If Senior Brother was still around, Sister Xiang would probably be reluctant to leave. Who else could make her feel nostalgic now?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "If Big Senior Brother were still around, Xiang‑zi would probably hesitate to leave. Who else could possibly make her want to stay now?"
 - raw: "Story/D_S0019_01_174,剩你吧。"
   splits:
   - split: 1
@@ -7188,9 +7132,7 @@
   splits:
   - split: 1
     text: "说得也是，是我想多了，你又不是大师兄，怎能日行千里去做案？"
-    translated: "You're right, I was overthinking. You're not the Master Brother, how could you travel a thousand miles a day to commit a crime?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "That's true, I was overthinking it. You're not Big Senior Brother, so how could you travel a thousand miles a day to commit a crime?"
 - raw: "Story/D_S0100_01_004,做什么案？"
   splits:
   - split: 1
@@ -7453,9 +7395,7 @@
   splits:
   - split: 1
     text: "先对付了三师兄，紧接着就要对付二师兄，然后对付大师兄！"
-    translated: "First deal with the Third Senior Brother, then the Second Senior Brother, and finally the First Senior Brother!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "First, deal with Third Senior Brother, then Second Senior Brother, and finally Big Senior Brother!"
 - raw: "Story/D_S0100_01_01_025,可是二师兄已经叛出本门了，还怎么对付？"
   splits:
   - split: 1
@@ -8360,13 +8300,11 @@
   splits:
   - split: 1
     text: "师弟，这等丑事，不宜外扬。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Junior Brother, such an ugly affair shouldn't be spread around."
   - split: 1
     subIndex: 1
     text: "打发走外人，再来细究。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Get rid of the outsiders and then we'll look into it more carefully."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -8538,13 +8476,11 @@
   splits:
   - split: 1
     text: "他与我如此相像，想来也是可怜，走投无路罢了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They are so alike me, poor them, they must be in a desperate situation with no way out."
   - split: 1
     subIndex: 1
     text: "宽恕"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Forgiveness"
   templates:
   - split: 1
     template: "{0}({1})"
@@ -8944,13 +8880,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［道德］为［坏人］以下"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "For the sake of the villains below, I uphold my morality."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -9124,9 +9058,7 @@
   splits:
   - split: 1
     text: "你怎么武功那么差劲，还成日跟我吹嘘，说你和大师兄伯仲之间。结果连一个外姓弟子都打不过，丢人现眼！我怎能跟你这种只有嘴皮子的男人过日子？我们之间，就当没这回事！"
-    translated: "How come your martial arts are so poor, yet you constantly boast about being on par with the senior brother? You can't even beat an outsider disciple‑how embarrassing! How can I live with a man who's all talk? Let's pretend this never happened between us!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "How can your martial arts skills be so poor? Yet you boast all day long about being on par with Big Senior Brother. You can't even beat an outer‑clan disciple! You're embarrassing yourself! How can I live with a man who only talks big? There's nothing between us, as if this never happened!"
 - raw: "Story/D_S0105_01_02_003,不，等等，不要啊师妹！"
   splits:
   - split: 1
@@ -9345,13 +9277,11 @@
   splits:
   - split: 1
     text: "什么"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What?"
   - split: 1
     subIndex: 1
     text: "我犯什么事了，师姑要如此针对我？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What did I do to provoke my auntie Shifu that they're targeting me like this?"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -9409,13 +9339,11 @@
   splits:
   - split: 1
     text: "你们"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You guys"
   - split: 1
     subIndex: 1
     text: "你们……！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You...!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -9953,9 +9881,7 @@
   splits:
   - split: 1
     text: "大师兄，方才不见你踪影，都完事了你才冒出来。"
-    translated: "Senior Brother, you weren't around earlier; you only appeared after everything was done."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother, I didn't see you around just now. You only showed up after everything was finished."
 - raw: "Story/D_S0106_02_006,师弟，你别误会啊，我方才那话绝不是说你。我对丐帮很尊重的。"
   splits:
   - split: 1
@@ -10525,18 +10451,15 @@
   splits:
   - split: 1
     text: "你这个无能的废物！活在世上糟蹋米粮！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You useless good‑for‑nothing! You're wasting rice by living!"
   - split: 1
     subIndex: 1
     text: "你这种垃圾就该出生被扔进厨余桶，屎还能作肥料，你连屎都不如！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Trash like you should have been thrown in the food waste bin at birth; even shit can be used as fertilizer, but you're not even worth that!"
   - split: 1
     subIndex: 2
     text: "去死！就当是做善事，给我立刻去死，你死了，世道就清平了！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Die! Think of it as a good deed, die right now! If you die, the world will be at peace!"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧⟦size=24⟧{2}⟦/size⟧"
@@ -10804,13 +10727,11 @@
   splits:
   - split: 1
     text: "好。话说大哥夤夜外出，是要上哪儿"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alright. I was wondering, where is Senior Brother going out at midnight?"
   - split: 1
     subIndex: 1
     text: "啊。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Ah"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -11088,9 +11009,7 @@
   splits:
   - split: 1
     text: "这阴阳怪气、说话呛人的调调，怎么好像大师兄。"
-    translated: "This strange and sarcastic tone, the way of speaking that provokes others, it seems just like Senior Brother."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "This yin‑yang guai qi, snarky tone sounds just like Big Senior Brother."
 - raw: "Story/D_S0301_02_011,说得对，倒是我犯蠢了，哈。"
   splits:
   - split: 1
@@ -11175,13 +11094,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［性情］为［勇敢］以下"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Temperament: Bravery and below"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -11225,13 +11142,11 @@
   splits:
   - split: 1
     text: "解锁条件"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Unlock conditions: ???"
   - split: 1
     subIndex: 1
     text: "［性情］为［谨慎］以上"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "[Nature] is [Cautious] or above"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -11414,9 +11329,7 @@
   splits:
   - split: 1
     text: "是你吗，大师兄？"
-    translated: "Is that you, Senior Brother?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Is it you, Big Senior Brother?"
 - raw: "Story/D_S0301_02_061,不是，你别吵。转回去，别扭来扭去，别忘了你现在是俘虏。"
   splits:
   - split: 1
@@ -11461,9 +11374,7 @@
   splits:
   - split: 1
     text: "大师兄在这二人口中，就像某种脏东西一样被嫌来嫌去。"
-    translated: "The senior brother was treated like some kind of filthy thing, being criticized back and forth by the two of them."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother was being treated like some kind of filth, being despised back and forth by these two people."
 - raw: "Story/D_S0301_02_069,都给我收声！我才是唐布衣！"
   splits:
   - split: 1
@@ -11691,9 +11602,7 @@
   splits:
   - split: 1
     text: "大师兄颠颠狂狂，脑子还是挺清醒的。"
-    translated: "Eldest Senior Brother is a bit crazy, but their mind is still quite clear."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother was acting wildly, but their mind was still quite clear."
 - raw: "Story/T_S0301_02_007,世人总觉得魔教阴森恐怖，为了行恶而行恶，不可理喻，从不去深究缘由。然而说到底，他们也都是人，怎会存心找死？江陵之围，必有蹊跷。"
   splits:
   - split: 1
@@ -11770,9 +11679,7 @@
   splits:
   - split: 1
     text: "呃啊！大师兄你干嘛！"
-    translated: "Uh! Senior Brother, what are you doing!"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Uh! Big Senior Brother, what are you doing!"
 - raw: "Story/D_S0301_02_122,没办法，你不晕，王帮主一定不肯讲嘛。"
   splits:
   - split: 1
@@ -11828,13 +11735,11 @@
   splits:
   - split: 1
     text: "哇"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wow──!"
   - split: 1
     subIndex: 1
     text: "大师兄，救我呀！！！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Big Senior Brother, save me!!!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -11907,9 +11812,7 @@
   splits:
   - split: 1
     text: "对，但我大师兄不是，他本来是正常人。是被我用屁股夹了脑子才变成这副痴傻德行的。"
-    translated: "That's right, but my senior brother is not like that; he was originally a normal person. It was because I squeezed his brain with my butt that he became this foolish way."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Yes, but my Big Senior Brother isn't like that. He used to be a normal person. It was only after I squeezed his brain with my ass that he turned into this foolish state."
 - raw: "Story/D_S0301_02_01_014,哈哈哈哈哈！"
   splits:
   - split: 1
@@ -11984,9 +11887,7 @@
   splits:
   - split: 1
     text: "你被拍了一掌，扑在地上动弹不得，意识将远之际，仍见大师兄无动于衷。"
-    translated: "You were struck and fell to the ground, unable to move. As your consciousness began to fade, you still saw Senior Brother remaining unmoved."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You were hit by a palm strike, crashed to the ground, and were unable to move. As your consciousness faded, you saw Big Senior Brother remaining indifferent."
 - raw: "Story/D_S0301_02_02_007,找到了，二公子在这里！怎么搞得这是？夜游症犯了不成？好端端的床不睡，跑到荒郊野岭躺着。"
   splits:
   - split: 1
@@ -12093,7 +11994,7 @@
   splits:
   - split: 1
     text: "武林与朝廷旧怨实多，积重难返。除非知晓旧事的武林人死绝，抑或改朝换代，否则焉能再有侠士甘愿舍身为国。"
-    translated: "The old grievances between the Wulin and the Imperial Court are numerous and deeply entrenched. Unless all those in the Wulin who know the past are wiped out, or a change of dynasty occurs, how can there be any chivalrous individuals willing to sacrifice themselves for the nation?"
+    translated: "The conflicts between Wulin and the court run deep, and the situation is hard to reverse. Unless all the Wulin members who know the old grievances die out, or a new dynasty takes power, how can there be any heroes willing to sacrifice themselves for the country again?"
 - raw: "Story/D_S0301_03_011,南宫世家人面广阔，上与官府为睦，下亦不拒和草莽结交，假以时日，老太爷天下大同的愿望，或能得遂，亦未可知。"
   splits:
   - split: 1
@@ -12193,9 +12094,7 @@
   splits:
   - split: 1
     text: "大师兄取出随身珍藏的酒杯，斟满酒，三人无声对饮，杯酒尽，拱手作揖，王二壮迈步离去。再相见时，又是敌手。"
-    translated: "The Senior Brother took out a precious wine cup from his personal collection and filled it with wine. The three of them drank silently, clinking their cups together before performing a respectful bow to each other. Wang Erzhuang then stepped away with purpose. Next time they met, they would be rivals once again."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother took out a cherished cup they carried with them, filled it with wine, and the three of them drank in silence. When the cups were empty, they bowed to each other and Wang Erzhuang took a step to leave. When they met again, they were enemies."
 - raw: "Story/D_S0301_03_028,……师弟，你带上二公子回去吧。"
   splits:
   - split: 1
@@ -12248,9 +12147,7 @@
   splits:
   - split: 1
     text: "只不知，你大师兄此刻却到了何处？怎都不来当面打声招呼？"
-    translated: "I wonder where your senior brother is at this moment? Why hasn't they come to greet us in person?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "I wonder where Big Senior Brother is right now? Why haven't they come to say hello in person?"
 - raw: "Story/O_S0301_03_001,我不知道他哎"
   splits:
   - split: 1
@@ -12260,9 +12157,7 @@
   splits:
   - split: 1
     text: "是嘛。那便辛苦二位了。我入内探望浅儿情状，失陪了。一点钱财不成敬意，贤侄便替你大师兄一并收下吧。阿乙。"
-    translated: "Is that so? Then I must trouble both of you. I will go inside to check on Qian'er's condition, so I must excuse myself. This small amount of money is not much of a token of respect, but please accept it on behalf of your Master Brother. Ah Yi."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Is that so? In that case, I'll leave it to both of you. I'll go inside to check on Qian'er. Excuse me. Here's a small amount of money as a token of my appreciation; my Big Senior Brother can have you take it on his behalf. Ah Yi."
 - raw: "Story/D_S0301_03_039,是，老爷。"
   splits:
   - split: 1
@@ -12292,9 +12187,7 @@
   splits:
   - split: 1
     text: "大师兄，反正你也经常流连风月场所，名声也就那样了。我情非得已，可也不算冤枉你。"
-    translated: "Elder Brother, since you often linger in places of pleasure, your reputation is already what it is. I have no choice in this matter, but it can't be said that I am wronging you."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother, since you often frequent those places anyway, your reputation isn't exactly spotless. While I have no choice in this matter, it's not entirely unjust either."
 - raw: "Story/D_S0301_03_043,唐贤侄还懂这等雅事，想不到。那就没办法了，我年轻时候，何尝不是个风流郎呢？谁能谢却温柔乡。"
   splits:
   - split: 1
@@ -12542,9 +12435,7 @@
   splits:
   - split: 1
     text: "大师兄，万事小心，一路顺风。"
-    translated: "Eldest Senior Brother, be cautious in everything and have a smooth journey."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother, be careful with everything, and may your journey be smooth and safe."
 - raw: "Story/D_S0302_01_044,噢！我去去就回。"
   splits:
   - split: 1
@@ -12554,9 +12445,7 @@
   splits:
   - split: 1
     text: "大师兄，此去多保重。奉武运之方昌，覩休风之未淑，我信你定能凯旋而归。"
-    translated: "Eldest Senior Brother, take care on your journey. With the blessings of martial fortune and the favor of the winds, I believe you will surely return victorious."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother, take care on your journey. May the Way of Martial Arts flourish, and may you witness a time of prosperity yet to come. I believe you will return victorious."
 - raw: "Story/D_S0302_01_046,师弟……你学问可真好啊，说的我有一半没听懂。"
   splits:
   - split: 1
@@ -12657,9 +12546,7 @@
   splits:
   - split: 1
     text: "你悠悠醒转，大师兄已不知去向，你立时便会意是被他给蒙骗了。他在你身上扔了一本秘籍，是他近日新得。"
-    translated: "As you slowly came to, the Senior Brother was already gone, and you immediately realized he had tricked you. He had tossed a secret manual onto you‑one he had recently acquired."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You slowly came to your senses, and Big Senior Brother was already gone. You immediately realized that you had been tricked by them. They had left a secret manual on your body, one they had recently acquired."
 - raw: "Story/D_S0302_01_01_001,啊。"
   splits:
   - split: 1
@@ -12689,13 +12576,11 @@
   splits:
   - split: 1
     text: "它说"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They said"
   - split: 1
     subIndex: 1
     text: "『我很强，我才不会死，放一万个心吧。』"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'm strong, I'm not going to die, so rest assured."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -12703,9 +12588,7 @@
   splits:
   - split: 1
     text: "大师兄果然还是大师兄。"
-    translated: "Senior Brother really is still Senior Brother"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother is still Big Senior Brother."
 - raw: "Story/D_S0302_01_01_008,……我可是信你了啊，别食言，要不然下回就换我到金国去了。"
   splits:
   - split: 1
@@ -12720,9 +12603,7 @@
   splits:
   - split: 1
     text: "我、我赢了，大师兄，你没放水吗？"
-    translated: "I, I won! Senior Brother, you didn't go easy on me, did you?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Me, I won, Big Senior Brother. Did you not go easy on me?"
 - raw: "Story/D_S0302_01_01_011,你在开什么玩笑？我当然放水了。"
   splits:
   - split: 1
@@ -12782,16 +12663,12 @@
   splits:
   - split: 1
     text: "然而飞侠并非浪得虚名，你的轻功，始终难与大师兄匹敌，追了一阵，眼看越来越远，大师兄几个纵跃，消失在你视野。你茫然半晌，唯有放弃。"
-    translated: "However, the agile hero is no mere pretender. Your qinggong skills have always fallen short of Senior Brother's. After chasing for a while, you could only watch as he grew farther and farther away with several leaps and vanished from your view. You stood there in confusion for a moment before finally giving up."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "However, Flying Hero is not without merit; your qinggong cannot match Big Senior Brother's. After chasing for a while, you see him getting farther and farther away. Big Senior Brother makes a few leaps and disappears from your sight. You stand there in a daze for a moment, with no choice but to give up."
 - raw: "Story/N_S0302_01_01_002,虽说飞侠并非浪得虚名，但你今时今日的轻功，也不相伯仲。然而转角突然出现的肩甲家丁令你猝不及防，一头撞上肩甲，收势不及，扑地又翻又滚，骨头都不知断了几根，只能眼睁睁看着大师兄扬尘而去。"
   splits:
   - split: 1
     text: "虽说飞侠并非浪得虚名，但你今时今日的轻功，也不相伯仲。然而转角突然出现的肩甲家丁令你猝不及防，一头撞上肩甲，收势不及，扑地又翻又滚，骨头都不知断了几根，只能眼睁睁看着大师兄扬尘而去。"
-    translated: "Though the Flying Hero is no mere title, your qinggong today is certainly on par with his. However, a sudden appearance of a shoulder armor attendant at the corner caught you off guard. You collided head‑on with the shoulder armor, unable to retract your momentum in time. You fell to the ground, rolling and tumbling, unsure how many bones were broken. All you could do was watch helplessly as Senior Brother dusted himself off and left."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Although the Flying Hero isn't undeservedly famous, your qinggong skills today are equally impressive. However, a shoulder‑armor‑clad servant suddenly appearing around the corner catches you off guard, and you crash into their shoulder armor. Unable to stop yourself, you tumble and roll on the ground, breaking who knows how many bones, all while helplessly watching Big Senior Brother disappear into the distance."
 - raw: "Story/D_S0303_01_001,护驾～！来人！有刺客！快护驾！"
   splits:
   - split: 1
@@ -12846,13 +12723,11 @@
   splits:
   - split: 1
     text: "你是"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You are...!"
   - split: 1
     subIndex: 1
     text: "锦香宫的龙女侠？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Heroine Long of the Jinxiang Palace?"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -13714,13 +13589,11 @@
   splits:
   - split: 1
     text: "我来看看主炉的火势如何"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'll go check on the fire in the main furnace."
   - split: 1
     subIndex: 1
     text: "谁在那里！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Who's there!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -13803,9 +13676,7 @@
   splits:
   - split: 1
     text: "怎么可能是，大师兄，你未免太瞧得起我了。可别忘了，我只是个外姓弟子，要不是从前外堡给卖了，我只怕到现在都还进不了唐家大院，还说什么掌管炼丹房呢。"
-    translated: "How could that be, Eldest Senior Brother? You think too highly of me. Don't forget, I'm just an outer disciple. If the Outer Fort hadn't been sold back in the day, I probably still wouldn't even be allowed inside the Tang Clan compound, let alone be put in charge of the alchemy room."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "How could it be? Big Senior Brother, you must think too highly of me. Don't forget, I'm just an outer‑clan disciple. If it weren't for the fact that the outer fortress was sold off in the past, I probably wouldn't even have been allowed into the Tang Family Compound by now, let alone be in charge of the alchemy room."
 - raw: "Story/D_S0401_01_018,说得也是，你是外姓弟子来着，我还真就忘了。"
   splits:
   - split: 1
@@ -13890,9 +13761,7 @@
   splits:
   - split: 1
     text: "大师兄，你睡相也太差，好歹去躺二师兄的床，别躺地就睡，把地上药罐子都弄得乱七八糟又不收拾。"
-    translated: "Eldest Senior Brother, your sleeping posture is really terrible. At least go lie down on Second Senior Brother's bed instead of sleeping on the floor, making a mess of the medicine jars and not cleaning up afterward."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother, your sleep posture is terrible. At the very least, go sleep on Second Senior Brother's bed instead of sleeping on the ground and messing up the medicine pots without tidying up."
 - raw: "Story/D_S0401_01_035,抱～歉～帮我收拾下。"
   splits:
   - split: 1
@@ -13922,9 +13791,7 @@
   splits:
   - split: 1
     text: "大师兄，你莫非受伤了吗？"
-    translated: "Eldest Senior Brother, are you injured?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother, are you injured?"
 - raw: "Story/D_S0401_01_041,……你是啥名捕吗？"
   splits:
   - split: 1
@@ -13949,9 +13816,7 @@
   splits:
   - split: 1
     text: "就是我给某位女侠刺了一剑，承蒙她手下留情，没伤到脏腑，没有性命之忧。只是星夜兼程回家赶，伤口又反复开裂，至今也没好全罢了。"
-    translated: "It's just that I was stabbed by a certain female hero. Fortunately, she held back and didn't hit any organs, so my life's not in danger. It's just that I rushed home traveling day and night, and the wound kept reopening. It still hasn't fully healed yet, that's all."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Sword,剑,"
+    translated: "I stabbed a female swordsman with a sword, but fortunately, she held back and didn't injure my internal organs, so I'm not in mortal danger. I rushed home all night long, and the wound kept reopening, so it hasn't fully healed yet."
 - raw: "Story/D_S0401_01_045,哦……既然你说不会死，那就好。不过都不会痛吗？"
   splits:
   - split: 1
@@ -14061,9 +13926,7 @@
   splits:
   - split: 1
     text: "没办法，就怕师弟妹们知道了会多想。作大师兄的就是这点命苦，腿骨折了都要忍痛装镇定。"
-    translated: "There's no help for it; I'm afraid the junior disciples and sisters will overthink things if they find out. Being the eldest senior brother comes with its share of hardships‑breaking my leg requires enduring the pain while pretending to be calm."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "There's no other way; I just worry that my junior sister‑disciples will overthink things if they find out. Being the big senior brother is tough like this‑I have to pretend to be calm even when I have a broken leg and it hurts."
 - raw: "Story/D_S0401_01_067,既然你都知情了，那你索性替我重新包扎一下吧。后边伤处我一直抹不好。"
   splits:
   - split: 1
@@ -14078,9 +13941,7 @@
   splits:
   - split: 1
     text: "……你们在做什么……？师兄，你为何要脱大师兄的衣服……？"
-    translated: "...What are you two doing...? Senior Brother, why are you taking off Eldest Senior Brother's clothes...?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "......What are you doing......?Senior Brother, why are you undressing Big Senior Brother......?"
 - raw: "Story/D_S0401_01_070,什么？"
   splits:
   - split: 1
@@ -14110,9 +13971,7 @@
   splits:
   - split: 1
     text: "……你们在做什么……？师兄，你为何要脱大师兄的衣服……？"
-    translated: "...What are you two doing...? Senior Brother, why are you taking off Eldest Senior Brother's clothes...?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "......What are you doing......?Senior Brother, why are you undressing Big Senior Brother......?"
 - raw: "Story/D_S0401_01_076,什么？"
   splits:
   - split: 1
@@ -14183,13 +14042,11 @@
   splits:
   - split: 1
     text: "好吧"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Alright"
   - split: 1
     subIndex: 1
     text: "但是不对吧，我不是受害者本人吗？我吃了你的亏，还得替你挨打，说不过去吧。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "That's not right, though. Aren't I the victim here? I got taken advantage of by you, and now I have to take the beating for you. That doesn't make sense."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -14387,9 +14244,7 @@
   splits:
   - split: 1
     text: "……大师兄走了以后，我竟成了本门形象最不堪的人。"
-    translated: "...After Senior Brother left, I unexpectedly became the most disgraceful person in our sect."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "...After Big Senior Brother left, I unexpectedly became the least respected person in our sect."
 - raw: "Story/D_S0501_01_031,说什么呢，不是还有我垫底吗？"
   splits:
   - split: 1
@@ -14509,9 +14364,7 @@
   splits:
   - split: 1
     text: "大师兄生前最想当相声戏子，也拉我去看过几次。"
-    translated: "Eldest Senior Brother always wanted to be a crosstalk performer during their lifetime, and they took me to see it a few times."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother wanted to be a crosstalk performer in their lifetime and even took me to see a few shows."
 - raw: "Story/D_S0501_01_055,逢年过节下山去，村镇都有戏子唱剧。"
   splits:
   - split: 1
@@ -14721,9 +14574,7 @@
   splits:
   - split: 1
     text: "……就像我无意识追逐大师兄的背影吗……？"
-    translated: "...just like how I unconsciously chase after Senior Brother's figure...?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "......Am I subconsciously following Big Senior Brother's back view?......"
 - raw: "Story/T_S0501_01_002,……就像我无意识追逐二师兄的背影吗……？"
   splits:
   - split: 1
@@ -14753,9 +14604,7 @@
   splits:
   - split: 1
     text: "大师兄就不想混江湖，他想作相声的戏子，而且是认真的。他从前就跑进人家勾栏里毛遂自荐过，别说，演得还挺好。可惜被师伯看破真身，跳上台去揪下来毒打。"
-    translated: "Eldest Senior Brother doesn't want to wander in the Jianghu; he wants to be a comedic performer, and he is serious about it. In the past, he even went into someone else's theater to recommend himself, and surprisingly, he performed quite well. Unfortunately, his Master Uncle saw through his true identity, jumped on stage, and dragged him down for a beating."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Big Senior Brother doesn't want to mix in Jianghu; they want to be a serious performer in crosstalk shows. In the past, they even went into someone's entertainment hall and volunteered. To be honest, they did a pretty good job. Unfortunately, they were spotted by Uncle Master, who jumped onto the stage and beat them up viciously."
 - raw: "Story/D_S0501_01_095,真的假的？哈……。"
   splits:
   - split: 1
@@ -14795,9 +14644,7 @@
   splits:
   - split: 1
     text: "我没大师兄、二师兄那样的通天本领，也很胆小、怕死。想活到老不是坏事吧？背上这个箧笥于我而言，就足够沉重了，我只担得起这个。"
-    translated: "I don't have a senior master like the Second Senior Brother with such boundless abilities. I am also rather timid and afraid of death. Isn't it not a bad thing to live a long life? Shouldering this chest container is already more than enough for me; I can only bear this much."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "I don't have the godlike abilities of Big Senior Brother or Second Senior Brother, and I'm also timid and afraid of death. Isn't it not a bad thing to want to live a long life? Carrying this case is heavy enough for me; I can only handle this much."
 - raw: "Story/D_S0501_01_103,我自忖没有办法扛起唐门振兴大业，无法背负师弟妹们的期待，不想让他们心怀不切实际的盼想，苦守在这几百年的老旧大院，最终死得一文不值。"
   splits:
   - split: 1
@@ -15417,16 +15264,12 @@
   splits:
   - split: 1
     text: "你会像大师兄一样，让大家以为有你在，未来一定没有问题。连我都不自禁觉得事情一定还有转机，变得不甘心、不想放弃。明明你我都不过是凡人，你怎么就这么不死心呢。"
-    translated: "You will be like Senior Brother, making everyone believe that with you around, the future will definitely be problem‑free. Even I can't help but feel that there must still be a turning point, becoming unwilling to give up. Clearly, both you and I are just ordinary people; how can you be so persistent?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You'll be like Big Senior Brother, making everyone think that with you around, the future will be fine. Even I can't help but feel that there might still be a chance for things to turn around, and I become unwilling to give up. We're just ordinary people after all, so how can you still have such unwavering hope?"
 - raw: "Story/D_S0502_01_001,……说起来，大师兄说他把猴儿酒藏在山壁上，风雨不侵的凹陷处。那是梦吗？"
   splits:
   - split: 1
     text: "……说起来，大师兄说他把猴儿酒藏在山壁上，风雨不侵的凹陷处。那是梦吗？"
-    translated: "...Speaking of which, Senior Brother said he hid the monkey wine in a sheltered recess on the mountainside, safe from wind and rain. Was that a dream?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "...... Speaking of which, Big Senior Brother said he hid the Monkey Wine in a recess on the mountainside, a spot sheltered from wind and rain. Was that a dream?"
 - raw: "Story/O_S0502_01_001,八成是梦吧"
   splits:
   - split: 1
@@ -15441,9 +15284,7 @@
   splits:
   - split: 1
     text: "……如果真有，就让它一直放在那儿吧。说不定有一天，大师兄会回来取。"
-    translated: "...If it really exists, then let it stay there. Perhaps one day, Senior Brother will come back to retrieve it."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "...If it really exists, just leave it there. Maybe one day, Big Senior Brother will come back to retrieve it."
 - raw: "Story/T_S0502_01_002,届时他若找不到酒，一定会在地上打滚。"
   splits:
   - split: 1
@@ -16179,9 +16020,7 @@
   splits:
   - split: 1
     text: "你该不会是想……跟我大师兄一样逛青楼吧？"
-    translated: "You don't mean to say... that you want to go to a pleasure house like my senior brother, right?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You can't possibly want to... go to a Pleasure House like my Big Senior Brother, right?"
 - raw: "Story/D_S0603_02_030,哈？！不准！"
   splits:
   - split: 1
@@ -16241,9 +16080,7 @@
   splits:
   - split: 1
     text: "这不是走上我大师兄的老路子吗？"
-    translated: "Isn't this following the same path as my senior brother?"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Isn't this just following in Big Senior Brother's footsteps?"
 - raw: "Story/D_S0603_02_042,没什么不好的，去吧，去吧～不过你每到一个地方，都要写信给我，托人捎些土特产给我。"
   splits:
   - split: 1
@@ -16263,9 +16100,7 @@
   splits:
   - split: 1
     text: "我哥哥想去哪，你问那么多干嘛，他又不归你管。你只要管我想去哪就好了。"
-    translated: "It's a matter of accumulated debts of gratitude and grievances within the Ye family, something not to be spoken of to outsiders. Please allow Ye to keep it confidential. You just need to take care of where I want to go."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Brother,哥哥,"
+    translated: "My brother wants to go wherever he wants. Why are you asking so many questions? He's not your responsibility. You just have to worry about where I want to go."
 - raw: "Story/D_S0603_02_046,好。"
   splits:
   - split: 1
@@ -16680,13 +16515,11 @@
   splits:
   - split: 1
     text: "官府对江湖恩怨向来都是睁一只眼、闭一只眼。有不成文规定，江湖仇杀，除非击鼓鸣冤，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The government usually turns a blind eye to disputes within Jianghu. There is an unwritten rule that revenge killings in Jianghu are ignored unless someone drums up a complaint."
   - split: 1
     subIndex: 1
     text: "否则一律不管。这一报官，事情就要闹大了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Otherwise, I won't get involved. Once I report this to the authorities, things will get out of hand."
   templates:
   - split: 1
     template: "{0} {1}"
@@ -16990,13 +16823,11 @@
   splits:
   - split: 1
     text: "你"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You"
   - split: 1
     subIndex: 1
     text: "你做甚……啊！"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "What are you doing......ah!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -17272,16 +17103,12 @@
   splits:
   - split: 1
     text: "那日起夏侯兰就出门去了。不久之后，因大师兄辞世而崛起的山寨接连被挑，凡有犯科者无不惨死。江湖快报一传，夺魄幽兰凶名更盛。"
-    translated: "That day, Xiahou Lan went out. Soon after, the mountain stronghold that had risen following the senior brother's passing was continuously attacked, with anyone who committed crimes meeting a cruel death. The spread of Jianghu News made the Soul Stealer Orchid's reputation even more notorious."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Since Xiahou Lan left home that day, rumors soon spread that the bandit lairs that had risen after Big Senior Brother's passing were being picked off one by one. Anyone caught was met with a gruesome death. While the Jianghu Quick Report circulated the news, the fearsome reputation of Soul Stealer Xiaohou Lan grew even more."
 - raw: "Story/N_S0604_01_002,那日起夏侯兰就出门去了。不久之后，因大师兄辞世而崛起的山寨接连被挑。她知你心地良善，下手刻意留情，都只抓个半残，扔进官府换赏钱。"
   splits:
   - split: 1
     text: "那日起夏侯兰就出门去了。不久之后，因大师兄辞世而崛起的山寨接连被挑。她知你心地良善，下手刻意留情，都只抓个半残，扔进官府换赏钱。"
-    translated: "From that day on, Xiahou Lan went out. Soon after, the mountain stronghold that had risen to prominence after the master brother's passing was continuously attacked. She knew your heart was kind, so she deliberately showed mercy, only capturing them half‑dead and throwing them into the authorities to trade for rewards."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "Since that day, Xiahou Lan left the house. Soon after, several 'mountain bandits' that had risen due to the death of Big Senior Brother were attacked in succession. She knew you had a kind heart and that your attacks were deliberately merciful, leaving only half‑dead captives to be turned over to the authorities for a reward."
 - raw: "Story/D_S0604_01_01_001,这算是家暴吗？"
   splits:
   - split: 1
@@ -17442,13 +17269,11 @@
   splits:
   - split: 1
     text: "师弟，多亏你心细如尘。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Junior Disciple, thanks to your meticulous nature"
   - split: 1
     subIndex: 1
     text: "君子敬而无失，与人恭而有礼，四海之内皆兄弟也。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "A gentleman shows respect without deviation, is courteous and follows etiquette with others, and considers everyone in the four seas as brothers."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -17456,18 +17281,15 @@
   splits:
   - split: 1
     text: "要不然，吕翁一路暴跳如雷，压根无法好好说话。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Otherwise, Lu Weng was seething the whole way and couldn't speak properly."
   - split: 1
     subIndex: 1
     text: "我不怕他催债，就怕他气到双脚一蹬，反要把小命交代在山上。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I'm not afraid of them pressing for a debt; I'm afraid they'll get so angry they kick their heels and end up losing their life on the mountain."
   - split: 1
     subIndex: 2
     text: "到时真不敢想世人会如何传闻了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I can't even imagine how people will gossip about it later."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧⟦size=24⟧{2}⟦/size⟧"
@@ -17498,13 +17320,11 @@
   splits:
   - split: 1
     text: "三师兄，你跟我讲干嘛？"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Third Senior Brother, why are you telling me this?"
   - split: 1
     subIndex: 1
     text: "我又帮不上什么忙。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "I can't be of much help either"
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -17836,9 +17656,7 @@
   splits:
   - split: 1
     text: "你出示了大师兄的涂鸦。"
-    translated: "You showed the senior master brother's signature"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You showed Big Senior Brother's doodle"
 - raw: "Story/T_S2001_01_008,有反应了，有反应了。"
   splits:
   - split: 1
@@ -17878,9 +17696,7 @@
   splits:
   - split: 1
     text: "你祭出了大师兄的墨宝，却被人当作嘲讽。不单没能得逞，反而得罪了人家。"
-    translated: "You unveiled Master Brother's calligraphy, but it was taken as mockery. Not only did it fail to achieve its purpose, but it also offended the person."
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Big Senior Brother,大师兄,"
+    translated: "You brandished Big Senior Brother's calligraphy, but it was taken as mockery. Not only did you not succeed, you also offended them."
 - raw: "Story/T_S2001_01_009,总不可能现场再大笔疾书写一幅出来吧。这种巧合可一不可再，何况他人在现场，我也无处弄巧。"
   splits:
   - split: 1
@@ -18139,18 +17955,15 @@
   splits:
   - split: 1
     text: "此毒性寒，以毒攻毒最灵验，只是吕老头免不了要受几日腹泻之苦。虽然也有温和的药方，但我不"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "This poison is cold in nature; the most effective treatment is to fight poison with poison. However, Old Lu will inevitably suffer from several days of diarrhea. Although there are milder remedies, I do not"
   - split: 1
     subIndex: 1
     text: "想"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Want"
   - split: 1
     subIndex: 2
     text: "用。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Use it"
   templates:
   - split: 1
     template: "{0} {1} {2}"
@@ -18288,13 +18101,11 @@
   splits:
   - split: 1
     text: "说起来，吕某尝听人言"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Speaking of which, Lu has heard people say before."
   - split: 1
     subIndex: 1
     text: "贵派的掌门千金已长成，出落得极美。正巧吕某膝下还有一名小儿子，年方弱冠，才貌家世也算说得过去。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "The Sect Leader's daughter from your sect has grown into a stunning beauty. Coincidentally, I have a younger son who has just reached adulthood, and his looks, talent, and family background are quite commendable."
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -18408,13 +18219,11 @@
   splits:
   - split: 1
     text: "他意思是说，人只要活得正直，便不须靠侥幸来避祸。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "They mean to say that as long as one lives with integrity, they don't need to rely on luck to avoid misfortune."
   - split: 1
     subIndex: 1
     text: "换言之便是骨头硬得很的意思。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "In other words, it means they are very stubborn."
   templates:
   - split: 1
     template: "⟦size=24⟧{0}⟦/size⟧⟦size=24⟧{1}⟦/size⟧"
@@ -19319,13 +19128,11 @@
   splits:
   - split: 1
     text: "可恶啊啊"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Darn it!"
   - split: 1
     subIndex: 1
     text: "！你们都欺负人呜呜呜"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Wuwuwu, you're all picking on me!"
   templates:
   - split: 1
     template: "{0}──{1}──！"
@@ -19338,13 +19145,11 @@
   splits:
   - split: 1
     text: "你和同门打个你死我活，"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "You fight to the death with a fellow disciple."
   - split: 1
     subIndex: 1
     text: "本来输了还有几分不乐意，待知道胜者挣来的不过一场空虚，登时就喜笑颜开了。"
-    flaggedForRetranslation: true
-    flaggedMistranslation: "Failed"
+    translated: "Initially, they were somewhat unhappy about losing, but upon learning that the winner's prize was nothing but emptiness and void, they suddenly broke into a cheerful smile."
   templates:
   - split: 1
     template: "{0} {1}"
