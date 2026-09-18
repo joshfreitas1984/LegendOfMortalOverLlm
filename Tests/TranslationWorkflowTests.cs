@@ -1,10 +1,11 @@
 using FanslationStudio.LlmKit.Configuration;
 using FanslationStudio.LlmKit.Utility;
 using FanslationStudio.LlmKit.Workflow;
+using Translate;
 using System.Text.RegularExpressions;
 using static FanslationStudio.LlmKit.GameFileHandlingBase;
 
-namespace Translate.Tests;
+namespace Tests;
 
 public class TranslationWorkflowTests
 {

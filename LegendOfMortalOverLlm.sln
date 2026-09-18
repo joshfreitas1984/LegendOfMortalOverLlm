@@ -5,7 +5,7 @@ VisualStudioVersion = 18.11.12202.211 insiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translate", "Translate\Translate.csproj", "{65718972-A78A-496C-8F48-4D98B0697E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translate.Tests", "Tests\Translate.Tests.csproj", "{1C3720E6-E342-40B7-988E-4DBBA6ACF2F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{1C3720E6-E342-40B7-988E-4DBBA6ACF2F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{32D9748B-F166-4423-9D0E-369ED01E13EF}"
 EndProject
@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedAssembly", "SharedAssembly\SharedAssembly.csproj", "{98C1F315-A4A2-400C-801F-522952283388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{4A6C6E6E-9A2E-4B0B-8B0A-3D6D5B7E9C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegendOfMortalPlugin", "LegendOfMortalPlugin\LegendOfMortalPlugin.csproj", "{4A6C6E6E-9A2E-4B0B-8B0A-3D6D5B7E9C11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanslationStudio.LlmKit", "..\FanslationStudio.LlmKit\FanslationStudio.LlmKit\FanslationStudio.LlmKit.csproj", "{072AE00E-2485-2179-079E-03BF96364F37}"
 EndProject

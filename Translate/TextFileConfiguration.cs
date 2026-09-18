@@ -8,7 +8,7 @@ namespace Translate;
 ///
 /// Confirmed live against the real game (BepInEx/plugins/raw/*.csv after running the Plugin
 /// project) - the game ships one LeanLanguageCSV source per category per language
-/// (ChineseSimplified/ChineseTraditional/Korean); Plugin/StringTableDumpPatches.cs now filters to
+/// (ChineseSimplified/ChineseTraditional/Korean); LegendOfMortalPlugin/StringTableDumpPatches.cs now filters to
 /// ChineseSimplified only, so every file below is a single unambiguous dump. Most categories'
 /// backing TextAsset names carry a "_zh-cn" suffix (the other two language variants use "_zh-tw"/
 /// "_kr", but those are never dumped); Story is split into 17 numbered chapter files

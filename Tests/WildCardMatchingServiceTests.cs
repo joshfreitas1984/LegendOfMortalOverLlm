@@ -1,6 +1,6 @@
 ﻿//using SharedAssembly.TextResizer;
 
-//namespace Translate.Tests;
+//namespace Tests;
 
 //public class WildcardMatchingServiceTests
 //{

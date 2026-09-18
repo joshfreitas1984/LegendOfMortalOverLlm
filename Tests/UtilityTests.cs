@@ -3,9 +3,10 @@ using FanslationStudio.LlmKit.Configuration;
 using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Utility;
 using SharedAssembly.DynamicStrings;
+using Translate;
 using System.Text.RegularExpressions;
 
-namespace Translate.Tests;
+namespace Tests;
 
 public class UtilityTests
 {

@@ -32,17 +32,20 @@ public static class TranslationPackaging
         Directory.CreateDirectory(outputPath);
 
         var passedCount = 0;
-        var failedCount = 0;
+        var qcRejectedCount = 0;
+        var rawFallbackCount = 0;
 
         foreach (var textFile in textFiles.Where(t => t.TextFileType == TextFileType.RawCsv))
         {
-            var (passed, failed) = await CsvGameDataWorkflow.PackageAsync(workingDirectory, textFile);
+            var (passed, qcRejected, rawFallback) = await CsvGameDataWorkflow.PackageAsync(workingDirectory, textFile);
 
             passedCount += passed;
-            failedCount += failed;
+            qcRejectedCount += qcRejected;
+            rawFallbackCount += rawFallback;
         }
 
         Console.WriteLine($"Passed: {passedCount}");
-        Console.WriteLine($"Failed: {failedCount}");
+        Console.WriteLine($"QC failures: {qcRejectedCount}");
+        Console.WriteLine($"Fell back to raw: {rawFallbackCount}");
     }
 }

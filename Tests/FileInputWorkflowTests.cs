@@ -1,6 +1,7 @@
 using FanslationStudio.LlmKit;
+using Translate;
 
-namespace Translate.Tests;
+namespace Tests;
 
 public class FileInputWorkflowTests
 {
