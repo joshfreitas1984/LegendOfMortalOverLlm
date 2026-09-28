@@ -1,14 +1,21 @@
-# Migrated onto FanslationStudio.LlmKit's config shape (see Translate/GameFileHandling.cs).
-# Model settings below reproduce the OLD flat Config.yaml's values (apiKeyRequired: false,
-# url: http://localhost:11434/api/chat, model: qwen2.5:7b, and both modelParams blocks) via the
-# built-in Qwen25 preset - LlmKit's embedded BaseFiles/Qwen25/Config.yaml already defaults to the
-# exact same Url/Model/ModelParams/StructuredTextModelParams, so no override is needed here.
+# Model choice and QC model/quant/process-shape decision ported from DragonHierOverLlm's
+# investigation - see that repo's docs/investigations/tests/qc-evaluator-model-selection.md. The
+# FIRST entry in this list is the main translator model (see FanslationStudio.LlmKit's
+# LlmHelpers.CalculateModelConfig). Qwen25-Standard/StructuredText kept using the existing
+# Files/Prompts folder (unrenamed) instead of the "<ModelName>Prompts" convention LlmKit defaults to;
+# HyMT2-7B/Qwen38Qc-IQ4XS have no repo-specific prompts, so they use LlmKit's embedded BaseFiles
+# defaults directly (no customPromptsPath override).
 models:
+  - name: HyMT2-7B
+    modelPreset: HyMT2
+    modelPresetType: Standard
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
   - name: Qwen25-Standard
     modelPreset: Qwen25
     modelPresetType: Standard
-    # Keeps using the existing Files/Prompts folder (unrenamed) instead of the
-    # "<ModelName>Prompts" convention LlmKit defaults to.
     customPromptsPath: Prompts
   - name: Qwen25-StructuredText
     modelPreset: Qwen25
@@ -26,11 +33,15 @@ skipLineValidation: false
 correctionPromptsEnabled: true
 translateFlagged: true
 
-# Post-translation quality review pass (see FanslationStudio.LlmKit's
-# docs/plans/quality-review-pass.md). Left disabled - this migration only ports the existing
-# translate/package pipeline over to LlmKit; opting into QC is a separate decision for later.
+# Post-translation quality review pass - same options as DragonHierOverLlm's Config.yaml, see that
+# repo's docs/investigations/tests/qc-evaluator-model-selection.md for why.
 qualityReview:
-  enabled: false
+  enabled: true
+  modelName: Qwen38Qc-IQ4XS
+  minAcceptableScore: 60
+  maxConcurrency: 2
+  inlineRuleCheckRetries: 2
+  autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
 
 # Ported verbatim from the OLD Translate/GameTextFiles.cs's SplitCharactersList/SplitRegexPatterns
 # (now hosted directly in LlmConfig rather than a game-specific static array) - "\n" and the

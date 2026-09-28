@@ -123,6 +123,12 @@ pin.
    `Tests/SkillSyncTests.cs` in `FanslationStudio.LlmKit`, so future skill updates sync to it
    automatically too.
 
+9. **Create the `docs/README.md`** documentation hub with a release/contact block at the top.
+   Immediately after the project title, include a `# Latest release` section linking to the
+   repository's GitHub releases page and explaining where to extract the release. Include a
+   `# Contacting us` section containing the repository's self-link (`#contacting-us`) followed by
+   the shared Discord invite: `https://discord.gg/sqXd5ceBWT`.
+
 9. **Summarize what was created and what's still manual.** Done: repo/git init, `Files/` data
    layout, starter `Config.yaml`/`ManualTranslations.yaml`, the plugin project scaffold (compiles,
    loads, does nothing yet), `AGENTS.md`/`CLAUDE.md`/`docs/README.md`, copied skills. Still
