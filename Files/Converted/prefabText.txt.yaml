@@ -1,0 +1,158 @@
+- raw: "储存"
+  splits:
+  - text: "储存"
+    translated: "Save"
+- raw: "全屏幕(只适用16:9比例显示器)"
+  splits:
+  - text: "全屏幕"
+    translated: "Full screen"
+  - subIndex: 1
+    text: "只适用16"
+    translated: "Only applies to 16"
+  - subIndex: 2
+    text: "9比例显示器"
+    translated: "9 ratio display"
+  templates:
+  - template: "{0}({1}:{2})"
+- raw: "养成"
+  splits:
+  - text: "养成"
+    translated: "Training"
+- raw: "养成回合自动存档"
+  splits:
+  - text: "养成回合自动存档"
+    translated: "Save game at turn intervals"
+- raw: "分辨率"
+  splits:
+  - text: "分辨率"
+    translated: "Resolution"
+- raw: "删除"
+  splits:
+  - text: "删除"
+    translated: "Delete"
+- raw: "剧情"
+  splits:
+  - text: "剧情"
+    translated: "Plot"
+- raw: "可快转未读文字"
+  splits:
+  - text: "可快转未读文字"
+    translated: "Skip unread text"
+- raw: "启程"
+  splits:
+  - text: "启程"
+    translated: "Departure"
+- raw: "声音设定"
+  splits:
+  - text: "声音设定"
+    translated: "Sound settings"
+- raw: "导出"
+  splits:
+  - text: "导出"
+    translated: "Export"
+- raw: "已读文字变色"
+  splits:
+  - text: "已读文字变色"
+    translated: "Read text changes color"
+- raw: "归隐山林"
+  splits:
+  - text: "归隐山林"
+    translated: "Retiring to the mountains"
+- raw: "战斗"
+  splits:
+  - text: "战斗"
+    translated: "Battle"
+- raw: "手动启动天命轮盘"
+  splits:
+  - text: "手动启动天命轮盘"
+    translated: "Manually activating the Mandate of Heaven Wheel"
+- raw: "手动存档"
+  splits:
+  - text: "手动存档"
+    translated: "Manual save"
+- raw: "数据备份"
+  splits:
+  - text: "数据备份"
+    translated: "Data backup"
+- raw: "数据备份完成"
+  splits:
+  - text: "数据备份完成"
+    translated: "Data backup completed"
+- raw: "无记载"
+  splits:
+  - text: "无记载"
+    translated: "Not recorded"
+- raw: "最近存档"
+  splits:
+  - text: "最近存档"
+    translated: "Recent save file"
+- raw: "汗青书"
+  splits:
+  - text: "汗青书"
+    translated: "Records of the Bamboo Tablets"
+- raw: "活侠传"
+  splits:
+  - text: "活侠传"
+    translated: "Legend of the Living Hero"
+- raw: "游戏设定"
+  splits:
+  - text: "游戏设定"
+    translated: "Game setting"
+- raw: "游戏语言"
+  splits:
+  - text: "游戏语言"
+    translated: "Game language"
+- raw: "环境设定"
+  splits:
+  - text: "环境设定"
+    translated: "Environment settings"
+- raw: "画面设定"
+  splits:
+  - text: "画面设定"
+    translated: "Scene settings"
+- raw: "确定"
+  splits:
+  - text: "确定"
+    translated: "Confirm"
+- raw: "确定删除选择的纪录吗？"
+  splits:
+  - text: "确定删除选择的纪录吗？"
+    translated: "Are you sure you want to delete the selected records?"
+- raw: "确定覆盖目前的纪录吗?"
+  splits:
+  - text: "确定覆盖目前的纪录吗"
+    translated: "Are you sure you want to overwrite the current record?"
+  templates:
+  - template: "{0}?"
+- raw: "自动存档"
+  splits:
+  - text: "自动存档"
+    translated: "Auto‑save"
+- raw: "记载活侠传故事"
+  splits:
+  - text: "记载活侠传故事"
+    translated: "The Story of the Heroic Wanderer"
+- raw: "讲经堂"
+  splits:
+  - text: "讲经堂"
+    translated: "Scripture Hall"
+- raw: "设定"
+  splits:
+  - text: "设定"
+    translated: "Setting"
+- raw: "读取游戏"
+  splits:
+  - text: "读取游戏"
+    translated: "Read the game instructions"
+- raw: "阅读"
+  splits:
+  - text: "阅读"
+    translated: "Reading"
+- raw: "音乐音量"
+  splits:
+  - text: "音乐音量"
+    translated: "Music volume"
+- raw: "风云史"
+  splits:
+  - text: "风云史"
+    translated: "Chronicles of Wind and Cloud"

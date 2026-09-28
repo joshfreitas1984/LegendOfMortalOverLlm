@@ -1,0 +1,754 @@
+- raw: "Mortal.Battle.FleeState,OnEnter,103,快逃命阿！,[]"
+  splits:
+  - split: 3
+    text: "快逃命阿！"
+    translated: "Run for your life!"
+- raw: "Mortal.Battle.GameLevelManager/<Setup>d__91,MoveNext,216,找不到資源 ,[]"
+  splits:
+  - split: 3
+    text: "找不到資源 "
+    translated: "Resource not found"
+- raw: "Mortal.Battle.OutsideWeaponSpawner,.ctor,42,你他媽的!,[]"
+  splits:
+  - split: 3
+    text: "你他媽的!"
+    translated: "Fucking hell!"
+- raw: "Mortal.Battle.OutsideWeaponSpawner,.ctor,50,你死定了!,[]"
+  splits:
+  - split: 3
+    text: "你死定了!"
+    translated: "You're done for!"
+- raw: "Mortal.Battle.OutsideWeaponSpawner,.ctor,58,納命來!,[]"
+  splits:
+  - split: 3
+    text: "納命來!"
+    translated: "Surrender your life!"
+- raw: "Mortal.Combat.CombatActionController/<AddAttackCombo>d__196,MoveNext,77,{0} 連擊數:{1},[]"
+  splits:
+  - split: 3
+    text: "{0} 連擊數:{1}"
+    translated: "{0} consecutive hits: {1}"
+- raw: "Mortal.Combat.CombatActionController,AttackFailure,1,攻擊失敗,[Mortal.Combat.CombatStatController]"
+  splits:
+  - split: 3
+    text: "攻擊失敗"
+    translated: "Attack failed"
+- raw: "Mortal.Combat.CombatActionController,GetWeaponHitRate,101,{0} 暗器命中 {1},[]"
+  splits:
+  - split: 3
+    text: "{0} 暗器命中 {1}"
+    translated: "{0}'s Hidden Weapon hits {1}."
+- raw: "Mortal.Combat.CombatEnemyController/<SetData>d__24,MoveNext,253,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.CombatEnemyController/<SetData>d__24,MoveNext,420,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.CombatEnemyController/<SetData>d__24,MoveNext,589,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.CombatEnemyController/<SetData>d__24,MoveNext,758,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.CombatStatController/<ModifyStamina>d__266,MoveNext,97,修改氣力 {0},[]"
+  splits:
+  - split: 3
+    text: "修改氣力 {0}"
+    translated: "Adjust Qi power {0}"
+- raw: "Mortal.Combat.CombatStatController/<ModifyStamina>d__266,MoveNext,124,目前氣力 {0},[]"
+  splits:
+  - split: 3
+    text: "目前氣力 {0}"
+    translated: "Current qi power: {0}"
+- raw: "Mortal.Combat.CombatStatController/<ModifyHealth>d__267,MoveNext,102,修改體力 {0},[]"
+  splits:
+  - split: 3
+    text: "修改體力 {0}"
+    translated: "Modify health {0}"
+- raw: "Mortal.Combat.CombatStatController/<ModifyHealth>d__267,MoveNext,129,目前體力{0},[]"
+  splits:
+  - split: 3
+    text: "目前體力{0}"
+    translated: "Current stamina: {0}"
+- raw: "Mortal.Combat.CombatStatController,GetCombatTalkDialog,43,[未知],[System.String]"
+  splits:
+  - split: 3
+    text: "[未知]"
+    translated: "[Unknown]"
+- raw: "Mortal.Combat.TestCombatAvatarController/<Start>d__2,MoveNext,339,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.TestCombatAvatarController/<Start>d__2,MoveNext,510,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.TestCombatAvatarController/<Start>d__2,MoveNext,681,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.TestCombatAvatarController/<Start>d__2,MoveNext,852,圖片 ,[]"
+  splits:
+  - split: 3
+    text: "圖片 "
+    translated: "Image"
+    safeToTranslate: false
+- raw: "Mortal.Combat.C_Attack_002/<ApplyBeforeAction>d__5,MoveNext,381,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.C_Attack_003/<ApplyAfterResult>d__5,MoveNext,451,{0}氣力{1},[]"
+  splits:
+  - split: 3
+    text: "{0}氣力{1}"
+    translated: "{0}energy{1}"
+- raw: "Mortal.Combat.C_Attack_004/<ApplyAfterResult>d__5,MoveNext,552,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.C_Attack_005/<TriggerAfterAttacked>d__9,MoveNext,350,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.C_Attack_007/<ApplyAfterResult>d__3,MoveNext,513,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.C_Attack_008/<ApplyAfterResult>d__4,MoveNext,484,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.C_Attack_009/<ApplyAfterResult>d__10,MoveNext,877,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.C_Attack_010/<TriggerAfterAttacked>d__9,MoveNext,582,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_003/<ApplyAfterResult>d__4,MoveNext,596,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_004/<ApplyAfterResult>d__3,MoveNext,506,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_026/<ApplyAfterResult>d__3,MoveNext,512,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_027/<ApplyBeforeAction>d__3,MoveNext,584,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_029/<ApplyAfterResult>d__6,MoveNext,513,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_035/<ApplyAfterResult>d__5,MoveNext,457,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.S_044/<Remove>d__11,MoveNext,639,{0}血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}血量{1}"
+    translated: "{0} health points {1}"
+- raw: "Mortal.Combat.CombatManager/<LoadCombatLevelAsset>d__90,MoveNext,89,找不到資源 ,[]"
+  splits:
+  - split: 3
+    text: "找不到資源 "
+    translated: "Resource not found"
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__108,MoveNext,252,回合數: {0},[]"
+  splits:
+  - split: 3
+    text: "回合數: {0}"
+    translated: "Turn count:  {0}"
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__108,MoveNext,340,玩家狀態效果,[]"
+  splits:
+  - split: 3
+    text: "玩家狀態效果"
+    translated: "Player Status Effects"
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__108,MoveNext,487,敵人狀態效果,[]"
+  splits:
+  - split: 3
+    text: "敵人狀態效果"
+    translated: "Enemy status effects"
+- raw: "Mortal.Combat.CombatManager/<RestoreStamina>d__112,MoveNext,54,雙方每回合恢復氣力,[]"
+  splits:
+  - split: 3
+    text: "雙方每回合恢復氣力"
+    translated: "Both sides regain strength each turn"
+- raw: "Mortal.Combat.CombatManager/<GameOver>d__113,MoveNext,92,決鬥結束，你贏了,[]"
+  splits:
+  - split: 3
+    text: "決鬥結束，你贏了"
+    translated: "The duel is over, you won"
+- raw: "Mortal.Combat.CombatManager/<GameOver>d__113,MoveNext,244,決鬥結束，你死了,[]"
+  splits:
+  - split: 3
+    text: "決鬥結束，你死了"
+    translated: "The duel is over, you're dead"
+- raw: "Mortal.Combat.CombatManager/<ActionRoundHandle>d__117,MoveNext,608,玩家動作: {0}， 敵人動作: {1},[]"
+  splits:
+  - split: 3
+    text: "玩家動作: {0}， 敵人動作: {1}"
+    translated: "Player action: {0}, Enemy action:  {1}"
+- raw: "Mortal.Combat.CombatManager/<SimpleActionHandle>d__120,MoveNext,360,{0}的暗器命中率: {1},[]"
+  splits:
+  - split: 3
+    text: "{0}的暗器命中率: {1}"
+    translated: "{0}'s Hidden Weapon Accuracy:  {1}"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,559,嘴力 > ,[]"
+  splits:
+  - split: 3
+    text: "嘴力 > "
+    translated: "Verbal skill >"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,642,嘴力 < ,[]"
+  splits:
+  - split: 3
+    text: "嘴力 < "
+    translated: "Verbal skills <"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,753,的嘴攻被克制,[]"
+  splits:
+  - split: 3
+    text: "的嘴攻被克制"
+    translated: "Their mouth attack was restrained"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,913,的暗器未命中,[]"
+  splits:
+  - split: 3
+    text: "的暗器未命中"
+    translated: "Their hidden weapon missed"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,2334,的捅人被克制,[]"
+  splits:
+  - split: 3
+    text: "的捅人被克制"
+    translated: "Their stabbing attacks are being countered"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,2443,的暗器未命中,[]"
+  splits:
+  - split: 3
+    text: "的暗器未命中"
+    translated: "Their hidden weapon missed"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,3259,的捅人被克制,[]"
+  splits:
+  - split: 3
+    text: "的捅人被克制"
+    translated: "Their stabbing attacks are being countered"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,3617,的嘴攻被克制,[]"
+  splits:
+  - split: 3
+    text: "的嘴攻被克制"
+    translated: "Their mouth attack was restrained"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,3779,的暗器未命中,[]"
+  splits:
+  - split: 3
+    text: "的暗器未命中"
+    translated: "Their hidden weapon missed"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,4135,的暗器未命中,[]"
+  splits:
+  - split: 3
+    text: "的暗器未命中"
+    translated: "Their hidden weapon missed"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,4854,雙方內勁相等,[]"
+  splits:
+  - split: 3
+    text: "雙方內勁相等"
+    translated: "Both sides have equal internal strength"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,5091,的內勁勝出,[]"
+  splits:
+  - split: 3
+    text: "的內勁勝出"
+    translated: "Their internal energy prevailed"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,5292,的內勁勝出,[]"
+  splits:
+  - split: 3
+    text: "的內勁勝出"
+    translated: "Their internal energy prevailed"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,5586,的絕招未命中,[]"
+  splits:
+  - split: 3
+    text: "的絕招未命中"
+    translated: "Their ultimate move did not hit"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,5775,的絕招未命中,[]"
+  splits:
+  - split: 3
+    text: "的絕招未命中"
+    translated: "Their ultimate move did not hit"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__121,MoveNext,5977,的絕招未命中,[]"
+  splits:
+  - split: 3
+    text: "的絕招未命中"
+    translated: "Their ultimate move did not hit"
+- raw: "Mortal.Combat.CombatManager/<ActionCost>d__123,MoveNext,201,{0}使用{1}，氣力{2},[]"
+  splits:
+  - split: 3
+    text: "{0}使用{1}，氣力{2}"
+    translated: "{0} is using {1}, with a power level of {2}."
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__124,MoveNext,153,嘴攻基礎傷害: {0},[]"
+  splits:
+  - split: 3
+    text: "嘴攻基礎傷害: {0}"
+    translated: "Basic Mouth Attack Damage:  {0}"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__124,MoveNext,491,因受到嘴攻而感到憤怒,[]"
+  splits:
+  - split: 3
+    text: "因受到嘴攻而感到憤怒"
+    translated: "Feeling angry due to oral stimulation"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__124,MoveNext,665,{0} 嘴功傷害:{1} 加成率:{2} 結果:{3},[]"
+  splits:
+  - split: 3
+    text: "{0} 嘴功傷害:{1} 加成率:{2} 結果:{3}"
+    translated: "{0} verbal sparring damage: {1} bonus rate: {2} result: {3}"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__124,MoveNext,905,的氣力 ,[]"
+  splits:
+  - split: 3
+    text: "的氣力 "
+    translated: "Their strength"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__124,MoveNext,944,的氣力 ,[]"
+  splits:
+  - split: 3
+    text: "的氣力 "
+    translated: "Their strength"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__125,MoveNext,144,基礎傷害: {0},[]"
+  splits:
+  - split: 3
+    text: "基礎傷害: {0}"
+    translated: "Base Damage:  {0}"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__125,MoveNext,334,{0}的血量 {1},[]"
+  splits:
+  - split: 3
+    text: "{0}的血量 {1}"
+    translated: "{0}'s health {1}"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__125,MoveNext,532, 這刀好像捅太深了，有點心慌。,[]"
+  splits:
+  - split: 3
+    text: " 這刀好像捅太深了，有點心慌。"
+    translated: "This blade seems to have gone in too deep; I'm feeling a bit anxious."
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__125,MoveNext,661,被捅了，氣力,[]"
+  splits:
+  - split: 3
+    text: "被捅了，氣力"
+    translated: "Stabbed, strength"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__126,MoveNext,181,基礎傷害: {0},[]"
+  splits:
+  - split: 3
+    text: "基礎傷害: {0}"
+    translated: "Base Damage:  {0}"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__126,MoveNext,355,{0}的血量 {1},[]"
+  splits:
+  - split: 3
+    text: "{0}的血量 {1}"
+    translated: "{0}'s health {1}"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__126,MoveNext,547,中毒累積值,[]"
+  splits:
+  - split: 3
+    text: "中毒累積值"
+    translated: "Poison accumulation value"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__126,MoveNext,634,麻痺累積值,[]"
+  splits:
+  - split: 3
+    text: "麻痺累積值"
+    translated: "Paralysis Accumulation Value"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__126,MoveNext,837,被擊中，氣力,[]"
+  splits:
+  - split: 3
+    text: "被擊中，氣力"
+    translated: "Hit, stamina"
+- raw: "Mortal.Combat.CombatManager/<UltimateActionHandle>d__127,MoveNext,329,基礎傷害: {0},[]"
+  splits:
+  - split: 3
+    text: "基礎傷害: {0}"
+    translated: "Base Damage:  {0}"
+- raw: "Mortal.Combat.CombatManager/<UltimateActionHandle>d__127,MoveNext,361,{0}的血量{1},[]"
+  splits:
+  - split: 3
+    text: "{0}的血量{1}"
+    translated: "{0}'s health is {1}"
+- raw: "Mortal.Combat.CombatManager/<ShowDiceResult>d__132,MoveNext,61,骰子總數: ,[]"
+  splits:
+  - split: 3
+    text: "骰子總數: "
+    translated: "Total number of dice:"
+- raw: "Mortal.Combat.CombatManager,GetDamageArray,50,傷害陣列：,[System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "傷害陣列："
+    translated: "Damage Array:"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,113,初始傷害: {0}， 傷害BUFF: {1}， 傷害DEBUFF: {2}， 境界傷害加成: {3}， 境界骰子數: {4},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "初始傷害: {0}， 傷害BUFF: {1}， 傷害DEBUFF: {2}， 境界傷害加成: {3}， 境界骰子數: {4}"
+    translated: "Initial damage: {0}, Damage Buff: {1}, Damage Debuff: {2}, Boundary Damage Bonus: {3}, realm dice number:  {4}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,183,加成傷害結果: {0},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "加成傷害結果: {0}"
+    translated: "Bonus damage results:  {0}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,244,角色傷害減免: {0}， 角色傷害加成: {1}， 境界傷害減免: {2},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "角色傷害減免: {0}， 角色傷害加成: {1}， 境界傷害減免: {2}"
+    translated: "Character Damage Reduction: {0}, Damage Bonus: {1}, Boundary Damage Reduction:  {2}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,279,減免傷害結果: {0},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "減免傷害結果: {0}"
+    translated: "Reduce damage taken:  {0}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,321,備揍傷害減免: {0},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "備揍傷害減免: {0}"
+    translated: "Reduced incoming damage:  {0}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,344,備揍減免傷害結果: {0},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "備揍減免傷害結果: {0}"
+    translated: "Reduce incoming damage to prepare for combat:  {0}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,388,最終傷害: {0},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "最終傷害: {0}"
+    translated: "Final Damage:  {0}"
+- raw: "Mortal.Combat.CombatManager,GetTotalDamage,411,最終傷害結果: {0},[Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionController，Mortal.Combat.CombatActionType，System.Int32，System.Boolean]"
+  splits:
+  - split: 3
+    text: "最終傷害結果: {0}"
+    translated: "Final damage result:  {0}"
+- raw: "Mortal.Combat.CombatStateEffectTooltip,SetText,125,剩餘回合:,[Mortal.Combat.CombatStateEffect]"
+  splits:
+  - split: 3
+    text: "剩餘回合:"
+    translated: "Remaining turns:"
+- raw: "Mortal.Combat.CombatStateEffectTooltip,SetText,140,剩餘次數:,[Mortal.Combat.CombatStateEffect]"
+  splits:
+  - split: 3
+    text: "剩餘次數:"
+    translated: "Remaining attempts:"
+- raw: "Mortal.Combat.CombatStateEffectTooltip,SetText,155,剩餘回合:,[Mortal.Combat.CombatStateEffect]"
+  splits:
+  - split: 3
+    text: "剩餘回合:"
+    translated: "Remaining turns:"
+- raw: "Mortal.Combat.CombatStateEffectTooltip,SetText,170,倒數回合:,[Mortal.Combat.CombatStateEffect]"
+  splits:
+  - split: 3
+    text: "倒數回合:"
+    translated: "Countdown turn:"
+- raw: "Mortal.Core.Book,PrintLearnPoints,36,{0} 修練點數總和：{1},[]"
+  splits:
+  - split: 3
+    text: "{0} 修練點數總和：{1}"
+    translated: "Total cultivation points {0}: {1}"
+- raw: "Mortal.Core.Book,GetCurrentMartialData,30,找不到秘笈等級 {0} 的設定,[]"
+  splits:
+  - split: 3
+    text: "找不到秘笈等級 {0} 的設定"
+    translated: "Can't find the settings for Secret Manual level {0}."
+- raw: "Mortal.Core.ItemDatabase,AddItem,14,{0} {1} 數量調整 {2},[Mortal.Core.GameItemType，System.String，System.Int32]"
+  splits:
+  - split: 3
+    text: "{0} {1} 數量調整 {2}"
+    translated: "{0} {1} Quantity Adjustment {2}"
+- raw: "Mortal.Core.LibraryAwardData,TestPoint,19,{0}: 獲得成就數{1}， 命運點數{2},[]"
+  splits:
+  - split: 3
+    text: "{0}: 獲得成就數{1}， 命運點數{2}"
+    translated: "{0}: Achievements earned: {1}, Fate points: {2}"
+- raw: "Mortal.Core.CurveStatConvertData,PrintTest,14,數值來源範圍：{0} ~ {1},[]"
+  splits:
+  - split: 3
+    text: "數值來源範圍：{0} ~ {1}"
+    translated: "Value source range: {0} ~ {1}"
+- raw: "Mortal.Core.CurveStatConvertData,PrintTestStat,21,數值來源範圍：{0} ~ {1},[]"
+  splits:
+  - split: 3
+    text: "數值來源範圍：{0} ~ {1}"
+    translated: "Value source range: {0} ~ {1}"
+- raw: "Mortal.Core.GameStatUtils,.cctor,9,零,[]"
+  splits:
+  - split: 3
+    text: "零"
+    translated: "Zero"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,17,一,[]"
+  splits:
+  - split: 3
+    text: "一"
+    translated: "One"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,25,二,[]"
+  splits:
+  - split: 3
+    text: "二"
+    translated: "Two"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,33,三,[]"
+  splits:
+  - split: 3
+    text: "三"
+    translated: "Three"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,41,四,[]"
+  splits:
+  - split: 3
+    text: "四"
+    translated: "Four"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,49,五,[]"
+  splits:
+  - split: 3
+    text: "五"
+    translated: "Five"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,57,六,[]"
+  splits:
+  - split: 3
+    text: "六"
+    translated: "Six"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,65,七,[]"
+  splits:
+  - split: 3
+    text: "七"
+    translated: "Seven"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,73,八,[]"
+  splits:
+  - split: 3
+    text: "八"
+    translated: "Eight"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,82,九,[]"
+  splits:
+  - split: 3
+    text: "九"
+    translated: "Nine"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,91,十,[]"
+  splits:
+  - split: 3
+    text: "十"
+    translated: "Ten"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,100,十一,[]"
+  splits:
+  - split: 3
+    text: "十一"
+    translated: "November"
+    safeToTranslate: false
+- raw: "Mortal.Core.GameStatUtils,.cctor,109,十二,[]"
+  splits:
+  - split: 3
+    text: "十二"
+    translated: "Twelve"
+    safeToTranslate: false
+- raw: "Mortal.Core.TestGameDateTime,Start,0,時間1 第{0}年 {1}月{2},[]"
+  splits:
+  - split: 3
+    text: "時間1 第{0}年 {1}月{2}"
+    translated: "Time 1 Year {0} Month {1}{2}"
+    safeToTranslate: false
+- raw: "Mortal.Core.TestGameDateTime,Start,63,時間2 第{0}年 {1}月{2},[]"
+  splits:
+  - split: 3
+    text: "時間2 第{0}年 {1}月{2}"
+    translated: "Time: Year {0}, Month {1}{2} 2"
+    safeToTranslate: false
+- raw: "Mortal.Core.TestGameDateTime,Start,248,時間1 第{0}年 {1}月{2},[]"
+  splits:
+  - split: 3
+    text: "時間1 第{0}年 {1}月{2}"
+    translated: "Time 1 Year {0} Month {1}{2}"
+    safeToTranslate: false
+- raw: "Mortal.Core.AutoSaveSlotPanel,SetupText,38,[試玩] ,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "[試玩] "
+    translated: "[Demo]"
+- raw: "Mortal.Core.ItemStatPanel,GetItemTypeText,28,書物,[Mortal.Core.GameItemType]"
+  splits:
+  - split: 3
+    text: "書物"
+    translated: "Book"
+- raw: "Mortal.Core.ItemStatPanel,GetItemTypeText,36,雜物,[Mortal.Core.GameItemType]"
+  splits:
+  - split: 3
+    text: "雜物"
+    translated: "Miscellaneous items"
+- raw: "Mortal.Core.ItemStatPanel,GetItemTypeText,44,寶物,[Mortal.Core.GameItemType]"
+  splits:
+  - split: 3
+    text: "寶物"
+    translated: "Treasure"
+- raw: "Mortal.Core.LoadSlotPanel,SetupText,38,[試玩] ,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "[試玩] "
+    translated: "[Demo]"
+- raw: "Mortal.Core.NormalStatModification,UpdateSign,19,下降,[System.Int32]"
+  splits:
+  - split: 3
+    text: "下降"
+    translated: "Descend"
+- raw: "Mortal.Core.NormalStatModification,UpdateSign,26,上升,[System.Int32]"
+  splits:
+  - split: 3
+    text: "上升"
+    translated: "Rise"
+- raw: "Mortal.Core.RecentSaveSlotPanel,SetupText,38,[試玩] ,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "[試玩] "
+    translated: "[Demo]"
+- raw: "Mortal.Core.SaveSlotPanel,SetupText,38,[試玩] ,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "[試玩] "
+    translated: "[Demo]"
+- raw: "Mortal.Core.SaveSlotTitle,Setup,65,[試玩版] ,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "[試玩版] "
+    translated: "[Demo]"
+- raw: "Mortal.Core.SaveSlotTitle,Setup,202,第,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "第"
+    translated: "Chapter 1"
+- raw: "Mortal.Core.SaveSlotTitle,Setup,214,年,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "年"
+    translated: "Year"
+- raw: "Mortal.Core.SaveSlotTitle,Setup,226,月,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "月"
+    translated: "Month"
+- raw: "Mortal.Core.SaveSlotTitle,Setup,295,新遊戲,[Mortal.Core.GameSave]"
+  splits:
+  - split: 3
+    text: "新遊戲"
+    translated: "New Game"
+- raw: "Mortal.Core.StatModifyMessagePanel,DisplayStatModification,184,[StoryMainUI] 修改屬性 {0} {1},[Mortal.Core.GameStat，System.Int32]"
+  splits:
+  - split: 3
+    text: "[StoryMainUI] 修改屬性 {0} {1}"
+    safeToTranslate: false
+- raw: "Mortal.Core.TwoFormsStatModification,UpdateSign,19,下降,[System.Int32]"
+  splits:
+  - split: 3
+    text: "下降"
+    translated: "Descend"
+- raw: "Mortal.Core.TwoFormsStatModification,UpdateSign,26,上升,[System.Int32]"
+  splits:
+  - split: 3
+    text: "上升"
+    translated: "Rise"
+- raw: "Mortal.Core.UpgradeTester,OnGUI,0,重置點數,[]"
+  splits:
+  - split: 3
+    text: "重置點數"
+    translated: "Reset points"
+- raw: "Mortal.Free.PositionController/<ShowNoActionDialog>d__34,MoveNext,62,這會兒有些晚了，改日再說吧。,[]"
+  splits:
+  - split: 3
+    text: "這會兒有些晚了，改日再說吧。"
+    translated: "It's a bit late now, let's talk another day."
+- raw: "Mortal.Free.TimeProgressPanel/<ShowResult>d__6,MoveNext,99,月,[]"
+  splits:
+  - split: 3
+    text: "月"
+    translated: "Month"
+- raw: "Mortal.Free.TimeProgressPanel/<ShowResult>d__6,MoveNext,143,沒有新的小道消息。,[]"
+  splits:
+  - split: 3
+    text: "沒有新的小道消息。"
+    translated: "There are no new rumors"
+- raw: "Mortal.Story.StatModifyManager,Character,11,修改好感度 {0}， 數值: {1},[System.String，System.Int32，System.Int32]"
+  splits:
+  - split: 3
+    text: "修改好感度 {0}， 數值: {1}"
+    translated: "Adjust affection level {0}, value:  {1}"
+- raw: "Mortal.Story.StatModifyManager,Player,164,修改 {0}， 數值: {1},[System.String，System.Int32，System.String，System.Int32]"
+  splits:
+  - split: 3
+    text: "修改 {0}， 數值: {1}"
+    translated: "Edit {0}, value:  {1}"
+- raw: "Mortal.Story.StatModifyManager,SetPlayer,11,設定 {0}， 數值: {1},[System.String，System.Int32]"
+  splits:
+  - split: 3
+    text: "設定 {0}， 數值: {1}"
+    translated: "Set {0}, value:  {1}"
+- raw: "Mortal.Story.StatModifyManager,SetCharacter,11,設定 {0}， 數值: {1},[System.String，System.Int32]"
+  splits:
+  - split: 3
+    text: "設定 {0}， 數值: {1}"
+    translated: "Set {0}, value:  {1}"
+- raw: "Mortal.Story.CharacterPlaceholder,Get,34,角色 ,[System.String]"
+  splits:
+  - split: 3
+    text: "角色 "
+    translated: "Character"
+- raw: "Mortal.Story.CharacterPlaceholder,Get,40, 初始化失敗,[System.String]"
+  splits:
+  - split: 3
+    text: " 初始化失敗"
+    translated: "Initialization failed"
+- raw: "Mortal.Story.CharacterPlaceholder,Get,69,角色 Key ,[System.String]"
+  splits:
+  - split: 3
+    text: "角色 Key "
+    translated: "Character Key"
+- raw: "Mortal.Story.CharacterPlaceholder,Get,75, 不存在,[System.String]"
+  splits:
+  - split: 3
+    text: " 不存在"
+    translated: "Does not exist"
+- raw: "Mortal.Story.ShopPanel,GetItemTypeText,28,書物,[Mortal.Core.GameItemType]"
+  splits:
+  - split: 3
+    text: "書物"
+    translated: "Book"
+- raw: "Mortal.Story.ShopPanel,GetItemTypeText,36,雜物,[Mortal.Core.GameItemType]"
+  splits:
+  - split: 3
+    text: "雜物"
+    translated: "Miscellaneous items"
+- raw: "Mortal.Story.ShopPanel,GetItemTypeText,44,寶物,[Mortal.Core.GameItemType]"
+  splits:
+  - split: 3
+    text: "寶物"
+    translated: "Treasure"

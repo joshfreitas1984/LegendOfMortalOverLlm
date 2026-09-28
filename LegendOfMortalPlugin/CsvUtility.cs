@@ -48,23 +48,23 @@ internal static class CsvUtility
     }
 
     /// <summary>
-    /// Parses one already-clean CSV line (as produced by <see cref="BuildRow"/>/dumped by this
-    /// plugin) back into fields - quote-aware, doubled "" unescaped to a literal quote. Used by
-    /// <see cref="StringTableInjectionPatches"/> to read the translated Mods/&lt;lang&gt;/*.csv
-    /// files back at runtime.
+    /// Parses a whole CSV file's contents into rows - quote-aware across physical lines, so a
+    /// quoted field containing a real newline (as FanslationStudio.LlmKit's CSV packager writes for
+    /// multi-line entries) stays one field instead of being cut off at the first line break. Real
+    /// newlines inside fields are normalized to "\n"; blank lines are skipped.
     /// </summary>
-    public static string[] ParseRow(string line)
+    public static IEnumerable<string[]> ParseFile(string content)
     {
         var fields = new List<string>();
         var current = new StringBuilder();
         var inQuotes = false;
 
-        for (var i = 0; i < line.Length; i++)
+        for (var i = 0; i < content.Length; i++)
         {
-            var c = line[i];
+            var c = content[i];
             if (c == '"')
             {
-                if (inQuotes && i + 1 < line.Length && line[i + 1] == '"')
+                if (inQuotes && i + 1 < content.Length && content[i + 1] == '"')
                 {
                     current.Append('"');
                     i++;
@@ -77,10 +77,29 @@ internal static class CsvUtility
                 continue;
             }
 
-            if (c == ',' && !inQuotes)
+            if (c == '\r' && i + 1 < content.Length && content[i + 1] == '\n')
+                continue;
+
+            if (inQuotes)
+            {
+                current.Append(c == '\r' ? '\n' : c);
+                continue;
+            }
+
+            if (c == ',')
             {
                 fields.Add(current.ToString());
                 current.Clear();
+                continue;
+            }
+
+            if (c == '\n' || c == '\r')
+            {
+                fields.Add(current.ToString());
+                current.Clear();
+                if (fields.Count > 1 || fields[0].Length > 0)
+                    yield return fields.ToArray();
+                fields.Clear();
                 continue;
             }
 
@@ -88,6 +107,7 @@ internal static class CsvUtility
         }
 
         fields.Add(current.ToString());
-        return fields.ToArray();
+        if (fields.Count > 1 || fields[0].Length > 0)
+            yield return fields.ToArray();
     }
 }

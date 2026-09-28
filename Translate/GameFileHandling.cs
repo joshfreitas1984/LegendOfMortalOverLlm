@@ -1,4 +1,5 @@
 using FanslationStudio.LlmKit.Configuration;
+using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Utility;
 
 namespace Translate;
@@ -50,8 +51,9 @@ public static class GameFileHandling
 
     /// <summary>
     /// Game-specific translation repair/validation hooks - see
-    /// <see cref="FanslationStudio.LlmKit.Configuration.GameHooks"/>. Left empty/pass-through: the
-    /// OLD Translate/LineValidation.cs's repair/validation logic (CleanupLineBeforeSaving's
+    /// <see cref="FanslationStudio.LlmKit.Configuration.GameHooks"/>. Only
+    /// CustomUnsafeToTranslateRule is registered (see <see cref="UnsafeDynamicStringCallSites"/>);
+    /// repair/validation hooks are left empty/pass-through: the OLD Translate/LineValidation.cs's repair/validation logic (CleanupLineBeforeSaving's
     /// character normalization, CheckTransalationSuccessful's placeholder/tag/punctuation checks,
     /// etc.) is now entirely handled generically inside FanslationStudio.LlmKit's own
     /// LineValidation - nothing in the old file looked specific to Legend of Mortal's own game
@@ -61,5 +63,23 @@ public static class GameFileHandling
     /// or the ⑩/⓪/①-⑨ numbered-list glyphs) that would benefit from a CustomPostRepair/
     /// CustomColumnRepair/CustomColumnValidator hook here.
     /// </summary>
-    public static readonly GameHooks Hooks = new();
+    public static readonly GameHooks Hooks = new()
+    {
+        CustomUnsafeToTranslateRule = (textFile, line, _) =>
+            textFile.TextFileType == TextFileType.DynamicStrings
+            && UnsafeDynamicStringCallSites.Any(line.Raw.StartsWith),
+    };
+
+    /// <summary>
+    /// Dynamic-string call sites (matched as a prefix of <see cref="TranslationLine.Raw"/>, i.e.
+    /// "{Type}/{Method}...") whose literals must never be translated - e.g.
+    /// CombatEnemyController.SetData's "圖片 " is an asset-lookup key, not display text.
+    /// </summary>
+    public static readonly string[] UnsafeDynamicStringCallSites =
+    [
+        "Mortal.Combat.CombatEnemyController/<SetData>",
+        "Mortal.Combat.TestCombatAvatarController/<Start>",
+        "Mortal.Core.GameStatUtils,.cctor",
+        "Mortal.Core.TestGameDateTime",
+    ];
 }

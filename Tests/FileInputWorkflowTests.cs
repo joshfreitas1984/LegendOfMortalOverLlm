@@ -21,6 +21,18 @@ public class FileInputWorkflowTests
         LegacyDataMigration.MigrateOldTranslationsIntoNewFiles(GameFileHandling.WorkingDirectory);
     }
 
+    [Fact(DisplayName = "1b. ExportPrefabTextIntoTranslated")]
+    public void ExportPrefabTextIntoTranslated()
+    {
+        TranslationExport.ExportPrefabTextAssetToCustomFormat(GameFileHandling.WorkingDirectory);
+    }
+
+    [Fact(DisplayName = "1c. ExportDynamicStringsIntoTranslated")]
+    public void ExportDynamicStringsIntoTranslated()
+    {
+        TranslationExport.ExportDynamicStringTextAssetToCustomFormat(GameFileHandling.WorkingDirectory);
+    }
+
     [Fact(DisplayName = "99. MergeFilesIntoTranslated")]
     public async Task MergeFilesIntoTranslated()
     {

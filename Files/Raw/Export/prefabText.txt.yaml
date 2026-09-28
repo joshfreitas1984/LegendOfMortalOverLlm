@@ -1,0 +1,119 @@
+- raw: "储存"
+  splits:
+  - text: "储存"
+- raw: "全屏幕(只适用16:9比例显示器)"
+  splits:
+  - text: "全屏幕"
+  - subIndex: 1
+    text: "只适用16"
+  - subIndex: 2
+    text: "9比例显示器"
+  templates:
+  - template: "{0}({1}:{2})"
+- raw: "养成"
+  splits:
+  - text: "养成"
+- raw: "养成回合自动存档"
+  splits:
+  - text: "养成回合自动存档"
+- raw: "分辨率"
+  splits:
+  - text: "分辨率"
+- raw: "删除"
+  splits:
+  - text: "删除"
+- raw: "剧情"
+  splits:
+  - text: "剧情"
+- raw: "可快转未读文字"
+  splits:
+  - text: "可快转未读文字"
+- raw: "启程"
+  splits:
+  - text: "启程"
+- raw: "声音设定"
+  splits:
+  - text: "声音设定"
+- raw: "导出"
+  splits:
+  - text: "导出"
+- raw: "已读文字变色"
+  splits:
+  - text: "已读文字变色"
+- raw: "归隐山林"
+  splits:
+  - text: "归隐山林"
+- raw: "战斗"
+  splits:
+  - text: "战斗"
+- raw: "手动启动天命轮盘"
+  splits:
+  - text: "手动启动天命轮盘"
+- raw: "手动存档"
+  splits:
+  - text: "手动存档"
+- raw: "数据备份"
+  splits:
+  - text: "数据备份"
+- raw: "数据备份完成"
+  splits:
+  - text: "数据备份完成"
+- raw: "无记载"
+  splits:
+  - text: "无记载"
+- raw: "最近存档"
+  splits:
+  - text: "最近存档"
+- raw: "汗青书"
+  splits:
+  - text: "汗青书"
+- raw: "活侠传"
+  splits:
+  - text: "活侠传"
+- raw: "游戏设定"
+  splits:
+  - text: "游戏设定"
+- raw: "游戏语言"
+  splits:
+  - text: "游戏语言"
+- raw: "环境设定"
+  splits:
+  - text: "环境设定"
+- raw: "画面设定"
+  splits:
+  - text: "画面设定"
+- raw: "确定"
+  splits:
+  - text: "确定"
+- raw: "确定删除选择的纪录吗？"
+  splits:
+  - text: "确定删除选择的纪录吗？"
+- raw: "确定覆盖目前的纪录吗?"
+  splits:
+  - text: "确定覆盖目前的纪录吗"
+  templates:
+  - template: "{0}?"
+- raw: "自动存档"
+  splits:
+  - text: "自动存档"
+- raw: "记载活侠传故事"
+  splits:
+  - text: "记载活侠传故事"
+- raw: "讲经堂"
+  splits:
+  - text: "讲经堂"
+- raw: "设定"
+  splits:
+  - text: "设定"
+- raw: "读取游戏"
+  splits:
+  - text: "读取游戏"
+- raw: "阅读"
+  splits:
+  - text: "阅读"
+- raw: "音乐音量"
+  splits:
+  - text: "音乐音量"
+- raw: "风云史"
+  splits:
+  - text: "风云史"

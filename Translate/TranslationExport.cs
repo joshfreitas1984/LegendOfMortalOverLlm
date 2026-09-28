@@ -26,6 +26,18 @@ public static class TranslationExport
         }
     }
 
+    public static void ExportPrefabTextAssetToCustomFormat(string workingDirectory)
+    {
+        foreach (var textFile in TextFileConfiguration.TextFilesToSplit.Where(t => t.TextFileType == TextFileType.PrefabText))
+            PrefabTextWorkflow.ExportPrefabTextToCustomFormat(workingDirectory, textFile, GameFileHandling.SplitterOptions);
+    }
+
+    public static void ExportDynamicStringTextAssetToCustomFormat(string workingDirectory)
+    {
+        foreach (var textFile in TextFileConfiguration.TextFilesToSplit.Where(t => t.TextFileType == TextFileType.DynamicStrings))
+            DynamicStringsCecilWorkflow.ExportDynamicStringsToCustomFormat(workingDirectory, textFile, "Raw/Dumped/DynamicStrings");
+    }
+
     private static void RemoveLiteralNewlinesFromDump(string workingDirectory, string path)
     {
         var dumpedPath = $"{workingDirectory}/Raw/Dumped/{path}";

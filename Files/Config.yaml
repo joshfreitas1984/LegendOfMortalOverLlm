@@ -6,6 +6,10 @@
 # HyMT2-7B/Qwen38Qc-IQ4XS have no repo-specific prompts, so they use LlmKit's embedded BaseFiles
 # defaults directly (no customPromptsPath override).
 models:
+  - name: Qwen25-Standard
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    customPromptsPath: Prompts  
   - name: HyMT2-7B
     modelPreset: HyMT2
     modelPresetType: Standard
@@ -13,10 +17,6 @@ models:
     modelPreset: Qwen38
     modelPresetType: Standard
     model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
-  - name: Qwen25-Standard
-    modelPreset: Qwen25
-    modelPresetType: Standard
-    customPromptsPath: Prompts
   - name: Qwen25-StructuredText
     modelPreset: Qwen25
     modelPresetType: StructuredText

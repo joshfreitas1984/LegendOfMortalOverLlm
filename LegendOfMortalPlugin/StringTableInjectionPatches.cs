@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using BepInEx;
 using HarmonyLib;
+using Lean.Localization;
 using Mortal.Core;
 
 namespace LegendOfMortalPlugin;
@@ -45,6 +46,31 @@ internal static class StringTableInjectionPatches
         return true;
     }
 
+    /// <summary>
+    /// Static UI labels (LeanLocalizedTextMeshProUGUI/LeanLocalizedText/LeanLocalizedTMP_Dropdown
+    /// etc., via LeanLocalizedBehaviour.UpdateLocalization) never go through
+    /// LeanLocalizationResolver.GetString - they call LeanLocalization.GetTranslation(name) and
+    /// read the returned LeanTranslation.Data directly, so without this postfix every
+    /// prefab-baked label (menu headers, column titles, status/system buttons) stays Chinese even
+    /// though its key is packaged. Overwriting Data on the shared LeanTranslation is safe: it is
+    /// rebuilt from the Chinese source on every LeanLocalization.UpdateTranslations pass and
+    /// re-patched here on the next lookup.
+    /// </summary>
+    [HarmonyPatch(typeof(LeanLocalization), nameof(LeanLocalization.GetTranslation))]
+    [HarmonyPostfix]
+    private static void GetTranslation_Postfix(string name, LeanTranslation __result)
+    {
+        try
+        {
+            if (__result?.Data is string && !string.IsNullOrEmpty(name) && Translations.TryGetValue(name, out var translated))
+                __result.Data = translated;
+        }
+        catch (Exception ex)
+        {
+            MainPlugin.Logger?.LogError($"StringTableInjectionPatches: GetTranslation_Postfix failed for key '{name}': {ex}");
+        }
+    }
+
     private static Dictionary<string, string> LoadTranslations()
     {
         var result = new Dictionary<string, string>();
@@ -59,12 +85,11 @@ internal static class StringTableInjectionPatches
         foreach (var file in Directory.GetFiles(modDir, "*.csv"))
         {
             var loaded = 0;
-            foreach (var line in File.ReadAllLines(file))
+            // Parse the whole file rather than line-by-line: the packager writes multi-line entries
+            // as quoted fields with real newlines, which a per-line read would cut off after the
+            // first line.
+            foreach (var fields in CsvUtility.ParseFile(File.ReadAllText(file)))
             {
-                if (string.IsNullOrEmpty(line))
-                    continue;
-
-                var fields = CsvUtility.ParseRow(line);
                 if (fields.Length < 2 || string.IsNullOrEmpty(fields[0]))
                     continue;
 

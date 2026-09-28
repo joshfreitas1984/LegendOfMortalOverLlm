@@ -1,3 +1,5 @@
+using FanslationStudio.LlmKit;
+using FanslationStudio.LlmKit.Utility;
 using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Workflow;
 
@@ -19,6 +21,8 @@ namespace Translate;
 /// ad-hoc pre-clean regex, not something the game's data actually contains). A literal "\n" is
 /// just ordinary non-Chinese text to CompoundFieldSplitter.Decompose/Reconstruct - it's preserved
 /// verbatim in the template and survives translation unchanged with no special-casing required.
+/// The one exception is <see cref="SoftLineBreakJoiner"/>, which joins the source's mid-sentence
+/// manual wraps into spaces for every RawCsv file (see <see cref="PackageCsvAsync"/>).
 /// </summary>
 public static class TranslationPackaging
 {
@@ -35,9 +39,16 @@ public static class TranslationPackaging
         var qcRejectedCount = 0;
         var rawFallbackCount = 0;
 
-        foreach (var textFile in textFiles.Where(t => t.TextFileType == TextFileType.RawCsv))
+        foreach (var textFile in textFiles)
         {
-            var (passed, qcRejected, rawFallback) = await CsvGameDataWorkflow.PackageAsync(workingDirectory, textFile);
+            var (passed, qcRejected, rawFallback) = textFile.TextFileType switch
+            {
+                TextFileType.RawCsv => await PackageCsvAsync(workingDirectory, textFile),
+                TextFileType.PrefabText => await PrefabTextWorkflow.PackagePrefabTextAsync(workingDirectory, textFile),
+                // Mono game: DynamicStrings is the Cecil-transpiler flavour, not DynamicStringsIL2CPP.
+                TextFileType.DynamicStrings => await DynamicStringsCecilWorkflow.PackageDynamicStringsCecilAsync(workingDirectory, textFile),
+                _ => (0, 0, 0),
+            };
 
             passedCount += passed;
             qcRejectedCount += qcRejected;
@@ -47,5 +58,34 @@ public static class TranslationPackaging
         Console.WriteLine($"Passed: {passedCount}");
         Console.WriteLine($"QC failures: {qcRejectedCount}");
         Console.WriteLine($"Fell back to raw: {rawFallbackCount}");
+    }
+
+    /// <summary>
+    /// CsvGameDataWorkflow.PackageAsync plus <see cref="SoftLineBreakJoiner"/> as its row
+    /// post-process. The hook only sees the packaged row, so the original Chinese row is looked up
+    /// by its key (column 0) from the same Converted file.
+    /// </summary>
+    private static async Task<(int Passed, int QcRejected, int RawFallback)> PackageCsvAsync(string workingDirectory, TextFileToSplit textFile)
+    {
+        if (!SoftLineBreakJoiner.Enabled)
+            return await CsvGameDataWorkflow.PackageAsync(workingDirectory, textFile);
+
+        var sourceRowsByKey = new Dictionary<string, string[]>();
+        await FileIteration.IterateTranslatedFilesAsync(workingDirectory, [textFile], (_, _, lines) =>
+        {
+            foreach (var line in lines)
+            {
+                var fields = CompoundFieldSplitter.ParseCsvRow(line.Raw);
+                if (fields.Length > 0)
+                    sourceRowsByKey.TryAdd(fields[0], fields);
+            }
+
+            return Task.CompletedTask;
+        });
+
+        return await CsvGameDataWorkflow.PackageAsync(workingDirectory, textFile,
+            rowPostProcess: fields => fields.Length > 0 && sourceRowsByKey.TryGetValue(fields[0], out var source)
+                ? SoftLineBreakJoiner.Apply(source, fields)
+                : fields);
     }
 }

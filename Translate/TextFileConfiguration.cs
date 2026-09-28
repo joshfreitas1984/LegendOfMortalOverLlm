@@ -27,6 +27,14 @@ namespace Translate;
 public static class TextFileConfiguration
 {
     public static readonly TextFileToSplit[] TextFilesToSplit = [
+        new() {Path = "dynamicStrings.txt", PackageOutput = true, TextFileType = TextFileType.DynamicStrings },
+        
+        //Traditional Chinese (has most of them)
+        new() {Path = "dumpedPrefabText.txt", PackageOutput = true, TextFileType = TextFileType.PrefabText },
+
+        //Simplified
+        new() {Path = "prefabText.txt", PackageOutput = true, TextFileType = TextFileType.PrefabText },
+
         new() {Path = "BattleSkill_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "BattleTalking_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "CharacterIntro_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
@@ -44,7 +52,7 @@ public static class TextFileConfiguration
         new() {Path = "ItemBook_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "ItemMisc_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "ItemSpecial_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
-        // LegendInfo/... narrative text - see TranslationPackaging's paragraph-newline rowPostProcess.
+        // LegendInfo/... narrative text - mid-sentence line wraps are joined at packaging, see SoftLineBreakJoiner.
         new() {Path = "Legend_01_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Library_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "PlayerInfo_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
