@@ -27,6 +27,8 @@ Your settings files under `BepInEx/config` are never overwritten by an update. T
 
 Install [BepInEx 5.4.23.3 for Windows **x86** (32-bit)](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.3) (`BepInEx_win_x86_5.4.23.3.zip`) into your `<Game Folder>` where Mortal.exe is, then extract the [latest release zip](https://github.com/joshfreitas1984/LegendOfMortalOverLlm/releases/latest) over it. Release zips no longer contain BepInEx itself. A manual install won't get the in-game update prompt.
 
+After installing BepInEx, open `doorstop_config.ini` in the game folder and set `dll_search_path_override = "BepInEx\core"` (it is blank by default). Legend of Mortal ships its own copy of MonoMod, and without this setting BepInEx loads it, fails on startup and the game runs untranslated (a `preloader_*.log` file appears in the game folder). The installer does this for you.
+
 # Contacting us
 You can join us here: [Discord](https://discord.gg/sqXd5ceBWT)
 
