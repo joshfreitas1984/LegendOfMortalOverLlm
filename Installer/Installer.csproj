@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Installer</AssemblyName>
+    <RootNamespace>Installer</RootNamespace>
+    <!-- Shared FanslationStudio icon; regenerate with generate-icon.ps1 next to it. -->
+    <ApplicationIcon>..\..\FanslationStudio.LlmKit\FanslationStudio.Installer.App\Assets\FanslationStudio.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <!-- Self-contained single file so players need no .NET install. Trimming and compression take
+       win-x64 from ~91 MB to ~21 MB; the code stays trim-safe by using source-generated JSON. -->
+  <PropertyGroup>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <PublishTrimmed>true</PublishTrimmed>
+    <TrimMode>partial</TrimMode>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Each published binary carries its own config; a copy next to the exe overrides it. -->
+    <EmbeddedResource Include="installer.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.Installer.App\FanslationStudio.Installer.App.csproj" />
+  </ItemGroup>
+
+</Project>

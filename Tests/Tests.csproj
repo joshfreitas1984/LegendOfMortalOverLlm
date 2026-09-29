@@ -21,6 +21,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Translate\Translate.csproj" />
     <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.LlmKit\FanslationStudio.LlmKit.csproj" />
+    <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.LlmKit.Release\FanslationStudio.LlmKit.Release.csproj" />
+    <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.Installer.Core\FanslationStudio.Installer.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

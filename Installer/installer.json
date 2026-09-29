@@ -1,0 +1,19 @@
+{
+  "gameName": "Legend of Mortal",
+  "steamAppId": 1859910,
+  "steamFolderName": "LegendOfMortal",
+  "exeName": "Mortal.exe",
+  "gitHubRepo": "joshfreitas1984/LegendOfMortalOverLlm",
+  // gh account to publish as from "7. Package Release". Leave null to open the browser instead.
+  "ghAccount": null,
+  "patchZipPrefix": "EnglishPatch",
+  "wineLaunchOption": "WINEDLLOVERRIDES=\"winhttp=n,b\" %command%",
+  "bepInEx": {
+    "flavour": "mono",
+    // Mortal is a 32-bit game: the x64 build would silently fail to load.
+    "architecture": "x86",
+    "version": "5.4.23.3",
+    "url": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.3/BepInEx_win_x86_5.4.23.3.zip",
+    "sha256": "275bc94fa582ba0ddeb5dca1241fd657d5f101563c3a8dd3a4a6c27ca28e2376"
+  }
+}

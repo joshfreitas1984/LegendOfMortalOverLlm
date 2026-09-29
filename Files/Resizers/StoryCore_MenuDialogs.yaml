@@ -1,0 +1,26 @@
+- path: StoryCore/MenuDialogs/*/ButtonGroup/*/*/Title
+  sampleText: Carrying firewood
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustX: -20
+  adjustWidth: 24
+- path: StoryCore/MenuDialogs/*/ButtonGroup/*/*/Type
+  sampleText: Freedom
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustX: -20
+  adjustY: -10
+  adjustWidth: 20
+- path: StoryCore/MenuDialogs/*/Header
+  sampleText: Back Mountain
+  idealFontSize: 60
+  allowWordWrap: true
+  adjustWidth: 200
+- path: StoryCore/MenuDialogs/DiceMenuDialog/ButtonGroup/OptionButton*/Header/Condition
+  sampleText: 【<50】
+  idealFontSize: 20
+  allowWordWrap: true
+- path: StoryCore/MenuDialogs/DiceMenuDialog/ButtonGroup/OptionButton*/NormalText
+  sampleText: A criminal who wishes to atone for their sins through meritorious deeds.
+  idealFontSize: 16
+  allowWordWrap: true

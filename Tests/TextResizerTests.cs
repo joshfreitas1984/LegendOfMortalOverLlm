@@ -14,6 +14,17 @@ public class TextResizerTests
 {
     const string workingDirectory = "../../../../Files";
 
+    // The splitting itself lives in LlmKit (EditorFileSplitter) so every game packages the editor folders the same way.
+    // Mortal has no layouts or sprites yet; the splitter ignores missing folders, so these are ready for when it does.
+    [Fact]
+    public static void MoveResizersIntoPathBasedFiles() => EditorFileSplitter.SplitResizers(workingDirectory);
+
+    [Fact]
+    public static void MoveSpritesIntoPathBasedFiles() => EditorFileSplitter.SplitSprites(workingDirectory);
+
+    [Fact]
+    public static void MoveLayoutsIntoPathBasedFiles() => EditorFileSplitter.SplitLayouts(workingDirectory);
+
     [Fact] // Can only be run when VS is running in admin
     public void CreateSymlinkToResizer()
     {
