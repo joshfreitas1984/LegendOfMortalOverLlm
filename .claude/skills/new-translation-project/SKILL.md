@@ -1,6 +1,6 @@
 ---
 name: new-translation-project
-description: Scaffolds a brand-new sibling "OverLlm" game-translation repo (e.g. DragonHierOverLlm, LegendOfMortalOverLlm, WanXiangOverLlm) that consumes FanslationStudio.LlmKit via project reference. Asks a handful of setup questions, then creates the new repo's directory/git init, working-directory data layout, starter Config.yaml, BepInEx plugin project (IL2CPP or Mono), AGENTS.md/CLAUDE.md/docs/README.md, and copies this repo's .claude/skills/ into it. Use when starting a brand-new game translation project from scratch, not for changes to an existing downstream repo.
+description: Scaffolds a brand-new sibling "OverLlm" game-translation repo (e.g. DragonHierOverLlm, LegendOfMortalOverLlm, WanXiangOverLlm) that consumes FanslationStudio.LlmKit via project reference. Asks a handful of setup questions, then creates the new repo's directory/git init, working-directory data layout, starter Config.yaml, BepInEx plugin project (IL2CPP or Mono), installer host (installer.json), release packaging workflows and Files/Packaging, AGENTS.md/CLAUDE.md/docs/README.md, and copies this repo's .claude/skills/ into it. Use when starting a brand-new game translation project from scratch, not for changes to an existing downstream repo.
 ---
 
 # Scaffold a new translation project
@@ -129,10 +129,67 @@ pin.
    `# Contacting us` section containing the repository's self-link (`#contacting-us`) followed by
    the shared Discord invite: `https://discord.gg/sqXd5ceBWT`.
 
-9. **Summarize what was created and what's still manual.** Done: repo/git init, `Files/` data
+10. **Scaffold the installer, auto-updater and release packaging.** The reusable code lives in
+   LlmKit (`FanslationStudio.Installer.App`, `Installer.Core`, `LlmKit.Release`); the new repo only
+   gets a thin host and data. Copy the shape from `LegendOfMortalOverLlm` (Mono) or
+   `DragonHierOverLlm` (IL2CPP). Do not reopen these decisions: unsigned installer, no GitHub
+   Actions (plugins reference copyrighted game DLLs, so releases are built locally), manual
+   publishing, installer on one rolling `installer` pre-release, BepInEx never inside the patch zip.
+   - **Ask first** (extra setup questions): Steam app ID, Steam folder name, exe name (the exe may
+     be nested a level or two below the folder, e.g. WanXiang), GitHub `owner/repo`, and whether
+     the exe is 32- or 64-bit (check the PE header; a 32-bit game needs the **x86** BepInEx build,
+     the x64 one silently fails to load).
+   - **`Installer/`**: `Installer.csproj` and `Program.cs` (`return InstallerHost.Run(args);`)
+     copied from `LegendOfMortalOverLlm/Installer/`, with `installer.json` as an
+     `EmbeddedResource`. Add it to the `.sln` together with `FanslationStudio.Installer.App` and
+     `FanslationStudio.Installer.Core`.
+   - **`Installer/installer.json`**: `gameName`, `steamAppId`, `steamFolderName`, `exeName`,
+     `gitHubRepo`, `ghAccount` (`null`), `patchZipPrefix` (`EnglishPatch`), `wineLaunchOption`
+     (`WINEDLLOVERRIDES="winhttp=n,b" %command%`), and a `bepInEx` block: `flavour` (`il2Cpp` or
+     `mono`), `architecture`, `version`, `url` and `sha256`. Pin the exact URL and compute the
+     SHA256 of the downloaded zip yourself. **Check `<Game>_Data/Managed` for `MonoMod*.dll`
+     (Mono games):** if present, set `"dllSearchPathOverride": "BepInEx\\core"`, otherwise BepInEx
+     loads the game's older MonoMod and dies in the preloader (`MethodAccessException` in
+     `preloader_*.log`). Leave it out when there is no MonoMod. Do not add console or
+     UnityLogListening settings.
+   - **`Files/Packaging/`** (not `Release/`, which `.gitignore` ignores): `GameVersion.txt` (one
+     line, the current game version; ask the user) and `BepInEx.cfg`, a copy of the tailored
+     `BepInEx.cfg` from a working local install after the game has been launched once (or a
+     placeholder to fill in). The patch ships it seed-only; the installer never edits it.
+   - **Plugin csproj PostBuild**: besides `GameDir`, copy the built DLL to `ReleaseFolder` =
+     `<game>\ReleaseFolder\Files\BepInEx\plugins`, as in `LegendOfMortalPlugin`'s csproj.
+     `Tests/Tests.csproj` also needs project references to `FanslationStudio.LlmKit.Release` and
+     `FanslationStudio.Installer.Core`.
+   - **`Tests/FileOutputWorkflowTests.cs`**: step "6. Package to Game Files" copies `Mod` into the
+     game and then calls `TextResizerTests.MoveResizersIntoPathBasedFiles`, `MoveSpritesIntoPathBasedFiles`
+     and `MoveLayoutsIntoPathBasedFiles` (they wrap `EditorFileSplitter`). Add "7. Package Release"
+     and "7b. Package Installer" from `LegendOfMortalOverLlm` with explicit mappings (never copy
+     whole local `BepInEx/config` or `plugins` folders), `OwnedFolders`, `RemoveAfterStaging`
+     `BepInEx/resizers/zzAddedResizers.yaml`, `SeedOnly` `BepInEx/config/**`, and
+     `PrepareStagingFolder` (removes stray BepInEx files, fixes `BepinEx` casing, checks the plugin
+     DLLs exist). Adjust the plugin DLL names and the mod folder mapping for the game.
+     Never run 7 or 7b as a smoke test on a dev machine: they rewrite the real `ReleaseFolder` and
+     open a browser. Use a throwaway probe project instead.
+   - **In-game update prompt**: comes from `FanslationStudio.Plugins` (`UpdateHost` in
+     `UnityShared`), wired into the host for the runtime (IL2CPP, BepInEx 5 Mono or BepInEx 6
+     Mono). The plugin reads `BepInEx/release-manifest.json`, so there is no per-game plugin config.
+   - **Player docs**: the `docs/README.md` "Latest release" section needs the installer
+     download links (`.../releases/download/installer/Installer-win-x64.exe` and
+     `Installer-linux-x64`), the Linux launch option, the Uninstall patch note, an "Updates"
+     section, and a "Manual install" section naming the exact pinned BepInEx zip (and the
+     `dll_search_path_override` note when the game needs it). Copy the wording from
+     `LegendOfMortalOverLlm/docs/README.md`.
+   - Publishing is manual and never uses ambient GitHub auth: the workflows open the release folder
+     and a prefilled releases URL. The first `installer` pre-release must be created by hand
+     (tick "pre-release", tag `installer`).
+
+11. **Summarize what was created and what's still manual.** Done: repo/git init, `Files/` data
    layout, starter `Config.yaml`/`ManualTranslations.yaml`, the plugin project scaffold (compiles,
-   loads, does nothing yet), `AGENTS.md`/`CLAUDE.md`/`docs/README.md`, copied skills. Still
+   loads, does nothing yet), installer host and packaging workflows, `AGENTS.md`/`CLAUDE.md`/
+   `docs/README.md`, copied skills. Still
    game-specific and manual: writing the actual dumper (extracting the game's real data files into
    `Raw/Dumped`), IL2CPP interop generation against the real game install if applicable, populating
    `GameTextFiles.cs`'s `TextFilesToSplit` list against real dumped files, the first real
-   translation run, and the `SkillSyncTests.cs` edit from step 8.
+   translation run, the `SkillSyncTests.cs` edit from step 8, filling in `Files/Packaging/`
+   (`GameVersion.txt`, the tailored `BepInEx.cfg`), and the first manual publish of the rolling
+   `installer` pre-release.
