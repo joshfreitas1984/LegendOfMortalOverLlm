@@ -1,0 +1,40 @@
+- path: UI/Layer_3/LibraryPanel/Buttons/MenuButton_*/*/Text
+  sampleText: Book of Life and Death
+  idealFontSize: 30
+  allowWordWrap: true
+- path: UI/Layer_3/LibraryPanel/Panels/Dead/Title/Text
+  sampleText: Book of life and death
+  idealFontSize: 28
+  allowWordWrap: true
+  adjustX: 20
+  adjustY: 20
+  adjustWidth: -40
+  adjustHeight: 40
+- path: UI/Layer_3/LibraryPanel/Panels/EndGame/Title/Text
+  sampleText: History book
+  idealFontSize: 28
+  allowWordWrap: true
+  adjustX: 40
+  adjustY: 20
+  adjustWidth: -60
+  adjustHeight: 40
+- path: UI/Layer_3/LibraryPanel/Panels/Legend/SaveLegendPanel/Container/LoadLegendSlot*/Text
+  sampleText: No record
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustX: -4
+  adjustY: -20
+  adjustWidth: 10
+- path: UI/Layer_3/LibraryPanel/Panels/Legend/SaveLegendPanel/Detail/Name
+  sampleText: The Hidden Weapons of the Tang Clan
+  idealFontSize: 22
+  allowWordWrap: true
+  adjustHeight: 20
+- path: UI/Layer_3/LibraryPanel/Panels/Legend/Title/Text
+  sampleText: Legend of Living Heroes
+  idealFontSize: 28
+  allowWordWrap: true
+  adjustX: 20
+  adjustY: 20
+  adjustWidth: -20
+  adjustHeight: 40

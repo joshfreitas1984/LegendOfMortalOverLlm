@@ -1,0 +1,1180 @@
+﻿
+# Terms
+
+- raw: 攻击力
+  rawSimplified: 攻击力
+  rawTraditional: 攻擊力
+  result: Attack Power
+  direct: attack power
+  literal: gong ji li
+  badtrans: false
+- raw: 防御力
+  rawSimplified: 防御力
+  rawTraditional: 防禦力
+  result: Defense
+  allowalt:
+  - Defensive
+  direct: Defense
+  literal: fang yu li
+- raw: 命中率
+  result: Accuracy
+  direct: hit rate
+  literal: ming zhong
+- raw: 气势
+  rawSimplified: 气势
+  rawTraditional: 氣勢
+  result: Momentum
+  direct: Qi force
+  literal: Qishi
+  badtrans: false
+- raw: 化境
+  result: Transcendant
+  allowalt:
+  - Transcendence
+  direct: transform realm
+  literal: hua jing
+- raw: 护卫
+  rawSimplified: 护卫
+  rawTraditional: 護衛
+  result: Guard
+  direct: protect defend
+  literal: hu wei
+  badtrans: false
+- raw: 心魔
+  result: Inner Demon
+  direct: Heart Demon
+  literal: Xinmo
+- raw: 有苏花
+  rawSimplified: 有苏花
+  rawTraditional: 有蘇花
+  result: Yousu Flower
+  direct: Yousu Flower
+  literal: You Su Hua
+- raw: 交给我吧
+  rawSimplified: 交给我吧
+  rawTraditional: 交給我吧
+  result: Leave it to me
+  direct: Give to me
+  literal: Jiao gei wo ba
+  badtrans: false
+- raw: 海色宝会
+  rawSimplified: 海色宝会
+  rawTraditional: 海色寶會
+  result: Sea Treasure Gathering
+  direct: Sea Color Treasure Gathering
+  literal: Hai Se Bao Hui
+- raw: 空军
+  rawSimplified: 空军
+  rawTraditional: 空軍
+  result: Sky Warrior
+  direct: Sky Warrior
+  literal: Kōng jūn
+- raw: 真人
+  result: Immortal
+  direct: True Person
+  literal: Zhen Ren
+  badtrans: false
+- raw: 三恶
+  rawSimplified: 三恶
+  rawTraditional: 三惡
+  result: Three Evils
+  direct: Three Evil
+  literal: San E
+- raw: 三恶老大
+  rawSimplified: 三恶老大
+  rawTraditional: 三惡老大
+  result: Three Evils Old One
+  direct: Three Evil Old One
+  literal: San E Lao Da
+- raw: 三恶老二
+  rawSimplified: 三恶老二
+  rawTraditional: 三惡老二
+  result: Three Evils Old Two
+  direct: Three Evil Old Two
+  literal: San E Lao Er
+- raw: 三恶老三
+  rawSimplified: 三恶老三
+  rawTraditional: 三惡老三
+  result: Three Evils Old Three
+  direct: Three Evil Old Three
+  literal: San E Lao San
+- raw: 小二
+  result: Waiter
+  direct: Little Two
+  literal: Xiao Er
+- raw: 丹师
+  rawSimplified: 丹师
+  rawTraditional: 丹師
+  result: Alchemist
+  direct: Dan Shi
+  literal: Dan Shi
+- raw: 西王爷
+  rawSimplified: 西王爷
+  rawTraditional: 西王爺
+  result: Western Prince
+  direct: Xi Wang Ye
+  literal: Xi Wang Ye
+- raw: 流民
+  result: Refugee
+  direct: Displaced people
+  literal: Liu min
+- raw: 双击
+  rawSimplified: 双击
+  rawTraditional: 雙擊
+  result: Double-tap
+  direct: Double-click
+  literal: Shuangji
+- raw: 心法
+  result: Heart Method
+  direct: Heart Method
+  literal: Xin Fa
+- raw: 武侠
+  rawSimplified: 武侠
+  rawTraditional: 武俠
+  result: Wuxia
+  allowalt: 
+  - martial hero
+- raw: 天书
+  rawSimplified: 天书
+  rawTraditional: 天書
+  result: Heavenly Scripture
+  badtrans: false
+- raw: 八卦
+  result: Bagua
+  allowalt:
+  - Gossip
+  - Rumors
+- raw: 武林
+  result: Wulin
+  badtrans: false
+- raw: 江湖
+  result: Jianghu
+- raw: 马帮
+  rawSimplified: 马帮
+  rawTraditional: 馬幫
+  result: Horse Gang
+- raw: 盐帮
+  rawSimplified: 盐帮
+  rawTraditional: 鹽幫
+  result: Salt Gang
+- raw: 河图
+  rawSimplified: 河图
+  rawTraditional: 河圖
+  result: River Map
+  allowalt:
+  - Hetu
+  context: Hetu is river map but can be part of Hetu Luoshu
+  badtrans: false
+- raw: 河出马图
+  rawSimplified: 河出马图
+  rawTraditional: 河出馬圖
+  result: Hetu Luoshu
+- raw: 门派
+  rawSimplified: 门派
+  rawTraditional: 門派
+  result: Sect
+  context: Refers to a school or faction, especially in martial arts or cultivation settings, often with a specific philosophy or technique.
+  badtrans: false
+- raw: 门派背景
+  rawSimplified: 门派背景
+  rawTraditional: 門派背景
+  result: Sect Background
+  context: Refers to the history, origin, or cultural background of a particular sect, often detailing its philosophies, teachings, or important events.
+  badtrans: false
+- raw: 流派
+  result: Style
+  allowalt:
+  - School
+  context: Refers to a specific tradition or school of thought, technique, or philosophy, often used in martial arts, arts, or intellectual disciplines.
+  badtrans: false
+- raw: 败北失利
+  rawSimplified: 败北失利
+  rawTraditional: 敗北失利
+  result: Defeat and Loss
+  direct: Loss and Failure
+  literal: Bai bei shi li
+  badtrans: false
+- raw: 机关
+  rawSimplified: 机关
+  rawTraditional: 機關
+  result: Mechanism
+  allowalt:
+  - Organization
+  - Scheme
+  - Mechanical
+  direct: Organization
+  literal: Jiguan
+  badtrans: false
+- raw: 冷却中
+  rawSimplified: 冷却中
+  rawTraditional: 冷卻中
+  result: Cooldown
+  direct: In Cooling Process
+  literal: Lengque Zhong
+- raw: 委托
+  rawSimplified: 委托
+  rawTraditional: 委託
+  result: Commission
+  direct: Entrust
+  literal: Wei tuo
+- raw: 操你媽
+  rawSimplified: 操你妈
+  rawTraditional: 操你媽
+  result: Fuck your mother
+  direct: fuck you mother
+  literal: Cao ni ma
+- raw: 戰他娘親
+  rawSimplified: 战他娘亲
+  rawTraditional: 戰他娘親
+  result: Fight their mother
+  direct: fight his mother
+  literal: Zhan ta niang qin
+- raw: 拍拍
+  result: Pat
+  allowalt:
+  - slap
+  - flap
+  direct: pat pat
+  literal: Pai Pai
+- raw: 盟主
+  result: Alliance Leader
+  allowalt:
+  - Leader
+  direct: Alliance Master
+  literal: Meng Zhu
+- raw: 武林盟
+  result: Wulin Alliance
+  allowalt:
+  - Alliance
+  direct: martial forest alliance
+  literal: wulin meng
+- raw: 法王
+  result: Dharma King
+  direct: Dharma King
+  literal: Fa Wang
+- raw: 魔教
+  result: Demon Sect
+  direct: mo jiao
+  literal: demon sect
+- raw: 通判
+  result: Vice Magistrate
+
+# 6 Paths clans
+- raw: 六道法王
+  result: Six Paths Dharma King
+  direct: Six Paths Dharma King
+  literal: Liu Dao Fa Wang
+- raw: 人間道
+  rawSimplified: 人间道
+  rawTraditional: 人間道
+  result: Human Path
+  direct: Human Realm Path
+  literal: Ren Jian Dao
+- raw: 餓鬼道
+  rawSimplified: 饿鬼道
+  rawTraditional: 餓鬼道
+  result: Hungry Ghost Path
+  direct: e gui dao
+  literal: hungry ghost path
+- raw: 地獄道
+  rawSimplified: 地狱道
+  rawTraditional: 地獄道
+  result: Hell's Path
+  direct: di yu dao
+  literal: earth prison path / hell path
+- raw: 畜生道
+  result: Beast Path
+  direct: chu sheng dao
+  literal: beast path / animal path
+- raw: 畜牲道
+  result: Beast Path
+  direct: animal beast path
+  literal: Chu Sheng Dao
+- raw: 天道
+  result: Heavenly path
+  direct: heaven way
+  literal: Tiandao
+- raw: 修羅道
+  rawSimplified: 修罗道
+  rawTraditional: 修羅道
+  result: Asura Path
+  direct: Xiu Luo Dao
+  literal: Asura path / path of demonic warriors
+
+
+
+# Ancient Factions
+- raw: 西夏
+  result: Western Xia
+  direct: Western Xia
+  literal: Xixia
+- raw: 吐蕃
+  result: Tubo
+  direct: Tubo
+  literal: Tufan (Tibetan)
+- raw: 唐門
+  rawSimplified: 唐门
+  rawTraditional: 唐門
+  result: Tang Clan
+  direct: Tang gate
+  literal: Tangmen
+- raw: 飛石幫
+  rawSimplified: 飞石帮
+  rawTraditional: 飛石幫
+  result: Flying Stone Gang
+- raw: 青城
+  result: Qingcheng
+  direct: Green City
+  literal: Qingcheng
+- raw: 武當
+  rawSimplified: 武当
+  rawTraditional: 武當
+  result: Wudang
+  direct: Martial Hall
+  literal: Wudang
+- raw: 少林
+  result: Shaolin
+  direct: Small Forest
+  literal: Shaolin
+- raw: 峨嵋
+  result: Emei
+  direct: Lofty Eyebrow
+  literal: Emei
+- raw: 丐幫
+  rawSimplified: 丐帮
+  rawTraditional: 丐幫
+  result: Beggar Sect
+  direct: Beggar Gang
+  literal: Gaibang
+- raw: 恶人谷
+  rawSimplified: 恶人谷
+  rawTraditional: 惡人谷
+  result: Villains Valley
+  badtrans: true
+  direct: Evil person valley
+  literal: e ren gu
+- raw: 天山
+  result: Tianshan
+  direct: Heaven Mountain
+  literal: Tianshan
+- raw: 雪山派
+  result: Snow Mountain Sect
+  direct: Snow Mountain Faction
+  literal: Xueshan pai
+- raw: 鳳凰山
+  rawSimplified: 凤凰山
+  rawTraditional: 鳳凰山
+  result: Phoenix Mountain
+  direct: Phoenix Mountain
+  literal: Fenghuang shan
+- raw: 嵩山
+  result: Songshan
+  direct: Lofty Mountain
+  literal: Songshan
+- raw: 嶺南
+  rawSimplified: 岭南
+  rawTraditional: 嶺南
+  result: Lingnan
+  direct: South of Mountains
+  literal: Lingnan
+  badtrans: false
+- raw: 逍遙派
+  rawSimplified: 逍遥派
+  rawTraditional: 逍遙派
+  result: Carefree Sect
+  direct: Carefree Faction
+  literal: Xiaoyao pai
+- raw: 日月神教
+  result: Sun Moon Holy Cult
+  direct: Sun Moon Divine Cult
+  literal: Riyue shenjiao
+- raw: 岳家
+  result: Yue Clan
+  allowalt:
+  - Yue Family
+  direct: Mountain Family
+  literal: Yue jia
+- raw: 段家
+  result: Duan Clan
+  allowalt:
+  - Duan Family
+  direct: Segment Family
+  literal: Duan jia
+- raw: 胡家
+  result: Hu Clan
+  allowalt:
+  - Hu Family
+  direct: Hu Family
+  literal: Hu jia
+- raw: 全真
+  result: Quanzhen
+  direct: Complete Truth
+  literal: Quanzhen
+- raw: 錦香
+  rawSimplified: 锦香
+  rawTraditional: 錦香
+  result: Jinxiang
+  direct: Brocade Fragrance
+  literal: Jin Xiang
+- raw: 點蒼
+  rawSimplified: 点苍
+  rawTraditional: 點蒼
+  result: Diancang
+  direct: Spot Cyan
+  literal: Diancang
+- raw: 鐵拳
+  rawSimplified: 铁拳
+  rawTraditional: 鐵拳
+  result: Iron Fist
+  direct: Iron Fist
+  literal: Tiequan
+- raw: 泥教
+  result: Mud Cult
+  direct: Mud Teaching
+  literal: Ni jiao
+- raw: 奪魄
+  rawSimplified: 夺魄
+  rawTraditional: 奪魄
+  result: Soul Stealer
+  direct: Seize Soul
+  literal: Duopo
+- raw: 南宮
+  rawSimplified: 南宫
+  rawTraditional: 南宮
+  result: Nangong
+  direct: Southern Palace
+  literal: Nangong
+- raw: 崆峒
+  result: Kongtong
+  direct: Lofty Peak
+  literal: Kongtong
+- raw: 玄功
+  result: Mystic Skill
+  direct: Profound Skill
+  literal: Xuanggong
+
+
+
+  badtrans: false
+
+
+
+
+
+# Status
+- raw: 内伤
+  rawSimplified: 内伤
+  rawTraditional: 內傷
+  result: Internal Injury
+  allowalt:
+  - Internal Injuries
+  - Wound
+- raw: 外伤
+  rawSimplified: 外伤
+  rawTraditional: 外傷
+  result: External Injury
+  allowalt:
+  - Extra Damage
+  - Damage
+  - External Injuries
+  badtrans: false
+- raw: 中毒
+  result: Poisoned
+  allowalt:
+  - Poisoning
+  - Poison effect
+  badtrans: false
+- raw: 迷惑
+  result: Confusion
+  allowalt:
+  - Confuse
+  - mesmerizing
+  badtrans: false
+- raw: 冰封
+  result: Frozen
+  badtrans: false
+
+# Ranks
+- raw: 一阶
+  rawSimplified: 一阶
+  rawTraditional: 一階
+  result: Tier 1
+  badtrans: false
+- raw: 二阶
+  rawSimplified: 二阶
+  rawTraditional: 二階
+  result: Tier 2
+  badtrans: false
+- raw: 三阶
+  rawSimplified: 三阶
+  rawTraditional: 三階
+  result: Tier 3
+  badtrans: false
+- raw: 四阶
+  rawSimplified: 四阶
+  rawTraditional: 四階
+  result: Tier 4
+  badtrans: false
+- raw: 五阶
+  rawSimplified: 五阶
+  rawTraditional: 五階
+  result: Tier 5
+  badtrans: false
+- raw: 六阶
+  rawSimplified: 六阶
+  rawTraditional: 六階
+  result: Tier 6
+  badtrans: false
+- raw: 七阶
+  rawSimplified: 七阶
+  rawTraditional: 七階
+  result: Tier 7
+  badtrans: false
+- raw: 八阶
+  rawSimplified: 八阶
+  rawTraditional: 八階
+  result: Tier 8
+  badtrans: false
+- raw: 九阶
+  rawSimplified: 九阶
+  rawTraditional: 九階
+  result: Tier 9
+  badtrans: false
+- raw: 十阶
+  rawSimplified: 十阶
+  rawTraditional: 十階
+  result: Tier 10
+  badtrans: false
+
+
+# People
+- raw: 枪士
+  rawSimplified: 枪士
+  rawTraditional: 槍士
+  result: Spearman
+- raw: 士兵枪
+  rawSimplified: 士兵枪
+  rawTraditional: 士兵槍
+  result: Spearman
+- raw: 枪兵
+  rawSimplified: 枪兵
+  rawTraditional: 槍兵
+  result: Spearman
+- raw: 狼蛮
+  rawSimplified: 狼蛮
+  rawTraditional: 狼蠻
+  result: Wolf Barbarian
+- raw: 纳西
+  rawSimplified: 纳西
+  rawTraditional: 納西
+  result: Naxi
+- raw: 锦衣卫
+  rawSimplified: 锦衣卫
+  rawTraditional: 錦衣衛
+  result: Imperial Guard
+- raw: 禁军
+  rawSimplified: 禁军
+  rawTraditional: 禁軍
+  result: Forbidden Army
+- raw: 讲经先生
+  rawSimplified: 讲经先生
+  rawTraditional: 講經先生
+  result: Scripture Teacher
+- raw: 船工
+  result: Boatman
+  badtrans: false
+- raw: 船夫
+  rawSimplified: 船夫
+  rawTraditional: 船伕
+  result: Boatman
+  badtrans: false
+- raw: 缇骑
+  rawSimplified: 缇骑
+  rawTraditional: 緹騎
+  result: Official Riders
+- raw: 打更士兵
+  result: Nightwatch Soldier
+- raw: 鹿
+  result: Deer
+  allowalt:
+  - Lu
+  badtrans: false
+- raw: 虎
+  result: Tiger
+  allowalt:
+  - Hu
+  - Gecko
+  context: Sometimes used as literal names
+  badtrans: false
+- raw: 僧侣
+  rawSimplified: 僧侣
+  rawTraditional: 僧侶
+  result: Monk
+- raw: 侠客
+  rawSimplified: 侠客
+  rawTraditional: 俠客
+  result: Wanderer
+  badtrans: false
+- raw: 江湖侠客
+  rawSimplified: 江湖侠客
+  rawTraditional: 江湖俠客
+  result: Jianghu Wanderer
+  badtrans: false
+
+
+
+# Character Names 
+- raw: 火閃電
+  rawSimplified: 火闪电
+  rawTraditional: 火閃電
+  result: Fire Lightning
+- raw: 百萬趙活
+  rawSimplified: 百万赵活
+  rawTraditional: 百萬趙活
+  result: Million Zhao Huo
+- raw: 趙活的娘
+  rawSimplified: 赵活的娘
+  rawTraditional: 趙活的娘
+  result: Zhao Huo's mother
+- raw: 南宮婦人
+  rawSimplified: 南宫妇人
+  rawTraditional: 南宮婦人
+  result: Madam Nangong
+- raw: 南宮老人
+  rawSimplified: 南宫老人
+  rawTraditional: 南宮老人
+  result: Elder Nangong
+- raw: 狄傲
+  result: Di Ao
+- raw: 唐嬌嬌
+  rawSimplified: 唐娇娇
+  rawTraditional: 唐嬌嬌
+  result: Tang Jiao Jiao
+- raw: 唐門女弟子
+  rawSimplified: 唐门女弟子
+  rawTraditional: 唐門女弟子
+  result: Tang Clan female disciple
+- raw: 許大鯨
+  rawSimplified: 许大鲸
+  rawTraditional: 許大鯨
+  result: Xu Daqing
+- raw: 唐大鯨
+  rawSimplified: 唐大鲸
+  rawTraditional: 唐大鯨
+  result: Tang Dajing
+- raw: 郁竹
+  rawSimplified: 郁竹
+  rawTraditional: 鬱竹
+  result: Yu Zhu
+- raw: 魏菊
+  result: Wei Ju
+- raw: 上官螢
+  rawSimplified: 上官萤
+  rawTraditional: 上官螢
+  result: Shangguan Ying
+- raw: 葉雲裳
+  rawSimplified: 叶云裳
+  rawTraditional: 葉雲裳
+  result: Ye Yunshang
+- raw: 虞小梅
+  result: Yu Xiaomei
+- raw: 龍湘
+  rawSimplified: 龙湘
+  rawTraditional: 龍湘
+  result: Long Xiang
+- raw: 夏侯蘭
+  rawSimplified: 夏侯兰
+  rawTraditional: 夏侯蘭
+  result: Xiahou Lan
+- raw: 上官隼
+  result: Shangguan Jun
+- raw: 葉雲舟
+  rawSimplified: 叶云舟
+  rawTraditional: 葉雲舟
+  result: Ye Yunzhao
+- raw: 車軒轅
+  rawSimplified: 车轩辕
+  rawTraditional: 車軒轅
+  result: Che Xuanxuan
+- raw: 瑞杏
+  result: Rui Xing
+- raw: 瑞笙
+  result: Rui Sheng
+- raw: 葉雲啾
+  rawSimplified: 叶云啾
+  rawTraditional: 葉雲啾
+  result: Ye Yunjiao
+- raw: 向無憂
+  rawSimplified: 向无忧
+  rawTraditional: 向無憂
+  result: Xiang Wuyou
+- raw: 溫夫人
+  rawSimplified: 温夫人
+  rawTraditional: 溫夫人
+  result: Lady Wen
+- raw: 丹霞子
+  result: Danxiazi
+- raw: 蘇迎香
+  rawSimplified: 苏迎香
+  rawTraditional: 蘇迎香
+  result: Su Yingxiang
+- raw: 王二壯
+  rawSimplified: 王二壮
+  rawTraditional: 王二壯
+  result: Wang Erzhuang
+- raw: 吳鄉
+  rawSimplified: 吴乡
+  rawTraditional: 吳鄉
+  result: Wu Xiang
+- raw: 趙逵
+  rawSimplified: 赵逵
+  rawTraditional: 趙逵
+  result: Zhao Kui
+- raw: 李紫穹
+  result: Li Ziqiong
+- raw: 無相祖師
+  rawSimplified: 无相祖师
+  rawTraditional: 無相祖師
+  result: Wuxiang Patriarch
+- raw: 申屠龍
+  rawSimplified: 申屠龙
+  rawTraditional: 申屠龍
+  result: Shentu Long
+- raw: 鐵冠道人
+  rawSimplified: 铁冠道人
+  rawTraditional: 鐵冠道人
+  result: Iron Crown Daoist
+- raw: 鄒博
+  rawSimplified: 邹博
+  rawTraditional: 鄒博
+  result: Zou Bo
+- raw: 成吉思汗
+  result: Genghis Khan
+- raw: 丘處機
+  rawSimplified: 丘处机
+  rawTraditional: 丘處機
+  result: Qiu Chuji
+- raw: 尹志平
+  result: Yin Zhiping
+- raw: 福韞
+  rawSimplified: 福韫
+  rawTraditional: 福韞
+  result: Fu Yun
+- raw: 觀雲客
+  rawSimplified: 观云客
+  rawTraditional: 觀雲客
+  result: Guan Yun Ke
+- raw: 火龍仙君
+  rawSimplified: 火龙仙君
+  rawTraditional: 火龍仙君
+  result: Fire Dragon Immortal Monarch
+- raw: 聽海生
+  rawSimplified: 听海生
+  rawTraditional: 聽海生
+  result: Ting Haisheng
+- raw: 金烏上人
+  rawSimplified: 金乌上人
+  rawTraditional: 金烏上人
+  result: Jinwu Shangren
+- raw: 唐芳
+  result: Tang Fang
+- raw: 南宮秀
+  rawSimplified: 南宫秀
+  rawTraditional: 南宮秀
+  result: Nangong Xiu
+- raw: 段智秀
+  result: Duan Zhixiu
+- raw: 南宮深
+  rawSimplified: 南宫深
+  rawTraditional: 南宮深
+  result: Nangong Shen
+- raw: 南宮橫
+  rawSimplified: 南宫横
+  rawTraditional: 南宮橫
+  result: Nangong Heng
+- raw: 段婉清
+  result: Duan Wanqing
+- raw: 方獨弱
+  rawSimplified: 方独弱
+  rawTraditional: 方獨弱
+  result: Fang Duoruo
+- raw: 南宮遠
+  rawSimplified: 南宫远
+  rawTraditional: 南宮遠
+  result: Nangong Yuan
+- raw: 南宮淺
+  rawSimplified: 南宫浅
+  rawTraditional: 南宮淺
+  result: Nangong Qian
+- raw: 南宮己
+  rawSimplified: 南宫己
+  rawTraditional: 南宮己
+  result: Nangong Ji
+- raw: 梁有詩
+  rawSimplified: 梁有诗
+  rawTraditional: 梁有詩
+  result: Liang You Shi
+- raw: 孟仙謠
+  rawSimplified: 孟仙谣
+  rawTraditional: 孟仙謠
+  result: Meng Xianyao
+- raw: 釋明
+  rawSimplified: 释明
+  rawTraditional: 釋明
+  result: Shi Ming
+- raw: 南溪
+  result: Nan Xi
+- raw: 呼延菊
+  result: Hu Yanju
+- raw: 荊紅
+  rawSimplified: 荆红
+  rawTraditional: 荊紅
+  result: Jing Hong
+- raw: 余公子
+  rawSimplified: 余公子
+  rawTraditional: 餘公子
+  result: Young Lord Yu
+- raw: 夏靈犀
+  rawSimplified: 夏灵犀
+  rawTraditional: 夏靈犀
+  result: Xia Lingxi
+- raw: 滄幫幫主
+  rawSimplified: 沧帮帮主
+  rawTraditional: 滄幫幫主
+  result: Cang Gang Leader
+- raw: 袁無憲
+  rawSimplified: 袁无宪
+  rawTraditional: 袁無憲
+  result: Yuan Wuxian
+- raw: 畫中仙
+  rawSimplified: 画中仙
+  rawTraditional: 畫中仙
+  result: Painting Immortal
+- raw: 完顏珣
+  rawSimplified: 完颜珣
+  rawTraditional: 完顏珣
+  result: Wanyan Xun
+- raw: 趙擴
+  rawSimplified: 赵扩
+  rawTraditional: 趙擴
+  result: Zhao Kuo
+- raw: 石夫人
+  result: Lady Shi
+- raw: 萬勝
+  rawSimplified: 万胜
+  rawTraditional: 萬勝
+  result: Wan Sheng
+- raw: 書蓉
+  rawSimplified: 书蓉
+  rawTraditional: 書蓉
+  result: Shu Rong
+- raw: 第三香
+  result: Third Fragrance
+- raw: 唐守鴻
+  rawSimplified: 唐守鸿
+  rawTraditional: 唐守鴻
+  result: Tang Shouhong
+- raw: 夏侯梅
+  result: Xiahou Mei
+- raw: 樂屏
+  rawSimplified: 乐屏
+  rawTraditional: 樂屏
+  result: Le Ping
+- raw: 辛儒
+  result: Xin Ru
+- raw: 唐衫
+  result: Tang Shan
+- raw: 雷謙
+  rawSimplified: 雷谦
+  rawTraditional: 雷謙
+  result: Lei Qian
+- raw: 呂翁
+  rawSimplified: 吕翁
+  rawTraditional: 呂翁
+  result: Lu Weng
+- raw: 李富貴
+  rawSimplified: 李富贵
+  rawTraditional: 李富貴
+  result: Li Fugui
+- raw: 解無塵
+  rawSimplified: 解无尘
+  rawTraditional: 解無塵
+  result: Jie Wuchen
+- raw: 江行老
+  result: Jiang Xinglao
+- raw: 劉顎
+  rawSimplified: 刘颚
+  rawTraditional: 劉顎
+  result: Liu E
+- raw: 譚霸刀
+  rawSimplified: 谭霸刀
+  rawTraditional: 譚霸刀
+  result: Tan Ba Dao
+- raw: 宋悲
+  result: Song Bei
+- raw: 萬里鵬程
+  rawSimplified: 万里鹏程
+  rawTraditional: 萬里鵬程
+  result: Wanli Pengcheng
+- raw: 石公遠
+  rawSimplified: 石公远
+  rawTraditional: 石公遠
+  result: Shi Gongyuan
+- raw: 龍淵
+  rawSimplified: 龙渊
+  rawTraditional: 龍淵
+  result: Long Yuan
+- raw: 樊嘯天
+  rawSimplified: 樊啸天
+  rawTraditional: 樊嘯天
+  result: Fan Xiaotian
+- raw: 唐錚
+  rawSimplified: 唐铮
+  rawTraditional: 唐錚
+  result: Tang Zheng
+- raw: 趙活
+  rawSimplified: 赵活
+  rawTraditional: 趙活
+  result: Zhao Huo
+- raw: 少年唐錚
+  rawSimplified: 少年唐铮
+  rawTraditional: 少年唐錚
+  result: Young Tang Zheng
+- raw: 唐陞
+  rawSimplified: 唐升
+  rawTraditional: 唐陞
+  result: Tang Sheng
+- raw: 唐中翎
+  result: Tang Zhongling
+- raw: 唐布衣
+  result: Tang Buyi
+- raw: 玄衣少年
+  result: Youth in dark robes
+- raw: 唐默鈴
+  rawSimplified: 唐默铃
+  rawTraditional: 唐默鈴
+  result: Tang Moling
+- raw: 唐惟元
+  result: Tang Weiyuan
+- raw: 少年唐布衣
+  result: Young Tang Buyi
+- raw: 少年趙活
+  rawSimplified: 少年赵活
+  rawTraditional: 少年趙活
+  result: Young Zhao Huo
+- raw: 幼年趙活
+  rawSimplified: 幼年赵活
+  rawTraditional: 幼年趙活
+  result: Young Zhao Huo
+- raw: 上官千金
+  result: Shangguan Qianjin
+- raw: 趙活屁股
+  rawSimplified: 赵活屁股
+  rawTraditional: 趙活屁股
+  result: Zhao Huo's Rear
+# Other
+- raw: 處世
+  rawSimplified: 处世
+  rawTraditional: 處世
+  result: Worldliness
+  badtrans: false
+- raw: 阿淺
+  rawSimplified: 阿浅
+  rawTraditional: 阿淺
+  result: A'Qian
+- raw: 阿活
+  result: A'Huo
+- raw: 上官
+  result: Shangguan
+  direct: upper official
+  literal: shang guan
+- raw: 花月樓
+  rawSimplified: 花月楼
+  rawTraditional: 花月樓
+  result: Flower Moon Tower
+  direct: flower moon tower
+  literal: hua yue lou
+- raw: 飛燕流星翎
+  rawSimplified: 飞燕流星翎
+  rawTraditional: 飛燕流星翎
+  result: Flying Swallow Meteor Feather
+  direct: fly swallow flow star feather
+  literal: fei yan liu xing ling
+- raw: 石幫主
+  rawSimplified: 石帮主
+  rawTraditional: 石幫主
+  result: Gang Leader Shi
+  allowalt:
+  - Leader Shi
+  - Sect Leader Shi
+  - Sect Master Shi
+  - Gang Master Shi
+  - Gang Leader Shi
+  - Flying Stone Gang Leader
+  direct: Shi bang zhu
+  literal: Shi gang leader
+- raw: 飛石幫主
+  rawSimplified: 飞石帮主
+  rawTraditional: 飛石幫主
+  result: Flying Stone Gang Leader
+  allowalt:
+  - Flying Stone Gang Master
+- raw: 臥雲崗
+  rawSimplified: 卧云岗
+  rawTraditional: 臥雲崗
+  result: Woyun Ridge
+  direct: Wo Yun Gang
+  literal: lying-cloud ridge
+- raw: 半雨屏
+  result: Banyu Terrace
+  direct: Banyu Terrace
+  literal: half-rain screen
+- raw: 瑞公子
+  result: Young Lord Rui
+  direct: Rui gong zi
+  literal: Rui young master
+- raw: 勾魂叟
+  result: Old Soul Reaper
+  direct: Gou Hun Sou
+  literal: hook-soul old man
+- raw: 義田
+  rawSimplified: 义田
+  rawTraditional: 義田
+  result: Righteous Field
+  direct: Righteous Field
+  literal: Yi Tian
+- raw: 阿隼
+  result: A'Sun
+  literal: A Sun
+- raw: 龍大俠
+  rawSimplified: 龙大侠
+  rawTraditional: 龍大俠
+  result: Great Hero Long
+  allowalt:
+  - Hero Long
+  direct: dragon great hero
+  literal: long daxia
+- raw: 龍女俠
+  rawSimplified: 龙女侠
+  rawTraditional: 龍女俠
+  result: Heroine Long
+  direct: dragon female hero
+  literal: long nuxia
+- raw: 風雨山
+  rawSimplified: 风雨山
+  rawTraditional: 風雨山
+  result: Fengyu Mountain
+  direct: wind rain mountain
+  literal: Fengyu Shan
+- raw: 千面人魔
+  rawSimplified: 千面人魔
+  rawTraditional: 千麪人魔
+  result: Thousand Faced Demon
+  direct: thousand face human demon
+  literal: qianmian renmo
+- raw: 深兒
+  rawSimplified: 深儿
+  rawTraditional: 深兒
+  result: Shen'er
+  direct: deep child
+  literal: Shen er
+- raw: 淺兒
+  rawSimplified: 浅儿
+  rawTraditional: 淺兒
+  result: Qian'er
+  direct: shallow child
+  literal: Qian er
+- raw: 螢兒
+  rawSimplified: 萤儿
+  rawTraditional: 螢兒
+  result: Ying'er
+- raw: 晁和
+  result: Chao He
+  direct: Chao harmony
+  literal: Chao He
+- raw: 六道
+  result: Six Paths
+  direct: six paths
+  literal: Liu dao
+- raw: 千燈樓
+  rawSimplified: 千灯楼
+  rawTraditional: 千燈樓
+  result: Thousand Lantern Tower
+  direct: thousand lantern tower
+  literal: Qian deng lou
+- raw: 唐四爺
+  rawSimplified: 唐四爷
+  rawTraditional: 唐四爺
+  result: Fourth Master Tang
+  direct: Tang fourth master
+  literal: Tang si ye
+- raw: 瑞郎
+  result: Rui
+  direct: auspicious young man
+  literal: Rui lang
+- raw: 滄幫
+  rawSimplified: 沧帮
+  rawTraditional: 滄幫
+  result: Cang Gang
+  badtrans: true
+  direct: blue/ancient gang
+  literal: cang bang
+- raw: 眉山鎮
+  rawSimplified: 眉山镇
+  rawTraditional: 眉山鎮
+  result: Meishan Town
+  badtrans: true
+  direct: brow mountain town
+  literal: mei shan zhen
+- raw: 吕员外
+  rawSimplified: 吕员外
+  rawTraditional: 呂員外
+  result: Master Lu
+  badtrans: true
+  direct: Lu member outside
+  literal: lu yuan wai
+- raw: 白鯊幫
+  rawSimplified: 白鲨帮
+  rawTraditional: 白鯊幫
+  result: White Shark Gang
+  badtrans: true
+  direct: white shark gang
+  literal: bai sha bang
+- raw: 天王崩架
+  rawSimplified: 天王崩架
+  rawTraditional: 天王崩架
+  result: Heavenly King Collapse Form
+  badtrans: true
+  direct: heavenly king collapse frame
+  literal: tian wang beng jia
+- raw: 天王座
+  rawSimplified: 天王座
+  rawTraditional: 天王座
+  result: Heavenly King
+  badtrans: true
+  direct: heavenly king seat
+  literal: tian wang zuo
+- raw: 風雷神腿
+  rawSimplified: 风雷神腿
+  rawTraditional: 風雷神腿
+  result: Wind Thunder Divine Leg
+  badtrans: true
+  direct: wind thunder god leg
+  literal: feng lei shen tui
+- raw: 風雷神腳
+  rawSimplified: 风雷神脚
+  rawTraditional: 風雷神腳
+  result: Wind Thunder Divine Foot
+  badtrans: true
+  direct: wind thunder god foot
+  literal: feng lei shen jiao
+
+
+
+- raw: 王帮主
+  result: Gang Leader Wang
+- raw: 李帮主
+  result: Gang Leader Li
+
+- raw: 小友
+  result: Young

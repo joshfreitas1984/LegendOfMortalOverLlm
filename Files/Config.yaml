@@ -1,60 +1,70 @@
-﻿apiKey: "None"
-apiKeyRequired: false
-url: "http://localhost:11434/api/chat"
-#model: "hf.co/unsloth/Qwen3-8B-GGUF:Q4_K_S"
-#model: "hf.co/unsloth/Qwen3-8B-GGUF:Q3_K_S"
-#model: "vanilj/phi-4-unsloth"
-model: "qwen2.5:7b"
+# Model choice and QC model/quant/process-shape decision ported from DragonHierOverLlm's
+# investigation - see that repo's docs/investigations/tests/qc-evaluator-model-selection.md. The
+# FIRST entry in this list is the main translator model (see FanslationStudio.LlmKit's
+# LlmHelpers.CalculateModelConfig). Qwen25-Standard/StructuredText kept using the existing
+# Files/Prompts folder (unrenamed) instead of the "<ModelName>Prompts" convention LlmKit defaults to;
+# HyMT2-7B/Qwen38Qc-IQ4XS have no repo-specific prompts, so they use LlmKit's embedded BaseFiles
+# defaults directly (no customPromptsPath override).
+models:
+  - name: Qwen25-Standard
+    modelPreset: Qwen25
+    modelPresetType: Standard
+    customPromptsPath: Prompts  
+  - name: HyMT2-7B
+    modelPreset: HyMT2
+    modelPresetType: Standard
+  - name: Qwen38Qc-IQ4XS
+    modelPreset: Qwen38
+    modelPresetType: Standard
+    model: "hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ4_XS"
+  - name: Qwen25-StructuredText
+    modelPreset: Qwen25
+    modelPresetType: StructuredText
+    customPromptsPath: Prompts
 
-# apiKey: "None"
-# apiKeyRequired: false
-# url: "http://localhost:11434/api/chat"
-# model: "hf.co/unsloth/Qwen3-8B-GGUF:Q4_K_S"
+glossaryPreset:
+  usePresetChineseGlossary: true
 
-# apiKeyRequired: true
-# url: "https://api.fireworks.ai/inference/v1/chat/completions"
-# model: "accounts/fireworks/models/qwen3-8b"
-
-
-# apiKeyRequired: true
-# url: "https://api.openai.com/v1/chat/completions"
-# model: "gpt-4o-mini"
-
-modelParams:
-  # Qwen3 GGUF local
-  temperature: 0.2
-  #max_tokens: 4096
-  top_p: 0.8
-  top_k: 20
-  min_p: 0.05
-  frequency_penalty: 0
-  presence_penalty: 0
-  num_ctx: 34000
-  
-  #Fire works
-  # temperature: 0.2
-  # top_p: 0.9
-  # min_p: 0.05
-  # frequency_penalty: 0
-  # presence_penalty: 0
-
-  # ChatGPT
-  # temperature: 0.2
-  # top_p: 0.9
-  # frequency_penalty: 0
-  # presence_penalty: 0
-
-  # Qwen3 recommended
-  # temperature: 0.7
-  # max_tokens: 4096
-  # top_p: 0.8
-  # top_k: 20
-  # min_p: 0
-  # frequency_penalty: 0
-  # presence_penalty: 0
-  # num_ctx: 8192
+useContinuousWorkerPool: true
+maxConcurrency: 4 # Ollama is capped anyway
 retryCount: 3
-batchSize: 20000
+batchSize: 20
 skipLineValidation: false
 correctionPromptsEnabled: true
 translateFlagged: true
+
+# Post-translation quality review pass - same options as DragonHierOverLlm's Config.yaml, see that
+# repo's docs/investigations/tests/qc-evaluator-model-selection.md for why.
+qualityReview:
+  enabled: true
+  modelName: Qwen38Qc-IQ4XS
+  minAcceptableScore: 60
+  maxConcurrency: 2
+  inlineRuleCheckRetries: 2
+  autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
+
+# Ported verbatim from the OLD Translate/GameTextFiles.cs's SplitCharactersList/SplitRegexPatterns
+# (now hosted directly in LlmConfig rather than a game-specific static array) - "\n" and the
+# circled-digit glyphs (numbered list markers used in some skill/tooltip text) and ":" were all
+# active (uncommented) in the old pipeline.
+splitCharactersList:
+  - '\n'
+  - '⑩'
+  - '⓪'
+  - '①'
+  - '②'
+  - '③'
+  - '④'
+  - '⑤'
+  - '⑥'
+  - '⑦'
+  - '⑧'
+  - '⑨'
+  - ':'
+splitRegexPatterns:
+  # All patterns were commented out (disabled) in the old GameTextFiles.cs - nothing to port.
+
+# No custom placeholder syntax found in Files/Raw/StringTable.csv beyond plain "{0}".."{4}"
+# positional placeholders, which CompoundFieldSplitter already protects generically (see
+# Translate/GameFileHandling.cs's SplitterOptions comment) - so no extraStringTokenReplacers
+# override is needed here either.

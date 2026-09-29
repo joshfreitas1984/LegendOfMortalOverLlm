@@ -1,4 +1,5 @@
-﻿using SharedAssembly.TextResizer;
+﻿using FanslationStudio.LlmKit.Utility;
+using SharedAssembly.TextResizer;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,13 +7,23 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using Translate.Utility;
 
-namespace Translate.Tests;
+namespace Tests;
 
 public class TextResizerTests
 {
     const string workingDirectory = "../../../../Files";
+
+    // The splitting itself lives in LlmKit (EditorFileSplitter) so every game packages the editor folders the same way.
+    // Mortal has no layouts or sprites yet; the splitter ignores missing folders, so these are ready for when it does.
+    [Fact]
+    public static void MoveResizersIntoPathBasedFiles() => EditorFileSplitter.SplitResizers(workingDirectory);
+
+    [Fact]
+    public static void MoveSpritesIntoPathBasedFiles() => EditorFileSplitter.SplitSprites(workingDirectory);
+
+    [Fact]
+    public static void MoveLayoutsIntoPathBasedFiles() => EditorFileSplitter.SplitLayouts(workingDirectory);
 
     [Fact] // Can only be run when VS is running in admin
     public void CreateSymlinkToResizer()
@@ -91,8 +102,8 @@ public class TextResizerTests
     [Fact]
     public void ReserializeResizerTest()
     {
-        var serializer = Yaml.CreateSerializer();
-        var deserializer = Yaml.CreateDeserializer();
+        var serializer = YamlHelper.CreateSerializer();
+        var deserializer = YamlHelper.CreateDeserializer();
         var folder = $"{workingDirectory}/Resizers";
 
         foreach (var file in Directory.EnumerateFiles(folder))

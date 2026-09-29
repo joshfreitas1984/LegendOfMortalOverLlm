@@ -1,0 +1,1650 @@
+- raw: "System/Start/StartGame,启程"
+  splits:
+  - split: 1
+    text: "启程"
+    translated: "Departure"
+- raw: "System/Start/StartActGame,启程(活动)"
+  splits:
+  - split: 1
+    text: "启程"
+    translated: "Departure"
+  - split: 1
+    subIndex: 1
+    text: "活动"
+    translated: "Event"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "System/Start/Setting,环境设定"
+  splits:
+  - split: 1
+    text: "环境设定"
+    translated: "Environment settings"
+- raw: "System/Start/Library,讲经堂"
+  splits:
+  - split: 1
+    text: "讲经堂"
+    translated: "Scripture Hall"
+- raw: "System/Start/Exit,归隐山林"
+  splits:
+  - split: 1
+    text: "归隐山林"
+    translated: "Retiring to the mountains"
+- raw: "System/Menu/Continue,继续游戏"
+  splits:
+  - split: 1
+    text: "继续游戏"
+    translated: "Continue the game"
+- raw: "System/Menu/SaveGame,储存游戏"
+  splits:
+  - split: 1
+    text: "储存游戏"
+    translated: "Save Game"
+- raw: "System/Menu/LoadGame,读取游戏"
+  splits:
+  - split: 1
+    text: "读取游戏"
+    translated: "Read the game instructions"
+- raw: "System/Menu/Setting,环境设定"
+  splits:
+  - split: 1
+    text: "环境设定"
+    translated: "Environment settings"
+- raw: "System/Menu/Title,回到标题"
+  splits:
+  - split: 1
+    text: "回到标题"
+    translated: "Go back to the title"
+- raw: "System/Menu/Giveup,投降"
+  splits:
+  - split: 1
+    text: "投降"
+    translated: "Surrender"
+- raw: "System/Menu/Submit,确定"
+  splits:
+  - split: 1
+    text: "确定"
+    translated: "Confirm"
+- raw: "System/Menu/Cancel,取消"
+  splits:
+  - split: 1
+    text: "取消"
+    translated: "Cancel"
+- raw: "System/Menu/KeyboardSetting,键盘设定"
+  splits:
+  - split: 1
+    text: "键盘设定"
+    translated: "Keyboard settings"
+- raw: "System/Menu/LibraryEnd,汗青书"
+  splits:
+  - split: 1
+    text: "汗青书"
+    translated: "Records of the Bamboo Tablets"
+- raw: "System/Menu/LibraryDead,生死簿"
+  splits:
+  - split: 1
+    text: "生死簿"
+    translated: "Book of Life and Death"
+- raw: "System/Menu/LibraryAchievement,风云史"
+  splits:
+  - split: 1
+    text: "风云史"
+    translated: "Chronicles of Wind and Cloud"
+- raw: "System/Menu/LibraryLegend,活侠传"
+  splits:
+  - split: 1
+    text: "活侠传"
+    translated: "Legend of the Living Hero"
+- raw: "System/Menu/AutoSave,自动存档"
+  splits:
+  - split: 1
+    text: "自动存档"
+    translated: "Auto‑save"
+- raw: "System/Menu/ManualSave,手动存档"
+  splits:
+  - split: 1
+    text: "手动存档"
+    translated: "Manual save"
+- raw: "System/Menu/CommunityContent,玩家社群"
+  splits:
+  - split: 1
+    text: "玩家社群"
+    translated: "Player Community"
+- raw: "System/Menu/DataBackup,数据备份"
+  splits:
+  - split: 1
+    text: "数据备份"
+    translated: "Data backup"
+- raw: "System/Menu/RecentSave,最近存档"
+  splits:
+  - split: 1
+    text: "最近存档"
+    translated: "Recent save file"
+- raw: "System/AutoSaveText,剧情自动存档"
+  splits:
+  - split: 1
+    text: "剧情自动存档"
+    translated: "Game saves automatically"
+- raw: "System/FreeAutoSaveText,养成自动存档"
+  splits:
+  - split: 1
+    text: "养成自动存档"
+    translated: "Set Automatic Save"
+- raw: "System/EnableSaveText,手动存档解锁"
+  splits:
+  - split: 1
+    text: "手动存档解锁"
+    translated: "Manual save unlocked"
+- raw: "System/DisableSaveText,手动存档上锁"
+  splits:
+  - split: 1
+    text: "手动存档上锁"
+    translated: "Manual save locked"
+- raw: "System/Loading,读取中..."
+  splits:
+  - split: 1
+    text: "读取中..."
+    translated: "Loading..."
+- raw: "System/CombatStartText,战‧你‧娘‧亲"
+  splits:
+  - split: 1
+    text: "战"
+    translated: "Fight!"
+  - split: 1
+    subIndex: 1
+    text: "你"
+    translated: "You"
+  - split: 1
+    subIndex: 2
+    text: "娘"
+    translated: "Mother"
+  - split: 1
+    subIndex: 3
+    text: "亲"
+    translated: "Dear"
+  templates:
+  - split: 1
+    template: "{0}‧{1}‧{2}‧{3}"
+- raw: "System/StoryInfoTip,选单 - [ESC]\\n状态 - [S]\\n回想 - [L]\\n自动 - [A]\\n快带- [左Ctrl]"
+  splits:
+  - split: 1
+    text: "选单"
+    translated: "Menu"
+  - split: 1
+    subIndex: 1
+    text: "状态"
+    translated: "Status"
+  - split: 1
+    subIndex: 2
+    text: "回想"
+    translated: "Recalling"
+  - split: 1
+    subIndex: 3
+    text: "自动"
+    translated: "Automatic"
+  - split: 1
+    subIndex: 4
+    text: "快带"
+    translated: "Hurry up and bring it"
+  - split: 1
+    subIndex: 5
+    text: "左"
+    translated: "Left"
+  templates:
+  - split: 1
+    template: "{0} - [ESC]\\n{1} - [S]\\n{2} - [L]\\n{3} - [A]\\n{4}- [{5}Ctrl]"
+- raw: "System/EndText,结局{0}"
+  splits:
+  - split: 1
+    text: "结局"
+    translated: "Outcome {0}"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "System/AchieveText,已达成"
+  splits:
+  - split: 1
+    text: "已达成"
+    translated: "Achieved"
+- raw: "System/NotAchieveText,未达成"
+  splits:
+  - split: 1
+    text: "未达成"
+    translated: "Unfulfilled"
+- raw: "System/CountText,{0} 次"
+  splits:
+  - split: 1
+    text: "次"
+    translated: "{0} times"
+  templates:
+  - split: 1
+    template: "⟦0⟧ {0}"
+- raw: "System/SaveLegnedText,记载活侠传故事"
+  splits:
+  - split: 1
+    text: "记载活侠传故事"
+    translated: "The Story of the Heroic Wanderer"
+- raw: "System/Read,阅读"
+  splits:
+  - split: 1
+    text: "阅读"
+    translated: "Reading"
+- raw: "System/Export,导出"
+  splits:
+  - split: 1
+    text: "导出"
+    translated: "Export"
+- raw: "System/ExportSuccess,导出成功：{0}"
+  splits:
+  - split: 1
+    text: "导出成功"
+    translated: "Export successful: {0}"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "System/GetAchievementText,达成风云史《{0}》"
+  splits:
+  - split: 1
+    text: "达成风云史"
+    translated: "Achieve the Wind and Cloud History '{0}'"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "System/AutoSaveStory,剧情"
+  splits:
+  - split: 1
+    text: "剧情"
+    translated: "Plot"
+- raw: "System/AutoSaveFree,养成"
+  splits:
+  - split: 1
+    text: "养成"
+    translated: "Training"
+- raw: "System/AutoSaveBattle,战斗"
+  splits:
+  - split: 1
+    text: "战斗"
+    translated: "Battle"
+- raw: "System/Skip,快带"
+  splits:
+  - split: 1
+    text: "快带"
+    translated: "Hurry up and bring it"
+- raw: "System/Operate,操作"
+  splits:
+  - split: 1
+    text: "操作"
+    translated: "Operation"
+- raw: "System/BackupSuccess,数据备份完成"
+  splits:
+  - split: 1
+    text: "数据备份完成"
+    translated: "Data backup completed"
+- raw: "System/Title/Setting,设定"
+  splits:
+  - split: 1
+    text: "设定"
+    translated: "Setting"
+- raw: "System/Title/Status,状态"
+  splits:
+  - split: 1
+    text: "状态"
+    translated: "Status"
+- raw: "System/Title/Alchemy,炼丹"
+  splits:
+  - split: 1
+    text: "炼丹"
+    translated: "Alchemy"
+- raw: "System/Title/Alchemy_01,炼"
+  splits:
+  - split: 1
+    text: "炼"
+    translated: "Refine"
+- raw: "System/Title/Alchemy_02,丹"
+  splits:
+  - split: 1
+    text: "丹"
+    translated: "Dan"
+- raw: "System/Title/Forge,锻造"
+  splits:
+  - split: 1
+    text: "锻造"
+    translated: "Forging"
+- raw: "System/Title/Forge_01,锻"
+  splits:
+  - split: 1
+    text: "锻"
+    translated: "Forge"
+- raw: "System/Title/Forge_02,造"
+  splits:
+  - split: 1
+    text: "造"
+    translated: "Create"
+- raw: "System/Title/Develop,开发"
+  splits:
+  - split: 1
+    text: "开发"
+    translated: "Development"
+- raw: "System/Title/Develop_01,开"
+  splits:
+  - split: 1
+    text: "开"
+    translated: "Open"
+- raw: "System/Title/Develop_02,发"
+  splits:
+  - split: 1
+    text: "发"
+    translated: "Release"
+- raw: "System/Title/Training,修练"
+  splits:
+  - split: 1
+    text: "修练"
+    translated: "Cultivation"
+- raw: "System/Title/Training_01,修"
+  splits:
+  - split: 1
+    text: "修"
+    translated: "Xiu"
+- raw: "System/Title/Training_02,练"
+  splits:
+  - split: 1
+    text: "练"
+    translated: "Practice"
+- raw: "System/Title/Property,属性"
+  splits:
+  - split: 1
+    text: "属性"
+    translated: "Attributes"
+- raw: "System/Title/Talent,技能"
+  splits:
+  - split: 1
+    text: "技能"
+    translated: "Skills"
+- raw: "System/Title/Book,书籍"
+  splits:
+  - split: 1
+    text: "书籍"
+    translated: "Book"
+- raw: "System/Title/Misc,杂物"
+  splits:
+  - split: 1
+    text: "杂物"
+    translated: "Miscellaneous Items"
+- raw: "System/Title/Special,宝物"
+  splits:
+  - split: 1
+    text: "宝物"
+    translated: "Treasure"
+- raw: "System/Title/Bag,行囊"
+  splits:
+  - split: 1
+    text: "行囊"
+    translated: "Travel bag"
+- raw: "System/Title/Equip,装备"
+  splits:
+  - split: 1
+    text: "装备"
+    translated: "Equipment"
+- raw: "System/Title/Weapon,暗器"
+  splits:
+  - split: 1
+    text: "暗器"
+    translated: "Hidden Weapon"
+- raw: "System/Title/Home,门派"
+  splits:
+  - split: 1
+    text: "门派"
+    translated: "Clan"
+- raw: "System/Title/Legend,传奇"
+  splits:
+  - split: 1
+    text: "传奇"
+    translated: "Legend"
+- raw: "System/Title/Social,人际"
+  splits:
+  - split: 1
+    text: "人际"
+    translated: "Interpersonal relations"
+- raw: "System/Title/Buy,买入"
+  splits:
+  - split: 1
+    text: "买入"
+    translated: "Buy"
+- raw: "System/Title/Buy_01,买"
+  splits:
+  - split: 1
+    text: "买"
+    translated: "Buy"
+- raw: "System/Title/Sell,卖出"
+  splits:
+  - split: 1
+    text: "卖出"
+    translated: "Sell out"
+- raw: "System/Title/Sell_01,卖"
+  splits:
+  - split: 1
+    text: "卖"
+    translated: "Sell"
+- raw: "System/Title/Sword,刀剑"
+  splits:
+  - split: 1
+    text: "刀剑"
+    translated: "Blade and sword"
+- raw: "System/Title/Fist,拳掌"
+  splits:
+  - split: 1
+    text: "拳掌"
+    translated: "Fist and palm"
+- raw: "System/Title/Internal,内功"
+  splits:
+  - split: 1
+    text: "内功"
+    translated: "Neigong"
+- raw: "System/Title/Etc,其他"
+  splits:
+  - split: 1
+    text: "其他"
+    translated: "Others"
+- raw: "System/Title/Quit,离开"
+  splits:
+  - split: 1
+    text: "离开"
+    translated: "Leave"
+- raw: "System/Title/AlreadyDevelop,已开发"
+  splits:
+  - split: 1
+    text: "已开发"
+    translated: "Developed"
+- raw: "System/Title/FateBonus,继承"
+  splits:
+  - split: 1
+    text: "继承"
+    translated: "Inheritance"
+- raw: "System/Title/Reset,复原"
+  splits:
+  - split: 1
+    text: "复原"
+    translated: "Recovery"
+- raw: "System/Upgrade/Melee,武器"
+  splits:
+  - split: 1
+    text: "武器"
+    translated: "Weapons"
+- raw: "System/Upgrade/Equip,防具"
+  splits:
+  - split: 1
+    text: "防具"
+    translated: "Armor"
+- raw: "System/Upgrade/Dart,平射"
+  splits:
+  - split: 1
+    text: "平射"
+    translated: "Direct fire"
+- raw: "System/Upgrade/Projectile,抛射"
+  splits:
+  - split: 1
+    text: "抛射"
+    translated: "Projection"
+- raw: "System/Upgrade/Trap,陷阱"
+  splits:
+  - split: 1
+    text: "陷阱"
+    translated: "Trap"
+- raw: "System/Upgrade/Poison,毒药"
+  splits:
+  - split: 1
+    text: "毒药"
+    translated: "Poison"
+- raw: "System/Upgrade/Medi,灵丹"
+  splits:
+  - split: 1
+    text: "灵丹"
+    translated: "Elixir"
+- raw: "System/Status,状态"
+  splits:
+  - split: 1
+    text: "状态"
+    translated: "Status"
+- raw: "System/System,系统"
+  splits:
+  - split: 1
+    text: "系统"
+    translated: "System"
+- raw: "System/Save,储存"
+  splits:
+  - split: 1
+    text: "储存"
+    translated: "Save"
+- raw: "System/SaveText_01,储"
+  splits:
+  - split: 1
+    text: "储"
+    translated: "Store"
+- raw: "System/SaveText_02,存"
+  splits:
+  - split: 1
+    text: "存"
+    translated: "Save"
+- raw: "System/DeleteText_01,删"
+  splits:
+  - split: 1
+    text: "删"
+    translated: "Delete"
+- raw: "System/DeleteText_02,除"
+  splits:
+  - split: 1
+    text: "除"
+    translated: "Except"
+- raw: "System/DeleteText,删除"
+  splits:
+  - split: 1
+    text: "删除"
+    translated: "Delete"
+- raw: "System/SaveSlotText,传奇{0}"
+  splits:
+  - split: 1
+    text: "传奇"
+    translated: "Legend"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "System/NoData,无资料"
+  splits:
+  - split: 1
+    text: "无资料"
+    translated: "No data available"
+- raw: "System/NoStory,无记载"
+  splits:
+  - split: 1
+    text: "无记载"
+    translated: "Not recorded"
+- raw: "System/NA,无"
+  splits:
+  - split: 1
+    text: "无"
+    translated: "None"
+- raw: "System/Infinity,无限"
+  splits:
+  - split: 1
+    text: "无限"
+    translated: "Infinite"
+- raw: "System/MaxLevel,最高等级"
+  splits:
+  - split: 1
+    text: "最高等级"
+    translated: "Highest rank"
+- raw: "System/GameTimeText,第{0}年{1}{2}"
+  splits:
+  - split: 1
+    text: "第"
+    translated: "Chapter 1"
+  - split: 1
+    subIndex: 1
+    text: "年"
+    translated: "Year"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}⟦1⟧⟦2⟧"
+- raw: "System/Auto,自动"
+  splits:
+  - split: 1
+    text: "自动"
+    translated: "Automatic"
+- raw: "System/Log,回想"
+  splits:
+  - split: 1
+    text: "回想"
+    translated: "Recalling"
+- raw: "System/Develop,开发项目"
+  splits:
+  - split: 1
+    text: "开发项目"
+    translated: "Developing projects"
+- raw: "System/Accountant,账房"
+  splits:
+  - split: 1
+    text: "账房"
+    translated: "Bookkeeper"
+- raw: "System/Money,钱"
+  splits:
+  - split: 1
+    text: "钱"
+    translated: "Money"
+- raw: "System/Money2,两"
+  splits:
+  - split: 1
+    text: "两"
+    translated: "Taels"
+- raw: "System/Level,等级"
+  splits:
+  - split: 1
+    text: "等级"
+    translated: "Rank"
+- raw: "System/Combat,决斗"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+- raw: "System/Battle,战役"
+  splits:
+  - split: 1
+    text: "战役"
+    translated: "Battle"
+- raw: "System/NotDevelop,需求条件不足"
+  splits:
+  - split: 1
+    text: "需求条件不足"
+    translated: "Insufficient conditions provided"
+- raw: "System/DevelopMouse,长按以开发"
+  splits:
+  - split: 1
+    text: "长按以开发"
+    translated: "Long press to develop"
+- raw: "System/ConfirmSave,确定覆盖目前的纪录吗?"
+  splits:
+  - split: 1
+    text: "确定覆盖目前的纪录吗"
+    translated: "Are you sure you want to cover the current record?"
+  templates:
+  - split: 1
+    template: "{0}?"
+- raw: "System/ConfirmDelete,确定删除选择的纪录吗？"
+  splits:
+  - split: 1
+    text: "确定删除选择的纪录吗？"
+    translated: "Are you sure you want to delete the selected records?"
+- raw: "System/CostAction,消耗行动 {0}"
+  splits:
+  - split: 1
+    text: "消耗行动"
+    translated: "Spends action on {0}"
+  templates:
+  - split: 1
+    template: "{0} ⟦0⟧"
+- raw: "System/ConfirmBonusText,此页面有已分配的点数尚未确定"
+  splits:
+  - split: 1
+    text: "此页面有已分配的点数尚未确定"
+    translated: "This page has assigned points that have not yet been confirmed."
+- raw: "System/CharacterInfo,列传"
+  splits:
+  - split: 1
+    text: "列传"
+    translated: "Biographies"
+- raw: "System/Shop,商店"
+  splits:
+  - split: 1
+    text: "商店"
+    translated: "Store"
+- raw: "System/NoSellItem,没有任何的杂物。"
+  splits:
+  - split: 1
+    text: "没有任何的杂物。"
+    translated: "There was nothing but purity"
+- raw: "System/NoSkills,没有任何的技能。"
+  splits:
+  - split: 1
+    text: "没有任何的技能。"
+    translated: "No skills at all"
+- raw: "System/NoItems,没有任何的物品。"
+  splits:
+  - split: 1
+    text: "没有任何的物品。"
+    translated: "There are no items at all"
+- raw: "System/NoMartialBook,没有任何的秘笈。"
+  splits:
+  - split: 1
+    text: "没有任何的秘笈。"
+    translated: "There are no secret techniques"
+- raw: "System/NoMoneyDialog,师弟…你没有这么多钱吧？"
+  splits:
+  - split: 1
+    text: "师弟…你没有这么多钱吧？"
+    translated: "Disciple... do you really have that much money?"
+- raw: "System/BuyDialog,买得好！"
+  splits:
+  - split: 1
+    text: "买得好！"
+    translated: "Bought well!"
+- raw: "System/TotalAmount,总额"
+  splits:
+  - split: 1
+    text: "总额"
+    translated: "Total amount"
+- raw: "System/Enable,启动"
+  splits:
+  - split: 1
+    text: "启动"
+    translated: "Activate"
+- raw: "System/Revolution,逆天"
+  splits:
+  - split: 1
+    text: "逆天"
+    translated: "Defy Heaven"
+- raw: "System/DiceRange,收束"
+  splits:
+  - split: 1
+    text: "收束"
+    translated: "Concentrate"
+- raw: "System/Continue,继续"
+  splits:
+  - split: 1
+    text: "继续"
+    translated: "Continue"
+- raw: "System/YourChoice,你的抉择……"
+  splits:
+  - split: 1
+    text: "你的抉择……"
+    translated: "Your choice......"
+- raw: "System/BattleSkill,–战术支援–"
+  splits:
+  - split: 1
+    text: "战术支援"
+    translated: "‑Tactical Support‑"
+  templates:
+  - split: 1
+    template: "–{0}–"
+- raw: "System/BattleFriend,我"
+  splits:
+  - split: 1
+    text: "我"
+    translated: "I"
+- raw: "System/BattleEnemy,敌"
+  splits:
+  - split: 1
+    text: "敌"
+    translated: "Enemy"
+- raw: "System/BattleSkillSetting,技能设置"
+  splits:
+  - split: 1
+    text: "技能设置"
+    translated: "Skill settings"
+- raw: "System/BattleStartText_01,出"
+  splits:
+  - split: 1
+    text: "出"
+    translated: "Exit"
+- raw: "System/BattleStartText_02,征"
+  splits:
+  - split: 1
+    text: "征"
+    translated: "Campaign"
+- raw: "System/BattleStartText,出征"
+  splits:
+  - split: 1
+    text: "出征"
+    translated: "Departure for battle"
+- raw: "System/BattleHeader,决战"
+  splits:
+  - split: 1
+    text: "决战"
+    translated: "Final Clash"
+- raw: "System/BattleVictory,胜"
+  splits:
+  - split: 1
+    text: "胜"
+    translated: "Victory"
+- raw: "System/BattleLose,败"
+  splits:
+  - split: 1
+    text: "败"
+    translated: "Defeat"
+- raw: "System/BattleVictoryText_01,大获全胜"
+  splits:
+  - split: 1
+    text: "大获全胜"
+    translated: "Won decisively"
+- raw: "System/BattleLoseText_01,一败涂地"
+  splits:
+  - split: 1
+    text: "一败涂地"
+    translated: "Utter defeat"
+- raw: "System/BattleTimeoutText_01,时间结束"
+  splits:
+  - split: 1
+    text: "时间结束"
+    translated: "Time's up"
+- raw: "System/BattleGetMoney,获得 {0}钱"
+  splits:
+  - split: 1
+    text: "获得"
+    translated: "Obtain"
+  - split: 1
+    subIndex: 1
+    text: "钱"
+    translated: "Money"
+  templates:
+  - split: 1
+    template: "{0} ⟦0⟧{1}"
+- raw: "System/EmptyBattleSkill,没朋友"
+  splits:
+  - split: 1
+    text: "没朋友"
+    translated: "No friends"
+- raw: "System/BattleInfoHeader,操作"
+  splits:
+  - split: 1
+    text: "操作"
+    translated: "Operation"
+- raw: "System/BattleInfoText_01,选单 - [ESC]\\n移动 - [箭头键]\\n翻滚 - [空格键]"
+  splits:
+  - split: 1
+    text: "选单"
+    translated: "Menu"
+  - split: 1
+    subIndex: 1
+    text: "移动"
+    translated: "Move"
+  - split: 1
+    subIndex: 2
+    text: "箭头键"
+    translated: "Arrow keys"
+  - split: 1
+    subIndex: 3
+    text: "翻滚"
+    translated: "Roll away"
+  - split: 1
+    subIndex: 4
+    text: "空格键"
+    translated: "Space bar"
+  templates:
+  - split: 1
+    template: "{0} - [ESC]\\n{1} - [{2}]\\n{3} - [{4}]"
+- raw: "System/BattleInfoText_02,近战 - [Z]\\n平射 - [X]\\n抛射 - [长按X]\\n嘴攻 - [C]"
+  splits:
+  - split: 1
+    text: "近战"
+    translated: "Close combat"
+  - split: 1
+    subIndex: 1
+    text: "平射"
+    translated: "Direct fire"
+  - split: 1
+    subIndex: 2
+    text: "抛射"
+    translated: "Projection"
+  - split: 1
+    subIndex: 3
+    text: "长按"
+    translated: "Long press"
+  - split: 1
+    subIndex: 4
+    text: "嘴攻"
+    translated: "Verbal Attack"
+  templates:
+  - split: 1
+    template: "{0} - [Z]\\n{1} - [X]\\n{2} - [{3}X]\\n{4} - [C]"
+- raw: "System/BattleInfoText_03,技能1 - [Q]\\n技能2 - [W]\\n技能3 - [E]\\n技能4 - [R]"
+  splits:
+  - split: 1
+    text: "技能1"
+    translated: "Skill 1"
+  - split: 1
+    subIndex: 1
+    text: "技能2"
+    translated: "Skill 2"
+  - split: 1
+    subIndex: 2
+    text: "技能3"
+    translated: "Skill 3"
+  - split: 1
+    subIndex: 3
+    text: "技能4"
+    translated: "Skill 4"
+  templates:
+  - split: 1
+    template: "{0} - [Q]\\n{1} - [W]\\n{2} - [E]\\n{3} - [R]"
+- raw: "System/BattlePause,—暂停—"
+  splits:
+  - split: 1
+    text: "—暂停—"
+    translated: "‑Pause‑"
+- raw: "System/BattleTime,时间"
+  splits:
+  - split: 1
+    text: "时间"
+    translated: "Time"
+- raw: "System/Header/Lover,心系："
+  splits:
+  - split: 1
+    text: "心系"
+    translated: "Heartbound:"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/Mental,心相："
+  splits:
+  - split: 1
+    text: "心相"
+    translated: "Heart Connection"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/Property,阴阳："
+  splits:
+  - split: 1
+    text: "阴阳"
+    translated: "Yin Yang:"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/Fate,命运："
+  splits:
+  - split: 1
+    text: "命运"
+    translated: "Destiny:"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/TrainCondition,修练条件："
+  splits:
+  - split: 1
+    text: "修练条件"
+    translated: "Training Conditions:"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/TrainCondition_02,以下条件其一达成"
+  splits:
+  - split: 1
+    text: "以下条件其一达成"
+    translated: "One of the following conditions is met"
+- raw: "System/Header/MaxCost,最大消费："
+  splits:
+  - split: 1
+    text: "最大消费"
+    translated: "Maximum consumption:"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/CostMoney,花费银两："
+  splits:
+  - split: 1
+    text: "花费银两"
+    translated: "Spending silver dollars:"
+  templates:
+  - split: 1
+    template: "{0}："
+- raw: "System/Header/MaxBaseDice,[基础骰子下限：{0} 上限：{1}]"
+  splits:
+  - split: 1
+    text: "基础骰子下限"
+    translated: "Basic dice minimum"
+  - split: 1
+    subIndex: 1
+    text: "上限"
+    translated: "Limit"
+  templates:
+  - split: 1
+    template: "[{0}：⟦0⟧ {1}：⟦1⟧]"
+- raw: "System/Number_0,零"
+  splits:
+  - split: 1
+    text: "零"
+    translated: "Zero"
+- raw: "System/Number_1,一"
+  splits:
+  - split: 1
+    text: "一"
+    translated: "One"
+- raw: "System/Number_2,二"
+  splits:
+  - split: 1
+    text: "二"
+    translated: "Two"
+- raw: "System/Number_3,三"
+  splits:
+  - split: 1
+    text: "三"
+    translated: "Three"
+- raw: "System/Number_4,四"
+  splits:
+  - split: 1
+    text: "四"
+    translated: "Four"
+- raw: "System/Number_5,五"
+  splits:
+  - split: 1
+    text: "五"
+    translated: "Five"
+- raw: "System/Number_6,六"
+  splits:
+  - split: 1
+    text: "六"
+    translated: "Six"
+- raw: "System/Number_7,七"
+  splits:
+  - split: 1
+    text: "七"
+    translated: "Seven"
+- raw: "System/Number_8,八"
+  splits:
+  - split: 1
+    text: "八"
+    translated: "Eight"
+- raw: "System/Number_9,九"
+  splits:
+  - split: 1
+    text: "九"
+    translated: "Nine"
+- raw: "System/Number_10,十"
+  splits:
+  - split: 1
+    text: "十"
+    translated: "Ten"
+- raw: "System/Number_11,十一"
+  splits:
+  - split: 1
+    text: "十一"
+    translated: "November"
+- raw: "System/Number_12,十二"
+  splits:
+  - split: 1
+    text: "十二"
+    translated: "Twelve"
+- raw: "System/Month_1,一月"
+  splits:
+  - split: 1
+    text: "一月"
+    translated: "January"
+- raw: "System/Month_2,二月"
+  splits:
+  - split: 1
+    text: "二月"
+    translated: "February"
+- raw: "System/Month_3,三月"
+  splits:
+  - split: 1
+    text: "三月"
+    translated: "March"
+- raw: "System/Month_4,四月"
+  splits:
+  - split: 1
+    text: "四月"
+    translated: "April"
+- raw: "System/Month_5,五月"
+  splits:
+  - split: 1
+    text: "五月"
+    translated: "May"
+- raw: "System/Month_6,六月"
+  splits:
+  - split: 1
+    text: "六月"
+    translated: "June"
+- raw: "System/Month_7,七月"
+  splits:
+  - split: 1
+    text: "七月"
+    translated: "July"
+- raw: "System/Month_8,八月"
+  splits:
+  - split: 1
+    text: "八月"
+    translated: "August"
+- raw: "System/Month_9,九月"
+  splits:
+  - split: 1
+    text: "九月"
+    translated: "September"
+- raw: "System/Month_10,十月"
+  splits:
+  - split: 1
+    text: "十月"
+    translated: "October"
+- raw: "System/Month_11,十一月"
+  splits:
+  - split: 1
+    text: "十一月"
+    translated: "November"
+- raw: "System/Month_12,十二月"
+  splits:
+  - split: 1
+    text: "十二月"
+    translated: "December"
+- raw: "System/Stage_1,上旬"
+  splits:
+  - split: 1
+    text: "上旬"
+    translated: "Early Month"
+- raw: "System/Stage_2,中旬"
+  splits:
+  - split: 1
+    text: "中旬"
+    translated: "Mid‑month"
+- raw: "System/Stage_3,下旬"
+  splits:
+  - split: 1
+    text: "下旬"
+    translated: "Late month"
+- raw: "System/Restart,重新开始"
+  splits:
+  - split: 1
+    text: "重新开始"
+    translated: "Start over"
+- raw: "System/GoMenu,回主选单"
+  splits:
+  - split: 1
+    text: "回主选单"
+    translated: "Go back to the main menu"
+- raw: "System/ClickContinue,–点击继续–"
+  splits:
+  - split: 1
+    text: "点击继续"
+    translated: "–Click to continue–"
+  templates:
+  - split: 1
+    template: "–{0}–"
+- raw: "System/Dead_1,你死了。"
+  splits:
+  - split: 1
+    text: "你死了。"
+    translated: "You are dead"
+- raw: "System/Dead_2,这是你的尸体，没有人爱你。"
+  splits:
+  - split: 1
+    text: "这是你的尸体，没有人爱你。"
+    translated: "This is your corpse; no one loved you."
+- raw: "System/ListenKeyRebind,请输入新的...或ESC取消"
+  splits:
+  - split: 1
+    text: "请输入新的...或"
+    translated: "Please enter a new... or"
+  - split: 1
+    subIndex: 1
+    text: "取消"
+    translated: "Cancel"
+  templates:
+  - split: 1
+    template: "{0}ESC{1}"
+- raw: "SystemSetting/Title/Lang,游戏语言"
+  splits:
+  - split: 1
+    text: "游戏语言"
+    translated: "Game language"
+- raw: "SystemSetting/Title/Game,游戏设定"
+  splits:
+  - split: 1
+    text: "游戏设定"
+    translated: "Game setting"
+- raw: "SystemSetting/Title/Graphic,画面设定"
+  splits:
+  - split: 1
+    text: "画面设定"
+    translated: "Scene settings"
+- raw: "SystemSetting/Title/Sound,声音设定"
+  splits:
+  - split: 1
+    text: "声音设定"
+    translated: "Sound settings"
+- raw: "SystemSetting/Title/MustReturnTitle,需返回到游戏标题设定"
+  splits:
+  - split: 1
+    text: "需返回到游戏标题设定"
+    translated: "Need to return to the game title settings"
+- raw: "SystemSetting/Game/ManualDestiny,手动启动天命轮盘"
+  splits:
+  - split: 1
+    text: "手动启动天命轮盘"
+    translated: "Manually activating the Mandate of Heaven Wheel"
+- raw: "SystemSetting/Game/AutoSave,养成回合自动存档"
+  splits:
+  - split: 1
+    text: "养成回合自动存档"
+    translated: "Save game at turn intervals"
+- raw: "SystemSetting/Game/SkipUnreadStory,可快转未读文字"
+  splits:
+  - split: 1
+    text: "可快转未读文字"
+    translated: "Skip unread text"
+- raw: "SystemSetting/Game/ReadStoryColor,已读文字变色"
+  splits:
+  - split: 1
+    text: "已读文字变色"
+    translated: "Read text changes color"
+- raw: "SystemSetting/Graphic/Resolution,分辨率"
+  splits:
+  - split: 1
+    text: "分辨率"
+    translated: "Resolution"
+- raw: "SystemSetting/Graphic/Fullscreen,全屏幕(只适用16:9比例显示器)"
+  splits:
+  - split: 1
+    text: "全屏幕"
+    translated: "Full screen"
+  - split: 1
+    subIndex: 1
+    text: "只适用16"
+    translated: "Only applies to 16"
+  - split: 1
+    subIndex: 2
+    text: "9比例显示器"
+    translated: "9 ratio display"
+  templates:
+  - split: 1
+    template: "{0}({1}:{2})"
+- raw: "SystemSetting/Graphic/GamepadIcon,控制器图示"
+  splits:
+  - split: 1
+    text: "控制器图示"
+    translated: "Controller icon"
+- raw: "SystemSetting/Sound/Master,主音量"
+  splits:
+  - split: 1
+    text: "主音量"
+    translated: "Master Volume"
+- raw: "SystemSetting/Sound/Music,音乐音量"
+  splits:
+  - split: 1
+    text: "音乐音量"
+    translated: "Music volume"
+- raw: "SystemSetting/Sound/SFX,音效音量"
+  splits:
+  - split: 1
+    text: "音效音量"
+    translated: "Sound effect volume"
+- raw: "System/NextFactionLevel,下一等级：门派规模{0}"
+  splits:
+  - split: 1
+    text: "下一等级"
+    translated: "Next level"
+  - split: 1
+    subIndex: 1
+    text: "门派规模"
+    translated: "Sect Size"
+  templates:
+  - split: 1
+    template: "{0}：{1}⟦0⟧"
+- raw: "System/NoMoney,银两不足"
+  splits:
+  - split: 1
+    text: "银两不足"
+    translated: "Silver coins are insufficient"
+- raw: "System/NoPoint,点数不足"
+  splits:
+  - split: 1
+    text: "点数不足"
+    translated: "Insufficient points"
+- raw: "System/itemSold,售罄"
+  splits:
+  - split: 1
+    text: "售罄"
+    translated: "Sold out"
+- raw: "DevelopCondition/Require,需要"
+  splits:
+  - split: 1
+    text: "需要"
+    translated: "Need"
+- raw: "DevelopCondition/FactionLevel,门派规模{0}"
+  splits:
+  - split: 1
+    text: "门派规模"
+    translated: "Sect Size"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "DevelopCondition/ItemLevel,装备等级{0}"
+  splits:
+  - split: 1
+    text: "装备等级"
+    translated: "Equipment Level {0}"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧"
+- raw: "DevelopRefund/ForgePoint,归还{0}点锻造点数"
+  splits:
+  - split: 1
+    text: "归还"
+    translated: "Return"
+  - split: 1
+    subIndex: 1
+    text: "点锻造点数"
+    translated: "Spend forging points"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "DevelopRefund/AlchemyPoint,归还{0}点炼丹点数"
+  splits:
+  - split: 1
+    text: "归还"
+    translated: "Return"
+  - split: 1
+    subIndex: 1
+    text: "点炼丹点数"
+    translated: "Alchemy point expenditure"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "DevelopRefund/Money,归还{0}银两"
+  splits:
+  - split: 1
+    text: "归还"
+    translated: "Return"
+  - split: 1
+    subIndex: 1
+    text: "银两"
+    translated: "Silver taels"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧{1}"
+- raw: "DevelopRefund/CurrentDevelopRef,依目前开发项目"
+  splits:
+  - split: 1
+    text: "依目前开发项目"
+    translated: "Given the current development project"
+- raw: "Develop/RequireLevel,需求：等级 {0}"
+  splits:
+  - split: 1
+    text: "需求"
+    translated: "Requirements"
+  - split: 1
+    subIndex: 1
+    text: "等级"
+    translated: "Rank"
+  templates:
+  - split: 1
+    template: "{0}：{1} ⟦0⟧"
+- raw: "Develop/Unknown,未知"
+  splits:
+  - split: 1
+    text: "未知"
+    translated: "Unknown"
+- raw: "MartialCondition/Stat,{0}{1}{2}(目前{3}) ({4})"
+  splits:
+  - split: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "⟦0⟧⟦1⟧⟦2⟧({0}⟦3⟧) (⟦4⟧)"
+- raw: "MartialCondition/Character,{0}好感度{1}{2}(目前{3}) ({4})"
+  splits:
+  - split: 1
+    text: "好感度"
+    translated: "Affinity"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "⟦0⟧{0}⟦1⟧⟦2⟧({1}⟦3⟧) (⟦4⟧)"
+- raw: "MartialCondition/Book,需要《{0}》({1})"
+  splits:
+  - split: 1
+    text: "需要"
+    translated: "Need"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》(⟦1⟧)"
+- raw: "MartialCondition/Special,需要《{0}》(持有{1}) ({2})"
+  splits:
+  - split: 1
+    text: "需要"
+    translated: "Need"
+  - split: 1
+    subIndex: 1
+    text: "持有"
+    translated: "Holding"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
+- raw: "MartialCondition/Misc,需要《{0}》(持有{1}) ({2})"
+  splits:
+  - split: 1
+    text: "需要"
+    translated: "Need"
+  - split: 1
+    subIndex: 1
+    text: "持有"
+    translated: "Holding"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》({1}⟦1⟧) (⟦2⟧)"
+- raw: "MartialCondition/Talent,技能《{0}Lv{1}》(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "技能"
+    translated: "Skills"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧Lv⟦1⟧》({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Confucianism,儒学{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "儒学"
+    translated: "Confucianism"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Taoism,道学{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "道学"
+    translated: "Daoism"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Buddhism,释学{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "释学"
+    translated: "Buddhism"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialCondition/Xingyi,形意拳{0}{1}(目前{2}) ({3})"
+  splits:
+  - split: 1
+    text: "形意拳"
+    translated: "Xingyi Fist"
+  - split: 1
+    subIndex: 1
+    text: "目前"
+    translated: "Currently"
+  templates:
+  - split: 1
+    template: "{0}⟦0⟧⟦1⟧({1}⟦2⟧) (⟦3⟧)"
+- raw: "MartialStatDisplay/Stat,属性：{0} [{1}/{2}]"
+  splits:
+  - split: 1
+    text: "属性"
+    translated: "Attributes"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
+- raw: "MartialStatDisplay/StatPreview,影响：{0}"
+  splits:
+  - split: 1
+    text: "影响"
+    translated: "Impact: {0}"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "MartialStatDisplay/Talent,技能：{0} [{1}/{2}]"
+  splits:
+  - split: 1
+    text: "技能"
+    translated: "Skills"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
+- raw: "MartialStatDisplay/TalentNoLevel,技能：{0}"
+  splits:
+  - split: 1
+    text: "技能"
+    translated: "Skills"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "MartialStatDisplay/TalentPreview,可习得：{0}"
+  splits:
+  - split: 1
+    text: "可习得"
+    translated: "Can be learned: {0}"
+  templates:
+  - split: 1
+    template: "{0}：⟦0⟧"
+- raw: "Middle/Title/Issue,议题"
+  splits:
+  - split: 1
+    text: "议题"
+    translated: "Topic"
+- raw: "Middle/Title/CostAction,消耗行动"
+  splits:
+  - split: 1
+    text: "消耗行动"
+    translated: "Spends action on {0}"
+- raw: "Middle/Title/CostContribution,消耗贡献"
+  splits:
+  - split: 1
+    text: "消耗贡献"
+    translated: "Consume Contributions"
+- raw: "Middle/Title/Combat,决斗"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+- raw: "Middle/Title/Battle,战役"
+  splits:
+  - split: 1
+    text: "战役"
+    translated: "Battle"
+- raw: "Middle/Title/Talk,闲聊"
+  splits:
+  - split: 1
+    text: "闲聊"
+    translated: "Idle chat"
+- raw: "Middle/Title/Shop,商店"
+  splits:
+  - split: 1
+    text: "商店"
+    translated: "Store"
+- raw: "Middle/Title/Change,切换"
+  splits:
+  - split: 1
+    text: "切换"
+    translated: "Switch"
+- raw: "Middle/Title/Event,事件"
+  splits:
+  - split: 1
+    text: "事件"
+    translated: "Events"
+- raw: "Middle/Title/Quit,离开"
+  splits:
+  - split: 1
+    text: "离开"
+    translated: "Leave"
+- raw: "Middle/Title/Move,移动"
+  splits:
+  - split: 1
+    text: "移动"
+    translated: "Move"
+- raw: "Middle/Title/Default,其他"
+  splits:
+  - split: 1
+    text: "其他"
+    translated: "Others"
+- raw: "BattleKey/Name/Up,上"
+  splits:
+  - split: 1
+    text: "上"
+    translated: "Up"
+- raw: "BattleKey/Name/Down,下"
+  splits:
+  - split: 1
+    text: "下"
+    translated: "Continue"
+- raw: "BattleKey/Name/Left,左"
+  splits:
+  - split: 1
+    text: "左"
+    translated: "Left"
+- raw: "BattleKey/Name/Right,右"
+  splits:
+  - split: 1
+    text: "右"
+    translated: "Right"
+- raw: "BattleKey/Name/Attack1,近战"
+  splits:
+  - split: 1
+    text: "近战"
+    translated: "Close combat"
+- raw: "BattleKey/Name/Attack2,平射(长按抛射)"
+  splits:
+  - split: 1
+    text: "平射"
+    translated: "Direct fire"
+  - split: 1
+    subIndex: 1
+    text: "长按抛射"
+    translated: "Hold to throw"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "BattleKey/Name/Attack3,抛射"
+  splits:
+  - split: 1
+    text: "抛射"
+    translated: "Projection"
+- raw: "BattleKey/Name/Curse,嘴功"
+  splits:
+  - split: 1
+    text: "嘴功"
+    translated: "Mouthwork"
+- raw: "BattleKey/Name/Dodge,闪避"
+  splits:
+  - split: 1
+    text: "闪避"
+    translated: "Dodge"
+- raw: "BattleKey/Name/Skill_1,技能1"
+  splits:
+  - split: 1
+    text: "技能1"
+    translated: "Skill 1"
+- raw: "BattleKey/Name/Skill_2,技能2"
+  splits:
+  - split: 1
+    text: "技能2"
+    translated: "Skill 2"
+- raw: "BattleKey/Name/Skill_3,技能3"
+  splits:
+  - split: 1
+    text: "技能3"
+    translated: "Skill 3"
+- raw: "BattleKey/Name/Skill_4,技能4"
+  splits:
+  - split: 1
+    text: "技能4"
+    translated: "Skill 4"
+- raw: "BattleKey/Name/Setting,设定"
+  splits:
+  - split: 1
+    text: "设定"
+    translated: "Setting"
+- raw: "BattleKey/Name/Reset,预设"
+  splits:
+  - split: 1
+    text: "预设"
+    translated: "Default"
+- raw: "System/StoryEvent,事件"
+  splits:
+  - split: 1
+    text: "事件"
+    translated: "Events"

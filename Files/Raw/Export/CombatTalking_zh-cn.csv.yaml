@@ -1,0 +1,4427 @@
+- raw: "CombatTalking/Coward_001,这刀好像捅太深了，有点心慌。"
+  splits:
+  - split: 1
+    text: "这刀好像捅太深了，有点心慌。"
+- raw: "CombatTalking/B001,待我将你给活活捅死之后，还要把你老婆卖进窑子里！"
+  splits:
+  - split: 1
+    text: "待我将你给活活捅死之后，还要把你老婆卖进窑子里！"
+- raw: "CombatTalking/B002,信不信老子一～刀子戳烂你个大胳膊？"
+  splits:
+  - split: 1
+    text: "信不信老子一～刀子戳烂你个大胳膊？"
+- raw: "CombatTalking/B003,我这把刀子捅死过多少人你知道吗？\\n今日这刀上又要多添一条亡魂，那就是你！"
+  splits:
+  - split: 1
+    text: "我这把刀子捅死过多少人你知道吗？"
+  - split: 1
+    subIndex: 1
+    text: "今日这刀上又要多添一条亡魂，那就是你！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/B004,你知道刀子要捅哪里，才可以令人死得最痛苦吗？\\n我来教教你吧。"
+  splits:
+  - split: 1
+    text: "你知道刀子要捅哪里，才可以令人死得最痛苦吗？"
+  - split: 1
+    subIndex: 1
+    text: "我来教教你吧。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/B005,捅死你不麻烦，\\n麻烦的是等下要怎么处理你的尸体。"
+  splits:
+  - split: 1
+    text: "捅死你不麻烦，"
+  - split: 1
+    subIndex: 1
+    text: "麻烦的是等下要怎么处理你的尸体。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/B006,事先问一下，你喜欢什么葬法？\\n把你的尸首剁碎喂狗可以吗？"
+  splits:
+  - split: 1
+    text: "事先问一下，你喜欢什么葬法？"
+  - split: 1
+    subIndex: 1
+    text: "把你的尸首剁碎喂狗可以吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/B007,我要把你的肝脏挂在你门派的牌匾上！"
+  splits:
+  - split: 1
+    text: "我要把你的肝脏挂在你门派的牌匾上！"
+- raw: "CombatTalking/B008,我要用唐门毒药把你给毁容！"
+  splits:
+  - split: 1
+    text: "我要用唐门毒药把你给毁容！"
+- raw: "CombatTalking/B009,欢迎体验被人残忍杀害的历程，\\n好好享受你独一无二的死亡吧。"
+  splits:
+  - split: 1
+    text: "欢迎体验被人残忍杀害的历程，"
+  - split: 1
+    subIndex: 1
+    text: "好好享受你独一无二的死亡吧。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/B010,我该捅你几刀，你才会意识到自己今天会死在这里？"
+  splits:
+  - split: 1
+    text: "我该捅你几刀，你才会意识到自己今天会死在这里？"
+- raw: "CombatTalking/B011,咿嘻嘻嘻嘻嘻杀杀杀杀杀杀杀杀杀杀杀！！！"
+  splits:
+  - split: 1
+    text: "咿嘻嘻嘻嘻嘻杀杀杀杀杀杀杀杀杀杀杀！！！"
+- raw: "CombatTalking/B012,我要把你搞到后悔出生的地步！"
+  splits:
+  - split: 1
+    text: "我要把你搞到后悔出生的地步！"
+- raw: "CombatTalking/B013,别想死得太轻易，\\n我要凿开你的头盖骨灌蜂蜜进去喂苍蝇！"
+  splits:
+  - split: 1
+    text: "别想死得太轻易，"
+  - split: 1
+    subIndex: 1
+    text: "我要凿开你的头盖骨灌蜂蜜进去喂苍蝇！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/B014,吃屎啦！狗杂种！"
+  splits:
+  - split: 1
+    text: "吃屎啦！狗杂种！"
+- raw: "CombatTalking/B015,大家快來看啊！有個人形大糞在跟我打架！\\n大家齊心協力捉了這妖怪去遊街！"
+  splits:
+  - split: 1
+    text: "大家快來看啊！有個人形大糞在跟我打架！"
+  - split: 1
+    subIndex: 1
+    text: "大家齊心協力捉了這妖怪去遊街！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A001,你不要过来哦，不要冲动哦，我绝招准备好了哦？"
+  splits:
+  - split: 1
+    text: "你不要过来哦，不要冲动哦，我绝招准备好了哦？"
+- raw: "CombatTalking/A002,听过唐门地鸣雷吗？\\n你脚边就有一颗。"
+  splits:
+  - split: 1
+    text: "听过唐门地鸣雷吗？"
+  - split: 1
+    subIndex: 1
+    text: "你脚边就有一颗。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A003,我这把刀子可是涂了毒药呀！\\n见血封喉你信不信？"
+  splits:
+  - split: 1
+    text: "我这把刀子可是涂了毒药呀！"
+  - split: 1
+    subIndex: 1
+    text: "见血封喉你信不信？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A004,你不靠近一点我绝招岂不是打不中你吗？\\n过来呀！"
+  splits:
+  - split: 1
+    text: "你不靠近一点我绝招岂不是打不中你吗？"
+  - split: 1
+    subIndex: 1
+    text: "过来呀！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A005,你已经进入了我独创绝招\\n『龙戳凤捅杀人刺』的攻击范围了！"
+  splits:
+  - split: 1
+    text: "你已经进入了我独创绝招"
+  - split: 1
+    subIndex: 1
+    text: "『龙戳凤捅杀人刺』的攻击范围了！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A006,你后面有鬼！\\n是你的祖宗，他说你是不肖的畜牲，竟有龙阳之癖！"
+  splits:
+  - split: 1
+    text: "你后面有鬼！"
+  - split: 1
+    subIndex: 1
+    text: "是你的祖宗，他说你是不肖的畜牲，竟有龙阳之癖！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A007,我告诉你一个秘密······\\n其实我是你失散多年的兄弟呀！哥哥！"
+  splits:
+  - split: 1
+    text: "我告诉你一个秘密"
+  - split: 1
+    subIndex: 1
+    text: "其实我是你失散多年的兄弟呀！哥哥！"
+  templates:
+  - split: 1
+    template: "{0}······\\n{1}"
+- raw: "CombatTalking/A008,你长得真丑。"
+  splits:
+  - split: 1
+    text: "你长得真丑。"
+- raw: "CombatTalking/A009,哦哦哦哦！\\n我手中这柄嗜血的妖刀拥有自己的灵魂，已经不听我使唤了！\\n你快逃！趁我还能镇住它的时候！"
+  splits:
+  - split: 1
+    text: "哦哦哦哦！"
+  - split: 1
+    subIndex: 1
+    text: "我手中这柄嗜血的妖刀拥有自己的灵魂，已经不听我使唤了！"
+  - split: 1
+    subIndex: 2
+    text: "你快逃！趁我还能镇住它的时候！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/A010,我告诉你一个秘密······\\n其实我是你失散多年的祖宗呀！乖孙！"
+  splits:
+  - split: 1
+    text: "我告诉你一个秘密"
+  - split: 1
+    subIndex: 1
+    text: "其实我是你失散多年的祖宗呀！乖孙！"
+  templates:
+  - split: 1
+    template: "{0}······\\n{1}"
+- raw: "CombatTalking/A011,你妈妈跟你老婆是同一个人，你这直娘贼！"
+  splits:
+  - split: 1
+    text: "你妈妈跟你老婆是同一个人，你这直娘贼！"
+- raw: "CombatTalking/A012,我日你个仙人板板！你个短命娃儿！"
+  splits:
+  - split: 1
+    text: "我日你个仙人板板！你个短命娃儿！"
+- raw: "CombatTalking/A013,嘿，嘿，嘿，还动？你再动？\\n想干嘛？手爪爪痒了欠揍是吧？"
+  splits:
+  - split: 1
+    text: "嘿，嘿，嘿，还动？你再动？"
+  - split: 1
+    subIndex: 1
+    text: "想干嘛？手爪爪痒了欠揍是吧？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A014,是你逼我使出绝招『远距离空间杀人法』的，喝啊！\\n······就在刚才，你老妈死了。"
+  splits:
+  - split: 1
+    text: "是你逼我使出绝招『远距离空间杀人法』的，喝啊！"
+  - split: 1
+    subIndex: 1
+    text: "就在刚才，你老妈死了。"
+  templates:
+  - split: 1
+    template: "{0}\\n······{1}"
+- raw: "CombatTalking/A015,哼，连实力的差距都看不出来吗？想送死的便过来。\\n我一记『流星飞燕翎』送你下地狱。"
+  splits:
+  - split: 1
+    text: "哼，连实力的差距都看不出来吗？想送死的便过来。"
+  - split: 1
+    subIndex: 1
+    text: "我一记『流星飞燕翎』送你下地狱。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A016,你以为唐门何以人丁凋零？\\n······只因见过我这『外·姓·弟·子』真实本领的人，\\n都会被我灭口。"
+  splits:
+  - split: 1
+    text: "你以为唐门何以人丁凋零？"
+  - split: 1
+    subIndex: 1
+    text: "只因见过我这『外"
+  - split: 1
+    subIndex: 2
+    text: "姓"
+  - split: 1
+    subIndex: 3
+    text: "弟"
+  - split: 1
+    subIndex: 4
+    text: "子』真实本领的人，"
+  - split: 1
+    subIndex: 5
+    text: "都会被我灭口。"
+  templates:
+  - split: 1
+    template: "{0}\\n······{1}·{2}·{3}·{4}\\n{5}"
+- raw: "CombatTalking/A017,你有没有觉得运气时穴道隐隐作痛？没有？\\n没有的话，代表你已经中了我的独门剧毒。"
+  splits:
+  - split: 1
+    text: "你有没有觉得运气时穴道隐隐作痛？没有？"
+  - split: 1
+    subIndex: 1
+    text: "没有的话，代表你已经中了我的独门剧毒。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/A018,你已经中了我的独门剧毒，不立即自宫的话就会死······\\n什么？你说你没有中毒？\\n这不可能，除非你已经自宫了。"
+  splits:
+  - split: 1
+    text: "你已经中了我的独门剧毒，不立即自宫的话就会死"
+  - split: 1
+    subIndex: 1
+    text: "什么？你说你没有中毒？"
+  - split: 1
+    subIndex: 2
+    text: "这不可能，除非你已经自宫了。"
+  templates:
+  - split: 1
+    template: "{0}······\\n{1}\\n{2}"
+- raw: "CombatTalking/A019,好男不跟女斗，所以本侠不会跟你计较，阴阳人。"
+  splits:
+  - split: 1
+    text: "好男不跟女斗，所以本侠不会跟你计较，阴阳人。"
+- raw: "CombatTalking/A020,喂，你有东西掉地上了，哎唷，是你的脑子哎。"
+  splits:
+  - split: 1
+    text: "喂，你有东西掉地上了，哎唷，是你的脑子哎。"
+- raw: "CombatTalking/A021,（舔刀子）"
+  splits:
+  - split: 1
+    text: "（舔刀子）"
+- raw: "CombatTalking/A022,竟然有人长得比我还难看，真有你的。"
+  splits:
+  - split: 1
+    text: "竟然有人长得比我还难看，真有你的。"
+- raw: "CombatTalking/C001,死亡不是终点，你还要在地狱受罚，真可怜。"
+  splits:
+  - split: 1
+    text: "死亡不是终点，你还要在地狱受罚，真可怜。"
+- raw: "CombatTalking/C002,我们彼此武功都这么低，杂鱼何苦为难杂鱼，\\n不如握手言和，你说是吧？"
+  splits:
+  - split: 1
+    text: "我们彼此武功都这么低，杂鱼何苦为难杂鱼，"
+  - split: 1
+    subIndex: 1
+    text: "不如握手言和，你说是吧？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C003,有话好说，何必打打杀杀的呢？\\n你也不想被我杀掉不是吗？"
+  splits:
+  - split: 1
+    text: "有话好说，何必打打杀杀的呢？"
+  - split: 1
+    subIndex: 1
+    text: "你也不想被我杀掉不是吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C004,一想到你等下会被我捅死，我就不禁动了恻隐之心。"
+  splits:
+  - split: 1
+    text: "一想到你等下会被我捅死，我就不禁动了恻隐之心。"
+- raw: "CombatTalking/C005,你不觉得我们应该先停战，\\n好让你回家向生养你的母亲道别吗？"
+  splits:
+  - split: 1
+    text: "你不觉得我们应该先停战，"
+  - split: 1
+    subIndex: 1
+    text: "好让你回家向生养你的母亲道别吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C006,注意了！我要用飞刀射你环跳、曲泉、三阴交等腿部穴道。\\n千万别蹲下，否则你会被爆击而死！"
+  splits:
+  - split: 1
+    text: "注意了！我要用飞刀射你环跳、曲泉、三阴交等腿部穴道。"
+  - split: 1
+    subIndex: 1
+    text: "千万别蹲下，否则你会被爆击而死！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C007,动手之前先等等，你有什么遗言先告诉我，\\n我尽力帮你带到便是。"
+  splits:
+  - split: 1
+    text: "动手之前先等等，你有什么遗言先告诉我，"
+  - split: 1
+    subIndex: 1
+    text: "我尽力帮你带到便是。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C008,你家人让你习武时，有想过你可能会被人打残打死吗？"
+  splits:
+  - split: 1
+    text: "你家人让你习武时，有想过你可能会被人打残打死吗？"
+- raw: "CombatTalking/C009,你就没想过，其实我武功高得要命，\\n只不过是觊觎唐门小师妹的美色才自甘下贱屈居于唐门的吗？"
+  splits:
+  - split: 1
+    text: "你就没想过，其实我武功高得要命，"
+  - split: 1
+    subIndex: 1
+    text: "只不过是觊觎唐门小师妹的美色才自甘下贱屈居于唐门的吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C010,我劝你多呼吸一刻是一刻，毕竟我这一刀戳下去，你可能就死了。"
+  splits:
+  - split: 1
+    text: "我劝你多呼吸一刻是一刻，毕竟我这一刀戳下去，你可能就死了。"
+- raw: "CombatTalking/C011,你差不多该适可而止了，我没有不伤你性命就打败你的把握。"
+  splits:
+  - split: 1
+    text: "你差不多该适可而止了，我没有不伤你性命就打败你的把握。"
+- raw: "CombatTalking/C012,无知小辈，就让本座教训教训你。"
+  splits:
+  - split: 1
+    text: "无知小辈，就让本座教训教训你。"
+- raw: "CombatTalking/C013,你家人在等你回家，他们却不知道，你再也回不去了。"
+  splits:
+  - split: 1
+    text: "你家人在等你回家，他们却不知道，你再也回不去了。"
+- raw: "CombatTalking/C014,唯女子与小人难养也！\\n你两者皆是，是谓女小人，极度难养！"
+  splits:
+  - split: 1
+    text: "唯女子与小人难养也！"
+  - split: 1
+    subIndex: 1
+    text: "你两者皆是，是谓女小人，极度难养！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/C015,老而不死是为贼，你活太久啦！"
+  splits:
+  - split: 1
+    text: "老而不死是为贼，你活太久啦！"
+- raw: "CombatTalking/S001,等我赢了，就把你打包回老家！"
+  splits:
+  - split: 1
+    text: "等我赢了，就把你打包回老家！"
+- raw: "CombatTalking/S002,我要生三个！"
+  splits:
+  - split: 1
+    text: "我要生三个！"
+- raw: "CombatTalking/S003,老子从今日起就不当人了！"
+  splits:
+  - split: 1
+    text: "老子从今日起就不当人了！"
+- raw: "CombatTalking/S100,……讨厌。"
+  splits:
+  - split: 1
+    text: "……讨厌。"
+- raw: "CombatTalking/S101,……走开。"
+  splits:
+  - split: 1
+    text: "……走开。"
+- raw: "CombatTalking/S102,……。(眼神锐利)"
+  splits:
+  - split: 1
+    text: "眼神锐利"
+  templates:
+  - split: 1
+    template: "……。({0})"
+- raw: "CombatTalking/S200,可恶...快不行了...换人！"
+  splits:
+  - split: 1
+    text: "可恶...快不行了...换人！"
+- raw: "CombatTalking/S201,让我来会一会丑侠的本领！"
+  splits:
+  - split: 1
+    text: "让我来会一会丑侠的本领！"
+- raw: "CombatTalking/P001,呼噜噜﹍"
+  splits:
+  - split: 1
+    text: "呼噜噜"
+  templates:
+  - split: 1
+    template: "{0}﹍"
+- raw: "CombatTalking/P002,嘶嘶"
+  splits:
+  - split: 1
+    text: "嘶嘶"
+- raw: "CombatTalking/D001,竟然无法动弹！！"
+  splits:
+  - split: 1
+    text: "竟然无法动弹！！"
+- raw: "CombatTalking/D002,师弟，待会小心了！"
+  splits:
+  - split: 1
+    text: "师弟，待会小心了！"
+- raw: "CombatTalking/E001,看我的……呜挖！！"
+  splits:
+  - split: 1
+    text: "看我的……呜挖！！"
+- raw: "CombatTalking/E002,师弟我跟你讲噢噢噢噢！！\\n你竟然趁我讲话暗算我！"
+  splits:
+  - split: 1
+    text: "师弟我跟你讲噢噢噢噢！！"
+  - split: 1
+    subIndex: 1
+    text: "你竟然趁我讲话暗算我！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/E003,钱……咿啊！"
+  splits:
+  - split: 1
+    text: "钱……咿啊！"
+- raw: "CombatTalking/E004,你……唔，很好，别怪我不客气啦！"
+  splits:
+  - split: 1
+    text: "你……唔，很好，别怪我不客气啦！"
+- raw: "CombatTalking/E005,……！"
+- raw: "CombatTalking/E006,唔，好样的，瞧准了我换气的空档吗？"
+  splits:
+  - split: 1
+    text: "唔，好样的，瞧准了我换气的空档吗？"
+- raw: "CombatTalking/E007,我、我还在说话，师弟你干甚么！"
+  splits:
+  - split: 1
+    text: "我、我还在说话，师弟你干甚么！"
+- raw: "CombatTalking/F001,呜……"
+  splits:
+  - split: 1
+    text: "呜……"
+- raw: "CombatTalking/F002,呵～有意思！"
+  splits:
+  - split: 1
+    text: "呵～有意思！"
+- raw: "CombatTalking/F003,哈哈哈！"
+  splits:
+  - split: 1
+    text: "哈哈哈！"
+- raw: "CombatTalking/F004,还真会说啊！"
+  splits:
+  - split: 1
+    text: "还真会说啊！"
+- raw: "CombatTalking/F005,你就猖狂啊，等下我连本带利讨回。"
+  splits:
+  - split: 1
+    text: "你就猖狂啊，等下我连本带利讨回。"
+- raw: "CombatTalking/F006,你想让我气到中风，想得倒美！"
+  splits:
+  - split: 1
+    text: "你想让我气到中风，想得倒美！"
+- raw: "CombatTalking/F007,你说啥子！有种再说一遍！"
+  splits:
+  - split: 1
+    text: "你说啥子！有种再说一遍！"
+- raw: "CombatTalking/F008,混蛋！再说一次试试看！"
+  splits:
+  - split: 1
+    text: "混蛋！再说一次试试看！"
+- raw: "CombatTalking/F009,想耍我，臭小子，看我不捏扁你！"
+  splits:
+  - split: 1
+    text: "想耍我，臭小子，看我不捏扁你！"
+- raw: "CombatTalking/F010,……。"
+- raw: "CombatTalking/F011,……哼。"
+  splits:
+  - split: 1
+    text: "……哼。"
+- raw: "CombatTalking/F012,打就打，废话恁地多！"
+  splits:
+  - split: 1
+    text: "打就打，废话恁地多！"
+- raw: "CombatTalking/F013,废话连篇，看招！"
+  splits:
+  - split: 1
+    text: "废话连篇，看招！"
+- raw: "CombatTalking/F014,不学诗，无以言，师弟你还是说人话吧。"
+  splits:
+  - split: 1
+    text: "不学诗，无以言，师弟你还是说人话吧。"
+- raw: "CombatTalking/F015,人而无仪，不死何为？"
+  splits:
+  - split: 1
+    text: "人而无仪，不死何为？"
+- raw: "CombatTalking/G001,杀杀杀杀杀杀！！"
+  splits:
+  - split: 1
+    text: "杀杀杀杀杀杀！！"
+- raw: "CombatTalking/G002,欠扁！"
+  splits:
+  - split: 1
+    text: "欠扁！"
+- raw: "CombatTalking/G003,你自找的！"
+  splits:
+  - split: 1
+    text: "你自找的！"
+- raw: "CombatTalking/G004,逆竖！看我不敲你个头壳破裂！"
+  splits:
+  - split: 1
+    text: "逆竖！看我不敲你个头壳破裂！"
+- raw: "CombatTalking/G005,混蛋！我跟你拚了！"
+  splits:
+  - split: 1
+    text: "混蛋！我跟你拚了！"
+- raw: "CombatTalking/G006,吃老子一记铁臂神拳！"
+  splits:
+  - split: 1
+    text: "吃老子一记铁臂神拳！"
+- raw: "CombatTalking/G007,我生气了。"
+  splits:
+  - split: 1
+    text: "我生气了。"
+- raw: "CombatTalking/G008,佛也发火！"
+  splits:
+  - split: 1
+    text: "佛也发火！"
+- raw: "CombatTalking/H001,呼……让我喘口气……"
+  splits:
+  - split: 1
+    text: "呼……让我喘口气……"
+- raw: "CombatTalking/H002,待会小心了！"
+  splits:
+  - split: 1
+    text: "待会小心了！"
+- raw: "CombatTalking/E100,我来挡你这招！"
+  splits:
+  - split: 1
+    text: "我来挡你这招！"
+- raw: "CombatTalking/E101,三师兄舍身替你挡下了致命一击，受了重伤。"
+  splits:
+  - split: 1
+    text: "三师兄舍身替你挡下了致命一击，受了重伤。"
+- raw: "CombatTalking/E102,唔，师弟，容师兄我先行一步……。"
+  splits:
+  - split: 1
+    text: "唔，师弟，容师兄我先行一步……。"
+- raw: "CombatTalking/E103,师兄……！好，咱俩待会儿见了。"
+  splits:
+  - split: 1
+    text: "师兄……！好，咱俩待会儿见了。"
+- raw: "CombatTalking/E104,三师兄缓缓阖上了双眼，先你一步逝去了。"
+  splits:
+  - split: 1
+    text: "三师兄缓缓阖上了双眼，先你一步逝去了。"
+- raw: "CombatTalking/Trainee1_001,笑话，你一个没得师长传授的外姓弟子，也想挑战我？\\n让我来点拨点拨你正确的下跪姿势！"
+  splits:
+  - split: 1
+    text: "笑话，你一个没得师长传授的外姓弟子，也想挑战我？"
+  - split: 1
+    subIndex: 1
+    text: "让我来点拨点拨你正确的下跪姿势！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Trainee1_002,你这根本不是唐门武功，我要告诉师长，把你逐出师门！"
+  splits:
+  - split: 1
+    text: "你这根本不是唐门武功，我要告诉师长，把你逐出师门！"
+- raw: "CombatTalking/Trainee1_003,你能不能别把脸朝这边？你的脸很容易害人分心啊！"
+  splits:
+  - split: 1
+    text: "你能不能别把脸朝这边？你的脸很容易害人分心啊！"
+- raw: "CombatTalking/Trainee1_004,我等下打完你，要把你头下脚上插进粪坑里，那里就是你的归宿啊！哈哈！"
+  splits:
+  - split: 1
+    text: "我等下打完你，要把你头下脚上插进粪坑里，那里就是你的归宿啊！哈哈！"
+- raw: "CombatTalking/Trainee1_101,师兄，我若打赢了你，你就要帮我把茅房里的大粪挑去菜园！"
+  splits:
+  - split: 1
+    text: "师兄，我若打赢了你，你就要帮我把茅房里的大粪挑去菜园！"
+- raw: "CombatTalking/Trainee1_102,师兄，你不耍贱会死吗？怪招这么多，赢了也不光彩。"
+  splits:
+  - split: 1
+    text: "师兄，你不耍贱会死吗？怪招这么多，赢了也不光彩。"
+- raw: "CombatTalking/Trainee1_103,师兄，你武功高也没用，我有爹有娘长得俊，而你啥都没有。"
+  splits:
+  - split: 1
+    text: "师兄，你武功高也没用，我有爹有娘长得俊，而你啥都没有。"
+- raw: "CombatTalking/Trainee2_001,阿弥陀佛，施主，贫僧劝你行善积德，放下屠刀，来世别再误入畜生道。"
+  splits:
+  - split: 1
+    text: "阿弥陀佛，施主，贫僧劝你行善积德，放下屠刀，来世别再误入畜生道。"
+- raw: "CombatTalking/Trainee2_002,阿弥陀佛，施主，看贫僧当头棒喝于你！"
+  splits:
+  - split: 1
+    text: "阿弥陀佛，施主，看贫僧当头棒喝于你！"
+- raw: "CombatTalking/Trainee2_003,罪过，罪过，贫僧一见你的面，就心生嗔念、杀念。"
+  splits:
+  - split: 1
+    text: "罪过，罪过，贫僧一见你的面，就心生嗔念、杀念。"
+- raw: "CombatTalking/Trainee2_004,善哉，超渡了你，功德加三。"
+  splits:
+  - split: 1
+    text: "善哉，超渡了你，功德加三。"
+- raw: "CombatTalking/Trainee3_001,唐门妖人，你们心中一点正气也无，就让我来替天行道！"
+  splits:
+  - split: 1
+    text: "唐门妖人，你们心中一点正气也无，就让我来替天行道！"
+- raw: "CombatTalking/Trainee3_002,人剑合一！杀！"
+  splits:
+  - split: 1
+    text: "人剑合一！杀！"
+- raw: "CombatTalking/Trainee3_003,听见了吗？我的剑在对我说：你数息之间就会死！"
+  splits:
+  - split: 1
+    text: "听见了吗？我的剑在对我说"
+  - split: 1
+    subIndex: 1
+    text: "你数息之间就会死！"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatTalking/Trainee3_004,点苍侠影飞神剑，破虏定邦撼中原！"
+  splits:
+  - split: 1
+    text: "点苍侠影飞神剑，破虏定邦撼中原！"
+- raw: "CombatTalking/Trainee3_005,我今日就要拿你鲜血，为我宝剑开锋！"
+  splits:
+  - split: 1
+    text: "我今日就要拿你鲜血，为我宝剑开锋！"
+- raw: "CombatTalking/Trainee4_001,岂有此理……真的是岂有此理！贫道不许你再继续呼吸了！"
+  splits:
+  - split: 1
+    text: "岂有此理……真的是岂有此理！贫道不许你再继续呼吸了！"
+- raw: "CombatTalking/Trainee4_002,贫道要杀了你，净化这个污浊的世间。"
+  splits:
+  - split: 1
+    text: "贫道要杀了你，净化这个污浊的世间。"
+- raw: "CombatTalking/Trainee4_003,我全真教弟子遍布神州大地，你要是敢动我，我一声招呼，\\n百来号师兄弟就来相聚，把你个不值钱丑八怪揍成破抹布！"
+  splits:
+  - split: 1
+    text: "我全真教弟子遍布神州大地，你要是敢动我，我一声招呼，"
+  - split: 1
+    subIndex: 1
+    text: "百来号师兄弟就来相聚，把你个不值钱丑八怪揍成破抹布！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Trainee5_001,太上老君急急如律令！定！\\n嗯……？怎么定不住？难道……你、你其实是人？！"
+  splits:
+  - split: 1
+    text: "太上老君急急如律令！定！"
+  - split: 1
+    subIndex: 1
+    text: "嗯……？怎么定不住？难道……你、你其实是人？！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Trainee5_002,大胆妖孽，光天化日之下就敢现出原形，这是不把我青城道法放在眼里！"
+  splits:
+  - split: 1
+    text: "大胆妖孽，光天化日之下就敢现出原形，这是不把我青城道法放在眼里！"
+- raw: "CombatTalking/Trainee5_003,青城派武功，专收你这等邪祟，我、我可不怕你！"
+  splits:
+  - split: 1
+    text: "青城派武功，专收你这等邪祟，我、我可不怕你！"
+- raw: "CombatTalking/Trainee5_004,果然是唐门，怎么样龌龊的门派，收怎么样腌臜的弟子！"
+  splits:
+  - split: 1
+    text: "果然是唐门，怎么样龌龊的门派，收怎么样腌臜的弟子！"
+- raw: "CombatTalking/Trainee6_001,丑八怪去死，看我飞天脚把你一脚踹进地府！"
+  splits:
+  - split: 1
+    text: "丑八怪去死，看我飞天脚把你一脚踹进地府！"
+- raw: "CombatTalking/Trainee6_002,我都还没有出脚，你就已经面目全非了！"
+  splits:
+  - split: 1
+    text: "我都还没有出脚，你就已经面目全非了！"
+- raw: "CombatTalking/Trainee6_003,火龙仙法，天眼开！哦哦……我看见了！\\n你的真身……就是大粪修练成的妖精，大便精！"
+  splits:
+  - split: 1
+    text: "火龙仙法，天眼开！哦哦……我看见了！"
+  - split: 1
+    subIndex: 1
+    text: "你的真身……就是大粪修练成的妖精，大便精！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Trainee6_101,没人告诉过你，让你离我小梅师姊远一点吗！找死！"
+  splits:
+  - split: 1
+    text: "没人告诉过你，让你离我小梅师姊远一点吗！找死！"
+- raw: "CombatTalking/Trainee6_102,你敢打我小梅师妹的歪主意，活该去死！"
+  splits:
+  - split: 1
+    text: "你敢打我小梅师妹的歪主意，活该去死！"
+- raw: "CombatTalking/Trainee7_001,鬼门还没开，你个丑鬼就急不可耐窜出头来！"
+  splits:
+  - split: 1
+    text: "鬼门还没开，你个丑鬼就急不可耐窜出头来！"
+- raw: "CombatTalking/Trainee7_002,看我以夺魄爪将你拘回阴曹地府去受刑！"
+  splits:
+  - split: 1
+    text: "看我以夺魄爪将你拘回阴曹地府去受刑！"
+- raw: "CombatTalking/Trainee7_003,我要钩出你的肠子当跳绳！"
+  splits:
+  - split: 1
+    text: "我要钩出你的肠子当跳绳！"
+- raw: "CombatTalking/Trainee7_101,没人告诉过你，让你离我飞天嫡传女弟子远一点吗？这可是要命的。"
+  splits:
+  - split: 1
+    text: "没人告诉过你，让你离我飞天嫡传女弟子远一点吗？这可是要命的。"
+- raw: "CombatTalking/Trainee7_102,小梅迟早是我夺魄门的囊中物，你敢打她歪主意，受死！"
+  splits:
+  - split: 1
+    text: "小梅迟早是我夺魄门的囊中物，你敢打她歪主意，受死！"
+- raw: "CombatTalking/Trainee8_001,看什么看，信不信老子打扁你！"
+  splits:
+  - split: 1
+    text: "看什么看，信不信老子打扁你！"
+- raw: "CombatTalking/Trainee8_002,打到你脑浆流出来！"
+  splits:
+  - split: 1
+    text: "打到你脑浆流出来！"
+- raw: "CombatTalking/Trainee8_003,像你这种没吃饭的，一搥子下去就死！"
+  splits:
+  - split: 1
+    text: "像你这种没吃饭的，一搥子下去就死！"
+- raw: "CombatTalking/Trainee8_004,一搥敲烂你的头盖骨！"
+  splits:
+  - split: 1
+    text: "一搥敲烂你的头盖骨！"
+- raw: "CombatTalking/Trainee9_001,拂尘就是专门用来扫除脏东西的，看招！"
+  splits:
+  - split: 1
+    text: "拂尘就是专门用来扫除脏东西的，看招！"
+- raw: "CombatTalking/Trainee9_002,秽物！去！"
+  splits:
+  - split: 1
+    text: "秽物！去！"
+- raw: "CombatTalking/Trainee9_003,你怎配与我动手，认输……不，自裁吧。"
+  splits:
+  - split: 1
+    text: "你怎配与我动手，认输……不，自裁吧。"
+- raw: "CombatTalking/Trainee9_101,魏掌门缘何对你另眼相看？我要证明她看走眼了！"
+  splits:
+  - split: 1
+    text: "魏掌门缘何对你另眼相看？我要证明她看走眼了！"
+- raw: "CombatTalking/Trainee10_001,怎么了怎么了，唐门外姓弟子连我一个家丁都打不过吗？"
+  splits:
+  - split: 1
+    text: "怎么了怎么了，唐门外姓弟子连我一个家丁都打不过吗？"
+- raw: "CombatTalking/Trainee10_002,我要把你的尸体挂在肩甲上游街！"
+  splits:
+  - split: 1
+    text: "我要把你的尸体挂在肩甲上游街！"
+- raw: "CombatTalking/Trainee10_003,看我肩甲冲撞！把你撞出一个窟隆来！"
+  splits:
+  - split: 1
+    text: "看我肩甲冲撞！把你撞出一个窟隆来！"
+- raw: "CombatTalking/Trainee10_004,连我一个家丁都有教头传授，打杂有月钱拿，而你啥都没有！"
+  splits:
+  - split: 1
+    text: "连我一个家丁都有教头传授，打杂有月钱拿，而你啥都没有！"
+- raw: "CombatTalking/Trainee10_005,你又穷又丑，真不知你活在世上有啥好留恋，我要是你，早就一头撞死！"
+  splits:
+  - split: 1
+    text: "你又穷又丑，真不知你活在世上有啥好留恋，我要是你，早就一头撞死！"
+- raw: "CombatTalking/Trainee10_101,挨揍，就是你跟二公子当朋友的代价！"
+  splits:
+  - split: 1
+    text: "挨揍，就是你跟二公子当朋友的代价！"
+- raw: "CombatTalking/Trainee10_102,你和二公子就像呕吐物和粪水混在一块，这就叫物以类聚！"
+  splits:
+  - split: 1
+    text: "你和二公子就像呕吐物和粪水混在一块，这就叫物以类聚！"
+- raw: "CombatTalking/Trainee13_001,唐门的武功，哪里是你这样使的？笑话！"
+  splits:
+  - split: 1
+    text: "唐门的武功，哪里是你这样使的？笑话！"
+- raw: "CombatTalking/Trainee13_002,宰了你这无关紧要的废物，唐门前辈想来也不会怪罪。\\n谁叫你命贱？至多赔你十五文钱！"
+  splits:
+  - split: 1
+    text: "宰了你这无关紧要的废物，唐门前辈想来也不会怪罪。"
+  - split: 1
+    subIndex: 1
+    text: "谁叫你命贱？至多赔你十五文钱！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Trainee13_003,你的脸看起来像条鱼似的，老子的刀，专门杀鱼！"
+  splits:
+  - split: 1
+    text: "你的脸看起来像条鱼似的，老子的刀，专门杀鱼！"
+- raw: "CombatTalking/Trainee11_001,救命！这个脏东西在非礼我的眼睛！"
+  splits:
+  - split: 1
+    text: "救命！这个脏东西在非礼我的眼睛！"
+- raw: "CombatTalking/Trainee11_002,呜呜，你为什么要让我看见你，我的眼睛……我的眼睛不清白了！"
+  splits:
+  - split: 1
+    text: "呜呜，你为什么要让我看见你，我的眼睛……我的眼睛不清白了！"
+- raw: "CombatTalking/Trainee11_003,救命啊！救命啊！这个臭不要脸的用淫秽的目光打量我！"
+  splits:
+  - split: 1
+    text: "救命啊！救命啊！这个臭不要脸的用淫秽的目光打量我！"
+- raw: "CombatTalking/Trainee11_004,这畜生会用两脚行走！"
+  splits:
+  - split: 1
+    text: "这畜生会用两脚行走！"
+- raw: "CombatTalking/Ranger1_001,小爷我一出手，你就只能倒下变尸体！"
+  splits:
+  - split: 1
+    text: "小爷我一出手，你就只能倒下变尸体！"
+- raw: "CombatTalking/Ranger1_002,像你这种江湖杂鱼臭虾，本来小爷都不屑动手！"
+  splits:
+  - split: 1
+    text: "像你这种江湖杂鱼臭虾，本来小爷都不屑动手！"
+- raw: "CombatTalking/Ranger1_003,你怎么还没死？太不识趣了！"
+  splits:
+  - split: 1
+    text: "你怎么还没死？太不识趣了！"
+- raw: "CombatTalking/Ranger1_004,再挣扎也没用，只会让你死得更难看而已！"
+  splits:
+  - split: 1
+    text: "再挣扎也没用，只会让你死得更难看而已！"
+- raw: "CombatTalking/Trainee12_001,你这家伙，长得比我们作乞丐的都还要寒酸！"
+  splits:
+  - split: 1
+    text: "你这家伙，长得比我们作乞丐的都还要寒酸！"
+- raw: "CombatTalking/Trainee12_002,妈的，吓我一跳，你是被什么东西弄到脸变这样？"
+  splits:
+  - split: 1
+    text: "妈的，吓我一跳，你是被什么东西弄到脸变这样？"
+- raw: "CombatTalking/Trainee12_003,感谢上苍，虽然令我当了乞丐，好歹没你这样难看，否则我当场不活了。"
+  splits:
+  - split: 1
+    text: "感谢上苍，虽然令我当了乞丐，好歹没你这样难看，否则我当场不活了。"
+- raw: "CombatTalking/Trainee12_004,你不必采生折割，天生就脸残，真可怜。"
+  splits:
+  - split: 1
+    text: "你不必采生折割，天生就脸残，真可怜。"
+- raw: "CombatTalking/Trainee12_005,狗屁眼拉出来的货都比你耐看！"
+  splits:
+  - split: 1
+    text: "狗屁眼拉出来的货都比你耐看！"
+- raw: "CombatTalking/Common_001,你这家伙光是活着，就拉低我宋人的平均质量！"
+  splits:
+  - split: 1
+    text: "你这家伙光是活着，就拉低我宋人的平均质量！"
+- raw: "CombatTalking/Common_002,为了大家好，你应该去死才对。\\n你凭什么活着伤害大家的眼睛？"
+  splits:
+  - split: 1
+    text: "为了大家好，你应该去死才对。"
+  - split: 1
+    subIndex: 1
+    text: "你凭什么活着伤害大家的眼睛？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Common_003,你娘真不是个东西，见你长这么丑，生下来就应该掐死。\\n你以为被生下来就有资格活吗！真不要脸！"
+  splits:
+  - split: 1
+    text: "你娘真不是个东西，见你长这么丑，生下来就应该掐死。"
+  - split: 1
+    subIndex: 1
+    text: "你以为被生下来就有资格活吗！真不要脸！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Common_004,我给你一个机会，自裁。我不想被你的臭血弄脏双手。"
+  splits:
+  - split: 1
+    text: "我给你一个机会，自裁。我不想被你的臭血弄脏双手。"
+- raw: "CombatTalking/Common_005,甭跟我说啥善恶，你光是长这尊容，就罪该万死！"
+  splits:
+  - split: 1
+    text: "甭跟我说啥善恶，你光是长这尊容，就罪该万死！"
+- raw: "CombatTalking/Common_006,我有一个疑问：你凭什么活到现在没被人打死？\\n我见了你就一股杀意涌上心头。"
+  splits:
+  - split: 1
+    text: "我有一个疑问"
+  - split: 1
+    subIndex: 1
+    text: "你凭什么活到现在没被人打死？"
+  - split: 1
+    subIndex: 2
+    text: "我见了你就一股杀意涌上心头。"
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatTalking/Common_007,好了啦杂鱼，命到底是有多便宜，收钱替唐门这种武林之耻跟人厮拼。"
+  splits:
+  - split: 1
+    text: "好了啦杂鱼，命到底是有多便宜，收钱替唐门这种武林之耻跟人厮拼。"
+- raw: "CombatTalking/Common_008,唐门的就没一个好东西，尤其是你！又弱又丑学人家混什么江湖！"
+  splits:
+  - split: 1
+    text: "唐门的就没一个好东西，尤其是你！又弱又丑学人家混什么江湖！"
+- raw: "CombatTalking/Common_009,吃屎啦你！"
+  splits:
+  - split: 1
+    text: "吃屎啦你！"
+- raw: "CombatTalking/Common_010,人可以不好看，甚至可以丑，但是丑也不能逾越人的范畴吧。\\n你不能长成这德行，自称是人。"
+  splits:
+  - split: 1
+    text: "人可以不好看，甚至可以丑，但是丑也不能逾越人的范畴吧。"
+  - split: 1
+    subIndex: 1
+    text: "你不能长成这德行，自称是人。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Common_011,让你这种人活着，会带起歪风，必须立刻肃清你！"
+  splits:
+  - split: 1
+    text: "让你这种人活着，会带起歪风，必须立刻肃清你！"
+- raw: "CombatTalking/Common_012,你这是丑吗？你这是纯纯恶心人！你要不要脸啊你，还学人家混江湖！"
+  splits:
+  - split: 1
+    text: "你这是丑吗？你这是纯纯恶心人！你要不要脸啊你，还学人家混江湖！"
+- raw: "CombatTalking/Common_013,因为你长太丑了，妨害风化，所以我要去号召武林群侠，抵制唐门！"
+  splits:
+  - split: 1
+    text: "因为你长太丑了，妨害风化，所以我要去号召武林群侠，抵制唐门！"
+- raw: "CombatTalking/Common_014,唐门怎么收了你这么个货色，可见江湖传闻，唐门式微不假！"
+  splits:
+  - split: 1
+    text: "唐门怎么收了你这么个货色，可见江湖传闻，唐门式微不假！"
+- raw: "CombatTalking/Common_015,第一眼就不讨喜，根本懒得看你内在有多好了。\\n直接砍死，还管你人品能多正直。"
+  splits:
+  - split: 1
+    text: "第一眼就不讨喜，根本懒得看你内在有多好了。"
+  - split: 1
+    subIndex: 1
+    text: "直接砍死，还管你人品能多正直。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Player_101,放马过来，秃驴！"
+  splits:
+  - split: 1
+    text: "放马过来，秃驴！"
+- raw: "CombatTalking/Player_102,你是不是因为秃了才出家掩饰的？"
+  splits:
+  - split: 1
+    text: "你是不是因为秃了才出家掩饰的？"
+- raw: "CombatTalking/Player_103,啊，犯规！你太秃了，反射了阳光好刺眼！"
+  splits:
+  - split: 1
+    text: "啊，犯规！你太秃了，反射了阳光好刺眼！"
+- raw: "CombatTalking/Player_104,各位乡亲，我亲眼看到这和尚去嫖娼！"
+  splits:
+  - split: 1
+    text: "各位乡亲，我亲眼看到这和尚去嫖娼！"
+- raw: "CombatTalking/Player_201,点疮派名不虚传，每个都长痔疮！"
+  splits:
+  - split: 1
+    text: "点疮派名不虚传，每个都长痔疮！"
+- raw: "CombatTalking/Player_202,滚回大理去啦，绿龟！"
+  splits:
+  - split: 1
+    text: "滚回大理去啦，绿龟！"
+- raw: "CombatTalking/Player_203,你们人剑合一，我是不是可以尊称你一声剑人？剑人！你这小剑人！"
+  splits:
+  - split: 1
+    text: "你们人剑合一，我是不是可以尊称你一声剑人？剑人！你这小剑人！"
+- raw: "CombatTalking/Special4_001,俺要把你活活打死！"
+  splits:
+  - split: 1
+    text: "俺要把你活活打死！"
+- raw: "CombatTalking/Special4_002,汪汪汪汪汪！"
+  splits:
+  - split: 1
+    text: "汪汪汪汪汪！"
+- raw: "CombatTalking/Special4_003,呜噜噜噜噜……！汪汪汪汪汪！"
+  splits:
+  - split: 1
+    text: "呜噜噜噜噜……！汪汪汪汪汪！"
+- raw: "CombatTalking/Special4_004,揍死你！揍死你！"
+  splits:
+  - split: 1
+    text: "揍死你！揍死你！"
+- raw: "CombatTalking/Special101_001,哈，来这手？不错，不错，那我这招你如何接？"
+  splits:
+  - split: 1
+    text: "哈，来这手？不错，不错，那我这招你如何接？"
+- raw: "CombatTalking/Special101_002,中计了吧，接下来十步之内，小子你必败于我手！"
+  splits:
+  - split: 1
+    text: "中计了吧，接下来十步之内，小子你必败于我手！"
+- raw: "CombatTalking/Special101_003,南宫某人算是厚道了，要是王公子那脾气，你一招就得败下阵来。"
+  splits:
+  - split: 1
+    text: "南宫某人算是厚道了，要是王公子那脾气，你一招就得败下阵来。"
+- raw: "CombatTalking/Special401_001,啊……好麻烦，你想找死可以自己撞墙啊。"
+  splits:
+  - split: 1
+    text: "啊……好麻烦，你想找死可以自己撞墙啊。"
+- raw: "CombatTalking/Special401_002,为什么你想挨打，王某就非得打你？你欺人太甚，欠打。"
+  splits:
+  - split: 1
+    text: "为什么你想挨打，王某就非得打你？你欺人太甚，欠打。"
+- raw: "CombatTalking/Special401_003,躺下吧。"
+  splits:
+  - split: 1
+    text: "躺下吧。"
+- raw: "CombatTalking/Special401_004,烦吶。"
+  splits:
+  - split: 1
+    text: "烦吶。"
+- raw: "CombatTalking/Special102_001,本公子年纪比你大，家世比你好，武功比你高，\\n学问比你渊博，人面比你广，你凭什么跟我打？"
+  splits:
+  - split: 1
+    text: "本公子年纪比你大，家世比你好，武功比你高，"
+  - split: 1
+    subIndex: 1
+    text: "学问比你渊博，人面比你广，你凭什么跟我打？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special102_002,就凭你一个唐门外姓弟子，也敢与我南宫某人放对！"
+  splits:
+  - split: 1
+    text: "就凭你一个唐门外姓弟子，也敢与我南宫某人放对！"
+- raw: "CombatTalking/Special102_003,可笑的小丑，你还不配弄脏本公子的扇子！"
+  splits:
+  - split: 1
+    text: "可笑的小丑，你还不配弄脏本公子的扇子！"
+- raw: "CombatTalking/Special102_004,赵兄，我丑话说在前头，愚兄身负南宫绝学，你怎会是我敌手？"
+  splits:
+  - split: 1
+    text: "赵兄，我丑话说在前头，愚兄身负南宫绝学，你怎会是我敌手？"
+- raw: "CombatTalking/Special102_005,你不若认输，我让你不至于太过出丑也就是了。"
+  splits:
+  - split: 1
+    text: "你不若认输，我让你不至于太过出丑也就是了。"
+- raw: "CombatTalking/Special102_006,唐门外姓弟子可以练到这种地步，殊为难得，在江湖算得上五、六流了。"
+  splits:
+  - split: 1
+    text: "唐门外姓弟子可以练到这种地步，殊为难得，在江湖算得上五、六流了。"
+- raw: "CombatTalking/Special103_001,我、我要出剑了，很利的，你小心一点！"
+  splits:
+  - split: 1
+    text: "我、我要出剑了，很利的，你小心一点！"
+- raw: "CombatTalking/Special103_002,我很弱的，你应该不太可能连我都打不赢吧，哈哈……。"
+  splits:
+  - split: 1
+    text: "我很弱的，你应该不太可能连我都打不赢吧，哈哈……。"
+- raw: "CombatTalking/Special103_003,不然我们还是别打了吧，就当平手……怎么样？\\n不然，不然算我输也可以。"
+  splits:
+  - split: 1
+    text: "不然我们还是别打了吧，就当平手……怎么样？"
+  - split: 1
+    subIndex: 1
+    text: "不然，不然算我输也可以。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special103_004,我我我给你钱，不要打我！"
+  splits:
+  - split: 1
+    text: "我我我给你钱，不要打我！"
+- raw: "CombatTalking/Girl4_001,挺好的……哼哼，呵呵，就该这样才对。\\n来吧，让我们痛快淋漓的战一场！"
+  splits:
+  - split: 1
+    text: "挺好的……哼哼，呵呵，就该这样才对。"
+  - split: 1
+    subIndex: 1
+    text: "来吧，让我们痛快淋漓的战一场！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Girl4_002,弟，这一剑要接好喔，不然会死的。"
+  splits:
+  - split: 1
+    text: "弟，这一剑要接好喔，不然会死的。"
+- raw: "CombatTalking/Girl4_003,不愧是我弟，无懈可击的架势……那就出猛招打出破绽来吧！"
+  splits:
+  - split: 1
+    text: "不愧是我弟，无懈可击的架势……那就出猛招打出破绽来吧！"
+- raw: "CombatTalking/Girl4_004,注意了，下一剑，你若挡不住，便决胜负。"
+  splits:
+  - split: 1
+    text: "注意了，下一剑，你若挡不住，便决胜负。"
+- raw: "CombatTalking/Sister_001,……。"
+- raw: "CombatTalking/Sister_002,師兄，師兄，師兄！"
+  splits:
+  - split: 1
+    text: "師兄，師兄，師兄！"
+- raw: "CombatTalking/Sister_003,師兄……！"
+  splits:
+  - split: 1
+    text: "師兄……！"
+- raw: "CombatTalking/Sister_004,拍拍……！"
+  splits:
+  - split: 1
+    text: "拍拍……！"
+- raw: "CombatTalking/Master_001,唉，你想清楚了？"
+  splits:
+  - split: 1
+    text: "唉，你想清楚了？"
+- raw: "CombatTalking/Master_002,这是你想成为的人？"
+  splits:
+  - split: 1
+    text: "这是你想成为的人？"
+- raw: "CombatTalking/Girl5_001,哇哈哈哈～阿活～去～死～！"
+  splits:
+  - split: 1
+    text: "哇哈哈哈～阿活～去～死～！"
+- raw: "CombatTalking/Girl5_002,本梅刀子没地方放，先插你身上。"
+  splits:
+  - split: 1
+    text: "本梅刀子没地方放，先插你身上。"
+- raw: "CombatTalking/Girl5_003,飞天脚！仙鹤迷踪拳！来捉我啊～！哇哈哈哈！"
+  splits:
+  - split: 1
+    text: "飞天脚！仙鹤迷踪拳！来捉我啊～！哇哈哈哈！"
+- raw: "CombatTalking/Girl5_004,阿活你慢得就像龟似的。"
+  splits:
+  - split: 1
+    text: "阿活你慢得就像龟似的。"
+- raw: "CombatTalking/Girl5_005,哇哈哈，本梅今日就要推你下楼梯呀！"
+  splits:
+  - split: 1
+    text: "哇哈哈，本梅今日就要推你下楼梯呀！"
+- raw: "CombatTalking/Girl5_006,哇哈哈哈～阿活～阿鹤侠要啄出你的眼珠子！"
+  splits:
+  - split: 1
+    text: "哇哈哈哈～阿活～阿鹤侠要啄出你的眼珠子！"
+- raw: "CombatTalking/Girl5_101,阿活，对不起了。请你去死吧。"
+  splits:
+  - split: 1
+    text: "阿活，对不起了。请你去死吧。"
+- raw: "CombatTalking/Girl5_102,我会下手尽量利落的，不会很痛，眨眼就结束了。"
+  splits:
+  - split: 1
+    text: "我会下手尽量利落的，不会很痛，眨眼就结束了。"
+- raw: "CombatTalking/Girl5_103,去死啊……去死！为什么还不肯去死！不要让我为难啊！"
+  splits:
+  - split: 1
+    text: "去死啊……去死！为什么还不肯去死！不要让我为难啊！"
+- raw: "CombatTalking/Girl5_104,啊啊……求你了，快死吧，要不然，夹着尾巴逃走也好啊！"
+  splits:
+  - split: 1
+    text: "啊啊……求你了，快死吧，要不然，夹着尾巴逃走也好啊！"
+- raw: "CombatTalking/Girl6_001,令人生厌，受死吧。"
+  splits:
+  - split: 1
+    text: "令人生厌，受死吧。"
+- raw: "CombatTalking/Girl6_002,这可是你自找的，生死无尤。"
+  splits:
+  - split: 1
+    text: "这可是你自找的，生死无尤。"
+- raw: "CombatTalking/Girl6_003,哦？明知道我是谁，不选择逃跑，反而主动向我靠近吗？"
+  splits:
+  - split: 1
+    text: "哦？明知道我是谁，不选择逃跑，反而主动向我靠近吗？"
+- raw: "CombatTalking/Girl6_004,你相貌虽丑，说不定心很美丽，挖出看看便知道了。"
+  splits:
+  - split: 1
+    text: "你相貌虽丑，说不定心很美丽，挖出看看便知道了。"
+- raw: "CombatTalking/Girl6_101,痴呆的弟子。再敢分心，为师就杀了你。"
+  splits:
+  - split: 1
+    text: "痴呆的弟子。再敢分心，为师就杀了你。"
+- raw: "CombatTalking/Girl6_102,为师不需要你着紧，放马过来便是。\\n相对的，你敢掉以轻心，也要付出代价。"
+  splits:
+  - split: 1
+    text: "为师不需要你着紧，放马过来便是。"
+  - split: 1
+    subIndex: 1
+    text: "相对的，你敢掉以轻心，也要付出代价。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Girl6_103,愚蠢的弟子。我架着伞，你还蠢蠢欲动要拿暗器？\\n你是不长眼睛还是不长脑？欠打是不是？"
+  splits:
+  - split: 1
+    text: "愚蠢的弟子。我架着伞，你还蠢蠢欲动要拿暗器？"
+  - split: 1
+    subIndex: 1
+    text: "你是不长眼睛还是不长脑？欠打是不是？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Girl6_104,软弱的弟子。太弱了，你这样子，我可不认你是我雪山派弟子。"
+  splits:
+  - split: 1
+    text: "软弱的弟子。太弱了，你这样子，我可不认你是我雪山派弟子。"
+- raw: "CombatTalking/Girl6_201,你要让我听从，必须超越我才行，否则你要为踏进我的心付出代价。"
+  splits:
+  - split: 1
+    text: "你要让我听从，必须超越我才行，否则你要为踏进我的心付出代价。"
+- raw: "CombatTalking/Girl6_301,不肖的弟子，你这是想打老婆吗？"
+  splits:
+  - split: 1
+    text: "不肖的弟子，你这是想打老婆吗？"
+- raw: "CombatTalking/Girl6_302,接下来要小心了哦，我可不擅长点到为止。"
+  splits:
+  - split: 1
+    text: "接下来要小心了哦，我可不擅长点到为止。"
+- raw: "CombatTalking/Girl6_303,精神点，浑身都是破绽，这可不行。"
+  splits:
+  - split: 1
+    text: "精神点，浑身都是破绽，这可不行。"
+- raw: "CombatTalking/Girl7_001,不想死就走开！离我远点！"
+  splits:
+  - split: 1
+    text: "不想死就走开！离我远点！"
+- raw: "CombatTalking/Girl7_002,滚啊！都给我滚！"
+  splits:
+  - split: 1
+    text: "滚啊！都给我滚！"
+- raw: "CombatTalking/Girl7_003,我、我打你喔！"
+  splits:
+  - split: 1
+    text: "我、我打你喔！"
+- raw: "CombatTalking/Girl7_004,我真的打你喔，你别不信，会出人命的！"
+  splits:
+  - split: 1
+    text: "我真的打你喔，你别不信，会出人命的！"
+- raw: "CombatTalking/Girl7_005,快闪开快闪开！"
+  splits:
+  - split: 1
+    text: "快闪开快闪开！"
+- raw: "CombatTalking/Girl7_006,我以前打过老虎喔！"
+  splits:
+  - split: 1
+    text: "我以前打过老虎喔！"
+- raw: "CombatTalking/Special206_001,施主，你最好施舍一些好吃的，否则别怪小僧下手不留情。"
+  splits:
+  - split: 1
+    text: "施主，你最好施舍一些好吃的，否则别怪小僧下手不留情。"
+- raw: "CombatTalking/Special206_002,看到和尚的拳头了吗？选吧，你要跟小僧讲话，还是跟小僧的拳头讲话？"
+  splits:
+  - split: 1
+    text: "看到和尚的拳头了吗？选吧，你要跟小僧讲话，还是跟小僧的拳头讲话？"
+- raw: "CombatTalking/Special206_003,江湖传闻，比武能交心。\\n所以小僧要向施主弘扬佛法，比起用嘴说，是不是揍你两拳更快？"
+  splits:
+  - split: 1
+    text: "江湖传闻，比武能交心。"
+  - split: 1
+    subIndex: 1
+    text: "所以小僧要向施主弘扬佛法，比起用嘴说，是不是揍你两拳更快？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special206_004,阿弥陀佛，施主，抗拒从严，快快放下屠刀，好让小僧打你。"
+  splits:
+  - split: 1
+    text: "阿弥陀佛，施主，抗拒从严，快快放下屠刀，好让小僧打你。"
+- raw: "CombatTalking/Special206_005,你身上恶业太重，自己消受不得。\\n小僧打你，业力便转嫁到小僧身上，所以小僧打你是为了你好，\\n你怎么还不快多谢小僧？你做人这么不知感恩，又造了新业！"
+  splits:
+  - split: 1
+    text: "你身上恶业太重，自己消受不得。"
+  - split: 1
+    subIndex: 1
+    text: "小僧打你，业力便转嫁到小僧身上，所以小僧打你是为了你好，"
+  - split: 1
+    subIndex: 2
+    text: "你怎么还不快多谢小僧？你做人这么不知感恩，又造了新业！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/Special206_006,施主，你给小僧打了不是坏事，和尚不会害你性命，反而会令你改过自新。\\n倘若你侥幸赢了小僧，没能改邪归正，来日撞在更坏的强人手里，\\n那些强人焉能饶你性命？故此，你最好不要抵抗，让我打就对了。"
+  splits:
+  - split: 1
+    text: "施主，你给小僧打了不是坏事，和尚不会害你性命，反而会令你改过自新。"
+  - split: 1
+    subIndex: 1
+    text: "倘若你侥幸赢了小僧，没能改邪归正，来日撞在更坏的强人手里，"
+  - split: 1
+    subIndex: 2
+    text: "那些强人焉能饶你性命？故此，你最好不要抵抗，让我打就对了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/Special206_007,施主，你头发为何这么翘？好似长角。莫非是要成魔了吗？\\n这可不得了，不如随小僧回嵩山，聆听我嵩山僧人诵经读法，化消戾气。\\n顺便把剃度出家，小僧保证你从此头发就不翘了。"
+  splits:
+  - split: 1
+    text: "施主，你头发为何这么翘？好似长角。莫非是要成魔了吗？"
+  - split: 1
+    subIndex: 1
+    text: "这可不得了，不如随小僧回嵩山，聆听我嵩山僧人诵经读法，化消戾气。"
+  - split: 1
+    subIndex: 2
+    text: "顺便把剃度出家，小僧保证你从此头发就不翘了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/Special206_008,施主，今世种种，皆是前世因。\\n你身受诸般苦厄，养就贪嗔痴，难修善果，来世一样重蹈覆辙。\\n必须当机立断，舍弃执着，随小僧遁入空门，才能斩断宿业轮回！"
+  splits:
+  - split: 1
+    text: "施主，今世种种，皆是前世因。"
+  - split: 1
+    subIndex: 1
+    text: "你身受诸般苦厄，养就贪嗔痴，难修善果，来世一样重蹈覆辙。"
+  - split: 1
+    subIndex: 2
+    text: "必须当机立断，舍弃执着，随小僧遁入空门，才能斩断宿业轮回！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/Special826_001,散去吧！心魔！往受十八层炼狱之苦！"
+  splits:
+  - split: 1
+    text: "散去吧！心魔！往受十八层炼狱之苦！"
+- raw: "CombatTalking/Special826_002,天亦厌你，何不知命！"
+  splits:
+  - split: 1
+    text: "天亦厌你，何不知命！"
+- raw: "CombatTalking/Special826_003,唐门藏污纳垢，老衲今日降妖除魔！"
+  splits:
+  - split: 1
+    text: "唐门藏污纳垢，老衲今日降妖除魔！"
+- raw: "CombatTalking/Special826_004,孽障！你罪大恶极，便是如来佛祖也不能宽恕，死不能登极乐，\\n来生转世三恶道再受折磨，还不速速醒悟！"
+  splits:
+  - split: 1
+    text: "孽障！你罪大恶极，便是如来佛祖也不能宽恕，死不能登极乐，"
+  - split: 1
+    subIndex: 1
+    text: "来生转世三恶道再受折磨，还不速速醒悟！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special407_001,呵，退隐几年，什么货色都能浮出水面，过来受死。"
+  splits:
+  - split: 1
+    text: "呵，退隐几年，什么货色都能浮出水面，过来受死。"
+- raw: "CombatTalking/Special407_002,自不量力的蠢材，溺亡于我刀浪之下吧！"
+  splits:
+  - split: 1
+    text: "自不量力的蠢材，溺亡于我刀浪之下吧！"
+- raw: "CombatTalking/Special407_003,唐门真是没人了，竟派出你这等货色与我相抗！哈哈哈！"
+  splits:
+  - split: 1
+    text: "唐门真是没人了，竟派出你这等货色与我相抗！哈哈哈！"
+- raw: "CombatTalking/Special407_004,我上官隼刀下杀人千百，不缺你一条蝼蚁亡魂！"
+  splits:
+  - split: 1
+    text: "我上官隼刀下杀人千百，不缺你一条蝼蚁亡魂！"
+- raw: "CombatTalking/Girl9_001,欠扁吗你！赵活！"
+  splits:
+  - split: 1
+    text: "欠扁吗你！赵活！"
+- raw: "CombatTalking/Girl9_002,别逼我打你！给我过来！"
+  splits:
+  - split: 1
+    text: "别逼我打你！给我过来！"
+- raw: "CombatTalking/Girl9_003,我要把你打到你妈妈都认不出来！"
+  splits:
+  - split: 1
+    text: "我要把你打到你妈妈都认不出来！"
+- raw: "CombatTalking/Girl9_004,我一～拳送你上西天！"
+  splits:
+  - split: 1
+    text: "我一～拳送你上西天！"
+- raw: "CombatTalking/Special402_001,……。"
+- raw: "CombatTalking/Special207_001,一点用处也没有，你没吃饭手软是不是？还是你刚阉掉使不出力？"
+  splits:
+  - split: 1
+    text: "一点用处也没有，你没吃饭手软是不是？还是你刚阉掉使不出力？"
+- raw: "CombatTalking/Special207_002,我来送你超生，嘻嘻。"
+  splits:
+  - split: 1
+    text: "我来送你超生，嘻嘻。"
+- raw: "CombatTalking/Special207_003,这就不行了？我都还没有出力！"
+  splits:
+  - split: 1
+    text: "这就不行了？我都还没有出力！"
+- raw: "CombatTalking/Special207_004,越看越可怜，喂，你逃吧，我大发慈悲，不追你便是。"
+  splits:
+  - split: 1
+    text: "越看越可怜，喂，你逃吧，我大发慈悲，不追你便是。"
+- raw: "CombatTalking/Special207_005,你现在跪下来汪汪学狗叫，我还能留你全尸！"
+  splits:
+  - split: 1
+    text: "你现在跪下来汪汪学狗叫，我还能留你全尸！"
+- raw: "CombatTalking/Special207_006,我宰了你之后，要到你唐门选妃，哪个好看，我就带回家慢慢享用！"
+  splits:
+  - split: 1
+    text: "我宰了你之后，要到你唐门选妃，哪个好看，我就带回家慢慢享用！"
+- raw: "CombatTalking/Special999_901,你们的控诉无声无息，谁也不会怜悯。\\n人间就是这样，江湖就是这样，要想推翻，就拿出本事来！"
+  splits:
+  - split: 1
+    text: "你们的控诉无声无息，谁也不会怜悯。"
+  - split: 1
+    subIndex: 1
+    text: "人间就是这样，江湖就是这样，要想推翻，就拿出本事来！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special999_902,瑞某向你保证，斩了你之后，会奠基于唐门的牺牲，恢复武林和平。\\n安心受死也可以。"
+  splits:
+  - split: 1
+    text: "瑞某向你保证，斩了你之后，会奠基于唐门的牺牲，恢复武林和平。"
+  - split: 1
+    subIndex: 1
+    text: "安心受死也可以。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special999_903,阿活，看招！"
+  splits:
+  - split: 1
+    text: "阿活，看招！"
+- raw: "CombatTalking/Special999_904,这一剑看你怎接！"
+  splits:
+  - split: 1
+    text: "这一剑看你怎接！"
+- raw: "CombatTalking/Special999_905,我会斩了你，奠基于唐门的牺牲，恢复武林和平！\\n不服的话，拿出本事来让人闭嘴！"
+  splits:
+  - split: 1
+    text: "我会斩了你，奠基于唐门的牺牲，恢复武林和平！"
+  - split: 1
+    subIndex: 1
+    text: "不服的话，拿出本事来让人闭嘴！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Special999_801,就算刺杀了在下，也无法撼动武林盟，你等今日必死无疑。"
+  splits:
+  - split: 1
+    text: "就算刺杀了在下，也无法撼动武林盟，你等今日必死无疑。"
+- raw: "CombatTalking/Special999_802,你们的怒火，由在下来领受吧！"
+  splits:
+  - split: 1
+    text: "你们的怒火，由在下来领受吧！"
+- raw: "CombatTalking/Special999_803,身为武林盟主，不能被你们拌住脚步！消散吧！"
+  splits:
+  - split: 1
+    text: "身为武林盟主，不能被你们拌住脚步！消散吧！"
+- raw: "CombatTalking/Special999_804,阿活，全力杀过来吧！"
+  splits:
+  - split: 1
+    text: "阿活，全力杀过来吧！"
+- raw: "CombatTalking/Player_801,你道你有老天关照，我便一定输你？战你娘亲，那可未必！"
+  splits:
+  - split: 1
+    text: "你道你有老天关照，我便一定输你？战你娘亲，那可未必！"
+- raw: "CombatTalking/Player_802,记住唐门暗器的厉害！"
+  splits:
+  - split: 1
+    text: "记住唐门暗器的厉害！"
+- raw: "CombatTalking/Player_803,武林盟主算哪根葱？为了你们自己的喜恶排斥他人，还自居正义！什么狗屁！"
+  splits:
+  - split: 1
+    text: "武林盟主算哪根葱？为了你们自己的喜恶排斥他人，还自居正义！什么狗屁！"
+- raw: "CombatTalking/Player_901,你道你有老天关照，我便一定输你？战你娘亲，那可未必！"
+  splits:
+  - split: 1
+    text: "你道你有老天关照，我便一定输你？战你娘亲，那可未必！"
+- raw: "CombatTalking/Player_902,我志不畏不改，便是火里也去！武林盟主，接我无名小卒的招吧！"
+  splits:
+  - split: 1
+    text: "我志不畏不改，便是火里也去！武林盟主，接我无名小卒的招吧！"
+- raw: "CombatTalking/Player_903,唐门我行我素，犯着你们什么了！\\n我是江湖人，那又如何？你们哪来的资格代我决定任何事情！"
+  splits:
+  - split: 1
+    text: "唐门我行我素，犯着你们什么了！"
+  - split: 1
+    subIndex: 1
+    text: "我是江湖人，那又如何？你们哪来的资格代我决定任何事情！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Player_904,阿笙，可别小看我了！"
+  splits:
+  - split: 1
+    text: "阿笙，可别小看我了！"
+- raw: "CombatTalking/Player_905,我还有一千招没使出来，你走着瞧！"
+  splits:
+  - split: 1
+    text: "我还有一千招没使出来，你走着瞧！"
+- raw: "CombatTalking/Player_906,想想你的漂亮老婆们──有机可趁！"
+  splits:
+  - split: 1
+    text: "想想你的漂亮老婆们"
+  - split: 1
+    subIndex: 1
+    text: "有机可趁！"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/Brother1_100,噗哈哈，抱歉，我看到你的脸就想笑，\\n先休战一下，呼——呼——好了。"
+  splits:
+  - split: 1
+    text: "噗哈哈，抱歉，我看到你的脸就想笑，"
+  - split: 1
+    subIndex: 1
+    text: "先休战一下，呼——呼——好了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother1_101,师弟，和人比武的时候表情庄重点，\\n不要再无缘无故长那么奇怪害人想笑了。"
+  splits:
+  - split: 1
+    text: "师弟，和人比武的时候表情庄重点，"
+  - split: 1
+    subIndex: 1
+    text: "不要再无缘无故长那么奇怪害人想笑了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother1_102,注意啦，金钱镖要打你坛中穴——！\\n被～骗～哈哈哈哈！"
+  splits:
+  - split: 1
+    text: "注意啦，金钱镖要打你坛中穴——！"
+  - split: 1
+    subIndex: 1
+    text: "被～骗～哈哈哈哈！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother1_103,你的钱包掉了……啊，抱歉我看错了。\\n不是钱包，是你的脑子掉出来了。"
+  splits:
+  - split: 1
+    text: "你的钱包掉了……啊，抱歉我看错了。"
+  - split: 1
+    subIndex: 1
+    text: "不是钱包，是你的脑子掉出来了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother1_104,师弟，留心了喔～"
+  splits:
+  - split: 1
+    text: "师弟，留心了喔～"
+- raw: "CombatTalking/Brother1_105,金钱镖，打你胸口坛中、后脑风池。"
+  splits:
+  - split: 1
+    text: "金钱镖，打你胸口坛中、后脑风池。"
+- raw: "CombatTalking/Brother1_106,脱手镖，射你脚底。"
+  splits:
+  - split: 1
+    text: "脱手镖，射你脚底。"
+- raw: "CombatTalking/Brother1_107,哎小心吶，我在地上撒了似草针，我还以为你看到了。"
+  splits:
+  - split: 1
+    text: "哎小心吶，我在地上撒了似草针，我还以为你看到了。"
+- raw: "CombatTalking/Brother1_108,全弹发射！哈哈哈哈哈！"
+  splits:
+  - split: 1
+    text: "全弹发射！哈哈哈哈哈！"
+- raw: "CombatTalking/Brother1_109,飞燕！流星──金钱镖！被骗～哈哈哈哈！"
+  splits:
+  - split: 1
+    text: "飞燕！流星"
+  - split: 1
+    subIndex: 1
+    text: "金钱镖！被骗～哈哈哈哈！"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/Brother2_001,窝囊的废物，去死。"
+  splits:
+  - split: 1
+    text: "窝囊的废物，去死。"
+- raw: "CombatTalking/Brother2_002,碍眼的杂碎，滚开。"
+  splits:
+  - split: 1
+    text: "碍眼的杂碎，滚开。"
+- raw: "CombatTalking/Brother2_003,无能到这种地步，真让我连骂你都词穷。"
+  splits:
+  - split: 1
+    text: "无能到这种地步，真让我连骂你都词穷。"
+- raw: "CombatTalking/Brother2_004,我想到你的用处了──你的尸体可以拿来种花吧。"
+  splits:
+  - split: 1
+    text: "我想到你的用处了"
+  - split: 1
+    subIndex: 1
+    text: "你的尸体可以拿来种花吧。"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/Brother2_005,你呼出的气比毒烟更毒，别靠近我。"
+  splits:
+  - split: 1
+    text: "你呼出的气比毒烟更毒，别靠近我。"
+- raw: "CombatTalking/Brother3_001,施诸已而不愿，亦勿施于人。师弟，你好自为之。\\n否则唐门便容得下你，老天也怕不容。"
+  splits:
+  - split: 1
+    text: "施诸已而不愿，亦勿施于人。师弟，你好自为之。"
+  - split: 1
+    subIndex: 1
+    text: "否则唐门便容得下你，老天也怕不容。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother3_002,君子坦荡荡，小人长戚戚！师弟，你若胸怀坦荡，天下无事可愁。\\n反之时时心怀忧患，畏惧天谴，如何抬头挺胸做人？"
+  splits:
+  - split: 1
+    text: "君子坦荡荡，小人长戚戚！师弟，你若胸怀坦荡，天下无事可愁。"
+  - split: 1
+    subIndex: 1
+    text: "反之时时心怀忧患，畏惧天谴，如何抬头挺胸做人？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother3_003,好学近乎知，力行近乎仁，知耻近乎勇乎。\\n师弟，你无知不仁又不知耻……唉，不知道怎么说你。"
+  splits:
+  - split: 1
+    text: "好学近乎知，力行近乎仁，知耻近乎勇乎。"
+  - split: 1
+    subIndex: 1
+    text: "师弟，你无知不仁又不知耻……唉，不知道怎么说你。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Brother3_004,凡事豫则立，不豫则废，故天下之人莫若汝废。"
+  splits:
+  - split: 1
+    text: "凡事豫则立，不豫则废，故天下之人莫若汝废。"
+- raw: "CombatTalking/Brother3_005,君子周而不比，小人比而不周。师弟，你既不比又不周，做人太过失败。"
+  splits:
+  - split: 1
+    text: "君子周而不比，小人比而不周。师弟，你既不比又不周，做人太过失败。"
+- raw: "CombatTalking/Brother3_006,君子喻于义，小人喻于利。师弟，你可不要迷失本心！"
+  splits:
+  - split: 1
+    text: "君子喻于义，小人喻于利。师弟，你可不要迷失本心！"
+- raw: "CombatTalking/Brother3_007,朽木不可雕也！"
+  splits:
+  - split: 1
+    text: "朽木不可雕也！"
+- raw: "CombatTalking/Brother3_201,是可忍也，孰不可忍也？"
+  splits:
+  - split: 1
+    text: "是可忍也，孰不可忍也？"
+- raw: "CombatTalking/Brother3_202,师弟，看我袖底扇！"
+  splits:
+  - split: 1
+    text: "师弟，看我袖底扇！"
+- raw: "CombatTalking/Brother3_203,小不忍则乱大谋，我可是有后着扣在手里的，师弟你得留心了。"
+  splits:
+  - split: 1
+    text: "小不忍则乱大谋，我可是有后着扣在手里的，师弟你得留心了。"
+- raw: "CombatTalking/Brother3_204,那招才不是这样使的，你别乱用教坏其他师弟妹！"
+  splits:
+  - split: 1
+    text: "那招才不是这样使的，你别乱用教坏其他师弟妹！"
+- raw: "CombatTalking/Brother3_100,师弟留心！我可不留手啦！"
+  splits:
+  - split: 1
+    text: "师弟留心！我可不留手啦！"
+- raw: "CombatTalking/Brother3_101,我这一记折扇下去，你可能会死。"
+  splits:
+  - split: 1
+    text: "我这一记折扇下去，你可能会死。"
+- raw: "CombatTalking/Brother3_102,汝待我以横逆，则君子必自反也！"
+  splits:
+  - split: 1
+    text: "汝待我以横逆，则君子必自反也！"
+- raw: "CombatTalking/Brother3_103,汝与禽兽奚择哉？吾于禽兽又何难焉！"
+  splits:
+  - split: 1
+    text: "汝与禽兽奚择哉？吾于禽兽又何难焉！"
+- raw: "CombatTalking/Brother3_104,朽木不可雕也！"
+  splits:
+  - split: 1
+    text: "朽木不可雕也！"
+- raw: "CombatTalking/Brother3_105,呜呼！人头畜鸣！"
+  splits:
+  - split: 1
+    text: "呜呼！人头畜鸣！"
+- raw: "CombatTalking/Brother4_001,给我一百钱，我就少打你一拳。"
+  splits:
+  - split: 1
+    text: "给我一百钱，我就少打你一拳。"
+- raw: "CombatTalking/Brother4_002,给我五百钱，我就假装让你打一拳。"
+  splits:
+  - split: 1
+    text: "给我五百钱，我就假装让你打一拳。"
+- raw: "CombatTalking/Brother4_003,给我三千钱，我就假装输给你。"
+  splits:
+  - split: 1
+    text: "给我三千钱，我就假装输给你。"
+- raw: "CombatTalking/Brother4_004,把钱交出来！把钱交出来！看我肥龙探囊手！"
+  splits:
+  - split: 1
+    text: "把钱交出来！把钱交出来！看我肥龙探囊手！"
+- raw: "CombatTalking/Brother4_100,胜者去搜刮败者身上的钱包并缴获道具是合情合理的，对吧？"
+  splits:
+  - split: 1
+    text: "胜者去搜刮败者身上的钱包并缴获道具是合情合理的，对吧？"
+- raw: "CombatTalking/Brother4_101,我赌一百文钱，你会输。"
+  splits:
+  - split: 1
+    text: "我赌一百文钱，你会输。"
+- raw: "CombatTalking/Brother4_102,我可是不赔医药费的喔！"
+  splits:
+  - split: 1
+    text: "我可是不赔医药费的喔！"
+- raw: "CombatTalking/Sister_101,我讨厌你。"
+  splits:
+  - split: 1
+    text: "我讨厌你。"
+- raw: "CombatTalking/Sister_102,走开。"
+  splits:
+  - split: 1
+    text: "走开。"
+- raw: "CombatTalking/Sister_103,气。"
+  splits:
+  - split: 1
+    text: "气。"
+- raw: "CombatTalking/Special_101,我要打死你！"
+  splits:
+  - split: 1
+    text: "我要打死你！"
+- raw: "CombatTalking/Special_102,我要把你揉成蹴踘！"
+  splits:
+  - split: 1
+    text: "我要把你揉成蹴踘！"
+- raw: "CombatTalking/Special_103,吼噢噢噢——！！"
+  splits:
+  - split: 1
+    text: "吼噢噢噢——！！"
+- raw: "CombatTalking/Special_104,老子今日要把你给活活打死！"
+  splits:
+  - split: 1
+    text: "老子今日要把你给活活打死！"
+- raw: "CombatTalking/Special_105,小心啦，我这鹰爪手连枪头都拧得下来！"
+  splits:
+  - split: 1
+    text: "小心啦，我这鹰爪手连枪头都拧得下来！"
+- raw: "CombatTalking/Special_106,妖邪，伏诛吧！"
+  splits:
+  - split: 1
+    text: "妖邪，伏诛吧！"
+- raw: "CombatTalking/Special_107,阿弥陀佛，老夫这就超渡你这可怜东西！"
+  splits:
+  - split: 1
+    text: "阿弥陀佛，老夫这就超渡你这可怜东西！"
+- raw: "CombatTalking/T0001_00,很好，就是这样。"
+  splits:
+  - split: 1
+    text: "很好，就是这样。"
+- raw: "CombatTalking/T0001_01_001,临阵对敌有如弈道，务须谋定而后动。"
+  splits:
+  - split: 1
+    text: "临阵对敌有如弈道，务须谋定而后动。"
+- raw: "CombatTalking/T0001_01_002,《孙子兵法谋攻篇》有云：\\n『上兵伐谋，其次伐交，其次伐兵，其下攻城。』。"
+  splits:
+  - split: 1
+    text: "《孙子兵法谋攻篇》有云"
+  - split: 1
+    subIndex: 1
+    text: "『上兵伐谋，其次伐交，其次伐兵，其下攻城。』。"
+  templates:
+  - split: 1
+    template: "{0}：\\n{1}"
+- raw: "CombatTalking/T0001_01_003,没有把握的时候，那怕虚张声势也很要紧，\\n可以吓阻敌人，却要防范敌人白刃加身。"
+  splits:
+  - split: 1
+    text: "没有把握的时候，那怕虚张声势也很要紧，"
+  - split: 1
+    subIndex: 1
+    text: "可以吓阻敌人，却要防范敌人白刃加身。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_01_004,来，你骂我。"
+  splits:
+  - split: 1
+    text: "来，你骂我。"
+- raw: "CombatTalking/T0001_01_005,咦？呃……好。"
+  splits:
+  - split: 1
+    text: "咦？呃……好。"
+- raw: "CombatTalking/T0001_01_006,指令「嘴攻」\\n嘴攻可以削弱敌人的「气」、额外恢复自身的「气」，\\n并使敌人「绝招」指令降低伤害及命中，时而还能激怒心性浮躁的敌人。"
+  splits:
+  - split: 1
+    text: "指令「嘴攻」"
+  - split: 1
+    subIndex: 1
+    text: "嘴攻可以削弱敌人的「气」、额外恢复自身的「气」，"
+  - split: 1
+    subIndex: 2
+    text: "并使敌人「绝招」指令降低伤害及命中，时而还能激怒心性浮躁的敌人。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/T0001_02_01_001,对招之时，应积厚而薄发，切记莽撞行事。"
+  splits:
+  - split: 1
+    text: "对招之时，应积厚而薄发，切记莽撞行事。"
+- raw: "CombatTalking/T0001_02_01_002,觑准空隙刺探对手虚实、削弱敌人的体力。"
+  splits:
+  - split: 1
+    text: "觑准空隙刺探对手虚实、削弱敌人的体力。"
+- raw: "CombatTalking/T0001_02_01_003,我假装要讲大道理，你趁机打过来。"
+  splits:
+  - split: 1
+    text: "我假装要讲大道理，你趁机打过来。"
+- raw: "CombatTalking/T0001_02_01_004,指令「捅人」\\n消费自身的「气」发动攻击，并使敌人「嘴攻」指令失效。\\n依据性情不同，也会有人把对手给捅出血来，自己反倒心生怯意的情况。"
+  splits:
+  - split: 1
+    text: "指令「捅人」"
+  - split: 1
+    subIndex: 1
+    text: "消费自身的「气」发动攻击，并使敌人「嘴攻」指令失效。"
+  - split: 1
+    subIndex: 2
+    text: "依据性情不同，也会有人把对手给捅出血来，自己反倒心生怯意的情况。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/T0001_02_02_001,没射中也没灰心，准头再练练便成。"
+  splits:
+  - split: 1
+    text: "没射中也没灰心，准头再练练便成。"
+- raw: "CombatTalking/T0001_03_01_001,本门以毒药、暗器双绝。"
+  splits:
+  - split: 1
+    text: "本门以毒药、暗器双绝。"
+- raw: "CombatTalking/T0001_03_01_002,你没练过暗器手法，但是若凑巧掷中了，\\n当可有效阻断敌人的行动。"
+  splits:
+  - split: 1
+    text: "你没练过暗器手法，但是若凑巧掷中了，"
+  - split: 1
+    subIndex: 1
+    text: "当可有效阻断敌人的行动。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_03_01_003,我接下来向你递招，你投暗器射我试试。"
+  splits:
+  - split: 1
+    text: "我接下来向你递招，你投暗器射我试试。"
+- raw: "CombatTalking/T0001_03_01_004,指令「暗器」\\n消费自身的「气」发射暗器牵制对手，造成伤害，随机附加异常状态累积值，\\n并且使敌人「嘴攻」、「捅人」指令失效。"
+  splits:
+  - split: 1
+    text: "指令「暗器」"
+  - split: 1
+    subIndex: 1
+    text: "消费自身的「气」发射暗器牵制对手，造成伤害，随机附加异常状态累积值，"
+  - split: 1
+    subIndex: 2
+    text: "并且使敌人「嘴攻」、「捅人」指令失效。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/T0001_03_02_001,没射中也没灰心，准头再练练便成。"
+  splits:
+  - split: 1
+    text: "没射中也没灰心，准头再练练便成。"
+- raw: "CombatTalking/T0001_04_01_001,适时防守，千万别给打中要害了。"
+  splits:
+  - split: 1
+    text: "适时防守，千万别给打中要害了。"
+- raw: "CombatTalking/T0001_04_01_002,对手气焰乖张之时，不撄其锋才是善解。"
+  splits:
+  - split: 1
+    text: "对手气焰乖张之时，不撄其锋才是善解。"
+- raw: "CombatTalking/T0001_04_01_003,我这可要打过去啦，准备好，看我这记拿手绝招，\\n折扇，打你心窝。"
+  splits:
+  - split: 1
+    text: "我这可要打过去啦，准备好，看我这记拿手绝招，"
+  - split: 1
+    subIndex: 1
+    text: "折扇，打你心窝。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_04_01_004,咦？三师兄，你使的兵刃不是一堆脱手镖吗？\\n哪来的折扇？"
+  splits:
+  - split: 1
+    text: "咦？三师兄，你使的兵刃不是一堆脱手镖吗？"
+  - split: 1
+    subIndex: 1
+    text: "哪来的折扇？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_04_01_005,哈，师弟，我将兵刃露在外边，那是要给人看的，\\n真正的杀着却是一柄袖中折扇，这才叫暗器呢。"
+  splits:
+  - split: 1
+    text: "哈，师弟，我将兵刃露在外边，那是要给人看的，"
+  - split: 1
+    subIndex: 1
+    text: "真正的杀着却是一柄袖中折扇，这才叫暗器呢。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_04_01_006,原来如此。"
+  splits:
+  - split: 1
+    text: "原来如此。"
+- raw: "CombatTalking/T0001_04_01_007,指令「备揍」\\n消费自身的「气」运气抗击，可减免所受伤害，并使微小伤害无效化。\\n若成功招架，则会根据性情回复若干「气」作为奖励。\\n此外，备揍可以获得对捅人额外的「招架」机率，以及对暗器额外的「回避」机率。"
+  splits:
+  - split: 1
+    text: "指令「备揍」"
+  - split: 1
+    subIndex: 1
+    text: "消费自身的「气」运气抗击，可减免所受伤害，并使微小伤害无效化。"
+  - split: 1
+    subIndex: 2
+    text: "若成功招架，则会根据性情回复若干「气」作为奖励。"
+  - split: 1
+    subIndex: 3
+    text: "此外，备揍可以获得对捅人额外的「招架」机率，以及对暗器额外的「回避」机率。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "CombatTalking/T0001_04_02_001,哇，不是叫你小心吗？"
+  splits:
+  - split: 1
+    text: "哇，不是叫你小心吗？"
+- raw: "CombatTalking/T0001_04_02_001,幸亏我只出了三成力，没伤着吧？"
+  splits:
+  - split: 1
+    text: "幸亏我只出了三成力，没伤着吧？"
+- raw: "CombatTalking/T0001_04_03_001,突、突然口出暴言，这是怎么了你？"
+  splits:
+  - split: 1
+    text: "突、突然口出暴言，这是怎么了你？"
+- raw: "CombatTalking/T0001_04_03_002,害得我忘了要出什么招。"
+  splits:
+  - split: 1
+    text: "害得我忘了要出什么招。"
+- raw: "CombatTalking/T0001_04_03_003,算了，你这也算是一种战术的实践吧。"
+  splits:
+  - split: 1
+    text: "算了，你这也算是一种战术的实践吧。"
+- raw: "CombatTalking/T0001_05_01_001,你若有把握，不妨觑准时机使出浑身解数，\\n以绝招制敌。"
+  splits:
+  - split: 1
+    text: "你若有把握，不妨觑准时机使出浑身解数，"
+  - split: 1
+    subIndex: 1
+    text: "以绝招制敌。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_05_01_002,三师兄你说笑吧，我哪有什么绝招？\\n顶多砍大力一点而已。"
+  splits:
+  - split: 1
+    text: "三师兄你说笑吧，我哪有什么绝招？"
+  - split: 1
+    subIndex: 1
+    text: "顶多砍大力一点而已。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_05_01_003,无需顾虑，尽管放胆来，我接着便是。"
+  splits:
+  - split: 1
+    text: "无需顾虑，尽管放胆来，我接着便是。"
+- raw: "CombatTalking/T0001_05_01_004,指令「绝招」\\n消费大量「气」，使出浑身解数，发动威力强大的攻击，\\n并且使敌人「捅人」、「暗器」指令失效，是为逆转局势的杀手锏。"
+  splits:
+  - split: 1
+    text: "指令「绝招」"
+  - split: 1
+    subIndex: 1
+    text: "消费大量「气」，使出浑身解数，发动威力强大的攻击，"
+  - split: 1
+    subIndex: 2
+    text: "并且使敌人「捅人」、「暗器」指令失效，是为逆转局势的杀手锏。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/T0001_05_02_001,不错，不错，就是这样，咱们再练两手，\\n你攻我守，放马过来。"
+  splits:
+  - split: 1
+    text: "不错，不错，就是这样，咱们再练两手，"
+  - split: 1
+    subIndex: 1
+    text: "你攻我守，放马过来。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/T0001_05_02_002,好！"
+  splits:
+  - split: 1
+    text: "好！"
+- raw: "CombatTalking/T0001_05_02_003,决斗每回合开始，「气」均会自动回复，多寡则依据性情。\\n此外，各项指令所消费的气、受伤回复的气、\\n使用绝招的门坎亦将根据性情而有区别，故而战术宜因人制宜。"
+  splits:
+  - split: 1
+    text: "决斗每回合开始，「气」均会自动回复，多寡则依据性情。"
+  - split: 1
+    subIndex: 1
+    text: "此外，各项指令所消费的气、受伤回复的气、"
+  - split: 1
+    subIndex: 2
+    text: "使用绝招的门坎亦将根据性情而有区别，故而战术宜因人制宜。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/T0001_06_01_001,差不多了，就练到这里吧。"
+  splits:
+  - split: 1
+    text: "差不多了，就练到这里吧。"
+- raw: "CombatTalking/0001_01_001,无须忌惮，使出全力来吧。"
+  splits:
+  - split: 1
+    text: "无须忌惮，使出全力来吧。"
+- raw: "CombatTalking/0001_02_001,怎、怎么回事？咦？我力气好大。"
+  splits:
+  - split: 1
+    text: "怎、怎么回事？咦？我力气好大。"
+- raw: "CombatTalking/0001_02_002,怎么回事？我好像知道怎么作战。\\n这些真的是我的记忆吗？"
+  splits:
+  - split: 1
+    text: "怎么回事？我好像知道怎么作战。"
+  - split: 1
+    subIndex: 1
+    text: "这些真的是我的记忆吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/0001_02_003,需要休息一下吗？"
+  splits:
+  - split: 1
+    text: "需要休息一下吗？"
+- raw: "CombatTalking/1214_02_001,怎么、身体感觉怪怪的。"
+  splits:
+  - split: 1
+    text: "怎么、身体感觉怪怪的。"
+- raw: "CombatTalking/1214_02_002,你、你怎么会分身？"
+  splits:
+  - split: 1
+    text: "你、你怎么会分身？"
+- raw: "CombatTalking/1214_02_003,好痛，全身好痛，我中毒了！？\\n我什么时候中毒的？"
+  splits:
+  - split: 1
+    text: "好痛，全身好痛，我中毒了！？"
+  - split: 1
+    subIndex: 1
+    text: "我什么时候中毒的？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1214_02_004,唐门武功本就与毒物脱不了干系，\\n你可别说什么卑鄙之类的天真话语。"
+  splits:
+  - split: 1
+    text: "唐门武功本就与毒物脱不了干系，"
+  - split: 1
+    subIndex: 1
+    text: "你可别说什么卑鄙之类的天真话语。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1214_02_005,我、我不打了！我认输啦！救命！"
+  splits:
+  - split: 1
+    text: "我、我不打了！我认输啦！救命！"
+- raw: "CombatTalking/1006_01_001,停！兄弟，是自己人呀！\\n咱们快别打了！"
+  splits:
+  - split: 1
+    text: "停！兄弟，是自己人呀！"
+  - split: 1
+    subIndex: 1
+    text: "咱们快别打了！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1100_01_001,师弟，别莽撞找死。\\n待我宰了这人，再来助你。"
+  splits:
+  - split: 1
+    text: "师弟，别莽撞找死。"
+  - split: 1
+    subIndex: 1
+    text: "待我宰了这人，再来助你。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1100_04_001,你们为何会坐江船会的商船来江陵府？"
+  splits:
+  - split: 1
+    text: "你们为何会坐江船会的商船来江陵府？"
+- raw: "CombatTalking/1100_04_002,我们帮主想绑架上官姑娘，没想到扑空。劫了船但人不在。"
+  splits:
+  - split: 1
+    text: "我们帮主想绑架上官姑娘，没想到扑空。劫了船但人不在。"
+- raw: "CombatTalking/1100_04_003,听沧帮的白痴说，他们扣了给安济坊的米粮。\\n混蛋，那不就是不让穷人吃饭？帮主割掉了他们的乳头。"
+  splits:
+  - split: 1
+    text: "听沧帮的白痴说，他们扣了给安济坊的米粮。"
+  - split: 1
+    subIndex: 1
+    text: "混蛋，那不就是不让穷人吃饭？帮主割掉了他们的乳头。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1100_04_004,什么？割掉了什么？我白鲨语不太好，你再说一遍。"
+  splits:
+  - split: 1
+    text: "什么？割掉了什么？我白鲨语不太好，你再说一遍。"
+- raw: "CombatTalking/1100_04_005,帮主命我们割掉沧帮弟子的乳头，缝在他们肩膀上。"
+  splits:
+  - split: 1
+    text: "帮主命我们割掉沧帮弟子的乳头，缝在他们肩膀上。"
+- raw: "CombatTalking/1100_04_006,我的天……我还以为我听错了。"
+  splits:
+  - split: 1
+    text: "我的天……我还以为我听错了。"
+- raw: "CombatTalking/1100_04_007,所以你们来此，究竟所为何事？"
+  splits:
+  - split: 1
+    text: "所以你们来此，究竟所为何事？"
+- raw: "CombatTalking/1100_04_008,把劫来的米粮，直接送给安济坊的穷人。\\n帮主半路下船去吃米粉汤了。"
+  splits:
+  - split: 1
+    text: "把劫来的米粮，直接送给安济坊的穷人。"
+  - split: 1
+    subIndex: 1
+    text: "帮主半路下船去吃米粉汤了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1100_04_009,我懂了，不打了，收手吧。"
+  splits:
+  - split: 1
+    text: "我懂了，不打了，收手吧。"
+- raw: "CombatTalking/1102_01_001,快来、来人报官哪！这儿有疯子打人啦！"
+  splits:
+  - split: 1
+    text: "快来、来人报官哪！这儿有疯子打人啦！"
+- raw: "CombatTalking/1103_01_001,师弟，我、我也来帮你！"
+  splits:
+  - split: 1
+    text: "师弟，我、我也来帮你！"
+- raw: "CombatTalking/1103_01_002,怎么样，怎么样？你怎么跟嫂子怎么打起来了？"
+  splits:
+  - split: 1
+    text: "怎么样，怎么样？你怎么跟嫂子怎么打起来了？"
+- raw: "CombatTalking/1103_01_003,快叫大仁分舵的兄弟们都来帮忙！\\n这丑小子跟嫂子通奸被我撞破，他们要杀我灭口！"
+  splits:
+  - split: 1
+    text: "快叫大仁分舵的兄弟们都来帮忙！"
+  - split: 1
+    subIndex: 1
+    text: "这丑小子跟嫂子通奸被我撞破，他们要杀我灭口！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1103_01_004,你胡说八道什么！"
+  splits:
+  - split: 1
+    text: "你胡说八道什么！"
+- raw: "CombatTalking/1103_01_005,完、完蛋了，他们人实在太多了！"
+  splits:
+  - split: 1
+    text: "完、完蛋了，他们人实在太多了！"
+- raw: "CombatTalking/1103_01_006,师弟，你在这里玩啥？咦？这不是唐儒师妹吗？"
+  splits:
+  - split: 1
+    text: "师弟，你在这里玩啥？咦？这不是唐儒师妹吗？"
+- raw: "CombatTalking/1103_01_007,大、大师兄，帮帮我们！"
+  splits:
+  - split: 1
+    text: "大、大师兄，帮帮我们！"
+- raw: "CombatTalking/1103_01_008,真拿你们没办法。"
+  splits:
+  - split: 1
+    text: "真拿你们没办法。"
+- raw: "CombatTalking/1202_01_001,好痛，唔，我、我不行了！我要死了！"
+  splits:
+  - split: 1
+    text: "好痛，唔，我、我不行了！我要死了！"
+- raw: "CombatTalking/1301_01_001,三打一也未免太不公平，唐门的兄弟，我来助你。"
+  splits:
+  - split: 1
+    text: "三打一也未免太不公平，唐门的兄弟，我来助你。"
+- raw: "CombatTalking/1301_01_002,──多谢兄台！。"
+  splits:
+  - split: 1
+    text: "多谢兄台！。"
+  templates:
+  - split: 1
+    template: "──{0}"
+- raw: "CombatTalking/1301_01_003,来了一个白衣的俊俏小生！\\n我最讨厌长得比我好看的人了！一起受死！"
+  splits:
+  - split: 1
+    text: "来了一个白衣的俊俏小生！"
+  - split: 1
+    subIndex: 1
+    text: "我最讨厌长得比我好看的人了！一起受死！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1301_01_004,突然出现的白衣少年，吸引了敌人的仇恨！。"
+  splits:
+  - split: 1
+    text: "突然出现的白衣少年，吸引了敌人的仇恨！。"
+- raw: "CombatTalking/1301_01_005,咦！为什么全部朝我攻过来了？。"
+  splits:
+  - split: 1
+    text: "咦！为什么全部朝我攻过来了？。"
+- raw: "CombatTalking/1304_02_001,汪汪汪汪！(咬)"
+  splits:
+  - split: 1
+    text: "汪汪汪汪！"
+  - split: 1
+    subIndex: 1
+    text: "咬"
+  templates:
+  - split: 1
+    template: "{0}({1})"
+- raw: "CombatTalking/1304_02_002,好痛，你这畜牲想跑哪里去？"
+  splits:
+  - split: 1
+    text: "好痛，你这畜牲想跑哪里去？"
+- raw: "CombatTalking/1304_02_003,阿牛快跑！俺来对付这家伙！"
+  splits:
+  - split: 1
+    text: "阿牛快跑！俺来对付这家伙！"
+- raw: "CombatTalking/1304_02_004,糟糕！"
+  splits:
+  - split: 1
+    text: "糟糕！"
+- raw: "CombatTalking/1306_01_001,为什么突然要打我！"
+  splits:
+  - split: 1
+    text: "为什么突然要打我！"
+- raw: "CombatTalking/1306_01_002,你还好意思说！你突然问候我娘亲是几个意思！\\n我又不是自愿要当乞丐的，你何必污辱我亲人！"
+  splits:
+  - split: 1
+    text: "你还好意思说！你突然问候我娘亲是几个意思！"
+  - split: 1
+    subIndex: 1
+    text: "我又不是自愿要当乞丐的，你何必污辱我亲人！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1306_01_003,我小师妹岂是能容你随意污辱的！"
+  splits:
+  - split: 1
+    text: "我小师妹岂是能容你随意污辱的！"
+- raw: "CombatTalking/1306_01_004,你们俩怕不是疯子！最好是我动那几下有这么多意思啦！\\n瞎扯什么！"
+  splits:
+  - split: 1
+    text: "你们俩怕不是疯子！最好是我动那几下有这么多意思啦！"
+  - split: 1
+    subIndex: 1
+    text: "瞎扯什么！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1307_01_001,呃啊！我又中掌了！"
+  splits:
+  - split: 1
+    text: "呃啊！我又中掌了！"
+- raw: "CombatTalking/1308_01_001,我如今和大师兄实力相差还有多远呢？\\n假若大师兄打算揍我，会怎么出招？"
+  splits:
+  - split: 1
+    text: "我如今和大师兄实力相差还有多远呢？"
+  - split: 1
+    subIndex: 1
+    text: "假若大师兄打算揍我，会怎么出招？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1313_01_001,这人其貌不扬，原来功夫这么硬。\\n我可得留神，别要阴沟里翻船！设法拆个十一、二回合。\\n然后两下收手，好歹不丢面子。"
+  splits:
+  - split: 1
+    text: "这人其貌不扬，原来功夫这么硬。"
+  - split: 1
+    subIndex: 1
+    text: "我可得留神，别要阴沟里翻船！设法拆个十一、二回合。"
+  - split: 1
+    subIndex: 2
+    text: "然后两下收手，好歹不丢面子。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1314_01_001,别躁进，且来试一试你功力深浅，要留心防守，别受伤了。"
+  splits:
+  - split: 1
+    text: "别躁进，且来试一试你功力深浅，要留心防守，别受伤了。"
+- raw: "CombatTalking/1406_01_001,……！"
+- raw: "CombatTalking/1407_02_001,阿活，你真的想死吗？还手啊呆瓜！"
+  splits:
+  - split: 1
+    text: "阿活，你真的想死吗？还手啊呆瓜！"
+- raw: "CombatTalking/1407_02_002,你不要吵，我等下就还手了，我……我等下就会揍扁你！"
+  splits:
+  - split: 1
+    text: "你不要吵，我等下就还手了，我……我等下就会揍扁你！"
+- raw: "CombatTalking/1407_02_003,……你真的下不了手？那你站着不要动，我轻轻刺你一下，就完事了。"
+  splits:
+  - split: 1
+    text: "……你真的下不了手？那你站着不要动，我轻轻刺你一下，就完事了。"
+- raw: "CombatTalking/1505_01_01_001,你猜我没事来找碴干嘛？\\n嘻嘻，当然是刺探你们大师兄究竟是真死，还是假死啊。"
+  splits:
+  - split: 1
+    text: "你猜我没事来找碴干嘛？"
+  - split: 1
+    subIndex: 1
+    text: "嘻嘻，当然是刺探你们大师兄究竟是真死，还是假死啊。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1505_01_01_002,混蛋！"
+  splits:
+  - split: 1
+    text: "混蛋！"
+- raw: "CombatTalking/1505_01_02_001,我今日先做了唐门乘龙快婿，\\n等过几天我当上掌派人，娶了崆峒四姝，再把你小师妹还你便是。"
+  splits:
+  - split: 1
+    text: "我今日先做了唐门乘龙快婿，"
+  - split: 1
+    subIndex: 1
+    text: "等过几天我当上掌派人，娶了崆峒四姝，再把你小师妹还你便是。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1505_01_02_002,定要让你后悔说出这句话！"
+  splits:
+  - split: 1
+    text: "定要让你后悔说出这句话！"
+- raw: "CombatTalking/1505_01_02_003,……。"
+- raw: "CombatTalking/1505_01_02_004,妈的，弄巧成拙。"
+  splits:
+  - split: 1
+    text: "妈的，弄巧成拙。"
+- raw: "CombatTalking/1505_02_01_001,再敲两下，你便魂飞魄散，忘记前尘。\\n可是那又何妨？反正你生就如此模样，越是清醒，苦难越多。"
+  splits:
+  - split: 1
+    text: "再敲两下，你便魂飞魄散，忘记前尘。"
+  - split: 1
+    subIndex: 1
+    text: "可是那又何妨？反正你生就如此模样，越是清醒，苦难越多。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1505_02_01_002,──！"
+- raw: "CombatTalking/1506_01_02_001,让开！我要去正心堂！"
+  splits:
+  - split: 1
+    text: "让开！我要去正心堂！"
+- raw: "CombatTalking/1506_01_02_002,掌门吩咐过要拦住你，师兄，你还是……还是算了吧。"
+  splits:
+  - split: 1
+    text: "掌门吩咐过要拦住你，师兄，你还是……还是算了吧。"
+- raw: "CombatTalking/1506_01_02_003,师兄，你苦战强敌，已经精疲力尽了才对。"
+  splits:
+  - split: 1
+    text: "师兄，你苦战强敌，已经精疲力尽了才对。"
+- raw: "CombatTalking/1506_01_02_004,你们得抱着杀掉我的决心打过来才行。"
+  splits:
+  - split: 1
+    text: "你们得抱着杀掉我的决心打过来才行。"
+- raw: "CombatTalking/1506_01_02_005,师兄，天涯何处无芳草！"
+  splits:
+  - split: 1
+    text: "师兄，天涯何处无芳草！"
+- raw: "CombatTalking/1506_01_02_006,没有一个是小师妹啊！"
+  splits:
+  - split: 1
+    text: "没有一个是小师妹啊！"
+- raw: "CombatTalking/1506_01_02_007,你不是已经下定决心了吗！"
+  splits:
+  - split: 1
+    text: "你不是已经下定决心了吗！"
+- raw: "CombatTalking/1506_01_02_008,我改变主意了！"
+  splits:
+  - split: 1
+    text: "我改变主意了！"
+- raw: "CombatTalking/1506_01_02_009,大家都不舍得，但为了小师妹着想，她不得不走啊。"
+  splits:
+  - split: 1
+    text: "大家都不舍得，但为了小师妹着想，她不得不走啊。"
+- raw: "CombatTalking/1506_01_02_010,小师妹由我来守护。"
+  splits:
+  - split: 1
+    text: "小师妹由我来守护。"
+- raw: "CombatTalking/1506_01_02_011,醒醒吧！师兄，大家都有长眼睛，谁都看得出她不喜欢你！"
+  splits:
+  - split: 1
+    text: "醒醒吧！师兄，大家都有长眼睛，谁都看得出她不喜欢你！"
+- raw: "CombatTalking/1506_01_02_012,你们乱讲！"
+  splits:
+  - split: 1
+    text: "你们乱讲！"
+- raw: "CombatTalking/1506_01_02_013,师兄，你清醒一点！你非要毁了一切吗！\\n再想闹，我们所有师弟妹都来作你对手！"
+  splits:
+  - split: 1
+    text: "师兄，你清醒一点！你非要毁了一切吗！"
+  - split: 1
+    subIndex: 1
+    text: "再想闹，我们所有师弟妹都来作你对手！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1506_01_02_014,呜，呜哇啊──！！"
+  splits:
+  - split: 1
+    text: "呜，呜哇啊"
+  templates:
+  - split: 1
+    template: "{0}──！！"
+- raw: "CombatTalking/1507_03_01_001,哈，废物。你早该挺身而出了。\\n死一个你，就能让唐门多残喘一阵，你非要贪生怕死！"
+  splits:
+  - split: 1
+    text: "哈，废物。你早该挺身而出了。"
+  - split: 1
+    subIndex: 1
+    text: "死一个你，就能让唐门多残喘一阵，你非要贪生怕死！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1507_03_01_002,如今连累师门，居然反来怪我吗！"
+  splits:
+  - split: 1
+    text: "如今连累师门，居然反来怪我吗！"
+- raw: "CombatTalking/1507_03_01_003,住口！"
+  splits:
+  - split: 1
+    text: "住口！"
+- raw: "CombatTalking/1507_03_02_001,赵活，你疯了吗？"
+  splits:
+  - split: 1
+    text: "赵活，你疯了吗？"
+- raw: "CombatTalking/1507_03_02_002,小竹，你走远点！"
+  splits:
+  - split: 1
+    text: "小竹，你走远点！"
+- raw: "CombatTalking/1507_03_02_003,……不，我要帮你。"
+  splits:
+  - split: 1
+    text: "……不，我要帮你。"
+- raw: "CombatTalking/1507_03_02_004,吃里扒外的贱种！等我处理掉这厮，\\n就把你手脚割了卖窑子里去！"
+  splits:
+  - split: 1
+    text: "吃里扒外的贱种！等我处理掉这厮，"
+  - split: 1
+    subIndex: 1
+    text: "就把你手脚割了卖窑子里去！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1507_03_03_001,阿活，你……你是来杀我的吗？"
+  splits:
+  - split: 1
+    text: "阿活，你……你是来杀我的吗？"
+- raw: "CombatTalking/1507_03_03_002,你要不就一起上，要不给我在旁边等着！"
+  splits:
+  - split: 1
+    text: "你要不就一起上，要不给我在旁边等着！"
+- raw: "CombatTalking/1507_03_03_003,是吗……你是来拼命的啊。"
+  splits:
+  - split: 1
+    text: "是吗……你是来拼命的啊。"
+- raw: "CombatTalking/1507_03_03_004,吃里扒外的贱种！等我处理掉这厮，\\n就把你玩残卖窑子里去！"
+  splits:
+  - split: 1
+    text: "吃里扒外的贱种！等我处理掉这厮，"
+  - split: 1
+    subIndex: 1
+    text: "就把你玩残卖窑子里去！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1507_03_04_001,赵、赵、赵师兄，你为何到我崆峒派杀人？"
+  splits:
+  - split: 1
+    text: "赵、赵、赵师兄，你为何到我崆峒派杀人？"
+- raw: "CombatTalking/1507_03_04_002,魏掌门，你走远一点！此仇不共戴天！"
+  splits:
+  - split: 1
+    text: "魏掌门，你走远一点！此仇不共戴天！"
+- raw: "CombatTalking/1507_03_04_003,魏掌门救我！"
+  splits:
+  - split: 1
+    text: "魏掌门救我！"
+- raw: "CombatTalking/1507_03_04_004,……不，我两不相帮。"
+  splits:
+  - split: 1
+    text: "……不，我两不相帮。"
+- raw: "CombatTalking/1507_03_05_001,无能的弟子，给我咬紧牙关站好。\\n你死了也有为师替你报仇。"
+  splits:
+  - split: 1
+    text: "无能的弟子，给我咬紧牙关站好。"
+  - split: 1
+    subIndex: 1
+    text: "你死了也有为师替你报仇。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1507_03_05_002,是！"
+  splits:
+  - split: 1
+    text: "是！"
+- raw: "CombatTalking/1507_03_05_003,夏侯兰！你真要反叛崆峒派？"
+  splits:
+  - split: 1
+    text: "夏侯兰！你真要反叛崆峒派？"
+- raw: "CombatTalking/1616_04_01_001,我来了！"
+  splits:
+  - split: 1
+    text: "我来了！"
+- raw: "CombatTalking/1616_04_01_002,虞女侠，快住手！"
+  splits:
+  - split: 1
+    text: "虞女侠，快住手！"
+- raw: "CombatTalking/1616_04_01_003,不要自贬身价！"
+  splits:
+  - split: 1
+    text: "不要自贬身价！"
+- raw: "CombatTalking/1616_04_01_004,这个人不值得你自暴自弃！"
+  splits:
+  - split: 1
+    text: "这个人不值得你自暴自弃！"
+- raw: "CombatTalking/1616_04_01_005,你只是一时被猪油蒙了心！"
+  splits:
+  - split: 1
+    text: "你只是一时被猪油蒙了心！"
+- raw: "CombatTalking/1616_04_01_006,哦呵呵！"
+  splits:
+  - split: 1
+    text: "哦呵呵！"
+- raw: "CombatTalking/1617_01_01_001,宫主，我来助阵！"
+  splits:
+  - split: 1
+    text: "宫主，我来助阵！"
+- raw: "CombatTalking/1617_01_02_001,哦呵呵，怎么打起来了？妾身也要玩。"
+  splits:
+  - split: 1
+    text: "哦呵呵，怎么打起来了？妾身也要玩。"
+- raw: "CombatTalking/1617_01_03_001,你们这是……！"
+  splits:
+  - split: 1
+    text: "你们这是……！"
+- raw: "CombatTalking/1617_02_01_001,赵少侠不妨假戏真作，全力以赴，本宫试你身手。"
+  splits:
+  - split: 1
+    text: "赵少侠不妨假戏真作，全力以赴，本宫试你身手。"
+- raw: "CombatTalking/1617_02_01_002,好！宫主请赐教吧！"
+  splits:
+  - split: 1
+    text: "好！宫主请赐教吧！"
+- raw: "CombatTalking/1618_01_01_001,好弱……你是认真的吗？"
+  splits:
+  - split: 1
+    text: "好弱……你是认真的吗？"
+- raw: "CombatTalking/1618_01_01_002,哦呵呵，挺带劲儿啊，师弟。"
+  splits:
+  - split: 1
+    text: "哦呵呵，挺带劲儿啊，师弟。"
+- raw: "CombatTalking/1619_01_01_001,住手。"
+  splits:
+  - split: 1
+    text: "住手。"
+- raw: "CombatTalking/1620_01_01_001,这家伙恼羞成怒了！"
+  splits:
+  - split: 1
+    text: "这家伙恼羞成怒了！"
+- raw: "CombatTalking/1620_01_01_002,我就知道他会这样！别让这种人去应酬，太危险了！"
+  splits:
+  - split: 1
+    text: "我就知道他会这样！别让这种人去应酬，太危险了！"
+- raw: "CombatTalking/1621_01_01_001,你乱战之后，气力已竭，再与我相斗，未免托大！"
+  splits:
+  - split: 1
+    text: "你乱战之后，气力已竭，再与我相斗，未免托大！"
+- raw: "CombatTalking/1621_01_01_002,我看你也不是好整以暇啊，大公子！"
+  splits:
+  - split: 1
+    text: "我看你也不是好整以暇啊，大公子！"
+- raw: "CombatTalking/1621_01_02_001,你与上官世伯一战所受刀伤未愈，还与我相斗，未免托大！"
+  splits:
+  - split: 1
+    text: "你与上官世伯一战所受刀伤未愈，还与我相斗，未免托大！"
+- raw: "CombatTalking/1621_01_02_002,我有什么办法！"
+  splits:
+  - split: 1
+    text: "我有什么办法！"
+- raw: "CombatTalking/1621_01_03_001,你与上官世伯一战所受刀伤沉重，再与我相斗，不怕死吗！"
+  splits:
+  - split: 1
+    text: "你与上官世伯一战所受刀伤沉重，再与我相斗，不怕死吗！"
+- raw: "CombatTalking/1621_01_03_002,怕啊！我有什么办法？谁叫你们要这样！"
+  splits:
+  - split: 1
+    text: "怕啊！我有什么办法？谁叫你们要这样！"
+- raw: "CombatTalking/1622_01_01_001,呃，他的刀招克制了我的轻功，站都站不稳了。"
+  splits:
+  - split: 1
+    text: "呃，他的刀招克制了我的轻功，站都站不稳了。"
+- raw: "CombatTalking/1622_01_01_002,不能近身缠斗，得用暗器。"
+  splits:
+  - split: 1
+    text: "不能近身缠斗，得用暗器。"
+- raw: "CombatTalking/1623_01_01_001,哈哈哈，赵活，你连战至今，不但一身是伤，而且真气枯竭。\\n早就已经破破烂烂了，我都不用出手，风刮大点你就倒下了！"
+  splits:
+  - split: 1
+    text: "哈哈哈，赵活，你连战至今，不但一身是伤，而且真气枯竭。"
+  - split: 1
+    subIndex: 1
+    text: "早就已经破破烂烂了，我都不用出手，风刮大点你就倒下了！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1623_01_02_001,赵活，你恶战一场，负伤与二公子交手，也未免太看不起人了吧？"
+  splits:
+  - split: 1
+    text: "赵活，你恶战一场，负伤与二公子交手，也未免太看不起人了吧？"
+- raw: "CombatTalking/1623_01_03_001,你没洗澡就跟人打架，也很不尊重人啊！"
+  splits:
+  - split: 1
+    text: "你没洗澡就跟人打架，也很不尊重人啊！"
+- raw: "CombatTalking/1623_01_03_002,妈的！"
+  splits:
+  - split: 1
+    text: "妈的！"
+- raw: "CombatTalking/1623_01_04_001,二公子，那寡妇寡廉鲜耻的很，以琴声、药物迷倒南宫家主，\\n干了见不得光的勾当，结果珠胎暗结，却假以旁人名义送你认祖归宗，\\n还不肯相认，你想这是为何？"
+  splits:
+  - split: 1
+    text: "二公子，那寡妇寡廉鲜耻的很，以琴声、药物迷倒南宫家主，"
+  - split: 1
+    subIndex: 1
+    text: "干了见不得光的勾当，结果珠胎暗结，却假以旁人名义送你认祖归宗，"
+  - split: 1
+    subIndex: 2
+    text: "还不肯相认，你想这是为何？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1623_01_04_002,住口！我不听！"
+  splits:
+  - split: 1
+    text: "住口！我不听！"
+- raw: "CombatTalking/1623_01_05_001,无非是怕她身为泥教法王，谋略未成，反而连累你前程，\\n害你沦为别人口中的魔教子弟吧。"
+  splits:
+  - split: 1
+    text: "无非是怕她身为泥教法王，谋略未成，反而连累你前程，"
+  - split: 1
+    subIndex: 1
+    text: "害你沦为别人口中的魔教子弟吧。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1623_01_05_002,我不信！我不信！你都是骗人的！"
+  splits:
+  - split: 1
+    text: "我不信！我不信！你都是骗人的！"
+- raw: "CombatTalking/1623_01_06_001,我说真的啊，你怎么不信？\\n丐帮对你关爱有加，全是你母亲所托。"
+  splits:
+  - split: 1
+    text: "我说真的啊，你怎么不信？"
+  - split: 1
+    subIndex: 1
+    text: "丐帮对你关爱有加，全是你母亲所托。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1623_01_06_002,她才不是我娘！她怎么可能是我娘！"
+  splits:
+  - split: 1
+    text: "她才不是我娘！她怎么可能是我娘！"
+- raw: "CombatTalking/1623_01_07_001,若非爱煞了你娘亲，王帮主何以耗费功力替你打通任督二脉？\\n还不是爱屋及乌吗？"
+  splits:
+  - split: 1
+    text: "若非爱煞了你娘亲，王帮主何以耗费功力替你打通任督二脉？"
+  - split: 1
+    subIndex: 1
+    text: "还不是爱屋及乌吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1623_01_07_002,我才不要他的虚情假意，我才不要这一身功力！"
+  splits:
+  - split: 1
+    text: "我才不要他的虚情假意，我才不要这一身功力！"
+- raw: "CombatTalking/1623_01_08_001,温夫人的母爱说多深沉就有多深沉，我可真羡慕你啊。\\n她今日退隐江湖，也许明日就会去找你相认，怎么你却抢先捅她一刀？"
+  splits:
+  - split: 1
+    text: "温夫人的母爱说多深沉就有多深沉，我可真羡慕你啊。"
+  - split: 1
+    subIndex: 1
+    text: "她今日退隐江湖，也许明日就会去找你相认，怎么你却抢先捅她一刀？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1623_01_08_002,那是……那是因为你……。"
+  splits:
+  - split: 1
+    text: "那是……那是因为你……。"
+- raw: "CombatTalking/1623_01_09_001,别赖我～我只是给了你一封书信。\\n你只看到你想看到的东西，就喜孜孜跳了出去。"
+  splits:
+  - split: 1
+    text: "别赖我～我只是给了你一封书信。"
+  - split: 1
+    subIndex: 1
+    text: "你只看到你想看到的东西，就喜孜孜跳了出去。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1623_01_09_002,那信是假的！"
+  splits:
+  - split: 1
+    text: "那信是假的！"
+- raw: "CombatTalking/1623_01_10_001,遗憾的很，信是真的，是从丐帮老巢偷出来的。\\n是你迫不及待想要建功，让那些南宫族人对你另眼相看，不是吗？\\n所以我才说你是大义灭亲啊！"
+  splits:
+  - split: 1
+    text: "遗憾的很，信是真的，是从丐帮老巢偷出来的。"
+  - split: 1
+    subIndex: 1
+    text: "是你迫不及待想要建功，让那些南宫族人对你另眼相看，不是吗？"
+  - split: 1
+    subIndex: 2
+    text: "所以我才说你是大义灭亲啊！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1623_01_10_002,呜，呜啊啊啊啊啊──！"
+  splits:
+  - split: 1
+    text: "呜，呜啊啊啊啊啊"
+  templates:
+  - split: 1
+    template: "{0}──！"
+- raw: "CombatTalking/S_1623_01_001,阿浅！冷静点，你别听他胡说！"
+  splits:
+  - split: 1
+    text: "阿浅！冷静点，你别听他胡说！"
+- raw: "CombatTalking/S_1623_01_002,你是被欺骗的受害者啊！没必要把罪过全都揽在自己头上！"
+  splits:
+  - split: 1
+    text: "你是被欺骗的受害者啊！没必要把罪过全都揽在自己头上！"
+- raw: "CombatTalking/S_1623_01_003,现在收手还来得及，事情已经发生了，你要鼓起勇气面对啊！"
+  splits:
+  - split: 1
+    text: "现在收手还来得及，事情已经发生了，你要鼓起勇气面对啊！"
+- raw: "CombatTalking/S_1623_01_004,一时无法面对的话，逃跑也可以，你得放过你自己！"
+  splits:
+  - split: 1
+    text: "一时无法面对的话，逃跑也可以，你得放过你自己！"
+- raw: "CombatTalking/S_1623_01_005,袁无宪你给我闭嘴！"
+  splits:
+  - split: 1
+    text: "袁无宪你给我闭嘴！"
+- raw: "CombatTalking/1624_01_01_001,不会吧，你……他奶奶的，荆红！还不来帮我！"
+  splits:
+  - split: 1
+    text: "不会吧，你……他奶奶的，荆红！还不来帮我！"
+- raw: "CombatTalking/1624_01_01_002,这都半死的人了，你竟还拾夺不下，要我帮忙？"
+  splits:
+  - split: 1
+    text: "这都半死的人了，你竟还拾夺不下，要我帮忙？"
+- raw: "CombatTalking/1624_01_01_003,也好，我来会会崆峒掌派人是怎样的英雄少年"
+  splits:
+  - split: 1
+    text: "也好，我来会会崆峒掌派人是怎样的英雄少年"
+- raw: "CombatTalking/1625_01_01_001,怎、怎么回事？咦？我力气好大。"
+  splits:
+  - split: 1
+    text: "怎、怎么回事？咦？我力气好大。"
+- raw: "CombatTalking/1625_01_01_002,怎么回事？我好像知道怎么作战。\\n这些真的是我的记忆吗？"
+  splits:
+  - split: 1
+    text: "怎么回事？我好像知道怎么作战。"
+  - split: 1
+    subIndex: 1
+    text: "这些真的是我的记忆吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1625_01_01_003,需要休息一下吗？"
+  splits:
+  - split: 1
+    text: "需要休息一下吗？"
+- raw: "CombatTalking/1625_01_01_004,……不，接着来吧。"
+  splits:
+  - split: 1
+    text: "……不，接着来吧。"
+- raw: "CombatTalking/1625_01_02_001,无须忌惮，使出全力来吧。"
+  splits:
+  - split: 1
+    text: "无须忌惮，使出全力来吧。"
+- raw: "CombatTalking/1702_01_01_001,师弟好像快到极限了，我要抢先输掉！"
+  splits:
+  - split: 1
+    text: "师弟好像快到极限了，我要抢先输掉！"
+- raw: "CombatTalking/1702_01_01_002,呃啊啊啊！好厉害的无形箭！我服了！"
+  splits:
+  - split: 1
+    text: "呃啊啊啊！好厉害的无形箭！我服了！"
+- raw: "CombatTalking/1702_01_01_003,哈？什么？"
+  splits:
+  - split: 1
+    text: "哈？什么？"
+- raw: "CombatTalking/1704_01_01_001,谁倒下了，谁的意见就不算数！"
+  splits:
+  - split: 1
+    text: "谁倒下了，谁的意见就不算数！"
+- raw: "CombatTalking/1704_01_02_001,对不住了，三师兄，我今日要助纣为虐呀"
+  splits:
+  - split: 1
+    text: "对不住了，三师兄，我今日要助纣为虐呀"
+- raw: "CombatTalking/1704_01_02_002,我算坏人吗！"
+  splits:
+  - split: 1
+    text: "我算坏人吗！"
+- raw: "CombatTalking/1704_01_03_001,呃啊～啊～啊～啊～好强的内力啊～"
+  splits:
+  - split: 1
+    text: "呃啊～啊～啊～啊～好强的内力啊～"
+- raw: "CombatTalking/1704_01_03_002,他倒着滚出去了……。"
+  splits:
+  - split: 1
+    text: "他倒着滚出去了……。"
+- raw: "CombatTalking/1704_01_03_003,太假了吧……。"
+  splits:
+  - split: 1
+    text: "太假了吧……。"
+- raw: "CombatTalking/1704_01_04_001,三师兄，你快投降。"
+  splits:
+  - split: 1
+    text: "三师兄，你快投降。"
+- raw: "CombatTalking/1704_01_04_002,慢着慢着！情势对我太不利了吧！"
+  splits:
+  - split: 1
+    text: "慢着慢着！情势对我太不利了吧！"
+- raw: "CombatTalking/1706_01_01_001,想要我们的钱，先从我们的尸体上跨过去！"
+  splits:
+  - split: 1
+    text: "想要我们的钱，先从我们的尸体上跨过去！"
+- raw: "CombatTalking/1707_01_01_001,多亏娇娇，我也学了峨嵋武功，你留神了！"
+  splits:
+  - split: 1
+    text: "多亏娇娇，我也学了峨嵋武功，你留神了！"
+- raw: "CombatTalking/1802_01_01_001,你！"
+  splits:
+  - split: 1
+    text: "你！"
+- raw: "CombatTalking/1802_01_01_002,哇、等──！"
+  splits:
+  - split: 1
+    text: "哇、等"
+  templates:
+  - split: 1
+    template: "{0}──！"
+- raw: "CombatTalking/1802_01_01_003,别想！"
+  splits:
+  - split: 1
+    text: "别想！"
+- raw: "CombatTalking/1802_01_01_004,慢着！慢着！"
+  splits:
+  - split: 1
+    text: "慢着！慢着！"
+- raw: "CombatTalking/1802_01_01_005,欺负我师兄！"
+  splits:
+  - split: 1
+    text: "欺负我师兄！"
+- raw: "CombatTalking/1802_01_02_001,有机可趁！"
+  splits:
+  - split: 1
+    text: "有机可趁！"
+- raw: "CombatTalking/1802_01_02_002,哇，唐布衣！你……你这卑鄙小人……。"
+  splits:
+  - split: 1
+    text: "哇，唐布衣！你……你这卑鄙小人……。"
+- raw: "CombatTalking/1802_02_01_001,有机可趁！"
+  splits:
+  - split: 1
+    text: "有机可趁！"
+- raw: "CombatTalking/1802_02_01_002,哇，唐布衣！你竟然偷袭我……不是说堂堂正正对决吗……。"
+  splits:
+  - split: 1
+    text: "哇，唐布衣！你竟然偷袭我……不是说堂堂正正对决吗……。"
+- raw: "CombatTalking/1802_03_01_001,有机可趁！"
+  splits:
+  - split: 1
+    text: "有机可趁！"
+- raw: "CombatTalking/1802_03_01_002,哇，唐布衣！你……你这卑鄙小人……。"
+  splits:
+  - split: 1
+    text: "哇，唐布衣！你……你这卑鄙小人……。"
+- raw: "CombatTalking/1803_02_01_001,他喷火了！他有好多手！他是真仙，我哪里打得赢！"
+  splits:
+  - split: 1
+    text: "他喷火了！他有好多手！他是真仙，我哪里打得赢！"
+- raw: "CombatTalking/1803_03_01_001,有机可趁！"
+  splits:
+  - split: 1
+    text: "有机可趁！"
+- raw: "CombatTalking/1803_03_01_002,哇！你……你这卑鄙小人……冒牌货，竟敢伤我！"
+  splits:
+  - split: 1
+    text: "哇！你……你这卑鄙小人……冒牌货，竟敢伤我！"
+- raw: "CombatTalking/1803_03_03_001,萤儿，师叔本不想在你面前失态。\\n谁让这群人不讲武德，老衲只好提前动用后手。"
+  splits:
+  - split: 1
+    text: "萤儿，师叔本不想在你面前失态。"
+  - split: 1
+    subIndex: 1
+    text: "谁让这群人不讲武德，老衲只好提前动用后手。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1803_03_03_002,来人！将邹掌门请开！打不赢也要拼命拖住！"
+  splits:
+  - split: 1
+    text: "来人！将邹掌门请开！打不赢也要拼命拖住！"
+- raw: "CombatTalking/1803_03_03_003,是！"
+  splits:
+  - split: 1
+    text: "是！"
+- raw: "CombatTalking/1803_03_03_004,邹掌门，得罪了！"
+  splits:
+  - split: 1
+    text: "邹掌门，得罪了！"
+- raw: "CombatTalking/1803_03_03_005,哼！"
+  splits:
+  - split: 1
+    text: "哼！"
+- raw: "CombatTalking/1803_03_03_006,你、你别慌，还有我在！"
+  splits:
+  - split: 1
+    text: "你、你别慌，还有我在！"
+- raw: "CombatTalking/1803_03_03_007,释明的伏兵没对上官萤出手，是因为知她斤两，认定她不足为惧。"
+  splits:
+  - split: 1
+    text: "释明的伏兵没对上官萤出手，是因为知她斤两，认定她不足为惧。"
+- raw: "CombatTalking/1803_03_04_001,来人！"
+  splits:
+  - split: 1
+    text: "来人！"
+- raw: "CombatTalking/1803_03_04_002,弟子在！"
+  splits:
+  - split: 1
+    text: "弟子在！"
+- raw: "CombatTalking/1803_03_04_003,为释明师伯开路！"
+  splits:
+  - split: 1
+    text: "为释明师伯开路！"
+- raw: "CombatTalking/1803_04_01_001,有机可趁！"
+  splits:
+  - split: 1
+    text: "有机可趁！"
+- raw: "CombatTalking/1803_04_01_002,没效喔。"
+  splits:
+  - split: 1
+    text: "没效喔。"
+- raw: "CombatTalking/1803_04_01_003,怎会……！"
+  splits:
+  - split: 1
+    text: "怎会……！"
+- raw: "CombatTalking/1803_04_02_001,怎么回事，这小二武功这么高，是老道眼花了吗？"
+  splits:
+  - split: 1
+    text: "怎么回事，这小二武功这么高，是老道眼花了吗？"
+- raw: "CombatTalking/1803_04_02_002,邹掌门快来帮忙啊！"
+  splits:
+  - split: 1
+    text: "邹掌门快来帮忙啊！"
+- raw: "CombatTalking/1803_04_02_003,来了来了！"
+  splits:
+  - split: 1
+    text: "来了来了！"
+- raw: "CombatTalking/1803_04_02_004,青城邹掌门，借你神功一用！"
+  splits:
+  - split: 1
+    text: "青城邹掌门，借你神功一用！"
+- raw: "CombatTalking/1804_01_01_001,两个小娃娃，底子都挺硬！哈哈！"
+  splits:
+  - split: 1
+    text: "两个小娃娃，底子都挺硬！哈哈！"
+- raw: "CombatTalking/1804_01_01_002,老前辈脸皮也很硬，为老不尊，竟抓不出一点痕迹来。"
+  splits:
+  - split: 1
+    text: "老前辈脸皮也很硬，为老不尊，竟抓不出一点痕迹来。"
+- raw: "CombatTalking/1804_01_02_001,我来了。"
+  splits:
+  - split: 1
+    text: "我来了。"
+- raw: "CombatTalking/1804_01_03_001,二打一好不要脸，前辈，我来助你！"
+  splits:
+  - split: 1
+    text: "二打一好不要脸，前辈，我来助你！"
+- raw: "CombatTalking/1804_01_04_001,看剑！"
+  splits:
+  - split: 1
+    text: "看剑！"
+- raw: "CombatTalking/1804_01_05_001,觉空师兄，我来助拳！"
+  splits:
+  - split: 1
+    text: "觉空师兄，我来助拳！"
+- raw: "CombatTalking/1804_01_06_001,兀那恶贼，竟敢与我武林盟争辉！速速纳命受死！"
+  splits:
+  - split: 1
+    text: "兀那恶贼，竟敢与我武林盟争辉！速速纳命受死！"
+- raw: "CombatTalking/1804_01_06_002,混蛋，争你老母啦！"
+  splits:
+  - split: 1
+    text: "混蛋，争你老母啦！"
+- raw: "CombatTalking/1805_01_01_001,换我来会一会唐门丑侠的本领！"
+  splits:
+  - split: 1
+    text: "换我来会一会唐门丑侠的本领！"
+- raw: "CombatTalking/1805_01_01_002,不错嘛，但是方才那些家伙不过是我们之中最弱的一批！"
+  splits:
+  - split: 1
+    text: "不错嘛，但是方才那些家伙不过是我们之中最弱的一批！"
+- raw: "CombatTalking/1805_01_01_003,不、不错嘛～但是方才那些家伙不过是我们之中最强的一批！"
+  splits:
+  - split: 1
+    text: "不、不错嘛～但是方才那些家伙不过是我们之中最强的一批！"
+- raw: "CombatTalking/1805_01_01_004,你们是妖怪吗？使的什么邪术！我们可是整整一百人啊！"
+  splits:
+  - split: 1
+    text: "你们是妖怪吗？使的什么邪术！我们可是整整一百人啊！"
+- raw: "CombatTalking/1805_01_02_001,正心堂中先嗡先嗡响了几声，旋即飘出悠扬琴声。"
+  splits:
+  - split: 1
+    text: "正心堂中先嗡先嗡响了几声，旋即飘出悠扬琴声。"
+- raw: "CombatTalking/1805_01_02_002,……！"
+- raw: "CombatTalking/1805_01_02_003,是云裳！"
+  splits:
+  - split: 1
+    text: "是云裳！"
+- raw: "CombatTalking/1805_01_02_004,……好妹妹。"
+  splits:
+  - split: 1
+    text: "……好妹妹。"
+- raw: "CombatTalking/1806_01_01_001,唔，师弟，容师兄我先行一步……。"
+  splits:
+  - split: 1
+    text: "唔，师弟，容师兄我先行一步……。"
+- raw: "CombatTalking/1806_01_01_002,三师兄语毕，就此没了气息。"
+  splits:
+  - split: 1
+    text: "三师兄语毕，就此没了气息。"
+- raw: "CombatTalking/1807_01_01_001,唐门不以内功见长，你臂力、内功都不行。"
+  splits:
+  - split: 1
+    text: "唐门不以内功见长，你臂力、内功都不行。"
+- raw: "CombatTalking/1807_01_01_002,是啊，我胜前辈的机率不足十一。\\n但今日就是那十分之一。"
+  splits:
+  - split: 1
+    text: "是啊，我胜前辈的机率不足十一。"
+  - split: 1
+    subIndex: 1
+    text: "但今日就是那十分之一。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1807_01_01_003,哈哈哈哈！好家伙。"
+  splits:
+  - split: 1
+    text: "哈哈哈哈！好家伙。"
+- raw: "CombatTalking/1809_01_01_001,别的不必多说……。"
+  splits:
+  - split: 1
+    text: "别的不必多说……。"
+- raw: "CombatTalking/1809_01_01_002,一决胜负！"
+  splits:
+  - split: 1
+    text: "一决胜负！"
+- raw: "CombatTalking/1809_01_02_001,想清楚了吗？纵然你们行刺得手，结果也不会改变。"
+  splits:
+  - split: 1
+    text: "想清楚了吗？纵然你们行刺得手，结果也不会改变。"
+- raw: "CombatTalking/1809_01_02_002,无所谓，我就是想让你死。"
+  splits:
+  - split: 1
+    text: "无所谓，我就是想让你死。"
+- raw: "CombatTalking/1809_01_02_003,呵，多谢。"
+  splits:
+  - split: 1
+    text: "呵，多谢。"
+- raw: "CombatTalking/1809_01_02_004,就算结果不会改变，我们的意志也不会因此曲折。\\n世上没有任何人有义务要为你们大义牺牲！"
+  splits:
+  - split: 1
+    text: "就算结果不会改变，我们的意志也不会因此曲折。"
+  - split: 1
+    subIndex: 1
+    text: "世上没有任何人有义务要为你们大义牺牲！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1809_01_02_005,……。"
+- raw: "CombatTalking/1809_02_01_001,盟主小心，看我用全真剑法对付这厮！"
+  splits:
+  - split: 1
+    text: "盟主小心，看我用全真剑法对付这厮！"
+- raw: "CombatTalking/1809_02_01_002,呃……。"
+  splits:
+  - split: 1
+    text: "呃……。"
+- raw: "CombatTalking/1809_03_01_001,哦呵呵呵，真热闹啊。\\n妾身也来掺一脚，成不？"
+  splits:
+  - split: 1
+    text: "哦呵呵呵，真热闹啊。"
+  - split: 1
+    subIndex: 1
+    text: "妾身也来掺一脚，成不？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1809_03_01_002,姑姑！"
+  splits:
+  - split: 1
+    text: "姑姑！"
+- raw: "CombatTalking/1809_03_01_003,仙儿师姊！"
+  splits:
+  - split: 1
+    text: "仙儿师姊！"
+- raw: "CombatTalking/1809_04_01_001,这家伙乖乖不得了，好生厉害。"
+  splits:
+  - split: 1
+    text: "这家伙乖乖不得了，好生厉害。"
+- raw: "CombatTalking/1809_04_01_002,尹道长一直挡着我出招，与其说他脚步错乱像外行……"
+  splits:
+  - split: 1
+    text: "尹道长一直挡着我出招，与其说他脚步错乱像外行……"
+- raw: "CombatTalking/1809_04_01_003,他像是一个人反踏某种阵法，逼迫大家必须随之起舞。"
+  splits:
+  - split: 1
+    text: "他像是一个人反踏某种阵法，逼迫大家必须随之起舞。"
+- raw: "CombatTalking/1809_04_01_004,北斗七星？难不倒我。"
+  splits:
+  - split: 1
+    text: "北斗七星？难不倒我。"
+- raw: "CombatTalking/1809_05_01_001,唐门的，怎还那么不识趣？\\n快跑啊！快逃啊！贫道就要撑不住了！"
+  splits:
+  - split: 1
+    text: "唐门的，怎还那么不识趣？"
+  - split: 1
+    subIndex: 1
+    text: "快跑啊！快逃啊！贫道就要撑不住了！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1809_05_01_002,尹道长不必装腔作势，白费心机。\\n唐门这群人都是心怀必死之志，你的好心于他们而言不过是羞辱而已。\\n这就给本官起开吧！"
+  splits:
+  - split: 1
+    text: "尹道长不必装腔作势，白费心机。"
+  - split: 1
+    subIndex: 1
+    text: "唐门这群人都是心怀必死之志，你的好心于他们而言不过是羞辱而已。"
+  - split: 1
+    subIndex: 2
+    text: "这就给本官起开吧！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1809_05_02_001,这……好吧。"
+  splits:
+  - split: 1
+    text: "这……好吧。"
+- raw: "CombatTalking/1809_05_02_002,那我只好加入这一边了。"
+  splits:
+  - split: 1
+    text: "那我只好加入这一边了。"
+- raw: "CombatTalking/1809_05_02_003,咦？"
+  splits:
+  - split: 1
+    text: "咦？"
+- raw: "CombatTalking/1809_05_02_004,咦？"
+  splits:
+  - split: 1
+    text: "咦？"
+- raw: "CombatTalking/1809_05_02_005,赵师弟，师父这绝招我不熟练，至多只能支撑三回合，速战速决！"
+  splits:
+  - split: 1
+    text: "赵师弟，师父这绝招我不熟练，至多只能支撑三回合，速战速决！"
+- raw: "CombatTalking/1809_05_02_006,──是！"
+  splits:
+  - split: 1
+    text: "是！"
+  templates:
+  - split: 1
+    template: "──{0}"
+- raw: "CombatTalking/1809_05_03_001,这……唉。"
+  splits:
+  - split: 1
+    text: "这……唉。"
+- raw: "CombatTalking/1810_01_01_001,啊！"
+  splits:
+  - split: 1
+    text: "啊！"
+- raw: "CombatTalking/1811_01_01_001,唔哇！"
+  splits:
+  - split: 1
+    text: "唔哇！"
+- raw: "CombatTalking/1811_01_01_002,三师兄！你可有大碍？"
+  splits:
+  - split: 1
+    text: "三师兄！你可有大碍？"
+- raw: "CombatTalking/1811_01_01_003,向某未下死手，唐掌门尽可歇着。"
+  splits:
+  - split: 1
+    text: "向某未下死手，唐掌门尽可歇着。"
+- raw: "CombatTalking/1812_02_01_001,啊！"
+  splits:
+  - split: 1
+    text: "啊！"
+- raw: "CombatTalking/1812_02_01_002,你给我老实在那儿待着。"
+  splits:
+  - split: 1
+    text: "你给我老实在那儿待着。"
+- raw: "CombatTalking/1813_01_01_001,这一切……"
+  splits:
+  - split: 1
+    text: "这一切……"
+- raw: "CombatTalking/1813_01_01_002,有意义。"
+  splits:
+  - split: 1
+    text: "有意义。"
+- raw: "CombatTalking/1813_01_02_001,竖耳听吧，天下人！我赵活响彻云霄的喊声。\\n我才不是树，我是活人！"
+  splits:
+  - split: 1
+    text: "竖耳听吧，天下人！我赵活响彻云霄的喊声。"
+  - split: 1
+    subIndex: 1
+    text: "我才不是树，我是活人！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1813_01_02_002,啊啊……你的斗争、你的喊声，震耳欲聋。"
+  splits:
+  - split: 1
+    text: "啊啊……你的斗争、你的喊声，震耳欲聋。"
+- raw: "CombatTalking/1813_01_03_001,厚重的意志透过剑锋震荡，渗透进他心底。"
+  splits:
+  - split: 1
+    text: "厚重的意志透过剑锋震荡，渗透进他心底。"
+- raw: "CombatTalking/1813_01_03_002,你的人生那么的重。"
+  splits:
+  - split: 1
+    text: "你的人生那么的重。"
+- raw: "CombatTalking/1813_01_04_001,清澈的意志透过剑锋震荡，渗透进你心底。"
+  splits:
+  - split: 1
+    text: "清澈的意志透过剑锋震荡，渗透进你心底。"
+- raw: "CombatTalking/1813_01_04_002,我也想象你一样快意恩仇。"
+  splits:
+  - split: 1
+    text: "我也想象你一样快意恩仇。"
+- raw: "CombatTalking/1813_01_05_001,瑞笙！不能输呀！你要是敢输，我就杀光你的姘头！"
+  splits:
+  - split: 1
+    text: "瑞笙！不能输呀！你要是敢输，我就杀光你的姘头！"
+- raw: "CombatTalking/1813_01_05_002,瑞郎！你可是我选中的人，如何能输这样的人！"
+  splits:
+  - split: 1
+    text: "瑞郎！你可是我选中的人，如何能输这样的人！"
+- raw: "CombatTalking/1813_01_05_003,仙谣……你说错了，这个人，是我生平所见最强者啊，我已经全力以赴了。"
+  splits:
+  - split: 1
+    text: "仙谣……你说错了，这个人，是我生平所见最强者啊，我已经全力以赴了。"
+- raw: "CombatTalking/1813_01_06_001,够了……别、别打了，我们认输吧，你会死的！"
+  splits:
+  - split: 1
+    text: "够了……别、别打了，我们认输吧，你会死的！"
+- raw: "CombatTalking/1813_01_06_002,你住口，安静看着。"
+  splits:
+  - split: 1
+    text: "你住口，安静看着。"
+- raw: "CombatTalking/1813_01_06_003,碰到旗鼓相当的对手，你是不是其实很欢喜呢？"
+  splits:
+  - split: 1
+    text: "碰到旗鼓相当的对手，你是不是其实很欢喜呢？"
+- raw: "CombatTalking/1813_01_07_001,抱歉了，大家。我要任性一回，可能回不去。"
+  splits:
+  - split: 1
+    text: "抱歉了，大家。我要任性一回，可能回不去。"
+- raw: "CombatTalking/1813_01_08_001,瑞笙……不要死。"
+  splits:
+  - split: 1
+    text: "瑞笙……不要死。"
+- raw: "CombatTalking/1813_01_08_002,哈，铃儿终于对我敞开了心扉，我可不忍心就死。"
+  splits:
+  - split: 1
+    text: "哈，铃儿终于对我敞开了心扉，我可不忍心就死。"
+- raw: "CombatTalking/1813_01_08_003,并没有，只是你死了，东西两盟会越打越惨烈。\\n半死比较好。"
+  splits:
+  - split: 1
+    text: "并没有，只是你死了，东西两盟会越打越惨烈。"
+  - split: 1
+    subIndex: 1
+    text: "半死比较好。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1813_01_08_004,怎么这样！"
+  splits:
+  - split: 1
+    text: "怎么这样！"
+- raw: "CombatTalking/1813_01_08_005,哈哈哈哈哈！"
+  splits:
+  - split: 1
+    text: "哈哈哈哈哈！"
+- raw: "CombatTalking/1813_01_09_001,师兄！师兄！"
+  splits:
+  - split: 1
+    text: "师兄！师兄！"
+- raw: "CombatTalking/1813_01_09_002,我还不能死……小师妹等我回家。"
+  splits:
+  - split: 1
+    text: "我还不能死……小师妹等我回家。"
+- raw: "CombatTalking/1813_01_10_001,就算今天是你的最后一天，我也不会移开目光。"
+  splits:
+  - split: 1
+    text: "就算今天是你的最后一天，我也不会移开目光。"
+- raw: "CombatTalking/1813_01_10_002,我得顾着湘姊的面子，要让她以我为豪。"
+  splits:
+  - split: 1
+    text: "我得顾着湘姊的面子，要让她以我为豪。"
+- raw: "CombatTalking/1813_01_11_001,啊……笨弟子，你给我站稳了！"
+  splits:
+  - split: 1
+    text: "啊……笨弟子，你给我站稳了！"
+- raw: "CombatTalking/1813_01_11_002,……是！"
+  splits:
+  - split: 1
+    text: "……是！"
+- raw: "CombatTalking/1813_01_12_001,师兄，师兄！别……别走……！"
+  splits:
+  - split: 1
+    text: "师兄，师兄！别……别走……！"
+- raw: "CombatTalking/1813_01_12_002,小师妹在叫我……我答应师娘要照顾她的，我得挺住。"
+  splits:
+  - split: 1
+    text: "小师妹在叫我……我答应师娘要照顾她的，我得挺住。"
+- raw: "CombatTalking/1813_01_12_003,你是哪家的人啊！"
+  splits:
+  - split: 1
+    text: "你是哪家的人啊！"
+- raw: "CombatTalking/1813_01_12_004,唐门的。"
+  splits:
+  - split: 1
+    text: "唐门的。"
+- raw: "CombatTalking/1813_01_13_001,哈，你以为这样就赢了吗？我哥哥可是不死之身！"
+  splits:
+  - split: 1
+    text: "哈，你以为这样就赢了吗？我哥哥可是不死之身！"
+- raw: "CombatTalking/1813_01_13_002,……没错！"
+  splits:
+  - split: 1
+    text: "……没错！"
+- raw: "CombatTalking/3003_01_001,师弟好像快到极限了，我要抢先输掉！"
+  splits:
+  - split: 1
+    text: "师弟好像快到极限了，我要抢先输掉！"
+- raw: "CombatTalking/3003_01_002,呃啊啊啊！好厉害的无形箭！我服了！"
+  splits:
+  - split: 1
+    text: "呃啊啊啊！好厉害的无形箭！我服了！"
+- raw: "CombatTalking/3003_01_003,哈？什么？"
+  splits:
+  - split: 1
+    text: "哈？什么？"
+- raw: "CombatTalking/PV_002_01_001,小师妹你说真的吗？"
+  splits:
+  - split: 1
+    text: "小师妹你说真的吗？"
+- raw: "CombatTalking/PV_002_01_002,我打赢真的可以牵你手手吗？"
+  splits:
+  - split: 1
+    text: "我打赢真的可以牵你手手吗？"
+- raw: "CombatTalking/PV_002_01_003,……你打赢的话。"
+  splits:
+  - split: 1
+    text: "……你打赢的话。"
+- raw: "CombatTalking/PV_002_01_004,唔哦哦哦哦哦－－！"
+  splits:
+  - split: 1
+    text: "唔哦哦哦哦哦－－！"
+- raw: "CombatTalking/S0014_02_001,临阵莫急，这厮也不是需要你紧张的对手。\\n放轻松，像游戏一样打发掉就好。"
+  splits:
+  - split: 1
+    text: "临阵莫急，这厮也不是需要你紧张的对手。"
+  - split: 1
+    subIndex: 1
+    text: "放轻松，像游戏一样打发掉就好。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0014_02_002,很好，渐入佳境了。\\n这样的九流货色，原本就该是给人练手的款。\\n还学什么武功，混什么江湖，呵。"
+  splits:
+  - split: 1
+    text: "很好，渐入佳境了。"
+  - split: 1
+    subIndex: 1
+    text: "这样的九流货色，原本就该是给人练手的款。"
+  - split: 1
+    subIndex: 2
+    text: "还学什么武功，混什么江湖，呵。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/S0014_02_003,这样不行，一定会输的。\\n好汉不吃亏，我得逃跑才行！"
+  splits:
+  - split: 1
+    text: "这样不行，一定会输的。"
+  - split: 1
+    subIndex: 1
+    text: "好汉不吃亏，我得逃跑才行！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0014_03_001,老、老师！这家伙忽然像疯了一样！下手这般狠辣！"
+  splits:
+  - split: 1
+    text: "老、老师！这家伙忽然像疯了一样！下手这般狠辣！"
+- raw: "CombatTalking/S0014_03_002,别慌你先用后──不是，这里要侧闪，哎呀！来不及！"
+  splits:
+  - split: 1
+    text: "别慌你先用后"
+  - split: 1
+    subIndex: 1
+    text: "不是，这里要侧闪，哎呀！来不及！"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/S0014_03_003,老师你说啥！讲快一点啊！"
+  splits:
+  - split: 1
+    text: "老师你说啥！讲快一点啊！"
+- raw: "CombatTalking/S0014_03_004,这妖怪小子下手全是不假思索，我怎么来得及！\\n你自己看着办吧！"
+  splits:
+  - split: 1
+    text: "这妖怪小子下手全是不假思索，我怎么来得及！"
+  - split: 1
+    subIndex: 1
+    text: "你自己看着办吧！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0017_02_01_001,怎么……我何时中了毒的？"
+  splits:
+  - split: 1
+    text: "怎么……我何时中了毒的？"
+- raw: "CombatTalking/S0017_02_02_001,先收拾一个！"
+  splits:
+  - split: 1
+    text: "先收拾一个！"
+- raw: "CombatTalking/S0017_02_02_002,啊！"
+  splits:
+  - split: 1
+    text: "啊！"
+- raw: "CombatTalking/S0017_02_03_001,唔噢噢噢噢噢你这个混蛋啊啊！我要杀了你！"
+  splits:
+  - split: 1
+    text: "唔噢噢噢噢噢你这个混蛋啊啊！我要杀了你！"
+- raw: "CombatTalking/S0017_02_03_002,随着俊公子的表情扭曲，他的尊严也被摧毁了。"
+  splits:
+  - split: 1
+    text: "随着俊公子的表情扭曲，他的尊严也被摧毁了。"
+- raw: "CombatTalking/S0018_02_01_001,叶兄，我来助你！"
+  splits:
+  - split: 1
+    text: "叶兄，我来助你！"
+- raw: "CombatTalking/S0018_02_01_002,……切勿莽进。"
+  splits:
+  - split: 1
+    text: "……切勿莽进。"
+- raw: "CombatTalking/S0018_02_01_003,叶大侠，我来助你！"
+  splits:
+  - split: 1
+    text: "叶大侠，我来助你！"
+- raw: "CombatTalking/S0018_02_02_001,二位师兄，请留心了。"
+  splits:
+  - split: 1
+    text: "二位师兄，请留心了。"
+- raw: "CombatTalking/S0018_02_02_002,叶云舟斩断了二人手中宝剑，胜负已分。"
+  splits:
+  - split: 1
+    text: "叶云舟斩断了二人手中宝剑，胜负已分。"
+- raw: "CombatTalking/S0018_02_03_001,点苍剑法第一式，『苍松迎客』！"
+  splits:
+  - split: 1
+    text: "点苍剑法第一式，『苍松迎客』！"
+- raw: "CombatTalking/S0018_02_03_002,！？"
+- raw: "CombatTalking/S0018_02_03_003,哇，傻妹仔，别往人剑上撞！"
+  splits:
+  - split: 1
+    text: "哇，傻妹仔，别往人剑上撞！"
+- raw: "CombatTalking/S0018_02_03_004,点苍剑法第七式，『白虹贯日』！"
+  splits:
+  - split: 1
+    text: "点苍剑法第七式，『白虹贯日』！"
+- raw: "CombatTalking/S0018_02_03_005,才不是这样使的！"
+  splits:
+  - split: 1
+    text: "才不是这样使的！"
+- raw: "CombatTalking/S0018_02_03_006,才不是这样使的！"
+  splits:
+  - split: 1
+    text: "才不是这样使的！"
+- raw: "CombatTalking/S0018_02_03_007,点苍剑法十四式，『凤鸣朝阳』！"
+  splits:
+  - split: 1
+    text: "点苍剑法十四式，『凤鸣朝阳』！"
+- raw: "CombatTalking/S0018_02_03_008,……！"
+- raw: "CombatTalking/S0018_02_03_009,你这几招……。"
+  splits:
+  - split: 1
+    text: "你这几招……。"
+- raw: "CombatTalking/S0018_02_03_010,点苍剑法六十六式，『握手言和』！"
+  splits:
+  - split: 1
+    text: "点苍剑法六十六式，『握手言和』！"
+- raw: "CombatTalking/S0018_02_03_011,啊，为何打我！"
+  splits:
+  - split: 1
+    text: "啊，为何打我！"
+- raw: "CombatTalking/S0018_02_03_012,点苍剑法哪来六十六式……。"
+  splits:
+  - split: 1
+    text: "点苍剑法哪来六十六式……。"
+- raw: "CombatTalking/S0018_02_03_013,……不打了，没听见师妹叫我们握手言和吗？"
+  splits:
+  - split: 1
+    text: "……不打了，没听见师妹叫我们握手言和吗？"
+- raw: "CombatTalking/S0021_01_01_001,这位前辈不是从前那位前辈。"
+  splits:
+  - split: 1
+    text: "这位前辈不是从前那位前辈。"
+- raw: "CombatTalking/S0021_01_01_002,这人无疑是我生平所见最强者之一。\\n我便是苦练十年，也未必能够相抗，但是和弟一起，感觉就不会输！"
+  splits:
+  - split: 1
+    text: "这人无疑是我生平所见最强者之一。"
+  - split: 1
+    subIndex: 1
+    text: "我便是苦练十年，也未必能够相抗，但是和弟一起，感觉就不会输！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_01_01_003,湘姊似乎在改变拍子……是在配合我的吗？"
+  splits:
+  - split: 1
+    text: "湘姊似乎在改变拍子……是在配合我的吗？"
+- raw: "CombatTalking/S0021_01_01_004,居然……靠着自己的天赋跨越了门坎吗。\\n行招走式比起我来，更像是你娘亲。啊啊……温夫人教得好啊。"
+  splits:
+  - split: 1
+    text: "居然……靠着自己的天赋跨越了门坎吗。"
+  - split: 1
+    subIndex: 1
+    text: "行招走式比起我来，更像是你娘亲。啊啊……温夫人教得好啊。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_01_001,你们俩小鬼头怎么打起来了……有没有搞错？"
+  splits:
+  - split: 1
+    text: "你们俩小鬼头怎么打起来了……有没有搞错？"
+- raw: "CombatTalking/S0021_02_01_002,这是你逼我的，我先放倒你再说！"
+  splits:
+  - split: 1
+    text: "这是你逼我的，我先放倒你再说！"
+- raw: "CombatTalking/S0021_02_01_003,哦是吗？看是谁放倒谁！"
+  splits:
+  - split: 1
+    text: "哦是吗？看是谁放倒谁！"
+- raw: "CombatTalking/S0021_02_01_004,你们不要这样啦……。"
+  splits:
+  - split: 1
+    text: "你们不要这样啦……。"
+- raw: "CombatTalking/S0021_02_02_001,湘……姑娘，三招已过，算得上公平，我可不护着你了。"
+  splits:
+  - split: 1
+    text: "湘……姑娘，三招已过，算得上公平，我可不护着你了。"
+- raw: "CombatTalking/S0021_02_02_002,我本来就不必你相护！"
+  splits:
+  - split: 1
+    text: "我本来就不必你相护！"
+- raw: "CombatTalking/S0021_02_03_001,湘姑娘，你用剑使小霸王枪，受限于长度就不要强求，\\n否则去势太尽，一两招内尚无破绽，步伐却乱，得不偿失。"
+  splits:
+  - split: 1
+    text: "湘姑娘，你用剑使小霸王枪，受限于长度就不要强求，"
+  - split: 1
+    subIndex: 1
+    text: "否则去势太尽，一两招内尚无破绽，步伐却乱，得不偿失。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_03_002,学学这个小兄弟，脸长得丑，身手却俊得很。\\n进退之间，攻守自如。"
+  splits:
+  - split: 1
+    text: "学学这个小兄弟，脸长得丑，身手却俊得很。"
+  - split: 1
+    subIndex: 1
+    text: "进退之间，攻守自如。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_04_001,别反被手里剑鞘占了手，脱手有何不可？\\n玄玄如意归来去，凡我圈中皆随心。"
+  splits:
+  - split: 1
+    text: "别反被手里剑鞘占了手，脱手有何不可？"
+  - split: 1
+    subIndex: 1
+    text: "玄玄如意归来去，凡我圈中皆随心。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_05_001,锦香宫的娟索功，和离奇点穴绳有异曲同工之妙。\\n你手里没有娟索，大可用绕指柔剑意思意思。"
+  splits:
+  - split: 1
+    text: "锦香宫的娟索功，和离奇点穴绳有异曲同工之妙。"
+  - split: 1
+    subIndex: 1
+    text: "你手里没有娟索，大可用绕指柔剑意思意思。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_05_002,前辈！你闭嘴啦！湘姊越来越强了！"
+  splits:
+  - split: 1
+    text: "前辈！你闭嘴啦！湘姊越来越强了！"
+- raw: "CombatTalking/S0021_02_06_001,别贪快，要动如脱兔，静若处子，越是跟高手对战，越要隐藏兆机。\\n招未出，意先行，用视线诱导对手，引进落空。"
+  splits:
+  - split: 1
+    text: "别贪快，要动如脱兔，静若处子，越是跟高手对战，越要隐藏兆机。"
+  - split: 1
+    subIndex: 1
+    text: "招未出，意先行，用视线诱导对手，引进落空。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_06_002,湘姊你怎么尽是听他的话！我们不是应该同仇敌忾吗！"
+  splits:
+  - split: 1
+    text: "湘姊你怎么尽是听他的话！我们不是应该同仇敌忾吗！"
+- raw: "CombatTalking/S0021_02_07_001,万事俱备，你已踏到登临绝颠的门坎上了。\\n差的只是决心，是坚信自己必然会胜利的信念！"
+  splits:
+  - split: 1
+    text: "万事俱备，你已踏到登临绝颠的门坎上了。"
+  - split: 1
+    subIndex: 1
+    text: "差的只是决心，是坚信自己必然会胜利的信念！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_07_002,甭怕别人看穿，抱着不出第二招的觉悟喊出声来！\\n气势要足！龙家最终决战奥义！"
+  splits:
+  - split: 1
+    text: "甭怕别人看穿，抱着不出第二招的觉悟喊出声来！"
+  - split: 1
+    subIndex: 1
+    text: "气势要足！龙家最终决战奥义！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0021_02_07_003,──！"
+- raw: "CombatTalking/S0021_02_07_004,干，不要，等等！"
+  splits:
+  - split: 1
+    text: "干，不要，等等！"
+- raw: "CombatTalking/S0021_03_01_001,好像……好像快要捉摸到什么了，就差一点。"
+  splits:
+  - split: 1
+    text: "好像……好像快要捉摸到什么了，就差一点。"
+- raw: "CombatTalking/S0021_03_01_002,……湘姊，我来支持你，全力上吧。"
+  splits:
+  - split: 1
+    text: "……湘姊，我来支持你，全力上吧。"
+- raw: "CombatTalking/S0021_03_01_003,……！"
+- raw: "CombatTalking/S0022_01_01_001,弟，你别闹喔！再不然姊可要生气了！"
+  splits:
+  - split: 1
+    text: "弟，你别闹喔！再不然姊可要生气了！"
+- raw: "CombatTalking/S0022_01_01_002,兀那人！莫来搅和，否则我剑下绝不容情，将你一并斩了！"
+  splits:
+  - split: 1
+    text: "兀那人！莫来搅和，否则我剑下绝不容情，将你一并斩了！"
+- raw: "CombatTalking/S0022_01_02_001,你、你凶我干嘛啦！"
+  splits:
+  - split: 1
+    text: "你、你凶我干嘛啦！"
+- raw: "CombatTalking/S0022_01_02_002,你们便是二人合力与我相斗，我又何惧之有！递招过来便是。"
+  splits:
+  - split: 1
+    text: "你们便是二人合力与我相斗，我又何惧之有！递招过来便是。"
+- raw: "CombatTalking/S0022_01_03_001,弟你干嘛？你非要捣乱，姊只好让你躺倒！"
+  splits:
+  - split: 1
+    text: "弟你干嘛？你非要捣乱，姊只好让你躺倒！"
+- raw: "CombatTalking/S0022_01_03_002,你们便是二人合力与我相斗，我又何惧之有！递招过来便是。"
+  splits:
+  - split: 1
+    text: "你们便是二人合力与我相斗，我又何惧之有！递招过来便是。"
+- raw: "CombatTalking/S0023_01_01_001,汪汪汪汪！"
+  splits:
+  - split: 1
+    text: "汪汪汪汪！"
+- raw: "CombatTalking/S0023_01_01_002,哪来的大狗？这么凶！"
+  splits:
+  - split: 1
+    text: "哪来的大狗？这么凶！"
+- raw: "CombatTalking/S0023_01_01_003,来得好，一棒打死了，弄成香肉吃！"
+  splits:
+  - split: 1
+    text: "来得好，一棒打死了，弄成香肉吃！"
+- raw: "CombatTalking/S0023_02_01_001,肉，你确定就是那两人？"
+  splits:
+  - split: 1
+    text: "肉，你确定就是那两人？"
+- raw: "CombatTalking/S0023_02_01_002,樊兄弟！"
+  splits:
+  - split: 1
+    text: "樊兄弟！"
+- raw: "CombatTalking/S0023_02_01_003,汪汪汪汪汪！"
+  splits:
+  - split: 1
+    text: "汪汪汪汪汪！"
+- raw: "CombatTalking/S0023_02_01_004,狂、狂犬樊啸天！"
+  splits:
+  - split: 1
+    text: "狂、狂犬樊啸天！"
+- raw: "CombatTalking/S0023_02_01_005,你……你这小子，想干什么？\\n我可是七袋长老，你敢对我不敬？"
+  splits:
+  - split: 1
+    text: "你……你这小子，想干什么？"
+  - split: 1
+    subIndex: 1
+    text: "我可是七袋长老，你敢对我不敬？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0023_02_01_006,赔我的狗命来！"
+  splits:
+  - split: 1
+    text: "赔我的狗命来！"
+- raw: "CombatTalking/S0023_02_01_007,我来助你！"
+  splits:
+  - split: 1
+    text: "我来助你！"
+- raw: "CombatTalking/S0023_02_01_008,怎么回事，他们丐帮内讧了？"
+  splits:
+  - split: 1
+    text: "怎么回事，他们丐帮内讧了？"
+- raw: "CombatTalking/S0105_01_01_001,妈巴羔子的，你自己找死，我晁和是谁你知不知道！"
+  splits:
+  - split: 1
+    text: "妈巴羔子的，你自己找死，我晁和是谁你知不知道！"
+- raw: "CombatTalking/S0105_01_01_002,我一声令下，几百个晁和军打死你呀！"
+  splits:
+  - split: 1
+    text: "我一声令下，几百个晁和军打死你呀！"
+- raw: "CombatTalking/S0121_01_01_001,站起来，身为一个男子汉，可不能就这样认输！"
+  splits:
+  - split: 1
+    text: "站起来，身为一个男子汉，可不能就这样认输！"
+- raw: "CombatTalking/S0702_01_001,你我当真必须兵戎相见吗？"
+  splits:
+  - split: 1
+    text: "你我当真必须兵戎相见吗？"
+- raw: "CombatTalking/S0702_01_002,你武林盟咄咄逼人，事到如今还反过来问我？"
+  splits:
+  - split: 1
+    text: "你武林盟咄咄逼人，事到如今还反过来问我？"
+- raw: "CombatTalking/S0702_01_003,我俩不是朋友吗！"
+  splits:
+  - split: 1
+    text: "我俩不是朋友吗！"
+- raw: "CombatTalking/S0702_01_004,本来是！"
+  splits:
+  - split: 1
+    text: "本来是！"
+- raw: "CombatTalking/S0702_01_005,……。"
+- raw: "CombatTalking/S0702_01_006,……。"
+- raw: "CombatTalking/S2200_02_02_001,大哥莫非是故意让着我，让我尽情施展武功的吗？"
+  splits:
+  - split: 1
+    text: "大哥莫非是故意让着我，让我尽情施展武功的吗？"
+- raw: "CombatTalking/S9904_01_02_001,哈哈哈哈师弟你不要激动啦！"
+  splits:
+  - split: 1
+    text: "哈哈哈哈师弟你不要激动啦！"
+- raw: "CombatTalking/S9904_01_02_001,少说废话，今天你我之中只能活一个！"
+  splits:
+  - split: 1
+    text: "少说废话，今天你我之中只能活一个！"
+- raw: "CombatTalking/G0005_02_02_001,没用的弟子。\\n你若连未来妻子都打不过，不如早死早超生。"
+  splits:
+  - split: 1
+    text: "没用的弟子。"
+  - split: 1
+    subIndex: 1
+    text: "你若连未来妻子都打不过，不如早死早超生。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/G0005_02_02_002,我才没有说要娶！"
+  splits:
+  - split: 1
+    text: "我才没有说要娶！"
+- raw: "CombatTalking/Back_02_501_001,我战胜过你，今日也一样会是我赢。\\n现在我才是强者，来挑战我吧。"
+  splits:
+  - split: 1
+    text: "我战胜过你，今日也一样会是我赢。"
+  - split: 1
+    subIndex: 1
+    text: "现在我才是强者，来挑战我吧。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/Back_02_501_002,我从没战胜过你，湘姊。\\n但是为了你，我今日一定会赢。"
+  splits:
+  - split: 1
+    text: "我从没战胜过你，湘姊。"
+  - split: 1
+    subIndex: 1
+    text: "但是为了你，我今日一定会赢。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/0000_03_001,我要动真格了。"
+  splits:
+  - split: 1
+    text: "我要动真格了。"
+- raw: "CombatTalking/A0002_01_001,哈，还不坏。\\n既然是最后一次，那我可就真不客气了！"
+  splits:
+  - split: 1
+    text: "哈，还不坏。"
+  - split: 1
+    subIndex: 1
+    text: "既然是最后一次，那我可就真不客气了！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0202_02_01_001,好小子，胆敢招惹我家大小姐？围起来围起来！"
+  splits:
+  - split: 1
+    text: "好小子，胆敢招惹我家大小姐？围起来围起来！"
+- raw: "CombatTalking/S0202_02_01_002,慢着，我只是好言相劝！"
+  splits:
+  - split: 1
+    text: "慢着，我只是好言相劝！"
+- raw: "CombatTalking/S0202_02_01_003,我管你这么多？大小姐要打的人，从没一个无辜！\\n大家把他手脚捉住，给大小姐当沙包！"
+  splits:
+  - split: 1
+    text: "我管你这么多？大小姐要打的人，从没一个无辜！"
+  - split: 1
+    subIndex: 1
+    text: "大家把他手脚捉住，给大小姐当沙包！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0202_02_01_004,萤姊姊，不要打──"
+  splits:
+  - split: 1
+    text: "萤姊姊，不要打"
+  templates:
+  - split: 1
+    template: "{0}──"
+- raw: "CombatTalking/S0202_02_01_005,话未说完，小师妹已经给叶云裳摀住了嘴巴。"
+  splits:
+  - split: 1
+    text: "话未说完，小师妹已经给叶云裳摀住了嘴巴。"
+- raw: "CombatTalking/S0202_02_01_006,萤姊姊，打他，谁让他不给我吃冰糖葫芦。"
+  splits:
+  - split: 1
+    text: "萤姊姊，打他，谁让他不给我吃冰糖葫芦。"
+- raw: "CombatTalking/1209_01_001,哎你干嘛？莫名其妙，我又不认识你！"
+  splits:
+  - split: 1
+    text: "哎你干嘛？莫名其妙，我又不认识你！"
+- raw: "CombatTalking/1209_01_002,少啰唆，纳命来！"
+  splits:
+  - split: 1
+    text: "少啰唆，纳命来！"
+- raw: "CombatTalking/1209_01_003,嘶嘶！"
+  splits:
+  - split: 1
+    text: "嘶嘶！"
+- raw: "CombatTalking/1209_01_004,蛇！有蛇！"
+  splits:
+  - split: 1
+    text: "蛇！有蛇！"
+- raw: "CombatTalking/1209_01_005,哪来的蛇！"
+  splits:
+  - split: 1
+    text: "哪来的蛇！"
+- raw: "CombatTalking/1211_02_001,怎么……身体怪怪的，不大听使唤？\\n是、是二师兄方才下的毒！"
+  splits:
+  - split: 1
+    text: "怎么……身体怪怪的，不大听使唤？"
+  - split: 1
+    subIndex: 1
+    text: "是、是二师兄方才下的毒！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1216_01_001,大哥，我、我挺不住了，他们方才射我那镖上有毒！"
+  splits:
+  - split: 1
+    text: "大哥，我、我挺不住了，他们方才射我那镖上有毒！"
+- raw: "CombatTalking/1216_01_002,兄弟！可恶……可恶啊！"
+  splits:
+  - split: 1
+    text: "兄弟！可恶……可恶啊！"
+- raw: "CombatTalking/1216_01_003,大哥，我也不行了……抱歉！"
+  splits:
+  - split: 1
+    text: "大哥，我也不行了……抱歉！"
+- raw: "CombatTalking/1216_01_004,唐门的畜生！"
+  splits:
+  - split: 1
+    text: "唐门的畜生！"
+- raw: "CombatTalking/1216_01_005,大哥，快……你快跑，我拖住他们！"
+  splits:
+  - split: 1
+    text: "大哥，快……你快跑，我拖住他们！"
+- raw: "CombatTalking/1216_01_006,不！！"
+  splits:
+  - split: 1
+    text: "不！！"
+- raw: "CombatTalking/1217_01_001,住手！快住手，是我呀！"
+  splits:
+  - split: 1
+    text: "住手！快住手，是我呀！"
+- raw: "CombatTalking/1218_01_001,兄弟们莫慌，我们事先服过药铺买的黄连解毒丸，\\n就算不对症，应该也有一点效果才对！我觉得啦！"
+  splits:
+  - split: 1
+    text: "兄弟们莫慌，我们事先服过药铺买的黄连解毒丸，"
+  - split: 1
+    subIndex: 1
+    text: "就算不对症，应该也有一点效果才对！我觉得啦！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1218_01_002,哦……哦哦！老大！这个北斗七星阵真的管用！"
+  splits:
+  - split: 1
+    text: "哦……哦哦！老大！这个北斗七星阵真的管用！"
+- raw: "CombatTalking/1218_01_003,你干什么不动？阵形都乱了！"
+  splits:
+  - split: 1
+    text: "你干什么不动？阵形都乱了！"
+- raw: "CombatTalking/1218_01_004,别把刀子往我身上凑，啊！我的腿！"
+  splits:
+  - split: 1
+    text: "别把刀子往我身上凑，啊！我的腿！"
+- raw: "CombatTalking/1218_01_005,啊！我的腰子给你剖出来了！"
+  splits:
+  - split: 1
+    text: "啊！我的腰子给你剖出来了！"
+- raw: "CombatTalking/1218_01_006,啊！"
+  splits:
+  - split: 1
+    text: "啊！"
+- raw: "CombatTalking/1218_01_007,对方阵形溃散，看到胜机了！"
+  splits:
+  - split: 1
+    text: "对方阵形溃散，看到胜机了！"
+- raw: "CombatTalking/1219_01_001,看我五虎断门刀！"
+  splits:
+  - split: 1
+    text: "看我五虎断门刀！"
+- raw: "CombatTalking/1219_01_002,卑鄙！峨嵋派不是善使拳掌功夫吗？你们居然拿刀！"
+  splits:
+  - split: 1
+    text: "卑鄙！峨嵋派不是善使拳掌功夫吗？你们居然拿刀！"
+- raw: "CombatTalking/D_Action_005,可…可恶阿！"
+  splits:
+  - split: 1
+    text: "可…可恶阿！"
+- raw: "CombatTalking/Special_405_001,赵居士，切莫胡闹。"
+  splits:
+  - split: 1
+    text: "赵居士，切莫胡闹。"
+- raw: "CombatTalking/Special_405_002,贫道若想加害于你，你便不会醒来。"
+  splits:
+  - split: 1
+    text: "贫道若想加害于你，你便不会醒来。"
+- raw: "CombatTalking/1317_01_001,兄台误会了，我是到青城留学的唐门弟子啊！"
+  splits:
+  - split: 1
+    text: "兄台误会了，我是到青城留学的唐门弟子啊！"
+- raw: "CombatTalking/1317_01_002,唐门？唐门就是魔教党羽，我见一个杀一个！"
+  splits:
+  - split: 1
+    text: "唐门？唐门就是魔教党羽，我见一个杀一个！"
+- raw: "CombatTalking/1318_01_001,我是唐门来留学的，住手哇！"
+  splits:
+  - split: 1
+    text: "我是唐门来留学的，住手哇！"
+- raw: "CombatTalking/1318_01_002,少来这套，留学的人都去江陵了，你还骗得过我？"
+  splits:
+  - split: 1
+    text: "少来这套，留学的人都去江陵了，你还骗得过我？"
+- raw: "CombatTalking/1318_02_001,我是后来才到青城的，不信你问申屠道长！"
+  splits:
+  - split: 1
+    text: "我是后来才到青城的，不信你问申屠道长！"
+- raw: "CombatTalking/1318_02_002,废话少～说，妖孽受死！"
+  splits:
+  - split: 1
+    text: "废话少～说，妖孽受死！"
+- raw: "CombatTalking/1318_03_001,兄弟别慌，同是鬼卒，我来助你！"
+  splits:
+  - split: 1
+    text: "兄弟别慌，同是鬼卒，我来助你！"
+- raw: "CombatTalking/1318_03_002,喏！喏！喏！还说你不是地狱道的妖人！"
+  splits:
+  - split: 1
+    text: "喏！喏！喏！还说你不是地狱道的妖人！"
+- raw: "CombatTalking/1318_03_003,我……你……他……啊，妈的！"
+  splits:
+  - split: 1
+    text: "我……你……他……啊，妈的！"
+- raw: "CombatTalking/1319_01_001,下贱粗人，说的话就是粗鄙不文。\\n云裳妹妹，近朱者赤，你可别跟这种人来往。"
+  splits:
+  - split: 1
+    text: "下贱粗人，说的话就是粗鄙不文。"
+  - split: 1
+    subIndex: 1
+    text: "云裳妹妹，近朱者赤，你可别跟这种人来往。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1319_01_002,食屎啦你～"
+  splits:
+  - split: 1
+    text: "食屎啦你～"
+- raw: "CombatTalking/1319_01_003,你……。"
+  splits:
+  - split: 1
+    text: "你……。"
+- raw: "CombatTalking/1319_02_001,大胆狂徒，竟敢当着老道的面，在青城动手伤人！"
+  splits:
+  - split: 1
+    text: "大胆狂徒，竟敢当着老道的面，在青城动手伤人！"
+- raw: "CombatTalking/1321_02_01_001,啊！你让我放水，自己却玩真的？岂有此理！"
+  splits:
+  - split: 1
+    text: "啊！你让我放水，自己却玩真的？岂有此理！"
+- raw: "CombatTalking/1322_01_01_001,哪里冒出来的小鬼，长得比我们还不像人！"
+  splits:
+  - split: 1
+    text: "哪里冒出来的小鬼，长得比我们还不像人！"
+- raw: "CombatTalking/1322_01_01_002,赵兄弟，我们来助你！"
+  splits:
+  - split: 1
+    text: "赵兄弟，我们来助你！"
+- raw: "CombatTalking/1325_01_001,前辈手下留情，这是误会！"
+  splits:
+  - split: 1
+    text: "前辈手下留情，这是误会！"
+- raw: "CombatTalking/1325_01_002,师兄、师弟，我们来助你！"
+  splits:
+  - split: 1
+    text: "师兄、师弟，我们来助你！"
+- raw: "CombatTalking/1325_01_003,是先行回家报讯的师兄们！"
+  splits:
+  - split: 1
+    text: "是先行回家报讯的师兄们！"
+- raw: "CombatTalking/1326_01_001,啊！他妈的……帮我报仇……。"
+  splits:
+  - split: 1
+    text: "啊！他妈的……帮我报仇……。"
+- raw: "CombatTalking/1328_01_001,有种来呀！"
+  splits:
+  - split: 1
+    text: "有种来呀！"
+- raw: "CombatTalking/1328_01_002,唐门的毒药让我使不出半分力气来，但我内力未失，\\n你敢动手，我就抓准时机，反震到你手脱臼！"
+  splits:
+  - split: 1
+    text: "唐门的毒药让我使不出半分力气来，但我内力未失，"
+  - split: 1
+    subIndex: 1
+    text: "你敢动手，我就抓准时机，反震到你手脱臼！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1328_01_003,这家伙该不会真的想杀了我吧！"
+  splits:
+  - split: 1
+    text: "这家伙该不会真的想杀了我吧！"
+- raw: "CombatTalking/Special835_001,你不过是唐门养的狗，一只长得特丑的杂种狗！"
+  splits:
+  - split: 1
+    text: "你不过是唐门养的狗，一只长得特丑的杂种狗！"
+- raw: "CombatTalking/Special835_002,你只管得意吧，你这种废物一辈子也不会有出息！"
+  splits:
+  - split: 1
+    text: "你只管得意吧，你这种废物一辈子也不会有出息！"
+- raw: "CombatTalking/Special835_003,哈，不痛不痒，你是娘们吗？使点劲吧没卵的！"
+  splits:
+  - split: 1
+    text: "哈，不痛不痒，你是娘们吗？使点劲吧没卵的！"
+- raw: "CombatTalking/Special835_004,我不用出手都能活活震死你这蝼蚁呀！"
+  splits:
+  - split: 1
+    text: "我不用出手都能活活震死你这蝼蚁呀！"
+- raw: "CombatTalking/Special835_005,狐假虎威的杂鱼，有种的一刀杀了我呀～不敢是吧？懦夫。"
+  splits:
+  - split: 1
+    text: "狐假虎威的杂鱼，有种的一刀杀了我呀～不敢是吧？懦夫。"
+- raw: "CombatTalking/S0208_02_01_001,滚开，姓赵的，这不关你的事！\\n你非要插手，难道演变成大宋大理两国战争也无所谓吗？"
+  splits:
+  - split: 1
+    text: "滚开，姓赵的，这不关你的事！"
+  - split: 1
+    subIndex: 1
+    text: "你非要插手，难道演变成大宋大理两国战争也无所谓吗？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0208_02_01_002,到底怎么样才能演变成那样？"
+  splits:
+  - split: 1
+    text: "到底怎么样才能演变成那样？"
+- raw: "CombatTalking/S0208_02_01_003,饶她聪明一时也难想到，你当日信口胡言自称大宋赵氏宗亲，\\n被段智秀当真，从此记在心上。"
+  splits:
+  - split: 1
+    text: "饶她聪明一时也难想到，你当日信口胡言自称大宋赵氏宗亲，"
+  - split: 1
+    subIndex: 1
+    text: "被段智秀当真，从此记在心上。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0208_02_01_004,滚开，杂碎，我跟她之间的事，与你无干！"
+  splits:
+  - split: 1
+    text: "滚开，杂碎，我跟她之间的事，与你无干！"
+- raw: "CombatTalking/S0208_02_01_005,你非要找死，那就领教本公子新学的左手剑法吧！"
+  splits:
+  - split: 1
+    text: "你非要找死，那就领教本公子新学的左手剑法吧！"
+- raw: "CombatTalking/S0208_02_02_001,徒儿，这小娘子累你受辱，你恨不得她死，对不？\\n别急，师父来给你作主。"
+  splits:
+  - split: 1
+    text: "徒儿，这小娘子累你受辱，你恨不得她死，对不？"
+  - split: 1
+    subIndex: 1
+    text: "别急，师父来给你作主。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0208_02_02_002,这……是这样没错，可是……。"
+  splits:
+  - split: 1
+    text: "这……是这样没错，可是……。"
+- raw: "CombatTalking/S0208_02_02_003,怎么回事，这牛鼻子老道士，不是自个儿家里才横的吗？"
+  splits:
+  - split: 1
+    text: "怎么回事，这牛鼻子老道士，不是自个儿家里才横的吗？"
+- raw: "CombatTalking/S0208_02_02_004,这个人……至今都在扮猪吃老虎啊！"
+  splits:
+  - split: 1
+    text: "这个人……至今都在扮猪吃老虎啊！"
+- raw: "CombatTalking/S0208_02_02_005,呵呵，看到了没有，秀儿？\\n所谓底牌、绝招，就是要压在箱底，关键时刻吓人大一跳，这才管用。\\n趁他缓过气来之前，落井下石──"
+  splits:
+  - split: 1
+    text: "呵呵，看到了没有，秀儿？"
+  - split: 1
+    subIndex: 1
+    text: "所谓底牌、绝招，就是要压在箱底，关键时刻吓人大一跳，这才管用。"
+  - split: 1
+    subIndex: 2
+    text: "趁他缓过气来之前，落井下石"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}──"
+- raw: "CombatTalking/S0208_02_02_006,看我这招，乾坤震脚！"
+  splits:
+  - split: 1
+    text: "看我这招，乾坤震脚！"
+- raw: "CombatTalking/S0208_02_02_007,这栈道年久失修，你不要命了吗！"
+  splits:
+  - split: 1
+    text: "这栈道年久失修，你不要命了吗！"
+- raw: "CombatTalking/S0208_02_02_008,呀！你们……你们别晃，我快掉下去了！"
+  splits:
+  - split: 1
+    text: "呀！你们……你们别晃，我快掉下去了！"
+- raw: "CombatTalking/S0208_02_02_009,云裳！妳可千万抓稳了！"
+  splits:
+  - split: 1
+    text: "云裳！妳可千万抓稳了！"
+- raw: "CombatTalking/S0208_02_02_010,师父，别……别踏了，踏坏了栈道，我们都得没命呀！"
+  splits:
+  - split: 1
+    text: "师父，别……别踏了，踏坏了栈道，我们都得没命呀！"
+- raw: "CombatTalking/S0208_02_02_011,呵呵呵呵呵呵呵呵。"
+  splits:
+  - split: 1
+    text: "呵呵呵呵呵呵呵呵。"
+- raw: "CombatTalking/S0208_02_02_012,尔等不妨放声呼救，看有谁来？\\n与大院里的热闹、欢声笑语呼应，方能衬出你俩娃娃命运薄凉。"
+  splits:
+  - split: 1
+    text: "尔等不妨放声呼救，看有谁来？"
+  - split: 1
+    subIndex: 1
+    text: "与大院里的热闹、欢声笑语呼应，方能衬出你俩娃娃命运薄凉。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S0209_01_01_001,如斯浑厚……这是青城的玄门气功？"
+  splits:
+  - split: 1
+    text: "如斯浑厚……这是青城的玄门气功？"
+- raw: "CombatTalking/S0209_01_02_001,这股真气，像是南宫世家的护心诀。"
+  splits:
+  - split: 1
+    text: "这股真气，像是南宫世家的护心诀。"
+- raw: "CombatTalking/S0209_01_03_001,这是大理段家的枯荣神功！"
+  splits:
+  - split: 1
+    text: "这是大理段家的枯荣神功！"
+- raw: "CombatTalking/S0209_01_04_001,点苍剑气……两股！这是点苍双尊！"
+  splits:
+  - split: 1
+    text: "点苍剑气……两股！这是点苍双尊！"
+- raw: "CombatTalking/S0208_05_01_001,如斯浑厚……这是青城的玄门气功？"
+  splits:
+  - split: 1
+    text: "如斯浑厚……这是青城的玄门气功？"
+- raw: "CombatTalking/S0208_05_01_002,哥哥……！"
+  splits:
+  - split: 1
+    text: "哥哥……！"
+- raw: "CombatTalking/S0208_05_01_003,此刻我与云裳同一脉、共一息，透过脉搏，心脏连在一起。"
+  splits:
+  - split: 1
+    text: "此刻我与云裳同一脉、共一息，透过脉搏，心脏连在一起。"
+- raw: "CombatTalking/S0208_05_01_004,听见了心跳鼓动的响声……那便是我们依然活着的证明。"
+  splits:
+  - split: 1
+    text: "听见了心跳鼓动的响声……那便是我们依然活着的证明。"
+- raw: "CombatTalking/S0208_05_02_001,这股真气，像是南宫世家的护心诀。"
+  splits:
+  - split: 1
+    text: "这股真气，像是南宫世家的护心诀。"
+- raw: "CombatTalking/S0208_05_03_001,这是大理段家的枯荣神功。"
+  splits:
+  - split: 1
+    text: "这是大理段家的枯荣神功。"
+- raw: "CombatTalking/S0208_05_04_001,点苍剑气……两股！这是两仪真气，点苍双尊！"
+  splits:
+  - split: 1
+    text: "点苍剑气……两股！这是两仪真气，点苍双尊！"
+- raw: "CombatTalking/1814_01_01_001,我要将你们都拖进深渊，让尔等姓名被历史吞没。"
+  splits:
+  - split: 1
+    text: "我要将你们都拖进深渊，让尔等姓名被历史吞没。"
+- raw: "CombatTalking/1814_01_02_001,邹师弟，等我杀了你，就把你剔骨做成肉衣。\\n以你的身份接掌青城，从今以后，世上再也没有正派的青城！"
+  splits:
+  - split: 1
+    text: "邹师弟，等我杀了你，就把你剔骨做成肉衣。"
+  - split: 1
+    subIndex: 1
+    text: "以你的身份接掌青城，从今以后，世上再也没有正派的青城！"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1814_01_02_002,有本事你就来！"
+  splits:
+  - split: 1
+    text: "有本事你就来！"
+- raw: "CombatTalking/1814_01_02_003,邹掌门，小心，他是刻意激你！"
+  splits:
+  - split: 1
+    text: "邹掌门，小心，他是刻意激你！"
+- raw: "CombatTalking/1814_01_03_001,邪魔歪道，看我青城绝招──天师剑法！"
+  splits:
+  - split: 1
+    text: "邪魔歪道，看我青城绝招"
+  - split: 1
+    subIndex: 1
+    text: "天师剑法！"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/1814_01_03_002,师兄！"
+  splits:
+  - split: 1
+    text: "师兄！"
+- raw: "CombatTalking/1814_01_03_003,！？"
+- raw: "CombatTalking/1814_01_03_004,咳啊！卑鄙……。"
+  splits:
+  - split: 1
+    text: "咳啊！卑鄙……。"
+- raw: "CombatTalking/1814_01_03_005,邹掌门！"
+  splits:
+  - split: 1
+    text: "邹掌门！"
+- raw: "CombatTalking/1814_01_04_001,赵小鬼，你怎么不惨叫、不逃跑？呵呵呵呵呵。\\n这不是变得越来越好玩了吗，可不要轻易的烂掉了。"
+  splits:
+  - split: 1
+    text: "赵小鬼，你怎么不惨叫、不逃跑？呵呵呵呵呵。"
+  - split: 1
+    subIndex: 1
+    text: "这不是变得越来越好玩了吗，可不要轻易的烂掉了。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1814_01_04_002,会被打烂的只有你的脸！"
+  splits:
+  - split: 1
+    text: "会被打烂的只有你的脸！"
+- raw: "CombatTalking/1814_01_04_003,还有下体！"
+  splits:
+  - split: 1
+    text: "还有下体！"
+- raw: "CombatTalking/1814_01_04_004,呵呵呵呵，无妨。\\n你只管吠，你吠得越大声，等会儿死得越惨。"
+  splits:
+  - split: 1
+    text: "呵呵呵呵，无妨。"
+  - split: 1
+    subIndex: 1
+    text: "你只管吠，你吠得越大声，等会儿死得越惨。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1814_01_05_001,你和叶小娘子两情相悦，很幸福吧？\\n可曾畅想过幸存以后的美好将来吗？呵呵呵呵。\\n那些都不会有喔，因为老夫会亲手给你毁掉。"
+  splits:
+  - split: 1
+    text: "你和叶小娘子两情相悦，很幸福吧？"
+  - split: 1
+    subIndex: 1
+    text: "可曾畅想过幸存以后的美好将来吗？呵呵呵呵。"
+  - split: 1
+    subIndex: 2
+    text: "那些都不会有喔，因为老夫会亲手给你毁掉。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1814_01_06_001,等我杀了你，也把你做成皮衣吧。\\n丑归丑，还是有用的。\\n比方说……戴着你的脸皮，扼死叶小娘子，你觉得如何？"
+  splits:
+  - split: 1
+    text: "等我杀了你，也把你做成皮衣吧。"
+  - split: 1
+    subIndex: 1
+    text: "丑归丑，还是有用的。"
+  - split: 1
+    subIndex: 2
+    text: "比方说……戴着你的脸皮，扼死叶小娘子，你觉得如何？"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1814_01_06_002,你敢你试试！"
+  splits:
+  - split: 1
+    text: "你敢你试试！"
+- raw: "CombatTalking/1814_02_01_001,唔哦哦──你们两个，不，三个小鬼安敢放肆！\\n老夫可是无相祖师！你们还是娃娃的时候，老夫就在杀人！"
+  splits:
+  - split: 1
+    text: "唔哦哦"
+  - split: 1
+    subIndex: 1
+    text: "你们两个，不，三个小鬼安敢放肆！"
+  - split: 1
+    subIndex: 2
+    text: "老夫可是无相祖师！你们还是娃娃的时候，老夫就在杀人！"
+  templates:
+  - split: 1
+    template: "{0}──{1}\\n{2}"
+- raw: "CombatTalking/1814_02_02_001,至少，至少要把赵活带走！"
+  splits:
+  - split: 1
+    text: "至少，至少要把赵活带走！"
+- raw: "CombatTalking/1814_02_03_001,受死吧！连残渣也不剩，给我灰飞湮灭吧！"
+  splits:
+  - split: 1
+    text: "受死吧！连残渣也不剩，给我灰飞湮灭吧！"
+- raw: "CombatTalking/1814_02_03_002,休想得逞！"
+  splits:
+  - split: 1
+    text: "休想得逞！"
+- raw: "CombatTalking/1814_02_03_003,要死的是你！"
+  splits:
+  - split: 1
+    text: "要死的是你！"
+- raw: "CombatTalking/1814_02_03_004,上吧。"
+  splits:
+  - split: 1
+    text: "上吧。"
+- raw: "CombatTalking/1814_02_03_005,干掉他！"
+  splits:
+  - split: 1
+    text: "干掉他！"
+- raw: "CombatTalking/1814_02_03_006,是！"
+  splits:
+  - split: 1
+    text: "是！"
+- raw: "CombatTalking/1814_02_03_007,这次你必死无疑！"
+  splits:
+  - split: 1
+    text: "这次你必死无疑！"

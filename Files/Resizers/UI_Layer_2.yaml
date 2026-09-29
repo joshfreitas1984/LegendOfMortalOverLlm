@@ -1,0 +1,15 @@
+- path: UI/Layer_2/LoadGamePanel/Container/*/Slot/*/Time
+  sampleText: 2026/02/08 16:00:08
+  idealFontSize: 16
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: UI/Layer_2/LoadGamePanel/Container/*/Slot/*/Title
+  sampleText: Year Four, FebruaryLate month
+  idealFontSize: 20
+  alignment: topLeft
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: UI/Layer_2/LoadGamePanel/Container/*/Slot/Header*
+  sampleText: Legendary 001
+  idealFontSize: 16
+  allowWordWrap: true

@@ -8,10 +8,16 @@
 
   <ItemGroup>
     <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    <PackageReference Include="ToolGood.Words" Version="3.1.0.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <!-- Kept: SharedAssembly still hosts game-agnostic-but-not-LlmKit-covered pieces this repo
+         uses independently of the translation pipeline - TextResizer/WildcardMatchingService
+         (in-game font resizing) and the DynamicStrings contract types used by Tests'
+         DynamicStringSupport-based tests. Nothing translation-pipeline-related is left in it. -->
     <ProjectReference Include="..\SharedAssembly\SharedAssembly.csproj" />
+    <ProjectReference Include="..\..\FanslationStudio.LlmKit\FanslationStudio.LlmKit\FanslationStudio.LlmKit.csproj" />
   </ItemGroup>
 
 </Project>

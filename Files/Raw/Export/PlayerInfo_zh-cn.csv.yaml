@@ -1,0 +1,214 @@
+- raw: "PlayerInfo/Title/0,唐门杂鱼"
+  splits:
+  - split: 1
+    text: "唐门杂鱼"
+- raw: "PlayerInfo/Title/1,唐门丑侠"
+  splits:
+  - split: 1
+    text: "唐门丑侠"
+- raw: "PlayerInfo/Title/2,下作侠"
+  splits:
+  - split: 1
+    text: "下作侠"
+- raw: "PlayerInfo/Lover/0,小师妹"
+  splits:
+  - split: 1
+    text: "小师妹"
+- raw: "PlayerInfo/Lover/1,瑞杏"
+  splits:
+  - split: 1
+    text: "瑞杏"
+- raw: "PlayerInfo/Lover/2,叶云裳"
+  splits:
+  - split: 1
+    text: "叶云裳"
+- raw: "PlayerInfo/Lover/3,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "PlayerInfo/FictionTitle/1,日薄西山"
+  splits:
+  - split: 1
+    text: "日薄西山"
+- raw: "PlayerInfo/FictionTitle/2,云开见日"
+  splits:
+  - split: 1
+    text: "云开见日"
+- raw: "PlayerInfo/FictionTitle/3,喷薄欲出"
+  splits:
+  - split: 1
+    text: "喷薄欲出"
+- raw: "PlayerInfo/FictionTitle/4,旭日东升"
+  splits:
+  - split: 1
+    text: "旭日东升"
+- raw: "PlayerInfo/FictionTitle/5,如日方中"
+  splits:
+  - split: 1
+    text: "如日方中"
+- raw: "PlayerInfo/FictionTitle/6,烈日当空"
+  splits:
+  - split: 1
+    text: "烈日当空"
+- raw: "PlayerInfo/FictionDesc/1,名动江湖的天下第一暗器大家。\\n几朝老派，门人有入室、外姓之别。\\n外姓弟子拜入门下需服劳役，累积功德，假以时日方可蒙师长垂青，改宗入室，随师门姓唐，进而学习不外传的高深武功。\\n十数年前唐门遭逢大变，上代高手尽皆散尽死绝，独留现任掌门撑门拄户。\\n然而任凭掌门殚精竭虑，亦难力挽狂澜。\\n唐门人丁凋零，经已式微，昔日威风不再，而今又强敌环伺，实可谓危如累卵。"
+  splits:
+  - split: 1
+    text: "名动江湖的天下第一暗器大家。"
+  - split: 1
+    subIndex: 1
+    text: "几朝老派，门人有入室、外姓之别。"
+  - split: 1
+    subIndex: 2
+    text: "外姓弟子拜入门下需服劳役，累积功德，假以时日方可蒙师长垂青，改宗入室，随师门姓唐，进而学习不外传的高深武功。"
+  - split: 1
+    subIndex: 3
+    text: "十数年前唐门遭逢大变，上代高手尽皆散尽死绝，独留现任掌门撑门拄户。"
+  - split: 1
+    subIndex: 4
+    text: "然而任凭掌门殚精竭虑，亦难力挽狂澜。"
+  - split: 1
+    subIndex: 5
+    text: "唐门人丁凋零，经已式微，昔日威风不再，而今又强敌环伺，实可谓危如累卵。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "PlayerInfo/FictionDesc/2,唐门曾与南宫、上官并列江湖三大世家，行事作风却大相径庭。\\n唐门不似南宫谨守家训不收外徒，亦不像上官世家野心勃勃广收帮众。\\n虽收弟子，却有有入室、外姓之别。\\n外姓弟子拜入门下需服劳役，累积功德，\\n假以时日方可蒙师长垂青，改宗入室，随师门姓唐，方能得传艰深的武功要诀。\\n这条门规由祖师立下，早已不合时宜，后人一味墨守成规，累得今日落魄。"
+  splits:
+  - split: 1
+    text: "唐门曾与南宫、上官并列江湖三大世家，行事作风却大相径庭。"
+  - split: 1
+    subIndex: 1
+    text: "唐门不似南宫谨守家训不收外徒，亦不像上官世家野心勃勃广收帮众。"
+  - split: 1
+    subIndex: 2
+    text: "虽收弟子，却有有入室、外姓之别。"
+  - split: 1
+    subIndex: 3
+    text: "外姓弟子拜入门下需服劳役，累积功德，"
+  - split: 1
+    subIndex: 4
+    text: "假以时日方可蒙师长垂青，改宗入室，随师门姓唐，方能得传艰深的武功要诀。"
+  - split: 1
+    subIndex: 5
+    text: "这条门规由祖师立下，早已不合时宜，后人一味墨守成规，累得今日落魄。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "PlayerInfo/FictionDesc/3,一度潦倒的唐门，多亏当代弟子的活跃，颇有起死回生的迹象。\\n慕名而来拜师的弟子众多，门人心有灵犀，均不再提内外姓制度，使新入门弟子得以即刻拜师习练武艺，补充门派实力。\\n虽犹不及全盛时期那般人才济济，声势却已不容小觑。\\n你成为了本门最后一位外姓弟子，反成了珍稀人物。"
+  splits:
+  - split: 1
+    text: "一度潦倒的唐门，多亏当代弟子的活跃，颇有起死回生的迹象。"
+  - split: 1
+    subIndex: 1
+    text: "慕名而来拜师的弟子众多，门人心有灵犀，均不再提内外姓制度，使新入门弟子得以即刻拜师习练武艺，补充门派实力。"
+  - split: 1
+    subIndex: 2
+    text: "虽犹不及全盛时期那般人才济济，声势却已不容小觑。"
+  - split: 1
+    subIndex: 3
+    text: "你成为了本门最后一位外姓弟子，反成了珍稀人物。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "PlayerInfo/FictionDesc/4,如今唐门风光，已直逼当年全盛之时。\\n新入弟子之中资质上佳者，武功已成，使本门行走江湖不致教人瞧轻。\\n有唐门坐镇，无有外敌敢犯，是为蜀中地区最受官府瞩目的武装暴力团体。"
+  splits:
+  - split: 1
+    text: "如今唐门风光，已直逼当年全盛之时。"
+  - split: 1
+    subIndex: 1
+    text: "新入弟子之中资质上佳者，武功已成，使本门行走江湖不致教人瞧轻。"
+  - split: 1
+    subIndex: 2
+    text: "有唐门坐镇，无有外敌敢犯，是为蜀中地区最受官府瞩目的武装暴力团体。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "PlayerInfo/FictionDesc/5,唐门以一介世家，几乎能与大派分庭抗礼。\\n门中能人辈出，声名鹊起者不绝，其中便有你在列。\\n外姓弟子的印记已从世人脑海淡忘，你不再是某某人，而是你自己。\\n你的身后则跟随着许多望着你背影的人。"
+  splits:
+  - split: 1
+    text: "唐门以一介世家，几乎能与大派分庭抗礼。"
+  - split: 1
+    subIndex: 1
+    text: "门中能人辈出，声名鹊起者不绝，其中便有你在列。"
+  - split: 1
+    subIndex: 2
+    text: "外姓弟子的印记已从世人脑海淡忘，你不再是某某人，而是你自己。"
+  - split: 1
+    subIndex: 3
+    text: "你的身后则跟随着许多望着你背影的人。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
+- raw: "PlayerInfo/FictionDesc/6,唐门的威望，空前绝后，傲视群豪。\\n俨然已成当朝武林的第一大派，泥教既衰，已不能与抗。\\n能与唐门争雄者，天下唯有武林盟。时代的分水岭就在眼前，你的名字已成为不朽传说。"
+  splits:
+  - split: 1
+    text: "唐门的威望，空前绝后，傲视群豪。"
+  - split: 1
+    subIndex: 1
+    text: "俨然已成当朝武林的第一大派，泥教既衰，已不能与抗。"
+  - split: 1
+    subIndex: 2
+    text: "能与唐门争雄者，天下唯有武林盟。时代的分水岭就在眼前，你的名字已成为不朽传说。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "PlayerInfo/Title/3,鬼面郎中"
+  splits:
+  - split: 1
+    text: "鬼面郎中"
+- raw: "PlayerInfo/Title/4,草食侠"
+  splits:
+  - split: 1
+    text: "草食侠"
+- raw: "PlayerInfo/Title/5,阎王使者"
+  splits:
+  - split: 1
+    text: "阎王使者"
+- raw: "PlayerInfo/Title/6,风度翩翩丑郎君"
+  splits:
+  - split: 1
+    text: "风度翩翩丑郎君"
+- raw: "PlayerInfo/Title/7,雪山大弟子"
+  splits:
+  - split: 1
+    text: "雪山大弟子"
+- raw: "PlayerInfo/Title/8,褪裤侠"
+  splits:
+  - split: 1
+    text: "褪裤侠"
+- raw: "PlayerInfo/Title/9,臭弟侠"
+  splits:
+  - split: 1
+    text: "臭弟侠"
+- raw: "PlayerInfo/Title/10,辣眼郎中"
+  splits:
+  - split: 1
+    text: "辣眼郎中"
+- raw: "PlayerInfo/Title/11,再世凤雏"
+  splits:
+  - split: 1
+    text: "再世凤雏"
+- raw: "PlayerInfo/Lover/4,上官萤"
+  splits:
+  - split: 1
+    text: "上官萤"
+- raw: "PlayerInfo/Lover/5,夏侯兰"
+  splits:
+  - split: 1
+    text: "夏侯兰"
+- raw: "PlayerInfo/Lover/6,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "PlayerInfo/Lover/7,魏菊"
+  splits:
+  - split: 1
+    text: "魏菊"
+- raw: "PlayerInfo/Lover/8,龙湘"
+  splits:
+  - split: 1
+    text: "龙湘"
+- raw: "PlayerInfo/Lover/99,自己"
+  splits:
+  - split: 1
+    text: "自己"

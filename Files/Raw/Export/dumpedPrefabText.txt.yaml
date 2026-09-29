@@ -1,0 +1,284 @@
+- raw: "99次"
+  splits:
+  - text: "99次"
+- raw: "主音量"
+  splits:
+  - text: "主音量"
+- raw: "傳奇001"
+  splits:
+  - text: "傳奇001"
+- raw: "儲存"
+  splits:
+  - text: "儲存"
+- raw: "全螢幕(只適用16:9比例顯示器)"
+  splits:
+  - text: "全螢幕"
+  - subIndex: 1
+    text: "只適用16"
+  - subIndex: 2
+    text: "9比例顯示器"
+  templates:
+  - template: "{0}({1}:{2})"
+- raw: "刪除"
+  splits:
+  - text: "刪除"
+- raw: "劇情"
+  splits:
+  - text: "劇情"
+- raw: "匯出"
+  splits:
+  - text: "匯出"
+- raw: "匯出成功：LOM_Legend_20240626223237.txt"
+  splits:
+  - text: "匯出成功"
+  templates:
+  - template: "{0}：LOM_Legend_20240626223237.txt"
+- raw: "取消"
+  splits:
+  - text: "取消"
+- raw: "可快轉未讀文字"
+  splits:
+  - text: "可快轉未讀文字"
+- raw: "唐"
+  splits:
+  - text: "唐"
+- raw: "啟程"
+  splits:
+  - text: "啟程"
+- raw: "器"
+  splits:
+  - text: "器"
+- raw: "天下寂寥事，與君闊別時"
+  splits:
+  - text: "天下寂寥事，與君闊別時"
+- raw: "存"
+  splits:
+  - text: "存"
+- raw: "已讀文字變色"
+  splits:
+  - text: "已讀文字變色"
+- raw: "師弟你準備好了嗎?"
+  splits:
+  - text: "師弟你準備好了嗎"
+  templates:
+  - template: "{0}?"
+- raw: "成就名稱"
+  splits:
+  - text: "成就名稱"
+- raw: "–戰術支援–"
+  splits:
+  - text: "戰術支援"
+  templates:
+  - template: "–{0}–"
+- raw: "戰鬥"
+  splits:
+  - text: "戰鬥"
+- raw: "手動啟動天命輪盤"
+  splits:
+  - text: "手動啟動天命輪盤"
+- raw: "手動存檔"
+  splits:
+  - text: "手動存檔"
+- raw: "控制器圖示"
+  splits:
+  - text: "控制器圖示"
+- raw: "描述描述描述描述描述描述描述描述描述描述描述描述描\\n描述描述描述描述描述描述描述描述\\n描述描述描述描述描述\\n描述描述描述描述描述\\n描述描述描述描述描述"
+  splits:
+  - text: "描述描述描述描述描述描述描述描述描述描述描述描述描"
+  - subIndex: 1
+    text: "描述描述描述描述描述描述描述描述"
+  - subIndex: 2
+    text: "描述描述描述描述描述"
+  - subIndex: 3
+    text: "描述描述描述描述描述"
+  - subIndex: 4
+    text: "描述描述描述描述描述"
+  templates:
+  - template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述"
+  splits:
+  - text: "描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述"
+- raw: "文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字"
+  splits:
+  - text: "文字文字文字文字"
+  - subIndex: 1
+    text: "文字文字文字文字文字文字"
+  - subIndex: 2
+    text: "文字文字文字文字文字文字"
+  - subIndex: 3
+    text: "文字文字文字文字"
+  - subIndex: 4
+    text: "文字文字文字文字文字文字"
+  - subIndex: 5
+    text: "文字文字文字文字文字文字"
+  - subIndex: 6
+    text: "文字文字文字文字"
+  - subIndex: 7
+    text: "文字文字文字文字文字文字"
+  - subIndex: 8
+    text: "文字文字文字文字文字文字"
+  - subIndex: 9
+    text: "文字文字文字文字"
+  - subIndex: 10
+    text: "文字文字文字文字文字文字"
+  - subIndex: 11
+    text: "文字文字文字文字文字文字"
+  - subIndex: 12
+    text: "文字文字文字文字"
+  - subIndex: 13
+    text: "文字文字文字文字文字文字"
+  - subIndex: 14
+    text: "文字文字文字文字文字文字"
+  templates:
+  - template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}\\n{6}\\n{7}\\n{8}\\n{9}\\n{10}\\n{11}\\n{12}\\n{13}\\n{14}"
+- raw: "新增日期：2024/01/01 12:59"
+  splits:
+  - text: "新增日期"
+  templates:
+  - template: "{0}：2024/01/01 12:59"
+- raw: "暗"
+  splits:
+  - text: "暗"
+- raw: "最近存檔"
+  splits:
+  - text: "最近存檔"
+- raw: "標題標題標題標題標題標"
+  splits:
+  - text: "標題標題標題標題標題標"
+- raw: "歸隱山林"
+  splits:
+  - text: "歸隱山林"
+- raw: "汗青書"
+  splits:
+  - text: "汗青書"
+- raw: "活俠傳"
+  splits:
+  - text: "活俠傳"
+- raw: "無記載"
+  splits:
+  - text: "無記載"
+- raw: "玩家社群"
+  splits:
+  - text: "玩家社群"
+- raw: "環境設定"
+  splits:
+  - text: "環境設定"
+- raw: "生死簿"
+  splits:
+  - text: "生死簿"
+- raw: "畫面設定"
+  splits:
+  - text: "畫面設定"
+- raw: "確定"
+  splits:
+  - text: "確定"
+- raw: "確定刪除選擇的紀錄嗎？"
+  splits:
+  - text: "確定刪除選擇的紀錄嗎？"
+- raw: "確定覆蓋目前的紀錄嗎?"
+  splits:
+  - text: "確定覆蓋目前的紀錄嗎"
+  templates:
+  - template: "{0}?"
+- raw: "空白的"
+  splits:
+  - text: "空白的"
+- raw: "简体中文"
+  splits:
+  - text: "简体中文"
+- raw: "結局1"
+  splits:
+  - text: "結局1"
+- raw: "結局名稱結局名稱結局名稱"
+  splits:
+  - text: "結局名稱結局名稱結局名稱"
+- raw: "綱"
+  splits:
+  - text: "綱"
+- raw: "總"
+  splits:
+  - text: "總"
+- raw: "繁體中文"
+  splits:
+  - text: "繁體中文"
+- raw: "置"
+  splits:
+  - text: "置"
+- raw: "耕陽讀書齋將你的事蹟編撰成書，發行於市。\\n唐門活俠的大名一朝傳遍中原，無人不知、無人不曉。\\n你的名字，從今往後便是傳說，受萬人崇敬。"
+  splits:
+  - text: "耕陽讀書齋將你的事蹟編撰成書，發行於市。"
+  - subIndex: 1
+    text: "唐門活俠的大名一朝傳遍中原，無人不知、無人不曉。"
+  - subIndex: 2
+    text: "你的名字，從今往後便是傳說，受萬人崇敬。"
+  templates:
+  - template: "{0}\\n{1}\\n{2}"
+- raw: "聲音設定"
+  splits:
+  - text: "聲音設定"
+- raw: "自動存檔"
+  splits:
+  - text: "自動存檔"
+- raw: "解析度"
+  splits:
+  - text: "解析度"
+- raw: "記載活俠傳故事"
+  splits:
+  - text: "記載活俠傳故事"
+- raw: "設定"
+  splits:
+  - text: "設定"
+- raw: "講經堂"
+  splits:
+  - text: "講經堂"
+- raw: "讀取遊戲"
+  splits:
+  - text: "讀取遊戲"
+- raw: "資料備份"
+  splits:
+  - text: "資料備份"
+- raw: "資料備份完成"
+  splits:
+  - text: "資料備份完成"
+- raw: "遊戲設定"
+  splits:
+  - text: "遊戲設定"
+- raw: "遊戲語言"
+  splits:
+  - text: "遊戲語言"
+- raw: "重"
+  splits:
+  - text: "重"
+- raw: "門"
+  splits:
+  - text: "門"
+- raw: "開啟二周目要素"
+  splits:
+  - text: "開啟二周目要素"
+- raw: "閱讀"
+  splits:
+  - text: "閱讀"
+- raw: "除"
+  splits:
+  - text: "除"
+- raw: "離開"
+  splits:
+  - text: "離開"
+- raw: "需返回到遊戲標題設定"
+  splits:
+  - text: "需返回到遊戲標題設定"
+- raw: "音效音量"
+  splits:
+  - text: "音效音量"
+- raw: "音樂音量"
+  splits:
+  - text: "音樂音量"
+- raw: "風雲史"
+  splits:
+  - text: "風雲史"
+- raw: "養成"
+  splits:
+  - text: "養成"
+- raw: "養成回合自動存檔"
+  splits:
+  - text: "養成回合自動存檔"
