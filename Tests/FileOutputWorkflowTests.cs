@@ -69,7 +69,8 @@ public class FileOutputWorkflowTests
                 // Tailored per game, so it comes from the release files: seed-only, so players' edits survive updates.
                 new($"{PackagingInputsFolder}/BepInEx.cfg", "BepInEx/config/BepInEx.cfg"),
             ],
-            OwnedFolders = ["Mods/English", "BepInEx/resizers"],
+            // The config folder is owned too, so stale configs left in the staging folder (like UIEditor.cfg) never ship.
+            OwnedFolders = ["Mods/English", "BepInEx/resizers", "BepInEx/config"],
             // zzAddedResizers.yaml is the editor's auto-created file: step 6 moves its entries into path-based files.
             RemoveAfterStaging = ["BepInEx/resizers/zzAddedResizers.yaml"],
             SeedOnly = ["BepInEx/config/**"],
