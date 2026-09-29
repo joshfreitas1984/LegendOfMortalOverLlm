@@ -66,11 +66,12 @@ public class FileOutputWorkflowTests
                 // "Mods/English", not a flat "Mods/" - see the comment in PackageFinalTranslation above.
                 new($"{workingDirectory}/Mod", "Mods/English"),
                 new($"{workingDirectory}/Resizers", "BepInEx/resizers"),
+                // Tailored per game, so it comes from the release files: seed-only, so players' edits survive updates.
+                new($"{PackagingInputsFolder}/BepInEx.cfg", "BepInEx/config/BepInEx.cfg"),
             ],
             OwnedFolders = ["Mods/English", "BepInEx/resizers"],
             // zzAddedResizers.yaml is the editor's auto-created file: step 6 moves its entries into path-based files.
-            // BepInEx.cfg stays out so player and dev tweaks to it are theirs.
-            RemoveAfterStaging = ["BepInEx/resizers/zzAddedResizers.yaml", "BepInEx/config/BepInEx.cfg"],
+            RemoveAfterStaging = ["BepInEx/resizers/zzAddedResizers.yaml"],
             SeedOnly = ["BepInEx/config/**"],
         });
 
