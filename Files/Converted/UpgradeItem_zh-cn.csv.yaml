@@ -2,7 +2,7 @@
   splits:
   - split: 1
     text: "捅人伤害"
-    translated: "Stabbing someone causing injury plus {0:N0}"
+    translated: "Assault damage"
   - split: 1
     subIndex: 1
     text: "骰子"
@@ -14,7 +14,7 @@
   splits:
   - split: 1
     text: "捅人伤害"
-    translated: "Stabbing someone causing injury plus {0:N0}"
+    translated: "Assault damage"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -22,7 +22,7 @@
   splits:
   - split: 1
     text: "暗器伤害"
-    translated: "Hidden weapon damage increased by {0:N0}"
+    translated: "Hidden weapon damage"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -30,7 +30,7 @@
   splits:
   - split: 1
     text: "暗器命中补正"
-    translated: "Hidden weapon hit rate correction +{0:N0}"
+    translated: "Hidden Weapon Hit Rate Correction"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -38,7 +38,7 @@
   splits:
   - split: 1
     text: "暗器伤害"
-    translated: "Hidden weapon damage increased by {0:N0}"
+    translated: "Hidden weapon damage"
   - split: 1
     subIndex: 1
     text: "暗器骰子"
@@ -50,7 +50,7 @@
   splits:
   - split: 1
     text: "备揍减免"
-    translated: "Prepare to reduce the punishment by {0:N0}"
+    translated: "Prepare for a reduced beating"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -58,7 +58,7 @@
   splits:
   - split: 1
     text: "血量"
-    translated: "Health +{0:N0}"
+    translated: "Health points"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -66,7 +66,7 @@
   splits:
   - split: 1
     text: "移动速度加成"
-    translated: "Speed increase by {0:N0}%"
+    translated: "Increased movement speed"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -74,7 +74,7 @@
   splits:
   - split: 1
     text: "血毒"
-    translated: "Venomous Poison + {0:N0}"
+    translated: "Blood Poison"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -82,7 +82,7 @@
   splits:
   - split: 1
     text: "神经毒"
-    translated: "Poison nerve + {0:N0}"
+    translated: "Neurotoxin"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -142,7 +142,7 @@
   splits:
   - split: 1
     text: "陷阱伤害"
-    translated: "The trap inflicted damage on {0:N0}"
+    translated: "Trap damage"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -150,7 +150,7 @@
   splits:
   - split: 1
     text: "范围"
-    translated: "Range {0:N0}"
+    translated: "Range"
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -158,7 +158,7 @@
   splits:
   - split: 1
     text: "全部生命"
-    translated: "All health + {0:N0}"
+    translated: "All health"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -166,7 +166,7 @@
   splits:
   - split: 1
     text: "防御等级"
-    translated: "Defensive rank +{0:N0}"
+    translated: "Defense level"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -174,7 +174,7 @@
   splits:
   - split: 1
     text: "每秒回血"
-    translated: "HP regeneration per second +{0:N0}"
+    translated: "Heals per second"
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"

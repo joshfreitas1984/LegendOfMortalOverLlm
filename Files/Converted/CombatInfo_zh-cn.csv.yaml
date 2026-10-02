@@ -124,7 +124,7 @@
   splits:
   - split: 1
     text: "消耗气"
-    translated: "Qi Cost: {0}"
+    translated: "Qi Cost"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -132,7 +132,7 @@
   splits:
   - split: 1
     text: "恢复气"
-    translated: "Restore Qi: {0}"
+    translated: "Restore Qi"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -140,7 +140,7 @@
   splits:
   - split: 1
     text: "命中"
-    translated: "Hit Rate {0:P0}"
+    translated: "Hit Rate"
   templates:
   - split: 1
     template: "{0}\\n⟦0:P0⟧"
@@ -156,7 +156,7 @@
   splits:
   - split: 1
     text: "回避"
-    translated: "Evade {0:P0}"
+    translated: "Evade"
   templates:
   - split: 1
     template: "{0}\\n⟦0:P0⟧"
@@ -164,7 +164,7 @@
   splits:
   - split: 1
     text: "连击"
-    translated: "{0} Combo Attack"
+    translated: "Combo"
   templates:
   - split: 1
     template: "⟦0⟧{0}"
@@ -177,7 +177,7 @@
   splits:
   - split: 1
     text: "血"
-    translated: "Blood {0}"
+    translated: "Blood"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -185,7 +185,7 @@
   splits:
   - split: 1
     text: "气"
-    translated: "Qi {0}"
+    translated: "Qi"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -396,7 +396,7 @@
   splits:
   - split: 1
     text: "境界"
-    translated: "Realm‧{0}"
+    translated: "Realm"
   templates:
   - split: 1
     template: "{0}‧⟦0⟧"

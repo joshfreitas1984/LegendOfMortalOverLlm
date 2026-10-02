@@ -197,7 +197,7 @@
   splits:
   - split: 1
     text: "结局"
-    translated: "Outcome {0}"
+    translated: "Ending"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -215,7 +215,7 @@
   splits:
   - split: 1
     text: "次"
-    translated: "{0} times"
+    translated: "Next"
   templates:
   - split: 1
     template: "⟦0⟧ {0}"
@@ -238,7 +238,7 @@
   splits:
   - split: 1
     text: "导出成功"
-    translated: "Export successful: {0}"
+    translated: "Export successful"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -246,7 +246,7 @@
   splits:
   - split: 1
     text: "达成风云史"
-    translated: "Achieve the Wind and Cloud History '{0}'"
+    translated: "Achieve the Chronicles of the Storm and Legend"
   templates:
   - split: 1
     template: "{0}《⟦0⟧》"
@@ -657,7 +657,7 @@
   splits:
   - split: 1
     text: "消耗行动"
-    translated: "Spends action on {0}"
+    translated: "Spend an action"
   templates:
   - split: 1
     template: "{0} ⟦0⟧"
@@ -1287,7 +1287,7 @@
   splits:
   - split: 1
     text: "装备等级"
-    translated: "Equipment Level {0}"
+    translated: "Equipment level"
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -1473,7 +1473,7 @@
   splits:
   - split: 1
     text: "影响"
-    translated: "Impact: {0}"
+    translated: "Influence"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1497,7 +1497,7 @@
   splits:
   - split: 1
     text: "可习得"
-    translated: "Can be learned: {0}"
+    translated: "Learnable"
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1510,7 +1510,7 @@
   splits:
   - split: 1
     text: "消耗行动"
-    translated: "Spends action on {0}"
+    translated: "Spend an action"
 - raw: "Middle/Title/CostContribution,消耗贡献"
   splits:
   - split: 1
