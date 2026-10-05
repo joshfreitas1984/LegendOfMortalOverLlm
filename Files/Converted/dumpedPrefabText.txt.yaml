@@ -147,14 +147,11 @@
 - raw: "師弟你準備好了嗎?"
   splits:
   - text: "師弟你準備好了嗎"
-    translated: "Junior Disciple, are you ready?"
-    qcReviewedText: "Junior Disciple, are you ready??"
-    qcTranslated: "Junior Disciple, are you ready?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Junior Disciple, are you ready"
+    qcReviewedText: "Junior Disciple, are you ready?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}?"
 - raw: "成就名稱"
@@ -412,14 +409,11 @@
 - raw: "確定覆蓋目前的紀錄嗎?"
   splits:
   - text: "確定覆蓋目前的紀錄嗎"
-    translated: "Are you sure you want to overwrite the current record?"
-    qcReviewedText: "Are you sure you want to overwrite the current record??"
-    qcTranslated: "Are you sure you want to overwrite the current record?"
-    qcStatus: Corrected
+    translated: "Are you sure you want to overwrite the current record"
+    qcReviewedText: "Are you sure you want to overwrite the current record?"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - template: "{0}?"
 - raw: "空白的"

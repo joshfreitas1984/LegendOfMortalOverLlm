@@ -1352,8 +1352,8 @@
   splits:
   - split: 1
     text: "我根本没收过你订金！你从来都是出一张嘴就擅自决定的，要不是你仗着交情，我才懒得"
-    translated: "I never received your deposit! You always just talk and make decisions on your own. If it weren't for our friendship, I wouldn't even bother──"
-    qcReviewedText: "I never received your deposit! You always just talk and make decisions on your own. If it weren't for our friendship, I wouldn't even bother────"
+    translated: "I never received your deposit! You always just talk and make decisions on your own. If it weren't for our friendship, I wouldn't even bother"
+    qcReviewedText: "I never received your deposit! You always just talk and make decisions on your own. If it weren't for our friendship, I wouldn't even bother──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1486,14 +1486,11 @@
   splits:
   - split: 1
     text: "死掉了！"
-    translated: "──They died!"
-    qcReviewedText: "────They died!"
-    qcTranslated: "──They died!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "They died!"
+    qcReviewedText: "──They died!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -4553,8 +4550,8 @@
   splits:
   - split: 1
     text: "咦，等等，我刚刚是说笑"
-    translated: "Eh, wait a minute, I was just joking──"
-    qcReviewedText: "Eh, wait a minute, I was just joking────"
+    translated: "Eh, wait a minute, I was just joking"
+    qcReviewedText: "Eh, wait a minute, I was just joking──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19189,8 +19186,8 @@
   splits:
   - split: 1
     text: "师弟。"
-    translated: "──Junior Brother"
-    qcReviewedText: "────Junior Brother"
+    translated: "Junior Brother"
+    qcReviewedText: "──Junior Brother"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25637,8 +25634,8 @@
   splits:
   - split: 1
     text: "福"
-    translated: "Good Fortune──"
-    qcReviewedText: "Good Fortune────"
+    translated: "Good Fortune"
+    qcReviewedText: "Good Fortune──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26623,8 +26620,8 @@
   splits:
   - split: 1
     text: "福"
-    translated: "Good Fortune──"
-    qcReviewedText: "Good Fortune────"
+    translated: "Good Fortune"
+    qcReviewedText: "Good Fortune──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

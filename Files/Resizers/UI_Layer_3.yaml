@@ -2,20 +2,28 @@
   sampleText: Book of Life and Death
   idealFontSize: 30
   allowWordWrap: true
+- path: UI/Layer_3/LibraryPanel/Panels/Achievement/Title/Text
+  sampleText: Chronicles of Wind and Cloud
+  idealFontSize: 26
+  allowWordWrap: true
+  adjustX: 10
+  adjustY: 50
+  adjustWidth: -25
+  adjustHeight: 15
 - path: UI/Layer_3/LibraryPanel/Panels/Dead/Title/Text
   sampleText: Book of life and death
-  idealFontSize: 28
+  idealFontSize: 26
   allowWordWrap: true
   adjustX: 20
-  adjustY: 20
+  adjustY: 45
   adjustWidth: -40
-  adjustHeight: 40
+  adjustHeight: 15
 - path: UI/Layer_3/LibraryPanel/Panels/EndGame/Title/Text
   sampleText: History book
   idealFontSize: 28
   allowWordWrap: true
-  adjustX: 40
-  adjustY: 20
+  adjustX: 30
+  adjustY: 50
   adjustWidth: -60
   adjustHeight: 40
 - path: UI/Layer_3/LibraryPanel/Panels/Legend/SaveLegendPanel/Container/LoadLegendSlot*/Text
@@ -32,9 +40,26 @@
   adjustHeight: 20
 - path: UI/Layer_3/LibraryPanel/Panels/Legend/Title/Text
   sampleText: Legend of Living Heroes
-  idealFontSize: 28
+  idealFontSize: 26
   allowWordWrap: true
-  adjustX: 20
-  adjustY: 20
+  adjustX: 15
+  adjustY: 50
   adjustWidth: -20
-  adjustHeight: 40
+  adjustHeight: 20
+- path: UI/Layer_3/SystemSettingPanel/Header
+  sampleText: Setting
+  idealFontSize: 100
+  allowWordWrap: false
+  adjustX: -95
+- path: UI/Layer_3/SystemSettingPanel/Panel/Game/Title/Text
+  sampleText: Game setting
+  idealFontSize: 26
+  adjustY: 15
+- path: UI/Layer_3/SystemSettingPanel/Panel/Graphics/Title/Text
+  sampleText: Scene settings
+  idealFontSize: 26
+  adjustY: 10
+- path: UI/Layer_3/SystemSettingPanel/Panel/Sounds/Title (1)/Text
+  sampleText: Sound settings
+  idealFontSize: 26
+  adjustY: 15

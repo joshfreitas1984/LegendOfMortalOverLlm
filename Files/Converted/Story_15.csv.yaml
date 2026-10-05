@@ -2553,8 +2553,8 @@
   splits:
   - split: 1
     text: "天真小儿，休走"
-    translated: "Innocent child, don't go──"
-    qcReviewedText: "Innocent child, don't go────"
+    translated: "Innocent child, don't go"
+    qcReviewedText: "Innocent child, don't go──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5523,8 +5523,8 @@
   splits:
   - split: 1
     text: "抱歉，我迟"
-    translated: "Sorry, I am late──"
-    qcReviewedText: "Sorry, I am late────"
+    translated: "Sorry, I am late"
+    qcReviewedText: "Sorry, I am late──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9900,8 +9900,8 @@
   splits:
   - split: 1
     text: "毒就下在锦囊里那枚信签上。"
-    translated: "──The poison is placed in the message token inside the silk pouch."
-    qcReviewedText: "────The poison is placed in the message token inside the silk pouch."
+    translated: "The poison is placed in the message token inside the silk pouch."
+    qcReviewedText: "──The poison is placed in the message token inside the silk pouch."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12974,8 +12974,8 @@
   splits:
   - split: 1
     text: "到此为止"
-    translated: "Up to here──"
-    qcReviewedText: "Up to here────"
+    translated: "Up to here"
+    qcReviewedText: "Up to here──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14020,8 +14020,8 @@
   splits:
   - split: 1
     text: "这样吗？那我就称你"
-    translated: "Is that so? Then I will call you──"
-    qcReviewedText: "Is that so? Then I will call you────"
+    translated: "Is that so? Then I will call you"
+    qcReviewedText: "Is that so? Then I will call you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14169,8 +14169,8 @@
   splits:
   - split: 1
     text: "咦？你、你是"
-    translated: "Wait a second? You... you are──"
-    qcReviewedText: "Wait a second? You... you are────"
+    translated: "Wait a second? You... you are"
+    qcReviewedText: "Wait a second? You... you are──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15178,8 +15178,8 @@
   splits:
   - split: 1
     text: "那好，青城所有长老都已推派出人选，接着就"
-    translated: "That's good. All the elders of Qingcheng have already sent out their representatives, and then──"
-    qcReviewedText: "That's good. All the elders of Qingcheng have already sent out their representatives, and then────"
+    translated: "That's good. All the elders of Qingcheng have already sent out their representatives, and then"
+    qcReviewedText: "That's good. All the elders of Qingcheng have already sent out their representatives, and then──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15679,8 +15679,8 @@
   splits:
   - split: 1
     text: "好了，我自由了"
-    translated: "Alright, I'm free──"
-    qcReviewedText: "Alright, I'm free────"
+    translated: "Alright, I'm free"
+    qcReviewedText: "Alright, I'm free──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15691,14 +15691,11 @@
   splits:
   - split: 1
     text: "呜呀啊啊啊啊啊啊"
-    translated: "Woo‑woo‑ah‑ah‑ah‑ah‑ah‑ah──!"
-    qcReviewedText: "{size=35} Woo‑woo‑ah‑ah‑ah‑ah‑ah‑ah──!──！{/size}"
-    qcTranslated: "{size=35} Woo‑woo‑ah‑ah‑ah‑ah‑ah‑ah──!{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Woo‑woo‑ah‑ah‑ah‑ah‑ah‑ah"
+    qcReviewedText: "{size=35} Woo‑woo‑ah‑ah‑ah‑ah‑ah‑ah──！{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=35⟧{0}──！⟦/size⟧"
@@ -22501,14 +22498,11 @@
   splits:
   - split: 1
     text: "你们将此行遭遇禀报掌门，掌门抚须听完，不予置评，仍道"
-    translated: "You shall report this trip's incidents to the Master. The Master stroked his beard and listened intently, but did not comment, instead saying:"
-    qcReviewedText: "You shall report this trip's incidents to the Master. The Master stroked his beard and listened intently, but did not comment, instead saying:："
-    qcTranslated: "You shall report this trip's incidents to the Sect Leader. The Sect Leader stroked his beard and listened intently, but did not comment, instead saying:"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "You shall report this trip's incidents to the Master. The Master stroked his beard and listened intently, but did not comment, instead saying"
+    qcReviewedText: "You shall report this trip's incidents to the Master. The Master stroked his beard and listened intently, but did not comment, instead saying："
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}："
@@ -23273,8 +23267,8 @@
   splits:
   - split: 1
     text: "你以为"
-    translated: "You think──"
-    qcReviewedText: "You think────"
+    translated: "You think"
+    qcReviewedText: "You think──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -23984,8 +23978,8 @@
   splits:
   - split: 1
     text: "我"
-    translated: "I──"
-    qcReviewedText: "I────"
+    translated: "I"
+    qcReviewedText: "I──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25576,8 +25570,8 @@
   splits:
   - split: 1
     text: "你他妈"
-    translated: "You damn it──"
-    qcReviewedText: "You damn it────"
+    translated: "You damn it"
+    qcReviewedText: "You damn it──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26019,14 +26013,11 @@
   splits:
   - split: 1
     text: "啊啊啊啊啊"
-    translated: "Ah ah ah ah ah──!!"
-    qcReviewedText: "{size=35} Ah ah ah ah ah──!!──！！{/size}"
-    qcTranslated: "{size=35} Ah ah ah ah ah──!!{/size}"
-    qcStatus: Corrected
+    translated: "Ah ah ah ah ah"
+    qcReviewedText: "{size=35} Ah ah ah ah ah──！！{/size}"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=35⟧{0}──！！⟦/size⟧"
@@ -27454,14 +27445,11 @@
   splits:
   - split: 1
     text: "喝哎咿～剑圣第四极招"
-    translated: "Heh! Hey! The Fourth Ultimate Technique of the Sword Saint──!"
-    qcReviewedText: "Heh! Hey! The Fourth Ultimate Technique of the Sword Saint──!──！"
-    qcTranslated: "Heh! Hey! The Fourth Ultimate Technique of the Sword Saint──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Heh! Hey! The Fourth Ultimate Technique of the Sword Saint"
+    qcReviewedText: "Heh! Hey! The Fourth Ultimate Technique of the Sword Saint──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -27487,14 +27475,11 @@
   splits:
   - split: 1
     text: "喝哎咿～看我的剑圣第四极招"
-    translated: "Hah! Eh! Watch my Sword Saint's fourth ultimate technique──!"
-    qcReviewedText: "Hah! Eh! Watch my Sword Saint's fourth ultimate technique──!──！"
-    qcTranslated: "Hah! Eh! Watch my Sword Saint's fourth ultimate technique──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Hah! Eh! Watch my Sword Saint's fourth ultimate technique"
+    qcReviewedText: "Hah! Eh! Watch my Sword Saint's fourth ultimate technique──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -28390,8 +28375,8 @@
   splits:
   - split: 1
     text: "哥"
-    translated: "Brother──"
-    qcReviewedText: "Brother────"
+    translated: "Brother"
+    qcReviewedText: "Brother──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30280,8 +30265,8 @@
   splits:
   - split: 1
     text: "状态绝佳，现在的话，说不定能使出那招"
-    translated: "In excellent condition, now, they might be able to execute that move──"
-    qcReviewedText: "In excellent condition, now, they might be able to execute that move────"
+    translated: "In excellent condition, now, they might be able to execute that move"
+    qcReviewedText: "In excellent condition, now, they might be able to execute that move──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33957,9 +33942,9 @@
   splits:
   - split: 1
     text: "解锁"
-    translated: "Unlocking:???"
-    qcReviewedText: "Unlocking:???：？？？"
-    qcTranslated: "Unlocking: ???"
+    translated: "Unlocking"
+    qcReviewedText: "Unlocking：？？？"
+    qcTranslated: "Unlock: ???"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -37103,8 +37088,8 @@
   splits:
   - split: 1
     text: "哈！就差一步，老夫"
-    translated: "Hah! Just one step away, Old Man ──"
-    qcReviewedText: "Hah! Just one step away, Old Man ────"
+    translated: "Hah! Just one step away, Old Man"
+    qcReviewedText: "Hah! Just one step away, Old Man──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -41267,14 +41252,11 @@
   splits:
   - split: 1
     text: "唔哦哦哦哦"
-    translated: "Oh oh oh oh──!!"
-    qcReviewedText: "{size=35} Oh oh oh oh──!!──！！{/size}"
-    qcTranslated: "{size=35} Oh oh oh oh──!!{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Oh oh oh oh"
+    qcReviewedText: "{size=35} Oh oh oh oh──！！{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=35⟧{0}──！！⟦/size⟧"
@@ -41354,8 +41336,8 @@
   splits:
   - split: 1
     text: "成功了！你看！我就说好人有好报"
-    translated: "──It worked! Look! I told you that good people get good rewards──"
-    qcReviewedText: "────It worked! Look! I told you that good people get good rewards────"
+    translated: "It worked! Look! I told you that good people get good rewards"
+    qcReviewedText: "──It worked! Look! I told you that good people get good rewards──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -43700,8 +43682,8 @@
   splits:
   - split: 1
     text: "唐"
-    translated: "Tang──"
-    qcReviewedText: "Tang────"
+    translated: "Tang"
+    qcReviewedText: "Tang──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -47681,8 +47663,8 @@
   splits:
   - split: 1
     text: "我"
-    translated: "I──"
-    qcReviewedText: "I────"
+    translated: "I"
+    qcReviewedText: "I──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -48169,8 +48151,8 @@
   splits:
   - split: 1
     text: "这又不是什么"
-    translated: "This is not anything──"
-    qcReviewedText: "This is not anything────"
+    translated: "This is not anything"
+    qcReviewedText: "This is not anything──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -55542,15 +55524,14 @@
   splits:
   - split: 1
     text: "等我当真了，喜不能自胜，得意忘形之际，你就会说"
-    translated: "When I take it seriously, my joy cannot be contained, and in the moment of misplaced satisfaction, you will say:"
-    qcReviewedText: "When I take it seriously, my joy cannot be contained, and in the moment of misplaced satisfaction, you will say:："
-    qcTranslated: "When I take it seriously, my joy becomes uncontrollable, and in the moment of elation, you will say:"
+    translated: "When I take it seriously, my joy cannot be contained, and in the moment of misplaced satisfaction, you will say"
+    qcReviewedText: "When I take it seriously, my joy cannot be contained, and in the moment of misplaced satisfaction, you will say："
+    qcTranslated: "When I take it seriously, my joy cannot be contained, and in the moment of elation, you will say:"
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
     qcDefectCategories:
-    - UnnaturalPhrasing
-    - OtherNamedDefect
+    - LostIdiom
   templates:
   - split: 1
     template: "{0}："
@@ -55585,9 +55566,9 @@
   splits:
   - split: 1
     text: "你干嘛，你要干嘛？冷静点，冷"
-    translated: "Why are you doing this? What do you want to do? Calm down, Cold──"
-    qcReviewedText: "Why are you doing this? What do you want to do? Calm down, Cold────"
-    qcTranslated: "Why are you doing this? What do you want to do? Calm down, C‑c‑calm────"
+    translated: "Why are you doing this? What do you want to do? Calm down, Cold"
+    qcReviewedText: "Why are you doing this? What do you want to do? Calm down, Cold──"
+    qcTranslated: "Why are you doing this? What do you want to do? Calm down, C‑c‑calm──"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedStutter

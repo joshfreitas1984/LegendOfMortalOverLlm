@@ -3888,14 +3888,11 @@
   splits:
   - split: 1
     text: "中旬"
-    translated: "Mid‑+1"
-    qcReviewedText: "Mid‑+1+1"
-    qcTranslated: "Mid‑+1"
-    qcStatus: Corrected
+    translated: "Mid month"
+    qcReviewedText: "Mid month+1"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+1"
@@ -3948,15 +3945,11 @@
   splits:
   - split: 1
     text: "下旬"
-    translated: "Late +1"
-    qcReviewedText: "Late +1+1"
-    qcTranslated: "Late +1"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Late month"
+    qcReviewedText: "Late month+1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+1"

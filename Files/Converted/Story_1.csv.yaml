@@ -278,8 +278,8 @@
   splits:
   - split: 1
     text: "各位师兄早"
-    translated: "Brothers in cultivation, good morning──"
-    qcReviewedText: "Brothers in cultivation, good morning────"
+    translated: "Brothers in cultivation, good morning"
+    qcReviewedText: "Brothers in cultivation, good morning──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3223,14 +3223,11 @@
   splits:
   - split: 1
     text: "该如何处置"
-    translated: "How should we handle this?"
-    qcReviewedText: "How should we handle this??"
-    qcTranslated: "How should we handle this?"
-    qcStatus: Corrected
+    translated: "How should we handle this"
+    qcReviewedText: "How should we handle this?"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}?"
@@ -19565,8 +19562,8 @@
   splits:
   - split: 1
     text: "那便是去杀了南宫世家的仇人。"
-    translated: "──Then it is to kill the enemies of the Nangong family."
-    qcReviewedText: "────Then it is to kill the enemies of the Nangong family."
+    translated: "Then it is to kill the enemies of the Nangong family."
+    qcReviewedText: "──Then it is to kill the enemies of the Nangong family."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24073,14 +24070,11 @@
   splits:
   - split: 1
     text: "你这杂种"
-    translated: "You bastard──!"
-    qcReviewedText: "You bastard──!──！"
-    qcTranslated: "You bastard──!"
-    qcStatus: Corrected
+    translated: "You bastard"
+    qcReviewedText: "You bastard──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -29092,8 +29086,8 @@
   splits:
   - split: 1
     text: "有理，那依你说该交谁好？"
-    translated: "──Reasonable, then according to your opinion, to whom should it be given?"
-    qcReviewedText: "────Reasonable, then according to your opinion, to whom should it be given?"
+    translated: "Reasonable, then according to your opinion, to whom should it be given?"
+    qcReviewedText: "──Reasonable, then according to your opinion, to whom should it be given?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30180,9 +30174,9 @@
   splits:
   - split: 1
     text: "那年我和二师弟都心有所属，你入门得晚，没曾见过。本门曾有一位特别漂亮的小师姑，名叫"
-    translated: "That year, both I and my second junior brother had someone they were in love with. You joined the sect later, so you haven't seen it. Our sect once had a particularly beautiful young master named──"
-    qcReviewedText: "That year, both I and my second junior brother had someone they were in love with. You joined the sect later, so you haven't seen it. Our sect once had a particularly beautiful young master named────"
-    qcTranslated: "That year, both I and my second junior brother had someone they were in love with. You joined the sect later, so you haven't seen her. Our sect once had a particularly beautiful young female disciple named────"
+    translated: "That year, both I and my second junior brother had someone they were in love with. You joined the sect later, so you haven't seen it. Our sect once had a particularly beautiful young master named"
+    qcReviewedText: "That year, both I and my second junior brother had someone they were in love with. You joined the sect later, so you haven't seen it. Our sect once had a particularly beautiful young master named──"
+    qcTranslated: "That year, both I and my second junior brother had someone they were in love with. You joined the sect later, so you haven't seen her. Our sect once had a particularly beautiful young female disciple named──"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -30794,8 +30788,8 @@
   splits:
   - split: 1
     text: "什么！这可真是一件宝贝！耕阳读书斋的墨宝，千金难换，让我见识见识"
-    translated: "What! This is truly a treasure! Calligraphy from Gengyang Reading Hall, priceless, let me have a look at it──"
-    qcReviewedText: "What! This is truly a treasure! Calligraphy from Gengyang Reading Hall, priceless, let me have a look at it────"
+    translated: "What! This is truly a treasure! Calligraphy from Gengyang Reading Hall, priceless, let me have a look at it"
+    qcReviewedText: "What! This is truly a treasure! Calligraphy from Gengyang Reading Hall, priceless, let me have a look at it──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30864,8 +30858,8 @@
   splits:
   - split: 1
     text: "下一位应帖来者……孤云山派少掌门瑞笙到"
-    translated: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived──"
-    qcReviewedText: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived────"
+    translated: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived"
+    qcReviewedText: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30978,8 +30972,8 @@
   splits:
   - split: 1
     text: "下一位应帖来者……孤云山派少掌门瑞笙到"
-    translated: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived──"
-    qcReviewedText: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived────"
+    translated: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived"
+    qcReviewedText: "The next expected guest... Guyun Mountain Sect's junior master Rui Sheng has arrived──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32602,8 +32596,8 @@
   splits:
   - split: 1
     text: "谁跟你说我是下人的？你等等"
-    translated: "Who told you I'm a servant? Wait a minute──"
-    qcReviewedText: "Who told you I'm a servant? Wait a minute────"
+    translated: "Who told you I'm a servant? Wait a minute"
+    qcReviewedText: "Who told you I'm a servant? Wait a minute──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33131,8 +33125,8 @@
   splits:
   - split: 1
     text: "哎，可是听说你那黑白双剑也是唐"
-    translated: "Hey, but I heard that your black and white twin swords are also Tang──"
-    qcReviewedText: "Hey, but I heard that your black and white twin swords are also Tang────"
+    translated: "Hey, but I heard that your black and white twin swords are also Tang"
+    qcReviewedText: "Hey, but I heard that your black and white twin swords are also Tang──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

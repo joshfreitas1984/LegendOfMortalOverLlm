@@ -5800,8 +5800,8 @@
   splits:
   - split: 1
     text: "二师兄，你"
-    translated: "Second Senior Brother, you──"
-    qcReviewedText: "Second Senior Brother, you────"
+    translated: "Second Senior Brother, you"
+    qcReviewedText: "Second Senior Brother, you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7291,8 +7291,8 @@
   splits:
   - split: 1
     text: "这还不简单"
-    translated: "This isn't complicated at all──"
-    qcReviewedText: "This isn't complicated at all────"
+    translated: "This isn't complicated at all"
+    qcReviewedText: "This isn't complicated at all──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7553,8 +7553,8 @@
   splits:
   - split: 1
     text: "好咧"
-    translated: "Alright then──"
-    qcReviewedText: "Alright then────"
+    translated: "Alright then"
+    qcReviewedText: "Alright then──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8398,8 +8398,8 @@
   splits:
   - split: 1
     text: "冰糖葫芦回"
-    translated: "Candied Hawthorn Berries Come Back──"
-    qcReviewedText: "Candied Hawthorn Berries Come Back────"
+    translated: "Candied Hawthorn Berries Come Back"
+    qcReviewedText: "Candied Hawthorn Berries Come Back──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10681,14 +10681,11 @@
   splits:
   - split: 1
     text: "各位兄弟，来呀！把这厮嘴给堵上！"
-    translated: "──All brothers, come on! Plug this scoundrel's mouth!"
-    qcReviewedText: "────All brothers, come on! Plug this scoundrel's mouth!"
-    qcTranslated: "────All brothers, come on! Stuff this scoundrel's mouth shut!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "All brothers, come on! Plug this scoundrel's mouth!"
+    qcReviewedText: "──All brothers, come on! Plug this scoundrel's mouth!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -16672,8 +16669,8 @@
   splits:
   - split: 1
     text: "往哪儿走"
-    translated: "Where to go──"
-    qcReviewedText: "Where to go────"
+    translated: "Where to go"
+    qcReviewedText: "Where to go──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -17020,8 +17017,8 @@
   splits:
   - split: 1
     text: "是这家伙"
-    translated: "It's this guy──"
-    qcReviewedText: "It's this guy────"
+    translated: "It's this guy"
+    qcReviewedText: "It's this guy──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19270,8 +19267,8 @@
   splits:
   - split: 1
     text: "我也想当留下来的那一半人"
-    translated: "I also want to be the half that stays behind──"
-    qcReviewedText: "I also want to be the half that stays behind────"
+    translated: "I also want to be the half that stays behind"
+    qcReviewedText: "I also want to be the half that stays behind──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21320,8 +21317,8 @@
   splits:
   - split: 1
     text: "唐门的暗器享誉江湖，放火之前势必要搜刮一番"
-    translated: "The Tang Clan's Hidden Weapons are renowned in the Jianghu; before setting fire, one must definitely scour thoroughly──"
-    qcReviewedText: "The Tang Clan's Hidden Weapons are renowned in the Jianghu; before setting fire, one must definitely scour thoroughly────"
+    translated: "The Tang Clan's Hidden Weapons are renowned in the Jianghu; before setting fire, one must definitely scour thoroughly"
+    qcReviewedText: "The Tang Clan's Hidden Weapons are renowned in the Jianghu; before setting fire, one must definitely scour thoroughly──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21818,8 +21815,8 @@
   splits:
   - split: 1
     text: "师姊，你们"
-    translated: "Senior Sister, you all──"
-    qcReviewedText: "Senior Sister, you all────"
+    translated: "Senior Sister, you all"
+    qcReviewedText: "Senior Sister, you all──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26801,14 +26798,11 @@
   splits:
   - split: 1
     text: "呜……呜哇"
-    translated: "Wu......Wuwa──!"
-    qcReviewedText: "Wu......Wuwa──!──！"
-    qcTranslated: "Wu......Wuwa──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Wu......Wuwa"
+    qcReviewedText: "Wu......Wuwa──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -31714,8 +31708,8 @@
   splits:
   - split: 1
     text: "师父在"
-    translated: "Master is here──"
-    qcReviewedText: "Master is here────"
+    translated: "Master is here"
+    qcReviewedText: "Master is here──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32977,9 +32971,9 @@
   splits:
   - split: 1
     text: "师弟等率十一代弟子，恭迎青城掌门邹真人"
-    translated: "The disciples and their master lead ten generations of disciples to respectfully welcome the Qingcheng Sect's headmaster, Zhou Immortal──"
-    qcReviewedText: "The disciples and their master lead ten generations of disciples to respectfully welcome the Qingcheng Sect's headmaster, Zhou Immortal────"
-    qcTranslated: "Junior Brother and others lead the eleventh generation of disciples to respectfully welcome the Qingcheng Sect's headmaster, Zhou Immortal────"
+    translated: "The disciples and their master lead ten generations of disciples to respectfully welcome the Qingcheng Sect's headmaster, Zhou Immortal"
+    qcReviewedText: "The disciples and their master lead ten generations of disciples to respectfully welcome the Qingcheng Sect's headmaster, Zhou Immortal──"
+    qcTranslated: "Junior Brother and others lead the eleventh generation of disciples to respectfully welcome the Qingcheng Sect Master, Zhou Immortal──"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -33095,8 +33089,8 @@
   splits:
   - split: 1
     text: "邹"
-    translated: "Zou──"
-    qcReviewedText: "Zou────"
+    translated: "Zou"
+    qcReviewedText: "Zou──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

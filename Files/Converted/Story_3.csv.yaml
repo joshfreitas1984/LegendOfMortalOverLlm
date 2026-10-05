@@ -1017,8 +1017,8 @@
   splits:
   - split: 1
     text: "！不用，哈哈！以后换俺来帮你。"
-    translated: "──! No need, haha! From now on, let me help you."
-    qcReviewedText: "────! No need, haha! From now on, let me help you."
+    translated: "! No need, haha! From now on, let me help you."
+    qcReviewedText: "──! No need, haha! From now on, let me help you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3714,8 +3714,8 @@
   splits:
   - split: 1
     text: "应该可以，就算不能赢，趁他们掉以轻心，冲击后方，让丐帮分心，受围的官兵分队就能重新会合，丐帮功败垂成，就只有撤退一途了。"
-    translated: "──It should be possible. Even if we can't win, we can take advantage of their complacency to strike from behind, distracting the Beggar Sect. The surrounded officials and soldiers will then be able to regroup, and the Beggar Sect will have no choice but to retreat after their plans fail."
-    qcReviewedText: "────It should be possible. Even if we can't win, we can take advantage of their complacency to strike from behind, distracting the Beggar Sect. The surrounded officials and soldiers will then be able to regroup, and the Beggar Sect will have no choice but to retreat after their plans fail."
+    translated: "It should be possible. Even if we can't win, we can take advantage of their complacency to strike from behind, distracting the Beggar Sect. The surrounded officials and soldiers will then be able to regroup, and the Beggar Sect will have no choice but to retreat after their plans fail."
+    qcReviewedText: "──It should be possible. Even if we can't win, we can take advantage of their complacency to strike from behind, distracting the Beggar Sect. The surrounded officials and soldiers will then be able to regroup, and the Beggar Sect will have no choice but to retreat after their plans fail."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5373,14 +5373,11 @@
   splits:
   - split: 1
     text: "你这家伙"
-    translated: "You rascal──!"
-    qcReviewedText: "You rascal──!──！"
-    qcTranslated: "You rascal──!"
-    qcStatus: Corrected
+    translated: "You rascal"
+    qcReviewedText: "You rascal──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -6106,15 +6103,11 @@
   splits:
   - split: 1
     text: "你还"
-    translated: "You still──!"
-    qcReviewedText: "You still──!──！"
-    qcTranslated: "You still──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
-    - OtherNamedDefect
+    translated: "You still"
+    qcReviewedText: "You still──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -6282,14 +6275,11 @@
   splits:
   - split: 1
     text: "赢了！"
-    translated: "──We won!"
-    qcReviewedText: "────We won!"
-    qcTranslated: "──We won!"
-    qcStatus: Corrected
+    translated: "We won!"
+    qcReviewedText: "──We won!"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -6342,14 +6332,11 @@
   splits:
   - split: 1
     text: "停"
-    translated: "Stop──!"
-    qcReviewedText: "Stop──!──！"
-    qcTranslated: "Stop──!"
-    qcStatus: Corrected
+    translated: "Stop"
+    qcReviewedText: "Stop──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -7062,8 +7049,8 @@
   splits:
   - split: 1
     text: "好狠的家伙，他把眼光扫向南宫家丁，是想攻他不备，挟作人质吗？既然如此，这里我就"
-    translated: "What a ruthless individual. They cast their gaze towards the Nangong Family Servant, perhaps intending to catch them off guard and take them hostage? If that's the case, then here I shall──"
-    qcReviewedText: "What a ruthless individual. They cast their gaze towards the Nangong Family Servant, perhaps intending to catch them off guard and take them hostage? If that's the case, then here I shall────"
+    translated: "What a ruthless individual. They cast their gaze towards the Nangong Family Servant, perhaps intending to catch them off guard and take them hostage? If that's the case, then here I shall"
+    qcReviewedText: "What a ruthless individual. They cast their gaze towards the Nangong Family Servant, perhaps intending to catch them off guard and take them hostage? If that's the case, then here I shall──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7319,14 +7306,11 @@
   splits:
   - split: 1
     text: "你"
-    translated: "You──!"
-    qcReviewedText: "You──!──！"
-    qcTranslated: "You──!"
-    qcStatus: Corrected
+    translated: "You"
+    qcReviewedText: "You──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -14065,14 +14049,11 @@
   splits:
   - split: 1
     text: "哇"
-    translated: "Wow──!"
-    qcReviewedText: "Wow──!──！"
-    qcTranslated: "Wow──!"
-    qcStatus: Corrected
+    translated: "Wow"
+    qcReviewedText: "Wow──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -17907,14 +17888,11 @@
   splits:
   - split: 1
     text: "你"
-    translated: "You──!"
-    qcReviewedText: "You──!──！"
-    qcTranslated: "You──!"
-    qcStatus: Corrected
+    translated: "You"
+    qcReviewedText: "You──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -19247,8 +19225,8 @@
   splits:
   - split: 1
     text: "大事不好"
-    translated: "Something terrible has happened──"
-    qcReviewedText: "Something terrible has happened────"
+    translated: "Something terrible has happened"
+    qcReviewedText: "Something terrible has happened──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20593,8 +20571,8 @@
   splits:
   - split: 1
     text: "掌门，您这是"
-    translated: "Master, what is this──"
-    qcReviewedText: "Master, what is this────"
+    translated: "Master, what is this"
+    qcReviewedText: "Master, what is this──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21773,8 +21751,8 @@
   splits:
   - split: 1
     text: "好，别怪我没给你机会"
-    translated: "Alright, don't blame me for not giving you a chance──"
-    qcReviewedText: "Alright, don't blame me for not giving you a chance────"
+    translated: "Alright, don't blame me for not giving you a chance"
+    qcReviewedText: "Alright, don't blame me for not giving you a chance──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22295,14 +22273,11 @@
   splits:
   - split: 1
     text: "嘎啊"
-    translated: "Ah──!"
-    qcReviewedText: "Ah──!──！"
-    qcTranslated: "Ah──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ah"
+    qcReviewedText: "Ah──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -22322,8 +22297,8 @@
   splits:
   - split: 1
     text: "三日之后"
-    translated: "Three days later──"
-    qcReviewedText: "Three days later────"
+    translated: "Three days later"
+    qcReviewedText: "Three days later──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24313,8 +24288,8 @@
   splits:
   - split: 1
     text: "她就是"
-    translated: "She is──"
-    qcReviewedText: "She is────"
+    translated: "She is"
+    qcReviewedText: "She is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24970,14 +24945,11 @@
   splits:
   - split: 1
     text: "你、你、你"
-    translated: "You, you, you──!"
-    qcReviewedText: "You, you, you──!──！"
-    qcTranslated: "You, you, you──!"
-    qcStatus: Corrected
+    translated: "You, you, you"
+    qcReviewedText: "You, you, you──！"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -25786,8 +25758,8 @@
   splits:
   - split: 1
     text: "欠操练的废物，通通退下！看我施毒将这群冒牌货一网打尽"
-    translated: "Useless trash who lack training, all of you step back! Watch me use poison to capture this group of impostors in one fell swoop──"
-    qcReviewedText: "Useless trash who lack training, all of you step back! Watch me use poison to capture this group of impostors in one fell swoop────"
+    translated: "Useless trash who lack training, all of you step back! Watch me use poison to capture this group of impostors in one fell swoop"
+    qcReviewedText: "Useless trash who lack training, all of you step back! Watch me use poison to capture this group of impostors in one fell swoop──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27009,15 +26981,14 @@
   splits:
   - split: 1
     text: "你、你干什么，别"
-    translated: "What are you doing? Stop──!"
-    qcReviewedText: "What are you doing? Stop──!──！"
+    translated: "What are you doing? Stop"
+    qcReviewedText: "What are you doing? Stop──！"
     qcTranslated: "Y‑y‑you, what are you doing? Stop──!"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedStutter
     qcDefectCategories:
     - DroppedStutter
-    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}──！"
@@ -29158,14 +29129,11 @@
   splits:
   - split: 1
     text: "你"
-    translated: "You──!"
-    qcReviewedText: "You──!──Why is this!"
-    qcTranslated: "You──why is this!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "You"
+    qcReviewedText: "You──Why is this!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "这是为何！"
@@ -30513,8 +30481,8 @@
   splits:
   - split: 1
     text: "等等，赵活，你"
-    translated: "Wait, Zhao Huo, you──"
-    qcReviewedText: "Wait, Zhao Huo, you────"
+    translated: "Wait, Zhao Huo, you"
+    qcReviewedText: "Wait, Zhao Huo, you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36059,8 +36027,8 @@
   splits:
   - split: 1
     text: "莫非"
-    translated: "Could it be that──"
-    qcReviewedText: "Could it be that────"
+    translated: "Could it be that"
+    qcReviewedText: "Could it be that──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36071,8 +36039,8 @@
   splits:
   - split: 1
     text: "莫非那石夫人，就藏身在"
-    translated: "Could it be that Lady Shi is hiding in──"
-    qcReviewedText: "Could it be that Lady Shi is hiding in────"
+    translated: "Could it be that Lady Shi is hiding in"
+    qcReviewedText: "Could it be that Lady Shi is hiding in──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36960,8 +36928,8 @@
   splits:
   - split: 1
     text: "唐"
-    translated: "Tang──"
-    qcReviewedText: "Tang────"
+    translated: "Tang"
+    qcReviewedText: "Tang──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -38606,8 +38574,8 @@
   splits:
   - split: 1
     text: "你、你是"
-    translated: "You, you are──"
-    qcReviewedText: "You, you are────。"
+    translated: "You, you are"
+    qcReviewedText: "You, you are──。"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -39033,14 +39001,11 @@
   splits:
   - split: 1
     text: "他……他是自己有病，人不是我杀的！呜哇"
-    translated: "He... he was sick on his own; I didn't kill him! Wuwah──!"
-    qcReviewedText: "He... he was sick on his own; I didn't kill him! Wuwah──!──！"
-    qcTranslated: "He... he was sick on his own; I didn't kill him! Wuwah──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "He... he was sick on his own; I didn't kill him! Wuwah"
+    qcReviewedText: "He... he was sick on his own; I didn't kill him! Wuwah──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -39412,8 +39377,8 @@
   splits:
   - split: 1
     text: "我知道她，她就是"
-    translated: "I know her, she is──"
-    qcReviewedText: "I know her, she is────"
+    translated: "I know her, she is"
+    qcReviewedText: "I know her, she is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

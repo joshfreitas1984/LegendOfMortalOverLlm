@@ -1178,3 +1178,19 @@
 
 - raw: 小友
   result: Young
+
+- raw: "下旬"
+  result: "Late month"
+  allowalt: 
+    - end of the month
+    - end of this month
+- raw: "中旬"
+  result: "Mid month"
+  allowalt: 
+    - middle of the month
+    - middle of this month
+- raw: "上旬"
+  result: "Early Month"
+  allowalt: 
+    - start of the month
+    - start of this month

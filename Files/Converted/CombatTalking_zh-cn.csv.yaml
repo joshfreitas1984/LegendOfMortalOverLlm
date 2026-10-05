@@ -4511,14 +4511,11 @@
   splits:
   - split: 1
     text: "多谢兄台！。"
-    translated: "──Thank you, Sir Brother!"
-    qcReviewedText: "────Thank you, Sir Brother!"
-    qcTranslated: "──Thank you, Brother!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Thank you, Sir Brother!"
+    qcReviewedText: "──Thank you, Sir Brother!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -5898,14 +5895,11 @@
   splits:
   - split: 1
     text: "哇、等"
-    translated: "Wow, wait──!"
-    qcReviewedText: "Wow, wait──!──！"
-    qcTranslated: "Wow, wait──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Wow, wait"
+    qcReviewedText: "Wow, wait──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -8053,8 +8047,8 @@
   splits:
   - split: 1
     text: "萤姊姊，不要打"
-    translated: "Sister Ying, don't hit──"
-    qcReviewedText: "Sister Ying, don't hit────"
+    translated: "Sister Ying, don't hit"
+    qcReviewedText: "Sister Ying, don't hit──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

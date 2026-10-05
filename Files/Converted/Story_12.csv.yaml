@@ -1261,8 +1261,8 @@
   splits:
   - split: 1
     text: "铁、铁拳弟子郁竹，参见"
-    translated: "Iron Fist Disciple Yu Zhu, reporting in──"
-    qcReviewedText: "Iron Fist Disciple Yu Zhu, reporting in────"
+    translated: "Iron Fist Disciple Yu Zhu, reporting in"
+    qcReviewedText: "Iron Fist Disciple Yu Zhu, reporting in──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13471,8 +13471,8 @@
   splits:
   - split: 1
     text: "那当然是"
-    translated: "Of course it is──"
-    qcReviewedText: "Of course it is────"
+    translated: "Of course it is"
+    qcReviewedText: "Of course it is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18818,8 +18818,8 @@
   splits:
   - split: 1
     text: "且慢"
-    translated: "Hold on──"
-    qcReviewedText: "Hold on────"
+    translated: "Hold on"
+    qcReviewedText: "Hold on──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18987,8 +18987,8 @@
   splits:
   - split: 1
     text: "好！哈哈！好个打抱不平。你们将来要找千灯楼麻烦，也让老道掺一脚。我淡出江湖只是没人可揍，修理恶棍却是义不容辞。"
-    translated: "──Good! Ha ha! What a case of upholding justice. In the future, if you need to cause trouble for Thousand Lantern Tower, let Elder Daoist join in as well. My withdrawal from the Jianghu is because there's no one worth beating, but dealing with evil scoundrels is my duty."
-    qcReviewedText: "────Good! Ha ha! What a case of upholding justice. In the future, if you need to cause trouble for Thousand Lantern Tower, let Elder Daoist join in as well. My withdrawal from the Jianghu is because there's no one worth beating, but dealing with evil scoundrels is my duty."
+    translated: "Good! Ha ha! What a case of upholding justice. In the future, if you need to cause trouble for Thousand Lantern Tower, let Elder Daoist join in as well. My withdrawal from the Jianghu is because there's no one worth beating, but dealing with evil scoundrels is my duty."
+    qcReviewedText: "──Good! Ha ha! What a case of upholding justice. In the future, if you need to cause trouble for Thousand Lantern Tower, let Elder Daoist join in as well. My withdrawal from the Jianghu is because there's no one worth beating, but dealing with evil scoundrels is my duty."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22128,14 +22128,11 @@
   splits:
   - split: 1
     text: "噢"
-    translated: "Oh────!!"
-    qcReviewedText: "{size=35} Oh────!!────！！{/size}"
-    qcTranslated: "{size=35} Oh────!!{/size}"
-    qcStatus: Corrected
+    translated: "Oh"
+    qcReviewedText: "{size=35} Oh────！！{/size}"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=35⟧{0}────！！⟦/size⟧"
@@ -22282,8 +22279,8 @@
   splits:
   - split: 1
     text: "师兄，刚才"
-    translated: "Senior Brother, just now──"
-    qcReviewedText: "Senior Brother, just now────"
+    translated: "Senior Brother, just now"
+    qcReviewedText: "Senior Brother, just now──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24717,8 +24714,8 @@
   splits:
   - split: 1
     text: "龙姑娘，我来帮"
-    translated: "Miss Long, I'll help──"
-    qcReviewedText: "Miss Long, I'll help────"
+    translated: "Miss Long, I'll help"
+    qcReviewedText: "Miss Long, I'll help──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25072,14 +25069,11 @@
   splits:
   - split: 1
     text: "唔哦哦哦"
-    translated: "Oh no! Oh no! Oh no!──!"
-    qcReviewedText: "Oh no! Oh no! Oh no!──!──！"
-    qcTranslated: "Uh oh oh oh──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Oh no! Oh no! Oh no"
+    qcReviewedText: "Oh no! Oh no! Oh no──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -25413,14 +25407,13 @@
   splits:
   - split: 1
     text: "武林盟中有人懂兵法，贫道料他下一波来袭，必定消极殆战，包围外堡"
-    translated: "In the Wulin Alliance, there are those who understand military strategy. I, the humble monk, predict that his next assault will certainly result in a passive defeat, surrounding the outer fortress──"
-    qcReviewedText: "In the Wulin Alliance, there are those who understand military strategy. I, the humble monk, predict that his next assault will certainly result in a passive defeat, surrounding the outer fortress────"
-    qcTranslated: "In the Wulin Alliance, there are those who understand military strategy. I, the humble Daoist, predict that his next assault will certainly be a passive stalemate, surrounding the outer fortress────"
+    translated: "In the Wulin Alliance, there are those who understand military strategy. I, the humble monk, predict that his next assault will certainly result in a passive defeat, surrounding the outer fortress"
+    qcReviewedText: "In the Wulin Alliance, there are those who understand military strategy. I, the humble monk, predict that his next assault will certainly result in a passive defeat, surrounding the outer fortress──"
+    qcTranslated: "In the Wulin Alliance, there are those who understand military strategy. I, the humble monk, predict that his next assault will certainly be a passive stalemate, surrounding the outer fortress──"
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DomainTerm
     - UnnaturalPhrasing
   templates:
   - split: 1
@@ -27405,8 +27398,8 @@
   splits:
   - split: 1
     text: "弟，我方才听说"
-    translated: "Brother, I just heard that──"
-    qcReviewedText: "Brother, I just heard that────"
+    translated: "Brother, I just heard that"
+    qcReviewedText: "Brother, I just heard that──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28645,8 +28638,8 @@
   splits:
   - split: 1
     text: "不能，落单是"
-    translated: "No, being alone is──"
-    qcReviewedText: "No, being alone is────"
+    translated: "No, being alone is"
+    qcReviewedText: "No, being alone is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28666,15 +28659,14 @@
   splits:
   - split: 1
     text: "赵兄弟，大大大大事不好，武林盟那群"
-    translated: "Brother Zhao, big trouble, the Wulin Alliance those folks──"
-    qcReviewedText: "Brother Zhao, big trouble, the Wulin Alliance those folks────"
-    qcTranslated: "Brother Zhao, big trouble, the Wulin Alliance lot────"
+    translated: "Brother Zhao, big trouble, the Wulin Alliance those folks"
+    qcReviewedText: "Brother Zhao, big trouble, the Wulin Alliance those folks──"
+    qcTranslated: "Brother Zhao, big big big big trouble, the Wulin Alliance those folks──"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DroppedStutter
+    - UnnaturalPhrasing
   templates:
   - split: 1
     template: "{0}──"
@@ -28970,8 +28962,8 @@
   splits:
   - split: 1
     text: "有我十八铜人在的地方，就是木人巷！尔等要想从此通关"
-    translated: "Where there are my eighteen Bronze Men, it is the Wooden Man Lane! You who wish to pass through here──"
-    qcReviewedText: "Where there are my eighteen Bronze Men, it is the Wooden Man Lane! You who wish to pass through here────"
+    translated: "Where there are my eighteen Bronze Men, it is the Wooden Man Lane! You who wish to pass through here"
+    qcReviewedText: "Where there are my eighteen Bronze Men, it is the Wooden Man Lane! You who wish to pass through here──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33200,8 +33192,8 @@
   splits:
   - split: 1
     text: "妖孽！今日叫汝等"
-    translated: "Wretch! Today, I shall have you all──"
-    qcReviewedText: "Wretch! Today, I shall have you all────"
+    translated: "Wretch! Today, I shall have you all"
+    qcReviewedText: "Wretch! Today, I shall have you all──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33444,8 +33436,8 @@
   splits:
   - split: 1
     text: "你真打算与我相杀？你明知我已经"
-    translated: "Are you really planning to fight me? You know I've already──"
-    qcReviewedText: "Are you really planning to fight me? You know I've already────"
+    translated: "Are you really planning to fight me? You know I've already"
+    qcReviewedText: "Are you really planning to fight me? You know I've already──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -38079,14 +38071,14 @@
   splits:
   - split: 1
     text: "但是那些被你救下的人们，同样也有话说。因为你总是事了拂衣去才没听见，我却听真切了，他们都说"
-    translated: "But those people you saved also have something to say. Because you always leave after finishing the matter, brushing your clothes off, so you didn't hear it, but I heard it clearly, they all said:"
-    qcReviewedText: "But those people you saved also have something to say. Because you always leave after finishing the matter, brushing your clothes off, so you didn't hear it, but I heard it clearly, they all said:："
-    qcTranslated: "But those people you saved also have something to say. Because you always leave after finishing the matter, brushing your clothes off, so you didn't hear it, but I heard it clearly, they all said:"
+    translated: "But those people you saved also have something to say. Because you always leave after finishing the matter, brushing your clothes off, so you didn't hear it, but I heard it clearly, they all said"
+    qcReviewedText: "But those people you saved also have something to say. Because you always leave after finishing the matter, brushing your clothes off, so you didn't hear it, but I heard it clearly, they all said："
+    qcTranslated: "But those people you saved have something to say as well. You always slip away once the deed is done, brushing off your robes, so you never hear it. I heard every word, though. They all said:"
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - OtherNamedDefect
+    - UnnaturalPhrasing
   templates:
   - split: 1
     template: "{0}："
@@ -38782,8 +38774,8 @@
   splits:
   - split: 1
     text: "你真的假的？答案就是"
-    translated: "Are you serious? The answer is──"
-    qcReviewedText: "Are you serious? The answer is────"
+    translated: "Are you serious? The answer is"
+    qcReviewedText: "Are you serious? The answer is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -40645,14 +40637,11 @@
   splits:
   - split: 1
     text: "果然是"
-    translated: "Indeed──!"
-    qcReviewedText: "Indeed──!──！"
-    qcTranslated: "Indeed──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Indeed"
+    qcReviewedText: "Indeed──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"

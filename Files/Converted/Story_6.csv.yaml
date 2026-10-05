@@ -3080,8 +3080,8 @@
   splits:
   - split: 1
     text: "是，请转告宫主，在下无意冒犯，但我小师妹大于"
-    translated: "Yes, please relay to the Palace Master, I had no intention of offending, but my Little Junior Sister is greater than──"
-    qcReviewedText: "Yes, please relay to the Palace Master, I had no intention of offending, but my Little Junior Sister is greater than────"
+    translated: "Yes, please relay to the Palace Master, I had no intention of offending, but my Little Junior Sister is greater than"
+    qcReviewedText: "Yes, please relay to the Palace Master, I had no intention of offending, but my Little Junior Sister is greater than──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4724,8 +4724,8 @@
   splits:
   - split: 1
     text: "咦？不需要我们吗？可是师父你从来不和男子独处一室"
-    translated: "Hmm? Do we not have a role here? But Master, you've never allowed a man to be alone with you──"
-    qcReviewedText: "Hmm? Do we not have a role here? But Master, you've never allowed a man to be alone with you────"
+    translated: "Hmm? Do we not have a role here? But Master, you've never allowed a man to be alone with you"
+    qcReviewedText: "Hmm? Do we not have a role here? But Master, you've never allowed a man to be alone with you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4817,8 +4817,8 @@
   splits:
   - split: 1
     text: "本次武林大会之后，本宫有意遣散宫人，退隐江湖。"
-    translated: "──After this Wulin Conference, this palace intends to disband the palace attendants and retire from the Jianghu."
-    qcReviewedText: "────After this Wulin Conference, this palace intends to disband the palace attendants and retire from the Jianghu."
+    translated: "After this Wulin Conference, this palace intends to disband the palace attendants and retire from the Jianghu."
+    qcReviewedText: "──After this Wulin Conference, this palace intends to disband the palace attendants and retire from the Jianghu."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7288,8 +7288,8 @@
   splits:
   - split: 1
     text: "是呢，徒儿真怕你永远想不到这件事。"
-    translated: "──Yes, indeed, disciple, I truly fear that you'll never think of this matter."
-    qcReviewedText: "────Yes, indeed, disciple, I truly fear that you'll never think of this matter."
+    translated: "Yes, indeed, disciple, I truly fear that you'll never think of this matter."
+    qcReviewedText: "──Yes, indeed, disciple, I truly fear that you'll never think of this matter."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8882,14 +8882,11 @@
   splits:
   - split: 1
     text: "都会了吧？要来了喔"
-    translated: "Are you all set? It's coming soon──!"
-    qcReviewedText: "Are you all set? It's coming soon──!──！"
-    qcTranslated: "Are you all set? It's coming soon──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Are you all set? It's coming soon"
+    qcReviewedText: "Are you all set? It's coming soon──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -9053,8 +9050,8 @@
   splits:
   - split: 1
     text: "谁敢招惹"
-    translated: "Who dares provoke──"
-    qcReviewedText: "Who dares provoke────"
+    translated: "Who dares provoke"
+    qcReviewedText: "Who dares provoke──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11226,14 +11223,11 @@
   splits:
   - split: 1
     text: "抱歉，打岔一下。"
-    translated: "──I'm sorry to interrupt"
-    qcReviewedText: "────I'm sorry to interrupt"
-    qcTranslated: "──I'm sorry to interrupt"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "I'm sorry to interrupt"
+    qcReviewedText: "──I'm sorry to interrupt"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -12736,8 +12730,8 @@
   splits:
   - split: 1
     text: "恭喜恭"
-    translated: "Congratulations──"
-    qcReviewedText: "Congratulations────"
+    translated: "Congratulations"
+    qcReviewedText: "Congratulations──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12910,9 +12904,9 @@
   splits:
   - split: 1
     text: "各位武林同道朋友，各位请了。"
-    translated: "──All fellow Wulin friends, please"
-    qcReviewedText: "────All fellow Wulin friends, please"
-    qcTranslated: "────All fellow Wulin friends, please be seated"
+    translated: "All fellow Wulin friends, please"
+    qcReviewedText: "──All fellow Wulin friends, please"
+    qcTranslated: "──All fellow Wulin friends, please be seated"
     qcStatus: Corrected
     qcQualityScore: 90
     qcDefectCategory: DroppedContent
@@ -13732,8 +13726,8 @@
   splits:
   - split: 1
     text: "若能以言止杀，我教宁受千古骂名。那怕世人都不明白，全真派却清楚自己的道理，贫道言尽于此。"
-    translated: "──If words can halt bloodshed, my sect would rather bear the eternal scorn of history. Even if the world does not understand, the Quanzhen Sect knows its own path, and I have spoken my final words."
-    qcReviewedText: "────If words can halt bloodshed, my sect would rather bear the eternal scorn of history. Even if the world does not understand, the Quanzhen Sect knows its own path, and I have spoken my final words."
+    translated: "If words can halt bloodshed, my sect would rather bear the eternal scorn of history. Even if the world does not understand, the Quanzhen Sect knows its own path, and I have spoken my final words."
+    qcReviewedText: "──If words can halt bloodshed, my sect would rather bear the eternal scorn of history. Even if the world does not understand, the Quanzhen Sect knows its own path, and I have spoken my final words."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14273,8 +14267,8 @@
   splits:
   - split: 1
     text: "你想做什么？等等"
-    translated: "What do you want to do? Wait──"
-    qcReviewedText: "What do you want to do? Wait────"
+    translated: "What do you want to do? Wait"
+    qcReviewedText: "What do you want to do? Wait──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14285,8 +14279,8 @@
   splits:
   - split: 1
     text: "我崆峒派掌派人可以"
-    translated: "I, a Kongtong Sect palm technique practitioner, can──"
-    qcReviewedText: "I, a Kongtong Sect palm technique practitioner, can────"
+    translated: "I, a Kongtong Sect palm technique practitioner, can"
+    qcReviewedText: "I, a Kongtong Sect palm technique practitioner, can──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -17760,11 +17754,11 @@
   splits:
   - split: 1
     text: "为父运气好，此生有那王兄弟"
-    translated: "I'm fortunate as a father, this life has that Wang Brother──"
-    qcReviewedText: "I'm fortunate as a father, this life has that Wang Brother────"
-    qcTranslated: "It's my good fortune as a father that this life has brought me Brother Wang────"
+    translated: "I'm fortunate as a father, this life has that Wang Brother"
+    qcReviewedText: "I'm fortunate as a father, this life has that Wang Brother──"
+    qcTranslated: "As a father, I'm fortunate to have Brother Wang in this life──"
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
     - UnnaturalPhrasing
@@ -22271,8 +22265,8 @@
   splits:
   - split: 1
     text: "既然如此。"
-    translated: "──Well, if that's the case"
-    qcReviewedText: "────Well, if that's the case"
+    translated: "Well, if that's the case"
+    qcReviewedText: "──Well, if that's the case"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25276,8 +25270,8 @@
   splits:
   - split: 1
     text: "这莫非是尹道长即兴"
-    translated: "This could be Brother Yin the Daoist's impromptu performance──"
-    qcReviewedText: "This could be Brother Yin the Daoist's impromptu performance────"
+    translated: "This could be Brother Yin the Daoist's impromptu performance"
+    qcReviewedText: "This could be Brother Yin the Daoist's impromptu performance──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28305,14 +28299,14 @@
   splits:
   - split: 1
     text: "他字字铿锵，说道"
-    translated: "He spoke each word firmly, saying:"
-    qcReviewedText: "He spoke each word firmly, saying:："
-    qcTranslated: "He spoke each word firmly, saying:"
+    translated: "He spoke each word firmly, saying"
+    qcReviewedText: "He spoke each word firmly, saying："
+    qcTranslated: "He spoke with every word ringing with force, saying:"
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - OtherNamedDefect
+    - UnnaturalPhrasing
   templates:
   - split: 1
     template: "{0}："
@@ -32904,8 +32898,8 @@
   splits:
   - split: 1
     text: "丹霞子师兄，掌派人需要"
-    translated: "Danxiazi Senior Brother, the Palm School requires ──"
-    qcReviewedText: "Danxiazi Senior Brother, the Palm School requires ────"
+    translated: "Danxiazi Senior Brother, the Palm School requires"
+    qcReviewedText: "Danxiazi Senior Brother, the Palm School requires──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33706,8 +33700,8 @@
   splits:
   - split: 1
     text: "小竹，你要是"
-    translated: "Xiao Zhu, if you──"
-    qcReviewedText: "Xiao Zhu, if you────"
+    translated: "Xiao Zhu, if you"
+    qcReviewedText: "Xiao Zhu, if you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33841,8 +33835,8 @@
   splits:
   - split: 1
     text: "丹霞子师兄，掌派人需要"
-    translated: "Danxiazi Senior Brother, the Palm School requires ──"
-    qcReviewedText: "Danxiazi Senior Brother, the Palm School requires ────"
+    translated: "Danxiazi Senior Brother, the Palm School requires"
+    qcReviewedText: "Danxiazi Senior Brother, the Palm School requires──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34001,8 +33995,8 @@
   splits:
   - split: 1
     text: "咦？唐小娘"
-    translated: "Hey? Young Miss Tang ──"
-    qcReviewedText: "Hey? Young Miss Tang ────"
+    translated: "Hey? Young Miss Tang"
+    qcReviewedText: "Hey? Young Miss Tang──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -38768,8 +38762,8 @@
   splits:
   - split: 1
     text: "泉州浩然刀司马济，愿意投诚泥教！奉人间道法王为主！我门下弟子，也全都一并向法王效忠！求赐灵丹！"
-    translated: "──Masa Ji of the Hailian Blade School from Quanzhou is willing to surrender to the Mud Cult and pledge allegiance to the Dharma King of Human Path! All my disciples will also swear loyalty to the Dharma King! Please grant us elixirs of life!"
-    qcReviewedText: "────Masa Ji of the Hailian Blade School from Quanzhou is willing to surrender to the Mud Cult and pledge allegiance to the Dharma King of Human Path! All my disciples will also swear loyalty to the Dharma King! Please grant us elixirs of life!"
+    translated: "Masa Ji of the Hailian Blade School from Quanzhou is willing to surrender to the Mud Cult and pledge allegiance to the Dharma King of Human Path! All my disciples will also swear loyalty to the Dharma King! Please grant us elixirs of life!"
+    qcReviewedText: "──Masa Ji of the Hailian Blade School from Quanzhou is willing to surrender to the Mud Cult and pledge allegiance to the Dharma King of Human Path! All my disciples will also swear loyalty to the Dharma King! Please grant us elixirs of life!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

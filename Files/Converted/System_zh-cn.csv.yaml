@@ -354,8 +354,8 @@
   splits:
   - split: 1
     text: "次"
-    translated: "Next"
-    qcReviewedText: "{0} Next"
+    translated: "Time"
+    qcReviewedText: "{0} Time"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1120,8 +1120,8 @@
   splits:
   - split: 1
     text: "确定覆盖目前的纪录吗"
-    translated: "Are you sure you want to cover the current record?"
-    qcReviewedText: "Are you sure you want to cover the current record??"
+    translated: "Are you sure you want to cover the current record"
+    qcReviewedText: "Are you sure you want to cover the current record?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1543,11 +1543,11 @@
   splits:
   - split: 1
     text: "心系"
-    translated: "Heartbound:"
-    qcReviewedText: "Heartbound:："
+    translated: "Heartbound"
+    qcReviewedText: "Heartbound："
     qcTranslated: "Heartbound:"
     qcStatus: Corrected
-    qcQualityScore: 100
+    qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
@@ -1573,14 +1573,11 @@
   splits:
   - split: 1
     text: "阴阳"
-    translated: "Yin Yang:"
-    qcReviewedText: "Yin Yang:："
-    qcTranslated: "Yin Yang:"
-    qcStatus: Corrected
+    translated: "Yin Yang"
+    qcReviewedText: "Yin Yang："
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}："
@@ -1588,8 +1585,8 @@
   splits:
   - split: 1
     text: "命运"
-    translated: "Destiny:"
-    qcReviewedText: "Destiny:："
+    translated: "Destiny"
+    qcReviewedText: "Destiny："
     qcTranslated: "Destiny:"
     qcStatus: Corrected
     qcQualityScore: 100
@@ -1603,11 +1600,11 @@
   splits:
   - split: 1
     text: "修练条件"
-    translated: "Training Conditions:"
-    qcReviewedText: "Training Conditions:："
+    translated: "Training Conditions"
+    qcReviewedText: "Training Conditions："
     qcTranslated: "Training Conditions:"
     qcStatus: Corrected
-    qcQualityScore: 100
+    qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
@@ -1627,8 +1624,8 @@
   splits:
   - split: 1
     text: "最大消费"
-    translated: "Maximum consumption:"
-    qcReviewedText: "Maximum consumption:："
+    translated: "Maximum consumption"
+    qcReviewedText: "Maximum consumption："
     qcTranslated: "Maximum consumption:"
     qcStatus: Corrected
     qcQualityScore: 100
@@ -1642,9 +1639,9 @@
   splits:
   - split: 1
     text: "花费银两"
-    translated: "Spending silver dollars:"
-    qcReviewedText: "Spending silver dollars:："
-    qcTranslated: "Silver spent:"
+    translated: "Spending silver dollars"
+    qcReviewedText: "Spending silver dollars："
+    qcTranslated: "Silver Spent:"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -1910,8 +1907,8 @@
   splits:
   - split: 1
     text: "中旬"
-    translated: "Mid‑month"
-    qcReviewedText: "Mid‑month"
+    translated: "Mid month"
+    qcReviewedText: "Mid month"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1946,14 +1943,11 @@
   splits:
   - split: 1
     text: "点击继续"
-    translated: "–Click to continue–"
-    qcReviewedText: "––Click to continue––"
-    qcTranslated: "–Click to continue–"
-    qcStatus: Corrected
+    translated: "Click to continue"
+    qcReviewedText: "–Click to continue–"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "–{0}–"

@@ -233,14 +233,11 @@
 - raw: "确定覆盖目前的纪录吗?"
   splits:
   - text: "确定覆盖目前的纪录吗"
-    translated: "Are you sure you want to overwrite the current record?"
-    qcReviewedText: "Are you sure you want to overwrite the current record??"
-    qcTranslated: "Are you sure you want to overwrite the current record?"
-    qcStatus: Corrected
+    translated: "Are you sure you want to overwrite the current record"
+    qcReviewedText: "Are you sure you want to overwrite the current record?"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - template: "{0}?"
 - raw: "自动存档"

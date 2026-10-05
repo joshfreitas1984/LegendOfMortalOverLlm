@@ -7651,8 +7651,8 @@
   splits:
   - split: 1
     text: "丐帮，是魔教的人？"
-    translated: "──Beggar Sect, are you from the Demon Sect?"
-    qcReviewedText: "────Beggar Sect, are you from the Demon Sect?"
+    translated: "Beggar Sect, are you from the Demon Sect?"
+    qcReviewedText: "──Beggar Sect, are you from the Demon Sect?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -20350,8 +20350,8 @@
   splits:
   - split: 1
     text: "我赢了，我是凭自己实力赢的，哈哈！我再也不是那个谁都能欺负的软柿子了！"
-    translated: "──I won, I won through my own strength, haha! I'm no longer that easy mark who everyone can bully!"
-    qcReviewedText: "────I won, I won through my own strength, haha! I'm no longer that easy mark who everyone can bully!"
+    translated: "I won, I won through my own strength, haha! I'm no longer that easy mark who everyone can bully!"
+    qcReviewedText: "──I won, I won through my own strength, haha! I'm no longer that easy mark who everyone can bully!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22248,15 +22248,14 @@
   splits:
   - split: 1
     text: "新任掌派人可以迎娶四门的嫡传女弟子为妻。梅、兰、竹、菊皆是未来掌派人的未过门新娘子啊。"
-    translated: "──The newly appointed Sect Master may wed the eldest female disciples of the four sects. Mei, Lan, Zhu, and Ju are all the future brides who have not yet crossed the threshold for the Sect Master."
-    qcReviewedText: "────The newly appointed Sect Master may wed the eldest female disciples of the four sects. Mei, Lan, Zhu, and Ju are all the future brides who have not yet crossed the threshold for the Sect Master."
-    qcTranslated: "────The newly appointed Sect Master may wed the direct‑line female disciples of the four branches as his wives. Mei, Lan, Zhu, and Ju are all the future Sect Master's brides who have not yet crossed the threshold."
+    translated: "The newly appointed Sect Master may wed the eldest female disciples of the four sects. Mei, Lan, Zhu, and Ju are all the future brides who have not yet crossed the threshold for the Sect Master."
+    qcReviewedText: "──The newly appointed Sect Master may wed the eldest female disciples of the four sects. Mei, Lan, Zhu, and Ju are all the future brides who have not yet crossed the threshold for the Sect Master."
+    qcTranslated: "──The newly appointed Sect Master may wed the direct‑line female disciples of the four gates as his wives. Mei, Lan, Zhu, and Ju are all the future Sect Master's brides who have not yet crossed the threshold."
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
     qcDefectCategory: DroppedContent
     qcDefectCategories:
     - DroppedContent
-    - UnnaturalPhrasing
   templates:
   - split: 1
     template: "──{0}"
@@ -24373,14 +24372,11 @@
   splits:
   - split: 1
     text: "事情经过，就是如此。"
-    translated: "──The course of events, that's how it is."
-    qcReviewedText: "────The course of events, that's how it is."
-    qcTranslated: "──That is how the events unfolded"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "The course of events, that's how it is."
+    qcReviewedText: "──The course of events, that's how it is."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -25911,8 +25907,8 @@
   splits:
   - split: 1
     text: "唐门的各位，请到中央会师"
-    translated: "Tang Clan members, please assemble at the center──"
-    qcReviewedText: "Tang Clan members, please assemble at the center────"
+    translated: "Tang Clan members, please assemble at the center"
+    qcReviewedText: "Tang Clan members, please assemble at the center──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26109,8 +26105,8 @@
   splits:
   - split: 1
     text: "二位大侠"
-    translated: "Two Great Heroes──"
-    qcReviewedText: "Two Great Heroes────"
+    translated: "Two Great Heroes"
+    qcReviewedText: "Two Great Heroes──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26392,14 +26388,11 @@
   splits:
   - split: 1
     text: "话是这么说。"
-    translated: "──That's how the saying goes"
-    qcReviewedText: "────That's how the saying goes"
-    qcTranslated: "──That's how it goes"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "That's how the saying goes"
+    qcReviewedText: "──That's how the saying goes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -26667,8 +26660,8 @@
   splits:
   - split: 1
     text: "那胡离火是"
-    translated: "That Hu Lihuo is──"
-    qcReviewedText: "That Hu Lihuo is────"
+    translated: "That Hu Lihuo is"
+    qcReviewedText: "That Hu Lihuo is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26706,8 +26699,8 @@
   splits:
   - split: 1
     text: "这秋老虎可不同于那火狐狸，乃是"
-    translated: "This autumn tiger is different from that fire fox, is indeed──"
-    qcReviewedText: "This autumn tiger is different from that fire fox, is indeed────"
+    translated: "This autumn tiger is different from that fire fox, is indeed"
+    qcReviewedText: "This autumn tiger is different from that fire fox, is indeed──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27197,9 +27190,9 @@
   splits:
   - split: 1
     text: "哪来的小子，年纪轻轻，内力恁地深厚。"
-    translated: "──Which young man came from where, so young yet with such profound inner strength?"
-    qcReviewedText: "────Which young man came from where, so young yet with such profound inner strength?"
-    qcTranslated: "────Where did this young man come from? So young, yet his Inner Power is already so profound."
+    translated: "Which young man came from where, so young yet with such profound inner strength?"
+    qcReviewedText: "──Which young man came from where, so young yet with such profound inner strength?"
+    qcTranslated: "──Where did this young man come from? So young, yet his Inner Power is so profound."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -27998,8 +27991,8 @@
   splits:
   - split: 1
     text: "古今四大绝技"
-    translated: "Four Great Master Techniques──"
-    qcReviewedText: "Four Great Master Techniques────"
+    translated: "Four Great Master Techniques"
+    qcReviewedText: "Four Great Master Techniques──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28269,14 +28262,11 @@
   splits:
   - split: 1
     text: "二"
-    translated: "Two──!"
-    qcReviewedText: "{size=42} Two──!──！{/size}"
-    qcTranslated: "{size=42} Two──!{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Two"
+    qcReviewedText: "{size=42} Two──！{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=42⟧{0}──！⟦/size⟧"
@@ -28710,14 +28700,11 @@
   splits:
   - split: 1
     text: "那你为何"
-    translated: "Then why──?"
-    qcReviewedText: "Then why──?──？"
-    qcTranslated: "Then why──?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Then why"
+    qcReviewedText: "Then why──？"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──？"
@@ -29445,11 +29432,14 @@
   splits:
   - split: 1
     text: "你好得很，从今以后，崆峒派必将誓死追杀你。师妹，我们走！"
-    translated: "──You're doing well. From now on, the Kongtong sect will swear to kill you to the death. Sister Disciple, let's go!"
-    qcReviewedText: "────You're doing well. From now on, the Kongtong sect will swear to kill you to the death. Sister Disciple, let's go!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "You're doing well. From now on, the Kongtong sect will swear to kill you to the death. Sister Disciple, let's go!"
+    qcReviewedText: "──You're doing well. From now on, the Kongtong sect will swear to kill you to the death. Sister Disciple, let's go!"
+    qcTranslated: "──You're in for it. From now on, the Kongtong sect will swear to hunt you down and kill you. Junior Sister, let's go!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
   templates:
   - split: 1
     template: "──{0}"
@@ -30903,8 +30893,8 @@
   splits:
   - split: 1
     text: "调虎离山？那怎么可能，你是说"
-    translated: "Luring the tiger away from the mountain? How could that be possible, are you saying──"
-    qcReviewedText: "Luring the tiger away from the mountain? How could that be possible, are you saying────"
+    translated: "Luring the tiger away from the mountain? How could that be possible, are you saying"
+    qcReviewedText: "Luring the tiger away from the mountain? How could that be possible, are you saying──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33262,14 +33252,11 @@
   splits:
   - split: 1
     text: "事情经过，就是如此。"
-    translated: "──The course of events, that's how it is."
-    qcReviewedText: "────The course of events, that's how it is."
-    qcTranslated: "──That is how the events unfolded"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "The course of events, that's how it is."
+    qcReviewedText: "──The course of events, that's how it is."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -36758,8 +36745,8 @@
   splits:
   - split: 1
     text: "当然不是！我才几岁，怎能"
-    translated: "Of course not! I'm just a child, how could I──"
-    qcReviewedText: "Of course not! I'm just a child, how could I────"
+    translated: "Of course not! I'm just a child, how could I"
+    qcReviewedText: "Of course not! I'm just a child, how could I──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

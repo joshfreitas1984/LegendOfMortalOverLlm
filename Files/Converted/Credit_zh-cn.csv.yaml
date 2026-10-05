@@ -182,14 +182,11 @@
   splits:
   - split: 1
     text: "美术"
-    translated: "3D Art"
-    qcReviewedText: "3D 3D Art"
-    qcTranslated: "3D Art"
-    qcStatus: Corrected
+    translated: "Art"
+    qcReviewedText: "3D Art"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "3D {0}"
@@ -197,14 +194,11 @@
   splits:
   - split: 1
     text: "美术"
-    translated: "3D Art"
-    qcReviewedText: "2D 3D Art"
-    qcTranslated: "2D Art"
-    qcStatus: Corrected
+    translated: "Art"
+    qcReviewedText: "2D Art"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "2D {0}"
@@ -239,14 +233,11 @@
   splits:
   - split: 1
     text: "工作室"
-    translated: "Paras Studio"
-    qcReviewedText: "Paras Paras Studio"
-    qcTranslated: "Paras Studio"
-    qcStatus: Corrected
+    translated: "Studio"
+    qcReviewedText: "Paras Studio"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "Paras {0}"
@@ -317,14 +308,11 @@
   splits:
   - split: 1
     text: "韩文翻译"
-    translated: "Korean Translation & QA"
-    qcReviewedText: "Korean Translation & QA & QA"
-    qcTranslated: "Korean Translation & QA"
-    qcStatus: Corrected
+    translated: "Korean Translation"
+    qcReviewedText: "Korean Translation & QA"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0} & QA"

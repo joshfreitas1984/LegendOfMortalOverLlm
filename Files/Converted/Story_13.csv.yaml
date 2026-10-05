@@ -2230,14 +2230,11 @@
   splits:
   - split: 1
     text: "哇啊啊啊啊"
-    translated: "Wow! Oh! Oh! Oh! Oh!──!"
-    qcReviewedText: "Wow! Oh! Oh! Oh! Oh!──!──！"
-    qcTranslated: "Waaaaaah──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Wow! Oh! Oh! Oh! Oh"
+    qcReviewedText: "Wow! Oh! Oh! Oh! Oh──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -3345,8 +3342,8 @@
   splits:
   - split: 1
     text: "那不然你"
-    translated: "Then what else, you──"
-    qcReviewedText: "Then what else, you────"
+    translated: "Then what else, you"
+    qcReviewedText: "Then what else, you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3620,8 +3617,8 @@
   splits:
   - split: 1
     text: "好的很，如此一来，只要拖延到太阳下山"
-    translated: "Fine enough. Thus, as long as we delay until the sun sets──"
-    qcReviewedText: "Fine enough. Thus, as long as we delay until the sun sets────"
+    translated: "Fine enough. Thus, as long as we delay until the sun sets"
+    qcReviewedText: "Fine enough. Thus, as long as we delay until the sun sets──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5597,8 +5594,8 @@
   splits:
   - split: 1
     text: "等等"
-    translated: "Well──"
-    qcReviewedText: "Well────"
+    translated: "Well"
+    qcReviewedText: "Well──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7001,8 +6998,8 @@
   splits:
   - split: 1
     text: "真正的唐布衣，掌握了唐门不为人知的种种秘辛。比如赵活夜夜蹲守在小师妹窗"
-    translated: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night──"
-    qcReviewedText: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night────"
+    translated: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night"
+    qcReviewedText: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7203,8 +7200,8 @@
   splits:
   - split: 1
     text: "真是太"
-    translated: "It's really──"
-    qcReviewedText: "It's really────"
+    translated: "It's really"
+    qcReviewedText: "It's really──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12486,8 +12483,8 @@
   splits:
   - split: 1
     text: "福"
-    translated: "Good Fortune──"
-    qcReviewedText: "Good Fortune────"
+    translated: "Good Fortune"
+    qcReviewedText: "Good Fortune──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13205,14 +13202,11 @@
   splits:
   - split: 1
     text: "啊啊啊"
-    translated: "Ah ah ah──!!"
-    qcReviewedText: "{size=35} Ah ah ah──!!──！！{/size}"
-    qcTranslated: "{size=35} Ah ah ah──!!{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ah ah ah"
+    qcReviewedText: "{size=35} Ah ah ah──！！{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=35⟧{0}──！！⟦/size⟧"
@@ -14352,14 +14346,11 @@
   splits:
   - split: 1
     text: "事情经过便是如此，贵门弟子，请唐老施主发落。小僧得罪了贵门高弟，实属情非得已，老前辈若要见责，晚辈甘愿受着。"
-    translated: "──The events unfolded as such, esteemed disciple, please let Master Tang decide. I, the humble monk, have offended the esteemed disciple of the sect, which was unavoidable. If the elders wish to reprimand me, I willingly accept the punishment."
-    qcReviewedText: "────The events unfolded as such, esteemed disciple, please let Master Tang decide. I, the humble monk, have offended the esteemed disciple of the sect, which was unavoidable. If the elders wish to reprimand me, I willingly accept the punishment."
-    qcTranslated: "────The events unfolded as such, esteemed disciple, please let Master Tang decide. I, the humble monk, have offended the esteemed senior disciple of the sect, which was unavoidable. If the Senior Elder wishes to reprimand me, I willingly accept the punishment."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "The events unfolded as such, esteemed disciple, please let Master Tang decide. I, the humble monk, have offended the esteemed disciple of the sect, which was unavoidable. If the elders wish to reprimand me, I willingly accept the punishment."
+    qcReviewedText: "──The events unfolded as such, esteemed disciple, please let Master Tang decide. I, the humble monk, have offended the esteemed disciple of the sect, which was unavoidable. If the elders wish to reprimand me, I willingly accept the punishment."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -15030,8 +15021,8 @@
   splits:
   - split: 1
     text: "事情经过就是如此，请掌门定夺。"
-    translated: "──The course of events is as such, please, Master, make the decision."
-    qcReviewedText: "────The course of events is as such, please, Master, make the decision."
+    translated: "The course of events is as such, please, Master, make the decision."
+    qcReviewedText: "──The course of events is as such, please, Master, make the decision."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15388,14 +15379,11 @@
   splits:
   - split: 1
     text: "呜呀啊啊啊啊"
-    translated: "Ugh! Ah! Ah! Ah! Ah!──!"
-    qcReviewedText: "Ugh! Ah! Ah! Ah! Ah!──!──！"
-    qcTranslated: "Ugh! Ah! Ah! Ah! Ah!──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ugh! Ah! Ah! Ah! Ah"
+    qcReviewedText: "Ugh! Ah! Ah! Ah! Ah──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -15929,14 +15917,11 @@
   splits:
   - split: 1
     text: "你在街上碰到了福韫，和尚如是说道"
-    translated: "You met Fu Yun on the street, the monk said thus:"
-    qcReviewedText: "You met Fu Yun on the street, the monk said thus:："
-    qcTranslated: "You met Fu Yun on the street, the monk said thus:"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "You met Fu Yun on the street, the monk said thus"
+    qcReviewedText: "You met Fu Yun on the street, the monk said thus："
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}："
@@ -24004,8 +23989,8 @@
   splits:
   - split: 1
     text: "等等"
-    translated: "Well──"
-    qcReviewedText: "Well────"
+    translated: "Well"
+    qcReviewedText: "Well──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24404,9 +24389,9 @@
   splits:
   - split: 1
     text: "你说的人是"
-    translated: "Person you said is──"
-    qcReviewedText: "Person you said is────"
-    qcTranslated: "The person you're talking about is────"
+    translated: "Person you said is"
+    qcReviewedText: "Person you said is──"
+    qcTranslated: "The person you're talking about is──"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -25065,8 +25050,8 @@
   splits:
   - split: 1
     text: "真正的唐布衣，掌握了唐门不为人知的种种秘辛。比如赵活夜夜蹲守在小师妹窗"
-    translated: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night──"
-    qcReviewedText: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night────"
+    translated: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night"
+    qcReviewedText: "The real Tang Buyi has mastered the various secrets of the Tang Clan that are unknown to others. For example, Zhao Huo has been lurking by the window of the Little Junior Sister every night──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25397,8 +25382,8 @@
   splits:
   - split: 1
     text: "干嘛，你想"
-    translated: "What's the matter, you're thinking──"
-    qcReviewedText: "What's the matter, you're thinking────"
+    translated: "What's the matter, you're thinking"
+    qcReviewedText: "What's the matter, you're thinking──"
     qcTranslated: "What's the matter, you want to──"
     qcStatus: Corrected
     qcQualityScore: 95
@@ -26413,8 +26398,8 @@
   splits:
   - split: 1
     text: "这人的背影，怎么那么熟悉？简直就像是"
-    translated: "This person's silhouette... why does it feel so familiar? It's just like──"
-    qcReviewedText: "This person's silhouette... why does it feel so familiar? It's just like────"
+    translated: "This person's silhouette... why does it feel so familiar? It's just like"
+    qcReviewedText: "This person's silhouette... why does it feel so familiar? It's just like──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30374,8 +30359,8 @@
   splits:
   - split: 1
     text: "就这样～大侠龙渊剑气纵横，杀得魔教妖人四散逃窜，便是那孩子听了都要哭的极乐教老魔头，也不能是例外！天觞剑划破长空，驱散云霾，还我等世人一个朗朗乾坤！"
-    translated: "──And thus, Great Hero Long Yuan's sword spirit swept across, slaughtering the Demon Sect villains who scattered in all directions. Even that child would cry upon hearing such a scene; how could the old devil head of the Supreme Bliss Sect be any different? The Heavenly Decanter Sword sliced through the heavens, dispersing the cloud cover and restoring a clear sky to our world!"
-    qcReviewedText: "────And thus, Great Hero Long Yuan's sword spirit swept across, slaughtering the Demon Sect villains who scattered in all directions. Even that child would cry upon hearing such a scene; how could the old devil head of the Supreme Bliss Sect be any different? The Heavenly Decanter Sword sliced through the heavens, dispersing the cloud cover and restoring a clear sky to our world!"
+    translated: "And thus, Great Hero Long Yuan's sword spirit swept across, slaughtering the Demon Sect villains who scattered in all directions. Even that child would cry upon hearing such a scene; how could the old devil head of the Supreme Bliss Sect be any different? The Heavenly Decanter Sword sliced through the heavens, dispersing the cloud cover and restoring a clear sky to our world!"
+    qcReviewedText: "──And thus, Great Hero Long Yuan's sword spirit swept across, slaughtering the Demon Sect villains who scattered in all directions. Even that child would cry upon hearing such a scene; how could the old devil head of the Supreme Bliss Sect be any different? The Heavenly Decanter Sword sliced through the heavens, dispersing the cloud cover and restoring a clear sky to our world!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31731,8 +31716,8 @@
   splits:
   - split: 1
     text: "但我可以跟你保证一件事"
-    translated: "But I can assure you one thing──"
-    qcReviewedText: "But I can assure you one thing────"
+    translated: "But I can assure you one thing"
+    qcReviewedText: "But I can assure you one thing──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32415,8 +32400,8 @@
   splits:
   - split: 1
     text: "孤云山单传，武林盟主瑞笙，请赐教！"
-    translated: "──Solo Cloud Mountain's sole disciple, Alliance Leader Rui Sheng, begs for your teaching!"
-    qcReviewedText: "────Solo Cloud Mountain's sole disciple, Alliance Leader Rui Sheng, begs for your teaching!"
+    translated: "Solo Cloud Mountain's sole disciple, Alliance Leader Rui Sheng, begs for your teaching!"
+    qcReviewedText: "──Solo Cloud Mountain's sole disciple, Alliance Leader Rui Sheng, begs for your teaching!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32427,8 +32412,8 @@
   splits:
   - split: 1
     text: "唐门外姓弟子赵活，请赐教！"
-    translated: "──Tang Clan outsider disciple Zhao Huo, please bestow your teachings!"
-    qcReviewedText: "────Tang Clan outsider disciple Zhao Huo, please bestow your teachings!"
+    translated: "Tang Clan outsider disciple Zhao Huo, please bestow your teachings!"
+    qcReviewedText: "──Tang Clan outsider disciple Zhao Huo, please bestow your teachings!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33657,14 +33642,15 @@
   splits:
   - split: 1
     text: "我不杀你，谁晓得杀了你之后，武林盟会不会鱼死网破？"
-    translated: "──I do not kill you, who knows whether the Wulin Alliance will suffer a lose‑lose situation after my action?"
-    qcReviewedText: "────I do not kill you, who knows whether the Wulin Alliance will suffer a lose‑lose situation after my action?"
-    qcTranslated: "────I won't kill you. Who knows if the Wulin Alliance will be destroyed in a mutual‑destruction scenario after I do?"
+    translated: "I do not kill you, who knows whether the Wulin Alliance will suffer a lose‑lose situation after my action?"
+    qcReviewedText: "──I do not kill you, who knows whether the Wulin Alliance will suffer a lose‑lose situation after my action?"
+    qcTranslated: "──I won't kill you. Who knows if the Wulin Alliance will be destroyed in a mutual destruction after I do?"
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - UnnaturalPhrasing
+    - GarbledNumber
   templates:
   - split: 1
     template: "──{0}"

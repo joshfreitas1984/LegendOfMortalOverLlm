@@ -1,5 +1,6 @@
 using FanslationStudio.LlmKit.Support;
 using FanslationStudio.LlmKit.Utility;
+using System.Text.RegularExpressions;
 using ToolGood.Words;
 
 namespace Translate;
@@ -77,6 +78,34 @@ public static class LegacyDataMigration
             normalized = normalized.Replace(from, to);
 
         return normalized;
+    }
+
+    // The old donor translated the whole cell (e.g. "Late +1" for "下旬+1"), but the new splitter
+    // moves the literal parts ("+1") into the line's template, which packaging re-applies around
+    // the fragment's translation - so a donor value carrying them would ship doubled ("Late +1+1").
+    // Strips the template's literal prefix/suffix (or its trailing/leading punctuation run, since the
+    // donor often ASCII-fied it, e.g. "：？？？" -> ": ???") from a donor value copied into a templated
+    // single-placeholder split.
+    private static string StripTemplateLiterals(string translated, TranslationLine line, TranslationSplit split)
+    {
+        var template = line.Templates.FirstOrDefault(t => t.Split == split.Split)?.Template;
+        if (template == null || template.Split("{0}") is not [var prefix, var suffix] || template.Contains("{1}"))
+            return translated;
+
+        prefix = prefix.Trim();
+        suffix = suffix.Trim();
+
+        if (prefix.Length > 0)
+            translated = translated.StartsWith(prefix, StringComparison.Ordinal)
+                ? translated[prefix.Length..]
+                : Regex.Replace(translated, @"^[^\w\s]+\s*", string.Empty);
+
+        if (suffix.Length > 0)
+            translated = translated.EndsWith(suffix, StringComparison.Ordinal)
+                ? translated[..^suffix.Length]
+                : Regex.Replace(translated, @"\s*[^\w\s]+$", string.Empty);
+
+        return translated.Trim();
     }
 
     /// <summary>
@@ -171,7 +200,7 @@ public static class LegacyDataMigration
                     if (oldSplit == null || string.IsNullOrEmpty(oldSplit.Translated))
                         continue;
 
-                    split.Translated = oldSplit.Translated;
+                    split.Translated = StripTemplateLiterals(oldSplit.Translated, newLine, split);
                     filledCount++;
                 }
             }

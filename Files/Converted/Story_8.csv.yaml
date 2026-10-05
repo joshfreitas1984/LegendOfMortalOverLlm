@@ -6079,11 +6079,11 @@
   splits:
   - split: 1
     text: "啊，客官"
-    translated: "Ah, esteemed guest──"
-    qcReviewedText: "Ah, esteemed guest────。"
-    qcTranslated: "Ah, esteemed guest────"
+    translated: "Ah, esteemed guest"
+    qcReviewedText: "Ah, esteemed guest──。"
+    qcTranslated: "Ah, esteemed guest──"
     qcStatus: Corrected
-    qcQualityScore: 95
+    qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
@@ -6197,8 +6197,8 @@
   splits:
   - split: 1
     text: "不敢是吧？这是领我进房看小妹子？好极"
-    translated: "Aren't you afraid? Is this leading me into the room to see the young lady? How wonderful──"
-    qcReviewedText: "Aren't you afraid? Is this leading me into the room to see the young lady? How wonderful────"
+    translated: "Aren't you afraid? Is this leading me into the room to see the young lady? How wonderful"
+    qcReviewedText: "Aren't you afraid? Is this leading me into the room to see the young lady? How wonderful──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6519,9 +6519,9 @@
   splits:
   - split: 1
     text: "旁边的那个喽啰！"
-    translated: "──The one next to them!"
-    qcReviewedText: "────The one next to them!"
-    qcTranslated: "────That minion next to them!"
+    translated: "One next to them!"
+    qcReviewedText: "──One next to them!"
+    qcTranslated: "──That minion next to them!"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -14426,8 +14426,8 @@
   splits:
   - split: 1
     text: "我来是为了"
-    translated: "I came to──"
-    qcReviewedText: "I came to────"
+    translated: "I came to"
+    qcReviewedText: "I came to──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16873,8 +16873,8 @@
   splits:
   - split: 1
     text: "什么？那可不行，大师姑，这人是谁你可知晓？他假冒师弟，在别处招摇"
-    translated: "What? That can't be allowed, Master Mother. Do you know who this person is? He's impersonating a disciple and causing trouble elsewhere──"
-    qcReviewedText: "What? That can't be allowed, Master Mother. Do you know who this person is? He's impersonating a disciple and causing trouble elsewhere────"
+    translated: "What? That can't be allowed, Master Mother. Do you know who this person is? He's impersonating a disciple and causing trouble elsewhere"
+    qcReviewedText: "What? That can't be allowed, Master Mother. Do you know who this person is? He's impersonating a disciple and causing trouble elsewhere──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22304,14 +22304,11 @@
   splits:
   - split: 1
     text: "事情经过，便是如此。"
-    translated: "──The events unfolded as follows"
-    qcReviewedText: "────The events unfolded as follows"
-    qcTranslated: "──The events unfolded as follows"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Events unfolded as follows"
+    qcReviewedText: "──Events unfolded as follows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -28089,14 +28086,11 @@
   splits:
   - split: 1
     text: "啊干手滑！啊啊啊啊"
-    translated: "Ah, I slipped! Ahhh──!"
-    qcReviewedText: "Ah, I slipped! Ahhh──!──！"
-    qcTranslated: "Ah, I slipped! Ahhh──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ah, I slipped! Ahhh"
+    qcReviewedText: "Ah, I slipped! Ahhh──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -28122,14 +28116,11 @@
   splits:
   - split: 1
     text: "啊干手滑！啊啊啊啊"
-    translated: "Ah, I slipped! Ahhh──!"
-    qcReviewedText: "Ah, I slipped! Ahhh──!──！"
-    qcTranslated: "Ah, I slipped! Ahhh──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ah, I slipped! Ahhh"
+    qcReviewedText: "Ah, I slipped! Ahhh──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -30446,8 +30437,8 @@
   splits:
   - split: 1
     text: "我一看你就是"
-    translated: "I saw you as──"
-    qcReviewedText: "I saw you as────"
+    translated: "I saw you as"
+    qcReviewedText: "I saw you as──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31180,8 +31171,8 @@
   splits:
   - split: 1
     text: "我在想，你是不是不想让人知道我们的事？毕竟你是武林第一美人，而我"
-    translated: "I was wondering, are you not wanting people to know about our affair? After all, you are the first beauty of the Wulin, and I──"
-    qcReviewedText: "I was wondering, are you not wanting people to know about our affair? After all, you are the first beauty of the Wulin, and I────"
+    translated: "I was wondering, are you not wanting people to know about our affair? After all, you are the first beauty of the Wulin, and I"
+    qcReviewedText: "I was wondering, are you not wanting people to know about our affair? After all, you are the first beauty of the Wulin, and I──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -2069,8 +2069,8 @@
   splits:
   - split: 1
     text: "唐世伯"
-    translated: "Uncle Tang──"
-    qcReviewedText: "Uncle Tang────"
+    translated: "Uncle Tang"
+    qcReviewedText: "Uncle Tang──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2480,8 +2480,8 @@
   splits:
   - split: 1
     text: "但是"
-    translated: "But──"
-    qcReviewedText: "But────"
+    translated: "But"
+    qcReviewedText: "But──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6880,8 +6880,8 @@
   splits:
   - split: 1
     text: "是我输了。"
-    translated: "──I lost"
-    qcReviewedText: "────I lost"
+    translated: "I lost"
+    qcReviewedText: "──I lost"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7191,8 +7191,8 @@
   splits:
   - split: 1
     text: "输得体无完肤，心服口服。"
-    translated: "──Lost so thoroughly that not a single part of the body remains intact, heart and soul convinced."
-    qcReviewedText: "────Lost so thoroughly that not a single part of the body remains intact, heart and soul convinced."
+    translated: "Lost so thoroughly that not a single part of the body remains intact, heart and soul convinced."
+    qcReviewedText: "──Lost so thoroughly that not a single part of the body remains intact, heart and soul convinced."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7777,14 +7777,11 @@
   splits:
   - split: 1
     text: "那个是"
-    translated: "That's──!"
-    qcReviewedText: "That's──!──！"
-    qcTranslated: "That's──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "That's"
+    qcReviewedText: "That's──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -10535,8 +10532,8 @@
   splits:
   - split: 1
     text: "五两白银。"
-    translated: "──Five taels of silver"
-    qcReviewedText: "────Five taels of silver"
+    translated: "Five taels of silver"
+    qcReviewedText: "──Five taels of silver"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -17649,8 +17646,8 @@
   splits:
   - split: 1
     text: "雪山派，夏侯兰。"
-    translated: "──Snow Mountain Sect, Xiahou Lan"
-    qcReviewedText: "────Snow Mountain Sect, Xiahou Lan"
+    translated: "Snow Mountain Sect, Xiahou Lan"
+    qcReviewedText: "──Snow Mountain Sect, Xiahou Lan"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -17871,11 +17868,12 @@
   splits:
   - split: 1
     text: "有的，别人不信，我不管。可是，可是唯独不想让你那样想我，我、妾身可以证明自己清白的。"
-    translated: "──Yes, others don't believe, I don't care. But, but I just don't want you to think of me that way, I, myself, can prove my innocence."
-    qcReviewedText: "────Yes, others don't believe, I don't care. But, but I just don't want you to think of me that way, I, myself, can prove my innocence."
-    qcTranslated: "────Yes, others don't believe, I don't care. But, but I just don't want you to think of me that way, I‑I can prove my innocence."
+    translated: "Yes, others don't believe, I don't care. But, but I just don't want you to think of me that way, I, myself, can prove my innocence."
+    qcReviewedText: "──Yes, others don't believe, I don't care. But, but I just don't want you to think of me that way, I, myself, can prove my innocence."
+    qcTranslated: "──Yes, others don't believe, but I don't care. However, however, I just can't bear for you to think of me that way. I‑I... this humble one can prove my innocence."
     qcStatus: Corrected
-    qcQualityScore: 95
+    flaggedForQcReview: true
+    qcQualityScore: 0
     qcDefectCategory: DroppedStutter
     qcDefectCategories:
     - DroppedStutter
@@ -19982,14 +19980,11 @@
   splits:
   - split: 1
     text: "不，你、你这是做什么"
-    translated: "No, you, you're doing what──!"
-    qcReviewedText: "No, you, you're doing what──!──！"
-    qcTranslated: "No, you, what are you doing──!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "No, you, you're doing what"
+    qcReviewedText: "No, you, you're doing what──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！"
@@ -21724,15 +21719,11 @@
   splits:
   - split: 1
     text: "那、那就是说"
-    translated: "So, that means──?"
-    qcReviewedText: "So, that means──?──？"
-    qcTranslated: "So, so that means──?"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
+    translated: "So, that means"
+    qcReviewedText: "So, that means──？"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──？"
@@ -26422,14 +26413,11 @@
   splits:
   - split: 1
     text: "呃啊啊啊"
-    translated: "Ugh! Oh no! Oh no! Oh no!──!!"
-    qcReviewedText: "Ugh! Oh no! Oh no! Oh no!──!!──！！"
-    qcTranslated: "Ugh! Ah ah ah──!!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ugh! Oh no! Oh no! Oh no"
+    qcReviewedText: "Ugh! Oh no! Oh no! Oh no──！！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}──！！"
@@ -34566,8 +34554,8 @@
   splits:
   - split: 1
     text: "锦香宫杀人魔"
-    translated: "<Jinxiang Palace Murderer>"
-    qcReviewedText: "<<Jinxiang Palace Murderer>>"
+    translated: "Jinxiang Palace Murderer"
+    qcReviewedText: "<Jinxiang Palace Murderer>"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34653,8 +34641,8 @@
   splits:
   - split: 1
     text: "我知道她，她就是"
-    translated: "I know her, she is──"
-    qcReviewedText: "I know her, she is────"
+    translated: "I know her, she is"
+    qcReviewedText: "I know her, she is──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34710,8 +34698,8 @@
   splits:
   - split: 1
     text: "小梅大盗"
-    translated: "<Little Plum the Great Thief>"
-    qcReviewedText: "<<Little Plum the Great Thief>>"
+    translated: "Little Plum the Great Thief"
+    qcReviewedText: "<Little Plum the Great Thief>"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34827,8 +34815,8 @@
   splits:
   - split: 1
     text: "窜改秘籍"
-    translated: "<Tamper with the secret manual>"
-    qcReviewedText: "<<Tamper with the secret manual>>"
+    translated: "Tamper with the secret manual"
+    qcReviewedText: "<Tamper with the secret manual>"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34980,8 +34968,8 @@
   splits:
   - split: 1
     text: "上官萤痛扁"
-    translated: "<Shangguan Ying painfully beat>"
-    qcReviewedText: "<<Shangguan Ying painfully beat>>"
+    translated: "Shangguan Ying painfully beat"
+    qcReviewedText: "<Shangguan Ying painfully beat>"
     qcStatus: FailedValidation
     flaggedForQcReview: true
     qcRejectedCorrection: "<Shangguan Ying's Painful Beatdown>"
@@ -34989,7 +34977,7 @@
     qcDefectCategories:
     - Unknown
     qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "<<Shangguan Ying painfully beat>>"
+    qcRuleCheckFailureBaseline: "<Shangguan Ying painfully beat>"
   templates:
   - split: 1
     template: "<{0}>"
@@ -35015,8 +35003,8 @@
   splits:
   - split: 1
     text: "决战瑞笙"
-    translated: "<Decisive Battle with Rui Sheng>"
-    qcReviewedText: "<<Decisive Battle with Rui Sheng>>"
+    translated: "Decisive Battle with Rui Sheng"
+    qcReviewedText: "<Decisive Battle with Rui Sheng>"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

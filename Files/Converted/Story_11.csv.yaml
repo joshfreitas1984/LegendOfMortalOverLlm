@@ -53,8 +53,8 @@
   splits:
   - split: 1
     text: "但是我胆子太小，固然怕死，更不敢逃！一走了之聪明，但那就不是唐门风骨。怕逃了去，一生挺不起脊梁，愧对唐家列祖列宗！"
-    translated: "──But I am too cowardly and fear death; I dare not run away either! Although fleeing might seem clever, it would not uphold the spirit of Tang Clan. If I flee, I will never straighten my back in this lifetime and would shame my ancestors of the Tang family!"
-    qcReviewedText: "────But I am too cowardly and fear death; I dare not run away either! Although fleeing might seem clever, it would not uphold the spirit of Tang Clan. If I flee, I will never straighten my back in this lifetime and would shame my ancestors of the Tang family!"
+    translated: "But I am too cowardly and fear death; I dare not run away either! Although fleeing might seem clever, it would not uphold the spirit of Tang Clan. If I flee, I will never straighten my back in this lifetime and would shame my ancestors of the Tang family!"
+    qcReviewedText: "──But I am too cowardly and fear death; I dare not run away either! Although fleeing might seem clever, it would not uphold the spirit of Tang Clan. If I flee, I will never straighten my back in this lifetime and would shame my ancestors of the Tang family!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6872,14 +6872,11 @@
   splits:
   - split: 1
     text: "哈"
-    translated: "Ha──?!"
-    qcReviewedText: "{size=35} Ha──?!──？！{/size}"
-    qcTranslated: "{size=35} Ha──?!{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Ha"
+    qcReviewedText: "{size=35} Ha──？！{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=35⟧{0}──？！⟦/size⟧"
@@ -8567,8 +8564,8 @@
   splits:
   - split: 1
     text: "你个人的积蓄，哪够"
-    translated: "Your personal savings are not enough──"
-    qcReviewedText: "Your personal savings are not enough────"
+    translated: "Your personal savings are not enough"
+    qcReviewedText: "Your personal savings are not enough──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13853,8 +13850,8 @@
   splits:
   - split: 1
     text: "咦，兰"
-    translated: "Eh, Lan──"
-    qcReviewedText: "Eh, Lan────"
+    translated: "Eh, Lan"
+    qcReviewedText: "Eh, Lan──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15791,8 +15788,8 @@
   splits:
   - split: 1
     text: "那是因为"
-    translated: "That is because──"
-    qcReviewedText: "That is because────"
+    translated: "That is because"
+    qcReviewedText: "That is because──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18615,8 +18612,8 @@
   splits:
   - split: 1
     text: "师弟。"
-    translated: "──Junior Brother"
-    qcReviewedText: "────Junior Brother"
+    translated: "Junior Brother"
+    qcReviewedText: "──Junior Brother"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26873,8 +26870,8 @@
   splits:
   - split: 1
     text: "且慢，阿活。"
-    translated: "──Hold on, A'Huo"
-    qcReviewedText: "────Hold on, A'Huo"
+    translated: "Hold on, A'Huo"
+    qcReviewedText: "──Hold on, A'Huo"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

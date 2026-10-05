@@ -1,0 +1,363 @@
+- path: '[UI]/TopPanel/CG_Panel/VerticalDesc/CgText(Clone)'
+  sampleText: Yunshang and you hold hands to wander through Jiangnan, taking a boat to listen to the rain and sleep. With you by their side, cherished and adored, they are fearless, their past filled with misdeeds, never settling down until old age, living this life without regrets. In this era of strict moral teachings, without the orders of parents and not relying on the words of matchmakers, they stay together purely by fate.
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustY: -100
+  adjustWidth: 1000
+- path: '[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton*/Text (TMP)'
+  sampleText: Attributes
+  idealFontSize: 18
+  alignment: center
+  allowWordWrap: true
+  adjustX: -20
+  adjustWidth: 100
+- path: '[UI]/TopPanel/FateBonusPanel/Container/Panels/Home/Container/*/Name'
+  sampleText: Beggar Sect Affinity
+  idealFontSize: 18
+  allowWordWrap: true
+- path: '[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/*/Name'
+  sampleText: Forging
+  idealFontSize: 18
+  allowWordWrap: true
+- path: '[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Upgrade(Clone)/AddValue'
+  sampleText: 10
+  idealFontSize: 22
+  allowWordWrap: true
+- path: '[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Upgrade(Clone)/Value'
+  sampleText: 0
+  idealFontSize: 22
+  allowWordWrap: true
+- path: '[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/Scroll View/Viewport/Content/*/Name'
+  sampleText: Nangong Shen
+  idealFontSize: 18
+  allowWordWrap: true
+- path: '[UI]/TopPanel/FateBonusPanel/Container/TitleFlag_FateBonus/Title'
+  sampleText: Inheritance
+  idealFontSize: 36
+  allowWordWrap: true
+  characterSpacing: 5
+- path: '[UI]/TopPanel/MartialPanel/Container/Panel/Buttons/*/*/Text'
+  sampleText: Swordsmanship
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustX: -80
+  adjustWidth: 110
+- path: '[UI]/TopPanel/MartialPanel/Container/Panel/Detail/Name'
+  sampleText: 'Jianghu Ghostly Chronicles: Continuation'
+  idealFontSize: 30
+  allowWordWrap: true
+- path: '[UI]/TopPanel/MartialPanel/Container/Panel/Detail/Points/MaxCountText'
+  sampleText: 'Maximum Spend:'
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustX: -50
+- path: '[UI]/TopPanel/MartialPanel/Container/Panel/Panels/*/Scroll View/Viewport/Content/MartialItem(Clone)/*/Name'
+  sampleText: Cloud Sky Thunderbolt Blade
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustWidth: -20
+  adjustHeight: 20
+- path: '[UI]/TopPanel/MartialPanel/Container/Panel/Panels/MartialListPanel*/Header/Text'
+  sampleText: Thrown Weapons
+  idealFontSize: 20
+  allowWordWrap: true
+- path: '[UI]/TopPanel/MenuPanel/Buttons/MenuButton_*/*/Text'
+  sampleText: Continue the game
+  idealFontSize: 36
+  allowWordWrap: true
+  adjustHeight: 5
+- path: '[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Name'
+  sampleText: Other Shore Immortal Fragrance
+  idealFontSize: 24
+  allowWordWrap: true
+- path: '[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Points/MaxCountText'
+  sampleText: 'Maximum Spend:'
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustX: -50
+- path: '[UI]/TopPanel/PoisonUpgradePanel/Container/Panels/Poison/Buttons/UpgradeItemButton*/*/Text (TMP)'
+  sampleText: Poison
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustX: -10
+  adjustWidth: 10
+- path: '[UI]/TopPanel/PoisonUpgradePanel/Container/Panels/Poison/Header/Text'
+  sampleText: Alchemy
+  idealFontSize: 20
+  allowWordWrap: true
+- path: '[UI]/TopPanel/PoisonUpgradePanel/Container/TitleFlag_Alchemy/Title'
+  sampleText: Alchemy
+  idealFontSize: 40
+  allowWordWrap: true
+- path: '[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/Current/Name'
+  sampleText: Chuanxinlongdan Soup
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustY: 80
+  adjustWidth: 150
+- path: '[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/Scroll View/Viewport/List/DevelopItemPanel(Clone)/Public/Name'
+  sampleText: Chuanxinlongdan Soup
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustWidth: 100
+- path: '[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/Scroll View/Viewport/List/DevelopItemPanel(Clone)/RequireLevel/Level'
+  sampleText: 'Requirement: Level 0'
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustWidth: 100
+- path: '[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/TitleFlag_Develop/Title'
+  sampleText: Develop
+  idealFontSize: 40
+  allowWordWrap: true
+- path: '[UI]/TopPanel/SaveGamePanel/Container/Scroll View/Viewport/Slots/SaveGameSlot(Clone)/*/Header'
+  sampleText: Legendary 001
+  idealFontSize: 16
+  allowWordWrap: true
+- path: '[UI]/TopPanel/SaveGamePanel/Container/Scroll View/Viewport/Slots/SaveGameSlot(Clone)/Slot/*/Time'
+  sampleText: 2026/02/08 16:00:08
+  idealFontSize: 16
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: '[UI]/TopPanel/SaveGamePanel/Container/Scroll View/Viewport/Slots/SaveGameSlot(Clone)/Slot/*/Title'
+  sampleText: Year Four, FebruaryLate month
+  idealFontSize: 20
+  alignment: topLeft
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: '[UI]/TopPanel/ShopPanel/Buttons/StatusButton_Buy/*/Text (TMP)'
+  sampleText: Buy
+  idealFontSize: 18
+  allowWordWrap: true
+  adjustWidth: 10
+- path: '[UI]/TopPanel/ShopPanel/Buttons/StatusButton_Sell/*/Text (TMP)'
+  sampleText: Sell
+  idealFontSize: 18
+  allowWordWrap: true
+  adjustWidth: 40
+- path: '[UI]/TopPanel/ShopPanel/Container/Panels/*/Total/Text*'
+  sampleText: Money
+  idealFontSize: 30
+  allowWordWrap: true
+  adjustWidth: 10
+- path: '[UI]/TopPanel/ShopPanel/Container/Panels/*/Total/Value'
+  sampleText: 0
+  idealFontSize: 30
+  allowAutoSizing: false
+  adjustX: -20
+  adjustY: 16
+  adjustWidth: 10
+- path: '[UI]/TopPanel/ShopPanel/Header/Text'
+  sampleText: Shop
+  idealFontSize: 100
+  allowWordWrap: true
+  adjustWidth: 140
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Home/Asset/Text'
+  sampleText: Ledger
+  idealFontSize: 16
+  allowWordWrap: false
+  adjustX: -40
+  adjustY: 20
+  adjustWidth: 70
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Home/Asset/Text (1)'
+  sampleText: Taels
+  idealFontSize: 20
+  allowWordWrap: false
+  adjustY: -4
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Home/AssetList/AssetItem_*/Name'
+  sampleText: Outer Fortress
+  idealFontSize: 16
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Home/Level/Text (TMP)'
+  sampleText: Three
+  allowWordWrap: false
+  allowAutoSizing: false
+  adjustX: -10
+  adjustWidth: 100
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Home/Title/Text'
+  sampleText: Clouds part to reveal a clear day
+  idealFontSize: 30
+  allowWordWrap: true
+  adjustWidth: 40
+  adjustHeight: 20
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Item/Detail/List/*/Scroll View/Viewport/Content/*'
+  sampleText: Nangong Elegant Fan
+  idealFontSize: 16
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Item/Detail/Title/Text'
+  sampleText: Warm Yang Blood Circulation Talisman
+  idealFontSize: 28
+  allowWordWrap: true
+  adjustX: -50
+  adjustWidth: 150
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Item/Type/GroupType/*/*/Text (TMP)'
+  sampleText: Miscellaneous
+  idealFontSize: 24
+  allowWordWrap: true
+  adjustWidth: 20
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Buttons/*/*/Text (TMP)'
+  sampleText: Attributes
+  idealFontSize: 18
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/CombatStat (2)/*/Name'
+  sampleText: Power of Hidden Weapons
+  idealFontSize: 12
+  allowWordWrap: true
+  adjustWidth: -50
+  adjustHeight: 50
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/CombatStat (2)/*/Value'
+  sampleText: 20
+  idealFontSize: 20
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/HoverPanel/*/Text (1)'
+  sampleText: 'Affinity:'
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustWidth: 10
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/HoverPanel/*/Value'
+  sampleText: Happiness
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustX: -20
+  adjustY: -20
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/Header'
+  sampleText: Attributes
+  idealFontSize: 26
+  allowWordWrap: true
+  adjustX: -25
+  adjustY: -20
+  adjustWidth: 75
+  adjustHeight: -35
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/Header (1)'
+  sampleText: Attributes
+  idealFontSize: 26
+  allowWordWrap: true
+  adjustX: -5
+  adjustY: -20
+  adjustWidth: -205
+  adjustHeight: -35
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/Header*'
+  sampleText: Attributes
+  idealFontSize: 26
+  allowWordWrap: true
+  adjustX: 45
+  adjustY: -20
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/StatPanel (1)/StatPanel_*/Title'
+  sampleText: Knowledge
+  idealFontSize: 16
+  adjustX: -35
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/StatPanel*/*/StatTipPanel/Frame/Text'
+  sampleText: Knowledge gained from learning
+  idealFontSize: 16
+  allowWordWrap: true
+  allowAutoSizing: false
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/StatPanel*/*/Title'
+  sampleText: Cultivation
+  idealFontSize: 14
+  alignment: topLeft
+  allowWordWrap: true
+  adjustX: -70
+  adjustY: -6
+  adjustWidth: 70
+  adjustHeight: 20
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/PropertyPanel/StatPanel*/StatPanel*/Text'
+  sampleText: Brute
+  idealFontSize: 14
+  alignment: topLeft
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustX: 80
+  adjustY: -6
+  adjustWidth: 70
+  adjustHeight: 20
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/SkillPanel/Scroll View/Viewport/Content/Skill_Item(Clone)/*/Level'
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustX: 40
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/SkillPanel/Scroll View/Viewport/Content/Skill_Item(Clone)/*/Name'
+  sampleText: As swift as the wind
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustWidth: 40
+  adjustHeight: 40
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Property/StatRadar*/*/Title'
+  sampleText: Qinggong
+  idealFontSize: 16
+  alignment: LowerCenter
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustX: -5
+  adjustY: 15
+  adjustWidth: 30
+  adjustHeight: 5
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Social/Charater/Info/Name'
+  sampleText: Nangong Qian
+  idealFontSize: 30
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Social/Charater/Info/Title'
+  idealFontSize: 26
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Social/Description/Buttons/Toggle*'
+  sampleText: One
+  idealFontSize: 20
+  allowWordWrap: true
+- path: '[UI]/TopPanel/StatusPanel/Container/Panels/Social/Description/Title'
+  sampleText: Biographies
+  idealFontSize: 32
+  allowWordWrap: true
+  adjustY: 20
+  adjustWidth: 20
+- path: '[UI]/TopPanel/StatusPanel/Container/TitleFlag/Title'
+  sampleText: Status
+  idealFontSize: 60
+  allowWordWrap: true
+  allowAutoSizing: false
+  adjustWidth: 20
+- path: '[UI]/TopPanel/WeaponUpgradePanel/Container/Buttons/StatusButton_*/Text (TMP)'
+  sampleText: Thrown Weapons
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustX: -30
+  adjustWidth: 100
+- path: '[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/ForgePoints/MaxCountText'
+  sampleText: 'Maximum Spend:'
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustX: -50
+- path: '[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/Name'
+  sampleText: Tang Clan's Inherited Small Sword
+  idealFontSize: 24
+  allowWordWrap: true
+- path: '[UI]/TopPanel/WeaponUpgradePanel/Container/Panels/*/*/Text'
+  sampleText: Thrown Weapons
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustX: -10
+  adjustWidth: 10
+- path: '[UI]/TopPanel/WeaponUpgradePanel/Container/Panels/Equip/Buttons/*/*/Text (TMP)'
+  sampleText: Weapon
+  idealFontSize: 24
+  allowWordWrap: true
+- path: '[UI]/TopPanel/WeaponUpgradePanel/Container/Title*/Title'
+  sampleText: Inheritance
+  idealFontSize: 40
+  allowWordWrap: true
+- path: '[UI]/TopPanel/WeaponUpgradePanel/DevelopPanel/*/Name'
+  sampleText: Throwing Darts
+  idealFontSize: 20
+  allowWordWrap: true
+  adjustY: -50
+  adjustWidth: 100
+- path: '[UI]/TopPanel/WeaponUpgradePanel/DevelopPanel/Scroll View/Viewport/List/DevelopItemPanel(Clone)/Public/Name'
+  sampleText: Flying Shuttle
+  idealFontSize: 16
+  allowWordWrap: true
+  adjustWidth: 100
+- path: '[UI]/TopPanel/WeaponUpgradePanel/DevelopPanel/Scroll View/Viewport/List/DevelopItemPanel(Clone)/RequireLevel/Level'
+  sampleText: 'Requirement: Level 5'
+  idealFontSize: 14
+  allowWordWrap: true
+  adjustWidth: 100
+- path: '[UI]/TopPanel/WeaponUpgradePanel/DevelopPanel/TitleFlag_Develop/Title'
+  sampleText: Develop
+  idealFontSize: 40
+  allowWordWrap: true

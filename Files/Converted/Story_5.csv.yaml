@@ -3354,14 +3354,11 @@
   splits:
   - split: 1
     text: "你也来了。"
-    translated: "──You've also come"
-    qcReviewedText: "────You've also come"
-    qcTranslated: "──You've also come"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "You've also come"
+    qcReviewedText: "──You've also come"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -3955,8 +3952,8 @@
   splits:
   - split: 1
     text: "等等，我话还没讲完"
-    translated: "Wait, I haven't finished speaking yet──"
-    qcReviewedText: "Wait, I haven't finished speaking yet────"
+    translated: "Wait, I haven't finished speaking yet"
+    qcReviewedText: "Wait, I haven't finished speaking yet──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4469,8 +4466,8 @@
   splits:
   - split: 1
     text: "好，我去！不要惊动别的宾客，你去伙房叫人，都随我下山抗敌！"
-    translated: "──Alright, I'll go! Don't disturb the other guests. You go to the kitchen and get people, all follow me down the mountain to fight the enemies!"
-    qcReviewedText: "────Alright, I'll go! Don't disturb the other guests. You go to the kitchen and get people, all follow me down the mountain to fight the enemies!"
+    translated: "Alright, I'll go! Don't disturb the other guests. You go to the kitchen and get people, all follow me down the mountain to fight the enemies!"
+    qcReviewedText: "──Alright, I'll go! Don't disturb the other guests. You go to the kitchen and get people, all follow me down the mountain to fight the enemies!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5100,14 +5097,14 @@
   splits:
   - split: 1
     text: "瑞兄，等等"
-    translated: "Rui Xiong, wait──"
-    qcReviewedText: "Rui Xiong, wait────"
-    qcTranslated: "Brother Rui, wait────"
+    translated: "Rui Xiong, wait"
+    qcReviewedText: "Rui Xiong, wait──"
+    qcTranslated: "Brother Rui, wait──"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - UntranslatedPinyin
+    - DroppedContent
   templates:
   - split: 1
     template: "{0}──"
@@ -5975,8 +5972,8 @@
   splits:
   - split: 1
     text: "和尚自重身份，可不和"
-    translated: "Monks uphold their dignity, but they don't agree──"
-    qcReviewedText: "Monks uphold their dignity, but they don't agree────"
+    translated: "Monks uphold their dignity, but they don't agree"
+    qcReviewedText: "Monks uphold their dignity, but they don't agree──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7504,14 +7501,11 @@
   splits:
   - split: 1
     text: "我晕过去了？"
-    translated: "──I fainted?"
-    qcReviewedText: "────I fainted?"
-    qcTranslated: "──I fainted?"
-    qcStatus: Corrected
+    translated: "I fainted?"
+    qcReviewedText: "──I fainted?"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -7657,14 +7651,11 @@
   splits:
   - split: 1
     text: "我晕过去了？"
-    translated: "──I fainted?"
-    qcReviewedText: "────I fainted?"
-    qcTranslated: "──I fainted?"
-    qcStatus: Corrected
+    translated: "I fainted?"
+    qcReviewedText: "──I fainted?"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -8263,8 +8254,8 @@
   splits:
   - split: 1
     text: "等。"
-    translated: "── etc"
-    qcReviewedText: "──── etc"
+    translated: "Etc"
+    qcReviewedText: "──Etc"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8509,8 +8500,8 @@
   splits:
   - split: 1
     text: "余师兄！那恶"
-    translated: "Senior Brother Yu! That evil──"
-    qcReviewedText: "Senior Brother Yu! That evil────"
+    translated: "Senior Brother Yu! That evil"
+    qcReviewedText: "Senior Brother Yu! That evil──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8713,8 +8704,8 @@
   splits:
   - split: 1
     text: "掌柜小二，可有看见一个身穿大红僧衣的"
-    translated: "Shopkeeper, Waiter, have you seen a person wearing a deep red monk's robe──"
-    qcReviewedText: "Shopkeeper, Waiter, have you seen a person wearing a deep red monk's robe────"
+    translated: "Shopkeeper, Waiter, have you seen a person wearing a deep red monk's robe"
+    qcReviewedText: "Shopkeeper, Waiter, have you seen a person wearing a deep red monk's robe──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9937,8 +9928,8 @@
   splits:
   - split: 1
     text: "哈，好久没这样大笑过了，笑得我眼泪都溢出来了。"
-    translated: "──Ha, I haven't laughed like this in a long time; I laughed until my tears overflowed."
-    qcReviewedText: "────Ha, I haven't laughed like this in a long time; I laughed until my tears overflowed."
+    translated: "Ha, I haven't laughed like this in a long time; I laughed until my tears overflowed."
+    qcReviewedText: "──Ha, I haven't laughed like this in a long time; I laughed until my tears overflowed."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11871,8 +11862,8 @@
   splits:
   - split: 1
     text: "师弟，男儿志在"
-    translated: "Disciple, a man's ambition lies in──"
-    qcReviewedText: "Disciple, a man's ambition lies in────"
+    translated: "Disciple, a man's ambition lies in"
+    qcReviewedText: "Disciple, a man's ambition lies in──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14119,8 +14110,8 @@
   splits:
   - split: 1
     text: "咳，这烟好呛！糟糕，被他给跑了"
-    translated: "Cough! This smoke is really harsh! Oh no, he's escaped──"
-    qcReviewedText: "Cough! This smoke is really harsh! Oh no, he's escaped────"
+    translated: "Cough! This smoke is really harsh! Oh no, he's escaped"
+    qcReviewedText: "Cough! This smoke is really harsh! Oh no, he's escaped──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14275,8 +14266,8 @@
   splits:
   - split: 1
     text: "咳，这烟好呛！糟糕，要被他给跑了"
-    translated: "Cough! This smoke is really harsh! Oh no, he's about to get away──"
-    qcReviewedText: "Cough! This smoke is really harsh! Oh no, he's about to get away────"
+    translated: "Cough! This smoke is really harsh! Oh no, he's about to get away"
+    qcReviewedText: "Cough! This smoke is really harsh! Oh no, he's about to get away──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14338,14 +14329,11 @@
   splits:
   - split: 1
     text: "啊啊啊啊啊"
-    translated: "Aaaaa──!"
-    qcReviewedText: "{size=42} Aaaaa──!──！{/size}"
-    qcTranslated: "{size=42} Aaaaa──!{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Aaaaa"
+    qcReviewedText: "{size=42} Aaaaa──！{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦size=42⟧{0}──！⟦/size⟧"
@@ -19069,11 +19057,11 @@
   splits:
   - split: 1
     text: "我和他"
-    translated: "I and him──"
-    qcReviewedText: "I and him────"
+    translated: "I and him"
+    qcReviewedText: "I and him──"
     qcTranslated: "He and I──"
     qcStatus: Corrected
-    qcQualityScore: 95
+    qcQualityScore: 100
     qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
     - UnnaturalPhrasing
@@ -19369,8 +19357,8 @@
   splits:
   - split: 1
     text: "而我是"
-    translated: "And I am──"
-    qcReviewedText: "And I am────"
+    translated: "And I am"
+    qcReviewedText: "And I am──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30887,8 +30875,8 @@
   splits:
   - split: 1
     text: "二位女侠好，请多指教，我是"
-    translated: "Good day, two female heroes. Please enlighten me. I am──"
-    qcReviewedText: "Good day, two female heroes. Please enlighten me. I am────"
+    translated: "Good day, two female heroes. Please enlighten me. I am"
+    qcReviewedText: "Good day, two female heroes. Please enlighten me. I am──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33499,8 +33487,8 @@
   splits:
   - split: 1
     text: "多谢宫主厚意，不过无功不受禄，在下可不敢"
-    translated: "Thank you, Lord of the Palace, for your kind intentions, but without merit, one does not accept a reward. I dare not──"
-    qcReviewedText: "Thank you, Lord of the Palace, for your kind intentions, but without merit, one does not accept a reward. I dare not────"
+    translated: "Thank you, Lord of the Palace, for your kind intentions, but without merit, one does not accept a reward. I dare not"
+    qcReviewedText: "Thank you, Lord of the Palace, for your kind intentions, but without merit, one does not accept a reward. I dare not──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -35120,8 +35108,8 @@
   splits:
   - split: 1
     text: "就在方才，裳儿对哥哥你的好感"
-    translated: "Just now, Shang'er's feelings towards you, Brother──"
-    qcReviewedText: "Just now, Shang'er's feelings towards you, Brother────"
+    translated: "Just now, Shang'er's feelings towards you, Brother"
+    qcReviewedText: "Just now, Shang'er's feelings towards you, Brother──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36504,14 +36492,11 @@
   splits:
   - split: 1
     text: "画中仙？"
-    translated: "──Painting Immortal?"
-    qcReviewedText: "────Painting Immortal?"
-    qcTranslated: "──Painting Immortal?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Painting Immortal?"
+    qcReviewedText: "──Painting Immortal?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -38448,8 +38433,8 @@
   splits:
   - split: 1
     text: "二位女侠好，我想借地方"
-    translated: "Good day, esteemed female heroes, I'd like to borrow a place──"
-    qcReviewedText: "Good day, esteemed female heroes, I'd like to borrow a place────"
+    translated: "Good day, esteemed female heroes, I'd like to borrow a place"
+    qcReviewedText: "Good day, esteemed female heroes, I'd like to borrow a place──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

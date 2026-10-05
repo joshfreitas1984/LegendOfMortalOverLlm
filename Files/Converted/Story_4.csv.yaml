@@ -2300,8 +2300,8 @@
   splits:
   - split: 1
     text: "二师兄。"
-    translated: "──Second Senior Brother"
-    qcReviewedText: "────Second Senior Brother"
+    translated: "Second Senior Brother"
+    qcReviewedText: "──Second Senior Brother"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2995,8 +2995,8 @@
   splits:
   - split: 1
     text: "你先别得意得太早，方才偷袭那下没能要我性命，这回我定要将你"
-    translated: "Don't get too confident yet; the previous ambush didn't take my life, this time I will definitely take you──"
-    qcReviewedText: "Don't get too confident yet; the previous ambush didn't take my life, this time I will definitely take you────"
+    translated: "Don't get too confident yet; the previous ambush didn't take my life, this time I will definitely take you"
+    qcReviewedText: "Don't get too confident yet; the previous ambush didn't take my life, this time I will definitely take you──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6112,8 +6112,8 @@
   splits:
   - split: 1
     text: "师父，你怎么突然"
-    translated: "Master, why did you suddenly──"
-    qcReviewedText: "Master, why did you suddenly────"
+    translated: "Master, why did you suddenly"
+    qcReviewedText: "Master, why did you suddenly──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6233,14 +6233,11 @@
   splits:
   - split: 1
     text: "还没断气，快！快请大夫救人！"
-    translated: "── hasn't stopped breathing yet, hurry! Hurry and call the doctor to save the person!"
-    qcReviewedText: "──── hasn't stopped breathing yet, hurry! Hurry and call the doctor to save the person!"
-    qcTranslated: "──He hasn't stopped breathing yet, hurry! Hurry and call the Doctor to save him!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "Hasn't stopped breathing yet, hurry! Hurry and call the doctor to save the person!"
+    qcReviewedText: "──Hasn't stopped breathing yet, hurry! Hurry and call the doctor to save the person!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "──{0}"
@@ -7288,8 +7285,8 @@
   splits:
   - split: 1
     text: "等等"
-    translated: "Wait wait──!"
-    qcReviewedText: "{size=17} Wait wait──!──！{/size}"
+    translated: "Wait wait"
+    qcReviewedText: "{size=17} Wait wait──！{/size}"
     qcTranslated: "{size=17} Wait, wait──!{/size}"
     qcStatus: Corrected
     qcQualityScore: 95
@@ -7328,8 +7325,8 @@
   splits:
   - split: 1
     text: "这、这声音好耳熟，好像是我夫"
-    translated: "This, this voice sounds familiar, it seems like my husband──"
-    qcReviewedText: "This, this voice sounds familiar, it seems like my husband────"
+    translated: "This, this voice sounds familiar, it seems like my husband"
+    qcReviewedText: "This, this voice sounds familiar, it seems like my husband──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15466,8 +15463,8 @@
   splits:
   - split: 1
     text: "是，多谢指教。"
-    translated: "──Yes, thank you for your guidance"
-    qcReviewedText: "────Yes, thank you for your guidance"
+    translated: "Yes, thank you for your guidance"
+    qcReviewedText: "──Yes, thank you for your guidance"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18311,14 +18308,14 @@
   splits:
   - split: 1
     text: "法师，你怎么"
-    translated: "Monk, you how──"
-    qcReviewedText: "Monk, you how────"
-    qcTranslated: "Mage, you how────"
+    translated: "Monk, you how"
+    qcReviewedText: "Monk, you how──"
+    qcTranslated: "Monk, why are you──"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DomainTerm
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DomainTerm
+    - UnnaturalPhrasing
   templates:
   - split: 1
     template: "{0}──"
@@ -19865,8 +19862,8 @@
   splits:
   - split: 1
     text: "可恶！这回我定要将你"
-    translated: "Damn it! This time, I'll definitely take you down──"
-    qcReviewedText: "Damn it! This time, I'll definitely take you down────"
+    translated: "Damn it! This time, I'll definitely take you down"
+    qcReviewedText: "Damn it! This time, I'll definitely take you down──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21040,8 +21037,8 @@
   splits:
   - split: 1
     text: "唔，唔哦，晕，好晕，糟了，糟了，毒发了！不能……不能阖眼，我、我错了，快救我"
-    translated: "Hmm, hmm, dizzy, so dizzy, oh no, oh no, the poison is taking effect! Can't... can't close my eyes, I, I was wrong, save me quickly──"
-    qcReviewedText: "Hmm, hmm, dizzy, so dizzy, oh no, oh no, the poison is taking effect! Can't... can't close my eyes, I, I was wrong, save me quickly────"
+    translated: "Hmm, hmm, dizzy, so dizzy, oh no, oh no, the poison is taking effect! Can't... can't close my eyes, I, I was wrong, save me quickly"
+    qcReviewedText: "Hmm, hmm, dizzy, so dizzy, oh no, oh no, the poison is taking effect! Can't... can't close my eyes, I, I was wrong, save me quickly──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21497,8 +21494,8 @@
   splits:
   - split: 1
     text: "这、这简直就像是当年左护法使的邪功"
-    translated: "This, this... is exactly like the evil technique of the Left Guardian Law Enforcer back then──"
-    qcReviewedText: "This, this... is exactly like the evil technique of the Left Guardian Law Enforcer back then────"
+    translated: "This, this... is exactly like the evil technique of the Left Guardian Law Enforcer back then"
+    qcReviewedText: "This, this... is exactly like the evil technique of the Left Guardian Law Enforcer back then──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27676,8 +27673,8 @@
   splits:
   - split: 1
     text: "信中如是写道"
-    translated: "Letter reads as follows:"
-    qcReviewedText: "Letter reads as follows:："
+    translated: "Letter reads as follows"
+    qcReviewedText: "Letter reads as follows："
     qcTranslated: "Letter reads as follows:"
     qcStatus: Corrected
     qcQualityScore: 95
@@ -29325,8 +29322,8 @@
   splits:
   - split: 1
     text: "你逗我呢，外姓弟子不就是"
-    translated: "Are you kidding me? Outsider disciples aren't just──"
-    qcReviewedText: "Are you kidding me? Outsider disciples aren't just────"
+    translated: "Are you kidding me? Outsider disciples aren't just"
+    qcReviewedText: "Are you kidding me? Outsider disciples aren't just──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30621,11 +30618,11 @@
   splits:
   - split: 1
     text: "那你也放马过来便是。"
-    translated: "──Then you come on, let the horse go."
-    qcReviewedText: "────Then you come on, let the horse go."
-    qcTranslated: "────Then come on, I dare you"
+    translated: "Then you come on, let the horse go."
+    qcReviewedText: "──Then you come on, let the horse go."
+    qcTranslated: "──Then come on, I dare you"
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
     qcDefectCategory: LostIdiom
     qcDefectCategories:
     - LostIdiom
@@ -32846,8 +32843,8 @@
   splits:
   - split: 1
     text: "咦？小"
-    translated: "Hey? Small──"
-    qcReviewedText: "Hey? Small────"
+    translated: "Hey? Small"
+    qcReviewedText: "Hey? Small──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34927,8 +34924,8 @@
   splits:
   - split: 1
     text: "好，你今日瞧我不起，明日我让你高攀不起。等我突破最后一重天"
-    translated: "Alright, you look down on me today, tomorrow I'll make you unable to reach me. Wait until I break through the final level──"
-    qcReviewedText: "Alright, you look down on me today, tomorrow I'll make you unable to reach me. Wait until I break through the final level────"
+    translated: "Alright, you look down on me today, tomorrow I'll make you unable to reach me. Wait until I break through the final level"
+    qcReviewedText: "Alright, you look down on me today, tomorrow I'll make you unable to reach me. Wait until I break through the final level──"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36088,8 +36085,8 @@
   splits:
   - split: 1
     text: "下一位，来自峨嵋派，『风神』解无尘解大侠。"
-    translated: "──Next is from the Emei school, the Great Hero Wind God Jie Wuchen."
-    qcReviewedText: "────Next is from the Emei school, the Great Hero Wind God Jie Wuchen."
+    translated: "Next is from the Emei school, the Great Hero Wind God Jie Wuchen."
+    qcReviewedText: "──Next is from the Emei school, the Great Hero Wind God Jie Wuchen."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
