@@ -2,22 +2,42 @@
   splits:
   - text: "99次"
     translated: "99 times"
+    qcReviewedText: "99 times"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "主音量"
   splits:
   - text: "主音量"
     translated: "Master Volume"
+    qcReviewedText: "Master Volume"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "傳奇001"
   splits:
   - text: "傳奇001"
     translated: "Legend 001"
+    qcReviewedText: "Legend 001"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "儲存"
   splits:
   - text: "儲存"
     translated: "Save"
+    qcReviewedText: "Save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "全螢幕(只適用16:9比例顯示器)"
   splits:
   - text: "全螢幕"
     translated: "Fullscreen"
+    qcReviewedText: "Fullscreen(Only for 16:9 ratio display)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - subIndex: 1
     text: "只適用16"
     translated: "Only for 16"
@@ -30,88 +50,171 @@
   splits:
   - text: "刪除"
     translated: "Delete"
+    qcReviewedText: "Delete"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "劇情"
   splits:
   - text: "劇情"
     translated: "Plot"
+    qcReviewedText: "Plot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "匯出"
   splits:
   - text: "匯出"
     translated: "Export"
+    qcReviewedText: "Export"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "匯出成功：LOM_Legend_20240626223237.txt"
   splits:
   - text: "匯出成功"
     translated: "Export successful"
+    qcReviewedText: "Export successful：LOM_Legend_20240626223237.txt"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "{0}：LOM_Legend_20240626223237.txt"
 - raw: "取消"
   splits:
   - text: "取消"
     translated: "Cancel"
+    qcReviewedText: "Cancel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "可快轉未讀文字"
   splits:
   - text: "可快轉未讀文字"
     translated: "Skip unread text and fast‑forward"
+    qcReviewedText: "Skip unread text and fast‑forward"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "唐"
   splits:
   - text: "唐"
     translated: "Tang"
+    qcReviewedText: "Tang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "啟程"
   splits:
   - text: "啟程"
     translated: "Departure"
+    qcReviewedText: "Departure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "器"
   splits:
   - text: "器"
     translated: "Vessel"
+    qcReviewedText: "Vessel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "天下寂寥事，與君闊別時"
   splits:
   - text: "天下寂寥事，與君闊別時"
     translated: "When the world is desolate, it's the time of our long parting."
+    qcReviewedText: "When the world is desolate, it's the time of our long parting."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "存"
   splits:
   - text: "存"
     translated: "Save"
+    qcReviewedText: "Save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "已讀文字變色"
   splits:
   - text: "已讀文字變色"
     translated: "Change read text color"
+    qcReviewedText: "Change read text color"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "師弟你準備好了嗎?"
   splits:
   - text: "師弟你準備好了嗎"
     translated: "Junior Disciple, are you ready?"
+    qcReviewedText: "Junior Disciple, are you ready??"
+    qcTranslated: "Junior Disciple, are you ready?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - template: "{0}?"
 - raw: "成就名稱"
   splits:
   - text: "成就名稱"
     translated: "Achievement Name"
+    qcReviewedText: "Achievement Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "–戰術支援–"
   splits:
   - text: "戰術支援"
     translated: "Tactical Support"
+    qcReviewedText: "–Tactical Support–"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - template: "–{0}–"
 - raw: "戰鬥"
   splits:
   - text: "戰鬥"
     translated: "Battle"
+    qcReviewedText: "Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "手動啟動天命輪盤"
   splits:
   - text: "手動啟動天命輪盤"
     translated: "Manually activate the Heavenly Destiny Wheel"
+    qcReviewedText: "Manually activate the Heavenly Destiny Wheel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "手動存檔"
   splits:
   - text: "手動存檔"
     translated: "Manual save"
+    qcReviewedText: "Manual save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "控制器圖示"
   splits:
   - text: "控制器圖示"
     translated: "Controller icon"
+    qcReviewedText: "Controller icon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "描述描述描述描述描述描述描述描述描述描述描述描述描\\n描述描述描述描述描述描述描述描述\\n描述描述描述描述描述\\n描述描述描述描述描述\\n描述描述描述描述描述"
   splits:
   - text: "描述描述描述描述描述描述描述描述描述描述描述描述描"
     translated: "Description description description description description description description description description description description description description"
+    qcReviewedText: "Description description description description description description description description description description description description description \\nDescription description description description description description description description \\nDescription description description description description \\nDescription description description description description \\nDescription description description description description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - subIndex: 1
     text: "描述描述描述描述描述描述描述描述"
     translated: "Description description description description description description description description"
@@ -130,10 +233,18 @@
   splits:
   - text: "描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述"
     translated: "Description description description description description description description description description description description description description description description description description description description"
+    qcReviewedText: "Description description description description description description description description description description description description description description description description description description description"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字\\n文字文字文字文字文字文字\\n文字文字文字文字文字文字"
   splits:
   - text: "文字文字文字文字"
     translated: "Text text text text"
+    qcReviewedText: "Text text text text \\nText text text text text text \\nText text text text text text \\nText text text text \\nText text text text text text \\nText text text text text text \\nText text text text \\nText text text text text text \\nText text text text text text \\nText text text text \\nText text text text text text \\nText text text text text text \\nText text text text \\nText text text text text text \\nText text text text text text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - subIndex: 1
     text: "文字文字文字文字文字文字"
     translated: "Text text text text text text"
@@ -182,102 +293,207 @@
   splits:
   - text: "新增日期"
     translated: "New Date Added"
+    qcReviewedText: "New Date Added：2024/01/01 12:59"
+    qcTranslated: "New Date Added: 2024/01/01 12:59"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - template: "{0}：2024/01/01 12:59"
 - raw: "暗"
   splits:
   - text: "暗"
     translated: "Dark"
+    qcReviewedText: "Dark"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "最近存檔"
   splits:
   - text: "最近存檔"
     translated: "Save recent progress"
+    qcReviewedText: "Save recent progress"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "標題標題標題標題標題標"
   splits:
   - text: "標題標題標題標題標題標"
     translated: "Title Title Title Title Title Title"
+    qcReviewedText: "Title Title Title Title Title Title"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "歸隱山林"
   splits:
   - text: "歸隱山林"
     translated: "Retire to the mountains and forests"
+    qcReviewedText: "Retire to the mountains and forests"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "汗青書"
   splits:
   - text: "汗青書"
     translated: "Historical Records"
+    qcReviewedText: "Historical Records"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "活俠傳"
   splits:
   - text: "活俠傳"
     translated: "Wuxia Chronicles"
+    qcReviewedText: "Wuxia Chronicles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "無記載"
   splits:
   - text: "無記載"
     translated: "Unspecified"
+    qcReviewedText: "Unspecified"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "玩家社群"
   splits:
   - text: "玩家社群"
     translated: "Player Community"
+    qcReviewedText: "Player Community"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "環境設定"
   splits:
   - text: "環境設定"
     translated: "Setting the environment"
+    qcReviewedText: "Setting the environment"
+    qcTranslated: "Environment Settings"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "生死簿"
   splits:
   - text: "生死簿"
     translated: "Book of Life and Death"
+    qcReviewedText: "Book of Life and Death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "畫面設定"
   splits:
   - text: "畫面設定"
     translated: "Graphics settings"
+    qcReviewedText: "Graphics settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "確定"
   splits:
   - text: "確定"
     translated: "Confirm"
+    qcReviewedText: "Confirm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "確定刪除選擇的紀錄嗎？"
   splits:
   - text: "確定刪除選擇的紀錄嗎？"
     translated: "Are you sure you want to delete the selected record?"
+    qcReviewedText: "Are you sure you want to delete the selected record?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "確定覆蓋目前的紀錄嗎?"
   splits:
   - text: "確定覆蓋目前的紀錄嗎"
     translated: "Are you sure you want to overwrite the current record?"
+    qcReviewedText: "Are you sure you want to overwrite the current record??"
+    qcTranslated: "Are you sure you want to overwrite the current record?"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - template: "{0}?"
 - raw: "空白的"
   splits:
   - text: "空白的"
     translated: "Blank"
+    qcReviewedText: "Blank"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "简体中文"
   splits:
   - text: "简体中文"
     translated: "Simplified Chinese"
+    qcReviewedText: "Simplified Chinese"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "結局1"
   splits:
   - text: "結局1"
     translated: "Ending 1"
+    qcReviewedText: "Ending 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "結局名稱結局名稱結局名稱"
   splits:
   - text: "結局名稱結局名稱結局名稱"
     translated: "Ending Name Ending Name Ending Name"
+    qcReviewedText: "Ending Name Ending Name Ending Name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "綱"
   splits:
   - text: "綱"
     translated: "Framework"
+    qcReviewedText: "Framework"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "總"
   splits:
   - text: "總"
     translated: "Total"
+    qcReviewedText: "Total"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "繁體中文"
   splits:
   - text: "繁體中文"
     translated: "Traditional Chinese"
+    qcReviewedText: "Traditional Chinese"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "置"
   splits:
   - text: "置"
     translated: "Set"
+    qcReviewedText: "Set"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "耕陽讀書齋將你的事蹟編撰成書，發行於市。\\n唐門活俠的大名一朝傳遍中原，無人不知、無人不曉。\\n你的名字，從今往後便是傳說，受萬人崇敬。"
   splits:
   - text: "耕陽讀書齋將你的事蹟編撰成書，發行於市。"
     translated: "Gengyang Reading Pavilion has compiled your deeds into a book and published it in the market."
+    qcReviewedText: "Gengyang Reading Pavilion has compiled your deeds into a book and published it in the market.\\nThe great name of the Tang Clan's living hero spread throughout Central China one day, known by all and spoken of by all.\\nYour name will henceforth be legendary, revered by thousands."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - subIndex: 1
     text: "唐門活俠的大名一朝傳遍中原，無人不知、無人不曉。"
     translated: "The great name of the Tang Clan's living hero spread throughout Central China one day, known by all and spoken of by all."
@@ -290,91 +506,183 @@
   splits:
   - text: "聲音設定"
     translated: "Sound Settings"
+    qcReviewedText: "Sound Settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "自動存檔"
   splits:
   - text: "自動存檔"
     translated: "Auto‑save"
+    qcReviewedText: "Auto‑save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "解析度"
   splits:
   - text: "解析度"
     translated: "Resolution"
+    qcReviewedText: "Resolution"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "記載活俠傳故事"
   splits:
   - text: "記載活俠傳故事"
     translated: "Telling the story of the Living Heroic Swordsman"
+    qcReviewedText: "Telling the story of the Living Heroic Swordsman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "設定"
   splits:
   - text: "設定"
     translated: "Settings"
+    qcReviewedText: "Settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "講經堂"
   splits:
   - text: "講經堂"
     translated: "Pavilion of Scriptures"
+    qcReviewedText: "Pavilion of Scriptures"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "讀取遊戲"
   splits:
   - text: "讀取遊戲"
     translated: "Load game"
+    qcReviewedText: "Load game"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "資料備份"
   splits:
   - text: "資料備份"
     translated: "Data backup"
+    qcReviewedText: "Data backup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "資料備份完成"
   splits:
   - text: "資料備份完成"
     translated: "Data backup complete"
+    qcReviewedText: "Data backup complete"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "遊戲設定"
   splits:
   - text: "遊戲設定"
     translated: "Game Settings"
+    qcReviewedText: "Game Settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "遊戲語言"
   splits:
   - text: "遊戲語言"
     translated: "Game language"
+    qcReviewedText: "Game language"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "重"
   splits:
   - text: "重"
     translated: "Heavy"
+    qcReviewedText: "Heavy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "門"
   splits:
   - text: "門"
     translated: "Door"
+    qcReviewedText: "Door"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "開啟二周目要素"
   splits:
   - text: "開啟二周目要素"
     translated: "Enable second playthrough elements"
+    qcReviewedText: "Enable second playthrough elements"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "閱讀"
   splits:
   - text: "閱讀"
     translated: "Read"
+    qcReviewedText: "Read"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "除"
   splits:
   - text: "除"
     translated: "Except"
+    qcReviewedText: "Except"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "離開"
   splits:
   - text: "離開"
     translated: "Leave"
+    qcReviewedText: "Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "需返回到遊戲標題設定"
   splits:
   - text: "需返回到遊戲標題設定"
     translated: "Need to return to the game title settings."
+    qcReviewedText: "Need to return to the game title settings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "音效音量"
   splits:
   - text: "音效音量"
     translated: "Sound effect volume"
+    qcReviewedText: "Sound effect volume"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "音樂音量"
   splits:
   - text: "音樂音量"
     translated: "Music volume"
+    qcReviewedText: "Music volume"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "風雲史"
   splits:
   - text: "風雲史"
     translated: "Chronicles of Fengyun History"
+    qcReviewedText: "Chronicles of Fengyun History"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "養成"
   splits:
   - text: "養成"
     translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "養成回合自動存檔"
   splits:
   - text: "養成回合自動存檔"
     translated: "Auto‑save on training session turn completed"
+    qcReviewedText: "Auto‑save on training session turn completed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

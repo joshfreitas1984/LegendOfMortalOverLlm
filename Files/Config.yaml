@@ -26,12 +26,21 @@ glossaryPreset:
   usePresetChineseGlossary: true
 
 useContinuousWorkerPool: true
-maxConcurrency: 4 # Ollama is capped anyway
+maxConcurrency: 2
 retryCount: 3
 batchSize: 20
 skipLineValidation: false
 correctionPromptsEnabled: true
 translateFlagged: true
+# Adds per-line context from the game to the prompt: a line naming a character from CharacterGenders.yaml is told their gender.
+lineContextEnabled: true
+# Flags translations with an invented/wrong gender or "I" narration for retranslation during ApplyAllRulesToCurrentTranslation
+# (once per line per run). Lines whose translation names a character are checked too.
+pronounCheck:
+  enabled: true
+  skipWhenTranslationNamesSomeone: false
+  # Rewrites a line the model still writes with an invented he/she/his/her/him to they/their/them instead of leaving it flagged.
+  autoRepairPronouns: true
 
 # Post-translation quality review pass - same options as DragonHierOverLlm's Config.yaml, see that
 # repo's docs/investigations/tests/qc-evaluator-model-selection.md for why.
@@ -42,6 +51,16 @@ qualityReview:
   maxConcurrency: 2
   inlineRuleCheckRetries: 2
   autoAcceptDefectCategories: [HardToParseSeam, OtherNamedDefect, DroppedContent, DroppedStutter]
+  doubledDetectionEnabled: false
+  detectionTemperature: 0
+  # One verify->repair round instead of the default two (2026-10-03): on a defect-heavy batch the
+  # second repair round was accepted 0 of 10 times (13 of 21 repairs returned the candidate
+  # unchanged), so it only added ~17% more calls per flagged column. Raise back to 2 to restore it.
+  maxScoreRepairIterations: 1
+  # Verifier must quote the text each rejection is about; rejections quoting nothing real are
+  # overruled and the quotes guide the repair (2026-10-03: flagged 2-3 -> 1 of 28, same call count).
+  # The pre-verification gate is on by default in LlmKit (preVerificationGateEnabled).
+  verificationEvidenceEnabled: true
 
 # Ported verbatim from the OLD Translate/GameTextFiles.cs's SplitCharactersList/SplitRegexPatterns
 # (now hosted directly in LlmConfig rather than a game-specific static array) - "\n" and the

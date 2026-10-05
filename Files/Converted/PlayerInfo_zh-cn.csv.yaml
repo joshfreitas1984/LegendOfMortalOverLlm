@@ -3,71 +3,134 @@
   - split: 1
     text: "唐门杂鱼"
     translated: "Tang Clan Underling"
+    qcReviewedText: "Tang Clan Underling"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/1,唐门丑侠"
   splits:
   - split: 1
     text: "唐门丑侠"
     translated: "Tang Clan's Ugly Hero"
+    qcReviewedText: "Tang Clan's Ugly Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/2,下作侠"
   splits:
   - split: 1
     text: "下作侠"
     translated: "Lowly Hero"
+    qcReviewedText: "Lowly Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/0,小师妹"
   splits:
   - split: 1
     text: "小师妹"
     translated: "Little Junior Sister"
+    qcReviewedText: "Little Junior Sister"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/1,瑞杏"
   splits:
   - split: 1
     text: "瑞杏"
     translated: "Rui Xing"
+    qcReviewedText: "Rui Xing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/2,叶云裳"
   splits:
   - split: 1
     text: "叶云裳"
     translated: "Ye Yunshang"
+    qcReviewedText: "Ye Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/3,虞小梅"
   splits:
   - split: 1
     text: "虞小梅"
     translated: "Yu Xiaomei"
+    qcReviewedText: "Yu Xiaomei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/FictionTitle/1,日薄西山"
   splits:
   - split: 1
     text: "日薄西山"
     translated: "The sun is setting in the west"
+    qcReviewedText: "The sun is setting in the west"
+    qcTranslated: "The sun is sinking toward the western mountains"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "PlayerInfo/FictionTitle/2,云开见日"
   splits:
   - split: 1
     text: "云开见日"
     translated: "Clouds part to reveal a clear day"
+    qcReviewedText: "Clouds part to reveal a clear day"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/FictionTitle/3,喷薄欲出"
   splits:
   - split: 1
     text: "喷薄欲出"
     translated: "Bursting forth"
+    qcReviewedText: "Bursting forth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/FictionTitle/4,旭日东升"
   splits:
   - split: 1
     text: "旭日东升"
     translated: "Rising Sun from the East"
+    qcReviewedText: "Rising Sun from the East"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/FictionTitle/5,如日方中"
   splits:
   - split: 1
     text: "如日方中"
     translated: "As the sun at midday"
+    qcReviewedText: "As the sun at midday"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/FictionTitle/6,烈日当空"
   splits:
   - split: 1
     text: "烈日当空"
     translated: "The sun shines brightly in the sky"
+    qcReviewedText: "The sun shines brightly in the sky"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/FictionDesc/1,名动江湖的天下第一暗器大家。\\n几朝老派，门人有入室、外姓之别。\\n外姓弟子拜入门下需服劳役，累积功德，假以时日方可蒙师长垂青，改宗入室，随师门姓唐，进而学习不外传的高深武功。\\n十数年前唐门遭逢大变，上代高手尽皆散尽死绝，独留现任掌门撑门拄户。\\n然而任凭掌门殚精竭虑，亦难力挽狂澜。\\n唐门人丁凋零，经已式微，昔日威风不再，而今又强敌环伺，实可谓危如累卵。"
   splits:
   - split: 1
     text: "名动江湖的天下第一暗器大家。"
     translated: "The grandmaster of Hidden Weapons in the Jianghu, renowned throughout the land."
+    qcReviewedText: "The grandmaster of Hidden Weapons in the Jianghu, renowned throughout the land.\\nIn several generations, disciples were accepted into the inner circle, distinguishing between those of the same clan and outsiders.\\nWhile correcting, disciples from outside the family must serve as laborers, accumulate good deeds, and wait for their mentors to take notice over time. Only then can they be accepted into the inner circle, adopt the family name Tang, and proceed to learn the secret, advanced martial arts techniques that are not taught to outsiders.\\nA decade or so ago, the Tang Clan faced a major upheaval, and all the previous generation's experts scattered or perished. Only the current Sect Leader remains to uphold the clan.\\nHowever, no matter how the Sect Leader exhausts themselves, they find it hard to reverse the dire situation.\\nThe Tang Clan is in decline, with few members left, and its former glory is no more. Now surrounded by formidable enemies, it truly is in a precarious situation, like a tower of eggs."
+    qcTranslated: "The grandmaster of Hidden Weapons in the Jianghu, renowned throughout the land.\\nFor several generations, the sect has maintained a distinction between inner‑circle disciples and those of outside surnames.\\nDisciples from outside the family must serve as laborers to accumulate merit; only after time has passed can they win their master's favor, be accepted into the inner circle, adopt the family name Tang, and proceed to learn the secret, advanced martial arts techniques that are not taught to outsiders.\\nA decade or so ago, the Tang Clan faced a major upheaval, and all the previous generation's experts scattered or perished. Only the current Sect Leader remains to uphold the clan.\\nHowever, no matter how the Sect Leader exhausts themselves, they find it hard to reverse the dire situation.\\nThe Tang Clan is in decline, with few members left, and its former glory is no more. Now surrounded by formidable enemies, it truly is in a precarious situation, like a tower of eggs."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "几朝老派，门人有入室、外姓之别。"
@@ -96,6 +159,10 @@
   - split: 1
     text: "唐门曾与南宫、上官并列江湖三大世家，行事作风却大相径庭。"
     translated: "The Tang Clan was once ranked among the three major families of Jianghu alongside the Nangong and Shangguan families, but their approach and style were quite different."
+    qcReviewedText: "The Tang Clan was once ranked among the three major families of Jianghu alongside the Nangong and Shangguan families, but their approach and style were quite different.\\nThe Tang Clan is different from the Nangong Clan, which strictly adheres to their family precepts and does not take in outsiders as disciples. They are also unlike the Shangguan Family, which is ambitious and widely recruits members.\\nAlthough they have taken disciples, there is a distinction between inner disciples and outer disciples.\\nDisciples from other clans who join the sect must serve labor duties and accumulate merit.\\nOnly with time can one earn the master's favor, be accepted into the lineage, adopt the family name Tang, and thus receive the profound secrets of martial arts.\\nThis rule was established by our ancestor and is no longer appropriate for our times. Later generations have blindly followed it, leading to our current state of decline."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "唐门不似南宫谨守家训不收外徒，亦不像上官世家野心勃勃广收帮众。"
@@ -124,6 +191,15 @@
   - split: 1
     text: "一度潦倒的唐门，多亏当代弟子的活跃，颇有起死回生的迹象。"
     translated: "The once‑declining Tang Clan has shown signs of revival thanks to the current generation of disciples, much like coming back from the dead."
+    qcReviewedText: "The once‑declining Tang Clan has shown signs of revival thanks to the current generation of disciples, much like coming back from the dead.\\nWhile correcting, many disciples came seeking to join the sect and become apprentices. While correcting, the sect members acted in perfect understanding, no longer mentioning the inner and outer surname system, allowing new initiate disciples to immediately become apprentices and practice martial arts, thereby strengthening the sect's strength.\\nAlthough it no longer boasts the abundance of talent from its peak, its influence is still formidable.\\nYou became the last outer‑clan disciple of our sect, and thus a rare figure."
+    qcTranslated: "The once‑declining Tang Clan has shown signs of revival thanks to the current generation of disciples, much like coming back from the dead.\\nDrawn by its reputation, many disciples came seeking to join the Sect and become apprentices. The Sect members acted in perfect understanding, no longer mentioning the inner and outer surname system, allowing new Initiate Disciples to immediately become apprentices and practice martial arts, thereby strengthening the Sect's strength.\\nAlthough it no longer boasts the abundance of talent from its peak, its influence is still formidable.\\nYou became the last outer‑clan disciple of our Sect, and thus a rare figure."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "慕名而来拜师的弟子众多，门人心有灵犀，均不再提内外姓制度，使新入门弟子得以即刻拜师习练武艺，补充门派实力。"
@@ -144,6 +220,10 @@
   - split: 1
     text: "如今唐门风光，已直逼当年全盛之时。"
     translated: "Now the Tang Clan is flourishing, rivaling their peak years."
+    qcReviewedText: "Now the Tang Clan is flourishing, rivaling their peak years.\\nAmong the new disciples with outstanding talent, their martial arts skills have already developed, ensuring that our sect does not face ridicule when venturing into Jianghu.\\nWith the Tang Clan standing guard, no outsiders dare to offend, making them the most prominent armed group in the eyes of the authorities in the Shu region."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "新入弟子之中资质上佳者，武功已成，使本门行走江湖不致教人瞧轻。"
@@ -160,6 +240,10 @@
   - split: 1
     text: "唐门以一介世家，几乎能与大派分庭抗礼。"
     translated: "The Tang Clan, as a prominent family, is nearly on par with the major sects."
+    qcReviewedText: "The Tang Clan, as a prominent family, is nearly on par with the major sects.\\nOur sect has produced many talented individuals, and those whose reputations have risen are countless, including you.\\nThe mark of an outsider disciple has faded from people's memories. You are no longer someone else; you are yourself.\\nMany people are looking at your back as they follow behind you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "门中能人辈出，声名鹊起者不绝，其中便有你在列。"
@@ -180,6 +264,10 @@
   - split: 1
     text: "唐门的威望，空前绝后，傲视群豪。"
     translated: "The prestige of the Tang Clan is unmatched, surpassing all others."
+    qcReviewedText: "The prestige of the Tang Clan is unmatched, surpassing all others.\\nHaving become the foremost sect in the current court of Wulin, the Mud Cult has declined so much that it can no longer compete.\\nThose who can rival Tang Clan are but one: the Wulin Alliance. The dividing line of the era is before your eyes, and your name has already become an immortal legend."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "俨然已成当朝武林的第一大派，泥教既衰，已不能与抗。"
@@ -196,73 +284,133 @@
   - split: 1
     text: "鬼面郎中"
     translated: "Masked Doctor"
+    qcReviewedText: "Masked Doctor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/4,草食侠"
   splits:
   - split: 1
     text: "草食侠"
     translated: "Herbivore Hero"
+    qcReviewedText: "Herbivore Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/5,阎王使者"
   splits:
   - split: 1
     text: "阎王使者"
     translated: "King Yama's Emissary"
+    qcReviewedText: "King Yama's Emissary"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/6,风度翩翩丑郎君"
   splits:
   - split: 1
     text: "风度翩翩丑郎君"
     translated: "Elegant Ugly Young Master"
+    qcReviewedText: "Elegant Ugly Young Master"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/7,雪山大弟子"
   splits:
   - split: 1
     text: "雪山大弟子"
     translated: "Great Disciple of the Snow Mountain"
+    qcReviewedText: "Great Disciple of the Snow Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/8,褪裤侠"
   splits:
   - split: 1
     text: "褪裤侠"
     translated: "Pants‑off Hero"
+    qcReviewedText: "Pants‑off Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/9,臭弟侠"
   splits:
   - split: 1
     text: "臭弟侠"
     translated: "Stinky Hero"
+    qcReviewedText: "Stinky Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/10,辣眼郎中"
   splits:
   - split: 1
     text: "辣眼郎中"
     translated: "Eye‑Popping Physician"
+    qcReviewedText: "Eye‑Popping Physician"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Title/11,再世凤雏"
   splits:
   - split: 1
     text: "再世凤雏"
     translated: "Phoenix Chick Reborn"
+    qcReviewedText: "Phoenix Chick Reborn"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/4,上官萤"
   splits:
   - split: 1
     text: "上官萤"
     translated: "Shangguan Ying"
+    qcReviewedText: "Shangguan Ying"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/5,夏侯兰"
   splits:
   - split: 1
     text: "夏侯兰"
     translated: "Xiahou Lan"
+    qcReviewedText: "Xiahou Lan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/6,郁竹"
   splits:
   - split: 1
     text: "郁竹"
     translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/7,魏菊"
   splits:
   - split: 1
     text: "魏菊"
     translated: "Wei Ju"
+    qcReviewedText: "Wei Ju"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/8,龙湘"
   splits:
   - split: 1
     text: "龙湘"
     translated: "Long Xiang"
+    qcReviewedText: "Long Xiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerInfo/Lover/99,自己"
   splits:
   - split: 1
     text: "自己"
     translated: "Oneself"
+    qcReviewedText: "Oneself"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

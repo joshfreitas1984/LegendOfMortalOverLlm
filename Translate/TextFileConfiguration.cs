@@ -53,7 +53,7 @@ public static class TextFileConfiguration
         new() {Path = "ItemMisc_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "ItemSpecial_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         // LegendInfo/... narrative text - mid-sentence line wraps are joined at packaging, see SoftLineBreakJoiner.
-        new() {Path = "Legend_01_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
+        new() {Path = "Legend_01_zh-cn.csv", PackageOutput = true, SkipColumns = [0], EnableQualityReview = false },
         new() {Path = "Library_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "PlayerInfo_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Position_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },

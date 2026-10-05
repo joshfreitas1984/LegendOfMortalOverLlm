@@ -3,41 +3,73 @@
   - split: 1
     text: "外堡"
     translated: "Outer Fortress"
+    qcReviewedText: "Outer Fortress"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Name/002,茶肆"
   splits:
   - split: 1
     text: "茶肆"
     translated: "Tea shop"
+    qcReviewedText: "Tea shop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Name/003,药铺"
   splits:
   - split: 1
     text: "药铺"
     translated: "Pharmacy"
+    qcReviewedText: "Pharmacy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Name/004,温泉"
   splits:
   - split: 1
     text: "温泉"
     translated: "Hot spring"
+    qcReviewedText: "Hot spring"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Name/005,义田"
   splits:
   - split: 1
     text: "义田"
     translated: "Righteous Field"
+    qcReviewedText: "Righteous Field"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Name/006,练功塔"
   splits:
   - split: 1
     text: "练功塔"
     translated: "Training Tower"
+    qcReviewedText: "Training Tower"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Name/007,饭店"
   splits:
   - split: 1
     text: "饭店"
     translated: "Hotel"
+    qcReviewedText: "Hotel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Title/AddMoney,+{0:0}两"
   splits:
   - split: 1
     text: "两"
     translated: "Taels"
+    qcReviewedText: "+{0:0} Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "+⟦0:0⟧{0}"
@@ -46,103 +78,187 @@
   - split: 1
     text: "尚未赎回"
     translated: "Not yet redeemed"
+    qcReviewedText: "Not yet redeemed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/001_1,【效果】+50两"
   splits:
   - split: 1
     text: "【效果】+50两"
     translated: "Effect: +50 Taels"
+    qcReviewedText: "Effect: +50 Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/001_2,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/001_3,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/001_4,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/002_1,【效果】+30两"
   splits:
   - split: 1
     text: "【效果】+30两"
     translated: "Effect: +30 Taels"
+    qcReviewedText: "Effect: +30 Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/002_2,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/002_3,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/002_4,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/003_1,【效果】+30两"
   splits:
   - split: 1
     text: "【效果】+30两"
     translated: "Effect: +30 Taels"
+    qcReviewedText: "Effect: +30 Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/003_2,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/003_3,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/003_4,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/004_1,【效果】+30两"
   splits:
   - split: 1
     text: "【效果】+30两"
     translated: "Effect: +30 Taels"
+    qcReviewedText: "Effect: +30 Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/004_2,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/004_3,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/004_4,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/005_1,【效果】+30两"
   splits:
   - split: 1
     text: "【效果】+30两"
     translated: "Effect: +30 Taels"
+    qcReviewedText: "Effect: +30 Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/005_2,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/005_3,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Facility/Effect/005_4,【效果】"
   splits:
   - split: 1
     text: "【效果】"
     translated: "【Effect】"
+    qcReviewedText: "【Effect】"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

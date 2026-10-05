@@ -3,208 +3,379 @@
   - split: 1
     text: "青城派好感度"
     translated: "Qingcheng Sect Affinity"
+    qcReviewedText: "Qingcheng Sect Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H00002,全真教好感度"
   splits:
   - split: 1
     text: "全真教好感度"
     translated: "Quanzhen Affinity"
+    qcReviewedText: "Quanzhen Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H00003,峨嵋派好感度"
   splits:
   - split: 1
     text: "峨嵋派好感度"
     translated: "Emei Sect Affinity"
+    qcReviewedText: "Emei Sect Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H00004,崆峒派好感度"
   splits:
   - split: 1
     text: "崆峒派好感度"
     translated: "Kongtong Affinity"
+    qcReviewedText: "Kongtong Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H00005,嵩山派好感度"
   splits:
   - split: 1
     text: "嵩山派好感度"
     translated: "Songshan Sect Affinity"
+    qcReviewedText: "Songshan Sect Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H00006,点苍派好感度"
   splits:
   - split: 1
     text: "点苍派好感度"
     translated: "Diancang Sect Affinity"
+    qcReviewedText: "Diancang Sect Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H01001,南宫世家好感度"
   splits:
   - split: 1
     text: "南宫世家好感度"
     translated: "Nangong Family Affinity"
+    qcReviewedText: "Nangong Family Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H01002,锦香宫好感度"
   splits:
   - split: 1
     text: "锦香宫好感度"
     translated: "Jinxiang Palace Affinity"
+    qcReviewedText: "Jinxiang Palace Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H01003,上官世家好感度"
   splits:
   - split: 1
     text: "上官世家好感度"
     translated: "Shangguan Family Affinity"
+    qcReviewedText: "Shangguan Family Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H02001,丐帮好感度"
   splits:
   - split: 1
     text: "丐帮好感度"
     translated: "Beggar Sect Affinity"
+    qcReviewedText: "Beggar Sect Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H02002,飞石帮好感度"
   splits:
   - split: 1
     text: "飞石帮好感度"
     translated: "Flying Stone Gang Affinity"
+    qcReviewedText: "Flying Stone Gang Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/H02003,泥教好感度"
   splits:
   - split: 1
     text: "泥教好感度"
     translated: "Mud Cult Affinity"
+    qcReviewedText: "Mud Cult Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M60018,叶云裳学琴"
   splits:
   - split: 1
     text: "叶云裳学琴"
     translated: "Ye Yunshang learns the piano"
+    qcReviewedText: "Ye Yunshang learns the piano"
+    qcTranslated: "Ye Yunshang learns the qin"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "Flag/Name/M70051,设陷阱"
   splits:
   - split: 1
     text: "设陷阱"
     translated: "Set a trap"
+    qcReviewedText: "Set a trap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M70056,飞石帮"
   splits:
   - split: 1
     text: "飞石帮"
     translated: "Flying Stone Gang"
+    qcReviewedText: "Flying Stone Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M70065,龙湘的勇气"
   splits:
   - split: 1
     text: "龙湘的勇气"
     translated: "Courage of Long Xiang"
+    qcReviewedText: "Courage of Long Xiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M70066,叶云裳设陷阱"
   splits:
   - split: 1
     text: "叶云裳设陷阱"
     translated: "Ye Yunshang set a trap"
+    qcReviewedText: "Ye Yunshang set a trap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M80003,小师妹"
   splits:
   - split: 1
     text: "小师妹"
     translated: "Little Junior Sister"
+    qcReviewedText: "Little Junior Sister"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M80008,小师妹"
   splits:
   - split: 1
     text: "小师妹"
     translated: "Little Junior Sister"
+    qcReviewedText: "Little Junior Sister"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81000,丐帮"
   splits:
   - split: 1
     text: "丐帮"
     translated: "Beggar Sect"
+    qcReviewedText: "Beggar Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81001,丐帮"
   splits:
   - split: 1
     text: "丐帮"
     translated: "Beggar Sect"
+    qcReviewedText: "Beggar Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81002,青城派"
   splits:
   - split: 1
     text: "青城派"
     translated: "Qingcheng Sect"
+    qcReviewedText: "Qingcheng Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81003,青城派"
   splits:
   - split: 1
     text: "青城派"
     translated: "Qingcheng Sect"
+    qcReviewedText: "Qingcheng Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81004,峨嵋派"
   splits:
   - split: 1
     text: "峨嵋派"
     translated: "Emei Sect"
+    qcReviewedText: "Emei Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81005,嵩山十八铜人"
   splits:
   - split: 1
     text: "嵩山十八铜人"
     translated: "The Eighteen Bronze Men of Songshan"
+    qcReviewedText: "The Eighteen Bronze Men of Songshan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81006,锦香宫支援"
   splits:
   - split: 1
     text: "锦香宫支援"
     translated: "Jinxiang Palace Support"
+    qcReviewedText: "Jinxiang Palace Support"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81007,连环火箭"
   splits:
   - split: 1
     text: "连环火箭"
     translated: "Chain Rocket"
+    qcReviewedText: "Chain Rocket"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81008,沧帮的背叛"
   splits:
   - split: 1
     text: "沧帮的背叛"
     translated: "The Betrayal of the Cang Gang"
+    qcReviewedText: "The Betrayal of the Cang Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81009,四师兄的阴损伎俩"
   splits:
   - split: 1
     text: "四师兄的阴损伎俩"
     translated: "Fourth Senior Brother's sinister tricks"
+    qcReviewedText: "Fourth Senior Brother's sinister tricks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81010,邹博"
   splits:
   - split: 1
     text: "邹博"
     translated: "Zou Bo"
+    qcReviewedText: "Zou Bo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81011,画中仙"
   splits:
   - split: 1
     text: "画中仙"
     translated: "Painting Immortal"
+    qcReviewedText: "Painting Immortal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M81012,小梅"
   splits:
   - split: 1
     text: "小梅"
     translated: "Xiao Mei"
+    qcReviewedText: "Xiao Mei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82000,丐帮"
   splits:
   - split: 1
     text: "丐帮"
     translated: "Beggar Sect"
+    qcReviewedText: "Beggar Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82001,丐帮"
   splits:
   - split: 1
     text: "丐帮"
     translated: "Beggar Sect"
+    qcReviewedText: "Beggar Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82002,南宫世家"
   splits:
   - split: 1
     text: "南宫世家"
     translated: "Nangong Family"
+    qcReviewedText: "Nangong Family"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82003,上官世家"
   splits:
   - split: 1
     text: "上官世家"
     translated: "Shangguan Family"
+    qcReviewedText: "Shangguan Family"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82004,全真派"
   splits:
   - split: 1
     text: "全真派"
     translated: "Quanzhen Sect"
+    qcReviewedText: "Quanzhen Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82005,崆峒派"
   splits:
   - split: 1
     text: "崆峒派"
     translated: "Kongtong Sect"
+    qcReviewedText: "Kongtong Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82006,崆峒派"
   splits:
   - split: 1
     text: "崆峒派"
     translated: "Kongtong Sect"
+    qcReviewedText: "Kongtong Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82007,嵩山派"
   splits:
   - split: 1
     text: "嵩山派"
     translated: "Songshan Sect"
+    qcReviewedText: "Songshan Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82008,点苍派"
   splits:
   - split: 1
     text: "点苍派"
     translated: "Diancang Sect"
+    qcReviewedText: "Diancang Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Flag/Name/M82009,锦香宫"
   splits:
   - split: 1
     text: "锦香宫"
     translated: "Jinxiang Palace"
+    qcReviewedText: "Jinxiang Palace"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -3,6 +3,10 @@
   - split: 1
     text: "焚香"
     translated: "Burning incense"
+    qcReviewedText: "Burning incense·Brewing tea‧Light the lamps"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "烹茶"
@@ -19,21 +23,37 @@
   - split: 1
     text: "扫除"
     translated: "Cleaning"
+    qcReviewedText: "Cleaning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Content/Poison,炼毒制药"
   splits:
   - split: 1
     text: "炼毒制药"
     translated: "Refining poison into medicine"
+    qcReviewedText: "Refining poison into medicine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Content/Forge,锻造暗器"
   splits:
   - split: 1
     text: "锻造暗器"
     translated: "Forging Hidden Weapons"
+    qcReviewedText: "Forging Hidden Weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Content/BackMountain,挑柴/挑水"
   splits:
   - split: 1
     text: "挑柴"
     translated: "Carrying firewood"
+    qcReviewedText: "Carrying firewood/Fetching water"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "挑水"
@@ -46,26 +66,46 @@
   - split: 1
     text: "偷懒"
     translated: "Slacking off"
+    qcReviewedText: "Slacking off"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Content/Door,购案"
   splits:
   - split: 1
     text: "购案"
     translated: "Purchase Case"
+    qcReviewedText: "Purchase Case"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Content/Study,庶务"
   splits:
   - split: 1
     text: "庶务"
     translated: "Miscellaneous duties"
+    qcReviewedText: "Miscellaneous duties"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Content/Kitchen,掌厨"
   splits:
   - split: 1
     text: "掌厨"
     translated: "Head chef"
+    qcReviewedText: "Head chef"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Dialog/Mall,在正心堂担任值日生，只需要做一些简单的风雅工作。\\n非但不会造成心理负担，还可以修身养性。\\n不过老是挑这种轻松的活，会惹人眼红的。"
   splits:
   - split: 1
     text: "在正心堂担任值日生，只需要做一些简单的风雅工作。"
     translated: "As the duty student at Zhengxin Hall, they only need to do some simple and elegant tasks."
+    qcReviewedText: "As the duty student at Zhengxin Hall, they only need to do some simple and elegant tasks.\\nNot only will it not cause psychological stress, but it can also help cultivate one's character and nurture their spirit.\\nIf you keep picking these easy tasks, it will make others envious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "非但不会造成心理负担，还可以修身养性。"
@@ -82,6 +122,10 @@
   - split: 1
     text: "由于练习用的暗器装有墨水的缘故，"
     translated: "Because the practice hidden weapons were filled with ink,"
+    qcReviewedText: "Because the practice hidden weapons were filled with ink,\\nSo no matter how clean they swept, the place would always get messy again after morning exercises every day.\\nSomeone's got to tidy up the place"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "所以无论清扫得多干净，每日早操完之后铁定会变很脏乱。"
@@ -98,16 +142,28 @@
   - split: 1
     text: "到不见天日的炼丹房去供人差遣吧。"
     translated: "Go to the dark and dim alchemy room to be at someone's disposal."
+    qcReviewedText: "Go to the dark and dim alchemy room to be at someone's disposal."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Dialog/Forge,到热死人的锻冶场去供人差遣吧。"
   splits:
   - split: 1
     text: "到热死人的锻冶场去供人差遣吧。"
     translated: "Go to that scorching forge to be at someone's disposal."
+    qcReviewedText: "Go to that scorching forge to be at someone's disposal."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Dialog/BackMountain,为唐门上下打足明日用的柴薪与日常用水。\\n没有人想做这苦差事，因为很累。\\n此外栈道陡峭，为了不摔死必须步步为营，跑多几趟说不定轻功会变好，呵。"
   splits:
   - split: 1
     text: "为唐门上下打足明日用的柴薪与日常用水。"
     translated: "Prepare firewood and water for the Tang Clan's use tomorrow and for their daily needs."
+    qcReviewedText: "Prepare firewood and water for the Tang Clan's use tomorrow and for their daily needs.\\nNo one wanted to do this grueling task because it was so tiring.\\nFurthermore, the trail is steep, and to avoid falling to my death, I must proceed with caution. Running up and down a few more times might improve my qinggong, heh."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "没有人想做这苦差事，因为很累。"
@@ -124,6 +180,10 @@
   - split: 1
     text: "我今天不想工作。"
     translated: "I don't want to work today"
+    qcReviewedText: "I don't want to work today \\nI'm under a lot of pressure!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "我压力很大！"
@@ -136,6 +196,13 @@
   - split: 1
     text: "为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。"
     translated: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, hoping to catch them by surprise."
+    qcReviewedText: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, hoping to catch them by surprise.\\nBy nightfall, Little Junior Sister would be folding paper cranes by the window.\\nI didn't plan on doing anything bad; I just wanted to hear their breathing!"
+    qcTranslated: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, waiting for her to come out.\\nBy nightfall, Little Junior Sister would be folding paper cranes by the window.\\nI didn't plan on doing anything bad; I just wanted to hear her breathing!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "等到入了夜，小师妹就会在窗边折纸鹤。"
@@ -152,6 +219,10 @@
   - split: 1
     text: "下山去采买生活必需品。"
     translated: "Go down the mountain to buy essential supplies."
+    qcReviewedText: "Go down the mountain to buy essential supplies.\\nIt's nice to get some fresh air, but I often end up away for many days and can't come back, unable to see Little Junior Sister..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "可以透透气是不错，可是往往一去就多日不能回来，见不到小师妹……。"
@@ -164,6 +235,10 @@
   - split: 1
     text: "当三师兄的助手，协助处理门中大小杂务。"
     translated: "Working as Third Senior Brother's assistant, helping to handle all sorts of tasks within the sect."
+    qcReviewedText: "Working as Third Senior Brother's assistant, helping to handle all sorts of tasks within the sect.\\nServing as a part‑time librarian at the Lecture Hall, they are in charge of lending records.\\nIt's pretty good to read some books in your free time."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "兼任讲经堂藏书管理员，专司出借纪录。"
@@ -180,41 +255,73 @@
   - split: 1
     text: "烧几道好菜拢络人心吧。"
     translated: "Let's cook a few good dishes to win people's hearts."
+    qcReviewedText: "Let's cook a few good dishes to win people's hearts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Work/Dialog/Secret,神秘的房子。"
   splits:
   - split: 1
     text: "神秘的房子。"
     translated: "Mysterious House"
+    qcReviewedText: "Mysterious House"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/Mall,静坐冥想"
   splits:
   - split: 1
     text: "静坐冥想"
     translated: "Sitting meditation"
+    qcReviewedText: "Sitting meditation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/Center,团练"
   splits:
   - split: 1
     text: "团练"
     translated: "Group training"
+    qcReviewedText: "Group training"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/Poison,当二师兄的助手"
   splits:
   - split: 1
     text: "当二师兄的助手"
     translated: "To serve as the Second Senior Brother's assistant."
+    qcReviewedText: "To serve as the Second Senior Brother's assistant."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/BackMountain,修练秘籍"
   splits:
   - split: 1
     text: "修练秘籍"
     translated: "Cultivation Secrets"
+    qcReviewedText: "Cultivation Secrets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/Room1,耍废"
   splits:
   - split: 1
     text: "耍废"
     translated: "Wasting time"
+    qcReviewedText: "Wasting time"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/Door,门外选项(长假)"
   splits:
   - split: 1
     text: "门外选项"
     translated: "Options outside the door"
+    qcReviewedText: "Options outside the door(Long vacation)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "长假"
@@ -227,21 +334,37 @@
   - split: 1
     text: "听三师兄讲课"
     translated: "Listen to the Third Senior Brother's lecture"
+    qcReviewedText: "Listen to the Third Senior Brother's lecture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Content/Room2,小师妹房外蹲哨"
   splits:
   - split: 1
     text: "小师妹房外蹲哨"
     translated: "Little Junior Sister squatting on guard outside the room."
+    qcReviewedText: "Little Junior Sister squatting on guard outside the room."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Dialog/Mall,修心课，无论入室弟子或外姓弟子都可以自由参加。"
   splits:
   - split: 1
     text: "修心课，无论入室弟子或外姓弟子都可以自由参加。"
     translated: "Heart Cultivation Class: Both inner‑disciples and outsider disciples can freely participate."
+    qcReviewedText: "Heart Cultivation Class: Both inner‑disciples and outsider disciples can freely participate."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Dialog/Center,团练除了可以强身健体、敦亲睦邻之外，\\n最重要的是可以见到小师妹！"
   splits:
   - split: 1
     text: "团练除了可以强身健体、敦亲睦邻之外，"
     translated: "Gathering for training not only strengthens the body and mind but also promotes harmony and friendship among neighbors,"
+    qcReviewedText: "Gathering for training not only strengthens the body and mind but also promotes harmony and friendship among neighbors,\\nThe most important thing is to see Little Junior Sister!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "最重要的是可以见到小师妹！"
@@ -254,16 +377,28 @@
   - split: 1
     text: "二师兄就喜欢一边使唤人做事一边骂人。"
     translated: "Second Senior Brother just likes to order people around while scolding them."
+    qcReviewedText: "Second Senior Brother just likes to order people around while scolding them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Dialog/BackMountain,唐门不肯传我真功夫，我就躲起来自己偷练武功。"
   splits:
   - split: 1
     text: "唐门不肯传我真功夫，我就躲起来自己偷练武功。"
     translated: "The Tang Clan won't teach me the true techniques, so I'll sneak away to practice the martial arts on my own."
+    qcReviewedText: "The Tang Clan won't teach me the true techniques, so I'll sneak away to practice the martial arts on my own."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Dialog/Room1,朕今天什么也不想做。\\n难得的假日就该东床高卧。"
   splits:
   - split: 1
     text: "朕今天什么也不想做。"
     translated: "I don't want to do anything today"
+    qcReviewedText: "I don't want to do anything today \\nA rare holiday should be spent sleeping in."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "难得的假日就该东床高卧。"
@@ -276,16 +411,31 @@
   - split: 1
     text: "出门玩耍去。"
     translated: "Go out and play"
+    qcReviewedText: "Go out and play"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Dialog/Study,听三师兄讲些圣贤道理，增长学问见识。"
   splits:
   - split: 1
     text: "听三师兄讲些圣贤道理，增长学问见识。"
     translated: "Listen to Third Senior Brother talk about the principles of the sages to increase knowledge and insight."
+    qcReviewedText: "Listen to Third Senior Brother talk about the principles of the sages to increase knowledge and insight."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Free/Dialog/Room2,为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。\\n等到入了夜，小师妹就会在窗边折纸鹤。\\n我没打算做坏事，我只是想听她的呼吸声！"
   splits:
   - split: 1
     text: "为了不被发现，必须从大白天就伏在女弟子房外悬崖边上守株待兔。"
     translated: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, hoping to catch them by surprise."
+    qcReviewedText: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, hoping to catch them by surprise.\\nBy nightfall, Little Junior Sister would be folding paper cranes by the window.\\nI didn't plan on doing anything bad; I just wanted to hear their breathing!"
+    qcTranslated: "To avoid detection, they had to lie in wait from broad daylight on the cliff's edge outside the female disciple's quarters, waiting for her to come out.\\nBy nightfall, Little Junior Sister would be folding paper cranes by the window.\\nI didn't plan on doing anything bad; I just wanted to hear her breathing!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "等到入了夜，小师妹就会在窗边折纸鹤。"

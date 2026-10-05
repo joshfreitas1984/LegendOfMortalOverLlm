@@ -3,31 +3,55 @@
   - split: 1
     text: "砍死"
     translated: "Chop to death"
+    qcReviewedText: "Chop to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10000,被砍了以后，就流血，然后死掉。"
   splits:
   - split: 1
     text: "被砍了以后，就流血，然后死掉。"
     translated: "After being cut, they bled and then died."
+    qcReviewedText: "After being cut, they bled and then died."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10001,摔死"
   splits:
   - split: 1
     text: "摔死"
     translated: "Fall to death"
+    qcReviewedText: "Fall to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10001,重力与地面连手谋杀了你。"
   splits:
   - split: 1
     text: "重力与地面连手谋杀了你。"
     translated: "Gravity and the ground conspired to murder you."
+    qcReviewedText: "Gravity and the ground conspired to murder you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10002,我憎恶着人间，一如人间憎恶我"
   splits:
   - split: 1
     text: "我憎恶着人间，一如人间憎恶我"
     translated: "I detest the world, just as the world detests me."
+    qcReviewedText: "I detest the world, just as the world detests me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10002,生命有不可承受之轻，心伤到绝地，\\n了无生趣，死有何惧呢？"
   splits:
   - split: 1
     text: "生命有不可承受之轻，心伤到绝地，"
     translated: "Life has an unbearable lightness, and the heart is wounded to the point of despair."
+    qcReviewedText: "Life has an unbearable lightness, and the heart is wounded to the point of despair.\\nLife is meaningless anyway, so what do I have to fear about death?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "了无生趣，死有何惧呢？"
@@ -40,31 +64,58 @@
   - split: 1
     text: "毒死"
     translated: "Poisoned to death"
+    qcReviewedText: "Poisoned to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10003,中毒而死。"
   splits:
   - split: 1
     text: "中毒而死。"
     translated: "Poisoned to death"
+    qcReviewedText: "Poisoned to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10004,爆头"
   splits:
   - split: 1
     text: "爆头"
     translated: "Headshot"
+    qcReviewedText: "Headshot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10004,你的脑壳爆掉了，场面异常血腥。"
   splits:
   - split: 1
     text: "你的脑壳爆掉了，场面异常血腥。"
     translated: "Your head exploded, and the scene was exceptionally bloody."
+    qcReviewedText: "Your head exploded, and the scene was exceptionally bloody."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10005,谁也别想欺负我小师妹"
   splits:
   - split: 1
     text: "谁也别想欺负我小师妹"
     translated: "No one should think about bullying my Little Junior Sister."
+    qcReviewedText: "No one should think about bullying my Little Junior Sister."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10005,你为了捍卫小师妹，挺身而出作了一回英雄，\\n纵使不为人知，亦死而无憾。"
   splits:
   - split: 1
     text: "你为了捍卫小师妹，挺身而出作了一回英雄，"
     translated: "You stepped up to be a hero to defend your Little Junior Sister."
+    qcReviewedText: "You stepped up to be a hero to defend your Little Junior Sister.\\nEven if it goes unsung, I will die without regret."
+    qcTranslated: "You stepped up to be a hero to defend your Little Junior Sister.\\nEven if it goes unsung, you will die without regret."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "纵使不为人知，亦死而无憾。"
@@ -77,31 +128,55 @@
   - split: 1
     text: "屁力焦蛙"
     translated: "Pili Jiao Frog"
+    qcReviewedText: "Pili Jiao Frog"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10006,从来没见过这种歹毒的武功，佩服佩服，失敬失敬。"
   splits:
   - split: 1
     text: "从来没见过这种歹毒的武功，佩服佩服，失敬失敬。"
     translated: "I have never seen such a vicious martial art; I admire it, truly, and I am humbled."
+    qcReviewedText: "I have never seen such a vicious martial art; I admire it, truly, and I am humbled."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10007,我在唐门谷底"
   splits:
   - split: 1
     text: "我在唐门谷底"
     translated: "I am at the bottom of the Tang Clan valley."
+    qcReviewedText: "I am at the bottom of the Tang Clan valley."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10007,以肉酱的形式。"
   splits:
   - split: 1
     text: "以肉酱的形式。"
     translated: "In the form of meat sauce"
+    qcReviewedText: "In the form of meat sauce"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10008,搞失踪"
   splits:
   - split: 1
     text: "搞失踪"
     translated: "Go missing"
+    qcReviewedText: "Go missing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10008,你搞失踪，而且大家都找不到你。\\n无所谓，根本没人在意你的感受。"
   splits:
   - split: 1
     text: "你搞失踪，而且大家都找不到你。"
     translated: "You went missing, and nobody could find you."
+    qcReviewedText: "You went missing, and nobody could find you.\\nWho cares anyway? No one really cares about your feelings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "无所谓，根本没人在意你的感受。"
@@ -114,11 +189,19 @@
   - split: 1
     text: "小师妹的制裁"
     translated: "The Punishment of the Little Junior Sister"
+    qcReviewedText: "The Punishment of the Little Junior Sister"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10009,小师妹心地善良，等闲不会取人性命的，\\n你一定做了什么天理不容的事情。"
   splits:
   - split: 1
     text: "小师妹心地善良，等闲不会取人性命的，"
     translated: "Little Junior Sister is kind‑hearted and rarely takes lives."
+    qcReviewedText: "Little Junior Sister is kind‑hearted and rarely takes lives.\\nYou must have done something that goes against the laws of heaven."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你一定做了什么天理不容的事情。"
@@ -131,41 +214,76 @@
   - split: 1
     text: "围殴致死"
     translated: "Beaten to death"
+    qcReviewedText: "Beaten to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10010,围殴致死"
   splits:
   - split: 1
     text: "围殴致死"
     translated: "Beaten to death"
+    qcReviewedText: "Beaten to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10011,一刀两断"
   splits:
   - split: 1
     text: "一刀两断"
     translated: "To cut cleanly in two"
+    qcReviewedText: "To cut cleanly in two"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10011,你竟会分身。"
   splits:
   - split: 1
     text: "你竟会分身。"
     translated: "You can actually split yourself"
+    qcReviewedText: "You can actually split yourself"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10012,谋财害命"
   splits:
   - split: 1
     text: "谋财害命"
     translated: "To scheme for wealth and harm lives"
+    qcReviewedText: "To scheme for wealth and harm lives"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10012,不单惨遭杀害，钱财也被洗劫一空。"
   splits:
   - split: 1
     text: "不单惨遭杀害，钱财也被洗劫一空。"
     translated: "Not only were they brutally murdered, but their wealth was also completely looted."
+    qcReviewedText: "Not only were they brutally murdered, but their wealth was also completely looted."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10013,活活打死"
   splits:
   - split: 1
     text: "活活打死"
     translated: "Beaten to death"
+    qcReviewedText: "Beaten to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10013,比武过招，受伤在所难免，对方本来没想取你性命，\\n但是你揍起来手感太好，不小心就多打了两百多拳，\\n怎知你中途就没气了，不关我的事哇。"
   splits:
   - split: 1
     text: "比武过招，受伤在所难免，对方本来没想取你性命，"
     translated: "Sparring inevitably leads to injuries. The other party didn't originally intend to take your life."
+    qcReviewedText: "Sparring inevitably leads to injuries. The other party didn't originally intend to take your life.\\nBut your punches feel so good to throw that I accidentally hit you more than two hundred times.\\nHow do I know you didn't run out of steam halfway through? It's not my problem."
+    qcTranslated: "Sparring inevitably leads to injuries. The other party didn't originally intend to take your life.\\nBut your punches feel so good to throw that I accidentally hit you more than two hundred times.\\nWho would have known you'd run out of steam halfway through? It's not my problem."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "但是你揍起来手感太好，不小心就多打了两百多拳，"
@@ -182,11 +300,19 @@
   - split: 1
     text: "自食恶果"
     translated: "Reap what one sows"
+    qcReviewedText: "Reap what one sows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10014,一山不容二虎，飞天门只能有一个神仙下凡，\\n你来世向人吹嘘可得谨慎说法。"
   splits:
   - split: 1
     text: "一山不容二虎，飞天门只能有一个神仙下凡，"
     translated: "There's no room for two tigers on the same mountain; Feitian Gate can only have one immortal descended to this world."
+    qcReviewedText: "There's no room for two tigers on the same mountain; Feitian Gate can only have one immortal descended to this world.\\nBe careful how you boast about this in your next life."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你来世向人吹嘘可得谨慎说法。"
@@ -199,21 +325,40 @@
   - split: 1
     text: "被情敌杀死"
     translated: "Killed by a rival in love"
+    qcReviewedText: "Killed by a rival in love"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10015,被忌妒若狂的情敌杀死。"
   splits:
   - split: 1
     text: "被忌妒若狂的情敌杀死。"
     translated: "Killed by a jealous rival"
+    qcReviewedText: "Killed by a jealous rival"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10016,含冤莫白"
   splits:
   - split: 1
     text: "含冤莫白"
     translated: "Injustice remains unspoken"
+    qcReviewedText: "Injustice remains unspoken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10016,你死的不明不白，\\n直到瞑目都不知对方杀意何来。"
   splits:
   - split: 1
     text: "你死的不明不白，"
     translated: "You died without anyone knowing what really happened."
+    qcReviewedText: "You died without anyone knowing what really happened.\\nUntil their eyes closed for the last time, they didn't know where the killer's intent came from."
+    qcTranslated: "You died without anyone knowing what really happened.\\nUntil your eyes closed for the last time, you didn't know where the killer's intent came from."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "直到瞑目都不知对方杀意何来。"
@@ -226,11 +371,22 @@
   - split: 1
     text: "被烫死"
     translated: "Scalded to death"
+    qcReviewedText: "Scalded to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10017,你一时不慎，被人推倒在沸腾的热水锅中，\\n还因被点穴爬不起来，被活活烫死。"
   splits:
   - split: 1
     text: "你一时不慎，被人推倒在沸腾的热水锅中，"
     translated: "They stumbled and were pushed into a pot of boiling hot water."
+    qcReviewedText: "They stumbled and were pushed into a pot of boiling hot water.\\nUnable to get up because they were immobilized by acupuncture points, they were literally burned to death."
+    qcTranslated: "You stumbled and were pushed into a pot of boiling hot water.\\nUnable to get up because you were immobilized by acupuncture points, you were literally burned to death."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "还因被点穴爬不起来，被活活烫死。"
@@ -243,71 +399,136 @@
   - split: 1
     text: "杀人灭口"
     translated: "Murder to silence"
+    qcReviewedText: "Murder to silence"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10018,你撞见了不应被目击的事件与人物，惨遭灭口。"
   splits:
   - split: 1
     text: "你撞见了不应被目击的事件与人物，惨遭灭口。"
     translated: "You witnessed an event and individuals that should not have been seen, and you were silenced."
+    qcReviewedText: "You witnessed an event and individuals that should not have been seen, and you were silenced."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10019,爆体而亡"
   splits:
   - split: 1
     text: "爆体而亡"
     translated: "To die an explosive death"
+    qcReviewedText: "To die an explosive death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10019,某种东西满出来了。"
   splits:
   - split: 1
     text: "某种东西满出来了。"
     translated: "Something has overflowed"
+    qcReviewedText: "Something has overflowed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10020,山中法度"
   splits:
   - split: 1
     text: "山中法度"
     translated: "Rules of the Mountain"
+    qcReviewedText: "Rules of the Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10020,你死于崆峒派不讲理的规矩。"
   splits:
   - split: 1
     text: "你死于崆峒派不讲理的规矩。"
     translated: "You died due to the unreasonable rules of the Kongtong Sect."
+    qcReviewedText: "You died due to the unreasonable rules of the Kongtong Sect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10021,乱战中被践踏而死"
   splits:
   - split: 1
     text: "乱战中被践踏而死"
     translated: "Trampled to death in the chaos of battle."
+    qcReviewedText: "Trampled to death in the chaos of battle."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10021,你死就死，却害人踩了你扭伤脚，好不缺德。"
   splits:
   - split: 1
     text: "你死就死，却害人踩了你扭伤脚，好不缺德。"
     translated: "If you die, then die, but you still cause others to trip and sprain their ankles. How ungrateful."
+    qcReviewedText: "If you die, then die, but you still cause others to trip and sprain their ankles. How ungrateful."
+    qcTranslated: "If you die, then die, but you still cause others to step on your sprained foot. How ungrateful."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Library/Title/10022,被公报私仇活活踩死"
   splits:
   - split: 1
     text: "被公报私仇活活踩死"
     translated: "Crushed to death by public vengeance"
+    qcReviewedText: "Crushed to death by public vengeance"
+    qcTranslated: "Crushed to death by settling a personal grudge under the guise of public justice"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Library/Desc/10022,平时就让你好好做人了。"
   splits:
   - split: 1
     text: "平时就让你好好做人了。"
     translated: "Usually, I just want you to be a good person."
+    qcReviewedText: "Usually, I just want you to be a good person."
+    qcTranslated: "I told you to behave yourself before"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Library/Title/10023,小梅的千里追杀"
   splits:
   - split: 1
     text: "小梅的千里追杀"
     translated: "Xiao Mei's Thousand‑Mile Pursuit"
+    qcReviewedText: "Xiao Mei's Thousand‑Mile Pursuit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10023,说到底，你最初就不应该得罪这个人的。"
   splits:
   - split: 1
     text: "说到底，你最初就不应该得罪这个人的。"
     translated: "In the end, you shouldn't have offended this person in the first place."
+    qcReviewedText: "In the end, you shouldn't have offended this person in the first place."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10024,假掰致死"
   splits:
   - split: 1
     text: "假掰致死"
     translated: "Pretentiousness can lead to death"
+    qcReviewedText: "Pretentiousness can lead to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10024,像那种别脚的谎言，轻易出口可是要付出代价的。\\n性命诚可贵，但你的比较便宜。"
   splits:
   - split: 1
     text: "像那种别脚的谎言，轻易出口可是要付出代价的。"
     translated: "Telling clumsy lies like that comes at a price."
+    qcReviewedText: "Telling clumsy lies like that comes at a price.\\nLife is precious, but yours is rather cheap."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "性命诚可贵，但你的比较便宜。"
@@ -320,21 +541,40 @@
   - split: 1
     text: "被马踩死"
     translated: "Crushed to death by a horse"
+    qcReviewedText: "Crushed to death by a horse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10025,被马踩死"
   splits:
   - split: 1
     text: "被马踩死"
     translated: "Crushed to death by a horse"
+    qcReviewedText: "Crushed to death by a horse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10026,妨碍别人谈恋爱被打死"
   splits:
   - split: 1
     text: "妨碍别人谈恋爱被打死"
     translated: "Interfering with others' romantic relationships can lead to dire consequences."
+    qcReviewedText: "Interfering with others' romantic relationships can lead to dire consequences."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10026,你迫使别人割舍了一段深挚感情，\\n难道还期待人家对你手下留情？"
   splits:
   - split: 1
     text: "你迫使别人割舍了一段深挚感情，"
     translated: "You forced someone to give up a deep and sincere affection."
+    qcReviewedText: "You forced someone to give up a deep and sincere affection.\\nDon't you expect me to go easy on you?"
+    qcTranslated: "You forced someone to give up a deep and sincere affection.\\nDo you still expect them to go easy on you?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "难道还期待人家对你手下留情？"
@@ -347,21 +587,37 @@
   - split: 1
     text: "被吵架情侣拳剑合璧打死"
     translated: "A couple fighting was killed by the Fist and Sword Combined."
+    qcReviewedText: "A couple fighting was killed by the Fist and Sword Combined."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10027,打死了你之后，他们就和好了。"
   splits:
   - split: 1
     text: "打死了你之后，他们就和好了。"
     translated: "After they killed you, they reconciled"
+    qcReviewedText: "After they killed you, they reconciled"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10028,被炼死"
   splits:
   - split: 1
     text: "被炼死"
     translated: "Be refined to death"
+    qcReviewedText: "Be refined to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10028,你被投入炉中，活活炼死。\\n制成的丹药投入江中喂鱼。"
   splits:
   - split: 1
     text: "你被投入炉中，活活炼死。"
     translated: "You were thrown into the furnace and roasted to death."
+    qcReviewedText: "You were thrown into the furnace and roasted to death.\\nThrow the pills made into the river to feed the fish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "制成的丹药投入江中喂鱼。"
@@ -374,21 +630,37 @@
   - split: 1
     text: "清理门户"
     translated: "Cleanse the sect"
+    qcReviewedText: "Cleanse the sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10029,你这唐门叛徒，死有余辜。"
   splits:
   - split: 1
     text: "你这唐门叛徒，死有余辜。"
     translated: "You traitor of the Tang Clan, you deserve to die."
+    qcReviewedText: "You traitor of the Tang Clan, you deserve to die."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10030,斗殴致死"
   splits:
   - split: 1
     text: "斗殴致死"
     translated: "Fatal fight"
+    qcReviewedText: "Fatal fight"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10030,你与人当街斗殴致死，属于斗杀，\\n情节较轻，又因江湖纷争，\\n官府睁一只眼闭一只眼，所以犯人没受惩罚，\\n打死了你这无名小卒，晚饭一样吃得很香。"
   splits:
   - split: 1
     text: "你与人当街斗殴致死，属于斗杀，"
     translated: "Fighting someone in the street to the point of death is considered a homicide brawl."
+    qcReviewedText: "Fighting someone in the street to the point of death is considered a homicide brawl.\\nThe offense is relatively minor, and considering the disputes within Jianghu,\\nThe authorities turned a blind eye, so the criminals went unpunished.\\nEven after killing a nobody like you, I still enjoyed my dinner just fine."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "情节较轻，又因江湖纷争，"
@@ -409,11 +681,19 @@
   - split: 1
     text: "被鸡腿杀死"
     translated: "Killed by a chicken leg"
+    qcReviewedText: "Killed by a chicken leg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10031,在高手眼里，随手一草一木都能当作克敌制胜的兵器，\\n何况是鸡腿呢？你死去以后，被后人嘲笑了八百多年。"
   splits:
   - split: 1
     text: "在高手眼里，随手一草一木都能当作克敌制胜的兵器，"
     translated: "In the eyes of a skilled fighter, every blade of grass and tree can be used as a weapon to defeat an opponent."
+    qcReviewedText: "In the eyes of a skilled fighter, every blade of grass and tree can be used as a weapon to defeat an opponent.\\nWhat about chicken legs? After you died, people mocked you for over eight hundred years."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "何况是鸡腿呢？你死去以后，被后人嘲笑了八百多年。"
@@ -426,21 +706,40 @@
   - split: 1
     text: "被龙湘误杀"
     translated: "Killed by Long Xiang by mistake"
+    qcReviewedText: "Killed by Long Xiang by mistake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10032,龙湘作梦都想不到，你竟会接不住这剑。"
   splits:
   - split: 1
     text: "龙湘作梦都想不到，你竟会接不住这剑。"
     translated: "Long Xiang never dreamed that you would be unable to catch this sword."
+    qcReviewedText: "Long Xiang never dreamed that you would be unable to catch this sword."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10033,烂死"
   splits:
   - split: 1
     text: "烂死"
     translated: "It's a mess"
+    qcReviewedText: "It's a mess"
+    qcTranslated: "Rot to death"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Library/Desc/10033,你武功实在太差，大师兄还以为你应付得来，\\n结果想救都来不及。"
   splits:
   - split: 1
     text: "你武功实在太差，大师兄还以为你应付得来，"
     translated: "Your martial arts skills are really too poor; Big Senior Brother still thought you could handle it."
+    qcReviewedText: "Your martial arts skills are really too poor; Big Senior Brother still thought you could handle it.\\nIn the end, they couldn't even manage to save them in time."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "结果想救都来不及。"
@@ -453,11 +752,19 @@
   - split: 1
     text: "分身而死"
     translated: "Die by splitting oneself"
+    qcReviewedText: "Die by splitting oneself"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10034,左边归她，右边归她。\\n大家都有，感情才不会散。"
   splits:
   - split: 1
     text: "左边归她，右边归她。"
     translated: "The left side is hers, the right side is hers."
+    qcReviewedText: "The left side is hers, the right side is hers.\\nOnly when everyone is there will our feelings stay intact."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "大家都有，感情才不会散。"
@@ -470,71 +777,134 @@
   - split: 1
     text: "被愤怒的铁匠槌死"
     translated: "Killed by the angered blacksmith's hammer"
+    qcReviewedText: "Killed by the angered blacksmith's hammer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10035,被愤怒的铁匠槌死。"
   splits:
   - split: 1
     text: "被愤怒的铁匠槌死。"
     translated: "Killed by the angered blacksmith's hammer"
+    qcReviewedText: "Killed by the angered blacksmith's hammer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10036,被女飞贼埋伏刺杀"
   splits:
   - split: 1
     text: "被女飞贼埋伏刺杀"
     translated: "Ambushed and assassinated by a Female Bandit"
+    qcReviewedText: "Ambushed and assassinated by a Female Bandit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10036,被女飞贼埋伏刺杀。"
   splits:
   - split: 1
     text: "被女飞贼埋伏刺杀。"
     translated: "Ambushed and assassinated by a Female Bandit"
+    qcReviewedText: "Ambushed and assassinated by a Female Bandit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10037,被小梅刺杀"
   splits:
   - split: 1
     text: "被小梅刺杀"
     translated: "Stabbed by Xiao Mei"
+    qcReviewedText: "Stabbed by Xiao Mei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10037,你不曾见过比她眼底更深的晦暗。"
   splits:
   - split: 1
     text: "你不曾见过比她眼底更深的晦暗。"
     translated: "You have never seen a darkness deeper than that in her eyes."
+    qcReviewedText: "You have never seen a darkness deeper than that in her eyes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10038,遭到连累而死"
   splits:
   - split: 1
     text: "遭到连累而死"
     translated: "Died as a result of being implicated"
+    qcReviewedText: "Died as a result of being implicated"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10038,今天本来不是你的死期，你只是受到波及。"
   splits:
   - split: 1
     text: "今天本来不是你的死期，你只是受到波及。"
     translated: "Today was not originally your day of death; you were merely caught in the crossfire."
+    qcReviewedText: "Today was not originally your day of death; you were merely caught in the crossfire."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10039,人为财死"
   splits:
   - split: 1
     text: "人为财死"
     translated: "People die for wealth"
+    qcReviewedText: "People die for wealth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10039,一场因为金钱纠纷引发的凶杀案。"
   splits:
   - split: 1
     text: "一场因为金钱纠纷引发的凶杀案。"
     translated: "A murder case triggered by a financial dispute."
+    qcReviewedText: "A murder case triggered by a financial dispute."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10040,遭人活活压死"
   splits:
   - split: 1
     text: "遭人活活压死"
     translated: "Crushed to death by someone"
+    qcReviewedText: "Crushed to death by someone"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10040,唐门的重担，你终究扛不起，你是一根被骆驼压死的稻草。"
   splits:
   - split: 1
     text: "唐门的重担，你终究扛不起，你是一根被骆驼压死的稻草。"
     translated: "You ultimately cannot bear the heavy burden of the Tang Clan; you are just a straw that has been crushed by a camel."
+    qcReviewedText: "You ultimately cannot bear the heavy burden of the Tang Clan; you are just a straw that has been crushed by a camel."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10041,丧家之犬的末路"
   splits:
   - split: 1
     text: "丧家之犬的末路"
     translated: "The End of a Dog from a Fallen House"
+    qcReviewedText: "The End of a Dog from a Fallen House"
+    qcTranslated: "The Last Days of a Beaten Dog"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 45
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "Library/Desc/10041,你没有家。你很早以前就死了，残喘至今的，\\n不过是一具没有灵魂的躯壳罢了。"
   splits:
   - split: 1
     text: "你没有家。你很早以前就死了，残喘至今的，"
     translated: "You don't have a home. You died long ago; what you've been doing since then is just barely scraping by."
+    qcReviewedText: "You don't have a home. You died long ago; what you've been doing since then is just barely scraping by.\\nBut they are just empty shells without souls."
+    qcTranslated: "You don't have a home. You died long ago; what has been lingering on since then is nothing but a soulless husk."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "不过是一具没有灵魂的躯壳罢了。"
@@ -547,41 +917,73 @@
   - split: 1
     text: "恶贯满盈"
     translated: "Evil deeds have reached their peak"
+    qcReviewedText: "Evil deeds have reached their peak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10042,你半生行恶，不是不报，你的时候已到了。"
   splits:
   - split: 1
     text: "你半生行恶，不是不报，你的时候已到了。"
     translated: "You have committed evil deeds for half your life; it's not that you won't be punished, your time has come."
+    qcReviewedText: "You have committed evil deeds for half your life; it's not that you won't be punished, your time has come."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10043,逃跑失败被处决"
   splits:
   - split: 1
     text: "逃跑失败被处决"
     translated: "Failed to escape and was executed"
+    qcReviewedText: "Failed to escape and was executed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10043,逃跑失败被处决。"
   splits:
   - split: 1
     text: "逃跑失败被处决。"
     translated: "Failed to escape and was executed"
+    qcReviewedText: "Failed to escape and was executed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10044,江湖仇杀令．崆峒"
   splits:
   - split: 1
     text: "江湖仇杀令．崆峒"
     translated: "Jianghu Vendetta Order: Kongtong"
+    qcReviewedText: "Jianghu Vendetta Order: Kongtong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10044,你这崆峒之敌终于恶贯满盈，伏诛而死。"
   splits:
   - split: 1
     text: "你这崆峒之敌终于恶贯满盈，伏诛而死。"
     translated: "Your enemy from Kongtong has finally met their just end, having committed countless evils and perished by execution."
+    qcReviewedText: "Your enemy from Kongtong has finally met their just end, having committed countless evils and perished by execution."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10045,恐惧而死"
   splits:
   - split: 1
     text: "恐惧而死"
     translated: "Die of fear"
+    qcReviewedText: "Die of fear"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10045,你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，\\n令你无法喘息，最终被掐停了呼吸。"
   splits:
   - split: 1
     text: "你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，"
     translated: "You failed to overcome your fear, letting the illusory shadow spread without limit."
+    qcReviewedText: "You failed to overcome your fear, letting the illusory shadow spread without limit.\\nLeaving you gasping for air until your breath is finally cut off."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "令你无法喘息，最终被掐停了呼吸。"
@@ -594,31 +996,55 @@
   - split: 1
     text: "为虎作伥"
     translated: "To act as a tiger's minion"
+    qcReviewedText: "To act as a tiger's minion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10046,多行不义必自毙，没点本事，连坏人都没得当。"
   splits:
   - split: 1
     text: "多行不义必自毙，没点本事，连坏人都没得当。"
     translated: "Those who commit many wrongs will ultimately bring about their own downfall; without any real ability, they can't even become a villain."
+    qcReviewedText: "Those who commit many wrongs will ultimately bring about their own downfall; without any real ability, they can't even become a villain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10047,卷入别人的恩怨而死"
   splits:
   - split: 1
     text: "卷入别人的恩怨而死"
     translated: "Caught in someone else's feud and met with death."
+    qcReviewedText: "Caught in someone else's feud and met with death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10047,本来不关你的事，你自找的。"
   splits:
   - split: 1
     text: "本来不关你的事，你自找的。"
     translated: "It wasn't originally your concern; you brought this upon yourself."
+    qcReviewedText: "It wasn't originally your concern; you brought this upon yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10048,上官萤的制裁"
   splits:
   - split: 1
     text: "上官萤的制裁"
     translated: "Punishment of Shangguan Ying"
+    qcReviewedText: "Punishment of Shangguan Ying"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10048,这位姑娘气急败坏，将你一阵狂殴，\\n岂料打着打着你就不会动了。"
   splits:
   - split: 1
     text: "这位姑娘气急败坏，将你一阵狂殴，"
     translated: "The girl flew into a rage and beat you senselessly."
+    qcReviewedText: "The girl flew into a rage and beat you senselessly.\\nWho would have thought that after fighting for a while, you wouldn't move anymore."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "岂料打着打着你就不会动了。"
@@ -631,11 +1057,19 @@
   - split: 1
     text: "被下马威随手杀死"
     translated: "Killed instantly by a show of power"
+    qcReviewedText: "Killed instantly by a show of power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10049,庸俗的坏人要给下马威，经常随手杀几个喽啰路人，\\n以此彰显自己心狠手辣。于是你被杀了。"
   splits:
   - split: 1
     text: "庸俗的坏人要给下马威，经常随手杀几个喽啰路人，"
     translated: "Vulgar villains often establish their authority by casually killing a few of their underlings or bystanders."
+    qcReviewedText: "Vulgar villains often establish their authority by casually killing a few of their underlings or bystanders.\\nThis demonstrates their ruthlessness. So, you were killed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "以此彰显自己心狠手辣。于是你被杀了。"
@@ -648,11 +1082,22 @@
   - split: 1
     text: "点苍剑下亡魂"
     translated: "The souls perished under the Diancang sword"
+    qcReviewedText: "The souls perished under the Diancang sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10050,你该知道点苍唐门素有旧仇，既然刀剑相向，\\n拿命为人新添一笔剑下功业，应属无怨无尤。"
   splits:
   - split: 1
     text: "你该知道点苍唐门素有旧仇，既然刀剑相向，"
     translated: "You should know that the Tang Clan of Diancang has an old grudge. Since they are now facing each other with blades and swords,"
+    qcReviewedText: "You should know that the Tang Clan of Diancang has an old grudge. Since they are now facing each other with blades and swords,\\nTo add a new chapter of swordsmanship achievements with one's life should be without complaint or regret."
+    qcTranslated: "You should know that the Tang Clan of Diancang has an old grudge. Since we are now facing each other with blades and swords,\\nDying to add a new chapter to one's swordsmanship achievements should be without complaint or regret."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "拿命为人新添一笔剑下功业，应属无怨无尤。"
@@ -665,21 +1110,37 @@
   - split: 1
     text: "自尽死"
     translated: "Suicide"
+    qcReviewedText: "Suicide"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10051,生命诚可贵，你怎么会有这种疯狂的想法？"
   splits:
   - split: 1
     text: "生命诚可贵，你怎么会有这种疯狂的想法？"
     translated: "Health is truly precious; how could you have such a crazy thought?"
+    qcReviewedText: "Health is truly precious; how could you have such a crazy thought?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10052,高手过招被波及而死"
   splits:
   - split: 1
     text: "高手过招被波及而死"
     translated: "A master was accidentally killed during a duel."
+    qcReviewedText: "A master was accidentally killed during a duel."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10052,你就像那些不经打的家具一样脆弱不堪，\\n碰你两下就四分五裂。"
   splits:
   - split: 1
     text: "你就像那些不经打的家具一样脆弱不堪，"
     translated: "You're as fragile as those cheap pieces of furniture that can't withstand a hit."
+    qcReviewedText: "You're as fragile as those cheap pieces of furniture that can't withstand a hit.\\nJust touching you twice would cause you to fall apart."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "碰你两下就四分五裂。"
@@ -692,11 +1153,22 @@
   - split: 1
     text: "蒙古大夫你"
     translated: "Mongolian Doctor, you"
+    qcReviewedText: "Mongolian Doctor, you"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10053,大夫嘱咐你静养可不是说笑的，\\n你非要自创一套说词在那边乱动，\\n这下可好，你永远不必动了。"
   splits:
   - split: 1
     text: "大夫嘱咐你静养可不是说笑的，"
     translated: "Doctor's orders to rest aren't kidding around"
+    qcReviewedText: "Doctor's orders to rest aren't kidding around \\nYou insist on making up your own spiel and moving around over there.\\nNow you'll never have to move again"
+    qcTranslated: "The Doctor's orders to rest aren't a joke, \\nYet you insisted on making up your own excuses and moving around over there.\\nNow look at that, you'll never have to move again."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "你非要自创一套说词在那边乱动，"
@@ -713,11 +1185,19 @@
   - split: 1
     text: "被太阳晒死"
     translated: "Died from sun exposure"
+    qcReviewedText: "Died from sun exposure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10054,二师兄研发的血毒令你死于阳光直晒。\\n后世称其此状为紫质症。"
   splits:
   - split: 1
     text: "二师兄研发的血毒令你死于阳光直晒。"
     translated: "Second Senior Brother's blood poison causes you to die from direct exposure to sunlight."
+    qcReviewedText: "Second Senior Brother's blood poison causes you to die from direct exposure to sunlight.\\nLater generations referred to this condition as the Purple Essence Syndrome."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "后世称其此状为紫质症。"
@@ -730,11 +1210,22 @@
   - split: 1
     text: "被海盗喂鱼死"
     translated: "Killed by pirates while feeding fish"
+    qcReviewedText: "Killed by pirates while feeding fish"
+    qcTranslated: "Killed by pirates and fed to the fish"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Library/Desc/10055,鱼若有灵必很怒：\\n「不要什么垃圾都往海里倒！」"
   splits:
   - split: 1
     text: "鱼若有灵必很怒"
     translated: "If fish could feel, they'd be furious"
+    qcReviewedText: "If fish could feel, they'd be furious：\\nDon't dump garbage into the sea!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "「不要什么垃圾都往海里倒！」"
@@ -747,21 +1238,37 @@
   - split: 1
     text: "被雷劈死"
     translated: "Struck dead by lightning"
+    qcReviewedText: "Struck dead by lightning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10056,你以为你赢了，其实你是输家。"
   splits:
   - split: 1
     text: "你以为你赢了，其实你是输家。"
     translated: "You think you have won, but in reality, you are the loser."
+    qcReviewedText: "You think you have won, but in reality, you are the loser."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10057,咎由自取"
   splits:
   - split: 1
     text: "咎由自取"
     translated: "Reap what one sows"
+    qcReviewedText: "Reap what one sows"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10057,身为反派应该有自觉，\\n自己撞在正派人士手里，无异于送头。"
   splits:
   - split: 1
     text: "身为反派应该有自觉，"
     translated: "As an antagonist, one should be self‑aware"
+    qcReviewedText: "As an antagonist, one should be self‑aware \\nRunning into righteous people is no different from offering one's head to them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "自己撞在正派人士手里，无异于送头。"
@@ -774,11 +1281,19 @@
   - split: 1
     text: "命如草芥"
     translated: "Life is as insignificant as a blade of grass."
+    qcReviewedText: "Life is as insignificant as a blade of grass."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10058,你失去的只是一条命，\\n别的英雄少年失去的可是他的脚趾甲啊！\\n就算他脚趾甲跟你无关，你也不能这么自私博取关注啊！"
   splits:
   - split: 1
     text: "你失去的只是一条命，"
     translated: "What you've lost is merely your life,"
+    qcReviewedText: "What you've lost is merely your life,\\nOther hero prodigies might lose just their toenails!\\nEven if his toenails have nothing to do with you, you can't be so selfish to seek attention!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "别的英雄少年失去的可是他的脚趾甲啊！"
@@ -795,11 +1310,19 @@
   - split: 1
     text: "被誤殺而死"
     translated: "Killed by mistake"
+    qcReviewedText: "Killed by mistake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10059,比武過招本就有風險，\\n人一激動起來，就很難拿捏分寸，\\n不小心多打了兩百多拳，請多擔待一下。"
   splits:
   - split: 1
     text: "比武過招本就有風險，"
     translated: "Engaging in a martial arts duel inherently carries risks."
+    qcReviewedText: "Engaging in a martial arts duel inherently carries risks.\\nWhen people get excited, it's hard for them to keep their emotions in check.\\nI ended up throwing a couple hundred extra punches, so please be a little more understanding."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "人一激動起來，就很難拿捏分寸，"
@@ -816,11 +1339,22 @@
   - split: 1
     text: "被盗版逼到没有活路"
     translated: "Driven to a dead end by piracy"
+    qcReviewedText: "Driven to a dead end by piracy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10060,你很努力，吃足苦头活到今天。\\n但假货根本不在意你感受，他弄死了你，\\n代替你享受你应得的福报。"
   splits:
   - split: 1
     text: "你很努力，吃足苦头活到今天。"
     translated: "You've worked hard and endured much suffering to survive until today."
+    qcReviewedText: "You've worked hard and endured much suffering to survive until today.\\nBut the fake one doesn't care about your feelings; they'll kill you without a second thought.\\nEnjoy the blessings that should be yours instead of you."
+    qcTranslated: "You've worked hard and endured much suffering to survive until today.\\nBut the fake one doesn't care about your feelings; he killed you,\\ntaking your place to enjoy the blessings that should be yours."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "但假货根本不在意你感受，他弄死了你，"
@@ -837,11 +1371,19 @@
   - split: 1
     text: "食物中毒死"
     translated: "Food poisoning death"
+    qcReviewedText: "Food poisoning death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10061,唐门弟子服毒练功稀松平常，\\n普通毒物尝着至多就味儿呛点，\\n然而这锅不是普通毒物。"
   splits:
   - split: 1
     text: "唐门弟子服毒练功稀松平常，"
     translated: "Practicing skills by consuming poison is commonplace for Tang Clan disciples."
+    qcReviewedText: "Practicing skills by consuming poison is commonplace for Tang Clan disciples.\\nCommon poisons at most taste sharp and unpleasant.\\nHowever, this poison is no ordinary toxin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "普通毒物尝着至多就味儿呛点，"
@@ -858,21 +1400,40 @@
   - split: 1
     text: "累死"
     translated: "Exhausted"
+    qcReviewedText: "Exhausted"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10062,人力有时穷尽，你该掂量掂量自己的余力。"
   splits:
   - split: 1
     text: "人力有时穷尽，你该掂量掂量自己的余力。"
     translated: "Human strength can sometimes be exhausted; you should consider your own capacity."
+    qcReviewedText: "Human strength can sometimes be exhausted; you should consider your own capacity."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10063,捉拿江洋大盗被反杀"
   splits:
   - split: 1
     text: "捉拿江洋大盗被反杀"
     translated: "Captured the river bandit but was killed in retaliation."
+    qcReviewedText: "Captured the river bandit but was killed in retaliation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10063,杀了你之后，江洋大盗的悬赏金攀至新高峰，\\n然而这并不是什么值得夸耀的事，又不是嫌命太长。"
   splits:
   - split: 1
     text: "杀了你之后，江洋大盗的悬赏金攀至新高峰，"
     translated: "After killing them, the bounty on the heads of the river thieves reached a new high."
+    qcReviewedText: "After killing them, the bounty on the heads of the river thieves reached a new high.\\nThis isn't something to boast about; it's not like I'm tired of living."
+    qcTranslated: "After killing you, the bounty on the heads of the river thieves reached a new high.\\nThis isn't something to boast about; it's not like I'm tired of living."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "然而这并不是什么值得夸耀的事，又不是嫌命太长。"
@@ -885,21 +1446,37 @@
   - split: 1
     text: "出身未捷身先死"
     translated: "Born with great promise, yet dying before achieving it."
+    qcReviewedText: "Born with great promise, yet dying before achieving it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10064,你判断失误，带着师兄弟全军覆没于道中。"
   splits:
   - split: 1
     text: "你判断失误，带着师兄弟全军覆没于道中。"
     translated: "You erred in judgment, leading your brothers to total defeat on the path."
+    qcReviewedText: "You erred in judgment, leading your brothers to total defeat on the path."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10065,被道士当妖怪误杀"
   splits:
   - split: 1
     text: "被道士当妖怪误杀"
     translated: "Mistakenly killed by a Daoist as a monster."
+    qcReviewedText: "Mistakenly killed by a Daoist as a monster."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10065,何方妖孽，纳命来！\\n什么，是人？妈的，这下糟了。"
   splits:
   - split: 1
     text: "何方妖孽，纳命来！"
     translated: "Wicked demon, surrender your life!"
+    qcReviewedText: "Wicked demon, surrender your life!\\nWhat, is it a person? Shit, this is bad."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "什么，是人？妈的，这下糟了。"
@@ -912,51 +1489,91 @@
   - split: 1
     text: "含恨而死"
     translated: "Die with resentment"
+    qcReviewedText: "Die with resentment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10066,不是所有的冤屈都能雪洗，人间总是不公平。"
   splits:
   - split: 1
     text: "不是所有的冤屈都能雪洗，人间总是不公平。"
     translated: "Not all grievances can be cleared, and the world is always unfair."
+    qcReviewedText: "Not all grievances can be cleared, and the world is always unfair."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10067,被揍死"
   splits:
   - split: 1
     text: "被揍死"
     translated: "Beaten to death"
+    qcReviewedText: "Beaten to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10067,被揍死。"
   splits:
   - split: 1
     text: "被揍死。"
     translated: "Beaten to death"
+    qcReviewedText: "Beaten to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10068,自找死路"
   splits:
   - split: 1
     text: "自找死路"
     translated: "Seeking death"
+    qcReviewedText: "Seeking death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10068,你自找的，但起码你有一饱眼福啊。"
   splits:
   - split: 1
     text: "你自找的，但起码你有一饱眼福啊。"
     translated: "You brought this upon yourself, but at least you have had a feast for the eyes."
+    qcReviewedText: "You brought this upon yourself, but at least you have had a feast for the eyes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10069,溺死"
   splits:
   - split: 1
     text: "溺死"
     translated: "Drowned"
+    qcReviewedText: "Drowned"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10069,你变得皱巴巴的。"
   splits:
   - split: 1
     text: "你变得皱巴巴的。"
     translated: "You have become all wrinkled"
+    qcReviewedText: "You have become all wrinkled"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10070,眼睛睁睁看你死"
   splits:
   - split: 1
     text: "眼睛睁睁看你死"
     translated: "Watching you die with wide‑open eyes"
+    qcReviewedText: "Watching you die with wide‑open eyes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10070,夏侯兰冷眼看你犯蠢自杀，\\n她可不想承认自己教过你这么个愚蠢又丢人的弟子。"
   splits:
   - split: 1
     text: "夏侯兰冷眼看你犯蠢自杀，"
     translated: "Xiahou Lan coldly watched you commit a foolish act of suicide."
+    qcReviewedText: "Xiahou Lan coldly watched you commit a foolish act of suicide.\\nShe certainly doesn't want to admit that she ever taught someone as foolish and shameful as you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "她可不想承认自己教过你这么个愚蠢又丢人的弟子。"
@@ -969,31 +1586,55 @@
   - split: 1
     text: "被猪拱死"
     translated: "Gored to death by a pig"
+    qcReviewedText: "Gored to death by a pig"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10071,山猪把你给活活撞死了。"
   splits:
   - split: 1
     text: "山猪把你给活活撞死了。"
     translated: "The wild boar knocked you to your death."
+    qcReviewedText: "The wild boar knocked you to your death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10072,小菜之死"
   splits:
   - split: 1
     text: "小菜之死"
     translated: "Death of Xiao Cai"
+    qcReviewedText: "Death of Xiao Cai"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10072,你只是一碟小菜，而且卖相很差。"
   splits:
   - split: 1
     text: "你只是一碟小菜，而且卖相很差。"
     translated: "You are just a small dish, and it looks very unappetizing."
+    qcReviewedText: "You are just a small dish, and it looks very unappetizing."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10073,与花合葬"
   splits:
   - split: 1
     text: "与花合葬"
     translated: "Buried together with flowers"
+    qcReviewedText: "Buried together with flowers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10073,夏侯兰抱着你的尸身，低声浅唱摇篮曲。\\n将你放入墓穴，自己也跳了进去，与雪山先烈合葬。"
   splits:
   - split: 1
     text: "夏侯兰抱着你的尸身，低声浅唱摇篮曲。"
     translated: "Xiahou Lan cradles your lifeless body and softly sings a lullaby."
+    qcReviewedText: "Xiahou Lan cradles your lifeless body and softly sings a lullaby.\\nThey buried you in a tomb and jumped in after you, to be buried alongside the martyrs of the snow mountain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "将你放入墓穴，自己也跳了进去，与雪山先烈合葬。"
@@ -1006,31 +1647,58 @@
   - split: 1
     text: "随便死"
     translated: "Die as you please"
+    qcReviewedText: "Die as you please"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10074,夏侯兰杀光了敌人，转头才发现你死在地上。"
   splits:
   - split: 1
     text: "夏侯兰杀光了敌人，转头才发现你死在地上。"
     translated: "Xiahou Lan killed all the enemies and turned around to find you lying dead on the ground."
+    qcReviewedText: "Xiahou Lan killed all the enemies and turned around to find you lying dead on the ground."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10075,找死"
   splits:
   - split: 1
     text: "找死"
     translated: "Courting death"
+    qcReviewedText: "Courting death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10075,被你找到了。"
   splits:
   - split: 1
     text: "被你找到了。"
     translated: "You found me"
+    qcReviewedText: "You found me"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10076,看不顺眼被杀"
   splits:
   - split: 1
     text: "看不顺眼被杀"
     translated: "Killed for Displeasure"
+    qcReviewedText: "Killed for Displeasure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10076,没啥深仇大恨，不过你长得碍眼，\\n所以人家不想让你活了。"
   splits:
   - split: 1
     text: "没啥深仇大恨，不过你长得碍眼，"
     translated: "We don't have any deep grudge, but your appearance irritates me."
+    qcReviewedText: "We don't have any deep grudge, but your appearance irritates me.\\nSo they don't want you to live"
+    qcTranslated: "We don't have any deep grudge, but your appearance irritates me.\\nSo I don't want you to live"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "所以人家不想让你活了。"
@@ -1043,11 +1711,19 @@
   - split: 1
     text: "莽撞而死"
     translated: "Died recklessly"
+    qcReviewedText: "Died recklessly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10077,你丧生在上官隼刀下，随你而来的师弟妹们，\\n一个也没能活着生离风雨山。"
   splits:
   - split: 1
     text: "你丧生在上官隼刀下，随你而来的师弟妹们，"
     translated: "You met your end at Shangguan Jun's blade. The junior disciples who came with you,"
+    qcReviewedText: "You met your end at Shangguan Jun's blade. The junior disciples who came with you,\\nNot a single one made it out of Fengyu Mountain alive."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一个也没能活着生离风雨山。"
@@ -1060,11 +1736,19 @@
   - split: 1
     text: "天地无声"
     translated: "World is silent"
+    qcReviewedText: "World is silent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10078,软弱的正义发不出任何声响，\\n你的控诉被喧嚣掩没，深埋尘埃之下。"
   splits:
   - split: 1
     text: "软弱的正义发不出任何声响，"
     translated: "Weak justice makes no sound"
+    qcReviewedText: "Weak justice makes no sound \\nYour accusation was drowned out by the clamor and buried beneath the dust."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你的控诉被喧嚣掩没，深埋尘埃之下。"
@@ -1077,11 +1761,22 @@
   - split: 1
     text: "被人借刀杀死"
     translated: "Killed by someone using a blade"
+    qcReviewedText: "Killed by someone using a blade"
+    qcTranslated: "Killed by someone using another's blade"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "Library/Desc/10079,你死在南宫浅手里，南宫浅死在唐门手里，\\n唐门毁在南宫世家手里，冤冤相报何时了？"
   splits:
   - split: 1
     text: "你死在南宫浅手里，南宫浅死在唐门手里，"
     translated: "You died at Nangong Qian's hands, and Nangong Qian died at the Tang Clan's hands."
+    qcReviewedText: "You died at Nangong Qian's hands, and Nangong Qian died at the Tang Clan's hands.\\nThe Tang Clan was destroyed by the Nangong family; when will this cycle of vengeance end?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "唐门毁在南宫世家手里，冤冤相报何时了？"
@@ -1094,21 +1789,37 @@
   - split: 1
     text: "泄愤不成反被杀"
     translated: "Vent their anger but end up being killed."
+    qcReviewedText: "Vent their anger but end up being killed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10080,世上多的是不讲理的事，这便是不自量力的下场。"
   splits:
   - split: 1
     text: "世上多的是不讲理的事，这便是不自量力的下场。"
     translated: "There are many unreasonable things in the world, and this is the consequence of overestimating oneself."
+    qcReviewedText: "There are many unreasonable things in the world, and this is the consequence of overestimating oneself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10081,跟黑暗大法师一样"
   splits:
   - split: 1
     text: "跟黑暗大法师一样"
     translated: "Like the Dark Sorcerer"
+    qcReviewedText: "Like the Dark Sorcerer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10081,因为你不光明的行径，故称黑暗。\\n因为你宛如施展法术般玩弄时间与人心，故称大法师。\\n你负了几人，就被分成几半。"
   splits:
   - split: 1
     text: "因为你不光明的行径，故称黑暗。"
     translated: "Because of your shadowy deeds, you are called dark."
+    qcReviewedText: "Because of your shadowy deeds, you are called dark.\\nBecause you manipulate time and hearts as if casting a spell, you are called a Great Magician.\\nYou are split into as many parts as the number of people you have wronged."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "因为你宛如施展法术般玩弄时间与人心，故称大法师。"
@@ -1125,11 +1836,19 @@
   - split: 1
     text: "殉情"
     translated: "Die for love"
+    qcReviewedText: "Die for love"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10082,你快步追上了小梅，小梅又好气又好笑，\\n希望你下次别再那么冲动了。"
   splits:
   - split: 1
     text: "你快步追上了小梅，小梅又好气又好笑，"
     translated: "You quickly caught up to Xiao Mei, who was both amused and exasperated."
+    qcReviewedText: "You quickly caught up to Xiao Mei, who was both amused and exasperated.\\nI hope you'll be less impulsive next time."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "希望你下次别再那么冲动了。"
@@ -1142,21 +1861,37 @@
   - split: 1
     text: "被吓死"
     translated: "Scared to death"
+    qcReviewedText: "Scared to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10083,太可怕了。"
   splits:
   - split: 1
     text: "太可怕了。"
     translated: "It's so terrifying"
+    qcReviewedText: "It's so terrifying"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10084,被蛇咬死"
   splits:
   - split: 1
     text: "被蛇咬死"
     translated: "Bitten to death by a snake"
+    qcReviewedText: "Bitten to death by a snake"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10084,身为唐门弟子，却被毒蛇咬死，\\n非但无人同情，反而令人发噱。"
   splits:
   - split: 1
     text: "身为唐门弟子，却被毒蛇咬死，"
     translated: "As a disciple of the Tang Clan, they were bitten and killed by a poisonous snake."
+    qcReviewedText: "As a disciple of the Tang Clan, they were bitten and killed by a poisonous snake.\\nNot only does it fail to elicit sympathy, but it's actually quite amusing."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "非但无人同情，反而令人发噱。"
@@ -1169,11 +1904,23 @@
   - split: 1
     text: "被肉包噎死"
     translated: "Choked to death by a meat bun"
+    qcReviewedText: "Choked to death by a meat bun"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10085,你眼看对方人多势众，打不过，\\n抓了几个肉包塞嘴里便跑，有道是天理昭昭\\n，报应不爽，你给包子活活噎死了。\\n路过的狗从你嘴里挖出包子吃掉。"
   splits:
   - split: 1
     text: "你眼看对方人多势众，打不过，"
     translated: "Seeing that the other side had the numerical advantage, you knew you couldn't win."
+    qcReviewedText: "Seeing that the other side had the numerical advantage, you knew you couldn't win.\\nThey stuffed a few steamed buns in their mouth and ran, as the saying goes, justice will prevail.\\n, What goes around comes around; you ended up choking to death on a steamed bun.\\nA passing dog dug a bun out of your mouth and ate it."
+    qcTranslated: "Seeing that the other side had the numerical advantage, you knew you couldn't win.\\nYou stuffed a few steamed buns in your mouth and ran, as the saying goes, justice will prevail\\n, What goes around comes around; you ended up choking to death on a steamed bun.\\nA passing dog dug a bun out of your mouth and ate it."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - HardToParseSeam
   - split: 1
     subIndex: 1
     text: "抓了几个肉包塞嘴里便跑，有道是天理昭昭"
@@ -1194,11 +1941,22 @@
   - split: 1
     text: "黑吃黑失败"
     translated: "Black eats black fails"
+    qcReviewedText: "Black eats black fails"
+    qcTranslated: "Black‑on‑black scheme fails"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Library/Desc/10086,真正的废物，连抢个劫都办不到。\\n对，说的就是你。"
   splits:
   - split: 1
     text: "真正的废物，连抢个劫都办不到。"
     translated: "A true waste of space; they can't even pull off a simple robbery."
+    qcReviewedText: "A true waste of space; they can't even pull off a simple robbery.\\nThat's right, I'm talking about you"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "对，说的就是你。"
@@ -1211,11 +1969,22 @@
   - split: 1
     text: "被卖艺人的毒蛇咬死"
     translated: "Bitten to death by a poison snake from a street performer."
+    qcReviewedText: "Bitten to death by a poison snake from a street performer."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10087,蛇见了你，心里害怕，\\n为了自保才咬你的。"
   splits:
   - split: 1
     text: "蛇见了你，心里害怕，"
     translated: "When the snake sees you, they are afraid."
+    qcReviewedText: "When the snake sees you, they are afraid.\\nI only bit you to protect myself"
+    qcTranslated: "When the snake sees you, it is afraid.\\nIt only bit you to protect itself"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "为了自保才咬你的。"
@@ -1228,11 +1997,19 @@
   - split: 1
     text: "公报私仇杀"
     translated: "Killing for personal vendetta"
+    qcReviewedText: "Killing for personal vendetta"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10088,就算他南宫深不要的人，也轮不到你染指！\\n去死吧！"
   splits:
   - split: 1
     text: "就算他南宫深不要的人，也轮不到你染指！"
     translated: "Even if Nangong Shen doesn't want someone, it's not for you to lay claim to them!"
+    qcReviewedText: "Even if Nangong Shen doesn't want someone, it's not for you to lay claim to them!\\nDie!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "去死吧！"
@@ -1245,11 +2022,22 @@
   - split: 1
     text: "偷吃被老丈人砍死"
     translated: "Caught eating secretly, they were killed by their father‑in‑law."
+    qcReviewedText: "Caught eating secretly, they were killed by their father‑in‑law."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10089,你又没啥好希罕的，老丈人对你压根不需要容忍，\\n剁碎了喂狗，再给女儿找个更好更俊的。"
   splits:
   - split: 1
     text: "你又没啥好希罕的，老丈人对你压根不需要容忍，"
     translated: "You don't have anything worth being tolerant of; your father‑in‑law doesn't need to put up with you at all."
+    qcReviewedText: "You don't have anything worth being tolerant of; your father‑in‑law doesn't need to put up with you at all.\\nChop it up and feed it to the dog, then find a better and more handsome one for my daughter."
+    qcTranslated: "You don't have anything worth being tolerant of; your father‑in‑law doesn't need to put up with you at all.\\nChop you up and feed you to the dog, then find a better and more handsome one for my daughter."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "剁碎了喂狗，再给女儿找个更好更俊的。"
@@ -1262,31 +2050,58 @@
   - split: 1
     text: "六亲不认的胖子"
     translated: "The fat person who doesn't recognize their own kin."
+    qcReviewedText: "The fat person who doesn't recognize their own kin."
+    qcTranslated: "The fat man who recognizes no one"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Library/Desc/10090,每个人都有逆鳞，四师兄的逆鳞长得像铜钱。"
   splits:
   - split: 1
     text: "每个人都有逆鳞，四师兄的逆鳞长得像铜钱。"
     translated: "Everyone has their own reverse scale, and Fourth Senior Brother's reverse scale looks like a copper coin."
+    qcReviewedText: "Everyone has their own reverse scale, and Fourth Senior Brother's reverse scale looks like a copper coin."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10091,假死变真死"
   splits:
   - split: 1
     text: "假死变真死"
     translated: "Feigning death turns into real death"
+    qcReviewedText: "Feigning death turns into real death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10091,装死的风险请参阅江湖鬼蜮录。"
   splits:
   - split: 1
     text: "装死的风险请参阅江湖鬼蜮录。"
     translated: "For the risks of playing dead, please refer to the Records of Jianghu Ghosts and Spirits."
+    qcReviewedText: "For the risks of playing dead, please refer to the Records of Jianghu Ghosts and Spirits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10092,功成名将的脚下枯骨"
   splits:
   - split: 1
     text: "功成名将的脚下枯骨"
     translated: "The withered bones beneath the feet of accomplished generals."
+    qcReviewedText: "The withered bones beneath the feet of accomplished generals."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10092,杀了你，江湖少侠的经验值增加了。\\n将来他还会杀掉很多像你这样的喽啰，\\n并且获得金钱与道具。"
   splits:
   - split: 1
     text: "杀了你，江湖少侠的经验值增加了。"
     translated: "Killing you increased Young Hero's experience in Jianghu."
+    qcReviewedText: "Killing you increased Young Hero's experience in Jianghu.\\nThey will also kill many more lackeys like you in the future.\\nAnd gain money and items"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "将来他还会杀掉很多像你这样的喽啰，"
@@ -1303,11 +2118,22 @@
   - split: 1
     text: "被惊恐的师姊妹失手打死"
     translated: "Accidentally killed by a frightened senior sister"
+    qcReviewedText: "Accidentally killed by a frightened senior sister"
+    qcTranslated: "Accidentally killed by a frightened senior sister or junior sister"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Library/Desc/10093,大半夜你不吱声就先露脸，是想吓死谁？\\n你活该啦！"
   splits:
   - split: 1
     text: "大半夜你不吱声就先露脸，是想吓死谁？"
     translated: "In the dead of night, you show your face without a sound; are you trying to scare the living daylights out of someone?"
+    qcReviewedText: "In the dead of night, you show your face without a sound; are you trying to scare the living daylights out of someone?\\nYou deserve it!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你活该啦！"
@@ -1320,11 +2146,19 @@
   - split: 1
     text: "快剑封喉"
     translated: "Swift sword sealing the throat"
+    qcReviewedText: "Swift sword sealing the throat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10094,叶家兄妹卸下了肩上重担，但盼能够投胎到好人家。\\n而你个畜生自然要去到畜生道。"
   splits:
   - split: 1
     text: "叶家兄妹卸下了肩上重担，但盼能够投胎到好人家。"
     translated: "The siblings from the Ye family have put down their heavy burdens and hope to be reborn into good families."
+    qcReviewedText: "The siblings from the Ye family have put down their heavy burdens and hope to be reborn into good families.\\nAnd you, as a beast, naturally belong in the Beast Path."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "而你个畜生自然要去到畜生道。"
@@ -1337,11 +2171,19 @@
   - split: 1
     text: "降魔不成反被降"
     translated: "Failing to subdue the demons, one instead becomes subdued."
+    qcReviewedText: "Failing to subdue the demons, one instead becomes subdued."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10095,史书由胜者书写，赢家说的才算话。\\n你会输，只因为正义必胜！受死吧邪魔歪道！"
   splits:
   - split: 1
     text: "史书由胜者书写，赢家说的才算话。"
     translated: "The victors write history, and only their words matter."
+    qcReviewedText: "The victors write history, and only their words matter.\\nYou will lose, simply because justice always prevails! Fall before the power of righteousness, you wicked fiends!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你会输，只因为正义必胜！受死吧邪魔歪道！"
@@ -1354,71 +2196,133 @@
   - split: 1
     text: "全家餐"
     translated: "Family meal"
+    qcReviewedText: "Family meal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10096,狼把你拖走吃了，全家中毒而亡。"
   splits:
   - split: 1
     text: "狼把你拖走吃了，全家中毒而亡。"
     translated: "The wolf dragged you away and ate you, causing the entire family to be poisoned and perish."
+    qcReviewedText: "The wolf dragged you away and ate you, causing the entire family to be poisoned and perish."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10097,败寇之死"
   splits:
   - split: 1
     text: "败寇之死"
     translated: "Death of the Defeated"
+    qcReviewedText: "Death of the Defeated"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10097,赢的才是大侠，死掉的只是尸体。"
   splits:
   - split: 1
     text: "赢的才是大侠，死掉的只是尸体。"
     translated: "Only the victor is the hero; the ones who die are merely corpses."
+    qcReviewedText: "Only the victor is the hero; the ones who die are merely corpses."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10098,走路不看路而死"
   splits:
   - split: 1
     text: "走路不看路而死"
     translated: "Walking without looking at the road can lead to death."
+    qcReviewedText: "Walking without looking at the road can lead to death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10098,千万不要倒退走路，除非你腚子开了眼。"
   splits:
   - split: 1
     text: "千万不要倒退走路，除非你腚子开了眼。"
     translated: "Never walk backward unless your backside has eyes."
+    qcReviewedText: "Never walk backward unless your backside has eyes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10099,手贱而死"
   splits:
   - split: 1
     text: "手贱而死"
     translated: "Died from being too careless"
+    qcReviewedText: "Died from being too careless"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10099,有没有人告诉过你别胡乱开别的抽屉？"
   splits:
   - split: 1
     text: "有没有人告诉过你别胡乱开别的抽屉？"
     translated: "Has anyone ever told you not to randomly open other drawers?"
+    qcReviewedText: "Has anyone ever told you not to randomly open other drawers?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10100,被反震而死"
   splits:
   - split: 1
     text: "被反震而死"
     translated: "Killed by aftershocks"
+    qcReviewedText: "Killed by aftershocks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10100,他都没有出手，你就已经倒下了。"
   splits:
   - split: 1
     text: "他都没有出手，你就已经倒下了。"
     translated: "They haven't even made a move, and you have already fallen."
+    qcReviewedText: "They haven't even made a move, and you have already fallen."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10101,狼的宵夜"
   splits:
   - split: 1
     text: "狼的宵夜"
     translated: "Wolf's midnight snack"
+    qcReviewedText: "Wolf's midnight snack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10101,狼对你的滋味给予好评。"
   splits:
   - split: 1
     text: "狼对你的滋味给予好评。"
     translated: "The wolf gives a positive review of your flavor."
+    qcReviewedText: "The wolf gives a positive review of your flavor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10102,护花死者"
   splits:
   - split: 1
     text: "护花死者"
     translated: "Guardian of the Flowers"
+    qcReviewedText: "Guardian of the Flowers"
+    qcTranslated: "Flower‑Guarding Dead"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Library/Desc/10102,你生前没屁用，\\n好歹尸身腐朽之后，化作春泥尚能护花。"
   splits:
   - split: 1
     text: "你生前没屁用，"
     translated: "You were useless in your past life"
+    qcReviewedText: "You were useless in your past life \\nAt the very least, even after my body rots away, I will still protect the flowers as spring mud."
+    qcTranslated: "You were useless in your past life \\nAt the very least, even after your body rots away, you will still protect the flowers as spring mud."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "好歹尸身腐朽之后，化作春泥尚能护花。"
@@ -1431,37 +2335,70 @@
   - split: 1
     text: "吸毒死"
     translated: "Died from drug use"
+    qcReviewedText: "Died from drug use"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10103,你都知道有剧毒，还吸，你到底有什么毛病？"
   splits:
   - split: 1
     text: "你都知道有剧毒，还吸，你到底有什么毛病？"
     translated: "You know it's highly toxic, yet you still inhale it. What exactly is wrong with you?"
+    qcReviewedText: "You know it's highly toxic, yet you still inhale it. What exactly is wrong with you?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/10104,传说之下"
   splits:
   - split: 1
     text: "传说之下"
     translated: "Undertale"
+    qcReviewedText: "Undertale"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/10104,千面人魔的传说，更添一笔。"
   splits:
   - split: 1
     text: "千面人魔的传说，更添一笔。"
     translated: "The legend of the Thousand Faced Demon adds another stroke to its tale."
+    qcReviewedText: "The legend of the Thousand Faced Demon adds another stroke to its tale."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/11000,忽然就死了"
   splits:
   - split: 1
     text: "忽然就死了"
     translated: "Suddenly, they died"
+    qcReviewedText: "Suddenly, they died"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/11000,"
 - raw: "Library/Title/20000,回疆隐居"
   splits:
   - split: 1
     text: "回疆隐居"
     translated: "Hidden Retreat in the Western Regions"
+    qcReviewedText: "Hidden Retreat in the Western Regions"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20000,你唯恐被二师兄追杀，因此逃离唐门，远避回疆避祸，被苗人壮女逼婚，婚后多子多孙。可你始终郁郁寡欢，未满四旬(四十岁)便无疾而终。"
   splits:
   - split: 1
     text: "你唯恐被二师兄追杀，因此逃离唐门，远避回疆避祸，被苗人壮女逼婚，婚后多子多孙。可你始终郁郁寡欢，未满四旬"
     translated: "Fearing that Second Senior Brother would hunt you down, you fled the Tang Clan and fled to the Xinjiang region to escape trouble. There, you were forced into marriage by a Miao warrior maiden and went on to have many children and grandchildren. Yet you remained gloomy and unhappy, not quite reaching forty years old."
+    qcReviewedText: "Fearing that Second Senior Brother would hunt you down, you fled the Tang Clan and fled to the Xinjiang region to escape trouble. There, you were forced into marriage by a Miao warrior maiden and went on to have many children and grandchildren. Yet you remained gloomy and unhappy, not quite reaching forty years old.(Forty years old) And it ended peacefully"
+    qcTranslated: "Fearing that Second Senior Brother would hunt you down, you fled the Tang Clan and retreated to the Xinjiang region to escape trouble. There, you were forced into marriage by a Miao warrior maiden and went on to have many children and grandchildren. Yet you remained gloomy and unhappy, passing away without illness before reaching forty years old."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UnnaturalPhrasing
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "四十岁"
@@ -1478,11 +2415,19 @@
   - split: 1
     text: "毁灭性声波攻击"
     translated: "Destructive sonic attack"
+    qcReviewedText: "Destructive sonic attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20001,对于世界而言，你来得太早了。你的歌声(咆哮)唤醒了人们沉寂在心底的黑暗情感，使死亡金属音乐提前九百年降临在人间。"
   splits:
   - split: 1
     text: "对于世界而言，你来得太早了。你的歌声"
     translated: "You came too early for the world. Your song"
+    qcReviewedText: "You came too early for the world. Your song(Roar loudly) Awakened the dark emotions buried deep in people's hearts, bringing death metal music nine centuries early to humanity."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "咆哮"
@@ -1499,141 +2444,256 @@
   - split: 1
     text: "青春的尾声，梦想的残渣"
     translated: "The twilight of youth, the remnants of dreams."
+    qcReviewedText: "The twilight of youth, the remnants of dreams."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20002,你送别了梦想，成为大人，此后便不再做梦了。你听闻过他们的音讯，那些旧日时光却像前世一样遥远，难以追回。"
   splits:
   - split: 1
     text: "你送别了梦想，成为大人，此后便不再做梦了。你听闻过他们的音讯，那些旧日时光却像前世一样遥远，难以追回。"
     translated: "You bid farewell to your dreams and became an adult, after which you no longer dreamed. You have heard their news, but those old days feel as distant as a past life, difficult to reclaim."
+    qcReviewedText: "You bid farewell to your dreams and became an adult, after which you no longer dreamed. You have heard their news, but those old days feel as distant as a past life, difficult to reclaim."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20003,唐门叛徒"
   splits:
   - split: 1
     text: "唐门叛徒"
     translated: "Traitor of the Tang Clan"
+    qcReviewedText: "Traitor of the Tang Clan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20003,你背叛了唐门。你说，是为了生存，为了荣华富贵，但内心深处，你知道自己背叛了那份比血还浓的师徒情。"
   splits:
   - split: 1
     text: "你背叛了唐门。你说，是为了生存，为了荣华富贵，但内心深处，你知道自己背叛了那份比血还浓的师徒情。"
     translated: "You betrayed the Tang Clan. You said it was for survival and glory, but deep down, you knew you had betrayed that bond deeper than blood between master and apprentice."
+    qcReviewedText: "You betrayed the Tang Clan. You said it was for survival and glory, but deep down, you knew you had betrayed that bond deeper than blood between master and apprentice."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20004,独善其身"
   splits:
   - split: 1
     text: "独善其身"
     translated: "To cultivate oneself alone"
+    qcReviewedText: "To cultivate oneself alone"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20004,比起师门，你选择保全自身，转身逃跑了。纵使无可厚非，你却到老也难以释怀，时时梦见旧事，便热泪盈眶。"
   splits:
   - split: 1
     text: "比起师门，你选择保全自身，转身逃跑了。纵使无可厚非，你却到老也难以释怀，时时梦见旧事，便热泪盈眶。"
     translated: "Compared to the sect, you chose to protect yourself and turned to flee. Even though it is understandable, you will find it hard to let go for the rest of your life, often dreaming of the past and being filled with tears."
+    qcReviewedText: "Compared to the sect, you chose to protect yourself and turned to flee. Even though it is understandable, you will find it hard to let go for the rest of your life, often dreaming of the past and being filled with tears."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20005,睡死"
   splits:
   - split: 1
     text: "睡死"
     translated: "Sleep to death"
+    qcReviewedText: "Sleep to death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20005,人世最苦莫过于独自清醒，愿君好梦安息。"
   splits:
   - split: 1
     text: "人世最苦莫过于独自清醒，愿君好梦安息。"
     translated: "The greatest suffering in life is to be awake alone; may you have sweet dreams and rest in peace."
+    qcReviewedText: "The greatest suffering in life is to be awake alone; may you have sweet dreams and rest in peace."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20006,孤独死"
   splits:
   - split: 1
     text: "孤独死"
     translated: "Lonely death"
+    qcReviewedText: "Lonely death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20006,万籁俱寂，天地无声，你终于找到了安宁。"
   splits:
   - split: 1
     text: "万籁俱寂，天地无声，你终于找到了安宁。"
     translated: "In the profound silence, with the world hushed, you have finally found peace."
+    qcReviewedText: "In the profound silence, with the world hushed, you have finally found peace."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20007,被煮的狗"
   splits:
   - split: 1
     text: "被煮的狗"
     translated: "Boiled dog"
+    qcReviewedText: "Boiled dog"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20007,兔死狗烹，你这走狗已经没有用了。用张大饼就能骗得你团团转，可真划算。"
   splits:
   - split: 1
     text: "兔死狗烹，你这走狗已经没有用了。用张大饼就能骗得你团团转，可真划算。"
     translated: "When the rabbit dies, the dog is cooked; you, this running dog, are no longer of any use. With just a flatbread, I can deceive you completely, what a bargain."
+    qcReviewedText: "When the rabbit dies, the dog is cooked; you, this running dog, are no longer of any use. With just a flatbread, I can deceive you completely, what a bargain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20008,竹之城"
   splits:
   - split: 1
     text: "竹之城"
     translated: "City of Bamboo"
+    qcReviewedText: "City of Bamboo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20008,你托人弄来了竹苗，在岛上种了一片竹林，自称城主，在竹林围绕之下享天年而终。"
   splits:
   - split: 1
     text: "你托人弄来了竹苗，在岛上种了一片竹林，自称城主，在竹林围绕之下享天年而终。"
     translated: "You had someone bring bamboo seedlings and planted a grove of bamboo on the island, declaring yourself the lord of the city, living out your days surrounded by the bamboo forest."
+    qcReviewedText: "You had someone bring bamboo seedlings and planted a grove of bamboo on the island, declaring yourself the lord of the city, living out your days surrounded by the bamboo forest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20009,退隐江湖"
   splits:
   - split: 1
     text: "退隐江湖"
     translated: "Retire from the Jianghu"
+    qcReviewedText: "Retire from the Jianghu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20009,离江湖纷扰，悠悠隔世，往后余生有如笔墨在纸上写下的日记，平淡无奇，日复一日，但每一天都不是虚度。你真实的活过，你自己记得。"
   splits:
   - split: 1
     text: "离江湖纷扰，悠悠隔世，往后余生有如笔墨在纸上写下的日记，平淡无奇，日复一日，但每一天都不是虚度。你真实的活过，你自己记得。"
     translated: "Separated from the turmoil of Jianghu, drifting through the ages, the rest of your life resembles a diary written in ink on paper, plain and unremarkable, day after day. Yet, each day is not wasted. You have truly lived, and you remember it yourself."
+    qcReviewedText: "Separated from the turmoil of Jianghu, drifting through the ages, the rest of your life resembles a diary written in ink on paper, plain and unremarkable, day after day. Yet, each day is not wasted. You have truly lived, and you remember it yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20010,魂归故里"
   splits:
   - split: 1
     text: "魂归故里"
     translated: "The soul returns to its homeland"
+    qcReviewedText: "The soul returns to its homeland"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20010,欢迎回家。"
   splits:
   - split: 1
     text: "欢迎回家。"
     translated: "Welcome home"
+    qcReviewedText: "Welcome home"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20011,孤独终老"
   splits:
   - split: 1
     text: "孤独终老"
     translated: "Lonely until old age"
+    qcReviewedText: "Lonely until old age"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20011,你身边的花盛开又谢，来去匆匆，而你始终孤独。"
   splits:
   - split: 1
     text: "你身边的花盛开又谢，来去匆匆，而你始终孤独。"
     translated: "The flowers around you bloom and wither, coming and going in a hurry, while you remain forever alone."
+    qcReviewedText: "The flowers around you bloom and wither, coming and going in a hurry, while you remain forever alone."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20012,西游记"
   splits:
   - split: 1
     text: "西游记"
     translated: "Journey to the West"
+    qcReviewedText: "Journey to the West"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20012,你远赴西域，寻了稳妥营生，学当地的语言与风尚礼节，花钱买了妻子，到老没生大病，临终亦有儿女侍疾，该算是美满才对啊……。"
   splits:
   - split: 1
     text: "你远赴西域，寻了稳妥营生，学当地的语言与风尚礼节，花钱买了妻子，到老没生大病，临终亦有儿女侍疾，该算是美满才对啊……。"
     translated: "You traveled far to the Western Regions, sought a stable livelihood, learned the local language and customs, spent money to acquire a wife, lived to old age without serious illness, and had children to care for you in your final days. That should be considered a fulfilling life, right...?"
+    qcReviewedText: "You traveled far to the Western Regions, sought a stable livelihood, learned the local language and customs, spent money to acquire a wife, lived to old age without serious illness, and had children to care for you in your final days. That should be considered a fulfilling life, right...?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20013,天下寂寥事，与君阔别时"
   splits:
   - split: 1
     text: "天下寂寥事，与君阔别时"
     translated: "The world is desolate, especially when I am apart from you."
+    qcReviewedText: "The world is desolate, especially when I am apart from you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20013,仗剑天涯之远，惯看寂寞颜色。天下之大，谁也换不了她开颜浅笑。活该一生煎熬，来赎她眼泪。"
   splits:
   - split: 1
     text: "仗剑天涯之远，惯看寂寞颜色。天下之大，谁也换不了她开颜浅笑。活该一生煎熬，来赎她眼泪。"
     translated: "Wielding a sword across the vast world, accustomed to the colors of solitude. In this great land, no one can replace her gentle smile. It is only right that she endures a lifetime of suffering to atone for her tears."
+    qcReviewedText: "Wielding a sword across the vast world, accustomed to the colors of solitude. In this great land, no one can replace her gentle smile. It is only right that she endures a lifetime of suffering to atone for her tears."
+    qcTranslated: "Wielding a sword across the vast world, accustomed to the colors of solitude. In this great land, no one can make her smile. It is only right that he endures a lifetime of suffering to atone for her tears."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Library/Title/20014,天下寂寥事，与君阔别时"
   splits:
   - split: 1
     text: "天下寂寥事，与君阔别时"
     translated: "The world is desolate, especially when I am apart from you."
+    qcReviewedText: "The world is desolate, especially when I am apart from you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20014,仗剑天涯之远，惯看寂寞颜色。天下之大，谁也换不了她嫣然一笑。活该一生煎熬，来赎她眼泪。"
   splits:
   - split: 1
     text: "仗剑天涯之远，惯看寂寞颜色。天下之大，谁也换不了她嫣然一笑。活该一生煎熬，来赎她眼泪。"
     translated: "Wielding a sword across distant horizons, accustomed to the colors of solitude. In this vast world, no one can replace her enchanting smile. She is destined to endure a lifetime of torment to atone for her tears."
+    qcReviewedText: "Wielding a sword across distant horizons, accustomed to the colors of solitude. In this vast world, no one can replace her enchanting smile. She is destined to endure a lifetime of torment to atone for her tears."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20015,猿鹤虫沙"
   splits:
   - split: 1
     text: "猿鹤虫沙"
     translated: "Yuanhe Chongsha"
+    qcReviewedText: "Yuanhe Chongsha"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20015,《抱朴子》曰：「周穆王南征，一军尽化，君子为猿为鹤，小人为虫为沙。」死后尽归黄土。"
   splits:
   - split: 1
     text: "《抱朴子》曰"
     translated: "The Book of Master Embracing Simplicity says"
+    qcReviewedText: "The Book of Master Embracing Simplicity says：During King Mu of Zhou's southern campaign, his entire army was transformed: the nobles became apes and cranes, while the commoners turned into insects and grains of sand. After death, all return to the earth."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "「周穆王南征，一军尽化，君子为猿为鹤，小人为虫为沙。」死后尽归黄土。"
@@ -1646,41 +2706,73 @@
   - split: 1
     text: "盲剑客"
     translated: "Blind Swordsman"
+    qcReviewedText: "Blind Swordsman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20016,你瞎眼之后，龙湘十分愧疚，将一身剑法传授给你。你一度凭此扬名于江湖，但是几年以后碰上了狡猾小人，设陷阱害你踏空，随后将你活埋了。"
   splits:
   - split: 1
     text: "你瞎眼之后，龙湘十分愧疚，将一身剑法传授给你。你一度凭此扬名于江湖，但是几年以后碰上了狡猾小人，设陷阱害你踏空，随后将你活埋了。"
     translated: "After you went blind, Long Xiang felt deeply guilty and passed on all their swordsmanship to you. For a time, you gained fame in the Jianghu, but a few years later, you encountered a cunning villain who set a trap to cause you to stumble and subsequently buried you alive."
+    qcReviewedText: "After you went blind, Long Xiang felt deeply guilty and passed on all their swordsmanship to you. For a time, you gained fame in the Jianghu, but a few years later, you encountered a cunning villain who set a trap to cause you to stumble and subsequently buried you alive."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20017,被关到老"
   splits:
   - split: 1
     text: "被关到老"
     translated: "Locked away until old age"
+    qcReviewedText: "Locked away until old age"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20017,你的后半生都在牢里度过，日复一日都面对同一堵墙。往事既遥远又鲜明，回过神来也已经离你好远好远了。"
   splits:
   - split: 1
     text: "你的后半生都在牢里度过，日复一日都面对同一堵墙。往事既遥远又鲜明，回过神来也已经离你好远好远了。"
     translated: "You spent the latter half of your life in prison, facing the same wall day after day. The past feels both distant and vivid, and when you come to your senses, it has already drifted far away from you."
+    qcReviewedText: "You spent the latter half of your life in prison, facing the same wall day after day. The past feels both distant and vivid, and when you come to your senses, it has already drifted far away from you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20018,流浪汉"
   splits:
   - split: 1
     text: "流浪汉"
     translated: "Vagrant"
+    qcReviewedText: "Vagrant"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20018,浪迹天涯说得潇洒，说穿便是流浪汉罢。你没有家。"
   splits:
   - split: 1
     text: "浪迹天涯说得潇洒，说穿便是流浪汉罢。你没有家。"
     translated: "Wandering the world sounds carefree, but to put it plainly, it's just being a drifter. You have no home."
+    qcReviewedText: "Wandering the world sounds carefree, but to put it plainly, it's just being a drifter. You have no home."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20019,入无穷之门，游无极之野"
   splits:
   - split: 1
     text: "入无穷之门，游无极之野"
     translated: "Enter the gate of infinity, roam the boundless fields."
+    qcReviewedText: "Enter the gate of infinity, roam the boundless fields."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20019,道可道，非常道。\\n你所悟越深，能言越少，终至万籁俱寂，天地无声。\\n你没有留下足迹，不施不欠，就像自始自终不曾存在。"
   splits:
   - split: 1
     text: "道可道，非常道。"
     translated: "The Way that can be expressed is not the eternal Way."
+    qcReviewedText: "The Way that can be expressed is not the eternal Way.\\nThe deeper your realization, the fewer words you speak, until finally all is silent, and the world is without sound.\\nYou left no trace, neither owed nor owing, as if you had never existed from the start."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你所悟越深，能言越少，终至万籁俱寂，天地无声。"
@@ -1697,11 +2789,19 @@
   - split: 1
     text: "退隐江湖"
     translated: "Retire from the Jianghu"
+    qcReviewedText: "Retire from the Jianghu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20020,你封剑退隐，一生不再与人动武，活到天命之年。\\n偶尔有人对你友善，但有更多的人无端厌恶你、仇视你、嘲讽你。\\n恶意无处不在，离了江湖亦然，人间就是这样。"
   splits:
   - split: 1
     text: "你封剑退隐，一生不再与人动武，活到天命之年。"
     translated: "You sheathed your sword and retired, never again engaging in combat with others, living until your appointed time."
+    qcReviewedText: "You sheathed your sword and retired, never again engaging in combat with others, living until your appointed time.\\nSometimes someone is kind to you, but there are many more who dislike you for no reason, hate you, and mock you.\\nMalice is everywhere, and even outside the Jianghu, it remains the same; that's just how the world is."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "偶尔有人对你友善，但有更多的人无端厌恶你、仇视你、嘲讽你。"
@@ -1718,11 +2818,19 @@
   - split: 1
     text: "恩仇的尽头"
     translated: "The End of Grudges and Affections"
+    qcReviewedText: "The End of Grudges and Affections"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20021,你的怒火将天边的云霞都烧得通红。报了恩，也报了仇。\\n恩怨皆成灰，席卷上天，随风远去。"
   splits:
   - split: 1
     text: "你的怒火将天边的云霞都烧得通红。报了恩，也报了仇。"
     translated: "Their anger turned the clouds on the horizon blood‑red. They avenged both a debt of gratitude and a grievance."
+    qcReviewedText: "Their anger turned the clouds on the horizon blood‑red. They avenged both a debt of gratitude and a grievance.\\nAll grudges and affections turn to ash, swept up to the heavens, carried away by the wind."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "恩怨皆成灰，席卷上天，随风远去。"
@@ -1735,11 +2843,19 @@
   - split: 1
     text: "宦海浮沉"
     translated: "The ups and downs of the officialdom"
+    qcReviewedText: "The ups and downs of the officialdom"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20022,你学会官场交际，对上逢迎拍马，对下蛮横无情。\\n就是面目丑恶，只要权势够大，一样没人敢说你闲话。\\n只是那些噤若寒蝉的人们、那些终生不来看望你的江湖旧友，心底有没有瞧不起你，那就难说了。"
   splits:
   - split: 1
     text: "你学会官场交际，对上逢迎拍马，对下蛮横无情。"
     translated: "You've mastered political flattery, ingratiating yourself with superiors and bullying those below you with callous indifference."
+    qcReviewedText: "You've mastered political flattery, ingratiating yourself with superiors and bullying those below you with callous indifference.\\nEven if someone is hideously ugly, as long as they have enough power, no one will dare to gossip about them.\\nIt's uncertain whether those who have kept silent like cicadas in winter, and your old Jianghu friends who never came to visit you, look down on you in their hearts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "就是面目丑恶，只要权势够大，一样没人敢说你闲话。"
@@ -1756,21 +2872,41 @@
   - split: 1
     text: "赶海人"
     translated: "Beachcomber"
+    qcReviewedText: "Beachcomber"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20023,你一相情愿认为她被溪水冲走了，循着岷江穿流一路向东，直到海边，可是那里也没有她的身影。你每日都看着海，日渐苍老，悔不当初。"
   splits:
   - split: 1
     text: "你一相情愿认为她被溪水冲走了，循着岷江穿流一路向东，直到海边，可是那里也没有她的身影。你每日都看着海，日渐苍老，悔不当初。"
     translated: "You stubbornly believe that she was swept away by the stream, flowing along the Min River all the way east to the sea, but there is no trace of her there either. Every day you gaze at the sea, growing older with each passing day, regretting your past decisions."
+    qcReviewedText: "You stubbornly believe that she was swept away by the stream, flowing along the Min River all the way east to the sea, but there is no trace of her there either. Every day you gaze at the sea, growing older with each passing day, regretting your past decisions."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20024,退隐江湖"
   splits:
   - split: 1
     text: "退隐江湖"
     translated: "Retire from the Jianghu"
+    qcReviewedText: "Retire from the Jianghu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20024,你退隐之后，江湖故事再也不闻不问。\\n波澜都在头先廿载，余生不受盛名所牵。你来过，你走了，也许没人在意，可是你自己晓得。"
   splits:
   - split: 1
     text: "你退隐之后，江湖故事再也不闻不问。"
     translated: "Since your retirement, you no longer hear anything about the stories of Jianghu."
+    qcReviewedText: "Since your retirement, you no longer hear anything about the stories of Jianghu.\\nThe ripples of my past twenty years have all subsided. For the rest of my life, I won't be bound by my fame. You came, you went, perhaps no one cared, but you know yourself."
+    qcTranslated: "Since your retirement, you no longer hear anything about the stories of Jianghu.\\nThe ripples of my past twenty years have all subsided. For the rest of my life, I won't be bound by my fame. You came, you went, perhaps no one cared, but you yourself know it."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "波澜都在头先廿载，余生不受盛名所牵。你来过，你走了，也许没人在意，可是你自己晓得。"
@@ -1783,11 +2919,25 @@
   - split: 1
     text: "山中老人"
     translated: "Elderly person in the mountains"
+    qcReviewedText: "Elderly person in the mountains"
+    qcTranslated: "The Old Man of the Mountain"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "Library/Desc/20025,你老年被称为山中老人，是天下暗杀者的老祖宗。\\n千面人魔的传说还在延续，恐惧笼罩这片大地。"
   splits:
   - split: 1
     text: "你老年被称为山中老人，是天下暗杀者的老祖宗。"
     translated: "They were known in old age as Old Man of the Mountain, the ancestor of all assassins in the world."
+    qcReviewedText: "They were known in old age as Old Man of the Mountain, the ancestor of all assassins in the world.\\nThe legend of the Thousand Faced Demon continues, and fear casts a shadow over this land."
+    qcTranslated: "You were known in old age as Old Man of the Mountain, the ancestor of all assassins in the world.\\nThe legend of the Thousand Faced Demon continues, and fear casts a shadow over this land."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "千面人魔的传说还在延续，恐惧笼罩这片大地。"
@@ -1800,21 +2950,40 @@
   - split: 1
     text: "世外桃源"
     translated: "Paradise on earth"
+    qcReviewedText: "Paradise on earth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20026,往昔恩怨随风散，岁月悠悠不染尘，你俩的余生既慢且好。"
   splits:
   - split: 1
     text: "往昔恩怨随风散，岁月悠悠不染尘，你俩的余生既慢且好。"
     translated: "Past grievances scatter with the wind, and the years flow by without taint. May the two of you enjoy a slow and good life in the days to come."
+    qcReviewedText: "Past grievances scatter with the wind, and the years flow by without taint. May the two of you enjoy a slow and good life in the days to come."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20027,血河刀"
   splits:
   - split: 1
     text: "血河刀"
     translated: "Blood River Blade"
+    qcReviewedText: "Blood River Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20027,江湖人利欲熏心，无人猜得到你不怀好意。\\n你用这把刀给唐门报了仇，未斩一人，刀下已伏尸千万，血流成河。"
   splits:
   - split: 1
     text: "江湖人利欲熏心，无人猜得到你不怀好意。"
     translated: "People in the Jianghu are blinded by greed; no one suspects your ill intentions."
+    qcReviewedText: "People in the Jianghu are blinded by greed; no one suspects your ill intentions.\\nYou avenged the Tang Clan with this knife, yet you spared no one, leaving thousands dead at its blade, with blood flowing in rivers."
+    qcTranslated: "People in the Jianghu are blinded by greed; no one suspects your ill intentions.\\nYou avenged the Tang Clan with this knife, yet you slew not a single person, yet a thousand corpses already lie beneath its blade, with blood flowing in rivers."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "你用这把刀给唐门报了仇，未斩一人，刀下已伏尸千万，血流成河。"
@@ -1827,11 +2996,19 @@
   - split: 1
     text: "再世庞统"
     translated: "Reincarnation of Pang Tong"
+    qcReviewedText: "Reincarnation of Pang Tong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20028,深谋远虑是假，只有其貌不扬是真的。\\n拜你所赐，唐门的冤屈得以平反，虽然大家各散东西，却都扬眉吐气。"
   splits:
   - split: 1
     text: "深谋远虑是假，只有其貌不扬是真的。"
     translated: "Their far‑sighted plans are a facade; the only truth is that they are plain‑looking."
+    qcReviewedText: "Their far‑sighted plans are a facade; the only truth is that they are plain‑looking.\\nThanks to you, the Tang Clan's wrongful accusations have been cleared, even though everyone has gone their separate ways, they all feel vindicated."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "拜你所赐，唐门的冤屈得以平反，虽然大家各散东西，却都扬眉吐气。"
@@ -1844,51 +3021,91 @@
   - split: 1
     text: "山林隐逸"
     translated: "Mountain Forest Retreat"
+    qcReviewedText: "Mountain Forest Retreat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20029,你俩是隐居的雅士，反正这个时代配不上你们，不妨孤芳自赏、独善其身，晴时耕牧雨读书，夏赏荷花冬赏雪，不也畅怀？"
   splits:
   - split: 1
     text: "你俩是隐居的雅士，反正这个时代配不上你们，不妨孤芳自赏、独善其身，晴时耕牧雨读书，夏赏荷花冬赏雪，不也畅怀？"
     translated: "You two are reclusive scholars; this era is unworthy of you. Why not appreciate your own company, cultivate your character, and spend sunny days farming and herding while reading on rainy days? Enjoy the lotus flowers in summer and the snow in winter‑doesn't that bring joy?"
+    qcReviewedText: "You two are reclusive scholars; this era is unworthy of you. Why not appreciate your own company, cultivate your character, and spend sunny days farming and herding while reading on rainy days? Enjoy the lotus flowers in summer and the snow in winter‑doesn't that bring joy?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20030,传说之人"
   splits:
   - split: 1
     text: "传说之人"
     translated: "Legendary Person"
+    qcReviewedText: "Legendary Person"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20030,世人众说纷纭，都想知道那位头戴人皮面具的前辈高人是何方神圣，然而，你那天根本没戴面具。"
   splits:
   - split: 1
     text: "世人众说纷纭，都想知道那位头戴人皮面具的前辈高人是何方神圣，然而，你那天根本没戴面具。"
     translated: "The world is abuzz with speculation, all wanting to know who that senior expert is, wearing a human skin mask. However, you weren't wearing a mask at all that day."
+    qcReviewedText: "The world is abuzz with speculation, all wanting to know who that senior expert is, wearing a human skin mask. However, you weren't wearing a mask at all that day."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20031,殉志而死"
   splits:
   - split: 1
     text: "殉志而死"
     translated: "Die for one's ideals"
+    qcReviewedText: "Die for one's ideals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20031,这一路太长太远，本来就强人所难，你已经足够努力了。"
   splits:
   - split: 1
     text: "这一路太长太远，本来就强人所难，你已经足够努力了。"
     translated: "This journey is too long and too far; it was already asking too much of you. You have already tried your best."
+    qcReviewedText: "This journey is too long and too far; it was already asking too much of you. You have already tried your best."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20032,全军覆没"
   splits:
   - split: 1
     text: "全军覆没"
     translated: "Total defeat"
+    qcReviewedText: "Total defeat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20032,是日，唐门叛逆全歼于眉山，无一幸还。大院外堡付之一炬，功过皆化乌有。你们活过，只是谁也不记得了。"
   splits:
   - split: 1
     text: "是日，唐门叛逆全歼于眉山，无一幸还。大院外堡付之一炬，功过皆化乌有。你们活过，只是谁也不记得了。"
     translated: "On this day, the rebels of the Tang Clan were completely annihilated at Meishan, with not a single one surviving. The fortress outside the courtyard was set ablaze, and all achievements and failures have turned to nothing. You have survived, but no one remembers you."
+    qcReviewedText: "On this day, the rebels of the Tang Clan were completely annihilated at Meishan, with not a single one surviving. The fortress outside the courtyard was set ablaze, and all achievements and failures have turned to nothing. You have survived, but no one remembers you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20033,行尸走肉"
   splits:
   - split: 1
     text: "行尸走肉"
     translated: "Walking Dead"
+    qcReviewedText: "Walking Dead"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20033,你活着，却已死了很久。\\n夏侯兰后悔那日不该绑着你，让你多受几十年煎熬。"
   splits:
   - split: 1
     text: "你活着，却已死了很久。"
     translated: "You are alive, yet you have been dead for a long time."
+    qcReviewedText: "You are alive, yet you have been dead for a long time.\\nXiahou Lan regrets that day when they shouldn't have tied you up, making you suffer for decades."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "夏侯兰后悔那日不该绑着你，让你多受几十年煎熬。"
@@ -1901,21 +3118,40 @@
   - split: 1
     text: "慷慨就义"
     translated: "Heroic sacrifice"
+    qcReviewedText: "Heroic sacrifice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20034,你有路可活，可你非要做那唐门弟子，笑看生杀，慷慨赴义。"
   splits:
   - split: 1
     text: "你有路可活，可你非要做那唐门弟子，笑看生杀，慷慨赴义。"
     translated: "You have a way to survive, yet you insist on being a Tang Clan Disciple, watching life and death with a smile, generously embracing righteousness."
+    qcReviewedText: "You have a way to survive, yet you insist on being a Tang Clan Disciple, watching life and death with a smile, generously embracing righteousness."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20035,唐门的暗器"
   splits:
   - split: 1
     text: "唐门的暗器"
     translated: "The Hidden Weapons of the Tang Clan"
+    qcReviewedText: "The Hidden Weapons of the Tang Clan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20035,人死如灯灭，你们燃尽了生命之火，还以颜色。\\n几十年后，世人依然记得唐门绝响。"
   splits:
   - split: 1
     text: "人死如灯灭，你们燃尽了生命之火，还以颜色。"
     translated: "When a person dies, it's like a lamp going out. You have burned out your health, and now it's your turn to taste the same."
+    qcReviewedText: "When a person dies, it's like a lamp going out. You have burned out your health, and now it's your turn to taste the same.\\nDecades later, people still remember the final performance of the Tang Clan."
+    qcTranslated: "When a person dies, it's like a lamp going out. You have burned out your Health, yet you still dare to show your colors.\\nDecades later, people still remember the final performance of the Tang Clan."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "几十年后，世人依然记得唐门绝响。"
@@ -1928,11 +3164,19 @@
   - split: 1
     text: "唐门薪火"
     translated: "Tang Clan Legacy"
+    qcReviewedText: "Tang Clan Legacy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20036,世上再无唐门，可是薪火不曾断绝。有你和小师妹，以及你们未来的家人。\\n唐门最初是一家人，最后仍是一家人。唐家香火，还将继续传承。"
   splits:
   - split: 1
     text: "世上再无唐门，可是薪火不曾断绝。有你和小师妹，以及你们未来的家人。"
     translated: "Though the Tang Clan no longer exists, its legacy continues. With you and Little Junior Sister, and the future families you will build."
+    qcReviewedText: "Though the Tang Clan no longer exists, its legacy continues. With you and Little Junior Sister, and the future families you will build.\\nThe Tang Clan started as a family, and in the end, they remain a family. The legacy of the Tang family will continue to be passed down."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "唐门最初是一家人，最后仍是一家人。唐家香火，还将继续传承。"
@@ -1945,21 +3189,37 @@
   - split: 1
     text: "神州旅人"
     translated: "Traveler of the Divine Land"
+    qcReviewedText: "Traveler of the Divine Land"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20037,你们的旅行，从出发那一日就没停过，走到哪儿玩到哪，她出钱，你卖命，拜访过旧友，又不吝情去留，绕遍神州大地，足迹止于昆仑山。"
   splits:
   - split: 1
     text: "你们的旅行，从出发那一日就没停过，走到哪儿玩到哪，她出钱，你卖命，拜访过旧友，又不吝情去留，绕遍神州大地，足迹止于昆仑山。"
     translated: "Your journey has not stopped since the day you set off, playing wherever you go. They pay for everything while you give your all, visiting old friends without holding back your feelings, traveling all over the land, with your footsteps finally resting at Kunlun Mountain."
+    qcReviewedText: "Your journey has not stopped since the day you set off, playing wherever you go. They pay for everything while you give your all, visiting old friends without holding back your feelings, traveling all over the land, with your footsteps finally resting at Kunlun Mountain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20038,富甲一方"
   splits:
   - split: 1
     text: "富甲一方"
     translated: "Wealthy beyond compare"
+    qcReviewedText: "Wealthy beyond compare"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20038,托上官萤故，赵家成为富甲一方的大户人家。\\n上官萤渐渐把生意交给你，自己执掌中馈。\\n身为贤妻良母，她从来不打小孩，倘若小孩犯了错，就打你。"
   splits:
   - split: 1
     text: "托上官萤故，赵家成为富甲一方的大户人家。"
     translated: "Thanks to Shangguan Ying, the Zhao family became a wealthy household in the area."
+    qcReviewedText: "Thanks to Shangguan Ying, the Zhao family became a wealthy household in the area.\\nShangguan Ying gradually handed over the business to you and took charge of managing the household.\\nAs a virtuous wife and mother, she never hits children; if a child makes a mistake, she hits you instead."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "上官萤渐渐把生意交给你，自己执掌中馈。"
@@ -1976,21 +3236,37 @@
   - split: 1
     text: "小梅私藏"
     translated: "Xiao Mei's Secret Collection"
+    qcReviewedText: "Xiao Mei's Secret Collection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20039,小梅平时贤慧温柔，只是一受刺激就会犯病将你放倒蹂躏。她曾持刀把方圆百里所有女子都恐吓过一遍，警告她们不许靠近你。"
   splits:
   - split: 1
     text: "小梅平时贤慧温柔，只是一受刺激就会犯病将你放倒蹂躏。她曾持刀把方圆百里所有女子都恐吓过一遍，警告她们不许靠近你。"
     translated: "Xiao Mei is usually wise and gentle, but when provoked, she can become fierce and overpowering. She once wielded a blade to intimidate all the women within a hundred‑mile radius, warning them not to come near you."
+    qcReviewedText: "Xiao Mei is usually wise and gentle, but when provoked, she can become fierce and overpowering. She once wielded a blade to intimidate all the women within a hundred‑mile radius, warning them not to come near you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20040,千古名匠"
   splits:
   - split: 1
     text: "千古名匠"
     translated: "Master of the Ages"
+    qcReviewedText: "Master of the Ages"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20040,你和小竹造出了精妙绝伦的机关人，藏于池水之下，因为机关构造过于复杂，不得不造得大些，分为人、狮、鹰，可以合体。\\n如此成就，足以青史留名，但你们唯恐机关人遭到恶用，最终还是决定毁去。"
   splits:
   - split: 1
     text: "你和小竹造出了精妙绝伦的机关人，藏于池水之下，因为机关构造过于复杂，不得不造得大些，分为人、狮、鹰，可以合体。"
     translated: "You and Xiao Zhu created an ingenious mechanical automaton, hiding it beneath the pond water. Due to its intricate design, it had to be larger, divided into human, lion, and eagle forms, which can combine."
+    qcReviewedText: "You and Xiao Zhu created an ingenious mechanical automaton, hiding it beneath the pond water. Due to its intricate design, it had to be larger, divided into human, lion, and eagle forms, which can combine.\\nSuch achievements would have been enough to leave a name in history books, but fearing that Mechanisms might be put to evil use, you ultimately decided to destroy them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "如此成就，足以青史留名，但你们唯恐机关人遭到恶用，最终还是决定毁去。"
@@ -2003,11 +3279,23 @@
   - split: 1
     text: "隐世大儒"
     translated: "Reclusive Sage"
+    qcReviewedText: "Reclusive Sage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20041,你夫妻有风骨而不骄衿。\\n文士雅士、贩夫走卒都无任欢迎。\\n谈笑有鸿儒，往来亦不拒白丁，士农工商皆可为友，平等尊敬认真生活的每个人。"
   splits:
   - split: 1
     text: "你夫妻有风骨而不骄衿。"
     translated: "You both have integrity and composure without being arrogant."
+    qcReviewedText: "You both have integrity and composure without being arrogant.\\nScholars and common traders alike are welcome \\nChatting with refined scholars, also welcoming commoners without disdain, making friends with people from all walks of life‑scholars, farmers, artisans, and merchants‑respecting and valuing everyone who lives with dignity."
+    qcTranslated: "You both have integrity and composure without being arrogant.\\nScholars, commoners, and peddlers are all welcome.\\nChatting with refined scholars, also welcoming commoners without disdain, making friends with people from all walks of life‑scholars, farmers, artisans, and merchants‑respecting and valuing everyone who lives with dignity."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "文士雅士、贩夫走卒都无任欢迎。"
@@ -2024,11 +3312,19 @@
   - split: 1
     text: "失宠"
     translated: "Fallen out of favor"
+    qcReviewedText: "Fallen out of favor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20042,有了孩子以后，夏侯兰冰冷的心终于化了，而你也失宠了。\\n她专心相夫教子，经常庆幸孩子像她不像你，也不许你打骂小孩，极端宠腻。\\n为了孩子能有良好的教育，某天出门活捉了魏菊回家担任夫子。"
   splits:
   - split: 1
     text: "有了孩子以后，夏侯兰冰冷的心终于化了，而你也失宠了。"
     translated: "After Xiahou Lan had a child, their cold heart finally melted, but you fell out of favor."
+    qcReviewedText: "After Xiahou Lan had a child, their cold heart finally melted, but you fell out of favor.\\nShe focuses on caring for her husband and raising her children, often feeling fortunate that her kids take after her and not you. She doesn't allow you to hit or scold them, indulging them completely.\\nTo ensure their child could receive a good education, one day they went out and brought Wei Ju home to serve as a tutor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "她专心相夫教子，经常庆幸孩子像她不像你，也不许你打骂小孩，极端宠腻。"
@@ -2045,11 +3341,19 @@
   - split: 1
     text: "鸡腿大亨"
     translated: "Chicken Tycoon"
+    qcReviewedText: "Chicken Tycoon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20043,龙渊悄悄来看过你们，一度气得眼冒金星，想想自己也没啥出息，索性就由着你们。\\n反正轰轰烈烈的活、平平安安的过，同样是一生。你的岳丈对你要求不多，不用你管天下苍生，只要保护自己家人，只做她的英雄足矣。"
   splits:
   - split: 1
     text: "龙渊悄悄来看过你们，一度气得眼冒金星，想想自己也没啥出息，索性就由着你们。"
     translated: "Long Yuan secretly came to see you all once and was so furious that his eyes flashed with golden stars. Thinking about it, he figured he wasn't much better either, so he decided to let you all have your way."
+    qcReviewedText: "Long Yuan secretly came to see you all once and was so furious that his eyes flashed with golden stars. Thinking about it, he figured he wasn't much better either, so he decided to let you all have your way.\\nLiving life grandly or living it peacefully are both just one life. Your father‑in‑law doesn't expect much from you; you don't need to worry about the welfare of all people. You just need to protect your family and be her hero."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "反正轰轰烈烈的活、平平安安的过，同样是一生。你的岳丈对你要求不多，不用你管天下苍生，只要保护自己家人，只做她的英雄足矣。"
@@ -2062,41 +3366,73 @@
   - split: 1
     text: "最后的唐门弟子"
     translated: "Last Tang Clan Disciple"
+    qcReviewedText: "Last Tang Clan Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20044,你打算尽可能活久一点，要是连你都没了，世上就再也没人记得唐门了。"
   splits:
   - split: 1
     text: "你打算尽可能活久一点，要是连你都没了，世上就再也没人记得唐门了。"
     translated: "You plan to live as long as possible; if you are gone, no one in the world will remember the Tang Clan."
+    qcReviewedText: "You plan to live as long as possible; if you are gone, no one in the world will remember the Tang Clan."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20045,相声二人组"
   splits:
   - split: 1
     text: "相声二人组"
     translated: "Crosstalk duo"
+    qcReviewedText: "Crosstalk duo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20045,你们有时甚至不必准备剧本，随口说话就能引人发笑，你长得越奇怪反而越受欢迎，这才知道原来相声是你的天职。在这领域，你比大师兄还受欢迎，拥有他嫉妒不来的才能。"
   splits:
   - split: 1
     text: "你们有时甚至不必准备剧本，随口说话就能引人发笑，你长得越奇怪反而越受欢迎，这才知道原来相声是你的天职。在这领域，你比大师兄还受欢迎，拥有他嫉妒不来的才能。"
     translated: "You don't even need a script sometimes; you can make people laugh off the cuff. The weirder you look, the more popular you become. It's only then that you realize that crosstalk is your calling. In this field, you're more popular than Big Senior Brother, with a talent that even he can't help but envy."
+    qcReviewedText: "You don't even need a script sometimes; you can make people laugh off the cuff. The weirder you look, the more popular you become. It's only then that you realize that crosstalk is your calling. In this field, you're more popular than Big Senior Brother, with a talent that even he can't help but envy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20046,君所愿兮江湖行"
   splits:
   - split: 1
     text: "君所愿兮江湖行"
     translated: "What you wish for, let it be a journey through Jianghu."
+    qcReviewedText: "What you wish for, let it be a journey through Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20046,终于轮你当主角，你的谢幕可歌可泣，世上无人再敢看轻你。"
   splits:
   - split: 1
     text: "终于轮你当主角，你的谢幕可歌可泣，世上无人再敢看轻你。"
     translated: "Finally, it's your turn to take the spotlight. Your farewell is both moving and poignant, and no one in the world dares to look down on you anymore."
+    qcReviewedText: "Finally, it's your turn to take the spotlight. Your farewell is both moving and poignant, and no one in the world dares to look down on you anymore."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20047,武林传奇"
   splits:
   - split: 1
     text: "武林传奇"
     translated: "Legend of the Wulin"
+    qcReviewedText: "Legend of the Wulin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20047,耕阳读书斋将你的事迹编撰成书，发行于市。\\n唐门活侠的大名一朝传遍中原，无人不知、无人不晓。\\n你的名字，从今往后便是传说，受万人崇敬。"
   splits:
   - split: 1
     text: "耕阳读书斋将你的事迹编撰成书，发行于市。"
     translated: "Gengyang Reading Pavilion has compiled your deeds into a book and released it in the market."
+    qcReviewedText: "Gengyang Reading Pavilion has compiled your deeds into a book and released it in the market.\\nThe great name of the Tang Clan's living martial hero spread throughout Central China, known by all and spoken of by all.\\nYour name will henceforth be legend, revered by thousands."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "唐门活侠的大名一朝传遍中原，无人不知、无人不晓。"
@@ -2113,21 +3449,41 @@
   - split: 1
     text: "丧家之犬"
     translated: "A dog of a bereaved family"
+    qcReviewedText: "A dog of a bereaved family"
+    qcTranslated: "A beaten dog"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 50
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "Library/Desc/20048,你有一间房子可以遮风挡雨，但已没有故乡能够回去。"
   splits:
   - split: 1
     text: "你有一间房子可以遮风挡雨，但已没有故乡能够回去。"
     translated: "You have a house that can shelter you from wind and rain, but there is no hometown to return to."
+    qcReviewedText: "You have a house that can shelter you from wind and rain, but there is no hometown to return to."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20049,峨嵋弟子"
   splits:
   - split: 1
     text: "峨嵋弟子"
     translated: "Emei Disciple"
+    qcReviewedText: "Emei Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20049,你成为峨嵋弟子，享受和旁人一样的待遇与义务。\\n以武林一员的身份参与了几件武林大事，无功无过，老了退隐。"
   splits:
   - split: 1
     text: "你成为峨嵋弟子，享受和旁人一样的待遇与义务。"
     translated: "You become an Emei disciple and enjoy the same treatment and obligations as everyone else."
+    qcReviewedText: "You become an Emei disciple and enjoy the same treatment and obligations as everyone else.\\nAs a member of Wulin, they participated in several major events within the martial arts community, neither gaining fame nor falling into disgrace. With age, they retired."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "以武林一员的身份参与了几件武林大事，无功无过，老了退隐。"
@@ -2140,56 +3496,100 @@
   - split: 1
     text: "窝囊死"
     translated: "Utterly useless"
+    qcReviewedText: "Utterly useless"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20050,被这无情世道以乱拳加身，你的心比身体还要短寿，老早就死了。"
   splits:
   - split: 1
     text: "被这无情世道以乱拳加身，你的心比身体还要短寿，老早就死了。"
     translated: "In this ruthless world, being struck by chaotic fists, your heart has a shorter lifespan than your body; it has long since died."
+    qcReviewedText: "In this ruthless world, being struck by chaotic fists, your heart has a shorter lifespan than your body; it has long since died."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20051,苟且偷生"
   splits:
   - split: 1
     text: "苟且偷生"
     translated: "To live a life of compromise"
+    qcReviewedText: "To live a life of compromise"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20051,你的骨气打从骨头断掉的那一刻，就烟消云散了。"
   splits:
   - split: 1
     text: "你的骨气打从骨头断掉的那一刻，就烟消云散了。"
     translated: "Your spirit vanished the moment your bones were broken."
+    qcReviewedText: "Your spirit vanished the moment your bones were broken."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20052,划地为牢"
   splits:
   - split: 1
     text: "划地为牢"
     translated: "To draw a line and establish a boundary."
+    qcReviewedText: "To draw a line and establish a boundary."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20052,谁也没留你，你却不舍走远。终你一生，困守于她坟前，流泪忏悔，可她怎会答应？"
   splits:
   - split: 1
     text: "谁也没留你，你却不舍走远。终你一生，困守于她坟前，流泪忏悔，可她怎会答应？"
     translated: "No one has kept you, yet you are reluctant to walk away. Throughout your life, you remain trapped before her grave, shedding tears of remorse, but how could she ever respond?"
+    qcReviewedText: "No one has kept you, yet you are reluctant to walk away. Throughout your life, you remain trapped before her grave, shedding tears of remorse, but how could she ever respond?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/20053,与妳同行"
   splits:
   - split: 1
     text: "与妳同行"
     translated: "Walking with you"
+    qcReviewedText: "Walking with you"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/20053,无论几度轮回，都愿为她跋涉冥河，穿越地狱。"
   splits:
   - split: 1
     text: "无论几度轮回，都愿为她跋涉冥河，穿越地狱。"
     translated: "No matter how many times I reincarnate, I am willing to traverse the River of Oblivion and cross through hell for her."
+    qcReviewedText: "No matter how many times I reincarnate, I am willing to traverse the River of Oblivion and cross through hell for her."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/30000,命中有数"
   splits:
   - split: 1
     text: "命中有数"
     translated: "Hit rate is predictable"
+    qcReviewedText: "Hit rate is predictable"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30000,尽管未必如意，能够坦然走到这里，也很了不起。"
   splits:
   - split: 1
     text: "尽管未必如意，能够坦然走到这里，也很了不起。"
     translated: "Although it may not be perfect, being able to walk here calmly is quite remarkable."
+    qcReviewedText: "Although it may not be perfect, being able to walk here calmly is quite remarkable."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30000,开启二周目要素\\n上旬+1\\n命运+2"
   splits:
   - split: 1
     text: "开启二周目要素"
     translated: "Unlock second playthrough elements"
+    qcReviewedText: "Unlock second playthrough elements \\nEarly Month+1 \\nFate+2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "上旬"
@@ -2206,169 +3606,296 @@
   - split: 1
     text: "师门砥柱"
     translated: "Pillar of the Master's Sect"
+    qcReviewedText: "Pillar of the Master's Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30001,你从此刻脱胎换骨，像你从前望着大师兄，师弟妹们也信赖你。"
   splits:
   - split: 1
     text: "你从此刻脱胎换骨，像你从前望着大师兄，师弟妹们也信赖你。"
     translated: "From this moment on, you will be reborn, just as you once looked up to Big Senior Brother. Your junior brothers and sisters will also trust you."
+    qcReviewedText: "From this moment on, you will be reborn, just as you once looked up to Big Senior Brother. Your junior brothers and sisters will also trust you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/30002,烦人修仙"
   splits:
   - split: 1
     text: "烦人修仙"
     translated: "Annoying Cultivation"
+    qcReviewedText: "Annoying Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30002,你没学会仙术，倒是越来越会吹牛。"
   splits:
   - split: 1
     text: "你没学会仙术，倒是越来越会吹牛。"
     translated: "You haven't learned any immortal techniques, but you sure are getting better at boasting."
+    qcReviewedText: "You haven't learned any immortal techniques, but you sure are getting better at boasting."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30002,"
 - raw: "Library/Title/30003,懦夫救星"
   splits:
   - split: 1
     text: "懦夫救星"
     translated: "Savior of Cowards"
+    qcReviewedText: "Savior of Cowards"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30003,谁不想成为命运宠儿，出手掀翻天地，回家妻妾成群。但你还得活着，必须清醒。"
   splits:
   - split: 1
     text: "谁不想成为命运宠儿，出手掀翻天地，回家妻妾成群。但你还得活着，必须清醒。"
     translated: "Who doesn't want to be favored by fate, to turn the world upside down, and return home to a harem? But you still have to stay alive and remain clear‑headed."
+    qcReviewedText: "Who doesn't want to be favored by fate, to turn the world upside down, and return home to a harem? But you still have to stay alive and remain clear‑headed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30003,"
 - raw: "Library/Title/30004,人间道"
   splits:
   - split: 1
     text: "人间道"
     translated: "Human Path"
+    qcReviewedText: "Human Path"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30004,普天之下，唯有唐门敢与世俗成见为敌，所以温夫人将未来托付予你。"
   splits:
   - split: 1
     text: "普天之下，唯有唐门敢与世俗成见为敌，所以温夫人将未来托付予你。"
     translated: "Under heaven, only the Tang Clan dares to stand against worldly prejudices, which is why Lady Wen entrusts the future to you."
+    qcReviewedText: "Under heaven, only the Tang Clan dares to stand against worldly prejudices, which is why Lady Wen entrusts the future to you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30004,"
 - raw: "Library/Title/30005,自恋"
   splits:
   - split: 1
     text: "自恋"
     translated: "Narcissism"
+    qcReviewedText: "Narcissism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30005,你不是没有人爱的，起码你爱你自己，你表现的很好。"
   splits:
   - split: 1
     text: "你不是没有人爱的，起码你爱你自己，你表现的很好。"
     translated: "You are not unloved; at least you love yourself, and you are doing great."
+    qcReviewedText: "You are not unloved; at least you love yourself, and you are doing great."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30005,"
 - raw: "Library/Title/30006,一心一意"
   splits:
   - split: 1
     text: "一心一意"
     translated: "Single‑mindedly"
+    qcReviewedText: "Single‑mindedly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30006,你挨过需要借口的年纪，认定了心上人，就至死不渝。"
   splits:
   - split: 1
     text: "你挨过需要借口的年纪，认定了心上人，就至死不渝。"
     translated: "You have reached the age where excuses are no longer needed; once you have chosen your beloved, you remain steadfast until death."
+    qcReviewedText: "You have reached the age where excuses are no longer needed; once you have chosen your beloved, you remain steadfast until death."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30006,"
 - raw: "Library/Title/30007,野心勃勃"
   splits:
   - split: 1
     text: "野心勃勃"
     translated: "Ambitious"
+    qcReviewedText: "Ambitious"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30007,有梦想不是坏事，但人要务实。"
   splits:
   - split: 1
     text: "有梦想不是坏事，但人要务实。"
     translated: "Having dreams is not a bad thing, but one must be practical."
+    qcReviewedText: "Having dreams is not a bad thing, but one must be practical."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30007,"
 - raw: "Library/Title/30008,揍我"
   splits:
   - split: 1
     text: "揍我"
     translated: "Hit me"
+    qcReviewedText: "Hit me"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30008,武林盟主和千面人魔留在你身上的伤，就是你光荣的印记。"
   splits:
   - split: 1
     text: "武林盟主和千面人魔留在你身上的伤，就是你光荣的印记。"
     translated: "The wound left by the Leader of the Wulin Alliance and the Thousand Faced Demon is a mark of your honor."
+    qcReviewedText: "The wound left by the Leader of the Wulin Alliance and the Thousand Faced Demon is a mark of your honor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30008,"
 - raw: "Library/Title/30009,崭露头角"
   splits:
   - split: 1
     text: "崭露头角"
     translated: "Emerge as a rising star"
+    qcReviewedText: "Emerge as a rising star"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30009,你在崆峒大试大出风头，要不是脸，说不定老婆都有了。"
   splits:
   - split: 1
     text: "你在崆峒大试大出风头，要不是脸，说不定老婆都有了。"
     translated: "You made quite a splash at Kongtong; if it weren't for your face, you might have even found a partner by now."
+    qcReviewedText: "You made quite a splash at Kongtong; if it weren't for your face, you might have even found a partner by now."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30009,"
 - raw: "Library/Title/30010,这是我家"
   splits:
   - split: 1
     text: "这是我家"
     translated: "This is my home"
+    qcReviewedText: "This is my home"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30010,我哪里也不去。"
   splits:
   - split: 1
     text: "我哪里也不去。"
     translated: "I am not going anywhere"
+    qcReviewedText: "I am not going anywhere"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30010,"
 - raw: "Library/Title/30011,分身"
   splits:
   - split: 1
     text: "分身"
     translated: "Doppelganger"
+    qcReviewedText: "Doppelganger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30011,你曾经那么受欢迎过，应该死而无憾了吧？"
   splits:
   - split: 1
     text: "你曾经那么受欢迎过，应该死而无憾了吧？"
     translated: "You were once so popular; you should have no regrets in death, right?"
+    qcReviewedText: "You were once so popular; you should have no regrets in death, right?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30011,"
 - raw: "Library/Title/30012,雪山派大弟子"
   splits:
   - split: 1
     text: "雪山派大弟子"
     translated: "Eldest Disciple of the Snow Mountain Sect"
+    qcReviewedText: "Eldest Disciple of the Snow Mountain Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30012,兼，掌门伴侣。"
   splits:
   - split: 1
     text: "兼，掌门伴侣。"
     translated: "The companion of the sect leader"
+    qcReviewedText: "The companion of the sect leader"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30012,"
 - raw: "Library/Title/30013,唐门女婿"
   splits:
   - split: 1
     text: "唐门女婿"
     translated: "Son‑in‑law of the Tang Clan"
+    qcReviewedText: "Son‑in‑law of the Tang Clan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30013,千防万防，家贼难防，想不到是你！"
   splits:
   - split: 1
     text: "千防万防，家贼难防，想不到是你！"
     translated: "With all the precautions in place, it's hard to guard against the treachery from within the family. I never expected it would be you!"
+    qcReviewedText: "With all the precautions in place, it's hard to guard against the treachery from within the family. I never expected it would be you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30013,"
 - raw: "Library/Title/30014,忘忧侠侣"
   splits:
   - split: 1
     text: "忘忧侠侣"
     translated: "Carefree Heroes"
+    qcReviewedText: "Carefree Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30014,走遍四方，行侠仗义，她爱煞了你的英雄气概。"
   splits:
   - split: 1
     text: "走遍四方，行侠仗义，她爱煞了你的英雄气概。"
     translated: "Traveling far and wide, acting with chivalry, they have fallen in love with your heroic spirit."
+    qcReviewedText: "Traveling far and wide, acting with chivalry, they have fallen in love with your heroic spirit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30014,"
 - raw: "Library/Title/30015,最后的暗器"
   splits:
   - split: 1
     text: "最后的暗器"
     translated: "Final hidden weapon"
+    qcReviewedText: "Final hidden weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30015,不可防御，无法回避，直撼心灵。"
   splits:
   - split: 1
     text: "不可防御，无法回避，直撼心灵。"
     translated: "Unpreventable, unavoidable, it strikes at the heart and soul."
+    qcReviewedText: "Unpreventable, unavoidable, it strikes at the heart and soul."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30015,中旬+1"
   splits:
   - split: 1
     text: "中旬"
     translated: "Mid‑+1"
+    qcReviewedText: "Mid‑+1+1"
+    qcTranslated: "Mid‑+1"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   templates:
   - split: 1
     template: "{0}+1"
@@ -2377,31 +3904,59 @@
   - split: 1
     text: "武林传奇"
     translated: "Legend of the Wulin"
+    qcReviewedText: "Legend of the Wulin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30016,你成遂了儿时梦想，证明天弃如你，努力不懈也能有出息。"
   splits:
   - split: 1
     text: "你成遂了儿时梦想，证明天弃如你，努力不懈也能有出息。"
     translated: "You have fulfilled your childhood dream, proving that even if the heavens abandon you, perseverance and hard work can lead to success."
+    qcReviewedText: "You have fulfilled your childhood dream, proving that even if the heavens abandon you, perseverance and hard work can lead to success."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30016,开启命运收束之力"
   splits:
   - split: 1
     text: "开启命运收束之力"
     translated: "Unleash the power of fate's convergence"
+    qcReviewedText: "Unleash the power of fate's convergence"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Title/30017,飞侠归来"
   splits:
   - split: 1
     text: "飞侠归来"
     translated: "Flying Hero Returns"
+    qcReviewedText: "Flying Hero Returns"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30017,他固有他的机缘，但若无你，飞侠归来便遥遥无期。"
   splits:
   - split: 1
     text: "他固有他的机缘，但若无你，飞侠归来便遥遥无期。"
     translated: "They have their own opportunities, but without you, the return of the Flying Hero will be indefinitely delayed."
+    qcReviewedText: "They have their own opportunities, but without you, the return of the Flying Hero will be indefinitely delayed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30017,下旬+1"
   splits:
   - split: 1
     text: "下旬"
     translated: "Late +1"
+    qcReviewedText: "Late +1+1"
+    qcTranslated: "Late +1"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   templates:
   - split: 1
     template: "{0}+1"
@@ -2410,27 +3965,50 @@
   - split: 1
     text: "魔王的爪牙"
     translated: "Minions of the Demon King"
+    qcReviewedText: "Minions of the Demon King"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/30018,你是她的心腹，她是你心肝。"
   splits:
   - split: 1
     text: "你是她的心腹，她是你心肝。"
     translated: "You are her trusted confidant, and she is your heart and soul."
+    qcReviewedText: "You are her trusted confidant, and she is your heart and soul."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Award/30018,"
 - raw: "Library/Title/30019,恶人自有恶人磨"
   splits:
   - split: 1
     text: "恶人自有恶人磨"
     translated: "Evil people will always encounter evil people"
+    qcReviewedText: "Evil people will always encounter evil people"
+    qcTranslated: "Wickedness is punished by wickedness"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "Library/Desc/30019,区区晁和，无耻无脑，哪里恶得过她？"
   splits:
   - split: 1
     text: "区区晁和，无耻无脑，哪里恶得过她？"
     translated: "A mere Chao He, shameless and brainless, how could they be more wicked than her?"
+    qcReviewedText: "A mere Chao He, shameless and brainless, how could they be more wicked than her?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Library/Desc/40000,你和小师妹结为夫妻，外出旅游。\\n都说唐门千金冷若冰霜，不苟言笑，\\n可是游人见她在你身畔，总是笑口常开。"
   splits:
   - split: 1
     text: "你和小师妹结为夫妻，外出旅游。"
     translated: "You married your Little Junior Sister and went on a trip together."
+    qcReviewedText: "You married your Little Junior Sister and went on a trip together.\\nThey all say that the Tang Clan's heiress is as cold as ice, seldom smiling.\\nBut whenever the visitors see them beside you, they always have a smile on their face."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "都说唐门千金冷若冰霜，不苟言笑，"
@@ -2447,6 +4025,13 @@
   - split: 1
     text: "你和龙湘结为侠侣，行走江湖，任侠四方。"
     translated: "You and Long Xiang became a pair of Jianghu warriors, traveling together and spreading chivalry far and wide."
+    qcReviewedText: "You and Long Xiang became a pair of Jianghu warriors, traveling together and spreading chivalry far and wide.\\nThe husband and wife often practice and compete with each other; sometimes they win, sometimes they lose.\\nThe loser has to prepare dinner and make sure there are chicken legs in every meal.\\nWhether they win or lose, they remain as close as glue to lacquer."
+    qcTranslated: "You and Long Xiang became a pair of Jianghu warriors, traveling together and spreading chivalry far and wide.\\nThe husband and wife often practice and compete with each other; sometimes you win, sometimes she wins.\\nThe loser has to prepare dinner and make sure there are chicken legs in every meal.\\nWhether they win or lose, they remain inseparable."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "夫妻俩经常切磋，有时你胜她，有时她胜你。"
@@ -2467,6 +4052,15 @@
   - split: 1
     text: "你和夏侯兰回到大雪山，重建雪山派。"
     translated: "You and Xiahou Lan returned to the Great Snow Mountain to rebuild the Snow Mountain Sect."
+    qcReviewedText: "You and Xiahou Lan returned to the Great Snow Mountain to rebuild the Snow Mountain Sect.\\nNot long after Xiahou Lan gave birth to a son, they suddenly became a loving mother.\\nTheir former ruthless demeanor is gone without a trace.\\nI'll always follow your lead \\nSo the following year, they had another daughter, who, like her siblings, took after their mother."
+    qcTranslated: "You and Xiahou Lan returned to the Great Snow Mountain to rebuild the Snow Mountain Sect.\\nNot long after Xiahou Lan gave birth to a son, she suddenly became a loving mother,\\nher former ruthless demeanor gone without a trace.\\nShe is also completely obedient to you.\\nSo the following year, she had another daughter, and both children took after their mother."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "不久夏侯兰诞下一子，忽然变成慈母，"
@@ -2491,6 +4085,10 @@
   - split: 1
     text: "云裳与你执手游江南，乘舟听雨眠。"
     translated: "Wear cloud‑like robes and wander hand in hand through the Jiangnan countryside; sail boats and sleep while listening to the rain."
+    qcReviewedText: "Wear cloud‑like robes and wander hand in hand through the Jiangnan countryside; sail boats and sleep while listening to the rain.\\nWith you indulging and pampering her, she acts without fear or restraint.\\nWith a life full of misdeeds until the very end, they have no regrets and feel complete.\\nIn this era of strict social etiquette, without parental permission,\\nThey are together not by arrangement through matchmakers, but because they hit it off."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "有你纵着宠着，她有恃无恐，"

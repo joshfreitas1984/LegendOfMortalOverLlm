@@ -3,11 +3,19 @@
   - split: 1
     text: "启程"
     translated: "Departure"
+    qcReviewedText: "Departure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Start/StartActGame,启程(活动)"
   splits:
   - split: 1
     text: "启程"
     translated: "Departure"
+    qcReviewedText: "Departure(Event)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "活动"
@@ -20,136 +28,247 @@
   - split: 1
     text: "环境设定"
     translated: "Environment settings"
+    qcReviewedText: "Environment settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Start/Library,讲经堂"
   splits:
   - split: 1
     text: "讲经堂"
     translated: "Scripture Hall"
+    qcReviewedText: "Scripture Hall"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Start/Exit,归隐山林"
   splits:
   - split: 1
     text: "归隐山林"
     translated: "Retiring to the mountains"
+    qcReviewedText: "Retiring to the mountains"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/Continue,继续游戏"
   splits:
   - split: 1
     text: "继续游戏"
     translated: "Continue the game"
+    qcReviewedText: "Continue the game"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/SaveGame,储存游戏"
   splits:
   - split: 1
     text: "储存游戏"
     translated: "Save Game"
+    qcReviewedText: "Save Game"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/LoadGame,读取游戏"
   splits:
   - split: 1
     text: "读取游戏"
     translated: "Read the game instructions"
+    qcReviewedText: "Read the game instructions"
+    qcTranslated: "Load the game"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "System/Menu/Setting,环境设定"
   splits:
   - split: 1
     text: "环境设定"
     translated: "Environment settings"
+    qcReviewedText: "Environment settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/Title,回到标题"
   splits:
   - split: 1
     text: "回到标题"
     translated: "Go back to the title"
+    qcReviewedText: "Go back to the title"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/Giveup,投降"
   splits:
   - split: 1
     text: "投降"
     translated: "Surrender"
+    qcReviewedText: "Surrender"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/Submit,确定"
   splits:
   - split: 1
     text: "确定"
     translated: "Confirm"
+    qcReviewedText: "Confirm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/Cancel,取消"
   splits:
   - split: 1
     text: "取消"
     translated: "Cancel"
+    qcReviewedText: "Cancel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/KeyboardSetting,键盘设定"
   splits:
   - split: 1
     text: "键盘设定"
     translated: "Keyboard settings"
+    qcReviewedText: "Keyboard settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/LibraryEnd,汗青书"
   splits:
   - split: 1
     text: "汗青书"
     translated: "Records of the Bamboo Tablets"
+    qcReviewedText: "Records of the Bamboo Tablets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/LibraryDead,生死簿"
   splits:
   - split: 1
     text: "生死簿"
     translated: "Book of Life and Death"
+    qcReviewedText: "Book of Life and Death"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/LibraryAchievement,风云史"
   splits:
   - split: 1
     text: "风云史"
     translated: "Chronicles of Wind and Cloud"
+    qcReviewedText: "Chronicles of Wind and Cloud"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/LibraryLegend,活侠传"
   splits:
   - split: 1
     text: "活侠传"
     translated: "Legend of the Living Hero"
+    qcReviewedText: "Legend of the Living Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/AutoSave,自动存档"
   splits:
   - split: 1
     text: "自动存档"
     translated: "Auto‑save"
+    qcReviewedText: "Auto‑save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/ManualSave,手动存档"
   splits:
   - split: 1
     text: "手动存档"
     translated: "Manual save"
+    qcReviewedText: "Manual save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/CommunityContent,玩家社群"
   splits:
   - split: 1
     text: "玩家社群"
     translated: "Player Community"
+    qcReviewedText: "Player Community"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/DataBackup,数据备份"
   splits:
   - split: 1
     text: "数据备份"
     translated: "Data backup"
+    qcReviewedText: "Data backup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Menu/RecentSave,最近存档"
   splits:
   - split: 1
     text: "最近存档"
     translated: "Recent save file"
+    qcReviewedText: "Recent save file"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/AutoSaveText,剧情自动存档"
   splits:
   - split: 1
     text: "剧情自动存档"
     translated: "Game saves automatically"
+    qcReviewedText: "Game saves automatically"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/FreeAutoSaveText,养成自动存档"
   splits:
   - split: 1
     text: "养成自动存档"
     translated: "Set Automatic Save"
+    qcReviewedText: "Set Automatic Save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/EnableSaveText,手动存档解锁"
   splits:
   - split: 1
     text: "手动存档解锁"
     translated: "Manual save unlocked"
+    qcReviewedText: "Manual save unlocked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/DisableSaveText,手动存档上锁"
   splits:
   - split: 1
     text: "手动存档上锁"
     translated: "Manual save locked"
+    qcReviewedText: "Manual save locked"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Loading,读取中..."
   splits:
   - split: 1
     text: "读取中..."
     translated: "Loading..."
+    qcReviewedText: "Loading..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/CombatStartText,战‧你‧娘‧亲"
   splits:
   - split: 1
     text: "战"
     translated: "Fight!"
+    qcReviewedText: "Fight!‧You‧Mother‧Dear"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你"
@@ -170,6 +289,14 @@
   - split: 1
     text: "选单"
     translated: "Menu"
+    qcReviewedText: "Menu - [ESC]\\nStatus - [S]\\nRecalling - [L]\\nAutomatic - [A]\\nHurry up and bring it- [Left Ctrl]"
+    qcTranslated: "Menu ‑ [ESC]\\nStatus ‑ [S]\\nRecall ‑ [L]\\nAuto ‑ [A]\\nFast Forward ‑ [Left Ctrl]"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "状态"
@@ -198,6 +325,10 @@
   - split: 1
     text: "结局"
     translated: "Ending"
+    qcReviewedText: "Ending {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -206,16 +337,28 @@
   - split: 1
     text: "已达成"
     translated: "Achieved"
+    qcReviewedText: "Achieved"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NotAchieveText,未达成"
   splits:
   - split: 1
     text: "未达成"
     translated: "Unfulfilled"
+    qcReviewedText: "Unfulfilled"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/CountText,{0} 次"
   splits:
   - split: 1
     text: "次"
     translated: "Next"
+    qcReviewedText: "{0} Next"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦0⟧ {0}"
@@ -224,21 +367,40 @@
   - split: 1
     text: "记载活侠传故事"
     translated: "The Story of the Heroic Wanderer"
+    qcReviewedText: "The Story of the Heroic Wanderer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Read,阅读"
   splits:
   - split: 1
     text: "阅读"
     translated: "Reading"
+    qcReviewedText: "Reading"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Export,导出"
   splits:
   - split: 1
     text: "导出"
     translated: "Export"
+    qcReviewedText: "Export"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/ExportSuccess,导出成功：{0}"
   splits:
   - split: 1
     text: "导出成功"
     translated: "Export successful"
+    qcReviewedText: "Export successful：{0}"
+    qcTranslated: "Export successful: {0}"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -247,6 +409,10 @@
   - split: 1
     text: "达成风云史"
     translated: "Achieve the Chronicles of the Storm and Legend"
+    qcReviewedText: "Achieve the Chronicles of the Storm and Legend《{0}》"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}《⟦0⟧》"
@@ -255,296 +421,535 @@
   - split: 1
     text: "剧情"
     translated: "Plot"
+    qcReviewedText: "Plot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/AutoSaveFree,养成"
   splits:
   - split: 1
     text: "养成"
     translated: "Training"
+    qcReviewedText: "Training"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/AutoSaveBattle,战斗"
   splits:
   - split: 1
     text: "战斗"
     translated: "Battle"
+    qcReviewedText: "Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Skip,快带"
   splits:
   - split: 1
     text: "快带"
     translated: "Hurry up and bring it"
+    qcReviewedText: "Hurry up and bring it"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Operate,操作"
   splits:
   - split: 1
     text: "操作"
     translated: "Operation"
+    qcReviewedText: "Operation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BackupSuccess,数据备份完成"
   splits:
   - split: 1
     text: "数据备份完成"
     translated: "Data backup completed"
+    qcReviewedText: "Data backup completed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Setting,设定"
   splits:
   - split: 1
     text: "设定"
     translated: "Setting"
+    qcReviewedText: "Setting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Status,状态"
   splits:
   - split: 1
     text: "状态"
     translated: "Status"
+    qcReviewedText: "Status"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Alchemy,炼丹"
   splits:
   - split: 1
     text: "炼丹"
     translated: "Alchemy"
+    qcReviewedText: "Alchemy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Alchemy_01,炼"
   splits:
   - split: 1
     text: "炼"
     translated: "Refine"
+    qcReviewedText: "Refine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Alchemy_02,丹"
   splits:
   - split: 1
     text: "丹"
     translated: "Dan"
+    qcReviewedText: "Dan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Forge,锻造"
   splits:
   - split: 1
     text: "锻造"
     translated: "Forging"
+    qcReviewedText: "Forging"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Forge_01,锻"
   splits:
   - split: 1
     text: "锻"
     translated: "Forge"
+    qcReviewedText: "Forge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Forge_02,造"
   splits:
   - split: 1
     text: "造"
     translated: "Create"
+    qcReviewedText: "Create"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Develop,开发"
   splits:
   - split: 1
     text: "开发"
     translated: "Development"
+    qcReviewedText: "Development"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Develop_01,开"
   splits:
   - split: 1
     text: "开"
     translated: "Open"
+    qcReviewedText: "Open"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Develop_02,发"
   splits:
   - split: 1
     text: "发"
     translated: "Release"
+    qcReviewedText: "Release"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Training,修练"
   splits:
   - split: 1
     text: "修练"
     translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Training_01,修"
   splits:
   - split: 1
     text: "修"
     translated: "Xiu"
+    qcReviewedText: "Xiu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Training_02,练"
   splits:
   - split: 1
     text: "练"
     translated: "Practice"
+    qcReviewedText: "Practice"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Property,属性"
   splits:
   - split: 1
     text: "属性"
     translated: "Attributes"
+    qcReviewedText: "Attributes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Talent,技能"
   splits:
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Book,书籍"
   splits:
   - split: 1
     text: "书籍"
     translated: "Book"
+    qcReviewedText: "Book"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Misc,杂物"
   splits:
   - split: 1
     text: "杂物"
     translated: "Miscellaneous Items"
+    qcReviewedText: "Miscellaneous Items"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Special,宝物"
   splits:
   - split: 1
     text: "宝物"
     translated: "Treasure"
+    qcReviewedText: "Treasure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Bag,行囊"
   splits:
   - split: 1
     text: "行囊"
     translated: "Travel bag"
+    qcReviewedText: "Travel bag"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Equip,装备"
   splits:
   - split: 1
     text: "装备"
     translated: "Equipment"
+    qcReviewedText: "Equipment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Weapon,暗器"
   splits:
   - split: 1
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Home,门派"
   splits:
   - split: 1
     text: "门派"
     translated: "Clan"
+    qcReviewedText: "Clan"
+    qcTranslated: "Sect"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "System/Title/Legend,传奇"
   splits:
   - split: 1
     text: "传奇"
     translated: "Legend"
+    qcReviewedText: "Legend"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Social,人际"
   splits:
   - split: 1
     text: "人际"
     translated: "Interpersonal relations"
+    qcReviewedText: "Interpersonal relations"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Buy,买入"
   splits:
   - split: 1
     text: "买入"
     translated: "Buy"
+    qcReviewedText: "Buy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Buy_01,买"
   splits:
   - split: 1
     text: "买"
     translated: "Buy"
+    qcReviewedText: "Buy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Sell,卖出"
   splits:
   - split: 1
     text: "卖出"
     translated: "Sell out"
+    qcReviewedText: "Sell out"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Sell_01,卖"
   splits:
   - split: 1
     text: "卖"
     translated: "Sell"
+    qcReviewedText: "Sell"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Sword,刀剑"
   splits:
   - split: 1
     text: "刀剑"
     translated: "Blade and sword"
+    qcReviewedText: "Blade and sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Fist,拳掌"
   splits:
   - split: 1
     text: "拳掌"
     translated: "Fist and palm"
+    qcReviewedText: "Fist and palm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Internal,内功"
   splits:
   - split: 1
     text: "内功"
     translated: "Neigong"
+    qcReviewedText: "Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Etc,其他"
   splits:
   - split: 1
     text: "其他"
     translated: "Others"
+    qcReviewedText: "Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Quit,离开"
   splits:
   - split: 1
     text: "离开"
     translated: "Leave"
+    qcReviewedText: "Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/AlreadyDevelop,已开发"
   splits:
   - split: 1
     text: "已开发"
     translated: "Developed"
+    qcReviewedText: "Developed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/FateBonus,继承"
   splits:
   - split: 1
     text: "继承"
     translated: "Inheritance"
+    qcReviewedText: "Inheritance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Title/Reset,复原"
   splits:
   - split: 1
     text: "复原"
     translated: "Recovery"
+    qcReviewedText: "Recovery"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Melee,武器"
   splits:
   - split: 1
     text: "武器"
     translated: "Weapons"
+    qcReviewedText: "Weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Equip,防具"
   splits:
   - split: 1
     text: "防具"
     translated: "Armor"
+    qcReviewedText: "Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Dart,平射"
   splits:
   - split: 1
     text: "平射"
     translated: "Direct fire"
+    qcReviewedText: "Direct fire"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Projectile,抛射"
   splits:
   - split: 1
     text: "抛射"
     translated: "Projection"
+    qcReviewedText: "Projection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Trap,陷阱"
   splits:
   - split: 1
     text: "陷阱"
     translated: "Trap"
+    qcReviewedText: "Trap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Poison,毒药"
   splits:
   - split: 1
     text: "毒药"
     translated: "Poison"
+    qcReviewedText: "Poison"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Upgrade/Medi,灵丹"
   splits:
   - split: 1
     text: "灵丹"
     translated: "Elixir"
+    qcReviewedText: "Elixir"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Status,状态"
   splits:
   - split: 1
     text: "状态"
     translated: "Status"
+    qcReviewedText: "Status"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/System,系统"
   splits:
   - split: 1
     text: "系统"
     translated: "System"
+    qcReviewedText: "System"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Save,储存"
   splits:
   - split: 1
     text: "储存"
     translated: "Save"
+    qcReviewedText: "Save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/SaveText_01,储"
   splits:
   - split: 1
     text: "储"
     translated: "Store"
+    qcReviewedText: "Store"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/SaveText_02,存"
   splits:
   - split: 1
     text: "存"
     translated: "Save"
+    qcReviewedText: "Save"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/DeleteText_01,删"
   splits:
   - split: 1
     text: "删"
     translated: "Delete"
+    qcReviewedText: "Delete"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/DeleteText_02,除"
   splits:
   - split: 1
     text: "除"
     translated: "Except"
+    qcReviewedText: "Except"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/DeleteText,删除"
   splits:
   - split: 1
     text: "删除"
     translated: "Delete"
+    qcReviewedText: "Delete"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/SaveSlotText,传奇{0}"
   splits:
   - split: 1
     text: "传奇"
     translated: "Legend"
+    qcReviewedText: "Legend {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -553,31 +958,58 @@
   - split: 1
     text: "无资料"
     translated: "No data available"
+    qcReviewedText: "No data available"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoStory,无记载"
   splits:
   - split: 1
     text: "无记载"
     translated: "Not recorded"
+    qcReviewedText: "Not recorded"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NA,无"
   splits:
   - split: 1
     text: "无"
     translated: "None"
+    qcReviewedText: "None"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Infinity,无限"
   splits:
   - split: 1
     text: "无限"
     translated: "Infinite"
+    qcReviewedText: "Infinite"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/MaxLevel,最高等级"
   splits:
   - split: 1
     text: "最高等级"
     translated: "Highest rank"
+    qcReviewedText: "Highest rank"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/GameTimeText,第{0}年{1}{2}"
   splits:
   - split: 1
     text: "第"
     translated: "Chapter 1"
+    qcReviewedText: "Chapter 1 {0} Year {1} {2}"
+    qcTranslated: "Chapter {0} Year {1} {2}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 1
     subIndex: 1
     text: "年"
@@ -590,61 +1022,109 @@
   - split: 1
     text: "自动"
     translated: "Automatic"
+    qcReviewedText: "Automatic"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Log,回想"
   splits:
   - split: 1
     text: "回想"
     translated: "Recalling"
+    qcReviewedText: "Recalling"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Develop,开发项目"
   splits:
   - split: 1
     text: "开发项目"
     translated: "Developing projects"
+    qcReviewedText: "Developing projects"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Accountant,账房"
   splits:
   - split: 1
     text: "账房"
     translated: "Bookkeeper"
+    qcReviewedText: "Bookkeeper"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Money,钱"
   splits:
   - split: 1
     text: "钱"
     translated: "Money"
+    qcReviewedText: "Money"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Money2,两"
   splits:
   - split: 1
     text: "两"
     translated: "Taels"
+    qcReviewedText: "Taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Level,等级"
   splits:
   - split: 1
     text: "等级"
     translated: "Rank"
+    qcReviewedText: "Rank"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Combat,决斗"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "Duel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Battle,战役"
   splits:
   - split: 1
     text: "战役"
     translated: "Battle"
+    qcReviewedText: "Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NotDevelop,需求条件不足"
   splits:
   - split: 1
     text: "需求条件不足"
     translated: "Insufficient conditions provided"
+    qcReviewedText: "Insufficient conditions provided"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/DevelopMouse,长按以开发"
   splits:
   - split: 1
     text: "长按以开发"
     translated: "Long press to develop"
+    qcReviewedText: "Long press to develop"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/ConfirmSave,确定覆盖目前的纪录吗?"
   splits:
   - split: 1
     text: "确定覆盖目前的纪录吗"
     translated: "Are you sure you want to cover the current record?"
+    qcReviewedText: "Are you sure you want to cover the current record??"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}?"
@@ -653,11 +1133,19 @@
   - split: 1
     text: "确定删除选择的纪录吗？"
     translated: "Are you sure you want to delete the selected records?"
+    qcReviewedText: "Are you sure you want to delete the selected records?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/CostAction,消耗行动 {0}"
   splits:
   - split: 1
     text: "消耗行动"
     translated: "Spend an action"
+    qcReviewedText: "Spend an action {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0} ⟦0⟧"
@@ -666,81 +1154,148 @@
   - split: 1
     text: "此页面有已分配的点数尚未确定"
     translated: "This page has assigned points that have not yet been confirmed."
+    qcReviewedText: "This page has assigned points that have not yet been confirmed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/CharacterInfo,列传"
   splits:
   - split: 1
     text: "列传"
     translated: "Biographies"
+    qcReviewedText: "Biographies"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Shop,商店"
   splits:
   - split: 1
     text: "商店"
     translated: "Store"
+    qcReviewedText: "Store"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoSellItem,没有任何的杂物。"
   splits:
   - split: 1
     text: "没有任何的杂物。"
     translated: "There was nothing but purity"
+    qcReviewedText: "There was nothing but purity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoSkills,没有任何的技能。"
   splits:
   - split: 1
     text: "没有任何的技能。"
     translated: "No skills at all"
+    qcReviewedText: "No skills at all"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoItems,没有任何的物品。"
   splits:
   - split: 1
     text: "没有任何的物品。"
     translated: "There are no items at all"
+    qcReviewedText: "There are no items at all"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoMartialBook,没有任何的秘笈。"
   splits:
   - split: 1
     text: "没有任何的秘笈。"
     translated: "There are no secret techniques"
+    qcReviewedText: "There are no secret techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoMoneyDialog,师弟…你没有这么多钱吧？"
   splits:
   - split: 1
     text: "师弟…你没有这么多钱吧？"
     translated: "Disciple... do you really have that much money?"
+    qcReviewedText: "Disciple... do you really have that much money?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BuyDialog,买得好！"
   splits:
   - split: 1
     text: "买得好！"
     translated: "Bought well!"
+    qcReviewedText: "Bought well!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/TotalAmount,总额"
   splits:
   - split: 1
     text: "总额"
     translated: "Total amount"
+    qcReviewedText: "Total amount"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Enable,启动"
   splits:
   - split: 1
     text: "启动"
     translated: "Activate"
+    qcReviewedText: "Activate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Revolution,逆天"
   splits:
   - split: 1
     text: "逆天"
     translated: "Defy Heaven"
+    qcReviewedText: "Defy Heaven"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/DiceRange,收束"
   splits:
   - split: 1
     text: "收束"
     translated: "Concentrate"
+    qcReviewedText: "Concentrate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Continue,继续"
   splits:
   - split: 1
     text: "继续"
     translated: "Continue"
+    qcReviewedText: "Continue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/YourChoice,你的抉择……"
   splits:
   - split: 1
     text: "你的抉择……"
     translated: "Your choice......"
+    qcReviewedText: "Your choice......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleSkill,–战术支援–"
   splits:
   - split: 1
     text: "战术支援"
     translated: "‑Tactical Support‑"
+    qcReviewedText: "–‑Tactical Support‑–"
+    qcTranslated: "–Tactical Support–"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "–{0}–"
@@ -749,66 +1304,118 @@
   - split: 1
     text: "我"
     translated: "I"
+    qcReviewedText: "I"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleEnemy,敌"
   splits:
   - split: 1
     text: "敌"
     translated: "Enemy"
+    qcReviewedText: "Enemy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleSkillSetting,技能设置"
   splits:
   - split: 1
     text: "技能设置"
     translated: "Skill settings"
+    qcReviewedText: "Skill settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleStartText_01,出"
   splits:
   - split: 1
     text: "出"
     translated: "Exit"
+    qcReviewedText: "Exit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleStartText_02,征"
   splits:
   - split: 1
     text: "征"
     translated: "Campaign"
+    qcReviewedText: "Campaign"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleStartText,出征"
   splits:
   - split: 1
     text: "出征"
     translated: "Departure for battle"
+    qcReviewedText: "Departure for battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleHeader,决战"
   splits:
   - split: 1
     text: "决战"
     translated: "Final Clash"
+    qcReviewedText: "Final Clash"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleVictory,胜"
   splits:
   - split: 1
     text: "胜"
     translated: "Victory"
+    qcReviewedText: "Victory"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleLose,败"
   splits:
   - split: 1
     text: "败"
     translated: "Defeat"
+    qcReviewedText: "Defeat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleVictoryText_01,大获全胜"
   splits:
   - split: 1
     text: "大获全胜"
     translated: "Won decisively"
+    qcReviewedText: "Won decisively"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleLoseText_01,一败涂地"
   splits:
   - split: 1
     text: "一败涂地"
     translated: "Utter defeat"
+    qcReviewedText: "Utter defeat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleTimeoutText_01,时间结束"
   splits:
   - split: 1
     text: "时间结束"
     translated: "Time's up"
+    qcReviewedText: "Time's up"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleGetMoney,获得 {0}钱"
   splits:
   - split: 1
     text: "获得"
     translated: "Obtain"
+    qcReviewedText: "Obtain {0} Money"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "钱"
@@ -821,16 +1428,28 @@
   - split: 1
     text: "没朋友"
     translated: "No friends"
+    qcReviewedText: "No friends"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleInfoHeader,操作"
   splits:
   - split: 1
     text: "操作"
     translated: "Operation"
+    qcReviewedText: "Operation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleInfoText_01,选单 - [ESC]\\n移动 - [箭头键]\\n翻滚 - [空格键]"
   splits:
   - split: 1
     text: "选单"
     translated: "Menu"
+    qcReviewedText: "Menu - [ESC]\\nMove - [Arrow keys]\\nRoll away - [Space bar]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "移动"
@@ -855,6 +1474,10 @@
   - split: 1
     text: "近战"
     translated: "Close combat"
+    qcReviewedText: "Close combat - [Z]\\nDirect fire - [X]\\nProjection - [Long press X]\\nVerbal Attack - [C]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "平射"
@@ -879,6 +1502,10 @@
   - split: 1
     text: "技能1"
     translated: "Skill 1"
+    qcReviewedText: "Skill 1 - [Q]\\nSkill 2 - [W]\\nSkill 3 - [E]\\nSkill 4 - [R]"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "技能2"
@@ -899,16 +1526,31 @@
   - split: 1
     text: "—暂停—"
     translated: "‑Pause‑"
+    qcReviewedText: "‑Pause‑"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/BattleTime,时间"
   splits:
   - split: 1
     text: "时间"
     translated: "Time"
+    qcReviewedText: "Time"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Header/Lover,心系："
   splits:
   - split: 1
     text: "心系"
     translated: "Heartbound:"
+    qcReviewedText: "Heartbound:："
+    qcTranslated: "Heartbound:"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -917,6 +1559,13 @@
   - split: 1
     text: "心相"
     translated: "Heart Connection"
+    qcReviewedText: "Heart Connection："
+    qcTranslated: "Heart Aspect:"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -925,6 +1574,13 @@
   - split: 1
     text: "阴阳"
     translated: "Yin Yang:"
+    qcReviewedText: "Yin Yang:："
+    qcTranslated: "Yin Yang:"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -933,6 +1589,13 @@
   - split: 1
     text: "命运"
     translated: "Destiny:"
+    qcReviewedText: "Destiny:："
+    qcTranslated: "Destiny:"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -941,6 +1604,13 @@
   - split: 1
     text: "修练条件"
     translated: "Training Conditions:"
+    qcReviewedText: "Training Conditions:："
+    qcTranslated: "Training Conditions:"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -949,11 +1619,22 @@
   - split: 1
     text: "以下条件其一达成"
     translated: "One of the following conditions is met"
+    qcReviewedText: "One of the following conditions is met"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Header/MaxCost,最大消费："
   splits:
   - split: 1
     text: "最大消费"
     translated: "Maximum consumption:"
+    qcReviewedText: "Maximum consumption:："
+    qcTranslated: "Maximum consumption:"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -962,6 +1643,13 @@
   - split: 1
     text: "花费银两"
     translated: "Spending silver dollars:"
+    qcReviewedText: "Spending silver dollars:："
+    qcTranslated: "Silver spent:"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}："
@@ -970,6 +1658,13 @@
   - split: 1
     text: "基础骰子下限"
     translated: "Basic dice minimum"
+    qcReviewedText: "[Basic dice minimum：{0} Limit：{1}]"
+    qcTranslated: "[Basic dice minimum: {0} maximum: {1}]"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "上限"
@@ -982,156 +1677,283 @@
   - split: 1
     text: "零"
     translated: "Zero"
+    qcReviewedText: "Zero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_1,一"
   splits:
   - split: 1
     text: "一"
     translated: "One"
+    qcReviewedText: "One"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_2,二"
   splits:
   - split: 1
     text: "二"
     translated: "Two"
+    qcReviewedText: "Two"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_3,三"
   splits:
   - split: 1
     text: "三"
     translated: "Three"
+    qcReviewedText: "Three"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_4,四"
   splits:
   - split: 1
     text: "四"
     translated: "Four"
+    qcReviewedText: "Four"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_5,五"
   splits:
   - split: 1
     text: "五"
     translated: "Five"
+    qcReviewedText: "Five"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_6,六"
   splits:
   - split: 1
     text: "六"
     translated: "Six"
+    qcReviewedText: "Six"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_7,七"
   splits:
   - split: 1
     text: "七"
     translated: "Seven"
+    qcReviewedText: "Seven"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_8,八"
   splits:
   - split: 1
     text: "八"
     translated: "Eight"
+    qcReviewedText: "Eight"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_9,九"
   splits:
   - split: 1
     text: "九"
     translated: "Nine"
+    qcReviewedText: "Nine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_10,十"
   splits:
   - split: 1
     text: "十"
     translated: "Ten"
+    qcReviewedText: "Ten"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_11,十一"
   splits:
   - split: 1
     text: "十一"
     translated: "November"
+    qcReviewedText: "November"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Number_12,十二"
   splits:
   - split: 1
     text: "十二"
     translated: "Twelve"
+    qcReviewedText: "Twelve"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_1,一月"
   splits:
   - split: 1
     text: "一月"
     translated: "January"
+    qcReviewedText: "January"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_2,二月"
   splits:
   - split: 1
     text: "二月"
     translated: "February"
+    qcReviewedText: "February"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_3,三月"
   splits:
   - split: 1
     text: "三月"
     translated: "March"
+    qcReviewedText: "March"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_4,四月"
   splits:
   - split: 1
     text: "四月"
     translated: "April"
+    qcReviewedText: "April"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_5,五月"
   splits:
   - split: 1
     text: "五月"
     translated: "May"
+    qcReviewedText: "May"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_6,六月"
   splits:
   - split: 1
     text: "六月"
     translated: "June"
+    qcReviewedText: "June"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_7,七月"
   splits:
   - split: 1
     text: "七月"
     translated: "July"
+    qcReviewedText: "July"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_8,八月"
   splits:
   - split: 1
     text: "八月"
     translated: "August"
+    qcReviewedText: "August"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_9,九月"
   splits:
   - split: 1
     text: "九月"
     translated: "September"
+    qcReviewedText: "September"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_10,十月"
   splits:
   - split: 1
     text: "十月"
     translated: "October"
+    qcReviewedText: "October"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_11,十一月"
   splits:
   - split: 1
     text: "十一月"
     translated: "November"
+    qcReviewedText: "November"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Month_12,十二月"
   splits:
   - split: 1
     text: "十二月"
     translated: "December"
+    qcReviewedText: "December"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Stage_1,上旬"
   splits:
   - split: 1
     text: "上旬"
     translated: "Early Month"
+    qcReviewedText: "Early Month"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Stage_2,中旬"
   splits:
   - split: 1
     text: "中旬"
     translated: "Mid‑month"
+    qcReviewedText: "Mid‑month"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Stage_3,下旬"
   splits:
   - split: 1
     text: "下旬"
     translated: "Late month"
+    qcReviewedText: "Late month"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Restart,重新开始"
   splits:
   - split: 1
     text: "重新开始"
     translated: "Start over"
+    qcReviewedText: "Start over"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/GoMenu,回主选单"
   splits:
   - split: 1
     text: "回主选单"
     translated: "Go back to the main menu"
+    qcReviewedText: "Go back to the main menu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/ClickContinue,–点击继续–"
   splits:
   - split: 1
     text: "点击继续"
     translated: "–Click to continue–"
+    qcReviewedText: "––Click to continue––"
+    qcTranslated: "–Click to continue–"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "–{0}–"
@@ -1140,16 +1962,28 @@
   - split: 1
     text: "你死了。"
     translated: "You are dead"
+    qcReviewedText: "You are dead"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/Dead_2,这是你的尸体，没有人爱你。"
   splits:
   - split: 1
     text: "这是你的尸体，没有人爱你。"
     translated: "This is your corpse; no one loved you."
+    qcReviewedText: "This is your corpse; no one loved you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/ListenKeyRebind,请输入新的...或ESC取消"
   splits:
   - split: 1
     text: "请输入新的...或"
     translated: "Please enter a new... or"
+    qcReviewedText: "Please enter a new... or ESC Cancel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "取消"
@@ -1162,56 +1996,100 @@
   - split: 1
     text: "游戏语言"
     translated: "Game language"
+    qcReviewedText: "Game language"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Title/Game,游戏设定"
   splits:
   - split: 1
     text: "游戏设定"
     translated: "Game setting"
+    qcReviewedText: "Game setting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Title/Graphic,画面设定"
   splits:
   - split: 1
     text: "画面设定"
     translated: "Scene settings"
+    qcReviewedText: "Scene settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Title/Sound,声音设定"
   splits:
   - split: 1
     text: "声音设定"
     translated: "Sound settings"
+    qcReviewedText: "Sound settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Title/MustReturnTitle,需返回到游戏标题设定"
   splits:
   - split: 1
     text: "需返回到游戏标题设定"
     translated: "Need to return to the game title settings"
+    qcReviewedText: "Need to return to the game title settings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Game/ManualDestiny,手动启动天命轮盘"
   splits:
   - split: 1
     text: "手动启动天命轮盘"
     translated: "Manually activating the Mandate of Heaven Wheel"
+    qcReviewedText: "Manually activating the Mandate of Heaven Wheel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Game/AutoSave,养成回合自动存档"
   splits:
   - split: 1
     text: "养成回合自动存档"
     translated: "Save game at turn intervals"
+    qcReviewedText: "Save game at turn intervals"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Game/SkipUnreadStory,可快转未读文字"
   splits:
   - split: 1
     text: "可快转未读文字"
     translated: "Skip unread text"
+    qcReviewedText: "Skip unread text"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Game/ReadStoryColor,已读文字变色"
   splits:
   - split: 1
     text: "已读文字变色"
     translated: "Read text changes color"
+    qcReviewedText: "Read text changes color"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Graphic/Resolution,分辨率"
   splits:
   - split: 1
     text: "分辨率"
     translated: "Resolution"
+    qcReviewedText: "Resolution"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Graphic/Fullscreen,全屏幕(只适用16:9比例显示器)"
   splits:
   - split: 1
     text: "全屏幕"
     translated: "Full screen"
+    qcReviewedText: "Full screen(Only applies to 16:9 ratio display)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "只适用16"
@@ -1228,26 +2106,49 @@
   - split: 1
     text: "控制器图示"
     translated: "Controller icon"
+    qcReviewedText: "Controller icon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Sound/Master,主音量"
   splits:
   - split: 1
     text: "主音量"
     translated: "Master Volume"
+    qcReviewedText: "Master Volume"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Sound/Music,音乐音量"
   splits:
   - split: 1
     text: "音乐音量"
     translated: "Music volume"
+    qcReviewedText: "Music volume"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "SystemSetting/Sound/SFX,音效音量"
   splits:
   - split: 1
     text: "音效音量"
     translated: "Sound effect volume"
+    qcReviewedText: "Sound effect volume"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NextFactionLevel,下一等级：门派规模{0}"
   splits:
   - split: 1
     text: "下一等级"
     translated: "Next level"
+    qcReviewedText: "Next level：Sect Size {0}"
+    qcTranslated: "Next level: Sect Size {0}"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "门派规模"
@@ -1260,26 +2161,46 @@
   - split: 1
     text: "银两不足"
     translated: "Silver coins are insufficient"
+    qcReviewedText: "Silver coins are insufficient"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/NoPoint,点数不足"
   splits:
   - split: 1
     text: "点数不足"
     translated: "Insufficient points"
+    qcReviewedText: "Insufficient points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/itemSold,售罄"
   splits:
   - split: 1
     text: "售罄"
     translated: "Sold out"
+    qcReviewedText: "Sold out"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "DevelopCondition/Require,需要"
   splits:
   - split: 1
     text: "需要"
     translated: "Need"
+    qcReviewedText: "Need"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "DevelopCondition/FactionLevel,门派规模{0}"
   splits:
   - split: 1
     text: "门派规模"
     translated: "Sect Size"
+    qcReviewedText: "Sect Size {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -1288,6 +2209,10 @@
   - split: 1
     text: "装备等级"
     translated: "Equipment level"
+    qcReviewedText: "Equipment level {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -1296,6 +2221,14 @@
   - split: 1
     text: "归还"
     translated: "Return"
+    qcReviewedText: "Return {0} Spend forging points"
+    qcTranslated: "Return {0} forging points"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "点锻造点数"
@@ -1308,6 +2241,10 @@
   - split: 1
     text: "归还"
     translated: "Return"
+    qcReviewedText: "Return {0} Alchemy point expenditure"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "点炼丹点数"
@@ -1320,6 +2257,10 @@
   - split: 1
     text: "归还"
     translated: "Return"
+    qcReviewedText: "Return {0} Silver taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "银两"
@@ -1332,11 +2273,22 @@
   - split: 1
     text: "依目前开发项目"
     translated: "Given the current development project"
+    qcReviewedText: "Given the current development project"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Develop/RequireLevel,需求：等级 {0}"
   splits:
   - split: 1
     text: "需求"
     translated: "Requirements"
+    qcReviewedText: "Requirements：Rank {0}"
+    qcTranslated: "Requirements: Rank {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "等级"
@@ -1349,11 +2301,19 @@
   - split: 1
     text: "未知"
     translated: "Unknown"
+    qcReviewedText: "Unknown"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "MartialCondition/Stat,{0}{1}{2}(目前{3}) ({4})"
   splits:
   - split: 1
     text: "目前"
     translated: "Currently"
+    qcReviewedText: "{0} {1} {2} (Currently {3}) ({4})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦0⟧⟦1⟧⟦2⟧({0}⟦3⟧) (⟦4⟧)"
@@ -1362,6 +2322,10 @@
   - split: 1
     text: "好感度"
     translated: "Affinity"
+    qcReviewedText: "{0} Affinity {1} {2} (Currently {3}) ({4})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "目前"
@@ -1374,6 +2338,10 @@
   - split: 1
     text: "需要"
     translated: "Need"
+    qcReviewedText: "Need《{0}》({1})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}《⟦0⟧》(⟦1⟧)"
@@ -1382,6 +2350,10 @@
   - split: 1
     text: "需要"
     translated: "Need"
+    qcReviewedText: "Need《{0}》(Holding {1}) ({2})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "持有"
@@ -1394,6 +2366,10 @@
   - split: 1
     text: "需要"
     translated: "Need"
+    qcReviewedText: "Need《{0}》(Holding {1}) ({2})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "持有"
@@ -1406,6 +2382,10 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills《{0} Lv {1}》(Currently {2}) ({3})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "目前"
@@ -1418,6 +2398,10 @@
   - split: 1
     text: "儒学"
     translated: "Confucianism"
+    qcReviewedText: "Confucianism {0} {1} (Currently {2}) ({3})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "目前"
@@ -1430,6 +2414,10 @@
   - split: 1
     text: "道学"
     translated: "Daoism"
+    qcReviewedText: "Daoism {0} {1} (Currently {2}) ({3})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "目前"
@@ -1442,6 +2430,10 @@
   - split: 1
     text: "释学"
     translated: "Buddhism"
+    qcReviewedText: "Buddhism {0} {1} (Currently {2}) ({3})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "目前"
@@ -1454,6 +2446,10 @@
   - split: 1
     text: "形意拳"
     translated: "Xingyi Fist"
+    qcReviewedText: "Xingyi Fist {0} {1} (Currently {2}) ({3})"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "目前"
@@ -1466,6 +2462,13 @@
   - split: 1
     text: "属性"
     translated: "Attributes"
+    qcReviewedText: "Attributes：{0} [{1}/{2}]"
+    qcTranslated: "Attributes: {0} [{1}/{2}]"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
@@ -1474,6 +2477,13 @@
   - split: 1
     text: "影响"
     translated: "Influence"
+    qcReviewedText: "Influence：{0}"
+    qcTranslated: "Influence: {0}"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1482,6 +2492,13 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills：{0} [{1}/{2}]"
+    qcTranslated: "Skill: {0} [{1}/{2}]"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧ [⟦1⟧/⟦2⟧]"
@@ -1490,6 +2507,13 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills：{0}"
+    qcTranslated: "Skill: {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1498,6 +2522,13 @@
   - split: 1
     text: "可习得"
     translated: "Learnable"
+    qcReviewedText: "Learnable：{0}"
+    qcTranslated: "Learnable: {0}"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -1506,91 +2537,163 @@
   - split: 1
     text: "议题"
     translated: "Topic"
+    qcReviewedText: "Topic"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/CostAction,消耗行动"
   splits:
   - split: 1
     text: "消耗行动"
     translated: "Spend an action"
+    qcReviewedText: "Spend an action"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/CostContribution,消耗贡献"
   splits:
   - split: 1
     text: "消耗贡献"
     translated: "Consume Contributions"
+    qcReviewedText: "Consume Contributions"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Combat,决斗"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "Duel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Battle,战役"
   splits:
   - split: 1
     text: "战役"
     translated: "Battle"
+    qcReviewedText: "Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Talk,闲聊"
   splits:
   - split: 1
     text: "闲聊"
     translated: "Idle chat"
+    qcReviewedText: "Idle chat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Shop,商店"
   splits:
   - split: 1
     text: "商店"
     translated: "Store"
+    qcReviewedText: "Store"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Change,切换"
   splits:
   - split: 1
     text: "切换"
     translated: "Switch"
+    qcReviewedText: "Switch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Event,事件"
   splits:
   - split: 1
     text: "事件"
     translated: "Events"
+    qcReviewedText: "Events"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Quit,离开"
   splits:
   - split: 1
     text: "离开"
     translated: "Leave"
+    qcReviewedText: "Leave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Move,移动"
   splits:
   - split: 1
     text: "移动"
     translated: "Move"
+    qcReviewedText: "Move"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Middle/Title/Default,其他"
   splits:
   - split: 1
     text: "其他"
     translated: "Others"
+    qcReviewedText: "Others"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Up,上"
   splits:
   - split: 1
     text: "上"
     translated: "Up"
+    qcReviewedText: "Up"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Down,下"
   splits:
   - split: 1
     text: "下"
     translated: "Continue"
+    qcReviewedText: "Continue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Left,左"
   splits:
   - split: 1
     text: "左"
     translated: "Left"
+    qcReviewedText: "Left"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Right,右"
   splits:
   - split: 1
     text: "右"
     translated: "Right"
+    qcReviewedText: "Right"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Attack1,近战"
   splits:
   - split: 1
     text: "近战"
     translated: "Close combat"
+    qcReviewedText: "Close combat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Attack2,平射(长按抛射)"
   splits:
   - split: 1
     text: "平射"
     translated: "Direct fire"
+    qcReviewedText: "Direct fire(Hold to throw)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "长按抛射"
@@ -1603,48 +2706,88 @@
   - split: 1
     text: "抛射"
     translated: "Projection"
+    qcReviewedText: "Projection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Curse,嘴功"
   splits:
   - split: 1
     text: "嘴功"
     translated: "Mouthwork"
+    qcReviewedText: "Mouthwork"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Dodge,闪避"
   splits:
   - split: 1
     text: "闪避"
     translated: "Dodge"
+    qcReviewedText: "Dodge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Skill_1,技能1"
   splits:
   - split: 1
     text: "技能1"
     translated: "Skill 1"
+    qcReviewedText: "Skill 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Skill_2,技能2"
   splits:
   - split: 1
     text: "技能2"
     translated: "Skill 2"
+    qcReviewedText: "Skill 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Skill_3,技能3"
   splits:
   - split: 1
     text: "技能3"
     translated: "Skill 3"
+    qcReviewedText: "Skill 3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Skill_4,技能4"
   splits:
   - split: 1
     text: "技能4"
     translated: "Skill 4"
+    qcReviewedText: "Skill 4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Setting,设定"
   splits:
   - split: 1
     text: "设定"
     translated: "Setting"
+    qcReviewedText: "Setting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "BattleKey/Name/Reset,预设"
   splits:
   - split: 1
     text: "预设"
     translated: "Default"
+    qcReviewedText: "Default"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "System/StoryEvent,事件"
   splits:
   - split: 1
     text: "事件"
     translated: "Events"
+    qcReviewedText: "Events"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -3,6 +3,10 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills[{0}]Awakening"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "觉醒"
@@ -15,6 +19,10 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills[{0}]Eliminate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "消灭"
@@ -27,6 +35,10 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills[{0}]Level has been upgraded to {1}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "等级上升为"
@@ -39,6 +51,10 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills[{0}]Level decreased to {1}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "等级下降为"
@@ -51,6 +67,13 @@
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills[{0}]Level has reached the maximum"
+    qcTranslated: "Skill [{0}] has reached its maximum level"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "等级已达最高"
@@ -63,11 +86,23 @@
   - split: 1
     text: "自恋"
     translated: "Narcissism"
+    qcReviewedText: "Narcissism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0000,你在自己眼里变得稍微顺眼了一点\\n(只有一点)，\\n但是情绪激动时会原形毕露。"
   splits:
   - split: 1
     text: "你在自己眼里变得稍微顺眼了一点"
     translated: "You've become a little more palatable in your own eyes."
+    qcReviewedText: "You've become a little more palatable in your own eyes.\\n(There is just one thing)，\\nBut when they get worked up, they reveal their true nature."
+    qcTranslated: "You've become a little more palatable in your own eyes.\\n(Just a little),\\nBut when you get worked up, you reveal your true nature."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "只有一点"
@@ -84,11 +119,19 @@
   - split: 1
     text: "强化防御"
     translated: "Strengthen defense"
+    qcReviewedText: "Strengthen defense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0001,[决斗]\\n提升所有伤害减免。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease all damage reduction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "提升所有伤害减免。"
@@ -101,11 +144,19 @@
   - split: 1
     text: "额外暗器"
     translated: "Extra Hidden Weapon"
+    qcReviewedText: "Extra Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0002,[决斗]\\n使用捅人、暗器指令，\\n额外发动「暗器」效果"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nUse the stabbing and hidden weapon commands,\\nActivate the Hidden Weapon effect additionally"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "使用捅人、暗器指令，"
@@ -122,11 +173,19 @@
   - split: 1
     text: "唐门暗器"
     translated: "Tang Clan Hidden Weapon"
+    qcReviewedText: "Tang Clan Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0003,[决斗]\\n提升暗器命中、伤害、爆击骰。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease Hit Rate, Damage, and Critical Dice for Hidden Weapons."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "提升暗器命中、伤害、爆击骰。"
@@ -139,11 +198,22 @@
   - split: 1
     text: "唐门毒术"
     translated: "Tang Clan Poison Techniques"
+    qcReviewedText: "Tang Clan Poison Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0004,[决斗]\\n提升毒药、麻痹累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease poison, accumulate paralysis"
+    qcTranslated: "[Duel]\\nIncrease poison and paralysis accumulation"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "提升毒药、麻痹累积值。"
@@ -156,11 +226,19 @@
   - split: 1
     text: "君子风"
     translated: "Gentleman's Style"
+    qcReviewedText: "Gentleman's Style"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0005,[决斗]\\n修养、性情、处世三项皆为中庸时，提升最终伤害及伤害减免。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen Cultivation, Temperament, and Worldliness are all moderate, increase final damage and damage reduction."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "修养、性情、处世三项皆为中庸时，提升最终伤害及伤害减免。"
@@ -173,11 +251,19 @@
   - split: 1
     text: "全真体操"
     translated: "Quanzhen Gymnastics"
+    qcReviewedText: "Quanzhen Gymnastics"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0006,[决斗]\\n根据体力提升内力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease Inner Power based on physical strength"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据体力提升内力。"
@@ -190,11 +276,19 @@
   - split: 1
     text: "三教合一"
     translated: "Three Teachings Unification"
+    qcReviewedText: "Three Teachings Unification"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0007,[决斗]\\n根据已精通之儒道释学提升内力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEnhance Inner Power by studying the Confucianism, Taoism, and Buddhism they have mastered."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据已精通之儒道释学提升内力。"
@@ -207,11 +301,19 @@
   - split: 1
     text: "炼精化气"
     translated: "Refine the Essence into Qi"
+    qcReviewedText: "Refine the Essence into Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0008,[决斗]\\n根据体力提升内力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease Inner Power based on physical strength"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据体力提升内力。"
@@ -224,11 +326,19 @@
   - split: 1
     text: "炼气化神"
     translated: "Qi Refining and Soul Formation"
+    qcReviewedText: "Qi Refining and Soul Formation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0009,[决斗]\\n根据内力提升气上限。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease your Qi limit based on your Inner Power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据内力提升气上限。"
@@ -241,11 +351,19 @@
   - split: 1
     text: "炼神还虚"
     translated: "Refining the Soul to Emptiness"
+    qcReviewedText: "Refining the Soul to Emptiness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0010,[决斗]\\n根据气的上限获得额外回气。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nGain additional qi regeneration based on their qi limit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据气的上限获得额外回气。"
@@ -258,11 +376,19 @@
   - split: 1
     text: "练气神通"
     translated: "Qi Cultivation Supernatural Power"
+    qcReviewedText: "Qi Cultivation Supernatural Power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0011,[决斗]\\n根据道学提升内力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEnhance Inner Power through Daoist studies"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据道学提升内力。"
@@ -275,11 +401,19 @@
   - split: 1
     text: "白猿身法"
     translated: "Agility of the White Monkey"
+    qcReviewedText: "Agility of the White Monkey"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0012,[决斗]\\n根据轻功、拳掌获得回避机率"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhile using qinggong, punches and palms gain evasion chances."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据轻功、拳掌获得回避机率"
@@ -292,11 +426,19 @@
   - split: 1
     text: "心剑"
     translated: "Mind Sword"
+    qcReviewedText: "Mind Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0013,[决斗]\\n根据刀剑提升拳掌。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nImprove fists and palms according to the blade and sword."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据刀剑提升拳掌。"
@@ -309,11 +451,19 @@
   - split: 1
     text: "峨嵋十九桩"
     translated: "Emei Nineteen Stakes"
+    qcReviewedText: "Emei Nineteen Stakes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0014,[决斗]\\n全属性根据形意拳精通数获得提升。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAll attributes are enhanced based on the level of mastery of the Shape‑Intent Boxing style."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "全属性根据形意拳精通数获得提升。"
@@ -326,11 +476,19 @@
   - split: 1
     text: "不坏金身"
     translated: "Invincible Golden Body"
+    qcReviewedText: "Invincible Golden Body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0015,[战役]\\可施展金刚罩。"
   splits:
   - split: 1
     text: "战役"
     translated: "Battle"
+    qcReviewedText: "[Battle]\\Can use the Diamond Shield"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "可施展金刚罩。"
@@ -343,11 +501,19 @@
   - split: 1
     text: "千机百变"
     translated: "A Thousand Mechanisms, Ever Changing"
+    qcReviewedText: "A Thousand Mechanisms, Ever Changing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0017,[决斗]\\n根据暗器提升武器爆击骰。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease the critical hit dice for your Hidden Weapon."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据暗器提升武器爆击骰。"
@@ -360,11 +526,22 @@
   - split: 1
     text: "肩甲"
     translated: "Shoulder Armor"
+    qcReviewedText: "Shoulder Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0019,[决斗]\\n防御+20%、轻功-10%。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nDefense +20%, Qinggong-10%。"
+    qcTranslated: "[Duel]\\nDefense +20%, Qinggong ‑10%"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "防御+20%、轻功"
@@ -377,11 +554,22 @@
   - split: 1
     text: "豪华肩甲"
     translated: "Luxurious Shoulder Armor"
+    qcReviewedText: "Luxurious Shoulder Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0020,[决斗]\\n防御+40%、轻功-20%。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nDefense +40%, Qinggong-20%。"
+    qcTranslated: "[Duel]\\nDefense +40%, Qinggong ‑20%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "防御+40%、轻功"
@@ -394,11 +582,19 @@
   - split: 1
     text: "终极肩甲"
     translated: "Ultimate Shoulder Armor"
+    qcReviewedText: "Ultimate Shoulder Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0021,[决斗]\\n防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nDefense +60%, Qinggong ‑30%. When taking an attack action, they receive moderate damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
@@ -411,11 +607,19 @@
   - split: 1
     text: "高手风范"
     translated: "Master's demeanor"
+    qcReviewedText: "Master's demeanor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0025,[决斗]\\n根据修养提升每回合的气力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease your mana every turn based on your Cultivation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据修养提升每回合的气力。"
@@ -428,11 +632,22 @@
   - split: 1
     text: "做人没有下限"
     translated: "There are no limits to being a person."
+    qcReviewedText: "There are no limits to being a person."
+    qcTranslated: "A person without a moral bottom line"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "PlayerTalent/Desc/0026,[决斗]\\n道德越低，爆击骰越多。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nThe lower your morals, the more critical hit dice you get."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "道德越低，爆击骰越多。"
@@ -445,11 +660,19 @@
   - split: 1
     text: "化劲"
     translated: "Condensed Power Phase"
+    qcReviewedText: "Condensed Power Phase"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0027,[决斗]\\n根据拳掌、轻功提升防御。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nImproving punching and palm techniques increases Qinggong defense."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据拳掌、轻功提升防御。"
@@ -462,11 +685,19 @@
   - split: 1
     text: "龙渊七绝"
     translated: "Long Yuan Seven Absolutes"
+    qcReviewedText: "Long Yuan Seven Absolutes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0035,[决斗]\\n根据六维提升所有伤害。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease all damage according to the six dimensions."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据六维提升所有伤害。"
@@ -479,11 +710,19 @@
   - split: 1
     text: "借势"
     translated: "Harnessing the momentum"
+    qcReviewedText: "Harnessing the momentum"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/0036,[决斗]\\n回避成功时，根据等级回复气。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen evasion is successful, recover Qi based on the level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "回避成功时，根据等级回复气。"
@@ -496,11 +735,22 @@
   - split: 1
     text: "咄咄逼人"
     translated: "Inspiritingly aggressive"
+    qcReviewedText: "Inspiritingly aggressive"
+    qcTranslated: "Aggressively intimidating"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "PlayerTalent/Desc/0037,[决斗]\\n造成伤害时，根据连击数，追加气伤害。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen dealing damage, add Ki damage based on the number of consecutive hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "造成伤害时，根据连击数，追加气伤害。"
@@ -513,11 +763,19 @@
   - split: 1
     text: "傲慢"
     translated: "Arrogance"
+    qcReviewedText: "Arrogance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1001,[决斗]\\n所有伤害提升50%，\\n受到伤害增加10%。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease all damage by 50%\\nIncreased damage taken by 10%"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "所有伤害提升50%，"
@@ -534,11 +792,22 @@
   - split: 1
     text: "铁布衫"
     translated: "Iron Clothes Fist"
+    qcReviewedText: "Iron Clothes Fist"
+    qcTranslated: "Iron Shirt"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "PlayerTalent/Desc/1002,[决斗]\\n根据体力提升防御。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nBoost your defense based on your stamina"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据体力提升防御。"
@@ -551,11 +820,19 @@
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
+    qcReviewedText: "Golden Bell Shield"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1010,[决斗]\\n气20以上时，\\n备揍指令变化为「金钟罩」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the 20 is above a certain level,\\nThe Beatdown Command has changed to Golden Bell Shield."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "气20以上时，"
@@ -572,11 +849,19 @@
   - split: 1
     text: "不动如山"
     translated: "Steadfast as a mountain"
+    qcReviewedText: "Steadfast as a mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1011,[决斗]\\n根据技能「战术」提升防御。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nBoost defense using the Tactics skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升防御。"
@@ -589,11 +874,19 @@
   - split: 1
     text: "金刚腿"
     translated: "Diamond Leg"
+    qcReviewedText: "Diamond Leg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1012,[决斗]\\n根据拳掌提升轻功、防御。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nImprove qinggong and defense based on fist and palm techniques."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据拳掌提升轻功、防御。"
@@ -606,11 +899,19 @@
   - split: 1
     text: "落井下石"
     translated: "Adding insult to injury"
+    qcReviewedText: "Adding insult to injury"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1100,[决斗]\\n对身有异常状态的敌人嘴攻时，激怒成功率更高。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen performing a mouth attack on enemies with abnormal status effects, the success rate of provoking them is higher."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "对身有异常状态的敌人嘴攻时，激怒成功率更高。"
@@ -623,11 +924,19 @@
   - split: 1
     text: "得理不饶人"
     translated: "Those who are in the right do not spare others."
+    qcReviewedText: "Those who are in the right do not spare others."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1101,[决斗]\\n连续嘴攻时效果上升。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nThe effect increases with continuous verbal attacks"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "连续嘴攻时效果上升。"
@@ -640,11 +949,23 @@
   - split: 1
     text: "孟子曰"
     translated: "Mencius said"
+    qcReviewedText: "Mencius said"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1102,[决斗]\\n敌人身有[愤怒]状态时发动。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nThe enemy has a [missing element][Anger]Activates when the status condition is met"
+    qcTranslated: "[Duel]\\nActivates when the enemy has the [Anger] status."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "敌人身有"
@@ -665,11 +986,19 @@
   - split: 1
     text: "烈火禅"
     translated: "Fiery Zen"
+    qcReviewedText: "Fiery Zen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1103,[决斗]\\n愤怒时不再捅人，变成嘴攻并口喷烈火。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nInstead of stabbing people when angry, they become a verbal attacker and spout fiery words."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "愤怒时不再捅人，变成嘴攻并口喷烈火。"
@@ -682,11 +1011,19 @@
   - split: 1
     text: "龙吟功"
     translated: "Dragon's Roar Technique"
+    qcReviewedText: "Dragon's Roar Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1105,[决斗]\\n境界二以上，嘴攻变为「苍龙吟」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt the Second Stage and above, mouth attack becomes Azure Dragon's Roar."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界二以上，嘴攻变为「苍龙吟」。"
@@ -699,11 +1036,19 @@
   - split: 1
     text: "狮吼功"
     translated: "Lion's Roar Skill"
+    qcReviewedText: "Lion's Roar Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1106,[决斗]\\n境界二以上，嘴攻变为「狮吼功」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt Level Two and above, mouth attacks become Roar Technique."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界二以上，嘴攻变为「狮吼功」。"
@@ -716,11 +1061,19 @@
   - split: 1
     text: "虎啸功"
     translated: "Tiger Howl Skill"
+    qcReviewedText: "Tiger Howl Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1107,[决斗]\\n境界二以上，嘴攻变为「虎啸吼」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt Level 2 and above, Mouth Attack becomes Tiger Roar."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界二以上，嘴攻变为「虎啸吼」。"
@@ -733,11 +1086,22 @@
   - split: 1
     text: "揍狗拳"
     translated: "Dog Punch"
+    qcReviewedText: "Dog Punch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1200,[决斗]\\n敌人气低于自身时，获得「揍狗拳」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the enemy's qi is lower than their own, they gain the Punching Pup quan."
+    qcTranslated: "[Duel]\\nWhen the enemy's qi is lower than their own, they gain the Dog‑Punching Fist."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
   - split: 1
     subIndex: 1
     text: "敌人气低于自身时，获得「揍狗拳」。"
@@ -750,11 +1114,19 @@
   - split: 1
     text: "极端揍狗拳"
     translated: "Extreme Dog Punch"
+    qcReviewedText: "Extreme Dog Punch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1201,[决斗]\\n锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nLock all commands, use the Dog‑Punching Fist without conditions, and activate Rage Mode."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
@@ -767,11 +1139,19 @@
   - split: 1
     text: "翻浪刀法"
     translated: "Surging Wave Blade Technique"
+    qcReviewedText: "Surging Wave Blade Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1202,[决斗]\\n捅人命中时获得「翻浪刀法」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nGain Wave Flipping Blade Art when hitting a target."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "捅人命中时获得「翻浪刀法」。"
@@ -784,11 +1164,23 @@
   - split: 1
     text: "蛮勇"
     translated: "Bravery"
+    qcReviewedText: "Bravery"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1203,[决斗]\\n捅人指令不会被暗器打断，但受到的伤害+50%。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nThe command to stab someone is not interrupted by a hidden weapon, but the damage received is.+50%。"
+    qcTranslated: "[Duel]\\nThe command to stab someone is not interrupted by a Hidden Weapon, but the damage received is +50%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "捅人指令不会被暗器打断，但受到的伤害"
@@ -801,11 +1193,23 @@
   - split: 1
     text: "反手拳"
     translated: "Backhand Punch"
+    qcReviewedText: "Backhand Punch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1205,[决斗]\\n回避成功时，\\n捅人指令变化为[反击]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAvoidance is successful when,\\nThe command to stab someone has changed to[Counterattack]。"
+    qcTranslated: "[Duel]\\nWhen avoidance is successful,\\nThe command to stab someone changes to[Counterattack]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "回避成功时，"
@@ -826,11 +1230,22 @@
   - split: 1
     text: "夺魄幽灵爪"
     translated: "Soul Stealer Phantom Claw"
+    qcReviewedText: "Soul Stealer Phantom Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1206,[决斗]\\n境界二以上，捅人变化为[夺魄幽灵爪]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nFor Second Stage and above, stabbing someone transforms into [original game mechanic or term here, if any specific term is needed, otherwise leave as is][Soul Stealer Phantom Claw]。"
+    qcTranslated: "[Duel]\\nFor Second Stage and above, stabbing someone transforms into [Soul Stealer Phantom Claw]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界二以上，捅人变化为"
@@ -847,11 +1262,19 @@
   - split: 1
     text: "犯劍"
     translated: "Sword Offense"
+    qcReviewedText: "Sword Offense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1207,[決鬥]\\n劉顎專用技能，取代捅人。"
   splits:
   - split: 1
     text: "決鬥"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nLiu E's special skill, replacing stabbing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "劉顎專用技能，取代捅人。"
@@ -864,11 +1287,22 @@
   - split: 1
     text: "雪山飞鸿爪"
     translated: "Snow Mountain Flying Swan Claw"
+    qcReviewedText: "Snow Mountain Flying Swan Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/1209,[决斗]\\n境界二以上，捅人变化为[雪山飞鸿爪]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nFor Second Stage and above, stabbing someone transforms into [original game mechanic or term here, if any specific term is needed, otherwise leave as is][Snow Mountain Flying Swan Claw]。"
+    qcTranslated: "[Duel]\\nFor Second Stage and above, stabbing someone transforms into [Snow Mountain Flying Swan Claw]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界二以上，捅人变化为"
@@ -885,11 +1319,19 @@
   - split: 1
     text: "核枣钉"
     translated: "Jujube Pit Nail"
+    qcReviewedText: "Jujube Pit Nail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2010,[决斗]\\n气20以上时，\\n嘴攻指令变化为「核枣钉」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the 20 is above a certain level,\\nMouth attack command changes to Nuclear Jujube Nail."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "气20以上时，"
@@ -906,11 +1348,22 @@
   - split: 1
     text: "粹毒"
     translated: "Purified Poison"
+    qcReviewedText: "Purified Poison"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2020,[决斗]\\n备揍时涂毒，获得一个粹毒，\\n提升下回暗器效果。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen poisoning a weapon before a fight, gain one Poison.\\nImprove the effect of the Hidden Weapon"
+    qcTranslated: "[Duel]\\nWhen poisoning a weapon before a fight, gain one Poison.\\nImprove the effect of the Hidden Weapon next turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "备揍时涂毒，获得一个粹毒，"
@@ -927,11 +1380,19 @@
   - split: 1
     text: "石灰粉"
     translated: "Lime powder"
+    qcReviewedText: "Lime powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2030,[决斗]\\n气20以上时，\\n备揍指令变化为「石灰粉」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the 20 is above a certain level,\\nThe Ready to Fight command has changed to Lime Powder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "气20以上时，"
@@ -948,11 +1409,19 @@
   - split: 1
     text: "运气活血"
     translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2100,[决斗]\\n备揍时，根据等级加速代谢麻痹累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen preparing to take a beating, increase the accumulation of paralysis damage based on your level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "备揍时，根据等级加速代谢麻痹累积值。"
@@ -965,11 +1434,19 @@
   - split: 1
     text: "医术"
     translated: "Medicine"
+    qcReviewedText: "Medicine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2101,[决斗]\\n备揍时，根据等级回复血，额外代谢毒麻累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen preparing to fight, restore health based on level and additionally metabolize accumulated poison and numbness values."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "备揍时，根据等级回复血，额外代谢毒麻累积值。"
@@ -982,11 +1459,19 @@
   - split: 1
     text: "仙鹤迷踪步"
     translated: "Immortal Crane Lost Trace Steps"
+    qcReviewedText: "Immortal Crane Lost Trace Steps"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2102,[决斗]\\n备揍成功后，获得一个「仙鹤迷踪」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAfter successfully preparing to fight, they obtained a Crane Mystery Trace."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "备揍成功后，获得一个「仙鹤迷踪」。"
@@ -999,11 +1484,23 @@
   - split: 1
     text: "一趾神通"
     translated: "One Toe Divine Skill"
+    qcReviewedText: "One Toe Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2103,[决斗]\\n境界二以上，备揍变为[一趾神通]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nLevel 2 and above, Bei Zhou becomes [punchable][One Toe Divine Skill]。"
+    qcTranslated: "[Duel]\\nLevel 2 and above, the preparation for being beaten becomes [One‑Toe Divine Skill]."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "境界二以上，备揍变为"
@@ -1020,11 +1517,22 @@
   - split: 1
     text: "折花手"
     translated: "Flower‑folded Hands"
+    qcReviewedText: "Flower‑folded Hands"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2104,[决斗]\\n备揍时，根据技能等级机率接住暗器。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen preparing to counterattack, there is a chance to catch a Hidden Weapon based on skill level."
+    qcTranslated: "[Duel]\\nWhen preparing to be attacked, there is a chance to catch a Hidden Weapon based on skill level."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "备揍时，根据技能等级机率接住暗器。"
@@ -1037,11 +1545,25 @@
   - split: 1
     text: "如意境"
     translated: "As if in Accordance with Will Scenario"
+    qcReviewedText: "As if in Accordance with Will Scenario"
+    qcTranslated: "Realm of Accordance with Will"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "PlayerTalent/Desc/2105,[决斗]\\n每回合有30%机率施展[如意境]，提升拳掌。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEach turn, there is a 30% chance to cast[As if in Accordance with Will Scenario], Improve fist and palm techniques"
+    qcTranslated: "[Duel]\\nEach turn, there is a 30% chance to cast [As If in Accordance with Will], enhancing fist and palm techniques."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "每回合有30%机率施展"
@@ -1062,11 +1584,19 @@
   - split: 1
     text: "铁棋盘"
     translated: "Iron Chessboard"
+    qcReviewedText: "Iron Chessboard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2108,[决斗]\\n备揍时，备揍时启动机关，可收去所有暗器，下回暗器伤害上升。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen preparing to fight, activating the mechanism upon preparation will store all hidden weapons and increase the damage from hidden weapons in the next battle."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "备揍时，备揍时启动机关，可收去所有暗器，下回暗器伤害上升。"
@@ -1079,11 +1609,22 @@
   - split: 1
     text: "万剑归宗"
     translated: "Ten Thousand Swords Return to the Sect"
+    qcReviewedText: "Ten Thousand Swords Return to the Sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2109,[决斗]\\n备揍时，消费所有连击数，额外获得气。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen preparing to attack, consume all combo counts and additionally gain Chi."
+    qcTranslated: "[Duel]\\nWhen preparing to be attacked, consume all combo counts and additionally gain Chi."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "备揍时，消费所有连击数，额外获得气。"
@@ -1096,11 +1637,22 @@
   - split: 1
     text: "归元"
     translated: "Return to Origin"
+    qcReviewedText: "Return to Origin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2110,[决斗]\\n当连击数大于2时，备揍变成[归元]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the combo count exceeds 2, Prepared Punishment becomes active.[Return to Origin]。"
+    qcTranslated: "[Duel]\\nWhen the combo count exceeds 2, Prepared Punishment becomes [Return to Origin]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "当连击数大于2时，备揍变成"
@@ -1117,11 +1669,22 @@
   - split: 1
     text: "枯荣神功"
     translated: "Withering and Flourishing Divine Skill"
+    qcReviewedText: "Withering and Flourishing Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/2111,[决斗]\\n气20以上时，备揍变成[枯荣神功]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the gauge is at 20 or higher, the preparation for beating transforms into[Withering and Flourishing Divine Skill]。"
+    qcTranslated: "[Duel]\\nWhen the gauge is at 20 or higher, the preparation for beating transforms into [Withering and Flourishing Divine Skill]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "气20以上时，备揍变成"
@@ -1138,11 +1701,19 @@
   - split: 1
     text: "点苍快剑"
     translated: "Diancang Quick Sword Technique"
+    qcReviewedText: "Diancang Quick Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3000,[决斗]\\n根据轻功提升刀剑。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nImprove Qinggong to enhance the Blade and Sword."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据轻功提升刀剑。"
@@ -1155,11 +1726,19 @@
   - split: 1
     text: "提气轻身"
     translated: "Build up your energy to lighten your body"
+    qcReviewedText: "Build up your energy to lighten your body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3001,[决斗]\\n根据内力提升轻功。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEnhance Qinggong by increasing Inner Power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据内力提升轻功。"
@@ -1172,11 +1751,19 @@
   - split: 1
     text: "千里不留行"
     translated: "A journey of a thousand miles leaves no trace."
+    qcReviewedText: "A journey of a thousand miles leaves no trace."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3002,[决斗]\\n根据刀剑50%提升轻功、内力、初始气。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nBased on the 50% increase in Qinggong, Inner Power, and initial Qi from the Blade and Sword."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据刀剑50%提升轻功、内力、初始气。"
@@ -1189,11 +1776,19 @@
   - split: 1
     text: "行云流水"
     translated: "Flowing Clouds and Flowing Water"
+    qcReviewedText: "Flowing Clouds and Flowing Water"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3003,[决斗]\\n捅人命中时获得「行云流水」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nGain Flowing Like the Clouds and Water when hitting a target."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "捅人命中时获得「行云流水」。"
@@ -1206,11 +1801,19 @@
   - split: 1
     text: "勇气"
     translated: "Courage"
+    qcReviewedText: "Courage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3004,[决斗]\\n额外新增初始气力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAdditional initial qi power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "额外新增初始气力。"
@@ -1223,11 +1826,19 @@
   - split: 1
     text: "欺善怕恶"
     translated: "Bullying the weak and fearing the strong"
+    qcReviewedText: "Bullying the weak and fearing the strong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3100,[决斗]\\n对手气力影响自身属性。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nYour opponent's strength affects your attributes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "对手气力影响自身属性。"
@@ -1240,11 +1851,19 @@
   - split: 1
     text: "思想战"
     translated: "Mind War"
+    qcReviewedText: "Mind War"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3102,[决斗]\\n依据等级，决斗开始时即默认有连击，并额外获得气。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nBased on their rank, duelists automatically have a combo at the start of the duel and gain additional qi."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "依据等级，决斗开始时即默认有连击，并额外获得气。"
@@ -1257,11 +1876,19 @@
   - split: 1
     text: "飒踏流星剑"
     translated: "Swift Meteor Sword"
+    qcReviewedText: "Swift Meteor Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3103,[决斗]\\n决斗开始第一回合，攻击力为3倍。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIn the first round of the duel, Attack Power is 3 times."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "决斗开始第一回合，攻击力为3倍。"
@@ -1274,11 +1901,19 @@
   - split: 1
     text: "地轴锁天关"
     translated: "Axis Locking Heaven Gate"
+    qcReviewedText: "Axis Locking Heaven Gate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3104,[决斗]\\n境界一以上，获得「化境」。此后提升境界，「化境」效果亦会提升。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nReach Rank 1 or above to obtain Transcendence. Thereafter, as you advance in rank, the effects of Transcendence will also improve."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界一以上，获得「化境」。此后提升境界，「化境」效果亦会提升。"
@@ -1291,11 +1926,19 @@
   - split: 1
     text: "剑界"
     translated: "Sword Realm"
+    qcReviewedText: "Sword Realm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3105,[决斗]\\n境界三以上，发动「剑界」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nLevel Three Sword World activates"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界三以上，发动「剑界」。"
@@ -1308,11 +1951,19 @@
   - split: 1
     text: "苦恼拳"
     translated: "Sorrowful Fist"
+    qcReviewedText: "Sorrowful Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3107,[决斗]\\n当前心相低于中庸时，\\n每1点提升1%攻击力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen your current mindset falls below the median,\\nEach 1 point increases Attack Power by 1%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "当前心相低于中庸时，"
@@ -1329,11 +1980,22 @@
   - split: 1
     text: "无影爪"
     translated: "Shadowless Claw"
+    qcReviewedText: "Shadowless Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3112,[决斗]\\n攻击爆击骰子+10。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nCritical hit dice+10。"
+    qcTranslated: "[Duel]\\nAttack critical hit dice+10"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "攻击爆击骰子"
@@ -1346,11 +2008,19 @@
   - split: 1
     text: "狮子之心"
     translated: "Heart of the Lion"
+    qcReviewedText: "Heart of the Lion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/3115,[决斗]\\n根据受到的伤害，大幅回升气。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nSignificantly restore qi based on the damage received."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据受到的伤害，大幅回升气。"
@@ -1363,11 +2033,19 @@
   - split: 1
     text: "动如雷震"
     translated: "Move like a thunderclap"
+    qcReviewedText: "Move like a thunderclap"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4010,[决斗]\\n施展绝招时追加「震撼」效果。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen using an Ultimate move, add the Shocking effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "施展绝招时追加「震撼」效果。"
@@ -1380,11 +2058,19 @@
   - split: 1
     text: "疾如风"
     translated: "As swift as the wind"
+    qcReviewedText: "As swift as the wind"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4011,[决斗]\\n根据技能「战术」提升轻功。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nImprove Qinggong according to the Tactics skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升轻功。"
@@ -1397,11 +2083,19 @@
   - split: 1
     text: "徐如林"
     translated: "Xu Rulin"
+    qcReviewedText: "Xu Rulin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4012,[决斗]\\n根据技能「战术」每回合额外获得气力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nGain additional qi each turn according to the skill Tactics."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据技能「战术」每回合额外获得气力。"
@@ -1414,11 +2108,19 @@
   - split: 1
     text: "侵掠如火"
     translated: "Invasion like a blazing fire"
+    qcReviewedText: "Invasion like a blazing fire"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4013,[决斗]\\n根据技能「战术」提升伤害。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease damage according to the skill Tactics"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升伤害。"
@@ -1431,11 +2133,22 @@
   - split: 1
     text: "难知如阴"
     translated: "Mysterious as the Yin"
+    qcReviewedText: "Mysterious as the Yin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4014,[决斗]\\n根据技能「战术」提升嘴力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nUse the skill Tactics to boost charm"
+    qcTranslated: "[Duel]\\nUse the skill Tactics to boost jaw strength."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升嘴力。"
@@ -1448,11 +2161,23 @@
   - split: 1
     text: "败絮功"
     translated: "Defeated Threads Skill"
+    qcReviewedText: "Defeated Threads Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4018,[决斗]\\n施展败絮功，身有[失衡]异常时失效。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nPracticing the Decayed Cotton Technique, their body [begins to show signs of decay].[Imbalance]Fails during abnormal conditions"
+    qcTranslated: "[Duel]\\nPracticing the Decayed Cotton Technique fails when the user has the [Imbalance] status effect."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "施展败絮功，身有"
@@ -1473,11 +2198,19 @@
   - split: 1
     text: "暗箭伤人"
     translated: "A hidden arrow injures a person"
+    qcReviewedText: "A hidden arrow injures a person"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4100,[决斗]\\n不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nGoing against the code of martial ethics, they suddenly launch a Hidden Weapon at the start of a duel, dealing damage and having a chance to enrage the opponent."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "不讲武德，决斗开始时，忽然发射暗器，造成伤害，并有机率激怒对手。"
@@ -1490,11 +2223,24 @@
   - split: 1
     text: "虚张声势"
     translated: "Bluffing"
+    qcReviewedText: "Bluffing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4103,[决斗]\\n决斗开始时，气-10，嘴力提升100%。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "[Duel]\\nWhen a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
+    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcDefectCategories:
+    - Unknown
+    qcRuleCheckFailureCount: 4
+    qcRuleCheckFailureBaseline: "[Duel]\\nWhen a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
@@ -1507,11 +2253,19 @@
   - split: 1
     text: "毅力"
     translated: "Perseverance"
+    qcReviewedText: "Perseverance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/4104,[决斗]\\n受到致命攻击时，以10%血幸存。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nSurvives with 10% health upon receiving a lethal attack."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "受到致命攻击时，以10%血幸存。"
@@ -1524,21 +2278,40 @@
   - split: 1
     text: "白鲨语"
     translated: "Bai shahou speaks"
+    qcReviewedText: "Bai shahou speaks"
+    qcTranslated: "White Shark language"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "PlayerTalent/Desc/5000,能够听懂白鲨语。"
   splits:
   - split: 1
     text: "能够听懂白鲨语。"
     translated: "Can understand white shark speech"
+    qcReviewedText: "Can understand white shark speech"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/6000,彼岸香"
   splits:
   - split: 1
     text: "彼岸香"
     translated: "Fragrant Shore"
+    qcReviewedText: "Fragrant Shore"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/6000,[决斗]\\n敌我每回合增加毒性累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEach turn, both enemies and allies increase their poison accumulation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "敌我每回合增加毒性累积值。"
@@ -1551,11 +2324,19 @@
   - split: 1
     text: "温柔香"
     translated: "Soft Fragrance"
+    qcReviewedText: "Soft Fragrance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/6001,[决斗]\\n敌我每回合增加麻痹累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEach turn, the paralysis accumulation value increases for both allies and enemies."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "敌我每回合增加麻痹累积值。"
@@ -1568,11 +2349,19 @@
   - split: 1
     text: "万寿尸血针"
     translated: "Ten Thousand Longevity Corpse Blood Needle"
+    qcReviewedText: "Ten Thousand Longevity Corpse Blood Needle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/6008,[决斗]\\n受到伤害时，造成敌人毒、麻累积。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen damaged, inflict poison and numbness on the enemy, which accumulates."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "受到伤害时，造成敌人毒、麻累积。"
@@ -1585,11 +2374,19 @@
   - split: 1
     text: "毒功"
     translated: "Poison Skill"
+    qcReviewedText: "Poison Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/6011,[决斗]\\n捅人时附带50%的毒、麻累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen stabbing, apply 50% poison and numbness cumulative value."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "捅人时附带50%的毒、麻累积值。"
@@ -1602,11 +2399,22 @@
   - split: 1
     text: "火拂尘"
     translated: "Fire Sweeping Dust"
+    qcReviewedText: "Fire Sweeping Dust"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/7001,[决斗]\\n所有攻击都有40%机率造成[燃烧]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAll attacks have a 40% chance to deal[Burning]。"
+    qcTranslated: "[Duel]\\nAll attacks have a 40% chance to deal [Burning]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "所有攻击都有40%机率造成"
@@ -1623,11 +2431,23 @@
   - split: 1
     text: "焚心火印"
     translated: "Heartburn Seal"
+    qcReviewedText: "Heartburn Seal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/7007,[决斗]\\n属性为阳时，每回合累积若干[毒]累积值，额外回复[气]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the attribute is Yang, accumulate a certain amount each turn.[Poison]Accumulated value, additional recovery[Qi]。"
+    qcTranslated: "[Duel]\\nWhen the attribute is Yang, accumulate a certain amount of [Poison] each turn and additionally recover [Qi]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "属性为阳时，每回合累积若干"
@@ -1652,11 +2472,22 @@
   - split: 1
     text: "逐浪诀"
     translated: "Wave Riding Technique"
+    qcReviewedText: "Wave Riding Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/7008,[决斗]\\n根据当前连击数，攻击有额外机率造成[失衡]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nBased on the current combo count, attacks have an increased chance to cause[Imbalance]。"
+    qcTranslated: "[Duel]\\nBased on the current combo count, attacks have an increased chance to cause [Imbalance]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "根据当前连击数，攻击有额外机率造成"
@@ -1673,11 +2504,22 @@
   - split: 1
     text: "地狱使者"
     translated: "Hell Messenger"
+    qcReviewedText: "Hell Messenger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/7010,[决斗]\\n每回合有机率对胆小的人造成[胆怯]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEach turn, there's a chance to attack those who are cowardly.[Timidity]。"
+    qcTranslated: "[Duel]\\nEach turn, there's a chance to inflict [Timidity] on the cowardly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "每回合有机率对胆小的人造成"
@@ -1694,11 +2536,19 @@
   - split: 1
     text: "天地无声势"
     translated: "Heaven and Earth Silent Power"
+    qcReviewedText: "Heaven and Earth Silent Power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8001,[决斗]\\n小师妹的独门武功。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nLittle Junior Sister's unique martial arts skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "小师妹的独门武功。"
@@ -1711,11 +2561,19 @@
   - split: 1
     text: "金钱镖"
     translated: "Money Dart"
+    qcReviewedText: "Money Dart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8002,[决斗]\\n暗器命中时造成大额麻痹累积。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the hidden weapon hits, it causes a large amount of paralysis buildup."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "暗器命中时造成大额麻痹累积。"
@@ -1728,11 +2586,22 @@
   - split: 1
     text: "飞燕流星翎"
     translated: "Flying Swallow Meteor Feather"
+    qcReviewedText: "Flying Swallow Meteor Feather"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8003,[决斗]\\n境界三以上，暗器变为[飞燕流星翎]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt the Third Stage of Jingjie, the Hidden Weapon becomes...[Flying Swallow Meteor Feather]。"
+    qcTranslated: "[Duel]\\nAt the Third Stage of Jingjie, the Hidden Weapon becomes [Flying Swallow Meteor Feather]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界三以上，暗器变为"
@@ -1749,11 +2618,23 @@
   - split: 1
     text: "金刚神枪指"
     translated: "Vajra Divine Spear Technique"
+    qcReviewedText: "Vajra Divine Spear Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8004,[决斗]\\n境界三以上，暗器变为[金刚神枪指]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt the Third Stage of Jingjie, the Hidden Weapon becomes...[Vajra Divine Spear Technique]。"
+    qcTranslated: "[Duel]\\nAt the Third Stage of Jingjie, the Hidden Weapon becomes...[Vajra Divine Spear Finger]."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界三以上，暗器变为"
@@ -1770,11 +2651,23 @@
   - split: 1
     text: "霹雳刀"
     translated: "Thunderbolt Blade"
+    qcReviewedText: "Thunderbolt Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8101,[决斗]\\n境界二以上，绝招变为[云霄雷霆霹雳刀]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nFor Level 2 and above, the Ultimate moves become available.[Cloud Sky Thunderbolt Blade]。"
+    qcTranslated: "[Duel]\\nFor Level 2 and above, the Ultimate moves become available.[Cloud Sky Thunderbolt Blade]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
@@ -1791,11 +2684,23 @@
   - split: 1
     text: "点破云关"
     translated: "Breakthrough of Cloud Pass"
+    qcReviewedText: "Breakthrough of Cloud Pass"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8103,[决斗]\\n当连击数大于2时，绝招变成[点破云关]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the combo count exceeds 2, the Ultimate moves become available.[Breakthrough of Cloud Pass]。"
+    qcTranslated: "[Duel]\\nWhen the combo count exceeds 2, the Ultimate becomes [Breakthrough of Cloud Pass]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "当连击数大于2时，绝招变成"
@@ -1812,11 +2717,19 @@
   - split: 1
     text: "阴阳夺"
     translated: "Yin and Yang Theft"
+    qcReviewedText: "Yin and Yang Theft"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8106,[决斗]\\n境界二以上，绝招变为[阴阳夺]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nFor Level 2 and above, the Ultimate moves become available.[Yin and Yang Theft]。"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
@@ -1833,11 +2746,23 @@
   - split: 1
     text: "铁臂飞拳"
     translated: "Iron Arm Flying Fist"
+    qcReviewedText: "Iron Arm Flying Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8108,[决斗]\\n境界二以上，绝招变为[铁臂飞拳]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nFor Level 2 and above, the Ultimate moves become available.[Iron Arm Flying Fist]。"
+    qcTranslated: "[Duel]\\nFor Level 2 and above, the Ultimate moves become [Iron Arm Flying Fist]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
@@ -1854,11 +2779,19 @@
   - split: 1
     text: "神雷"
     translated: "Divine Thunder"
+    qcReviewedText: "Divine Thunder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8111,[决斗]\\n境界三以上，绝招变为「神雷」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt the Third Stage and above, the Ultimate move becomes Divine Thunder."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界三以上，绝招变为「神雷」。"
@@ -1871,11 +2804,19 @@
   - split: 1
     text: "太白仙迹"
     translated: "Taibai Immortal Footprints"
+    qcReviewedText: "Taibai Immortal Footprints"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8112,[决斗]\\n境界二以上，绝招变为「太白仙迹」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAt Rank 2 and above, the Ultimate move becomes Taibai Immortal Trail."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为「太白仙迹」。"
@@ -1888,11 +2829,19 @@
   - split: 1
     text: "绝影奇袭"
     translated: "Shadowless Surprise Attack"
+    qcReviewedText: "Shadowless Surprise Attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8113,[决斗]\\n境界三以上，绝招变为「绝影奇袭」。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAbove the third realm, the ultimate move becomes Shadowless Ambush."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "境界三以上，绝招变为「绝影奇袭」。"
@@ -1905,11 +2854,22 @@
   - split: 1
     text: "天罡伏魔剑"
     translated: "Heavenly Gang Subduing Demon Sword"
+    qcReviewedText: "Heavenly Gang Subduing Demon Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8119,[决斗]\\n境界三以上，绝招变为[天罡伏魔剑]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nAbove the Third Stage, the Ultimate moves become available.[Heavenly Gang Subduing Demon Sword]。"
+    qcTranslated: "[Duel]\\nAbove the Third Stage, the Ultimate moves become available.[Heavenly Gang Subduing Demon Sword]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界三以上，绝招变为"
@@ -1926,11 +2886,23 @@
   - split: 1
     text: "风雷神脚"
     translated: "Wind Thunder Divine Foot"
+    qcReviewedText: "Wind Thunder Divine Foot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8121,[决斗]\\n境界二以上，连击数大于3时，绝招变为[风雷神脚]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the level is Rank 2 or above and the number of consecutive hits is greater than 3, the Ultimate skill changes.[Wind Thunder Divine Foot]。"
+    qcTranslated: "[Duel]\\nWhen the level is Rank 2 or above and the number of consecutive hits is greater than 2, the Ultimate skill changes to [Wind Thunder Divine Foot]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "境界二以上，连击数大于3时，绝招变为"
@@ -1947,11 +2919,23 @@
   - split: 1
     text: "同舟剑法"
     translated: "Tongzhou Sword Technique"
+    qcReviewedText: "Tongzhou Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8125,[决斗]\\n有支持同伴时，全属性上升。\\n且连击数>2时，绝招变为[同舟剑法]。\\n无法使用[点破云关]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nHaving support from allies increases all attributes \\nAnd combo count>At 2 time, the Ultimate move becomes[Tongzhou Sword Technique]。\\nCannot use it[Breakthrough of Cloud Pass]。"
+    qcTranslated: "[Duel]\\nHaving support from allies increases all attributes.\\nAnd when combo count > 2, the Ultimate move becomes [Tongzhou Sword Art].\\nCannot use [Breakthrough of Cloud Pass]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "有支持同伴时，全属性上升。"
@@ -1984,11 +2968,22 @@
   - split: 1
     text: "剑圣第一极招"
     translated: "The First Ultimate Technique of the Sword Saint"
+    qcReviewedText: "The First Ultimate Technique of the Sword Saint"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8126,[决斗]\\n当连击数大于3时，绝招变为[第一极招]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the combo count exceeds 3, the Ultimate technique changes to[First Extreme Move]。"
+    qcTranslated: "[Duel]\\nWhen the combo count exceeds 3, the Ultimate technique changes to [First Extreme Move]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "当连击数大于3时，绝招变为"
@@ -2005,11 +3000,22 @@
   - split: 1
     text: "剑圣第二极招"
     translated: "Sword Saint's Second Apex Technique"
+    qcReviewedText: "Sword Saint's Second Apex Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8127,[决斗]\\n当连击数大于3时，绝招变为[第二极招]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the combo count exceeds 3, the Ultimate technique changes to[Second Extreme Move]。"
+    qcTranslated: "[Duel]\\nWhen the combo count exceeds 3, the Ultimate technique changes to [Second Extreme Move]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "当连击数大于3时，绝招变为"
@@ -2026,11 +3032,22 @@
   - split: 1
     text: "剑圣第三极招"
     translated: "Sword Saint's Third Apex Technique"
+    qcReviewedText: "Sword Saint's Third Apex Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/8128,[决斗]\\n当连击数大于3时，绝招变为[第三极招]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the combo count exceeds 3, the Ultimate technique changes to[Third Extreme Technique]。"
+    qcTranslated: "[Duel]\\nWhen the combo count exceeds 3, the Ultimate technique changes to [Third Extreme Technique]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "当连击数大于3时，绝招变为"
@@ -2047,21 +3064,37 @@
   - split: 1
     text: "不洗澡"
     translated: "No bath taken"
+    qcReviewedText: "No bath taken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9000,不洗澡"
   splits:
   - split: 1
     text: "不洗澡"
     translated: "No bath taken"
+    qcReviewedText: "No bath taken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9100,战术"
   splits:
   - split: 1
     text: "战术"
     translated: "Tactics"
+    qcReviewedText: "Tactics"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9100,[决斗]\\n根据等级，强化战术类技能的效果。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nEnhance the effects of tactical skills based on level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据等级，强化战术类技能的效果。"
@@ -2074,11 +3107,22 @@
   - split: 1
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
+    qcReviewedText: "Iron Pipa Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9102,[决斗]\\n崆峒奥义铁琵琶功。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nKongtong Inner Meaning Iron Flute Palm Technique"
+    qcTranslated: "[Duel]\\nKongtong Inner Meaning Iron Pipa Technique"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "崆峒奥义铁琵琶功。"
@@ -2091,21 +3135,40 @@
   - split: 1
     text: "大焦热神功"
     translated: "Great Convergence Divine Skill"
+    qcReviewedText: "Great Convergence Divine Skill"
+    qcTranslated: "Great Burning Heat Divine Skill"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "PlayerTalent/Desc/9103,大焦热神功。"
   splits:
   - split: 1
     text: "大焦热神功。"
     translated: "Great Flame Divine Skill"
+    qcReviewedText: "Great Flame Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9104,南宫护心诀"
   splits:
   - split: 1
     text: "南宫护心诀"
     translated: "Nangong Heart Protection Technique"
+    qcReviewedText: "Nangong Heart Protection Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9104,[决斗]\\n可抵挡致命攻击，並恢复气力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nCan withstand fatal attacks and restore energy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "可抵挡致命攻击，並恢复气力。"
@@ -2118,11 +3181,22 @@
   - split: 1
     text: "失魂落魄"
     translated: "Lost in thought"
+    qcReviewedText: "Lost in thought"
+    qcTranslated: "Soulless and disheartened"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
 - raw: "PlayerTalent/Desc/9105,[决斗]\\n有10%机率发作，忘记自己自谁、为何在此，不能行动。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nThere is a 10% chance that they will have an episode and forget who they are, why they are here, and be unable to act."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "有10%机率发作，忘记自己自谁、为何在此，不能行动。"
@@ -2135,41 +3209,79 @@
   - split: 1
     text: "经脉闭塞"
     translated: "Meridian blockage"
+    qcReviewedText: "Meridian blockage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9106,内力大幅弱化。"
   splits:
   - split: 1
     text: "内力大幅弱化。"
     translated: "Inner strength significantly diminished"
+    qcReviewedText: "Inner strength significantly diminished"
+    qcTranslated: "Inner Power significantly diminished"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "PlayerTalent/Name/9107,玄黄纳心纲"
   splits:
   - split: 1
     text: "玄黄纳心纲"
     translated: "Xuan Huang Na Xin Gang"
+    qcReviewedText: "Xuan Huang Na Xin Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9107,玄黄纳心纲"
   splits:
   - split: 1
     text: "玄黄纳心纲"
     translated: "Xuan Huang Na Xin Gang"
+    qcReviewedText: "Xuan Huang Na Xin Gang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9108,雪山心法"
   splits:
   - split: 1
     text: "雪山心法"
     translated: "Snow Mountain Heart Method"
+    qcReviewedText: "Snow Mountain Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9108,雪山心法"
   splits:
   - split: 1
     text: "雪山心法"
     translated: "Snow Mountain Heart Method"
+    qcReviewedText: "Snow Mountain Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9109,战术诱导"
   splits:
   - split: 1
     text: "战术诱导"
     translated: "Tactical guidance"
+    qcReviewedText: "Tactical guidance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9109,[决斗]\\n根据[战术]技能等级，有更高机率看穿对手意图。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nBased on[Tactics]Increases the chance of reading your opponent's intentions."
+    qcTranslated: "[Duel]\\nBased on the [Tactics] skill level, there is a higher chance of reading your opponent's intentions."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 1
     subIndex: 1
     text: "根据"
@@ -2190,31 +3302,55 @@
   - split: 1
     text: "兵器损毁"
     translated: "Weapon damaged"
+    qcReviewedText: "Weapon damaged"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9110,兵器损毁"
   splits:
   - split: 1
     text: "兵器损毁"
     translated: "Weapon damaged"
+    qcReviewedText: "Weapon damaged"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9111,寂灭三摩地"
   splits:
   - split: 1
     text: "寂灭三摩地"
     translated: "Nirvana Samadhi"
+    qcReviewedText: "Nirvana Samadhi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9111,寂灭三摩地"
   splits:
   - split: 1
     text: "寂灭三摩地"
     translated: "Nirvana Samadhi"
+    qcReviewedText: "Nirvana Samadhi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9112,九转轮回"
   splits:
   - split: 1
     text: "九转轮回"
     translated: "Nine Cycles of Reincarnation"
+    qcReviewedText: "Nine Cycles of Reincarnation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9112,[决斗]\\n可抵挡致命攻击，并恢复满血。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nCan withstand fatal attacks and restore full health."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "可抵挡致命攻击，并恢复满血。"
@@ -2227,11 +3363,19 @@
   - split: 1
     text: "偕老誓"
     translated: "Vow of Growing Old Together"
+    qcReviewedText: "Vow of Growing Old Together"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9113,[决斗]\\n可抵挡致命攻击，并恢复气力。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nCan withstand fatal attacks and restore energy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "可抵挡致命攻击，并恢复气力。"
@@ -2244,11 +3388,22 @@
   - split: 1
     text: "打穴娟索"
     translated: "Acupoint Striking and Threading"
+    qcReviewedText: "Acupoint Striking and Threading"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9200,[決鬥]\\n气高于对手时，暗器变为[打穴娟索]。"
   splits:
   - split: 1
     text: "決鬥"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen your qi surpasses your opponent's, the Hidden Weapon becomes[Acupoint Striking and Threading]。"
+    qcTranslated: "[Duel]\\nWhen your qi surpasses your opponent's, the Hidden Weapon becomes [Acupoint Striking and Threading]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "气高于对手时，暗器变为"
@@ -2265,11 +3420,19 @@
   - split: 1
     text: "猿王劈山"
     translated: "Yuan Wang Splitting Mountain"
+    qcReviewedText: "Yuan Wang Splitting Mountain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9201,[决斗]\\n根据连击数造成伤害。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nDeal damage based on the number of consecutive hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据连击数造成伤害。"
@@ -2282,11 +3445,22 @@
   - split: 1
     text: "猿王回风"
     translated: "Monkey King's Wind Return"
+    qcReviewedText: "Monkey King's Wind Return"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9202,[决斗]\\n备揍时格档、闪避大幅上升，成功回避攻击时获得[猿王回风]。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen guarding against an impending attack, your dodge rate significantly increases, and you gain a bonus when you successfully evade the attack.[Monkey King's Wind Return]。"
+    qcTranslated: "[Duel]\\nWhen guarding against an impending attack, your dodge rate significantly increases, and you gain [Monkey King's Wind Return] when you successfully evade the attack."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "备揍时格档、闪避大幅上升，成功回避攻击时获得"
@@ -2303,38 +3477,76 @@
   - split: 1
     text: "儒学"
     translated: "Confucianism"
+    qcReviewedText: "Confucianism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9500,儒学精通"
   splits:
   - split: 1
     text: "儒学精通"
     translated: "Confucianism well‑versed"
+    qcReviewedText: "Confucianism well‑versed"
+    qcTranslated: "Proficient in Confucianism"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "PlayerTalent/Name/9501,道学"
   splits:
   - split: 1
     text: "道学"
     translated: "Daoism"
+    qcReviewedText: "Daoism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9501,道学精通"
   splits:
   - split: 1
     text: "道学精通"
     translated: "Mastered in Daoism"
+    qcReviewedText: "Mastered in Daoism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9502,佛学"
   splits:
   - split: 1
     text: "佛学"
     translated: "Buddhist philosophy"
+    qcReviewedText: "Buddhist philosophy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9502,佛学精通"
   splits:
   - split: 1
     text: "佛学精通"
     translated: "Buddhist scholarship is profound"
+    qcReviewedText: "Buddhist scholarship is profound"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Name/9503,形意拳"
   splits:
   - split: 1
     text: "形意拳"
     translated: "Xingyi Fist"
+    qcReviewedText: "Xingyi Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerTalent/Desc/9503,形意拳精通"
   splits:
   - split: 1
     text: "形意拳精通"
     translated: "Form Sandboxing Fist proficiently"
+    qcReviewedText: "Form Sandboxing Fist proficiently"
+    qcTranslated: "Xingyiquan Proficient"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm

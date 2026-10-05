@@ -3,6 +3,10 @@
   - split: 1
     text: "捅人伤害"
     translated: "Assault damage"
+    qcReviewedText: "Assault damage+{0:N0}  Dice+{1:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "骰子"
@@ -15,6 +19,10 @@
   - split: 1
     text: "捅人伤害"
     translated: "Assault damage"
+    qcReviewedText: "Assault damage+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -23,6 +31,10 @@
   - split: 1
     text: "暗器伤害"
     translated: "Hidden weapon damage"
+    qcReviewedText: "Hidden weapon damage+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -31,6 +43,10 @@
   - split: 1
     text: "暗器命中补正"
     translated: "Hidden Weapon Hit Rate Correction"
+    qcReviewedText: "Hidden Weapon Hit Rate Correction+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -39,6 +55,10 @@
   - split: 1
     text: "暗器伤害"
     translated: "Hidden weapon damage"
+    qcReviewedText: "Hidden weapon damage+{0:N0}  Hidden Weapon dice+{1:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "暗器骰子"
@@ -51,6 +71,13 @@
   - split: 1
     text: "备揍减免"
     translated: "Prepare for a reduced beating"
+    qcReviewedText: "Prepare for a reduced beating+{0:N0}"
+    qcTranslated: "Damage Reduction+{0:N0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -59,6 +86,10 @@
   - split: 1
     text: "血量"
     translated: "Health points"
+    qcReviewedText: "Health points+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -67,6 +98,10 @@
   - split: 1
     text: "移动速度加成"
     translated: "Increased movement speed"
+    qcReviewedText: "Increased movement speed {0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -75,6 +110,10 @@
   - split: 1
     text: "血毒"
     translated: "Blood Poison"
+    qcReviewedText: "Blood Poison+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -83,6 +122,10 @@
   - split: 1
     text: "神经毒"
     translated: "Neurotoxin"
+    qcReviewedText: "Neurotoxin+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -91,6 +134,10 @@
   - split: 1
     text: "抗毒"
     translated: "Resist Poison"
+    qcReviewedText: "Resist Poison+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -99,6 +146,10 @@
   - split: 1
     text: "抗麻"
     translated: "Resist Paralysis"
+    qcReviewedText: "Resist Paralysis+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -107,6 +158,10 @@
   - split: 1
     text: "近战伤害"
     translated: "Close combat damage"
+    qcReviewedText: "Close combat damage {0:N0}  Critical hit rate {1:P0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "爆击率"
@@ -119,6 +174,10 @@
   - split: 1
     text: "平射伤害"
     translated: "Straight‑line damage"
+    qcReviewedText: "Straight‑line damage {0:N0}  Critical hit rate {1:P0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "爆击率"
@@ -131,6 +190,10 @@
   - split: 1
     text: "抛射伤害"
     translated: "Explosive damage"
+    qcReviewedText: "Explosive damage {0:N0}  Critical hit rate {1:P0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "爆击率"
@@ -143,6 +206,10 @@
   - split: 1
     text: "陷阱伤害"
     translated: "Trap damage"
+    qcReviewedText: "Trap damage {0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -151,6 +218,10 @@
   - split: 1
     text: "范围"
     translated: "Range"
+    qcReviewedText: "Range {0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0:N0⟧"
@@ -159,6 +230,10 @@
   - split: 1
     text: "全部生命"
     translated: "All health"
+    qcReviewedText: "All health+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -167,6 +242,10 @@
   - split: 1
     text: "防御等级"
     translated: "Defense level"
+    qcReviewedText: "Defense level+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -175,6 +254,10 @@
   - split: 1
     text: "每秒回血"
     translated: "Heals per second"
+    qcReviewedText: "Heals per second+{0:N0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
@@ -183,6 +266,13 @@
   - split: 1
     text: "触发"
     translated: "Triggered"
+    qcReviewedText: "Triggered {0:N0} An abnormal condition"
+    qcTranslated: "Triggered {0:N0} abnormal conditions"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "种异常状态"
@@ -195,6 +285,13 @@
   - split: 1
     text: "异常状态"
     translated: "Abnormal state"
+    qcReviewedText: "Abnormal state：Poison level+{0:N0}"
+    qcTranslated: "Abnormal state: Poison level+{0:N0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "中毒等级"
@@ -207,6 +304,13 @@
   - split: 1
     text: "异常状态"
     translated: "Abnormal state"
+    qcReviewedText: "Abnormal state：Numbness level+{0:N0}"
+    qcTranslated: "Abnormal state: Numbness level+{0:N0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "麻痹等级"
@@ -219,6 +323,13 @@
   - split: 1
     text: "异常状态"
     translated: "Abnormal state"
+    qcReviewedText: "Abnormal state：Poison resistance level+{0:N0}"
+    qcTranslated: "Abnormal state: Poison resistance level+{0:N0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "抗毒等级"
@@ -231,6 +342,13 @@
   - split: 1
     text: "异常状态"
     translated: "Abnormal state"
+    qcReviewedText: "Abnormal state：Morphine Resistance Level+{0:N0}"
+    qcTranslated: "Abnormal state: Numbing Resistance Level+{0:N0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "抗麻等级"

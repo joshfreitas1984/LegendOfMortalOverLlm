@@ -3,271 +3,497 @@
   - split: 1
     text: "银两"
     translated: "Silver taels"
+    qcReviewedText: "Silver taels"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/life,体力"
   splits:
   - split: 1
     text: "体力"
     translated: "Stamina"
+    qcReviewedText: "Stamina"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/stamina,内力"
   splits:
   - split: 1
     text: "内力"
     translated: "Inner strength"
+    qcReviewedText: "Inner strength"
+    qcTranslated: "Inner Power"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DomainTerm
 - raw: "PlayerStat/dexterity,轻功"
   splits:
   - split: 1
     text: "轻功"
     translated: "Qinggong"
+    qcReviewedText: "Qinggong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/charisma,魅力"
   splits:
   - split: 1
     text: "魅力"
     translated: "Charm"
+    qcReviewedText: "Charm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/literacy,学问"
   splits:
   - split: 1
     text: "学问"
     translated: "Knowledge"
+    qcReviewedText: "Knowledge"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/mental,心相"
   splits:
   - split: 1
     text: "心相"
     translated: "Heart Connection"
+    qcReviewedText: "Heart Connection"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/fate,命运"
   splits:
   - split: 1
     text: "命运"
     translated: "Fate"
+    qcReviewedText: "Fate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/disposition,性情"
   splits:
   - split: 1
     text: "性情"
     translated: "Personality"
+    qcReviewedText: "Personality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/behaviour,处世"
   splits:
   - split: 1
     text: "处世"
     translated: "Worldliness"
+    qcReviewedText: "Worldliness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/training,修养"
   splits:
   - split: 1
     text: "修养"
     translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/karma,道德"
   splits:
   - split: 1
     text: "道德"
     translated: "Morality"
+    qcReviewedText: "Morality"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/talking,嘴力"
   splits:
   - split: 1
     text: "嘴力"
     translated: "Mouth Power"
+    qcReviewedText: "Mouth Power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/fame,名声"
   splits:
   - split: 1
     text: "名声"
     translated: "Reputation"
+    qcReviewedText: "Reputation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/people,门人"
   splits:
   - split: 1
     text: "门人"
     translated: "Disciple"
+    qcReviewedText: "Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/team,向心"
   splits:
   - split: 1
     text: "向心"
     translated: "Focused"
+    qcReviewedText: "Focused"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/faction,门派规模"
   splits:
   - split: 1
     text: "门派规模"
     translated: "Sect Size"
+    qcReviewedText: "Sect Size"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/weapon,锻造"
   splits:
   - split: 1
     text: "锻造"
     translated: "Forging"
+    qcReviewedText: "Forging"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/poison,炼丹"
   splits:
   - split: 1
     text: "炼丹"
     translated: "Alchemy"
+    qcReviewedText: "Alchemy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/contribution,贡献度"
   splits:
   - split: 1
     text: "贡献度"
     translated: "Contribution Level"
+    qcReviewedText: "Contribution Level"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/internal,阴阳"
   splits:
   - split: 1
     text: "阴阳"
     translated: "Yin and Yang"
+    qcReviewedText: "Yin and Yang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/change-heart,变心"
   splits:
   - split: 1
     text: "变心"
     translated: "Change of heart"
+    qcReviewedText: "Change of heart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/action,行动次数"
   splits:
   - split: 1
     text: "行动次数"
     translated: "Action Count"
+    qcReviewedText: "Action Count"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/action2,行动"
   splits:
   - split: 1
     text: "行动"
     translated: "Action"
+    qcReviewedText: "Action"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/poison-resistance,抗毒"
   splits:
   - split: 1
     text: "抗毒"
     translated: "Resist Poison"
+    qcReviewedText: "Resist Poison"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/paralysis-resistance,抗麻"
   splits:
   - split: 1
     text: "抗麻"
     translated: "Resist Paralysis"
+    qcReviewedText: "Resist Paralysis"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/martial-point,武学"
   splits:
   - split: 1
     text: "武学"
     translated: "Martial Arts"
+    qcReviewedText: "Martial Arts"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/assets,门派资产"
   splits:
   - split: 1
     text: "门派资产"
     translated: "Sect Assets"
+    qcReviewedText: "Sect Assets"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-sword,刀剑"
   splits:
   - split: 1
     text: "刀剑"
     translated: "Blade and sword"
+    qcReviewedText: "Blade and sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-projectile,暗器"
   splits:
   - split: 1
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-fist,拳掌"
   splits:
   - split: 1
     text: "拳掌"
     translated: "Fist and palm"
+    qcReviewedText: "Fist and palm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-leg,腿法"
   splits:
   - split: 1
     text: "腿法"
     translated: "Leg Techniques"
+    qcReviewedText: "Leg Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-odd,奇门"
   splits:
   - split: 1
     text: "奇门"
     translated: "Qimen"
+    qcReviewedText: "Qimen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-soft,软兵器"
   splits:
   - split: 1
     text: "软兵器"
     translated: "Soft weapons"
+    qcReviewedText: "Soft weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/m-stick,枪棍"
   splits:
   - split: 1
     text: "枪棍"
     translated: "Spear Staff"
+    qcReviewedText: "Spear Staff"
+    qcTranslated: "Spear & Staff"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "PlayerStat/m-internal,内功"
   splits:
   - split: 1
     text: "内功"
     translated: "Neigong"
+    qcReviewedText: "Neigong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/poison-value,毒药"
   splits:
   - split: 1
     text: "毒药"
     translated: "Poison"
+    qcReviewedText: "Poison"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/paralysis-value,麻痹"
   splits:
   - split: 1
     text: "麻痹"
     translated: "Paralysis"
+    qcReviewedText: "Paralysis"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/confucianism,儒学"
   splits:
   - split: 1
     text: "儒学"
     translated: "Confucianism"
+    qcReviewedText: "Confucianism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/taoism,道学"
   splits:
   - split: 1
     text: "道学"
     translated: "Daoism"
+    qcReviewedText: "Daoism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/buddhism,释学"
   splits:
   - split: 1
     text: "释学"
     translated: "Buddhism"
+    qcReviewedText: "Buddhism"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/xingyi,形意拳"
   splits:
   - split: 1
     text: "形意拳"
     translated: "Xingyi Fist"
+    qcReviewedText: "Xingyi Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/relationship,好感度"
   splits:
   - split: 1
     text: "好感度"
     translated: "Affinity"
+    qcReviewedText: "Affinity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/default-battle-hp,门人血量"
   splits:
   - split: 1
     text: "门人血量"
     translated: "Disciple's health points"
+    qcReviewedText: "Disciple's health points"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/battle-people,门人数量"
   splits:
   - split: 1
     text: "门人数量"
     translated: "Number of disciples"
+    qcReviewedText: "Number of disciples"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/lover,心上人"
   splits:
   - split: 1
     text: "心上人"
     translated: "Beloved"
+    qcReviewedText: "Beloved"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/combat-attack,攻击"
   splits:
   - split: 1
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/combat-defence,防御"
   splits:
   - split: 1
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/combat-ultimate,绝招"
   splits:
   - split: 1
     text: "绝招"
     translated: "Ultimate"
+    qcReviewedText: "Ultimate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/combat-attack-dice,爆发"
   splits:
   - split: 1
     text: "爆发"
     translated: "Burst"
+    qcReviewedText: "Burst"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/combat-weapon,暗器威力"
   splits:
   - split: 1
     text: "暗器威力"
     translated: "Power of Hidden Weapons"
+    qcReviewedText: "Power of Hidden Weapons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStat/combat-weapon-dice,暗器爆发"
   splits:
   - split: 1
     text: "暗器爆发"
     translated: "Hidden Weapon Burst"
+    qcReviewedText: "Hidden Weapon Burst"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/life,影响生命、绝招威力（小）。"
   splits:
   - split: 1
     text: "影响生命、绝招威力（小）。"
     translated: "Affects health, ultimate move power (small)"
+    qcReviewedText: "Affects health, ultimate move power (small)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/stamina,影响攻击力(中)、绝招威力(中)、战役回气速度。"
   splits:
   - split: 1
     text: "影响攻击力"
     translated: "Affects Attack Power"
+    qcReviewedText: "Affects Attack Power(Middle), Ultimate power(Middle), Recovery speed during battle"
+    qcTranslated: "Affects Attack Power (Medium), Ultimate power (Medium), and Recovery speed during battle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "中"
@@ -292,11 +518,22 @@
   - split: 1
     text: "影响回避机率、绝招威力（中）、战役移动速度。"
     translated: "Affects evasion probability, ultimate skill power (medium), and battle movement speed."
+    qcReviewedText: "Affects evasion probability, ultimate skill power (medium), and battle movement speed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/m-sword,影响攻击力(大)。"
   splits:
   - split: 1
     text: "影响攻击力"
     translated: "Affects Attack Power"
+    qcReviewedText: "Affects Attack Power(Big)。"
+    qcTranslated: "Affects Attack Power (Large)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "大"
@@ -309,6 +546,14 @@
   - split: 1
     text: "影响攻击力"
     translated: "Affects Attack Power"
+    qcReviewedText: "Affects Attack Power(Little one), Affects defense(Big)。"
+    qcTranslated: "Affects Attack Power (Small), Affects Defense (Large)"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "小"
@@ -329,41 +574,76 @@
   - split: 1
     text: "影响暗器的威力、爆击。"
     translated: "Affects the power of hidden weapons and critical hits."
+    qcReviewedText: "Affects the power of hidden weapons and critical hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/poison-resistance,影响血毒的抗性、代谢率。"
   splits:
   - split: 1
     text: "影响血毒的抗性、代谢率。"
     translated: "Affects resistance to blood poison and metabolic rate."
+    qcReviewedText: "Affects resistance to blood poison and metabolic rate."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/paralysis-resistance,影响神经毒的抗性、代谢率。"
   splits:
   - split: 1
     text: "影响神经毒的抗性、代谢率。"
     translated: "Affects resistance to poison and metabolic rate"
+    qcReviewedText: "Affects resistance to poison and metabolic rate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/talking,说话的才能，影响嘴攻效果。"
   splits:
   - split: 1
     text: "说话的才能，影响嘴攻效果。"
     translated: "Speaking talent affects mouth attack effectiveness"
+    qcReviewedText: "Speaking talent affects mouth attack effectiveness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/literacy,学习所得的知识。"
   splits:
   - split: 1
     text: "学习所得的知识。"
     translated: "Knowledge gained from learning"
+    qcReviewedText: "Knowledge gained from learning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/charisma,你所没有的某种东西。"
   splits:
   - split: 1
     text: "你所没有的某种东西。"
     translated: "Something you do not have"
+    qcReviewedText: "Something you do not have"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/mental,影响锻冶、炼丹、修练活动成功率。"
   splits:
   - split: 1
     text: "影响锻冶、炼丹、修练活动成功率。"
     translated: "Affects success rate of forging, alchemy, and cultivation activities."
+    qcReviewedText: "Affects success rate of forging, alchemy, and cultivation activities."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/weapon,锻造点数。[锻冶场使用]"
   splits:
   - split: 1
     text: "锻造点数。"
     translated: "Forge points"
+    qcReviewedText: "Forge points[Forge is in use]"
+    qcTranslated: "Forge points [Used at the Forge]"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "锻冶场使用"
@@ -376,6 +656,14 @@
   - split: 1
     text: "炼丹点数。"
     translated: "Alchemy point"
+    qcReviewedText: "Alchemy point[Alchemy lab in use]"
+    qcTranslated: "Alchemy Points. [Used in the Alchemy Lab]"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "炼丹房使用"
@@ -388,26 +676,49 @@
   - split: 1
     text: "门派的门人数量。"
     translated: "Number of disciples in the sect"
+    qcReviewedText: "Number of disciples in the sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/fame,门派的名声。"
   splits:
   - split: 1
     text: "门派的名声。"
     translated: "Reputation of the sect"
+    qcReviewedText: "Reputation of the sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/team,门派的向心力。"
   splits:
   - split: 1
     text: "门派的向心力。"
     translated: "Cohesion of the sect"
+    qcReviewedText: "Cohesion of the sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/assets,门派的资产。"
   splits:
   - split: 1
     text: "门派的资产。"
     translated: "Assets of the sect"
+    qcReviewedText: "Assets of the sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/martial-point,武学点数。[修练秘籍使用]"
   splits:
   - split: 1
     text: "武学点数。"
     translated: "Martial arts points"
+    qcReviewedText: "Martial arts points[Manual for cultivation techniques used]"
+    qcTranslated: "Martial arts points [Used for cultivation manuals]"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "修练秘籍使用"
@@ -420,6 +731,13 @@
   - split: 1
     text: "攻击"
     translated: "Attack"
+    qcReviewedText: "Attack：Basic damage"
+    qcTranslated: "Attack: Basic damage"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "基础杀伤力。"
@@ -432,6 +750,14 @@
   - split: 1
     text: "防御"
     translated: "Defense"
+    qcReviewedText: "Defense：Prepare to reduce damage taken and block rate."
+    qcTranslated: "Defense: Damage reduction when bracing and block rate."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "备揍减伤率、格档率。"
@@ -444,6 +770,10 @@
   - split: 1
     text: "绝招"
     translated: "Ultimate"
+    qcReviewedText: "Ultimate：The power of the ultimate move"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "绝招的威力。"
@@ -456,6 +786,14 @@
   - split: 1
     text: "爆发"
     translated: "Burst"
+    qcReviewedText: "Burst：Affecting attack dice"
+    qcTranslated: "Burst: Affects attack dice"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "影响攻击的骰子。"
@@ -468,6 +806,13 @@
   - split: 1
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon：The power of the hidden weapon"
+    qcTranslated: "Hidden Weapon: The power of the hidden weapon"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "暗器的威力。"
@@ -480,6 +825,13 @@
   - split: 1
     text: "爆发"
     translated: "Burst"
+    qcReviewedText: "Burst：The dice that affect the Hidden Weapon"
+    qcTranslated: "Burst: The dice that affect the Hidden Weapon"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "影响暗器的骰子。"
@@ -492,148 +844,274 @@
   - split: 1
     text: "暗器击中毒药累积值。"
     translated: "Hidden Weapon hits accumulate Poison value"
+    qcReviewedText: "Hidden Weapon hits accumulate Poison value"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "PlayerStatDesc/paralysis-value,暗器击中麻痹累积值。"
   splits:
   - split: 1
     text: "暗器击中麻痹累积值。"
     translated: "Hidden Weapon hit paralysis accumulation value"
+    qcReviewedText: "Hidden Weapon hit paralysis accumulation value"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/karma01,恶棍"
   splits:
   - split: 1
     text: "恶棍"
     translated: "Villain"
+    qcReviewedText: "Villain"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/karma02,坏人"
   splits:
   - split: 1
     text: "坏人"
     translated: "Bad Person"
+    qcReviewedText: "Bad Person"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/karma03,中庸"
   splits:
   - split: 1
     text: "中庸"
     translated: "Moderate"
+    qcReviewedText: "Moderate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/karma04,好人"
   splits:
   - split: 1
     text: "好人"
     translated: "Good person"
+    qcReviewedText: "Good person"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/karma05,侠客"
   splits:
   - split: 1
     text: "侠客"
     translated: "Heroic"
+    qcReviewedText: "Heroic"
+    qcTranslated: "Wanderer"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "StatLevel/disposition01,懦夫"
   splits:
   - split: 1
     text: "懦夫"
     translated: "Coward"
+    qcReviewedText: "Coward"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/disposition02,谨慎"
   splits:
   - split: 1
     text: "谨慎"
     translated: "Cautious"
+    qcReviewedText: "Cautious"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/disposition03,中庸"
   splits:
   - split: 1
     text: "中庸"
     translated: "Moderate"
+    qcReviewedText: "Moderate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/disposition04,勇敢"
   splits:
   - split: 1
     text: "勇敢"
     translated: "Brave"
+    qcReviewedText: "Brave"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/disposition05,莽夫"
   splits:
   - split: 1
     text: "莽夫"
     translated: "Brute"
+    qcReviewedText: "Brute"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/behaviour01,矫情"
   splits:
   - split: 1
     text: "矫情"
     translated: "Pretentiousness"
+    qcReviewedText: "Pretentiousness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/behaviour02,知礼"
   splits:
   - split: 1
     text: "知礼"
     translated: "Courteous"
+    qcReviewedText: "Courteous"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/behaviour03,中庸"
   splits:
   - split: 1
     text: "中庸"
     translated: "Moderate"
+    qcReviewedText: "Moderate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/behaviour04,豪爽"
   splits:
   - split: 1
     text: "豪爽"
     translated: "Bold"
+    qcReviewedText: "Bold"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/behaviour05,粗鲁"
   splits:
   - split: 1
     text: "粗鲁"
     translated: "Rude"
+    qcReviewedText: "Rude"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/training01,疯狂"
   splits:
   - split: 1
     text: "疯狂"
     translated: "Crazy"
+    qcReviewedText: "Crazy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/training02,暴躁"
   splits:
   - split: 1
     text: "暴躁"
     translated: "Irritable"
+    qcReviewedText: "Irritable"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/training03,中庸"
   splits:
   - split: 1
     text: "中庸"
     translated: "Moderate"
+    qcReviewedText: "Moderate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/training04,沉着"
   splits:
   - split: 1
     text: "沉着"
     translated: "Calmness"
+    qcReviewedText: "Calmness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/training05,君子"
   splits:
   - split: 1
     text: "君子"
     translated: "Gentleman"
+    qcReviewedText: "Gentleman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/mental01,忧郁"
   splits:
   - split: 1
     text: "忧郁"
     translated: "Melancholy"
+    qcReviewedText: "Melancholy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/mental02,平静"
   splits:
   - split: 1
     text: "平静"
     translated: "Calm"
+    qcReviewedText: "Calm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/mental03,快乐"
   splits:
   - split: 1
     text: "快乐"
     translated: "Happiness"
+    qcReviewedText: "Happiness"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/internal01,老阴"
   splits:
   - split: 1
     text: "老阴"
     translated: "Greater Yin"
+    qcReviewedText: "Greater Yin"
+    qcTranslated: "Old Yin"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "StatLevel/internal02,少阴"
   splits:
   - split: 1
     text: "少阴"
     translated: "Lesser Yin"
+    qcReviewedText: "Lesser Yin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/internal03,调和"
   splits:
   - split: 1
     text: "调和"
     translated: "Harmony"
+    qcReviewedText: "Harmony"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/internal04,少阳"
   splits:
   - split: 1
     text: "少阳"
     translated: "Lesser Yang"
+    qcReviewedText: "Lesser Yang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "StatLevel/internal05,老阳"
   splits:
   - split: 1
     text: "老阳"
     translated: "Greater Yang"
+    qcReviewedText: "Greater Yang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

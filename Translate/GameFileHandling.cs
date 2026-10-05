@@ -65,6 +65,7 @@ public static class GameFileHandling
     /// </summary>
     public static readonly GameHooks Hooks = new()
     {
+        LineContextProvider = CharacterLineContext.Provide,
         CustomUnsafeToTranslateRule = (textFile, line, _) =>
             textFile.TextFileType == TextFileType.DynamicStrings
             && UnsafeDynamicStringCallSites.Any(line.Raw.StartsWith),

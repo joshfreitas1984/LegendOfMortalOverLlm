@@ -3,11 +3,19 @@
   - split: 1
     text: "你的日记"
     translated: "Your Diary"
+    qcReviewedText: "Your Diary"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/0000,记录了你在唐门打滚的日子。\\n只要有时间就会写。\\n已经很脏了，其中有缺几页，\\n是当年如厕时没有草纸，急用时撕下的。"
   splits:
   - split: 1
     text: "记录了你在唐门打滚的日子。"
     translated: "Documented the days you rolled around in the Tang Clan."
+    qcReviewedText: "Documented the days you rolled around in the Tang Clan.\\nI'll write whenever I have time \\nIt's already very dirty, and some pages are missing.\\nThis was torn off for use in an emergency when there was no toilet paper back then."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "只要有时间就会写。"
@@ -28,11 +36,23 @@
   - split: 1
     text: "唐门暗器总纲"
     translated: "Tang Clan Hidden Weapon General Principles"
+    qcReviewedText: "Tang Clan Hidden Weapon General Principles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/1000,唐门弟子人手一本的武功秘籍，\\n与《毒经》并列二宝。\\n若无师长传授心诀、运劲手法，\\n仅靠自学极难寸进。\\n开篇《忘形论》你已读得滚瓜烂熟。"
   splits:
   - split: 1
     text: "唐门弟子人手一本的武功秘籍，"
     translated: "The martial arts manual that every Tang Clan disciple has,"
+    qcReviewedText: "The martial arts manual that every Tang Clan disciple has,\\nOne of the two treasures, on par with the Poison Scripture.\\nWhile correcting, they found that without a teacher to impart the secret and teach the techniques for channeling energy, they were at a loss.\\nProgressing solely through self‑study is extremely difficult \\nYou have read On Forgetfulness so thoroughly that you know it by heart."
+    qcTranslated: "The martial arts manual that every Tang Clan disciple has,\\nOne of the two treasures, on par with the Poison Scripture.\\nWithout a master to impart the secret formula and teach the techniques for channeling energy,\\nprogressing solely through self‑study is extremely difficult.\\nThe opening chapter, On Forgetfulness, you have read so thoroughly that you know it by heart."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "与《毒经》并列二宝。"
@@ -57,11 +77,19 @@
   - split: 1
     text: "掷石问天"
     translated: "Throwing Stones to Ask Heaven"
+    qcReviewedText: "Throwing Stones to Ask Heaven"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/1010,飞石帮镇帮秘籍，是帮主年轻时得高人传授的独门暗器手法。\\n据说练到精深处，可以在平静水面上以飞石点水，弹跳八十八次。"
   splits:
   - split: 1
     text: "飞石帮镇帮秘籍，是帮主年轻时得高人传授的独门暗器手法。"
     translated: "The Flying Stone Gang's secret manual is the unique hidden weapon technique that the Gang Leader learned from a master when they were young."
+    qcReviewedText: "The Flying Stone Gang's secret manual is the unique hidden weapon technique that the Gang Leader learned from a master when they were young.\\nIt's said that when one reaches a high level of proficiency, they can skip a stone on calm water, making it jump eighty‑eight times."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "据说练到精深处，可以在平静水面上以飞石点水，弹跳八十八次。"
@@ -74,21 +102,40 @@
   - split: 1
     text: "拈花指法"
     translated: "Flower Picking Finger Technique"
+    qcReviewedText: "Flower Picking Finger Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/1020,闻名天下的嵩山指法，取自「释迦拈花，迦叶微笑」的典故。涅盘妙心，不可言说，亦难以文字描述，无形无相，不可思议。这套武学精深奥妙之处，非有慧根而不可得。"
   splits:
   - split: 1
     text: "闻名天下的嵩山指法，取自「释迦拈花，迦叶微笑」的典故。涅盘妙心，不可言说，亦难以文字描述，无形无相，不可思议。这套武学精深奥妙之处，非有慧根而不可得。"
     translated: "Renowned across the land, the Songshan finger technique draws from the anecdote of Sakyamuni Holding a Flower and Kasyapa Smiling. Nirvanic wondrous heart, ineffable and difficult to describe in words, formless and shapeless, beyond comprehension. The profundity and subtlety of this martial art can only be grasped by those with wisdom."
+    qcReviewedText: "Renowned across the land, the Songshan finger technique draws from the anecdote of Sakyamuni Holding a Flower and Kasyapa Smiling. Nirvanic wondrous heart, ineffable and difficult to describe in words, formless and shapeless, beyond comprehension. The profundity and subtlety of this martial art can only be grasped by those with wisdom."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/1030,金钟罩"
   splits:
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
+    qcReviewedText: "Golden Bell Shield"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/1030,嵩山派的经典硬气功，\\n乃是嵩山寺十八铜人的拿手绝活。\\n金钟罩兼修内外，外壮筋骨，内固脏腑，\\n功成之人身似铜铁，纵有拳脚加诸于身，亦不痛不痒。"
   splits:
   - split: 1
     text: "嵩山派的经典硬气功，"
     translated: "Songshan Sect's classic hard qi technique"
+    qcReviewedText: "Songshan Sect's classic hard qi technique \\nThis is the signature move of the eighteen bronze figures of Songshan Temple.\\nThe Golden Bell Shield cultivates both internal and external strengths.Externally, it strengthens the muscles and bones, and internally, it fortifies the organs.\\nA person who has achieved success is as tough as copper or iron; even if they are struck, it does not hurt at all."
+    qcTranslated: "Songshan Sect's classic hard qi technique \\nThis is the signature move of the eighteen bronze figures of Songshan Temple.\\nThe Golden Bell Shield cultivates both internal and external strengths. Externally, it strengthens the Muscle & Bone, and internally, it fortifies the organs.\\nA person who has achieved success is as tough as copper or iron; even if they are struck, it does not hurt at all."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "乃是嵩山寺十八铜人的拿手绝活。"
@@ -109,21 +156,41 @@
   - split: 1
     text: "云霄雷霆霹雳刀"
     translated: "Cloud Sky Thunderbolt Blade"
+    qcReviewedText: "Cloud Sky Thunderbolt Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2000,创自前朝大侠雷沾，命名霸气，招数亦丝毫不含糊，招招大开大阔，好似真有九天之雷劈落的气势，出刀之际，还要搭配声嘶力竭的大喝，轰破敌人护体气劲。"
   splits:
   - split: 1
     text: "创自前朝大侠雷沾，命名霸气，招数亦丝毫不含糊，招招大开大阔，好似真有九天之雷劈落的气势，出刀之际，还要搭配声嘶力竭的大喝，轰破敌人护体气劲。"
     translated: "Created by the great hero Lei Zhan of the previous dynasty, it is named with great power. The techniques are also straightforward and unambiguous, each move wide and expansive, as if truly embodying the momentum of thunder striking from the heavens. At the moment of drawing the blade, it is accompanied by a roar that pierces the air, shattering the enemy's protective energy."
+    qcReviewedText: "Created by the great hero Lei Zhan of the previous dynasty, it is named with great power. The techniques are also straightforward and unambiguous, each move wide and expansive, as if truly embodying the momentum of thunder striking from the heavens. At the moment of drawing the blade, it is accompanied by a roar that pierces the air, shattering the enemy's protective energy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/2001,流星剑谱"
   splits:
   - split: 1
     text: "流星剑谱"
     translated: "Meteor Sword Manual"
+    qcReviewedText: "Meteor Sword Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2001,点苍派高深剑诀，剑光奔若流星，一泻千里。\\n不求飘逸，只求瞬发。穷究快剑二字，身剑合一，意发并进，快到连影子都追不上身法。\\n「足踏、曲弓蓄势、离」，无论身形如何，皆离不开这三句心诀，其快如弓箭离弦，瞬息而至，可瞬间欺入敌怀，不成功便成仁。"
   splits:
   - split: 1
     text: "点苍派高深剑诀，剑光奔若流星，一泻千里。"
     translated: "The Diancang Sword Sect's profound sword techniques produce a sword light that races like a meteor, streaming for thousands of miles."
+    qcReviewedText: "The Diancang Sword Sect's profound sword techniques produce a sword light that races like a meteor, streaming for thousands of miles.\\nNot seeking elegance, only instant execution. Striving for speed in the word 'fast sword,' integrating body and sword, with intent and action advancing together, moving so quickly that even shadows can't catch up.\\nStep, bend, aim, release, no matter the posture, all movements cannot depart from these three mental mantras. They are as swift as an arrow leaving the bow, arriving in an instant, allowing one to instantly close the distance with the enemy, success or death."
+    qcTranslated: "The Diancang Sword Sect's profound sword techniques produce a sword light that races like a meteor, streaming for thousands of miles.\\nNot seeking elegance, only instant execution. Striving for speed in the word 'fast sword,' integrating body and sword, with intent and action advancing together, moving so quickly that even shadows can't catch up to one's Agility.\\nStep, bend, aim, release, no matter the posture, all movements cannot depart from these three mental mantras. They are as swift as an arrow leaving the bow, arriving in an instant, allowing one to instantly close the distance with the enemy, success or death."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "不求飘逸，只求瞬发。穷究快剑二字，身剑合一，意发并进，快到连影子都追不上身法。"
@@ -140,11 +207,22 @@
   - split: 1
     text: "翻浪刀法"
     translated: "Surging Wave Blade Technique"
+    qcReviewedText: "Surging Wave Blade Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2002,活跃于福、建地区的沧帮弟子所习练的武功。\\n沧帮背后有上官世家撑腰，这是人人都心照不宣的秘密，就连翻浪刀法，都是从上官家传刀法演化出来的，改以船桨、船橹施展，反而欲盖弥彰。\\n此刀法施展开来，有如江上波涛汹涌，连绵不绝，遇弱则阵阵相逼，遇强则意守后着，敌人若奋力相抗，不免扑空，一但露出破绽，后浪便咄咄逼来。刚中有柔，柔中有刚，攻中有守，守中有攻，是极上乘的刀法。\\n但你拿桨橹习练，注定学歪。"
   splits:
   - split: 1
     text: "活跃于福、建地区的沧帮弟子所习练的武功。"
     translated: "The martial arts practiced by the disciples of Cang Gang, active in the Fujian region."
+    qcReviewedText: "The martial arts practiced by the disciples of Cang Gang, active in the Fujian region.\\nCang Gang has the Shangguan family backing them, a secret that everyone implicitly understands. Even the Flipping Wave Blade Art was derived from the Shangguan family's blade techniques, but instead of using knives, it employs oars and paddles, which only serves to draw more attention to the connection.\\nWhen this blade technique is unleashed, it's like waves surging on a river, continuous and unending. It presses relentlessly when encountering weakness, and holds back to await the right moment when facing strength. If the enemy fights back forcefully, they may find themselves off balance; once a gap appears, the next wave will bear down on them. It combines hardness with softness, softness with hardness, offense with defense, and defense with offense‑it is an extremely advanced blade technique.\\nBut practicing with oars is bound to lead them astray."
+    qcTranslated: "The martial arts practiced by the disciples of Cang Gang, active in the Fujian region.\\nCang Gang has the Shangguan family backing them, a secret that everyone implicitly understands. Even the Flipping Wave Blade Art was derived from the Shangguan family's blade techniques, but instead of using knives, it employs oars and paddles, which only serves to draw more attention to the connection.\\nWhen this blade technique is unleashed, it's like waves surging on a river, continuous and unending. It presses relentlessly when encountering weakness, and holds back to await the right moment when facing strength. If the enemy fights back forcefully, they may find themselves off balance; once a gap appears, the next wave will bear down on them. It combines Hardness with Softness, Softness with Hardness, offense with defense, and defense with offense‑it is an extremely advanced blade technique.\\nBut practicing with oars and paddles is bound to lead them astray."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "沧帮背后有上官世家撑腰，这是人人都心照不宣的秘密，就连翻浪刀法，都是从上官家传刀法演化出来的，改以船桨、船橹施展，反而欲盖弥彰。"
@@ -165,11 +243,23 @@
   - split: 1
     text: "君子论剑"
     translated: "Gentleman Discusses Swordsmanship"
+    qcReviewedText: "Gentleman Discusses Swordsmanship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2003,一代儒侠曾文先生所著，总结四书五经十三经，论君子慎其独，由心而表于体，由知而形于礼，不亢不卑，言行如一。月换星移由他，江山易主随你，我自本心，修养自己。\\n人间再好，我亦不过是我而已；世道再坏，我亦不过是我而已。舍此色身，亦复如是。\\n凡我练剑习武之人，当守本心，以剑锋两刃为镜，不耻问亦求诸己，谦而自强不息，处患难不忧，当宴游惕虑，遇权豪无惧，是为君子剑。"
   splits:
   - split: 1
     text: "一代儒侠曾文先生所著，总结四书五经十三经，论君子慎其独，由心而表于体，由知而形于礼，不亢不卑，言行如一。月换星移由他，江山易主随你，我自本心，修养自己。"
     translated: "Master Wen Zeng, a renowned scholar‑knightsman of the past, wrote about summarizing the Four Books and Five Classics, and the Thirteen Classics. He discussed how a gentleman should be cautious in solitude, cultivating from the heart to the body, and from knowledge to ritual. Neither arrogant nor servile, their words and actions are consistent. The passage of time and changes in power are beyond my control, but I remain true to my heart and cultivate myself."
+    qcReviewedText: "Master Wen Zeng, a renowned scholar‑knightsman of the past, wrote about summarizing the Four Books and Five Classics, and the Thirteen Classics. He discussed how a gentleman should be cautious in solitude, cultivating from the heart to the body, and from knowledge to ritual. Neither arrogant nor servile, their words and actions are consistent. The passage of time and changes in power are beyond my control, but I remain true to my heart and cultivate myself.\\nNo matter how wonderful the world is, I remain who I am; no matter how corrupt the ways of the world, I remain who I am. Even if I were to leave this mortal form behind, it would be the same.\\nFor those who practice swordsmanship and martial arts, one must uphold one's true self, using the two edges of the sword as a mirror, unafraid to seek answers and improve within oneself, remaining humble yet ever‑striving for strength. In times of hardship, one should not be troubled, and when feasting and enjoying leisure, one must remain vigilant. When faced with power and authority, one must stand unafraid. This is the path of the gentleman swordsman."
+    qcTranslated: "Master Wen Zeng, a renowned scholar‑knightsman of the past, wrote about summarizing the Four Books, Five Classics, and the Thirteen Classics. He discussed how a gentleman should be cautious in solitude, cultivating from the heart to the body, and from knowledge to ritual. Neither arrogant nor servile, their words and actions are consistent. The passage of time and changes in power are beyond my control, but I remain true to my heart and cultivate myself.\\nNo matter how wonderful the world is, I remain who I am; no matter how corrupt the ways of the world, I remain who I am. Even if I were to leave this mortal form behind, it would be the same.\\nFor those who practice swordsmanship and martial arts, one must uphold one's true self, using the two edges of the sword as a mirror, unashamed to ask questions yet also seeking answers within oneself, remaining humble yet ever‑striving for strength. In times of hardship, one should not be troubled, and when feasting and enjoying leisure, one must remain vigilant. When faced with power and authority, one must stand unafraid. This is the path of the gentleman swordsman."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "人间再好，我亦不过是我而已；世道再坏，我亦不过是我而已。舍此色身，亦复如是。"
@@ -186,11 +276,19 @@
   - split: 1
     text: "鸳鸯拳剑谱"
     translated: "Mandarin Duck Fist and Sword Manual"
+    qcReviewedText: "Mandarin Duck Fist and Sword Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2004,峨嵋、唐门侠侣闭关钻研出的合击之术。\\n一人使拳，一人使剑，交相互补，琴瑟和谐，越是心意相通威力越强。\\n你有秘籍，但是没有伴侣。"
   splits:
   - split: 1
     text: "峨嵋、唐门侠侣闭关钻研出的合击之术。"
     translated: "The combined technique developed by the Emei and Tang Clan martial partners during their seclusion."
+    qcReviewedText: "The combined technique developed by the Emei and Tang Clan martial partners during their seclusion.\\nOne uses fists, the other uses a Sword, complementing each other, in harmony like a zither and a se, the stronger their mental connection, the greater their power.\\nYou have the secret manual, but you don't have a partner."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一人使拳，一人使剑，交相互补，琴瑟和谐，越是心意相通威力越强。"
@@ -207,21 +305,37 @@
   - split: 1
     text: "斩天黑翼双龙剑"
     translated: "Heaven Slaying Black Wing Twin Dragon Sword"
+    qcReviewedText: "Heaven Slaying Black Wing Twin Dragon Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2005,需要刀剑齐使才能施展，命名浮夸，招数本身却似乎华而不实，凭着气势一阵乱砍，意外很多人吃这套。"
   splits:
   - split: 1
     text: "需要刀剑齐使才能施展，命名浮夸，招数本身却似乎华而不实，凭着气势一阵乱砍，意外很多人吃这套。"
     translated: "It requires the simultaneous use of both blades and swords to perform. The name is boastful, but the techniques themselves seem more flashy than practical. Relying on momentum to slash wildly, it surprisingly works for many people."
+    qcReviewedText: "It requires the simultaneous use of both blades and swords to perform. The name is boastful, but the techniques themselves seem more flashy than practical. Relying on momentum to slash wildly, it surprisingly works for many people."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/2006,孔夫子剑"
   splits:
   - split: 1
     text: "孔夫子剑"
     translated: "Sword of Teacher Kong"
+    qcReviewedText: "Sword of Teacher Kong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2006,这套剑法起草自儒家孔夫子手笔，与骑射之术一并传授弟子的剑术，及后孔夫子周游列国，网罗七国剑法，不断改良精进，身后更经数朝更迭，精益求精，如应「天行健，君子以自强不息」的卦象，刚毅图强，永不停息。\\n行己也恭，无所争，无适，无莫，临大节而不可夺，是谓谦仲平和之剑，君子之剑。"
   splits:
   - split: 1
     text: "这套剑法起草自儒家孔夫子手笔，与骑射之术一并传授弟子的剑术，及后孔夫子周游列国，网罗七国剑法，不断改良精进，身后更经数朝更迭，精益求精，如应「天行健，君子以自强不息」的卦象，刚毅图强，永不停息。"
     translated: "This set of Swordsmanship was drafted by Confucius himself, along with the equestrian archery skills taught to his disciples. Afterward, as Confucius traveled throughout the Warring States period, he gathered sword techniques from all seven kingdoms, continuously improving and refining them. Following his death, the techniques underwent further refinement across several dynasties, striving for perfection. Reflecting the hexagram's philosophy of Heaven's movement is vigorous; the gentleman should strengthen himself without ceasing, the Swordsmanship embodies a spirit of resilience and ceaseless progress."
+    qcReviewedText: "This set of Swordsmanship was drafted by Confucius himself, along with the equestrian archery skills taught to his disciples. Afterward, as Confucius traveled throughout the Warring States period, he gathered sword techniques from all seven kingdoms, continuously improving and refining them. Following his death, the techniques underwent further refinement across several dynasties, striving for perfection. Reflecting the hexagram's philosophy of Heaven's movement is vigorous; the gentleman should strengthen himself without ceasing, the Swordsmanship embodies a spirit of resilience and ceaseless progress.\\nBe courteous in your conduct, avoid contention, be neither overly eager nor indifferent, remain steadfast in times of great trial‑this is the essence of the Sword of Humility and Balance, the Sword of the Gentleman."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "行己也恭，无所争，无适，无莫，临大节而不可夺，是谓谦仲平和之剑，君子之剑。"
@@ -234,21 +348,45 @@
   - split: 1
     text: "柴刀八斩法"
     translated: "Chai Dao Eight Slashing Techniques"
+    qcReviewedText: "Chai Dao Eight Slashing Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2007,峨嵋还是剑派时，遗传下来的古老锻身法，化繁为简，大开大阔，刚猛之处，却又峰回路转，留有余地。八路斩法看似平凡，其实，练不出高深武功，但于强健体魄、拉身筋骨帮助匪浅。"
   splits:
   - split: 1
     text: "峨嵋还是剑派时，遗传下来的古老锻身法，化繁为简，大开大阔，刚猛之处，却又峰回路转，留有余地。八路斩法看似平凡，其实，练不出高深武功，但于强健体魄、拉身筋骨帮助匪浅。"
     translated: "When Emei was still a sword school, the ancient body cultivation techniques passed down had simplified complex methods into broad and open practices. Though they were straightforward in appearance, their effectiveness lay in the subtle turns and reserved spaces that allowed for flexibility and resilience. The Eight Slash Method might seem ordinary, but it significantly strengthens one's physical constitution and helps to stretch and fortify the muscles and bones."
+    qcReviewedText: "When Emei was still a sword school, the ancient body cultivation techniques passed down had simplified complex methods into broad and open practices. Though they were straightforward in appearance, their effectiveness lay in the subtle turns and reserved spaces that allowed for flexibility and resilience. The Eight Slash Method might seem ordinary, but it significantly strengthens one's physical constitution and helps to stretch and fortify the muscles and bones."
+    qcTranslated: "When Emei was still a sword school, the ancient body cultivation techniques passed down had simplified complex methods into broad and open practices. Though they were straightforward in appearance, their effectiveness lay in the subtle turns and reserved spaces that allowed for flexibility and resilience. The Eight Slash Method might seem ordinary, but it significantly strengthens one's Resilience and helps to stretch and fortify the Muscle & Bone."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 25
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UnnaturalPhrasing
 - raw: "Book/Name/2008,八门锁金刀"
   splits:
   - split: 1
     text: "八门锁金刀"
     translated: "Eight Gates Locking Gold Blade"
+    qcReviewedText: "Eight Gates Locking Gold Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2008,青城秘籍，根据《奇门遁甲》中八门方位、星象、地形所制定的单人阵法。\\n将此阵法分拆化简，融会入刀招，即成为八门锁金刀，精妙无穷。"
   splits:
   - split: 1
     text: "青城秘籍，根据《奇门遁甲》中八门方位、星象、地形所制定的单人阵法。"
     translated: "The Qingcheng Manual, a single‑person formation based on the eight gates from The Secret Classic of the Eight Trigrams, star constellations, and terrain."
+    qcReviewedText: "The Qingcheng Manual, a single‑person formation based on the eight gates from The Secret Classic of the Eight Trigrams, star constellations, and terrain.\\nBy breaking down and simplifying this array and integrating it into sword techniques, it becomes the Eight Trigram Locking Gold Blade, a technique of infinite subtlety and depth."
+    qcTranslated: "The Qingcheng Manual, a single‑person formation based on the eight gates from The Secret Classic of the Eight Trigrams, star constellations, and terrain.\\nBy breaking down and simplifying this array and integrating it into blade techniques, it becomes the Eight Trigram Locking Gold Blade, a technique of infinite subtlety and depth."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "将此阵法分拆化简，融会入刀招，即成为八门锁金刀，精妙无穷。"
@@ -261,11 +399,22 @@
   - split: 1
     text: "三五斩妖剑"
     translated: "Three Five Demon Slaying Sword"
+    qcReviewedText: "Three Five Demon Slaying Sword"
+    qcTranslated: "Three‑Five Demon‑Slaying Sword"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Book/Desc/2009,东汉道人张陵所传，揉合正一道学问的青城派独门剑法。\\n强调以气御剑，于剑中求道，剑路光明正大，斩妖伏魔。"
   splits:
   - split: 1
     text: "东汉道人张陵所传，揉合正一道学问的青城派独门剑法。"
     translated: "A unique sword technique of the Qingcheng School, which combines the doctrines of the Zhengyi Dao tradition, passed down by the Eastern Han Daoist Zhang Ling."
+    qcReviewedText: "A unique sword technique of the Qingcheng School, which combines the doctrines of the Zhengyi Dao tradition, passed down by the Eastern Han Daoist Zhang Ling.\\nEmphasizing the use of inner energy to control the sword, seeking the Way within the sword, their swordsmanship is upright and righteous, cutting down demons and subduing monsters."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "强调以气御剑，于剑中求道，剑路光明正大，斩妖伏魔。"
@@ -278,21 +427,41 @@
   - split: 1
     text: "松风剑法"
     translated: "Pine Wind Sword Technique"
+    qcReviewedText: "Pine Wind Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2010,松风剑法"
   splits:
   - split: 1
     text: "松风剑法"
     translated: "Pine Wind Sword Technique"
+    qcReviewedText: "Pine Wind Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/2011,盘古开天破"
   splits:
   - split: 1
     text: "盘古开天破"
     translated: "Pangu Opens Heaven and Breaks the Earth"
+    qcReviewedText: "Pangu Opens Heaven and Breaks the Earth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2011,静江九县小盟主方震天的成名绝技，本是奇门武功，要以铁锤与钉子合使。\\n机缘巧合为方震天所得，声称这是他苦心创制的独门武功，为免被人看出手脚，将原本锤法改为刀法，至于钉法则略去不用，因此平空多了许多意义不明的怪招，破绽不小。"
   splits:
   - split: 1
     text: "静江九县小盟主方震天的成名绝技，本是奇门武功，要以铁锤与钉子合使。"
     translated: "Fang Zhtian, the small alliance leader of the nine counties in Jingjiang, made their name with a unique martial art that involves using a hammer and nails together."
+    qcReviewedText: "Fang Zhtian, the small alliance leader of the nine counties in Jingjiang, made their name with a unique martial art that involves using a hammer and nails together.\\nBy a stroke of luck, Fang Zhtian acquired it and claimed it to be a unique martial art they had painstakingly created. To avoid suspicion, they modified the original hammer technique into a blade technique and omitted the nail method altogether, resulting in a number of strange moves with unclear meanings and significant vulnerabilities."
+    qcTranslated: "Fang Zhentian, the Alliance Leader of the nine counties in Jingjiang, made his name with a unique martial art that involves using a hammer and nails together.\\nBy a stroke of luck, Fang Zhentian acquired it and claimed it to be a unique martial art he had painstakingly created. To avoid suspicion, he modified the original hammer technique into a Blade Technique and omitted the nail method altogether, resulting in a number of strange moves with unclear meanings and significant vulnerabilities."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 55
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 1
     subIndex: 1
     text: "机缘巧合为方震天所得，声称这是他苦心创制的独门武功，为免被人看出手脚，将原本锤法改为刀法，至于钉法则略去不用，因此平空多了许多意义不明的怪招，破绽不小。"
@@ -305,11 +474,22 @@
   - split: 1
     text: "天师剑法"
     translated: "Celestial Master Sword Technique"
+    qcReviewedText: "Celestial Master Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2200,泥教六道法王，「判官」赵逵的成名绝招。形似起乩的招数匪夷所思，施展开来阴风阵阵、鬼气森森。虽是剑谱，也有符咒等异术的记载，非常诡异。\\n其实正邪焉能貌相，存乎一心而矣！我自一口正气足，何忧世人悠悠之口，不怒自威，宛如钟馗再世，手提三尺天师剑，不斩妖邪誓不休。"
   splits:
   - split: 1
     text: "泥教六道法王，「判官」赵逵的成名绝招。形似起乩的招数匪夷所思，施展开来阴风阵阵、鬼气森森。虽是剑谱，也有符咒等异术的记载，非常诡异。"
     translated: "The Mud Cult's Six Paths Dharma King, Judge Zhao Kui's renowned ultimate technique. This move, resembling spirit medium possession, is unimaginable. While correcting, it conjures swirling cold winds and a chilling ghostly atmosphere. Though it is a sword manual, it also contains records of talismans and other strange arts, making it very eerie."
+    qcReviewedText: "The Mud Cult's Six Paths Dharma King, Judge Zhao Kui's renowned ultimate technique. This move, resembling spirit medium possession, is unimaginable. While correcting, it conjures swirling cold winds and a chilling ghostly atmosphere. Though it is a sword manual, it also contains records of talismans and other strange arts, making it very eerie.\\nTrue virtue and evil cannot be judged by appearance; it all lies in one's heart! As long as I have a righteous spirit within me, why should I fear the idle talk of others? Without even showing anger, I exude an aura that strikes fear, like Zhong Kui reincarnated, wielding a three‑foot‑long celestial sword, vowing to vanquish all demons and monsters."
+    qcTranslated: "The Mud Cult's Six Paths Dharma King, Judge Zhao Kui's renowned Ultimate technique. This move, resembling spirit medium possession, is unimaginable. When unleashed, it conjures swirling cold winds and a chilling ghostly atmosphere. Though it is a sword manual, it also contains records of talismans and other strange arts, making it very eerie.\\nTrue virtue and evil cannot be judged by appearance; it all lies in one's heart! As long as I have a righteous spirit within me, why should I fear the idle talk of others? Without even showing anger, I exude an aura that strikes fear, like Zhong Kui reincarnated, wielding a three‑foot‑long celestial Sword, vowing to vanquish all demons and monsters."
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "其实正邪焉能貌相，存乎一心而矣！我自一口正气足，何忧世人悠悠之口，不怒自威，宛如钟馗再世，手提三尺天师剑，不斩妖邪誓不休。"
@@ -322,11 +502,19 @@
   - split: 1
     text: "点苍剑谱"
     translated: "Diancang Sword Manual"
+    qcReviewedText: "Diancang Sword Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2300,点苍派剑谱，专走轻、柔、快、变的路子。\\n一旦使开，剑意绵绵不绝，有如行云流水般灵动飘逸。"
   splits:
   - split: 1
     text: "点苍派剑谱，专走轻、柔、快、变的路子。"
     translated: "Diancang Sword Manual focuses on lightness, softness, speed, and versatility."
+    qcReviewedText: "Diancang Sword Manual focuses on lightness, softness, speed, and versatility.\\nOnce unleashed, the sword intent flows continuously, as graceful and fluid as moving clouds and running water."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一旦使开，剑意绵绵不绝，有如行云流水般灵动飘逸。"
@@ -339,11 +527,19 @@
   - split: 1
     text: "同舟剑谱"
     translated: "Sword Manual of the Same Boat"
+    qcReviewedText: "Sword Manual of the Same Boat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2301,苍松剑客叶云舟习剑半生一切所得，在风雨山与恩师诀别之际始终顿悟。\\n剑出如奔雷，凌驾于点苍所有快剑之上，乃是唐门的剑法。"
   splits:
   - split: 1
     text: "苍松剑客叶云舟习剑半生一切所得，在风雨山与恩师诀别之际始终顿悟。"
     translated: "Swordmaster Ye Yunzhao, after half a lifetime of sword practice and all that he had gained, finally achieved enlightenment when he said goodbye to his master on Fengyu Mountain."
+    qcReviewedText: "Swordmaster Ye Yunzhao, after half a lifetime of sword practice and all that he had gained, finally achieved enlightenment when he said goodbye to his master on Fengyu Mountain.\\nThe sword moves like a bolt of lightning, surpassing all the swift sword techniques of Diancang. It is the Sword Art of the Tang Clan."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "剑出如奔雷，凌驾于点苍所有快剑之上，乃是唐门的剑法。"
@@ -356,11 +552,22 @@
   - split: 1
     text: "云裳剑法"
     translated: "Cloud Dress Sword Technique"
+    qcReviewedText: "Cloud Dress Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2302,点苍派万里挑一的弟子，能破格进入剑庐三日，参悟点苍剑圣留在剑庐中的三式剑意。\\n三招剑意各有奥义，无分高下，得一足以独步江湖，但是十之有九，住上十天半个月都一无所获。\\n叶云裳好奇心使然，偷溜进去玩，片刻就被人提了出来。\\n她虽不会武功，但是聪明绝顶，而又不落窠臼，仅那片刻，就若有所悟，只是年纪太小，迷迷糊糊。\\n今日诀别，才识离愁滋味，往事涌现心头，豁然顿悟，写就此招。\\n虽只一式，却残念无穷，此剑即为剑圣第四极招－－「魂游故里芳盈袖，春啼晓，莫挽留」。"
   splits:
   - split: 1
     text: "点苍派万里挑一的弟子，能破格进入剑庐三日，参悟点苍剑圣留在剑庐中的三式剑意。"
     translated: "Diancang Sect's outstanding disciples, who are one in ten thousand, can gain special permission to enter Sword Lodge for three days to study the three sword intents left by the Diancang Sword Saint in Sword Lodge."
+    qcReviewedText: "Diancang Sect's outstanding disciples, who are one in ten thousand, can gain special permission to enter Sword Lodge for three days to study the three sword intents left by the Diancang Sword Saint in Sword Lodge.\\nEach of the three sword intents has its own profound essence, with none being superior to the others. Mastering just one can make one stand out in Jianghu, but in reality, nine out of ten people return after ten days or half a month with nothing to show for it.\\nDriven by curiosity, Ye Yunshang sneaked in to play but was soon dragged out by someone.\\nAlthough they are not skilled in martial arts, they are incredibly clever and original, and within that brief moment, they seemed to gain some insight, though their young age left them somewhat confused.\\nToday, as we part ways, I finally taste the bitterness of parting. Memories flood back, and I suddenly understand, thus creating this move.\\nThough it is but a single move, it is filled with endless regret. This sword technique is the Sword Saint's fourth‑tier move ‑ Soul Wandering, Fragrance Fills the Sleeve, Spring's Dawn, Do Not Detain."
+    qcTranslated: "Diancang Sect's once‑in‑a‑millennium disciples can gain special permission to enter Sword Lodge for three days to study the three sword intents left by the Diancang Sword Saint in Sword Lodge.\\nEach of the three sword intents has its own profound essence, with none being superior to the others. Mastering just one can make one stand out in Jianghu, but nine times out of ten, even after staying for ten days or half a month, they gain nothing.\\nDriven by curiosity, Ye Yunshang sneaked in to play but was soon dragged out by someone.\\nAlthough she is not skilled in martial arts, she is incredibly clever and unconventional, and within that brief moment, she seemed to gain some insight, though her young age left her somewhat confused.\\nToday, as we part ways, I finally taste the bitterness of parting. Memories flood back, and I suddenly understand, thus creating this move.\\nThough it is but a single move, it is filled with endless regret. This sword technique is the Sword Saint's fourth ultimate move ‑ Soul Wandering, Fragrance Fills the Sleeve, Spring's Dawn, Do Not Detain."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "三招剑意各有奥义，无分高下，得一足以独步江湖，但是十之有九，住上十天半个月都一无所获。"
@@ -389,11 +596,22 @@
   - split: 1
     text: "点苍棒法"
     translated: "Diancang Staff Technique"
+    qcReviewedText: "Diancang Staff Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2303,叶云裳擅自涂改点苍剑谱所创的棒法。\\n没有杀伤力可言，但是补完了点苍剑法中不尽人意的缺憾之处，料敌所不料，单论招数变化，不失为妙着，就是卑鄙了一点，正常人不会这样。"
   splits:
   - split: 1
     text: "叶云裳擅自涂改点苍剑谱所创的棒法。"
     translated: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual."
+    qcReviewedText: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual.\\nIt lacks offensive power, but it completes the shortcomings of the Diancang Sword Technique, catching opponents off guard where they least expect it. While correcting, it's a clever move in terms of strategy changes, though it's a bit underhanded; most people wouldn't do something like this."
+    qcTranslated: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual.\\nIt lacks offensive power, but it completes the shortcomings of the Diancang Sword Technique, catching opponents off guard where they least expect it. In terms of move variations, it is a clever move, though it's a bit underhanded; most people wouldn't do something like this."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 1
     subIndex: 1
     text: "没有杀伤力可言，但是补完了点苍剑法中不尽人意的缺憾之处，料敌所不料，单论招数变化，不失为妙着，就是卑鄙了一点，正常人不会这样。"
@@ -406,11 +624,24 @@
   - split: 1
     text: "太白仙迹"
     translated: "Taibai Immortal Footprints"
+    qcReviewedText: "Taibai Immortal Footprints"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2400,李白中年将侍于翰林院，封剑退隐之前留下的剑法，一共三十六式。\\n这套剑法只在弟子武谔面前使过仅仅一次，那时李白还喝醉了。\\n起似随兴挥洒，偏生处处神来一笔，妙到颠毫，似剑而非剑，破千古窠臼，辟未有之奇。\\n一套剑法使完，独立树梢，衣袂飘飘，宛如神仙。而坐观的武谔却全身大汗淋漓。\\n相传武谔有艰涩难解处，欲请教师父，李白却道：「莫问我，问了你便学不会。」武谔猛然顿悟，欢天喜地而去，殊不知李白只是宿醉推搪而已。"
   splits:
   - split: 1
     text: "李白中年将侍于翰林院，封剑退隐之前留下的剑法，一共三十六式。"
     translated: "Li Bai, in their middle age, served at the Hanlin Academy and left behind a Sword Technique consisting of thirty‑six moves before retiring with their sword."
+    qcReviewedText: "Li Bai, in their middle age, served at the Hanlin Academy and left behind a Sword Technique consisting of thirty‑six moves before retiring with their sword.\\nThis sword technique was only demonstrated once, to disciple Wu E, when Li Bai was drunk.\\nIt flows as if casually wielded, yet everywhere there is a stroke of genius, perfect to the finest detail, neither sword nor sword, breaking free from millennia‑old conventions to forge unprecedented marvels.\\nAfter completing a set of sword techniques, they stood alone on a tree branch, their robes fluttering in the wind, looking like celestial beings. Meanwhile, Wu E, who had been watching, was drenched in sweat.\\nIt is said that Wu E has some difficult and obscure parts. They wanted to ask their teacher, but Li Bai said,：Don't ask me, for asking won't make you understand. Wu E suddenly had a realization and left in high spirits, unaware that Li Bai was just using a hangover as an excuse."
+    qcTranslated: "Li Bai, in his middle age, served at the Hanlin Academy and left behind a Sword Technique consisting of thirty‑six moves before retiring with his sword.\\nThis sword technique was only demonstrated once, to disciple Wu E, when Li Bai was drunk.\\nIt flows as if casually wielded, yet everywhere there is a stroke of genius, perfect to the finest detail, like a sword yet not a sword, breaking free from millennia‑old conventions to forge unprecedented marvels.\\nAfter completing a set of sword techniques, he stood alone on a tree branch, his robes fluttering in the wind, looking like a celestial being. Meanwhile, Wu E, who had been watching, was drenched in sweat.\\nIt is said that when Wu E encountered difficult and obscure parts and wanted to ask his teacher, Li Bai said: Don't ask me; if you ask, you won't be able to learn it. Wu E suddenly had a realization and left in high spirits, unaware that Li Bai was just using a hangover as an excuse."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "这套剑法只在弟子武谔面前使过仅仅一次，那时李白还喝醉了。"
@@ -439,11 +670,23 @@
   - split: 1
     text: "全真天遁剑法"
     translated: "Quanzhen Heavenly Escape Sword Technique"
+    qcReviewedText: "Quanzhen Heavenly Escape Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/2401,太古道人郝大通于华山创设全真华山派时携去的原始全真剑法，此书由王喆亲笔写就，丹阳子马钰抄录成七册分予师弟留作纪念，以缅怀师尊。\\n气、剑双修，难学难精，深奥非常。"
   splits:
   - split: 1
     text: "太古道人郝大通于华山创设全真华山派时携去的原始全真剑法，此书由王喆亲笔写就，丹阳子马钰抄录成七册分予师弟留作纪念，以缅怀师尊。"
     translated: "The original Quanzhen Sword Art brought by Daoist Master Hao Dacheng when he founded the Quanzhen Huashan Sect on Mount Hua. This book was personally written by Wang Che, and Danyangzi Ma Yu copied it into seven volumes to give to his junior disciples as a keepsake to honor their master."
+    qcReviewedText: "The original Quanzhen Sword Art brought by Daoist Master Hao Dacheng when he founded the Quanzhen Huashan Sect on Mount Hua. This book was personally written by Wang Che, and Danyangzi Ma Yu copied it into seven volumes to give to his junior disciples as a keepsake to honor their master.\\nCultivating both qi and sword techniques is difficult to learn and master, extremely profound."
+    qcTranslated: "The original Quanzhen Sword Art brought by Daoist Master Hao Dacheng when he founded the Quanzhen Huashan Sect on Mount Hua. This book was personally written by Wang Che, and Danyangzi Ma Yu copied it into seven volumes to distribute to his Junior Disciples as a keepsake to commemorate their master.\\nCultivating both qi and sword techniques is difficult to learn and master, extremely profound."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "气、剑双修，难学难精，深奥非常。"
@@ -456,11 +699,22 @@
   - split: 1
     text: "苦恼拳"
     translated: "Sorrowful Fist"
+    qcReviewedText: "Sorrowful Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/3000,嵩山寺中僧人禅修苦行，需得戒断三不善根，贪、嗔、痴是世间一切烦恼的根本，烦恼会驱使人造下种种恶业。\\n若要得解脱，须了知五蕴，远离颠倒梦想，方能究竟涅盘。\\n然而大道在此，世上又有几人能够办到？\\n这时，苦恼拳就是一个良善的治标方案，透过练拳挥洒汗水，累瘫了，自然就没力气胡思乱想了。"
   splits:
   - split: 1
     text: "嵩山寺中僧人禅修苦行，需得戒断三不善根，贪、嗔、痴是世间一切烦恼的根本，烦恼会驱使人造下种种恶业。"
     translated: "The monks at Songshan Temple practice Zen meditation and asceticism, and must observe precepts to sever the three roots of evil‑greed, anger, and delusion. These are the fundamental causes of all worldly suffering, driving people to commit various misdeeds."
+    qcReviewedText: "The monks at Songshan Temple practice Zen meditation and asceticism, and must observe precepts to sever the three roots of evil‑greed, anger, and delusion. These are the fundamental causes of all worldly suffering, driving people to commit various misdeeds.\\nTo gain liberation, one must understand the five aggregates, renounce illusory desires, and thus achieve final nirvana.\\nYet, with the Great Way before them, how many in the world are capable of achieving it?\\nPracticing 'kumao quan' is a good temporary solution; by working out and sweating, you'll exhaust yourself, and naturally, you won't have the energy to dwell on troubling thoughts."
+    qcTranslated: "The monks at Songshan Temple practice Zen meditation and asceticism, and must observe precepts to sever the three roots of evil‑greed, anger, and delusion. These are the fundamental causes of all worldly suffering, driving people to commit various misdeeds.\\nTo gain liberation, one must understand the five aggregates, renounce illusory desires, and thus achieve final nirvana.\\nYet, with the Great Way before them, how many in the world are capable of achieving it?\\nPracticing 'Kunao Quan' is a good temporary solution; by working out and sweating, you'll exhaust yourself, and naturally, you won't have the energy to dwell on troubling thoughts."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "若要得解脱，须了知五蕴，远离颠倒梦想，方能究竟涅盘。"
@@ -481,11 +735,19 @@
   - split: 1
     text: "太祖长拳"
     translated: "Taizu Long Fist"
+    qcReviewedText: "Taizu Long Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/3001,因宋太祖赵匡胤而得名，讲究实战攻防，套路严谨，脚步灵活。\\n囚身似猫，抖身如虎，行似尤龙，动如闪电。\\n虽然冠以太祖之名，但其实是嵩山拳法。"
   splits:
   - split: 1
     text: "因宋太祖赵匡胤而得名，讲究实战攻防，套路严谨，脚步灵活。"
     translated: "Named after Emperor Taizu Zhao Kuangyin of the Song Dynasty, this style emphasizes practical offense and defense, with rigorous techniques and agile footwork."
+    qcReviewedText: "Named after Emperor Taizu Zhao Kuangyin of the Song Dynasty, this style emphasizes practical offense and defense, with rigorous techniques and agile footwork.\\nConfined like a cat, trembling like a tiger, moving like a dragon, swift as lightning.\\nAlthough it bears the name of the Founding Ancestor, it is actually the Songshan martial art style."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "囚身似猫，抖身如虎，行似尤龙，动如闪电。"
@@ -502,11 +764,25 @@
   - split: 1
     text: "揍狗拳"
     translated: "Dog Punch"
+    qcReviewedText: "Dog Punch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/3002,《道德经》云：「天地不仁，以万物为刍狗。」\\n揍狗拳指称的狗，并非真狗，而是世间所有敌人。无论是谁都一视同仁，将他当狗毒打。区区狗仔，何足惧哉？只要认定自己会赢，气势压过对方，那怕是狼、是虎也得在你面前夹着尾巴逃跑。"
   splits:
   - split: 1
     text: "《道德经》云"
     translated: "Tao Te Ching states"
+    qcReviewedText: "Tao Te Ching states：The heavens and earth are indifferent, treating all things as straw dogs.\\nThe Punch‑Dog Fist technique doesn't refer to real dogs, but rather to all enemies in the world. Regardless of who they are, they are treated the same‑as dogs to be beaten mercilessly. What is there to fear about mere doggos? As long as you're confident in your victory and your momentum outweighs your opponent's, even wolves and tigers will run away with their tails between their legs."
+    qcTranslated: "Tao Te Ching states：The heavens and earth are indifferent, treating all things as straw dogs.\\nThe Punch‑Dog Fist technique doesn't refer to real dogs, but rather to all enemies in the world. Regardless of who they are, they are treated equally as dogs to be Poison beaten. What is there to fear about mere doggos? As long as you're confident in your victory and your Momentum outweighs your opponent's, even wolves and Tigers will run away with their tails between their legs."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 15
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - GarbledNumber
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "「天地不仁，以万物为刍狗。」"
@@ -523,11 +799,19 @@
   - split: 1
     text: "酩酊玄剑掌"
     translated: "Drunken Profound Sword Palm"
+    qcReviewedText: "Drunken Profound Sword Palm"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/3010,一门神奇的武功，作者姓名已经失佚。\\n既是掌法，也是剑法，手中无剑，心中却有剑。\\n招数精妙，却无半分杀气，似乎只为自娱，舞来有如清辉明月，酣畅淋漓。"
   splits:
   - split: 1
     text: "一门神奇的武功，作者姓名已经失佚。"
     translated: "A mysterious martial art, the author's name is unknown."
+    qcReviewedText: "A mysterious martial art, the author's name is unknown.\\nIt is both palm techniques and swordsmanship; there may be no sword in hand, but there is a sword in the heart.\\nThe move was exquisite, but without a trace of killing intent, as if done merely for personal enjoyment. The dance was as graceful and radiant as a full moon, utterly delightful."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "既是掌法，也是剑法，手中无剑，心中却有剑。"
@@ -544,11 +828,24 @@
   - split: 1
     text: "五毒秘录"
     translated: "Secret Record of Five Poisons"
+    qcReviewedText: "Secret Record of Five Poisons"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/3020,苗疆五毒教中的用毒法门，与唐门毒经可谓各擅胜场，药理亦不相同。\\n它山之石，可以为错。"
   splits:
   - split: 1
     text: "苗疆五毒教中的用毒法门，与唐门毒经可谓各擅胜场，药理亦不相同。"
     translated: "While correcting, it is noted that the poison techniques of the Wusheng Five Poison Sect are on par with those of the Tang Clan's Poison Scriptures, each excelling in their own right, and their pharmacology also differs."
+    qcReviewedText: "While correcting, it is noted that the poison techniques of the Wusheng Five Poison Sect are on par with those of the Tang Clan's Poison Scriptures, each excelling in their own right, and their pharmacology also differs.\\nBy analogy, one can find their own path."
+    qcTranslated: "The poison techniques of the Wusheng Five Poison Sect are on par with those of the Tang Clan's Poison Scriptures, each excelling in their own right, and their pharmacology also differs.\\nStones from other mountains can be used to polish jade."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - LostIdiom
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "它山之石，可以为错。"
@@ -561,21 +858,37 @@
   - split: 1
     text: "四平枪谱"
     translated: "Four Directions Spear Manual"
+    qcReviewedText: "Four Directions Spear Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4000,四平枪谱"
   splits:
   - split: 1
     text: "四平枪谱"
     translated: "Four Directions Spear Manual"
+    qcReviewedText: "Four Directions Spear Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/4001,金刚腿"
   splits:
   - split: 1
     text: "金刚腿"
     translated: "Diamond Leg"
+    qcReviewedText: "Diamond Leg"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4001,嵩山派名扬天下的硬功之一，由踢桩功为根基，习练者双腿系沙袋，轮流踢踹木桩百次为一趟，初习者分早午晚日踢三趟，随着功力日深，一日踢上十趟、二十趟都是日常。\\n及至百日，除却沙袋，脚腿轻灵而势猛如昔，根基已成，再练技巧，弹、蹬、踹、砸、摆、点、撩、扫，八字腿诀，无一不是脚到擒来。"
   splits:
   - split: 1
     text: "嵩山派名扬天下的硬功之一，由踢桩功为根基，习练者双腿系沙袋，轮流踢踹木桩百次为一趟，初习者分早午晚日踢三趟，随着功力日深，一日踢上十趟、二十趟都是日常。"
     translated: "One of the renowned hard skills of the Songshan Sect, which builds upon the foundation of kicking posts. Practitioners wear sandbags around their legs and alternately kick a wooden post a hundred times for each set. Beginners perform three sets daily, in the early morning, noon, and evening. As their skills progress, they may kick ten sets, or even twenty sets, in a single day."
+    qcReviewedText: "One of the renowned hard skills of the Songshan Sect, which builds upon the foundation of kicking posts. Practitioners wear sandbags around their legs and alternately kick a wooden post a hundred times for each set. Beginners perform three sets daily, in the early morning, noon, and evening. As their skills progress, they may kick ten sets, or even twenty sets, in a single day.\\nBy the hundredth day, after removing the sandbags, their feet and legs were light yet powerful as ever. Their foundation was now solid, and they began to refine their techniques, mastering the eight leg maneuvers: spring, kick, stomp, smash, swing, tap, hook, and sweep, all effortlessly."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "及至百日，除却沙袋，脚腿轻灵而势猛如昔，根基已成，再练技巧，弹、蹬、踹、砸、摆、点、撩、扫，八字腿诀，无一不是脚到擒来。"
@@ -588,11 +901,22 @@
   - split: 1
     text: "很是用力踢"
     translated: "Great Forceful Kick"
+    qcReviewedText: "Great Forceful Kick"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4002,原名为「风雷神脚」，是善使腿法闻名的英俊侠客「风神」解无尘的成名绝技。可惜在挑战饿鬼道法王刘颚之时，惨遭「犯剑」当众羞辱，解无尘急怒攻心，呕血饮败，被迫依约将「风雷神腿」更名为「很是用力踢」。\\n很是用力踢使起来极为凌厉，速度迅猛，宛如风雷引至，能蹴裂山岩，所向披靡，端的是厉害无比。"
   splits:
   - split: 1
     text: "原名为「风雷神脚」，是善使腿法闻名的英俊侠客「风神」解无尘的成名绝技。可惜在挑战饿鬼道法王刘颚之时，惨遭「犯剑」当众羞辱，解无尘急怒攻心，呕血饮败，被迫依约将「风雷神腿」更名为「很是用力踢」。"
     translated: "Originally known as the Wind Thunder Divine Foot, this was the famous technique of the handsome Wanderer Wind God Jie Wuchen, renowned for his leg techniques. Unfortunately, during a challenge against Dharma King Liu E of the Hungry Ghost Path, Jie Wuchen was publicly humiliated and disgraced by being punished by the sword. Overwhelmed with anger and frustration, Jie Wuchen coughed up blood and was defeated. As per their agreement, he was forced to rename the Wind Thunder Divine Leg to Very Forceful Kick."
+    qcReviewedText: "Originally known as the Wind Thunder Divine Foot, this was the famous technique of the handsome Wanderer Wind God Jie Wuchen, renowned for his leg techniques. Unfortunately, during a challenge against Dharma King Liu E of the Hungry Ghost Path, Jie Wuchen was publicly humiliated and disgraced by being punished by the sword. Overwhelmed with anger and frustration, Jie Wuchen coughed up blood and was defeated. As per their agreement, he was forced to rename the Wind Thunder Divine Leg to Very Forceful Kick.\\nThe kicks are delivered with great force, extremely fierce and swift, like a sudden storm, capable of breaking through rocks, invincible and truly formidable."
+    qcTranslated: "Originally known as the Wind Thunder Divine Foot, this was the famous technique of the handsome Wanderer Wind God Jie Wuchen, renowned for his leg techniques. Unfortunately, during a challenge against Dharma King Liu E of the Hungry Ghost Path, Jie Wuchen was publicly humiliated by the Invading Sword. Overwhelmed with anger and frustration, Jie Wuchen coughed up blood and was defeated. As per their agreement, he was forced to rename the Wind Thunder Divine Leg to Very Forceful Kick.\\nThe kicks are delivered with great force, extremely fierce and swift, like a sudden storm, capable of breaking through rocks, invincible and truly formidable."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "很是用力踢使起来极为凌厉，速度迅猛，宛如风雷引至，能蹴裂山岩，所向披靡，端的是厉害无比。"
@@ -605,11 +929,19 @@
   - split: 1
     text: "蛇兔鹰猿搏"
     translated: "Snake, Rabbit, Eagle, Ape Combat"
+    qcReviewedText: "Snake, Rabbit, Eagle, Ape Combat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4003,相传峨嵋派白猿祖师一日得闲，又去寻他山间猿友游戏，却不意撞见令他震惊至永生难以忘怀的奇葩场面。\\n山猿手抓小白兔，蛇缠住了猿猴的身体，老鹰从天而降扑击蛇，小白兔飞脱踩了老鹰的眼睛。\\n这画面转瞬即逝，四兽均受了偌大惊吓，四散逃亡，唯独白猿祖师怔然半晌，返屋后不思茶饭，终于第三日融会贯通，于早饭时拍案而起，当众弟子之面演示了这套蛇兔鹰猿搏。\\n众弟子各自印证，依资质高低领悟有多寡之别，却唯有一人参悟了兔形拳。"
   splits:
   - split: 1
     text: "相传峨嵋派白猿祖师一日得闲，又去寻他山间猿友游戏，却不意撞见令他震惊至永生难以忘怀的奇葩场面。"
     translated: "It is said that one day, the founding ancestor of the Emei Sect, the White Ape, was leisurely visiting their primate friends in the mountains and unexpectedly stumbled upon a bizarre scene that left them stunned and unforgettable for the rest of their life."
+    qcReviewedText: "It is said that one day, the founding ancestor of the Emei Sect, the White Ape, was leisurely visiting their primate friends in the mountains and unexpectedly stumbled upon a bizarre scene that left them stunned and unforgettable for the rest of their life.\\nA mountain ape grabs a little white rabbit, a snake coils around the ape's body, an eagle swoops down to strike the snake, and the little white rabbit escapes, kicking the eagle's eye.\\nThe scene was fleeting, and the four beasts were so frightened that they scattered in all directions. Only the White Ape Ancestor remained stunned for a moment before retreating to their home, where they lost their appetite and couldn't bear to think about food. Finally, on the third day, they had a breakthrough and, in front of all the disciples at breakfast, demonstrated this set of snake‑rabbit‑eagle‑ape combat techniques.\\nThe disciples each verified their understanding, with differences in their comprehension based on their individual aptitudes. Yet, there was one who managed to grasp the Rabbit Form Fist."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "山猿手抓小白兔，蛇缠住了猿猴的身体，老鹰从天而降扑击蛇，小白兔飞脱踩了老鹰的眼睛。"
@@ -630,11 +962,22 @@
   - split: 1
     text: "玄玄如意指"
     translated: "Xuanxuan Wish Fulfilling Finger"
+    qcReviewedText: "Xuanxuan Wish Fulfilling Finger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4004,武林盟主大侠龙渊七种成名绝技之一。\\n玄玄如意，妙手空空，能以素手接人兵器，探人衣囊，无往不利。\\n龙渊少年时没少用这招扒人钱财，直到他醒悟茁壮，一肩扛起武林命运，才将秘籍中窃物的手法删除。"
   splits:
   - split: 1
     text: "武林盟主大侠龙渊七种成名绝技之一。"
     translated: "One of the seven renowned signature skills of Great Hero Long Yuan, the Alliance Leader of the Wulin Alliance."
+    qcReviewedText: "One of the seven renowned signature skills of Great Hero Long Yuan, the Alliance Leader of the Wulin Alliance.\\nHolos Ruyi, with skilled hands empty, can catch weapons barehanded and search through pockets, always succeeding no matter the situation.\\nWhen Long Yuan was young, he didn't hesitate to use this trick to strip others of their money. It wasn't until he came to his senses and took responsibility for the fate of Wulin that he deleted the theft techniques from the secret manual."
+    qcTranslated: "One of the seven renowned signature skills of Great Hero Long Yuan, the Alliance Leader of the Wulin Alliance.\\nXuanxuan Ruyi, with nimble hands that leave no trace, can catch weapons barehanded and pick pockets, always succeeding no matter the situation.\\nWhen Long Yuan was young, he didn't hesitate to use this trick to strip others of their money. It wasn't until he came to his senses and took responsibility for the fate of Wulin that he deleted the theft techniques from the secret manual."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "玄玄如意，妙手空空，能以素手接人兵器，探人衣囊，无往不利。"
@@ -651,11 +994,24 @@
   - split: 1
     text: "那由它劫指"
     translated: "Nayuta Calamity Finger"
+    qcReviewedText: "Nayuta Calamity Finger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4005,一本古老的指谱，由梵文写成，深藏于藏经阁之下，若非地震，恐怕永世不见天日。\\n那由他是为佛教数字概念，意为「多不胜数」。\\n劫则是天竺的时间通称，历经成、住、坏、空之后，即为一大劫，故行此功须参悟禅机，不生不灭，以色身历劫无尽，方始证悟大道。"
   splits:
   - split: 1
     text: "一本古老的指谱，由梵文写成，深藏于藏经阁之下，若非地震，恐怕永世不见天日。"
     translated: "An ancient score, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever."
+    qcReviewedText: "An ancient score, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever.\\nThis refers to a Buddhist numerical concept meaning too numerous to count.\\nWhile correcting, one must ponder the Zen principle of neither birth nor death, enduring countless kalpas with one's physical body, in order to ultimately realize the great truth."
+    qcTranslated: "An ancient finger chart, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever.\\nNarayana is a Buddhist numerical concept meaning too numerous to count.\\nKalpa is the general term for time in India; after passing through formation, abiding, destruction, and emptiness, one great kalpa is completed. Therefore, to practice this technique, one must ponder the Zen principle of neither birth nor death, enduring countless kalpas with one's physical body, in order to ultimately realize the great truth."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "那由他是为佛教数字概念，意为「多不胜数」。"
@@ -672,11 +1028,19 @@
   - split: 1
     text: "雷神脚"
     translated: "Thunder God Foot"
+    qcReviewedText: "Thunder God Foot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4006,峨嵋派腿法之最，腾跃上天，潜卧于云波诡谲之间，吞吐无定，不鸣则已，一鸣惊人，动如九天神雷轰破云霄，似雷公降下天谴，威力万钧。\\n此腿法没有固定套路，有招无式，是为形意拳的究极型态，所象者乃天雷之形，是为雷神脚。"
   splits:
   - split: 1
     text: "峨嵋派腿法之最，腾跃上天，潜卧于云波诡谲之间，吞吐无定，不鸣则已，一鸣惊人，动如九天神雷轰破云霄，似雷公降下天谴，威力万钧。"
     translated: "The pinnacle of Emei martial arts leg techniques, leaping to the heavens and hiding among the capricious clouds, breathing unpredictably, silent until striking with awe‑inspiring force, moving like divine thunder from the heavens shattering the skies, as if summoning divine retribution, with power that shakes the world."
+    qcReviewedText: "The pinnacle of Emei martial arts leg techniques, leaping to the heavens and hiding among the capricious clouds, breathing unpredictably, silent until striking with awe‑inspiring force, moving like divine thunder from the heavens shattering the skies, as if summoning divine retribution, with power that shakes the world.\\nThis leg technique has no fixed routine, with moves but no set forms. It is the ultimate form of Xingyi Quan, resembling the shape of heavenly thunder, hence it is called the Thunder God Foot."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "此腿法没有固定套路，有招无式，是为形意拳的究极型态，所象者乃天雷之形，是为雷神脚。"
@@ -689,21 +1053,44 @@
   - split: 1
     text: "蛇形拳"
     translated: "Snake Style Fist"
+    qcReviewedText: "Snake Style Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4008,丐帮善牧蛇，丐帮的蛇形拳不只模仿蛇形，而是货真价实地与爱蛇共斗，出拳、出腿全都需与蛇相配合，除了啄击、缠绕擒拿以外还藏着一记隐形杀招，招数使老的时候，就是必杀之时－－蛇会猝不及防冲出袖子咬人一口！"
   splits:
   - split: 1
     text: "丐帮善牧蛇，丐帮的蛇形拳不只模仿蛇形，而是货真价实地与爱蛇共斗，出拳、出腿全都需与蛇相配合，除了啄击、缠绕擒拿以外还藏着一记隐形杀招，招数使老的时候，就是必杀之时－－蛇会猝不及防冲出袖子咬人一口！"
     translated: "The Beggar Sect is skilled in handling snakes. The snake‑shaped fist technique of the Beggar Sect not only mimics the movements of a snake but also genuinely fights with live snakes. When executing punches and kicks, it must coordinate with the snakes. Besides striking with beaks, wrapping, and seizing, there is a hidden lethal move. When this technique is perfected, the snakes will suddenly burst from the sleeves to bite their targets unawares!"
+    qcReviewedText: "The Beggar Sect is skilled in handling snakes. The snake‑shaped fist technique of the Beggar Sect not only mimics the movements of a snake but also genuinely fights with live snakes. When executing punches and kicks, it must coordinate with the snakes. Besides striking with beaks, wrapping, and seizing, there is a hidden lethal move. When this technique is perfected, the snakes will suddenly burst from the sleeves to bite their targets unawares!"
+    qcTranslated: "The Beggar Sect is skilled in handling snakes. The snake‑shaped fist technique of the Beggar Sect not only mimics the movements of a snake but also genuinely fights with live snakes. When executing punches and kicks, it must coordinate with the snakes. Besides pecking strikes, wrapping, and seizing, there is a hidden lethal move. When this technique is perfected, the snakes will suddenly burst from the sleeves to bite their targets unawares!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "Book/Name/4009,清峰三十六路"
   splits:
   - split: 1
     text: "清峰三十六路"
     translated: "Qingfeng Thirty Six Techniques"
+    qcReviewedText: "Qingfeng Thirty Six Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4009,青城天下幽，有山阴阳三十六峰，背靠雪岭，林木森森，四季常青。\\n相传唐时有富贾，畏死而求仙，山下问童子，曰：「在林间。」林间问童子：「在山涧。」山涧问童子：「在峦颠。」一路连问三十六峰，又见童子。贾遂知神异，拜于地，童子笑曰：「孺子可教。清修何须苦烦恼，心谦不躁可问道。」\\n富贾清修多年，接任掌门，写下此书，字里行间都是闲游三十六峰的快活心境，初入山时的怕心，早已不知不觉遗落在路上了。"
   splits:
   - split: 1
     text: "青城天下幽，有山阴阳三十六峰，背靠雪岭，林木森森，四季常青。"
     translated: "Qingcheng is a land of seclusion, with thirty‑six peaks divided into Yin and Yang, backed by a snow‑covered mountain range, its forests dense and ever green year‑round."
+    qcReviewedText: "Qingcheng is a land of seclusion, with thirty‑six peaks divided into Yin and Yang, backed by a snow‑covered mountain range, its forests dense and ever green year‑round.\\nLegend has it that in the Tang dynasty, there was a wealthy merchant who feared death and sought immortality. He asked a young boy at the foot of the mountain, and the boy said,：In the forest, the forest asked the boy.：In the mountain stream, Shan Jian asked the boy.：At the mountain peak. After asking about thirty‑six peaks along the way, he saw the boy again. Jia then realized the boy's divine nature and bowed to the ground; the boy smiled and said,：Young one, you can be taught. Purifying your heart doesn't have to be a source of suffering; staying humble and calm will allow you to seek the Way.\\nThe wealthy merchant, after years of austere practice, took over as Sect Leader and wrote this book. Every word reflects the joyful mood of wandering among the thirty‑six peaks. The fear they felt when first entering the mountain had long since been left behind, unnoticed, on the path."
+    qcTranslated: "Qingcheng is a land of seclusion, with thirty‑six peaks divided into Yin and Yang, backed by a snow‑covered mountain range, its forests dense and ever green year‑round.\\nLegend has it that in the Tang dynasty, there was a wealthy merchant who feared death and sought immortality. He asked a young boy at the foot of the mountain, and the boy said, In the forest. In the forest, he asked the boy, In the mountain stream. In the mountain stream, he asked the boy, At the mountain peak. After asking about thirty‑six peaks along the way, he saw the boy again. The merchant then realized the boy's divine nature and bowed to the ground; the boy smiled and said, Young one, you can be taught. Purifying your heart doesn't have to be a source of suffering; staying humble and calm will allow you to seek the Way.\\nThe wealthy merchant, after years of austere practice, took over as Sect Leader and wrote this book. Every word reflects the joyful mood of wandering among the thirty‑six peaks. The fear he felt when first entering the mountain had long since been left behind, unnoticed, on the path."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "相传唐时有富贾，畏死而求仙，山下问童子，曰"
@@ -736,11 +1123,19 @@
   - split: 1
     text: "历战血书"
     translated: "Blood Letters of Battle"
+    qcReviewedText: "Blood Letters of Battle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4010,修罗道法王军旅生涯中随笔的手记，\\n所载内容与其说是武功，不如说是沙场见闻。"
   splits:
   - split: 1
     text: "修罗道法王军旅生涯中随笔的手记，"
     translated: "Dharma King's memoirs from their military career on the Asura Path,"
+    qcReviewedText: "Dharma King's memoirs from their military career on the Asura Path,\\nThe content is more like battlefield experiences than martial arts."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "所载内容与其说是武功，不如说是沙场见闻。"
@@ -753,21 +1148,43 @@
   - split: 1
     text: "逍遥游腿法"
     translated: "Carefree Journey Leg Techniques"
+    qcReviewedText: "Carefree Journey Leg Techniques"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4020,全真派的轻功兼腿法，逍遥游出自庄子一书，亦是古琴曲。全真派弟子每日练功时会由传功师父奏曲，鲲化为鹏、翼若垂云、将徙天地、上干青霄、扶摇万里、御风冷然、气适北溟、磅礡万物、翱翔广和九段奏完，方始收功。"
   splits:
   - split: 1
     text: "全真派的轻功兼腿法，逍遥游出自庄子一书，亦是古琴曲。全真派弟子每日练功时会由传功师父奏曲，鲲化为鹏、翼若垂云、将徙天地、上干青霄、扶摇万里、御风冷然、气适北溟、磅礡万物、翱翔广和九段奏完，方始收功。"
     translated: "The Quanzhen school's Qinggong and leg techniques are derived from the Free and Untrammeled Excursion chapter in Zhuangzi. This technique is also an ancient qin music piece. Every day when Quanzhen disciples practice their skills, they listen to the tune played by their transmission master. They visualize themselves transforming from a giant swallow into a great bird, with wings as vast as hanging clouds, preparing to migrate across the heavens, reaching the blue sky, soaring for ten thousand miles while riding the wind, feeling cool and refreshing, breathing the air of the Northern Sea, overwhelming all things, and circling widely in the broad and harmonious space. Only after completing the nine sections of this melody do they cease their practice."
+    qcReviewedText: "The Quanzhen school's Qinggong and leg techniques are derived from the Free and Untrammeled Excursion chapter in Zhuangzi. This technique is also an ancient qin music piece. Every day when Quanzhen disciples practice their skills, they listen to the tune played by their transmission master. They visualize themselves transforming from a giant swallow into a great bird, with wings as vast as hanging clouds, preparing to migrate across the heavens, reaching the blue sky, soaring for ten thousand miles while riding the wind, feeling cool and refreshing, breathing the air of the Northern Sea, overwhelming all things, and circling widely in the broad and harmonious space. Only after completing the nine sections of this melody do they cease their practice."
+    qcTranslated: "The Quanzhen school's Qinggong and leg techniques are derived from the Free and Untrammeled Excursion chapter in Zhuangzi. This technique is also an ancient qin music piece. Every day when Quanzhen disciples practice their skills, they listen to the tune played by their transmission master. They visualize themselves transforming from a giant fish into a great bird, with wings as vast as hanging clouds, preparing to migrate across the heavens, reaching the blue sky, soaring for ten thousand miles while riding the wind, feeling cool and refreshing, breathing the air of the Northern Sea, overwhelming all things, and circling widely in the broad and harmonious space. Only after completing the nine sections of this melody do they cease their practice."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "Book/Name/4030,八荒夺路逃"
   splits:
   - split: 1
     text: "八荒夺路逃"
     translated: "Eight Desolations and the Road to Escape"
+    qcReviewedText: "Eight Desolations and the Road to Escape"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4030,丐帮中人约定成俗的逃跑技巧，人多时使出非常壮观，一哄而散，四面八方夺路而出，如有心有灵犀般指东跑西，教敌人难以一网打尽，最终总会有落网之鱼可以回家通风报信。\\n这逃法以歌诀形式传唱，歌云：「眼看东边走西边，无处可逃上树颠，三五成群铁没命，生死有数莫拖牵。」词虽俗俚浅白，却不单有诡道、还提前做了万一落网的心理建设。"
   splits:
   - split: 1
     text: "丐帮中人约定成俗的逃跑技巧，人多时使出非常壮观，一哄而散，四面八方夺路而出，如有心有灵犀般指东跑西，教敌人难以一网打尽，最终总会有落网之鱼可以回家通风报信。"
     translated: "The Beggar Sect's time‑honored escape technique, when used en masse, is quite spectacular. Everyone scatters in all directions, as if communicating silently, some heading east while others heading west. This makes it difficult for enemies to catch them all at once, ensuring that at least one person will always escape to spread the news."
+    qcReviewedText: "The Beggar Sect's time‑honored escape technique, when used en masse, is quite spectacular. Everyone scatters in all directions, as if communicating silently, some heading east while others heading west. This makes it difficult for enemies to catch them all at once, ensuring that at least one person will always escape to spread the news.\\nThis escape method is passed down in the form of a song, which goes:：Watch the east while heading west, with no place to run except up a tree. In groups of three or five, steel yourselves to face death, for life and death are predestined; do not linger. Though the words are crude and simple, they not only contain a crafty message but also prepare for the possibility of being caught."
+    qcTranslated: "The Beggar Sect's time‑honored escape technique, when used en masse, is quite spectacular. Everyone scatters in all directions, as if communicating silently, some heading east while others heading west. This makes it difficult for enemies to catch them all at once, ensuring that at least one person will always escape to spread the news.\\nThis escape method is passed down in the form of a song, which goes: Watch the east while heading west, with no place to run except up a tree. In groups of three or five, steel yourselves to face death, for life and death are predestined; do not linger. Though the words are crude and simple, they not only contain a crafty message but also prepare for the possibility of being caught."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "这逃法以歌诀形式传唱，歌云"
@@ -784,11 +1201,23 @@
   - split: 1
     text: "阿摩搪墙拳"
     translated: "Amotang Wall Fist"
+    qcReviewedText: "Amotang Wall Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/4040,阿摩二字，究竟是甚么意思，根本没有人知道。就连丐帮传功长老、耕阳读书斋那群活书包都不知道。\\n但是搪墙的意思，则被解读成「涂抹」，换言之这套拳法，是在极狭小的空间里才能发挥最大功效的武功：将敌人推到墙上死命地打，打成肉酱涂抹在墙上。\\n虽说理念单纯，可这套武功若无外功底子根本无法成立、寸劲、顿肘、铁山靠，全都是实打实的实战功夫。"
   splits:
   - split: 1
     text: "阿摩二字，究竟是甚么意思，根本没有人知道。就连丐帮传功长老、耕阳读书斋那群活书包都不知道。"
     translated: "No one knows what amo means. Not even the Beggar Sect's transmission elder or the living encyclopedias at the Yang Cultivation Reading Pavilion have any idea."
+    qcReviewedText: "No one knows what amo means. Not even the Beggar Sect's transmission elder or the living encyclopedias at the Yang Cultivation Reading Pavilion have any idea.\\nThey said, This is the secret technique of the Tang Family, the 'Tang Wall Smearing Boxing.' It can only be fully effective in narrow spaces.：Push the enemies against the wall and beat them senseless, turning their flesh into a bloody pulp smeared on the wall.\\nAlthough the concept is simple, without a foundation in External Skill, this martial arts system would fall apart. Techniques like focusing one's strength into an inch, striking with the elbow, and leaning against an opponent like a solid mountain are all practical combat skills."
+    qcTranslated: "No one knows what amo means. Not even the Beggar Sect's transmission elder or the living encyclopedias at the Yang Cultivation Reading Pavilion have any idea.\\nHowever, the meaning of Tang Wall is interpreted as 'smearing'; in other words, this boxing technique is a martial art that can only achieve its maximum effect in extremely narrow spaces: pushing enemies against the wall and beating them to death, turning their flesh into a bloody pulp smeared on the wall.\\nAlthough the concept is simple, without a foundation in External Skill, this martial arts system would fall apart. Techniques like focusing one's strength into an inch, striking with the elbow, and leaning against an opponent like a solid mountain are all practical combat skills."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "但是搪墙的意思，则被解读成「涂抹」，换言之这套拳法，是在极狭小的空间里才能发挥最大功效的武功"
@@ -809,11 +1238,22 @@
   - split: 1
     text: "罗汉拳谱"
     translated: "Luohan Fist Manual"
+    qcReviewedText: "Luohan Fist Manual"
+    qcTranslated: "Arhat Fist Manual"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "Book/Desc/6001,嵩山寺中被盗出的拳经，是嵩山武功之根本，易学难精。\\n流转民间的罗汉拳谱在数百年间衍生出诸多套路，各领风骚，每本都不太一样，你也不知手里这本是否原版，你既然捡到了这本拳谱，你就有佛缘，练它。"
   splits:
   - split: 1
     text: "嵩山寺中被盗出的拳经，是嵩山武功之根本，易学难精。"
     translated: "The stolen Manual of Fist Techniques from Songshan Temple is the foundation of Songshan martial arts; it is easy to learn but difficult to master."
+    qcReviewedText: "The stolen Manual of Fist Techniques from Songshan Temple is the foundation of Songshan martial arts; it is easy to learn but difficult to master.\\nThe scrolls of the Luohan Quan, which have circulated among the people for centuries, have evolved into many different styles, each with its own unique flair. Each version is slightly different, so you can't be sure if the one you have is the original. Since you've found this scroll, it means you have a karmic connection to Buddhism. Practice it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "流转民间的罗汉拳谱在数百年间衍生出诸多套路，各领风骚，每本都不太一样，你也不知手里这本是否原版，你既然捡到了这本拳谱，你就有佛缘，练它。"
@@ -826,11 +1266,22 @@
   - split: 1
     text: "飞天脚"
     translated: "Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Kick"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6002,崆峒派‧飞天门的秘籍。\\n是先掌派人将《仙鹤迷踪拳》简化以传授弟子的入门版本。\\n略去迷踪与拳路，仅就下盘轻功锻炼，浅显易懂。"
   splits:
   - split: 1
     text: "崆峒派"
     translated: "Kongtong Sect"
+    qcReviewedText: "Kongtong Sect‧The secret manual of the Flying Heaven Gate.\\nIt was Master Zhang who simplified the Crane Mysteries Fist to create an introductory version for teaching disciples.\\nOmitting the intricacies of shadow movement and fist techniques, this focuses solely on the basics of lower‑body qinggong exercises, making it easy to understand."
+    qcTranslated: "Kongtong Sect‧The secret manual of the Flying Heaven Gate.\\nIt was Master Zhang who simplified the Crane Mysteries Fist to create an introductory version for teaching disciples.\\nOmitting the shadow movement and fist techniques, this focuses solely on the basics of lower‑body Qinggong exercises, making it easy to understand."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "飞天门的秘籍。"
@@ -851,11 +1302,19 @@
   - split: 1
     text: "仙鹤迷踪拳"
     translated: "Immortal Crane Lost Trace Fist"
+    qcReviewedText: "Immortal Crane Lost Trace Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6003,崆峒派．飞天门的传世武学。\\n身法轻灵，拳快步松，最是敏捷多变。时而漫步闲游，时而振翅急袭，叫人捉摸不透，防不胜防。\\n只是这路拳法过于复杂，共有三十六路、七十二变、百零八种后着，甚难熟练，因此飞天门中反倒鲜少有人深入钻研。"
   splits:
   - split: 1
     text: "崆峒派．飞天门的传世武学。"
     translated: "Kongtong Sect's legacy martial arts. Flying Heaven Gate's legacy martial arts."
+    qcReviewedText: "Kongtong Sect's legacy martial arts. Flying Heaven Gate's legacy martial arts.\\nWith agile movements, swift punches, and relaxed steps, they are most nimble and unpredictable. At times, they saunter leisurely, and at others, they strike swiftly like a bird spreading its wings, making it hard for anyone to anticipate or defend against them.\\nThis set of martial arts techniques is too complex, with thirty‑six moves, seventy‑two variations, and one hundred eight follow‑up moves, making it difficult to master proficiently. Therefore, few people in the Flying Heaven Gate delve deeply into its study."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "身法轻灵，拳快步松，最是敏捷多变。时而漫步闲游，时而振翅急袭，叫人捉摸不透，防不胜防。"
@@ -872,11 +1331,19 @@
   - split: 1
     text: "无影爪"
     translated: "Shadowless Claw"
+    qcReviewedText: "Shadowless Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6004,曾经名动一时的怪盗铁面人所独创的爪功。\\n不循正理，而是剑走偏锋，潜于昏冥，化身为影，遁入黑夜，施以致命一击。\\n铁面人受命于庞太师，意欲袭杀包拯，反心折于包公铁面无私的气魄，不愿以私戕害青天，亦不敢背信，遂自舍优势，暗中行出，向南侠展昭请战，败得光明正大，自断十指，包拯遂赦免死罪。\\n铁面人归隐于崆峒，请人铸造铁爪义手，写就此书。"
   splits:
   - split: 1
     text: "曾经名动一时的怪盗铁面人所独创的爪功。"
     translated: "A claw technique created by the once‑famous Phantom Masked Thief."
+    qcReviewedText: "A claw technique created by the once‑famous Phantom Masked Thief.\\nNot adhering to the righteous path, but instead taking a sharp turn, hiding in the darkness, transforming into a shadow, and striking a fatal blow in the night.\\nIron Mask, under the orders of Chancellor Pang, intended to assassinate Bao Zheng but was moved by Bao's incorruptible integrity. They did not wish to harm an impartial judge out of personal grievances nor could they break their word, so they abandoned their advantage, secretly approached Southern Hero Zhang Zhaoyang to challenge him to a fair duel, lost honorably, and severed their own ten fingers. Bao Zheng then pardoned them of their death sentence.\\nThe Iron‑Faced Man retired to Kongtong and commissioned the forging of an iron claw prosthetic, writing this book."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "不循正理，而是剑走偏锋，潜于昏冥，化身为影，遁入黑夜，施以致命一击。"
@@ -897,11 +1364,19 @@
   - split: 1
     text: "铁臂神拳"
     translated: "Iron Arm Divine Fist"
+    qcReviewedText: "Iron Arm Divine Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6005,相传是陷空岛五义之一，排行老三的「穿山鼠徐庆」所擅长的武功。\\n徐庆是铁匠出身，力大无穷，有异术能钻地，故称穿山鼠，五鼠归顺开封府，辅佐包拯。\\n嘉佑七年，包公病逝，次年归葬合肥，五鼠一路相送，叩首拜别，各奔东西。\\n及后徐庆归隐崆峒，传下铁臂神拳与铁匠技术，逝于铁拳巷大铁铺。\\n修练者须双臂涂油，穿入铁环，运功令双臂充血坚硬，再使劲抡打木桩；抡断了木桩以后，抡石桩；抡断了石桩，抡铁桩。万一断的是手臂，就涂药膏待好了继续抡，久而久之，双手就会变得像铁一样。"
   splits:
   - split: 1
     text: "相传是陷空岛五义之一，排行老三的「穿山鼠徐庆」所擅长的武功。"
     translated: "This is said to be a martial art mastered by Tunnel Rat Xu Qing, one of the Five Righteousmen of the Sunken Hollow Island, who is ranked third."
+    qcReviewedText: "This is said to be a martial art mastered by Tunnel Rat Xu Qing, one of the Five Righteousmen of the Sunken Hollow Island, who is ranked third.\\nXu Qing comes from a blacksmith background, is incredibly strong, and possesses a special technique that allows them to burrow underground, hence they are called Tunnel Rat. The Five Rats submitted to the Kaifeng Prefecture and have assisted Bao Zheng ever since.\\nIn the seventh year of the Jianyuan era, Bao Gong passed away. The following year, he was buried in Hefei, with the Five Rats escorting him to his grave, bowing and bidding farewell before going their separate ways.\\nLater, Xu Qing retreated to Kongtong, passing down the Iron Arm Divine Fist and blacksmithing techniques, and passed away at the Great Iron Workshop in Iron Fist Alley.\\nPractitioners must apply oil to their arms, insert them into iron rings, and use their strength to make their arms fill with blood and harden. Then, they must swing at wooden posts until they break; once the wooden posts are broken, they move on to stone posts; after breaking the stone posts, they swing at iron posts. If their arms break instead, they apply ointment to heal and continue swinging. Over time, their hands will become as hard as iron."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "徐庆是铁匠出身，力大无穷，有异术能钻地，故称穿山鼠，五鼠归顺开封府，辅佐包拯。"
@@ -926,21 +1401,45 @@
   - split: 1
     text: "白猿通臂拳"
     translated: "White Ape Connecting Arms Fist"
+    qcReviewedText: "White Ape Connecting Arms Fist"
+    qcTranslated: "White Ape Long‑Arm Fist"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "Book/Desc/6006,峨嵋派白猿祖师的成名绝技，严格来说也算是一种猴拳，却与民间所传的猴拳南辕北辙。劲由背发，经肩过肘通达手指，是为通臂。"
   splits:
   - split: 1
     text: "峨嵋派白猿祖师的成名绝技，严格来说也算是一种猴拳，却与民间所传的猴拳南辕北辙。劲由背发，经肩过肘通达手指，是为通臂。"
     translated: "The signature skill of the White Ape Patriarch of the Emei School is strictly speaking a form of monkey fist, yet it diverges significantly from the folk versions of monkey fist. The power emanates from the back and travels through the shoulder to reach the elbow and fingers, which is known as reach arm."
+    qcReviewedText: "The signature skill of the White Ape Patriarch of the Emei School is strictly speaking a form of monkey fist, yet it diverges significantly from the folk versions of monkey fist. The power emanates from the back and travels through the shoulder to reach the elbow and fingers, which is known as reach arm."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/6007,夺魄幽灵爪"
   splits:
   - split: 1
     text: "夺魄幽灵爪"
     translated: "Soul Stealer Phantom Claw"
+    qcReviewedText: "Soul Stealer Phantom Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6007,江湖第一美人夺魄幽兰的成名绝技。\\n揉合夺魄门暗袭之术与雪山派内功，身法如鬼魅，能勾人魂魄。\\n摧心、蚀骨、销魂、夺魄四式，一招狠似一招，极其毒辣，习之恐怕有伤天和。"
   splits:
   - split: 1
     text: "江湖第一美人夺魄幽兰的成名绝技。"
     translated: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan."
+    qcReviewedText: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan.\\nCombining the secret ambush techniques of the Soul Stealer sect with the Snow Mountain Sect's Neigong, they move with the agility of a ghost, capable of stealing souls.\\nWhile correcting, they realized that crushing the heart, corroding the bones, seducing the soul, and stealing the spirit, each move more ruthless than the last, extremely poisonous, and learning them probably will harm the harmony of heaven. During the battle, they activated the Soul Stealer technique to gain an advantage."
+    qcTranslated: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan.\\nCombining the secret ambush techniques of the Soul Stealer sect with the Snow Mountain Sect's Neigong, they move with the agility of a ghost, capable of stealing souls.\\nThe four forms‑Crushing the Heart, Corroding the Bones, Seducing the Soul, and Stealing the Spirit‑are each more ruthless than the last, extremely Poisonous, and learning them probably will harm the harmony of heaven."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "揉合夺魄门暗袭之术与雪山派内功，身法如鬼魅，能勾人魂魄。"
@@ -957,21 +1456,37 @@
   - split: 1
     text: "登云踏．望月"
     translated: "Dengyun Ta, Wangyue"
+    qcReviewedText: "Dengyun Ta, Wangyue"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6008,你唐门大师兄登徒子行径中自创的武功，收录于登云梯续集。为了求见美人，可以登云上楼台，其中踏月式是由这路轻功衍生出的攻招，「月」指光辉，暗喻所有加诸于己的兵刃。故而踏月式的真义是专门踏到别人兵刃上，居高临下踩人脸面。"
   splits:
   - split: 1
     text: "你唐门大师兄登徒子行径中自创的武功，收录于登云梯续集。为了求见美人，可以登云上楼台，其中踏月式是由这路轻功衍生出的攻招，「月」指光辉，暗喻所有加诸于己的兵刃。故而踏月式的真义是专门踏到别人兵刃上，居高临下踩人脸面。"
     translated: "This is a martial art created by your Big Senior Brother from the Tang Clan as part of his rogue behavior, featured in the sequel to the Stepping on Clouds Ladder. To see a beauty, he can ascend to a high pavilion on clouds. The Moon Step, a move derived from this qinggong, uses moon to symbolize all weapons directed at him. Therefore, the true meaning of the Moon Step is to specifically step onto others' weapons, standing tall and stepping on their pride."
+    qcReviewedText: "This is a martial art created by your Big Senior Brother from the Tang Clan as part of his rogue behavior, featured in the sequel to the Stepping on Clouds Ladder. To see a beauty, he can ascend to a high pavilion on clouds. The Moon Step, a move derived from this qinggong, uses moon to symbolize all weapons directed at him. Therefore, the true meaning of the Moon Step is to specifically step onto others' weapons, standing tall and stepping on their pride."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/6009,雪山飞鸿爪"
   splits:
   - split: 1
     text: "雪山飞鸿爪"
     translated: "Snow Mountain Flying Swan Claw"
+    qcReviewedText: "Snow Mountain Flying Swan Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6009,你恩师夏侯兰集夺魄、雪山两家之神髓，去芜存菁，又揉合了控鹤气功，终于创制出的神技。\\n旨不在杀伤，乃是专门对付高手用的武功，就算是天下最高明的轻功，也捉得到。\\n发力恰似飞鸿踏雪泥，泥上偶然留指爪，鸿飞那复计东西？轻描淡写抓出，力使三分藏七分，后着隐于无形。破坏敌人架势，而我迅速回气，施以夺命猛袭。"
   splits:
   - split: 1
     text: "你恩师夏侯兰集夺魄、雪山两家之神髓，去芜存菁，又揉合了控鹤气功，终于创制出的神技。"
     translated: "Your esteemed teacher Xiahou Lan combined the Soul Stealer technique with the divine essence of the two Snow Mountain families, refined out the impurities, and incorporated Controlling Crane Qi Gong skills, ultimately creating this divine technique."
+    qcReviewedText: "Your esteemed teacher Xiahou Lan combined the Soul Stealer technique with the divine essence of the two Snow Mountain families, refined out the impurities, and incorporated Controlling Crane Qi Gong skills, ultimately creating this divine technique.\\nThe goal is not to injure, but rather a martial art specifically for dealing with skilled opponents. Even the most advanced qinggong in the world would be caught by it.\\nStrike with the force of a flying swan on snow, leaving traces that are but fleeting moments‑once the swan takes flight, it no longer cares for east or west. With a light touch, gather three parts of your strength while concealing seven parts. Disrupt your opponent's stance and swiftly recover your energy to deliver a fatal assault."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "旨不在杀伤，乃是专门对付高手用的武功，就算是天下最高明的轻功，也捉得到。"
@@ -988,11 +1503,19 @@
   - split: 1
     text: "千刀万剐杀"
     translated: "A thousand blades and ten thousand cuts to kill."
+    qcReviewedText: "A thousand blades and ten thousand cuts to kill."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6010,极度疯狂的刀法，乃是一名身负夺妻之恨的三流刀客所创。\\n受冤下狱13年间，在心中揣想过几千次敌人的武功路子，在脑海中将夺妻的仇敌凌迟几万次。\\n他出狱后不久，惊动江湖的血案「碧血狂杀」案件旋即爆发。"
   splits:
   - split: 1
     text: "极度疯狂的刀法，乃是一名身负夺妻之恨的三流刀客所创。"
     translated: "A crazed blade technique was created by a third‑rate Blade Master consumed by a hatred of losing their wife."
+    qcReviewedText: "A crazed blade technique was created by a third‑rate Blade Master consumed by a hatred of losing their wife.\\nDuring the 13 years of wrongful imprisonment, they imagined the enemy's martial arts style thousands of times and mentally tortured the rival who took their spouse, visualizing their torment for tens of thousands of times.\\nSoon after he was released from prison, the sensational bloodbath case known as Burst of Crimson Blood erupted throughout Jianghu."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "受冤下狱13年间，在心中揣想过几千次敌人的武功路子，在脑海中将夺妻的仇敌凌迟几万次。"
@@ -1009,11 +1532,25 @@
   - split: 1
     text: "赤脚神通"
     translated: "Barefoot Divine Skill"
+    qcReviewedText: "Barefoot Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6011,与夺魄《镇魂功》、铁拳《伤拳》、玄功《铁琵琶功》同出《南岳真经》的飞天门失传神通。\\n飞天脚、仙鹤迷踪步的原始之型。\\n功成者可以一趾立地，无须屈膝使力，仅凭内力驱使，便能滑行疾飙。出脚时劲由身通腿，腿通脚，脚通趾，将万钧威力收束于一点，视乎意念，可刚可柔，刚能一趾点破金钟罩，柔能以趾劲封人穴道。"
   splits:
   - split: 1
     text: "与夺魄《镇魂功》、铁拳《伤拳》、玄功《铁琵琶功》同出《南岳真经》的飞天门失传神通。"
     translated: "While correcting, they found a lost Divine Skill from the South Peak True Scripture, along with the Soul Stealer Spirit Soul Technique, Iron Fist Injury Fist, and Mystic Skill Iron Lute Technique."
+    qcReviewedText: "While correcting, they found a lost Divine Skill from the South Peak True Scripture, along with the Soul Stealer Spirit Soul Technique, Iron Fist Injury Fist, and Mystic Skill Iron Lute Technique.\\nFlying Heaven Kick and the original form of the Mystic Crane's Shadow Step.\\nA master can stand on just one toe without needing to bend their knee or exert physical force; they simply use their Inner Power to glide and move swiftly. When they kick, the strength flows from their body through their leg and down to their foot and toe. They can concentrate immense power into a single point, as hard or soft as they intend. The hardness can pierce through a golden bell of invincibility, while the softness can seal an opponent's acupoints with just the force of a toe."
+    qcTranslated: "The Soul Stealer Spirit Soul Technique, Iron Fist Injury Fist, and Mystic Skill Iron Lute Technique are lost Divine Skills from the South Peak True Scripture, sharing the same origin as the Flying Heaven Kick.\\nThe original form of the Flying Heaven Kick and the Mystic Crane's Shadow Step.\\nA master can stand on just one toe without needing to bend their knee or exert physical force; they simply use their Inner Power to glide and move swiftly. When they kick, the strength flows from their body through their leg and down to their foot and toe. They can concentrate immense power into a single point, as Hard or Soft as they intend. The Hardness can pierce through a golden bell of invincibility, while the Softness can seal an opponent's acupoints with just the force of a toe."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 35
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - HardToParseSeam
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "飞天脚、仙鹤迷踪步的原始之型。"
@@ -1030,11 +1567,19 @@
   - split: 1
     text: "八仙指"
     translated: "Eight Immortals Finger"
+    qcReviewedText: "Eight Immortals Finger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/6012,唐门女侠唐芬基于青城《八仙剑法》五行学说，以五毒替代之，创成的独门武功。\\n论招式至多二流，却隐含唐门医、毒二术，十分艰涩难读，读了也未必能有多大成就。"
   splits:
   - split: 1
     text: "唐门女侠唐芬基于青城《八仙剑法》五行学说，以五毒替代之，创成的独门武功。"
     translated: "The female swordsman of the Tang Clan, Tang Fen, created this unique martial art by basing it on the Qingcheng Eight Immortals Swordsmanship and replacing its principles with the Five Elements using the Five Poisons."
+    qcReviewedText: "The female swordsman of the Tang Clan, Tang Fen, created this unique martial art by basing it on the Qingcheng Eight Immortals Swordsmanship and replacing its principles with the Five Elements using the Five Poisons.\\nThough their techniques may be at most second‑rate, they secretly contain the medicinal and poison arts of the Tang Clan, which are extremely difficult to master and may not yield great achievements even if one manages to learn them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "论招式至多二流，却隐含唐门医、毒二术，十分艰涩难读，读了也未必能有多大成就。"
@@ -1047,11 +1592,22 @@
   - split: 1
     text: "龟息功"
     translated: "Turtle Breathing Technique"
+    qcReviewedText: "Turtle Breathing Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7000,经典江湖鬼蜮伎俩，很多小人都会用。\\n敌人太强，不敌之时，便抓准时机，自行运功封阻体内经脉，使气血凝滞，脉搏暂时停止，便好似死了一般。\\n待敌人离去后，再藉由预先藏于掌心的石灰发热将自身唤醒。\\n不过使用这套内功风险颇高，万一唤醒的机关不太灵验，醒来后也会因为脑缺氧从此变得痴痴呆呆；又万一招惹了狠角色，见你倒下了二话不说便先补个两刀子，假死就便真死了。"
   splits:
   - split: 1
     text: "经典江湖鬼蜮伎俩，很多小人都会用。"
     translated: "Many scoundrels use classic Jianghu tricks and schemes."
+    qcReviewedText: "Many scoundrels use classic Jianghu tricks and schemes.\\nWhen the enemies are too strong, and you can't defeat them, seize the opportunity to use your own energy to block the meridians inside your body, causing your Lifeforce to stagnate and your pulse to temporarily stop, making it seem as if you are dead.\\nWait until the enemy has left, then use the lime heated in your palm to wake yourself up.\\nHowever, using this set of Neigong is quite risky. If the awakened Mechanism isn't reliable, you might wake up with brain oxygen deprivation and become mentally impaired forever. And if you happen to provoke a ruthless foe, they might deliver two fatalBlades to your body upon seeing you down, turning your fake death into a real one."
+    qcTranslated: "Many scoundrels use classic Jianghu tricks and schemes.\\nWhen the enemies are too strong, and you can't defeat them, seize the opportunity to use your own energy to block the meridians inside your body, causing your Lifeforce to stagnate and your pulse to temporarily stop, making it seem as if you are dead.\\nWait until the enemy has left, then use the lime heated in your palm to wake yourself up.\\nHowever, using this set of Neigong is quite risky. If the awakening Mechanism isn't reliable, you might wake up with brain oxygen deprivation and become mentally impaired forever. And if you happen to provoke a ruthless foe, they might deliver two fatal Blades to your body upon seeing you down, turning your fake death into a real one."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "敌人太强，不敌之时，便抓准时机，自行运功封阻体内经脉，使气血凝滞，脉搏暂时停止，便好似死了一般。"
@@ -1072,11 +1628,19 @@
   - split: 1
     text: "莲花落"
     translated: "Lotus Falls"
+    qcReviewedText: "Lotus Falls"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7001,丐帮人人都会唱的帮歌莲花落，其实是讲究求生技巧的一部内功歌诀。\\n每夜收工以后，由辈分较老的乞丐带着小辈齐唱，边唱边以筷敲碗，以此掌握节拍，配合歌曲换气，吐纳习惯自然养成。\\n只不过歌词往往粗鄙不堪，有辱斯文，有些对着姑娘家唱还会被报官。"
   splits:
   - split: 1
     text: "丐帮人人都会唱的帮歌莲花落，其实是讲究求生技巧的一部内功歌诀。"
     translated: "The Beggar Sect's anthem, the lotus fall song that everyone sings, is actually a set of Neigong verses that teach survival skills."
+    qcReviewedText: "The Beggar Sect's anthem, the lotus fall song that everyone sings, is actually a set of Neigong verses that teach survival skills.\\nEvery night after work, the older beggars lead the younger ones in song. They sing while tapping on bowls with chopsticks to keep time, coordinating their breathing with the rhythm of the song, and it becomes second nature to them.\\nThe lyrics are often crude and vulgar, disrespectful to one's dignity. Singing them to a young lady could even get you reported to the authorities."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "每夜收工以后，由辈分较老的乞丐带着小辈齐唱，边唱边以筷敲碗，以此掌握节拍，配合歌曲换气，吐纳习惯自然养成。"
@@ -1093,11 +1657,23 @@
   - split: 1
     text: "全真剑法"
     translated: "Quanzhen Sword Technique"
+    qcReviewedText: "Quanzhen Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7002,全真教为了推广教义，开民智，而刻意外传的养气内功。\\n将剑诀删减，杂以养命之道，以浅白口语重新编译过，浅显易懂，可以初窥道学，延年益命。\\n乡亲父老人手一本，人人有功练，堪称国民健康操，但想要以此克敌制胜，恐怕是行不通的。"
   splits:
   - split: 1
     text: "全真教为了推广教义，开民智，而刻意外传的养气内功。"
     translated: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people."
+    qcReviewedText: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people.\\nThey simplified the sword techniques, mixed them with the Way of Nourishing Life, and recompiled them using plain, simple language. This makes them easy to understand, allowing beginners to gain some insight into the principles of Daoism and prolong their lifespan.\\nWhile correcting, everyone practices it, making it a national health exercise, or as it is known in Chinese, 'Kang Fu Jian Kang Cao'. But relying on it to defeat enemies might not be feasible."
+    qcTranslated: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people.\\nThey simplified the sword techniques, mixed them with the Way of Nourishing Life, and recompiled them using plain, simple language. This makes them easy to understand, allowing beginners to gain some insight into the principles of Daoism and prolong their lifespan.\\nEvery villager has a copy, and everyone can practice it, making it a national health exercise. But relying on it to defeat enemies might not be feasible."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "将剑诀删减，杂以养命之道，以浅白口语重新编译过，浅显易懂，可以初窥道学，延年益命。"
@@ -1114,11 +1690,22 @@
   - split: 1
     text: "烈火禅"
     translated: "Fiery Zen"
+    qcReviewedText: "Fiery Zen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7003,传自西域密宗的神秘禅功，习练方法与中原武术截然不同，不单姿势古怪，遣词亦十分晦涩，最终二章译得牛头不对马嘴，难以阅读。\\n练此禅功讲究身体力行，需点燃炭木，铺以尖锐碎石，再于石上练功，练功者必须潜运内功，将热力排出体外，否则必将引火烧身。\\n据闻修练至最高境界可以打坐浮空、手脚关节脱臼伸长打人、口吐烈火。\\n但不知最后二章的内容，这个境界是无论如何难以得见的。"
   splits:
   - split: 1
     text: "传自西域密宗的神秘禅功，习练方法与中原武术截然不同，不单姿势古怪，遣词亦十分晦涩，最终二章译得牛头不对马嘴，难以阅读。"
     translated: "A mysterious meditation technique from the Western Regions' esoteric Buddhism. Its practice is completely different from central plains martial arts, with strange postures and extremely obscure terminology. The second chapter is almost incomprehensible, making it hard to read."
+    qcReviewedText: "A mysterious meditation technique from the Western Regions' esoteric Buddhism. Its practice is completely different from central plains martial arts, with strange postures and extremely obscure terminology. The second chapter is almost incomprehensible, making it hard to read.\\nPracticing this Zen technique requires physical effort. You must light charcoal wood, cover it with sharp gravel, and then practice your skills on top of the gravel. The practitioner must use their Neigong to expel heat from their body; otherwise, they will set themselves on fire.\\nIt is said that reaching the highest level of cultivation allows one to sit and levitate, extend their dislocated joints to strike opponents, and breathe out flames.\\nBut without knowing the content of the last two chapters, this level of attainment is something that is impossible to achieve no matter what."
+    qcTranslated: "A mysterious meditation technique from the Western Regions' esoteric Buddhism. Its practice is completely different from central plains martial arts, with strange postures and extremely obscure terminology. The final two chapters are almost incomprehensible, making it hard to read.\\nPracticing this Zen technique requires physical effort. You must light charcoal wood, cover it with sharp gravel, and then practice your skills on top of the gravel. The practitioner must use their Neigong to expel heat from their body; otherwise, they will set themselves on fire.\\nIt is said that reaching the highest level of cultivation allows one to sit and levitate, extend their dislocated joints to strike opponents, and breathe out flames.\\nBut without knowing the content of the last two chapters, this level of attainment is something that is impossible to achieve no matter what."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 1
     subIndex: 1
     text: "练此禅功讲究身体力行，需点燃炭木，铺以尖锐碎石，再于石上练功，练功者必须潜运内功，将热力排出体外，否则必将引火烧身。"
@@ -1139,21 +1726,37 @@
   - split: 1
     text: "杨家练兵操"
     translated: "Yang Family Military Drill Manual"
+    qcReviewedText: "Yang Family Military Drill Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7004,北宋杨门忠烈的练兵体操。号称体操，然而为了确实提高沙场生还率，本操的锻炼强度不仅远超朝廷正规军，甚至比武林中小门派的功法还要严格，杂以棍操、一百零八阵操、铜锤十八打，这套体操即令是武林中人，怕也没几个受得了。"
   splits:
   - split: 1
     text: "北宋杨门忠烈的练兵体操。号称体操，然而为了确实提高沙场生还率，本操的锻炼强度不仅远超朝廷正规军，甚至比武林中小门派的功法还要严格，杂以棍操、一百零八阵操、铜锤十八打，这套体操即令是武林中人，怕也没几个受得了。"
     translated: "The military training exercises of the Yang family from the Northern Song Dynasty, known for their loyalty and bravery, are referred to as gymnastics. However, in order to truly enhance survival rates on the battlefield, the intensity of this training far exceeds that of the Imperial Court's regular army and is even stricter than the techniques of smaller sects in the Wulin. It incorporates staff techniques, the One Hundred and Eight Formation drills, and the Eighteen Strikes with the bronze hammer. This set of exercises would be challenging for even those from the Wulin to endure."
+    qcReviewedText: "The military training exercises of the Yang family from the Northern Song Dynasty, known for their loyalty and bravery, are referred to as gymnastics. However, in order to truly enhance survival rates on the battlefield, the intensity of this training far exceeds that of the Imperial Court's regular army and is even stricter than the techniques of smaller sects in the Wulin. It incorporates staff techniques, the One Hundred and Eight Formation drills, and the Eighteen Strikes with the bronze hammer. This set of exercises would be challenging for even those from the Wulin to endure."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/7005,龙吟功"
   splits:
   - split: 1
     text: "龙吟功"
     translated: "Dragon's Roar Technique"
+    qcReviewedText: "Dragon's Roar Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7005,道门苍龙吟，是以九霄龙吟为譬，形容得道之人飞升清啸，有如龙吟破空般清亮。\\n此功须由丹田内气外发，与人交手之际，发功呼啸，声如雷霆疾泻千里，使人心魄为之所夺，甚至还能造成内伤。"
   splits:
   - split: 1
     text: "道门苍龙吟，是以九霄龙吟为譬，形容得道之人飞升清啸，有如龙吟破空般清亮。"
     translated: "The Daoist phrase 'Azure Dragon's Chant' compares the attainment of enlightenment to the cry of a dragon ascending to the heavens, clear and resounding like the piercing call of a dragon breaking through the sky."
+    qcReviewedText: "The Daoist phrase 'Azure Dragon's Chant' compares the attainment of enlightenment to the cry of a dragon ascending to the heavens, clear and resounding like the piercing call of a dragon breaking through the sky.\\nThis technique must be initiated from the dan Tian, with the internal energy radiating outward. When engaging in hand‑to‑hand combat, the release of energy produces a deafening roar, sounding like thunder that races for a thousand miles, seizing one's spirit and even causing Internal Injuries."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "此功须由丹田内气外发，与人交手之际，发功呼啸，声如雷霆疾泻千里，使人心魄为之所夺，甚至还能造成内伤。"
@@ -1166,11 +1769,23 @@
   - split: 1
     text: "混元童子气"
     translated: "Primordial Youth Qi"
+    qcReviewedText: "Primordial Youth Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7006,虽然效果强大、流传亦广，却没人要练的气功。这是因为此功乃是一门童子的缘故，殊为可惜。\\n听说一旦成亲，苦练而来的功力就会散去，任谁都不想孤独终老，所以没人愿意修练这套武功，然则这是世人的误解。所谓童子功，是指留守先天之气以养后天，故而由儿童时期起练最有效果的意思。若打娘胎出生便开始练，不出十二年即可大成。若志学之年起练，筋骨已成，先天之气逸散，则效果半减，而立之年再学，已无用处。\\n跟成亲与否其实没有关系。"
   splits:
   - split: 1
     text: "虽然效果强大、流传亦广，却没人要练的气功。这是因为此功乃是一门童子的缘故，殊为可惜。"
     translated: "Although its effects are powerful and it is widely known, no one practices this qi‑gong. This is because it is a practice meant for a virgin, which is a great pity."
+    qcReviewedText: "Although its effects are powerful and it is widely known, no one practices this qi‑gong. This is because it is a practice meant for a virgin, which is a great pity.\\nIt's said that once you get married, the martial arts skills you've diligently practiced will dissipate. No one wants to spend their old age alone, so no one is willing to train in this set of martial arts. However, this is a misconception. So‑called youthful training refers to preserving innate energy to nourish later development, which is why it's most effective to start training from childhood. If you begin training right after birth, you can achieve mastery within twelve years. If you start at the age of ten, when your muscles and bones have already developed and your innate energy has started to dissipate, the effectiveness will be reduced by half. If you begin in your thirties, it will be of no use.\\nIt has nothing to do with whether they get married or not."
+    qcTranslated: "Although its effects are powerful and it is widely known, no one practices this qi‑gong. This is because it is a practice meant for a virgin, which is a great pity.\\nIt's said that once you get married, the martial arts skills you've diligently practiced will dissipate. No one wants to spend their old age alone, so no one is willing to train in this set of martial arts. However, this is a misconception. So‑called youthful training refers to preserving innate energy to nourish later development, which is why it's most effective to start training from childhood. If you begin training right after birth, you can achieve mastery within twelve years. If you start at the age of ten, when your Muscle & Bone have already developed and your innate energy has started to dissipate, the effectiveness will be reduced by half. If you begin in your thirties, it will be of no use.\\nIt has nothing to do with whether one gets married or not."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "听说一旦成亲，苦练而来的功力就会散去，任谁都不想孤独终老，所以没人愿意修练这套武功，然则这是世人的误解。所谓童子功，是指留守先天之气以养后天，故而由儿童时期起练最有效果的意思。若打娘胎出生便开始练，不出十二年即可大成。若志学之年起练，筋骨已成，先天之气逸散，则效果半减，而立之年再学，已无用处。"
@@ -1187,11 +1802,19 @@
   - split: 1
     text: "巫山洞府九宝图"
     translated: "Wushan Cave Mansion Nine Treasures Diagram"
+    qcReviewedText: "Wushan Cave Mansion Nine Treasures Diagram"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7007,藏于巫山与长江流域交会的钟乳洞中，绘于壁上的神秘武功，不知来历为何，亦不知历时几朝，以九张连环图画演示修练法门，似乎亦正亦邪，绝非寻常练功法门，然则言简意赅，有发聋振聩之效。\\n被一名失足落水的渔夫发现以后，誊拓下来，上交朝廷换得奖赏，而朝廷亦不重视，这套武功就此被埋没于达官贵人的书架之上。\\n而那钟乳洞亦因水位上升，已被彻底淹没。"
   splits:
   - split: 1
     text: "藏于巫山与长江流域交会的钟乳洞中，绘于壁上的神秘武功，不知来历为何，亦不知历时几朝，以九张连环图画演示修练法门，似乎亦正亦邪，绝非寻常练功法门，然则言简意赅，有发聋振聩之效。"
     translated: "Hidden in a stalactite cave where Wushan and the Yangtze River converge, there is a mysterious martial art painted on the walls. Its origin is unknown, as is the number of dynasties it has spanned. It is depicted in nine interconnected illustrations that demonstrate the practice method. The martial art seems to straddle the line between righteousness and evil, and is certainly not your average training regimen. However, it is concise and to the point, with the power to awaken and enlighten."
+    qcReviewedText: "Hidden in a stalactite cave where Wushan and the Yangtze River converge, there is a mysterious martial art painted on the walls. Its origin is unknown, as is the number of dynasties it has spanned. It is depicted in nine interconnected illustrations that demonstrate the practice method. The martial art seems to straddle the line between righteousness and evil, and is certainly not your average training regimen. However, it is concise and to the point, with the power to awaken and enlighten.\\nAfter being spotted by a fisherman who had fallen into the water by accident, the manuscript was copied and submitted to the court for a reward. However, the court did not pay much attention to it, and this set of martial arts techniques was subsequently buried on the bookshelves of high‑ranking officials.\\nAnd the stalactite cave has been completely submerged due to the rising water level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "被一名失足落水的渔夫发现以后，誊拓下来，上交朝廷换得奖赏，而朝廷亦不重视，这套武功就此被埋没于达官贵人的书架之上。"
@@ -1208,11 +1831,19 @@
   - split: 1
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
+    qcReviewedText: "Iron Pipa Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7008,习练者需单脚立桩，以腿托琵琶，这是飞天门「鹤桩」的轻功；若要掀动铁琴弦，需先习练夺魄门「霜刀破竹指」；再来要鼓动音箱，便须运使玄功门内力，使其共振；御敌时，更能抄起琵琶作为武器，施展铁拳奇门「如意砸」的招数，打爆敌人脑袋瓜。\\n功成心念一动，百脉齐鸣，动如响弦，历久不衰，是为崆峒第一神功。"
   splits:
   - split: 1
     text: "习练者需单脚立桩，以腿托琵琶，这是飞天门「鹤桩」的轻功；若要掀动铁琴弦，需先习练夺魄门「霜刀破竹指」；再来要鼓动音箱，便须运使玄功门内力，使其共振；御敌时，更能抄起琵琶作为武器，施展铁拳奇门「如意砸」的招数，打爆敌人脑袋瓜。"
     translated: "The practitioner must balance on one leg, supporting a lute with their knee, which is the Qinggong technique of the Flying Heaven School known as Crane Pile; to pluck the strings of an iron zither, one must first learn the Soul Stealer School's Frost Blade Piercing Bamboo Finger; then, to resonate the sound box, one must harness the Inner Power of the Mystic Skill School, causing it to vibrate; in combat, they can also pick up the lute as a weapon and use the Iron Fist School's Willow Wand Smash technique to crack their enemy's skull."
+    qcReviewedText: "The practitioner must balance on one leg, supporting a lute with their knee, which is the Qinggong technique of the Flying Heaven School known as Crane Pile; to pluck the strings of an iron zither, one must first learn the Soul Stealer School's Frost Blade Piercing Bamboo Finger; then, to resonate the sound box, one must harness the Inner Power of the Mystic Skill School, causing it to vibrate; in combat, they can also pick up the lute as a weapon and use the Iron Fist School's Willow Wand Smash technique to crack their enemy's skull.\\nWhen success comes, a single thought sets off a symphony of energy, moving with the resonance of taut strings that endure over time‑this is the supreme martial art of Kongtong."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "功成心念一动，百脉齐鸣，动如响弦，历久不衰，是为崆峒第一神功。"
@@ -1225,11 +1856,19 @@
   - split: 1
     text: "焚心火印"
     translated: "Heartburn Seal"
+    qcReviewedText: "Heartburn Seal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7009,飞天门和夺魄门角逐崆峒门面之选，为求速成，不惜饮鸩止渴，以火蝎毒助长内力，强行突破瓶颈。\\n运使焚心火印，能够暂时加速心搏，推动血流、以燃烧余寿为代价，全面提升肉体能力。\\n但是代价不只这些，火毒囤积在体内，每达鼎盛就会溢于表征，轻则口干舌燥、牙龈渗血、失眠易怒，重则火气冲脑，不是痴呆就是暴毙。\\n每年端午阳气最盛之时尤为凶险，不可不慎。"
   splits:
   - split: 1
     text: "飞天门和夺魄门角逐崆峒门面之选，为求速成，不惜饮鸩止渴，以火蝎毒助长内力，强行突破瓶颈。"
     translated: "The Flying Heaven Sect and the Soul Stealer Sect are competing for the face of the Kongtong Sect. In their quest for quick results, they are not hesitating to drink poison to quench their thirst, using the venom of fire scorpions to boost their Inner Power and forcefully break through their limitations."
+    qcReviewedText: "The Flying Heaven Sect and the Soul Stealer Sect are competing for the face of the Kongtong Sect. In their quest for quick results, they are not hesitating to drink poison to quench their thirst, using the venom of fire scorpions to boost their Inner Power and forcefully break through their limitations.\\nBy using the Burning Heart Flame Seal, they can temporarily accelerate their heartbeat and boost blood circulation, trading their remaining lifespan for an overall enhancement of physical capabilities.\\nBut the costs don't end there; the fire poison accumulates within the body, overflowing at its peak to manifest in symptoms. At the lighter end, it causes dry mouth and cracked lips, bleeding gums, insomnia, and irritability. At its worst, it can rage up to the brain, leading to either dementia or sudden death.\\nDuring the Dragon Boat Festival, when the Yang energy is at its peak, it is especially dangerous and must be approached with great caution."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "运使焚心火印，能够暂时加速心搏，推动血流、以燃烧余寿为代价，全面提升肉体能力。"
@@ -1250,11 +1889,19 @@
   - split: 1
     text: "雪山心法"
     translated: "Snow Mountain Heart Method"
+    qcReviewedText: "Snow Mountain Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7010,现今已不存在的雪山派心法，修练方法非常特殊。需吸足真气，赤身裸体、头下脚上插进雪中，只将脚掌露在外边，再由旁人以艾炙足底涌泉穴，使修练者运使心法借艾炙的热力温经通络，调适体温、抵御冰雪。\\n没有雪水的话，就近找条清凉的溪流，也可以替代。"
   splits:
   - split: 1
     text: "现今已不存在的雪山派心法，修练方法非常特殊。需吸足真气，赤身裸体、头下脚上插进雪中，只将脚掌露在外边，再由旁人以艾炙足底涌泉穴，使修练者运使心法借艾炙的热力温经通络，调适体温、抵御冰雪。"
     translated: "The Heart Method of the now‑extinct Snow Mountain Sect has a very special practice. One must absorb an ample amount of True Qi, strip completely naked, and insert their head downward into the snow with only their feet exposed. Another person then applies moxibustion to the Yongquan acupoint on the sole of the feet, allowing the practitioner to use the Heat Method to harness the warmth from the moxa to activate their meridians and regulate their body temperature to withstand the cold of the ice and snow."
+    qcReviewedText: "The Heart Method of the now‑extinct Snow Mountain Sect has a very special practice. One must absorb an ample amount of True Qi, strip completely naked, and insert their head downward into the snow with only their feet exposed. Another person then applies moxibustion to the Yongquan acupoint on the sole of the feet, allowing the practitioner to use the Heat Method to harness the warmth from the moxa to activate their meridians and regulate their body temperature to withstand the cold of the ice and snow.\\nIf there's no snow water, find a nearby clear, cool stream as an alternative."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "没有雪水的话，就近找条清凉的溪流，也可以替代。"
@@ -1267,11 +1914,19 @@
   - split: 1
     text: "玄烛心经"
     translated: "Mysterious Candle Heart Sutra"
+    qcReviewedText: "Mysterious Candle Heart Sutra"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7011,锦香宫主费煞苦心创制，由南宫心法演化而来，旨在助人心意宁定，不致因为悲切而伤身。\\n玄烛意指月亮，故而此功又名望月心经。\\n人有悲欢离合，月有阴晴圆缺，此事古难全，可即使天各一方，照的都是同一片月光。\\n每当恸动之时，当行此功，收敛心神，化悲伤为力量，好好活着。"
   splits:
   - split: 1
     text: "锦香宫主费煞苦心创制，由南宫心法演化而来，旨在助人心意宁定，不致因为悲切而伤身。"
     translated: "Jinxiang Palace Mistress created this with great effort; it evolved from the Nangong Heart Method, aiming to help one's mind find peace and prevent the body from being harmed by sorrow."
+    qcReviewedText: "Jinxiang Palace Mistress created this with great effort; it evolved from the Nangong Heart Method, aiming to help one's mind find peace and prevent the body from being harmed by sorrow.\\nXuan Zhu refers to the moon, hence this technique is also known as the Moon Gazing Sutra.\\nPeople experience joy and sorrow, just as the moon goes through phases of Yin and Yang, waxing and waning. This has always been beyond complete control, yet even when separated by great distances, we are bathed in the same moonlight.\\nWhenever you are overcome with sorrow, perform this technique to calm your mind and transform your grief into strength, and live well."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "玄烛意指月亮，故而此功又名望月心经。"
@@ -1292,11 +1947,19 @@
   - split: 1
     text: "南宫心法"
     translated: "Nangong Heart Method"
+    qcReviewedText: "Nangong Heart Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7012,南宫家世代承传的家学心法，人手一本，歌诀大方的抄录在书本内页。\\n揉合道家思想，万变犹定，神怡气静，意守玄关，降伏邪气，虚怀若谷，心神清明。\\n以守心为本，而后护身、保家、卫国，是南宫家学的根基。"
   splits:
   - split: 1
     text: "南宫家世代承传的家学心法，人手一本，歌诀大方的抄录在书本内页。"
     translated: "The Heart Method passed down through the generations in the Nangong family, a copy for each person, with the easy‑to‑remember verses neatly written inside the book."
+    qcReviewedText: "The Heart Method passed down through the generations in the Nangong family, a copy for each person, with the easy‑to‑remember verses neatly written inside the book.\\nCombining Taoist philosophy, amidst change there is constancy, tranquil spirit and calm breath, focusing the mind on the mysterious gateway, subduing evil energies, humble and receptive, clear‑minded and pure‑hearted.\\nStarting with guarding the heart, then protecting the body, safeguarding the home, and defending the country‑this is the foundation of the Nangong family's teachings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "揉合道家思想，万变犹定，神怡气静，意守玄关，降伏邪气，虚怀若谷，心神清明。"
@@ -1313,11 +1976,24 @@
   - split: 1
     text: "龙渊七绝"
     translated: "Long Yuan Seven Absolutes"
+    qcReviewedText: "Long Yuan Seven Absolutes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7013,传奇一般的前任武林盟主龙渊的成名功夫，其实并不是一套武功，而是龙渊曾使过的七种绝技。\\n刀剑：斩落星辰纲；拳掌：割山掌；腿法：射日腿；枪棍：小霸王枪；长索：离奇点穴绳；暗器：如意指；内功：玄玄造化功。\\n当年龙渊号令群雄，攻入旧魔教天堂总坛，独斗极乐教主，斩星射日、霸王割山连番使出，震骇当世正邪两派高手，不约而同都想：「这便是当今天下第一了。」"
   splits:
   - split: 1
     text: "传奇一般的前任武林盟主龙渊的成名功夫，其实并不是一套武功，而是龙渊曾使过的七种绝技。"
     translated: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used."
+    qcReviewedText: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used.\\nBlade and sword：Slay the Stellar Net; Fist and Palm：Chopping Mountain Palm; Leg Techniques：Sun‑Deflecting Kick; Spear & Staff：Tyrannical King Spear; Long Rope：Strange acupoint binding rope; Hidden Weapon：Magic wand; Neigong：Mystic Transformation Art \\nIn that Year, Long Yuan commanded the heroes to attack the Demon Sect's main headquarters, single‑handedly challenging the Joyful King of the Demon Sect. They unleashed the Star‑Slicing and Sun‑Shooting techniques, followed by the Mountain‑Cleaving Saber Art, shocking both the righteous and evil factions alike. Without any prior agreement, everyone was left wanting to...：That is the number one in the world today."
+    qcTranslated: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used.\\nBlade and sword：Slay the Stellar Net; Fist and Palm：Chopping Mountain Palm; Leg Techniques：Sun‑Deflecting Kick; Spear & Staff：Tyrannical King Spear; Long Rope：Strange acupoint binding rope; Hidden Weapon：Magic wand; Neigong：Mystic Transformation Art \\nIn that Year, Long Yuan commanded the heroes to attack the Demon Sect's main headquarters, single‑handedly challenging the Joyful King of the Demon Sect. He unleashed the Star‑Slicing and Sun‑Shooting techniques, followed by the Mountain‑Cleaving Saber Art, shocking both the righteous and evil factions alike. Without any prior agreement, everyone was left thinking: That is the number one in the world today."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 15
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "刀剑"
@@ -1366,11 +2042,19 @@
   - split: 1
     text: "逐浪诀"
     translated: "Wave Riding Technique"
+    qcReviewedText: "Wave Riding Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7014,武林三大世家上官一脉承传的心法，翻浪刀法的真髓。\\n需借汹涌激流练刀，练到能在惊涛之中屹立不摇，挥刀斩浪的地步。\\n招数有如沧浪一波未平、一波又起，咄咄逼人，内力到处，更是威力大增，教人便招架住了，也得踉跄几步。"
   splits:
   - split: 1
     text: "武林三大世家上官一脉承传的心法，翻浪刀法的真髓。"
     translated: "The essence of the Wave‑Flipping Blade Art, a heart method passed down from the Shangguan lineage of the three great martial families of Wulin."
+    qcReviewedText: "The essence of the Wave‑Flipping Blade Art, a heart method passed down from the Shangguan lineage of the three great martial families of Wulin.\\nNeed to train with the turbulent currents, practicing until they can stand firm and cut through the waves with their blade.\\nThe techniques came one after another, like waves on the river, relentless and overpowering. With the addition of Inner Power, their effectiveness was greatly enhanced, forcing even those who managed to block them to stagger backwards."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "需借汹涌激流练刀，练到能在惊涛之中屹立不摇，挥刀斩浪的地步。"
@@ -1387,11 +2071,19 @@
   - split: 1
     text: "无为丹法"
     translated: "Wu Wei Dan Method"
+    qcReviewedText: "Wu Wei Dan Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7015,青城派的内功心法，主张无为持修，守无致虚。\\n心性清净无为，便是有为，无心无念是为大成，切忌一切意象存想，然道自生。\\n难学难精，但是功成之日，非同小可。"
   splits:
   - split: 1
     text: "青城派的内功心法，主张无为持修，守无致虚。"
     translated: "Qingcheng Sect's Neigong Heart Method advocates for non‑action and maintaining emptiness to achieve a state of nothingness."
+    qcReviewedText: "Qingcheng Sect's Neigong Heart Method advocates for non‑action and maintaining emptiness to achieve a state of nothingness.\\nA pure and uninvolved mind is considered active, while a mind without thoughts or desires is true mastery. Avoid all intentional visualization, yet the path will unfold on its own.\\nDifficult to learn and difficult to master, but the day you succeed is of great significance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "心性清净无为，便是有为，无心无念是为大成，切忌一切意象存想，然道自生。"
@@ -1408,11 +2100,19 @@
   - split: 1
     text: "虎啸功"
     translated: "Tiger Howl Skill"
+    qcReviewedText: "Tiger Howl Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7016,道门虎啸功，是以猛虎咆啸为譬，形容修道之人勇猛精进，有如猛虎一般威猛，使群邪辟易。\\n此功须由丹田内气外发，与人交手之际，发功呼啸，声如雷霆疾泻千里，使人心魄为之所夺，甚至还能造成内伤。"
   splits:
   - split: 1
     text: "道门虎啸功，是以猛虎咆啸为譬，形容修道之人勇猛精进，有如猛虎一般威猛，使群邪辟易。"
     translated: "The Tiger Roar Technique of the Taoist School is based on the mighty roar of a tiger, describing how a practitioner advances with fierce and vigorous energy, like a powerful tiger, making all evil forces retreat in fear."
+    qcReviewedText: "The Tiger Roar Technique of the Taoist School is based on the mighty roar of a tiger, describing how a practitioner advances with fierce and vigorous energy, like a powerful tiger, making all evil forces retreat in fear.\\nThis technique must be initiated from the dan Tian, with the internal energy radiating outward. When engaging in hand‑to‑hand combat, the release of energy produces a deafening roar, sounding like thunder that races for a thousand miles, seizing one's spirit and even causing Internal Injuries."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "此功须由丹田内气外发，与人交手之际，发功呼啸，声如雷霆疾泻千里，使人心魄为之所夺，甚至还能造成内伤。"
@@ -1425,21 +2125,37 @@
   - split: 1
     text: "枯荣神功上卷"
     translated: "Volume One of Withering and Flourishing Divine Skill"
+    qcReviewedText: "Volume One of Withering and Flourishing Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7017,枯荣神功上卷"
   splits:
   - split: 1
     text: "枯荣神功上卷"
     translated: "Volume One of Withering and Flourishing Divine Skill"
+    qcReviewedText: "Volume One of Withering and Flourishing Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/7018,阴阳夺"
   splits:
   - split: 1
     text: "阴阳夺"
     translated: "Yin and Yang Theft"
+    qcReviewedText: "Yin and Yang Theft"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/7018,青城派的神妙武功，融会太极之理，气敛入骨，内固精神，于掌心造化万物，一收一放，一阴一阳，一静一动。\\n无论来者劲道是阴是阳，均能化收，犹如泥牛入海，消散无形。"
   splits:
   - split: 1
     text: "青城派的神妙武功，融会太极之理，气敛入骨，内固精神，于掌心造化万物，一收一放，一阴一阳，一静一动。"
     translated: "The divine and ingenious martial arts of the Qingcheng Sect, combining the principles of Tai Chi, gather qi into the bones, solidify Willpower internally, and create all things in the palm. With a single gathering and release, a single Yin and Yang, a single stillness and movement."
+    qcReviewedText: "The divine and ingenious martial arts of the Qingcheng Sect, combining the principles of Tai Chi, gather qi into the bones, solidify Willpower internally, and create all things in the palm. With a single gathering and release, a single Yin and Yang, a single stillness and movement.\\nRegardless of whether the incoming force is Yin or Yang, it can be absorbed and transformed, vanishing without a trace like a mud cow entering the sea."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "无论来者劲道是阴是阳，均能化收，犹如泥牛入海，消散无形。"
@@ -1452,11 +2168,19 @@
   - split: 1
     text: "论语"
     translated: "Analects"
+    qcReviewedText: "Analects"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8000,以春秋思想家孔子的言论汇编，\\n为儒家最重要的经典之一。\\n这是三师兄当私塾先生时，\\n为了教授不识字学童而编辑的简单白话本。"
   splits:
   - split: 1
     text: "以春秋思想家孔子的言论汇编，"
     translated: "A compilation of the sayings of Confucius, the philosopher from the Spring and Autumn period,"
+    qcReviewedText: "A compilation of the sayings of Confucius, the philosopher from the Spring and Autumn period,\\nOne of the most important classics of Confucianism.\\nThis was when Third Senior Brother was teaching as a private tutor,\\nA simplified vernacular edition edited for teaching illiterate students."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "为儒家最重要的经典之一。"
@@ -1477,11 +2201,19 @@
   - split: 1
     text: "孙子兵法"
     translated: "Sun Tzu's Art of War"
+    qcReviewedText: "Sun Tzu's Art of War"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8001,春秋兵圣孙武所著，是为中原最早的兵书，被兵家奉为经典。\\n一共十三篇，论述军事，总结战争经验，对后世军策影响极其深远。"
   splits:
   - split: 1
     text: "春秋兵圣孙武所著，是为中原最早的兵书，被兵家奉为经典。"
     translated: "Written by Sun Wu, the Military Sage of the Spring and Autumn period, this is considered the earliest military text in China and is regarded as a classic by military scholars."
+    qcReviewedText: "Written by Sun Wu, the Military Sage of the Spring and Autumn period, this is considered the earliest military text in China and is regarded as a classic by military scholars.\\nThese thirteen essays discuss military strategies and summarize war experiences, having a profound impact on military tactics and strategy in later generations."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一共十三篇，论述军事，总结战争经验，对后世军策影响极其深远。"
@@ -1494,11 +2226,19 @@
   - split: 1
     text: "雪球教战守则"
     translated: "Snowball Combat Manual"
+    qcReviewedText: "Snowball Combat Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8003,作者叶云裳，字迹很娟秀，笔锋有些稚趣，就像她的人一般。\\n这书写了她的雪仗技巧，煞有其事分了《正攻》、《奇袭》两篇，此书中的招数，多数是她想象出来的。\\n包含了在雪球里藏石头、毛虫或者雪球塞裤管等等无所不用其极的残忍伎俩。"
   splits:
   - split: 1
     text: "作者叶云裳，字迹很娟秀，笔锋有些稚趣，就像她的人一般。"
     translated: "Author Ye Yunshang's handwriting is very neat and elegant, with a somewhat naive and playful brushstroke, just like her personality."
+    qcReviewedText: "Author Ye Yunshang's handwriting is very neat and elegant, with a somewhat naive and playful brushstroke, just like her personality.\\nThis book details her snowball fight techniques, dividing them into two sections, Straight Attack and Surprise Assault. Most of the moves in the book are purely imaginative.\\nIncluding every cruel tactic imaginable, such as hiding rocks inside snowballs, putting caterpillars inside them, or stuffing snowballs down pants."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "这书写了她的雪仗技巧，煞有其事分了《正攻》、《奇袭》两篇，此书中的招数，多数是她想象出来的。"
@@ -1515,11 +2255,19 @@
   - split: 1
     text: "十八种奇兵锻法杂记"
     translated: "Miscellaneous Notes on Eighteen Unique Weapon Training Methods"
+    qcReviewedText: "Miscellaneous Notes on Eighteen Unique Weapon Training Methods"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8004,崆峒铁拳门当代掌门雷谦所书的杂记。\\n他自知资质愚钝，唯恐先代巧艺失佚，虽无能开创新局，却发偌大宏愿，将诸般奇兵铸法整汇于此书之中。\\n这是一部写给凡人的书。"
   splits:
   - split: 1
     text: "崆峒铁拳门当代掌门雷谦所书的杂记。"
     translated: "Sect Leader Lei Qian's miscellaneous notes from the contemporary Iron Fist Sect of Kongtong."
+    qcReviewedText: "Sect Leader Lei Qian's miscellaneous notes from the contemporary Iron Fist Sect of Kongtong.\\nKnowing their own limitations, they feared the loss of previous generations' ingenious techniques. While unable to forge a new path, they nonetheless set a grand ambition to compile all manner of extraordinary weapon‑casting methods into this book.\\nThis is a book written for ordinary people."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "他自知资质愚钝，唯恐先代巧艺失佚，虽无能开创新局，却发偌大宏愿，将诸般奇兵铸法整汇于此书之中。"
@@ -1536,11 +2284,19 @@
   - split: 1
     text: "江湖鬼蜮录"
     translated: "Jianghu Ghostly Chronicles"
+    qcReviewedText: "Jianghu Ghostly Chronicles"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8005,记载了种种江湖伎俩的醒世录，撰书人本意是提醒无辜百姓，莫受人欺，须知人心隔肚皮，害人之心不可有，防人之心亦不可无。\\n奈何此书落到坏人手里，登时就变成诈骗宝典，怎么带劲怎么来。"
   splits:
   - split: 1
     text: "记载了种种江湖伎俩的醒世录，撰书人本意是提醒无辜百姓，莫受人欺，须知人心隔肚皮，害人之心不可有，防人之心亦不可无。"
     translated: "The Awakened Record, which details various tricks of the Jianghu, was written to warn innocent people not to be deceived by others. It reminds them that one must be wary of people's true intentions, as they can't be known just by looking at someone. One should not have malicious intentions, but also cannot afford to be naive and trusting."
+    qcReviewedText: "The Awakened Record, which details various tricks of the Jianghu, was written to warn innocent people not to be deceived by others. It reminds them that one must be wary of people's true intentions, as they can't be known just by looking at someone. One should not have malicious intentions, but also cannot afford to be naive and trusting.\\nAlas, this book fell into the hands of the wicked, and immediately became a guide to scams, with its advice on how to be as persuasive and deceitful as possible."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "奈何此书落到坏人手里，登时就变成诈骗宝典，怎么带劲怎么来。"
@@ -1553,11 +2309,22 @@
   - split: 1
     text: "江湖鬼蜮录．续"
     translated: "Jianghu Ghostly Chronicles: Continuation"
+    qcReviewedText: "Jianghu Ghostly Chronicles: Continuation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8006,江湖鬼域录不具名受害者以口代手，咬笔所写的陈情录。\\n书中陈述他如何从一个天真无邪、四肢健全的孩童，被诈骗得家破人亡，流落异乡，自食其力却又被人构陷盗窃，获罪入狱，斩去双臂。\\n最终他逃出生天，以狱中苦练的核枣钉报仇雪恨。"
   splits:
   - split: 1
     text: "江湖鬼域录不具名受害者以口代手，咬笔所写的陈情录。"
     translated: "The unnamed victim of the Jianghu ghost domain wrote their plea with their mouth instead of their hand, biting the pen to write."
+    qcReviewedText: "The unnamed victim of the Jianghu ghost domain wrote their plea with their mouth instead of their hand, biting the pen to write.\\nThe book describes how he went from an innocent, healthy child to being defrauded, leaving him destitute and homeless, forced to fend for himself in a foreign land. They then framed him for theft, and he was sentenced to jail, where his arms were amputated.\\nIn the end, they escaped and avenged the past with the plum blossom nail, which they had diligently practiced while in prison."
+    qcTranslated: "The unnamed victim of the Jianghu ghost domain wrote their plea with their mouth instead of their hand, biting the pen to write.\\nThe book describes how he went from an innocent, healthy child to being defrauded, leaving him destitute and homeless, forced to fend for himself in a foreign land. They then framed him for theft, and he was sentenced to jail, where his arms were amputated.\\nIn the end, they escaped and avenged the past with the core date nail, which they had diligently practiced while in prison."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "书中陈述他如何从一个天真无邪、四肢健全的孩童，被诈骗得家破人亡，流落异乡，自食其力却又被人构陷盗窃，获罪入狱，斩去双臂。"
@@ -1574,11 +2341,22 @@
   - split: 1
     text: "战神语录"
     translated: "War God's Sayings"
+    qcReviewedText: "War God's Sayings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8007,儒家战神孟子周游列国之时舌战群雄、以唇枪舌剑嘴诛口伐，平定中原的语录。来源不可考，不过在乡野传说中，象棋里的「炮」指的其实就是孟子的嘴，可以隔空杀人，而且恐怖之处在于方位拿准了，谁都杀得了。\\n无论对方地位如何尊崇、请教的态度如何谦恭，都会惨被孟子教训，他甚至在吵架时甚至用上了孙子兵法和内功，让人被骂时都回不了嘴，被活活骂死都不奇怪。\\n骂遍诸子百家，却不许旁人非议他，怒驳：「予岂好辩哉！？予不得已也！！」乃成千古绝响。"
   splits:
   - split: 1
     text: "儒家战神孟子周游列国之时舌战群雄、以唇枪舌剑嘴诛口伐，平定中原的语录。来源不可考，不过在乡野传说中，象棋里的「炮」指的其实就是孟子的嘴，可以隔空杀人，而且恐怖之处在于方位拿准了，谁都杀得了。"
     translated: "Confucian warrior god Mencius traveled through various states, engaging in verbal debates with numerous opponents, using their words as a Sword and their tongues as a Spear to pacify the Central Plains. The origin of this saying is unknown, but in local folklore, the Cannon in chess is said to represent Mencius's mouth, capable of killing from a distance. The terrifying aspect lies in its precision; if the position is correct, anyone can be eliminated."
+    qcReviewedText: "Confucian warrior god Mencius traveled through various states, engaging in verbal debates with numerous opponents, using their words as a Sword and their tongues as a Spear to pacify the Central Plains. The origin of this saying is unknown, but in local folklore, the Cannon in chess is said to represent Mencius's mouth, capable of killing from a distance. The terrifying aspect lies in its precision; if the position is correct, anyone can be eliminated.\\nNo matter how revered the other party's status or how politely they sought his advice, Mengzi would always end up lecturing them. Even in arguments, he would use The Art of War and Neigong techniques, leaving his opponents speechless and unable to defend themselves, often to the point of being verbally overwhelmed and defeated.\\nHe curses at all the schools of thought but won't allow others to criticize him, angrily refuting any objections.：Am I fond of debating!? No, I have no choice!! This has become an enduring refrain through the ages."
+    qcTranslated: "Confucian warrior god Mencius traveled through various states, engaging in verbal debates with numerous opponents, using their words as a Sword and their tongues as a Spear to pacify the Central Plains. The origin of this saying is unknown, but in local folklore, the Cannon in chess is said to represent Mencius's mouth, capable of killing from a distance. The terrifying aspect lies in its precision; if the position is correct, anyone can be eliminated.\\nNo matter how revered the other party's status or how politely they sought his advice, Mengzi would always end up lecturing them. Even in arguments, he would use The Art of War and Neigong techniques, leaving his opponents speechless and unable to defend themselves, often to the point of being verbally overwhelmed and defeated.\\nHe curses at all the schools of thought but won't allow others to criticize him, angrily refuting any objections: Am I fond of debating!? No, I have no choice!! This has become an enduring refrain through the ages."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "无论对方地位如何尊崇、请教的态度如何谦恭，都会惨被孟子教训，他甚至在吵架时甚至用上了孙子兵法和内功，让人被骂时都回不了嘴，被活活骂死都不奇怪。"
@@ -1599,11 +2377,19 @@
   - split: 1
     text: "南宫风流扇"
     translated: "Nangong Elegant Fan"
+    qcReviewedText: "Nangong Elegant Fan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8008,名闻天下的南宫家学，莫看纸扇摇摇，一派儒雅若不经风，实则非同小可。\\n扇法攻防一体，扇柄能打穴，扇面翩飞更藏后手，实为虚，虚为实，内力强者光凭搧风即可憾人，脱手飞旋来去，更是难防难闪。难得的是深有儒风，不骄不馁，谦逊致和。"
   splits:
   - split: 1
     text: "名闻天下的南宫家学，莫看纸扇摇摇，一派儒雅若不经风，实则非同小可。"
     translated: "The renowned Nangong family school may appear scholarly and elegant with their paper fans swaying in the breeze, but this facade belies their true significance, which is far from ordinary."
+    qcReviewedText: "The renowned Nangong family school may appear scholarly and elegant with their paper fans swaying in the breeze, but this facade belies their true significance, which is far from ordinary.\\nThe fan technique combines offense and defense; the handle can strike acupoints, while the fan's movement is both elegant and conceals hidden attacks. Reality is illusion, and illusion is reality. Those with strong Inner Power can disorient opponents just by fanning, and when the fan flies freely, it becomes even harder to defend against or dodge. What's rare is their profound scholarly demeanor, neither arrogant nor discouraged, displaying humility and harmony."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "扇法攻防一体，扇柄能打穴，扇面翩飞更藏后手，实为虚，虚为实，内力强者光凭搧风即可憾人，脱手飞旋来去，更是难防难闪。难得的是深有儒风，不骄不馁，谦逊致和。"
@@ -1616,11 +2402,22 @@
   - split: 1
     text: "崆峒玄兵锻法"
     translated: "Kongtong Xuanbing Forging Method"
+    qcReviewedText: "Kongtong Xuanbing Forging Method"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8009,记载了崆峒四门秘传奇兵的锻造方法，其中颇有机巧之术，鬼斧神工。\\n子母鸳鸯钺、机关锯、钩绳飞爪均有所载。\\n你虽不使这些兵器，但造出来琢磨研究，精进自身技艺却是可以。"
   splits:
   - split: 1
     text: "记载了崆峒四门秘传奇兵的锻造方法，其中颇有机巧之术，鬼斧神工。"
     translated: "The text describes the secret legendary weapon forging methods of the four gates of Kongtong, which are highly ingenious and demonstrate extraordinary craftsmanship."
+    qcReviewedText: "The text describes the secret legendary weapon forging methods of the four gates of Kongtong, which are highly ingenious and demonstrate extraordinary craftsmanship.\\nThe mother‑and‑son mandarin ducks' cleavers, the mechanism saw, and the grappling hook and whipcord are all included.\\nEven if you don't use these weapons, studying and refining them can help improve your skills."
+    qcTranslated: "The text describes the secret legendary weapon forging methods of the four gates of Kongtong, which are highly ingenious and demonstrate extraordinary craftsmanship.\\nThe Mother‑Son Mandarin Duck Yue, the Mechanism Saw, and the Hook Rope Flying Claw are all included.\\nEven if you don't use these weapons, studying and refining them can help improve your skills."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "子母鸳鸯钺、机关锯、钩绳飞爪均有所载。"
@@ -1637,11 +2434,19 @@
   - split: 1
     text: "南宫武备论"
     translated: "Nangong Martial Preparedness Treatise"
+    qcReviewedText: "Nangong Martial Preparedness Treatise"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8010,南宫高祖，武林盟主南宫智的手书抄本。\\n笔力雄健，一撇一捺宛若横扫千军，常为南宫族人习帖练字所临摹。\\n虽不记载武功，却杂记了南宫智生平所悟，有兵法、学问、医术、心路历程、当代流行穿搭、笑话。\\n其实这书还满好看的。"
   splits:
   - split: 1
     text: "南宫高祖，武林盟主南宫智的手书抄本。"
     translated: "Nangong Gaozu's handwritten copy of the Wulin Alliance Leader Nangong Zhi's document."
+    qcReviewedText: "Nangong Gaozu's handwritten copy of the Wulin Alliance Leader Nangong Zhi's document.\\nWith powerful brushwork, each stroke and line seems to sweep away thousands of soldiers, often imitated by the Nangong clan members when practicing calligraphy.\\nThough it doesn't record martial arts techniques, it contains a miscellany of Nangong Zhi's insights and experiences throughout their life. It includes military strategy, academic knowledge, medical skills, personal reflections, contemporary fashion trends, and jokes.\\nActually, this book is quite enjoyable"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "笔力雄健，一撇一捺宛若横扫千军，常为南宫族人习帖练字所临摹。"
@@ -1662,11 +2467,19 @@
   - split: 1
     text: "火炎山锻谱"
     translated: "Fire Flame Mountain Forging Manual"
+    qcReviewedText: "Fire Flame Mountain Forging Manual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8011,不仅是火炎山剑阁各式兵器、铁器的型录，也涵盖了秘而不宣的锻冶奥秘。\\n书中记录了不同金属与合金的特性、配方，利用火炎山地热进行退火、淬火和回火等工艺。\\n与你所熟知的唐门锻法相较，更为正宗严谨。"
   splits:
   - split: 1
     text: "不仅是火炎山剑阁各式兵器、铁器的型录，也涵盖了秘而不宣的锻冶奥秘。"
     translated: "The catalog not only featured various weapons from the Flame Mountain Sword Pavilion but also included the secret forging mysteries that were kept hidden."
+    qcReviewedText: "The catalog not only featured various weapons from the Flame Mountain Sword Pavilion but also included the secret forging mysteries that were kept hidden.\\nThe book records the properties of different metals and alloys, along with formulas for tempering, quenching, and normalizing using the geothermal heat from Flame Mountain.\\nCompared to the smelting techniques you are familiar with from the Tang Clan, this method is even more authentic and rigorous."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "书中记录了不同金属与合金的特性、配方，利用火炎山地热进行退火、淬火和回火等工艺。"
@@ -1683,11 +2496,19 @@
   - split: 1
     text: "当世词选"
     translated: "Selection of Contemporary Poetry"
+    qcReviewedText: "Selection of Contemporary Poetry"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8013,一本很新的书，几经波折才流转到你手里。\\n前半篇收录了近代词家的名词佳句，包含晏殊、范仲淹、欧阳修、柳永、三苏等才子的杰作。\\n后半篇则收录了当世文人的作品，最末数页被人刻意抹黑破坏，已不可读，隐约可见作者姓魏。"
   splits:
   - split: 1
     text: "一本很新的书，几经波折才流转到你手里。"
     translated: "A very new book, after much hardship, has finally reached your hands."
+    qcReviewedText: "A very new book, after much hardship, has finally reached your hands.\\nThe first half collects fine verses and phrases by modern ci poets, including masterpieces by talented figures such as Yan Shu, Fan Zhongyan, Ouyang Xiu, Liu Yong, and the Three Sus.\\nThe latter half contains works by contemporary scholars. The final few pages have been deliberately defaced and are now unreadable, though one can faintly make out that the author's surname is Wei."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "前半篇收录了近代词家的名词佳句，包含晏殊、范仲淹、欧阳修、柳永、三苏等才子的杰作。"
@@ -1704,11 +2525,19 @@
   - split: 1
     text: "温阳活血符"
     translated: "Warm Yang Blood Circulation Talisman"
+    qcReviewedText: "Warm Yang Blood Circulation Talisman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8100,泥教天道的魔教心法。\\n一部由医书演变出来的养生气功，以中医「温法」为基础，用有温、辛性质的药物艾炙穴道，驱散寒气，亦能补气养血，十分灵验，有回阳就逆之效。"
   splits:
   - split: 1
     text: "泥教天道的魔教心法。"
     translated: "Mud Cult's Heavenly path Demon Sect Heart Method."
+    qcReviewedText: "Mud Cult's Heavenly path Demon Sect Heart Method.\\nA yangsheng technique derived from medical texts, based on the warming method of traditional Chinese medicine, uses moxibustion with herbs that are warm and pungent to dispel cold, boost qi, and nourish blood. It is very effective, with the ability to restore Yang and reverse the course of illness."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一部由医书演变出来的养生气功，以中医「温法」为基础，用有温、辛性质的药物艾炙穴道，驱散寒气，亦能补气养血，十分灵验，有回阳就逆之效。"
@@ -1721,11 +2550,22 @@
   - split: 1
     text: "备急千金要方"
     translated: "Essential Formulas for Emergency Treatment"
+    qcReviewedText: "Essential Formulas for Emergency Treatment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8101,药王孙思邈所著，验方经方俱备的医学巨著。\\n此书基于《黄帝内经》脏腑学说，搜罗医论、医方、用药、针灸，共有二百三十门，药方五千三百首。\\n开卷《大医精诚》一文，首论医德，仁怀天下，影响后世深远。"
   splits:
   - split: 1
     text: "药王孙思邈所著，验方经方俱备的医学巨著。"
     translated: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions."
+    qcReviewedText: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions.\\nWhile correcting, they referred to the zang‑fu theory from The Yellow Emperor's Inner Canon and included medical theories, prescriptions, herbal remedies, acupuncture, and the text consists of two hundred and thirty sections with five thousand three hundred prescriptions.\\nOpening with The Honest and Trustworthy Physician, it first discusses medical ethics, advocating for compassion that embraces the world, with a profound impact on future generations."
+    qcTranslated: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions.\\nBased on the zang‑fu theory from The Yellow Emperor's Inner Canon, it compiles medical theories, prescriptions, herbal remedies, and acupuncture, totaling two hundred and thirty sections with five thousand three hundred prescriptions.\\nOpening with The Honest and Trustworthy Physician, it first discusses medical ethics, advocating for compassion that embraces the world, with a profound impact on future generations."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "此书基于《黄帝内经》脏腑学说，搜罗医论、医方、用药、针灸，共有二百三十门，药方五千三百首。"
@@ -1742,21 +2582,42 @@
   - split: 1
     text: "伤寒杂病论"
     translated: "Treatise on Cold Damage and Miscellaneous Diseases"
+    qcReviewedText: "Treatise on Cold Damage and Miscellaneous Diseases"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8102,东汉医国手张仲景所著，是汉医学经典。原典因战火辗转而失佚，此书是后人集《伤寒论》与《金匮要略》所编撰而成。"
   splits:
   - split: 1
     text: "东汉医国手张仲景所著，是汉医学经典。原典因战火辗转而失佚，此书是后人集《伤寒论》与《金匮要略》所编撰而成。"
     translated: "Written by Zhang Zhongjing, a physician of the Eastern Han dynasty, this is a classic of Han medicine. The original text was lost due to wars and battles, but this book was compiled from the Shang Huan Lun and the Jin Gu Yao Lue."
+    qcReviewedText: "Written by Zhang Zhongjing, a physician of the Eastern Han dynasty, this is a classic of Han medicine. The original text was lost due to wars and battles, but this book was compiled from the Shang Huan Lun and the Jin Gu Yao Lue."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/8104,唐门药典"
   splits:
   - split: 1
     text: "唐门药典"
     translated: "Tang Clan Pharmacopoeia"
+    qcReviewedText: "Tang Clan Pharmacopoeia"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8104,唐门祖传医书，当世唯一以毒用药的医书。揉合苗疆、佛家学说，观一碗水有八万四千虫，虫即为毒，亦分五行六合，对应五脏六腑，多则害，少则病，尽则虚，错则狂。\\n人非不害于五毒，实乃毒性未发而已，唯得用药养之，使其顺心不逆，躯毒为己用，则百病难侵。"
   splits:
   - split: 1
     text: "唐门祖传医书，当世唯一以毒用药的医书。揉合苗疆、佛家学说，观一碗水有八万四千虫，虫即为毒，亦分五行六合，对应五脏六腑，多则害，少则病，尽则虚，错则狂。"
     translated: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. While correcting, it integrates the knowledge of the Miao region and Buddhist teachings, observing that a bowl of water contains eighty‑four thousand worms, where worms are poison and are categorized by the five elements and six realms, corresponding to the five organs and six fu. Too much is harmful, too little causes illness, none leads to weakness, and imbalance results in madness."
+    qcReviewedText: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. While correcting, it integrates the knowledge of the Miao region and Buddhist teachings, observing that a bowl of water contains eighty‑four thousand worms, where worms are poison and are categorized by the five elements and six realms, corresponding to the five organs and six fu. Too much is harmful, too little causes illness, none leads to weakness, and imbalance results in madness.\\nA person is not immune to the Five Poisons; they are merely dormant. Only through the use of medicine can one nurture them, making them harmonious and not contrary, turning the poisons to their advantage, and thus no illnesses can invade them. While defending, they encountered an invasion. The full sentence should be While preventing, they ensure that no illnesses can invade. However, since the task is to translate exactly as written, the character error is retained.)"
+    qcTranslated: "The Tang Clan's ancestral medical text, the only one in the world that uses Poison as medicine. It integrates the knowledge of the Miao region and Buddhist teachings, observing that a bowl of water contains eighty‑four thousand worms, where worms are Poison and are categorized by the five elements and six harmonies, corresponding to the five organs and six fu. Too much is harmful, too little causes illness, none leads to weakness, and imbalance results in madness.\\nA person is not immune to the Five Poisons; they are merely dormant. Only through the use of medicine can one nurture them, making them harmonious and not contrary, turning the body's Poison to its advantage, and thus no illnesses can invade."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "人非不害于五毒，实乃毒性未发而已，唯得用药养之，使其顺心不逆，躯毒为己用，则百病难侵。"
@@ -1769,11 +2630,23 @@
   - split: 1
     text: "宋词选集"
     translated: "Selected Lyrics of Song Ci"
+    qcReviewedText: "Selected Lyrics of Song Ci"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8105,魏菊精选的当代杰出文人词集，节录宋词一百阙，平理若衡，照辞如镜。\\n所录未必皆是名家手笔，但必为杰作。\\n此书是魏菊手抄，字迹娟秀，有如美女簪花，又似鸾飘凤泊，郁郁不能得志，但凡文人雅士，见此册无不欣喜若狂，唯独赠了你这江湖中人。\\n她谨守誓约，却藏了一点私心，以「佚名」身份，私心收录了自己旧时著作。"
   splits:
   - split: 1
     text: "魏菊精选的当代杰出文人词集，节录宋词一百阙，平理若衡，照辞如镜。"
     translated: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level‑headed approach, reflecting their meanings like a mirror."
+    qcReviewedText: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level‑headed approach, reflecting their meanings like a mirror.\\nWhat is recorded may not all be the work of masters, but it is certainly outstanding.\\nThis book is a handwritten copy by Wei Ju, with delicate and graceful handwriting that resembles a beautiful woman adorning a flower in her hair, or like a phoenix in flight. While correcting, any cultured scholar who sees this book 'ce' would go wild with joy. Yet, it was given solely to you, a person of the Jianghu.\\nShe adhered to her vow, but kept a little bit of selfishness to herself, using the identity Anonymous to secretly include her old writings."
+    qcTranslated: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level‑headed approach, reflecting their meanings like a mirror.\\nWhat is recorded may not all be the work of masters, but it is certainly outstanding.\\nThis book is a handwritten copy by Wei Ju, with delicate and graceful handwriting that resembles a beautiful woman adorning a flower in her hair, or like a phoenix in flight. Though the works are melancholic and full of unfulfilled ambition, any cultured scholar who sees this volume would go wild with joy, yet it was given solely to you, a person of the Jianghu.\\nShe adhered to her vow, but kept a little bit of selfishness to herself, using the identity Anonymous to secretly include her old writings."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "所录未必皆是名家手笔，但必为杰作。"
@@ -1794,11 +2667,22 @@
   - split: 1
     text: "太平圣惠方"
     translated: "Taiping Shenghui Fang"
+    qcReviewedText: "Taiping Shenghui Fang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8106,翰林医官奉太宗皇帝诏令所编纂的医书。\\n包括诊法、处方用药、五脏诸病、内、外、妇、儿、服食、丹药、外益、针炙等内容。\\n原典足有一百册，你所得者仅为纲目，因为二师兄认为略去的内容是常识，你应该要知道。"
   splits:
   - split: 1
     text: "翰林医官奉太宗皇帝诏令所编纂的医书。"
     translated: "While correcting, the Dragon Emperor instructed the Imperial Medical Academy officials to compile the medical text."
+    qcReviewedText: "While correcting, the Dragon Emperor instructed the Imperial Medical Academy officials to compile the medical text.\\nThis includes diagnostic methods, prescribing medicine, diseases of the five organs, internal medicine, external medicine, gynecology, pediatrics, dietary therapy, elixirs, topical treatments, and acupuncture.\\nThe original text consists of a hundred volumes, but what you have is merely an outline, because Second Senior Brother thought that the omitted content is common knowledge that you should already be aware of."
+    qcTranslated: "The medical text was compiled by Imperial Medical Academy officials under the decree of Emperor Taizong.\\nThis includes diagnostic methods, prescribing medicine, diseases of the five organs, internal medicine, external medicine, gynecology, pediatrics, dietary therapy, elixirs, topical treatments, and acupuncture.\\nThe original text consists of a hundred volumes, but what you have is merely an outline, because Second Senior Brother thought that the omitted content is common knowledge that you should already be aware of."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "包括诊法、处方用药、五脏诸病、内、外、妇、儿、服食、丹药、外益、针炙等内容。"
@@ -1815,11 +2699,19 @@
   - split: 1
     text: "难经"
     translated: "Nanjing"
+    qcReviewedText: "Nanjing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8107,全名为《黄帝八十一难经》，乃著名医学著作，旨为阐发《黄帝内经》的疑难与要旨。\\n传为名医扁鹊所著，强调「五邪相干」、「十变」理论，解释五脏生克关系，\\n论脉学、经络、脏腑乃至针法的论述，对后世医学影响深远。"
   splits:
   - split: 1
     text: "全名为《黄帝八十一难经》，乃著名医学著作，旨为阐发《黄帝内经》的疑难与要旨。"
     translated: "The full title is The Eighty‑One Difficult Classics of the Yellow Emperor, a renowned medical text aimed at elucidating the difficulties and key points of the Yellow Emperor's Inner Classic."
+    qcReviewedText: "The full title is The Eighty‑One Difficult Classics of the Yellow Emperor, a renowned medical text aimed at elucidating the difficulties and key points of the Yellow Emperor's Inner Classic.\\nAttributed to the renowned physician Bianque, it emphasizes the theory of the Five Evils Interacting and the Ten Transformations, explaining the relationships of generation and suppression among the five organs.\\nDiscussions on pulse diagnosis, meridians, internal organs, and acupuncture techniques have had a profound impact on medicine in later generations."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "传为名医扁鹊所著，强调「五邪相干」、「十变」理论，解释五脏生克关系，"
@@ -1836,11 +2728,19 @@
   - split: 1
     text: "折纸集"
     translated: "Collection of Origami"
+    qcReviewedText: "Collection of Origami"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8108,收录了古今流行的折纸方案，纸盒、纸船、纸蛙、纸鹤、纸鱼、纸花、纸剑到纸登云梯。\\n画工细腻，解说清晰，有了这本书，谁都能够成为折纸战士。"
   splits:
   - split: 1
     text: "收录了古今流行的折纸方案，纸盒、纸船、纸蛙、纸鹤、纸鱼、纸花、纸剑到纸登云梯。"
     translated: "Includes popular origami designs from various periods, such as paper boxes, paper boats, paper frogs, paper cranes, paper fish, paper flowers, paper swords, and paper ladders to the clouds."
+    qcReviewedText: "Includes popular origami designs from various periods, such as paper boxes, paper boats, paper frogs, paper cranes, paper fish, paper flowers, paper swords, and paper ladders to the clouds.\\nWith detailed illustrations and clear instructions, anyone can become a paper folding warrior with this book."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "画工细腻，解说清晰，有了这本书，谁都能够成为折纸战士。"
@@ -1853,11 +2753,23 @@
   - split: 1
     text: "九转残篇"
     translated: "Nine Turns of the Fragmented Scroll"
+    qcReviewedText: "Nine Turns of the Fragmented Scroll"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/8109,记载了极乐教镇教三宝之一《九转轮回大法》的秘籍残篇。\\n此册仅为上半卷，旨在讲述心法，而运功法门并不完全。"
   splits:
   - split: 1
     text: "记载了极乐教镇教三宝之一《九转轮回大法》的秘籍残篇。"
     translated: "While correcting, they found a fragment of the secret manual containing the 'Nine Transitions of Great Law', one of the three treasures of the Blissful Sect."
+    qcReviewedText: "While correcting, they found a fragment of the secret manual containing the 'Nine Transitions of Great Law', one of the three treasures of the Blissful Sect.\\nThis scroll is only the first half, focusing on the Heart Method, but the methods for circulating energy are not fully explained."
+    qcTranslated: "While correcting, they found a fragment of the secret manual containing the 'Nine Cycles of Reincarnation Great Law', one of the three treasures of the Blissful Sect.\\nThis scroll is only the first half, focusing on the Heart Method, but the methods for circulating energy are not fully explained."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "此册仅为上半卷，旨在讲述心法，而运功法门并不完全。"
@@ -1870,8 +2782,16 @@
   - split: 1
     text: "证类本草"
     translated: "Compendium of Materia Medica"
+    qcReviewedText: "Compendium of Materia Medica"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Desc/9001,宋代重要医书，记载了多种本草植物的图录。"
   splits:
   - split: 1
     text: "宋代重要医书，记载了多种本草植物的图录。"
     translated: "Important medical texts from the Song Dynasty recorded multiple illustrations of herbal plants."
+    qcReviewedText: "Important medical texts from the Song Dynasty recorded multiple illustrations of herbal plants."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

@@ -35,6 +35,22 @@ public class TranslationWorkflowTests
         await FileOutputWorkflowTests.PackageFinalTranslation();
     }
 
+    // Finds translations with an invented gender (he/she where the source states none) or subject-less narration
+    // written as "I". The dry run writes only TestResults/PronounRetranslation.yaml; run it first to read the count.
+    // This game has no LineContextProvider, so speaker-gender checks are not available, and its prose setting
+    // (lines whose translation names a character are skipped) comes from Config.yaml pronounCheck.
+    [Fact(DisplayName = "5. Count lines needing pronoun retranslation (dry run)")]
+    public async Task CountPronounRetranslation() =>
+        await PronounDefectWorkflow.RunAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit,
+            flagForRetranslation: false, GameFileHandling.Hooks);
+
+    // Also sets FlaggedForRetranslation on each hit. Flagged lines are not packaged until retranslated, so follow it
+    // straight away with a translate-flagged run.
+    [Fact(DisplayName = "5. Flag lines needing pronoun retranslation")]
+    public async Task FlagPronounRetranslation() =>
+        await PronounDefectWorkflow.RunAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit,
+            flagForRetranslation: true, GameFileHandling.Hooks);
+
     [Fact(DisplayName = "4. Find All Failing Translations")]
     public async Task FindAllFailingTranslations()
     {

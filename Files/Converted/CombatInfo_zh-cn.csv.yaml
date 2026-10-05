@@ -3,6 +3,14 @@
   - split: 1
     text: "嘴攻"
     translated: "Verbal Attack"
+    qcReviewedText: "Verbal Attack：\\nA method of verbal attack that can dampen an opponent's spirit and reduce the damage of their ultimate moves.\\nThis can make others hesitate to act, as if afraid of accidentally harming something they shouldn't, but it might also provoke them."
+    qcTranslated: "Verbal Attack:\\nA method of verbal attack that can dampen an opponent's spirit and reduce the damage of their Ultimate moves.\\nThis can make others hesitate to act, as if afraid of accidentally harming something they shouldn't, but it might also provoke them."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "出口伤人的控制手段，可挫敌锐气，降低绝招伤害，"
@@ -19,6 +27,13 @@
   - split: 1
     text: "捅人"
     translated: "Stab"
+    qcReviewedText: "Stab：\\nUsing a weapon to deal damage can forcefully suppress verbal provocation.\\nSometimes, due to their temperament, they end up panicking after hurting someone badly enough to draw blood."
+    qcTranslated: "Stabbing:\\nUsing a weapon to deal damage can forcefully suppress verbal provocation.\\nSometimes, due to their temperament, they end up panicking after hurting someone badly enough to draw blood."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "使用兵刃造成伤害，可强行压制嘴攻行动。"
@@ -35,6 +50,15 @@
   - split: 1
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon：\\nThe Tang Clan's specialty is throwing Hidden Weapons to deal damage.\\nAccumulated abnormal status, interruptible mouth attack, stabbing action."
+    qcTranslated: "Hidden Weapon:\\nThe Tang Clan's specialty is throwing Hidden Weapons to deal damage,\\naccumulating abnormal status, which can interrupt verbal attacks and stabbing actions."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "唐门拿手绝活，投掷暗器造成伤害，"
@@ -51,6 +75,13 @@
   - split: 1
     text: "绝招"
     translated: "Ultimate"
+    qcReviewedText: "Ultimate：\\nConsume a great deal of energy to deal massive damage.\\n<color=#FF0000>Interruptible stabbing, Hidden Weapon operation</color>"
+    qcTranslated: "Ultimate:\\nConsume a great deal of energy to deal massive damage.\\n<color=#FF0000>Interruptible Stabbing, Hidden Weapon operation</color>"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "消耗大量的气力，造成强大的伤害。"
@@ -67,6 +98,10 @@
   - split: 1
     text: "备揍"
     translated: "Guard"
+    qcReviewedText: "Guard：\\nPrepare mentally to take a beating and minimize the damage.\\nAlso has an additional chance to avoid Hidden Weapons or parry weapons."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "做好挨揍的心理准备，减轻伤害，"
@@ -83,31 +118,58 @@
   - split: 1
     text: "寻常的你。"
     translated: "Ordinary you"
+    qcReviewedText: "Ordinary you"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/level1,蓄势待发，不寻常的你。攻防微幅上升。"
   splits:
   - split: 1
     text: "蓄势待发，不寻常的你。攻防微幅上升。"
     translated: "Gathering momentum, the unusual you. Both offense and defense have slightly increased."
+    qcReviewedText: "Gathering momentum, the unusual you. Both offense and defense have slightly increased."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/level2,穷究武学，状态绝佳的你。攻防大幅上升。"
   splits:
   - split: 1
     text: "穷究武学，状态绝佳的你。攻防大幅上升。"
     translated: "Dedicating yourself to Martial Arts, you are in excellent condition. Your offense and defense have greatly improved."
+    qcReviewedText: "Dedicating yourself to Martial Arts, you are in excellent condition. Your offense and defense have greatly improved."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/level3,臻入化境，超凡入圣的你。攻防超幅上升。"
   splits:
   - split: 1
     text: "臻入化境，超凡入圣的你。攻防超幅上升。"
     translated: "You have reached a state of transcendence, extraordinary and holy. Your offensive and defensive capabilities have significantly increased."
+    qcReviewedText: "You have reached a state of transcendence, extraordinary and holy. Your offensive and defensive capabilities have significantly increased."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/hp,维持心脏跳动的神奇力量。"
   splits:
   - split: 1
     text: "维持心脏跳动的神奇力量。"
     translated: "The magical power that sustains the heartbeat"
+    qcReviewedText: "The magical power that sustains the heartbeat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/mp,做点什么的勇气，每回合回复{0}点。"
   splits:
   - split: 1
     text: "做点什么的勇气，每回合回复"
     translated: "The courage to do something, restores HP each turn"
+    qcReviewedText: "The courage to do something, restores HP each turn {0} Point"
+    qcTranslated: "The courage to do something, restores {0} HP each turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "点。"
@@ -120,11 +182,22 @@
   - split: 1
     text: "你所无法控制的那一部分，俗称运气。"
     translated: "The part you cannot control is commonly known as luck."
+    qcReviewedText: "The part you cannot control is commonly known as luck."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/costMp,消耗气：{0}"
   splits:
   - split: 1
     text: "消耗气"
     translated: "Qi Cost"
+    qcReviewedText: "Qi Cost：{0}"
+    qcTranslated: "Qi Cost: {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -133,6 +206,13 @@
   - split: 1
     text: "恢复气"
     translated: "Restore Qi"
+    qcReviewedText: "Restore Qi：{0}"
+    qcTranslated: "Restore Qi: {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}：⟦0⟧"
@@ -141,6 +221,10 @@
   - split: 1
     text: "命中"
     translated: "Hit Rate"
+    qcReviewedText: "Hit Rate \\n{0:P0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}\\n⟦0:P0⟧"
@@ -149,6 +233,10 @@
   - split: 1
     text: "嘴力"
     translated: "Mouth Power"
+    qcReviewedText: "Mouth Power \\n{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}\\n⟦0⟧"
@@ -157,6 +245,10 @@
   - split: 1
     text: "回避"
     translated: "Evade"
+    qcReviewedText: "Evade \\n{0:P0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}\\n⟦0:P0⟧"
@@ -165,6 +257,10 @@
   - split: 1
     text: "连击"
     translated: "Combo"
+    qcReviewedText: "{0} Combo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "⟦0⟧{0}"
@@ -173,11 +269,19 @@
   - split: 1
     text: "毫发无伤"
     translated: "Unscathed"
+    qcReviewedText: "Unscathed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/displayHp,血{0}"
   splits:
   - split: 1
     text: "血"
     translated: "Blood"
+    qcReviewedText: "Blood {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -186,6 +290,10 @@
   - split: 1
     text: "气"
     translated: "Qi"
+    qcReviewedText: "Qi {0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}⟦0⟧"
@@ -194,51 +302,96 @@
   - split: 1
     text: "未命中"
     translated: "Missed Hit Rate"
+    qcReviewedText: "Missed Hit Rate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/parrySuccess,招架成功"
   splits:
   - split: 1
     text: "招架成功"
     translated: "Successfully defended"
+    qcReviewedText: "Successfully defended"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/dodgeSuccess,回避成功"
   splits:
   - split: 1
     text: "回避成功"
     translated: "Avoidance Success"
+    qcReviewedText: "Avoidance Success"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/enemyAttackIntension,敌人好像蠢蠢欲动"
   splits:
   - split: 1
     text: "敌人好像蠢蠢欲动"
     translated: "The enemy seems to be stirring restlessly"
+    qcReviewedText: "The enemy seems to be stirring restlessly"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/enemyDefenseIntension,敌人好像有所防备"
   splits:
   - split: 1
     text: "敌人好像有所防备"
     translated: "The enemy seems to be on guard"
+    qcReviewedText: "The enemy seems to be on guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/getAngry,感到愤怒"
   splits:
   - split: 1
     text: "感到愤怒"
     translated: "Feeling anger"
+    qcReviewedText: "Feeling anger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/collapse,虚脱"
   splits:
   - split: 1
     text: "虚脱"
     translated: "Exhaustion"
+    qcReviewedText: "Exhaustion"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/collapseAll,双方用尽全力，都感到虚脱。"
   splits:
   - split: 1
     text: "双方用尽全力，都感到虚脱。"
     translated: "Both sides exerted all their strength and felt exhausted."
+    qcReviewedText: "Both sides exerted all their strength and felt exhausted."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/catchWeapon,接住暗器"
   splits:
   - split: 1
     text: "接住暗器"
     translated: "Catch the hidden weapon"
+    qcReviewedText: "Catch the hidden weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/poison1,毒性累积值：{0}\\n累积至50时造成「毒Lv1」异常状态。"
   splits:
   - split: 1
     text: "毒性累积值"
     translated: "Toxicity accumulation value"
+    qcReviewedText: "Toxicity accumulation value：{0}\\n Causes 「Poison」 when accumulated to 50 Lv 1 abnormal status"
+    qcTranslated: "Toxicity accumulation value: {0}\\nWhen accumulated to 50, inflicts the Poison Lv 1 abnormal status."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "累积至50时造成「毒"
@@ -255,6 +408,14 @@
   - split: 1
     text: "毒性累积值"
     translated: "Toxicity accumulation value"
+    qcReviewedText: "Toxicity accumulation value：{0}\\n Deal Poison damage when accumulated to 100 Lv 2 abnormal status"
+    qcTranslated: "Toxicity accumulation value: {0}\\nWhen accumulated to 100, inflicts the Poison Lv 2 status."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "累积至100时造成「毒"
@@ -271,6 +432,15 @@
   - split: 1
     text: "毒性累积值"
     translated: "Toxicity accumulation value"
+    qcReviewedText: "Toxicity accumulation value：{0}\\n Causes 「Poison」 when accumulated to 150 Lv Clear the accumulated value when the Abnormal Status 3 is triggered."
+    qcTranslated: "Toxicity accumulation value: {0}\\nWhen accumulated to 150, inflicts the Poison Lv 3 abnormal status and clears the accumulation value."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "累积至150时造成「毒"
@@ -287,6 +457,14 @@
   - split: 1
     text: "麻痹累积值"
     translated: "Nerve accumulation value"
+    qcReviewedText: "Nerve accumulation value：{0}\\n When accumulated to '50', it causes numbness Lv 1 abnormal status"
+    qcTranslated: "Numbness accumulation value: {0}\\nWhen accumulated to 50, it causes the Numb Lv 1 abnormal status."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "累积至50时造成「麻"
@@ -303,6 +481,14 @@
   - split: 1
     text: "麻痹累积值"
     translated: "Nerve accumulation value"
+    qcReviewedText: "Nerve accumulation value：{0}\\n Deal Numb status effect when accumulated to 100.Lv 2 abnormal status"
+    qcTranslated: "Numbness accumulation value: {0}\\nDeals the Numb Lv 2 abnormal status when accumulated to 100.."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "累积至100时造成「麻"
@@ -319,6 +505,14 @@
   - split: 1
     text: "麻痹累积值"
     translated: "Nerve accumulation value"
+    qcReviewedText: "Nerve accumulation value：{0}\\n Deal Numb status at 150 cumulative hits Lv Clear the accumulated value when the Abnormal Status 3 is triggered."
+    qcTranslated: "Nerve accumulation value: {0}\\nWhen accumulated to 150, inflict the Numb Lv 3 abnormal status, and clear the accumulated value upon triggering."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "累积至150时造成「麻"
@@ -335,56 +529,103 @@
   - split: 1
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/buff_2,技能"
   splits:
   - split: 1
     text: "技能"
     translated: "Skills"
+    qcReviewedText: "Skills"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/buff_3,特殊"
   splits:
   - split: 1
     text: "特殊"
     translated: "Special"
+    qcReviewedText: "Special"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/action,指令"
   splits:
   - split: 1
     text: "指令"
     translated: "Instruction"
+    qcReviewedText: "Instruction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/curse,嘴攻"
   splits:
   - split: 1
     text: "嘴攻"
     translated: "Verbal Attack"
+    qcReviewedText: "Verbal Attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack,捅人"
   splits:
   - split: 1
     text: "捅人"
     translated: "Stab"
+    qcReviewedText: "Stab"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/weapon,暗器"
   splits:
   - split: 1
     text: "暗器"
     translated: "Hidden Weapon"
+    qcReviewedText: "Hidden Weapon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/block,备揍"
   splits:
   - split: 1
     text: "备揍"
     translated: "Guard"
+    qcReviewedText: "Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate,绝招"
   splits:
   - split: 1
     text: "绝招"
     translated: "Ultimate"
+    qcReviewedText: "Ultimate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/idle,闲置"
   splits:
   - split: 1
     text: "闲置"
     translated: "Idle"
+    qcReviewedText: "Idle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/round,第 {0} 回合"
   splits:
   - split: 1
     text: "第"
     translated: "Chapter 1"
+    qcReviewedText: "Chapter 1 {0} Turn"
+    qcTranslated: "Round {0}"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
   - split: 1
     subIndex: 1
     text: "回合"
@@ -397,6 +638,10 @@
   - split: 1
     text: "境界"
     translated: "Realm"
+    qcReviewedText: "Realm‧{0}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "{0}‧⟦0⟧"
@@ -405,178 +650,325 @@
   - split: 1
     text: "一趾神通"
     translated: "One Toe Divine Skill"
+    qcReviewedText: "One Toe Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/block_002,归元"
   splits:
   - split: 1
     text: "归元"
     translated: "Return to Origin"
+    qcReviewedText: "Return to Origin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/block_003,石灰粉"
   splits:
   - split: 1
     text: "石灰粉"
     translated: "Lime powder"
+    qcReviewedText: "Lime powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/block_004,金钟罩"
   splits:
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
+    qcReviewedText: "Golden Bell Shield"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/block_005,收势"
   splits:
   - split: 1
     text: "收势"
     translated: "Reeling in the momentum"
+    qcReviewedText: "Reeling in the momentum"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/block_006,枯荣神功"
   splits:
   - split: 1
     text: "枯荣神功"
     translated: "Withering and Flourishing Divine Skill"
+    qcReviewedText: "Withering and Flourishing Divine Skill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/curse_001,战神语录"
   splits:
   - split: 1
     text: "战神语录"
     translated: "War God's Sayings"
+    qcReviewedText: "War God's Sayings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/curse_002,核枣钉"
   splits:
   - split: 1
     text: "核枣钉"
     translated: "Jujube Pit Nail"
+    qcReviewedText: "Jujube Pit Nail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/curse_003,狮子吼"
   splits:
   - split: 1
     text: "狮子吼"
     translated: "Lion's Roar"
+    qcReviewedText: "Lion's Roar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/curse_004,苍龙吟"
   splits:
   - split: 1
     text: "苍龙吟"
     translated: "Canglong Yin"
+    qcReviewedText: "Canglong Yin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/curse_005,虎啸吼"
   splits:
   - split: 1
     text: "虎啸吼"
     translated: "Tiger Roar"
+    qcReviewedText: "Tiger Roar"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_001,反击"
   splits:
   - split: 1
     text: "反击"
     translated: "Counterattack"
+    qcReviewedText: "Counterattack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_002,犯剑"
   splits:
   - split: 1
     text: "犯剑"
     translated: "Sword Offense"
+    qcReviewedText: "Sword Offense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_003,舞剑"
   splits:
   - split: 1
     text: "舞剑"
     translated: "Sword dance"
+    qcReviewedText: "Sword dance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_004,追击"
   splits:
   - split: 1
     text: "追击"
     translated: "Pursuit"
+    qcReviewedText: "Pursuit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_005,夺魄幽灵爪"
   splits:
   - split: 1
     text: "夺魄幽灵爪"
     translated: "Soul Stealer Phantom Claw"
+    qcReviewedText: "Soul Stealer Phantom Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_006,雪山飞鸿爪"
   splits:
   - split: 1
     text: "雪山飞鸿爪"
     translated: "Snow Mountain Flying Swan Claw"
+    qcReviewedText: "Snow Mountain Flying Swan Claw"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/attack_007,抽人"
   splits:
   - split: 1
     text: "抽人"
     translated: "Draw someone"
+    qcReviewedText: "Draw someone"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/weapon_001,打穴娟索"
   splits:
   - split: 1
     text: "打穴娟索"
     translated: "Acupoint Striking and Threading"
+    qcReviewedText: "Acupoint Striking and Threading"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/weapon_002,金刚神枪指"
   splits:
   - split: 1
     text: "金刚神枪指"
     translated: "Vajra Divine Spear Technique"
+    qcReviewedText: "Vajra Divine Spear Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/weapon_003,飞燕流星翎"
   splits:
   - split: 1
     text: "飞燕流星翎"
     translated: "Flying Swallow Meteor Feather"
+    qcReviewedText: "Flying Swallow Meteor Feather"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_001,天罡伏魔剑"
   splits:
   - split: 1
     text: "天罡伏魔剑"
     translated: "Heavenly Gang Subduing Demon Sword"
+    qcReviewedText: "Heavenly Gang Subduing Demon Sword"
+    qcTranslated: "Heavenly Pole Subduing Demon Sword"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "CombatAction/ultimate_002,太白仙迹"
   splits:
   - split: 1
     text: "太白仙迹"
     translated: "Taibai Immortal Footprints"
+    qcReviewedText: "Taibai Immortal Footprints"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_003,猿王回风"
   splits:
   - split: 1
     text: "猿王回风"
     translated: "Monkey King's Wind Return"
+    qcReviewedText: "Monkey King's Wind Return"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_004,绝影奇袭"
   splits:
   - split: 1
     text: "绝影奇袭"
     translated: "Shadowless Surprise Attack"
+    qcReviewedText: "Shadowless Surprise Attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_005,铁臂飞拳"
   splits:
   - split: 1
     text: "铁臂飞拳"
     translated: "Iron Arm Flying Fist"
+    qcReviewedText: "Iron Arm Flying Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_006,阴阳夺"
   splits:
   - split: 1
     text: "阴阳夺"
     translated: "Yin and Yang Theft"
+    qcReviewedText: "Yin and Yang Theft"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_007,点破云关"
   splits:
   - split: 1
     text: "点破云关"
     translated: "Breakthrough of Cloud Pass"
+    qcReviewedText: "Breakthrough of Cloud Pass"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_008,云霄雷霆霹雳刀"
   splits:
   - split: 1
     text: "云霄雷霆霹雳刀"
     translated: "Cloud Sky Thunderbolt Blade"
+    qcReviewedText: "Cloud Sky Thunderbolt Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_009,风雷神脚"
   splits:
   - split: 1
     text: "风雷神脚"
     translated: "Wind Thunder Divine Foot"
+    qcReviewedText: "Wind Thunder Divine Foot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_010,神雷"
   splits:
   - split: 1
     text: "神雷"
     translated: "Divine Thunder"
+    qcReviewedText: "Divine Thunder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_011,保护云裳"
   splits:
   - split: 1
     text: "保护云裳"
     translated: "Protect Yunshang"
+    qcReviewedText: "Protect Yunshang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_012,同舟剑法"
   splits:
   - split: 1
     text: "同舟剑法"
     translated: "Tongzhou Sword Technique"
+    qcReviewedText: "Tongzhou Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_013,第一极招"
   splits:
   - split: 1
     text: "第一极招"
     translated: "First Extreme Move"
+    qcReviewedText: "First Extreme Move"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_014,第二极招"
   splits:
   - split: 1
     text: "第二极招"
     translated: "Second Extreme Move"
+    qcReviewedText: "Second Extreme Move"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatAction/ultimate_015,第三极招"
   splits:
   - split: 1
     text: "第三极招"
     translated: "Third Extreme Technique"
+    qcReviewedText: "Third Extreme Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

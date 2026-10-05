@@ -3,11 +3,22 @@
   - split: 1
     text: "唐门小剑"
     translated: "Tang Clan Small Sword"
+    qcReviewedText: "Tang Clan Small Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_01,唐门弟子人手一柄的标准配备。\\n外型看似与脱手标相去不远，\\n实则是柄机关剑，\\n剑身中空，内有钢球。\\n若非习练暗器总纲，等闲难以驾驭。"
   splits:
   - split: 1
     text: "唐门弟子人手一柄的标准配备。"
     translated: "The standard equipment issued to every Tang Clan disciple."
+    qcReviewedText: "The standard equipment issued to every Tang Clan disciple.\\nIt looks similar to a thrown dart in appearance,\\nIn fact, it's a mechanism sword \\nThe sword's blade is hollow, with steel balls inside.\\nWithout practicing the fundamentals of hidden weapons, it is difficult to master them easily."
+    qcTranslated: "The standard equipment issued to every Tang Clan disciple.\\nIt looks similar to a thrown dart in appearance,\\nIn fact, it's a mechanism sword\\nThe sword's blade is hollow, with steel balls inside.\\nWithout practicing the fundamentals of Hidden Weapons, it is difficult to master."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "外型看似与脱手标相去不远，"
@@ -32,11 +43,23 @@
   - split: 1
     text: "唐门菁英小剑"
     translated: "Tang Clan Elite Junior Sword"
+    qcReviewedText: "Tang Clan Elite Junior Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_10,根据图谱改良的新型武器，\\n取消钢球设计，将刃身打造得极薄，\\n平时收纳起来，临阵时以软鞭手法打出，\\n出其不意，这也是一种暗器。"
   splits:
   - split: 1
     text: "根据图谱改良的新型武器，"
     translated: "While correcting, they based the new type of weapon on the diagram."
+    qcReviewedText: "While correcting, they based the new type of weapon on the diagram.\\nAbandon the steel ball design and forge the blade to be extremely thin.\\nDuring peacetime, during battles, they use the techniques of a soft whip.\\nBy surprise, this is also a hidden weapon."
+    qcTranslated: "Based on the diagram, they improved the new type of weapon.\\nThey abandoned the steel ball design and forged the blade to be extremely thin.\\nNormally it is stored away, but in battle it is deployed using soft whip techniques.\\nBy catching the enemy off guard, this also counts as a Hidden Weapon."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "取消钢球设计，将刃身打造得极薄，"
@@ -57,11 +80,22 @@
   - split: 1
     text: "切鱼刀"
     translated: "Fish knife"
+    qcReviewedText: "Fish knife"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_11,造型奇特、\\n却极其锋利的东洋杀鱼刀。"
   splits:
   - split: 1
     text: "造型奇特、"
     translated: "Their appearance was unusual"
+    qcReviewedText: "Their appearance was unusual \\nBut it is an extremely sharp Japanese fish‑knife."
+    qcTranslated: "Their appearance was unusual, \\nbut it is an extremely sharp Japanese fish‑cleaver."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "却极其锋利的东洋杀鱼刀。"
@@ -74,11 +108,19 @@
   - split: 1
     text: "金钱剑"
     translated: "Money Sword"
+    qcReviewedText: "Money Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_12,道士驱邪用的法器，\\n没人会拿来与人搏斗，除了你。\\n倒持的时候，\\n是一柄出人意料的凶残钝器。"
   splits:
   - split: 1
     text: "道士驱邪用的法器，"
     translated: "A Daoist's ritual implement for dispelling evil spirits,"
+    qcReviewedText: "A Daoist's ritual implement for dispelling evil spirits,\\nNo one would use it in a fight, except you.\\nWhen held upside down,\\nIt's an unexpectedly vicious bludgeon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "没人会拿来与人搏斗，除了你。"
@@ -99,11 +141,22 @@
   - split: 1
     text: "唐门传承小剑"
     translated: "Tang Clan's Inherited Small Sword"
+    qcReviewedText: "Tang Clan's Inherited Small Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_20,唐门承传至今的古老小剑，\\n以现今弃用的方法铸造。\\n将剑中钢球灌注水银，\\n使重心无时不刻变动，\\n须以内力制驭。\\n如果能够熟练使用，可谓其变无穷。"
   splits:
   - split: 1
     text: "唐门承传至今的古老小剑，"
     translated: "The ancient small sword passed down through the Tang Clan to this day,"
+    qcReviewedText: "The ancient small sword passed down through the Tang Clan to this day,\\nUsing a method that is now obsolete \\nFill the steel ball in the sword with mercury.\\nConstantly shifting the center of gravity \\nMust be controlled with Inner Power \\nIf mastered, its variations are endless"
+    qcTranslated: "The ancient small sword passed down through the Tang Clan to this day,\\nCast using a method now obsolete.\\nMercury is poured into the steel ball within the blade,\\nCausing the center of gravity to shift constantly,\\nRequiring Inner Power to control.\\nIf mastered, its variations are endless."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "以现今弃用的方法铸造。"
@@ -132,11 +185,24 @@
   - split: 1
     text: "玉霄神匕"
     translated: "Jade Sky Divine Dagger"
+    qcReviewedText: "Jade Sky Divine Dagger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_21,小梅爱用的匕首，\\n乃是铁拳前掌门手把手带着小竹，\\n为小梅打造的兵器。\\n玉霄神是对梅花高洁品行的至高赞赏。"
   splits:
   - split: 1
     text: "小梅爱用的匕首，"
     translated: "Little Plum's favorite dagger,"
+    qcReviewedText: "Little Plum's favorite dagger,\\nWas personally guided by the former Sect Leader of Iron Fist and grown alongside Little Bamboo,\\nA weapon crafted for Xiao Mei \\nYuxiao Shrine is the highest praise for plum blossoms' noble virtue."
+    qcTranslated: "Little Plum's favorite dagger,\\nWas forged by the former Sect Leader of Iron Fist, who personally guided Little Bamboo hand‑in‑hand,\\nA weapon crafted for Little Plum \\nYuxiao Divine is the highest praise for the plum blossom's noble virtue."
+    qcStatus: Corrected
+    qcQualityScore: 82
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+    - MeaningReversal
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "乃是铁拳前掌门手把手带着小竹，"
@@ -157,11 +223,26 @@
   - split: 1
     text: "沥泉小剑"
     translated: "Liquor Spring Small Sword"
+    qcReviewedText: "Liquor Spring Small Sword"
+    qcTranslated: "Li Quan Small Sword"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
 - raw: "Equip/Desc/Melee_22,岳王爷生前爱用的名枪，\\n浇过英雄碧血，\\n可昭浩然正气，\\n破虏光复河山。\\n天命会指引它，\\n来到下一个英雄手中。"
   splits:
   - split: 1
     text: "岳王爷生前爱用的名枪，"
     translated: "General Yue's favorite spear in their lifetime,"
+    qcReviewedText: "General Yue's favorite spear in their lifetime,\\nDoused with the green blood of a hero,\\nClearly exuding a righteous and upright aura \\nRestore the land and reclaim the mountains from the enemy.\\nHeaven's will will guide it \\nPass to the next hero"
+    qcTranslated: "General Yue's favorite spear in his lifetime,\\nBathed in the crimson blood of heroes,\\nManifesting a righteous and upright spirit,\\nTo break the enemy and restore the land.\\nHeaven's will will guide it\\nInto the hands of the next hero"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "浇过英雄碧血，"
@@ -190,11 +271,19 @@
   - split: 1
     text: "唐门祖师剑"
     translated: "Tang Clan Ancestral Sword"
+    qcReviewedText: "Tang Clan Ancestral Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Melee_30,按造失传图谱重铸的祖师短剑，\\n此剑是唐门小剑的祖宗，\\n形无虚实，势无刚柔，\\n执在掌中似剑而非剑，\\n脱手可飞旋来去。\\n江湖讹传御剑仙术之说，便是由此而生。"
   splits:
   - split: 1
     text: "按造失传图谱重铸的祖师短剑，"
     translated: "A short sword recast according to the lost lineage diagram,"
+    qcReviewedText: "A short sword recast according to the lost lineage diagram,\\nThis sword is the ancestor of the Tang Clan's Xiao Jian.\\nForm has no concept of emptiness or solidity, and momentum has no distinction between hard and soft.\\nHeld in the palm, it resembles a sword but is not a sword.\\nIt can spin and fly freely from the hand.\\nThe rumors about the art of riding on a sword in the Jianghu originated from this."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "此剑是唐门小剑的祖宗，"
@@ -223,11 +312,22 @@
   - split: 1
     text: "脱手镖"
     translated: "Throwing Darts"
+    qcReviewedText: "Throwing Darts"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Knife_01,江湖中人最常用的暗器，\\n唐门弟子使飞镖时，\\n常往镖身涂毒，纵使一镖射不死人，\\n也可制伏敌人。"
   splits:
   - split: 1
     text: "江湖中人最常用的暗器，"
     translated: "The most commonly used hidden weapons in Jianghu,"
+    qcReviewedText: "The most commonly used hidden weapons in Jianghu,\\nWhen Tang Clan disciples use darts,\\nThey often coat their arrows with poison, so even if one arrow doesn't kill a person,\\nYou can also subdue your enemies"
+    qcTranslated: "The most commonly used Hidden Weapons in Jianghu,\\nWhen Tang Clan disciples use darts,\\nThey often coat the dart body with Poison, so even if one dart doesn't kill a person,\\nIt can also subdue enemies."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "唐门弟子使飞镖时，"
@@ -248,11 +348,23 @@
   - split: 1
     text: "铁橄榄"
     translated: "Iron Olive"
+    qcReviewedText: "Iron Olive"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Knife_10,形似橄榄的暗器，\\n又称核子钉、枣核箭，\\n通常以手投掷伤人，亦有高手可以含入口中，\\n以内力呵气发射。"
   splits:
   - split: 1
     text: "形似橄榄的暗器，"
     translated: "An olive‑shaped hidden weapon,"
+    qcReviewedText: "An olive‑shaped hidden weapon,\\nNuclear Spike, Jujube Kernel Arrow \\nUsually, one throws them by hand to injure someone, but there are skilled practitioners who can contain them in their mouths.\\nBreathe out using Inner Power"
+    qcTranslated: "An olive‑shaped hidden weapon,\\nNuclear Spike, Jujube Kernel Arrow \\nUsually thrown by hand to injure someone, but skilled practitioners can hold them in their mouths\\nand fire them by exhaling with Inner Power."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "又称核子钉、枣核箭，"
@@ -273,11 +385,23 @@
   - split: 1
     text: "飞梭"
     translated: "Flying Shuttle"
+    qcReviewedText: "Flying Shuttle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Knife_11,打造得极为扁薄的银梭，\\n唐门打造的飞梭尤其细小，\\n不以杀伤力为目标，而是淬以毒药，\\n威胁性丝毫不逊于利刃。"
   splits:
   - split: 1
     text: "打造得极为扁薄的银梭，"
     translated: "While correcting, they found a very flat and thin silver shuttle."
+    qcReviewedText: "While correcting, they found a very flat and thin silver shuttle.\\nThe flying shuttles crafted by the Tang Clan are particularly small.\\nNot aiming for destructive power, but rather poisoning the weapon.\\nThe threat is no less formidable than a sharp blade."
+    qcTranslated: "The silver shuttle is forged to be extremely flat and thin.\\nThe flying shuttles crafted by the Tang Clan are particularly small,\\nnot aiming for destructive power, but rather being tempered with Poison,\\nwith a threat no less formidable than a sharp blade."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "唐门打造的飞梭尤其细小，"
@@ -298,11 +422,19 @@
   - split: 1
     text: "袖里箭"
     translated: "Hidden arrow"
+    qcReviewedText: "Hidden arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Knife_12,藏在护腕里，掀动机关发射的暗器，\\n为了掩饰护腕秘密，\\n唐门中人使用袖箭时还是会假作挥掷姿势。"
   splits:
   - split: 1
     text: "藏在护腕里，掀动机关发射的暗器，"
     translated: "Hidden weapons stored in the wrist guard, triggered by a mechanism to launch."
+    qcReviewedText: "Hidden weapons stored in the wrist guard, triggered by a mechanism to launch.\\nTo conceal the secret of the wrist guards,\\nEven when using sleeve darts, Tang Clan members still feign a throwing motion."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "为了掩饰护腕秘密，"
@@ -319,11 +451,19 @@
   - split: 1
     text: "飞煌石"
     translated: "Soaring Radiant Stone"
+    qcReviewedText: "Soaring Radiant Stone"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Knife_20,路边掂来趁手的坚石皆能作为暗器，\\n一股脑儿投出时有如飞蝗过境，\\n因而得名，费用低廉，\\n难以淬毒，纯以重量伤人。"
   splits:
   - split: 1
     text: "路边掂来趁手的坚石皆能作为暗器，"
     translated: "Roadside rocks that fit comfortably in the hand can all be used as hidden weapons."
+    qcReviewedText: "Roadside rocks that fit comfortably in the hand can all be used as hidden weapons.\\nWhen thrown all at once, they resemble locusts swarming across the land.\\nThus named, low cost,\\nDifficult to poison, it relies solely on its weight to inflict damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一股脑儿投出时有如飞蝗过境，"
@@ -344,11 +484,24 @@
   - split: 1
     text: "无形箭"
     translated: "Formless Arrow"
+    qcReviewedText: "Formless Arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Knife_21,无影无形，无声无兆，\\n乍见锋芒，人已封喉。\\n是唐门暗器总纲之中的终极暗器，\\n真面目是近乎完全透明的琉璃玉镖，\\n造价极其昂贵，其威力亦冠绝天下。"
   splits:
   - split: 1
     text: "无影无形，无声无兆，"
     translated: "Invisible and intangible, silent and without warning, coming without a trace, vanishing without a trace."
+    qcReviewedText: "Invisible and intangible, silent and without warning, coming without a trace, vanishing without a trace.\\nThe moment they revealed their sharpness, they had already silenced their opponent.\\nThe ultimate Hidden Weapon from the Tang Clan's comprehensive guide on Hidden Weapons,\\nZhenmuhun is a nearly completely transparent jade dart.\\nIt is extremely expensive, and its power is unmatched in the world."
+    qcTranslated: "Invisible and intangible, silent and without warning, coming without a trace, vanishing without a trace.\\nThe moment they revealed their sharpness, they had already silenced their opponent.\\nThe ultimate Hidden Weapon from the Tang Clan's comprehensive guide on Hidden Weapons,\\nIts true form is a nearly completely transparent glass jade dart.\\nIt is extremely expensive, and its power is unmatched in the world."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - UntranslatedPinyin
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "乍见锋芒，人已封喉。"
@@ -373,11 +526,19 @@
   - split: 1
     text: "鞭炮"
     translated: "Firecrackers"
+    qcReviewedText: "Firecrackers"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Ball_01,以硝石、硫磺、碳合成，\\n点燃引信掷出后，以霹雳火星伤人。"
   splits:
   - split: 1
     text: "以硝石、硫磺、碳合成，"
     translated: "Made from saltpeter, sulfur, and carbon,"
+    qcReviewedText: "Made from saltpeter, sulfur, and carbon,\\nLight the fuse and throw it to injure others with thunderous explosions and sparks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "点燃引信掷出后，以霹雳火星伤人。"
@@ -390,11 +551,19 @@
   - split: 1
     text: "神奇球"
     translated: "Magic Ball"
+    qcReviewedText: "Magic Ball"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Ball_10,经唐门改良的法宝，只在命中目标时启动，\\n展开绳网，将敌人收于袋中，\\n同时致毒。时常用来打猎。"
   splits:
   - split: 1
     text: "经唐门改良的法宝，只在命中目标时启动，"
     translated: "Enhanced by the Tang Clan, these magical treasures only activate when they hit their target."
+    qcReviewedText: "Enhanced by the Tang Clan, these magical treasures only activate when they hit their target.\\nSpread the rope net and trap the enemies in a bag.\\nIt also poisons. Often used for hunting."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "展开绳网，将敌人收于袋中，"
@@ -411,11 +580,22 @@
   - split: 1
     text: "流星箭"
     translated: "Meteor Arrow"
+    qcReviewedText: "Meteor Arrow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Ball_11,以护腕机括射出的箭雨，\\n流星雨从天而降，故称流星箭。"
   splits:
   - split: 1
     text: "以护腕机括射出的箭雨，"
     translated: "A rain of arrows shot from the wrist mechanisms,"
+    qcReviewedText: "A rain of arrows shot from the wrist mechanisms,\\nA meteor shower falling from the sky is called a meteor arrow."
+    qcTranslated: "A rain of arrows shot from the wrist mechanisms, falling from the sky like a meteor shower, is called Meteor Arrows."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
   - split: 1
     subIndex: 1
     text: "流星雨从天而降，故称流星箭。"
@@ -428,11 +608,19 @@
   - split: 1
     text: "雷火弹"
     translated: "Thunder Fire Bullet"
+    qcReviewedText: "Thunder Fire Bullet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Ball_20,硫磺、焰硝、麻茹、黄蜡、松脂……等诸多种材料揉成的黑色药粉，\\n一旦触地摩擦，就会瞬间引爆，\\n威力强大，绝非闹着玩的。"
   splits:
   - split: 1
     text: "硫磺、焰硝、麻茹、黄蜡、松脂……等诸多种材料揉成的黑色药粉，"
     translated: "A black powder made from ingredients such as sulfur, saltpeter, hemp rope, yellow wax, and pine resin,"
+    qcReviewedText: "A black powder made from ingredients such as sulfur, saltpeter, hemp rope, yellow wax, and pine resin,\\nThe moment it comes into contact with the ground, it will explode instantly.\\nPowerful and by no means a joke"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "一旦触地摩擦，就会瞬间引爆，"
@@ -449,11 +637,22 @@
   - split: 1
     text: "似草针"
     translated: "Grass needle"
+    qcReviewedText: "Grass needle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Trap_01,锻造成草状，涂成绿色的毒针，\\n置于地面，使人难以辨识，\\n惊觉的时候，往往便已着了道。\\n此陷阱在我方近战弟子阵亡时原地安装。"
   splits:
   - split: 1
     text: "锻造成草状，涂成绿色的毒针，"
     translated: "Needles forged into blade‑like shapes, coated in green poison,"
+    qcReviewedText: "Needles forged into blade‑like shapes, coated in green poison,\\nPlaced on the ground in such a way that it's hard to recognize.\\nBy the time they become aware, they are usually already ensnared.\\nThis trap is installed on the spot when one of our melee disciples falls in battle."
+    qcTranslated: "Needles forged into grass‑like shapes, coated in green poison,\\nPlaced on the ground in such a way that it's hard to recognize.\\nBy the time they become aware, they are usually already ensnared.\\nThis trap is installed on the spot when one of our melee disciples falls in battle."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "置于地面，使人难以辨识，"
@@ -474,11 +673,23 @@
   - split: 1
     text: "地鸣雷"
     translated: "Earth Thunder"
+    qcReviewedText: "Earth Thunder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Trap_10,以机关制造的小型机雷，\\n中有雷火弹，置于地面，\\n一旦踩中，便会爆炸。\\n此陷阱在我方弟子阵亡时原地安装。"
   splits:
   - split: 1
     text: "以机关制造的小型机雷，"
     translated: "A small landmine manufactured by the Mechanism,"
+    qcReviewedText: "A small landmine manufactured by the Mechanism,\\nThere are thunder and fire bombs placed on the ground.\\nOnce stepped on, it will explode \\nThis trap is installed on the spot when one of our disciples is killed."
+    qcTranslated: "A small landmine manufactured by the Mechanism,\\ncontaining thunder and fire bombs, placed on the ground.\\nOnce stepped on, it will explode.\\nThis trap is installed on the spot when one of our disciples is killed."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "中有雷火弹，置于地面，"
@@ -499,11 +710,19 @@
   - split: 1
     text: "猛火油柜"
     translated: "Fierce Fire Oil Cabinet"
+    qcReviewedText: "Fierce Fire Oil Cabinet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Trap_11,与四师兄箧笥有相近的变形机构，\\n安装以后会回旋喷火。"
   splits:
   - split: 1
     text: "与四师兄箧笥有相近的变形机构，"
     translated: "Fourth Senior Brother has a similar transformation mechanism in their storage box."
+    qcReviewedText: "Fourth Senior Brother has a similar transformation mechanism in their storage box.\\nAfter installation, it will spin and breathe fire."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "安装以后会回旋喷火。"
@@ -516,11 +735,19 @@
   - split: 1
     text: "赤炼砂"
     translated: "Red Refining Sand"
+    qcReviewedText: "Red Refining Sand"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Poison_01,唐门毒经所载，\\n以赤炼蛇毒为基调的经典入门款。\\n毒性虽烈，却非无药可救。"
   splits:
   - split: 1
     text: "唐门毒经所载，"
     translated: "According to the Tang Clan's Poison Scripture,"
+    qcReviewedText: "According to the Tang Clan's Poison Scripture,\\nA classic entry‑level item based on the venom of the Red Refining Snake.\\nThough the poison is potent, it is not beyond cure."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "以赤炼蛇毒为基调的经典入门款。"
@@ -537,11 +764,19 @@
   - split: 1
     text: "乌水仙"
     translated: "Wu Shui Xian"
+    qcReviewedText: "Wu Shui Xian"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Poison_10,唐门毒经所载，\\n以黄水仙花的球根、草乌炼制的入门麻痹毒药。\\n唐门弟子常以此毒涂于暗器，用来打野味。"
   splits:
   - split: 1
     text: "唐门毒经所载，"
     translated: "According to the Tang Clan's Poison Scripture,"
+    qcReviewedText: "According to the Tang Clan's Poison Scripture,\\nAn introductory paralyzing poison made from the bulbs of yellow fritillary flowers and aconite root.\\nTang Clan disciples often coat this poison on their Hidden Weapons to hunt game."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "以黄水仙花的球根、草乌炼制的入门麻痹毒药。"
@@ -558,11 +793,22 @@
   - split: 1
     text: "三阴虫草胶"
     translated: "Three Yin Cordyceps Gelatin"
+    qcReviewedText: "Three Yin Cordyceps Gelatin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Poison_11,唐门代表毒药之一，以三种阴毒虫草制成，\\n兼具血毒、麻痹两种毒性，\\n甚是厉害，适合涂抹在兵刃上伤敌。"
   splits:
   - split: 1
     text: "唐门代表毒药之一，以三种阴毒虫草制成，"
     translated: "One of the poisons represented by the Tang Clan is made from three Yin Poisonous insects and herbs."
+    qcReviewedText: "One of the poisons represented by the Tang Clan is made from three Yin Poisonous insects and herbs.\\nCombining both blood poison and paralysis poison,\\nVery potent; suitable for applying to weapons to injure enemies."
+    qcTranslated: "One of the Tang Clan's signature poisons, crafted from three Yin Poisonous insects and herbs,\\ncombining both blood poison and paralysis,\\nis extremely potent; suitable for coating weapons to injure enemies."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "兼具血毒、麻痹两种毒性，"
@@ -579,11 +825,22 @@
   - split: 1
     text: "彼岸仙香"
     translated: "Other Shore Immortal Fragrance"
+    qcReviewedText: "Other Shore Immortal Fragrance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Poison_20,唐门一位医毒双绝的女前辈所研发的毒香，\\n此香对常人有剧毒，\\n却对身具胡椒粉的唐门中人有补益效果，\\n甚是神妙，正心堂里所焚即为此香。"
   splits:
   - split: 1
     text: "唐门一位医毒双绝的女前辈所研发的毒香，"
     translated: "A poisonous incense developed by a female Senior from the Tang Clan, who is equally skilled in medicine and poison."
+    qcReviewedText: "A poisonous incense developed by a female Senior from the Tang Clan, who is equally skilled in medicine and poison.\\nThis incense is highly poisonous to ordinary people.\\nBut has a beneficial effect on those from the Tang Clan who carry pepper powder.\\nVery divine and ingenious; the incense burned in the Zhengxin Hall is precisely this kind."
+    qcTranslated: "A poisonous incense developed by a female Senior from the Tang Clan, who is equally skilled in medicine and poison.\\nThis incense is highly poisonous to ordinary people,\\nyet has a beneficial effect on those from the Tang Clan who carry pepper powder.\\nVery divine and ingenious; the incense burned in the Zhengxin Hall is precisely this kind."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "此香对常人有剧毒，"
@@ -604,11 +861,22 @@
   - split: 1
     text: "南蝥礜石散"
     translated: "Southern Mantis Stone Powder"
+    qcReviewedText: "Southern Mantis Stone Powder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Medi_01,用毒虫、毒砂以醋淬煅七次制成的药散，\\n味辛热，有蒜臭。\\n常人服之五内俱焚，\\n唐门弟子服之可以活血祛湿寒。"
   splits:
   - split: 1
     text: "用毒虫、毒砂以醋淬煅七次制成的药散，"
     translated: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times."
+    qcReviewedText: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times.\\nSpicy and hot, with a garlic‑like smell \\nFor ordinary people, it would cause their insides to burn fiercely.\\nTang Clan disciples can wear it to promote blood circulation and dispel dampness and cold."
+    qcTranslated: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times.\\nSpicy and hot, with a garlic‑like smell \\nFor ordinary people, it would cause their insides to burn fiercely.\\nTang Clan disciples can take it to promote blood circulation and dispel dampness and cold."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "味辛热，有蒜臭。"
@@ -629,11 +897,19 @@
   - split: 1
     text: "穿心龙胆汤"
     translated: "Chuanxinlongdan Soup"
+    qcReviewedText: "Chuanxinlongdan Soup"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Medi_02,用穿心莲、龙胆等药草熬汁炖煮的汤药，\\n其苦非常人之所能受，药性之重业已成毒，\\n常人服之心悸头疼，唐门弟子服之清热解渴。"
   splits:
   - split: 1
     text: "用穿心莲、龙胆等药草熬汁炖煮的汤药，"
     translated: "A decoction stewed with herbs like andrographis and gentian,"
+    qcReviewedText: "A decoction stewed with herbs like andrographis and gentian,\\nThe pain is beyond what ordinary people can bear, and the medicinal effects have turned into poison.\\nCommon people experience palpitations and headaches from it, but Tang Clan disciples find it refreshing and thirst‑quenching."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "其苦非常人之所能受，药性之重业已成毒，"
@@ -650,11 +926,19 @@
   - split: 1
     text: "胡椒粉丸"
     translated: "Pepper powder ball"
+    qcReviewedText: "Pepper powder ball"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Medi_03,把胡椒粉跟山药泥混在一起，\\n炙烤成丸。有毒，但是好吃。"
   splits:
   - split: 1
     text: "把胡椒粉跟山药泥混在一起，"
     translated: "Mix the pepper powder with the yam paste,"
+    qcReviewedText: "Mix the pepper powder with the yam paste,\\nRoast it and shape it into balls. It's poisonous, but delicious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "炙烤成丸。有毒，但是好吃。"
@@ -667,11 +951,19 @@
   - split: 1
     text: "乖乖水"
     translated: "Sweetwater"
+    qcReviewedText: "Sweetwater"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Medi_04,可以让人变得听话的药水，\\n喝了以后性情会变得温驯。"
   splits:
   - split: 1
     text: "可以让人变得听话的药水，"
     translated: "A potion that makes someone obedient,"
+    qcReviewedText: "A potion that makes someone obedient,\\nAfter drinking it, their temperament will become gentle and docile."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "喝了以后性情会变得温驯。"
@@ -684,11 +976,19 @@
   - split: 1
     text: "睡丹"
     translated: "Sleeping Pill"
+    qcReviewedText: "Sleeping Pill"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Medi_05,希夷老祖高卧华山，一睡不起，于睡中得道。\\n采精神以为药，取静定以为火，\\n心息相依，反璞归真。"
   splits:
   - split: 1
     text: "希夷老祖高卧华山，一睡不起，于睡中得道。"
     translated: "Grandmaster Xi Yi retired to Mount Hua and fell into a long sleep from which they never woke, achieving enlightenment while sleeping."
+    qcReviewedText: "Grandmaster Xi Yi retired to Mount Hua and fell into a long sleep from which they never woke, achieving enlightenment while sleeping.\\nUse Willpower as medicine and stillness as the flame.\\nHeart and breath in harmony, return to purity."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "采精神以为药，取静定以为火，"
@@ -705,11 +1005,24 @@
   - split: 1
     text: "万灵油"
     translated: "Universal Oil"
+    qcReviewedText: "Universal Oil"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Medi_22,唐门药典残方，出门必备灵药。\\n气味清凉，嗅之可提神醒脑，\\n夏可解暑、冬可点燃取暖，\\n兑水喝可以治腹泻，\\n抹在腕上可防蛇虺蚊蚋。\\n天下疑难，此方解得十之八九"
   splits:
   - split: 1
     text: "唐门药典残方，出门必备灵药。"
     translated: "Tang Clan's incomplete medicinal formulas, essential spirit medicines for travel."
+    qcReviewedText: "Tang Clan's incomplete medicinal formulas, essential spirit medicines for travel.\\nThe scent is refreshing, invigorating the mind and clarifying the thoughts.\\nIt can cool you off in summer and warm you up in winter.\\nDrinking water with added salt can treat diarrhea.\\nWhen applied to the wrist, it protects against snakes, venomous creatures, and mosquitoes.\\nThis place can solve eight or nine out of ten of the world's most perplexing problems."
+    qcTranslated: "Tang Clan's incomplete medicinal formulas, essential spirit medicines for travel.\\nThe scent is refreshing, invigorating the mind and clarifying the thoughts.\\nIt can cool you off in summer and warm you up in winter.\\nDrinking water with added [medicine] can treat diarrhea.\\nWhen applied to the wrist, it protects against snakes, venomous creatures, and mosquitoes.\\nThis formula can solve eight or nine out of ten of the world's most perplexing problems."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - MeaningReversal
+    - DomainTerm
   - split: 1
     subIndex: 1
     text: "气味清凉，嗅之可提神醒脑，"
@@ -738,11 +1051,24 @@
   - split: 1
     text: "唐门制服"
     translated: "Tang Clan uniform"
+    qcReviewedText: "Tang Clan uniform"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Cloth_01,唐门弟子的旧款制服，\\n含护腕，但可动性很差，\\n大家都不爱戴。\\n制服里刻意缝了沙包，令弟子习惯负重，\\n以此锻炼体魄。"
   splits:
   - split: 1
     text: "唐门弟子的旧款制服，"
     translated: "The old uniform of a Tang Clan disciple,"
+    qcReviewedText: "The old uniform of a Tang Clan disciple,\\nIt has wrist guards, but its mobility is poor.\\nNo one respects them \\nThe uniform was deliberately sewn with sandbags to get the disciples used to carrying weight.\\nUse this to build your resilience"
+    qcTranslated: "The old uniform of a Tang Clan disciple,\\nIt has wrist guards, but its mobility is poor.\\nNo one likes wearing them.\\nThe uniform was deliberately sewn with sandbags to get the disciples used to carrying weight,\\nthereby training their Resilience."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "含护腕，但可动性很差，"
@@ -767,11 +1093,25 @@
   - split: 1
     text: "护心镜"
     translated: "Heart Mirror"
+    qcReviewedText: "Heart Mirror"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Cloth_10,往制服内里缝进铜镜，\\n保护心脏要害，进一步变重了，\\n与此同时，防护的效果也大幅上升了。"
   splits:
   - split: 1
     text: "往制服内里缝进铜镜，"
     translated: "Sew a copper mirror inside the uniform"
+    qcReviewedText: "Sew a copper mirror inside the uniform \\nProtect the vital point of the heart; it has become even more serious.\\nWhile correcting, the effectiveness of the protection also increased significantly. While protecting, they said, 'Be careful.' While enhancing the effectiveness of the protection, the character also discovered a hidden path."
+    qcTranslated: "Sew a copper mirror inside the uniform \\nProtect the Vital Point of the heart; it has become even heavier.\\nAt the same time, the effectiveness of the protection also increased significantly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
+    - MeaningReversal
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "保护心脏要害，进一步变重了，"
@@ -788,11 +1128,19 @@
   - split: 1
     text: "轻量化"
     translated: "Lightweighting"
+    qcReviewedText: "Lightweighting"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Cloth_11,舍弃了沙包这等不人道设计的新型制服，\\n大伙儿的步伐顿时轻快了许多，\\n但是防御性能也趋近没有了。"
   splits:
   - split: 1
     text: "舍弃了沙包这等不人道设计的新型制服，"
     translated: "A new uniform that abandoned the inhumane design of sand‑filled weights,"
+    qcReviewedText: "A new uniform that abandoned the inhumane design of sand‑filled weights,\\nEveryone's steps suddenly became much lighter \\nBut the defensive capabilities are nearly nonexistent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "大伙儿的步伐顿时轻快了许多，"
@@ -809,11 +1157,23 @@
   - split: 1
     text: "密密缝"
     translated: "Dense seams"
+    qcReviewedText: "Dense seams"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Cloth_20,青衫有缺，蓝衣来补。\\n用师父袍子衣料缝补的破衣，\\n不仔细看的话青蓝两色不分彼此，\\n说是雪山派弟子的制服也不为过。"
   splits:
   - split: 1
     text: "青衫有缺，蓝衣来补。"
     translated: "A tattered blue robe is mended by a blue‑clad savior."
+    qcReviewedText: "A tattered blue robe is mended by a blue‑clad savior.\\nPatchwork clothes made from the material of their master's robe,\\nAt a glance, the light blue and dark blue hues blend together indistinguishably.\\nIt could be called the uniform of the Snow Mountain Sect disciples."
+    qcTranslated: "A tattered blue robe is mended by a blue‑clad savior.\\nPatchwork clothes made from the material of their master's robe,\\nIf you don't look closely, the light blue and dark blue hues blend together indistinguishably.\\nIt could be called the uniform of the Snow Mountain Sect disciples."
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "用师父袍子衣料缝补的破衣，"
@@ -834,11 +1194,19 @@
   - split: 1
     text: "纸甲"
     translated: "Paper armor"
+    qcReviewedText: "Paper armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Cloth_21,将韧性极强的树皮和棉混合，\\n以唐门药水浸泡，\\n经过反复垂打而成。\\n虽然是纸，但层层堆栈，\\n异常结实，遇水更韧，\\n利刃飞矢亦不能轻易洞穿，\\n而且远较寻常铁甲轻盈。"
   splits:
   - split: 1
     text: "将韧性极强的树皮和棉混合，"
     translated: "Mixing extremely resilient tree bark with cotton,"
+    qcReviewedText: "Mixing extremely resilient tree bark with cotton,\\nSoaked in Tang Clan potion,\\nForged through repeated hammering \\nThough it's paper, when stacked layer by layer,\\nAbnormally tough, even tougher when wet,\\nEven a sharp blade or arrow would find it hard to pierce through.\\nAnd it is much lighter than ordinary iron armor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "以唐门药水浸泡，"
@@ -871,11 +1239,22 @@
   - split: 1
     text: "牛皮制服"
     translated: "Leather uniform"
+    qcReviewedText: "Leather uniform"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Equip/Desc/Cloth_22,叶云裳参详青城剑法，\\n为你改良的制服。\\n在诸要害处缝上牛皮，\\n不妨碍活动，\\n却能有效预防意外发生。"
   splits:
   - split: 1
     text: "叶云裳参详青城剑法，"
     translated: "Ye Yunshang delved into the Swordsmanship of Qingcheng."
+    qcReviewedText: "Ye Yunshang delved into the Swordsmanship of Qingcheng.\\nA modified uniform for you \\nSew cowhide onto the vital points \\nDoesn't hinder the activities,\\nCan effectively prevent accidents from happening"
+    qcTranslated: "Ye Yunshang studied the Qingcheng Swordsmanship\\nand modified the uniform for you.\\nShe sewed cowhide onto the Vital Points,\\nwhich doesn't hinder movement\\nbut can effectively prevent accidents."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "为你改良的制服。"

@@ -1,0 +1,266 @@
+# Character genders for Legend of Mortal, read by Translate/CharacterLineContext.cs.
+# One-off, derived from Files/Raw/Dumped/CharacterIntro_zh-cn.csv: the 他/她 counts in each character's biography
+# (a clear majority of 3 or more), or the character id prefix (brother = male, girl/sister = female) when the biography
+# has too few pronouns. Characters with an unclear biography are left out on purpose: no entry means the gender is unknown.
+# The player character 赵活 is male (confirmed by the project owner), so a line naming 赵活 is told he is male. Narration that
+# addresses the player as 你 names nobody and is unaffected. Aliases are other names the text uses for the same character.
+
+- name: 唐布衣
+  englishName: Tang Buyi
+  gender: male
+  evidence: "bio pronouns 他x7 她x0"
+- name: 唐铮
+  englishName: Tang Zheng
+  gender: male
+  evidence: "character id brother2 (male prefix); bio pronouns 他x1 她x0"
+- name: 唐升
+  englishName: Tang Sheng
+  gender: male
+  evidence: "bio pronouns 他x4 她x0"
+- name: 唐惟元
+  englishName: Tang Weiyuan
+  gender: male
+  aliases:
+  - 惟元
+  evidence: "bio pronouns 他x5 她x0"
+- name: 瑞杏
+  englishName: Rui Xing
+  gender: female
+  evidence: "character id girl1 (female prefix); bio pronouns 他x0 她x0"
+- name: 叶云裳
+  englishName: Ye Yunshang
+  gender: female
+  aliases:
+  - 云裳
+  evidence: "bio pronouns 他x1 她x8"
+- name: 叶云啾
+  englishName: Ye Yunjiao
+  gender: female
+  aliases:
+  - 云啾
+  evidence: "character id girl2_4 (female prefix); bio pronouns 他x0 她x0"
+- name: 龙湘
+  englishName: Long Xiang
+  gender: female
+  evidence: "bio pronouns 他x1 她x8"
+- name: 虞小梅
+  englishName: Yu Xiaomei
+  gender: female
+  aliases:
+  - 小梅
+  evidence: "bio pronouns 他x1 她x4"
+- name: 夏侯兰
+  englishName: Xiahou Lan
+  gender: female
+  evidence: "bio pronouns 他x0 她x13"
+- name: 郁竹
+  englishName: Yu Zhu
+  gender: female
+  evidence: "bio pronouns 他x3 她x11"
+- name: 魏菊
+  englishName: Wei Ju
+  gender: female
+  aliases:
+  - 魏掌门
+  evidence: "bio pronouns 他x1 她x12"
+- name: 上官萤
+  englishName: Shangguan Ying
+  gender: female
+  evidence: "character id girl9 (female prefix); bio pronouns 他x0 她x0"
+- name: 唐默铃
+  englishName: Tang Moling
+  gender: female
+  aliases:
+  - 默铃
+  evidence: "bio pronouns 他x0 她x4"
+- name: 南宫浅
+  englishName: Nangong Qian
+  gender: male
+  evidence: "bio pronouns 他x9 她x0"
+- name: 叶云舟
+  englishName: Ye Yunzhao
+  gender: male
+  aliases:
+  - 云舟
+  evidence: "bio pronouns 他x20 她x0"
+- name: 王二壮
+  englishName: Wang Erzhuang
+  gender: male
+  aliases:
+  - 二壮
+  - 王帮主
+  evidence: "bio pronouns 他x6 她x0"
+- name: 万里鹏程
+  englishName: Wanli Pengcheng
+  gender: male
+  evidence: "bio pronouns 他x12 她x0"
+- name: 宋悲
+  englishName: Song Bei
+  gender: male
+  evidence: "bio pronouns 他x5 她x0"
+- name: 李富贵
+  englishName: Li Fugui
+  gender: male
+  evidence: "bio pronouns 他x6 她x0"
+- name: 瑞笙
+  englishName: Rui Sheng
+  gender: male
+  evidence: "bio pronouns 他x3 她x0"
+- name: 赵活
+  englishName: Zhao Huo
+  gender: male
+  aliases:
+  - 赵少侠
+  - 赵大侠
+  evidence: "player character; gender confirmed by the project owner"
+- name: 唐中翎
+  englishName: Tang Zhongling
+  gender: male
+  aliases:
+  - 唐掌门
+  - 唐家掌门
+  evidence: "Tang Clan sect leader (掌门); gender confirmed by the project owner"
+- name: 阎罗生
+  englishName: Yan Luo
+  gender: male
+  evidence: "story text: 他也不如第三香刻苦…但凡有点血性的男子 (Legend_01); Xuangong Sect rival of 第三香; gender from the text, not the portrait"
+
+# --- Candidates: gender left empty, so they are ignored until you fill in male or female. ---
+- name: 金乌上人
+  englishName: Jinwu Shangren
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 南宫深
+  englishName: Nangong Shen
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 段智秀
+  englishName: Duan Zhixiu
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 福韫
+  englishName: Fu Yun
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 申屠龙
+  englishName: Shentu Long
+  gender: "male" 
+  aliases:
+  - 申屠道长
+  evidence: "candidate, gender not confirmed"
+- name: 吕翁
+  englishName: Lu Weng
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 丹霞子
+  englishName: Danxiazi
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 解无尘
+  englishName: Jie Wuchen
+  gender: "male" 
+  aliases:
+  - 解大侠
+  evidence: "candidate, gender not confirmed"
+- name: 晁和
+  englishName: Chao He
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 谭霸刀
+  englishName: Tan Ba Dao
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 龙渊
+  englishName: Long Yuan
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 樊啸天
+  englishName: Fan Xiaotian
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 南宫远
+  englishName: Nangong Yuan
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 唐衫
+  englishName: Tang Shan
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 刘颚
+  englishName: Liu E
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 李大夫
+  englishName: Doctor Li
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 赵逵
+  englishName: Zhao Kui
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 南宫己
+  englishName: Nangong Ji
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 邹博
+  englishName: Zou Bo
+  gender: "male" 
+  aliases:
+  - 邹掌门
+  evidence: "candidate, gender not confirmed"
+- name: 石公远
+  englishName: Shi Gongyuan
+  gender: "male" 
+  aliases:
+  - 石帮主
+  evidence: "candidate, gender not confirmed"
+- name: 颜疆
+  englishName: Yan Jiang
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 陈序
+  englishName: Chen Xu
+  gender: "male" 
+  evidence: "candidate, gender not confirmed"
+- name: 温夫人
+  englishName: Lady Wen
+  gender: "female"   
+  evidence: "candidate, gender not confirmed"
+- name: 唐芳
+  englishName: Tang Fang
+  gender: "female"   
+  evidence: "candidate, gender not confirmed"
+- name: 画中仙
+  englishName: Painting Immortal
+  gender: "female"   
+  evidence: "candidate, gender not confirmed"
+- name: 小菊
+  englishName: Xiaoju
+  gender: "female"   
+  evidence: "candidate, gender not confirmed"
+- name: 释明
+  englishName: Shi Ming
+  gender: "male"   
+  evidence: "candidate, gender not confirmed"
+- name: 上官隼
+  englishName: Shangguan Jun
+  gender: "male"   
+  evidence: "candidate, gender not confirmed"
+- name: 向无忧
+  englishName: Xiang Wuyou
+  gender: ""   
+  aliases:
+  - 向掌门
+  evidence: "candidate, gender not confirmed"
+- name: 火龙仙君
+  englishName: Fire Dragon Immortal Monarch
+  gender: "male"   
+  evidence: "candidate, gender not confirmed"
+- name: 第三香
+  englishName: Third Fragrance
+  gender: "female"   
+  evidence: "candidate, gender not confirmed"
+- name: 飞侠
+  englishName: Flying Hero
+  gender: "male"   # alias of 唐布衣 (male): add it to that entry's aliases once confirmed
+  evidence: "title of 唐布衣"
