@@ -3141,13 +3141,12 @@
     text: "哇啊啊啊啊你谁啊啊啊啊啊－－－－"
     translated: "Oh my goodness, who are you‑"
     qcReviewedText: "Oh my goodness, who are you‑"
-    qcTranslated: "Waaahhhhh who are youuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"
+    qcTranslated: "Waaaaah, who are youuuu?"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: GarbledNumber
+    qcQualityScore: 90
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - GarbledNumber
+    - DroppedContent
 - raw: "Story/N_Back_Work_902_006,你的惨叫声回荡在空谷，不绝于耳。"
   splits:
   - split: 1
@@ -10068,8 +10067,8 @@
   splits:
   - split: 1
     text: "你也知道，之前我不是跟全真教的丘真人去了一趟大漠吗？"
-    translated: "You also know that I previously went to the desert with Immortal Qiu from Quanzhen Sect, right?"
-    qcReviewedText: "You also know that I previously went to the desert with Immortal Qiu from Quanzhen Sect, right?"
+    translated: "You also know that I previously went to the desert with Daoist Qiu from Quanzhen Sect, right?"
+    qcReviewedText: "You also know that I previously went to the desert with Daoist Qiu from Quanzhen Sect, right?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10077,9 +10076,9 @@
   splits:
   - split: 1
     text: "成吉思汗想要知道长生不死的方法，召了我、丘真人，还有传说中的杏花仙人一齐入大帐，各自说法。"
-    translated: "Genghis Khan wanted to know the method of eternal life and summoned me, Daoist Qiu, as well as the legendary Peach Blossom Immortal into the great tent, each offering their own teachings."
-    qcReviewedText: "Genghis Khan wanted to know the method of eternal life and summoned me, Daoist Qiu, as well as the legendary Peach Blossom Immortal into the great tent, each offering their own teachings."
-    qcTranslated: "Genghis Khan wanted to know the method of eternal life and summoned me, Daoist Qiu Immortal, as well as the legendary Apricot Blossom Immortal into the great tent, each offering their own teachings."
+    translated: "Genghis Khan wanted to know the method of eternal life and summoned me, Daoist Qiu, as well as the legendary Peach Blossom Daoist into the great tent, each offering their own teachings."
+    qcReviewedText: "Genghis Khan wanted to know the method of eternal life and summoned me, Daoist Qiu, as well as the legendary Peach Blossom Daoist into the great tent, each offering their own teachings."
+    qcTranslated: "Genghis Khan wanted to know the method of eternal life and summoned me, Daoist Qiu, as well as the legendary Apricot Blossom Daoist into the great tent, each offering their own teachings."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -10216,8 +10215,8 @@
   splits:
   - split: 1
     text: "丘真人一言止杀，谏大汗应休干戈，养功德；杏儿则劝大汗要顺应天命，在有生之年大刀阔斧，征八荒以建千古功业，平四海以定万世安生。"
-    translated: "Qu Immortal's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
-    qcReviewedText: "Qu Immortal's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
+    translated: "Qu Daoist's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
+    qcReviewedText: "Qu Daoist's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10319,8 +10318,8 @@
   splits:
   - split: 1
     text: "于是就被通缉了，要不是丘真人说情，我肯定连大帐都出不去。"
-    translated: "As a result, I was wanted. If it weren't for Immortal Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
-    qcReviewedText: "As a result, I was wanted. If it weren't for Immortal Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
+    translated: "As a result, I was wanted. If it weren't for Daoist Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
+    qcReviewedText: "As a result, I was wanted. If it weren't for Daoist Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33366,8 +33365,8 @@
   splits:
   - split: 1
     text: "嗯……虽然不想这么说，不过咱崆峒派处境，也好不到哪里去。可叹我天资愚钝，我师父火龙真人以一身仙法授我，我却半点也悟不通。"
-    translated: "Hmm... Although I don't want to say it, our Kongtong Sect's situation isn't much better. Alas, I am innately dull. My master, the Fire Dragon Immortal, has bestowed upon me all his immortal techniques, yet I can't even grasp a single bit of it."
-    qcReviewedText: "Hmm... Although I don't want to say it, our Kongtong Sect's situation isn't much better. Alas, I am innately dull. My master, the Fire Dragon Immortal, has bestowed upon me all his immortal techniques, yet I can't even grasp a single bit of it."
+    translated: "Hmm... Although I don't want to say it, our Kongtong Sect's situation isn't much better. Alas, I am innately dull. My master, the Fire Dragon Daoist, has bestowed upon me all his immortal techniques, yet I can't even grasp a single bit of it."
+    qcReviewedText: "Hmm... Although I don't want to say it, our Kongtong Sect's situation isn't much better. Alas, I am innately dull. My master, the Fire Dragon Daoist, has bestowed upon me all his immortal techniques, yet I can't even grasp a single bit of it."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33685,9 +33684,9 @@
   splits:
   - split: 1
     text: "我不信，我师兄的本事，我是亲眼见过的除非是全真丘真人、魔教天王座那样的绝世高手，我还不信有旁人能如此戏耍他。"
-    translated: "I don't believe it. I've seen my elder brother's abilities with my own eyes. Unless it's Quanzhen's Qiu Immortal or the peerless master of the Demon Sect's Heavenly King Seat, I still don't believe anyone else could mock him like that."
-    qcReviewedText: "I don't believe it. I've seen my elder brother's abilities with my own eyes. Unless it's Quanzhen's Qiu Immortal or the peerless master of the Demon Sect's Heavenly King Seat, I still don't believe anyone else could mock him like that."
-    qcTranslated: "I don't believe it. I've seen my Senior Brother's abilities with my own eyes. Unless it's Quanzhen's Qiu Immortal or the peerless master of the Demon Sect's Heavenly King Seat, I still don't believe anyone else could mock him like that."
+    translated: "I don't believe it. I've seen my elder brother's abilities with my own eyes. Unless it's Quanzhen's Qiu Daoist or the peerless master of the Demon Sect's Heavenly King Seat, I still don't believe anyone else could mock him like that."
+    qcReviewedText: "I don't believe it. I've seen my elder brother's abilities with my own eyes. Unless it's Quanzhen's Qiu Daoist or the peerless master of the Demon Sect's Heavenly King Seat, I still don't believe anyone else could mock him like that."
+    qcTranslated: "I don't believe it. I've seen my Senior Brother's abilities with my own eyes. Unless it's Quanzhen's Qiu Daoist or the peerless master of the Demon Sect's Heavenly King Seat, I still don't believe anyone else could mock him like that."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent

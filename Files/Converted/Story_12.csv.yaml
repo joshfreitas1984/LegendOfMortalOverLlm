@@ -10355,8 +10355,8 @@
   - split: 1
     text: "全真尹道长为人宽厚而谈吐诙谐，鲜少有人见他动手过招，但"
     translated: "Master Daoist Yin of Quanzhen is broad‑minded and witty in conversation; few have seen them engage in combat, but"
-    qcReviewedText: "Master Daoist Yin of Quanzhen is broad‑minded and witty in conversation; few have seen them engage in combat, but──He is the disciple of Immortal Qiu, the number one person in the land!"
-    qcTranslated: "Master Daoist Yin of Quanzhen is broad‑minded and witty in conversation; few have seen him engage in combat, but──He is the disciple of Immortal Qiu, the number one person in the land!"
+    qcReviewedText: "Master Daoist Yin of Quanzhen is broad‑minded and witty in conversation; few have seen them engage in combat, but──He is the disciple of Daoist Qiu, the number one person in the land!"
+    qcTranslated: "Master Daoist Yin of Quanzhen is broad‑minded and witty in conversation; few have seen them engage in combat, but──He is the disciple of Daoist Qiu, the Venerable Changchunzi, the number one person in the land!"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -10365,7 +10365,7 @@
   - split: 1
     subIndex: 1
     text: "他可是天下第一人，长春子丘真人的弟子！"
-    translated: "He is the disciple of Immortal Qiu, the number one person in the land!"
+    translated: "He is the disciple of Daoist Qiu, the number one person in the land!"
   templates:
   - split: 1
     template: "{0}──{1}"
@@ -11942,12 +11942,9 @@
     text: "略懂、略懂。"
     translated: "I have a basic understanding"
     qcReviewedText: "I have a basic understanding"
-    qcTranslated: "I‑I understand a little, I‑I understand a little."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_8_2_1_053,于我等而言，与武林盟一战即是最大挑战。但对武林盟来说却并非如此，泥教尚存，虎视眈眈，若有祸心，势必会趁虚侵攻中原各派，唯有保存实力，才能抵御。"
   splits:
   - split: 1
@@ -17291,8 +17288,8 @@
   splits:
   - split: 1
     text: "二十五年前若非丘真人、南宫老太爷合力阻拦，我早就应该收了你性命。留你到今日才死，也该知足。受死吧！"
-    translated: "Twenty‑five years ago, if it weren't for Immortal Qiu and Old Master Nangong working together to stop me, I would have taken your life long ago. You should be grateful to have lived until today; now, accept your death!"
-    qcReviewedText: "Twenty‑five years ago, if it weren't for Immortal Qiu and Old Master Nangong working together to stop me, I would have taken your life long ago. You should be grateful to have lived until today; now, accept your death!"
+    translated: "Twenty‑five years ago, if it weren't for Daoist Qiu and Old Master Nangong working together to stop me, I would have taken your life long ago. You should be grateful to have lived until today; now, accept your death!"
+    qcReviewedText: "Twenty‑five years ago, if it weren't for Daoist Qiu and Old Master Nangong working together to stop me, I would have taken your life long ago. You should be grateful to have lived until today; now, accept your death!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -17438,8 +17435,8 @@
   splits:
   - split: 1
     text: "赵活，快谢谢邹真人。"
-    translated: "Zhao Huo, quickly thank Immortal Zou"
-    qcReviewedText: "Zhao Huo, quickly thank Immortal Zou"
+    translated: "Zhao Huo, quickly thank Daoist Zou"
+    qcReviewedText: "Zhao Huo, quickly thank Daoist Zou"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24728,12 +24725,11 @@
     text: "你别贸然靠近，小心被砍，我们根本插不上手啊。"
     translated: "Don't approach recklessly; be careful of getting cut‑we can't get involved at all."
     qcReviewedText: "Don't approach recklessly; be careful of getting cut‑we can't get involved at all."
-    qcTranslated: "Don't approach recklessly; be careful of getting cut‑we can't get involved at all."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - HardToParseSeam
+    - None
 - raw: "Story/D_8_2_6_3_2_050,啊！"
   splits:
   - split: 1
@@ -25136,8 +25132,8 @@
   splits:
   - split: 1
     text: "好，有劳尹真人。"
-    translated: "Good, I'll trouble you, Yin Immortal"
-    qcReviewedText: "Good, I'll trouble you, Yin Immortal"
+    translated: "Good, I'll trouble you, Yin Daoist"
+    qcReviewedText: "Good, I'll trouble you, Yin Daoist"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25901,12 +25897,11 @@
     text: "我有什么功劳呢？这是魏才女的话。而我认识那人十几年，却都猜不到他的城府，实在惭愧。"
     translated: "What merit do I have? This is what Lady Wei said. Yet I have known that person for over a decade, yet I could never fathom his depth‑truly ashamed."
     qcReviewedText: "What merit do I have? This is what Lady Wei said. Yet I have known that person for over a decade, yet I could never fathom his depth‑truly ashamed."
-    qcTranslated: "What merit do I have? This is what Lady Wei said. Yet I have known that person for over a decade, yet I could never fathom his depth‑truly ashamed."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - UnnaturalPhrasing
+    - None
 - raw: "Story/D_8_2_6_4_Break_01_051,那有什么好惭愧的，你跟他不熟，我该庆幸才是。你只要猜得到我就可以了。"
   splits:
   - split: 1

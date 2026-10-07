@@ -5821,12 +5821,11 @@
     text: "枉你一派道貌岸然的嘴脸，将佛号挂在嘴边，一口一个善哉罪过，自己却全然不信报应！口口声声说佛法，佛法在你口中只是伤人的利剑而已！"
     translated: "With your hypocritical facade, you recite Buddha's name on your lips and keep uttering it is good and sinful, yet you utterly dismiss the concept of retribution! You speak of Buddhism incessantly, but in your mouth, it merely becomes a sharp sword to harm others!"
     qcReviewedText: "With your hypocritical facade, you recite Buddha's name on your lips and keep uttering it is good and sinful, yet you utterly dismiss the concept of retribution! You speak of Buddhism incessantly, but in your mouth, it merely becomes a sharp sword to harm others!"
-    qcTranslated: "With your hypocritical facade, you recite Buddha's name on your lips and keep uttering it is good and sinful, yet you utterly dismiss the concept of retribution! You speak of Buddhism incessantly, but in your mouth, it merely becomes a sharp sword to harm others!"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - UnnaturalPhrasing
+    - None
 - raw: "Story/D_6_8_3_097,你……。"
   splits:
   - split: 1
@@ -10569,12 +10568,11 @@
     text: "掌派人英明，是他们不仁在先，我们应该按兵不动。等武林正道与泥教互相磨耗，力竭之时，便是我等动身之时。"
     translated: "The leaders of the Palm School are wise, but it is they who acted unrighteously first. We should therefore remaininactive for now. Let the Wulin's righteous forces and the Mud Cult wear each other down until they are exhausted. That will be our moment to act."
     qcReviewedText: "The leaders of the Palm School are wise, but it is they who acted unrighteously first. We should therefore remaininactive for now. Let the Wulin's righteous forces and the Mud Cult wear each other down until they are exhausted. That will be our moment to act."
-    qcTranslated: "The leaders of the Palm School are wise, but it is they who acted unrighteously first. We should therefore remain inactive for now. Let the Wulin's righteous forces and the Mud Cult wear each other down until they are exhausted. That will be our moment to act."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - OtherNamedDefect
+    - None
 - raw: "Story/D_6_8_4_217,英雄所见略同，崆峒的弟兄，要劳烦道长指挥！"
   splits:
   - split: 1
@@ -24097,8 +24095,8 @@
   splits:
   - split: 1
     text: "你也知道，之前我不是跟全真教的丘真人去了一趟大漠吗？"
-    translated: "You also know that I previously went to the desert with Immortal Qiu from Quanzhen Sect, right?"
-    qcReviewedText: "You also know that I previously went to the desert with Immortal Qiu from Quanzhen Sect, right?"
+    translated: "You also know that I previously went to the desert with Daoist Qiu from Quanzhen Sect, right?"
+    qcReviewedText: "You also know that I previously went to the desert with Daoist Qiu from Quanzhen Sect, right?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24106,9 +24104,9 @@
   splits:
   - split: 1
     text: "成吉思汗想要知道长生不死的方法，召了我、丘真人，还有传说中的杏花仙人一齐入大帐，各自说法。"
-    translated: "Genghis Khan wanted to know the method of immortality and summoned me, Qiu Daoist, and the legendary Peach Blossom Immortal into the great tent, where each of us spoke our own doctrine."
-    qcReviewedText: "Genghis Khan wanted to know the method of immortality and summoned me, Qiu Daoist, and the legendary Peach Blossom Immortal into the great tent, where each of us spoke our own doctrine."
-    qcTranslated: "Genghis Khan wanted to know the method of immortality and summoned me, Qiu Immortal, and the legendary Apricot Blossom Immortal into the great tent, where each of us spoke our own doctrine."
+    translated: "Genghis Khan wanted to know the method of immortality and summoned me, Qiu Daoist, and the legendary Peach Blossom Daoist into the great tent, where each of us spoke our own doctrine."
+    qcReviewedText: "Genghis Khan wanted to know the method of immortality and summoned me, Qiu Daoist, and the legendary Peach Blossom Daoist into the great tent, where each of us spoke our own doctrine."
+    qcTranslated: "Genghis Khan wanted to know the method of immortality and summoned me, Qiu Daoist, and the legendary Apricot Blossom Daoist into the great tent, where each of us spoke our own doctrine."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -24248,8 +24246,8 @@
   splits:
   - split: 1
     text: "丘真人一言止杀，谏大汗应休干戈，养功德；杏儿则劝大汗要顺应天命，在有生之年大刀阔斧，征八荒以建千古功业，平四海以定万世安生。"
-    translated: "Qu Immortal's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
-    qcReviewedText: "Qu Immortal's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
+    translated: "Qu Daoist's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
+    qcReviewedText: "Qu Daoist's single utterance halted the slaughter, advising the Khan to cease warfare and cultivate virtue; Xing'er, however, urged the Khan to follow the will of heaven, to wield bold strokes in his lifetime, conquer the eight directions to establish eternal achievements, and pacify the four seas to secure peace for all generations."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24351,8 +24349,8 @@
   splits:
   - split: 1
     text: "于是就被通缉了，要不是丘真人说情，我肯定连大帐都出不去。"
-    translated: "As a result, I was wanted. If it weren't for Immortal Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
-    qcReviewedText: "As a result, I was wanted. If it weren't for Immortal Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
+    translated: "As a result, I was wanted. If it weren't for Daoist Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
+    qcReviewedText: "As a result, I was wanted. If it weren't for Daoist Qiu speaking on my behalf, I definitely wouldn't have been able to leave the main tent."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30688,13 +30686,14 @@
     text: "喝啊啊啊啊啊啊－－－！！！"
     translated: "Drink! Drink! Drink! Drink!Drink!"
     qcReviewedText: "{punch=0.2,2} Drink! Drink! Drink! Drink!Drink!"
-    qcTranslated: "{punch=0.2,2} Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
-    qcStatus: Corrected
+    qcStatus: FailedValidation
     flaggedForQcReview: true
-    qcQualityScore: 45
-    qcDefectCategory: OtherNamedDefect
+    qcRejectedCorrection: "{punch=0.2,2} Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+    qcFailureReason: "The correction contains a runaway repeated character."
     qcDefectCategories:
-    - OtherNamedDefect
+    - Unknown
+    qcRuleCheckFailureCount: 4
+    qcRuleCheckFailureBaseline: "{punch=0.2,2} Drink! Drink! Drink! Drink!Drink!"
   templates:
   - split: 1
     template: "⟦punch=0.2,2⟧{0}"

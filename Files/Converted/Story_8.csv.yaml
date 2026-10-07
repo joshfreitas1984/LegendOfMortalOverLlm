@@ -697,9 +697,9 @@
   splits:
   - split: 1
     text: "认命？恕我直言，小道长。凭你的武功，一路跟踪骚扰，此刻之所以还能不死，全是本公子看在你派丘真人的面子上。"
-    translated: "Accept your fate? Forgive my bluntness, Daoist. With your skills, the only reason you are still alive after being followed and harassed is that this Young Lord is showing respect for your Master Qiu, the Immortal."
-    qcReviewedText: "Accept your fate? Forgive my bluntness, Daoist. With your skills, the only reason you are still alive after being followed and harassed is that this Young Lord is showing respect for your Master Qiu, the Immortal."
-    qcTranslated: "Accept your fate? Forgive my bluntness, Daoist. With your skills, the only reason you are still alive after following and harassing me is that this Young Lord is showing respect for your Master Qiu, the Immortal."
+    translated: "Accept your fate? Forgive my bluntness, Daoist. With your skills, the only reason you are still alive after being followed and harassed is that this Young Lord is showing respect for your Master Qiu, the Daoist."
+    qcReviewedText: "Accept your fate? Forgive my bluntness, Daoist. With your skills, the only reason you are still alive after being followed and harassed is that this Young Lord is showing respect for your Master Qiu, the Daoist."
+    qcTranslated: "Accept your fate? Forgive my bluntness, Daoist. With your skills, the only reason you are still alive after following and harassing me is that this Young Lord is showing respect for your Master Qiu, the Daoist."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -7812,8 +7812,8 @@
   splits:
   - split: 1
     text: "这位妖哥哥，敢问你是什么样的妖精幻化的？你道行很深，是吗？变得几乎就像真人一模一样。"
-    translated: "This demon brother, may I ask what kind of spirit you have transformed from? Your cultivation is quite profound, isn't it? You have become almost indistinguishable from an Immortal."
-    qcReviewedText: "This demon brother, may I ask what kind of spirit you have transformed from? Your cultivation is quite profound, isn't it? You have become almost indistinguishable from an Immortal."
+    translated: "This demon brother, may I ask what kind of spirit you have transformed from? Your cultivation is quite profound, isn't it? You have become almost indistinguishable from an Daoist."
+    qcReviewedText: "This demon brother, may I ask what kind of spirit you have transformed from? Your cultivation is quite profound, isn't it? You have become almost indistinguishable from an Daoist."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16532,12 +16532,11 @@
     text: "这色厉内荏，只知欺善怕恶的废物～给师兄你一凶，竟然委屈地哭出来了。哈哈哈，真是笑掉我大牙了！"
     translated: "This one who is fierce on the outside but timid inside, who only knows to bully the weak and fear the strong, a useless waste‑given a scold from Senior Brother, they even cried out in humiliation. Hahaha, it's so funny it would make my teeth fall out!"
     qcReviewedText: "This one who is fierce on the outside but timid inside, who only knows to bully the weak and fear the strong, a useless waste‑given a scold from Senior Brother, they even cried out in humiliation. Hahaha, it's so funny it would make my teeth fall out!"
-    qcTranslated: "This one who is fierce on the outside but timid inside, who only knows to bully the weak and fear the strong, a useless waste‑given a scold from Senior Brother, they even cried out in humiliation. Hahaha, it's so funny it would make my teeth fall out!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - HardToParseSeam
+    - None
 - raw: "Story/D_S0105_01_01_014,哈哈哈！"
   splits:
   - split: 1
@@ -16975,12 +16974,11 @@
     text: "唷呵，翅膀长硬了吧，连你都敢跟我顶嘴了？"
     translated: "Heh, heh, your wings have grown hard‑dare you even talk back to me now?"
     qcReviewedText: "Heh, heh, your wings have grown hard‑dare you even talk back to me now?"
-    qcTranslated: "Heh, heh, your wings have grown hard‑dare you even talk back to me now?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - HardToParseSeam
+    - None
 - raw: "Story/D_S0106_01_031,……弟子不敢。"
   splits:
   - split: 1
@@ -32954,13 +32952,12 @@
     text: "此毒性寒，以毒攻毒最灵验，只是吕老头免不了要受几日腹泻之苦。虽然也有温和的药方，但我不"
     translated: "This poison is cold in nature; the most effective treatment is to fight poison with poison. However, Old Lu will inevitably suffer from several days of diarrhea. Although there are milder remedies, I do not"
     qcReviewedText: "This poison is cold in nature; the most effective treatment is to fight poison with poison. However, Old Lu will inevitably suffer from several days of diarrhea. Although there are milder remedies, I do not Want Use it"
-    qcTranslated: "This poison is cold in nature; the most effective treatment is to fight poison with poison. However, Old Lu will inevitably suffer from several days of diarrhea. Although there are milder remedies, I do not w‑w‑want to use them"
+    qcTranslated: "This poison is cold in nature; the most effective treatment is to fight poison with poison. However, Old Lu will inevitably suffer from several days of diarrhea. Although there are milder remedies, I do not want to use them."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DroppedStutter
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "想"

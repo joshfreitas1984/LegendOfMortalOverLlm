@@ -1652,8 +1652,8 @@
   splits:
   - split: 1
     text: "我与你父亲上官贤弟上一回见，还是好多年前丘真人接任全真掌教，同受邀去终南山观礼之时，他身体可还康健吗？"
-    translated: "I last saw your father, Master Shangguan Xian, many years ago when Qiu Immortal took over as the head of the Quanzhen Sect, and we were both invited to attend the ceremony at Zhongnan Mountain. Is his health still good?"
-    qcReviewedText: "I last saw your father, Master Shangguan Xian, many years ago when Qiu Immortal took over as the head of the Quanzhen Sect, and we were both invited to attend the ceremony at Zhongnan Mountain. Is his health still good?"
+    translated: "I last saw your father, Master Shangguan Xian, many years ago when Qiu Daoist took over as the head of the Quanzhen Sect, and we were both invited to attend the ceremony at Zhongnan Mountain. Is his health still good?"
+    qcReviewedText: "I last saw your father, Master Shangguan Xian, many years ago when Qiu Daoist took over as the head of the Quanzhen Sect, and we were both invited to attend the ceremony at Zhongnan Mountain. Is his health still good?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3861,9 +3861,9 @@
   splits:
   - split: 1
     text: "若是我飞天门，真人一欢喜，传授仙家法术亦未可知；夺魄门会给啥阴森玩意儿，难讲得很；留学玄功门的，合魏掌门眼缘，送你一个女弟子作老婆也是稀松平常；"
-    translated: "If I were in the Flying Heaven Sect, the Immortal might be pleased and teach me divine techniques; the Soul Stealer Sect might give some eerie stuff, hard to say; those studying at the Mystic Skill Sect, if they match the sect leader's eye, it's commonplace for them to give you a female disciple as a wife."
-    qcReviewedText: "If I were in the Flying Heaven Sect, the Immortal might be pleased and teach me divine techniques; the Soul Stealer Sect might give some eerie stuff, hard to say; those studying at the Mystic Skill Sect, if they match the sect leader's eye, it's commonplace for them to give you a female disciple as a wife."
-    qcTranslated: "If I were in the Flying Heaven Sect, the Immortal might be pleased and teach me divine techniques; the Soul Stealer Sect might give some eerie Yin stuff, hard to say; those studying at the Mystic Skill Sect, if they match the Sect Leader's eye, it's commonplace for them to give you a female disciple as a wife."
+    translated: "If I were in the Flying Heaven Sect, the Daoist might be pleased and teach me divine techniques; the Soul Stealer Sect might give some eerie stuff, hard to say; those studying at the Mystic Skill Sect, if they match the sect leader's eye, it's commonplace for them to give you a female disciple as a wife."
+    qcReviewedText: "If I were in the Flying Heaven Sect, the Daoist might be pleased and teach me divine techniques; the Soul Stealer Sect might give some eerie stuff, hard to say; those studying at the Mystic Skill Sect, if they match the sect leader's eye, it's commonplace for them to give you a female disciple as a wife."
+    qcTranslated: "If I were in the Flying Heaven Sect, the Daoist might be pleased and teach me divine techniques; the Soul Stealer Sect might give some eerie Yin stuff, hard to say; those studying at the Mystic Skill Sect, if they match the Sect Leader's eye, it's commonplace for them to give you a female disciple as a wife."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
@@ -3918,8 +3918,8 @@
   splits:
   - split: 1
     text: "火龙真人的仙法，我志在必得！"
-    translated: "The immortal techniques of Fire Dragon Immortal, I am determined to obtain!"
-    qcReviewedText: "The immortal techniques of Fire Dragon Immortal, I am determined to obtain!"
+    translated: "The immortal techniques of Fire Dragon Daoist, I am determined to obtain!"
+    qcReviewedText: "The immortal techniques of Fire Dragon Daoist, I am determined to obtain!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7615,8 +7615,8 @@
   splits:
   - split: 1
     text: "火龙真人谬赞了，晚辈愧不敢当。"
-    translated: "Immortal Huo Long has praised me, but I feel unworthy."
-    qcReviewedText: "Immortal Huo Long has praised me, but I feel unworthy."
+    translated: "Daoist Huo Long has praised me, but I feel unworthy."
+    qcReviewedText: "Daoist Huo Long has praised me, but I feel unworthy."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9064,8 +9064,8 @@
   splits:
   - split: 1
     text: "我赵活永远追随火龙真人！上刀山下火海在所不辞！"
-    translated: "I, Zhao Huo, will forever follow the Immortal of the Fire Dragon! I will not hesitate to climb the mountain of blades and descend into the sea of fire!"
-    qcReviewedText: "I, Zhao Huo, will forever follow the Immortal of the Fire Dragon! I will not hesitate to climb the mountain of blades and descend into the sea of fire!"
+    translated: "I, Zhao Huo, will forever follow the Daoist of the Fire Dragon! I will not hesitate to climb the mountain of blades and descend into the sea of fire!"
+    qcReviewedText: "I, Zhao Huo, will forever follow the Daoist of the Fire Dragon! I will not hesitate to climb the mountain of blades and descend into the sea of fire!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11434,12 +11434,11 @@
     text: "前倨后恭，以貌取人，还嫌不够丢人吗！出去！"
     translated: "First rude, then fawning‑judging people by appearance. Isn't that shameful enough? Get out!"
     qcReviewedText: "First rude, then fawning‑judging people by appearance. Isn't that shameful enough? Get out!"
-    qcTranslated: "First rude, then fawning‑judging people by appearance. Isn't that shameful enough? Get out!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - UnnaturalPhrasing
+    - None
 - raw: "Story/N_S2300_01_003,二名急于挽回印象，贸然搭话的唐门弟子碰了一鼻子灰，悻悻然离去。"
   splits:
   - split: 1
@@ -14293,12 +14292,11 @@
     text: "晚来天欲雪，能饮一杯无？"
     translated: "Late in the day, the sky is about to snow‑can one drink a cup of wine?"
     qcReviewedText: "Late in the day, the sky is about to snow‑can one drink a cup of wine?"
-    qcTranslated: "Late in the day, the sky is about to snow‑can one drink a cup of wine?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - HardToParseSeam
+    - None
 - raw: "Story/D_S2502_01_02_003,就你还想考较为师，不自量力。"
   splits:
   - split: 1
@@ -17902,8 +17900,8 @@
   splits:
   - split: 1
     text: "飞天门……对了，飞天门不是会法术吗？火龙真人一定……一定有仙法，可以召她回魂。听说……听说鬼魂会住在伞下，不去不行……不去不行……！"
-    translated: "Flying Heaven Gate... Oh, right, Flying Heaven Gate uses magic, doesn't it? Fire Dragon Immortal must... must definitely have a divine technique to summon her soul back. I heard... I heard ghosts live under an umbrella, you can't not go... you can't not go...!"
-    qcReviewedText: "Flying Heaven Gate... Oh, right, Flying Heaven Gate uses magic, doesn't it? Fire Dragon Immortal must... must definitely have a divine technique to summon her soul back. I heard... I heard ghosts live under an umbrella, you can't not go... you can't not go...!"
+    translated: "Flying Heaven Gate... Oh, right, Flying Heaven Gate uses magic, doesn't it? Fire Dragon Daoist must... must definitely have a divine technique to summon her soul back. I heard... I heard ghosts live under an umbrella, you can't not go... you can't not go...!"
+    qcReviewedText: "Flying Heaven Gate... Oh, right, Flying Heaven Gate uses magic, doesn't it? Fire Dragon Daoist must... must definitely have a divine technique to summon her soul back. I heard... I heard ghosts live under an umbrella, you can't not go... you can't not go...!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19261,13 +19259,11 @@
     text: "为师多年心结已解，在这雪山派，已经没有要做的事情了。我知你归心似箭，明日一早，便启程下山吧。"
     translated: "My master's long‑standing heart knot has been resolved; there is nothing more to do in the Snow Mountain Sect. I know you are eager to return, so set off down the mountain tomorrow morning."
     qcReviewedText: "My master's long‑standing heart knot has been resolved; there is nothing more to do in the Snow Mountain Sect. I know you are eager to return, so set off down the mountain tomorrow morning."
-    qcTranslated: "My master's long‑standing heart knot has been resolved; there is nothing more to do in the Snow Mountain Sect. I know you are eager to return, so set off down the mountain tomorrow morning."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - MeaningReversal
+    - None
 - raw: "Story/D_S2504_02_04_023,太好啦！我还怕真要待上两年呢。"
   splits:
   - split: 1
@@ -22584,12 +22580,11 @@
     text: "唐三侠好。"
     translated: "Third Hero, good"
     qcReviewedText: "Third Hero, good"
-    qcTranslated: "Third Hero, good"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
     qcDefectCategories:
-    - DroppedContent
+    - None
 - raw: "Story/D_S2504_04_004,你、你这是做甚？怎么突然如此多礼。"
   splits:
   - split: 1

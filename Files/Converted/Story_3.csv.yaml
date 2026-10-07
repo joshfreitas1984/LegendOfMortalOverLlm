@@ -365,11 +365,14 @@
   splits:
   - split: 1
     text: "你该不会是什么天赋异禀的奇才吧。若是真的，明日你可得多看照师兄我啊。"
-    translated: "You must be some kind of exceptionally gifted talent. If that's true, you should pay more attention to your senior brother tomorrow."
-    qcReviewedText: "You must be some kind of exceptionally gifted talent. If that's true, you should pay more attention to your senior brother tomorrow."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "You can't possibly be a prodigy, can you? If you are, you'll have to keep an extra eye on me tomorrow, Senior Brother."
+    qcReviewedText: "You can't possibly be a prodigy, can you? If you are, you'll have to keep an extra eye on me tomorrow, Senior Brother."
+    qcTranslated: "You can't possibly be a prodigy, can you? If you are, I'll have to keep an extra eye on you tomorrow, Senior Brother."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/N_3_2_3_2_1_001,你们师兄弟活动了筋骨，有说有笑各自回房，取水擦把汗便睡了。"
   splits:
   - split: 1
@@ -15367,8 +15370,8 @@
   splits:
   - split: 1
     text: "不过，你姑且就把我当成真人吧。有什么想说不敢说的话，不妨畅所欲言，说不定你很想骂我，是吧？"
-    translated: "However, you might as well treat me as an Immortal. If there's anything you want to say but dare not, feel free to speak your mind. Perhaps you really want to scold me, right?"
-    qcReviewedText: "However, you might as well treat me as an Immortal. If there's anything you want to say but dare not, feel free to speak your mind. Perhaps you really want to scold me, right?"
+    translated: "However, you might as well treat me as an Daoist. If there's anything you want to say but dare not, feel free to speak your mind. Perhaps you really want to scold me, right?"
+    qcReviewedText: "However, you might as well treat me as an Daoist. If there's anything you want to say but dare not, feel free to speak your mind. Perhaps you really want to scold me, right?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26737,9 +26740,9 @@
   splits:
   - split: 1
     text: "是，很熟，特别熟，是拜把换帖子的交情。他修道，我学佛，都是老朋友了，你、你是火龙真人的弟子？那太好了，快，快劝劝你师姐，怎么能对前辈下如此狠手呢？"
-    translated: "Yes, very familiar, especially close, it's a bond formed through brotherhood. They practice Taoism, I study Buddhism, we are old friends. You, are you a disciple of Immortal Huo Long? That's great, quickly, persuade your senior sister, how can she be so ruthless towards a predecessor?"
-    qcReviewedText: "Yes, very familiar, especially close, it's a bond formed through brotherhood. They practice Taoism, I study Buddhism, we are old friends. You, are you a disciple of Immortal Huo Long? That's great, quickly, persuade your senior sister, how can she be so ruthless towards a predecessor?"
-    qcTranslated: "Yes, very familiar, especially close, it's a bond formed through sworn brotherhood. They practice Taoism, I study Buddhism, we are old friends. Y‑y‑you, are you a disciple of Immortal Huo Long? That's great, quickly, persuade your senior sister, how can she be so ruthless towards an Elder?"
+    translated: "Yes, very familiar, especially close, it's a bond formed through brotherhood. They practice Taoism, I study Buddhism, we are old friends. You, are you a disciple of Daoist Huo Long? That's great, quickly, persuade your senior sister, how can she be so ruthless towards a predecessor?"
+    qcReviewedText: "Yes, very familiar, especially close, it's a bond formed through brotherhood. They practice Taoism, I study Buddhism, we are old friends. You, are you a disciple of Daoist Huo Long? That's great, quickly, persuade your senior sister, how can she be so ruthless towards a predecessor?"
+    qcTranslated: "Yes, very familiar, especially close, it's a bond formed through sworn brotherhood. They practice Taoism, I study Buddhism, we are old friends. Y‑y‑you, are you a disciple of Daoist Huo Long? That's great, quickly, persuade your senior sister, how can she be so ruthless towards an Elder?"
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: UnnaturalPhrasing
