@@ -8203,14 +8203,13 @@
     text: "你想让我动怒？可惜如意算盘敲得太响。"
     translated: "Do you want me to get angry? Unfortunately, the rosy plan is too loud."
     qcReviewedText: "Do you want me to get angry? Unfortunately, the rosy plan is too loud."
-    qcStatus: FailedValidation
+    qcTranslated: "Do you want me to get angry? Alas, your master plan was struck too loudly."
+    qcStatus: Corrected
     flaggedForQcReview: true
-    qcRejectedCorrection: "Do you want me to get angry? Alas, your如意算盘 was struck too loud."
-    qcFailureReason: " If your prior translation includes Chinese, output English only. Scan the last translation for Chinese text, cross-check with the original Chinese from the first user prompt, and translate all remaining Chinese into fluent, natural English."
+    qcQualityScore: 0
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Do you want me to get angry? Unfortunately, the rosy plan is too loud."
+    - MeaningReversal
 - raw: "Story/D_5_4_7_3_10_009,……好哇你小子，没事干嘛那么难缠？区区喽啰，还让你爷爷费那么大功夫。"
   splits:
   - split: 1

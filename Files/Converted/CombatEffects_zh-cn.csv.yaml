@@ -5317,14 +5317,12 @@
     text: "虚张声势"
     translated: "Bluffing"
     qcReviewedText: "Bluffing：When a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Bluffing: When a duel begins, their qi increases by 10, and their verbal prowess improves by 100%."
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcTranslated: "Bluffing: When a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Bluffing：When a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    - GarbledNumber
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
@@ -5929,14 +5927,12 @@
     text: "震撼"
     translated: "Shock"
     qcReviewedText: "Shock：Defend at ‑50% efficiency, receive damage at 1.5 times the normal amount."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Shock: Defense 50%, damage taken multiplied by 1.5."
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcTranslated: "Shock: Defense ‑50%, damage taken 1.5x."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Shock：Defend at ‑50% efficiency, receive damage at 1.5 times the normal amount."
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "防御-50%，受到伤害1.5倍。"
@@ -9095,14 +9091,13 @@
     text: "温夫人《仙侣宫・哪咤令・龙游浅水》"
     translated: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'"
     qcReviewedText: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals Chi damage to enemies each turn.-3，HP‑8%, and there is a 25% chance to cause fear, with a random emotional anomaly such as anger."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals -3 Chi and 8% HP damage to enemies each turn, with a 25% chance to cause a random anomaly of fear or anger."
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcTranslated: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals ‑3 Chi and ‑8% HP damage to enemies each turn, with a 25% chance to cause random anomalies such as fear or anger."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals Chi damage to enemies each turn.-3，HP‑8%, and there is a 25% chance to cause fear, with a random emotional anomaly such as anger."
+    - GarbledNumber
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "挟带内力的琴声，每回合造成敌方气"
@@ -12346,14 +12341,13 @@
     text: "欺善怕恶"
     translated: "Bullying the weak and fearing the strong"
     qcReviewedText: "Bullying the weak and fearing the strong：When the opponent's aura is stronger than your own, decrease all your attributes by ‑20%; when the opponent's aura is weaker than your own, increase all your attributes by ‑20%.+20%。"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Bullying the weak and fearing the strong: When the opponent's aura is greater than your own, all your attributes are 20%; when the opponent's aura is less than your own, all your attributes are 20%。"
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcTranslated: "Bullying the weak and fearing the strong: When the opponent's aura is greater than your own, all your attributes are 20%; when the opponent's aura is less than your own, all your attributes are 20%"
+    qcStatus: Corrected
+    qcQualityScore: 75
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Bullying the weak and fearing the strong：When the opponent's aura is stronger than your own, decrease all your attributes by ‑20%; when the opponent's aura is weaker than your own, increase all your attributes by ‑20%.+20%。"
+    - GarbledNumber
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "对手气大于自身时，自身全属性-20%；对手气小于自身时，自身全属性"
@@ -12558,14 +12552,13 @@
     text: "佩服"
     translated: "Admiration"
     qcReviewedText: "Admiration：They admire you from the depths of their heart, boosting attack by ‑20%, defense unchanged.-20%"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Admiration: They admire you from the depths of their heart, boosting attack by 20% and defense by -20%."
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcTranslated: "Admiration: They admire you from the depths of their heart, boosting attack by ‑20% and defense by ‑20%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Admiration：They admire you from the depths of their heart, boosting attack by ‑20%, defense unchanged.-20%"
+    - GarbledNumber
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "他内心深处佩服你，攻击-20%、防御"
@@ -14221,14 +14214,14 @@
     text: "太白仙迹"
     translated: "Taibai Immortal Footprints"
     qcReviewedText: "Taibai Immortal Footprints：For Level 2 and above, the Ultimate moves become available.[Taibai Immortal Footprints]。\\nFor four turns, all attributes are boosted beyond the normal limit, with a 50% chance to dodge enemy attacks; afterward, all stats reset to zero.\\nThe stab command changes to Dance with the Sword, causing 1 damage.~3 segments of damage \\nCombo count>At 10 time, immediately add a massive damage attack and remove the Taibai Immortal Trace status."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Taibai Immortal Footprints: For Level 2 and above, the Ultimate moves become [Taibai Immortal Footprints].\nFor four turns, all attributes are boosted beyond the normal limit, with a 2% chance to dodge enemy attacks; after four turns, Qi resets to zero.\nThe stab command changes to Dance with the Sword, causing 50~1 segments of damage.\nWhen Combo count > 3, immediately add a massive damage attack and remove the Taibai Immortal Footprints status."
-    qcFailureReason: " Restore `\\n` to the translation, as it was incorrectly removed. `\\n` appears in the result but not in the original text."
+    qcTranslated: "Taibai Immortal Footprints: For Level 2 and above, the Ultimate moves become [Taibai Immortal Footprints].\\nFor four turns, all attributes are boosted beyond the normal limit, with a 2% chance to dodge enemy attacks; after four turns, Qi resets to zero.\\nThe stab command changes to Dance with the Sword, causing 50~1 segments of damage.\\nWhen Combo count > 3, immediately add a massive damage attack and remove the Taibai Immortal Footprints status."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Taibai Immortal Footprints：For Level 2 and above, the Ultimate moves become available.[Taibai Immortal Footprints]。\\nFor four turns, all attributes are boosted beyond the normal limit, with a 50% chance to dodge enemy attacks; afterward, all stats reset to zero.\\nThe stab command changes to Dance with the Sword, causing 1 damage.~3 segments of damage \\nCombo count>At 10 time, immediately add a massive damage attack and remove the Taibai Immortal Trace status."
+    - GarbledNumber
+    - DroppedContent
+    - HardToParseSeam
   - split: 1
     subIndex: 1
     text: "境界二以上，绝招变为"
@@ -16163,14 +16156,9 @@
     text: "赵逵《地狱法王》"
     translated: "Zhao Kui's Dharma King of Hell"
     qcReviewedText: "Zhao Kui's Dharma King of Hell：Deals moderate damage each turn and may cause Burning status. The enemy regains ‑3 mana each turn and may also cause Frightened status."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "Zhao Kui's Dharma King of Hell：Deals moderate damage each turn and may cause Burning status. The enemy loses 3 mana each turn and may also cause Frightened status."
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Zhao Kui's Dharma King of Hell：Deals moderate damage each turn and may cause Burning status. The enemy regains ‑3 mana each turn and may also cause Frightened status."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "每回合造成中幅伤害，造成燃烧异常。敌方每回气-3，并有机率造成胆怯异常。"

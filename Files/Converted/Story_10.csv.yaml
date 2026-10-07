@@ -29744,14 +29744,12 @@
     text: "……我知道讲经楼中的书本、字画，都是唐门贵重的宝物。我和三哥商量过的，成册的带不走，便请吕员外先典押变现，分赠唐门师兄弟姊妹，作为盘缠。"
     translated: "...I know that the scriptures and paintings in the Lecture Hall are precious treasures of the Tang Clan. I've discussed this with my elder brother, and we decided that since we can't take the bound books, we'll ask Master Lu to pawn them for cash. We'll then distribute the proceeds among the Tang Clan's senior brothers, junior brothers, sisters, and fellow practitioners as travel expenses."
     qcReviewedText: "...I know that the scriptures and paintings in the Lecture Hall are precious treasures of the Tang Clan. I've discussed this with my elder brother, and we decided that since we can't take the bound books, we'll ask Master Lu to pawn them for cash. We'll then distribute the proceeds among the Tang Clan's senior brothers, junior brothers, sisters, and fellow practitioners as travel expenses."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "...I know that the books and calligraphy/paintings in the Lecture Hall are precious treasures of the Tang Clan. I've discussed this with my third brother, and we decided that since we can't take the bound books, we'll ask Master Lu to pawn them for cash first, then distribute the proceeds among the Tang Clan's senior brothers, junior brothers, sisters, and fellow practitioners as travel expenses."
-    qcFailureReason: " Alternatives were provided when none should be given."
+    qcTranslated: "...I know that the books and calligraphy in the Lecture Hall are precious treasures of the Tang Clan. I've discussed this with my Third Brother, and we decided that since we can't take the bound volumes, we'll ask Master Lu to pawn them for cash first, then distribute the proceeds among the Tang Clan's senior brothers, junior brothers, sisters, and fellow practitioners as travel expenses."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "...I know that the scriptures and paintings in the Lecture Hall are precious treasures of the Tang Clan. I've discussed this with my elder brother, and we decided that since we can't take the bound books, we'll ask Master Lu to pawn them for cash. We'll then distribute the proceeds among the Tang Clan's senior brothers, junior brothers, sisters, and fellow practitioners as travel expenses."
+    - DroppedContent
 - raw: "Story/D_7_5_2_2_033,来日我们有钱了，再来赎回便是。我可没有半分贱卖或者趁机牟利的意思，你千万别误会。"
   splits:
   - split: 1

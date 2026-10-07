@@ -23707,14 +23707,13 @@
     text: "阿弥陀佛，风雨山别来，施主平安否？"
     translated: "Amituofo. Brother Li of Fengyu Mountain, how is the patron fare?"
     qcReviewedText: "Amituofo. Brother Li of Fengyu Mountain, how is the patron fare?"
-    qcStatus: FailedValidation
+    qcTranslated: "Amituofo. Brother Li of Fengyu Mountain, how have you been since we last parted?"
+    qcStatus: Corrected
     flaggedForQcReview: true
-    qcRejectedCorrection: "Amituofo. Brother Li of Fengyu Mountain, how have you been since we parted?"
-    qcFailureReason: "Glossary term '施主' (expected 'Benefactor') is missing."
+    qcQualityScore: 0
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "Amituofo. Brother Li of Fengyu Mountain, how is the patron fare?"
+    - DroppedContent
 - raw: "Story/D_S0702_01_020,承蒙法师垂询，忙归忙，尚且还过得去。"
   splits:
   - split: 1

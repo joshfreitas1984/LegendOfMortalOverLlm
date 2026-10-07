@@ -1626,14 +1626,13 @@
     text: "四师兄要是人在，一定会守伙房。"
     translated: "If Fourth Senior Brother were here, they would definitely guard the dormitory. While correcting, they went to the 'canteen' to get some food."
     qcReviewedText: "If Fourth Senior Brother were here, they would definitely guard the dormitory. While correcting, they went to the 'canteen' to get some food.\\nWhat are these bandits raiding our kitchen for? To spoil our stored food?"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "If Fourth Senior Brother were here, they would definitely guard the kitchen. What are these bandits raiding our kitchen for? To spoil our stored food?"
-    qcFailureReason: " Restore `\\n` to the translation, as it was incorrectly removed."
+    qcTranslated: "If Fourth Senior Brother were here, he would definitely guard the kitchen.\\nWhat are these bandits raiding our kitchen for? To spoil our stored food?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "If Fourth Senior Brother were here, they would definitely guard the dormitory. While correcting, they went to the 'canteen' to get some food.\\nWhat are these bandits raiding our kitchen for? To spoil our stored food?"
+    - DroppedContent
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "匪人奇袭伙房是能干麻？糟蹋我们储粮？"

@@ -12697,14 +12697,13 @@
     text: "这种力气活现如今都被飞石帮独揽，轿子又新，人也精神。自己单干的半老轿夫生意惨淡，见你不找飞石帮，光顾自己生意，要抬的还是两个娇小玲珑的小娘子，无不大喜，没口子夸你慧眼。"
     translated: "This strength and vitality are now exclusively handled by the Flying Stone Gang. The sedan chair is new, and they appear lively. The half‑aged sedan bearers who work on their own have a bleak business, seeing you don't hire the Flying Stone Gang but patronize your own business to transport two delicate young misses. Everyone is overjoyed and praise your keen eye without reservation."
     qcReviewedText: "This strength and vitality are now exclusively handled by the Flying Stone Gang. The sedan chair is new, and they appear lively. The half‑aged sedan bearers who work on their own have a bleak business, seeing you don't hire the Flying Stone Gang but patronize your own business to transport two delicate young misses. Everyone is overjoyed and praise your keen eye without reservation."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "This kind of heavy labor is now exclusively monopolized by the Flying Stone Gang. The sedan chair is new, and the bearers are full of Spirit. The half-aged sedan bearers who work on their own have a bleak business; seeing that you don't hire the Flying Stone Gang but instead patronize their own business to carry two petite young ladies, they are all overjoyed and praise your keen eye without reservation."
-    qcFailureReason: "Glossary term '小娘' (expected 'Young Miss') is missing."
+    qcTranslated: "This kind of heavy labor is now exclusively monopolized by the Flying Stone Gang. The sedan chair is new, and the bearers are in high spirits. The middle‑aged sedan bearers who work on their own have a bleak business, but seeing you don't hire the Flying Stone Gang and instead patronize their own business to transport two petite Young Misses, they are all overjoyed, praising your keen eye without reservation."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "This strength and vitality are now exclusively handled by the Flying Stone Gang. The sedan chair is new, and they appear lively. The half‑aged sedan bearers who work on their own have a bleak business, seeing you don't hire the Flying Stone Gang but patronize your own business to transport two delicate young misses. Everyone is overjoyed and praise your keen eye without reservation."
+    - MeaningReversal
+    - UnnaturalPhrasing
 - raw: "Story/N_2_4_5_3_Break_01_008,小师妹第一次坐轿子，总觉得不大自在，对轿夫感到颇抱歉。"
   splits:
   - split: 1

@@ -2233,14 +2233,12 @@
     text: "决斗"
     translated: "Duel"
     qcReviewedText: "[Duel]\\nWhen a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "[Duel]\\nWhen a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
-    qcFailureReason: "Missing a negative sign '-' before a number required by the source."
+    qcTranslated: "[Duel]\\nWhen a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "[Duel]\\nWhen a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"

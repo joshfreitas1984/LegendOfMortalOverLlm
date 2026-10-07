@@ -34963,16 +34963,11 @@
   splits:
   - split: 1
     text: "上官萤痛扁"
-    translated: "Shangguan Ying painfully beat"
-    qcReviewedText: "<Shangguan Ying painfully beat>"
-    qcStatus: FailedValidation
-    flaggedForQcReview: true
-    qcRejectedCorrection: "<Shangguan Ying's Painful Beatdown>"
-    qcFailureReason: " Restore `<上官萤痛扁>` to the translation, as it was incorrectly removed. `<Shangguan Ying's Painful Beatdown>` appears in the result but not in the original text."
-    qcDefectCategories:
-    - Unknown
-    qcRuleCheckFailureCount: 4
-    qcRuleCheckFailureBaseline: "<Shangguan Ying painfully beat>"
+    translated: "Shangguan Ying's Painful Beatdown"
+    qcReviewedText: "<Shangguan Ying's Painful Beatdown>"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   templates:
   - split: 1
     template: "<{0}>"
