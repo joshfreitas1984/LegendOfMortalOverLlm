@@ -42,9 +42,9 @@ pronounCheck:
   # Rewrites a line the model still writes with an invented he/she/his/her/him to they/their/them instead of leaving it flagged.
   autoRepairPronouns: true
 
-# Post-translation quality review pass - same options as DragonHierOverLlm's Config.yaml, see that
+# Post-translation quality control pass - same options as DragonHierOverLlm's Config.yaml, see that
 # repo's docs/investigations/tests/qc-evaluator-model-selection.md for why.
-qualityReview:
+qualityControl:
   enabled: true
   modelName: Qwen38Qc-IQ4XS
   minAcceptableScore: 60

@@ -51,7 +51,7 @@ pin.
 4. **Create a starter `Files/Config.yaml`** based on `docs/architecture/downstream-project-structure/downstream-config-shape.md`'s documented
    shape (cross-check `WanXiangOverLlm/Files/Config.yaml` only for a field the doc doesn't pin): a
    `models:` list (at least one entry pointing at whatever local model preset this project
-   will use — leave `modelPreset`/`model` as placeholders the user fills in), a `qualityReview:`
+   will use — leave `modelPreset`/`model` as placeholders the user fills in), a `qualityControl:`
    block using LlmKit's current defaults (`enabled: true`, placeholder `modelName`,
    `minAcceptableScore: 70`, leave `autoAcceptDefectCategories` empty/commented — that list is
    populated later from real hand-triage, never guessed up front), `glossaryPreset`,
@@ -109,7 +109,7 @@ pin.
    details the taxonomy doc doesn't spell out): repository overview table of sub-projects,
    documentation taxonomy, "Where should I look?" table. From day one, include rows pointing at
    LlmKit's canonical docs so this repo doesn't accumulate the cross-referencing debt older repos
-   had before this restructuring: `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md`
+   had before this restructuring: `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-control-pass.md`
    for QC questions, `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` for packaging
    questions, and `../FanslationStudio.LlmKit/docs/architecture/downstream-project-structure/downstream-project-structure.md` for future
    structure reconciliation.

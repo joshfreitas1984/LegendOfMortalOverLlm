@@ -21,7 +21,7 @@ file exists so no repository rule lives in only one vendor-specific format
   version bump. LlmKit's `TranslationLine`/`TranslationSplit`/`FieldTemplate` shape (the
   Line/Split/Template data model) is a golden-rule-protected contract owned by LlmKit, not this
   repo: never change its shape here, only propose additive changes upstream in LlmKit itself.
-- LlmKit-internal behavior (the QC/quality-review pass, packaging/reconstruction rules, retry and
+- LlmKit-internal behavior (the QC/quality-control pass, packaging/reconstruction rules, retry and
   escalation mechanics) is documented in `FanslationStudio.LlmKit`'s own `AGENTS.md`/`docs/` — read
   it there rather than duplicating or re-deriving it in this repo.
 - `SharedAssembly/` is shared between `Translate/` and `LegendOfMortalPlugin/` only — it is a different project to

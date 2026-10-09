@@ -8,5 +8,5 @@ builds and pure regression tests are safe validation; live LLM calls, export, pa
 steps are not automatic validation.
 
 The reusable implementation lives in `Translate/`. CSV parsing, split/reconstruction, validation,
-retry, and quality-review mechanics are owned by the sibling `FanslationStudio.LlmKit` repository.
+retry, and quality-control mechanics are owned by the sibling `FanslationStudio.LlmKit` repository.
 The Mono plugin consumes the generated mod data and handles game-specific runtime injection.

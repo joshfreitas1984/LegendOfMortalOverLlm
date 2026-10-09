@@ -75,7 +75,7 @@ instead of duplicating their implementation details here.
 | Fix or extend the runtime string-table dump/injection patches | [`StringTableDumpPatches.cs`](../LegendOfMortalPlugin/StringTableDumpPatches.cs), [`StringTableInjectionPatches.cs`](../LegendOfMortalPlugin/StringTableInjectionPatches.cs) |
 | Investigate a known issue | [`KNOWN_ISSUES.md`](KNOWN_ISSUES.md) |
 | Informal prompt-engineering/glossary lessons | [`Files/Learnings.md`](../Files/Learnings.md) |
-| Work on the QC (quality review) pass | [`quality-review-pass.md`](../../../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md) (**sibling repo**) |
+| Work on the QC (quality control) pass | [`quality-control-pass.md`](../../../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-control-pass.md) (**sibling repo**) |
 | Change or turn off joining of mid-sentence line breaks in packaged text | [`soft-line-break-joining.md`](features/translation-pipeline/soft-line-break-joining.md) |
 | Investigate a packaging issue | [`packaging-reference.md`](../../../FanslationStudio.LlmKit/docs/features/packaging/packaging-reference.md) (**sibling repo**) |
 | Install/play the released patch | [`readme.md`](../readme.md) |

@@ -40,7 +40,7 @@ workflow actually owns the reported line.
 4. **If QC gating is involved** (a `QcTranslated` correction being used, discarded, or a
    `QcRejected` count looking wrong), do not re-derive the score-gate/freshness mechanism here —
    cross-check with the `investigate-qc-issue` skill and
-   `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-review-pass.md` instead. Packaging only
+   `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-control-pass.md` instead. Packaging only
    consumes the QC gate's result; it does not decide it.
 
 5. **Read `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` in full** as the canonical

@@ -12,38 +12,38 @@ public class QualityControlWorkflowTests
     // The full "I changed the glossary / got file updates / exported more dynamic strings / added a
     // bad word / needed a new game repair" workflow in one call: brute-forces Translated back to
     // clean (TranslationWorkflow.TranslateLinesBruteForce), then does the same for QcTranslated
-    // (QualityReviewWorkflow.RunBruteForce - a no-op if qualityReview.enabled is false), then
+    // (QualityControlWorkflow.RunBruteForce - a no-op if qualityControl.enabled is false), then
     // packages. Use this instead of running "1" and "3b" separately when you want QC kept in sync
     // too.
-    [Fact(DisplayName = "0. TranslateAndQualityReviewBruteForce")]
-    public async Task TranslateAndQualityReviewBruteForce()
+    [Fact(DisplayName = "0. TranslateAndQualityControlBruteForce")]
+    public async Task TranslateAndQualityControlBruteForce()
     {
         await TranslationWorkflow.TranslateLinesBruteForce(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
-        await QualityReviewWorkflow.RunBruteForce(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, hooks: GameFileHandling.Hooks);
+        await QualityControlWorkflow.RunBruteForce(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, hooks: GameFileHandling.Hooks);
         await FileOutputWorkflowTests.PackageFinalTranslation();
     }
 
-    // Run this BEFORE "2" the first time you try a candidate qualityReview model - reviews only a
-    // small random sample (see QualityReviewWorkflow.RunAsync's sampleSize) instead of every
+    // Run this BEFORE "2" the first time you try a candidate qualityControl model - reviews only a
+    // small random sample (see QualityControlWorkflow.RunAsync's sampleSize) instead of every
     // eligible column, so you can judge a model's real speed/score-distribution/correction-quality
-    // on your hardware before committing an entire run to it. See docs/plans/quality-review-pass.md's
-    // "Sample run before committing to a full-corpus pass". A no-op if qualityReview.enabled is
+    // on your hardware before committing an entire run to it. See docs/plans/quality-control-pass.md's
+    // "Sample run before committing to a full-corpus pass". A no-op if qualityControl.enabled is
     // false.
-    [Fact(DisplayName = "1. RunQualityReviewPassSample")]
-    public async Task RunQualityReviewPassSample()
+    [Fact(DisplayName = "1. RunQualityControlPassSample")]
+    public async Task RunQualityControlPassSample()
     {
-        await QualityReviewWorkflow.RunAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, sampleSize: 300, hooks: GameFileHandling.Hooks);
+        await QualityControlWorkflow.RunAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, sampleSize: 300, hooks: GameFileHandling.Hooks);
     }
 
     // Independent of the main translate/apply-rules/translate-lines steps in TranslationWorkflowTests
     // - reviews already-translated text against a separately configured model (Config.yaml's
-    // qualityReview: section), proposes corrections, and validates them before writing anything.
-    // See docs/plans/quality-review-pass.md. A no-op (logs and returns) if qualityReview.enabled
+    // qualityControl: section), proposes corrections, and validates them before writing anything.
+    // See docs/plans/quality-control-pass.md. A no-op (logs and returns) if qualityControl.enabled
     // is false, so it's safe to run even before the feature is configured for a real run.
-    [Fact(DisplayName = "2. RunQualityReviewPass")]
-    public async Task RunQualityReviewPass()
+    [Fact(DisplayName = "2. RunQualityControlPass")]
+    public async Task RunQualityControlPass()
     {
-        await QualityReviewWorkflow.RunAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, hooks: GameFileHandling.Hooks);
+        await QualityControlWorkflow.RunAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, hooks: GameFileHandling.Hooks);
     }
 
     // Run this after a glossary/config change so already-QC'd QcTranslated text picks up the same
@@ -52,17 +52,17 @@ public class QualityControlWorkflowTests
     [Fact(DisplayName = "3. ApplyRulesToQCReview")]
     public async Task ApplyRulesToQCReview()
     {
-        await QualityReviewWorkflow.ApplyRulesToCurrentQcTranslated(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
+        await QualityControlWorkflow.ApplyRulesToCurrentQcTranslated(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // Reporting-only, mirrors TranslationWorkflowTests' "4. Find All Failing Translations" but
-    // scoped to quality-review flags (a rejected correction, or a low QcQualityScore) instead of
-    // translation failures - see QualityReviewWorkflow.GetFlaggedQcReviews.
-    [Fact(DisplayName = "4. Find Flagged Quality Review Items")]
+    // scoped to quality-control flags (a rejected correction, or a low QcQualityScore) instead of
+    // translation failures - see QualityControlWorkflow.GetFlaggedQcReviews.
+    [Fact(DisplayName = "4. Find Flagged Quality Control Items")]
     public async Task FindFlaggedQcReviews()
     {
         var workingDirectory = GameFileHandling.WorkingDirectory;
-        var flagged = await QualityReviewWorkflow.GetFlaggedQcReviews(workingDirectory, TextFileConfiguration.TextFilesToSplit);
+        var flagged = await QualityControlWorkflow.GetFlaggedQcReviews(workingDirectory, TextFileConfiguration.TextFilesToSplit);
 
         var serializer = YamlHelper.CreateSerializer();
         var yaml = serializer.Serialize(flagged);
@@ -71,72 +71,72 @@ public class QualityControlWorkflowTests
 
     // Turns "4"'s flat 9000+-row dump into something a human can actually work down over time,
     // instead of eyeballing every row or hand-marking individual lines as "ok" (the data model has
-    // no such field, and QualityReviewWorkflow deliberately has no manual-approval gate). See
-    // QualityReviewWorkflow.QcTriageResult's doc comment (FanslationStudio.LlmKit) for what the
+    // no such field, and QualityControlWorkflow deliberately has no manual-approval gate). See
+    // QualityControlWorkflow.QcTriageResult's doc comment (FanslationStudio.LlmKit) for what the
     // "rejected/by-reason" vs "low-score-only" split means and why they need different treatment.
     // Writes QcTriageSummary.yaml/QcTriageByReason.yaml/QcTriageLowScoreSample.yaml under
     // TestResults. Safe and cheap to re-run any time (no LLM calls) - re-run after any
     // prompt/glossary/config fix to see the reason clusters shrink and the low-score sample shift as
     // real progress is made.
-    [Fact(DisplayName = "5. Triage Flagged Quality Review Items")]
+    [Fact(DisplayName = "5. Triage Flagged Quality Control Items")]
     public async Task TriageFlaggedQcReviews()
     {
-        await QualityReviewWorkflow.WriteTriageReportAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
+        await QualityControlWorkflow.WriteTriageReportAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // Turns "5"'s clusters into ready-to-paste prompts for a Claude chat (QcTriagePrompts.md),
-    // rather than a fully automated fix pipeline - the actual edits (BaseQualityReviewPrompt.txt
-    // wording, a glossary rule, qualityReview.minAcceptableScore) are small and judgment-heavy
+    // rather than a fully automated fix pipeline - the actual edits (BaseQualityControlPrompt.txt
+    // wording, a glossary rule, qualityControl.minAcceptableScore) are small and judgment-heavy
     // enough that a human should read the examples and apply the change themselves, not have an
     // LLM edit prompt files unsupervised. Paste a section at a time into a chat; apply whatever fix
-    // comes back by hand, then use "Reset Qc Retry Limits"/"Reset Leaked Quality Review
+    // comes back by hand, then use "Reset Qc Retry Limits"/"Reset Leaked Quality Control
     // Corrections" + a re-run to see the cluster shrink next time "4"/"5" run.
-    [Fact(DisplayName = "6. Generate Quality Review Fix Prompts")]
+    [Fact(DisplayName = "6. Generate Quality Control Fix Prompts")]
     public async Task GenerateQcFixPrompts()
     {
-        await QualityReviewWorkflow.WriteFixPromptsAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
+        await QualityControlWorkflow.WriteFixPromptsAsync(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // Run this after fixing whatever was causing a persistent QC rule violation (e.g. removed a
-    // false-positive bad word, loosened a glossary rule) so columns QualityReviewWorkflow.RunBruteForce
+    // false-positive bad word, loosened a glossary rule) so columns QualityControlWorkflow.RunBruteForce
     // already gave up on (see TranslationSplit.QcRuleCheckFailureCount) get retried instead of
     // staying parked forever. A no-op for everything else.
     [Fact(DisplayName = "7. Reset Qc Retry Limits")]
     public async Task ResetQcRetryLimits()
     {
-        await QualityReviewWorkflow.ResetQcRetryLimits(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
+        await QualityControlWorkflow.ResetQcRetryLimits(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
     }
 
     // Sweeps every already-QC'd column for a stored QcTranslated/QcRejectedCorrection that leaked QC
     // protocol text (a stray "NONE", "SCORE:", "CORRECTED:", etc. - see
-    // QualityReviewWorkflow.ContainsLeakedProtocolText) rather than a clean correction. This catches
+    // QualityControlWorkflow.ContainsLeakedProtocolText) rather than a clean correction. This catches
     // corruption that got past an earlier, narrower version of the leak guard - e.g. the
     // "Sword Technique Power NONE" case, where the guard only rejected a response that was *exactly*
     // "NONE", not one with "NONE" stuck onto real text. Any match is reset back to QcStatus.NotReviewed
     // (full TranslationSplit.ResetQcState) so the next "1"/"2" run gives it a genuinely fresh review.
     // Safe to run any time - a no-op once the corpus is clean.
-    [Fact(DisplayName = "Reset Leaked Quality Review Corrections")]
+    [Fact(DisplayName = "Reset Leaked Quality Control Corrections")]
     public async Task ResetLeakedQcCorrections()
     {
-        await QualityReviewWorkflow.ResetLeakedQcCorrections(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
+        await QualityControlWorkflow.ResetLeakedQcCorrections(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
     }
 
-    // Run this after changing how QC's score is judged (BaseQualityReviewPrompt.txt's scoring
-    // rubric, or switching qualityReview.modelName to a model that scores on a different scale) so
+    // Run this after changing how QC's score is judged (BaseQualityControlPrompt.txt's scoring
+    // rubric, or switching qualityControl.modelName to a model that scores on a different scale) so
     // every column currently sitting below minAcceptableScore under the OLD calculation gets a
     // genuinely fresh score under the new one. Leaves every already-accepted column with an
-    // acceptable score untouched (unlike "Reset ALL Quality Review State", which re-reviews
+    // acceptable score untouched (unlike "Reset ALL Quality Control State", which re-reviews
     // everything) - only the columns actually worth another look get re-sent to the LLM. A
     // rejected-correction column (Reason set, QcQualityScore already cleared to null) is never
     // touched here - use "Reset Qc Retry Limits" for those.
-    [Fact(DisplayName = "7. Reset Low-Score Quality Review State")]
+    [Fact(DisplayName = "7. Reset Low-Score Quality Control State")]
     public async Task ResetLowScoreQcState()
     {
-        await QualityReviewWorkflow.ResetLowScoreQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
+        await QualityControlWorkflow.ResetLowScoreQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // DEFECT-category counterpart to "7" (which resets by score threshold instead). Resets every
-    // flagged column whose DEFECT category is NOT in Config.yaml's qualityReview.autoAcceptDefectCategories
+    // flagged column whose DEFECT category is NOT in Config.yaml's qualityControl.autoAcceptDefectCategories
     // back to NotReviewed for a fresh review - see Tests/docs/qc-qualityscore-noise-investigation.md's
     // "stratify by DEFECT category" policy step. QcDefectCategory.Unknown always lands in this bucket
     // (a line whose response predates the DEFECT-first prompt, or otherwise failed to parse a DEFECT:
@@ -144,30 +144,30 @@ public class QualityControlWorkflowTests
     // parsed and backfill them via "2" next. Safe to re-run any time autoAcceptDefectCategories
     // changes (a category's hand-validated precision verdict is added or revised) to pull the
     // newly-decided set back out of "flagged" one way or the other on the next "1"/"2" pass.
-    [Fact(DisplayName = "8. Reset Non-Auto-Accepted Quality Review State")]
+    [Fact(DisplayName = "8. Reset Non-Auto-Accepted Quality Control State")]
     public async Task ResetNonAutoAcceptedQcState()
     {
-        await QualityReviewWorkflow.ResetNonAutoAcceptedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
+        await QualityControlWorkflow.ResetNonAutoAcceptedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit, GameFileHandling.Hooks);
     }
 
     // Run this ONCE after adding the DROPPED_STUTTER defect category/stutter-handling rule to
-    // BaseSystemPrompt.txt/BaseQualityReviewPrompt.txt: before that change, a Chinese stammer/stutter
+    // BaseSystemPrompt.txt/BaseQualityControlPrompt.txt: before that change, a Chinese stammer/stutter
     // (e.g. "思、思阁主", "你、你、你……") had no named defect to score against, so a dropped stutter
     // almost always passed QC silently at a high score instead of getting flagged - it would NOT have
     // shown up under DROPPED_CONTENT (scoped to subject/object/clause/title only) or reliably under
     // OTHER_NAMED_DEFECT (the scoring anchors explicitly told the model not to score down anything
     // outside the named defect list). This resets every column whose SOURCE actually contains the
     // pattern back to NotReviewed regardless of its old score/status, so the next "1"/"2" pass gives
-    // it a genuinely fresh review under the new prompt - far cheaper than "Reset ALL Quality Review
+    // it a genuinely fresh review under the new prompt - far cheaper than "Reset ALL Quality Control
     // State" since it targets only the columns a plain regex scan finds, with no LLM call of its own.
-    [Fact(DisplayName = "9. Reset Stutter-Affected Quality Review State")]
+    [Fact(DisplayName = "9. Reset Stutter-Affected Quality Control State")]
     public async Task ResetStutterAffectedQcState()
     {
-        await QualityReviewWorkflow.ResetStutterAffectedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
+        await QualityControlWorkflow.ResetStutterAffectedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
     }
 
-    // Run this ONCE after adding the tag-seam rule to BaseQualityReviewPrompt.txt/
-    // BaseQualityReviewVerificationPrompt.txt (all model families): before that rule existed, the QC
+    // Run this ONCE after adding the tag-seam rule to BaseQualityControlPrompt.txt/
+    // BaseQualityControlVerificationPrompt.txt (all model families): before that rule existed, the QC
     // model had no guidance that a markup/formatting tag or placeholder (e.g. <b>, <color=...>)
     // sitting between two stitched fragments isn't a sentence boundary, so a genuinely broken seam
     // like "...here.<b>#PosText#</b>Inside" (a translated compound sentence split into two
@@ -175,17 +175,17 @@ public class QualityControlWorkflowTests
     // DEFECT: NONE / SCORE: 100 - see the /investigate-qc-issue writeup for the dumpedPrefabText line
     // that surfaced this. Scans every templated column's CURRENT effective (reconstructed) translated
     // text for that tag-seam signature (a period touching a tag open AND a tag close touching a
-    // capital, both required - see QualityReviewWorkflow's TagSeamPunctBeforeRegex/
+    // capital, both required - see QualityControlWorkflow's TagSeamPunctBeforeRegex/
     // TagSeamCapitalAfterRegex) and resets any match back
     // to NotReviewed for a fresh review under the new prompt rule, regardless of its old score/status
     // - console output during the run lists exactly which file/split each reset column came from, so
     // you can eyeball the affected lines before/after the next "1"/"2" pass re-reviews them. Far
-    // cheaper than "Reset ALL Quality Review State" since it only touches columns the regex scan
+    // cheaper than "Reset ALL Quality Control State" since it only touches columns the regex scan
     // actually finds, with no LLM call of its own - same shape as "9" above.
-    [Fact(DisplayName = "Reset Tag-Seam-Affected Quality Review State")]
+    [Fact(DisplayName = "Reset Tag-Seam-Affected Quality Control State")]
     public async Task ResetTagSeamAffectedQcState()
     {
-        await QualityReviewWorkflow.ResetTagSeamAffectedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
+        await QualityControlWorkflow.ResetTagSeamAffectedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
     }
 
     // Run this ONCE after adding the negative-sign check to TranslationWorkflow.EvaluateRules'
@@ -197,17 +197,17 @@ public class QualityControlWorkflowTests
     // already-Corrected column's QcTranslated against its reconstructed SOURCE and resets any match
     // back to NotReviewed for a fresh review under the new gate, regardless of its old score - same
     // shape as "Reset Tag-Seam-Affected"/"Reset Stutter-Affected" above, no LLM call of its own.
-    [Fact(DisplayName = "Reset Negative-Sign-Affected Quality Review State")]
+    [Fact(DisplayName = "Reset Negative-Sign-Affected Quality Control State")]
     public async Task ResetNegativeSignAffectedQcState()
     {
-        await QualityReviewWorkflow.ResetNegativeSignAffectedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
+        await QualityControlWorkflow.ResetNegativeSignAffectedQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
     }
 
-    // Dedicated single-row QC sample: forces a fresh QualityReviewWorkflow review of exactly ONE
+    // Dedicated single-row QC sample: forces a fresh QualityControlWorkflow review of exactly ONE
     // known PlotData.csv row (the master's "别慌..." collapse line, split 10 - see
     // Files/Converted/PlotData.csv.yaml) instead of a random sampleSize=N slice
-    // (RunQualityReviewPassSample) or a full corpus pass (RunQualityReviewPass). Useful for
-    // iterating on the BaseQualityReviewPrompt/model/glossary and immediately seeing how just this
+    // (RunQualityControlPassSample) or a full corpus pass (RunQualityControlPass). Useful for
+    // iterating on the BaseQualityControlPrompt/model/glossary and immediately seeing how just this
     // row's QC verdict changes, without waiting on (or perturbing the Qc state of) every other
     // already-reviewed row. Scoping textFiles to only PlotData.csv keeps RunAsync's freshness check
     // from doing any real work outside this one row - every other row/column in the file is still
@@ -217,8 +217,8 @@ public class QualityControlWorkflowTests
     // To point this at a different row, change TargetRawFragment below to the exact `text` of the
     // split-10 (or whichever column) anchor fragment you want to compare, as it appears in
     // Files/Converted/PlotData.csv.yaml.
-    [Fact(DisplayName = "RunQualityReviewSampleForOneLine")]
-    public async Task RunQualityReviewSampleForOneLine()
+    [Fact(DisplayName = "RunQualityControlSampleForOneLine")]
+    public async Task RunQualityControlSampleForOneLine()
     {
         const string TargetFile = "PlotData.csv";
         const string TargetRawFragment = "莫慌，让为师看看……";
@@ -270,10 +270,10 @@ public class QualityControlWorkflowTests
 
         // Pass 2: the actual QC pass, scoped to just this one file (and, thanks to the reset above,
         // effectively just this one row - every other row is still fresh and gets skipped for free).
-        await QualityReviewWorkflow.RunAsync(workingDirectory, textFiles, hooks: GameFileHandling.Hooks);
+        await QualityControlWorkflow.RunAsync(workingDirectory, textFiles, hooks: GameFileHandling.Hooks);
 
         // Pass 3: re-read and report the before/after comparison, reusing the same shape
-        // QualityReviewWorkflow.FlaggedQcReview already uses so this slots into the existing
+        // QualityControlWorkflow.FlaggedQcReview already uses so this slots into the existing
         // FlaggedQcReviews.yaml reporting conventions.
         string? afterReviewedText = null;
         string? afterQcTranslated = null;
@@ -329,21 +329,21 @@ public class QualityControlWorkflowTests
     // being translated as first-person ("No need to worry, I just fainted from exhaustion.") when
     // the surrounding dialogue ("莫慌，让为师看看……" - "Don't panic, let me take a look...") makes
     // clear the speaker is examining someone ELSE, who is the one who fainted. Two real bugs
-    // combined to let this slip through QC even after BaseQualityReviewPrompt.txt's rule against
+    // combined to let this slip through QC even after BaseQualityControlPrompt.txt's rule against
     // it: (1) the model would score this low (correctly flagging it) but still answer
-    // "CORRECTED: NONE" - fixed by BaseQualityReviewPrompt.txt's added CONSISTENCY rule; (2) even
+    // "CORRECTED: NONE" - fixed by BaseQualityControlPrompt.txt's added CONSISTENCY rule; (2) even
     // when the model DID propose a correction, it often joined the corrected sentences with a real
     // line break instead of the SOURCE/TRANSLATION convention's literal "\n", and
-    // QualityReviewWorkflow.CorrectedLineRegex was Multiline-anchored without Singleline, so it
+    // QualityControlWorkflow.CorrectedLineRegex was Multiline-anchored without Singleline, so it
     // silently truncated the captured correction to just its first physical line - fixed by adding
     // RegexOptions.Singleline. See the conversation history in this repo's task log for the full
     // diagnosis (direct Ollama reproduction that isolated each bug).
     //
     // Deliberately bypasses the corpus (Files/Converted/PlotData.csv.yaml) entirely and calls
-    // QualityReviewWorkflow.GetLlmVerdictAsync directly with a fixed, known-bad SOURCE/TRANSLATION
+    // QualityControlWorkflow.GetLlmVerdictAsync directly with a fixed, known-bad SOURCE/TRANSLATION
     // pair - so this test (a) survives corpus edits/repackaging, (b) can be re-run immediately with
     // no ResetQcRetryLimits/ResetQcState dance, and (c) automatically re-validates against whichever
-    // model Config.yaml's qualityReview.modelName currently points at, so swapping QC models
+    // model Config.yaml's qualityControl.modelName currently points at, so swapping QC models
     // re-checks this exact regression case with zero test changes. Samples the model a few times
     // (temperature is low but non-zero) since a single call could get a differently-worded but
     // still-correct answer, or vice versa - treat ANY sample reproducing the bug as a real
@@ -358,11 +358,11 @@ public class QualityControlWorkflowTests
     //    var workingDirectory = GameFileHandling.WorkingDirectory;
     //    var config = ConfigurationExtensions.GetConfiguration(workingDirectory, GameFileHandling.Hooks);
 
-    //    if (string.IsNullOrEmpty(config.QualityReview.ModelName)
-    //        || !config.Runtime.Models.TryGetValue(config.QualityReview.ModelName, out var modelConfig))
+    //    if (string.IsNullOrEmpty(config.QualityControl.ModelName)
+    //        || !config.Runtime.Models.TryGetValue(config.QualityControl.ModelName, out var modelConfig))
     //        throw new InvalidOperationException(
-    //            $"QualityReview.ModelName '{config.QualityReview.ModelName}' does not match any configured model - " +
-    //            "set qualityReview.enabled/modelName in Config.yaml to run this test.");
+    //            $"QualityControl.ModelName '{config.QualityControl.ModelName}' does not match any configured model - " +
+    //            "set qualityControl.enabled/modelName in Config.yaml to run this test.");
 
     //    var tokenReplacer = new StringTokenReplacer();
     //    var maskedRaw = tokenReplacer.Replace(Source);
@@ -374,7 +374,7 @@ public class QualityControlWorkflowTests
     //    var results = new List<(int Score, string? Corrected)>();
     //    for (var i = 0; i < Samples; i++)
     //    {
-    //        var verdict = await QualityReviewWorkflow.GetLlmVerdictAsync(config, modelConfig, client, Source, maskedRaw, maskedTranslated, glossaryPrompt);
+    //        var verdict = await QualityControlWorkflow.GetLlmVerdictAsync(config, modelConfig, client, Source, maskedRaw, maskedTranslated, glossaryPrompt);
     //        Assert.True(verdict.Success, $"Sample {i + 1}: QC response did not parse - see console output above for the raw response.");
 
     //        var corrected = verdict.CorrectedRawMasked == null ? null : tokenReplacer.Restore(verdict.CorrectedRawMasked);
@@ -388,9 +388,9 @@ public class QualityControlWorkflowTests
     //    {
     //        // Bug 1 (CONSISTENCY): a low score with no correction at all means the model flagged a
     //        // real problem but hedged with NONE instead of fixing it.
-    //        if (score < config.QualityReview.MinAcceptableScore)
+    //        if (score < config.QualityControl.MinAcceptableScore)
     //            Assert.True(corrected != null,
-    //                $"QC scored this {score} (below MinAcceptableScore={config.QualityReview.MinAcceptableScore}) but proposed no correction.");
+    //                $"QC scored this {score} (below MinAcceptableScore={config.QualityControl.MinAcceptableScore}) but proposed no correction.");
 
     //        // Bug 2 (regex truncation) and the underlying translation bug both manifest the same
     //        // way here: the known-bad first-person phrasing survives into whatever we end up with.
@@ -406,15 +406,15 @@ public class QualityControlWorkflowTests
     // changed, never whether the QC model/prompt that produced an existing verdict did - so
     // swapping the QC model, or a prompt change significant enough that already-recorded
     // Passed/Corrected verdicts can no longer be trusted (see
-    // docs/quality-review-pass-architecture.md's "Postmortems" section, FanslationStudio.LlmKit -
+    // docs/quality-control-pass-architecture.md's "Postmortems" section, FanslationStudio.LlmKit -
     // the omitted-subject rule and low-score-discard retry bug fixed there both mean a PRIOR
     // verdict may be less trustworthy than its stored status suggests), is when to run this - never
     // as a matter of routine, since a full re-review is the same many-hours job a first full run
     // already was.
-    [Fact(DisplayName = "Reset ALL Quality Review State (full re-review)")]
+    [Fact(DisplayName = "Reset ALL Quality Control State (full re-review)")]
     public async Task ResetAllQcState()
     {
-        await QualityReviewWorkflow.ResetAllQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
+        await QualityControlWorkflow.ResetAllQcState(GameFileHandling.WorkingDirectory, TextFileConfiguration.TextFilesToSplit);
     }
 
     // Regression coverage for GameFileHandling.ExcludePlotChoiceColumnFromQc (registered via
