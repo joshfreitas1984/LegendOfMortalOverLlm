@@ -56,7 +56,9 @@ pin.
    `minAcceptableScore: 70`, leave `autoAcceptDefectCategories` empty/commented — that list is
    populated later from real hand-triage, never guessed up front), `glossaryPreset`,
    `useContinuousWorkerPool: true`, and placeholder `maxConcurrency`/`retryCount`/`batchSize`. Also
-   create an empty `Files/ManualTranslations.yaml`. Note: the actual per-file `TextFileToSplit[]`
+   create an empty `Files/ManualTranslations.yaml`. Do **not** add `translationAssessment`, `qualityControlAssessment`, a
+   gold set or assessment tests: model and QC assessments run from LlmKit's `FanslationStudio.LlmKit.Assessments`, and
+   glossary lines follow the preset-or-game rubric in `docs/features/translation-pipeline/glossary.md`. Note: the actual per-file `TextFileToSplit[]`
    list is **not** in `Config.yaml` — it's C# in the tooling project (see `GameTextFiles.cs` in
    WanXiang's `Translate/` for the pattern) — so step 5's tooling project should get a starter
    `GameTextFiles.cs` with an empty `TextFilesToSplit` array for the user to fill in once dumping

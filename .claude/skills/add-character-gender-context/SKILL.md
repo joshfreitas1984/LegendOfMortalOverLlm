@@ -77,6 +77,9 @@ breaks every time they fill in a gender.
 4. Report the counts (hits, categories, sample precision) and the open questions. Do not retranslate; flagging and
    retranslating is the owner's decision.
 
+Character names and genders are always game-specific: they go in the game's own table and glossary, never the
+LlmKit preset (see "Where a glossary line lives" in `../FanslationStudio.LlmKit/docs/features/translation-pipeline/glossary.md`).
+
 ## 6. Related settings
 
 `Config.yaml` `pronounCheck` has `enabled`, `skipWhenTranslationNamesSomeone` (true quiets a prose game that names

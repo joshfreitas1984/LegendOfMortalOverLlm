@@ -50,7 +50,13 @@ already explain the symptom.
    already-documented, already-fixed, or project-specific quirks (a `CustomQcExclusionRule`, a
    `DEFECT` category left off `autoAcceptDefectCategories` on purpose) rather than new defects.
 
-6. **If the finding is genuinely LlmKit-internal, write it up in LlmKit's own docs, not here.**
+6. **Prefer a prompt or engine cause over a glossary patch, and scope any glossary fix on purpose.** If the
+   root cause really is a missing or wrong term, apply the preset-or-game rubric in
+   `../FanslationStudio.LlmKit/docs/features/translation-pipeline/glossary.md` ("Where a glossary line lives")
+   - or run the `add-glossary-fix` skill - and record which side the line went to and why. A QC fix that
+   lands in the preset has to be proved against every game first.
+
+7. **If the finding is genuinely LlmKit-internal, write it up in LlmKit's own docs, not here.**
    Per `../FanslationStudio.LlmKit/docs/README.md`'s source-of-truth rule, a finding about how
    `QualityControlWorkflow`/`QualityControlHelpers`/packaging actually behaves belongs in
    `../FanslationStudio.LlmKit/docs/` (e.g. extending `features/translation-pipeline/quality-control-pass.md` or
