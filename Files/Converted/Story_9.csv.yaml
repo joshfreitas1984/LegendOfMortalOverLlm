@@ -118,18 +118,14 @@
   - split: 1
     text: "上官家的千金不愧是大家闺秀，乖乖不得了，听上去本领大的很啊。"
     translated: "Shangguan's maiden daughter is indeed a lady of noble bearing; she sounds incredibly capable, doesn't she?"
-    qcReviewedText: "{size=17} Shangguan's maiden daughter is indeed a lady of noble bearing; she sounds incredibly capable, doesn't she?{/size} {size=17} While correcting, it's rare that they are also so good-looking.{/size}"
-    qcTranslated: "{size=17} The Shangguan family's young lady is indeed a paragon of grace; she sounds incredibly capable, doesn't she?{/size} {size=17} Her conversation is truly exceptional, and it's rare to find someone so good-looking as well.{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - UnnaturalPhrasing
+    qcReviewedText: "{size=17} Shangguan's maiden daughter is indeed a lady of noble bearing; she sounds incredibly capable, doesn't she?{/size} {size=17} Their speech is indeed extraordinary, and it's rare to find someone who is this good-looking.{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "谈吐确是不凡，难得生得还这般好看。"
-    translated: "While correcting, it's rare that they are also so good-looking."
+    translated: "Their speech is indeed extraordinary, and it's rare to find someone who is this good-looking."
   templates:
   - split: 1
     template: "⟦size=17⟧{0}⟦/size⟧⟦size=17⟧{1}⟦/size⟧"
@@ -34342,14 +34338,14 @@
   - split: 1
     text: "生死有命，我们行医只能善尽人事，还请节哀。"
     translated: "Life and death are in the hands of fate; all we doctors can do is our best. Please try to accept this with composure."
-    qcReviewedText: "Life and death are in the hands of fate; all we doctors can do is our best. Please try to accept this with composure.(While correcting, kind words to comfort them)"
+    qcReviewedText: "Life and death are in the hands of fate; all we doctors can do is our best. Please try to accept this with composure.(Kind words to persuade and encourage)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "善言相劝"
-    translated: "While correcting, kind words to comfort them"
+    translated: "Kind words to persuade and encourage"
   templates:
   - split: 1
     template: "{0}({1})"

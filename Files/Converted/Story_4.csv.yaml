@@ -10379,18 +10379,14 @@
   - split: 1
     text: "师弟，你可得多照看着点小师妹。"
     translated: "Junior Disciple, you need to keep an eye on Little Junior Sister."
-    qcReviewedText: "{size=17} Junior Disciple, you need to keep an eye on Little Junior Sister.{/size} {size=17} While correcting, I noticed that her silent Inner Qi flows continuously, closely tied to her heart.{/size} {size=17} Don't let your heart run wild; otherwise, it could be harmful to her as well.{/size}"
-    qcTranslated: "{size=17} Junior Disciple, you need to keep an eye on Little Junior Sister.{/size} {size=17} As far as I know, her Heaven and Earth Silent Momentum Inner Qi is always flowing, closely tied to her heart.{/size} {size=17} Don't let your heart run wild; otherwise, it could be harmful to her as well.{/size}"
-    qcStatus: Corrected
-    qcQualityScore: 85
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    qcReviewedText: "{size=17} Junior Disciple, you need to keep an eye on Little Junior Sister.{/size} {size=17} As far as I know, her silent and profound Inner Qi flows continuously, closely tied to her heart.{/size} {size=17} Don't let your heart run wild; otherwise, it could be harmful to her as well.{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "据我所知，她的天地无声势内息是随时都在流转，与心息息相关。"
-    translated: "While correcting, I noticed that her silent Inner Qi flows continuously, closely tied to her heart."
+    translated: "As far as I know, her silent and profound Inner Qi flows continuously, closely tied to her heart."
   - split: 1
     subIndex: 2
     text: "千万别乱了心，否则于她有害亦未可知。"
@@ -25552,15 +25548,15 @@
   splits:
   - split: 1
     text: "阿弥陀佛，贵派大师兄，唐施主的事，还请节哀。小僧为他诵念往生咒，拔一切业障之根本，了断前尘，无忧无怖。"
-    translated: "Amituofo, regarding the matter of Master Tang, your sect's Big Senior Brother, please take comfort. While correcting, this humble monk has been reciting the incantation of transference to help alleviate all karmic obstacles, to put an end to past regrets, free from fear and worry."
-    qcReviewedText: "Amituofo, regarding the matter of Master Tang, your sect's Big Senior Brother, please take comfort. While correcting, this humble monk has been reciting the incantation of transference to help alleviate all karmic obstacles, to put an end to past regrets, free from fear and worry."
-    qcTranslated: "Amituofo, regarding the matter of your sect's Big Senior Brother, Master Tang, please accept my condolences. This humble monk has been reciting the incantation of transference for him to uproot all karmic obstacles, sever past attachments, and bring freedom from worry and fear."
+    translated: "Amituofo, regarding the matter of Master Tang, your senior brother is grieving. I will recite the sutra for him, to eradicate the root of all karmic obstacles, severing past ties without worry or fear."
+    qcReviewedText: "Amituofo, regarding the matter of Master Tang, your senior brother is grieving. I will recite the sutra for him, to eradicate the root of all karmic obstacles, severing past ties without worry or fear."
+    qcTranslated: "Amituofo, regarding the matter of your Big Senior Brother, Benefactor Tang, please accept my condolences. I will recite the Rebirth Sutra for him, to eradicate the root of all karmic obstacles, severing past ties without worry or fear."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: HardToParseSeam
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - HardToParseSeam
-    - UnnaturalPhrasing
+    - MeaningReversal
+    - DroppedContent
 - raw: "Story/D_4_9_2_045,多谢大师。"
   splits:
   - split: 1
@@ -37117,11 +37113,14 @@
   splits:
   - split: 1
     text: "你……区区的"
-    translated: "You... mere... -"
-    qcReviewedText: "You... mere... -──"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "You... mere -"
+    qcReviewedText: "You... mere -──"
+    qcTranslated: "You... mere -"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
   templates:
   - split: 1
     template: "{0}──"

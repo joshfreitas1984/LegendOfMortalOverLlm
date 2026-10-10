@@ -6950,18 +6950,17 @@
   - split: 1
     text: "唐门女弟子《爱之力》"
     translated: "Tang Clan female disciple Power of Love"
-    qcReviewedText: "Tang Clan female disciple Power of Love：While correcting, one must not hesitate or discriminate, 'unconcerned with the nuances of right and wrong.'(Revived 3 times)"
-    qcTranslated: "Tang Clan female disciple Power of Love: The power of love makes the lover rise again after being knocked down, regardless of who is right or wrong. (Revived 3 times)"
+    qcReviewedText: "Tang Clan female disciple Power of Love：The power of love enables one's beloved to keep getting back up no matter how many times they are knocked down, without distinguishing right from wrong.(Revived 3 times)"
+    qcTranslated: "Tang Clan female disciple Power of Love: The power of love allows one's beloved to rise again no matter how many times they are knocked down, regardless of right or wrong. (Revived 3 times)"
     qcStatus: Corrected
     qcQualityScore: 92
-    qcDefectCategory: LostIdiom
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - LostIdiom
     - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "爱的力量，使情郎不分青红皂白，被打倒几次都可以再度站起。"
-    translated: "While correcting, one must not hesitate or discriminate, 'unconcerned with the nuances of right and wrong.'"
+    translated: "The power of love enables one's beloved to keep getting back up no matter how many times they are knocked down, without distinguishing right from wrong."
   - split: 1
     subIndex: 2
     text: "复活3次"
@@ -14912,15 +14911,12 @@
   - split: 1
     text: "机关箧笥"
     translated: "Mechanism box"
-    qcReviewedText: "Mechanism box：Each turn, randomly transform into one of the following forms.\\nMechanism Satchel • Hunting Form State \\nMechanism Box • Saber Form \\nMechanism Chest • Carnage Type \\nWhile correcting, reach Level 2 Jingjie or above to unlock Ultimate moves.：Mechanism Box - Sacred Garment Form"
-    qcTranslated: "Mechanism Casket: Each turn, randomly transform into one of the following forms.\\nMechanism Casket • Hunting Form\\nMechanism Casket • Horse-Slaying Form\\nMechanism Casket • Carnage Form\\nUnlock Ultimate at Level 2 or above: Mechanism Casket • Sacred Garment Form"
+    qcReviewedText: "Mechanism box：Each turn, randomly transform into one of the following forms.\\nMechanism Satchel • Hunting Form State \\nMechanism Box • Saber Form \\nMechanism Chest • Carnage Type \\nUnlock Ultimate when you reach Stage 2 or above.：Mechanism Box - Sacred Garment Form"
+    qcTranslated: "Mechanism Casket: Each turn, randomly transforms into one of the following forms.\\nMechanism Casket • Hunting Form\\nMechanism Casket • Horse-Slaying Form\\nMechanism Casket • Carnage Form\\nUnlock Ultimate when you reach Stage 2 or above: Mechanism Casket • Sacred Garment Form"
     qcStatus: Corrected
     qcQualityScore: 92
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - GarbledNumber
-    - DroppedContent
-    - HardToParseSeam
     - OtherNamedDefect
     - UnnaturalPhrasing
   - split: 1
@@ -14942,7 +14938,7 @@
   - split: 1
     subIndex: 5
     text: "境界二以上解锁绝招"
-    translated: "While correcting, reach Level 2 Jingjie or above to unlock Ultimate moves."
+    translated: "Unlock Ultimate when you reach Stage 2 or above."
   - split: 1
     subIndex: 6
     text: "机关箧笥．圣衣型态"

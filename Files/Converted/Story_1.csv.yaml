@@ -14725,8 +14725,8 @@
   splits:
   - split: 1
     text: "君子报仇，十年未晚－－师弟你既有这般志气，那便依你吧。"
-    translated: "A gentleman takes revenge; ten years is not too late. - Junior disciple, since you have such ambition, then let it be as you wish."
-    qcReviewedText: "A gentleman takes revenge; ten years is not too late. - Junior disciple, since you have such ambition, then let it be as you wish."
+    translated: "A gentleman takes revenge; ten years is not too late - Junior disciple, since you have such ambition, then let it be as you wish."
+    qcReviewedText: "A gentleman takes revenge; ten years is not too late - Junior disciple, since you have such ambition, then let it be as you wish."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16048,14 +16048,11 @@
   splits:
   - split: 1
     text: "大师兄拜入师门最早，武功既高，交际又广，难得的是为人不拘小节。就算对外姓弟子也没摆过半分架子，经常率众偷吃宵夜，或者放歌于山间、醉倒在茅房……惹祸了逃跑的速度也很快……。"
-    translated: "Big Senior Brother was the first to join the sect, with both high martial arts skills and a wide social circle. While correcting, they rarely obsessed over minor etiquette. Even with disciples from other clans, they never put on airs. They often led groups to sneak out for late-night snacks or sang in the mountains, sometimes passing out in the outhouse... and when trouble arose, they were quick to run away."
-    qcReviewedText: "Big Senior Brother was the first to join the sect, with both high martial arts skills and a wide social circle. While correcting, they rarely obsessed over minor etiquette. Even with disciples from other clans, they never put on airs. They often led groups to sneak out for late-night snacks or sang in the mountains, sometimes passing out in the outhouse... and when trouble arose, they were quick to run away."
-    qcTranslated: "Big Senior Brother was the first to join the sect, with both high martial arts skills and a wide social circle. What's rare is that he doesn't fuss over minor etiquette. Even with disciples from other clans, he never put on airs. He often led groups to sneak out for late-night snacks or sang in the mountains, sometimes passing out in the outhouse... and when trouble arose, he was quick to run away."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Big Senior Brother was the first to join the sect and has both high martial skills and a wide social circle. They are flexible and do not adhere to trivial details. Even with disciples from other clans, they never put on airs. They often lead everyone to sneak out for midnight snacks or sing in the mountains, passing out in the outhouse... When trouble arises, they can also run away very quickly..."
+    qcReviewedText: "Big Senior Brother was the first to join the sect and has both high martial skills and a wide social circle. They are flexible and do not adhere to trivial details. Even with disciples from other clans, they never put on airs. They often lead everyone to sneak out for midnight snacks or sing in the mountains, passing out in the outhouse... When trouble arises, they can also run away very quickly..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_1_1_2_016,咦？让这种家伙担任掌门真的好吗？"
   splits:
   - split: 1

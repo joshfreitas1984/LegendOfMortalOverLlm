@@ -33282,8 +33282,8 @@
   splits:
   - split: 1
     text: "大师兄，此毒水是杀虫用的药剂。他们若真有诚意悔过，便由你带队，去给山上药田施洒毒药除虫。撒完药，再入山去找我指定的药草，以劳务抵罪。"
-    translated: "Big Senior Brother, this poison water is a pesticide. If they truly wish to repent, lead them to the mountain to spray the poison and eliminate the pests in the medicinal fields. While correcting, have them search for the herbs I specified in the mountain to atone for their sins through labor."
-    qcReviewedText: "Big Senior Brother, this poison water is a pesticide. If they truly wish to repent, lead them to the mountain to spray the poison and eliminate the pests in the medicinal fields. While correcting, have them search for the herbs I specified in the mountain to atone for their sins through labor."
+    translated: "Big Senior Brother, this poison water is a pesticide. If they truly mean to repent, have them accompany you to spray the pesticide in the medicinal fields on the mountain to get rid of pests. Afterward, they should go into the mountains to find the herbs I specified, using their labor as penance."
+    qcReviewedText: "Big Senior Brother, this poison water is a pesticide. If they truly mean to repent, have them accompany you to spray the pesticide in the medicinal fields on the mountain to get rid of pests. Afterward, they should go into the mountains to find the herbs I specified, using their labor as penance."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36946,15 +36946,14 @@
   splits:
   - split: 1
     text: "很好，不过我得先订几个门规。第一，你须知道你拜的是我"
-    translated: "Fine, but I need to establish a few rules first. While correcting, you need to understand that you're becoming an apprentice to me. While correcting, you need to understand that you're becoming an apprentice to me."
-    qcReviewedText: "Fine, but I need to establish a few rules first. While correcting, you need to understand that you're becoming an apprentice to me. While correcting, you need to understand that you're becoming an apprentice to me.──The female villain known as the Soul Stealer You Lan, not the Soul Stealer Sect. Second, I'm afraid of trouble, so when there are others around, you can't call me Master."
-    qcTranslated: "Fine, but I need to establish a few rules first. First, you must know that you are taking me as your master──the female villain known as the Soul Stealer You Lan, not the Soul Stealer Sect. Second, I'm afraid of trouble, so when there are others around, you can't call me Master."
+    translated: "Alright, but I need to establish a few rules first. First, you must understand that you have become my disciple, which means I am your teacher."
+    qcReviewedText: "Alright, but I need to establish a few rules first. First, you must understand that you have become my disciple, which means I am your teacher.──The female villain known as the Soul Stealer You Lan, not the Soul Stealer Sect. Second, I'm afraid of trouble, so when there are others around, you can't call me Master."
+    qcTranslated: "Alright, but I need to establish a few rules first. First, you must understand that you are taking me as your master──the female villain known as the Soul Stealer You Lan, not the Soul Stealer Sect. Second, I'm afraid of trouble, so when there are others around, you can't call me Master."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - GarbledNumber
-    - DroppedContent
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "被称为夺魄幽兰的女魔头，不是夺魄门。第二，我很怕麻烦事，有旁人时，你不可以叫我师父。"

@@ -1624,15 +1624,11 @@
   splits:
   - split: 1
     text: "四师兄要是人在，一定会守伙房。"
-    translated: "If Fourth Senior Brother were here, they would definitely guard the dormitory. While correcting, they went to the 'canteen' to get some food."
-    qcReviewedText: "If Fourth Senior Brother were here, they would definitely guard the dormitory. While correcting, they went to the 'canteen' to get some food.\\nWhat are these bandits raiding our kitchen for? To spoil our stored food?"
-    qcTranslated: "If Fourth Senior Brother were here, he would definitely guard the kitchen.\\nWhat are these bandits raiding our kitchen for? To spoil our stored food?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - MeaningReversal
+    translated: "If Fourth Senior Brother were here, they would definitely be guarding the kitchen."
+    qcReviewedText: "If Fourth Senior Brother were here, they would definitely be guarding the kitchen.\\nWhat are these bandits raiding our kitchen for? To spoil our stored food?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "匪人奇袭伙房是能干麻？糟蹋我们储粮？"
@@ -1727,14 +1723,11 @@
   splits:
   - split: 1
     text: "或者我还是不淌这滩浑水了，想也知道没有回报。"
-    translated: "While correcting, I know there's no point in getting involved without any guarantee of return."
-    qcReviewedText: "While correcting, I know there's no point in getting involved without any guarantee of return.\\nIt's fine with the Tang Clan whether I'm there or not; if things go badly, no one will regret my life being lost.\\n... Let's just head down the mountain with a lantern, then."
-    qcTranslated: "Or maybe I should just stay out of this murky water; I know there's no reward for it.\\nIt's fine with the Tang Clan whether I'm there or not; if things go badly, no one will regret my life being lost.\\n... Let's just head down the mountain with a lantern, then."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Maybe I should stay out of this mess; I know there's no reward to be had."
+    qcReviewedText: "Maybe I should stay out of this mess; I know there's no reward to be had.\\nIt's fine with the Tang Clan whether I'm there or not; if things go badly, no one will regret my life being lost.\\n... Let's just head down the mountain with a lantern, then."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "唐门有我没我都无所谓，一个不好我连小命都赔掉也没人惋惜。"

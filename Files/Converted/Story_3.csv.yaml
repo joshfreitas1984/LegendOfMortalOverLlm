@@ -32529,14 +32529,11 @@
   splits:
   - split: 1
     text: "然后我就到了应天、开封、河南、河中联合的山贼誓师大会，战他娘亲。"
-    translated: "While correcting, I arrived at the mountain bandit rally organized by the alliance of Ying Tian, Kaifeng, Henan, and Hezhong, where they were shouting, Beat their mother."
-    qcReviewedText: "While correcting, I arrived at the mountain bandit rally organized by the alliance of Ying Tian, Kaifeng, Henan, and Hezhong, where they were shouting, Beat their mother."
-    qcTranslated: "Then I arrived at the mountain bandit rally organized by the alliance of Ying Tian, Kaifeng, Henan, and Hezhong, where they were shouting, Beat their mother."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "After that, I went to the mountain bandit rally in Ying Tian, Kaifeng, Henan, and Hezhong, where they declared, Beat their mother."
+    qcReviewedText: "After that, I went to the mountain bandit rally in Ying Tian, Kaifeng, Henan, and Hezhong, where they declared, Beat their mother."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_4_4_2_Break_031,怎么回事！这也太突然了！"
   splits:
   - split: 1
@@ -32975,15 +32972,11 @@
   splits:
   - split: 1
     text: "差点又着了大师兄的道，好在有你，师弟。"
-    translated: "While correcting, almost fell for Big Senior Brother's tricks again, but thankfully there was you, Junior Brother. Fortunately there was you, Brother Lin."
-    qcReviewedText: "While correcting, almost fell for Big Senior Brother's tricks again, but thankfully there was you, Junior Brother. Fortunately there was you, Brother Lin."
-    qcTranslated: "I almost fell for Big Senior Brother's tricks again, but thankfully there was you, Junior Brother."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
-    - DroppedContent
+    translated: "I almost fell for Big Senior Brother's tricks again, but fortunately you were here, Junior Brother."
+    qcReviewedText: "I almost fell for Big Senior Brother's tricks again, but fortunately you were here, Junior Brother."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_4_4_2_Break_003,我竟拦了他，倘若大师兄不在，小师妹无枝可依，说不定我便有机会……便有机会……。"
   splits:
   - split: 1
@@ -35251,16 +35244,14 @@
   splits:
   - split: 1
     text: "这是冤枉啊，我就是四处问问人家大小娘子"
-    translated: "While correcting, I was just inquiring about the Young Misses and Ladies, but this is an injustice."
-    qcReviewedText: "While correcting, I was just inquiring about the Young Misses and Ladies, but this is an injustice.：How are you enjoying life? What have you been eating lately? What do you like? Want to go out for a walk together? Should I beat up her husband while wearing a mask?──That's just the kind of thing I do; I haven't done anything I feel guilty about."
-    qcTranslated: "This is a grievous injustice! I was merely asking the Young Misses and Ladies around: How are you enjoying life? What have you been eating lately? What do you like? Want to go out for a walk together? Should I beat up her husband while wearing a mask?──That's all; I haven't done anything I feel guilty about."
+    translated: "This is an injustice! I was just asking around about the Young Misses and Ladies."
+    qcReviewedText: "This is an injustice! I was just asking around about the Young Misses and Ladies.：How are you enjoying life? What have you been eating lately? What do you like? Want to go out for a walk together? Should I beat up her husband while wearing a mask?──That's just the kind of thing I do; I haven't done anything I feel guilty about."
+    qcTranslated: "This is an injustice! I was just asking around the Young Misses and Ladies: How are you enjoying life? What have you been eating lately? What do you like? Want to go out for a walk together? Should I beat up her husband while wearing a mask?──That's just the kind of thing I do; I haven't done anything I feel guilty about."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - MeaningReversal
-    - HardToParseSeam
-    - UnnaturalPhrasing
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "生活惬不惬意？最近吃啥、喜欢什么？要不要一块出门走走？需不需要我蒙面打她老公？"

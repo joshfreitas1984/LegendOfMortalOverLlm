@@ -51,15 +51,15 @@
   splits:
   - split: 1
     text: "根据图谱改良的新型武器，"
-    translated: "While correcting, they based the new type of weapon on the diagram."
-    qcReviewedText: "While correcting, they based the new type of weapon on the diagram.\\nAbandon the steel ball design and forge the blade to be extremely thin.\\nDuring peacetime, during battles, they use the techniques of a soft whip.\\nBy surprise, this is also a hidden weapon."
-    qcTranslated: "Based on the diagram, they improved the new type of weapon.\\nThey abandoned the steel ball design and forged the blade to be extremely thin.\\nNormally it is stored away, but in battle it is deployed using soft whip techniques.\\nBy catching the enemy off guard, this also counts as a Hidden Weapon."
+    translated: "While creating a new type of weapon based on the diagram,"
+    qcReviewedText: "While creating a new type of weapon based on the diagram,\\nAbandon the steel ball design and forge the blade to be extremely thin.\\nDuring peacetime, during battles, they use the techniques of a soft whip.\\nBy surprise, this is also a hidden weapon."
+    qcTranslated: "A new type of weapon improved based on the diagram,\\nAbandoning the steel ball design and forging the blade to be extremely thin.\\nNormally it is stored away, but in battle it is deployed using soft whip techniques,\\ntaking the enemy by surprise. This is also a Hidden Weapon."
     qcStatus: Corrected
     qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - MeaningReversal
     - UnnaturalPhrasing
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "取消钢球设计，将刃身打造得极薄，"
@@ -393,15 +393,11 @@
   splits:
   - split: 1
     text: "打造得极为扁薄的银梭，"
-    translated: "While correcting, they found a very flat and thin silver shuttle."
-    qcReviewedText: "While correcting, they found a very flat and thin silver shuttle.\\nThe flying shuttles crafted by the Tang Clan are particularly small.\\nNot aiming for destructive power, but rather poisoning the weapon.\\nThe threat is no less formidable than a sharp blade."
-    qcTranslated: "The silver shuttle is forged to be extremely flat and thin.\\nThe flying shuttles crafted by the Tang Clan are particularly small,\\nnot aiming for destructive power, but rather being tempered with Poison,\\nwith a threat no less formidable than a sharp blade."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - UnnaturalPhrasing
+    translated: "A very thin and flat silver dart,"
+    qcReviewedText: "A very thin and flat silver dart,\\nThe flying shuttles crafted by the Tang Clan are particularly small.\\nNot aiming for destructive power, but rather poisoning the weapon.\\nThe threat is no less formidable than a sharp blade."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "唐门打造的飞梭尤其细小，"
@@ -1102,16 +1098,13 @@
   - split: 1
     text: "往制服内里缝进铜镜，"
     translated: "Sew a copper mirror inside the uniform"
-    qcReviewedText: "Sew a copper mirror inside the uniform \\nProtect the vital point of the heart; it has become even more serious.\\nWhile correcting, the effectiveness of the protection also increased significantly. While protecting, they said, 'Be careful.' While enhancing the effectiveness of the protection, the character also discovered a hidden path."
-    qcTranslated: "Sew a copper mirror inside the uniform \\nProtect the Vital Point of the heart; it has become even heavier.\\nAt the same time, the effectiveness of the protection also increased significantly."
+    qcReviewedText: "Sew a copper mirror inside the uniform \\nProtect the vital point of the heart; it has become even more serious.\\nAt the same time, the protective effects have greatly increased."
+    qcTranslated: "Sew a copper mirror inside the uniform \\nProtect the Vital Point of the heart; it has become even heavier.\\nAt the same time, the protective effects have greatly increased."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - GarbledNumber
-    - DroppedContent
     - MeaningReversal
-    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "保护心脏要害，进一步变重了，"
@@ -1119,7 +1112,7 @@
   - split: 1
     subIndex: 2
     text: "与此同时，防护的效果也大幅上升了。"
-    translated: "While correcting, the effectiveness of the protection also increased significantly. While protecting, they said, 'Be careful.' While enhancing the effectiveness of the protection, the character also discovered a hidden path."
+    translated: "At the same time, the protective effects have greatly increased."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"

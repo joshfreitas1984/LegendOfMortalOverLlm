@@ -45,14 +45,10 @@
   - split: 1
     text: "唐门弟子人手一本的武功秘籍，"
     translated: "The martial arts manual that every Tang Clan disciple has,"
-    qcReviewedText: "The martial arts manual that every Tang Clan disciple has,\\nOne of the two treasures, on par with the Poison Scripture.\\nWhile correcting, they found that without a teacher to impart the secret and teach the techniques for channeling energy, they were at a loss.\\nProgressing solely through self-study is extremely difficult \\nYou have read On Forgetfulness so thoroughly that you know it by heart."
-    qcTranslated: "The martial arts manual that every Tang Clan disciple has,\\nOne of the two treasures, on par with the Poison Scripture.\\nWithout a master to impart the secret formula and teach the techniques for channeling energy,\\nprogressing solely through self-study is extremely difficult.\\nThe opening chapter, On Forgetfulness, you have read so thoroughly that you know it by heart."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - DroppedContent
+    qcReviewedText: "The martial arts manual that every Tang Clan disciple has,\\nOne of the two treasures, on par with the Poison Scripture.\\nWithout a teacher to impart the heart method and techniques for channeling energy,\\nProgressing solely through self-study is extremely difficult \\nYou have read On Forgetfulness so thoroughly that you know it by heart."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "与《毒经》并列二宝。"
@@ -60,7 +56,7 @@
   - split: 1
     subIndex: 2
     text: "若无师长传授心诀、运劲手法，"
-    translated: "While correcting, they found that without a teacher to impart the secret and teach the techniques for channeling energy, they were at a loss."
+    translated: "Without a teacher to impart the heart method and techniques for channeling energy,"
   - split: 1
     subIndex: 3
     text: "仅靠自学极难寸进。"
@@ -482,14 +478,11 @@
   splits:
   - split: 1
     text: "泥教六道法王，「判官」赵逵的成名绝招。形似起乩的招数匪夷所思，施展开来阴风阵阵、鬼气森森。虽是剑谱，也有符咒等异术的记载，非常诡异。"
-    translated: "The Mud Cult's Six Paths Dharma King, Judge Zhao Kui's renowned ultimate technique. This move, resembling spirit medium possession, is unimaginable. While correcting, it conjures swirling cold winds and a chilling ghostly atmosphere. Though it is a sword manual, it also contains records of talismans and other strange arts, making it very eerie."
-    qcReviewedText: "The Mud Cult's Six Paths Dharma King, Judge Zhao Kui's renowned ultimate technique. This move, resembling spirit medium possession, is unimaginable. While correcting, it conjures swirling cold winds and a chilling ghostly atmosphere. Though it is a sword manual, it also contains records of talismans and other strange arts, making it very eerie.\\nTrue virtue and evil cannot be judged by appearance; it all lies in one's heart! As long as I have a righteous spirit within me, why should I fear the idle talk of others? Without even showing anger, I exude an aura that strikes fear, like Zhong Kui reincarnated, wielding a three-foot-long celestial sword, vowing to vanquish all demons and monsters."
-    qcTranslated: "The Mud Cult's Six Paths Dharma King, Judge Zhao Kui's renowned Ultimate technique. This move, resembling spirit medium possession, is unimaginable. When unleashed, it conjures swirling cold winds and a chilling ghostly atmosphere. Though it is a sword manual, it also contains records of talismans and other strange arts, making it very eerie.\\nTrue virtue and evil cannot be judged by appearance; it all lies in one's heart! As long as I have a righteous spirit within me, why should I fear the idle talk of others? Without even showing anger, I exude an aura that strikes fear, like Zhong Kui reincarnated, wielding a three-foot-long celestial Sword, vowing to vanquish all demons and monsters."
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "The Six Paths Dharma King of the Mud Cult, Judge Zhao Kui's signature ultimate move. This technique, which resembles spirit medium possession, is unimaginably bizarre; when executed, it brings forth chilling winds and an eerie presence of ghosts. Although it is a sword manual, it also includes records of talismans and other esoteric arts, making it extremely mysterious and strange."
+    qcReviewedText: "The Six Paths Dharma King of the Mud Cult, Judge Zhao Kui's signature ultimate move. This technique, which resembles spirit medium possession, is unimaginably bizarre; when executed, it brings forth chilling winds and an eerie presence of ghosts. Although it is a sword manual, it also includes records of talismans and other esoteric arts, making it extremely mysterious and strange.\\nTrue virtue and evil cannot be judged by appearance; it all lies in one's heart! As long as I have a righteous spirit within me, why should I fear the idle talk of others? Without even showing anger, I exude an aura that strikes fear, like Zhong Kui reincarnated, wielding a three-foot-long celestial sword, vowing to vanquish all demons and monsters."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "其实正邪焉能貌相，存乎一心而矣！我自一口正气足，何忧世人悠悠之口，不怒自威，宛如钟馗再世，手提三尺天师剑，不斩妖邪誓不休。"
@@ -605,17 +598,14 @@
   - split: 1
     text: "叶云裳擅自涂改点苍剑谱所创的棒法。"
     translated: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual."
-    qcReviewedText: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual.\\nIt lacks offensive power, but it completes the shortcomings of the Diancang Sword Technique, catching opponents off guard where they least expect it. While correcting, it's a clever move in terms of strategy changes, though it's a bit underhanded; most people wouldn't do something like this."
-    qcTranslated: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual.\\nIt lacks offensive power, but it completes the shortcomings of the Diancang Sword Technique, catching opponents off guard where they least expect it. In terms of move variations, it is a clever move, though it's a bit underhanded; most people wouldn't do something like this."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
+    qcReviewedText: "Ye Yunshang created a staff technique by secretly modifying the Diancang Sword Manual.\\nIt has no killing power to speak of, but it completes the shortcomings of the Diancang Sword Technique that were less than satisfactory. It catches opponents off guard and, in terms of tactical variations, it can be considered a clever move, though it is rather underhanded-something most people wouldn't do."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "没有杀伤力可言，但是补完了点苍剑法中不尽人意的缺憾之处，料敌所不料，单论招数变化，不失为妙着，就是卑鄙了一点，正常人不会这样。"
-    translated: "It lacks offensive power, but it completes the shortcomings of the Diancang Sword Technique, catching opponents off guard where they least expect it. While correcting, it's a clever move in terms of strategy changes, though it's a bit underhanded; most people wouldn't do something like this."
+    translated: "It has no killing power to speak of, but it completes the shortcomings of the Diancang Sword Technique that were less than satisfactory. It catches opponents off guard and, in terms of tactical variations, it can be considered a clever move, though it is rather underhanded-something most people wouldn't do."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -836,16 +826,14 @@
   splits:
   - split: 1
     text: "苗疆五毒教中的用毒法门，与唐门毒经可谓各擅胜场，药理亦不相同。"
-    translated: "While correcting, it is noted that the poison techniques of the Wusheng Five Poison Sect are on par with those of the Tang Clan's Poison Scriptures, each excelling in their own right, and their pharmacology also differs."
-    qcReviewedText: "While correcting, it is noted that the poison techniques of the Wusheng Five Poison Sect are on par with those of the Tang Clan's Poison Scriptures, each excelling in their own right, and their pharmacology also differs.\\nBy analogy, one can find their own path."
-    qcTranslated: "The poison techniques of the Wusheng Five Poison Sect are on par with those of the Tang Clan's Poison Scriptures, each excelling in their own right, and their pharmacology also differs.\\nStones from other mountains can be used to polish jade."
+    translated: "The venomous techniques of the Wusheng Five Poison Sect are equally matched with the Tang Clan's Toxic Scriptures, though their pharmacological principles differ."
+    qcReviewedText: "The venomous techniques of the Wusheng Five Poison Sect are equally matched with the Tang Clan's Toxic Scriptures, though their pharmacological principles differ.\\nBy analogy, one can find their own path."
+    qcTranslated: "The venomous techniques of the Wusheng Five Poison Sect are equally matched with the Tang Clan's Toxic Scriptures, though their pharmacological principles differ.\\nA stone from another mountain can serve to grind a blade."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
     qcDefectCategories:
-    - MeaningReversal
     - LostIdiom
-    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "它山之石，可以为错。"
@@ -1003,15 +991,14 @@
   - split: 1
     text: "一本古老的指谱，由梵文写成，深藏于藏经阁之下，若非地震，恐怕永世不见天日。"
     translated: "An ancient score, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever."
-    qcReviewedText: "An ancient score, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever.\\nThis refers to a Buddhist numerical concept meaning too numerous to count.\\nWhile correcting, one must ponder the Zen principle of neither birth nor death, enduring countless kalpas with one's physical body, in order to ultimately realize the great truth."
-    qcTranslated: "An ancient finger chart, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever.\\nNarayana is a Buddhist numerical concept meaning too numerous to count.\\nKalpa is the general term for time in India; after passing through formation, abiding, destruction, and emptiness, one great kalpa is completed. Therefore, to practice this technique, one must ponder the Zen principle of neither birth nor death, enduring countless kalpas with one's physical body, in order to ultimately realize the great truth."
+    qcReviewedText: "An ancient score, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever.\\nThis refers to a Buddhist numerical concept meaning too numerous to count.\\nA jie is a period of calamity or transformation in Wuxia lore, often referred to as a great cycle in the context of time. After experiencing the stages of formation, existence, destruction, and void, it completes one such cycle. To undertake this practice, one must contemplate Zen mysteries, neither born nor destroyed, enduring countless lifetimes through their physical form until they finally attain enlightenment."
+    qcTranslated: "An ancient finger technique manual, written in Sanskrit, was buried deep beneath the scripture repository. Were it not for an earthquake, it might have remained hidden forever.\\nNarayana is a Buddhist numerical concept meaning too numerous to count.\\nKalpa is the general term for time in India; after undergoing the stages of formation, existence, destruction, and void, one great kalpa is completed. Therefore, to practice this technique, one must contemplate Zen mysteries, neither born nor destroyed, enduring countless kalpas through the physical form before finally attaining the Great Way."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UntranslatedPinyin
+    qcQualityScore: 92
+    qcDefectCategory: DomainTerm
     qcDefectCategories:
-    - UntranslatedPinyin
-    - OtherNamedDefect
+    - DomainTerm
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "那由他是为佛教数字概念，意为「多不胜数」。"
@@ -1019,7 +1006,7 @@
   - split: 1
     subIndex: 2
     text: "劫则是天竺的时间通称，历经成、住、坏、空之后，即为一大劫，故行此功须参悟禅机，不生不灭，以色身历劫无尽，方始证悟大道。"
-    translated: "While correcting, one must ponder the Zen principle of neither birth nor death, enduring countless kalpas with one's physical body, in order to ultimately realize the great truth."
+    translated: "A jie is a period of calamity or transformation in Wuxia lore, often referred to as a great cycle in the context of time. After experiencing the stages of formation, existence, destruction, and void, it completes one such cycle. To undertake this practice, one must contemplate Zen mysteries, neither born nor destroyed, enduring countless lifetimes through their physical form until they finally attain enlightenment."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1431,15 +1418,14 @@
   - split: 1
     text: "江湖第一美人夺魄幽兰的成名绝技。"
     translated: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan."
-    qcReviewedText: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan.\\nCombining the secret ambush techniques of the Soul Stealer sect with the Snow Mountain Sect's Neigong, they move with the agility of a ghost, capable of stealing souls.\\nWhile correcting, they realized that crushing the heart, corroding the bones, seducing the soul, and stealing the spirit, each move more ruthless than the last, extremely poisonous, and learning them probably will harm the harmony of heaven. During the battle, they activated the Soul Stealer technique to gain an advantage."
-    qcTranslated: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan.\\nCombining the secret ambush techniques of the Soul Stealer sect with the Snow Mountain Sect's Neigong, they move with the agility of a ghost, capable of stealing souls.\\nThe four forms-Crushing the Heart, Corroding the Bones, Seducing the Soul, and Stealing the Spirit-are each more ruthless than the last, extremely Poisonous, and learning them probably will harm the harmony of heaven."
+    qcReviewedText: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan.\\nCombining the secret ambush techniques of the Soul Stealer sect with the Snow Mountain Sect's Neigong, they move with the agility of a ghost, capable of stealing souls.\\nCrush the heart, corrode the bones, steal the soul, and dissolve the spirit-four deadly techniques, each more ruthless than the last, extremely vicious. Practicing them may harm the natural order of heaven and earth."
+    qcTranslated: "The famous ultimate skill of the most beautiful woman in the Jianghu, the Soul Stealer You Lan.\\nCombining the secret ambush techniques of the Soul Stealer sect with the Snow Mountain Sect's Neigong, her Agility is like a ghost, capable of stealing souls.\\nThe four forms-Crush the Heart, Corrode the Bones, Dissolve the Spirit, and Steal the Soul-are each more ruthless than the last, extremely vicious. Practicing them may harm the natural order of heaven and earth."
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - GarbledNumber
     - DroppedContent
-    - OtherNamedDefect
+    - UnnaturalPhrasing
   - split: 1
     subIndex: 1
     text: "揉合夺魄门暗袭之术与雪山派内功，身法如鬼魅，能勾人魂魄。"
@@ -1447,7 +1433,7 @@
   - split: 1
     subIndex: 2
     text: "摧心、蚀骨、销魂、夺魄四式，一招狠似一招，极其毒辣，习之恐怕有伤天和。"
-    translated: "While correcting, they realized that crushing the heart, corroding the bones, seducing the soul, and stealing the spirit, each move more ruthless than the last, extremely poisonous, and learning them probably will harm the harmony of heaven. During the battle, they activated the Soul Stealer technique to gain an advantage."
+    translated: "Crush the heart, corrode the bones, steal the soul, and dissolve the spirit-four deadly techniques, each more ruthless than the last, extremely vicious. Practicing them may harm the natural order of heaven and earth."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1540,17 +1526,15 @@
   splits:
   - split: 1
     text: "与夺魄《镇魂功》、铁拳《伤拳》、玄功《铁琵琶功》同出《南岳真经》的飞天门失传神通。"
-    translated: "While correcting, they found a lost Divine Skill from the South Peak True Scripture, along with the Soul Stealer Spirit Soul Technique, Iron Fist Injury Fist, and Mystic Skill Iron Lute Technique."
-    qcReviewedText: "While correcting, they found a lost Divine Skill from the South Peak True Scripture, along with the Soul Stealer Spirit Soul Technique, Iron Fist Injury Fist, and Mystic Skill Iron Lute Technique.\\nFlying Heaven Kick and the original form of the Mystic Crane's Shadow Step.\\nA master can stand on just one toe without needing to bend their knee or exert physical force; they simply use their Inner Power to glide and move swiftly. When they kick, the strength flows from their body through their leg and down to their foot and toe. They can concentrate immense power into a single point, as hard or soft as they intend. The hardness can pierce through a golden bell of invincibility, while the softness can seal an opponent's acupoints with just the force of a toe."
-    qcTranslated: "The Soul Stealer Spirit Soul Technique, Iron Fist Injury Fist, and Mystic Skill Iron Lute Technique are lost Divine Skills from the South Peak True Scripture, sharing the same origin as the Flying Heaven Kick.\\nThe original form of the Flying Heaven Kick and the Mystic Crane's Shadow Step.\\nA master can stand on just one toe without needing to bend their knee or exert physical force; they simply use their Inner Power to glide and move swiftly. When they kick, the strength flows from their body through their leg and down to their foot and toe. They can concentrate immense power into a single point, as Hard or Soft as they intend. The Hardness can pierce through a golden bell of invincibility, while the Softness can seal an opponent's acupoints with just the force of a toe."
+    translated: "A lost technique from the Flying Heaven Sect, which also appears in the Nan Yue True Scripture alongside 'Soul Stealer', 'Iron Fist', and 'Mystic Skill'."
+    qcReviewedText: "A lost technique from the Flying Heaven Sect, which also appears in the Nan Yue True Scripture alongside 'Soul Stealer', 'Iron Fist', and 'Mystic Skill'.\\nFlying Heaven Kick and the original form of the Mystic Crane's Shadow Step.\\nA master can stand on just one toe without needing to bend their knee or exert physical force; they simply use their Inner Power to glide and move swiftly. When they kick, the strength flows from their body through their leg and down to their foot and toe. They can concentrate immense power into a single point, as hard or soft as they intend. The hardness can pierce through a golden bell of invincibility, while the softness can seal an opponent's acupoints with just the force of a toe."
+    qcTranslated: "A lost technique from the Flying Heaven Sect, which also appears in the Nan Yue True Scripture alongside 'Soul Stealer' Zhen Hun Gong, 'Iron Fist' Shang Quan, and 'Mystic Skill' Tie Pi Ba Gong.\\nFlying Heaven Kick and the original form of the Mystic Crane's Shadow Step.\\nA master can stand on just one toe without needing to bend their knee or exert physical force; they simply use their Inner Power to glide and move swiftly. When they kick, the strength flows from their body through their leg and down to their foot and toe. They can concentrate immense power into a single point, as hard or soft as they intend. The hardness can pierce through a golden bell of invincibility, while the softness can seal an opponent's acupoints with just the force of a toe."
     qcStatus: Corrected
     flaggedForQcReview: true
-    qcQualityScore: 35
-    qcDefectCategory: DroppedContent
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - DroppedContent
-    - HardToParseSeam
-    - MeaningReversal
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "飞天脚、仙鹤迷踪步的原始之型。"
@@ -1666,14 +1650,10 @@
   - split: 1
     text: "全真教为了推广教义，开民智，而刻意外传的养气内功。"
     translated: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people."
-    qcReviewedText: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people.\\nThey simplified the sword techniques, mixed them with the Way of Nourishing Life, and recompiled them using plain, simple language. This makes them easy to understand, allowing beginners to gain some insight into the principles of Daoism and prolong their lifespan.\\nWhile correcting, everyone practices it, making it a national health exercise, or as it is known in Chinese, 'Kang Fu Jian Kang Cao'. But relying on it to defeat enemies might not be feasible."
-    qcTranslated: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people.\\nThey simplified the sword techniques, mixed them with the Way of Nourishing Life, and recompiled them using plain, simple language. This makes them easy to understand, allowing beginners to gain some insight into the principles of Daoism and prolong their lifespan.\\nEvery villager has a copy, and everyone can practice it, making it a national health exercise. But relying on it to defeat enemies might not be feasible."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - OtherNamedDefect
+    qcReviewedText: "The Quanzhen sect deliberately disseminated breathing exercises and Neigong to promote their teachings and enlighten the people.\\nThey simplified the sword techniques, mixed them with the Way of Nourishing Life, and recompiled them using plain, simple language. This makes them easy to understand, allowing beginners to gain some insight into the principles of Daoism and prolong their lifespan.\\nEvery villager has a copy, and everyone practices it, making it a national health exercise. But if you want to rely on it to defeat your enemies, that might not be possible."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "将剑诀删减，杂以养命之道，以浅白口语重新编译过，浅显易懂，可以初窥道学，延年益命。"
@@ -1681,7 +1661,7 @@
   - split: 1
     subIndex: 2
     text: "乡亲父老人手一本，人人有功练，堪称国民健康操，但想要以此克敌制胜，恐怕是行不通的。"
-    translated: "While correcting, everyone practices it, making it a national health exercise, or as it is known in Chinese, 'Kang Fu Jian Kang Cao'. But relying on it to defeat enemies might not be feasible."
+    translated: "Every villager has a copy, and everyone practices it, making it a national health exercise. But if you want to rely on it to defeat your enemies, that might not be possible."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2559,17 +2539,14 @@
   - split: 1
     text: "药王孙思邈所著，验方经方俱备的医学巨著。"
     translated: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions."
-    qcReviewedText: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions.\\nWhile correcting, they referred to the zang-fu theory from The Yellow Emperor's Inner Canon and included medical theories, prescriptions, herbal remedies, acupuncture, and the text consists of two hundred and thirty sections with five thousand three hundred prescriptions.\\nOpening with The Honest and Trustworthy Physician, it first discusses medical ethics, advocating for compassion that embraces the world, with a profound impact on future generations."
-    qcTranslated: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions.\\nBased on the zang-fu theory from The Yellow Emperor's Inner Canon, it compiles medical theories, prescriptions, herbal remedies, and acupuncture, totaling two hundred and thirty sections with five thousand three hundred prescriptions.\\nOpening with The Honest and Trustworthy Physician, it first discusses medical ethics, advocating for compassion that embraces the world, with a profound impact on future generations."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcReviewedText: "A monumental medical masterpiece by Sun Simiao, the Sage of Medicine, containing both tested remedies and classic prescriptions.\\nThis book is based on the 'Zang-Fu' theory from The Yellow Emperor's Inner Canon and compiles medical theories, prescriptions, herbal medicine usage, acupuncture, totaling two hundred thirty sections and five thousand three hundred formulas.\\nOpening with The Honest and Trustworthy Physician, it first discusses medical ethics, advocating for compassion that embraces the world, with a profound impact on future generations."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "此书基于《黄帝内经》脏腑学说，搜罗医论、医方、用药、针灸，共有二百三十门，药方五千三百首。"
-    translated: "While correcting, they referred to the zang-fu theory from The Yellow Emperor's Inner Canon and included medical theories, prescriptions, herbal remedies, acupuncture, and the text consists of two hundred and thirty sections with five thousand three hundred prescriptions."
+    translated: "This book is based on the 'Zang-Fu' theory from The Yellow Emperor's Inner Canon and compiles medical theories, prescriptions, herbal medicine usage, acupuncture, totaling two hundred thirty sections and five thousand three hundred formulas."
   - split: 1
     subIndex: 2
     text: "开卷《大医精诚》一文，首论医德，仁怀天下，影响后世深远。"
@@ -2608,16 +2585,15 @@
   splits:
   - split: 1
     text: "唐门祖传医书，当世唯一以毒用药的医书。揉合苗疆、佛家学说，观一碗水有八万四千虫，虫即为毒，亦分五行六合，对应五脏六腑，多则害，少则病，尽则虚，错则狂。"
-    translated: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. While correcting, it integrates the knowledge of the Miao region and Buddhist teachings, observing that a bowl of water contains eighty-four thousand worms, where worms are poison and are categorized by the five elements and six realms, corresponding to the five organs and six fu. Too much is harmful, too little causes illness, none leads to weakness, and imbalance results in madness."
-    qcReviewedText: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. While correcting, it integrates the knowledge of the Miao region and Buddhist teachings, observing that a bowl of water contains eighty-four thousand worms, where worms are poison and are categorized by the five elements and six realms, corresponding to the five organs and six fu. Too much is harmful, too little causes illness, none leads to weakness, and imbalance results in madness.\\nA person is not immune to the Five Poisons; they are merely dormant. Only through the use of medicine can one nurture them, making them harmonious and not contrary, turning the poisons to their advantage, and thus no illnesses can invade them. While defending, they encountered an invasion. The full sentence should be While preventing, they ensure that no illnesses can invade. However, since the task is to translate exactly as written, the character error is retained.)"
-    qcTranslated: "The Tang Clan's ancestral medical text, the only one in the world that uses Poison as medicine. It integrates the knowledge of the Miao region and Buddhist teachings, observing that a bowl of water contains eighty-four thousand worms, where worms are Poison and are categorized by the five elements and six harmonies, corresponding to the five organs and six fu. Too much is harmful, too little causes illness, none leads to weakness, and imbalance results in madness.\\nA person is not immune to the Five Poisons; they are merely dormant. Only through the use of medicine can one nurture them, making them harmonious and not contrary, turning the body's Poison to its advantage, and thus no illnesses can invade."
+    translated: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. It combines the knowledge of the Miao region and Buddhist teachings. Observing a bowl of water reveals eight thousand four hundred worms, which are both poison and categorized by the five elements and six directions, corresponding to the five organs and six fu. Too many cause harm, too few lead to illness, none results in weakness, and imbalance leads to madness."
+    qcReviewedText: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. It combines the knowledge of the Miao region and Buddhist teachings. Observing a bowl of water reveals eight thousand four hundred worms, which are both poison and categorized by the five elements and six directions, corresponding to the five organs and six fu. Too many cause harm, too few lead to illness, none results in weakness, and imbalance leads to madness.\\nA person is not immune to the Five Poisons; they are merely dormant. Only through the use of medicine can one nurture them, making them harmonious and not contrary, turning the poisons to their advantage, and thus no illnesses can invade them. While defending, they encountered an invasion. The full sentence should be While preventing, they ensure that no illnesses can invade. However, since the task is to translate exactly as written, the character error is retained.)"
+    qcTranslated: "The Tang Clan's ancestral medical text, the only one in the world that uses poison as medicine. It combines the knowledge of the Miao region and Buddhist teachings. Observing a bowl of water reveals eighty-four thousand worms, which are both poison and categorized by the five elements and six directions, corresponding to the five organs and six fu. Too many cause harm, too few lead to illness, none results in weakness, and imbalance leads to madness.\\nA person is not immune to the Five Poisons; they are merely dormant. Only through the use of medicine can one nurture them, making them harmonious and not contrary, turning the poisons to their advantage, and thus no illnesses can invade them."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: OtherNamedDefect
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
-    - OtherNamedDefect
-    - UnnaturalPhrasing
-    - DroppedContent
+    - GarbledNumber
   - split: 1
     subIndex: 1
     text: "人非不害于五毒，实乃毒性未发而已，唯得用药养之，使其顺心不逆，躯毒为己用，则百病难侵。"
@@ -2639,14 +2615,10 @@
   - split: 1
     text: "魏菊精选的当代杰出文人词集，节录宋词一百阙，平理若衡，照辞如镜。"
     translated: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level-headed approach, reflecting their meanings like a mirror."
-    qcReviewedText: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level-headed approach, reflecting their meanings like a mirror.\\nWhat is recorded may not all be the work of masters, but it is certainly outstanding.\\nThis book is a handwritten copy by Wei Ju, with delicate and graceful handwriting that resembles a beautiful woman adorning a flower in her hair, or like a phoenix in flight. While correcting, any cultured scholar who sees this book 'ce' would go wild with joy. Yet, it was given solely to you, a person of the Jianghu.\\nShe adhered to her vow, but kept a little bit of selfishness to herself, using the identity Anonymous to secretly include her old writings."
-    qcTranslated: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level-headed approach, reflecting their meanings like a mirror.\\nWhat is recorded may not all be the work of masters, but it is certainly outstanding.\\nThis book is a handwritten copy by Wei Ju, with delicate and graceful handwriting that resembles a beautiful woman adorning a flower in her hair, or like a phoenix in flight. Though the works are melancholic and full of unfulfilled ambition, any cultured scholar who sees this volume would go wild with joy, yet it was given solely to you, a person of the Jianghu.\\nShe adhered to her vow, but kept a little bit of selfishness to herself, using the identity Anonymous to secretly include her old writings."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
-    - DroppedContent
+    qcReviewedText: "Wei Ju's selection of outstanding contemporary literary works, excerpting one hundred ci poems from the Song dynasty, presents them with a balanced and level-headed approach, reflecting their meanings like a mirror.\\nWhat is recorded may not all be the work of masters, but it is certainly outstanding.\\nThis book is a handwritten copy by Wei Ju. The script is delicate and graceful, like a beauty adorning her hair with flowers, or like phoenixes in flight. Despite the author's unfulfilled ambitions, any scholar or connoisseur who sees this volume cannot help but go wild with joy. Yet it was given only to you, a person of the Jianghu.\\nShe adhered to her vow, but kept a little bit of selfishness to herself, using the identity Anonymous to secretly include her old writings."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "所录未必皆是名家手笔，但必为杰作。"
@@ -2654,7 +2626,7 @@
   - split: 1
     subIndex: 2
     text: "此书是魏菊手抄，字迹娟秀，有如美女簪花，又似鸾飘凤泊，郁郁不能得志，但凡文人雅士，见此册无不欣喜若狂，唯独赠了你这江湖中人。"
-    translated: "This book is a handwritten copy by Wei Ju, with delicate and graceful handwriting that resembles a beautiful woman adorning a flower in her hair, or like a phoenix in flight. While correcting, any cultured scholar who sees this book 'ce' would go wild with joy. Yet, it was given solely to you, a person of the Jianghu."
+    translated: "This book is a handwritten copy by Wei Ju. The script is delicate and graceful, like a beauty adorning her hair with flowers, or like phoenixes in flight. Despite the author's unfulfilled ambitions, any scholar or connoisseur who sees this volume cannot help but go wild with joy. Yet it was given only to you, a person of the Jianghu."
   - split: 1
     subIndex: 3
     text: "她谨守誓约，却藏了一点私心，以「佚名」身份，私心收录了自己旧时著作。"
@@ -2675,14 +2647,11 @@
   splits:
   - split: 1
     text: "翰林医官奉太宗皇帝诏令所编纂的医书。"
-    translated: "While correcting, the Dragon Emperor instructed the Imperial Medical Academy officials to compile the medical text."
-    qcReviewedText: "While correcting, the Dragon Emperor instructed the Imperial Medical Academy officials to compile the medical text.\\nThis includes diagnostic methods, prescribing medicine, diseases of the five organs, internal medicine, external medicine, gynecology, pediatrics, dietary therapy, elixirs, topical treatments, and acupuncture.\\nThe original text consists of a hundred volumes, but what you have is merely an outline, because Second Senior Brother thought that the omitted content is common knowledge that you should already be aware of."
-    qcTranslated: "The medical text was compiled by Imperial Medical Academy officials under the decree of Emperor Taizong.\\nThis includes diagnostic methods, prescribing medicine, diseases of the five organs, internal medicine, external medicine, gynecology, pediatrics, dietary therapy, elixirs, topical treatments, and acupuncture.\\nThe original text consists of a hundred volumes, but what you have is merely an outline, because Second Senior Brother thought that the omitted content is common knowledge that you should already be aware of."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The medical text compiled by the Imperial Physician at the Hanlin Academy upon the decree of Emperor Taizong."
+    qcReviewedText: "The medical text compiled by the Imperial Physician at the Hanlin Academy upon the decree of Emperor Taizong.\\nThis includes diagnostic methods, prescribing medicine, diseases of the five organs, internal medicine, external medicine, gynecology, pediatrics, dietary therapy, elixirs, topical treatments, and acupuncture.\\nThe original text consists of a hundred volumes, but what you have is merely an outline, because Second Senior Brother thought that the omitted content is common knowledge that you should already be aware of."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "包括诊法、处方用药、五脏诸病、内、外、妇、儿、服食、丹药、外益、针炙等内容。"
@@ -2761,15 +2730,14 @@
   splits:
   - split: 1
     text: "记载了极乐教镇教三宝之一《九转轮回大法》的秘籍残篇。"
-    translated: "While correcting, they found a fragment of the secret manual containing the 'Nine Transitions of Great Law', one of the three treasures of the Blissful Sect."
-    qcReviewedText: "While correcting, they found a fragment of the secret manual containing the 'Nine Transitions of Great Law', one of the three treasures of the Blissful Sect.\\nThis scroll is only the first half, focusing on the Heart Method, but the methods for circulating energy are not fully explained."
-    qcTranslated: "While correcting, they found a fragment of the secret manual containing the 'Nine Cycles of Reincarnation Great Law', one of the three treasures of the Blissful Sect.\\nThis scroll is only the first half, focusing on the Heart Method, but the methods for circulating energy are not fully explained."
+    translated: "While searching for the 'Nine Transformations Great Law', one of the Blissful Sect's three treasures."
+    qcReviewedText: "While searching for the 'Nine Transformations Great Law', one of the Blissful Sect's three treasures.\\nThis scroll is only the first half, focusing on the Heart Method, but the methods for circulating energy are not fully explained."
+    qcTranslated: "It records a fragment of the manual for the 'Nine Transformations Great Law', one of the Blissful Sect's three treasures.\\nThis scroll is only the first half, focusing on the Heart Method, but the methods for circulating energy are not fully explained."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DroppedContent
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - DroppedContent
-    - DomainTerm
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "此册仅为上半卷，旨在讲述心法，而运功法门并不完全。"

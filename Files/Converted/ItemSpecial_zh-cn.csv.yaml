@@ -1482,8 +1482,8 @@
   splits:
   - split: 1
     text: "记载了特别好吃的叫化鸡秘方，是王二壮拿手绝活。"
-    translated: "While correcting, they found a secret recipe for particularly delicious Beggar's Chicken, which is Wang Erzhuang's signature dish."
-    qcReviewedText: "While correcting, they found a secret recipe for particularly delicious Beggar's Chicken, which is Wang Erzhuang's signature dish.\\nThe culprit behind Long Xiang's lifelong inability to escape chicken legs."
+    translated: "It records a secret recipe for particularly delicious beggar's chicken, which is Wang Erzhuang's signature skill."
+    qcReviewedText: "It records a secret recipe for particularly delicious beggar's chicken, which is Wang Erzhuang's signature skill.\\nThe culprit behind Long Xiang's lifelong inability to escape chicken legs."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1537,14 +1537,10 @@
   - split: 1
     text: "龙渊从极乐教夺来的九泉丹方。"
     translated: "Long Yuan obtained the recipe for the Nine Springs Pill from the Blissful Sect."
-    qcReviewedText: "Long Yuan obtained the recipe for the Nine Springs Pill from the Blissful Sect.\\nIt is said that with each deeper level of the Ninefold Cycle of Rebirth Technique, one faces a major life-and-death trial.\\nThen it will rely on the Nine Springs Pill to bring them back to life, to rebirth and renewal. While correcting, they will rely on the Nine Springs Pill to revive them from the dead and bring about a complete transformation.\\nYou can try making elixirs with it, but you'll be responsible for any consequences of consuming them."
-    qcTranslated: "Long Yuan obtained the recipe for the Nine Springs Pill from the Blissful Sect.\\nIt is said that with each deeper level of the Ninefold Cycle of Rebirth Technique, one faces a major life-and-death trial.\\nAt that time, one must rely on the Nine Springs Pill to revive from the dead and undergo a complete transformation.\\nYou can try making elixirs with it, but you'll be responsible for any consequences of consuming them."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: HardToParseSeam
-    qcDefectCategories:
-    - HardToParseSeam
-    - UnnaturalPhrasing
+    qcReviewedText: "Long Yuan obtained the recipe for the Nine Springs Pill from the Blissful Sect.\\nIt is said that with each deeper level of the Ninefold Cycle of Rebirth Technique, one faces a major life-and-death trial.\\nThen it will rely on the Nine Springs Pill to revive from the dead and undergo a complete transformation.\\nYou can try making elixirs with it, but you'll be responsible for any consequences of consuming them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "相传「九转轮回大法」功力每深一层，就会面临一次生死大关，"
@@ -1552,7 +1548,7 @@
   - split: 1
     subIndex: 2
     text: "届时就得靠这九泉丹由死苏生，脱胎换骨。"
-    translated: "Then it will rely on the Nine Springs Pill to bring them back to life, to rebirth and renewal. While correcting, they will rely on the Nine Springs Pill to revive them from the dead and bring about a complete transformation."
+    translated: "Then it will rely on the Nine Springs Pill to revive from the dead and undergo a complete transformation."
   - split: 1
     subIndex: 3
     text: "你可以拿去炼丹试试，但是吃了后果自行负责。"
