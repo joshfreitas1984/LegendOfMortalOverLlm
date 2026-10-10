@@ -11,10 +11,12 @@ This skill applies it; it does not restate it.
 
 1. **Check it is a glossary problem.** If a prompt, validator or engine cause explains the defect (see
    `investigate-qc-issue`), fix that instead. A glossary patch over an engine bug hides it.
-2. **Decide the scope** with the rubric: proper noun, game stat label, phrase, single character, or a term another
+2. **Decide the scope** with the rubric: proper noun, game stat label, single character, or a term another
    game would translate differently → the **game** glossary (`Files/Glossary/*.yaml`). A generic wuxia term every
    game would translate identically → the **preset** (`FanslationStudio.LlmKit/BaseFiles/ChineseGlossary/`). Phrases
-   and single characters never go in the preset. A phrase for one exact line is a `ManualTranslations.yaml` entry.
+   (idioms, fixed courtesies) may go in the preset if every game would render them the same way, but only with
+   `allowalt` covering the inflections the corpus uses (read the scan's hit rate); single characters never do. A phrase
+   for one exact line is a `ManualTranslations.yaml` entry.
 3. **Write a game line** under `Files/Glossary/`: stable `raw`, explicit `rawSimplified`/`rawTraditional` where
    conversion could be wrong, `allowalt` only for genuinely accepted renderings, `only:` when the raw sits inside names
    or idioms. If it overrides a preset result, add a comment saying why.
