@@ -967,8 +967,8 @@
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，因为不太熟练，所以削得像狗啃，惨不忍睹。"
-    translated: "The wooden sword that Ye Yunzhao carved at the request of the children from the outer fortress was poorly done, resembling something chewed by a dog, and was a sight to behold."
-    qcReviewedText: "The wooden sword that Ye Yunzhao carved at the request of the children from the outer fortress was poorly done, resembling something chewed by a dog, and was a sight to behold."
+    translated: "The wooden Sword that Ye Yunzhou carved at the request of the children from the outer fortress was poorly made due to his lack of skill, looking as if it had been gnawed by a dog and was utterly pitiful."
+    qcReviewedText: "The wooden Sword that Ye Yunzhou carved at the request of the children from the outer fortress was poorly made due to his lack of skill, looking as if it had been gnawed by a dog and was utterly pitiful."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -985,14 +985,11 @@
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，削得多了自然掌握诀窍，因此变得熟练了一点，可以削出笔直的剑形了。"
-    translated: "At the request of the children from the outer fortress, Ye Yunzhao carved wooden swords. With practice, they naturally grasped the technique and became a bit more skilled, able to carve straight sword shapes."
-    qcReviewedText: "At the request of the children from the outer fortress, Ye Yunzhao carved wooden swords. With practice, they naturally grasped the technique and became a bit more skilled, able to carve straight sword shapes."
-    qcTranslated: "At the request of the children from the outer fortress, Ye Yunzhao carved wooden swords. With practice, he naturally grasped the technique and became a bit more skilled, able to carve straight sword shapes."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Ye Yunzhou, after carving wooden swords for the children at the outer fortress as requested, became more skilled through practice and was able to carve straight sword shapes."
+    qcReviewedText: "Ye Yunzhou, after carving wooden swords for the children at the outer fortress as requested, became more skilled through practice and was able to carve straight sword shapes."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Misc/Name/7102,听云木剑"
   splits:
   - split: 1
@@ -1009,11 +1006,14 @@
   splits:
   - split: 1
     text: "叶云舟应外堡孩童要求所削的木剑，最近削出心得来了。"
-    translated: "Ye Yunzhao has recently gained new insights into the wooden Swords they carved at the request of the children from the outer fortress."
-    qcReviewedText: "Ye Yunzhao has recently gained new insights into the wooden Swords they carved at the request of the children from the outer fortress.\\nNot only did they learn to use tools, but they also took the time to carve flowers, crafting it into the shape of a Listening to the Clouds Sword."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Ye Yunzhou has recently gained new insights into the wooden swords he carves for the children in the outer fortress."
+    qcReviewedText: "Ye Yunzhou has recently gained new insights into the wooden swords he carves for the children in the outer fortress.\\nNot only did they learn to use tools, but they also took the time to carve flowers, crafting it into the shape of a Listening to the Clouds Sword."
+    qcTranslated: "Ye Yunzhou has recently gained new insights into the wooden swords he carves for the children in the outer fortress.\\nNot only did he learn to use tools, but he also took the time to carve flowers, crafting it into the shape of a Listening to the Clouds Sword."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "不仅学会用工具，还有闲心雕花，做成了听云剑的造型。"

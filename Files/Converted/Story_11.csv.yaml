@@ -1453,15 +1453,11 @@
   splits:
   - split: 1
     text: "唐三侠！那申屠龙乃为万恶罪魁，亦是我亲眼所见！可以作证！"
-    translated: "Three Heroes of Tang! That Shentu Long is the prime evil culprit, and I saw him with my own eyes! He can be a witness!"
-    qcReviewedText: "Three Heroes of Tang! That Shentu Long is the prime evil culprit, and I saw him with my own eyes! He can be a witness!"
-    qcTranslated: "Third Hero Tang! That Shentu Long is the prime evil culprit, and I saw him with my own eyes! I can be a witness!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - MeaningReversal
+    translated: "Third Hero! Shentu Long is the root of all evil; I saw it with my own eyes! I can testify to that!"
+    qcReviewedText: "Third Hero! Shentu Long is the root of all evil; I saw it with my own eyes! I can testify to that!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_7_5_3_1_151,连龙女侠也这么说，那想必确有其事。"
   splits:
   - split: 1
@@ -14335,8 +14331,8 @@
   splits:
   - split: 1
     text: "自称风雨山一役与地狱道法王对掌负伤，力不从心，即将闭关养伤。不能亲率门人参战，唯恐有负武林盟主期望。话虽如此，亦不禁青城弟子下山，凭自身所见所闻决事。"
-    translated: "Claiming to have been injured in a confrontation with the Dharma King of Hell's Path during the battle at Fengyu Mountain, they felt their strength was inadequate and would soon retire to meditate for recovery. Though they could not personally lead their disciples into battle, fearing disappointment of the Wulin Alliance Leader, they did not forbid the Qingcheng disciples from descending the mountain to decide matters based on their own observations."
-    qcReviewedText: "Claiming to have been injured in a confrontation with the Dharma King of Hell's Path during the battle at Fengyu Mountain, they felt their strength was inadequate and would soon retire to meditate for recovery. Though they could not personally lead their disciples into battle, fearing disappointment of the Wulin Alliance Leader, they did not forbid the Qingcheng disciples from descending the mountain to decide matters based on their own observations."
+    translated: "I claim that I was injured in the battle at Fengyu Mountain against the Dharma King of the Hell Path and am now too weak to lead. Unable to personally command my disciples into battle, I fear I will disappoint the expectations of the Alliance Leader. That said, I do not forbid Qingcheng disciples from going down the mountain and making decisions based on what they see and hear for themselves."
+    qcReviewedText: "I claim that I was injured in the battle at Fengyu Mountain against the Dharma King of the Hell Path and am now too weak to lead. Unable to personally command my disciples into battle, I fear I will disappoint the expectations of the Alliance Leader. That said, I do not forbid Qingcheng disciples from going down the mountain and making decisions based on what they see and hear for themselves."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14851,8 +14847,8 @@
   splits:
   - split: 1
     text: "邹掌门说风雨山一役与地狱道法王对掌负伤，即将闭关养伤。又说江湖弥漫暴戾之气，有害他修道人的平和心境，所以不会奉陪两方。"
-    translated: "Master Zou said that in the battle at Fengyu Mountain, he was injured in a confrontation with the Dharma King of Hell's Path and would need to seclude himself for recovery. He also stated that the violent atmosphere in the Jianghu disrupts the peaceful minds of cultivators, so he would not accompany either party."
-    qcReviewedText: "Master Zou said that in the battle at Fengyu Mountain, he was injured in a confrontation with the Dharma King of Hell's Path and would need to seclude himself for recovery. He also stated that the violent atmosphere in the Jianghu disrupts the peaceful minds of cultivators, so he would not accompany either party."
+    translated: "Sect Leader Zou said that they were injured in the battle at Fengyu Mountain against the Dharma King of the Hell Path and will soon enter seclusion to recover. They also mentioned that the Jianghu is filled with violent energy, which harms the peaceful mindset of cultivators, so they won't accompany either side."
+    qcReviewedText: "Sect Leader Zou said that they were injured in the battle at Fengyu Mountain against the Dharma King of the Hell Path and will soon enter seclusion to recover. They also mentioned that the Jianghu is filled with violent energy, which harms the peaceful mindset of cultivators, so they won't accompany either side."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25229,8 +25225,8 @@
   splits:
   - split: 1
     text: "我自己都吃惊得很，就是跟地狱道、饿鬼道打了一场大架，回头就突然被拱作盟主了。"
-    translated: "I was genuinely surprised. After fighting a major battle on the Hell's Path and Hungry Ghost Path, I suddenly found myself elected as the leader."
-    qcReviewedText: "I was genuinely surprised. After fighting a major battle on the Hell's Path and Hungry Ghost Path, I suddenly found myself elected as the leader."
+    translated: "I was surprised myself. I just had a big fight with the Hell Path and the Hungry Ghost Path, and suddenly, I was thrust into the position of Alliance Leader."
+    qcReviewedText: "I was surprised myself. I just had a big fight with the Hell Path and the Hungry Ghost Path, and suddenly, I was thrust into the position of Alliance Leader."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25418,15 +25414,11 @@
   splits:
   - split: 1
     text: "不瞒你说，我艺成要出山的那会儿，其实还挺狂妄的。满拟要先挑战点苍叶云舟，再战你唐门飞侠、峨嵋风神解无尘，靠一身武功闯出名堂来，令孤云山派之名震撼江湖。"
-    translated: "To be frank, when I was about to leave the mountain after mastering my skills, I was actually quite arrogant. I planned to first challenge Ye Yunzhao from Diancang, then face Jie Wuchen of Tang Clan, and Feng Shen of Emei. With my martial arts prowess, I aimed to make a name for myself and shake the reputation of Lonely Cloud Mountain across the Jianghu."
-    qcReviewedText: "To be frank, when I was about to leave the mountain after mastering my skills, I was actually quite arrogant. I planned to first challenge Ye Yunzhao from Diancang, then face Jie Wuchen of Tang Clan, and Feng Shen of Emei. With my martial arts prowess, I aimed to make a name for myself and shake the reputation of Lonely Cloud Mountain across the Jianghu."
-    qcTranslated: "To be frank, when I was about to leave the mountain after mastering my skills, I was actually quite arrogant. I planned to first challenge Ye Yunzhao from Diancang, then face Jie Wuchen of Tang Clan, and Feng Shen of Emei. With my martial arts prowess, I aimed to make a name for myself and shake the Jianghu with the reputation of the Lingyun Mountain sect."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "To be honest with you, when I was about to leave the mountain after completing my training, I was quite arrogant. I planned to first challenge Ye Yunzhou of Diancang, then take on your Tang Clan's Flying Hero and Emei's Wind God Jie Wuchen, relying solely on my martial arts skills to make a name for myself and shake up the Jianghu with the reputation of the Lugu Yunshan Sect."
+    qcReviewedText: "To be honest with you, when I was about to leave the mountain after completing my training, I was quite arrogant. I planned to first challenge Ye Yunzhou of Diancang, then take on your Tang Clan's Flying Hero and Emei's Wind God Jie Wuchen, relying solely on my martial arts skills to make a name for myself and shake up the Jianghu with the reputation of the Lugu Yunshan Sect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0702_01_03_Break_01_023,然后呢？"
   splits:
   - split: 1
@@ -26287,14 +26279,11 @@
   splits:
   - split: 1
     text: "还真顽固。看来想劝你说服唐三侠、解散唐门也是不可能了。"
-    translated: "Truly stubborn. It seems that trying to persuade the Three Heroes of Tang to disband the Tang Clan is also impossible."
-    qcReviewedText: "Truly stubborn. It seems that trying to persuade the Three Heroes of Tang to disband the Tang Clan is also impossible."
-    qcTranslated: "Truly stubborn. It seems that trying to persuade the Third Hero of Tang to disband the Tang Clan is also impossible."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "You're really stubborn. It seems persuading you to convince the Third Hero Tang to disband the Tang Clan is impossible."
+    qcReviewedText: "You're really stubborn. It seems persuading you to convince the Third Hero Tang to disband the Tang Clan is impossible."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0702_01_03_Break_01_104,是啊，你可别说，否则我要翻脸的。"
   splits:
   - split: 1

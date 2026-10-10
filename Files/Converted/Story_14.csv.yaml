@@ -141,17 +141,20 @@
   splits:
   - split: 1
     text: "好比「白虹剑客」徐光辉、「朝阳剑客」盛鸿年、「苍松剑客」叶云舟，掌门观云客年轻时叫「观云剑客」，听海生叫「听海剑客」。以此推类。"
-    translated: "For example, there is 'White Rainbow Swordsman' Xu Guanghui, 'Morning Sun Swordsman' Sheng Hongnian, and 'Cypress Swordsman' Ye Yunzhao. The sect leader Guan Yun Ke was known as 'Guan Yun Swordsman' in their youth, and Ting Haisheng was called 'Ting Hai Swordsman.' Following this pattern."
-    qcReviewedText: "For example, there is 'White Rainbow Swordsman' Xu Guanghui, 'Morning Sun Swordsman' Sheng Hongnian, and 'Cypress Swordsman' Ye Yunzhao. The sect leader Guan Yun Ke was known as 'Guan Yun Swordsman' in their youth, and Ting Haisheng was called 'Ting Hai Swordsman.' Following this pattern."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Just like White Rainbow Swordman Xu Guanghui, Rising Sun Swordman Sheng Hongnian, and Azure Pine Swordman Ye Yunzhou, Sect Leader Guan Yun Ke was known as the Cloud-Gazing Swordman in their youth, and Ting Haisheng was called the Sea-Listening Swordman. By this pattern, we can infer similar names."
+    qcReviewedText: "Just like White Rainbow Swordman Xu Guanghui, Rising Sun Swordman Sheng Hongnian, and Azure Pine Swordman Ye Yunzhou, Sect Leader Guan Yun Ke was known as the Cloud-Gazing Swordman in their youth, and Ting Haisheng was called the Sea-Listening Swordman. By this pattern, we can infer similar names."
+    qcTranslated: "Just like White Rainbow Swordman Xu Guanghui, Rising Sun Swordman Sheng Hongnian, and Azure Pine Swordman Ye Yunzhou, Sect Leader Guan Yun Ke was known as the Cloud-Gazing Swordman in his youth, and Ting Haisheng was called the Sea-Listening Swordman. By this pattern, we can infer similar names."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Story/D_Talk_Brother3_02_02_003,其中叶云舟更是点苍当代的佼佼者，一出道就以快剑震惊武林。人又谦虚，颇受江湖好评，都说他是点苍第一快剑手。"
   splits:
   - split: 1
     text: "其中叶云舟更是点苍当代的佼佼者，一出道就以快剑震惊武林。人又谦虚，颇受江湖好评，都说他是点苍第一快剑手。"
-    translated: "Ye Yunzhao was among the outstanding figures of Diancang in contemporary times. He stunned the Wulin with his swift swordsmanship upon making his debut. Moreover, he was humble and well-received by the Jianghu, with many saying that he was the premier swift swordsman of Diancang."
-    qcReviewedText: "Ye Yunzhao was among the outstanding figures of Diancang in contemporary times. He stunned the Wulin with his swift swordsmanship upon making his debut. Moreover, he was humble and well-received by the Jianghu, with many saying that he was the premier swift swordsman of Diancang."
+    translated: "Ye Yunzhou is a standout figure among the contemporary Diancang Swordsmen. Upon entering Jianghu, they shocked Wulin with their swift sword skills. Humble and well-regarded in the martial arts community, everyone says they are the fastest sword hand in Diancang."
+    qcReviewedText: "Ye Yunzhou is a standout figure among the contemporary Diancang Swordsmen. Upon entering Jianghu, they shocked Wulin with their swift sword skills. Humble and well-regarded in the martial arts community, everyone says they are the fastest sword hand in Diancang."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -459,8 +462,8 @@
   splits:
   - split: 1
     text: "悔恨依然煎熬着赵逵，彷佛被魔教诅咒一般，变得偏执而暴戾。他武功越来越强，面目也变得愈发狰狞，最后他叛出青城，加入了泥教，成为地狱道法王。"
-    translated: "Regret still tormented Zhao Kui as if he were cursed by the Demon Sect, making him obsessive and violent. His martial arts grew ever stronger, his face becoming increasingly fierce. In the end, he rebelled against Qingcheng and joined the Mud Cult, becoming the Dharma King of Hell's Path."
-    qcReviewedText: "Regret still tormented Zhao Kui as if he were cursed by the Demon Sect, making him obsessive and violent. His martial arts grew ever stronger, his face becoming increasingly fierce. In the end, he rebelled against Qingcheng and joined the Mud Cult, becoming the Dharma King of Hell's Path."
+    translated: "Zhao Kui was still tormented by regret, as if cursed by the Demon Sect, becoming obsessive and violent. His martial arts skills grew stronger, and his appearance became increasingly menacing. In the end, he left Qingcheng and joined the Mud Cult, becoming the Dharma King of the Hell Path."
+    qcReviewedText: "Zhao Kui was still tormented by regret, as if cursed by the Demon Sect, becoming obsessive and violent. His martial arts skills grew stronger, and his appearance became increasingly menacing. In the end, he left Qingcheng and joined the Mud Cult, becoming the Dharma King of the Hell Path."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1416,17 +1419,20 @@
   splits:
   - split: 1
     text: "天道法王车轩辕，深居六道峡不出。嵩山达摩院首座觉空大师意欲为民除害，犯险深入虎穴，虽然保住了性命，归来却已面目全非。"
-    translated: "Dharma King Che Xuanxuan of the Heavenly Path, dwells deep in Six Paths Gorge and does not venture forth. Master Ji Kong from the Shaolin Temple on Songshan Mountain intends to rid the people of harm by venturing into peril and penetrating the tiger's lair. Although he managed to preserve his life, upon returning, he is utterly unrecognizable."
-    qcReviewedText: "Dharma King Che Xuanxuan of the Heavenly Path, dwells deep in Six Paths Gorge and does not venture forth. Master Ji Kong from the Shaolin Temple on Songshan Mountain intends to rid the people of harm by venturing into peril and penetrating the tiger's lair. Although he managed to preserve his life, upon returning, he is utterly unrecognizable."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Dharma King Che Xuanyuan of the Heavenly Path resides in the Six Paths Gorge and rarely emerges. Master Juekong, the head of the Shaolin Temple on Songshan Mountain, seeks to rid the people of a menace and ventures into the den of tigers despite the danger. Although he manages to survive, he returns unrecognizable."
+    qcReviewedText: "Dharma King Che Xuanyuan of the Heavenly Path resides in the Six Paths Gorge and rarely emerges. Master Juekong, the head of the Shaolin Temple on Songshan Mountain, seeks to rid the people of a menace and ventures into the den of tigers despite the danger. Although he manages to survive, he returns unrecognizable."
+    qcTranslated: "Dharma King Che Xuanyuan of the Heavenly Path resides deep in the Six Paths Gorge and does not emerge. Master Juekong, the First Seat of the Songshan Bodhi Tree Hall, seeks to rid the people of a menace and ventures into the den of tigers despite the danger. Although he manages to survive, he returns unrecognizable."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Story/D_Talk_Brother3_08_01_004,地狱道常在西蜀神出鬼没，无法无天。法王手下数千鬼卒倾巢出时，有如七月鬼门大开。四处捉人，带回「阴曹」私刑审问。"
   splits:
   - split: 1
     text: "地狱道常在西蜀神出鬼没，无法无天。法王手下数千鬼卒倾巢出时，有如七月鬼门大开。四处捉人，带回「阴曹」私刑审问。"
-    translated: "Hell's Path is commonly found in the Western Shu, operating without law or order. When Dharma King dispatched his thousands of ghostly minions to raid, it was as if the gates of hell had opened in July. They roamed around, capturing people and taking them back for private interrogations in 'the underworld'."
-    qcReviewedText: "Hell's Path is commonly found in the Western Shu, operating without law or order. When Dharma King dispatched his thousands of ghostly minions to raid, it was as if the gates of hell had opened in July. They roamed around, capturing people and taking them back for private interrogations in 'the underworld'."
+    translated: "The Hell Path often roams about Western Shu, defying all laws and order. When the Dharma King mobilizes their thousands of ghost soldiers en masse, it's as if the gates of hell have opened in July. They capture people from all directions and bring them back to Yincao for private interrogation."
+    qcReviewedText: "The Hell Path often roams about Western Shu, defying all laws and order. When the Dharma King mobilizes their thousands of ghost soldiers en masse, it's as if the gates of hell have opened in July. They capture people from all directions and bring them back to Yincao for private interrogation."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5908,8 +5914,8 @@
   splits:
   - split: 1
     text: "赵活，午后你去向三师弟打声招呼。从今日起，把叶云舟的大名正式列入日常庶务的排班表中。"
-    translated: "Zhao Huo, in the afternoon, go and greet the third disciple. From today onwards, formally include Ye Yunzhao's name in the daily routine schedule."
-    qcReviewedText: "Zhao Huo, in the afternoon, go and greet the third disciple. From today onwards, formally include Ye Yunzhao's name in the daily routine schedule."
+    translated: "Zhao Huo, in the afternoon, go and greet Third Junior Brother. From today onwards, officially include Ye Yunzhou's name in the daily roster of duties."
+    qcReviewedText: "Zhao Huo, in the afternoon, go and greet Third Junior Brother. From today onwards, officially include Ye Yunzhou's name in the daily roster of duties."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12388,8 +12394,8 @@
   splits:
   - split: 1
     text: "你们是……地狱道的鬼卒？"
-    translated: "Are you... the Ghost Soldiers of the Hell's Path?"
-    qcReviewedText: "Are you... the Ghost Soldiers of the Hell's Path?"
+    translated: "Are you... Hell Path ghosts?"
+    qcReviewedText: "Are you... Hell Path ghosts?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12603,8 +12609,8 @@
   splits:
   - split: 1
     text: "饿鬼道、地狱道？那么说来，那两个袒胸露背的便是地狱道鬼卒了。怎么泥教的人会集结在唐门地界？"
-    translated: "Hungry Ghost Path, Hell's Path? So those two bare-chested and bare-backed ones are the Hell's Path ghosts. How come members of the Mud Cult would gather in the Tang Clan's territory?"
-    qcReviewedText: "Hungry Ghost Path, Hell's Path? So those two bare-chested and bare-backed ones are the Hell's Path ghosts. How come members of the Mud Cult would gather in the Tang Clan's territory?"
+    translated: "Hungry Ghost Path, Hell Path? So that means the two bare-chested ones are the Hell Path ghosts. Why would Mud Cult members gather in Tang Clan territory?"
+    qcReviewedText: "Hungry Ghost Path, Hell Path? So that means the two bare-chested ones are the Hell Path ghosts. Why would Mud Cult members gather in Tang Clan territory?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12612,8 +12618,8 @@
   splits:
   - split: 1
     text: "话说这身打扮怪教人羞耻的，那些魔教地狱道的怪胎都不穿上衣出门吗？"
-    translated: "The attire is rather embarrassing. Do the bizarre individuals from the Demon Sect's Hell's Path not wear shirts when going out?"
-    qcReviewedText: "The attire is rather embarrassing. Do the bizarre individuals from the Demon Sect's Hell's Path not wear shirts when going out?"
+    translated: "This outfit is rather embarrassing. Do those Demon Sect freaks from the Hell Path not go out without shirts?"
+    qcReviewedText: "This outfit is rather embarrassing. Do those Demon Sect freaks from the Hell Path not go out without shirts?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12630,15 +12636,11 @@
   splits:
   - split: 1
     text: "你别说，还真就这样。我上次行走江湖，就碰到一队地狱道人马。别说鬼卒，连牛头马面、黑白无常都有。牛头马面是真的把牛的头、马的头戴头上。"
-    translated: "You didn't say, and that's exactly what happened. The last time I wandered through the Jianghu, I encountered a group of Hell's Path warriors. Not only ghost soldiers, but even the Gou Tou Ma Mian, as well as the Black and White Wu Chang, were present. The Gou Tou and Ma Mian really wore the heads of oxen and horses on their own heads."
-    qcReviewedText: "You didn't say, and that's exactly what happened. The last time I wandered through the Jianghu, I encountered a group of Hell's Path warriors. Not only ghost soldiers, but even the Gou Tou Ma Mian, as well as the Black and White Wu Chang, were present. The Gou Tou and Ma Mian really wore the heads of oxen and horses on their own heads."
-    qcTranslated: "You didn't say, and that's exactly what happened. The last time I wandered through the Jianghu, I encountered a group of Hell's Path warriors. Not only ghost soldiers, but even the Ox-Head and Horse-Face, as well as the Black and White Impermanence, were present. The Ox-Head and Horse-Face really wore the heads of oxen and horses on their own heads."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
-    - UntranslatedPinyin
+    translated: "You wouldn't believe it, but that's exactly what happened. The last time I was traveling through Jianghu, I ran into a group from the Hell Path. Not just ghostly messengers, but even Ox-Head and Horse-Face, as well as Black and White Judges. Ox-Head and Horse-Face actually had the heads of oxen and horses on top of their own heads."
+    qcReviewedText: "You wouldn't believe it, but that's exactly what happened. The last time I was traveling through Jianghu, I ran into a group from the Hell Path. Not just ghostly messengers, but even Ox-Head and Horse-Face, as well as Black and White Judges. Ox-Head and Horse-Face actually had the heads of oxen and horses on top of their own heads."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_2_4_6_2_3_005,真的假的，好好笑，不臭吗？尽做这种没用的花巧功夫，不外乎就是想彰显自己不一样，千方百计想让人记住自己，真够肤浅。"
   splits:
   - split: 1
@@ -14452,8 +14454,8 @@
   splits:
   - split: 1
     text: "而她自己手里的叶云舟图，则是刀剑拳掌全都满分的王牌，根本所向无敌，她打从一开始就没打算跟人公平决斗。"
-    translated: "And the Ye Yunzhao diagram in her own hands is a ace card with full marks in knives, swords, fist techniques, and palm strikes. It is invincible in every aspect, and she never intended to engage in a fair fight from the very beginning."
-    qcReviewedText: "And the Ye Yunzhao diagram in her own hands is a ace card with full marks in knives, swords, fist techniques, and palm strikes. It is invincible in every aspect, and she never intended to engage in a fair fight from the very beginning."
+    translated: "And the Ye Yunzhou diagram in her own hands is a top card with full marks in blades, swords, punches, and palm strikes, making them invincible. She never intended to fight anyone fairly from the start."
+    qcReviewedText: "And the Ye Yunzhou diagram in her own hands is a top card with full marks in blades, swords, punches, and palm strikes, making them invincible. She never intended to fight anyone fairly from the start."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14759,8 +14761,8 @@
   splits:
   - split: 1
     text: "这下要决出胜负了……！叶云舟的绝活可以一回合进攻三次。只要杀死一个赵活，就可以长驱直入，放火烧小师妹的本阵了。"
-    translated: "Now it's time to settle the score...! Ye Yunzhao's special skill allows him to attack three times in one turn. By killing just one of Zhao Huo, he can advance straight in and set fire to Little Junior Sister's main camp."
-    qcReviewedText: "Now it's time to settle the score...! Ye Yunzhao's special skill allows him to attack three times in one turn. By killing just one of Zhao Huo, he can advance straight in and set fire to Little Junior Sister's main camp."
+    translated: "It's time to settle this...! Ye Yunzhou's specialty allows them to attack three times in one turn. All they need to do is kill one of Zhao Huo's troops, and then they can advance freely and set fire to Little Junior Sister's main camp."
+    qcReviewedText: "It's time to settle this...! Ye Yunzhou's specialty allows them to attack three times in one turn. All they need to do is kill one of Zhao Huo's troops, and then they can advance freely and set fire to Little Junior Sister's main camp."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18135,8 +18137,8 @@
   splits:
   - split: 1
     text: "……与你相斗之人并非地狱道鬼卒，是假冒的。"
-    translated: "......The person fighting against you is not a Ghost Soldier from the Hell's Path; they are an imposter."
-    qcReviewedText: "......The person fighting against you is not a Ghost Soldier from the Hell's Path; they are an imposter."
+    translated: "...The one fighting you is not a Hell Path ghost soldier; it's an impostor."
+    qcReviewedText: "...The one fighting you is not a Hell Path ghost soldier; it's an impostor."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18189,8 +18191,8 @@
   splits:
   - split: 1
     text: "地狱道使者所练的叉法，都是为了制服敌人。有拌、缠、缴、捺四字诀，招数旨在加压，令人丧失战意，从而屈服。"
-    translated: "The fork techniques practiced by the Hell's Path Messenger are all aimed at subduing enemies. They follow the four-character principles of bind, entangle, seize, and press, with the techniques designed to apply pressure, causing the opponent to lose their fighting spirit and ultimately submit."
-    qcReviewedText: "The fork techniques practiced by the Hell's Path Messenger are all aimed at subduing enemies. They follow the four-character principles of bind, entangle, seize, and press, with the techniques designed to apply pressure, causing the opponent to lose their fighting spirit and ultimately submit."
+    translated: "The fork techniques practiced by the Hell Path messengers are all aimed at subduing enemies. They involve four key moves: entangle, bind, disarm, and press. The moves are designed to increase pressure, causing opponents to lose their will to fight and ultimately yield."
+    qcReviewedText: "The fork techniques practiced by the Hell Path messengers are all aimed at subduing enemies. They involve four key moves: entangle, bind, disarm, and press. The moves are designed to increase pressure, causing opponents to lose their will to fight and ultimately yield."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18216,8 +18218,8 @@
   splits:
   - split: 1
     text: "你伤势上的疑点，第一是直刺，这招摆明是要你性命。除非你穷凶极恶被抓现行，否则就算有罪，地狱道也一定会拿你回阴曹，交判官赵逵刑审。"
-    translated: "The doubts in your injuries suggest a direct stab, which clearly aimed for your life. Unless you were caught red-handed in an extremely vicious and violent act, Hell's Path would certainly take you back to the Underworld to be judged by Judge Zhao Kui."
-    qcReviewedText: "The doubts in your injuries suggest a direct stab, which clearly aimed for your life. Unless you were caught red-handed in an extremely vicious and violent act, Hell's Path would certainly take you back to the Underworld to be judged by Judge Zhao Kui."
+    translated: "The first anomaly in your injuries is the stab wound; this attack clearly aimed to take your life. Unless you were caught red-handed after committing a heinous crime, even if you were guilty, Hell Path would definitely have taken you back to the underworld to hand you over to Judge Zhao Kui for interrogation."
+    qcReviewedText: "The first anomaly in your injuries is the stab wound; this attack clearly aimed to take your life. Unless you were caught red-handed after committing a heinous crime, even if you were guilty, Hell Path would definitely have taken you back to the underworld to hand you over to Judge Zhao Kui for interrogation."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18252,8 +18254,8 @@
   splits:
   - split: 1
     text: "地狱道怨苍天不仁，背弃神佛，立誓不进寺庙，死生不向泥塑叩首。"
-    translated: "Hell's Path blamed the heavens for their lack of mercy, rejected the gods and Buddha, vowed never to enter a temple, and refused to bow to clay statues in life or death."
-    qcReviewedText: "Hell's Path blamed the heavens for their lack of mercy, rejected the gods and Buddha, vowed never to enter a temple, and refused to bow to clay statues in life or death."
+    translated: "The Hell Path curses the heavens for their cruelty, renounces gods and buddhas, swears never to enter temples, and refuses to bow before clay idols in life or death."
+    qcReviewedText: "The Hell Path curses the heavens for their cruelty, renounces gods and buddhas, swears never to enter temples, and refuses to bow before clay idols in life or death."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22214,11 +22216,14 @@
   splits:
   - split: 1
     text: "冷静点，他不是鬼，这人是地狱道的鬼卒！"
-    translated: "Calm down, they are not a ghost; this person is a Ghost Soldier from the Hell's Path!"
-    qcReviewedText: "Calm down, they are not a ghost; this person is a Ghost Soldier from the Hell's Path!"
-    qcStatus: Passed
+    translated: "Calm down, they're not a ghost; this person is a ghost soldier from the Hell Path!"
+    qcReviewedText: "Calm down, they're not a ghost; this person is a ghost soldier from the Hell Path!"
+    qcTranslated: "Calm down, he's not a ghost; this person is a ghost soldier from the Hell Path!"
+    qcStatus: Corrected
     qcQualityScore: 100
-    qcDefectCategory: None
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/D_2_4_9_1_007,岂有此理，缘何正道六大派的人会在唐家大院，坏我魔教大事！"
   splits:
   - split: 1
@@ -26726,8 +26731,8 @@
   splits:
   - split: 1
     text: "叶云舟手里的听云剑，执起又放下，最后回入鞘中。"
-    translated: "Ye Yunzhao held the Listening Cloud Sword in his hand, picked it up and then put it down, eventually sheathing it."
-    qcReviewedText: "Ye Yunzhao held the Listening Cloud Sword in his hand, picked it up and then put it down, eventually sheathing it."
+    translated: "Ye Yunzhou's Tingyun Sword was lifted and then put down, finally returning to its scabbard."
+    qcReviewedText: "Ye Yunzhou's Tingyun Sword was lifted and then put down, finally returning to its scabbard."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26804,8 +26809,8 @@
   splits:
   - split: 1
     text: "叶云舟没有取你性命，任你被困云裳坟前，一生被内疚煎熬。"
-    translated: "Ye Yunzhao did not take your life; he let you be trapped at the front of Yunshang's tomb, spending your entire life tormented by guilt."
-    qcReviewedText: "Ye Yunzhao did not take your life; he let you be trapped at the front of Yunshang's tomb, spending your entire life tormented by guilt."
+    translated: "Ye Yunzhou didn't take your life; instead, he let you be trapped in front of Yunshang's grave, to suffer a lifetime of guilt."
+    qcReviewedText: "Ye Yunzhou didn't take your life; instead, he let you be trapped in front of Yunshang's grave, to suffer a lifetime of guilt."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32390,8 +32395,8 @@
   splits:
   - split: 1
     text: "不认识的江湖人，误以为你是地狱道鬼卒，大喊一声「妖孽受死」袭击过来！"
-    translated: "Strangers in the Jianghu mistook you for a devil from the Hell's Path and shouted 'Monster, die!' before attacking you!"
-    qcReviewedText: "Strangers in the Jianghu mistook you for a devil from the Hell's Path and shouted 'Monster, die!' before attacking you!"
+    translated: "A stranger from Jianghu mistook you for a Hell Path ghost soldier and shouted, Demon, meet your death! before attacking!"
+    qcReviewedText: "A stranger from Jianghu mistook you for a Hell Path ghost soldier and shouted, Demon, meet your death! before attacking!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32535,17 +32540,20 @@
   splits:
   - split: 1
     text: "你随青城弟子下山，开祭坛为邻近乡镇祈福、消灾、驱邪。没想到当真撞邪，地狱道鬼卒找上门来了！"
-    translated: "You went down the mountain with the Qingcheng disciples to set up a sacrificial altar for blessings upon nearby towns, seeking to dispel disasters and repel evil spirits. Little did you expect to actually encounter evil; Hell's Path ghost soldiers came looking for you!"
-    qcReviewedText: "You went down the mountain with the Qingcheng disciples to set up a sacrificial altar for blessings upon nearby towns, seeking to dispel disasters and repel evil spirits. Little did you expect to actually encounter evil; Hell's Path ghost soldiers came looking for you!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "You went down the mountain with Qingcheng disciples to set up altars and pray for blessings, ward off disasters, and drive away evil spirits in nearby towns. Unexpectantly, you encountered real evil-Hell Path ghost soldiers came calling!"
+    qcReviewedText: "You went down the mountain with Qingcheng disciples to set up altars and pray for blessings, ward off disasters, and drive away evil spirits in nearby towns. Unexpectantly, you encountered real evil-Hell Path ghost soldiers came calling!"
+    qcTranslated: "You went down the mountain with Qingcheng disciples to set up altars and pray for blessings, ward off disasters, and drive away evil spirits in nearby towns. Unexpectedly, you encountered real evil-Hell Path ghost soldiers came knocking!"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
 - raw: "Story/N_Section_02_Free_02_02_501_01_001,邪不胜正，尤其是正派人多势众的时候。结合青城之力，打跑了地狱道鬼卒。"
   splits:
   - split: 1
     text: "邪不胜正，尤其是正派人多势众的时候。结合青城之力，打跑了地狱道鬼卒。"
-    translated: "Evil cannot prevail over justice, especially when the righteous are many and well-equipped. By combining the power of Qingcheng, they drove away the ghost soldiers of Hell's Path."
-    qcReviewedText: "Evil cannot prevail over justice, especially when the righteous are many and well-equipped. By combining the power of Qingcheng, they drove away the ghost soldiers of Hell's Path."
+    translated: "Evil cannot overcome good, especially when the forces of righteousness are numerous. With the power of Qingcheng, they drove off the Hell Path ghosts."
+    qcReviewedText: "Evil cannot overcome good, especially when the forces of righteousness are numerous. With the power of Qingcheng, they drove off the Hell Path ghosts."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32553,8 +32561,8 @@
   splits:
   - split: 1
     text: "你随青城弟子下山，开祭坛为邻近乡镇祈福、消灾、驱邪。解手落单的时候，被面生的青城弟子误认为地狱道鬼卒！"
-    translated: "You followed the Qingcheng disciples down the mountain to set up a altar for blessings on nearby towns, seeking to alleviate disasters and repel evil spirits. When you were relieving yourself alone, a unfamiliar Qingcheng disciple mistakenly identified you as a Hell's Path ghost servant!"
-    qcReviewedText: "You followed the Qingcheng disciples down the mountain to set up a altar for blessings on nearby towns, seeking to alleviate disasters and repel evil spirits. When you were relieving yourself alone, a unfamiliar Qingcheng disciple mistakenly identified you as a Hell's Path ghost servant!"
+    translated: "You went down the mountain with Qingcheng disciples to set up altars and pray for blessings, ward off disasters, and drive away evil spirits in nearby towns. When you were alone taking a break, a Qingcheng disciple who didn't recognize you mistook you for a Hell Path ghost soldier!"
+    qcReviewedText: "You went down the mountain with Qingcheng disciples to set up altars and pray for blessings, ward off disasters, and drive away evil spirits in nearby towns. When you were alone taking a break, a Qingcheng disciple who didn't recognize you mistook you for a Hell Path ghost soldier!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32857,8 +32865,8 @@
   splits:
   - split: 1
     text: "来求诊的地狱道鬼卒发誓他们以后不与唐门为难。"
-    translated: "The ghost soldiers from Hell's Path vowed that they would no longer cause trouble for the Tang Clan in the future."
-    qcReviewedText: "The ghost soldiers from Hell's Path vowed that they would no longer cause trouble for the Tang Clan in the future."
+    translated: "The ghost enforcers of the Hell Path swore that they would no longer trouble the Tang Clan."
+    qcReviewedText: "The ghost enforcers of the Hell Path swore that they would no longer trouble the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -32480,8 +32480,8 @@
   splits:
   - split: 1
     text: "叶云舟、叶云裳兄妹俩是点苍派弟子，为了给云裳妹子治病而游历江湖，四处寻访名医灵药。只可惜遍寻未果。"
-    translated: "Ye Yunzhao and his younger sister Ye Yunshang are disciples of the Diancang sect. To find a cure for their sister Yunshang, they have traveled the Jianghu, seeking renowned physicians and miraculous herbs everywhere. Unfortunately, their search has yielded no results."
-    qcReviewedText: "Ye Yunzhao and his younger sister Ye Yunshang are disciples of the Diancang sect. To find a cure for their sister Yunshang, they have traveled the Jianghu, seeking renowned physicians and miraculous herbs everywhere. Unfortunately, their search has yielded no results."
+    translated: "Ye Yunzhou and Ye Yunshang, disciples of the Diancang sect, traveled through Jianghu in search of renowned doctors and miraculous medicines to cure their sister Yunshang. Unfortunately, their efforts were in vain."
+    qcReviewedText: "Ye Yunzhou and Ye Yunshang, disciples of the Diancang sect, traveled through Jianghu in search of renowned doctors and miraculous medicines to cure their sister Yunshang. Unfortunately, their efforts were in vain."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33925,8 +33925,8 @@
   splits:
   - split: 1
     text: "这次，是为那恶名昭彰的狂剑客叶云舟而来。"
-    translated: "This time, it's for the infamous mad swordsman Ye Yunzhao."
-    qcReviewedText: "This time, it's for the infamous mad swordsman Ye Yunzhao."
+    translated: "This time, it's for the infamous mad swordsmen, Ye Yunzhou."
+    qcReviewedText: "This time, it's for the infamous mad swordsmen, Ye Yunzhou."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33934,8 +33934,8 @@
   splits:
   - split: 1
     text: "虽说官府有不成文规定，江湖仇杀，除非击鼓鸣冤，否则一律不管，叶云舟所杀之人皆是江湖中人，照理说应在此例中。"
-    translated: "Although the government has unwritten rules, revenge killings in the Jianghu are not investigated unless the victims beat the drum to appeal for justice. The people Ye Yunzhao killed were all Jianghu members, so they should be covered under this rule."
-    qcReviewedText: "Although the government has unwritten rules, revenge killings in the Jianghu are not investigated unless the victims beat the drum to appeal for justice. The people Ye Yunzhao killed were all Jianghu members, so they should be covered under this rule."
+    translated: "Although the government has an unwritten rule that they do not intervene in vendettas within the Jianghu unless someone drums up a complaint, all those Ye Yunzhou killed were members of the Jianghu, so technically, this should fall under that rule."
+    qcReviewedText: "Although the government has an unwritten rule that they do not intervene in vendettas within the Jianghu unless someone drums up a complaint, all those Ye Yunzhou killed were members of the Jianghu, so technically, this should fall under that rule."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33943,11 +33943,14 @@
   splits:
   - split: 1
     text: "但此人剑下，有金盆洗手退隐江湖之人。朝廷认为，这便等如百姓受害，遂将那叶云舟列为皇榜通缉之列。"
-    translated: "But under this person's sword, there is someone who had washed their hands in a golden basin and retreated from the Jianghu. The Imperial Court considers this equivalent to the common people suffering, and thus Ye Yunzhao was placed on the wanted list."
-    qcReviewedText: "But under this person's sword, there is someone who had washed their hands in a golden basin and retreated from the Jianghu. The Imperial Court considers this equivalent to the common people suffering, and thus Ye Yunzhao was placed on the wanted list."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "But the court considers that this is equivalent to harming the people, so they have placed Ye Yunzhou on the imperial wanted list for those who have washed their hands in a golden basin and retired from Jianghu."
+    qcReviewedText: "But the court considers that this is equivalent to harming the people, so they have placed Ye Yunzhou on the imperial wanted list for those who have washed their hands in a golden basin and retired from Jianghu."
+    qcTranslated: "But under this person's sword, there are those who have washed their hands in a golden basin and retired from Jianghu. The court considers that this is equivalent to harming the people, so they have placed Ye Yunzhou on the imperial wanted list."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/D_S9907_01_017,原来如此。"
   splits:
   - split: 1
@@ -33961,14 +33964,11 @@
   splits:
   - split: 1
     text: "本官知道你和叶云舟有交情，而且交情匪浅。你可别因私包庇朝廷钦犯，连累师门。"
-    translated: "I know you have a deep connection with Ye Yunzhao. You must not cover up for the Imperial Court-designated criminal out of personal interest, or you will bring disgrace to your family."
-    qcReviewedText: "I know you have a deep connection with Ye Yunzhao. You must not cover up for the Imperial Court-designated criminal out of personal interest, or you will bring disgrace to your family."
-    qcTranslated: "I know you have a deep connection with Ye Yunzhao, and it is no small matter. You must not cover up for the Imperial Court-designated criminal out of personal interest, or you will bring disgrace to your sect."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "I am aware of your close relationship with Ye Yunzhou. Do not let personal feelings interfere and protect a court criminal; it would bring disgrace upon your teacher's lineage."
+    qcReviewedText: "I am aware of your close relationship with Ye Yunzhou. Do not let personal feelings interfere and protect a court criminal; it would bring disgrace upon your teacher's lineage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S9907_01_019,不瞒你说，本门被武林盟宣战，不日就要被围剿灭门了。是个神智正常的人都不会往唐门躲吧。"
   splits:
   - split: 1
@@ -34087,8 +34087,8 @@
   splits:
   - split: 1
     text: "不像你，那通缉钦犯叶云舟却是独来独往，逍遥的很。"
-    translated: "Unlike you, that wanted criminal Ye Yunzhao is always going alone, very carefree."
-    qcReviewedText: "Unlike you, that wanted criminal Ye Yunzhao is always going alone, very carefree."
+    translated: "Unlike you, the wanted criminal Ye Yunzhou travels alone and is quite carefree."
+    qcReviewedText: "Unlike you, the wanted criminal Ye Yunzhou travels alone and is quite carefree."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34204,8 +34204,8 @@
   splits:
   - split: 1
     text: "叶云舟在药铺一边学医，一边帮忙煎药。起初是为了医治妹妹，现在对济世为怀的仁术萌生了兴趣的样子。可惜的是，与剑术不同，他这方面似乎没有天份。"
-    translated: "Ye Yunzhao was learning medicine and helping to prepare decoctions in the pharmacy. Initially, it was to treat his younger sister, but now he seems to have developed an interest in the benevolent art of healing for the greater good. Unfortunately, unlike swordsmanship, he doesn't seem to have the talent for this."
-    qcReviewedText: "Ye Yunzhao was learning medicine and helping to prepare decoctions in the pharmacy. Initially, it was to treat his younger sister, but now he seems to have developed an interest in the benevolent art of healing for the greater good. Unfortunately, unlike swordsmanship, he doesn't seem to have the talent for this."
+    translated: "Ye Yunzhou studied medicine at the apothecary while also helping to prepare herbal remedies. Initially, this was to treat his younger sister, but now he seems to have developed an interest in the benevolent art of healing others. Unfortunately, unlike with swordsmanship, he doesn't seem to have a natural talent for it."
+    qcReviewedText: "Ye Yunzhou studied medicine at the apothecary while also helping to prepare herbal remedies. Initially, this was to treat his younger sister, but now he seems to have developed an interest in the benevolent art of healing others. Unfortunately, unlike with swordsmanship, he doesn't seem to have a natural talent for it."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34213,8 +34213,8 @@
   splits:
   - split: 1
     text: "指点叶云舟"
-    translated: "Master Ye Yunzhao"
-    qcReviewedText: "Master Ye Yunzhao"
+    translated: "Guide Ye Yunzhou"
+    qcReviewedText: "Guide Ye Yunzhou"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34222,8 +34222,8 @@
   splits:
   - split: 1
     text: "讲到医术药理，便是你显本事的时候了。你将书里读来的学问拿来卖弄，叶云舟被唬得一愣一愣，对你越发钦佩了。"
-    translated: "When it comes to medical techniques and pharmacology, it's your time to show off your skills. You use the knowledge you've read from books to boast, leaving Ye Yunzhao stunned and growing even more impressed with you."
-    qcReviewedText: "When it comes to medical techniques and pharmacology, it's your time to show off your skills. You use the knowledge you've read from books to boast, leaving Ye Yunzhao stunned and growing even more impressed with you."
+    translated: "When it comes to medicine and pharmacology, it's your time to show off. You took the knowledge you read in books and impressed everyone, leaving Ye Yunzhou thoroughly amazed and even more in awe of you."
+    qcReviewedText: "When it comes to medicine and pharmacology, it's your time to show off. You took the knowledge you read in books and impressed everyone, leaving Ye Yunzhou thoroughly amazed and even more in awe of you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34231,8 +34231,8 @@
   splits:
   - split: 1
     text: "讲到医术药理，便是你显本事的时候了。你将书里读来的学问倾囊相授，叶云舟对你越发钦佩了。"
-    translated: "When it comes to medical techniques and pharmacology, it's your moment to demonstrate your skills. You pour out all the knowledge you've gained from the books, and Ye Yunzhao grows increasingly admiring of you."
-    qcReviewedText: "When it comes to medical techniques and pharmacology, it's your moment to demonstrate your skills. You pour out all the knowledge you've gained from the books, and Ye Yunzhao grows increasingly admiring of you."
+    translated: "When it comes to medical skills and pharmacology, it's your turn to show what you've got. You shared everything you learned from the books, and Ye Yunzhou became even more impressed with you."
+    qcReviewedText: "When it comes to medical skills and pharmacology, it's your turn to show what you've got. You shared everything you learned from the books, and Ye Yunzhou became even more impressed with you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

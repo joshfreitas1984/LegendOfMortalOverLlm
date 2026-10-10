@@ -10196,11 +10196,14 @@
   splits:
   - split: 1
     text: "现在不是说这的时候了！大事不好了啊！你们这是在干嘛？泥教饿鬼道、地狱道要放火烧山了，你们还有闲悠悠哉哉！"
-    translated: "Now is not the time to talk about this! Something serious is happening! What are you doing here? The Mud Cult's Hungry Ghost Path and Hell's Path intend to set fires in the mountains, and you still have the leisure to be so calm!"
-    qcReviewedText: "Now is not the time to talk about this! Something serious is happening! What are you doing here? The Mud Cult's Hungry Ghost Path and Hell's Path intend to set fires in the mountains, and you still have the leisure to be so calm!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "This isn't the time to talk about this! Something terrible has happened! What are you doing? While fixing the Mud Cult's Hungry Ghost Path and Hell Path setting fire to the mountain, they're just standing around in leisurely contentment!"
+    qcReviewedText: "This isn't the time to talk about this! Something terrible has happened! What are you doing? While fixing the Mud Cult's Hungry Ghost Path and Hell Path setting fire to the mountain, they're just standing around in leisurely contentment!"
+    qcTranslated: "This isn't the time to talk about this! Something terrible has happened! What are you doing? The Mud Cult's Hungry Ghost Path and Hell Path are setting fire to the mountain, and you're just standing around in leisurely contentment!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/D_6_8_4_180,{size=50}你说什么！？{/size}"
   splits:
   - split: 1
@@ -10217,14 +10220,11 @@
   splits:
   - split: 1
     text: "你说清楚点，饿鬼、地狱道都来了？"
-    translated: "Speak clearly, you hungry ghost. Has the hell's path come as well?"
-    qcReviewedText: "Speak clearly, you hungry ghost. Has the hell's path come as well?"
-    qcTranslated: "Speak clearly, have the Hungry Ghost and Hell's Path both come?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Speak clearly, Hungry Ghost, did the Hell Path show up too?"
+    qcReviewedText: "Speak clearly, Hungry Ghost, did the Hell Path show up too?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_8_4_182,正是！我们寨主听说南宫大侠就任盟主，带了礼物要来献宝，途中就遭遇了饿鬼、地狱两道齐聚，一言不合就打了起来！"
   splits:
   - split: 1
@@ -10703,8 +10703,8 @@
   splits:
   - split: 1
     text: "尔等枉称侠士，一口一个正邪，殊不知自己恶贯满盈！地狱道判官赵逵在此！妖魔鬼怪，还敢造～次！"
-    translated: "You falsely call yourselves heroes, speaking of righteousness and evil, yet you are unaware that your sins are beyond measure! The Judge of Hell's Path, Zhao Kui, is here! Demons and monsters, do you dare to act again?"
-    qcReviewedText: "You falsely call yourselves heroes, speaking of righteousness and evil, yet you are unaware that your sins are beyond measure! The Judge of Hell's Path, Zhao Kui, is here! Demons and monsters, do you dare to act again?"
+    translated: "You call yourselves heroes, yet you constantly speak of good and evil, unaware that your own wicked deeds have filled the scales of justice! Judge Zhao Kui of the Hell Path is here! Demons and monsters, dare you cause any more trouble!"
+    qcReviewedText: "You call yourselves heroes, yet you constantly speak of good and evil, unaware that your own wicked deeds have filled the scales of justice! Judge Zhao Kui of the Hell Path is here! Demons and monsters, dare you cause any more trouble!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10856,8 +10856,8 @@
   splits:
   - split: 1
     text: "地狱道法王，判官赵、赵逵吗？"
-    translated: "Is it the Dharma King of Hell's Path, Judge Zhao, Zhao Kui?"
-    qcReviewedText: "Is it the Dharma King of Hell's Path, Judge Zhao, Zhao Kui?"
+    translated: "Dharma King of the Hell Path, Judge Zhao, is that Zhao Kui?"
+    qcReviewedText: "Dharma King of the Hell Path, Judge Zhao, is that Zhao Kui?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18505,8 +18505,8 @@
   splits:
   - split: 1
     text: "叶云舟正在勤奋的刷地，后面有大妈在指挥他。堂堂苍松剑客在唐门沦落至此，地位和你相去不远。你默默帮起忙来。"
-    translated: "Ye Yunzhao was diligently sweeping the floor, with an elderly lady giving him instructions. The proud Sage Pine Swordsmaster had fallen so low in the Tang Clan that his status was not far from yours. You silently started helping out."
-    qcReviewedText: "Ye Yunzhao was diligently sweeping the floor, with an elderly lady giving him instructions. The proud Sage Pine Swordsmaster had fallen so low in the Tang Clan that his status was not far from yours. You silently started helping out."
+    translated: "Ye Yunzhou was diligently sweeping the floor, with an auntie directing him. A once proud Swordsmen of Blue Pines had fallen so low in the Tang Clan that their status wasn't much different from his. He quietly joined in to help."
+    qcReviewedText: "Ye Yunzhou was diligently sweeping the floor, with an auntie directing him. A once proud Swordsmen of Blue Pines had fallen so low in the Tang Clan that their status wasn't much different from his. He quietly joined in to help."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18514,17 +18514,20 @@
   splits:
   - split: 1
     text: "叶云舟坐在树下替孩子削木剑，答应他们削好木剑便教他们剑法。可惜他手艺不太好，削得歪七扭八，砍人比削木头都要容易。削个木剑削到满头大汗。"
-    translated: "Ye Yunzhao sat under the tree, sharpening wooden swords for the children and promising to teach them sword techniques once he was done. Unfortunately, his craftsmanship wasn't great; he carved the swords askew and unevenly, making it easier to chop someone than to shape wood. Sharpening the wooden sword left him drenched in sweat."
-    qcReviewedText: "Ye Yunzhao sat under the tree, sharpening wooden swords for the children and promising to teach them sword techniques once he was done. Unfortunately, his craftsmanship wasn't great; he carved the swords askew and unevenly, making it easier to chop someone than to shape wood. Sharpening the wooden sword left him drenched in sweat."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once they were done. Unfortunately, his craftsmanship wasn't great; the swords he carved were crooked and uneven, making it easier to chop wood than to carve it. He worked so hard that he was drenched in sweat by the time he finished carving a single wooden sword."
+    qcReviewedText: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once they were done. Unfortunately, his craftsmanship wasn't great; the swords he carved were crooked and uneven, making it easier to chop wood than to carve it. He worked so hard that he was drenched in sweat by the time he finished carving a single wooden sword."
+    qcTranslated: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once they were done. Unfortunately, his craftsmanship wasn't great; the swords he carved were crooked and uneven, making it easier to chop people than to carve wood. He worked so hard that he was drenched in sweat by the time he finished carving a single wooden sword."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/N_Fortress_Work_902_002,叶云舟坐在树下替孩子削木剑，答应他们削好木剑便教他们剑法。他手艺稍微进步了一点，这回出产的木剑好歹是直的。"
   splits:
   - split: 1
     text: "叶云舟坐在树下替孩子削木剑，答应他们削好木剑便教他们剑法。他手艺稍微进步了一点，这回出产的木剑好歹是直的。"
-    translated: "Ye Yunzhao sat under the tree carving wooden swords for the children, promising to teach them sword techniques once he finished. His craftsmanship had improved slightly this time, so the swords were at least straight."
-    qcReviewedText: "Ye Yunzhao sat under the tree carving wooden swords for the children, promising to teach them sword techniques once he finished. His craftsmanship had improved slightly this time, so the swords were at least straight."
+    translated: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once the swords were done. His skills had improved slightly, so this time the wooden swords at least came out straight."
+    qcReviewedText: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once the swords were done. His skills had improved slightly, so this time the wooden swords at least came out straight."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18532,8 +18535,8 @@
   splits:
   - split: 1
     text: "叶云舟坐在树下替孩子削木剑，答应他们削好木剑便教他们剑法。他越来越有心得了，还有闲工夫替剑柄雕花，以前便有木剑的孩子都嚷着要新的。"
-    translated: "Ye Yunzhao sat under the tree carving wooden swords for his children, promising to teach them sword techniques once he was done. He had grown more skilled at it and even found time to carve flowers on the handles. Children who already had wooden swords were clamoring for new ones."
-    qcReviewedText: "Ye Yunzhao sat under the tree carving wooden swords for his children, promising to teach them sword techniques once he was done. He had grown more skilled at it and even found time to carve flowers on the handles. Children who already had wooden swords were clamoring for new ones."
+    translated: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once they were done. He was getting more and more skilled at it, even finding time to decorate the handles with intricate designs. The children who already had wooden swords were clamoring for new ones."
+    qcReviewedText: "Ye Yunzhou sat under a tree carving wooden swords for the children, promising to teach them swordsmanship once they were done. He was getting more and more skilled at it, even finding time to decorate the handles with intricate designs. The children who already had wooden swords were clamoring for new ones."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18580,11 +18583,14 @@
   splits:
   - split: 1
     text: "叶云舟言出必行，开始传授村中小孩习剑。他所传的不是点苍剑法，而是家传的叶家剑法。你受他邀请，担任助教。"
-    translated: "Ye Yunzhao was true to their word and began teaching the village children swordsmanship. What they taught was not the Diancang Sword Technique, but the family tradition of the Ye Family Sword Technique. You accepted their invitation to serve as an assistant instructor."
-    qcReviewedText: "Ye Yunzhao was true to their word and began teaching the village children swordsmanship. What they taught was not the Diancang Sword Technique, but the family tradition of the Ye Family Sword Technique. You accepted their invitation to serve as an assistant instructor."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Ye Yunzhou keeps his word and begins teaching the village children Swordsmanship. What he teaches is not the Diancang Sword Technique, but rather the family's own Ye Family Swordsmanship. You accept their invitation to serve as an assistant teacher."
+    qcReviewedText: "Ye Yunzhou keeps his word and begins teaching the village children Swordsmanship. What he teaches is not the Diancang Sword Technique, but rather the family's own Ye Family Swordsmanship. You accept their invitation to serve as an assistant teacher."
+    qcTranslated: "Ye Yunzhou keeps his word and begins teaching the village children Swordsmanship. What he teaches is not the Diancang Sword Technique, but rather the family's own Ye Family Swordsmanship. You accept his invitation to serve as an assistant teacher."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/D_Girlroom_001_001,咦？是、是小师妹！"
   splits:
   - split: 1
@@ -23037,8 +23043,8 @@
   splits:
   - split: 1
     text: "距今二十多年前，崆峒火龙仙君、全真丘道长、郝道长、青城邹掌门，以及今时今日堕落成为地狱道法王的赵逵，曾经齐聚一堂，谈经论道。辩论会中，邹掌门与郝道长相谈甚欢，一见如故。"
-    translated: "More than twenty years ago, the Fire Dragon Immortal Monarch of Kongtong, Daoist Qiu from Quanzhen, Daoist Hao, Sect Master Zou from Qingcheng, and Zhao Kui, who has since fallen to become the Hell's Path Dharma King, gathered together to discuss scriptures and daoism. During their discussion, Sect Master Zou and Daoist Hao hit it off immediately and talked with great pleasure."
-    qcReviewedText: "More than twenty years ago, the Fire Dragon Immortal Monarch of Kongtong, Daoist Qiu from Quanzhen, Daoist Hao, Sect Master Zou from Qingcheng, and Zhao Kui, who has since fallen to become the Hell's Path Dharma King, gathered together to discuss scriptures and daoism. During their discussion, Sect Master Zou and Daoist Hao hit it off immediately and talked with great pleasure."
+    translated: "More than twenty years ago, the Fire Dragon Immortal Monarch of Kongtong, Daoist Qiu of Quanzhen, Daoist Hao, Sect Leader Zou of Qingcheng, and Zhao Kui, who has since fallen and become the Dharma King of Hell Path, gathered together to discuss scriptures and exchange ideas. During the debate, Sect Leader Zou and Daoist Hao got along famously, as if they had known each other for a long time."
+    qcReviewedText: "More than twenty years ago, the Fire Dragon Immortal Monarch of Kongtong, Daoist Qiu of Quanzhen, Daoist Hao, Sect Leader Zou of Qingcheng, and Zhao Kui, who has since fallen and become the Dharma King of Hell Path, gathered together to discuss scriptures and exchange ideas. During the debate, Sect Leader Zou and Daoist Hao got along famously, as if they had known each other for a long time."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -23259,8 +23265,8 @@
   splits:
   - split: 1
     text: "地狱道法王赵逵说的。"
-    translated: "The Dharma King Zhao Kui of Hell's Path said."
-    qcReviewedText: "The Dharma King Zhao Kui of Hell's Path said."
+    translated: "Hell Path Dharma King Zhao Kui said"
+    qcReviewedText: "Hell Path Dharma King Zhao Kui said"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27580,8 +27586,8 @@
   splits:
   - split: 1
     text: "叶云舟……。"
-    translated: "Ye Yunzhao..."
-    qcReviewedText: "Ye Yunzhao..."
+    translated: "Ye Yunzhou......"
+    qcReviewedText: "Ye Yunzhou......"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27589,20 +27595,20 @@
   splits:
   - split: 1
     text: "点苍派的第一快剑手，苍松剑客叶云舟？！"
-    translated: "The first swift swordsman of the Diancang school, the Sword Guest Cypress Leaf Ye Yunzhao?!"
-    qcReviewedText: "The first swift swordsman of the Diancang school, the Sword Guest Cypress Leaf Ye Yunzhao?!"
-    qcTranslated: "The first swift swordsman of the Diancang school, the Cypress Pine Sword Guest Ye Yunzhao?!"
+    translated: "The first fast Swordsmen of the Diancang Sect, the Cypress Pine Swordman Ye Yunzhou?!"
+    qcReviewedText: "The first fast Swordsmen of the Diancang Sect, the Cypress Pine Swordman Ye Yunzhou?!"
+    qcTranslated: "The fastest swordsman of the Diancang Sect, the Cypress Pine Swordsman Ye Yunzhou?!"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DomainTerm
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DomainTerm
+    - UnnaturalPhrasing
 - raw: "Story/D_S0003_01_03_033,不敢当，只是叶云舟而已。"
   splits:
   - split: 1
     text: "不敢当，只是叶云舟而已。"
-    translated: "Not at all, I am just Ye Yunzhao."
-    qcReviewedText: "Not at all, I am just Ye Yunzhao."
+    translated: "I don't deserve that; I'm just Ye Yunzhou."
+    qcReviewedText: "I don't deserve that; I'm just Ye Yunzhou."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28489,8 +28495,8 @@
   splits:
   - split: 1
     text: "你与叶云舟击掌为誓，默契于胸，你觉得自己更像江湖中人了。"
-    translated: "You clasp hands with Ye Yunzhao as a vow, and the understanding between you resonates in your heart. You feel more like a person of the Jianghu."
-    qcReviewedText: "You clasp hands with Ye Yunzhao as a vow, and the understanding between you resonates in your heart. You feel more like a person of the Jianghu."
+    translated: "By clapping hands with Ye Yunzhou in a solemn vow, the mutual understanding in your hearts made you feel even more like a Jianghu person."
+    qcReviewedText: "By clapping hands with Ye Yunzhou in a solemn vow, the mutual understanding in your hearts made you feel even more like a Jianghu person."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28498,11 +28504,14 @@
   splits:
   - split: 1
     text: "酒过三巡，豪兴勃发，你与叶云舟论说江湖事，平日的惆怅都抛诸脑后。"
-    translated: "After three rounds of wine, your spirits soared, and you engaged in discourse with Ye Yunzhao about Jianghu affairs, leaving all daily sorrows behind."
-    qcReviewedText: "After three rounds of wine, your spirits soared, and you engaged in discourse with Ye Yunzhao about Jianghu affairs, leaving all daily sorrows behind."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "While in high spirits, you discussed matters of the Jianghu with Ye Yunzhou, putting aside all your usual melancholy. While drinking, your spirits high, you discussed matters of the Jianghu with Ye Yunzhou, putting aside all your usual melancholy. While drinking, they were in high spirits and discussed matters of the Jianghu with Ye Yunzhou, putting aside all their usual melancholy."
+    qcReviewedText: "While in high spirits, you discussed matters of the Jianghu with Ye Yunzhou, putting aside all your usual melancholy. While drinking, your spirits high, you discussed matters of the Jianghu with Ye Yunzhou, putting aside all your usual melancholy. While drinking, they were in high spirits and discussed matters of the Jianghu with Ye Yunzhou, putting aside all their usual melancholy."
+    qcTranslated: "After three rounds of wine, your spirits soared as you discussed matters of the Jianghu with Ye Yunzhou, casting all your usual melancholy to the winds."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
 - raw: "Story/T_S0003_02_02_006,这位赵兄弟不知是何缘故，都受唐门这般冷遇，还不离不弃。莫非也似我兄妹二人一般，有着不得已的隐情吗？"
   splits:
   - split: 1
@@ -28591,8 +28600,8 @@
   splits:
   - split: 1
     text: "叶云舟"
-    translated: "Ye Yunzhao"
-    qcReviewedText: "Ye Yunzhao"
+    translated: "Ye Yunzhou"
+    qcReviewedText: "Ye Yunzhou"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28762,15 +28771,14 @@
   splits:
   - split: 1
     text: "江湖人称「苍松剑客」的叶云舟叶大侠在此间吗？久仰大名，我等三人乃是阎关三煞，在梓州还算喊得出名号。传闻尊驾莅临，不敢怠慢贵客，故此漏夜来迎，唐突之处，还请见谅。"
-    translated: "Is Jianghu Ye Yunzhao, the Hero of the Willow Pine Sword, here? I have long admired your name. We are the Three Fiends Yan Guan, and in Zizhou we can still command a name. Upon hearing that you would grace us with your presence, we dared not slight our esteemed guest and thus came to welcome you at night, apologies for any intrusion."
-    qcReviewedText: "Is Jianghu Ye Yunzhao, the Hero of the Willow Pine Sword, here? I have long admired your name. We are the Three Fiends Yan Guan, and in Zizhou we can still command a name. Upon hearing that you would grace us with your presence, we dared not slight our esteemed guest and thus came to welcome you at night, apologies for any intrusion."
-    qcTranslated: "Is Ye Yunzhao, the Great Hero known in Jianghu as the Azure Pine Swordsman, here? I have long admired your name. We are the Three Fiends of Yan Guan, and in Zizhou we can still command a name. Upon hearing that you would grace us with your presence, we dared not slight our esteemed guest and thus came to welcome you at night, apologies for any intrusion."
+    translated: "Is Great Hero Ye Yunzhou, also known in Jianghu as the Willow Pine Sword, here? We have long admired your reputation; we are the Three Fiends of Yan Pass and are somewhat well-known in Zizhou. Hearing that you have arrived, we did not want to keep such a distinguished guest waiting, so we came at night to greet you. Please forgive our rudeness."
+    qcReviewedText: "Is Great Hero Ye Yunzhou, also known in Jianghu as the Willow Pine Sword, here? We have long admired your reputation; we are the Three Fiends of Yan Pass and are somewhat well-known in Zizhou. Hearing that you have arrived, we did not want to keep such a distinguished guest waiting, so we came at night to greet you. Please forgive our rudeness."
+    qcTranslated: "Is Great Hero Ye Yunzhou, also known in Jianghu as the Blue Pine Swordsman, here? We have long admired your reputation; we are the Three Fiends of Yan Pass and are somewhat well-known in Zizhou. Hearing that you have arrived, we did not want to keep such a distinguished guest waiting, so we came at night to greet you. Please forgive our rudeness."
     qcStatus: Corrected
-    qcQualityScore: 92
+    qcQualityScore: 95
     qcDefectCategory: DomainTerm
     qcDefectCategories:
     - DomainTerm
-    - DroppedContent
 - raw: "Story/T_S0003_02_03_001,阎关三煞！这这不是梓州有名的流氓吗？怎么会在这里？这下坏了。"
   splits:
   - split: 1
@@ -28841,8 +28849,8 @@
   splits:
   - split: 1
     text: "没错，我就是叶云舟。（嘴他们）"
-    translated: "Correct, I am Ye Yunzhao. (with a smirk)"
-    qcReviewedText: "Correct, I am Ye Yunzhao. (with a smirk)"
+    translated: "That's right, I'm Ye Yunzhou. (Those mouths of theirs)"
+    qcReviewedText: "That's right, I'm Ye Yunzhou. (Those mouths of theirs)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28872,8 +28880,8 @@
   splits:
   - split: 1
     text: "该怎么说呢，是张令人印象深刻的脸，但是我同意。这家伙决计不是叶云舟。我们认错人了。"
-    translated: "How to put it, it's a face that leaves a lasting impression, but I agree. This guy is definitely not Ye Yunzhao. We must have mistaken him for someone else."
-    qcReviewedText: "How to put it, it's a face that leaves a lasting impression, but I agree. This guy is definitely not Ye Yunzhao. We must have mistaken him for someone else."
+    translated: "Well, it's a memorable face, but I agree. This guy definitely isn't Ye Yunzhou. We must have mistaken him for someone else."
+    qcReviewedText: "Well, it's a memorable face, but I agree. This guy definitely isn't Ye Yunzhou. We must have mistaken him for someone else."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28908,8 +28916,8 @@
   splits:
   - split: 1
     text: "我虽然不认识什么叶云舟，但看这情势也知道是他怕了三位的鼎鼎大名，漏夜潜逃，不敢应战。若三位大侠高抬贵手，我一定动用全部人力到处宣扬三位的大名。"
-    translated: "Although I don't recognize Ye Yunzhao, I can tell from the situation that he is frightened by the reputations of the Three Heroes and has secretly fled at night, unwilling to engage in battle. If the three noble gentlemen could spare me, I would definitely use all available resources to widely spread the names of the Three Heroes."
-    qcReviewedText: "Although I don't recognize Ye Yunzhao, I can tell from the situation that he is frightened by the reputations of the Three Heroes and has secretly fled at night, unwilling to engage in battle. If the three noble gentlemen could spare me, I would definitely use all available resources to widely spread the names of the Three Heroes."
+    translated: "Although I don't know who Ye Yunzhou is, I can tell from the situation that he must be scared of your renowned reputations and fled in the dead of night to avoid facing you. If you three Great Heroes spare him, I will use all my resources to spread your names far and wide."
+    qcReviewedText: "Although I don't know who Ye Yunzhou is, I can tell from the situation that he must be scared of your renowned reputations and fled in the dead of night to avoid facing you. If you three Great Heroes spare him, I will use all my resources to spread your names far and wide."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28974,8 +28982,8 @@
   splits:
   - split: 1
     text: "看来消息有误，叶云舟不在这里。走了，走了。"
-    translated: "It seems the information was incorrect; Ye Yunzhao is not here. Let's go, let's go."
-    qcReviewedText: "It seems the information was incorrect; Ye Yunzhao is not here. Let's go, let's go."
+    translated: "It seems the information is incorrect; Ye Yunzhou isn't here. Let's go, let's go."
+    qcReviewedText: "It seems the information is incorrect; Ye Yunzhou isn't here. Let's go, let's go."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29098,8 +29106,8 @@
   splits:
   - split: 1
     text: "你是叶云舟的朋友？还是跟我们同行的？"
-    translated: "Are you a friend of Ye Yunzhao's, or are you traveling with us?"
-    qcReviewedText: "Are you a friend of Ye Yunzhao's, or are you traveling with us?"
+    translated: "Are you a friend of Ye Yunzhou's, or are you traveling with us?"
+    qcReviewedText: "Are you a friend of Ye Yunzhou's, or are you traveling with us?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29200,8 +29208,8 @@
   splits:
   - split: 1
     text: "你就是叶云舟？点苍派的苍松剑客？"
-    translated: "Are you Ye Yunzhao? The Cypress Sword Guest from the Diancang faction?"
-    qcReviewedText: "Are you Ye Yunzhao? The Cypress Sword Guest from the Diancang faction?"
+    translated: "Are you Ye Yunzhou? The Swordman Cangsong from the Diancang Sect?"
+    qcReviewedText: "Are you Ye Yunzhou? The Swordman Cangsong from the Diancang Sect?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29245,11 +29253,14 @@
   splits:
   - split: 1
     text: "听说点苍派第一快手叶云舟叶大侠有一柄听云宝剑在手，在下心慕已久，是否有幸能够开开眼界？"
-    translated: "I have heard that Brother Ye Yunzhao, the First Swift Hand of the Diancang Sect and Great Hero Ye, holds the Listening Cloud Treasure Sword. I have long admired it; would he be kind enough to let me have a look?"
-    qcReviewedText: "I have heard that Brother Ye Yunzhao, the First Swift Hand of the Diancang Sect and Great Hero Ye, holds the Listening Cloud Treasure Sword. I have long admired it; would he be kind enough to let me have a look?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "I've heard that Great Hero Ye Yunzhou, the fastest draw at Diancang Sect, has a Divine Cloud Sword by his side. I have long admired it and wonder if I might have the pleasure of seeing it with my own eyes?"
+    qcReviewedText: "I've heard that Great Hero Ye Yunzhou, the fastest draw at Diancang Sect, has a Divine Cloud Sword by his side. I have long admired it and wonder if I might have the pleasure of seeing it with my own eyes?"
+    qcTranslated: "I've heard that Great Hero Ye Yunzhou, the fastest draw at Diancang Sect, has a Tingyun Sword by his side. I have long admired it and wonder if I might have the pleasure of seeing it with my own eyes?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "Story/D_S0003_02_06_007,哼，这剑嘛，有是有的，出鞘了不见血它收不回！你们当真要看吗？"
   splits:
   - split: 1
@@ -29682,11 +29693,14 @@
   splits:
   - split: 1
     text: "这个叶云舟竟然敢向唐布衣公开挑战，看来真有两把刷子，"
-    translated: "This Ye Yunzhao actually dares to openly challenge Tang Buyi; it looks like they really have some skills."
-    qcReviewedText: "{size=17} This Ye Yunzhao actually dares to openly challenge Tang Buyi; it looks like they really have some skills.{/size} {size=17} I also wonder who is superior between the number one expert of the Tang Clan and the number one fast sword hand of Diancang.{/size}"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "It seems Ye Yunzhou really has some skills if they dared to openly challenge Tang Buyi."
+    qcReviewedText: "{size=17} It seems Ye Yunzhou really has some skills if they dared to openly challenge Tang Buyi.{/size} {size=17} I also wonder who is superior between the number one expert of the Tang Clan and the number one fast sword hand of Diancang.{/size}"
+    qcTranslated: "{size=17} It seems Ye Yunzhou really has some skills if he dared to openly challenge Tang Buyi.{/size} {size=17} I also wonder who is superior between the number one expert of the Tang Clan and the number one fast sword hand of Diancang.{/size}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
   - split: 1
     subIndex: 1
     text: "我也想知道唐门第一高手和点苍第一快剑手究竟谁高谁低。"
@@ -29920,8 +29934,8 @@
   splits:
   - split: 1
     text: "其实我不是叶云舟啦。"
-    translated: "Actually, I am not Ye Yunzhao"
-    qcReviewedText: "Actually, I am not Ye Yunzhao"
+    translated: "Actually, I'm not Ye Yunzhou"
+    qcReviewedText: "Actually, I'm not Ye Yunzhou"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30068,8 +30082,8 @@
   splits:
   - split: 1
     text: "笑死我了，就凭你这三脚猫功夫的货色，也好意思冒充叶云舟？"
-    translated: "Haha, you dare to pretend to be Ye Yunzhao with your meager three-foot-cat skills?"
-    qcReviewedText: "Haha, you dare to pretend to be Ye Yunzhao with your meager three-foot-cat skills?"
+    translated: "Ha! You're hilarious. With your amateur skills, you really think you can pass yourself off as Ye Yunzhou?"
+    qcReviewedText: "Ha! You're hilarious. With your amateur skills, you really think you can pass yourself off as Ye Yunzhou?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30603,8 +30617,8 @@
   splits:
   - split: 1
     text: "你不是自称叶云舟吗？叶云舟就是叶云裳的兄长。你与我兄弟相称，又救了她的小命，她敬你为兄长岂非天经地义？"
-    translated: "Aren't you the one who calls yourself Ye Yunzhao? Ye Yunzhao is the elder brother of Ye Yunshang. You have called me brother and saved her life, so it's only natural that she should respect you as her elder brother, isn't it?"
-    qcReviewedText: "Aren't you the one who calls yourself Ye Yunzhao? Ye Yunzhao is the elder brother of Ye Yunshang. You have called me brother and saved her life, so it's only natural that she should respect you as her elder brother, isn't it?"
+    translated: "Aren't you the one who called yourself Ye Yunzhou? Ye Yunzhou is Ye Yunshang's older brother. You've referred to me as 'Brother' and saved her life; isn't it only natural for her to look up to you as an older brother?"
+    qcReviewedText: "Aren't you the one who called yourself Ye Yunzhou? Ye Yunzhou is Ye Yunshang's older brother. You've referred to me as 'Brother' and saved her life; isn't it only natural for her to look up to you as an older brother?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30870,14 +30884,11 @@
   splits:
   - split: 1
     text: "那小姑娘就是叶云舟的小妹叶云裳！拿住了她，叶云舟投鼠忌器，什么剑法都使不出来啦！"
-    translated: "That little girl is Ye Yunshang, the younger sister of Ye Yunzhao! With her in hand, Ye Yunzhao is cautious about throwing a dart at a magpie, and none of his sword techniques can be used!"
-    qcReviewedText: "That little girl is Ye Yunshang, the younger sister of Ye Yunzhao! With her in hand, Ye Yunzhao is cautious about throwing a dart at a magpie, and none of his sword techniques can be used!"
-    qcTranslated: "That little girl is Ye Yunshang, the younger sister of Ye Yunzhao! With her in hand, Ye Yunzhao will be too afraid to act for fear of harming her, and none of his Sword Techniques can be used!"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "That little girl is Ye Yunzhou's younger sister, Ye Yunshang! Once you have her in your grasp, Ye Yunzhou will be too hesitant to use any sword techniques!"
+    qcReviewedText: "That little girl is Ye Yunzhou's younger sister, Ye Yunshang! Once you have her in your grasp, Ye Yunzhou will be too hesitant to use any sword techniques!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0003_02_07_010,这小子呢？他这般胡言乱语回护叶姑娘，想必和他们兄妹相熟。"
   splits:
   - split: 1
@@ -30948,8 +30959,8 @@
   splits:
   - split: 1
     text: "给他死开，去林中找叶云舟求助才是上策"
-    translated: "Give him hell. It's better to go find Ye Yunzhao in the forest for help."
-    qcReviewedText: "Give him hell. It's better to go find Ye Yunzhao in the forest for help."
+    translated: "Get out of the way, you need to go to the forest to seek help from Ye Yunzhou; that's the best move."
+    qcReviewedText: "Get out of the way, you need to go to the forest to seek help from Ye Yunzhou; that's the best move."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30957,8 +30968,8 @@
   splits:
   - split: 1
     text: "叶兄！叶云舟！你快回来，有人要害你妹！"
-    translated: "Brother Ye! Ye Yunzhao! Hurry back, someone is targeting your sister!"
-    qcReviewedText: "{size=28} Brother Ye! Ye Yunzhao! Hurry back, someone is targeting your sister!{/size}"
+    translated: "Brother Ye! Ye Yunzhou! Come back quickly, someone is threatening your sister!"
+    qcReviewedText: "{size=28} Brother Ye! Ye Yunzhou! Come back quickly, someone is threatening your sister!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31183,8 +31194,8 @@
   splits:
   - split: 1
     text: "叶云舟！！"
-    translated: "Ye Yunzhao!!"
-    qcReviewedText: "Ye Yunzhao!!"
+    translated: "Ye Yunzhou!!"
+    qcReviewedText: "Ye Yunzhou!!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32272,8 +32283,8 @@
   splits:
   - split: 1
     text: "舱中空间狭小，你和叶云舟将后边宽敞空间让给少女。一夜闹腾，你累坏了，阖眼不消片刻即沉沉睡去。"
-    translated: "The compartment was cramped, so you and Ye Yunzhao gave the rear, more spacious area to the maiden. After a restless night, you were exhausted and fell into a deep sleep the moment your eyes closed."
-    qcReviewedText: "The compartment was cramped, so you and Ye Yunzhao gave the rear, more spacious area to the maiden. After a restless night, you were exhausted and fell into a deep sleep the moment your eyes closed."
+    translated: "The space in the cabin was cramped, and you and Ye Yunzhou gave the back area with more room to the girl. After a long night of commotion, you were exhausted and closed your eyes, falling asleep almost immediately."
+    qcReviewedText: "The space in the cabin was cramped, and you and Ye Yunzhou gave the back area with more room to the girl. After a long night of commotion, you were exhausted and closed your eyes, falling asleep almost immediately."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32299,8 +32310,8 @@
   splits:
   - split: 1
     text: "你道别了叶云舟，起程回返唐门。"
-    translated: "You bid farewell to Ye Yunzhao and set out to return to the Tang Clan."
-    qcReviewedText: "You bid farewell to Ye Yunzhao and set out to return to the Tang Clan."
+    translated: "You bid farewell to Ye Yunzhou and set out to return to the Tang Clan."
+    qcReviewedText: "You bid farewell to Ye Yunzhou and set out to return to the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32308,11 +32319,14 @@
   splits:
   - split: 1
     text: "我给你的钱呢！我听你在屁！点苍派的叶云舟怎可能与你结交！你分明私吞了我的钱！"
-    translated: "Where is the money I gave you! I heard nothing from you but a load of nonsense! How could Ye Yunzhao from the Diancang Sect possibly make friends with you! You clearly kept my money for yourself!"
-    qcReviewedText: "Where is the money I gave you! I heard nothing from you but a load of nonsense! How could Ye Yunzhao from the Diancang Sect possibly make friends with you! You clearly kept my money for yourself!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Where's the money you owe me! I heard you talking nonsense! How could Ye Yunzhou of the Diancang Sect possibly befriend someone like you! You clearly pocketed my money for yourself!"
+    qcReviewedText: "Where's the money you owe me! I heard you talking nonsense! How could Ye Yunzhou of the Diancang Sect possibly befriend someone like you! You clearly pocketed my money for yourself!"
+    qcTranslated: "Where's the money I gave you! What nonsense are you talking about! How could Ye Yunzhou of the Diancang Sect possibly befriend someone like you! You clearly pocketed my money for yourself!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/N_S0003_03_02_001,四师兄听了你的际遇，半点也不信。"
   splits:
   - split: 1

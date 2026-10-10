@@ -20,11 +20,14 @@
   splits:
   - split: 1
     text: "晚辈叶云舟，拜见青城邹真人。"
-    translated: "Junior Ye Yunzhao pays respects to Qingcheng Zou Daoist."
-    qcReviewedText: "Junior Ye Yunzhao pays respects to Qingcheng Zou Daoist."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Descendant Ye Yunzhou pays respects to Daoist Zou of Qingcheng."
+    qcReviewedText: "Descendant Ye Yunzhou pays respects to Daoist Zou of Qingcheng."
+    qcTranslated: "I, your junior Ye Yunzhou, pay respects to Daoist Zou of Qingcheng."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Story/D_Travel_601_902_03_003,二位都是年轻有为的江湖新秀，很好，很好。"
   splits:
   - split: 1
@@ -74,11 +77,14 @@
   splits:
   - split: 1
     text: "晚辈叶云舟，拜见青城邹真人。舍妹云裳和我赵兄弟常说，邹真人大腹便便，心胸宽广，今日一见，果然名不虚传。"
-    translated: "Junior Ye Yunzhao pays respects to Qingcheng Daoist Zou. My sister Yunshang and my brother Zhao often said that Daoist Zou is plump and broad-minded. Today's meeting indeed lives up to the reputation."
-    qcReviewedText: "Junior Ye Yunzhao pays respects to Qingcheng Daoist Zou. My sister Yunshang and my brother Zhao often said that Daoist Zou is plump and broad-minded. Today's meeting indeed lives up to the reputation."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Younger generation Ye Yunzhou, paying respects to Daoist Zou of Qingcheng. My younger sister Yunshang and my brother Zhao often say that Daoist Zou is broad-minded and generous, as evidenced by his large belly. Today, upon meeting him, it turns out to be true as they say."
+    qcReviewedText: "Younger generation Ye Yunzhou, paying respects to Daoist Zou of Qingcheng. My younger sister Yunshang and my brother Zhao often say that Daoist Zou is broad-minded and generous, as evidenced by his large belly. Today, upon meeting him, it turns out to be true as they say."
+    qcTranslated: "I, Ye Yunzhou, a junior, pay my respects to Daoist Zou of Qingcheng. My younger sister Yunshang and my Brother Zhao often say that Daoist Zou is broad-minded and generous, as evidenced by his large belly. Today, upon meeting him, it turns out to be true as they say."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Story/D_Travel_601_902_03_008,哈哈哈，叶少侠不必急着替你兄弟辩解，老道说不上心胸宽广，就是山里修道的，脾气自然稳些。才不会计较这种小事。"
   splits:
   - split: 1
@@ -496,8 +502,8 @@
   splits:
   - split: 1
     text: "叶云舟早听亲妹详细说过，此时再听，依旧咬牙切齿。恨不能当时在场，一剑挑了无相祖师。"
-    translated: "Ye Yunzhao had already heard in detail from his younger sister before, and upon hearing it again now, he still gritted his teeth. He wished he could have been there then to stab the Wuxiang Patriarch with one sword."
-    qcReviewedText: "Ye Yunzhao had already heard in detail from his younger sister before, and upon hearing it again now, he still gritted his teeth. He wished he could have been there then to stab the Wuxiang Patriarch with one sword."
+    translated: "Ye Yunzhou had already heard his younger sister describe it in detail; even now, hearing it again made him grind his teeth in hatred. He wished he had been there to confront the Wuxiang Patriarch with a sword."
+    qcReviewedText: "Ye Yunzhou had already heard his younger sister describe it in detail; even now, hearing it again made him grind his teeth in hatred. He wished he had been there to confront the Wuxiang Patriarch with a sword."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -835,8 +841,8 @@
   splits:
   - split: 1
     text: "苍松剑客叶云舟，阁下好大名声。本座与你同戴「叶云」二字，仅一字之差，雷同过甚。私以为，天底不需要两个名含叶云之人。"
-    translated: "Cangsong Sword Hero Ye Yunzhao, your esteemed reputation is indeed great. I, the one who presides here, share the same Ye Yun name with you, differing by only one character, which is too similar. I believe the world does not need two individuals bearing the name Ye Yun."
-    qcReviewedText: "Cangsong Sword Hero Ye Yunzhao, your esteemed reputation is indeed great. I, the one who presides here, share the same Ye Yun name with you, differing by only one character, which is too similar. I believe the world does not need two individuals bearing the name Ye Yun."
+    translated: "Sir Swordman Ye Yunzhou, your reputation is quite grand. I, too, bear the Ye Yun characters, differing by just one character, making us too similar. In my view, the heavens do not need two people with names containing Ye Yun."
+    qcReviewedText: "Sir Swordman Ye Yunzhou, your reputation is quite grand. I, too, bear the Ye Yun characters, differing by just one character, making us too similar. In my view, the heavens do not need two people with names containing Ye Yun."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1098,8 +1104,8 @@
   splits:
   - split: 1
     text: "没错，就是我，叶云啾！"
-    translated: "Right, it's me, Ye Yunjiao!"
-    qcReviewedText: "Right, it's me, Ye Yunjiao!"
+    translated: "That's right, it's me, Ye Yunjiu!"
+    qcReviewedText: "That's right, it's me, Ye Yunjiu!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1155,9 +1161,9 @@
   splits:
   - split: 1
     text: "过去十多年间，我因病痛缠身，没有抵抗之力，在你叶云舟魔掌之下忍辱负重苟活。"
-    translated: "Over the past ten years, I have been plagued by illness and lacked the strength to resist, enduring humiliation and bearing the weight of suffering to cling to life under your evil grip, Ye Yunzhao."
-    qcReviewedText: "Over the past ten years, I have been plagued by illness and lacked the strength to resist, enduring humiliation and bearing the weight of suffering to cling to life under your evil grip, Ye Yunzhao."
-    qcTranslated: "Over the past ten-plus years, I have been plagued by illness and lacked the strength to resist, enduring humiliation and bearing the weight of suffering to cling to life under your evil grip, Ye Yunzhao."
+    translated: "For the past decade or so, plagued by illness and without the strength to resist, I have endured and barely survived under your Ye Yunzhou's tyrannical rule."
+    qcReviewedText: "For the past decade or so, plagued by illness and without the strength to resist, I have endured and barely survived under your Ye Yunzhou's tyrannical rule."
+    qcTranslated: "For the past ten-plus years, plagued by illness and without the strength to resist, I have endured and barely survived under your Ye Yunzhou's tyrannical rule."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -1317,8 +1323,8 @@
   splits:
   - split: 1
     text: "点苍弟子叶云舟，请师妹指教。"
-    translated: "Diancang disciple Ye Yunzhao, please offer your guidance, junior sister."
-    qcReviewedText: "Diancang disciple Ye Yunzhao, please offer your guidance, junior sister."
+    translated: "Diancang disciple Ye Yunzhou, please let Junior Sister instruct me."
+    qcReviewedText: "Diancang disciple Ye Yunzhou, please let Junior Sister instruct me."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1326,11 +1332,15 @@
   splits:
   - split: 1
     text: "叶云裳不止一次试图造反爬她哥哥头上，每次都被轻而易举的制服。这一回却出奇认真，叶云舟并无小觑之心，亦慎重应对。"
-    translated: "Ye Yunshang had attempted to rebel against her brother multiple times, but each time she was easily subdued. This time, however, she was unusually serious, and Ye Yunzhao had no intention of underestimating her, responding with equal seriousness."
-    qcReviewedText: "Ye Yunshang had attempted to rebel against her brother multiple times, but each time she was easily subdued. This time, however, she was unusually serious, and Ye Yunzhao had no intention of underestimating her, responding with equal seriousness."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Ye Yunshang has not once tried to rebel and climb over Brother Ye Yunzhou, only to be easily put down each time. This time, however, she is unusually serious, and Ye Yunzhou does not take her lightly, responding with caution."
+    qcReviewedText: "Ye Yunshang has not once tried to rebel and climb over Brother Ye Yunzhou, only to be easily put down each time. This time, however, she is unusually serious, and Ye Yunzhou does not take her lightly, responding with caution."
+    qcTranslated: "Ye Yunshang has tried more than once to rebel and climb over Brother Ye Yunzhou, only to be easily put down each time. This time, however, she is unusually serious, and Ye Yunzhou does not take her lightly, responding with caution."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - MeaningReversal
 - raw: "Story/N_S0212_01_002,二人相对，反手执剑作揖状。摆出点苍剑法起手式「问津式」。"
   splits:
   - split: 1
@@ -1612,8 +1622,8 @@
   splits:
   - split: 1
     text: "叶云舟号称点苍第一快剑手，点苍派当代弟子之中最是出类拔萃的人物，虽不似师兄弟姊妹那般痴迷于剑道，但亦不敢轻言放弃，始终兢兢业业，唯恐辜负了天赐的才能。"
-    translated: "Ye Yunzhao is known as the fastest swordsman of Diancang and is the most outstanding figure among the contemporary disciples of the Diancang Sect. Although they are not as obsessed with the swordsmanship as their brothers and sisters, they do not dare to speak lightly of giving up. They remain diligent and cautious, fearing that they might waste the talent bestowed upon them."
-    qcReviewedText: "Ye Yunzhao is known as the fastest swordsman of Diancang and is the most outstanding figure among the contemporary disciples of the Diancang Sect. Although they are not as obsessed with the swordsmanship as their brothers and sisters, they do not dare to speak lightly of giving up. They remain diligent and cautious, fearing that they might waste the talent bestowed upon them."
+    translated: "Ye Yunzhou is known as the fastest swordsmen in Diancang, the most outstanding figure among the current disciples of the Diancang sect. Though they are not as obsessed with the Way of the Sword as their fellow disciples, they never dare to give up lightly and always work diligently, fearing to waste the talent bestowed upon them by fate."
+    qcReviewedText: "Ye Yunzhou is known as the fastest swordsmen in Diancang, the most outstanding figure among the current disciples of the Diancang sect. Though they are not as obsessed with the Way of the Sword as their fellow disciples, they never dare to give up lightly and always work diligently, fearing to waste the talent bestowed upon them by fate."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1883,8 +1893,8 @@
   splits:
   - split: 1
     text: "叶云舟坐山巅上，思忖良久。心事越想越轻，剑倒似越拿越重了。"
-    translated: "Ye Yunzhao sat atop the mountain peak, pondering for a long time. His thoughts grew lighter the more he pondered them, yet the sword seemed heavier the more he held it."
-    qcReviewedText: "Ye Yunzhao sat atop the mountain peak, pondering for a long time. His thoughts grew lighter the more he pondered them, yet the sword seemed heavier the more he held it."
+    translated: "Ye Yunzhou sat atop the mountain, pondering for a long while. The more he thought about his concerns, the lighter they felt, but his sword seemed to grow heavier with each passing moment."
+    qcReviewedText: "Ye Yunzhou sat atop the mountain, pondering for a long while. The more he thought about his concerns, the lighter they felt, but his sword seemed to grow heavier with each passing moment."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2354,8 +2364,8 @@
   splits:
   - split: 1
     text: "那叶云舟练了十几二十年的剑又如何？我可一天武功都没练。我没曾努力过，凭一张嘴照样能毁他一生，甚至都不需要动手！"
-    translated: "What if Ye Yunzhao has practiced swordsmanship for over twenty years? I haven't practiced a single day of martial arts. I've never put in any effort; with just words, I can still ruin his life, not even needing to fight!"
-    qcReviewedText: "What if Ye Yunzhao has practiced swordsmanship for over twenty years? I haven't practiced a single day of martial arts. I've never put in any effort; with just words, I can still ruin his life, not even needing to fight!"
+    translated: "So what if Ye Yunzhou has been practicing the Sword for over twenty years? I haven't trained in martial arts a single day in my life. Without ever putting in any effort, I can still ruin his life with just my words, without even needing to lay a hand on him!"
+    qcReviewedText: "So what if Ye Yunzhou has been practicing the Sword for over twenty years? I haven't trained in martial arts a single day in my life. Without ever putting in any effort, I can still ruin his life with just my words, without even needing to lay a hand on him!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3388,14 +3398,11 @@
   splits:
   - split: 1
     text: "叶云舟展信，指节止不住颤抖。"
-    translated: "Ye Yunzhao, I write this letter to you-my fingers can't stop trembling."
-    qcReviewedText: "Ye Yunzhao, I write this letter to you-my fingers can't stop trembling."
-    qcTranslated: "Ye Yunzhao opened the letter, his knuckles trembling uncontrollably."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Ye Yunzhou opened the letter, their knuckles trembling uncontrollably."
+    qcReviewedText: "Ye Yunzhou opened the letter, their knuckles trembling uncontrollably."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_9_2_3_157,「顷闻叶氏避迹山林，世代严守军令，忠贞不渝，任八十寒暑，星霜荏苒，忠魂未泯。云公有知，亦当如珂，不胜悲喜。」"
   splits:
   - split: 1
@@ -5410,8 +5417,8 @@
   splits:
   - split: 1
     text: "哈，小兄弟，你还不坏。死活都来地狱道走一遭，老子做东。"
-    translated: "Haha, Little Brother, you're not bad either. Whether alive or dead, let's walk the Hell's Path together; I'll treat us both."
-    qcReviewedText: "Haha, Little Brother, you're not bad either. Whether alive or dead, let's walk the Hell's Path together; I'll treat us both."
+    translated: "Ha, Little Brother, you're not so bad. Whether you live or die, you're coming to the Hell Path, and I'll treat everyone."
+    qcReviewedText: "Ha, Little Brother, you're not so bad. Whether you live or die, you're coming to the Hell Path, and I'll treat everyone."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5494,8 +5501,8 @@
   splits:
   - split: 1
     text: "我唐三有眼不识泰山，今始开眼，知道泥教地狱道一身正气。请法王恕罪，献此丹以作陪礼。"
-    translated: "I, Tang San, failed to recognize the mountain when I first saw it. Only now do I open my eyes and realize that the Mud Cult's Hell's Path embodies righteousness. I beg the Dharma King to forgive me and accept this pill as a token of respect."
-    qcReviewedText: "I, Tang San, failed to recognize the mountain when I first saw it. Only now do I open my eyes and realize that the Mud Cult's Hell's Path embodies righteousness. I beg the Dharma King to forgive me and accept this pill as a token of respect."
+    translated: "I, Tang San, am ashamed to admit that I failed to recognize the gravity of the situation until now. I have since opened my eyes and understand that the Mud Cult's Hell Path upholds righteousness. Please forgive me, Dharma King, and accept this pill as a token of my respect."
+    qcReviewedText: "I, Tang San, am ashamed to admit that I failed to recognize the gravity of the situation until now. I have since opened my eyes and understand that the Mud Cult's Hell Path upholds righteousness. Please forgive me, Dharma King, and accept this pill as a token of my respect."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6162,8 +6169,8 @@
   splits:
   - split: 1
     text: "尊敬可敬之人，无论长幼，无论敌我。叶云舟，你的确不同凡响。"
-    translated: "Respectable and worthy individuals, regardless of age, regardless of enemy or ally. Ye Yunzhao, you are truly extraordinary."
-    qcReviewedText: "Respectable and worthy individuals, regardless of age, regardless of enemy or ally. Ye Yunzhao, you are truly extraordinary."
+    translated: "Respected and venerable one, whether young or old, friend or foe. Ye Yunzhou, you truly stand out from the rest."
+    qcReviewedText: "Respected and venerable one, whether young or old, friend or foe. Ye Yunzhou, you truly stand out from the rest."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7547,8 +7554,8 @@
   splits:
   - split: 1
     text: "叶云舟出现了"
-    translated: "Ye Yunzhao appeared"
-    qcReviewedText: "Ye Yunzhao appeared"
+    translated: "Ye Yunzhou appeared"
+    qcReviewedText: "Ye Yunzhou appeared"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7907,8 +7914,8 @@
   splits:
   - split: 1
     text: "叶云舟没出现"
-    translated: "Ye Yunzhao didn't appear"
-    qcReviewedText: "Ye Yunzhao didn't appear"
+    translated: "Ye Yunzhou didn't show up"
+    qcReviewedText: "Ye Yunzhou didn't show up"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

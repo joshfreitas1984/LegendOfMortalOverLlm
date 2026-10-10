@@ -5218,8 +5218,8 @@
   splits:
   - split: 1
     text: "请叶云舟出阵"
-    translated: "Please have Ye Yunzhao go into battle"
-    qcReviewedText: "Please have Ye Yunzhao go into battle"
+    translated: "Please send Ye Yunzhou into battle"
+    qcReviewedText: "Please send Ye Yunzhou into battle"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7272,8 +7272,8 @@
   splits:
   - split: 1
     text: "苍松剑客叶云舟，特向唐掌门请命。叶某与点苍已然义绝，若唐门各位大侠信得过叶某，望得蒙允，愿往外堡充当门卫，不令宵小滋扰。"
-    translated: "The Cang Song swordsman Ye Yunzhao specifically requests an order from the Tang Clan's leader. Ye wishes to express that they have already severed ties with Diancang. If the esteemed heroes of the Tang Clan trust Ye, they hope to be granted permission to serve as a gatekeeper at the outer fortress, preventing any disturbances from petty thieves."
-    qcReviewedText: "The Cang Song swordsman Ye Yunzhao specifically requests an order from the Tang Clan's leader. Ye wishes to express that they have already severed ties with Diancang. If the esteemed heroes of the Tang Clan trust Ye, they hope to be granted permission to serve as a gatekeeper at the outer fortress, preventing any disturbances from petty thieves."
+    translated: "Swordman Ye Yunzhou specially requests an audience with Sect Leader Tang. Ye has already severed ties with Diancang, and if the heroes of Tang Clan trust him, he hopes they will grant him permission to serve as a guard at one of the outer forts, preventing petty villains from causing trouble."
+    qcReviewedText: "Swordman Ye Yunzhou specially requests an audience with Sect Leader Tang. Ye has already severed ties with Diancang, and if the heroes of Tang Clan trust him, he hopes they will grant him permission to serve as a guard at one of the outer forts, preventing petty villains from causing trouble."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24467,8 +24467,8 @@
   splits:
   - split: 1
     text: "叶云舟的心相下降了。"
-    translated: "Ye Yunzhao's Heart Connection has dropped"
-    qcReviewedText: "Ye Yunzhao's Heart Connection has dropped"
+    translated: "Ye Yunzhou's heart phase decreased"
+    qcReviewedText: "Ye Yunzhou's heart phase decreased"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25583,8 +25583,8 @@
   splits:
   - split: 1
     text: "叶云舟的意见"
-    translated: "Ye Yunzhao's opinion"
-    qcReviewedText: "Ye Yunzhao's opinion"
+    translated: "Ye Yunzhou's opinion"
+    qcReviewedText: "Ye Yunzhou's opinion"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29731,14 +29731,11 @@
   splits:
   - split: 1
     text: "他哪里是什么杂鱼了？卑鄙！这人跟那叶云舟，是同一个境界的，这是扮猪吃老虎啊！"
-    translated: "How could he be just some trash? Despicable! This person is at the same level as Ye Yunzhao. This is pretending to be a pig to eat a tiger!"
-    qcReviewedText: "How could he be just some trash? Despicable! This person is at the same level as Ye Yunzhao. This is pretending to be a pig to eat a tiger!"
-    qcTranslated: "How could he be just some trash? Despicable! This person is at the same level as Ye Yunzhao. He's playing the pig to swallow the tiger!"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "He's no mere fish at all! Despicable! This person is on the same level as that Ye Yunzhou. They're playing the part of a weakling to prey on the strong!"
+    qcReviewedText: "He's no mere fish at all! Despicable! This person is on the same level as that Ye Yunzhou. They're playing the part of a weakling to prey on the strong!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_8_5_1_010,呼……呼……湘姊，你……你一直咳血，内伤深重，不能再运气了。"
   splits:
   - split: 1
@@ -30760,11 +30757,15 @@
   splits:
   - split: 1
     text: "来者是点苍剑鬼，狂剑客叶云舟啊！他一人一剑，所向披靡，连横路死尸都比活人更碍他脚步呀！"
-    translated: "The one who comes is Diancang Sword Ghost, Mad Swordman Ye Yunzhao! He, with one person and one sword, is unstoppable-so much so that even the dead bodies on the road are more of an obstacle than the living!"
-    qcReviewedText: "The one who comes is Diancang Sword Ghost, Mad Swordman Ye Yunzhao! He, with one person and one sword, is unstoppable-so much so that even the dead bodies on the road are more of an obstacle than the living!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "The visitor is the Sword Ghost of Diancang and the Mad Swordsmen, Ye Yunzhou! With just one person and one sword, they are invincible, even more so than living people-dead bodies in their path hinder them less!"
+    qcReviewedText: "The visitor is the Sword Ghost of Diancang and the Mad Swordsmen, Ye Yunzhou! With just one person and one sword, they are invincible, even more so than living people-dead bodies in their path hinder them less!"
+    qcTranslated: "The visitor is the Sword Ghost of Diancang, the Mad Swordsman Ye Yunzhou! With just one person and one sword, he is invincible; even the corpses on the road hinder his steps more than living people do!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
 - raw: "Story/D_8_5_1_109,倒了十几二十人，无人敢再近身。丐帮弟子装死偷袭，才在他背上划出一道血痕，要不我真怀疑他是鬼不是人！"
   splits:
   - split: 1
@@ -30778,9 +30779,9 @@
   splits:
   - split: 1
     text: "叶云舟？！岂、岂有此理，不要慌！那狂剑客既然会流血，终有力竭之时，何须怕他！"
-    translated: "Ye Yunzhao?! How absurd! Don't panic! That mad swordsman, since he will bleed, will eventually reach his limit; why fear him?"
-    qcReviewedText: "Ye Yunzhao?! How absurd! Don't panic! That mad swordsman, since he will bleed, will eventually reach his limit; why fear him?"
-    qcTranslated: "Ye Yunzhao?! How, how absurd! Don't panic! That mad swordsman, since he will bleed, will eventually reach his limit; why fear him?"
+    translated: "Ye Yunzhou?! How can this be? Don't panic! Since that mad Swordman bleeds, he must eventually tire. There's no need to fear him!"
+    qcReviewedText: "Ye Yunzhou?! How can this be? Don't panic! Since that mad Swordman bleeds, he must eventually tire. There's no need to fear him!"
+    qcTranslated: "Ye Yunzhou?! How, how can this be? Don't panic! Since that mad Swordman bleeds, he must eventually tire. There's no need to fear him!"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedStutter
@@ -30802,11 +30803,14 @@
   splits:
   - split: 1
     text: "来者是苍松剑客叶云舟啊！他一人一剑，所向披靡，下手毫不容情，眨眼就斩倒一大票人！"
-    translated: "The one who has come is Cangsong Sword Master Ye Yunzhao! He, with one person and one sword, is unstoppable, his strikes show no mercy, and in an instant, he fells a large number of people!"
-    qcReviewedText: "The one who has come is Cangsong Sword Master Ye Yunzhao! He, with one person and one sword, is unstoppable, his strikes show no mercy, and in an instant, he fells a large number of people!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "The visitor is the Cypress Swordsmen Ye Yunzhou! With just themselves and their sword, they are invincible, showing no mercy in their attacks. In the blink of an eye, they've felled a large group of people!"
+    qcReviewedText: "The visitor is the Cypress Swordsmen Ye Yunzhou! With just themselves and their sword, they are invincible, showing no mercy in their attacks. In the blink of an eye, they've felled a large group of people!"
+    qcTranslated: "The visitor is the Cypress Swordsmen Ye Yunzhou! With just himself and his sword, he is invincible, showing no mercy in his attacks. In the blink of an eye, he's felled a large group of people!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Story/D_8_5_1_190,倒了十几二十人，无人敢再近身。丐帮弟子装死偷袭，都伤不得他毫毛，我真怀疑他背上是不是有长眼睛！"
   splits:
   - split: 1
@@ -30823,8 +30827,8 @@
   splits:
   - split: 1
     text: "叶云舟？岂有此理，不要慌！那苍松剑客再厉害，也是血肉之躯！"
-    translated: "Ye Yunzhao? How absurd, don't panic! That Green Pine Sword Master, no matter how skilled, is still flesh and blood!"
-    qcReviewedText: "Ye Yunzhao? How absurd, don't panic! That Green Pine Sword Master, no matter how skilled, is still flesh and blood!"
+    translated: "Ye Yunzhou? How can this be! Don't panic! No matter how formidable the Blue Pine Swordsmen is, they are still human!"
+    qcReviewedText: "Ye Yunzhou? How can this be! Don't panic! No matter how formidable the Blue Pine Swordsmen is, they are still human!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -39020,14 +39024,11 @@
   splits:
   - split: 1
     text: "唐三侠……唐掌门好。"
-    translated: "Master Tang of the Three Heroes... Master Tang, you're doing well."
-    qcReviewedText: "Master Tang of the Three Heroes... Master Tang, you're doing well."
-    qcTranslated: "Third Hero Tang... Sect Leader Tang, hello."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Tang Third Hero...Greetings, Sect Leader Tang."
+    qcReviewedText: "Tang Third Hero...Greetings, Sect Leader Tang."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0020_02_04_152,龙女侠好，观你行色匆匆，莫非有何为难事，需要帮手不？"
   splits:
   - split: 1

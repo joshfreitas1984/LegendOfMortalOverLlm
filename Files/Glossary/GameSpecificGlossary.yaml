@@ -28,7 +28,7 @@
   literal: Qishi
   badtrans: false
 - raw: 化境
-  result: Transcendant
+  result: Transcendent
   allowalt:
   - Transcendence
   direct: transform realm
@@ -168,7 +168,9 @@
 - raw: 河出马图
   rawSimplified: 河出马图
   rawTraditional: 河出馬圖
-  result: Hetu Luoshu
+  result: River Gives Forth the Horse Map
+  allowalt:
+  - Hetu
 - raw: 门派
   rawSimplified: 门派
   rawTraditional: 門派
@@ -199,8 +201,6 @@
   rawTraditional: 機關
   result: Mechanism
   allowalt:
-  - Organization
-  - Scheme
   - Mechanical
   direct: Organization
   literal: Jiguan
@@ -283,7 +283,7 @@
 - raw: 地獄道
   rawSimplified: 地狱道
   rawTraditional: 地獄道
-  result: Hell's Path
+  result: Hell Path
   direct: di yu dao
   literal: earth prison path / hell path
 - raw: 畜生道
@@ -295,7 +295,7 @@
   direct: animal beast path
   literal: Chu Sheng Dao
 - raw: 天道
-  result: Heavenly path
+  result: Heavenly Path
   direct: heaven way
   literal: Tiandao
 - raw: 修羅道
@@ -480,8 +480,6 @@
   rawTraditional: 外傷
   result: External Injury
   allowalt:
-  - Extra Damage
-  - Damage
   - External Injuries
   badtrans: false
 - raw: 中毒
@@ -494,7 +492,6 @@
   result: Confusion
   allowalt:
   - Confuse
-  - mesmerizing
   badtrans: false
 - raw: 冰封
   result: Frozen
@@ -605,7 +602,6 @@
   result: Tiger
   allowalt:
   - Hu
-  - Gecko
   context: Sometimes used as literal names
   badtrans: false
 - raw: 僧侣
@@ -659,7 +655,7 @@
 - raw: 許大鯨
   rawSimplified: 许大鲸
   rawTraditional: 許大鯨
-  result: Xu Daqing
+  result: Xu Dajing
 - raw: 唐大鯨
   rawSimplified: 唐大鲸
   rawTraditional: 唐大鯨
@@ -693,11 +689,11 @@
 - raw: 葉雲舟
   rawSimplified: 叶云舟
   rawTraditional: 葉雲舟
-  result: Ye Yunzhao
+  result: Ye Yunzhou
 - raw: 車軒轅
   rawSimplified: 车轩辕
   rawTraditional: 車軒轅
-  result: Che Xuanxuan
+  result: Che Xuanyuan
 - raw: 瑞杏
   result: Rui Xing
 - raw: 瑞笙
@@ -705,7 +701,7 @@
 - raw: 葉雲啾
   rawSimplified: 叶云啾
   rawTraditional: 葉雲啾
-  result: Ye Yunjiao
+  result: Ye Yunjiu
 - raw: 向無憂
   rawSimplified: 向无忧
   rawTraditional: 向無憂
@@ -1008,8 +1004,6 @@
   result: Gang Leader Shi
   allowalt:
   - Leader Shi
-  - Sect Leader Shi
-  - Sect Master Shi
   - Gang Master Shi
   - Gang Leader Shi
   - Flying Stone Gang Leader
@@ -1046,7 +1040,7 @@
   direct: Righteous Field
   literal: Yi Tian
 - raw: 阿隼
-  result: A'Sun
+  result: A'Jun
   literal: A Sun
 - raw: 龍大俠
   rawSimplified: 龙大侠
@@ -1179,7 +1173,9 @@
   result: Gang Leader Li
 
 - raw: 小友
-  result: Young
+  result: Young friend
+  allowalt:
+  - Young
 
 - raw: "下旬"
   result: "Late month"
@@ -1192,7 +1188,7 @@
     - middle of the month
     - middle of this month
 - raw: "上旬"
-  result: "Early Month"
+  result: "Early month"
   allowalt: 
     - start of the month
     - start of this month
@@ -1200,13 +1196,9 @@
   rawSimplified: 二侠
   rawTraditional: 二俠
   result: Second Hero
-  allowalt:
-  - Hero
 - raw: 三俠
   rawSimplified: 三侠
   rawTraditional: 三俠
   result: Third Hero
-  allowalt:
-  - Hero
   direct: three heroes
   literal: san xia

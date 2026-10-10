@@ -983,8 +983,8 @@
   splits:
   - split: 1
     text: "「我叶云舟，觊觎梁有诗的美色，倾慕她的才能，想娶她为妻！」"
-    translated: "I, Ye Yunzhao, covet Liang You Shi's beauty, admire her talent, and wish to marry her as my wife!"
-    qcReviewedText: "I, Ye Yunzhao, covet Liang You Shi's beauty, admire her talent, and wish to marry her as my wife!"
+    translated: "I, Ye Yunzhou, covet Liang You Shi's beauty and admire her talent; I want to marry her!"
+    qcReviewedText: "I, Ye Yunzhou, covet Liang You Shi's beauty and admire her talent; I want to marry her!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2077,8 +2077,8 @@
   splits:
   - split: 1
     text: "和唐门食客．平阳之虎叶云舟一块挑了柴。"
-    translated: "Together with Tang Clan guest Pingyang Tiger Ye Yunzhao, they carried firewood."
-    qcReviewedText: "Together with Tang Clan guest Pingyang Tiger Ye Yunzhao, they carried firewood."
+    translated: "And together with Tang Clan's guest, Pingyang Tiger Ye Yunzhou, they chopped firewood."
+    qcReviewedText: "And together with Tang Clan's guest, Pingyang Tiger Ye Yunzhou, they chopped firewood."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2167,8 +2167,8 @@
   splits:
   - split: 1
     text: "冲向叶云舟"
-    translated: "Charge toward Ye Yunzhao"
-    qcReviewedText: "Charge toward Ye Yunzhao"
+    translated: "Charge towards Ye Yunzhou"
+    qcReviewedText: "Charge towards Ye Yunzhou"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2425,8 +2425,8 @@
   splits:
   - split: 1
     text: "叶云舟默不作声，想起昔日同门的悲鸣。"
-    translated: "Ye Yunzhao remained silent, recalling the sorrowful cries of his fellow disciples from days past."
-    qcReviewedText: "Ye Yunzhao remained silent, recalling the sorrowful cries of his fellow disciples from days past."
+    translated: "Ye Yunzhou said nothing, recalling the mournful cries of his former fellow disciples."
+    qcReviewedText: "Ye Yunzhou said nothing, recalling the mournful cries of his former fellow disciples."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14573,8 +14573,8 @@
   splits:
   - split: 1
     text: "虽说我自己也对付得了那和尚，不过还是多谢你。我沧帮许大鲸，你叫啥名？"
-    translated: "Though I can handle that monk myself, thank you anyway. I'm Cang Gang's Xu Daqing. What's your name?"
-    qcReviewedText: "Though I can handle that monk myself, thank you anyway. I'm Cang Gang's Xu Daqing. What's your name?"
+    translated: "Though I could handle that monk myself, thank you anyway. I'm Xu Dajing from the Cang Gang; what's your name?"
+    qcReviewedText: "Though I could handle that monk myself, thank you anyway. I'm Xu Dajing from the Cang Gang; what's your name?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14591,11 +14591,14 @@
   splits:
   - split: 1
     text: "好，我许大鲸今后就认你作小弟。"
-    translated: "Alright, I, Xu Daqing, will recognize you as my younger brother from now on."
-    qcReviewedText: "Alright, I, Xu Daqing, will recognize you as my younger brother from now on."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Fine, Xu Dajing, you'll be my subordinate from now on."
+    qcReviewedText: "Fine, Xu Dajing, you'll be my subordinate from now on."
+    qcTranslated: "Fine, I, Xu Dajing, will recognize you as my junior brother from now on."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/D_S0026_01_01_028,我怎么就变你小弟了？"
   splits:
   - split: 1
@@ -14782,8 +14785,8 @@
   splits:
   - split: 1
     text: "你和许大鲸在岸边生火烤了鱼虾吃掉，拱手作别。"
-    translated: "You and Xu Daqing made a fire on the shore, roasted fish and shrimp, ate them, and parted with clasped hands."
-    qcReviewedText: "You and Xu Daqing made a fire on the shore, roasted fish and shrimp, ate them, and parted with clasped hands."
+    translated: "You and Xu Dajing cooked fish and shrimp over a fire by the shore, then bowed to each other as you said goodbye."
+    qcReviewedText: "You and Xu Dajing cooked fish and shrimp over a fire by the shore, then bowed to each other as you said goodbye."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14824,8 +14827,8 @@
   splits:
   - split: 1
     text: "你把许大鲸捅死了，推进河里让他当大鲸回归海洋。搜刮了秘籍，连鱼也不放过，事后带回山上烤了，大家都赞你大方。"
-    translated: "You stabbed Xu Daqing to death, pushed him into the river so he could become a whale and return to the ocean. You plundered the secrets, not even sparing a fish. Afterward, you brought everything back to the mountain and roasted it, and everyone praised you for your generosity."
-    qcReviewedText: "You stabbed Xu Daqing to death, pushed him into the river so he could become a whale and return to the ocean. You plundered the secrets, not even sparing a fish. Afterward, you brought everything back to the mountain and roasted it, and everyone praised you for your generosity."
+    translated: "You stabbed Xu Dajing to death and pushed him into the river so he could return to the sea as a big whale. You looted the secret manuals and didn't even spare the fish. Later, you brought everything back to the mountain and roasted them; everyone praised your generosity."
+    qcReviewedText: "You stabbed Xu Dajing to death and pushed him into the river so he could return to the sea as a big whale. You looted the secret manuals and didn't even spare the fish. Later, you brought everything back to the mountain and roasted them; everyone praised your generosity."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15095,11 +15098,14 @@
   splits:
   - split: 1
     text: "晚辈……晚辈是沧帮许大鲸。"
-    translated: "Junior... I am Xu Daqing of the Cang Gang."
-    qcReviewedText: "Junior... I am Xu Daqing of the Cang Gang."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Descendant... Descendant Xu Dajing of Cang Gang."
+    qcReviewedText: "Descendant... Descendant Xu Dajing of Cang Gang."
+    qcTranslated: "This humble one... This humble one is Xu Dajing of Cang Gang."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Story/D_S0026_01_05_003,嗯，沧帮是上官老弟的手脚，这事江湖中人谁都心照不宣。你却如何来到蜀中作威作福？"
   splits:
   - split: 1
@@ -15342,8 +15348,8 @@
   splits:
   - split: 1
     text: "许大鲸更不打话，生怕掌门反悔，当下就跪地咚咚咚磕了三个响头。还擅自把改姓为唐，掌门见他直率，暗暗莞尔，也不纠正。"
-    translated: "Xu Daqing said nothing more, fearing the master might change his mind. He immediately knelt and pounded the ground three times with his head. He also unauthorizedly changed his surname to Tang. The master saw his straightforwardness, smiled secretly, and did not correct him."
-    qcReviewedText: "Xu Daqing said nothing more, fearing the master might change his mind. He immediately knelt and pounded the ground three times with his head. He also unauthorizedly changed his surname to Tang. The master saw his straightforwardness, smiled secretly, and did not correct him."
+    translated: "Xu Dajing didn't waste words, fearing that the Sect Leader would change their mind. He immediately knelt down and bowed three loud head-knocks. He also took it upon himself to change his surname to Tang. The Sect Leader found him straightforward and smiled inwardly, making no correction."
+    qcReviewedText: "Xu Dajing didn't waste words, fearing that the Sect Leader would change their mind. He immediately knelt down and bowed three loud head-knocks. He also took it upon himself to change his surname to Tang. The Sect Leader found him straightforward and smiled inwardly, making no correction."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15369,8 +15375,8 @@
   splits:
   - split: 1
     text: "许大鲸成为了唐门弟子。"
-    translated: "Xu Daqing became a Tang Clan Disciple"
-    qcReviewedText: "Xu Daqing became a Tang Clan Disciple"
+    translated: "Xu Dajing became a disciple of the Tang Clan."
+    qcReviewedText: "Xu Dajing became a disciple of the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15480,8 +15486,8 @@
   splits:
   - split: 1
     text: "跟叶云舟告状，替李富贵讨回公道"
-    translated: "Report to Ye Yunzhao to seek justice for Li Fugui."
-    qcReviewedText: "Report to Ye Yunzhao to seek justice for Li Fugui."
+    translated: "Complain to Ye Yunzhou and help Li Fugui get justice."
+    qcReviewedText: "Complain to Ye Yunzhou and help Li Fugui get justice."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15489,8 +15495,8 @@
   splits:
   - split: 1
     text: "你治不了叶云裳，但你可以跟叶云舟告状。云裳的屁股险些没被抽烂，连受害者李富贵都于心不忍。"
-    translated: "You can't deal with Ye Yunshang, but you can report to Ye Yunzhao. Yunshang's bottom was almost beaten to a pulp, and even the victim Li Fugui felt pity."
-    qcReviewedText: "You can't deal with Ye Yunshang, but you can report to Ye Yunzhao. Yunshang's bottom was almost beaten to a pulp, and even the victim Li Fugui felt pity."
+    translated: "You can't help Ye Yunshang, but you can complain to Ye Yunzhou. Yunshang's buttocks were barely spared from being beaten black and blue; even Li Fugui, the victim, felt guilty about it."
+    qcReviewedText: "You can't help Ye Yunshang, but you can complain to Ye Yunzhou. Yunshang's buttocks were barely spared from being beaten black and blue; even Li Fugui, the victim, felt guilty about it."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16085,8 +16091,8 @@
   splits:
   - split: 1
     text: "福韫在外堡树下讲佛经寓言故事，孩童都席地静听。你偶然经过，瞥眼发现叶云舟也蹲在地上，他挪了一点位子给你。"
-    translated: "Fu Yun was telling Buddhist parable stories under a tree in the outer fortress, with children sitting cross-legged on the ground listening quietly. You happened to pass by, glanced over, and noticed Ye Yunzhao also squatting there, shifting a bit to make space for you."
-    qcReviewedText: "Fu Yun was telling Buddhist parable stories under a tree in the outer fortress, with children sitting cross-legged on the ground listening quietly. You happened to pass by, glanced over, and noticed Ye Yunzhao also squatting there, shifting a bit to make space for you."
+    translated: "Fu Yun was telling Buddhist fables under a tree in the outer fortress, and children were sitting quietly on the ground listening. You happened to pass by and noticed Ye Yunzhou also crouched on the ground; they shifted a bit to make space for you."
+    qcReviewedText: "Fu Yun was telling Buddhist fables under a tree in the outer fortress, and children were sitting quietly on the ground listening. You happened to pass by and noticed Ye Yunzhou also crouched on the ground; they shifted a bit to make space for you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

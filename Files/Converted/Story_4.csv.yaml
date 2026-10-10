@@ -35037,8 +35037,8 @@
   splits:
   - split: 1
     text: "深儿，来拜见唐三侠，这是叔公好朋友。"
-    translated: "Shen'er, come meet Hero Tang, this is Uncle's good friend."
-    qcReviewedText: "Shen'er, come meet Hero Tang, this is Uncle's good friend."
+    translated: "Shen'er, come meet Tang Third Hero; he is Uncle's good friend."
+    qcReviewedText: "Shen'er, come meet Tang Third Hero; he is Uncle's good friend."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -35330,15 +35330,11 @@
   splits:
   - split: 1
     text: "叔公你切莫着急，唐三侠此问，并不是刁难我，而是另有深意。此地何地？唐门正心堂。我南宫世家护心诀，专论心意。我知行如一，正心正义，试论天下豪杰心迹则可。"
-    translated: "Uncle, do not worry. The three heroes from the Tang Clan are not being difficult, but have a deeper purpose. This place is the Hall of Righteous Hearts of the Tang Clan. The Nangong Family's Guardian of the Heart specializes in the study of the mind. I know that knowledge and action are in harmony, and I uphold righteousness. I am ready to discuss the hearts of heroes across the land."
-    qcReviewedText: "Uncle, do not worry. The three heroes from the Tang Clan are not being difficult, but have a deeper purpose. This place is the Hall of Righteous Hearts of the Tang Clan. The Nangong Family's Guardian of the Heart specializes in the study of the mind. I know that knowledge and action are in harmony, and I uphold righteousness. I am ready to discuss the hearts of heroes across the land."
-    qcTranslated: "Uncle, do not worry. Third Hero Tang's question is not meant to be difficult, but has a deeper purpose. Where are we? The Hall of Righteous Hearts of the Tang Clan. My Nangong Family's Heart-Guarding Formula specializes in the study of the mind. I am one in knowledge and action, upholding rightness and justice; I am ready to discuss the hearts of heroes across the land."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - UnnaturalPhrasing
+    translated: "Uncle, don't worry. Tang Clan's Third Hero is not trying to trick me; there is a deeper meaning behind his question. Where are we? We are in the Tang Clan's Zhengxin Hall. Our Nangong family's Heart Protection Art focuses on the heart and mind. If my actions align with my words, and I uphold justice and righteousness, then discussing the hearts and minds of heroes across the land is within my reach."
+    qcReviewedText: "Uncle, don't worry. Tang Clan's Third Hero is not trying to trick me; there is a deeper meaning behind his question. Where are we? We are in the Tang Clan's Zhengxin Hall. Our Nangong family's Heart Protection Art focuses on the heart and mind. If my actions align with my words, and I uphold justice and righteousness, then discussing the hearts and minds of heroes across the land is within my reach."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_5_3_1_086,礼记大学有云：『物有本末，事有终始，知所先后，则近道矣。』"
   splits:
   - split: 1
@@ -35633,14 +35629,11 @@
   splits:
   - split: 1
     text: "唐三侠似乎对我的回答不甚满意。无妨，如此说词，于我南宫所益最深。"
-    translated: "The Three Heroes seemed unsatisfied with my response. Never mind, for me, this way of speaking is most beneficial to Nangong."
-    qcReviewedText: "The Three Heroes seemed unsatisfied with my response. Never mind, for me, this way of speaking is most beneficial to Nangong."
-    qcTranslated: "The Third Hero seemed unsatisfied with my response. Never mind, for me, this way of speaking is most beneficial to Nangong."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Tang Third Hero seems unsatisfied with my answer. No matter; these words are most beneficial to me, Nangong."
+    qcReviewedText: "Tang Third Hero seems unsatisfied with my answer. No matter; these words are most beneficial to me, Nangong."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_5_3_1_096,多谢掌门赐茶。"
   splits:
   - split: 1
@@ -36129,8 +36122,8 @@
   splits:
   - split: 1
     text: "唐三侠还说漏了两人，不过那两个终日打情骂俏的家伙无关紧要。"
-    translated: "The Three Heroes forgot to mention two people. However, those two guys who are always bantering and flirting with each other aren't important."
-    qcReviewedText: "The Three Heroes forgot to mention two people. However, those two guys who are always bantering and flirting with each other aren't important."
+    translated: "Third Hero Tang also mentioned two others by accident, but those two guys who are always flirting and teasing each other aren't important."
+    qcReviewedText: "Third Hero Tang also mentioned two others by accident, but those two guys who are always flirting and teasing each other aren't important."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -37351,8 +37344,8 @@
   splits:
   - split: 1
     text: "江陵与畜生道一战之后，饿鬼道、地狱道都蠢蠢欲动。与武林正派摩擦加剧，遑论还有那诡秘的人间道藏于水面之下。"
-    translated: "After the battle with the Beast Path, the Hungry Ghost Path and Hell's Path became restless. Tensions increased with the righteous sects of the Wulin, let alone the mysterious Human Path lurking beneath the surface."
-    qcReviewedText: "After the battle with the Beast Path, the Hungry Ghost Path and Hell's Path became restless. Tensions increased with the righteous sects of the Wulin, let alone the mysterious Human Path lurking beneath the surface."
+    translated: "After Jiangling's battle with the Beast Path, both the Hungry Ghost Path and Hell Path became restless. Friction with the righteous factions of Wulin intensified, not to mention the enigmatic Human Path lurking beneath the surface."
+    qcReviewedText: "After Jiangling's battle with the Beast Path, both the Hungry Ghost Path and Hell Path became restless. Friction with the righteous factions of Wulin intensified, not to mention the enigmatic Human Path lurking beneath the surface."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

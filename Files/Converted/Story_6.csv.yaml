@@ -6896,14 +6896,11 @@
   splits:
   - split: 1
     text: "地狱道赵逵、天道车轩辕、饿鬼道刘颚，还有最后的人间道"
-    translated: "Hell's Path Zhao Kui, Heavenly Path Che Xuanxuan, Hungry Ghost Path Liu E, and finally the Human Path"
-    qcReviewedText: "Hell's Path Zhao Kui, Heavenly Path Che Xuanxuan, Hungry Ghost Path Liu E, and finally the Human Path──That's you, Master. This is the order in which the remaining four sects of the Mud Cult were obliterated."
-    qcTranslated: "Hell's Path Zhao Kui, Heavenly Path Che Xuanxuan, Hungry Ghost Path Liu E, and finally the Human Path──that is, you, Master. This is the order in which the remaining four paths of the Mud Cult were obliterated."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Hell Path Zhao Kui, Heavenly Path Che Xuanyuan, Hungry Ghost Path Liu E, and finally the Human Path"
+    qcReviewedText: "Hell Path Zhao Kui, Heavenly Path Che Xuanyuan, Hungry Ghost Path Liu E, and finally the Human Path──That's you, Master. This is the order in which the remaining four sects of the Mud Cult were obliterated."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "亦即是师父你。这就是泥教剩余四道覆灭的顺序。"
@@ -13300,8 +13297,8 @@
   splits:
   - split: 1
     text: "赵法王司掌地狱道，所以到处擒杀犯人，私刑处置，难道不是因为世间太多不公不义，官官相护？"
-    translated: "The Dharma King oversees Hell's Path, so he dispatches people to capture and punish criminals everywhere, meting out private justice. Is this not because there is too much injustice in the world, with officials protecting each other?"
-    qcReviewedText: "The Dharma King oversees Hell's Path, so he dispatches people to capture and punish criminals everywhere, meting out private justice. Is this not because there is too much injustice in the world, with officials protecting each other?"
+    translated: "Dharma King Zhao enforces the Hell Path, so they arrest and execute criminals everywhere, administering their own punishments. Isn't this because there is too much injustice in the world, with officials protecting each other?"
+    qcReviewedText: "Dharma King Zhao enforces the Hell Path, so they arrest and execute criminals everywhere, administering their own punishments. Isn't this because there is too much injustice in the world, with officials protecting each other?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18518,8 +18515,8 @@
   splits:
   - split: 1
     text: "点苍逆徒叶云舟，站出来！莫再倚仗唐门庇护！入阵来，咱师徒俩把过往恩怨情仇理一理！"
-    translated: "Diancang's wayward disciple Ye Yunzhao, step forward! Don't rely on the Tang Clan's protection anymore! Enter the array, and let's settle our past grievances and enmities!"
-    qcReviewedText: "Diancang's wayward disciple Ye Yunzhao, step forward! Don't rely on the Tang Clan's protection anymore! Enter the array, and let's settle our past grievances and enmities!"
+    translated: "Rebel of Diancang, Ye Yunzhou, step forward! No longer rely on the Tang Clan's protection! Enter the formation, and let my disciple and I settle our past grievances!"
+    qcReviewedText: "Rebel of Diancang, Ye Yunzhou, step forward! No longer rely on the Tang Clan's protection! Enter the formation, and let my disciple and I settle our past grievances!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18594,14 +18591,14 @@
   - split: 1
     text: "岳家旧部，红篷王麾下六路联军，"
     translated: "Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,"
-    qcReviewedText: "{size=35} Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,{/size} {size=35} Nominate Ye Yunzhao to enter the formation!{/size}"
+    qcReviewedText: "{size=35} Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,{/size} {size=35} Nominate Ye Yunzhou to enter the formation!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "推举叶云舟入阵！"
-    translated: "Nominate Ye Yunzhao to enter the formation!"
+    translated: "Nominate Ye Yunzhou to enter the formation!"
   templates:
   - split: 1
     template: "⟦size=35⟧{0}⟦/size⟧⟦size=35⟧{1}⟦/size⟧"
@@ -18687,8 +18684,8 @@
   splits:
   - split: 1
     text: "以唐门的名义派出叶云舟"
-    translated: "Dispatch Ye Yunzhao in the name of the Tang Clan."
-    qcReviewedText: "Dispatch Ye Yunzhao in the name of the Tang Clan."
+    translated: "Send Ye Yunzhou in the name of the Tang Clan."
+    qcReviewedText: "Send Ye Yunzhou in the name of the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18741,8 +18738,8 @@
   splits:
   - split: 1
     text: "唐门推举外姓弟子叶云舟！"
-    translated: "Tang Clan nominates outsider disciple Ye Yunzhao!"
-    qcReviewedText: "{size=35} Tang Clan nominates outsider disciple Ye Yunzhao!{/size}"
+    translated: "The Tang Clan has elected an outer-clan disciple, Ye Yunzhou!"
+    qcReviewedText: "{size=35} The Tang Clan has elected an outer-clan disciple, Ye Yunzhou!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18753,8 +18750,8 @@
   splits:
   - split: 1
     text: "外姓弟子叶云舟领命！"
-    translated: "Ye Yunzhao, the outsider disciple, accepts the command!"
-    qcReviewedText: "Ye Yunzhao, the outsider disciple, accepts the command!"
+    translated: "The disciple Ye Yunzhou from another clan accepts the mission!"
+    qcReviewedText: "The disciple Ye Yunzhou from another clan accepts the mission!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18809,14 +18806,14 @@
   - split: 1
     text: "岳家旧部，红篷王麾下六路联军，"
     translated: "Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,"
-    qcReviewedText: "{size=35} Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,{/size} {size=35} Nominate Ye Yunzhao to enter the formation!{/size}"
+    qcReviewedText: "{size=35} Yue Clan's former followers, the Six Allied Armies under Red Pavilion King's command,{/size} {size=35} Nominate Ye Yunzhou to enter the formation!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "推举叶云舟入阵！"
-    translated: "Nominate Ye Yunzhao to enter the formation!"
+    translated: "Nominate Ye Yunzhou to enter the formation!"
   templates:
   - split: 1
     template: "⟦size=35⟧{0}⟦/size⟧⟦size=35⟧{1}⟦/size⟧"
@@ -19173,17 +19170,20 @@
   splits:
   - split: 1
     text: "众议纷纷，均不齿叶云舟为人，可是又巴望着能与他打好关系，等到宝藏出世之日，好念着情份分自己一杯羹。当然料定自己没分，不管三七二十一破口大骂的自然也大有人在。"
-    translated: "The crowd was in heated debate, all disparaging Ye Yunzhao's character, yet yearning to cultivate a good relationship with him, hoping to claim a share of the treasure when it emerged. Naturally, many were certain they would get nothing, and those who would curse him without hesitation were also numerous."
-    qcReviewedText: "The crowd was in heated debate, all disparaging Ye Yunzhao's character, yet yearning to cultivate a good relationship with him, hoping to claim a share of the treasure when it emerged. Naturally, many were certain they would get nothing, and those who would curse him without hesitation were also numerous."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Everyone was talking among themselves and disapproving of Ye Yunzhou's character. Yet they all hoped to establish good relations with him so that on the day the treasure appeared, they could rely on their connections to get a share of it. While certain they wouldn't get any part of it, some didn't hesitate to openly curse at them, regardless of the consequences."
+    qcReviewedText: "Everyone was talking among themselves and disapproving of Ye Yunzhou's character. Yet they all hoped to establish good relations with him so that on the day the treasure appeared, they could rely on their connections to get a share of it. While certain they wouldn't get any part of it, some didn't hesitate to openly curse at them, regardless of the consequences."
+    qcTranslated: "Everyone was talking among themselves and disapproving of Ye Yunzhou's character. Yet they all hoped to establish good relations with him so that on the day the treasure appeared, they could rely on their connections to get a share of it. While certain they wouldn't get any part of it, some didn't hesitate to openly curse at him, regardless of the consequences."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/T_6_5_4_1_001,点苍派来到中原，不能竞争武林盟主，可也不能空手而回。今日必须得清理门户，以壮门威。叶云舟这小子天赋绝佳，难为师弟舍得。"
   splits:
   - split: 1
     text: "点苍派来到中原，不能竞争武林盟主，可也不能空手而回。今日必须得清理门户，以壮门威。叶云舟这小子天赋绝佳，难为师弟舍得。"
-    translated: "The Diancang faction has arrived in the Central Plains and cannot compete for the leadership of the Wulin Alliance. Yet, they cannot return empty-handed either. Today, they must clear the way to strengthen their prestige. This Ye Yunzhao boy has exceptional natural talent; it's hard for the junior disciple to let go."
-    qcReviewedText: "The Diancang faction has arrived in the Central Plains and cannot compete for the leadership of the Wulin Alliance. Yet, they cannot return empty-handed either. Today, they must clear the way to strengthen their prestige. This Ye Yunzhao boy has exceptional natural talent; it's hard for the junior disciple to let go."
+    translated: "The Diancang Sect has come to the Central Plains and cannot compete for the leadership of the Wulin Alliance, but they also cannot return empty-handed. Today, they must settle accounts to strengthen their sect's prestige. This young brat Ye Yunzhou is exceptionally talented; it's hard to believe that Junior Brother would be willing to part with him."
+    qcReviewedText: "The Diancang Sect has come to the Central Plains and cannot compete for the leadership of the Wulin Alliance, but they also cannot return empty-handed. Today, they must settle accounts to strengthen their sect's prestige. This young brat Ye Yunzhou is exceptionally talented; it's hard to believe that Junior Brother would be willing to part with him."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19454,8 +19454,8 @@
   splits:
   - split: 1
     text: "妈的，早知道没有藏宝图，老子何必跟那叶云舟称兄道弟，还请他喝酒吃肉，真是浪费。"
-    translated: "Damn it, if only I had known there was no treasure map, why did I have to be brothers with that Ye Yunzhao, and even invite him to drink and eat meat? It's a real waste."
-    qcReviewedText: "Damn it, if only I had known there was no treasure map, why did I have to be brothers with that Ye Yunzhao, and even invite him to drink and eat meat? It's a real waste."
+    translated: "Damn it, if I had known there was no treasure map, why would I have bothered to call myself brothers with that Ye Yunzhou and treat him to drinks and food? What a waste."
+    qcReviewedText: "Damn it, if I had known there was no treasure map, why would I have bothered to call myself brothers with that Ye Yunzhou and treat him to drinks and food? What a waste."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19472,8 +19472,8 @@
   splits:
   - split: 1
     text: "说到底，宝藏一说本就是穿凿附会，空穴来风。叶云舟何曾没有辩白？可是谁甘愿相信呢？"
-    translated: "In the end, the idea of treasure is nothing but fabricated and baseless. Has Ye Yunzhao never defended himself? But who would willingly believe?"
-    qcReviewedText: "In the end, the idea of treasure is nothing but fabricated and baseless. Has Ye Yunzhao never defended himself? But who would willingly believe?"
+    translated: "In the end, the notion of a treasure trove is nothing more than conjecture and baseless rumors. Ye Yunzhou has never failed to defend himself, but who is willing to believe him?"
+    qcReviewedText: "In the end, the notion of a treasure trove is nothing more than conjecture and baseless rumors. Ye Yunzhou has never failed to defend himself, but who is willing to believe him?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19609,8 +19609,8 @@
   splits:
   - split: 1
     text: "可是手足情深，一把推开叶云舟，去看师弟伤势。"
-    translated: "However, moved by their deep brotherly bond, they pushed Ye Yunzhao aside to check on the apprentice brother's injuries."
-    qcReviewedText: "However, moved by their deep brotherly bond, they pushed Ye Yunzhao aside to check on the apprentice brother's injuries."
+    translated: "But, feeling deeply protective of his sibling, they pushed Ye Yunzhou aside to check on their younger brother's injuries."
+    qcReviewedText: "But, feeling deeply protective of his sibling, they pushed Ye Yunzhou aside to check on their younger brother's injuries."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19858,8 +19858,8 @@
   splits:
   - split: 1
     text: "离了点苍，还有新的归属，叶云舟此刻才以唐门弟子自居。武林人见他回归唐门人群，大受欢迎的样子，均自扼腕。何以这样的年轻高手不是加入自己门派，偏要选择唐门？"
-    translated: "After leaving Diancang, Ye Yunzhao now considered himself a Tang Clan disciple, having found a new affiliation. Seeing him return to the Tang Clan group and being warmly welcomed, the Wulin people all sighed in regret. Why would such a young master not join their own sect, but instead choose the Tang Clan?"
-    qcReviewedText: "After leaving Diancang, Ye Yunzhao now considered himself a Tang Clan disciple, having found a new affiliation. Seeing him return to the Tang Clan group and being warmly welcomed, the Wulin people all sighed in regret. Why would such a young master not join their own sect, but instead choose the Tang Clan?"
+    translated: "After leaving Diancang, Ye Yunzhou now considers himself a member of the Tang Clan. The people in Wulin saw him return to the Tang Clan's group and were widely disappointed. Why did such a young and skilled expert join the Tang Clan instead of their own sect?"
+    qcReviewedText: "After leaving Diancang, Ye Yunzhou now considers himself a member of the Tang Clan. The people in Wulin saw him return to the Tang Clan's group and were widely disappointed. Why did such a young and skilled expert join the Tang Clan instead of their own sect?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22543,11 +22543,14 @@
   splits:
   - split: 1
     text: "说着对叶云舟对你露出小虎牙。"
-    translated: "Saying this, they showed Ye Yunzhao a small toothy grin."
-    qcReviewedText: "Saying this, they showed Ye Yunzhao a small toothy grin."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "Saying this, Ye Yunzhou bared their small tiger teeth at you."
+    qcReviewedText: "Saying this, Ye Yunzhou bared their small tiger teeth at you."
+    qcTranslated: "Saying this, Ye Yunzhou bared his small tiger teeth at you."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "Story/T_6_6_2_Break_01_001,啊，我会被可爱致死。"
   splits:
   - split: 1
@@ -25404,8 +25407,8 @@
   splits:
   - split: 1
     text: "天王座车轩辕与贫道恩师神交已久，素未谋面。恩师不认为泥教必是魔教，愿往六道峡相劝。若那天王座当真十恶不赦，妖言惑众，恩师自当提剑为民除害。"
-    translated: "The Heavenly King seated Che Xuanxuan has had spiritual communication with my respected master for a long time, but they have never met face to face. My respected master does not believe that the Mud Cult must be a Demon Sect and is willing to go to Six Paths Canyon to persuade them. If the Heavenly King truly deserves tenfold condemnation, and spreads heretical doctrines to mislead the people, my respected master will certainly draw his sword to protect the people from harm."
-    qcReviewedText: "The Heavenly King seated Che Xuanxuan has had spiritual communication with my respected master for a long time, but they have never met face to face. My respected master does not believe that the Mud Cult must be a Demon Sect and is willing to go to Six Paths Canyon to persuade them. If the Heavenly King truly deserves tenfold condemnation, and spreads heretical doctrines to mislead the people, my respected master will certainly draw his sword to protect the people from harm."
+    translated: "Che Xuanyuan of the Heavenly King and my humble teacher have been spiritual acquaintances for a long time, though they have never met in person. My teacher does not believe that the Mud Cult must be the Demon Sect and is willing to go to the Six Paths Gorge to persuade them. If the Heavenly King truly commits ten heinous crimes and spreads false words to deceive the masses, my teacher will certainly draw their sword to eliminate the harm for the people."
+    qcReviewedText: "Che Xuanyuan of the Heavenly King and my humble teacher have been spiritual acquaintances for a long time, though they have never met in person. My teacher does not believe that the Mud Cult must be the Demon Sect and is willing to go to the Six Paths Gorge to persuade them. If the Heavenly King truly commits ten heinous crimes and spreads false words to deceive the masses, my teacher will certainly draw their sword to eliminate the harm for the people."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27745,8 +27748,8 @@
   splits:
   - split: 1
     text: "江湖末学叶云舟，恭贺大侠荣任盟主。"
-    translated: "Jianghu novice Ye Yunzhao respectfully congratulates the Great Hero on being honored to serve as the Alliance Leader."
-    qcReviewedText: "Jianghu novice Ye Yunzhao respectfully congratulates the Great Hero on being honored to serve as the Alliance Leader."
+    translated: "A humble student of Jianghu, Ye Yunzhou, congratulates the Great Hero on their honorable appointment as Alliance Leader."
+    qcReviewedText: "A humble student of Jianghu, Ye Yunzhou, congratulates the Great Hero on their honorable appointment as Alliance Leader."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28481,8 +28484,8 @@
   splits:
   - split: 1
     text: "阿隼。晚上咱们哥俩喝一杯？"
-    translated: "A'Sun. Why don't we have a drink together tonight?"
-    qcReviewedText: "A'Sun. Why don't we have a drink together tonight?"
+    translated: "A'Jun. How about we have a drink tonight, just the two of us?"
+    qcReviewedText: "A'Jun. How about we have a drink tonight, just the two of us?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31428,8 +31431,8 @@
   splits:
   - split: 1
     text: "地狱道装神弄鬼，怪力乱神。四处掳掠，滥用私刑，可谓是目无王法！"
-    translated: "The Hell's Path engages in all manner of deceit and trickery, exhibiting supernatural strength and madness. They plunder and torture indiscriminately, defying the law entirely!"
-    qcReviewedText: "The Hell's Path engages in all manner of deceit and trickery, exhibiting supernatural strength and madness. They plunder and torture indiscriminately, defying the law entirely!"
+    translated: "The Hell Path is full of trickery and superstition. They plunder and abuse private punishments everywhere, showing utter disregard for the law!"
+    qcReviewedText: "The Hell Path is full of trickery and superstition. They plunder and abuse private punishments everywhere, showing utter disregard for the law!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -34470,8 +34473,8 @@
   splits:
   - split: 1
     text: "就算人间道无罪，你能保证饿鬼道、地狱道、天道无心染指中原吗？别说泥教，便是朝廷也虎视眈眈。我等若不结盟，正道相互磨耗，如何自保？此刻心软，谁能保证不会招致最坏的结果？"
-    translated: "Even if the Human Path has no guilt, can you guarantee that the Hungry Ghost Path, Hell's Path, or Heavenly Path will not meddle in Central Plain? Forget about the Mud Cult; even the court is covetous. If we do not form an alliance, how can the orthodox paths protect themselves from mutual depletion? Who can ensure that our leniency now will not lead to the worst outcome?"
-    qcReviewedText: "Even if the Human Path has no guilt, can you guarantee that the Hungry Ghost Path, Hell's Path, or Heavenly Path will not meddle in Central Plain? Forget about the Mud Cult; even the court is covetous. If we do not form an alliance, how can the orthodox paths protect themselves from mutual depletion? Who can ensure that our leniency now will not lead to the worst outcome?"
+    translated: "Even if the Human Path is innocent, can you guarantee that the Hungry Ghost Path, Hell Path, and Heavenly Path won't interfere in Central China? Don't just think of the Mud Cult; even the imperial court is eyeing us greedily. If we don't form an alliance, the righteous paths will wear each other down. How can we protect ourselves? If we show weakness now, who can guarantee that it won't lead to the worst possible outcome?"
+    qcReviewedText: "Even if the Human Path is innocent, can you guarantee that the Hungry Ghost Path, Hell Path, and Heavenly Path won't interfere in Central China? Don't just think of the Mud Cult; even the imperial court is eyeing us greedily. If we don't form an alliance, the righteous paths will wear each other down. How can we protect ourselves? If we show weakness now, who can guarantee that it won't lead to the worst possible outcome?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
