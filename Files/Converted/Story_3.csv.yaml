@@ -18777,8 +18777,8 @@
   splits:
   - split: 1
     text: "仁者不忧，智者不惑，勇者不惧。南宫尚仁，上官尚智，唐门尚勇。我还不信人片面之词，就能害本门受武林排挤，若真有，便战他娘亲。"
-    translated: "The benevolent are untroubled, the wise are unconfused, and the brave are unafraid. Nangong Shangren embodies benevolence, Shangguan Shangzhi embodies wisdom, and Tang Clan embodies bravery. I still do not believe that one person's biased words can cause my clan to be ostracized by the Wulin; if it were true, then I would fight their mother."
-    qcReviewedText: "The benevolent are untroubled, the wise are unconfused, and the brave are unafraid. Nangong Shangren embodies benevolence, Shangguan Shangzhi embodies wisdom, and Tang Clan embodies bravery. I still do not believe that one person's biased words can cause my clan to be ostracized by the Wulin; if it were true, then I would fight their mother."
+    translated: "A benevolent person is not anxious, a wise person is not perplexed, and a brave person is not afraid. Nangong values benevolence, Shangguan values wisdom, and Tang Clan values bravery. I don't believe that mere words from someone could harm our clan's standing in Wulin; if it were true, we would beat their mother."
+    qcReviewedText: "A benevolent person is not anxious, a wise person is not perplexed, and a brave person is not afraid. Nangong values benevolence, Shangguan values wisdom, and Tang Clan values bravery. I don't believe that mere words from someone could harm our clan's standing in Wulin; if it were true, we would beat their mother."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31304,8 +31304,8 @@
   splits:
   - split: 1
     text: "别派怕不怕我们很难说，总之唐门可不会怕他们。能够河水不犯井水最好，非要欺负人，那就战他娘亲。"
-    translated: "It's hard to say whether the other sects fear us. In any case, Tang Clan isn't afraid of them. It's best if our waters don't mix with theirs. If they have to bully people, then we'll fight their mother."
-    qcReviewedText: "It's hard to say whether the other sects fear us. In any case, Tang Clan isn't afraid of them. It's best if our waters don't mix with theirs. If they have to bully people, then we'll fight their mother."
+    translated: "It's hard to say if they're afraid of us, but one thing's for sure: the Tang Clan isn't afraid of them. It would be best if we could just leave each other alone, but if they insist on bullying us, then we'll beat their mother."
+    qcReviewedText: "It's hard to say if they're afraid of us, but one thing's for sure: the Tang Clan isn't afraid of them. It would be best if we could just leave each other alone, but if they insist on bullying us, then we'll beat their mother."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31313,8 +31313,8 @@
   splits:
   - split: 1
     text: "三师兄，师弟这句战他娘亲说得字正腔圆，比你都像唐门弟子。"
-    translated: "Third Senior Brother, Junior Brother pronounced that 'fight their mother' perfectly. He sounds more like a Tang Clan disciple than you do."
-    qcReviewedText: "Third Senior Brother, Junior Brother pronounced that 'fight their mother' perfectly. He sounds more like a Tang Clan disciple than you do."
+    translated: "Third Senior Brother, my Junior Disciple pronounced 'Beat his mother' so clearly and properly that it sounds more like a Tang Clan disciple than you do."
+    qcReviewedText: "Third Senior Brother, my Junior Disciple pronounced 'Beat his mother' so clearly and properly that it sounds more like a Tang Clan disciple than you do."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31940,8 +31940,8 @@
   splits:
   - split: 1
     text: "战他娘亲！"
-    translated: "Fight their mother!"
-    qcReviewedText: "{size=42} Fight their mother!{/size}"
+    translated: "Beat their mother!"
+    qcReviewedText: "{size=42} Beat their mother!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32529,11 +32529,14 @@
   splits:
   - split: 1
     text: "然后我就到了应天、开封、河南、河中联合的山贼誓师大会，战他娘亲。"
-    translated: "Then I went to a joint oath‑taking rally of mountain bandits from Yingtian, Kaifeng, Henan, and Hezhong. Fight their mother!"
-    qcReviewedText: "Then I went to a joint oath‑taking rally of mountain bandits from Yingtian, Kaifeng, Henan, and Hezhong. Fight their mother!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "While correcting, I arrived at the mountain bandit rally organized by the alliance of Ying Tian, Kaifeng, Henan, and Hezhong, where they were shouting, Beat their mother."
+    qcReviewedText: "While correcting, I arrived at the mountain bandit rally organized by the alliance of Ying Tian, Kaifeng, Henan, and Hezhong, where they were shouting, Beat their mother."
+    qcTranslated: "Then I arrived at the mountain bandit rally organized by the alliance of Ying Tian, Kaifeng, Henan, and Hezhong, where they were shouting, Beat their mother."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/D_4_4_2_Break_031,怎么回事！这也太突然了！"
   splits:
   - split: 1
@@ -33673,15 +33676,11 @@
   splits:
   - split: 1
     text: "要让这种人清醒，首先就是打他一顿，然后把剑折断让他看清现实。点苍派想战，那咱们改天就远征大理去，战他娘亲！"
-    translated: "To make such people realize the truth, one must first beat them up and then break their sword to let them see reality. If the Diancang sect wants to fight, then we will go on a expedition to Dali another day and fight their mother!"
-    qcReviewedText: "To make such people realize the truth, one must first beat them up and then break their sword to let them see reality. If the Diancang sect wants to fight, then we will go on a expedition to Dali another day and fight their mother!"
-    qcTranslated: "To sober up such people, one must first beat them up and then break their sword to let them see reality. If the Diancang sect wants to fight, then we will go on an expedition to Dali another day and fight their mother!"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
-    - OtherNamedDefect
+    translated: "To wake up someone like this, you first have to beat them up and then break their sword to show them reality. If the Diancang Sect wants to fight, then let's march on Dali another day and give them a taste of war! Beat their mother!"
+    qcReviewedText: "To wake up someone like this, you first have to beat them up and then break their sword to show them reality. If the Diancang Sect wants to fight, then let's march on Dali another day and give them a taste of war! Beat their mother!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_4_4_2_Break_139,这么狂吗？"
   splits:
   - split: 1

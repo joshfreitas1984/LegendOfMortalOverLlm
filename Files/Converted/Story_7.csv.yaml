@@ -12679,11 +12679,14 @@
   splits:
   - split: 1
     text: "好累啊……没想到岳阳一行这么多事。还道是来观礼，至多被官兵刁难时义无反顾战他娘亲。"
-    translated: "I am so tired... I didn't expect the trip to Yueyang to be so eventful. Thought we were just coming to observe the ceremony, but ended up having to fight their mother when the soldiers made things difficult."
-    qcReviewedText: "I am so tired... I didn't expect the trip to Yueyang to be so eventful. Thought we were just coming to observe the ceremony, but ended up having to fight their mother when the soldiers made things difficult."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "So tired...... I didn't expect there to be so much trouble in Yueyang. I thought I was just coming to attend the ceremony, and at most, I would have to beat their mother when soldier's they tried to obstruct me with righteous resolve."
+    qcReviewedText: "So tired...... I didn't expect there to be so much trouble in Yueyang. I thought I was just coming to attend the ceremony, and at most, I would have to beat their mother when soldier's they tried to obstruct me with righteous resolve."
+    qcTranslated: "So tired...... I didn't expect there to be so much trouble in Yueyang. I thought I was just coming to attend the ceremony, and at most, I would have to beat their mother with righteous resolve if the soldiers tried to obstruct me."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Story/D_6_9_1_051,……因为我的决策，好多人死了。"
   splits:
   - split: 1

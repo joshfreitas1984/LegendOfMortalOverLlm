@@ -3459,8 +3459,8 @@
   splits:
   - split: 1
     text: "战他娘亲！"
-    translated: "Fight their mother!"
-    qcReviewedText: "Fight their mother!"
+    translated: "Beat their mother!"
+    qcReviewedText: "Beat their mother!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3468,8 +3468,8 @@
   splits:
   - split: 1
     text: "战他娘亲！"
-    translated: "Fight their mother!"
-    qcReviewedText: "{size=35} Fight their mother!{/size}"
+    translated: "Beat their mother!"
+    qcReviewedText: "{size=35} Beat their mother!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30855,21 +30855,20 @@
   splits:
   - split: 1
     text: "我会赢，且看弟子如何战他娘亲。"
-    translated: "I will win, and see how my disciples fight their mothers."
-    qcReviewedText: "I will win, and see how my disciples fight their mothers."
-    qcTranslated: "I will win, and see how my disciples Fight their mother."
+    translated: "I will win. Watch as my disciple shows how to beat their mother."
+    qcReviewedText: "I will win. Watch as my disciple shows how to beat their mother."
+    qcTranslated: "I will win. Watch how I, your disciple, beat your mother."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - DroppedContent
+    - MeaningReversal
 - raw: "Story/D_8_7_2_1_055,我这样的江湖杂鱼，八成不是武林盟主的敌手。但师门宗旨不敢或忘，不得活，也要心怀骄傲的死去。死前趁乱战他娘亲。"
   splits:
   - split: 1
     text: "我这样的江湖杂鱼，八成不是武林盟主的敌手。但师门宗旨不敢或忘，不得活，也要心怀骄傲的死去。死前趁乱战他娘亲。"
-    translated: "I, such a mere fish in the vast Jianghu, likely not an opponent for the Alliance Leader. But I dare not forget the tenets of my lineage; even if I cannot live, I must die with pride. Before dying, I will take this chaos to fight their mother."
-    qcReviewedText: "I, such a mere fish in the vast Jianghu, likely not an opponent for the Alliance Leader. But I dare not forget the tenets of my lineage; even if I cannot live, I must die with pride. Before dying, I will take this chaos to fight their mother."
+    translated: "I'm just a lowly nobody in Jianghu, probably no match for the Alliance Leader. But I can't forget my sect's principles. Even if I can't live, I'll die with pride. Before I die, I'll take advantage of the chaos to beat his mother."
+    qcReviewedText: "I'm just a lowly nobody in Jianghu, probably no match for the Alliance Leader. But I can't forget my sect's principles. Even if I can't live, I'll die with pride. Before I die, I'll take advantage of the chaos to beat his mother."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -31221,8 +31220,8 @@
   splits:
   - split: 1
     text: "师兄！战他娘亲！"
-    translated: "Senior Brother! Fight their mother!"
-    qcReviewedText: "{size=35} Senior Brother! Fight their mother!{/size}"
+    translated: "Senior Brother! Beat his mother!"
+    qcReviewedText: "{size=35} Senior Brother! Beat his mother!{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
