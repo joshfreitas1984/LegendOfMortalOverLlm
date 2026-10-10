@@ -572,10 +572,6 @@
   rawSimplified: 锦衣卫
   rawTraditional: 錦衣衛
   result: Imperial Guard
-- raw: 禁军
-  rawSimplified: 禁军
-  rawTraditional: 禁軍
-  result: Forbidden Army
 - raw: 讲经先生
   rawSimplified: 讲经先生
   rawTraditional: 講經先生
@@ -1194,3 +1190,17 @@
   allowalt: 
     - start of the month
     - start of this month
+- raw: 二俠
+  rawSimplified: 二侠
+  rawTraditional: 二俠
+  result: Second Hero
+  allowalt:
+  - Hero
+- raw: 三俠
+  rawSimplified: 三侠
+  rawTraditional: 三俠
+  result: Third Hero
+  allowalt:
+  - Hero
+  direct: three heroes
+  literal: san xia
