@@ -460,14 +460,14 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nAll attributes are enhanced based on the level of mastery of the Shape‑Intent Boxing style."
+    qcReviewedText: "[Duel]\\nAll attributes are enhanced based on the level of mastery of the Shape-Intent Boxing style."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "全属性根据形意拳精通数获得提升。"
-    translated: "All attributes are enhanced based on the level of mastery of the Shape‑Intent Boxing style."
+    translated: "All attributes are enhanced based on the level of mastery of the Shape-Intent Boxing style."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -536,7 +536,7 @@
     text: "决斗"
     translated: "Duel"
     qcReviewedText: "[Duel]\\nDefense +20%, Qinggong-10%。"
-    qcTranslated: "[Duel]\\nDefense +20%, Qinggong ‑10%"
+    qcTranslated: "[Duel]\\nDefense +20%, Qinggong -10%"
     qcStatus: Corrected
     qcQualityScore: 85
     qcDefectCategory: OtherNamedDefect
@@ -564,7 +564,7 @@
     text: "决斗"
     translated: "Duel"
     qcReviewedText: "[Duel]\\nDefense +40%, Qinggong-20%。"
-    qcTranslated: "[Duel]\\nDefense +40%, Qinggong ‑20%"
+    qcTranslated: "[Duel]\\nDefense +40%, Qinggong -20%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -591,14 +591,14 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nDefense +60%, Qinggong ‑30%. When taking an attack action, they receive moderate damage."
+    qcReviewedText: "[Duel]\\nDefense +60%, Qinggong -30%. When taking an attack action, they receive moderate damage."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
-    translated: "Defense +60%, Qinggong ‑30%. When taking an attack action, they receive moderate damage."
+    translated: "Defense +60%, Qinggong -30%. When taking an attack action, they receive moderate damage."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1096,7 +1096,7 @@
     text: "决斗"
     translated: "Duel"
     qcReviewedText: "[Duel]\\nWhen the enemy's qi is lower than their own, they gain the Punching Pup quan."
-    qcTranslated: "[Duel]\\nWhen the enemy's qi is lower than their own, they gain the Dog‑Punching Fist."
+    qcTranslated: "[Duel]\\nWhen the enemy's qi is lower than their own, they gain the Dog-Punching Fist."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UntranslatedPinyin
@@ -1123,14 +1123,14 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nLock all commands, use the Dog‑Punching Fist without conditions, and activate Rage Mode."
+    qcReviewedText: "[Duel]\\nLock all commands, use the Dog-Punching Fist without conditions, and activate Rage Mode."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
-    translated: "Lock all commands, use the Dog‑Punching Fist without conditions, and activate Rage Mode."
+    translated: "Lock all commands, use the Dog-Punching Fist without conditions, and activate Rage Mode."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1494,7 +1494,7 @@
     text: "决斗"
     translated: "Duel"
     qcReviewedText: "[Duel]\\nLevel 2 and above, Bei Zhou becomes [punchable][One Toe Divine Skill]。"
-    qcTranslated: "[Duel]\\nLevel 2 and above, the preparation for being beaten becomes [One‑Toe Divine Skill]."
+    qcTranslated: "[Duel]\\nLevel 2 and above, the preparation for being beaten becomes [One-Toe Divine Skill]."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -1516,8 +1516,8 @@
   splits:
   - split: 1
     text: "折花手"
-    translated: "Flower‑folded Hands"
-    qcReviewedText: "Flower‑folded Hands"
+    translated: "Flower-folded Hands"
+    qcReviewedText: "Flower-folded Hands"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2232,7 +2232,7 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nWhen a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    qcReviewedText: "[Duel]\\nWhen a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
     qcTranslated: "[Duel]\\nWhen a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
     qcStatus: Corrected
     qcQualityScore: 95
@@ -2242,7 +2242,7 @@
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
-    translated: "When a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    translated: "When a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -3483,8 +3483,8 @@
   splits:
   - split: 1
     text: "儒学精通"
-    translated: "Confucianism well‑versed"
-    qcReviewedText: "Confucianism well‑versed"
+    translated: "Confucianism well-versed"
+    qcReviewedText: "Confucianism well-versed"
     qcTranslated: "Proficient in Confucianism"
     qcStatus: Corrected
     qcQualityScore: 95

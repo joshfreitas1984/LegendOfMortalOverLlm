@@ -89,8 +89,8 @@
   - split: 1
     text: "造型奇特、"
     translated: "Their appearance was unusual"
-    qcReviewedText: "Their appearance was unusual \\nBut it is an extremely sharp Japanese fish‑knife."
-    qcTranslated: "Their appearance was unusual, \\nbut it is an extremely sharp Japanese fish‑cleaver."
+    qcReviewedText: "Their appearance was unusual \\nBut it is an extremely sharp Japanese fish-knife."
+    qcTranslated: "Their appearance was unusual, \\nbut it is an extremely sharp Japanese fish-cleaver."
     qcStatus: Corrected
     qcQualityScore: 85
     qcDefectCategory: UnnaturalPhrasing
@@ -99,7 +99,7 @@
   - split: 1
     subIndex: 1
     text: "却极其锋利的东洋杀鱼刀。"
-    translated: "But it is an extremely sharp Japanese fish‑knife."
+    translated: "But it is an extremely sharp Japanese fish-knife."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -195,7 +195,7 @@
     text: "小梅爱用的匕首，"
     translated: "Little Plum's favorite dagger,"
     qcReviewedText: "Little Plum's favorite dagger,\\nWas personally guided by the former Sect Leader of Iron Fist and grown alongside Little Bamboo,\\nA weapon crafted for Xiao Mei \\nYuxiao Shrine is the highest praise for plum blossoms' noble virtue."
-    qcTranslated: "Little Plum's favorite dagger,\\nWas forged by the former Sect Leader of Iron Fist, who personally guided Little Bamboo hand‑in‑hand,\\nA weapon crafted for Little Plum \\nYuxiao Divine is the highest praise for the plum blossom's noble virtue."
+    qcTranslated: "Little Plum's favorite dagger,\\nWas forged by the former Sect Leader of Iron Fist, who personally guided Little Bamboo hand-in-hand,\\nA weapon crafted for Little Plum \\nYuxiao Divine is the highest praise for the plum blossom's noble virtue."
     qcStatus: Corrected
     qcQualityScore: 82
     qcDefectCategory: UntranslatedPinyin
@@ -356,9 +356,9 @@
   splits:
   - split: 1
     text: "形似橄榄的暗器，"
-    translated: "An olive‑shaped hidden weapon,"
-    qcReviewedText: "An olive‑shaped hidden weapon,\\nNuclear Spike, Jujube Kernel Arrow \\nUsually, one throws them by hand to injure someone, but there are skilled practitioners who can contain them in their mouths.\\nBreathe out using Inner Power"
-    qcTranslated: "An olive‑shaped hidden weapon,\\nNuclear Spike, Jujube Kernel Arrow \\nUsually thrown by hand to injure someone, but skilled practitioners can hold them in their mouths\\nand fire them by exhaling with Inner Power."
+    translated: "An olive-shaped hidden weapon,"
+    qcReviewedText: "An olive-shaped hidden weapon,\\nNuclear Spike, Jujube Kernel Arrow \\nUsually, one throws them by hand to injure someone, but there are skilled practitioners who can contain them in their mouths.\\nBreathe out using Inner Power"
+    qcTranslated: "An olive-shaped hidden weapon,\\nNuclear Spike, Jujube Kernel Arrow \\nUsually thrown by hand to injure someone, but skilled practitioners can hold them in their mouths\\nand fire them by exhaling with Inner Power."
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: HardToParseSeam
@@ -645,9 +645,9 @@
   splits:
   - split: 1
     text: "锻造成草状，涂成绿色的毒针，"
-    translated: "Needles forged into blade‑like shapes, coated in green poison,"
-    qcReviewedText: "Needles forged into blade‑like shapes, coated in green poison,\\nPlaced on the ground in such a way that it's hard to recognize.\\nBy the time they become aware, they are usually already ensnared.\\nThis trap is installed on the spot when one of our melee disciples falls in battle."
-    qcTranslated: "Needles forged into grass‑like shapes, coated in green poison,\\nPlaced on the ground in such a way that it's hard to recognize.\\nBy the time they become aware, they are usually already ensnared.\\nThis trap is installed on the spot when one of our melee disciples falls in battle."
+    translated: "Needles forged into blade-like shapes, coated in green poison,"
+    qcReviewedText: "Needles forged into blade-like shapes, coated in green poison,\\nPlaced on the ground in such a way that it's hard to recognize.\\nBy the time they become aware, they are usually already ensnared.\\nThis trap is installed on the spot when one of our melee disciples falls in battle."
+    qcTranslated: "Needles forged into grass-like shapes, coated in green poison,\\nPlaced on the ground in such a way that it's hard to recognize.\\nBy the time they become aware, they are usually already ensnared.\\nThis trap is installed on the spot when one of our melee disciples falls in battle."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -744,14 +744,14 @@
   - split: 1
     text: "唐门毒经所载，"
     translated: "According to the Tang Clan's Poison Scripture,"
-    qcReviewedText: "According to the Tang Clan's Poison Scripture,\\nA classic entry‑level item based on the venom of the Red Refining Snake.\\nThough the poison is potent, it is not beyond cure."
+    qcReviewedText: "According to the Tang Clan's Poison Scripture,\\nA classic entry-level item based on the venom of the Red Refining Snake.\\nThough the poison is potent, it is not beyond cure."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "以赤炼蛇毒为基调的经典入门款。"
-    translated: "A classic entry‑level item based on the venom of the Red Refining Snake."
+    translated: "A classic entry-level item based on the venom of the Red Refining Snake."
   - split: 1
     subIndex: 2
     text: "毒性虽烈，却非无药可救。"
@@ -870,8 +870,8 @@
   - split: 1
     text: "用毒虫、毒砂以醋淬煅七次制成的药散，"
     translated: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times."
-    qcReviewedText: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times.\\nSpicy and hot, with a garlic‑like smell \\nFor ordinary people, it would cause their insides to burn fiercely.\\nTang Clan disciples can wear it to promote blood circulation and dispel dampness and cold."
-    qcTranslated: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times.\\nSpicy and hot, with a garlic‑like smell \\nFor ordinary people, it would cause their insides to burn fiercely.\\nTang Clan disciples can take it to promote blood circulation and dispel dampness and cold."
+    qcReviewedText: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times.\\nSpicy and hot, with a garlic-like smell \\nFor ordinary people, it would cause their insides to burn fiercely.\\nTang Clan disciples can wear it to promote blood circulation and dispel dampness and cold."
+    qcTranslated: "A powder medicine made by quenching and roasting venomous insects and poisonous sand in vinegar seven times.\\nSpicy and hot, with a garlic-like smell \\nFor ordinary people, it would cause their insides to burn fiercely.\\nTang Clan disciples can take it to promote blood circulation and dispel dampness and cold."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -880,7 +880,7 @@
   - split: 1
     subIndex: 1
     text: "味辛热，有蒜臭。"
-    translated: "Spicy and hot, with a garlic‑like smell"
+    translated: "Spicy and hot, with a garlic-like smell"
   - split: 1
     subIndex: 2
     text: "常人服之五内俱焚，"
@@ -906,7 +906,7 @@
   - split: 1
     text: "用穿心莲、龙胆等药草熬汁炖煮的汤药，"
     translated: "A decoction stewed with herbs like andrographis and gentian,"
-    qcReviewedText: "A decoction stewed with herbs like andrographis and gentian,\\nThe pain is beyond what ordinary people can bear, and the medicinal effects have turned into poison.\\nCommon people experience palpitations and headaches from it, but Tang Clan disciples find it refreshing and thirst‑quenching."
+    qcReviewedText: "A decoction stewed with herbs like andrographis and gentian,\\nThe pain is beyond what ordinary people can bear, and the medicinal effects have turned into poison.\\nCommon people experience palpitations and headaches from it, but Tang Clan disciples find it refreshing and thirst-quenching."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -917,7 +917,7 @@
   - split: 1
     subIndex: 2
     text: "常人服之心悸头疼，唐门弟子服之清热解渴。"
-    translated: "Common people experience palpitations and headaches from it, but Tang Clan disciples find it refreshing and thirst‑quenching."
+    translated: "Common people experience palpitations and headaches from it, but Tang Clan disciples find it refreshing and thirst-quenching."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -1136,8 +1136,8 @@
   splits:
   - split: 1
     text: "舍弃了沙包这等不人道设计的新型制服，"
-    translated: "A new uniform that abandoned the inhumane design of sand‑filled weights,"
-    qcReviewedText: "A new uniform that abandoned the inhumane design of sand‑filled weights,\\nEveryone's steps suddenly became much lighter \\nBut the defensive capabilities are nearly nonexistent"
+    translated: "A new uniform that abandoned the inhumane design of sand-filled weights,"
+    qcReviewedText: "A new uniform that abandoned the inhumane design of sand-filled weights,\\nEveryone's steps suddenly became much lighter \\nBut the defensive capabilities are nearly nonexistent"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1165,9 +1165,9 @@
   splits:
   - split: 1
     text: "青衫有缺，蓝衣来补。"
-    translated: "A tattered blue robe is mended by a blue‑clad savior."
-    qcReviewedText: "A tattered blue robe is mended by a blue‑clad savior.\\nPatchwork clothes made from the material of their master's robe,\\nAt a glance, the light blue and dark blue hues blend together indistinguishably.\\nIt could be called the uniform of the Snow Mountain Sect disciples."
-    qcTranslated: "A tattered blue robe is mended by a blue‑clad savior.\\nPatchwork clothes made from the material of their master's robe,\\nIf you don't look closely, the light blue and dark blue hues blend together indistinguishably.\\nIt could be called the uniform of the Snow Mountain Sect disciples."
+    translated: "A tattered blue robe is mended by a blue-clad savior."
+    qcReviewedText: "A tattered blue robe is mended by a blue-clad savior.\\nPatchwork clothes made from the material of their master's robe,\\nAt a glance, the light blue and dark blue hues blend together indistinguishably.\\nIt could be called the uniform of the Snow Mountain Sect disciples."
+    qcTranslated: "A tattered blue robe is mended by a blue-clad savior.\\nPatchwork clothes made from the material of their master's robe,\\nIf you don't look closely, the light blue and dark blue hues blend together indistinguishably.\\nIt could be called the uniform of the Snow Mountain Sect disciples."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0

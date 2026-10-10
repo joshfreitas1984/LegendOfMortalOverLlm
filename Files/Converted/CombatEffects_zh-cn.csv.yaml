@@ -12,8 +12,8 @@
   - split: 1
     text: "唐门之力"
     translated: "Power of Tang Clan"
-    qcReviewedText: "Power of Tang Clan：Enemy stats are at ‑50%. Our Accuracy is +80%, and we have damage reduction.+30%"
-    qcTranslated: "Power of Tang Clan：Enemy stats are at ‑50%. Our Accuracy is +80%, and damage reduction is +30%."
+    qcReviewedText: "Power of Tang Clan：Enemy stats are at -50%. Our Accuracy is +80%, and we have damage reduction.+30%"
+    qcTranslated: "Power of Tang Clan：Enemy stats are at -50%. Our Accuracy is +80%, and damage reduction is +30%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -22,7 +22,7 @@
   - split: 1
     subIndex: 1
     text: "敌人全数值-50%。我方命中率+80%，伤害减免"
-    translated: "Enemy stats are at ‑50%. Our Accuracy is +80%, and we have damage reduction."
+    translated: "Enemy stats are at -50%. Our Accuracy is +80%, and we have damage reduction."
   templates:
   - split: 1
     template: "{0}：{1}+30%"
@@ -114,14 +114,14 @@
   - split: 1
     text: "单手"
     translated: "One Handed"
-    qcReviewedText: "One Handed：The opponent will spar with you using only one hand, and they will not take action on odd‑numbered turns."
+    qcReviewedText: "One Handed：The opponent will spar with you using only one hand, and they will not take action on odd-numbered turns."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "对方单手跟你过招，单数回合不行动。"
-    translated: "The opponent will spar with you using only one hand, and they will not take action on odd‑numbered turns."
+    translated: "The opponent will spar with you using only one hand, and they will not take action on odd-numbered turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -271,7 +271,7 @@
     text: "忌惮"
     translated: "Restraint"
     qcReviewedText: "Restraint：Worried about damaging the furniture with excessive movement, they held back, reducing all damage dealt.-30%。"
-    qcTranslated: "Restraint: Worried about damaging the furniture with excessive movement, they held back, reducing all damage dealt by ‑30%."
+    qcTranslated: "Restraint: Worried about damaging the furniture with excessive movement, they held back, reducing all damage dealt by -30%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -298,14 +298,14 @@
   - split: 1
     text: "牵制"
     translated: "Restraining technique"
-    qcReviewedText: "Restraining technique：Restricted by Big Senior Brother, they can only act on odd‑numbered turns."
+    qcReviewedText: "Restraining technique：Restricted by Big Senior Brother, they can only act on odd-numbered turns."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "受到大师兄的牵制，只有单数回合能行动。"
-    translated: "Restricted by Big Senior Brother, they can only act on odd‑numbered turns."
+    translated: "Restricted by Big Senior Brother, they can only act on odd-numbered turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -1196,7 +1196,7 @@
     text: "腾空"
     translated: "Soaring into the Sky"
     qcReviewedText: "Soaring into the Sky：Ultimate move transforms into[Pursuit], Consume a small amount of qi to deal multiple hits of damage.\\nPrepare for a change in strategy[Reeling in the momentum]。"
-    qcTranslated: "Soaring into the Sky: Ultimate transforms into [Pursuit], consuming a small amount of qi to deal multi‑hit damage.\\nPrepare for a change in strategy transforms into [Reeling in the momentum]."
+    qcTranslated: "Soaring into the Sky: Ultimate transforms into [Pursuit], consuming a small amount of qi to deal multi-hit damage.\\nPrepare for a change in strategy transforms into [Reeling in the momentum]."
     qcStatus: Corrected
     qcQualityScore: 85
     qcDefectCategory: UnnaturalPhrasing
@@ -1879,14 +1879,14 @@
   - split: 1
     text: "峨嵋十九桩"
     translated: "Emei Nineteen Stakes"
-    qcReviewedText: "Emei Nineteen Stakes：All attributes are enhanced based on the level of mastery of the Shape‑Intent Boxing style."
+    qcReviewedText: "Emei Nineteen Stakes：All attributes are enhanced based on the level of mastery of the Shape-Intent Boxing style."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "全属性根据形意拳精通数获得提升。"
-    translated: "All attributes are enhanced based on the level of mastery of the Shape‑Intent Boxing style."
+    translated: "All attributes are enhanced based on the level of mastery of the Shape-Intent Boxing style."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -2229,7 +2229,7 @@
     text: "肩甲"
     translated: "Shoulder Armor"
     qcReviewedText: "Shoulder Armor：Defense +20%, Qinggong-10%。"
-    qcTranslated: "Shoulder Armor: Defense +20%, Qinggong ‑10%"
+    qcTranslated: "Shoulder Armor: Defense +20%, Qinggong -10%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -2257,7 +2257,7 @@
     text: "豪华肩甲"
     translated: "Luxurious Shoulder Armor"
     qcReviewedText: "Luxurious Shoulder Armor：Defense +40%, Qinggong-20%。"
-    qcTranslated: "Luxurious Shoulder Armor: Defense +40%, Qinggong‑20%"
+    qcTranslated: "Luxurious Shoulder Armor: Defense +40%, Qinggong-20%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -2284,8 +2284,8 @@
   - split: 1
     text: "终极肩甲"
     translated: "Ultimate Shoulder Armor"
-    qcReviewedText: "Ultimate Shoulder Armor：Defense +60%, Qinggong ‑30%. When taking an attack action, they receive moderate damage."
-    qcTranslated: "Ultimate Shoulder Armor: Defense +60%, Qinggong ‑30%. When performing an attack action, the user takes moderate damage."
+    qcReviewedText: "Ultimate Shoulder Armor：Defense +60%, Qinggong -30%. When taking an attack action, they receive moderate damage."
+    qcTranslated: "Ultimate Shoulder Armor: Defense +60%, Qinggong -30%. When performing an attack action, the user takes moderate damage."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -2294,7 +2294,7 @@
   - split: 1
     subIndex: 1
     text: "防御+60%、轻功-30%、采取攻击行动时，自身受到中幅伤害。"
-    translated: "Defense +60%, Qinggong ‑30%. When taking an attack action, they receive moderate damage."
+    translated: "Defense +60%, Qinggong -30%. When taking an attack action, they receive moderate damage."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -3105,8 +3105,8 @@
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
-    qcReviewedText: "Golden Bell Shield Lv1：The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained.Lv1」。"
-    qcTranslated: "Golden Bell Shield Lv1: The preparation command changes to Golden Bell Shield, and upon use, a Body‑Protecting Aura Shield Lv1 is obtained."
+    qcReviewedText: "Golden Bell Shield Lv1：The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained.Lv1」。"
+    qcTranslated: "Golden Bell Shield Lv1: The preparation command changes to Golden Bell Shield, and upon use, a Body-Protecting Aura Shield Lv1 is obtained."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3115,7 +3115,7 @@
   - split: 1
     subIndex: 1
     text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
-    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained."
+    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained."
   templates:
   - split: 1
     template: "{0}Lv1：{1}Lv1」。"
@@ -3136,8 +3136,8 @@
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
-    qcReviewedText: "Golden Bell Shield Lv2：The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained.Lv2」。"
-    qcTranslated: "Golden Bell Shield Lv2: The preparation command changes to Golden Bell Shield, and upon use, a Body‑Protecting Aura Shield Lv2 is obtained."
+    qcReviewedText: "Golden Bell Shield Lv2：The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained.Lv2」。"
+    qcTranslated: "Golden Bell Shield Lv2: The preparation command changes to Golden Bell Shield, and upon use, a Body-Protecting Aura Shield Lv2 is obtained."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3146,7 +3146,7 @@
   - split: 1
     subIndex: 1
     text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
-    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained."
+    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained."
   templates:
   - split: 1
     template: "{0}Lv2：{1}Lv2」。"
@@ -3167,8 +3167,8 @@
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
-    qcReviewedText: "Golden Bell Shield Lv3：The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained.Lv3」。"
-    qcTranslated: "Golden Bell Shield Lv3: The preparation command changes to Golden Bell Shield, and upon use, a Body‑Protecting Aura Shield Lv3 is obtained."
+    qcReviewedText: "Golden Bell Shield Lv3：The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained.Lv3」。"
+    qcTranslated: "Golden Bell Shield Lv3: The preparation command changes to Golden Bell Shield, and upon use, a Body-Protecting Aura Shield Lv3 is obtained."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3177,7 +3177,7 @@
   - split: 1
     subIndex: 1
     text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
-    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained."
+    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained."
   templates:
   - split: 1
     template: "{0}Lv3：{1}Lv3」。"
@@ -3198,8 +3198,8 @@
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
-    qcReviewedText: "Golden Bell Shield Lv4：The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained.Lv4」。"
-    qcTranslated: "Golden Bell Shield Lv4: The preparation command changes to Golden Bell Shield, and upon use, a Body‑Protecting Aura Shield Lv4 is obtained."
+    qcReviewedText: "Golden Bell Shield Lv4：The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained.Lv4」。"
+    qcTranslated: "Golden Bell Shield Lv4: The preparation command changes to Golden Bell Shield, and upon use, a Body-Protecting Aura Shield Lv4 is obtained."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3208,7 +3208,7 @@
   - split: 1
     subIndex: 1
     text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
-    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained."
+    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained."
   templates:
   - split: 1
     template: "{0}Lv4：{1}Lv4」。"
@@ -3229,8 +3229,8 @@
   - split: 1
     text: "金钟罩"
     translated: "Golden Bell Shield"
-    qcReviewedText: "Golden Bell Shield Lv5：The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained.Lv5」。"
-    qcTranslated: "Golden Bell Shield Lv5: The preparation command changes to Golden Bell Shield, and upon use, a Body‑Protecting Aura Shield Lv5 is obtained."
+    qcReviewedText: "Golden Bell Shield Lv5：The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained.Lv5」。"
+    qcTranslated: "Golden Bell Shield Lv5: The preparation command changes to Golden Bell Shield, and upon use, a Body-Protecting Aura Shield Lv5 is obtained."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -3239,7 +3239,7 @@
   - split: 1
     subIndex: 1
     text: "备揍指令变化为「金钟罩」，使用后获得「护体气罩"
-    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body‑Protecting Aura Shield is obtained."
+    translated: "The preparation command changes to Golden Bell of Protection, and upon use, a Body-Protecting Aura Shield is obtained."
   templates:
   - split: 1
     template: "{0}Lv5：{1}Lv5」。"
@@ -3520,8 +3520,8 @@
   - split: 1
     text: "金刚腿"
     translated: "Diamond Leg"
-    qcReviewedText: "Diamond Leg Lv1：Based on[Fist‑and‑palm 2%]Improve qinggong and defense"
-    qcTranslated: "Diamond Leg Lv1: Boosts Qinggong and Defense based on [Fist‑and‑palm 2%]."
+    qcReviewedText: "Diamond Leg Lv1：Based on[Fist-and-palm 2%]Improve qinggong and defense"
+    qcTranslated: "Diamond Leg Lv1: Boosts Qinggong and Defense based on [Fist-and-palm 2%]."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -3534,7 +3534,7 @@
   - split: 1
     subIndex: 2
     text: "拳掌2%"
-    translated: "Fist‑and‑palm 2%"
+    translated: "Fist-and-palm 2%"
   - split: 1
     subIndex: 3
     text: "提升轻功、防御。"
@@ -5316,7 +5316,7 @@
   - split: 1
     text: "虚张声势"
     translated: "Bluffing"
-    qcReviewedText: "Bluffing：When a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    qcReviewedText: "Bluffing：When a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
     qcTranslated: "Bluffing: When a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
     qcStatus: Corrected
     qcQualityScore: 95
@@ -5326,7 +5326,7 @@
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
-    translated: "When a duel begins, their qi increases by ‑10, and their verbal prowess improves by 100%."
+    translated: "When a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -5586,8 +5586,8 @@
   - split: 1
     text: "麻痹"
     translated: "Paralysis"
-    qcReviewedText: "Paralysis Lv1：Mouth power, Qinggong ‑10%, 20% chance of action failure."
-    qcTranslated: "Paralysis Lv1: Mouth power, Qinggong ‑10%, 20% chance of action failure."
+    qcReviewedText: "Paralysis Lv1：Mouth power, Qinggong -10%, 20% chance of action failure."
+    qcTranslated: "Paralysis Lv1: Mouth power, Qinggong -10%, 20% chance of action failure."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -5597,7 +5597,7 @@
   - split: 1
     subIndex: 1
     text: "嘴力、轻功-10%，20%机率行动失败。"
-    translated: "Mouth power, Qinggong ‑10%, 20% chance of action failure."
+    translated: "Mouth power, Qinggong -10%, 20% chance of action failure."
   templates:
   - split: 1
     template: "{0}Lv1：{1}"
@@ -5618,8 +5618,8 @@
   - split: 1
     text: "麻痹"
     translated: "Paralysis"
-    qcReviewedText: "Paralysis Lv2：Mouth power, Qinggong, attack, defense, ‑15% reduction, 40% chance of failed action."
-    qcTranslated: "Paralysis Lv2: Mouth power, Qinggong, attack, defense ‑15%, 40% chance of failed action."
+    qcReviewedText: "Paralysis Lv2：Mouth power, Qinggong, attack, defense, -15% reduction, 40% chance of failed action."
+    qcTranslated: "Paralysis Lv2: Mouth power, Qinggong, attack, defense -15%, 40% chance of failed action."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -5629,7 +5629,7 @@
   - split: 1
     subIndex: 1
     text: "嘴力、轻功、攻击、防御-15%，40%机率行动失败。"
-    translated: "Mouth power, Qinggong, attack, defense, ‑15% reduction, 40% chance of failed action."
+    translated: "Mouth power, Qinggong, attack, defense, -15% reduction, 40% chance of failed action."
   templates:
   - split: 1
     template: "{0}Lv2：{1}"
@@ -5800,7 +5800,7 @@
     text: "彼岸仙香"
     translated: "Other Shore Immortal Fragrance"
     qcReviewedText: "Other Shore Immortal Fragrance：A colorless and odorless strange poison that causes extremely realistic hallucinations, reducing accuracy.-30%。"
-    qcTranslated: "Other Shore Immortal Fragrance: A colorless and odorless strange poison that causes extremely realistic hallucinations, reducing Accuracy by ‑30%."
+    qcTranslated: "Other Shore Immortal Fragrance: A colorless and odorless strange poison that causes extremely realistic hallucinations, reducing Accuracy by -30%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -5926,8 +5926,8 @@
   - split: 1
     text: "震撼"
     translated: "Shock"
-    qcReviewedText: "Shock：Defend at ‑50% efficiency, receive damage at 1.5 times the normal amount."
-    qcTranslated: "Shock: Defense ‑50%, damage taken 1.5x."
+    qcReviewedText: "Shock：Defend at -50% efficiency, receive damage at 1.5 times the normal amount."
+    qcTranslated: "Shock: Defense -50%, damage taken 1.5x."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -5936,7 +5936,7 @@
   - split: 1
     subIndex: 1
     text: "防御-50%，受到伤害1.5倍。"
-    translated: "Defend at ‑50% efficiency, receive damage at 1.5 times the normal amount."
+    translated: "Defend at -50% efficiency, receive damage at 1.5 times the normal amount."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -5979,14 +5979,14 @@
   - split: 1
     text: "点穴"
     translated: "Acupoint striking"
-    qcReviewedText: "Acupoint striking：A powerful but difficult‑to‑achieve abnormal status condition that prevents movement."
+    qcReviewedText: "Acupoint striking：A powerful but difficult-to-achieve abnormal status condition that prevents movement."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "难以达成但是非常强力的异常状态，造成无法行动。"
-    translated: "A powerful but difficult‑to‑achieve abnormal status condition that prevents movement."
+    translated: "A powerful but difficult-to-achieve abnormal status condition that prevents movement."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -6033,7 +6033,7 @@
     text: "失衡"
     translated: "Imbalance"
     qcReviewedText: "Imbalance：Qinggong-50%。"
-    qcTranslated: "Imbalance: Qinggong ‑50%"
+    qcTranslated: "Imbalance: Qinggong -50%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -6061,7 +6061,7 @@
     text: "虚脱"
     translated: "Exhaustion"
     qcReviewedText: "Exhaustion：Damage per turn-90%。"
-    qcTranslated: "Exhaustion: ‑90% damage per turn"
+    qcTranslated: "Exhaustion: -90% damage per turn"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -6216,7 +6216,7 @@
     text: "破功"
     translated: "Breaking of skills"
     qcReviewedText: "Breaking of skills：Qinggong-50%。"
-    qcTranslated: "Breaking of skills: Qinggong ‑50%"
+    qcTranslated: "Breaking of skills: Qinggong -50%"
     qcStatus: Corrected
     qcQualityScore: 90
     qcDefectCategory: OtherNamedDefect
@@ -6787,9 +6787,9 @@
   splits:
   - split: 1
     text: "唐升《袖里乾坤》"
-    translated: "Tang Sheng's Sleeve‑Enclosed Universe"
-    qcReviewedText: "Tang Sheng's Sleeve‑Enclosed Universe：Launch 1 medium‑range attacks per turn, and 1 powerful attacks every 6 turns."
-    qcTranslated: "Tang Sheng's Universe Within the Sleeve: Launch 1 medium‑range attacks per turn, and 6 powerful attacks every 1 turns."
+    translated: "Tang Sheng's Sleeve-Enclosed Universe"
+    qcReviewedText: "Tang Sheng's Sleeve-Enclosed Universe：Launch 1 medium-range attacks per turn, and 1 powerful attacks every 6 turns."
+    qcTranslated: "Tang Sheng's Universe Within the Sleeve: Launch 1 medium-range attacks per turn, and 6 powerful attacks every 1 turns."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -6798,7 +6798,7 @@
   - split: 1
     subIndex: 1
     text: "每回合发动1次中幅攻击，每6回合发动1次强力攻击。"
-    translated: "Launch 1 medium‑range attacks per turn, and 1 powerful attacks every 6 turns."
+    translated: "Launch 1 medium-range attacks per turn, and 1 powerful attacks every 6 turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -6921,9 +6921,9 @@
   splits:
   - split: 1
     text: "唐升《袖里乾坤》"
-    translated: "Tang Sheng's Sleeve‑Enclosed Universe"
-    qcReviewedText: "Tang Sheng's Sleeve‑Enclosed Universe：Launch 1 medium‑range attacks per turn, and 1 powerful attacks every 6 turns."
-    qcTranslated: "Tang Sheng's Universe Within the Sleeve: Launch 1 medium‑range attacks per turn, and 6 powerful attacks every 1 turns."
+    translated: "Tang Sheng's Sleeve-Enclosed Universe"
+    qcReviewedText: "Tang Sheng's Sleeve-Enclosed Universe：Launch 1 medium-range attacks per turn, and 1 powerful attacks every 6 turns."
+    qcTranslated: "Tang Sheng's Universe Within the Sleeve: Launch 1 medium-range attacks per turn, and 6 powerful attacks every 1 turns."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -6932,7 +6932,7 @@
   - split: 1
     subIndex: 1
     text: "每回合发动1次中幅攻击，每6回合发动1次强力攻击。"
-    translated: "Launch 1 medium‑range attacks per turn, and 1 powerful attacks every 6 turns."
+    translated: "Launch 1 medium-range attacks per turn, and 1 powerful attacks every 6 turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -7245,7 +7245,7 @@
     text: "唐嬌嬌《花拳戳眼功》"
     translated: "Tang Jiao Jiao's Flower Fist Poke Eye Technique"
     qcReviewedText: "Tang Jiao Jiao's Flower Fist Poke Eye Technique：Deals 5 minor damage hits per turn, with a chance to inflict[Blindness]。"
-    qcTranslated: "Tang Jiao Jiao's Flower Fist Eye‑Piercing Technique: Deals 5 minor damage hits per turn, with a chance to inflict [Blindness]."
+    qcTranslated: "Tang Jiao Jiao's Flower Fist Eye-Piercing Technique: Deals 5 minor damage hits per turn, with a chance to inflict [Blindness]."
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: OtherNamedDefect
@@ -7994,14 +7994,14 @@
   - split: 1
     text: "岭南大侠"
     translated: "Lingnan Hero"
-    qcReviewedText: "Lingnan Hero：Launch 1 medium‑range attacks per turn, and 1 large‑scale attacks every 5 turns."
+    qcReviewedText: "Lingnan Hero：Launch 1 medium-range attacks per turn, and 1 large-scale attacks every 5 turns."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "每回合发动1次中幅攻击，每5回合发动1次大幅攻击。"
-    translated: "Launch 1 medium‑range attacks per turn, and 1 large‑scale attacks every 5 turns."
+    translated: "Launch 1 medium-range attacks per turn, and 1 large-scale attacks every 5 turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -8150,9 +8150,9 @@
   splits:
   - split: 1
     text: "沧帮弟子《翻浪刀法》"
-    translated: "Cang Gang disciple 'Wave‑Turning Blade Art'"
-    qcReviewedText: "Cang Gang disciple 'Wave‑Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
-    qcTranslated: "Cang Gang disciple 'Wave‑Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
+    translated: "Cang Gang disciple 'Wave-Turning Blade Art'"
+    qcReviewedText: "Cang Gang disciple 'Wave-Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
+    qcTranslated: "Cang Gang disciple 'Wave-Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -8186,9 +8186,9 @@
   splits:
   - split: 1
     text: "沧帮弟子《翻浪刀法》"
-    translated: "Cang Gang disciple 'Wave‑Turning Blade Art'"
-    qcReviewedText: "Cang Gang disciple 'Wave‑Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
-    qcTranslated: "Cang Gang disciple 'Wave‑Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
+    translated: "Cang Gang disciple 'Wave-Turning Blade Art'"
+    qcReviewedText: "Cang Gang disciple 'Wave-Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
+    qcTranslated: "Cang Gang disciple 'Wave-Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -8222,9 +8222,9 @@
   splits:
   - split: 1
     text: "沧帮弟子《翻浪刀法》"
-    translated: "Cang Gang disciple 'Wave‑Turning Blade Art'"
-    qcReviewedText: "Cang Gang disciple 'Wave‑Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
-    qcTranslated: "Cang Gang disciple 'Wave‑Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
+    translated: "Cang Gang disciple 'Wave-Turning Blade Art'"
+    qcReviewedText: "Cang Gang disciple 'Wave-Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
+    qcTranslated: "Cang Gang disciple 'Wave-Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -8258,9 +8258,9 @@
   splits:
   - split: 1
     text: "沧帮弟子《翻浪刀法》"
-    translated: "Cang Gang disciple 'Wave‑Turning Blade Art'"
-    qcReviewedText: "Cang Gang disciple 'Wave‑Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
-    qcTranslated: "Cang Gang disciple 'Wave‑Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
+    translated: "Cang Gang disciple 'Wave-Turning Blade Art'"
+    qcReviewedText: "Cang Gang disciple 'Wave-Turning Blade Art'：Deal minor damage based on the number of combos, and has a 20% chance to cause[Imbalance]Anomaly"
+    qcTranslated: "Cang Gang disciple 'Wave-Turning Blade Art': Deal minor damage based on the number of combos, and has a 20% chance to cause [Imbalance] Anomaly"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -8641,7 +8641,7 @@
     text: "左右开弓"
     translated: "Shooting an arrow with both hands"
     qcReviewedText: "Shooting an arrow with both hands：Distracted by two tasks at once, hit you with my left hand and punch Nangong Qian with my right."
-    qcTranslated: "Two‑Handed Strike: Splitting my focus, I hit you with my left hand and punch Nangong Qian with my right."
+    qcTranslated: "Two-Handed Strike: Splitting my focus, I hit you with my left hand and punch Nangong Qian with my right."
     qcStatus: Corrected
     qcQualityScore: 82
     qcDefectCategory: UnnaturalPhrasing
@@ -8801,7 +8801,7 @@
     text: "叶云裳《点苍棒法》"
     translated: "Ye Yunshang's Diancang Staff Technique"
     qcReviewedText: "Ye Yunshang's Diancang Staff Technique：Deals a minor damage with extremely low accuracy each turn. When Ye Yunshang is on the field, all Diancang members' Attack Power increases.-50%。"
-    qcTranslated: "Ye Yunshang's Diancang Staff Technique: Deals a minor damage with extremely low accuracy each turn. When Ye Yunshang is on the field, all Diancang members' Attack Power increases by ‑50%."
+    qcTranslated: "Ye Yunshang's Diancang Staff Technique: Deals a minor damage with extremely low accuracy each turn. When Ye Yunshang is on the field, all Diancang members' Attack Power increases by -50%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -8864,8 +8864,8 @@
   splits:
   - split: 1
     text: "虞小梅《焚心火印・飞天脚》"
-    translated: "Yu Xiaomei, Frenzied Heart Fire Seal • Sky‑Dancing Foot"
-    qcReviewedText: "Yu Xiaomei, Frenzied Heart Fire Seal • Sky‑Dancing Foot：Deal significant damage with 2 intense assaults per turn.(Round 5)"
+    translated: "Yu Xiaomei, Frenzied Heart Fire Seal • Sky-Dancing Foot"
+    qcReviewedText: "Yu Xiaomei, Frenzied Heart Fire Seal • Sky-Dancing Foot：Deal significant damage with 2 intense assaults per turn.(Round 5)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9090,8 +9090,8 @@
   - split: 1
     text: "温夫人《仙侣宫・哪咤令・龙游浅水》"
     translated: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'"
-    qcReviewedText: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals Chi damage to enemies each turn.-3，HP‑8%, and there is a 25% chance to cause fear, with a random emotional anomaly such as anger."
-    qcTranslated: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals ‑3 Chi and ‑8% HP damage to enemies each turn, with a 25% chance to cause random anomalies such as fear or anger."
+    qcReviewedText: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals Chi damage to enemies each turn.-3，HP-8%, and there is a 25% chance to cause fear, with a random emotional anomaly such as anger."
+    qcTranslated: "Lady Wen 'Palace of Immortal Couples・Nezha's Command・Dragon in Shallow Water'：The music played with Inner Power deals -3 Chi and -8% HP damage to enemies each turn, with a 25% chance to cause random anomalies such as fear or anger."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -9105,7 +9105,7 @@
   - split: 1
     subIndex: 2
     text: "-8%，并有25%机率造成胆怯、愤怒随机异常。"
-    translated: "‑8%, and there is a 25% chance to cause fear, with a random emotional anomaly such as anger."
+    translated: "-8%, and there is a 25% chance to cause fear, with a random emotional anomaly such as anger."
   templates:
   - split: 1
     template: "{0}：{1}-3，HP{2}"
@@ -9124,7 +9124,7 @@
     text: "温夫人《越调・凭栏人・相忘远》"
     translated: "While listening to Beyond the Barrier, Forgetful Distance in Mode Yuezhu, they remembered Lady Wen."
     qcReviewedText: "While listening to Beyond the Barrier, Forgetful Distance in Mode Yuezhu, they remembered Lady Wen.：Without the sound of qin infused with Inner Power, our side regains +4 Qi each turn, the opposing side loses Qi each turn.-4。"
-    qcTranslated: "Lady Wen's Beyond the Barrier, Forgetful Distance in Mode Yuezhu: Without the sound of qin infused with Inner Power, our side regains +4 Qi each turn, and the opposing side loses ‑4 Qi."
+    qcTranslated: "Lady Wen's Beyond the Barrier, Forgetful Distance in Mode Yuezhu: Without the sound of qin infused with Inner Power, our side regains +4 Qi each turn, and the opposing side loses -4 Qi."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -9151,9 +9151,9 @@
   splits:
   - split: 1
     text: "虞小梅《一趾驭风・飞天脚》"
-    translated: "Yu Xiaomei One‑Toed Control of the Wind • Flying Heaven Foot"
-    qcReviewedText: "Yu Xiaomei One‑Toed Control of the Wind • Flying Heaven Foot：Each turn, deals minor damage and has a 50% chance to cause imbalance. When we are imbalanced, we abandon the attack, support each other, and dispel the imbalance status effect. Stop attacking, help them up. If it's a game mechanic or ability name, it should be kept as is, otherwise, it may require further context for an accurate translation.)"
-    qcTranslated: "Yu Xiaomei One‑Toed Wind Control • Flying Heaven Foot: Each turn, deals minor damage and has a 50% chance to cause imbalance. When our side is imbalanced, abandon the attack, support them, and dispel the imbalance status effect."
+    translated: "Yu Xiaomei One-Toed Control of the Wind • Flying Heaven Foot"
+    qcReviewedText: "Yu Xiaomei One-Toed Control of the Wind • Flying Heaven Foot：Each turn, deals minor damage and has a 50% chance to cause imbalance. When we are imbalanced, we abandon the attack, support each other, and dispel the imbalance status effect. Stop attacking, help them up. If it's a game mechanic or ability name, it should be kept as is, otherwise, it may require further context for an accurate translation.)"
+    qcTranslated: "Yu Xiaomei One-Toed Wind Control • Flying Heaven Foot: Each turn, deals minor damage and has a 50% chance to cause imbalance. When our side is imbalanced, abandon the attack, support them, and dispel the imbalance status effect."
     qcStatus: Corrected
     qcQualityScore: 85
     qcDefectCategory: OtherNamedDefect
@@ -9392,7 +9392,7 @@
     text: "樊啸天《揍狗拳》"
     translated: "Fan Xiaotian's Punching Dogs Fist"
     qcReviewedText: "Fan Xiaotian's Punching Dogs Fist：Deals 5 minor consecutive strike damages per turn."
-    qcTranslated: "Fan Xiaotian's Dog‑Punching Fist: Deals 5 minor consecutive strike damages per turn."
+    qcTranslated: "Fan Xiaotian's Dog-Punching Fist: Deals 5 minor consecutive strike damages per turn."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -9558,14 +9558,14 @@
   - split: 1
     text: "虞小梅《天龙地虎式》"
     translated: "Yu Xiaomei Heaven Dragon Earth Tiger Style"
-    qcReviewedText: "Yu Xiaomei Heaven Dragon Earth Tiger Style：When Jinwu Shangren is not actively attacking, perform medium‑range attacks to deal damage and increase combo hits; when defending against Jinwu Shangren's attacks, reduce the damage received by 20%."
+    qcReviewedText: "Yu Xiaomei Heaven Dragon Earth Tiger Style：When Jinwu Shangren is not actively attacking, perform medium-range attacks to deal damage and increase combo hits; when defending against Jinwu Shangren's attacks, reduce the damage received by 20%."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "在金乌上人不主动攻击的时候进行中幅攻击伤害，增加连击；在金乌上人攻击时防守，使所受伤害减轻20%。"
-    translated: "When Jinwu Shangren is not actively attacking, perform medium‑range attacks to deal damage and increase combo hits; when defending against Jinwu Shangren's attacks, reduce the damage received by 20%."
+    translated: "When Jinwu Shangren is not actively attacking, perform medium-range attacks to deal damage and increase combo hits; when defending against Jinwu Shangren's attacks, reduce the damage received by 20%."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -9717,14 +9717,14 @@
   - split: 1
     text: "唐默铃《天地无声势・暗杀剑》"
     translated: "Tang Moling Heaven and Earth Silent Ambition • Assassination Sword"
-    qcReviewedText: "Tang Moling Heaven and Earth Silent Ambition • Assassination Sword：A Little Junior Sister who has resolved to kill someone, dealing an ultra‑critical hit that cannot be blocked or dodged with low probability."
+    qcReviewedText: "Tang Moling Heaven and Earth Silent Ambition • Assassination Sword：A Little Junior Sister who has resolved to kill someone, dealing an ultra-critical hit that cannot be blocked or dodged with low probability."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "下定决心要杀人的小师妹。低机率造成无法招架、回避的超爆击伤害。"
-    translated: "A Little Junior Sister who has resolved to kill someone, dealing an ultra‑critical hit that cannot be blocked or dodged with low probability."
+    translated: "A Little Junior Sister who has resolved to kill someone, dealing an ultra-critical hit that cannot be blocked or dodged with low probability."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -9798,8 +9798,8 @@
   splits:
   - split: 1
     text: "唐升《袖里乾坤》"
-    translated: "Tang Sheng's Sleeve‑Enclosed Universe"
-    qcReviewedText: "Tang Sheng's Sleeve‑Enclosed Universe：Perform a moderate attack each turn, and every 6 turns, perform an Ultimate attack and prevent the opponent from acting."
+    translated: "Tang Sheng's Sleeve-Enclosed Universe"
+    qcReviewedText: "Tang Sheng's Sleeve-Enclosed Universe：Perform a moderate attack each turn, and every 6 turns, perform an Ultimate attack and prevent the opponent from acting."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9825,7 +9825,7 @@
     text: "释明《捻花指》"
     translated: "Shi Ming The Twirling Flower Finger"
     qcReviewedText: "Shi Ming The Twirling Flower Finger：Greatly increases our evasion rate and reduces the enemy's vitality.-3。"
-    qcTranslated: "Shi Ming The Twirling Flower Finger: Greatly increases our block rate and reduces the enemy's vitality by ‑3."
+    qcTranslated: "Shi Ming The Twirling Flower Finger: Greatly increases our block rate and reduces the enemy's vitality by -3."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -9854,7 +9854,7 @@
     text: "尹志平《逆踏北斗七星》"
     translated: "Yin Zhiping Reverse Treading the Seven Stars of the Big Dipper"
     qcReviewedText: "Yin Zhiping Reverse Treading the Seven Stars of the Big Dipper：Both parties' Attack Power damage decreases by 60%, mana-5。"
-    qcTranslated: "Yin Zhiping Reverse Treading the Seven Stars of the Big Dipper: Both parties' Attack Power damage decreases by 60%, mana‑5."
+    qcTranslated: "Yin Zhiping Reverse Treading the Seven Stars of the Big Dipper: Both parties' Attack Power damage decreases by 60%, mana-5."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -10158,9 +10158,9 @@
   splits:
   - split: 1
     text: "《阴阳合击剑》"
-    translated: "Yin‑Yang Combined Strike Sword"
-    qcReviewedText: "Yin‑Yang Combined Strike Sword：There is a 50% chance that your attacks will miss, but you deal massive damage each turn."
-    qcTranslated: "Yin‑Yang Combined Strike Sword：There is a 50% chance that your attacks will miss, dealing massive damage each turn."
+    translated: "Yin-Yang Combined Strike Sword"
+    qcReviewedText: "Yin-Yang Combined Strike Sword：There is a 50% chance that your attacks will miss, but you deal massive damage each turn."
+    qcTranslated: "Yin-Yang Combined Strike Sword：There is a 50% chance that your attacks will miss, dealing massive damage each turn."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 55
@@ -10187,9 +10187,9 @@
   splits:
   - split: 1
     text: "上官萤《苦恼拳・毁天灭地式》"
-    translated: "Shangguan Ying, Troubled Fist • Heaven‑Shattering Earth‑Breaking Style"
-    qcReviewedText: "Shangguan Ying, Troubled Fist • Heaven‑Shattering Earth‑Breaking Style：Fuming with rage, they are pushing Despair Fist beyond its limits. Each turn, there is a 40% chance to deal a critical super‑burst damage."
-    qcTranslated: "Shangguan Ying, Troubled Fist • Heaven‑Shattering Earth‑Breaking Style：Fuming with rage, they are pushing Troubled Fist beyond its limits. Each turn, there is a 40% chance to deal a critical super‑burst damage."
+    translated: "Shangguan Ying, Troubled Fist • Heaven-Shattering Earth-Breaking Style"
+    qcReviewedText: "Shangguan Ying, Troubled Fist • Heaven-Shattering Earth-Breaking Style：Fuming with rage, they are pushing Despair Fist beyond its limits. Each turn, there is a 40% chance to deal a critical super-burst damage."
+    qcTranslated: "Shangguan Ying, Troubled Fist • Heaven-Shattering Earth-Breaking Style：Fuming with rage, they are pushing Troubled Fist beyond its limits. Each turn, there is a 40% chance to deal a critical super-burst damage."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DomainTerm
@@ -10198,7 +10198,7 @@
   - split: 1
     subIndex: 1
     text: "气疯了，苦恼拳超越极限中。每回合有40%机率造成超爆击伤害。"
-    translated: "Fuming with rage, they are pushing Despair Fist beyond its limits. Each turn, there is a 40% chance to deal a critical super‑burst damage."
+    translated: "Fuming with rage, they are pushing Despair Fist beyond its limits. Each turn, there is a 40% chance to deal a critical super-burst damage."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -10241,14 +10241,14 @@
   - split: 1
     text: "谭霸刀《霸刀》"
     translated: "Tan Ba Dao Dominant Blade"
-    qcReviewedText: "Tan Ba Dao Dominant Blade：In battle, they wield a large blade with great momentum, exuding an imposing presence that grants their team an additional +5 recovery. They initiate a large‑scale damage attack every two turns."
+    qcReviewedText: "Tan Ba Dao Dominant Blade：In battle, they wield a large blade with great momentum, exuding an imposing presence that grants their team an additional +5 recovery. They initiate a large-scale damage attack every two turns."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "在场时，挥舞大刀虎虎生风，气势逼人，使己方额外气回复+5。每二回合发动一次大幅伤害。"
-    translated: "In battle, they wield a large blade with great momentum, exuding an imposing presence that grants their team an additional +5 recovery. They initiate a large‑scale damage attack every two turns."
+    translated: "In battle, they wield a large blade with great momentum, exuding an imposing presence that grants their team an additional +5 recovery. They initiate a large-scale damage attack every two turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -10306,8 +10306,8 @@
   splits:
   - split: 1
     text: "黑衣人"
-    translated: "Black‑clad person"
-    qcReviewedText: "Black‑clad person"
+    translated: "Black-clad person"
+    qcReviewedText: "Black-clad person"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10316,14 +10316,14 @@
   - split: 1
     text: "黑衣人《手足无措》"
     translated: "The Black Cloaked Figure 'At a Loss'"
-    qcReviewedText: "The Black Cloaked Figure 'At a Loss'：Can't you respect the Senior for once? (100% nullify enemy‑inflicted damage)"
+    qcReviewedText: "The Black Cloaked Figure 'At a Loss'：Can't you respect the Senior for once? (100% nullify enemy-inflicted damage)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "你们尊重一下前辈不行吗？（100%无效化敌方造成的伤害）"
-    translated: "Can't you respect the Senior for once? (100% nullify enemy‑inflicted damage)"
+    translated: "Can't you respect the Senior for once? (100% nullify enemy-inflicted damage)"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -10331,8 +10331,8 @@
   splits:
   - split: 1
     text: "黑衣人"
-    translated: "Black‑clad person"
-    qcReviewedText: "Black‑clad person"
+    translated: "Black-clad person"
+    qcReviewedText: "Black-clad person"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10948,14 +10948,14 @@
   - split: 1
     text: "极端揍狗拳"
     translated: "Extreme Dog Punch"
-    qcReviewedText: "Extreme Dog Punch：Lock all commands, use the Dog‑Punching Fist without conditions, and activate Rage Mode."
+    qcReviewedText: "Extreme Dog Punch：Lock all commands, use the Dog-Punching Fist without conditions, and activate Rage Mode."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "锁定所有指令，无条件使用揍狗拳，并迭加「狂化」。"
-    translated: "Lock all commands, use the Dog‑Punching Fist without conditions, and activate Rage Mode."
+    translated: "Lock all commands, use the Dog-Punching Fist without conditions, and activate Rage Mode."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -11001,7 +11001,7 @@
   - split: 1
     text: "翻浪刀法"
     translated: "Surging Wave Blade Technique"
-    qcReviewedText: "Surging Wave Blade Technique：The command to stab someone has changed to[Pursuit], 30% chance to add Off‑balance"
+    qcReviewedText: "Surging Wave Blade Technique：The command to stab someone has changed to[Pursuit], 30% chance to add Off-balance"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11016,7 +11016,7 @@
   - split: 1
     subIndex: 3
     text: "，30%机率追加「失衡」。"
-    translated: ", 30% chance to add Off‑balance"
+    translated: ", 30% chance to add Off-balance"
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}"
@@ -11528,7 +11528,7 @@
     text: "一趾神通"
     translated: "One Toe Divine Skill"
     qcReviewedText: "One Toe Divine Skill：Level 2 and above, Bei Zhou becomes [punchable][One Toe Divine Skill]。"
-    qcTranslated: "One‑Toe Divine Skill: Level 2 and above, Bei Zhou becomes [One‑Toe Divine Skill]."
+    qcTranslated: "One-Toe Divine Skill: Level 2 and above, Bei Zhou becomes [One-Toe Divine Skill]."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -11560,8 +11560,8 @@
   - split: 1
     text: "一趾神通"
     translated: "One Toe Divine Skill"
-    qcReviewedText: "One Toe Divine Skill：Level 2 and above, Bei Zhou becomes [punchable][One Toe Divine Skill], After successfully preparing, they obtain One‑Toed Wind Control."
-    qcTranslated: "One Toe Divine Skill: Level 2 and above, the preparation stance becomes [One Toe Divine Skill]; after successfully executing the preparation stance, the user obtains One‑Toed Wind Control."
+    qcReviewedText: "One Toe Divine Skill：Level 2 and above, Bei Zhou becomes [punchable][One Toe Divine Skill], After successfully preparing, they obtain One-Toed Wind Control."
+    qcTranslated: "One Toe Divine Skill: Level 2 and above, the preparation stance becomes [One Toe Divine Skill]; after successfully executing the preparation stance, the user obtains One-Toed Wind Control."
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: UntranslatedPinyin
@@ -11579,7 +11579,7 @@
   - split: 1
     subIndex: 3
     text: "，备揍成功后，获得「一趾御风」。"
-    translated: ", After successfully preparing, they obtain One‑Toed Wind Control."
+    translated: ", After successfully preparing, they obtain One-Toed Wind Control."
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}"
@@ -11851,8 +11851,8 @@
   - split: 1
     text: "归元"
     translated: "Return to Origin"
-    qcReviewedText: "Return to Origin：When the combo count exceeds 2, Prepared Punishment becomes active.[Return to Origin]。\\nGenerate a Body‑Protecting Aura Shield based on the number of consecutive hits, up to level 5."
-    qcTranslated: "Return to Origin: When the combo count exceeds 2, Prepared Punishment transforms into [Return to Origin].\\nGenerate a Body‑Protecting Aura Shield based on the combo count, up to level 5.."
+    qcReviewedText: "Return to Origin：When the combo count exceeds 2, Prepared Punishment becomes active.[Return to Origin]。\\nGenerate a Body-Protecting Aura Shield based on the number of consecutive hits, up to level 5."
+    qcTranslated: "Return to Origin: When the combo count exceeds 2, Prepared Punishment transforms into [Return to Origin].\\nGenerate a Body-Protecting Aura Shield based on the combo count, up to level 5.."
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: UnnaturalPhrasing
@@ -11870,7 +11870,7 @@
   - split: 1
     subIndex: 3
     text: "根据连击数，生成「护体气罩」，最高等级5。"
-    translated: "Generate a Body‑Protecting Aura Shield based on the number of consecutive hits, up to level 5."
+    translated: "Generate a Body-Protecting Aura Shield based on the number of consecutive hits, up to level 5."
   templates:
   - split: 1
     template: "{0}：{1}[{2}]。\\n{3}"
@@ -11913,8 +11913,8 @@
   - split: 1
     text: "枯荣神功"
     translated: "Withering and Flourishing Divine Skill"
-    qcReviewedText: "Withering and Flourishing Divine Skill：Transform Beating Ready into Prosperity and Decline Divine Skill, restore 10% health, gain Body‑Protecting Energy Shield Lv3」。"
-    qcTranslated: "Withering and Flourishing Divine Skill: Transform Beating Ready into Withering and Flourishing Divine Skill, restore 10% health, gain Body‑Protecting Energy Shield Lv3."
+    qcReviewedText: "Withering and Flourishing Divine Skill：Transform Beating Ready into Prosperity and Decline Divine Skill, restore 10% health, gain Body-Protecting Energy Shield Lv3」。"
+    qcTranslated: "Withering and Flourishing Divine Skill: Transform Beating Ready into Withering and Flourishing Divine Skill, restore 10% health, gain Body-Protecting Energy Shield Lv3."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -11923,7 +11923,7 @@
   - split: 1
     subIndex: 1
     text: "备揍变为「枯荣神功」，恢复10%血，获得「护体气罩"
-    translated: "Transform Beating Ready into Prosperity and Decline Divine Skill, restore 10% health, gain Body‑Protecting Energy Shield"
+    translated: "Transform Beating Ready into Prosperity and Decline Divine Skill, restore 10% health, gain Body-Protecting Energy Shield"
   templates:
   - split: 1
     template: "{0}：{1}Lv3」。"
@@ -12150,8 +12150,8 @@
   - split: 1
     text: "化境"
     translated: "Transcendence"
-    qcReviewedText: "Transcendence Lv1：Our team regenerates +10, increases Qinggong by +10%, and boosts defense.+10%\\nEnemy regains energy ‑10, qinggong ‑10%, defense-10%"
-    qcTranslated: "Transcendence Lv1: Our team regenerates +10, increases Qinggong by +10%, and boosts defense by +10%\\nEnemy regains energy ‑10, Qinggong ‑10%, defense ‑‑10%"
+    qcReviewedText: "Transcendence Lv1：Our team regenerates +10, increases Qinggong by +10%, and boosts defense.+10%\\nEnemy regains energy -10, qinggong -10%, defense-10%"
+    qcTranslated: "Transcendence Lv1: Our team regenerates +10, increases Qinggong by +10%, and boosts defense by +10%\\nEnemy regains energy -10, Qinggong -10%, defense --10%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -12165,7 +12165,7 @@
   - split: 1
     subIndex: 2
     text: "敌方回气-10、轻功-10%、防御"
-    translated: "Enemy regains energy ‑10, qinggong ‑10%, defense"
+    translated: "Enemy regains energy -10, qinggong -10%, defense"
   templates:
   - split: 1
     template: "{0}Lv1：{1}+10%\\n{2}-10%"
@@ -12186,8 +12186,8 @@
   - split: 1
     text: "化境"
     translated: "Transcendence"
-    qcReviewedText: "Transcendence Lv2：Our side regenerates +20, qinggong +20%, defense+20%\\nEnemy regains ‑20, Qinggong ‑20%, defense-20%"
-    qcTranslated: "Transcendence Lv2: Our side regenerates +20, Qinggong +20%, defense +20%\\nEnemy regains ‑20, Qinggong ‑20%, defense ‑20%"
+    qcReviewedText: "Transcendence Lv2：Our side regenerates +20, qinggong +20%, defense+20%\\nEnemy regains -20, Qinggong -20%, defense-20%"
+    qcTranslated: "Transcendence Lv2: Our side regenerates +20, Qinggong +20%, defense +20%\\nEnemy regains -20, Qinggong -20%, defense -20%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UntranslatedPinyin
@@ -12201,7 +12201,7 @@
   - split: 1
     subIndex: 2
     text: "敌方回气-20、轻功-20%、防御"
-    translated: "Enemy regains ‑20, Qinggong ‑20%, defense"
+    translated: "Enemy regains -20, Qinggong -20%, defense"
   templates:
   - split: 1
     template: "{0}Lv2：{1}+20%\\n{2}-20%"
@@ -12222,8 +12222,8 @@
   - split: 1
     text: "化境"
     translated: "Transcendence"
-    qcReviewedText: "Transcendence Lv3：Our team regenerates +30, increases Lightness by +30%, and enhances defense.+30%\\nEnemy regenerates ‑30, increases Qinggong by ‑30%, defends-30%"
-    qcTranslated: "Transcendence Lv3: Our team regenerates +30, increases Lightness by +30%, and enhances defense by +30%\\nEnemy regenerates ‑30, increases Qinggong by ‑30%, and enhances defense by ‑30%"
+    qcReviewedText: "Transcendence Lv3：Our team regenerates +30, increases Lightness by +30%, and enhances defense.+30%\\nEnemy regenerates -30, increases Qinggong by -30%, defends-30%"
+    qcTranslated: "Transcendence Lv3: Our team regenerates +30, increases Lightness by +30%, and enhances defense by +30%\\nEnemy regenerates -30, increases Qinggong by -30%, and enhances defense by -30%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -12237,7 +12237,7 @@
   - split: 1
     subIndex: 2
     text: "敌方回气-30、轻功-30%、防御"
-    translated: "Enemy regenerates ‑30, increases Qinggong by ‑30%, defends"
+    translated: "Enemy regenerates -30, increases Qinggong by -30%, defends"
   templates:
   - split: 1
     template: "{0}Lv3：{1}+30%\\n{2}-30%"
@@ -12280,7 +12280,7 @@
     text: "剑界"
     translated: "Sword Realm"
     qcReviewedText: "Sword Realm：Above rank three, our side's Blades and Swords are +30%, enemy Blades and Swords-30%。\\nIncrease the chance to parry based on the difference between blades and swords."
-    qcTranslated: "Sword Realm: Above rank three, our side's Blades and Swords are +30%, enemy Blades and Swords are ‑30%.\\nIncrease the chance to parry based on the difference in Blade and Sword stats."
+    qcTranslated: "Sword Realm: Above rank three, our side's Blades and Swords are +30%, enemy Blades and Swords are -30%.\\nIncrease the chance to parry based on the difference in Blade and Sword stats."
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: OtherNamedDefect
@@ -12340,7 +12340,7 @@
   - split: 1
     text: "欺善怕恶"
     translated: "Bullying the weak and fearing the strong"
-    qcReviewedText: "Bullying the weak and fearing the strong：When the opponent's aura is stronger than your own, decrease all your attributes by ‑20%; when the opponent's aura is weaker than your own, increase all your attributes by ‑20%.+20%。"
+    qcReviewedText: "Bullying the weak and fearing the strong：When the opponent's aura is stronger than your own, decrease all your attributes by -20%; when the opponent's aura is weaker than your own, increase all your attributes by -20%.+20%。"
     qcTranslated: "Bullying the weak and fearing the strong: When the opponent's aura is greater than your own, all your attributes are 20%; when the opponent's aura is less than your own, all your attributes are 20%"
     qcStatus: Corrected
     qcQualityScore: 75
@@ -12351,7 +12351,7 @@
   - split: 1
     subIndex: 1
     text: "对手气大于自身时，自身全属性-20%；对手气小于自身时，自身全属性"
-    translated: "When the opponent's aura is stronger than your own, decrease all your attributes by ‑20%; when the opponent's aura is weaker than your own, increase all your attributes by ‑20%."
+    translated: "When the opponent's aura is stronger than your own, decrease all your attributes by -20%; when the opponent's aura is weaker than your own, increase all your attributes by -20%."
   templates:
   - split: 1
     template: "{0}：{1}+20%。"
@@ -12398,7 +12398,7 @@
     text: "断臂"
     translated: "Severed Arm"
     qcReviewedText: "Severed Arm：Offense and defense-25%。"
-    qcTranslated: "Severed Arm: Offense and defense ‑25%"
+    qcTranslated: "Severed Arm: Offense and defense -25%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -12461,7 +12461,7 @@
     text: "同门之情"
     translated: "Brotherhood of the Same Sect"
     qcReviewedText: "Brotherhood of the Same Sect Lv1：Reduces damage taken by 25%, restoring Qi each turn-2"
-    qcTranslated: "Brotherhood of the Same Sect Lv1: Reduces damage taken by 25%, restoring ‑2 Qi each turn"
+    qcTranslated: "Brotherhood of the Same Sect Lv1: Reduces damage taken by 25%, restoring -2 Qi each turn"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -12492,7 +12492,7 @@
     text: "同门之情"
     translated: "Brotherhood of the Same Sect"
     qcReviewedText: "Brotherhood of the Same Sect Lv2：Reduces damage taken by 50%, restores Qi every turn.-4"
-    qcTranslated: "Brotherhood of the Same Sect Lv2: Reduces damage taken by 50%, restores ‑4 Qi every turn."
+    qcTranslated: "Brotherhood of the Same Sect Lv2: Reduces damage taken by 50%, restores -4 Qi every turn."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -12524,7 +12524,7 @@
     text: "同门之情"
     translated: "Brotherhood of the Same Sect"
     qcReviewedText: "Brotherhood of the Same Sect Lv3：Reduces damage taken by 75%, restores Chi every turn-6"
-    qcTranslated: "Brotherhood of the Same Sect Lv3: Reduces damage taken by 75%, restores ‑6 Chi every turn"
+    qcTranslated: "Brotherhood of the Same Sect Lv3: Reduces damage taken by 75%, restores -6 Chi every turn"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -12551,8 +12551,8 @@
   - split: 1
     text: "佩服"
     translated: "Admiration"
-    qcReviewedText: "Admiration：They admire you from the depths of their heart, boosting attack by ‑20%, defense unchanged.-20%"
-    qcTranslated: "Admiration: They admire you from the depths of their heart, boosting attack by ‑20% and defense by ‑20%."
+    qcReviewedText: "Admiration：They admire you from the depths of their heart, boosting attack by -20%, defense unchanged.-20%"
+    qcTranslated: "Admiration: They admire you from the depths of their heart, boosting attack by -20% and defense by -20%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: GarbledNumber
@@ -12562,7 +12562,7 @@
   - split: 1
     subIndex: 1
     text: "他内心深处佩服你，攻击-20%、防御"
-    translated: "They admire you from the depths of their heart, boosting attack by ‑20%, defense unchanged."
+    translated: "They admire you from the depths of their heart, boosting attack by -20%, defense unchanged."
   templates:
   - split: 1
     template: "{0}：{1}-20%"
@@ -12875,7 +12875,7 @@
     text: "针对三师兄"
     translated: "Regarding Third Senior Brother"
     qcReviewedText: "Regarding Third Senior Brother：Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power-50%。"
-    qcTranslated: "Regarding Third Senior Brother: Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power ‑50%."
+    qcTranslated: "Regarding Third Senior Brother: Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power -50%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -14386,7 +14386,7 @@
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
     qcReviewedText: "Iron Pipa Skill Lv1：When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy.-3。\\nFor Level 2 and above, attacks deal ki damage-3。\\nAbove the Third Realm, there is a 50% chance to add an offensive or defensive bonus.[Shock]。"
-    qcTranslated: "Iron Pipa Skill Lv1: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy ‑3.\\nFor Level 2 and above, attacks deal ki damage 2.\\nAbove the Third Realm, there is a ‑3% chance to add [Shock] to offense or defense."
+    qcTranslated: "Iron Pipa Skill Lv1: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy -3.\\nFor Level 2 and above, attacks deal ki damage 2.\\nAbove the Third Realm, there is a -3% chance to add [Shock] to offense or defense."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -14431,7 +14431,7 @@
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
     qcReviewedText: "Iron Pipa Skill Lv2：When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy.-4。\\nFor Level 2 and above, attacks deal ki damage-4。\\nAbove the third Jingjie, there is a 60% chance to add additional offensive and defensive effects.[Shock]。"
-    qcTranslated: "Iron Pipa Skill Lv2: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy ‑4.\\nFor Level 2 and above, attacks deal ki damage 2.\\nAbove the third Jingjie, there is a ‑4% chance to add additional offensive and defensive effects [Shock]."
+    qcTranslated: "Iron Pipa Skill Lv2: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy -4.\\nFor Level 2 and above, attacks deal ki damage 2.\\nAbove the third Jingjie, there is a -4% chance to add additional offensive and defensive effects [Shock]."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -14476,7 +14476,7 @@
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
     qcReviewedText: "Iron Pipa Skill Lv3：When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy.-5。\\nFor Level 2 and above, attacks deal ki damage-5。\\nAbove the third level of realm, there is a 70% chance to add an offensive or defensive bonus.[Shock]。"
-    qcTranslated: "Iron Pipa Skill Lv3: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy ‑5.\\nFor Level 2 and above, attacks deal ki damage 2.\\nAbove the third level of realm, there is a ‑5% chance to add an offensive or defensive bonus [Shock]."
+    qcTranslated: "Iron Pipa Skill Lv3: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy -5.\\nFor Level 2 and above, attacks deal ki damage 2.\\nAbove the third level of realm, there is a -5% chance to add an offensive or defensive bonus [Shock]."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -14521,7 +14521,7 @@
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
     qcReviewedText: "Iron Pipa Skill Lv4：When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy.-6。\\nFor Level 2 and above, attacks deal ki damage-6。\\nAbove the third realm, there is a 80% chance to add an offensive or defensive bonus.[Shock]。"
-    qcTranslated: "Iron Pipa Skill Lv4: When the enemy uses a successful stab and prepare to fight tactic, it causes their energy to deplete by ‑6.\\nFor Level 2 and above, attacks deal ki damage of 2.\\nAbove the third realm, there is a ‑6% chance to add [Shock] to offense or defense."
+    qcTranslated: "Iron Pipa Skill Lv4: When the enemy uses a successful stab and prepare to fight tactic, it causes their energy to deplete by -6.\\nFor Level 2 and above, attacks deal ki damage of 2.\\nAbove the third realm, there is a -6% chance to add [Shock] to offense or defense."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -14566,7 +14566,7 @@
     text: "铁琵琶功"
     translated: "Iron Pipa Skill"
     qcReviewedText: "Iron Pipa Skill Lv5：When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy.-7。\\nFor Level 2 and above, attacks deal ki damage-7。\\nAbove Boundary Level 3, there is a 90% chance to add an additional attack or defense.[Shock]。"
-    qcTranslated: "Iron Pipa Skill Lv5: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy ‑7.\\nFor Realm Level 2 and above, attacks deal ki damage 2.\\nAbove Realm Level 3, there is a ‑7% chance to add [Shock] to attack or defense."
+    qcTranslated: "Iron Pipa Skill Lv5: When the enemy uses a successful stab and prepare to fight tactic, it causes a depletion of their energy -7.\\nFor Realm Level 2 and above, attacks deal ki damage 2.\\nAbove Realm Level 3, there is a -7% chance to add [Shock] to attack or defense."
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: GarbledNumber
@@ -14788,8 +14788,8 @@
   - split: 1
     text: "机关箧笥"
     translated: "Mechanism box"
-    qcReviewedText: "Mechanism box：Each turn, randomly transform into one of the following forms.\\nMechanism Case • Bird‑Catching Mode \\nMechanism Chest • Stir‑Fried Horse Meat Condition \\nMechanism Coffer • Haze Form State"
-    qcTranslated: "Mechanism Casket: Each turn, randomly transform into one of the following forms.\\nMechanism Casket • Bird‑Catching Mode \\nMechanism Casket • Horse‑Stirring Mode \\nMechanism Casket • Haze Mode"
+    qcReviewedText: "Mechanism box：Each turn, randomly transform into one of the following forms.\\nMechanism Case • Bird-Catching Mode \\nMechanism Chest • Stir-Fried Horse Meat Condition \\nMechanism Coffer • Haze Form State"
+    qcTranslated: "Mechanism Casket: Each turn, randomly transform into one of the following forms.\\nMechanism Casket • Bird-Catching Mode \\nMechanism Casket • Horse-Stirring Mode \\nMechanism Casket • Haze Mode"
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: DomainTerm
@@ -14804,11 +14804,11 @@
   - split: 1
     subIndex: 2
     text: "机关箧笥・捕鸟型态"
-    translated: "Mechanism Case • Bird‑Catching Mode"
+    translated: "Mechanism Case • Bird-Catching Mode"
   - split: 1
     subIndex: 3
     text: "机关箧笥・拌马型态"
-    translated: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
+    translated: "Mechanism Chest • Stir-Fried Horse Meat Condition"
   - split: 1
     subIndex: 4
     text: "机关箧笥・迷烟型态"
@@ -14820,8 +14820,8 @@
   splits:
   - split: 1
     text: "机关箧笥・捕鸟型态"
-    translated: "Mechanism Case • Bird‑Catching Mode"
-    qcReviewedText: "Mechanism Case • Bird‑Catching Mode"
+    translated: "Mechanism Case • Bird-Catching Mode"
+    qcReviewedText: "Mechanism Case • Bird-Catching Mode"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14829,8 +14829,8 @@
   splits:
   - split: 1
     text: "机关箧笥・捕鸟型态"
-    translated: "Mechanism Case • Bird‑Catching Mode"
-    qcReviewedText: "Mechanism Case • Bird‑Catching Mode：Deal multiple small hits with flying needles"
+    translated: "Mechanism Case • Bird-Catching Mode"
+    qcReviewedText: "Mechanism Case • Bird-Catching Mode：Deal multiple small hits with flying needles"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14845,9 +14845,9 @@
   splits:
   - split: 1
     text: "机关箧笥・拌马型态"
-    translated: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
-    qcReviewedText: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
-    qcTranslated: "Mechanism Chest • Stir‑Fried Horse Meat Form"
+    translated: "Mechanism Chest • Stir-Fried Horse Meat Condition"
+    qcReviewedText: "Mechanism Chest • Stir-Fried Horse Meat Condition"
+    qcTranslated: "Mechanism Chest • Stir-Fried Horse Meat Form"
     qcStatus: Corrected
     qcQualityScore: 85
     qcDefectCategory: DomainTerm
@@ -14857,8 +14857,8 @@
   splits:
   - split: 1
     text: "机关箧笥・拌马型态"
-    translated: "Mechanism Chest • Stir‑Fried Horse Meat Condition"
-    qcReviewedText: "Mechanism Chest • Stir‑Fried Horse Meat Condition：Launch the lasso to cause imbalance"
+    translated: "Mechanism Chest • Stir-Fried Horse Meat Condition"
+    qcReviewedText: "Mechanism Chest • Stir-Fried Horse Meat Condition：Launch the lasso to cause imbalance"
     qcTranslated: "Mechanism Chest • Lasso Form: Launch the lasso to cause imbalance"
     qcStatus: Corrected
     qcQualityScore: 95
@@ -14912,8 +14912,8 @@
   - split: 1
     text: "机关箧笥"
     translated: "Mechanism box"
-    qcReviewedText: "Mechanism box：Each turn, randomly transform into one of the following forms.\\nMechanism Satchel • Hunting Form State \\nMechanism Box • Saber Form \\nMechanism Chest • Carnage Type \\nWhile correcting, reach Level 2 Jingjie or above to unlock Ultimate moves.：Mechanism Box ‑ Sacred Garment Form"
-    qcTranslated: "Mechanism Casket: Each turn, randomly transform into one of the following forms.\\nMechanism Casket • Hunting Form\\nMechanism Casket • Horse‑Slaying Form\\nMechanism Casket • Carnage Form\\nUnlock Ultimate at Level 2 or above: Mechanism Casket • Sacred Garment Form"
+    qcReviewedText: "Mechanism box：Each turn, randomly transform into one of the following forms.\\nMechanism Satchel • Hunting Form State \\nMechanism Box • Saber Form \\nMechanism Chest • Carnage Type \\nWhile correcting, reach Level 2 Jingjie or above to unlock Ultimate moves.：Mechanism Box - Sacred Garment Form"
+    qcTranslated: "Mechanism Casket: Each turn, randomly transform into one of the following forms.\\nMechanism Casket • Hunting Form\\nMechanism Casket • Horse-Slaying Form\\nMechanism Casket • Carnage Form\\nUnlock Ultimate at Level 2 or above: Mechanism Casket • Sacred Garment Form"
     qcStatus: Corrected
     qcQualityScore: 92
     qcDefectCategory: GarbledNumber
@@ -14946,7 +14946,7 @@
   - split: 1
     subIndex: 6
     text: "机关箧笥．圣衣型态"
-    translated: "Mechanism Box ‑ Sacred Garment Form"
+    translated: "Mechanism Box - Sacred Garment Form"
   templates:
   - split: 1
     template: "{0}：{1}\\n{2}\\n{3}\\n{4}\\n{5}：{6}"
@@ -14964,14 +14964,14 @@
   - split: 1
     text: "机关箧笥・狩猎型态"
     translated: "Mechanism Satchel • Hunting Form State"
-    qcReviewedText: "Mechanism Satchel • Hunting Form State：Deal moderate multi‑segment damage with a crossbow arrow."
+    qcReviewedText: "Mechanism Satchel • Hunting Form State：Deal moderate multi-segment damage with a crossbow arrow."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "发射弩箭造成多段中幅伤害"
-    translated: "Deal moderate multi‑segment damage with a crossbow arrow."
+    translated: "Deal moderate multi-segment damage with a crossbow arrow."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -14990,7 +14990,7 @@
     text: "机关箧笥・斩马型态"
     translated: "Mechanism Box • Saber Form"
     qcReviewedText: "Mechanism Box • Saber Form：Launch a Zhan Ma Fei Dao to deal moderate damage and add an imbalance effect."
-    qcTranslated: "Mechanism Box • Saber Form：Launch a Horse‑Slaying Flying Blade to deal moderate damage and add an imbalance effect."
+    qcTranslated: "Mechanism Box • Saber Form：Launch a Horse-Slaying Flying Blade to deal moderate damage and add an imbalance effect."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UntranslatedPinyin
@@ -15032,8 +15032,8 @@
   splits:
   - split: 1
     text: "机关箧笥．圣衣型态"
-    translated: "Mechanism Box ‑ Sacred Garment Form"
-    qcReviewedText: "Mechanism Box ‑ Sacred Garment Form"
+    translated: "Mechanism Box - Sacred Garment Form"
+    qcReviewedText: "Mechanism Box - Sacred Garment Form"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15041,8 +15041,8 @@
   splits:
   - split: 1
     text: "机关箧笥．圣衣型态"
-    translated: "Mechanism Box ‑ Sacred Garment Form"
-    qcReviewedText: "Mechanism Box ‑ Sacred Garment Form：Above level two, Fourth Senior Brother wears the mechanical satchel and unleashes powerful strikes like meteors, definitely deploying their ultimate move."
+    translated: "Mechanism Box - Sacred Garment Form"
+    qcReviewedText: "Mechanism Box - Sacred Garment Form：Above level two, Fourth Senior Brother wears the mechanical satchel and unleashes powerful strikes like meteors, definitely deploying their ultimate move."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15068,7 +15068,7 @@
     text: "呕吐物"
     translated: "Vomit"
     qcReviewedText: "Vomit：There's vomit on the ground, it's slippery and disgusting. Use qinggong.-30%"
-    qcTranslated: "Vomit: There's vomit on the ground, it's slippery and disgusting. Use Qinggong.‑30%"
+    qcTranslated: "Vomit: There's vomit on the ground, it's slippery and disgusting. Use Qinggong.-30%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -15095,8 +15095,8 @@
   - split: 1
     text: "手下留情"
     translated: "Show mercy"
-    qcReviewedText: "Show mercy：Attack Power ‑50%, seal Ultimate"
-    qcTranslated: "Show Mercy: Attack Power ‑50%, seal Ultimate"
+    qcReviewedText: "Show mercy：Attack Power -50%, seal Ultimate"
+    qcTranslated: "Show Mercy: Attack Power -50%, seal Ultimate"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -15105,7 +15105,7 @@
   - split: 1
     subIndex: 1
     text: "攻击力-50%，封印绝招"
-    translated: "Attack Power ‑50%, seal Ultimate"
+    translated: "Attack Power -50%, seal Ultimate"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -15810,9 +15810,9 @@
   splits:
   - split: 1
     text: "叶云裳《越调・凭栏人・偕老誓》"
-    translated: "Ye Yunshang Even Tone Mode ‑ Beside the Rail ‑ Vow to Grow Old Together"
-    qcReviewedText: "Ye Yunshang Even Tone Mode ‑ Beside the Rail ‑ Vow to Grow Old Together：Each turn, when my chi is below +3 and my health is below 50%, I restore 10% each turn."
-    qcTranslated: "Ye Yunshang Even Tone Mode ‑ Beside the Rail ‑ Vow to Grow Old Together: Each turn, when my chi is +3 and my health is below 50%, I restore 10% each turn."
+    translated: "Ye Yunshang Even Tone Mode - Beside the Rail - Vow to Grow Old Together"
+    qcReviewedText: "Ye Yunshang Even Tone Mode - Beside the Rail - Vow to Grow Old Together：Each turn, when my chi is below +3 and my health is below 50%, I restore 10% each turn."
+    qcTranslated: "Ye Yunshang Even Tone Mode - Beside the Rail - Vow to Grow Old Together: Each turn, when my chi is +3 and my health is below 50%, I restore 10% each turn."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -15841,7 +15841,7 @@
     text: "栈道不稳"
     translated: "Path is unstable"
     qcReviewedText: "Path is unstable：Qinggong-20%。"
-    qcTranslated: "Path is unstable: Qinggong ‑20%"
+    qcTranslated: "Path is unstable: Qinggong -20%"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -16014,7 +16014,7 @@
     text: "胡椒粉毒"
     translated: "Pepper Powder Poison"
     qcReviewedText: "Pepper Powder Poison：Suppress True Qi, reducing one's own Qi each turn.-2。"
-    qcTranslated: "Pepper Powder Poison: Suppress True Qi, reducing one's own Qi by ‑2 each turn."
+    qcTranslated: "Pepper Powder Poison: Suppress True Qi, reducing one's own Qi by -2 each turn."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -16155,14 +16155,14 @@
   - split: 1
     text: "赵逵《地狱法王》"
     translated: "Zhao Kui's Dharma King of Hell"
-    qcReviewedText: "Zhao Kui's Dharma King of Hell：Deals moderate damage each turn and may cause Burning status. The enemy regains ‑3 mana each turn and may also cause Frightened status."
+    qcReviewedText: "Zhao Kui's Dharma King of Hell：Deals moderate damage each turn and may cause Burning status. The enemy regains -3 mana each turn and may also cause Frightened status."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "每回合造成中幅伤害，造成燃烧异常。敌方每回气-3，并有机率造成胆怯异常。"
-    translated: "Deals moderate damage each turn and may cause Burning status. The enemy regains ‑3 mana each turn and may also cause Frightened status."
+    translated: "Deals moderate damage each turn and may cause Burning status. The enemy regains -3 mana each turn and may also cause Frightened status."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -16385,8 +16385,8 @@
   - split: 1
     text: "如意境"
     translated: "Ruyi Realm"
-    qcReviewedText: "Ruyi Realm Lv3：Increase in self‑punch and palm techniques by 30%."
-    qcTranslated: "Ruyi Realm Lv3: Increase in self‑punch and palm techniques by 30%."
+    qcReviewedText: "Ruyi Realm Lv3：Increase in self-punch and palm techniques by 30%."
+    qcTranslated: "Ruyi Realm Lv3: Increase in self-punch and palm techniques by 30%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -16395,7 +16395,7 @@
   - split: 1
     subIndex: 1
     text: "自身拳掌提升30%。"
-    translated: "Increase in self‑punch and palm techniques by 30%."
+    translated: "Increase in self-punch and palm techniques by 30%."
   templates:
   - split: 1
     template: "{0}Lv3：{1}"
@@ -16416,8 +16416,8 @@
   - split: 1
     text: "如意境"
     translated: "Ruyi Realm"
-    qcReviewedText: "Ruyi Realm Lv4：Increase in self‑punch and palm attack power by 40%."
-    qcTranslated: "Ruyi Realm Lv4: Increase self‑punch and palm attack power by 40%."
+    qcReviewedText: "Ruyi Realm Lv4：Increase in self-punch and palm attack power by 40%."
+    qcTranslated: "Ruyi Realm Lv4: Increase self-punch and palm attack power by 40%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -16426,7 +16426,7 @@
   - split: 1
     subIndex: 1
     text: "自身拳掌提升40%。"
-    translated: "Increase in self‑punch and palm attack power by 40%."
+    translated: "Increase in self-punch and palm attack power by 40%."
   templates:
   - split: 1
     template: "{0}Lv4：{1}"
