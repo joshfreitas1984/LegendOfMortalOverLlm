@@ -70,6 +70,7 @@ instead of duplicating their implementation details here.
 
 | Task | Start here |
 | --- | --- |
+| Read or search the game's code (how a string is shown, what a column is used for) | `Files/Raw/Decompiled/` (gitignored; made by test `0. Decompile Game Assemblies` in `Tests/DecompileTests.cs`). Grep it rather than re-decompiling |
 | Work on the game text extraction → LLM translation → repackaging pipeline | [`Translate/GameFileHandling.cs`](../Translate/GameFileHandling.cs), [`Translate/TranslationExport.cs`](../Translate/TranslationExport.cs), [`Translate/TranslationPackaging.cs`](../Translate/TranslationPackaging.cs) |
 | Understand the `Files/` raw/converted/mod data layout | [`Translate/`](../Translate/) source above and [`Files/`](../Files/) itself |
 | Fix or extend the runtime string-table dump/injection patches | [`StringTableDumpPatches.cs`](../LegendOfMortalPlugin/StringTableDumpPatches.cs), [`StringTableInjectionPatches.cs`](../LegendOfMortalPlugin/StringTableInjectionPatches.cs) |

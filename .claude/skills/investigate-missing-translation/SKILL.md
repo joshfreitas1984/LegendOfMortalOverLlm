@@ -20,7 +20,9 @@ LlmKit's generic docs will explain it — they generally won't, because the weir
    step 4; don't skip straight to code-diving here).
 
 2. **Check `Files/Converted/*.yaml` for the line.** Find the matching `TranslationLine`/
-   `TranslationSplit` and confirm it exists and has a non-empty `Translated` value. If the line or
+   `TranslationSplit` and confirm it exists and has a non-empty `Translated` value. A game with
+   `namedTokenReplacers` stores `{slots}` in `text`/`translated` and the real tokens in the split's `tokens` map
+   (and the template's): a slot with no `tokens` entry is lost at packaging, not here. If the line or
    split is simply missing here, the failure is upstream (extraction/decomposition/splitting), not
    translation or packaging — go back to step 1's extraction docs rather than looking at QC or
    packaging code. If it's present with a `Translated` value but still shows raw in the final
@@ -29,7 +31,9 @@ LlmKit's generic docs will explain it — they generally won't, because the weir
 3. **Check whether it fell to raw-fallback at QC or packaging time.** A translated line can still
    end up raw/missing in `Files/Mod` if QC's score-gate/freshness logic held back a correction, or
    if packaging's raw-fallback rule kicked in (`SkipColumns`, `PackageOutput: false`, unsafe/flagged
-   split, or the `PrefabText`/`DynamicString` "omit rather than write raw Chinese" rule). Don't
+   split, a slot in `translated` that could not be restored from the split's `tokens` - no entry, a glossary
+   entry that is gone, a slot the model invented; packaging logs `Packaging: cannot restore ...` - or the
+   `PrefabText`/`DynamicString` "omit rather than write raw Chinese" rule). Don't
    re-derive this logic from scratch — read
    `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md`'s (sibling repo, relative to this
    downstream repo's working directory) raw-fallback section and, if a QC score/rejection looks

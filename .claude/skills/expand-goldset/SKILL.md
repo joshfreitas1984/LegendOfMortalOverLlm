@@ -40,6 +40,10 @@ words involved. Use a `correctionSamples` entry (source, `currentTranslation`, `
 when you have a real adopted correction to compare against; otherwise an `items` entry with `candidates` and `labels`.
 Keep the candidate's `game`, `sourceFile` and `glossary` fields as mined.
 
+A case mined from a game with `namedTokenReplacers` holds slotted text (`{playerTitle}`, `{npcName}`): keep `source` and
+`currentTranslation` exactly as mined rather than pasting the game's restored form (`///a///`, `<Young Hero||Miss>`), so the
+case stays valid when the glossary changes. A hand-written case in the game's own form is slotted by the assessment itself.
+
 Include clean `Pass` cases on purpose: a gold set built from failures only skews toward defects.
 
 ## 4. Write and validate

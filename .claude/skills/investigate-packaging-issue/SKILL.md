@@ -1,6 +1,6 @@
 ---
 name: investigate-packaging-issue
-description: Fixed investigation order for a reported packaging problem (wrong output in Files/Mod, a line unexpectedly fell back to raw, QC gating misbehaved during packaging, or a column/line was skipped that shouldn't have been). Use whenever a packaging-shaped bug is reported in a downstream repo that consumes FanslationStudio.LlmKit's packaging workflows.
+description: Fixed investigation order for a reported packaging problem (wrong output in Files/Mod, a line unexpectedly fell back to raw, QC gating misbehaved during packaging, a column/line was skipped that shouldn't have been, or a {slot} or ///token/// is wrong in Files/Mod). Use whenever a packaging-shaped bug is reported in a downstream repo that consumes FanslationStudio.LlmKit's packaging workflows.
 ---
 
 # Investigate a packaging issue
@@ -43,16 +43,29 @@ workflow actually owns the reported line.
    `../FanslationStudio.LlmKit/docs/features/translation-pipeline/quality-control-pass.md` instead. Packaging only
    consumes the QC gate's result; it does not decide it.
 
-5. **Read `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` in full** as the canonical
+5. **If a `{slot}` or a game token (`///a///`, `<fName>`) is wrong in `Files/Mod`**, it is the token-restore
+   stage, the only place slot values are put back. In `Files/Converted` the split's `translated` (and the
+   template) hold `{slots}` and `tokens` holds each slot's source. Check in order: the split has a `tokens`
+   entry for the slot (a missing entry, an unconfigured name, a glossary token whose glossary entry is gone,
+   or a slot the model invented sends the line to raw fallback, and packaging logs `Packaging: cannot restore
+   ...`); a token sitting in literal text (between colour tags) is in the template's `tokens`; the
+   `Config.yaml: namedTokenReplacers` entry is the kind you expect (copy, `restoreAs`, `restoreFromGlossary`;
+   a glossary fix needs no retranslation, only a re-package); and which text a game hook saw: validators,
+   the pronoun checks, `onColumnPackaged` and `PackagingTextFixups` get the restored text, repair hooks the
+   slotted text. The stage table is in
+   `../FanslationStudio.LlmKit/docs/features/translation-pipeline/token-slots.md`; the game's tokens are in its
+   `docs/investigations/runtime-tokens.md`.
+
+6. **Read `../FanslationStudio.LlmKit/docs/features/packaging/packaging-workflows.md` in full** as the canonical
    current-state reference — it covers the shared `(Passed, QcRejected, RawFallback)` return shape,
    the templated-vs-plain reconstruction logic, and the raw-fallback rules.
 
-6. **Check the downstream repo's own `docs/KNOWN_ISSUES.md` and topic docs** (e.g. a
+7. **Check the downstream repo's own `docs/KNOWN_ISSUES.md` and topic docs** (e.g. a
    startup-crash or packaging-specific postmortem under `docs/investigations/`) before assuming a newly
    reported symptom is a new LlmKit bug — it may already be a known, understood issue with an
    existing investigation doc.
 
-7. **If the finding turns out to be about LlmKit-internal behavior** (a genuine bug or an
+8. **If the finding turns out to be about LlmKit-internal behavior** (a genuine bug or an
    undocumented rule in one of the four workflows), remember FanslationStudio.LlmKit's
    `docs/README.md` source-of-truth rule: write the finding into
    `../FanslationStudio.LlmKit/docs/` (e.g. updating `packaging-workflows.md`), not into the

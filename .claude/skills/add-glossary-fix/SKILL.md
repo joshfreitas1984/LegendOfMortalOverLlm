@@ -17,6 +17,11 @@ This skill applies it; it does not restate it.
    (idioms, fixed courtesies) may go in the preset if every game would render them the same way, but only with
    `allowalt` covering the inflections the corpus uses (read the scan's hit rate); single characters never do. A phrase
    for one exact line is a `ManualTranslations.yaml` entry.
+   A token value is a glossary line too: a `restoreFromGlossary` entry in `namedTokenReplacers` (title alternatives such as
+   `<大哥||姐姐>`) takes its value from the glossary line keyed by the token's source text and is resolved at
+   **packaging**, so fixing its Result needs a re-package, not a retranslation. It is game syntax, so it lives in the
+   game glossary, never the preset. A source with no glossary line is left unslotted at export; adding the line later
+   needs a re-export (and a retranslation of that line).
 3. **Write a game line** under `Files/Glossary/`: stable `raw`, explicit `rawSimplified`/`rawTraditional` where
    conversion could be wrong, `allowalt` only for genuinely accepted renderings, `only:` when the raw sits inside names
    or idioms. If it overrides a preset result, add a comment saying why.

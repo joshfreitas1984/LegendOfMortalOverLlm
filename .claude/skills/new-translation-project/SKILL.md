@@ -93,7 +93,9 @@ pin.
      embedded into the plugin DLL (BepInEx's IL2CPP SDK sets
      `CopyLocalLockFileAssemblies=false` project-wide), add `Costura.Fody`/`Fody` like
      DragonHierOverLlm does — skip this unless a real dependency turns out to need it.
-   Add a `PostBuild` target that `XCOPY`s the built DLL into `<GameDir>\BepInEx\plugins`. Write a
+   Add a `PostBuild` target that copies the built DLL into `<GameDir>\BepInEx\plugins` with the
+   MSBuild `Copy` task (`ContinueOnError="true"`), not `XCOPY` via `Exec` (it exited with code 2 and
+   copied nothing under `dotnet build`, and `Copy` also creates the folder). Write a
    minimal `Plugin.cs`: `[BepInPlugin(guid, name, version)]` class deriving from `BasePlugin`
    (IL2CPP) or `BaseUnityPlugin` (Mono), empty `Load()`/`Awake()` — no dump/patch logic, that's
    game-specific work for later.
@@ -103,7 +105,10 @@ pin.
    consumes `FanslationStudio.LlmKit` via project reference (not a NuGet package) from sibling repo
    `../FanslationStudio.LlmKit`, that the `TranslationLine`/`TranslationSplit`/`FieldTemplate`
    contract is LlmKit-owned (propose changes upstream, never redefine it downstream), and point to
-   the new repo's own `docs/README.md` as the documentation hub. `CLAUDE.md` stays a thin pointer to
+   the new repo's own `docs/README.md` as the documentation hub. For Mono games, also add the rule from
+   `PathOfKungfuOverLlm/AGENTS.md` that the decompiled game code lives in `Files/Raw/Decompiled/` (gitignored, made by the
+   `0. Decompile Game Assemblies` test, step 10) and is to be grepped instead of re-decompiled, plus the matching row in
+   `docs/README.md`'s "Where should I look?" table. `CLAUDE.md` stays a thin pointer to
    `AGENTS.md` + `docs/README.md`, same as every existing repo.
 
 7. **Create the new repo's `docs/README.md`**, per `docs/architecture/downstream-project-structure/downstream-repository-docs-taxonomy.md`'s file
@@ -117,10 +122,10 @@ pin.
    structure reconciliation.
 
 8. **Copy all skill directories in this repo's `.claude/skills/`** into the new repo's
-   `.claude/skills/` verbatim, so it has the same canonical skill set from day one. This currently
-   includes `investigate-qc-issue`, `investigate-packaging-issue`, `investigate-missing-translation`,
-   and `new-translation-project`; keep this step aligned with `Tests/SkillSyncTests.cs`, which copies
-   every source skill directory. Then flag, as a manual follow-up for whoever runs this skill (do not
+   `.claude/skills/` verbatim, so it has the same canonical skill set from day one (list the source
+   folder rather than relying on a fixed list: it grows, e.g. `build-game-glossary`, `find-runtime-tokens`,
+   `add-glossary-fix`, `diagnose-translation-failure`); keep this step aligned with `Tests/SkillSyncTests.cs`,
+   which copies every source skill directory. Then flag, as a manual follow-up for whoever runs this skill (do not
    edit the file yourself): add the new repo's folder name to `DownstreamRepos` in
    `Tests/SkillSyncTests.cs` in `FanslationStudio.LlmKit`, so future skill updates sync to it
    automatically too.
@@ -154,6 +159,21 @@ pin.
      loads the game's older MonoMod and dies in the preloader (`MethodAccessException` in
      `preloader_*.log`). Leave it out when there is no MonoMod. Do not add console or
      UnityLogListening settings.
+   - **Install the pinned BepInEx into the game folder** (local dev install, after the
+     `installer.json` pin): download the pinned `url` to a scratch folder, verify its SHA256 equals
+     the pinned `sha256` and **stop on a mismatch**, then extract it over the game folder (next to
+     the exe) and confirm `winhttp.dll`, `doorstop_config.ini` and `BepInEx/` exist. Do not launch
+     the game; tell the user to start it once so BepInEx generates `BepInEx/config`. Ask before
+     installing if the game folder already has a BepInEx.
+   - **Add the game to `FanslationStudio.Plugins`**: append an entry to
+     `../FanslationStudio.Plugins/config.yaml` (`name`, `gamePath` = the install folder,
+     `managedPath` = `\<exe>_Data\Managed`, `pluginPath` `\BepInEx\plugins`, `releasePath`
+     `\ReleaseFolder\Files`, `export: true`, `version` 5 / 6 / 6.IL2CPP per the runtime). The file
+     may lack a trailing newline, so make sure the new entry starts on its own line. Then
+     `dotnet build` the matching project (`FanslationStudio.Plugins.BepInEx5`, `.BepInEx6` or
+     `.BepInEx6.IL2CPP`) so its post-build script copies `FanslationStudio.Plugins.dll` into the
+     game's `BepInEx\plugins` and `ReleaseFolder`; "7. Package Release" needs it there. Leave the
+     change uncommitted unless asked.
    - **`Files/Packaging/`** (not `Release/`, which `.gitignore` ignores): `GameVersion.txt` (one
      line, the current game version; ask the user) and `BepInEx.cfg`, a copy of the tailored
      `BepInEx.cfg` from a working local install after the game has been launched once (or a
@@ -172,6 +192,42 @@ pin.
      DLLs exist). Adjust the plugin DLL names and the mod folder mapping for the game.
      Never run 7 or 7b as a smoke test on a dev machine: they rewrite the real `ReleaseFolder` and
      open a browser. Use a throwaway probe project instead.
+   - **Resizer, layout and sprite folders**: create `Files/Resizers`, `Files/Layouts` and
+     `Files/Sprites` (with a `.gitkeep`) and a `Tests/TextResizerTests.cs` (copy from
+     `DragonHierOverLlm`, using `GameFileHandling.WorkingDirectory`/`GameFolder`) holding the
+     `Move*IntoPathBasedFiles` tests (`EditorFileSplitter`) plus `CreateSymlinkToResizer`,
+     `CreateSymlinkToLayouts` and `CreateSymlinkToSprites`, which call LlmKit's
+     `SymlinkWorkflow.CreateSymlink`. The links go from the game's `BepInEx
+esizers`,
+     `BepInEx\layouts` and `BepInEx\sprites2` (note: `sprites2`, the folder
+     `FanslationStudio.Plugins` reads) to those repo folders, so editor output lands in the working
+     tree. Create them for real after the BepInEx install: BepInEx's first run creates these as real
+     folders, so **look first** and only replace them when empty (otherwise move the files into the
+     repo folder), then `New-Item -ItemType SymbolicLink` (worked without elevation with Developer
+     Mode on; otherwise run elevated). Step "6. Package to Game Files" calls the `Move*` tests, so
+     the file is required, and "7. Package Release" maps the split output.
+   - **Decompiled game code (Mono)**: add `Tests/DecompileTests.cs` (copy from `PathOfKungfuOverLlm`), the manual step
+     `0. Decompile Game Assemblies`. It runs `ilspycmd -p` on `<Game>_Data/Managed/Assembly-CSharp.dll` and
+     `Assembly-CSharp-firstpass.dll` into `Files/Raw/Decompiled/<assembly>/` (one `.cs` per type, so it can be grepped), skips an
+     assembly whose output is newer than the DLL, and needs `dotnet tool install -g ilspycmd`. Add `Files/Raw/Decompiled/` to the
+     repo's `.gitignore`, and run the step once after the BepInEx install so the game code is on hand for finding the text
+     source, the injection hooks and the runtime tokens. Skills and sessions grep this folder instead of re-decompiling. IL2CPP
+     games have no equivalent yet (Il2CppDumper output is not greppable C# bodies): skip this bullet for them.
+   - **`Tests/QualityControlWorkflowTests.cs`**: the numbered manual QC runbook, copied from `PathOfKungfuOverLlm`
+     (the most current). It must hold every public QC entry point, in this order: `1. RunQualityControlPassSample`
+     (`RunAsync` with `sampleSize`), `2. RunQualityControlPass` (`RunAsync`, then `FileOutputWorkflowTests.PackageFinalTranslation`),
+     `2b. RunQualityControlBruteForce` (`QualityControlWorkflow.RunBruteForce`, then package; a deliberate cleanup run that retries
+     rejected work for up to 5 iterations), `3. ApplyRulesToQCReview`, `4. Find Flagged Quality Control Items`
+     (`GetFlaggedQcReviews`, written to `TestResults/FlaggedQcReviews.yaml`), `5. Triage Flagged Quality Control Items`
+     (`WriteTriageReportAsync`), `6. Generate Quality Control Fix Prompts` (`WriteFixPromptsAsync`), `7. Reset Qc Retry Limits`,
+     the reset helpers (`ResetLeakedQcCorrections`, `ResetLowScoreQcState`, `ResetNonAutoAcceptedQcState`). Pass
+     `GameFileHandling.Hooks` to every call that takes hooks. Leave `RunBruteForce` out and the project has no way to retry
+     rejected corrections after a glossary or rule fix short of a full re-run.
+   - **`Files/TestResults/OldFiles/`**: create it empty. `TranslationCorpus.OldFileLines` enumerates every file in it as
+     YAML, so a missing folder throws `DirectoryNotFoundException` and a `.gitkeep` inside throws
+     `ArgumentNullException` on the first translation run. Also add `Tests/FileInputWorkflowTests.cs` (export, merge,
+     line-match), `Tests/TranslationWorkflowTests.cs` and `Tests/QualityControlWorkflowTests.cs`; the scaffold has none of them, and `TranslationExport` must use
+     LlmKit's default `Raw/Dumped/GameData` source folder when the dumper writes there.
    - **In-game update prompt**: comes from `FanslationStudio.Plugins` (`UpdateHost` in
      `UnityShared`), wired into the host for the runtime (IL2CPP, BepInEx 5 Mono or BepInEx 6
      Mono). The plugin reads `BepInEx/release-manifest.json`, so there is no per-game plugin config.
@@ -189,8 +245,10 @@ pin.
    layout, starter `Config.yaml`/`ManualTranslations.yaml`, the plugin project scaffold (compiles,
    loads, does nothing yet), installer host and packaging workflows, `AGENTS.md`/`CLAUDE.md`/
    `docs/README.md`, copied skills. Still
-   game-specific and manual: writing the actual dumper (extracting the game's real data files into
-   `Raw/Dumped`), IL2CPP interop generation against the real game install if applicable, populating
+   game-specific and manual: building the glossary and gender table (skill `build-game-glossary`), once the first dump exists
+   running the `find-runtime-tokens` skill to wire `namedTokenReplacers` into the starter `Config.yaml` (and its patterns into
+   the splitter's `PlaceholderPatterns`; Converted then holds `{slots}` plus a `tokens` map, so export before translating), writing the actual dumper (extracting the game's real data files into
+   `Raw/Dumped`), running `0. Decompile Game Assemblies` (Mono), IL2CPP interop generation against the real game install if applicable, populating
    `GameTextFiles.cs`'s `TextFilesToSplit` list against real dumped files, the first real
    translation run, the `SkillSyncTests.cs` edit from step 8, filling in `Files/Packaging/`
    (`GameVersion.txt`, the tailored `BepInEx.cfg`), and the first manual publish of the rolling

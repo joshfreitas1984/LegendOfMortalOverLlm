@@ -50,6 +50,9 @@ load the table once, cache it for the game's own working directory (read other d
 copy), and call `CharacterContext.AddCharacterContext(contexts, lines, characters)`. Register it in
 `GameFileHandling.Hooks` and set `lineContextEnabled: true` in `Files/Config.yaml`. If the game also has person tokens
 that stand for an unknown person, give them `GameHooks.UnknownGenderPersonTokens` and a hint (see DragonHier's `PlotLineContext`).
+With `namedTokenReplacers` those tokens are slots in Converted, but `UnknownGenderPersonTokens` stay the game's restored
+forms (`<fName>`, `///fp///`) because the pronoun check judges the restored text; say in the slot's `description` that the
+person's gender is unknown.
 
 `AddCharacterContext` already: skips a split whose source states a gender (他/她, 师兄, 姑娘...), skips a split naming
 characters of different genders, and never replaces a speaker context that already knows a gender. Use `minNameLength`

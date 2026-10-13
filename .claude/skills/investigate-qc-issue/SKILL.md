@@ -26,6 +26,12 @@ already explain the symptom.
    logic. Most "wrongly accepted/rejected" or "stale score" reports trace to one of these two
    choke points.
 
+   With `namedTokenReplacers`, QC works on slotted text on both sides (the same `{playerTitle}` in source and
+   translation) and rule-checks a correction in slot space using the whole column's tokens (fragments and
+   template); the translation is not masked separately. A QC defect about a name, title or token is therefore a
+   slot question: read the split's `tokens`, the slot `description` and `Config.yaml: namedTokenReplacers`
+   before blaming the corrector. See `../FanslationStudio.LlmKit/docs/features/translation-pipeline/token-slots.md`.
+
 3. **Check LlmKit's own unit tests for documented scenarios.** Read
    `../FanslationStudio.LlmKit/Tests/Workflow/QualityControlWorkflowTests.cs` — its test cases
    encode the exact expected behavior (freshness, score-gate, DEFECT parsing, validation-gate

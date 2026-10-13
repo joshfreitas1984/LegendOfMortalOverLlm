@@ -27,6 +27,9 @@ file exists so no repository rule lives in only one vendor-specific format
 - `SharedAssembly/` is shared between `Translate/` and `LegendOfMortalPlugin/` only — it is a different project to
   `FanslationStudio.LlmKit` and is not covered by LlmKit (runtime patching/resizing concerns are out
   of scope for LlmKit).
+- The game's decompiled C# is in `Files/Raw/Decompiled/<assembly>/` (gitignored). Grep it to see how a string is displayed, whether a
+  table column is a lookup key, or where a hook belongs, instead of decompiling again. If the folder is missing or the game updated,
+  run the test `0. Decompile Game Assemblies` (needs `ilspycmd`). The game code is in the `Mortal.*` assemblies (Core, Story, Battle, Combat, Free), not `Assembly-CSharp`.
 - Keep this file short and operational. Put current behavior in `docs/features/`, investigations
   in `docs/investigations/`, plans in `docs/plans/`, and durable structure in `docs/architecture/`.
 - `docs/KNOWN_ISSUES.md` is an index only. Do not create project-local issue indexes or docs trees.
