@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="Raw\Remaining\**" />
     <Compile Remove="Raw\SplitDb\**" />
+    <Compile Remove="Raw\Decompiled\**" />
     <EmbeddedResource Remove="Raw\Remaining\**" />
     <EmbeddedResource Remove="Raw\SplitDb\**" />
     <None Remove="Raw\Remaining\**" />

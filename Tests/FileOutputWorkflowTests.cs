@@ -68,12 +68,14 @@ public class FileOutputWorkflowTests
                 new($"{workingDirectory}/Resizers", "BepInEx/resizers"),
                 // Tailored per game, so it comes from the release files: seed-only, so players' edits survive updates.
                 new($"{PackagingInputsFolder}/BepInEx.cfg", "BepInEx/config/BepInEx.cfg"),
+                // Turns the dynamic string and prefab text replacers on. A per-project setting, not a player choice, so unlike BepInEx.cfg it is not seed-only: every update rewrites it.
+                new($"{PackagingInputsFolder}/FanslationStudio.Plugins.Replacers.cfg", "BepInEx/config/FanslationStudio.Plugins.Replacers.cfg"),
             ],
             // The config folder is owned too, so stale configs left in the staging folder (like UIEditor.cfg) never ship.
             OwnedFolders = ["Mods/English", "BepInEx/resizers", "BepInEx/config"],
             // zzAddedResizers.yaml is the editor's auto-created file: step 6 moves its entries into path-based files.
             RemoveAfterStaging = ["BepInEx/resizers/zzAddedResizers.yaml"],
-            SeedOnly = ["BepInEx/config/**"],
+            SeedOnly = ["BepInEx/config/BepInEx.cfg"],
         });
 
         var assets = new[] { result.ZipPath, result.ManifestPath };

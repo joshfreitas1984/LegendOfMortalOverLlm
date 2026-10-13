@@ -177,7 +177,13 @@ pin.
    - **`Files/Packaging/`** (not `Release/`, which `.gitignore` ignores): `GameVersion.txt` (one
      line, the current game version; ask the user) and `BepInEx.cfg`, a copy of the tailored
      `BepInEx.cfg` from a working local install after the game has been launched once (or a
-     placeholder to fill in). The patch ships it seed-only; the installer never edits it.
+     placeholder to fill in). The patch ships it seed-only; the installer never edits it. Always ship it.
+     Also always ship `FanslationStudio.Plugins.Replacers.cfg` (copy `LegendOfMortalOverLlm`'s): it
+     turns on `[DynamicStringPatcher]` and `[PrefabTextReplacer]` (`Enabled = true`) and sets their `ResourcePath`
+     (relative to `BepInEx/`; change it to wherever the game's packaged `dynamicStrings`/`prefabText` files land,
+     e.g. `../Mods/English`, `./plugins/resources` or `./english`) and `FilePattern`. That is a
+     per-project decision, not a player choice, so it is NOT seed-only: every update rewrites it.
+     Ship it for IL2CPP games too (the Prefab Text Replacer is Mono-only and just ignores its section).
    - **Plugin csproj PostBuild**: besides `GameDir`, copy the built DLL to `ReleaseFolder` =
      `<game>\ReleaseFolder\Files\BepInEx\plugins`, as in `LegendOfMortalPlugin`'s csproj.
      `Tests/Tests.csproj` also needs project references to `FanslationStudio.LlmKit.Release` and
@@ -187,7 +193,10 @@ pin.
      and `MoveLayoutsIntoPathBasedFiles` (they wrap `EditorFileSplitter`). Add "7. Package Release"
      and "7b. Package Installer" from `LegendOfMortalOverLlm` with explicit mappings (never copy
      whole local `BepInEx/config` or `plugins` folders), `OwnedFolders`, `RemoveAfterStaging`
-     `BepInEx/resizers/zzAddedResizers.yaml`, `SeedOnly` `BepInEx/config/**`, and
+     `BepInEx/resizers/zzAddedResizers.yaml`, `SeedOnly` `["BepInEx/config/BepInEx.cfg"]` only (not
+     `BepInEx/config/**`, or the replacers config would stop updating), mappings for both
+     `Files/Packaging/BepInEx.cfg` and `Files/Packaging/FanslationStudio.Plugins.Replacers.cfg` into
+     `BepInEx/config/`, and
      `PrepareStagingFolder` (removes stray BepInEx files, fixes `BepinEx` casing, checks the plugin
      DLLs exist). Adjust the plugin DLL names and the mod folder mapping for the game.
      Never run 7 or 7b as a smoke test on a dev machine: they rewrite the real `ReleaseFolder` and
@@ -251,5 +260,5 @@ esizers`,
    `Raw/Dumped`), running `0. Decompile Game Assemblies` (Mono), IL2CPP interop generation against the real game install if applicable, populating
    `GameTextFiles.cs`'s `TextFilesToSplit` list against real dumped files, the first real
    translation run, the `SkillSyncTests.cs` edit from step 8, filling in `Files/Packaging/`
-   (`GameVersion.txt`, the tailored `BepInEx.cfg`), and the first manual publish of the rolling
+   (`GameVersion.txt`, the tailored `BepInEx.cfg`; `FanslationStudio.Plugins.Replacers.cfg` is copied as is), and the first manual publish of the rolling
    `installer` pre-release.
