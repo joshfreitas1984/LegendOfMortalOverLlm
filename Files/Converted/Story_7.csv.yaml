@@ -447,8 +447,8 @@
   splits:
   - split: 1
     text: "别说还有崆峒派的人，处处帮着我们。本门近身搏斗差点儿，都仰仗崆峒派的弟兄拼命横护在前。道法将军也是名不虚传，把江湖人使唤得像当兵一样。"
-    translated: "Don't mention that there are people from the Kongtong Sect helping us everywhere. In close combat, we almost entirely relied on the brothers from the Kongtong Sect who fought valiantly in front of us. The Daoist General truly lives up to their reputation, commanding the people of Jianghu as if they were soldiers."
-    qcReviewedText: "Don't mention that there are people from the Kongtong Sect helping us everywhere. In close combat, we almost entirely relied on the brothers from the Kongtong Sect who fought valiantly in front of us. The Daoist General truly lives up to their reputation, commanding the people of Jianghu as if they were soldiers."
+    translated: "Don't even mention the people from Kongtong Sect, who have been helping us everywhere. Our sect is weak in close combat, and we rely on the brothers from Kongtong to fight fiercely and protect us. The Dao Method General is indeed renowned; they command the Jianghu folks like soldiers."
+    qcReviewedText: "Don't even mention the people from Kongtong Sect, who have been helping us everywhere. Our sect is weak in close combat, and we rely on the brothers from Kongtong to fight fiercely and protect us. The Dao Method General is indeed renowned; they command the Jianghu folks like soldiers."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -926,15 +926,6 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/T_6_8_2_2_003,咦，不要跟过来啊！是不是想回程把我暗中处理掉啊。"
-  splits:
-  - split: 1
-    text: "咦，不要跟过来啊！是不是想回程把我暗中处理掉啊。"
-    translated: "Eh, don't follow me around! Are you thinking of secretly dealing with me on the way back?"
-    qcReviewedText: "Eh, don't follow me around! Are you thinking of secretly dealing with me on the way back?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "Story/D_6_8_2_3_1_001,阿浅，等等！"
   splits:
   - split: 1
@@ -998,12 +989,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/O_6_8_2_3_1_001,反唇相稽"
+- raw: "Story/O_6_8_2_3_1_001,反唇相讥"
   splits:
   - split: 1
-    text: "反唇相稽"
-    translated: "To turn the tables"
-    qcReviewedText: "To turn the tables"
+    text: "反唇相讥"
+    translated: "Retorting with sharp words"
+    qcReviewedText: "Retorting with sharp words"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1168,18 +1159,15 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/D_6_8_2_3_1_019,阿浅，你别急，目光要放长远。你若不揭穿人间道法王的真面目，你爹岂非一生都被那恶女玩弄于鼓掌？每当回想起温夫人，就会连带想起你娘，把所有遗憾不甘都归咎在你头上。"
+- raw: "Story/D_6_8_2_3_1_019,阿浅，你别急，目光要放长远。你若不揭穿人间道法王的真面目，你爹岂非一生都被那恶女玩弄于股掌？每当回想起温夫人，就会连带想起你娘，把所有遗憾不甘都归咎在你头上。"
   splits:
   - split: 1
-    text: "阿浅，你别急，目光要放长远。你若不揭穿人间道法王的真面目，你爹岂非一生都被那恶女玩弄于鼓掌？每当回想起温夫人，就会连带想起你娘，把所有遗憾不甘都归咎在你头上。"
-    translated: "A'Qian, don't rush. Think long-term. If you don't expose the true identity of the Human Path Dharma King, wouldn't your father have been played by that wicked woman his entire life? Every time I think of Lady Wen, I also think of your mother, and all her regrets and disappointments are laid at your feet."
-    qcReviewedText: "A'Qian, don't rush. Think long-term. If you don't expose the true identity of the Human Path Dharma King, wouldn't your father have been played by that wicked woman his entire life? Every time I think of Lady Wen, I also think of your mother, and all her regrets and disappointments are laid at your feet."
-    qcTranslated: "A'Qian, don't rush. Think long-term. If you don't expose the true identity of the Human Path Dharma King, won't your father be played by that wicked woman his entire life? Every time I think of Lady Wen, I also think of your mother, and all her regrets and disappointments are laid at your feet."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    text: "阿浅，你别急，目光要放长远。你若不揭穿人间道法王的真面目，你爹岂非一生都被那恶女玩弄于股掌？每当回想起温夫人，就会连带想起你娘，把所有遗憾不甘都归咎在你头上。"
+    translated: "A'Qian, don't rush. Think about the long term. If you don't expose the true face of the Dharma King of the Human Path, won't your father be manipulated by that wicked woman for his entire life? Every time he thinks of Lady Wen, he inevitably remembers your mother and pins all his regrets and resentment on you."
+    qcReviewedText: "A'Qian, don't rush. Think about the long term. If you don't expose the true face of the Dharma King of the Human Path, won't your father be manipulated by that wicked woman for his entire life? Every time he thinks of Lady Wen, he inevitably remembers your mother and pins all his regrets and resentment on you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_8_2_3_1_020,你吃了这么多年苦头，还想不明白吗？你想博取你爹的关爱，是不可能的，无论你有没犯错都会被迁怒。唯有摆脱南宫世家自立，才有出头天。"
   splits:
   - split: 1
@@ -1321,12 +1309,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_1_034,怎么会……你骗人，那我的亲生的娘亲是谁？"
+- raw: "Story/D_6_8_2_3_1_034,怎么会……你骗人，那我亲生的娘亲是谁？"
   splits:
   - split: 1
-    text: "怎么会……你骗人，那我的亲生的娘亲是谁？"
-    translated: "How could it be... You're lying to me, so who is my very own birth mother?"
-    qcReviewedText: "How could it be... You're lying to me, so who is my very own birth mother?"
+    text: "怎么会……你骗人，那我亲生的娘亲是谁？"
+    translated: "How could this be... You're lying! Then who is my real mother?"
+    qcReviewedText: "How could this be... You're lying! Then who is my real mother?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1734,12 +1722,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_2_033,人心可不是买卖，我们今生今世都不会回到从前。但是萤儿不想恨你，我依然是大公子的同学、友人。"
+- raw: "Story/D_6_8_2_3_2_033,人心可不是买卖，我们今生今世都不会回到从前。但是萤儿不想恨你，我依然是大公子的同窗、友人。"
   splits:
   - split: 1
-    text: "人心可不是买卖，我们今生今世都不会回到从前。但是萤儿不想恨你，我依然是大公子的同学、友人。"
-    translated: "People are not commodities in trade. We cannot return to our former lives in this life. But Ying'er does not want to hate you; I am still Young Lord's classmate and friend."
-    qcReviewedText: "People are not commodities in trade. We cannot return to our former lives in this life. But Ying'er does not want to hate you; I am still Young Lord's classmate and friend."
+    text: "人心可不是买卖，我们今生今世都不会回到从前。但是萤儿不想恨你，我依然是大公子的同窗、友人。"
+    translated: "The heart isn't something to trade; we'll never go back to the way things were in this life. But Ying'er doesn't want to hate you, and I will still be Young Lord's classmate and friend."
+    qcReviewedText: "The heart isn't something to trade; we'll never go back to the way things were in this life. But Ying'er doesn't want to hate you, and I will still be Young Lord's classmate and friend."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1890,18 +1878,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_2_048,甭担心，反正我好坏都要被卖去东瀛。死猪不怕开水烫，下场一样，我管他开不开心呢，走。"
+- raw: "Story/D_6_8_2_3_2_048,甭担心，反正我好坏都要被卖去东瀛。横竖都是一刀，下场一样，我管他开不开心呢，走。"
   splits:
   - split: 1
-    text: "甭担心，反正我好坏都要被卖去东瀛。死猪不怕开水烫，下场一样，我管他开不开心呢，走。"
-    translated: "Don't worry; I'm going to be sold to Japan anyway, good or bad. A pig doesn't fear boiling water; the outcome is the same. Whether he's happy or not, I'll just go."
-    qcReviewedText: "Don't worry; I'm going to be sold to Japan anyway, good or bad. A pig doesn't fear boiling water; the outcome is the same. Whether he's happy or not, I'll just go."
-    qcTranslated: "Don't worry; I'm going to be sold to Japan anyway, good or bad. A dead pig doesn't fear boiling water; the outcome is the same. Whether I'm happy or not, I'll just go."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    text: "甭担心，反正我好坏都要被卖去东瀛。横竖都是一刀，下场一样，我管他开不开心呢，走。"
+    translated: "Don't worry about it. Anyway, I'm going to be sold to Japan no matter what. Whether they're happy or not, the end result is the same-death by the blade. So, let's go."
+    qcReviewedText: "Don't worry about it. Anyway, I'm going to be sold to Japan no matter what. Whether they're happy or not, the end result is the same-death by the blade. So, let's go."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_8_2_3_2_049,且慢，萤儿，你……你邀他喝酒？"
   splits:
   - split: 1
@@ -2528,63 +2513,6 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_4_007,不愧是崆峒掌派人……长得奇形怪状，武功半点不含糊。竟然能以一人之力斗我和老袁。"
-  splits:
-  - split: 1
-    text: "不愧是崆峒掌派人……长得奇形怪状，武功半点不含糊。竟然能以一人之力斗我和老袁。"
-    translated: "Worthy of being the successor of the Kongtong Sect... They look strangely shaped, but their martial arts are top-notch. They actually managed to fight both me and Old Yuan on their own."
-    qcReviewedText: "Worthy of being the successor of the Kongtong Sect... They look strangely shaped, but their martial arts are top-notch. They actually managed to fight both me and Old Yuan on their own."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_4_008,你用的似是崆峒夺魄门的身法？"
-  splits:
-  - split: 1
-    text: "你用的似是崆峒夺魄门的身法？"
-    translated: "Are you using the agility from the Kongtong Soul Stealer School?"
-    qcReviewedText: "Are you using the agility from the Kongtong Soul Stealer School?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_4_009,你看出来了？一半吧。"
-  splits:
-  - split: 1
-    text: "你看出来了？一半吧。"
-    translated: "Did you figure it out? About half of it, I suppose."
-    qcReviewedText: "Did you figure it out? About half of it, I suppose."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_4_010,我是不是该感谢夏侯兰抢我嫡传女弟子之位，又抓花我的脸？否则我就得嫁你这缺德玩意了。"
-  splits:
-  - split: 1
-    text: "我是不是该感谢夏侯兰抢我嫡传女弟子之位，又抓花我的脸？否则我就得嫁你这缺德玩意了。"
-    translated: "Am I supposed to thank Xiahou Lan for stealing my primary disciple's position and disfiguring my face? Otherwise, I would have had to marry you, you scoundrel."
-    qcReviewedText: "Am I supposed to thank Xiahou Lan for stealing my primary disciple's position and disfiguring my face? Otherwise, I would have had to marry you, you scoundrel."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_4_011,你曾是夺魄嫡传女弟子？"
-  splits:
-  - split: 1
-    text: "你曾是夺魄嫡传女弟子？"
-    translated: "You were a direct female disciple of Soul Stealer?"
-    qcReviewedText: "You were a direct female disciple of Soul Stealer?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_2_3_4_012,掌派人，回去问问你的门徒吧。弟子先告辞了，下次准备周全再来杀你。"
-  splits:
-  - split: 1
-    text: "掌派人，回去问问你的门徒吧。弟子先告辞了，下次准备周全再来杀你。"
-    translated: "Disciple, go ask your followers. I will take my leave for now. Next time, I will come prepared to kill you."
-    qcReviewedText: "Disciple, go ask your followers. I will take my leave for now. Next time, I will come prepared to kill you."
-    qcTranslated: "Sect Leader, go ask your disciples. I will take my leave for now. Next time, I will come prepared to kill you."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
 - raw: "Story/D_6_8_2_3_4_013,休得──"
   splits:
   - split: 1
@@ -3832,13 +3760,13 @@
     qcDefectCategory: DroppedContent
     qcDefectCategories:
     - DroppedContent
-- raw: "Story/D_6_8_2_Break_01_080,承蒙梅娘子高义，愿在为难之中拔刀相救。本来顾及唐门的形象，小女子不该在这敏感的关头前来打扰，但是宫主欲请梅娘子前往一叙，因此不得不来，祈请见谅。"
+- raw: "Story/D_6_8_2_Break_01_080,承蒙梅娘子高义，愿在为难之中拔刀相救。本来顾及唐门的清名，小女子不该在这敏感的关头前来打扰，但是宫主欲请梅娘子前往一叙，因此不得不来，祈请见谅。"
   splits:
   - split: 1
-    text: "承蒙梅娘子高义，愿在为难之中拔刀相救。本来顾及唐门的形象，小女子不该在这敏感的关头前来打扰，但是宫主欲请梅娘子前往一叙，因此不得不来，祈请见谅。"
-    translated: "Graciously indebted to Lady Mei for her noble deed, I am honored to offer my blade in your defense. Originally, considering the image of the Tang Clan, it would not be appropriate for this lady to disturb during such a sensitive time. However, as the Pavilion Mistress wishes to have Lady Mei join us for a meeting, I must come against better judgment, and humbly request your understanding."
-    qcReviewedText: "Graciously indebted to Lady Mei for her noble deed, I am honored to offer my blade in your defense. Originally, considering the image of the Tang Clan, it would not be appropriate for this lady to disturb during such a sensitive time. However, as the Pavilion Mistress wishes to have Lady Mei join us for a meeting, I must come against better judgment, and humbly request your understanding."
-    qcTranslated: "Graciously indebted to Lady Mei for her noble deed, I am honored that you were willing to draw your blade to my rescue in this difficult time. Originally, considering the image of the Tang Clan, it would not be appropriate for this lady to disturb during such a sensitive time. However, as the Pavilion Mistress wishes to have Lady Mei join us for a meeting, I must come against better judgment, and humbly request your understanding."
+    text: "承蒙梅娘子高义，愿在为难之中拔刀相救。本来顾及唐门的清名，小女子不该在这敏感的关头前来打扰，但是宫主欲请梅娘子前往一叙，因此不得不来，祈请见谅。"
+    translated: "Thanks to Lady Mei's noble righteousness, I wish to seek her help with a blade in hand during this difficult time. Originally, considering the Tang Clan's reputation, I shouldn't have come to disturb her at such a sensitive moment. However, the Palace Master wishes for Lady Mei to visit and discuss matters, so I had no choice but to come. Please forgive me."
+    qcReviewedText: "Thanks to Lady Mei's noble righteousness, I wish to seek her help with a blade in hand during this difficult time. Originally, considering the Tang Clan's reputation, I shouldn't have come to disturb her at such a sensitive moment. However, the Palace Master wishes for Lady Mei to visit and discuss matters, so I had no choice but to come. Please forgive me."
+    qcTranslated: "Thanks to Lady Mei's noble righteousness, she was willing to draw her blade and come to my rescue during this difficult time. Originally, considering the Tang Clan's reputation, I shouldn't have come to disturb her at such a sensitive moment. However, the Palace Master wishes for Lady Mei to visit and discuss matters, so I had no choice but to come. Please forgive me."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: MeaningReversal
@@ -5802,30 +5730,28 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_3_095,释明大师！您莫非忘了上唐门那日，我上官萤也在场吗？昔日与小女子合谋撩拨唐门内战，今日又一番妄语意图陷害，上官萤痛悔前非，今日在此，能容你污蔑好人吗？"
+- raw: "Story/D_6_8_3_095,释明师叔！您莫非忘了上唐门那日，我上官萤也在场吗？昔日与小女子合谋撩拨唐门内战，今日又一番妄语意图陷害，上官萤痛悔前非，今日在此，能容你污蔑好人吗？"
   splits:
   - split: 1
-    text: "释明大师！您莫非忘了上唐门那日，我上官萤也在场吗？昔日与小女子合谋撩拨唐门内战，今日又一番妄语意图陷害，上官萤痛悔前非，今日在此，能容你污蔑好人吗？"
-    translated: "Master Shi Ming! Did you forget the day you were at Tang Clan's place? Shangguan Ying was also present that day. We conspired to stir up internal strife within the Tang Clan; now you are speaking nonsense again with the intent to frame someone. Shangguan Ying deeply regrets her past actions. Today, can you defame good people here?"
-    qcReviewedText: "Master Shi Ming! Did you forget the day you were at Tang Clan's place? Shangguan Ying was also present that day. We conspired to stir up internal strife within the Tang Clan; now you are speaking nonsense again with the intent to frame someone. Shangguan Ying deeply regrets her past actions. Today, can you defame good people here?"
-    qcTranslated: "Master Shi Ming! Did you forget that I, Shangguan Ying, was also present the day you went to the Tang Clan? We once conspired to stir up internal strife within the Tang Clan; now you are speaking nonsense again with the intent to frame someone. Shangguan Ying deeply regrets her past actions. Today, here, can you allow me to defame good people?"
+    text: "释明师叔！您莫非忘了上唐门那日，我上官萤也在场吗？昔日与小女子合谋撩拨唐门内战，今日又一番妄语意图陷害，上官萤痛悔前非，今日在此，能容你污蔑好人吗？"
+    translated: "Master Uncle Shi Ming! Have you forgotten that I, Shangguan Ying, was also present on the day we went to the Tang Clan? Back then, I conspired with you to stir up trouble within the Tang Clan. Today, you speak recklessly and try to frame others. Shangguan Ying deeply regrets my past actions. Can you bear to slander good people today?"
+    qcReviewedText: "Master Uncle Shi Ming! Have you forgotten that I, Shangguan Ying, was also present on the day we went to the Tang Clan? Back then, I conspired with you to stir up trouble within the Tang Clan. Today, you speak recklessly and try to frame others. Shangguan Ying deeply regrets my past actions. Can you bear to slander good people today?"
+    qcTranslated: "Master Uncle Shi Ming! Have you forgotten that I, Shangguan Ying, was also present on the day we went to the Tang Clan? Back then, I conspired with this humble woman to stir up trouble within the Tang Clan. Today, you speak recklessly and try to frame others. Shangguan Ying deeply regrets my past actions. How can you bear to slander good people today?"
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/D_6_8_3_096,枉你一派道貌岸然的嘴脸，将佛号挂在嘴边，一口一个善哉罪过，自己却全然不信报应！口口声声说佛法，佛法在你口中只是伤人的利剑而已！"
+- raw: "Story/D_6_8_3_096,您将佛号挂在嘴边，一口一个善哉罪过，自己却全然不信报应吗！口口声声说佛法，佛法在你口中只是伤人的利剑而已吗！"
   splits:
   - split: 1
-    text: "枉你一派道貌岸然的嘴脸，将佛号挂在嘴边，一口一个善哉罪过，自己却全然不信报应！口口声声说佛法，佛法在你口中只是伤人的利剑而已！"
-    translated: "With your hypocritical facade, you recite Buddha's name on your lips and keep uttering it is good and sinful, yet you utterly dismiss the concept of retribution! You speak of Buddhism incessantly, but in your mouth, it merely becomes a sharp sword to harm others!"
-    qcReviewedText: "With your hypocritical facade, you recite Buddha's name on your lips and keep uttering it is good and sinful, yet you utterly dismiss the concept of retribution! You speak of Buddhism incessantly, but in your mouth, it merely becomes a sharp sword to harm others!"
+    text: "您将佛号挂在嘴边，一口一个善哉罪过，自己却全然不信报应吗！口口声声说佛法，佛法在你口中只是伤人的利剑而已吗！"
+    translated: "You chant the Buddha's name with your lips, saying 'blessings' and 'sin' at every turn, yet you don't truly believe in karma! You talk about Buddhism, but in your mouth, it's just a sharp sword used to hurt others!"
+    qcReviewedText: "You chant the Buddha's name with your lips, saying 'blessings' and 'sin' at every turn, yet you don't truly believe in karma! You talk about Buddhism, but in your mouth, it's just a sharp sword used to hurt others!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-    qcDefectCategories:
-    - None
 - raw: "Story/D_6_8_3_097,你……。"
   splits:
   - split: 1
@@ -7107,18 +7033,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_3_213,崆峒派上下，唯掌派人之命是从。掌派人的师兄弟姊妹，就是崆峒的同胞！一、二──"
+- raw: "Story/D_6_8_3_213,崆峒派上下，唯掌派人之命是从。掌派人的师兄弟姊妹，就是崆峒的同胞！"
   splits:
   - split: 1
-    text: "崆峒派上下，唯掌派人之命是从。掌派人的师兄弟姊妹，就是崆峒的同胞！一、二"
-    translated: "The Kongtong School follows the instructions of their elders without question. The brothers and sisters under them are like fellow compatriots of Kongtong! One, Two –"
-    qcReviewedText: "The Kongtong School follows the instructions of their elders without question. The brothers and sisters under them are like fellow compatriots of Kongtong! One, Two –──"
+    text: "崆峒派上下，唯掌派人之命是从。掌派人的师兄弟姊妹，就是崆峒的同胞！"
+    translated: "All members of the Kongtong Sect follow the orders of the Sect Leader. The Senior Brothers and Sisters of the Sect Leader are the compatriots of Kongtong!"
+    qcReviewedText: "All members of the Kongtong Sect follow the orders of the Sect Leader. The Senior Brothers and Sisters of the Sect Leader are the compatriots of Kongtong!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-  templates:
-  - split: 1
-    template: "{0}──"
 - raw: "Story/D_6_8_3_214,{size=45}犯我掌派人威仪者杀无赦！！{/size}"
   splits:
   - split: 1
@@ -8475,12 +8398,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_4_019,恶僧，谁不知你别有用心？冠冕堂皇的话都省省吧。"
+- raw: "Story/D_6_8_4_019,恶僧，谁不知你别有用心？冠冕堂皇的话都省省吧。魔教无恶不做，也胜过你干尽了缺德事，还自居善人！"
   splits:
   - split: 1
-    text: "恶僧，谁不知你别有用心？冠冕堂皇的话都省省吧。"
-    translated: "Evil monk, who doesn't know that you have ulterior motives? Save your empty words for someone else."
-    qcReviewedText: "Evil monk, who doesn't know that you have ulterior motives? Save your empty words for someone else."
+    text: "恶僧，谁不知你别有用心？冠冕堂皇的话都省省吧。魔教无恶不做，也胜过你干尽了缺德事，还自居善人！"
+    translated: "Fake monk, who doesn't know you have ulterior motives? Spare me the righteous rhetoric. The Demon Sect may do all sorts of evil, but at least they don't pretend to be virtuous after doing nothing but wicked deeds!"
+    qcReviewedText: "Fake monk, who doesn't know you have ulterior motives? Spare me the righteous rhetoric. The Demon Sect may do all sorts of evil, but at least they don't pretend to be virtuous after doing nothing but wicked deeds!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10634,8 +10557,8 @@
   splits:
   - split: 1
     text: "好，那便依道法将军方略。崆峒的弟兄，要劳烦道长指挥！"
-    translated: "Alright, then let's follow the Daoist general's strategy. Kongtong brothers, please trouble the Daoist to command!"
-    qcReviewedText: "Alright, then let's follow the Daoist general's strategy. Kongtong brothers, please trouble the Daoist to command!"
+    translated: "Alright, then follow the Dao Method General's strategy. Brothers of Kongtong, I'll leave the command to you, Daoist!"
+    qcReviewedText: "Alright, then follow the Dao Method General's strategy. Brothers of Kongtong, I'll leave the command to you, Daoist!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10786,12 +10709,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_4_239,哪来这么多废话，你若敢胆敢欺瞒本判官，到时你爷爷自会杀上唐门找你算账，此刻却没闲心搭理你！快滚！"
+- raw: "Story/D_6_8_4_239,哪来这么多废话，你若胆敢欺瞒本判官，到时你爷爷自会杀上唐门找你算账，此刻却没闲心搭理你！快滚！"
   splits:
   - split: 1
-    text: "哪来这么多废话，你若敢胆敢欺瞒本判官，到时你爷爷自会杀上唐门找你算账，此刻却没闲心搭理你！快滚！"
-    translated: "There's too much nonsense. If you dare to deceive this judge, your grandfather will come to Tang Clan to settle the score with you. I have no time for you now! Get lost!"
-    qcReviewedText: "There's too much nonsense. If you dare to deceive this judge, your grandfather will come to Tang Clan to settle the score with you. I have no time for you now! Get lost!"
+    text: "哪来这么多废话，你若胆敢欺瞒本判官，到时你爷爷自会杀上唐门找你算账，此刻却没闲心搭理你！快滚！"
+    translated: "Stop with the nonsense. If you dare to deceive me, your grandfather will come to the Tang Clan to settle accounts with you when the time comes. But right now, I don't have the patience for this. Get out of here!"
+    qcReviewedText: "Stop with the nonsense. If you dare to deceive me, your grandfather will come to the Tang Clan to settle accounts with you when the time comes. But right now, I don't have the patience for this. Get out of here!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11031,42 +10954,6 @@
     text: "是。"
     translated: "Yes"
     qcReviewedText: "Yes"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_4_259,区区阿活，说话这么嚣张。"
-  splits:
-  - split: 1
-    text: "区区阿活，说话这么嚣张。"
-    translated: "A'Huo, you speak so arrogantly"
-    qcReviewedText: "A'Huo, you speak so arrogantly"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_4_260,这叫有气魄好吗。"
-  splits:
-  - split: 1
-    text: "这叫有气魄好吗。"
-    translated: "Does this show some boldness?"
-    qcReviewedText: "Does this show some boldness?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_4_261,走吧，小竹。"
-  splits:
-  - split: 1
-    text: "走吧，小竹。"
-    translated: "Let's go, Xiao Zhu"
-    qcReviewedText: "Let's go, Xiao Zhu"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_8_4_262,嗯，嗯！"
-  splits:
-  - split: 1
-    text: "嗯，嗯！"
-    translated: "Hmm, hmm!"
-    qcReviewedText: "Hmm, hmm!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11449,18 +11336,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_8_4_1_017,呜呜～好可怕啊，赵活！我最害怕妖魔鬼怪了，他们还装神弄鬼吓我！"
+- raw: "Story/D_6_8_4_1_017,呜呜～好可怕啊，赵活！我最害怕妖魔鬼怪了，他们还装神弄鬼吓我，坏死了！"
   splits:
   - split: 1
-    text: "呜呜～好可怕啊，赵活！我最害怕妖魔鬼怪了，他们还装神弄鬼吓我！"
-    translated: "Wuwu～That's so scary, Zhao Huo! I'm most afraid of yao and gu. They even play tricks on me to scare me!"
-    qcReviewedText: "Wuwu～That's so scary, Zhao Huo! I'm most afraid of yao and gu. They even play tricks on me to scare me!"
-    qcTranslated: "Wuwu～That's so scary, Zhao Huo! I'm most afraid of demons and ghosts. They even play tricks on me to scare me!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    text: "呜呜～好可怕啊，赵活！我最害怕妖魔鬼怪了，他们还装神弄鬼吓我，坏死了！"
+    translated: "Wuwu～So scary, Zhao Huo! I'm most afraid of ghosts and monsters. They pretend to be spirits and scare me; they're so mean!"
+    qcReviewedText: "Wuwu～So scary, Zhao Huo! I'm most afraid of ghosts and monsters. They pretend to be spirits and scare me; they're so mean!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_8_4_1_018,没事了，没事了，我保护你。"
   splits:
   - split: 1
@@ -12201,42 +12085,35 @@
   splits:
   - split: 1
     text: "多亏道法将军与崆峒弟兄，唐门才能安然无恙。大恩不言谢，此番恩情，唐门必将铭记在心。"
-    translated: "Thanks to General Daoist Law and Brother Kongtong, Tang Clan is able to remain unharmed. Great favors are not spoken of in return; Tang Clan will surely remember this kindness in their hearts."
-    qcReviewedText: "Thanks to General Daoist Law and Brother Kongtong, Tang Clan is able to remain unharmed. Great favors are not spoken of in return; Tang Clan will surely remember this kindness in their hearts."
-    qcTranslated: "Thanks to General Daoist Law and the Kongtong brothers, Tang Clan is able to remain unharmed. Great favors are not spoken of in return; Tang Clan will surely remember this kindness in their hearts."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-- raw: "Story/D_6_9_1_010,掌派人何必言谢？您是崆峒的定海针，身负传承，象征盛世。崆峒门人为掌派人效命，乃是天经地义之事。"
-  splits:
-  - split: 1
-    text: "掌派人何必言谢？您是崆峒的定海针，身负传承，象征盛世。崆峒门人为掌派人效命，乃是天经地义之事。"
-    translated: "Why should the headmaster express gratitude? You are the Pillar of the Sea from Kongtong, tasked with preserving the legacy and symbolizing the prosperous era. It is a matter of course for the Kongtong disciples to serve the headmaster."
-    qcReviewedText: "Why should the headmaster express gratitude? You are the Pillar of the Sea from Kongtong, tasked with preserving the legacy and symbolizing the prosperous era. It is a matter of course for the Kongtong disciples to serve the headmaster."
+    translated: "Thanks to the Dao Method General and the Kongtong brothers, the Tang Clan was able to remain safe. Great kindness does not need to be expressed in words; this favor will surely be remembered by the Tang Clan."
+    qcReviewedText: "Thanks to the Dao Method General and the Kongtong brothers, the Tang Clan was able to remain safe. Great kindness does not need to be expressed in words; this favor will surely be remembered by the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_1_011,我这掌派人压根没有一点贡献，实在汗颜。"
+- raw: "Story/D_6_9_1_010,掌派人何必言谢？您是崆峒至尊，在位即象征盛世降临。崆峒弟子为掌派人效命，乃是天经地义之事。"
   splits:
   - split: 1
-    text: "我这掌派人压根没有一点贡献，实在汗颜。"
-    translated: "I myself sent this group of people, and they haven't made any real contribution at all; I feel quite ashamed."
-    qcReviewedText: "I myself sent this group of people, and they haven't made any real contribution at all; I feel quite ashamed."
-    qcTranslated: "I, the one who sent this group of people, have made no contribution whatsoever; I feel quite ashamed."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-- raw: "Story/D_6_9_1_012,掌派人一言定乾坤，终止崆峒十年内斗，使四门归心，重振光荣，如何不算功劳呢？"
+    text: "掌派人何必言谢？您是崆峒至尊，在位即象征盛世降临。崆峒弟子为掌派人效命，乃是天经地义之事。"
+    translated: "As the leader of the sect, why should you thank me? You are the Supreme Master of Kongtong, and your presence symbolizes a time of prosperity. The disciples of Kongtong serving you is simply a matter of course."
+    qcReviewedText: "As the leader of the sect, why should you thank me? You are the Supreme Master of Kongtong, and your presence symbolizes a time of prosperity. The disciples of Kongtong serving you is simply a matter of course."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_6_9_1_011,我这掌派人当的侥幸，实在心虚。"
   splits:
   - split: 1
-    text: "掌派人一言定乾坤，终止崆峒十年内斗，使四门归心，重振光荣，如何不算功劳呢？"
-    translated: "The Palm Sect settled the matter with a single word, ending ten years of internal strife at Kongtong and winning the hearts of the four gates, reviving its glory. How can this not be considered a merit?"
-    qcReviewedText: "The Palm Sect settled the matter with a single word, ending ten years of internal strife at Kongtong and winning the hearts of the four gates, reviving its glory. How can this not be considered a merit?"
+    text: "我这掌派人当的侥幸，实在心虚。"
+    translated: "Taking on this role makes me feel more lucky than confident."
+    qcReviewedText: "Taking on this role makes me feel more lucky than confident."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_6_9_1_012,掌派人何必谦虚，您以一言定乾坤，终止崆峒十年内斗，使四门归心，免崆峒陷于西夏魔爪，单是如此，便足以功盖武林。"
+  splits:
+  - split: 1
+    text: "掌派人何必谦虚，您以一言定乾坤，终止崆峒十年内斗，使四门归心，免崆峒陷于西夏魔爪，单是如此，便足以功盖武林。"
+    translated: "There's no need for you to be modest; with just a word, you settled the decade-long internal strife in Kongtong and united the four factions, saving Kongtong from falling into the clutches of Western Xia. Just this alone is enough to make your accomplishments surpass those of Wulin."
+    qcReviewedText: "There's no need for you to be modest; with just a word, you settled the decade-long internal strife in Kongtong and united the four factions, saving Kongtong from falling into the clutches of Western Xia. Just this alone is enough to make your accomplishments surpass those of Wulin."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12315,12 +12192,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_1_021,趁着太阳还未下山，属下好去布达掌派人谕令，向掌派人请去。"
+- raw: "Story/D_6_9_1_021,趁着太阳还未下山，属下好去布达掌派人法谕，故向掌派人请去。"
   splits:
   - split: 1
-    text: "趁着太阳还未下山，属下好去布达掌派人谕令，向掌派人请去。"
-    translated: "Before the sun sets, I will go inform the people under Brother Da of the command. I will also ask them to comply."
-    qcReviewedText: "Before the sun sets, I will go inform the people under Brother Da of the command. I will also ask them to comply."
+    text: "趁着太阳还未下山，属下好去布达掌派人法谕，故向掌派人请去。"
+    translated: "Before the sun sets, I need to go deliver the master's decree to Bu Da. I am asking for permission to leave."
+    qcReviewedText: "Before the sun sets, I need to go deliver the master's decree to Bu Da. I am asking for permission to leave."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12492,12 +12369,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_1_038,一副无精打彩的样子……来几根鸡腿会有精神吗？"
+- raw: "Story/D_6_9_1_038,一副无精打采的样子……来几根鸡腿会有精神吗？"
   splits:
   - split: 1
-    text: "一副无精打彩的样子……来几根鸡腿会有精神吗？"
-    translated: "A lackluster appearance... Would a few chicken legs give them some spirit?"
-    qcReviewedText: "A lackluster appearance... Would a few chicken legs give them some spirit?"
+    text: "一副无精打采的样子……来几根鸡腿会有精神吗？"
+    translated: "Looking rather listless...... would a few chicken legs boost their spirits?"
+    qcReviewedText: "Looking rather listless...... would a few chicken legs boost their spirits?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13920,12 +13797,12 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/D_6_9_2_Break_01_031,……然而我这次是认真的喔？你也看到了，江湖就是这样。转眼好好的人就没了，没什么是天长地久的事，传宗接代也很重要。"
+- raw: "Story/D_6_9_2_Break_01_031,……然而我这次是认真的喔？你也看到了，江湖就是这样。当了掌派人，也不是真的所向无敌。转眼好好的人就没了，没什么是天长地久的事，传宗接代也很重要。"
   splits:
   - split: 1
-    text: "……然而我这次是认真的喔？你也看到了，江湖就是这样。转眼好好的人就没了，没什么是天长地久的事，传宗接代也很重要。"
-    translated: "...However, I am serious this time? You've seen it for yourself; Jianghu is like that. In an instant, a perfectly fine person can be gone. There's nothing that lasts forever, and continuing the lineage is also very important."
-    qcReviewedText: "...However, I am serious this time? You've seen it for yourself; Jianghu is like that. In an instant, a perfectly fine person can be gone. There's nothing that lasts forever, and continuing the lineage is also very important."
+    text: "……然而我这次是认真的喔？你也看到了，江湖就是这样。当了掌派人，也不是真的所向无敌。转眼好好的人就没了，没什么是天长地久的事，传宗接代也很重要。"
+    translated: "...... But I'm serious this time, okay? You've seen it for yourself; that's how the Jianghu is. Even if you become the sect leader, it doesn't mean you're invincible. In a blink of an eye, someone can be gone. Nothing lasts forever, and carrying on the lineage is also important."
+    qcReviewedText: "...... But I'm serious this time, okay? You've seen it for yourself; that's how the Jianghu is. Even if you become the sect leader, it doesn't mean you're invincible. In a blink of an eye, someone can be gone. Nothing lasts forever, and carrying on the lineage is also important."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14639,12 +14516,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_095,唔……我哪知道，反正天黑了又不能干麻，只管睡吧。"
+- raw: "Story/D_6_9_2_Break_01_095,唔……我哪知道，反正天黑了又不能干嘛，只管睡吧。"
   splits:
   - split: 1
-    text: "唔……我哪知道，反正天黑了又不能干麻，只管睡吧。"
-    translated: "Well... I didn't know. Since it's dark anyway, we might as well just sleep."
-    qcReviewedText: "Well... I didn't know. Since it's dark anyway, we might as well just sleep."
+    text: "唔……我哪知道，反正天黑了又不能干嘛，只管睡吧。"
+    translated: "Hmm... I don't know about that. Anyway, there's nothing we can do in the dark, so let's just go to sleep."
+    qcReviewedText: "Hmm... I don't know about that. Anyway, there's nothing we can do in the dark, so let's just go to sleep."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15123,13 +15000,13 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_145,我、我就不习惯这种事啊，我又没说不行，你自己不主动一点的。"
+- raw: "Story/D_6_9_2_Break_01_145,我、我就不习惯这种事啊，我又没说不行，你自己不主动一点的，怪我啰……？"
   splits:
   - split: 1
-    text: "我、我就不习惯这种事啊，我又没说不行，你自己不主动一点的。"
-    translated: "I'm not used to this kind of thing either. I didn't say no, you just need to be a bit more proactive."
-    qcReviewedText: "I'm not used to this kind of thing either. I didn't say no, you just need to be a bit more proactive."
-    qcTranslated: "I-I'm not used to this kind of thing either. I didn't say no, you just need to be a bit more proactive."
+    text: "我、我就不习惯这种事啊，我又没说不行，你自己不主动一点的，怪我啰……？"
+    translated: "I'm not used to this kind of thing, okay? I didn't say no, but if you don't take the initiative, it's my fault...?"
+    qcReviewedText: "I'm not used to this kind of thing, okay? I didn't say no, but if you don't take the initiative, it's my fault...?"
+    qcTranslated: "I-I'm not used to this kind of thing, okay? I didn't say no, but if you don't take the initiative, it's my fault...?"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedStutter
@@ -15156,12 +15033,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_147,那啥，你……你要不要试着抱我一下？那、那啥，我们好歹是夫妻……对吧？对我太谨慎的话，我反而会不安的。"
+- raw: "Story/D_6_9_2_Break_01_147,那啥，你……你要不要试着抱我一下呢……？那、那啥，我们好歹是夫妻……对吧？"
   splits:
   - split: 1
-    text: "那啥，你……你要不要试着抱我一下？那、那啥，我们好歹是夫妻……对吧？对我太谨慎的话，我反而会不安的。"
-    translated: "Well, you... do you want to try hugging me? I mean, we are technically husband and wife... right? If you're too cautious with me, it might make me feel uneasy."
-    qcReviewedText: "Well, you... do you want to try hugging me? I mean, we are technically husband and wife... right? If you're too cautious with me, it might make me feel uneasy."
+    text: "那啥，你……你要不要试着抱我一下呢……？那、那啥，我们好歹是夫妻……对吧？"
+    translated: "Hey, you... do you want to try hugging me...? Well, well, we are husband and wife... right?"
+    qcReviewedText: "Hey, you... do you want to try hugging me...? Well, well, we are husband and wife... right?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15255,12 +15132,12 @@
     qcDefectCategory: LostIdiom
     qcDefectCategories:
     - LostIdiom
-- raw: "Story/D_6_9_2_Break_01_157,好了，奖励时间结束。"
+- raw: "Story/D_6_9_2_Break_01_157,好了，奖励时间结束～"
   splits:
   - split: 1
-    text: "好了，奖励时间结束。"
-    translated: "Well, the reward time is over"
-    qcReviewedText: "Well, the reward time is over"
+    text: "好了，奖励时间结束～"
+    translated: "Okay, reward time is over~"
+    qcReviewedText: "Okay, reward time is over~"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15312,12 +15189,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_163,赵活，你什么时候娶我过门呢？"
+- raw: "Story/D_6_9_2_Break_01_163,……赵活，话说，你什么时候娶我过门呢？"
   splits:
   - split: 1
-    text: "赵活，你什么时候娶我过门呢？"
-    translated: "Zhao Huo, when will you marry me?"
-    qcReviewedText: "Zhao Huo, when will you marry me?"
+    text: "……赵活，话说，你什么时候娶我过门呢？"
+    translated: "...Zhao Huo, let me ask you, when are you going to take me as your wife?"
+    qcReviewedText: "...Zhao Huo, let me ask you, when are you going to take me as your wife?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15330,15 +15207,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_165,嗯，实话说，是等不及了。"
+- raw: "Story/D_6_9_2_Break_01_165,嗯，也、也可以这么说吧。"
   splits:
   - split: 1
-    text: "嗯，实话说，是等不及了。"
-    translated: "Well, to be honest, I can't wait any longer."
-    qcReviewedText: "Well, to be honest, I can't wait any longer."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    text: "嗯，也、也可以这么说吧。"
+    translated: "Well, you could also say it that way."
+    qcReviewedText: "Well, you could also say it that way."
+    qcTranslated: "Well, y-you could also say it that way."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
 - raw: "Story/D_6_9_2_Break_01_166,哦……居然是我被美人催婚，世事无奇不有。"
   splits:
   - split: 1
@@ -15348,29 +15228,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_167,武林大会发生的事，让我耿耿于怀。其实我从来不明白江湖有什么好，只觉得可怕，很难理解你们的想法。"
+- raw: "Story/D_6_9_2_Break_01_167,因为武林大会发生的事，让我耿耿于怀。原来当了掌派人，也不是无所不能。"
   splits:
   - split: 1
-    text: "武林大会发生的事，让我耿耿于怀。其实我从来不明白江湖有什么好，只觉得可怕，很难理解你们的想法。"
-    translated: "The events that took place at the Wulin Conference weigh heavily on my mind. In truth, I have never understood what is so good about Jianghu; I only find it frightening and struggle to comprehend your thoughts."
-    qcReviewedText: "The events that took place at the Wulin Conference weigh heavily on my mind. In truth, I have never understood what is so good about Jianghu; I only find it frightening and struggle to comprehend your thoughts."
+    text: "因为武林大会发生的事，让我耿耿于怀。原来当了掌派人，也不是无所不能。"
+    translated: "Because of what happened at the Wulin tournament, I can't stop brooding. It turns out that even as the sect leader, I'm not all-powerful."
+    qcReviewedText: "Because of what happened at the Wulin tournament, I can't stop brooding. It turns out that even as the sect leader, I'm not all-powerful."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_168,每个人都有父有母，活到这么大、苦练武功都不容易吧？为了图名争一口气，随便就死了，有时一死一大票，还前仆后继的送命。在我看来真的是一件很奇怪、很疯狂的事。"
+- raw: "Story/D_6_9_2_Break_01_168,每个人都有父有母，活到这么大、苦练武功都不容易吧？怎么能够为了图名、争一口气，随随便便就死了？有时一死一大票，还前仆后继的送命。"
   splits:
   - split: 1
-    text: "每个人都有父有母，活到这么大、苦练武功都不容易吧？为了图名争一口气，随便就死了，有时一死一大票，还前仆后继的送命。在我看来真的是一件很奇怪、很疯狂的事。"
-    translated: "Everyone has a father and a mother. Living to this age and practicing martial arts so diligently-haven't that been quite difficult? For the sake of fame and just one breath of pride, people die so easily; sometimes many die together, following one after another in their deaths. To me, it seems like a very strange and crazy thing."
-    qcReviewedText: "Everyone has a father and a mother. Living to this age and practicing martial arts so diligently-haven't that been quite difficult? For the sake of fame and just one breath of pride, people die so easily; sometimes many die together, following one after another in their deaths. To me, it seems like a very strange and crazy thing."
-    qcTranslated: "Everyone has a father and a mother. Living to this age and honing your martial arts with such diligence isn't that difficult? For the sake of fame and just one breath of pride, people die so easily; sometimes many die together, following one after another in their deaths. To me, it seems like a very strange and crazy thing."
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
-    - MeaningReversal
+    text: "每个人都有父有母，活到这么大、苦练武功都不容易吧？怎么能够为了图名、争一口气，随随便便就死了？有时一死一大票，还前仆后继的送命。"
+    translated: "Everyone has a father and a mother. Having lived this long and struggled so hard to master martial arts, how can anyone easily give up their life just for the sake of a name or to prove something? Sometimes, one death leads to many more, with people following each other to their doom."
+    qcReviewedText: "Everyone has a father and a mother. Having lived this long and struggled so hard to master martial arts, how can anyone easily give up their life just for the sake of a name or to prove something? Sometimes, one death leads to many more, with people following each other to their doom."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_9_2_Break_01_169,呃……。"
   splits:
   - split: 1
@@ -15407,12 +15282,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_173,但是，希望你可以给我容身之处，在你身后，我才不会无家可归。我想要名份，想作你的妻子。"
+- raw: "Story/D_6_9_2_Break_01_173,但是，希望你可以给我容身之处，在你故世之后，我才不会无家可归。我想要名份，想作你的妻子，即使你不在了，也想跟你一直有关。"
   splits:
   - split: 1
-    text: "但是，希望你可以给我容身之处，在你身后，我才不会无家可归。我想要名份，想作你的妻子。"
-    translated: "But I just hope you can give me a place to stay. Behind you, I won't be homeless. I want to have a proper name and be your wife."
-    qcReviewedText: "But I just hope you can give me a place to stay. Behind you, I won't be homeless. I want to have a proper name and be your wife."
+    text: "但是，希望你可以给我容身之处，在你故世之后，我才不会无家可归。我想要名份，想作你的妻子，即使你不在了，也想跟你一直有关。"
+    translated: "But I hope you can give me a place to belong, so that after you're gone, I won't be homeless. I want recognition, I want to be your wife. Even when you're no longer here, I want to remain connected to you."
+    qcReviewedText: "But I hope you can give me a place to belong, so that after you're gone, I won't be homeless. I want recognition, I want to be your wife. Even when you're no longer here, I want to remain connected to you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -15452,49 +15327,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_178,……嗯！"
+- raw: "Story/D_6_9_2_Break_01_178,……嗯！我等你。"
   splits:
   - split: 1
-    text: "……嗯！"
-    translated: "...Hmm!"
-    qcReviewedText: "...Hmm!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/N_6_9_2_Break_01_008,小竹踮起脚尖，朝你脸颊上浅浅啄一下。"
-  splits:
-  - split: 1
-    text: "小竹踮起脚尖，朝你脸颊上浅浅啄一下。"
-    translated: "Xiao Zhu tiptoes and gently pecks you on the cheek."
-    qcReviewedText: "Xiao Zhu tiptoes and gently pecks you on the cheek."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/D_6_9_2_Break_01_179,我的天……。"
-  splits:
-  - split: 1
-    text: "我的天……。"
-    translated: "Heavens above......jomg!"
-    qcReviewedText: "Heavens above......jomg!"
-    qcTranslated: "Heavens above......"
+    text: "……嗯！我等你。"
+    translated: "..."
+    qcReviewedText: "..."
+    qcTranslated: "...Mm! I'll wait for you."
     qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
+    qcQualityScore: 100
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - GarbledNumber
-- raw: "Story/D_6_9_2_Break_01_180,怎、怎么样～区区色诱，我只要努力一把也办得到！我走了你早点休息！"
-  splits:
-  - split: 1
-    text: "怎、怎么样～区区色诱，我只要努力一把也办得到！我走了你早点休息！"
-    translated: "How, how about this trivial temptation-just like me, you could also achieve it with effort! I'll be going now; you should get some early rest!"
-    qcReviewedText: "How, how about this trivial temptation-just like me, you could also achieve it with effort! I'll be going now; you should get some early rest!"
-    qcTranslated: "How, how about this trivial seduction? I could pull it off too with a bit of effort! I'm heading out now; you should get some early rest!"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
-    - UnnaturalPhrasing
+    - DroppedContent
 - raw: "Story/D_6_9_2_Break_01_181,啊啊……眨个眼就天黑了，几更天了？"
   splits:
   - split: 1
@@ -16473,6 +16317,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/O_Door_001_010,向师父请安"
+  splits:
+  - split: 1
+    text: "向师父请安"
+    translated: "Pay respects to Master"
+    qcReviewedText: "Pay respects to Master"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/N_Door_Free_001_001,你四处走走逛逛，虽然阮囊羞涩，花不起钱，可是下山走走看看，也是舒心。"
   splits:
   - split: 1
@@ -17335,12 +17188,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/O_Door_Girl_03_01_002,办正事要紧"
+- raw: "Story/O_Door_Girl_03_01_002,先不要，下次吧"
   splits:
   - split: 1
-    text: "办正事要紧"
-    translated: "Do serious business properly"
-    qcReviewedText: "Do serious business properly"
+    text: "先不要，下次吧"
+    translated: "Not now, let's do it next time"
+    qcReviewedText: "Not now, let's do it next time"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18505,8 +18358,8 @@
   splits:
   - split: 1
     text: "叶云舟正在勤奋的刷地，后面有大妈在指挥他。堂堂苍松剑客在唐门沦落至此，地位和你相去不远。你默默帮起忙来。"
-    translated: "Ye Yunzhou was diligently sweeping the floor, with an auntie directing him. A once proud Swordsmen of Blue Pines had fallen so low in the Tang Clan that their status wasn't much different from his. He quietly joined in to help."
-    qcReviewedText: "Ye Yunzhou was diligently sweeping the floor, with an auntie directing him. A once proud Swordsmen of Blue Pines had fallen so low in the Tang Clan that their status wasn't much different from his. He quietly joined in to help."
+    translated: "Ye Yunzhou was diligently scrubbing the floor, with an older woman behind him directing his work. The once-renowned Pine Swordsman had fallen so low in the Tang Clan that his status was not much different from yours. You quietly stepped in to help."
+    qcReviewedText: "Ye Yunzhou was diligently scrubbing the floor, with an older woman behind him directing his work. The once-renowned Pine Swordsman had fallen so low in the Tang Clan that his status was not much different from yours. You quietly stepped in to help."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18886,15 +18739,18 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/D_Kitchen_Work_902_006,你少来，你分明知道，不是我还会是谁？来得正好，尝尝这个。"
+- raw: "Story/D_Kitchen_Work_902_006,你少来，你分明知道，不是我还会是谁？"
   splits:
   - split: 1
-    text: "你少来，你分明知道，不是我还会是谁？来得正好，尝尝这个。"
-    translated: "You're joking, you clearly know that it couldn't be anyone but me? Just in time, try this."
-    qcReviewedText: "You're joking, you clearly know that it couldn't be anyone but me? Just in time, try this."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    text: "你少来，你分明知道，不是我还会是谁？"
+    translated: "Don't play dumb; you know perfectly well it would be me if not me."
+    qcReviewedText: "Don't play dumb; you know perfectly well it would be me if not me."
+    qcTranslated: "Don't play dumb; you know perfectly well, if not me, who else could it be?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/N_Kitchen_Work_902_001,小梅将一块糖糕放你嘴里。"
   splits:
   - split: 1
@@ -23782,8 +23638,8 @@
   splits:
   - split: 1
     text: "近来风传，苍松剑客回到蜀中活动的样子。"
-    translated: "Lately, there have been rumors that the Azure Pine Swordsmaster has returned to activities in Sichuan."
-    qcReviewedText: "Lately, there have been rumors that the Azure Pine Swordsmaster has returned to activities in Sichuan."
+    translated: "It has been rumored lately that the Pine Swordsman has returned to Shu."
+    qcReviewedText: "It has been rumored lately that the Pine Swordsman has returned to Shu."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24869,12 +24725,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_Meet_Option_704_01_012,若有本领都不济，干脆就直接打断手脚扔出山门，免得他们平白无故把小命送在唐门。"
+- raw: "Story/D_Meet_Option_704_01_012,若有本领都不济的，干脆就直接打断手脚扔出山门，免得他们平白无故把小命送在唐门。"
   splits:
   - split: 1
-    text: "若有本领都不济，干脆就直接打断手脚扔出山门，免得他们平白无故把小命送在唐门。"
-    translated: "If they are of no use, it's better to directly break their hands and feet and throw them out of the mountain gate, to prevent them from unnecessarily losing their lives at the Tang Clan."
-    qcReviewedText: "If they are of no use, it's better to directly break their hands and feet and throw them out of the mountain gate, to prevent them from unnecessarily losing their lives at the Tang Clan."
+    text: "若有本领都不济的，干脆就直接打断手脚扔出山门，免得他们平白无故把小命送在唐门。"
+    translated: "If someone has no talent, we might as well just break their limbs and throw them out of the Tang Clan gates to spare them from needlessly losing their lives within the Tang Clan."
+    qcReviewedText: "If someone has no talent, we might as well just break their limbs and throw them out of the Tang Clan gates to spare them from needlessly losing their lives within the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25160,12 +25016,12 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/D_Meet_Option_704_02_02_05_001,废物阿活，不是男人！"
+- raw: "Story/D_Meet_Option_704_02_02_05_001,废物阿活，你故意的吧？给你机会了你还不珍惜，真不中用！"
   splits:
   - split: 1
-    text: "废物阿活，不是男人！"
-    translated: "Waste heap A'Huo, you're not a man!"
-    qcReviewedText: "Waste heap A'Huo, you're not a man!"
+    text: "废物阿活，你故意的吧？给你机会了你还不珍惜，真不中用！"
+    translated: "You useless A'Huo, are you doing this on purpose? Even when given a chance, you don't seize it. You're truly good for nothing!"
+    qcReviewedText: "You useless A'Huo, are you doing this on purpose? Even when given a chance, you don't seize it. You're truly good for nothing!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -27125,14 +26981,11 @@
   splits:
   - split: 1
     text: "我可不像这个外乡人一样拍拍屁股就跑得了，因为一直替唐门采买跑腿的关系，这镇上乡亲大多都打过照面。万一我成了担保人，这家伙却跑路，那这笔债就得算在我头上了。"
-    translated: "I am not like that foreigner who can just pat my bottom and run away. Because of having been running errands and doing procurement for the Tang Clan, most of the folks in this town are familiar with me. If I were to become a guarantor and then this person ran away, the debt would fall on my head."
-    qcReviewedText: "I am not like that foreigner who can just pat my bottom and run away. Because of having been running errands and doing procurement for the Tang Clan, most of the folks in this town are familiar with me. If I were to become a guarantor and then this person ran away, the debt would fall on my head."
-    qcTranslated: "I'm not like that outsider who can just slap his rear and run away. Because I've been running errands and doing procurement for the Tang Clan, most of the folks in this town are familiar with me. If I were to become a guarantor and then this person ran away, the debt would fall on my head."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "I can't just up and leave like that outsider. Because of my constant errands and purchases for the Tang Clan, most of the townsfolk here know me by sight. If I end up as the guarantor and this fellow runs off, the debt will fall squarely on my head."
+    qcReviewedText: "I can't just up and leave like that outsider. Because of my constant errands and purchases for the Tang Clan, most of the townsfolk here know me by sight. If I end up as the guarantor and this fellow runs off, the debt will fall squarely on my head."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S0003_01_01_006,即便唐门轻视于我，我又焉能往唐门头上叩屎盆子？"
   splits:
   - split: 1
@@ -27595,14 +27448,11 @@
   splits:
   - split: 1
     text: "点苍派的第一快剑手，苍松剑客叶云舟？！"
-    translated: "The first fast Swordsmen of the Diancang Sect, the Cypress Pine Swordman Ye Yunzhou?!"
-    qcReviewedText: "The first fast Swordsmen of the Diancang Sect, the Cypress Pine Swordman Ye Yunzhou?!"
-    qcTranslated: "The fastest swordsman of the Diancang Sect, the Cypress Pine Swordsman Ye Yunzhou?!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "The fastest swordsman of the Diancang Sect, the Pine Swordsman Ye Yunzhou?!"
+    qcReviewedText: "The fastest swordsman of the Diancang Sect, the Pine Swordsman Ye Yunzhou?!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0003_01_03_033,不敢当，只是叶云舟而已。"
   splits:
   - split: 1
@@ -28525,8 +28375,8 @@
   splits:
   - split: 1
     text: "我竟然和江湖有名的苍松剑客结交变朋友，未免太有面子了。我回去定要好好吹嘘一番。"
-    translated: "I unexpectedly made friends with the famous Cypress Sword Guest of the Jianghu. This will definitely give me a lot of face when I go back and boast about it."
-    qcReviewedText: "I unexpectedly made friends with the famous Cypress Sword Guest of the Jianghu. This will definitely give me a lot of face when I go back and boast about it."
+    translated: "I actually made friends with the renowned Pine Swordsman of the Jianghu. That's quite an honor. I must brag about it when I return."
+    qcReviewedText: "I actually made friends with the renowned Pine Swordsman of the Jianghu. That's quite an honor. I must brag about it when I return."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28771,14 +28621,11 @@
   splits:
   - split: 1
     text: "江湖人称「苍松剑客」的叶云舟叶大侠在此间吗？久仰大名，我等三人乃是阎关三煞，在梓州还算喊得出名号。传闻尊驾莅临，不敢怠慢贵客，故此漏夜来迎，唐突之处，还请见谅。"
-    translated: "Is Great Hero Ye Yunzhou, also known in Jianghu as the Willow Pine Sword, here? We have long admired your reputation; we are the Three Fiends of Yan Pass and are somewhat well-known in Zizhou. Hearing that you have arrived, we did not want to keep such a distinguished guest waiting, so we came at night to greet you. Please forgive our rudeness."
-    qcReviewedText: "Is Great Hero Ye Yunzhou, also known in Jianghu as the Willow Pine Sword, here? We have long admired your reputation; we are the Three Fiends of Yan Pass and are somewhat well-known in Zizhou. Hearing that you have arrived, we did not want to keep such a distinguished guest waiting, so we came at night to greet you. Please forgive our rudeness."
-    qcTranslated: "Is Great Hero Ye Yunzhou, also known in Jianghu as the Blue Pine Swordsman, here? We have long admired your reputation; we are the Three Fiends of Yan Pass and are somewhat well-known in Zizhou. Hearing that you have arrived, we did not want to keep such a distinguished guest waiting, so we came at night to greet you. Please forgive our rudeness."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Is Ye Yunzhou, the Great Hero known in Jianghu as the Pine Swordsman, present here? We have long admired your reputation. The three of us are the Three Demons of Yan Pass, and our names carry some weight in Zizhou. We heard you had arrived and did not wish to slight such a distinguished guest, so we came to welcome you in the dead of night. Please forgive our intrusion."
+    qcReviewedText: "Is Ye Yunzhou, the Great Hero known in Jianghu as the Pine Swordsman, present here? We have long admired your reputation. The three of us are the Three Demons of Yan Pass, and our names carry some weight in Zizhou. We heard you had arrived and did not wish to slight such a distinguished guest, so we came to welcome you in the dead of night. Please forgive our intrusion."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S0003_02_03_001,阎关三煞！这这不是梓州有名的流氓吗？怎么会在这里？这下坏了。"
   splits:
   - split: 1
@@ -28871,8 +28718,8 @@
   splits:
   - split: 1
     text: "……我听说苍松剑客是一名俊美男子。仔细一看，这厮的尊容距离美男子确有十万八千里之远。"
-    translated: "...I heard that the Azure Pine Swordsmaster is a handsome man. Upon closer inspection, this fellow's visage is light-years away from being considered handsome."
-    qcReviewedText: "...I heard that the Azure Pine Swordsmaster is a handsome man. Upon closer inspection, this fellow's visage is light-years away from being considered handsome."
+    translated: "......I heard the Pine Swordsman was a handsome man. On closer inspection, his appearance is worlds away from that of a beauty."
+    qcReviewedText: "......I heard the Pine Swordsman was a handsome man. On closer inspection, his appearance is worlds away from that of a beauty."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29115,8 +28962,8 @@
   splits:
   - split: 1
     text: "看他这脸，怎么可能攀交得上大名鼎鼎的苍松剑客，铁定是同行。"
-    translated: "From his expression, it's impossible for him to be acquainted with the renowned Sword Guest Copper Pine. He must be a fellow practitioner."
-    qcReviewedText: "From his expression, it's impossible for him to be acquainted with the renowned Sword Guest Copper Pine. He must be a fellow practitioner."
+    translated: "Look at his face. There's no way he could be acquainted with the renowned Pine Swordsman. He must be a fellow practitioner."
+    qcReviewedText: "Look at his face. There's no way he could be acquainted with the renowned Pine Swordsman. He must be a fellow practitioner."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29208,8 +29055,8 @@
   splits:
   - split: 1
     text: "你就是叶云舟？点苍派的苍松剑客？"
-    translated: "Are you Ye Yunzhou? The Swordman Cangsong from the Diancang Sect?"
-    qcReviewedText: "Are you Ye Yunzhou? The Swordman Cangsong from the Diancang Sect?"
+    translated: "So you are Ye Yunzhou? The Pine Swordsman of the Diancang Sect?"
+    qcReviewedText: "So you are Ye Yunzhou? The Pine Swordsman of the Diancang Sect?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29217,8 +29064,8 @@
   splits:
   - split: 1
     text: "我听说苍松剑客，是个人如山岭苍松一样的美男子呀。"
-    translated: "I heard that the Azure Pine Swordsmaster is a handsome man like a mountain ridge of ancient pines."
-    qcReviewedText: "I heard that the Azure Pine Swordsmaster is a handsome man like a mountain ridge of ancient pines."
+    translated: "I heard that the Pine Swordsman is a handsome man as majestic as a pine on a mountain ridge."
+    qcReviewedText: "I heard that the Pine Swordsman is a handsome man as majestic as a pine on a mountain ridge."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29752,12 +29599,12 @@
   templates:
   - split: 1
     template: "⟦size=17⟧{0}⟦/size⟧"
-- raw: "Story/D_S0003_02_06_01_014,{size=24}那她小妹……是了，这女子既然被玷污了，他自也不介意咱们看上两眼了。{/size}"
+- raw: "Story/D_S0003_02_06_01_014,{size=24}那他小妹……是了，这女子既然被玷污了，他自也不介意咱们看上两眼了。{/size}"
   splits:
   - split: 1
-    text: "那她小妹……是了，这女子既然被玷污了，他自也不介意咱们看上两眼了。"
-    translated: "As for her little sister... that's right, since this woman has been defiled, he doesn't mind if we take a look at her as well."
-    qcReviewedText: "{size=17} As for her little sister... that's right, since this woman has been defiled, he doesn't mind if we take a look at her as well.{/size}"
+    text: "那他小妹……是了，这女子既然被玷污了，他自也不介意咱们看上两眼了。"
+    translated: "So his little sister... Ah, right, since this woman has already been defiled, he probably won't mind if we take a look at her."
+    qcReviewedText: "{size=17} So his little sister... Ah, right, since this woman has already been defiled, he probably won't mind if we take a look at her.{/size}"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -1119,25 +1119,25 @@
   templates:
   - split: 1
     template: "{0}Lv1：{1}"
-- raw: "CombatSkill/Name/B007_2,狂化Lv1"
+- raw: "CombatSkill/Name/B007_2,狂化Lv2"
   splits:
   - split: 1
     text: "狂化"
     translated: "Frenzy"
-    qcReviewedText: "Frenzy Lv1"
+    qcReviewedText: "Frenzy Lv2"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   templates:
   - split: 1
-    template: "{0}Lv1"
-- raw: "CombatSkill/Desc/B007_2,狂化Lv1：每回合伤害翻倍，被伤害亦翻倍。"
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B007_2,狂化Lv2：每回合伤害翻倍，被伤害亦翻倍。"
   splits:
   - split: 1
     text: "狂化"
     translated: "Frenzy"
-    qcReviewedText: "Frenzy Lv1：Damage dealt and received doubles every turn"
-    qcTranslated: "Frenzy Lv1: Damage dealt and received doubles every turn"
+    qcReviewedText: "Frenzy Lv2：Damage dealt and received doubles every turn"
+    qcTranslated: "Frenzy Lv2: Damage dealt and damage taken are doubled each turn"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -1149,26 +1149,26 @@
     translated: "Damage dealt and received doubles every turn"
   templates:
   - split: 1
-    template: "{0}Lv1：{1}"
-- raw: "CombatSkill/Name/B007_2,狂化Lv1"
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/B007_3,狂化Lv3"
   splits:
   - split: 1
     text: "狂化"
     translated: "Frenzy"
-    qcReviewedText: "Frenzy Lv1"
+    qcReviewedText: "Frenzy Lv3"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   templates:
   - split: 1
-    template: "{0}Lv1"
-- raw: "CombatSkill/Desc/B007_2,狂化Lv1：每回合伤害翻倍，被伤害亦翻倍。"
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B007_3,狂化Lv3：每回合伤害翻倍，被伤害亦翻倍。"
   splits:
   - split: 1
     text: "狂化"
     translated: "Frenzy"
-    qcReviewedText: "Frenzy Lv1：Damage dealt and received doubles every turn"
-    qcTranslated: "Frenzy Lv1: Damage dealt and received doubles every turn"
+    qcReviewedText: "Frenzy Lv3：Damage dealt and received doubles every turn"
+    qcTranslated: "Frenzy Lv3: Damage dealt and damage taken are doubled each turn."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -1180,7 +1180,7 @@
     translated: "Damage dealt and received doubles every turn"
   templates:
   - split: 1
-    template: "{0}Lv1：{1}"
+    template: "{0}Lv3：{1}"
 - raw: "CombatSkill/Name/B008,腾空"
   splits:
   - split: 1
@@ -2298,6 +2298,34 @@
   templates:
   - split: 1
     template: "{0}：{1}"
+- raw: "CombatSkill/Name/B0023_1,自信心"
+  splits:
+  - split: 1
+    text: "自信心"
+    translated: "Confidence"
+    qcReviewedText: "Confidence"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/B0023_1,自信心：血量高于80%时，伤害增加50%。"
+  splits:
+  - split: 1
+    text: "自信心"
+    translated: "Confidence"
+    qcReviewedText: "Confidence：When health is above 80%, damage increases by 50%."
+    qcTranslated: "Confidence: When health is above 80%, damage increases by 50%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "血量高于80%时，伤害增加50%。"
+    translated: "When health is above 80%, damage increases by 50%."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/B0025,高手风范"
   splits:
   - split: 1
@@ -2678,6 +2706,330 @@
     subIndex: 2
     text: "提升防御。"
     translated: "Increase defense"
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}[18%]{2}"
+- raw: "CombatSkill/Name/B0034_1,读势Lv1"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/B0034_1,读势Lv1：根据临阵经验的[2%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv1：Based on experience gained in battle[2%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv1: Increases parry chance by [2%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}[2%]{2}"
+- raw: "CombatSkill/Name/B0034_2,读势Lv2"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/B0034_2,读势Lv2：根据临阵经验的[4%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv2：Based on experience gained in battle[4%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv2: Increases parry chance by [4%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}[4%]{2}"
+- raw: "CombatSkill/Name/B0034_3,读势Lv3"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/B0034_3,读势Lv3：根据临阵经验的[6%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv3：Based on experience gained in battle[6%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv3: Increases parry rate by [6%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}[6%]{2}"
+- raw: "CombatSkill/Name/B0034_4,读势Lv4"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/B0034_4,读势Lv4：根据临阵经验的[8%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv4：Based on experience gained in battle[8%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv4: Increases parry chance by [8%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}[8%]{2}"
+- raw: "CombatSkill/Name/B0034_5,读势Lv5"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv5"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/B0034_5,读势Lv5：根据临阵经验的[10%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv5：Based on experience gained in battle[10%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv5: Increases parry chance by [10%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}[10%]{2}"
+- raw: "CombatSkill/Name/B0034_6,读势Lv6"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv6"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/B0034_6,读势Lv6：根据临阵经验的[12%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv6：Based on experience gained in battle[12%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv6: Increases parry chance by [12%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}[12%]{2}"
+- raw: "CombatSkill/Name/B0034_7,读势Lv7"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv7"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/B0034_7,读势Lv7：根据临阵经验的[14%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv7：Based on experience gained in battle[14%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv7: Increases parry chance by [14%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}[14%]{2}"
+- raw: "CombatSkill/Name/B0034_8,读势Lv8"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv8"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/B0034_8,读势Lv8：根据临阵经验的[16%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv8：Based on experience gained in battle[16%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv8: Increases parry chance by [16%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}[16%]{2}"
+- raw: "CombatSkill/Name/B0034_9,读势Lv9"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv9"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/B0034_9,读势Lv9：根据临阵经验的[18%]提升招架机率。"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the Situation"
+    qcReviewedText: "Reading the Situation Lv9：Based on experience gained in battle[18%]Increase dodge probability"
+    qcTranslated: "Reading the Situation Lv9: Increases parry chance by [18%] based on combat experience."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验的"
+    translated: "Based on experience gained in battle"
+  - split: 1
+    subIndex: 2
+    text: "提升招架机率。"
+    translated: "Increase dodge probability"
   templates:
   - split: 1
     template: "{0}Lv9：{1}[18%]{2}"
@@ -3088,6 +3440,75 @@
   templates:
   - split: 1
     template: "{0}Lv5：{1}+6。"
+- raw: "CombatSkill/Name/B0037,咄咄逼人"
+  splits:
+  - split: 1
+    text: "咄咄逼人"
+    translated: "Inspiritingly aggressive"
+    qcReviewedText: "Inspiritingly aggressive"
+    qcTranslated: "Aggressively intimidating"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "CombatSkill/Desc/B0037,咄咄逼人：造成伤害时，根据连击数x2，追加气伤害。"
+  splits:
+  - split: 1
+    text: "咄咄逼人"
+    translated: "Inspiritingly aggressive"
+    qcReviewedText: "Inspiritingly aggressive：Deal damage based on the number of consecutive hits.x 2, increase air damage"
+    qcTranslated: "Aggressive: When dealing damage, add Qi damage equal to the combo count x 2."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "造成伤害时，根据连击数"
+    translated: "Deal damage based on the number of consecutive hits."
+  - split: 1
+    subIndex: 2
+    text: "2，追加气伤害。"
+    translated: "2, increase air damage"
+  templates:
+  - split: 1
+    template: "{0}：{1}x{2}"
+- raw: "CombatSkill/Name/B0038,盛气凌人"
+  splits:
+  - split: 1
+    text: "盛气凌人"
+    translated: "Arrogant and overbearing"
+    qcReviewedText: "Arrogant and overbearing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/B0038,盛气凌人：造成伤害时，根据连击数x2，追加气恢复。"
+  splits:
+  - split: 1
+    text: "盛气凌人"
+    translated: "Arrogant and overbearing"
+    qcReviewedText: "Arrogant and overbearing：Deal damage based on the number of consecutive hits.x 2, add HP recovery"
+    qcTranslated: "Arrogant and Overbearing: When dealing damage, restore Qi based on the combo count x 2."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "造成伤害时，根据连击数"
+    translated: "Deal damage based on the number of consecutive hits."
+  - split: 1
+    subIndex: 2
+    text: "2，追加气恢复。"
+    translated: "2, add HP recovery"
+  templates:
+  - split: 1
+    template: "{0}：{1}x{2}"
 - raw: "CombatSkill/Name/B111_1,金钟罩Lv1"
   splits:
   - split: 1
@@ -5691,7 +6112,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatSkill/Name/D004,幻觉"
+- raw: "CombatSkill/Desc/D004,幻觉"
   splits:
   - split: 1
     text: "幻觉"
@@ -7620,6 +8041,31 @@
   templates:
   - split: 1
     template: "{0}：{1}"
+- raw: "CombatSkill/Name/C164,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+    translated: "Tang Clan female disciple"
+    qcReviewedText: "Tang Clan female disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C164,唐门女弟子《唐门暗器总纲》：每次造成微幅伤害。"
+  splits:
+  - split: 1
+    text: "唐门女弟子《唐门暗器总纲》"
+    translated: "Tang Clan female disciple Compendium of Tang Clan Hidden Weapons"
+    qcReviewedText: "Tang Clan female disciple Compendium of Tang Clan Hidden Weapons：Inflicts slight damage each time"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "每次造成微幅伤害。"
+    translated: "Inflicts slight damage each time"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C170,唐门弟子"
   splits:
   - split: 1
@@ -8420,19 +8866,19 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatSkill/Desc/C503,南宫浅：每回合造成小幅伤害。"
+- raw: "CombatSkill/Desc/C503,南宫浅《南宫剑法》：每二回合中机率造成小幅伤害。"
   splits:
   - split: 1
-    text: "南宫浅"
-    translated: "Nangong Qian"
-    qcReviewedText: "Nangong Qian：Deals minor damage each turn"
+    text: "南宫浅《南宫剑法》"
+    translated: "Nangong Qian's Nangong Sword Technique"
+    qcReviewedText: "Nangong Qian's Nangong Sword Technique：Has a chance to deal minor damage every two turns."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
-    text: "每回合造成小幅伤害。"
-    translated: "Deals minor damage each turn"
+    text: "每二回合中机率造成小幅伤害。"
+    translated: "Has a chance to deal minor damage every two turns."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -8689,6 +9135,31 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "CombatSkill/Desc/C513,飞天弟子《飞天脚》：每回合造成小幅伤害，并有中机率造成失衡异常。"
+  splits:
+  - split: 1
+    text: "飞天弟子《飞天脚》"
+    translated: "Flying Heaven Disciple Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Disciple Flying Heaven Kick：Deals minor damage each turn and has a moderate chance to cause an imbalance status effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，并有中机率造成失衡异常。"
+    translated: "Deals minor damage each turn and has a moderate chance to cause an imbalance status effect."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C513_2,飞天弟子"
+  splits:
+  - split: 1
+    text: "飞天弟子"
+    translated: "Flying Heaven Disciple"
+    qcReviewedText: "Flying Heaven Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C513_2,飞天弟子《飞天脚》：每回合造成小幅伤害，并有中机率造成失衡异常。"
   splits:
   - split: 1
     text: "飞天弟子《飞天脚》"
@@ -9273,25 +9744,22 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatSkill/Desc/C532,荆红《红葵着雨腿胭脂]》：每2回合有50%机率造成中幅伤害，并获得3连击。"
+- raw: "CombatSkill/Desc/C532,荆红《红葵着雨腿胭脂》：每2回合有50%机率造成中幅伤害，并获得3连击。"
   splits:
   - split: 1
-    text: "荆红《红葵着雨腿胭脂"
-    translated: "'Jing Hong: Red lotus in the rain stains her legs with rouge"
-    qcReviewedText: "'Jing Hong: Red lotus in the rain stains her legs with rouge]》：Every 2 turns, there is a 50% chance to deal moderate damage and gain 3 consecutive hits."
-    qcTranslated: "Jing Hong《Red Lotus in the Rain Stains Her Legs with Rouge》: Every 2 turns, there is a 50% chance to deal moderate damage and gain 3 consecutive hits."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    text: "荆红《红葵着雨腿胭脂》"
+    translated: "Jing Hong 'Red Lotus in the Rain, Legs Painted with Lipstick'"
+    qcReviewedText: "Jing Hong 'Red Lotus in the Rain, Legs Painted with Lipstick'：Every 2 turns, there is a 50% chance to deal moderate damage and gain 3 consecutive hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "每2回合有50%机率造成中幅伤害，并获得3连击。"
     translated: "Every 2 turns, there is a 50% chance to deal moderate damage and gain 3 consecutive hits."
   templates:
   - split: 1
-    template: "{0}]》：{1}"
+    template: "{0}：{1}"
 - raw: "CombatSkill/Name/C533,唐升"
   splits:
   - split: 1
@@ -10859,6 +11327,34 @@
     subIndex: 1
     text: "境界二以上，嘴攻变为「虎啸吼」，消费额外内力，使嘴攻具有实质伤害。"
     translated: "At level two and above, Mouth Attack becomes Tiger Roar, consuming additional Inner Power to make the Mouth Attack deal physical damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E1116_1,狂妄"
+  splits:
+  - split: 1
+    text: "狂妄"
+    translated: "Arrogance"
+    qcReviewedText: "Arrogance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/E1116_1,狂妄：嘴攻成功时，额外回复气力。"
+  splits:
+  - split: 1
+    text: "狂妄"
+    translated: "Arrogance"
+    qcReviewedText: "Arrogance：When verbal sparring is successful, restore additional stamina."
+    qcTranslated: "Arrogance: When a verbal attack succeeds, restore additional stamina."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "嘴攻成功时，额外回复气力。"
+    translated: "When verbal sparring is successful, restore additional stamina."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -12862,13 +13358,13 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatSkill/Desc/S110,针对三师兄：主力对付三师兄，分心应付你。攻击力-50%。"
+- raw: "CombatSkill/Desc/S110,针对三师兄：主力对付三师兄，分心应付你。攻击力-30%。"
   splits:
   - split: 1
     text: "针对三师兄"
     translated: "Regarding Third Senior Brother"
-    qcReviewedText: "Regarding Third Senior Brother：Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power-50%。"
-    qcTranslated: "Regarding Third Senior Brother: Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power -50%."
+    qcReviewedText: "Regarding Third Senior Brother：Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power-30%。"
+    qcTranslated: "Regarding Third Senior Brother: Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power -30%."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -12880,7 +13376,7 @@
     translated: "Focus on dealing with Third Senior Brother while also keeping an eye on you. Attack Power"
   templates:
   - split: 1
-    template: "{0}：{1}-50%。"
+    template: "{0}：{1}-30%。"
 - raw: "CombatSkill/Name/S111,焚天烈焰"
   splits:
   - split: 1
@@ -13131,6 +13627,34 @@
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/S3110,起手势"
+  splits:
+  - split: 1
+    text: "起手势"
+    translated: "Gesture to start"
+    qcReviewedText: "Gesture to start"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S3110,起手势：格檔率+50%。"
+  splits:
+  - split: 1
+    text: "起手势"
+    translated: "Gesture to start"
+    qcReviewedText: "Gesture to start：Save rate+50%。"
+    qcTranslated: "Opening stance: Block rate +50%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "格檔率"
+    translated: "Save rate"
+  templates:
+  - split: 1
+    template: "{0}：{1}+50%。"
 - raw: "CombatSkill/Name/S3112,无影爪"
   splits:
   - split: 1
@@ -14010,6 +14534,70 @@
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}\\n{4}"
+- raw: "CombatSkill/Name/S8005,透骨钉"
+  splits:
+  - split: 1
+    text: "透骨钉"
+    translated: "Bone-piercing nail"
+    qcReviewedText: "Bone-piercing nail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S8005,透骨钉：暗器命中时，有30%机率造成[破甲]。"
+  splits:
+  - split: 1
+    text: "透骨钉"
+    translated: "Bone-penetrating nail"
+    qcReviewedText: "Bone-penetrating nail：When a Hidden Weapon hits, there is a 30% chance to cause[Piercing Armor]。"
+    qcTranslated: "Bone-penetrating nail: When a Hidden Weapon hits, there is a 30% chance to cause [Piercing Armor]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时，有30%机率造成"
+    translated: "When a Hidden Weapon hits, there is a 30% chance to cause"
+  - split: 1
+    subIndex: 2
+    text: "破甲"
+    translated: "Piercing Armor"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S8006,似草针"
+  splits:
+  - split: 1
+    text: "似草针"
+    translated: "Grass needle"
+    qcReviewedText: "Grass needle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S8006,似草针：暗器命中时，有30%机率造成[失衡]。"
+  splits:
+  - split: 1
+    text: "似草针"
+    translated: "Grass needle"
+    qcReviewedText: "Grass needle：When a Hidden Weapon hits, there is a 30% chance to cause[Imbalance]。"
+    qcTranslated: "Grass Needle: When a Hidden Weapon hits, there is a 30% chance to cause [Imbalance]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时，有30%机率造成"
+    translated: "When a Hidden Weapon hits, there is a 30% chance to cause"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
 - raw: "CombatSkill/Name/S6011,毒功"
   splits:
   - split: 1
@@ -16131,6 +16719,34 @@
   templates:
   - split: 1
     template: "{0}：{1}"
+- raw: "CombatSkill/Name/D031,破甲"
+  splits:
+  - split: 1
+    text: "破甲"
+    translated: "Piercing Armor"
+    qcReviewedText: "Piercing Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D031,破甲：受到伤害+30%。"
+  splits:
+  - split: 1
+    text: "破甲"
+    translated: "Piercing Armor"
+    qcReviewedText: "Piercing Armor：Take damage+30%。"
+    qcTranslated: "Piercing Armor: Take +30% damage"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "受到伤害"
+    translated: "Take damage"
+  templates:
+  - split: 1
+    template: "{0}：{1}+30%。"
 - raw: "CombatSkill/Name/C930,赵逵"
   splits:
   - split: 1
@@ -16670,6 +17286,63 @@
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C559,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+    translated: "Yu Xiaomei"
+    qcReviewedText: "Yu Xiaomei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C559,虞小梅《仙鹤迷踪匕》：每两回合造成一次高爆击伤害。"
+  splits:
+  - split: 1
+    text: "虞小梅《仙鹤迷踪匕》"
+    translated: "Yu Xiaomei 'The Crane's Mysterious Dagger'"
+    qcReviewedText: "Yu Xiaomei 'The Crane's Mysterious Dagger'：Deals a high critical hit damage once every two turns."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "每两回合造成一次高爆击伤害。"
+    translated: "Deals a high critical hit damage once every two turns."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C560,玄功弟子"
+  splits:
+  - split: 1
+    text: "玄功弟子"
+    translated: "Mystic Skill Disciple"
+    qcReviewedText: "Mystic Skill Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C560,玄功弟子《铁拂尘功》：每回合造成小幅伤害，并有极低机率造成[盲目]。"
+  splits:
+  - split: 1
+    text: "玄功弟子《铁拂尘功》"
+    translated: "Iron Broom Mystic Skill disciple of the Dust Whisk Skill"
+    qcReviewedText: "Iron Broom Mystic Skill disciple of the Dust Whisk Skill：Deals minor damage each turn and has a very low chance to cause[Blindness]。"
+    qcTranslated: "Mystic Skill disciple 《Iron Broom Whisk Skill》: Deals minor damage each turn and has a very low chance to cause[Blindness]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，并有极低机率造成"
+    translated: "Deals minor damage each turn and has a very low chance to cause"
+  - split: 1
+    subIndex: 2
+    text: "盲目"
+    translated: "Blindness"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
 - raw: "CombatSkill/Name/S131,焚心大火印"
   splits:
   - split: 1
@@ -16720,3 +17393,3541 @@
   templates:
   - split: 1
     template: "{0}：{1}"
+- raw: "CombatSkill/Name/S133_1,妒火中烧"
+  splits:
+  - split: 1
+    text: "妒火中烧"
+    translated: "Burning with jealousy"
+    qcReviewedText: "Burning with jealousy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S133_1,妒火中烧：愤怒状态时，不会被暗器打断行动。"
+  splits:
+  - split: 1
+    text: "妒火中烧"
+    translated: "Burning with jealousy"
+    qcReviewedText: "Burning with jealousy：When in a state of anger, they will not be interrupted by hidden weapons."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "愤怒状态时，不会被暗器打断行动。"
+    translated: "When in a state of anger, they will not be interrupted by hidden weapons."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S134_1,飞天"
+  splits:
+  - split: 1
+    text: "飞天"
+    translated: "Flying Heaven"
+    qcReviewedText: "Flying Heaven"
+    qcTranslated: "Skydancer"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "CombatSkill/Desc/S134_1,飞天：备揍变为「飞天」，施展后发动「急袭」。"
+  splits:
+  - split: 1
+    text: "飞天"
+    translated: "Flying Heaven"
+    qcReviewedText: "Flying Heaven：Change Ready to Fight to Skyborne, and upon activation, use Rapid Strike."
+    qcTranslated: "Flying Heaven: Change Ready to Fight to Flying Heaven, and upon activation, use Rapid Strike."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "备揍变为「飞天」，施展后发动「急袭」。"
+    translated: "Change Ready to Fight to Skyborne, and upon activation, use Rapid Strike."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S134_2,急袭"
+  splits:
+  - split: 1
+    text: "急袭"
+    translated: "Rapid assault"
+    qcReviewedText: "Rapid assault"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S134_2,急袭：使敌方无法攻击，回合结束造成中幅伤害。"
+  splits:
+  - split: 1
+    text: "急袭"
+    translated: "Rapid assault"
+    qcReviewedText: "Rapid assault：Prevent enemies from attacking and deal moderate damage at the end of the turn."
+    qcTranslated: "Rapid Assault: Prevents enemies from attacking and deals moderate damage at the end of the turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "使敌方无法攻击，回合结束造成中幅伤害。"
+    translated: "Prevent enemies from attacking and deal moderate damage at the end of the turn."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S135,锐利的喙"
+  splits:
+  - split: 1
+    text: "锐利的喙"
+    translated: "Sharp beak"
+    qcReviewedText: "Sharp beak"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S135,锐利的喙：嘴攻时，用喙啄人造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "锐利的喙"
+    translated: "Sharp beak"
+    qcReviewedText: "Sharp beak：Pecking with their beak to deal minor damage."
+    qcTranslated: "Sharp Beak: When attacking with the beak, peck the target to deal minor damage."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "嘴攻时，用喙啄人造成小幅伤害。"
+    translated: "Pecking with their beak to deal minor damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S136,爪刀"
+  splits:
+  - split: 1
+    text: "爪刀"
+    translated: "Claw knife"
+    qcReviewedText: "Claw knife"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S136,爪刀：有人将夺魄门的飞爪安装在鸟腿上。火闪电伤害+200%。"
+  splits:
+  - split: 1
+    text: "爪刀"
+    translated: "Claw knife"
+    qcReviewedText: "Claw knife：Someone attached the Soul Stealer flying claws to the bird's legs. Fire Lightning damage.+200%。"
+    qcTranslated: "Claw knife: Someone attached the Soul Stealer flying claws to the bird's legs. Fire Lightning damage +200%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "有人将夺魄门的飞爪安装在鸟腿上。火闪电伤害"
+    translated: "Someone attached the Soul Stealer flying claws to the bird's legs. Fire Lightning damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}+200%。"
+- raw: "CombatSkill/Name/C025,阿鹤侠"
+  splits:
+  - split: 1
+    text: "阿鹤侠"
+    translated: "Crane Hero"
+    qcReviewedText: "Crane Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C025,阿鹤侠《鹤形刁手》：这缺德家伙会在关键时刻揪你衣服！每回合有高机率造成我方失衡。"
+  splits:
+  - split: 1
+    text: "阿鹤侠《鹤形刁手》"
+    translated: "Crane Hero Crane Form Tricky Hands"
+    qcReviewedText: "Crane Hero Crane Form Tricky Hands：This scoundrel will pull your clothes at crucial moments! They have a high chance of causing us to become unbalanced each turn."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "这缺德家伙会在关键时刻揪你衣服！每回合有高机率造成我方失衡。"
+    translated: "This scoundrel will pull your clothes at crucial moments! They have a high chance of causing us to become unbalanced each turn."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S137,火闪电强化"
+  splits:
+  - split: 1
+    text: "火闪电强化"
+    translated: "Fire Lightning Enhancement"
+    qcReviewedText: "Fire Lightning Enhancement"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S137,火闪电强化：全能力+30%。"
+  splits:
+  - split: 1
+    text: "火闪电强化"
+    translated: "Fire Lightning Enhancement"
+    qcReviewedText: "Fire Lightning Enhancement：Full Power+30%。"
+    qcTranslated: "Fire Lightning Enhancement: Full Power +30%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "全能力"
+    translated: "Full Power"
+  templates:
+  - split: 1
+    template: "{0}：{1}+30%。"
+- raw: "CombatSkill/Name/D032,不趁手"
+  splits:
+  - split: 1
+    text: "不趁手"
+    translated: "Not to my liking"
+    qcReviewedText: "Not to my liking"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D032,不趁手：拿着不趁手的兵器，伤害-10%，受到伤害+10%。"
+  splits:
+  - split: 1
+    text: "不趁手"
+    translated: "Not to my liking"
+    qcReviewedText: "Not to my liking：Using an unfamiliar weapon reduces your damage dealt by -10% and increases the damage you receive.+10%。"
+    qcTranslated: "Unwieldy: Using an unwieldy weapon reduces your damage dealt by -10% and increases the damage you receive by +10%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "拿着不趁手的兵器，伤害-10%，受到伤害"
+    translated: "Using an unfamiliar weapon reduces your damage dealt by -10% and increases the damage you receive."
+  templates:
+  - split: 1
+    template: "{0}：{1}+10%。"
+- raw: "CombatSkill/Name/C561,郁城"
+  splits:
+  - split: 1
+    text: "郁城"
+    translated: "Yu Cheng"
+    qcReviewedText: "Yu Cheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C561,郁城《挥舞木剑》：每回合极微小机率造成极微小伤害，公子为了回护他，自身拳掌-20%。"
+  splits:
+  - split: 1
+    text: "郁城《挥舞木剑》"
+    translated: "Yu Cheng 'Swinging the Wooden Sword'"
+    qcReviewedText: "Yu Cheng 'Swinging the Wooden Sword'：Each turn, there is a very small chance of causing negligible damage. To protect them, the Young Lord uses their fists and palms.-20%。"
+    qcTranslated: "Yu Cheng 'Swinging the Wooden Sword': Each turn, there is a very small chance of causing negligible damage. To protect him, the Young Lord uses his fists and palms.-20%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合极微小机率造成极微小伤害，公子为了回护他，自身拳掌"
+    translated: "Each turn, there is a very small chance of causing negligible damage. To protect them, the Young Lord uses their fists and palms."
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%。"
+- raw: "CombatSkill/Name/C562,郁宝花"
+  splits:
+  - split: 1
+    text: "郁宝花"
+    translated: "Yu Baohua"
+    qcReviewedText: "Yu Baohua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C562,郁宝花《叫破喉咙》：一直尖叫，每回合有中机率造成你与对手的[愤怒]状态。"
+  splits:
+  - split: 1
+    text: "郁宝花《叫破喉咙》"
+    translated: "Yu Baohua 'Shouting My Throat Raw'"
+    qcReviewedText: "Yu Baohua 'Shouting My Throat Raw'：Screams continuously; has a chance each turn to cause both you and your opponent to suffer from[Anger]Status"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "一直尖叫，每回合有中机率造成你与对手的"
+    translated: "Screams continuously; has a chance each turn to cause both you and your opponent to suffer from"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+    translated: "Anger"
+  - split: 1
+    subIndex: 3
+    text: "状态。"
+    translated: "Status"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/D033,天黑"
+  splits:
+  - split: 1
+    text: "天黑"
+    translated: "It's getting dark"
+    qcReviewedText: "It's getting dark"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D033,天黑：天黑让小竹的视力变得更差了，命中率-20%。"
+  splits:
+  - split: 1
+    text: "天黑"
+    translated: "It's getting dark"
+    qcReviewedText: "It's getting dark：The darkness made Xiao Zhu's vision even worse, reducing her accuracy.-20%。"
+    qcTranslated: "It's getting dark: The darkness made Xiao Zhu's vision even worse, reducing her Accuracy.-20%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "天黑让小竹的视力变得更差了，命中率"
+    translated: "The darkness made Xiao Zhu's vision even worse, reducing her accuracy."
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%。"
+- raw: "CombatSkill/Name/D034,空手"
+  splits:
+  - split: 1
+    text: "空手"
+    translated: "Empty-handed"
+    qcReviewedText: "Empty-handed"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D034,空手：趁手的兵器不在身边，伤害-20%。"
+  splits:
+  - split: 1
+    text: "空手"
+    translated: "Empty-handed"
+    qcReviewedText: "Empty-handed：Without their trusty weapon at hand, their damage decreases.-20%。"
+    qcTranslated: "Empty-handed: Without a suitable weapon at hand, damage is reduced by -20%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "趁手的兵器不在身边，伤害"
+    translated: "Without their trusty weapon at hand, their damage decreases."
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%。"
+- raw: "CombatSkill/Name/D035,保护弟妹"
+  splits:
+  - split: 1
+    text: "保护弟妹"
+    translated: "Protecting my younger siblings"
+    qcReviewedText: "Protecting my younger siblings"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D035,保护弟妹：为了保护弟妹，攻击意愿降低。"
+  splits:
+  - split: 1
+    text: "保护弟妹"
+    translated: "Protecting my younger siblings"
+    qcReviewedText: "Protecting my younger siblings：To protect their younger siblings, their willingness to attack decreases."
+    qcTranslated: "Protecting Junior Siblings: To protect junior siblings, the willingness to attack decreases."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "为了保护弟妹，攻击意愿降低。"
+    translated: "To protect their younger siblings, their willingness to attack decreases."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D036,交情"
+  splits:
+  - split: 1
+    text: "交情"
+    translated: "Friendship"
+    qcReviewedText: "Friendship"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D036,交情：根据小竹的好感度，降低自身攻击力。"
+  splits:
+  - split: 1
+    text: "交情"
+    translated: "Friendship"
+    qcReviewedText: "Friendship：Reduce their own Attack Power based on Xiao Zhu's affection level."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "根据小竹的好感度，降低自身攻击力。"
+    translated: "Reduce their own Attack Power based on Xiao Zhu's affection level."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S138,姊妹同心"
+  splits:
+  - split: 1
+    text: "姊妹同心"
+    translated: "Sisters united in heart"
+    qcReviewedText: "Sisters united in heart"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S138,姊妹同心：小竹下一次攻击绝对命中，必定发动绝招。"
+  splits:
+  - split: 1
+    text: "姊妹同心"
+    translated: "Sisters united in heart"
+    qcReviewedText: "Sisters united in heart：Xiao Zhu's next attack will definitely hit, and she will surely unleash her ultimate move."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "小竹下一次攻击绝对命中，必定发动绝招。"
+    translated: "Xiao Zhu's next attack will definitely hit, and she will surely unleash her ultimate move."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S139,底力"
+  splits:
+  - split: 1
+    text: "底力"
+    translated: "Inner strength"
+    qcReviewedText: "Inner strength"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S139,底力：依据血量提升自身整体能力。"
+  splits:
+  - split: 1
+    text: "底力"
+    translated: "Inner strength"
+    qcReviewedText: "Inner strength：Boost their overall abilities based on health points."
+    qcTranslated: "Inner Strength: Boost your overall abilities based on health points."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "依据血量提升自身整体能力。"
+    translated: "Boost their overall abilities based on health points."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S140,爱现"
+  splits:
+  - split: 1
+    text: "爱现"
+    translated: "Show off"
+    qcReviewedText: "Show off"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S140,爱现：每回合额外获得气，蓄势待发，准备拔出宝剑把你一分为二。"
+  splits:
+  - split: 1
+    text: "爱现"
+    translated: "Show off"
+    qcReviewedText: "Show off：Gain extra qi each turn, gather your strength, and prepare to draw your sword and cut you in half."
+    qcTranslated: "Show off: Gain extra qi each turn, gather your strength, and prepare to draw your sword and cut you in two."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合额外获得气，蓄势待发，准备拔出宝剑把你一分为二。"
+    translated: "Gain extra qi each turn, gather your strength, and prepare to draw your sword and cut you in half."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S140_1,凝雪出窍"
+  splits:
+  - split: 1
+    text: "凝雪出窍"
+    translated: "Ningxue's consciousness leaves her body"
+    qcReviewedText: "Ningxue's consciousness leaves her body"
+    qcTranslated: "Ningxue's Qi leaves her body"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "CombatSkill/Desc/S140_1,凝雪出窍：绝招变为[凝雪出窍]，发动威力强大的攻击，把你一分为二！"
+  splits:
+  - split: 1
+    text: "凝雪出窍"
+    translated: "Ningxue's consciousness leaves her body"
+    qcReviewedText: "Ningxue's consciousness leaves her body：Ultimate becomes[Ningxue's consciousness leaves her body], Launch a powerful attack and split you in two!"
+    qcTranslated: "Ningxue's consciousness leaves her body: Ultimate becomes [Ningxue's consciousness leaves her body], launching a powerful attack that splits you in two!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "绝招变为"
+    translated: "Ultimate becomes"
+  - split: 1
+    subIndex: 2
+    text: "凝雪出窍"
+    translated: "Ningxue's consciousness leaves her body"
+  - split: 1
+    subIndex: 3
+    text: "，发动威力强大的攻击，把你一分为二！"
+    translated: ", Launch a powerful attack and split you in two!"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/D037,凝而不发"
+  splits:
+  - split: 1
+    text: "凝而不发"
+    translated: "Repress but do not release"
+    qcReviewedText: "Repress but do not release"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D037,凝而不发：内力-50%。"
+  splits:
+  - split: 1
+    text: "凝而不发"
+    translated: "Repress but do not release"
+    qcReviewedText: "Repress but do not release：Inner Power-50%。"
+    qcTranslated: "Repress but do not release: Inner Power -50%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "内力"
+    translated: "Inner Power"
+  templates:
+  - split: 1
+    template: "{0}：{1}-50%。"
+- raw: "CombatSkill/Name/D038_1,花招Lv1"
+  splits:
+  - split: 1
+    text: "花招"
+    translated: "Trick"
+    qcReviewedText: "Trick Lv1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/D038_1,花招Lv1：看似华丽，实则没有杀伤力，力求平手的社交剑法。敌我双方格档机率+50%"
+  splits:
+  - split: 1
+    text: "花招"
+    translated: "Trick"
+    qcReviewedText: "Trick Lv1：Seemingly flashy but lacking in lethality, this social sword technique aims for a draw. The chances of both sides blocking each other are high.+50%"
+    qcTranslated: "Trick Lv1: Seemingly flashy but lacking in lethality, this social sword technique aims for a draw. The chance of both sides blocking each other is +50%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "看似华丽，实则没有杀伤力，力求平手的社交剑法。敌我双方格档机率"
+    translated: "Seemingly flashy but lacking in lethality, this social sword technique aims for a draw. The chances of both sides blocking each other are high."
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}+50%"
+- raw: "CombatSkill/Name/D038_2,花招Lv2"
+  splits:
+  - split: 1
+    text: "花招"
+    translated: "Trick"
+    qcReviewedText: "Trick Lv2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/D038_2,花招Lv2：看似华丽，实则没有杀伤力，力求平手的社交剑法。敌我双方格档机率+50%"
+  splits:
+  - split: 1
+    text: "花招"
+    translated: "Trick"
+    qcReviewedText: "Trick Lv2：Seemingly flashy but lacking in lethality, this social sword technique aims for a draw. The chances of both sides blocking each other are high.+50%"
+    qcTranslated: "Trick Lv2: Seemingly flashy but lacking in lethality, this social sword technique aims for a draw. The chance of both sides blocking each other is +50%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "看似华丽，实则没有杀伤力，力求平手的社交剑法。敌我双方格档机率"
+    translated: "Seemingly flashy but lacking in lethality, this social sword technique aims for a draw. The chances of both sides blocking each other are high."
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}+50%"
+- raw: "CombatSkill/Name/S141,南宫铁袖功"
+  splits:
+  - split: 1
+    text: "南宫铁袖功"
+    translated: "Nangong Iron Sleeve Technique"
+    qcReviewedText: "Nangong Iron Sleeve Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S141,南宫铁袖功：利用长袖与披风施展的防御型武功。\\n所受伤害-10%，大幅提高使用备揍机率。"
+  splits:
+  - split: 1
+    text: "南宫铁袖功"
+    translated: "Nangong Iron Sleeve Technique"
+    qcReviewedText: "Nangong Iron Sleeve Technique：Defensive martial arts techniques performed using long sleeves and a cloak.\\nReduces received damage by -10%, significantly increasing the chance to use counterattacks."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "利用长袖与披风施展的防御型武功。"
+    translated: "Defensive martial arts techniques performed using long sleeves and a cloak."
+  - split: 1
+    subIndex: 2
+    text: "所受伤害-10%，大幅提高使用备揍机率。"
+    translated: "Reduces received damage by -10%, significantly increasing the chance to use counterattacks."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/C931,孟仙谣"
+  splits:
+  - split: 1
+    text: "孟仙谣"
+    translated: "Meng Xianyao"
+    qcReviewedText: "Meng Xianyao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C931,孟仙谣《战术指挥Lv3》：对支持对象追加[战术]Lv3"
+  splits:
+  - split: 1
+    text: "孟仙谣《战术指挥"
+    translated: "'Meng Xianyao's Tactical Command"
+    qcReviewedText: "'Meng Xianyao's Tactical Command Lv3》：Add support for the target[Tactics]Lv3"
+    qcTranslated: "Meng Xianyao's Tactical Command Lv3: Add [Tactics] Lv3 to the supported target"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "对支持对象追加"
+    translated: "Add support for the target"
+  - split: 1
+    subIndex: 2
+    text: "战术"
+    translated: "Tactics"
+    qcReviewedText: "Tactics"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv3》：{1}[{2}]Lv3"
+- raw: "CombatSkill/Name/S142,精良铁甲"
+  splits:
+  - split: 1
+    text: "精良铁甲"
+    translated: "Exquisite Iron Armor"
+    qcReviewedText: "Exquisite Iron Armor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S142,精良铁甲：轻功减少40%，依据敌方内力获得额外减伤。"
+  splits:
+  - split: 1
+    text: "精良铁甲"
+    translated: "Exquisite Iron Armor"
+    qcReviewedText: "Exquisite Iron Armor：Qinggong reduces 40%, with additional damage reduction based on the enemy's Inner Power."
+    qcTranslated: "Exquisite Iron Armor: Qinggong reduces 40%, with additional damage reduction based on the enemy's Inner Power."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "轻功减少40%，依据敌方内力获得额外减伤。"
+    translated: "Qinggong reduces 40%, with additional damage reduction based on the enemy's Inner Power."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S143_1,大花枪"
+  splits:
+  - split: 1
+    text: "大花枪"
+    translated: "Big Flower Spear"
+    qcReviewedText: "Big Flower Spear"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S143_1,大花枪：回合不受伤害时，抖枪花，获得额外格档、回避率。"
+  splits:
+  - split: 1
+    text: "大花枪"
+    translated: "Big Flower Spear"
+    qcReviewedText: "Big Flower Spear：When not taking damage during a turn, perform spear flourishes to gain additional guard and evasion."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "回合不受伤害时，抖枪花，获得额外格档、回避率。"
+    translated: "When not taking damage during a turn, perform spear flourishes to gain additional guard and evasion."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B0024_1,背水一战"
+  splits:
+  - split: 1
+    text: "背水一战"
+    translated: "A desperate last stand with no retreat"
+    qcReviewedText: "A desperate last stand with no retreat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/B0024_1,背水一战：血量低于20%时，伤害增加50%。"
+  splits:
+  - split: 1
+    text: "背水一战"
+    translated: "A desperate last stand with no retreat"
+    qcReviewedText: "A desperate last stand with no retreat：When health is below 20%, damage increases by 50%."
+    qcTranslated: "A desperate last stand with no retreat: When health is below 20%, damage increases by 50%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "血量低于20%时，伤害增加50%。"
+    translated: "When health is below 20%, damage increases by 50%."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S144,蜈蚣鞭"
+  splits:
+  - split: 1
+    text: "蜈蚣鞭"
+    translated: "Centipede Whip"
+    qcReviewedText: "Centipede Whip"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S144,蜈蚣鞭：难以防御的带刺九节鞭，稍微被划破皮肤就会立刻中毒。\\n造成伤害时额外附带30%的毒、麻累积值。"
+  splits:
+  - split: 1
+    text: "蜈蚣鞭"
+    translated: "Centipede Whip"
+    qcReviewedText: "Centipede Whip：The barbed nine-section whip is hard to defend against; even a slight scratch will immediately cause poisoning.\\nAdds an additional 30% of poison and numbness status effects when dealing damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "难以防御的带刺九节鞭，稍微被划破皮肤就会立刻中毒。"
+    translated: "The barbed nine-section whip is hard to defend against; even a slight scratch will immediately cause poisoning."
+  - split: 1
+    subIndex: 2
+    text: "造成伤害时额外附带30%的毒、麻累积值。"
+    translated: "Adds an additional 30% of poison and numbness status effects when dealing damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/S145,火焰喷射"
+  splits:
+  - split: 1
+    text: "火焰喷射"
+    translated: "Flame spewing"
+    qcReviewedText: "Flame spewing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S145,火焰喷射：嘴攻时，一边旋转一边喷发火焰！附加[燃烧]异常。"
+  splits:
+  - split: 1
+    text: "火焰喷射"
+    translated: "Flame spewing"
+    qcReviewedText: "Flame spewing：While spinning, spray flames! Additional effect:[Burning]Anomaly"
+    qcTranslated: "Flame Spew: While spinning, spray flames! Inflicts [Burning] Anomaly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "嘴攻时，一边旋转一边喷发火焰！附加"
+    translated: "While spinning, spray flames! Additional effect:"
+  - split: 1
+    subIndex: 2
+    text: "燃烧"
+    translated: "Burning"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+    translated: "Anomaly"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S146,冲撞"
+  splits:
+  - split: 1
+    text: "冲撞"
+    translated: "Collision"
+    qcReviewedText: "Collision"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S146,冲撞：一边喷火一边冲撞！小机率造成中幅伤害。高机率附加[燃烧]异常。"
+  splits:
+  - split: 1
+    text: "冲撞"
+    translated: "Collision"
+    qcReviewedText: "Collision：Breathe fire while charging! Has a small chance to deal moderate damage. High chance to also apply[Burning]Anomaly"
+    qcTranslated: "Collision: Breathe fire while charging! Small chance to deal moderate damage. High chance to apply [Burning] Anomaly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "一边喷火一边冲撞！小机率造成中幅伤害。高机率附加"
+    translated: "Breathe fire while charging! Has a small chance to deal moderate damage. High chance to also apply"
+  - split: 1
+    subIndex: 2
+    text: "燃烧"
+    translated: "Burning"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+    translated: "Anomaly"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S8129_1,飞天脚"
+  splits:
+  - split: 1
+    text: "飞天脚"
+    translated: "Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Kick"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S8129_1,飞天脚：境界一以上，绝招变成[飞天脚]。根据轻功影响伤害，命中时，敌我双方造成[失衡]。"
+  splits:
+  - split: 1
+    text: "飞天脚"
+    translated: "Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Kick：Above the First Stage, the ultimate moves become available.[Flying Heaven Kick]Based on the impact of Qinggong, when hitting, both allies and enemies suffer damage.[Imbalance]。"
+    qcTranslated: "Flying Heaven Kick: Above the First Stage, the Ultimate becomes [Flying Heaven Kick]. Damage is affected by Qinggong; on hit, both allies and enemies suffer [Imbalance]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "境界一以上，绝招变成"
+    translated: "Above the First Stage, the ultimate moves become available."
+  - split: 1
+    subIndex: 2
+    text: "飞天脚"
+    translated: "Flying Heaven Kick"
+  - split: 1
+    subIndex: 3
+    text: "。根据轻功影响伤害，命中时，敌我双方造成"
+    translated: "Based on the impact of Qinggong, when hitting, both allies and enemies suffer damage."
+  - split: 1
+    subIndex: 4
+    text: "失衡"
+    translated: "Imbalance"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/S147,解牛刀"
+  splits:
+  - split: 1
+    text: "解牛刀"
+    translated: "Butcher's knife"
+    qcReviewedText: "Butcher's knife"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S147,解牛刀：捅人命中时，造成[破甲]。"
+  splits:
+  - split: 1
+    text: "解牛刀"
+    translated: "Butcher's knife"
+    qcReviewedText: "Butcher's knife：Deals damage when hitting a person[Piercing Armor]。"
+    qcTranslated: "Butcher's Knife: Deals [Armor Piercing] damage when hitting a person."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "捅人命中时，造成"
+    translated: "Deals damage when hitting a person"
+  - split: 1
+    subIndex: 2
+    text: "破甲"
+    translated: "Piercing Armor"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/S7002,嚣张"
+  splits:
+  - split: 1
+    text: "嚣张"
+    translated: "Arrogant and overbearing"
+    qcReviewedText: "Arrogant and overbearing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S7002,嚣张：绝招命中时，自身追加[破甲]。"
+  splits:
+  - split: 1
+    text: "嚣张"
+    translated: "Arrogant and overbearing"
+    qcReviewedText: "Arrogant and overbearing：When the ultimate move hits, they add an additional effect.[Piercing Armor]。"
+    qcTranslated: "Arrogant and overbearing: When the Ultimate hits, add [Piercing Armor] to yourself."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "绝招命中时，自身追加"
+    translated: "When the ultimate move hits, they add an additional effect."
+  - split: 1
+    subIndex: 2
+    text: "破甲"
+    translated: "Piercing Armor"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/G2100_1,运气活血Lv1"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv1"
+    qcTranslated: "Circulate Qi to Invigorate Blood Lv1"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/G2100_1,运气活血Lv1：备揍时，额外代谢5点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv1：When preparing for a fight, reduce additional metabolic toxin and numbness accumulation by 5 points."
+    qcTranslated: "Qi Circulation and Blood Activation Lv1: When preparing for a fight, reduce additional metabolic toxin and numbness accumulation by 5 points."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢5点毒麻累积值"
+    translated: "When preparing for a fight, reduce additional metabolic toxin and numbness accumulation by 5 points."
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/G2100_2,运气活血Lv2"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv2"
+    qcTranslated: "Circulate Qi to Invigorate Blood Flow Lv2"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/G2100_2,运气活血Lv2：备揍时，额外代谢7点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv2：When preparing for a fight, additionally metabolize 7 points of toxic numbness accumulation."
+    qcTranslated: "Channeling Qi to Invigorate Blood Flow Lv2: When preparing for a fight, additionally metabolize 7 points of toxic numbness accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢7点毒麻累积值"
+    translated: "When preparing for a fight, additionally metabolize 7 points of toxic numbness accumulation."
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/G2100_3,运气活血Lv3"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv3"
+    qcTranslated: "Circulate Qi to Invigorate Blood Flow Lv3"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/G2100_3,运气活血Lv3：备揍时，额外代谢10点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv3：When preparing for a fight, reduce additional metabolic toxin and numbness accumulation by 10 points."
+    qcTranslated: "Qi Circulation and Blood Activation Lv3: When preparing for a fight, reduce additional metabolic toxin and numbness accumulation by 10 points."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢10点毒麻累积值"
+    translated: "When preparing for a fight, reduce additional metabolic toxin and numbness accumulation by 10 points."
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/G2100_4,运气活血Lv4"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv4"
+    qcTranslated: "Channel Qi to Invigorate Blood Flow Lv4"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/G2100_4,运气活血Lv4：备揍时，额外代谢12点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv4：When preparing for a fight, additionally metabolize 12 points of toxic numbness accumulation."
+    qcTranslated: "Channel Qi to Invigorate Blood Lv4: When preparing for a fight, additionally metabolize 12 points of toxic numbness accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢12点毒麻累积值"
+    translated: "When preparing for a fight, additionally metabolize 12 points of toxic numbness accumulation."
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}"
+- raw: "CombatSkill/Name/G2100_5,运气活血Lv5"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv5"
+    qcTranslated: "Circulate Qi to Invigorate Blood Flow Lv5"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/G2100_5,运气活血Lv5：备揍时，额外代谢15点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv5：When preparing for a fight, reduce additional metabolic toxin accumulation by 15 points."
+    qcTranslated: "Qi Circulation and Blood Activation Lv5: When bracing for impact, metabolize an additional 15 points of toxin and numbing accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢15点毒麻累积值"
+    translated: "When preparing for a fight, reduce additional metabolic toxin accumulation by 15 points."
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}"
+- raw: "CombatSkill/Name/G2100_6,运气活血Lv6"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv6"
+    qcTranslated: "Circulate Qi to Invigorate Blood Flow Lv6"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/G2100_6,运气活血Lv6：备揍时，额外代谢17点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv6：When preparing for a fight, additionally metabolize 17 points of toxic numbness accumulation."
+    qcTranslated: "Qi Circulation and Blood Activation Lv6: When preparing for a fight, additionally metabolize 17 points of toxic numbness accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢17点毒麻累积值"
+    translated: "When preparing for a fight, additionally metabolize 17 points of toxic numbness accumulation."
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}"
+- raw: "CombatSkill/Name/G2100_7,运气活血Lv7"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv7"
+    qcTranslated: "Circulate Qi to Invigorate Blood Lv7"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/G2100_7,运气活血Lv7：备揍时，额外代谢20点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv7：When preparing for a fight, reduce additional metabolic toxin accumulation by 20 points."
+    qcTranslated: "Channel Qi to Invigorate Blood Lv7: When preparing for a fight, metabolize an additional 20 points of toxin and numbness accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢20点毒麻累积值"
+    translated: "When preparing for a fight, reduce additional metabolic toxin accumulation by 20 points."
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}"
+- raw: "CombatSkill/Name/G2100_8,运气活血Lv8"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv8"
+    qcTranslated: "Channel Qi to Invigorate Blood Flow Lv8"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/G2100_8,运气活血Lv8：备揍时，额外代谢23点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv8：When preparing for a fight, additionally metabolize 23 points of toxic numbness accumulation."
+    qcTranslated: "Channeling Qi to Invigorate Blood Flow Lv8: When preparing for a fight, additionally metabolize 23 points of toxic numbness accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢23点毒麻累积值"
+    translated: "When preparing for a fight, additionally metabolize 23 points of toxic numbness accumulation."
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}"
+- raw: "CombatSkill/Name/G2100_9,运气活血Lv9"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv9"
+    qcTranslated: "Circulate Qi to Invigorate Blood Lv9"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/G2100_9,运气活血Lv9：备揍时，额外代谢25点毒麻累积值"
+  splits:
+  - split: 1
+    text: "运气活血"
+    translated: "Fortune invigorates the blood flow"
+    qcReviewedText: "Fortune invigorates the blood flow Lv9：When preparing for a fight, metabolize an additional 25 points of toxic numbness buildup."
+    qcTranslated: "Channeling Qi to Invigorate Blood Lv9: When preparing for a fight, metabolize an additional 25 points of toxic numbness buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "备揍时，额外代谢25点毒麻累积值"
+    translated: "When preparing for a fight, metabolize an additional 25 points of toxic numbness buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}"
+- raw: "CombatSkill/Name/S3117,肥胖肉体"
+  splits:
+  - split: 1
+    text: "肥胖肉体"
+    translated: "Bloated body"
+    qcReviewedText: "Bloated body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S3117,肥胖肉体：根据对手内力获得额外减伤，若对手内力超过100则无效果。"
+  splits:
+  - split: 1
+    text: "肥胖肉体"
+    translated: "Bloated body"
+    qcReviewedText: "Bloated body：Gain additional damage reduction based on the opponent's Inner Power; if their Inner Power exceeds 100, this effect has no effect."
+    qcTranslated: "Bloated body: Gain additional damage reduction based on the opponent's Inner Power; if their Inner Power exceeds 100, this effect has no effect."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "根据对手内力获得额外减伤，若对手内力超过100则无效果。"
+    translated: "Gain additional damage reduction based on the opponent's Inner Power; if their Inner Power exceeds 100, this effect has no effect."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D039,闲置"
+  splits:
+  - split: 1
+    text: "闲置"
+    translated: "Idle"
+    qcReviewedText: "Idle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D039,闲置：本回合不行动。"
+  splits:
+  - split: 1
+    text: "闲置"
+    translated: "Idle"
+    qcReviewedText: "Idle：Stand down this turn"
+    qcTranslated: "Idle: Do not act this turn"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "本回合不行动。"
+    translated: "Stand down this turn"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S1210,风刀"
+  splits:
+  - split: 1
+    text: "风刀"
+    translated: "Wind Blade"
+    qcReviewedText: "Wind Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S1210,风刀：攻击命中时，额外连击数+1。"
+  splits:
+  - split: 1
+    text: "风刀"
+    translated: "Wind Blade"
+    qcReviewedText: "Wind Blade：Additional consecutive hits when the attack lands+1。"
+    qcTranslated: "Wind Blade: When an attack hits, additional consecutive hits +1."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，额外连击数"
+    translated: "Additional consecutive hits when the attack lands"
+  templates:
+  - split: 1
+    template: "{0}：{1}+1。"
+- raw: "CombatSkill/Name/S3116,火剑"
+  splits:
+  - split: 1
+    text: "火剑"
+    translated: "Fire Sword"
+    qcReviewedText: "Fire Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S3116,火剑：连击数>=6时清空连段，气力+50。"
+  splits:
+  - split: 1
+    text: "火剑"
+    translated: "Flame Sword"
+    qcReviewedText: "Flame Sword：Combo count>=Reset combo at 6 time, chakra and strength+50。"
+    qcTranslated: "Flame Sword: When combo count >= 6, reset combo, chakra and strength +50."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "连击数"
+    translated: "Combo count"
+  - split: 1
+    subIndex: 2
+    text: "6时清空连段，气力"
+    translated: "Reset combo at 6 time, chakra and strength"
+  templates:
+  - split: 1
+    template: "{0}：{1}>={2}+50。"
+- raw: "CombatSkill/Name/S8008,霹雳小弹弓"
+  splits:
+  - split: 1
+    text: "霹雳小弹弓"
+    translated: "Thunderbolt Mini Slingshot"
+    qcReviewedText: "Thunderbolt Mini Slingshot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S8008,霹雳小弹弓：暗器命中时造成大额麻痹累积。"
+  splits:
+  - split: 1
+    text: "霹雳小弹弓"
+    translated: "Thunderbolt Mini Slingshot"
+    qcReviewedText: "Thunderbolt Mini Slingshot：When the hidden weapon hits, it causes a large amount of paralysis buildup."
+    qcTranslated: "Thunderbolt Mini Slingshot: When the Hidden Weapon hits, it causes a large amount of paralysis buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时造成大额麻痹累积。"
+    translated: "When the hidden weapon hits, it causes a large amount of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/B0039_2,身经百战"
+  splits:
+  - split: 1
+    text: "身经百战"
+    translated: "Battle-hardened"
+    qcReviewedText: "Battle-hardened"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/B0039_2,身经百战：根据临阵经验看穿对手意图，使出克制对手的动作。"
+  splits:
+  - split: 1
+    text: "身经百战"
+    translated: "Battle-hardened"
+    qcReviewedText: "Battle-hardened：Read your opponent's intentions from their battlefield experience and counter them with actions that neutralize their moves."
+    qcTranslated: "Battle-hardened: Read your opponent's intentions based on your own combat experience and counter them with moves that neutralize their techniques."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "根据临阵经验看穿对手意图，使出克制对手的动作。"
+    translated: "Read your opponent's intentions from their battlefield experience and counter them with actions that neutralize their moves."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D040,封印惯用手"
+  splits:
+  - split: 1
+    text: "封印惯用手"
+    translated: "Seal the Dominant Hand"
+    qcReviewedText: "Seal the Dominant Hand"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D040,封印惯用手：拳掌、刀剑-20%。"
+  splits:
+  - split: 1
+    text: "封印惯用手"
+    translated: "Seal the Dominant Hand"
+    qcReviewedText: "Seal the Dominant Hand：Fists and palms, blades and swords-20%。"
+    qcTranslated: "Seal the Dominant Hand: Fists and palms, Blades and Swords-20%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "拳掌、刀剑"
+    translated: "Fists and palms, blades and swords"
+  templates:
+  - split: 1
+    template: "{0}：{1}-20%。"
+- raw: "CombatSkill/Name/C563,丹霞子"
+  splits:
+  - split: 1
+    text: "丹霞子"
+    translated: "Danxiazi"
+    qcReviewedText: "Danxiazi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C563,丹霞子《风刀火剑》：配合你的步调，每回合根据当前连击数发动攻击，造成中幅伤害。"
+  splits:
+  - split: 1
+    text: "丹霞子《风刀火剑》"
+    translated: "Danxiazi Wind Blade, Flame Sword"
+    qcReviewedText: "Danxiazi Wind Blade, Flame Sword：Sync with your rhythm and attack according to the current combo count each turn, dealing moderate damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "配合你的步调，每回合根据当前连击数发动攻击，造成中幅伤害。"
+    translated: "Sync with your rhythm and attack according to the current combo count each turn, dealing moderate damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C932_1,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C932_1,刺客《暗杀》：四下游走，分散你的注意力，当你解除警戒时发起攻击。\\n使对手命中率-10%，当对手使用攻击指令，发动小幅伤害。"
+  splits:
+  - split: 1
+    text: "刺客《暗杀》"
+    translated: "Assassin 'Assassination'"
+    qcReviewedText: "Assassin 'Assassination'：Move around you below, distracting your attention, and attack when you let your guard down.\\nReduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+    qcTranslated: "Assassin 'Assassination': Move around to distract your attention, and attack when you let your guard down.\\nReduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "四下游走，分散你的注意力，当你解除警戒时发起攻击。"
+    translated: "Move around you below, distracting your attention, and attack when you let your guard down."
+  - split: 1
+    subIndex: 2
+    text: "使对手命中率-10%，当对手使用攻击指令，发动小幅伤害。"
+    translated: "Reduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/C932_2,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C932_2,刺客《暗杀》：四下游走，分散你的注意力，当你解除警戒时发起攻击。\\n使对手命中率-10%，当对手使用攻击指令，发动小幅伤害。"
+  splits:
+  - split: 1
+    text: "刺客《暗杀》"
+    translated: "Assassin 'Assassination'"
+    qcReviewedText: "Assassin 'Assassination'：Move around you below, distracting your attention, and attack when you let your guard down.\\nReduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+    qcTranslated: "Assassin 'Assassination': Move around to distract your attention, and attack when you let your guard down.\\nReduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "四下游走，分散你的注意力，当你解除警戒时发起攻击。"
+    translated: "Move around you below, distracting your attention, and attack when you let your guard down."
+  - split: 1
+    subIndex: 2
+    text: "使对手命中率-10%，当对手使用攻击指令，发动小幅伤害。"
+    translated: "Reduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/C932_3,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C932_3,刺客《暗杀》：四下游走，分散你的注意力，当你解除警戒时发起攻击。\\n使对手命中率-10%，当对手使用攻击指令，发动小幅伤害。"
+  splits:
+  - split: 1
+    text: "刺客《暗杀》"
+    translated: "Assassin 'Assassination'"
+    qcReviewedText: "Assassin 'Assassination'：Move around you below, distracting your attention, and attack when you let your guard down.\\nReduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+    qcTranslated: "Assassin 'Assassination': Move around to distract your attention, and attack when you let your guard down.\\nReduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "四下游走，分散你的注意力，当你解除警戒时发起攻击。"
+    translated: "Move around you below, distracting your attention, and attack when you let your guard down."
+  - split: 1
+    subIndex: 2
+    text: "使对手命中率-10%，当对手使用攻击指令，发动小幅伤害。"
+    translated: "Reduce the opponent's Accuracy by -10%, and deal minor damage when the opponent uses an attack command."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/C564,夺魄弟子"
+  splits:
+  - split: 1
+    text: "夺魄弟子"
+    translated: "Soul Stealer disciple"
+    qcReviewedText: "Soul Stealer disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C564,夺魄弟子《夺魄飞爪》：每回合有中机率造成高爆击伤害。"
+  splits:
+  - split: 1
+    text: "夺魄弟子《夺魄飞爪》"
+    translated: "Soul Stealer disciple 'Soul Stealer Flying Claws'"
+    qcReviewedText: "Soul Stealer disciple 'Soul Stealer Flying Claws'：Deals a high critical hit damage with medium probability each turn."
+    qcTranslated: "Soul Stealer disciple 'Soul Stealer Flying Claws': Deals a high critical hit damage with medium probability each turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合有中机率造成高爆击伤害。"
+    translated: "Deals a high critical hit damage with medium probability each turn."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C565,玄功弟子"
+  splits:
+  - split: 1
+    text: "玄功弟子"
+    translated: "Mystic Skill Disciple"
+    qcReviewedText: "Mystic Skill Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C565,玄功弟子《铁琵琶功小圆满》：在场时，己方遭受攻击，造成反震小幅伤害，且累积麻痹值。"
+  splits:
+  - split: 1
+    text: "玄功弟子《铁琵琶功小圆满》"
+    translated: "Mystic Skill Disciple 'Iron Pipa Technique Minor Perfection'"
+    qcReviewedText: "Mystic Skill Disciple 'Iron Pipa Technique Minor Perfection'：When present, they suffer an attack that causes minor retaliatory damage and accumulates paralysis points."
+    qcTranslated: "Mystic Skill Disciple 'Iron Pipa Technique Minor Perfection': When present, when our side suffers an attack, it causes minor retaliatory damage and accumulates paralysis points."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "在场时，己方遭受攻击，造成反震小幅伤害，且累积麻痹值。"
+    translated: "When present, they suffer an attack that causes minor retaliatory damage and accumulates paralysis points."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C566,飞天弟子"
+  splits:
+  - split: 1
+    text: "飞天弟子"
+    translated: "Flying Heaven Disciple"
+    qcReviewedText: "Flying Heaven Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C566,飞天弟子《飞天脚》：每回合造成小幅伤害，并有中机率造成失衡异常。"
+  splits:
+  - split: 1
+    text: "飞天弟子《飞天脚》"
+    translated: "Flying Heaven Disciple Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Disciple Flying Heaven Kick：Deals minor damage each turn and has a moderate chance to cause an imbalance status effect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "每回合造成小幅伤害，并有中机率造成失衡异常。"
+    translated: "Deals minor damage each turn and has a moderate chance to cause an imbalance status effect."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/D041,黑暗环境"
+  splits:
+  - split: 1
+    text: "黑暗环境"
+    translated: "Dark environment"
+    qcReviewedText: "Dark environment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/D041,黑暗环境：命中率大幅下降，下降幅度根据内力减轻。"
+  splits:
+  - split: 1
+    text: "黑暗环境"
+    translated: "Dark environment"
+    qcReviewedText: "Dark environment：Accuracy has dropped significantly; the extent of the decrease depends on the reduction in Inner Power."
+    qcTranslated: "Dark environment: Accuracy drops significantly; the extent of the decrease is mitigated by Inner Power."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "命中率大幅下降，下降幅度根据内力减轻。"
+    translated: "Accuracy has dropped significantly; the extent of the decrease depends on the reduction in Inner Power."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S1211,追魂鞭"
+  splits:
+  - split: 1
+    text: "追魂鞭"
+    translated: "Soul-Chasing Whip"
+    qcReviewedText: "Soul-Chasing Whip"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S1211,追魂鞭：依据连击数提升伤害。"
+  splits:
+  - split: 1
+    text: "追魂鞭"
+    translated: "Soul-Chasing Whip"
+    qcReviewedText: "Soul-Chasing Whip：Increase damage based on combo count"
+    qcTranslated: "Soul-Chasing Whip: Increases damage based on combo count."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "依据连击数提升伤害。"
+    translated: "Increase damage based on combo count"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S148,偏执"
+  splits:
+  - split: 1
+    text: "偏执"
+    translated: "Obsession"
+    qcReviewedText: "Obsession"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S148,偏执：当对手为夏侯兰时，毅力的次数提升3次。"
+  splits:
+  - split: 1
+    text: "偏执"
+    translated: "Obsession"
+    qcReviewedText: "Obsession：When the opponent is Xiahou Lan, the number of times Resilience activates increases by 3."
+    qcTranslated: "Obsession: When the opponent is Xiahou Lan, the number of times Resilience activates increases by 3.."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "当对手为夏侯兰时，毅力的次数提升3次。"
+    translated: "When the opponent is Xiahou Lan, the number of times Resilience activates increases by 3."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C933,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+    translated: "Yan Jiang"
+    qcReviewedText: "Yan Jiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C933,颜疆《火护法》：每回合依据连击数+1发动多次中幅伤害的攻击。"
+  splits:
+  - split: 1
+    text: "颜疆《火护法》"
+    translated: "Yan Jiang 'Fire Guardian'"
+    qcReviewedText: "Yan Jiang 'Fire Guardian'：Deal multiple moderate damage attacks based on the number of consecutive hits +1 per turn."
+    qcTranslated: "Yan Jiang 'Fire Guardian': Deal multiple moderate damage attacks based on the number of consecutive hits +1 per turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合依据连击数+1发动多次中幅伤害的攻击。"
+    translated: "Deal multiple moderate damage attacks based on the number of consecutive hits +1 per turn."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S3109,战鬼"
+  splits:
+  - split: 1
+    text: "战鬼"
+    translated: "War Ghost"
+    qcReviewedText: "War Ghost"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S3109,战鬼：第六回合开始发动[咆哮]、[狂化]、[毅力]，造成对方[胆怯]。"
+  splits:
+  - split: 1
+    text: "战鬼"
+    translated: "War Ghost"
+    qcReviewedText: "War Ghost：Sixth round begins[Roar loudly]、[Frenzy]、[Perseverance], Deal damage to the opponent[Timidity]。"
+    qcTranslated: "War Ghost: Starting from the sixth round, activates [Roar], [Frenzy], and [Perseverance], inflicting [Timidity] on the opponent."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "第六回合开始发动"
+    translated: "Sixth round begins"
+  - split: 1
+    subIndex: 2
+    text: "咆哮"
+    translated: "Roar loudly"
+  - split: 1
+    subIndex: 3
+    text: "狂化"
+    translated: "Frenzy"
+    qcReviewedText: "Frenzy Lv1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 4
+    text: "毅力"
+    translated: "Perseverance"
+    qcReviewedText: "Perseverance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 5
+    text: "，造成对方"
+    translated: ", Deal damage to the opponent"
+  - split: 1
+    subIndex: 6
+    text: "胆怯"
+    translated: "Timidity"
+    qcReviewedText: "Timidity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]、[{4}]{5}[{6}]。"
+- raw: "CombatSkill/Name/S149,杀心"
+  splits:
+  - split: 1
+    text: "杀心"
+    translated: "Killing intent"
+    qcReviewedText: "Killing intent"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S149,杀心：感受不到疼痛，每回合移除[胆怯]、[愤怒]。"
+  splits:
+  - split: 1
+    text: "杀心"
+    translated: "Killing intent"
+    qcReviewedText: "Killing intent：Cannot feel pain; remove at the start of each turn.[Timidity]、[Anger]。"
+    qcTranslated: "Killing Intent: Cannot feel pain; removes [Timidity] and [Anger] each turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "感受不到疼痛，每回合移除"
+    translated: "Cannot feel pain; remove at the start of each turn."
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+    translated: "Timidity"
+  - split: 1
+    subIndex: 3
+    text: "愤怒"
+    translated: "Anger"
+    qcReviewedText: "Anger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]。"
+- raw: "CombatSkill/Name/S150,美好记忆・梅兰竹菊"
+  splits:
+  - split: 1
+    text: "美好记忆・梅兰竹菊"
+    translated: "Memories of Beauty • Plum Orchid Bamboo Chrysanthemum"
+    qcReviewedText: "Memories of Beauty • Plum Orchid Bamboo Chrysanthemum"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S150,美好记忆・梅兰竹菊：每回合额外回复气。"
+  splits:
+  - split: 1
+    text: "美好记忆・梅兰竹菊"
+    translated: "Memories of Beauty • Plum Orchid Bamboo Chrysanthemum"
+    qcReviewedText: "Memories of Beauty • Plum Orchid Bamboo Chrysanthemum：Additional chi recovery per turn"
+    qcTranslated: "Beautiful Memories • Plum, Orchid, Bamboo, and Chrysanthemum: Additional chi recovery per turn"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合额外回复气。"
+    translated: "Additional chi recovery per turn"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S151,美好记忆・你"
+  splits:
+  - split: 1
+    text: "美好记忆・你"
+    translated: "Beautiful Memories • You"
+    qcReviewedText: "Beautiful Memories • You"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S151,美好记忆・你：每回合额外回复气。"
+  splits:
+  - split: 1
+    text: "美好记忆・你"
+    translated: "Beautiful Memories・You"
+    qcReviewedText: "Beautiful Memories・You：Additional chi recovery per turn"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "每回合额外回复气。"
+    translated: "Additional chi recovery per turn"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C934,姚不知名？"
+  splits:
+  - split: 1
+    text: "姚不知名？"
+    translated: "Yao Buzhiming?"
+    qcReviewedText: "Yao Buzhiming?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C934,姚不知名？《灯火的对立者》：冷眼旁观，讥嘲他人不幸。掩灭灯火，确保你们的悲剧没有转机。"
+  splits:
+  - split: 1
+    text: "姚不知名？《灯火的对立者》"
+    translated: "Yao Buzhiming? 'The Opposite of the Lamp's Light'"
+    qcReviewedText: "Yao Buzhiming? 'The Opposite of the Lamp's Light'：Watch with cold eyes and mock the misfortune of others. Extinguish the lights to ensure that your tragedy has no chance of turning around."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "冷眼旁观，讥嘲他人不幸。掩灭灯火，确保你们的悲剧没有转机。"
+    translated: "Watch with cold eyes and mock the misfortune of others. Extinguish the lights to ensure that your tragedy has no chance of turning around."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/E1115,咆哮"
+  splits:
+  - split: 1
+    text: "咆哮"
+    translated: "Roar loudly"
+    qcReviewedText: "Roar loudly"
+    qcTranslated: "Roar"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "CombatSkill/Desc/E1115,咆哮：嘴攻变为咆哮，不激怒敌人而是造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "咆哮"
+    translated: "Roar loudly"
+    qcReviewedText: "Roar loudly：Shifting from verbal taunts to roars, not to provoke the enemy but to inflict[Timidity]。"
+    qcTranslated: "Roar: Shifting from verbal taunts to roars, not to provoke the enemy but to inflict [Timidity]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "嘴攻变为咆哮，不激怒敌人而是造成"
+    translated: "Shifting from verbal taunts to roars, not to provoke the enemy but to inflict"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+    translated: "Timidity"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]。"
+- raw: "CombatSkill/Name/C935,无相祖师"
+  splits:
+  - split: 1
+    text: "无相祖师"
+    translated: "Wuxiang Patriarch"
+    qcReviewedText: "Wuxiang Patriarch"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C935,无相祖师《无相神功》：千变万化的无相神功，每回合变化不同技能，对敌人造成超绝强大伤害。"
+  splits:
+  - split: 1
+    text: "无相祖师《无相神功》"
+    translated: "Wuxiang Patriarch's *Wuxiang Divine Skill*"
+    qcReviewedText: "Wuxiang Patriarch's *Wuxiang Divine Skill*：The shapeless divine technique, with its ever-changing abilities, varies each turn with different skills, dealing unparalleled devastating damage to enemies."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "千变万化的无相神功，每回合变化不同技能，对敌人造成超绝强大伤害。"
+    translated: "The shapeless divine technique, with its ever-changing abilities, varies each turn with different skills, dealing unparalleled devastating damage to enemies."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C936,画中仙"
+  splits:
+  - split: 1
+    text: "画中仙"
+    translated: "Painting Immortal"
+    qcReviewedText: "Painting Immortal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C936,画中仙《无相神功》：千变万化的无相神功，抵销无相祖师的支持技能，令他无暇搭理你。"
+  splits:
+  - split: 1
+    text: "画中仙《无相神功》"
+    translated: "Painting Immortal's Formless Divine Skill"
+    qcReviewedText: "Painting Immortal's Formless Divine Skill：The Thousand Transformations of the Wuxiang Divine Skill neutralized the Wuxiang Patriarch's support skills, leaving them no time to deal with you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "千变万化的无相神功，抵销无相祖师的支持技能，令他无暇搭理你。"
+    translated: "The Thousand Transformations of the Wuxiang Divine Skill neutralized the Wuxiang Patriarch's support skills, leaving them no time to deal with you."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S153,痛苦回忆・千灯楼"
+  splits:
+  - split: 1
+    text: "痛苦回忆・千灯楼"
+    translated: "Painful Memories • Thousand Lantern Tower"
+    qcReviewedText: "Painful Memories • Thousand Lantern Tower"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S153,痛苦回忆・千灯楼：每回合有高机率陷入[胆怯]异常。"
+  splits:
+  - split: 1
+    text: "痛苦回忆・千灯楼"
+    translated: "Painful Memories • Thousand Lantern Tower"
+    qcReviewedText: "Painful Memories • Thousand Lantern Tower：Each turn presents a high chance of becoming trapped, fall into.[Timidity]Anomaly"
+    qcTranslated: "Painful Memories • Thousand Lantern Tower: Each turn has a high chance of inflicting the [Timidity] status."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "每回合有高机率陷入"
+    translated: "Each turn presents a high chance of becoming trapped, fall into."
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+    translated: "Timidity"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+    translated: "Anomaly"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S154,痛苦回忆・一无所有"
+  splits:
+  - split: 1
+    text: "痛苦回忆・一无所有"
+    translated: "Painful Memories • Having Nothing"
+    qcReviewedText: "Painful Memories • Having Nothing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S154,痛苦回忆・一无所有：失去所有求生的勇气，不会再获得气。"
+  splits:
+  - split: 1
+    text: "痛苦回忆・一无所有"
+    translated: "Painful Memories • Having Nothing"
+    qcReviewedText: "Painful Memories • Having Nothing：Having lost all courage to survive, they will no longer gain any qi."
+    qcTranslated: "Painful Memories • Having Nothing: Having lost all courage to survive, they will no longer gain any qi."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "失去所有求生的勇气，不会再获得气。"
+    translated: "Having lost all courage to survive, they will no longer gain any qi."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C937,童大虫"
+  splits:
+  - split: 1
+    text: "童大虫"
+    translated: "Tong Dachong"
+    qcReviewedText: "Tong Dachong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C937,童大虫《地护法》：童大虫在场时，使我方伤害上限不超过最大血量的50%。"
+  splits:
+  - split: 1
+    text: "童大虫《地护法》"
+    translated: "Tong Dachong, Earth Guardian Law"
+    qcReviewedText: "Tong Dachong, Earth Guardian Law：When Tong Dachong is present, cap our damage output at no more than 50% of maximum health."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "童大虫在场时，使我方伤害上限不超过最大血量的50%。"
+    translated: "When Tong Dachong is present, cap our damage output at no more than 50% of maximum health."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C302_10,人海战术"
+  splits:
+  - split: 1
+    text: "人海战术"
+    translated: "Human Wave Tactics"
+    qcReviewedText: "Human Wave Tactics"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C302_10,人海战术：血量低于10%时，将恢复满血。"
+  splits:
+  - split: 1
+    text: "人海战术"
+    translated: "Human Wave Tactics"
+    qcReviewedText: "Human Wave Tactics：When health is below 10%, it will be restored to full."
+    qcTranslated: "Human Wave Tactics: When health is below 10%, it will be restored to full."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "血量低于10%时，将恢复满血。"
+    translated: "When health is below 10%, it will be restored to full."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S155,全力备揍"
+  splits:
+  - split: 1
+    text: "全力备揍"
+    translated: "Prepare to take a beating"
+    qcReviewedText: "Prepare to take a beating"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S155,全力备揍：备揍机率大幅上升，格档率大幅上升。每回合移除[愤怒]、[胆怯]"
+  splits:
+  - split: 1
+    text: "全力备揍"
+    translated: "Prepare to take a beating"
+    qcReviewedText: "Prepare to take a beating：Preparation for counterattack chance significantly increased, guard rate significantly increased. Remove every turn[Anger]、[Timidity]"
+    qcTranslated: "Prepare to Take a Beating: Counterattack chance significantly increased, guard rate significantly increased. Removes [Anger] and [Timidity] every turn"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "备揍机率大幅上升，格档率大幅上升。每回合移除"
+    translated: "Preparation for counterattack chance significantly increased, guard rate significantly increased. Remove every turn"
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+    translated: "Anger"
+  - split: 1
+    subIndex: 3
+    text: "胆怯"
+    translated: "Timidity"
+    qcReviewedText: "Timidity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]"
+- raw: "CombatSkill/Name/S156,兵器损毁"
+  splits:
+  - split: 1
+    text: "兵器损毁"
+    translated: "Weapon damaged"
+    qcReviewedText: "Weapon damaged"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S156,兵器损毁：金乌上人将铁琵琶功内劲注入铁锤，摧毁了你的兵器。刀剑-100"
+  splits:
+  - split: 1
+    text: "兵器损毁"
+    translated: "Weapon damaged"
+    qcReviewedText: "Weapon damaged：Jinwu Shangren infused the inner strength of Iron Lute Technique into the iron hammer and destroyed your weapons. Blades and swords.-100"
+    qcTranslated: "Weapon damaged: Jinwu Shangren infused the inner strength of Iron Lute Technique into the iron hammer and destroyed your weapon. Blades and swords.-100"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "金乌上人将铁琵琶功内劲注入铁锤，摧毁了你的兵器。刀剑"
+    translated: "Jinwu Shangren infused the inner strength of Iron Lute Technique into the iron hammer and destroyed your weapons. Blades and swords."
+  templates:
+  - split: 1
+    template: "{0}：{1}-100"
+- raw: "CombatSkill/Name/S157_1,全力猛攻"
+  splits:
+  - split: 1
+    text: "全力猛攻"
+    translated: "All-out assault"
+    qcReviewedText: "All-out assault"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S157_1,全力猛攻：绝招变为[烈阳锤]，无气力限制，根据发动时的气总量造成伤害。"
+  splits:
+  - split: 1
+    text: "全力猛攻"
+    translated: "All-out assault"
+    qcReviewedText: "All-out assault：Ultimate becomes[Blazing Sun Hammer], Deals damage based on the total amount of qi at the time of activation, with no limit on power."
+    qcTranslated: "All-out assault: Ultimate becomes [Blazing Sun Hammer], with no limit on power, dealing damage based on the total amount of qi at the time of activation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "绝招变为"
+    translated: "Ultimate becomes"
+  - split: 1
+    subIndex: 2
+    text: "烈阳锤"
+    translated: "Blazing Sun Hammer"
+  - split: 1
+    subIndex: 3
+    text: "，无气力限制，根据发动时的气总量造成伤害。"
+    translated: ", Deals damage based on the total amount of qi at the time of activation, with no limit on power."
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/S158,风刀"
+  splits:
+  - split: 1
+    text: "风刀"
+    translated: "Wind Blade"
+    qcReviewedText: "Wind Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S158,风刀：道法将军丹霞子的爱用兵器之一。"
+  splits:
+  - split: 1
+    text: "风刀"
+    translated: "Wind Blade"
+    qcReviewedText: "Wind Blade：One of Dao Method General Danxiazi's favorite weapons."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "道法将军丹霞子的爱用兵器之一。"
+    translated: "One of Dao Method General Danxiazi's favorite weapons."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S159_1,祝融神匕"
+  splits:
+  - split: 1
+    text: "祝融神匕"
+    translated: "Zhuoyong Divine Dagger"
+    qcReviewedText: "Zhuoyong Divine Dagger"
+    qcTranslated: "Zhurong Divine Dagger"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "CombatSkill/Desc/S159_1,祝融神匕：火护法颜疆的爱用兵器。"
+  splits:
+  - split: 1
+    text: "祝融神匕"
+    translated: "Zhuoyong Divine Dagger"
+    qcReviewedText: "Zhuoyong Divine Dagger：Yan Jiang's preferred weapon as the Fire Guardian."
+    qcTranslated: "Zhurong Divine Dagger: Yan Jiang's preferred weapon as the Fire Guardian."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "火护法颜疆的爱用兵器。"
+    translated: "Yan Jiang's preferred weapon as the Fire Guardian."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S159_2,匕首"
+  splits:
+  - split: 1
+    text: "匕首"
+    translated: "Dagger"
+    qcReviewedText: "Dagger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S159_2,匕首：飞天弟子爱用兵器。"
+  splits:
+  - split: 1
+    text: "匕首"
+    translated: "Dagger"
+    qcReviewedText: "Dagger：Flying Heaven disciples prefer to use weapons"
+    qcTranslated: "Dagger: A weapon favored by Flying Heaven disciples."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "飞天弟子爱用兵器。"
+    translated: "Flying Heaven disciples prefer to use weapons"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C938_1,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C938_1,郁竹《正拳殴打》：低机率造成大伤害，当敌方采取[备揍]行动，给予重击使其无效，并追加[震撼]。"
+  splits:
+  - split: 1
+    text: "郁竹《正拳殴打》"
+    translated: "Yu Zhu 'Straight Punch'"
+    qcReviewedText: "Yu Zhu 'Straight Punch'：Deal high damage with low probability when enemies take action.[Guard]Act, deliver a heavy blow to disable them, and follow up.[Shock]。"
+    qcTranslated: "Yu Zhu 'Straight Punch': Low chance to deal heavy damage. When the enemy takes the [Guard] action, deliver a heavy blow to nullify it and apply [Shock]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "低机率造成大伤害，当敌方采取"
+    translated: "Deal high damage with low probability when enemies take action."
+  - split: 1
+    subIndex: 2
+    text: "备揍"
+    translated: "Guard"
+  - split: 1
+    subIndex: 3
+    text: "行动，给予重击使其无效，并追加"
+    translated: "Act, deliver a heavy blow to disable them, and follow up."
+  - split: 1
+    subIndex: 4
+    text: "震撼"
+    translated: "Shock"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/C938_2,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C938_2,郁竹《大铁锤》：低机率造成超极大伤害，当敌方采取[备揍]行动，给予重击使其无效，并追加[震撼]。"
+  splits:
+  - split: 1
+    text: "郁竹《大铁锤》"
+    translated: "Yu Zhu 'Great Iron Hammer'"
+    qcReviewedText: "Yu Zhu 'Great Iron Hammer'：Low chance to deal super massive damage when enemy acts.[Guard]Act, deliver a heavy blow to disable them, and follow up.[Shock]。"
+    qcTranslated: "Yu Zhu 'Great Iron Hammer': Low chance to deal super massive damage. When the enemy takes the [Guard] action, deliver a heavy blow to nullify it and follow up with [Shock]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "低机率造成超极大伤害，当敌方采取"
+    translated: "Low chance to deal super massive damage when enemy acts."
+  - split: 1
+    subIndex: 2
+    text: "备揍"
+    translated: "Guard"
+  - split: 1
+    subIndex: 3
+    text: "行动，给予重击使其无效，并追加"
+    translated: "Act, deliver a heavy blow to disable them, and follow up."
+  - split: 1
+    subIndex: 4
+    text: "震撼"
+    translated: "Shock"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/C567,火闪电"
+  splits:
+  - split: 1
+    text: "火闪电"
+    translated: "Fire Lightning"
+    qcReviewedText: "Fire Lightning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C567,火闪电《仙鹤迷踪翅》：受过训练的鹤，会毫不留情用羽毛扫你眼睛。\\n火闪电在场时，与小梅共舞，回避提升20%，并有机率造成小幅伤害与盲目异常。"
+  splits:
+  - split: 1
+    text: "火闪电《仙鹤迷踪翅》"
+    translated: "Fire Lightning 'The Crane's Enigmatic Wings'"
+    qcReviewedText: "Fire Lightning 'The Crane's Enigmatic Wings'：A trained crane won't hesitate to use their feathers to sweep across your eyes.\\nWhen Fire Lightning is present, dancing with Xiao Mei increases evasion by 20% and has a chance to inflict minor damage and blindness."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "受过训练的鹤，会毫不留情用羽毛扫你眼睛。"
+    translated: "A trained crane won't hesitate to use their feathers to sweep across your eyes."
+  - split: 1
+    subIndex: 2
+    text: "火闪电在场时，与小梅共舞，回避提升20%，并有机率造成小幅伤害与盲目异常。"
+    translated: "When Fire Lightning is present, dancing with Xiao Mei increases evasion by 20% and has a chance to inflict minor damage and blindness."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
+- raw: "CombatSkill/Name/S160,不折的信念"
+  splits:
+  - split: 1
+    text: "不折的信念"
+    translated: "Unyielding Belief"
+    qcReviewedText: "Unyielding Belief"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S160,不折的信念：无视嘴攻减益效果，备揍时，每回合大量回复气。"
+  splits:
+  - split: 1
+    text: "不折的信念"
+    translated: "Unyielding Belief"
+    qcReviewedText: "Unyielding Belief：Ignore the penalty for verbal attacks; when preparing to fight back, restore a large amount of chi every turn."
+    qcTranslated: "Unyielding Belief: Ignore the debuff effect of verbal attacks; when preparing to take a hit, restore a large amount of chi every turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "无视嘴攻减益效果，备揍时，每回合大量回复气。"
+    translated: "Ignore the penalty for verbal attacks; when preparing to fight back, restore a large amount of chi every turn."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S161,凝雪剑"
+  splits:
+  - split: 1
+    text: "凝雪剑"
+    translated: "Glaciate Sword"
+    qcReviewedText: "Glaciate Sword"
+    qcTranslated: "Snow-Gathering Sword"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "CombatSkill/Desc/S161,凝雪剑：境界三时，绝招变为[凝雪出鞘]并自动触发，无视减伤造成超大量伤害。"
+  splits:
+  - split: 1
+    text: "凝雪剑"
+    translated: "Glaciate Sword"
+    qcReviewedText: "Glaciate Sword：At the Third Stage of the Realm, the Ultimate move transforms into...[Ningxue unsheathes]And automatically triggers, ignoring damage reduction to deal massive damage."
+    qcTranslated: "Glaciate Sword: At the Third Stage of the Realm, the Ultimate move transforms into [Ningxue Unsheathes] and automatically triggers, ignoring damage reduction to deal massive damage."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "境界三时，绝招变为"
+    translated: "At the Third Stage of the Realm, the Ultimate move transforms into..."
+  - split: 1
+    subIndex: 2
+    text: "凝雪出鞘"
+    translated: "Ningxue unsheathes"
+  - split: 1
+    subIndex: 3
+    text: "并自动触发，无视减伤造成超大量伤害。"
+    translated: "And automatically triggers, ignoring damage reduction to deal massive damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C568,丁承烈"
+  splits:
+  - split: 1
+    text: "丁承烈"
+    translated: "Ding Chenglie"
+    qcReviewedText: "Ding Chenglie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C568,丁承烈《小霸王枪》：无视敌我，每回合随机发动的大范围横扫，命中时造成大幅伤害，并有机率追加[失衡]或[震撼]。"
+  splits:
+  - split: 1
+    text: "丁承烈《小霸王枪》"
+    translated: "Ding Chenglie, Little Tyrant Spear"
+    qcReviewedText: "Ding Chenglie, Little Tyrant Spear：Ignores allies and enemies, randomly activates each turn to sweep a wide area; hits deal significant damage and have a chance to add an additional effect.[Imbalance]Or[Shock]。"
+    qcTranslated: "Ding Chenglie, Little Tyrant Spear: Ignores allies and enemies, randomly activates each turn to sweep a wide area; hits deal significant damage and have a chance to add an additional effect. [Imbalance] or [Shock]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "无视敌我，每回合随机发动的大范围横扫，命中时造成大幅伤害，并有机率追加"
+    translated: "Ignores allies and enemies, randomly activates each turn to sweep a wide area; hits deal significant damage and have a chance to add an additional effect."
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
+  - split: 1
+    subIndex: 3
+    text: "或"
+    translated: "Or"
+  - split: 1
+    subIndex: 4
+    text: "震撼"
+    translated: "Shock"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}[{4}]。"
+- raw: "CombatSkill/Name/C939_1,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+    translated: "Yu Lin"
+    qcReviewedText: "Yu Lin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C939_1,余麟《夺魄护法》：暗器指令换为「奇袭」，自身生命低于70%退场。"
+  splits:
+  - split: 1
+    text: "余麟《夺魄护法》"
+    translated: "Yu Lin, Soul Stealer Guardian"
+    qcReviewedText: "Yu Lin, Soul Stealer Guardian：Change the Hidden Weapon command to Ambush; leave the stage if your Health is below 70%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "暗器指令换为「奇袭」，自身生命低于70%退场。"
+    translated: "Change the Hidden Weapon command to Ambush; leave the stage if your Health is below 70%."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C939_2,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+    translated: "Yu Lin"
+    qcReviewedText: "Yu Lin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C939_2,余麟《濒死》：无法使用暗器、绝招指令。"
+  splits:
+  - split: 1
+    text: "余麟《濒死》"
+    translated: "Yu Lin 'On the Verge of Death'"
+    qcReviewedText: "Yu Lin 'On the Verge of Death'：Cannot use hidden weapons or ultimate moves"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "无法使用暗器、绝招指令。"
+    translated: "Cannot use hidden weapons or ultimate moves"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C940_1,童大虫"
+  splits:
+  - split: 1
+    text: "童大虫"
+    translated: "Tong Dachong"
+    qcReviewedText: "Tong Dachong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C940_1,童大虫《铁拳护法》：备揍指令换为「防御」，自身生命低于50%退场。"
+  splits:
+  - split: 1
+    text: "童大虫《铁拳护法》"
+    translated: "Tong Dachong, Iron Fist Guardian"
+    qcReviewedText: "Tong Dachong, Iron Fist Guardian：Change the Prepare to Fight command to Defense, and leave the stage if your Health is below 50%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "备揍指令换为「防御」，自身生命低于50%退场。"
+    translated: "Change the Prepare to Fight command to Defense, and leave the stage if your Health is below 50%."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C940_2,童大虫"
+  splits:
+  - split: 1
+    text: "童大虫"
+    translated: "Tong Dachong"
+    qcReviewedText: "Tong Dachong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C940_2,童大虫《濒死》：无法使用备揍、绝招指令。"
+  splits:
+  - split: 1
+    text: "童大虫《濒死》"
+    translated: "Tong Dachong 'On the Verge of Death'"
+    qcReviewedText: "Tong Dachong 'On the Verge of Death'：Unable to use Backup Punch, Ultimate move command."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "无法使用备揍、绝招指令。"
+    translated: "Unable to use Backup Punch, Ultimate move command."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C941_1,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+    translated: "Yan Jiang"
+    qcReviewedText: "Yan Jiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C941_1,颜疆《飞天护法》：嘴攻指令换为「吹法螺」，自身生命低于30%退场。"
+  splits:
+  - split: 1
+    text: "颜疆《飞天护法》"
+    translated: "Yan Jiang 'Flying Heaven Guardian'"
+    qcReviewedText: "Yan Jiang 'Flying Heaven Guardian'：Change the mouth attack command to blow a conch shell; leave the stage if their Health is below 30%."
+    qcTranslated: "Yan Jiang 'Flying Heaven Guardian': Change the mouth attack command to blow a conch shell; leave the stage if his Health is below 30%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "嘴攻指令换为「吹法螺」，自身生命低于30%退场。"
+    translated: "Change the mouth attack command to blow a conch shell; leave the stage if their Health is below 30%."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C941_2,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+    translated: "Yan Jiang"
+    qcReviewedText: "Yan Jiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C941_2,颜疆《濒死》：无法使用嘴攻、绝招指令。"
+  splits:
+  - split: 1
+    text: "颜疆《濒死》"
+    translated: "Yan Jiang 'On the Verge of Death'"
+    qcReviewedText: "Yan Jiang 'On the Verge of Death'：Unable to use mouth techniques; execute ultimate move."
+    qcTranslated: "Yan Jiang 'On the Verge of Death': Unable to use mouth techniques or execute Ultimate moves."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "无法使用嘴攻、绝招指令。"
+    translated: "Unable to use mouth techniques; execute ultimate move."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C942_1,黄佩华"
+  splits:
+  - split: 1
+    text: "黄佩华"
+    translated: "Huang Peihua"
+    qcReviewedText: "Huang Peihua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C942_1,黄佩华《玄功护法》：嘴攻指令换为「聚气」：大量回复气。自身生命低于30%退场。"
+  splits:
+  - split: 1
+    text: "黄佩华《玄功护法》"
+    translated: "Huang Peihua's Mystic Skill Guardian Arts"
+    qcReviewedText: "Huang Peihua's Mystic Skill Guardian Arts：Change the mouth attack command to gather energy：Generate a large amount of replying energy. Exit the stage if their Health falls below 30%."
+    qcTranslated: "Huang Peihua's Mystic Skill Guardian Arts: Change the mouth attack command to Gather Energy: Restore a large amount of Qi. Exit the stage if her Health falls below 30%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "嘴攻指令换为「聚气」"
+    translated: "Change the mouth attack command to gather energy"
+  - split: 1
+    subIndex: 2
+    text: "大量回复气。自身生命低于30%退场。"
+    translated: "Generate a large amount of replying energy. Exit the stage if their Health falls below 30%."
+  templates:
+  - split: 1
+    template: "{0}：{1}：{2}"
+- raw: "CombatSkill/Name/C942_2,黄佩华"
+  splits:
+  - split: 1
+    text: "黄佩华"
+    translated: "Huang Peihua"
+    qcReviewedText: "Huang Peihua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C942_2,黄佩华《濒死》：无法使用嘴攻、绝招指令。"
+  splits:
+  - split: 1
+    text: "黄佩华《濒死》"
+    translated: "Huang Peihua's On the Brink of Death"
+    qcReviewedText: "Huang Peihua's On the Brink of Death：Unable to use mouth techniques; execute ultimate move."
+    qcTranslated: "Huang Peihua's On the Brink of Death: Unable to use mouth techniques or execute Ultimate moves."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "无法使用嘴攻、绝招指令。"
+    translated: "Unable to use mouth techniques; execute ultimate move."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S162,掌派大号令"
+  splits:
+  - split: 1
+    text: "掌派大号令"
+    translated: "Declare the grand order of the sect"
+    qcReviewedText: "Declare the grand order of the sect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S162,掌派大号令：自身属性提高，境界一绝招变为「崆峒神威」。"
+  splits:
+  - split: 1
+    text: "掌派大号令"
+    translated: "Declare the grand command of the sect"
+    qcReviewedText: "Declare the grand command of the sect：Increased attributes; the Ultimate move at the first stage becomes Kongtong Divine Might."
+    qcTranslated: "Sect Grand Command: Increased attributes; the Ultimate move at the first stage becomes Kongtong Divine Might."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "自身属性提高，境界一绝招变为「崆峒神威」。"
+    translated: "Increased attributes; the Ultimate move at the first stage becomes Kongtong Divine Might."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S163,公平对决"
+  splits:
+  - split: 1
+    text: "公平对决"
+    translated: "Fair Duel"
+    qcReviewedText: "Fair Duel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S163,公平对决：所有攻击转化为对护法的伤害，削弱对方生命后使其退场。"
+  splits:
+  - split: 1
+    text: "公平对决"
+    translated: "Fair Duel"
+    qcReviewedText: "Fair Duel：Convert all attacks into damage against the Guardian, weakening their Health and forcing them to withdraw."
+    qcTranslated: "Fair Duel: Convert all attacks into damage against the Guardian, weakening their Health and forcing them to withdraw."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "所有攻击转化为对护法的伤害，削弱对方生命后使其退场。"
+    translated: "Convert all attacks into damage against the Guardian, weakening their Health and forcing them to withdraw."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S164_1,达摩院首座"
+  splits:
+  - split: 1
+    text: "达摩院首座"
+    translated: "Abbott of the Damo Academy"
+    qcReviewedText: "Abbott of the Damo Academy"
+    qcTranslated: "First Seat of the Damo Academy"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "CombatSkill/Desc/S164_1,达摩院首座：天下武功出嵩山，达摩院首座博览天下武功，格档+100。"
+  splits:
+  - split: 1
+    text: "达摩院首座"
+    translated: "Abbott of the Damo Academy"
+    qcReviewedText: "Abbott of the Damo Academy：All martial arts originate from Songshan, and the head of the Dharma Institute has studied martial arts from all over the world, blocking and intercepting.+100。"
+    qcTranslated: "Abbott of the Damo Academy: All martial arts originate from Songshan, and the head of the Dharma Institute has studied martial arts from all over the world, blocking and intercepting +100."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "天下武功出嵩山，达摩院首座博览天下武功，格档"
+    translated: "All martial arts originate from Songshan, and the head of the Dharma Institute has studied martial arts from all over the world, blocking and intercepting."
+  templates:
+  - split: 1
+    template: "{0}：{1}+100。"
+- raw: "CombatSkill/Name/G2116,千手势"
+  splits:
+  - split: 1
+    text: "千手势"
+    translated: "Thousand Hand Sign"
+    qcReviewedText: "Thousand Hand Sign"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/G2116,千手势：备揍格档成功时，发动反击，造成小幅伤害并累积大量麻痹。"
+  splits:
+  - split: 1
+    text: "千手势"
+    translated: "Thousand Hand Sign"
+    qcReviewedText: "Thousand Hand Sign：When the Guard Stance is successfully activated, counterattack to deal minor damage and accumulate a large amount of paralysis."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "备揍格档成功时，发动反击，造成小幅伤害并累积大量麻痹。"
+    translated: "When the Guard Stance is successfully activated, counterattack to deal minor damage and accumulate a large amount of paralysis."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S3118,不动禅"
+  splits:
+  - split: 1
+    text: "不动禅"
+    translated: "Seated Meditation"
+    qcReviewedText: "Seated Meditation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S3118,不动禅：修养高的情况下，可以明心见性。[愤怒]、[胆怯]二种异常持续时间仅1回合，且恢复后气大幅上升。"
+  splits:
+  - split: 1
+    text: "不动禅"
+    translated: "Seated Meditation"
+    qcReviewedText: "Seated Meditation：With high cultivation, one can see their true nature.[Anger]、[Timidity]These two anomalies last for only 1 turns, and upon recovery, their Qi significantly increases."
+    qcTranslated: "Seated Meditation: With high Cultivation, one can see their true nature. [Anger] and [Timidity] last for only 1 turns, and upon recovery, Qi significantly increases."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "修养高的情况下，可以明心见性。"
+    translated: "With high cultivation, one can see their true nature."
+  - split: 1
+    subIndex: 2
+    text: "愤怒"
+    translated: "Anger"
+  - split: 1
+    subIndex: 3
+    text: "胆怯"
+    translated: "Timidity"
+    qcReviewedText: "Timidity"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 4
+    text: "二种异常持续时间仅1回合，且恢复后气大幅上升。"
+    translated: "These two anomalies last for only 1 turns, and upon recovery, their Qi significantly increases."
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]{4}"
+- raw: "CombatSkill/Name/C943,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+    translated: "Yu Lin"
+    qcReviewedText: "Yu Lin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C943,余麟《水护法》：扰乱敌人视线并施以偷袭，让敌人格档、回避率下降，并有机率造成小幅伤害。"
+  splits:
+  - split: 1
+    text: "余麟《水护法》"
+    translated: "Yu Lin's Water Guardian"
+    qcReviewedText: "Yu Lin's Water Guardian：Distract the enemy's vision and launch a surprise attack, making them block and dodge less effectively, with a chance to deal minor damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "扰乱敌人视线并施以偷袭，让敌人格档、回避率下降，并有机率造成小幅伤害。"
+    translated: "Distract the enemy's vision and launch a surprise attack, making them block and dodge less effectively, with a chance to deal minor damage."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C944,黄佩华"
+  splits:
+  - split: 1
+    text: "黄佩华"
+    translated: "Huang Peihua"
+    qcReviewedText: "Huang Peihua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C944,黄佩华《风护法》：黄佩华在场时，每回合降低敌方气力，并消除我方[失衡]异常状态。"
+  splits:
+  - split: 1
+    text: "黄佩华《风护法》"
+    translated: "Huang Peihua, Wind Guardian"
+    qcReviewedText: "Huang Peihua, Wind Guardian：When Huang Peihua is on the field, she reduces the enemy's chi each turn and eliminates it from her own side.[Imbalance]Abnormal status"
+    qcTranslated: "Huang Peihua, Wind Guardian: When Huang Peihua is on the field, she reduces the enemy's chi each turn and eliminates the [Imbalance] abnormal status from her own side."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "黄佩华在场时，每回合降低敌方气力，并消除我方"
+    translated: "When Huang Peihua is on the field, she reduces the enemy's chi each turn and eliminates it from her own side."
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
+  - split: 1
+    subIndex: 3
+    text: "异常状态。"
+    translated: "Abnormal status"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C569,南宫族老"
+  splits:
+  - split: 1
+    text: "南宫族老"
+    translated: "Nangong Clan Elder"
+    qcReviewedText: "Nangong Clan Elder"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C569,南宫族老《铁鞭镇八方》：挥舞铁鞭，保护我方，格档率大幅上升。"
+  splits:
+  - split: 1
+    text: "南宫族老《铁鞭镇八方》"
+    translated: "Lord Nangong's Iron Whip Rules the Eight Directions"
+    qcReviewedText: "Lord Nangong's Iron Whip Rules the Eight Directions：While wielding the iron whip to protect us, significantly increase our evasion rate. While improving, we significantly increased our evasion rate. Given the context of a protective action, evasion rate is used here to maintain the sense of defense and protection.)"
+    qcTranslated: "Lord Nangong's Iron Whip Suppresses the Eight Directions: While wielding the iron whip to protect our side, our block rate increases significantly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - DroppedContent
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "挥舞铁鞭，保护我方，格档率大幅上升。"
+    translated: "While wielding the iron whip to protect us, significantly increase our evasion rate. While improving, we significantly increased our evasion rate. Given the context of a protective action, evasion rate is used here to maintain the sense of defense and protection.)"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C570,江澜"
+  splits:
+  - split: 1
+    text: "江澜"
+    translated: "Jiang Lan"
+    qcReviewedText: "Jiang Lan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C570,江澜《逐浪诀》：每回合造成中幅伤害，根据当前连击数，攻击有额外机率造成[失衡]异常。"
+  splits:
+  - split: 1
+    text: "江澜《逐浪诀》"
+    translated: "Jiang Lan 'Wave Chasing Formula'"
+    qcReviewedText: "Jiang Lan 'Wave Chasing Formula'：Deals moderate damage per turn; attack has an increased chance to deal additional damage based on the current combo count.[Imbalance]Anomaly"
+    qcTranslated: "Jiang Lan 'Wave Chasing Formula': Deals moderate damage per turn; based on the current combo count, attacks have an additional chance to inflict [Imbalance] anomaly."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "每回合造成中幅伤害，根据当前连击数，攻击有额外机率造成"
+    translated: "Deals moderate damage per turn; attack has an increased chance to deal additional damage based on the current combo count."
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
+  - split: 1
+    subIndex: 3
+    text: "异常。"
+    translated: "Anomaly"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}"
+- raw: "CombatSkill/Name/C945_1,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C945_1,郁竹《献身》：为你抵挡10次伤害，每回合排除敌方2名支持，并有低机率直接击杀敌人，并对已死敌人造成震撼，致其魂飞魄散。"
+  splits:
+  - split: 1
+    text: "郁竹《献身》"
+    translated: "Yu Zhu 'Devotion'"
+    qcReviewedText: "Yu Zhu 'Devotion'：Blocks 10 instances of damage for you, removes support from 2 enemy units each turn, has a low chance to instantly kill enemies, and inflicts Shock on slain enemies, causing their souls to shatter."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "为你抵挡10次伤害，每回合排除敌方2名支持，并有低机率直接击杀敌人，并对已死敌人造成震撼，致其魂飞魄散。"
+    translated: "Blocks 10 instances of damage for you, removes support from 2 enemy units each turn, has a low chance to instantly kill enemies, and inflicts Shock on slain enemies, causing their souls to shatter."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C945_2,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C945_2,郁竹《生撕》：收起铁锤和慈悲心，在护法的帮助下，抓到敌人就举起来生撕，每回合排除一名敌方支持，并对敌人的气造成中幅损伤。"
+  splits:
+  - split: 1
+    text: "郁竹《生撕》"
+    translated: "Yu Zhu 'Tear Apart Alive'"
+    qcReviewedText: "Yu Zhu 'Tear Apart Alive'：Put away the hammer and the merciful heart; with the Guardian's assistance, capture an enemy and raise them up to tear apart alive. Eliminate one enemy supporter each turn and deal moderate damage to the enemy's qi."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "收起铁锤和慈悲心，在护法的帮助下，抓到敌人就举起来生撕，每回合排除一名敌方支持，并对敌人的气造成中幅损伤。"
+    translated: "Put away the hammer and the merciful heart; with the Guardian's assistance, capture an enemy and raise them up to tear apart alive. Eliminate one enemy supporter each turn and deal moderate damage to the enemy's qi."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S165,金背龙王刀"
+  splits:
+  - split: 1
+    text: "金背龙王刀"
+    translated: "Golden-Backed Dragon King Blade"
+    qcReviewedText: "Golden-Backed Dragon King Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S165,金背龙王刀：对方持有[失衡]时，捅人及绝招的伤害+300%。"
+  splits:
+  - split: 1
+    text: "金背龙王刀"
+    translated: "Golden-Backed Dragon King Blade"
+    qcReviewedText: "Golden-Backed Dragon King Blade：Opponent holds[Imbalance]At that time, the damage from stabbing and their ultimate move+300%。"
+    qcTranslated: "Golden-Backed Dragon King Blade: When the opponent has [Imbalance], damage from thrusts and Ultimate moves is increased by +300%."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "对方持有"
+    translated: "Opponent holds"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
+  - split: 1
+    subIndex: 3
+    text: "时，捅人及绝招的伤害"
+    translated: "At that time, the damage from stabbing and their ultimate move"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]{3}+300%。"
+- raw: "CombatSkill/Name/S166,应命而生"
+  splits:
+  - split: 1
+    text: "应命而生"
+    translated: "Born by destiny"
+    qcReviewedText: "Born by destiny"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S166,应命而生：根据命运大幅增加威力。"
+  splits:
+  - split: 1
+    text: "应命而生"
+    translated: "Born by destiny"
+    qcReviewedText: "Born by destiny：Boost power significantly according to fate"
+    qcTranslated: "Born by Destiny: Boost power significantly according to fate"
+    qcStatus: Corrected
+    qcQualityScore: 90
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "根据命运大幅增加威力。"
+    translated: "Boost power significantly according to fate"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S167,生活双侠"
+  splits:
+  - split: 1
+    text: "生活双侠"
+    translated: "Life Dual Heroes"
+    qcReviewedText: "Life Dual Heroes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S167,生活双侠：以剑争鸣，以拳交心。每回合气上升，每回合消除[胆怯]、[愤怒]异常。"
+  splits:
+  - split: 1
+    text: "生活双侠"
+    translated: "Life Dual Heroes"
+    qcReviewedText: "Life Dual Heroes：Strive with swords, connect through punches. With each turn, chi rises; with each turn, it clears.[Timidity]、[Anger]Anomaly"
+    qcTranslated: "Life Dual Heroes: Strive with swords, connect through punches. With each turn, chi rises; with each turn, it clears [Timidity] and [Anger] anomalies."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "以剑争鸣，以拳交心。每回合气上升，每回合消除"
+    translated: "Strive with swords, connect through punches. With each turn, chi rises; with each turn, it clears."
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+    translated: "Timidity"
+  - split: 1
+    subIndex: 3
+    text: "愤怒"
+    translated: "Anger"
+    qcReviewedText: "Anger"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 4
+    text: "异常。"
+    translated: "Anomaly"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]{4}"
+- raw: "CombatSkill/Name/C946,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C946,郁竹《献身》：抵挡4次伤害。因为敌人肩甲笨重，使小竹命中率大幅上升，每回合有高机率造成超绝强力的超绝爆击伤害，并附加震撼。"
+  splits:
+  - split: 1
+    text: "郁竹《献身》"
+    translated: "Yu Zhu 'Devotion'"
+    qcReviewedText: "Yu Zhu 'Devotion'：Dodge 4 hits of damage. Due to the enemy's cumbersome shoulder armor, Xiaozhu's Accuracy greatly increases, allowing her to deal devastating critical hits with high probability each turn, accompanied by a stunning effect."
+    qcTranslated: "Yu Zhu 'Devotion': Block 4 hits of damage. Due to the enemy's cumbersome Shoulder Armor, Xiaozhu's Accuracy greatly increases, allowing her to deal devastating critical hits with high probability each turn, accompanied by a stunning effect."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 1
+    subIndex: 1
+    text: "抵挡4次伤害。因为敌人肩甲笨重，使小竹命中率大幅上升，每回合有高机率造成超绝强力的超绝爆击伤害，并附加震撼。"
+    translated: "Dodge 4 hits of damage. Due to the enemy's cumbersome shoulder armor, Xiaozhu's Accuracy greatly increases, allowing her to deal devastating critical hits with high probability each turn, accompanied by a stunning effect."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/S6012_1,点穴Lv1"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv1"
+- raw: "CombatSkill/Desc/S6012_1,点穴Lv1：攻击命中时，造成10点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv1：On a hit, inflict 10 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv1: On a hit, inflict 10 points of paralysis buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成10点麻痹累积。"
+    translated: "On a hit, inflict 10 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv1：{1}"
+- raw: "CombatSkill/Name/S6012_2,点穴Lv2"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv2"
+- raw: "CombatSkill/Desc/S6012_2,点穴Lv2：攻击命中时，造成15点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv2：On hit, causes 15 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv2: On hit, deals 15 points of paralysis buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成15点麻痹累积。"
+    translated: "On hit, causes 15 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv2：{1}"
+- raw: "CombatSkill/Name/S6012_3,点穴Lv3"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv3"
+- raw: "CombatSkill/Desc/S6012_3,点穴Lv3：攻击命中时，造成20点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv3：When the attack hits, cause 20 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv3: When the attack hits, cause 20 points of paralysis buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成20点麻痹累积。"
+    translated: "When the attack hits, cause 20 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv3：{1}"
+- raw: "CombatSkill/Name/S6012_4,点穴Lv4"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv4"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv4"
+- raw: "CombatSkill/Desc/S6012_4,点穴Lv4：攻击命中时，造成25点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv4：On a hit, inflict 25 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv4: On a hit, inflict 25 points of paralysis buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成25点麻痹累积。"
+    translated: "On a hit, inflict 25 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv4：{1}"
+- raw: "CombatSkill/Name/S6012_5,点穴Lv5"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv5"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv5"
+- raw: "CombatSkill/Desc/S6012_5,点穴Lv5：攻击命中时，造成30点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv5：On a hit, causes 30 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv5: On a hit, causes 30 points of paralysis accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成30点麻痹累积。"
+    translated: "On a hit, causes 30 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv5：{1}"
+- raw: "CombatSkill/Name/S6012_6,点穴Lv6"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv6"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv6"
+- raw: "CombatSkill/Desc/S6012_6,点穴Lv6：攻击命中时，造成35点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv6：On hit, causes 35 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv6: On hit, deals 35 points of paralysis accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成35点麻痹累积。"
+    translated: "On hit, causes 35 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv6：{1}"
+- raw: "CombatSkill/Name/S6012_7,点穴Lv7"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv7"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv7"
+- raw: "CombatSkill/Desc/S6012_7,点穴Lv7：攻击命中时，造成40点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv7：On a hit, causes 40 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv7: On a hit, deals 40 points of paralysis accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成40点麻痹累积。"
+    translated: "On a hit, causes 40 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv7：{1}"
+- raw: "CombatSkill/Name/S6012_8,点穴Lv8"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv8"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv8"
+- raw: "CombatSkill/Desc/S6012_8,点穴Lv8：攻击命中时，造成45点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv8：On hit, causes 45 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv8: On hit, deals 45 points of paralysis accumulation."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成45点麻痹累积。"
+    translated: "On hit, causes 45 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv8：{1}"
+- raw: "CombatSkill/Name/S6012_9,点穴Lv9"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv9"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}Lv9"
+- raw: "CombatSkill/Desc/S6012_9,点穴Lv9：攻击命中时，造成50点麻痹累积。"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking Lv9：When the attack hits, it causes 50 points of paralysis buildup."
+    qcTranslated: "Acupoint Strike Lv9: When the attack hits, it causes 50 points of paralysis buildup."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成50点麻痹累积。"
+    translated: "When the attack hits, it causes 50 points of paralysis buildup."
+  templates:
+  - split: 1
+    template: "{0}Lv9：{1}"

@@ -351,6 +351,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CombatInfo/getFear,感到恐惧"
+  splits:
+  - split: 1
+    text: "感到恐惧"
+    translated: "To feel fear"
+    qcReviewedText: "To feel fear"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatInfo/collapse,虚脱"
   splits:
   - split: 1
@@ -699,6 +708,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CombatAction/block_007,飞天"
+  splits:
+  - split: 1
+    text: "飞天"
+    translated: "Flying Heaven"
+    qcReviewedText: "Flying Heaven"
+    qcTranslated: "Skydancer"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "CombatAction/curse_001,战神语录"
   splits:
   - split: 1
@@ -969,6 +990,120 @@
     text: "第三极招"
     translated: "Third Extreme Technique"
     qcReviewedText: "Third Extreme Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/ultimate_016,凝雪出窍"
+  splits:
+  - split: 1
+    text: "凝雪出窍"
+    translated: "Ningxue's consciousness leaves her body"
+    qcReviewedText: "Ningxue's consciousness leaves her body"
+    qcTranslated: "Ningxue's Qi leaves her body"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "CombatAction/ultimate_017,飞天脚"
+  splits:
+  - split: 1
+    text: "飞天脚"
+    translated: "Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Kick"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/block_008,好"
+  splits:
+  - split: 1
+    text: "好"
+    translated: "Good"
+    qcReviewedText: "Good"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/curse_006,才不要"
+  splits:
+  - split: 1
+    text: "才不要"
+    translated: "No way!"
+    qcReviewedText: "No way!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/attack_008,反偷袭"
+  splits:
+  - split: 1
+    text: "反偷袭"
+    translated: "Counter Ambush"
+    qcReviewedText: "Counter Ambush"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/curse_007,咆哮"
+  splits:
+  - split: 1
+    text: "咆哮"
+    translated: "Roar loudly"
+    qcReviewedText: "Roar loudly"
+    qcTranslated: "Roar"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "CombatAction/ultimate_018,烈阳锤"
+  splits:
+  - split: 1
+    text: "烈阳锤"
+    translated: "Blazing Sun Hammer"
+    qcReviewedText: "Blazing Sun Hammer"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/curse_008,吹法螺"
+  splits:
+  - split: 1
+    text: "吹法螺"
+    translated: "Telling tall tales"
+    qcReviewedText: "Telling tall tales"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/curse_009,聚气"
+  splits:
+  - split: 1
+    text: "聚气"
+    translated: "Focus Qi"
+    qcReviewedText: "Focus Qi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/weapon_004,奇袭"
+  splits:
+  - split: 1
+    text: "奇袭"
+    translated: "Surprise attack"
+    qcReviewedText: "Surprise attack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/block_009,防御"
+  splits:
+  - split: 1
+    text: "防御"
+    translated: "Defense"
+    qcReviewedText: "Defense"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatAction/ultimate_019,崆峒神威"
+  splits:
+  - split: 1
+    text: "崆峒神威"
+    translated: "Kongtong Divine Might"
+    qcReviewedText: "Kongtong Divine Might"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

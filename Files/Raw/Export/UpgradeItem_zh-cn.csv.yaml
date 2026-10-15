@@ -153,6 +153,20 @@
   templates:
   - split: 1
     template: "{0}+⟦0:N0⟧"
+- raw: "UpgradeItemRelationDesc/BattleDefence_004,闪避等级+{0:N0}"
+  splits:
+  - split: 1
+    text: "闪避等级"
+  templates:
+  - split: 1
+    template: "{0}+⟦0:N0⟧"
+- raw: "UpgradeItemRelationDesc/BattleDefence_005,反伤等级+{0:N0}"
+  splits:
+  - split: 1
+    text: "反伤等级"
+  templates:
+  - split: 1
+    template: "{0}+⟦0:N0⟧"
 - raw: "UpgradeItemRelationDesc/BattleEffect_001,触发{0:N0}种异常状态"
   splits:
   - split: 1

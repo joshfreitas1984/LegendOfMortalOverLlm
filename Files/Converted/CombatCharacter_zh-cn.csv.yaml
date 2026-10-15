@@ -368,6 +368,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CombatCharacter/Name/special214_0,护卫"
+  splits:
+  - split: 1
+    text: "护卫"
+    translated: "Guard"
+    qcReviewedText: "Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/special214_1,丁承烈"
+  splits:
+  - split: 1
+    text: "丁承烈"
+    translated: "Ding Chenglie"
+    qcReviewedText: "Ding Chenglie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatCharacter/Name/special401,王二壮"
   splits:
   - split: 1
@@ -383,6 +401,15 @@
     text: "温夫人"
     translated: "Lady Wen"
     qcReviewedText: "Lady Wen"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/special404,丹霞子"
+  splits:
+  - split: 1
+    text: "丹霞子"
+    translated: "Danxiazi"
+    qcReviewedText: "Danxiazi"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -458,6 +485,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CombatCharacter/Name/special824,荆红"
+  splits:
+  - split: 1
+    text: "荆红"
+    translated: "Jing Hong"
+    qcReviewedText: "Jing Hong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatCharacter/Name/special826,释明"
   splits:
   - split: 1
@@ -509,6 +545,15 @@
     text: "南宮己"
     translated: "Nangong Ji"
     qcReviewedText: "Nangong Ji"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/special844,胡嵩"
+  splits:
+  - split: 1
+    text: "胡嵩"
+    translated: "Hu Song"
+    qcReviewedText: "Hu Song"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -648,6 +693,51 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CombatCharacter/Name/trainee241,铁拳老弟子"
+  splits:
+  - split: 1
+    text: "铁拳老弟子"
+    translated: "Iron Fist senior disciple"
+    qcReviewedText: "Iron Fist senior disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/trainee204,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+    translated: "Yan Jiang"
+    qcReviewedText: "Yan Jiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/trainee214,童大虫"
+  splits:
+  - split: 1
+    text: "童大虫"
+    translated: "Tong Dachong"
+    qcReviewedText: "Tong Dachong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/trainee224,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+    translated: "Yu Lin"
+    qcReviewedText: "Yu Lin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/trainee234,鞠冬音"
+  splits:
+  - split: 1
+    text: "鞠冬音"
+    translated: "Ju Dongyin"
+    qcReviewedText: "Ju Dongyin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatCharacter/Name/trainee_group_211,崆峒战队"
   splits:
   - split: 1
@@ -657,6 +747,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CombatCharacter/Name/trainee_group_212,崆峒弟子众"
+  splits:
+  - split: 1
+    text: "崆峒弟子众"
+    translated: "Kongtong disciples all"
+    qcReviewedText: "Kongtong disciples all"
+    qcTranslated: "Kongtong disciples are all"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "CombatCharacter/Name/trainee491,锦香弟子"
   splits:
   - split: 1
@@ -873,12 +975,39 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatCharacter/Title/brother3,三师兄"
+- raw: "CombatCharacter/Name/firebird1,火闪电"
   splits:
   - split: 1
-    text: "三师兄"
-    translated: "Third Senior Brother"
-    qcReviewedText: "Third Senior Brother"
+    text: "火闪电"
+    translated: "Fire Lightning"
+    qcReviewedText: "Fire Lightning"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/tank1,虎战车"
+  splits:
+  - split: 1
+    text: "虎战车"
+    translated: "Tiger Battle Tank"
+    qcReviewedText: "Tiger Battle Tank"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/assassin1,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatCharacter/Name/oldbeggar1,丐帮长老"
+  splits:
+  - split: 1
+    text: "丐帮长老"
+    translated: "Elder of Beggar Sect"
+    qcReviewedText: "Elder of Beggar Sect"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -457,8 +457,8 @@
   splits:
   - split: 1
     text: "公子，你是点苍派弟子，大理段氏族人吧。几年前乐山论剑，你和那「苍松剑客」叶云舟都有到场，老道印象深刻得很。"
-    translated: "Young Lord, you are a disciple of the Diancang sect and a member of the Dali Duan clan, right? A few years ago, at the Leshan Sword Conference, both you and that Cangsong Swordman Ye Yunzhou were present. Old Daoist has a very clear memory of it."
-    qcReviewedText: "Young Lord, you are a disciple of the Diancang sect and a member of the Dali Duan clan, right? A few years ago, at the Leshan Sword Conference, both you and that Cangsong Swordman Ye Yunzhou were present. Old Daoist has a very clear memory of it."
+    translated: "Young Lord, you are a disciple of the Diancang Sect and a member of the Dali Duan clan, are you not? Several years ago at the Leshan Sword Tournament, both you and that Pine Swordsman Ye Yunzhou were present. This old Daoist remembers it quite vividly."
+    qcReviewedText: "Young Lord, you are a disciple of the Diancang Sect and a member of the Dali Duan clan, are you not? Several years ago at the Leshan Sword Tournament, both you and that Pine Swordsman Ye Yunzhou were present. This old Daoist remembers it quite vividly."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -502,14 +502,11 @@
   splits:
   - split: 1
     text: "段某名声虽远不及「苍松剑客」响亮，但怎么着也不至于太逊，只叹我低估了他的决心，一时不察，被伤了这条用剑的手臂。"
-    translated: "Duan's reputation, though not as far-reaching as that of Cangsong Jianke, is still not too inferior. I only lament that I underestimated his determination; I was not vigilant enough, and thus was injured in his sword-hand arm."
-    qcReviewedText: "Duan's reputation, though not as far-reaching as that of Cangsong Jianke, is still not too inferior. I only lament that I underestimated his determination; I was not vigilant enough, and thus was injured in his sword-hand arm."
-    qcTranslated: "Duan's reputation, though not as far-reaching as that of the Cangsong Swordsman, is still not too inferior. I only lament that I underestimated his determination; I was not vigilant enough, and thus was injured in my sword-hand arm."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Though Duan's reputation is far less renowned than that of the Pine Swordsman, it is by no means insignificant. I only regret underestimating his resolve; in a moment of inattention, I was wounded in the arm I use for swordplay."
+    qcReviewedText: "Though Duan's reputation is far less renowned than that of the Pine Swordsman, it is by no means insignificant. I only regret underestimating his resolve; in a moment of inattention, I was wounded in the arm I use for swordplay."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_3_1_2_1_004,这条手臂伤成这样，便医好，也别想用剑了。"
   splits:
   - split: 1
@@ -1195,8 +1192,8 @@
   splits:
   - split: 1
     text: "唉，这几位大娘子无孔不入，我是当真不知该如何应对。"
-    translated: "Sigh, these ladies are everywhere; I truly don't know how to deal with them."
-    qcReviewedText: "Sigh, these ladies are everywhere; I truly don't know how to deal with them."
+    translated: "Sigh, these Madams are everywhere; I truly don't know how to deal with them."
+    qcReviewedText: "Sigh, these Madams are everywhere; I truly don't know how to deal with them."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3458,8 +3455,8 @@
   splits:
   - split: 1
     text: "大娘子！我真不是坏人啊！冷静点，我又没追你！"
-    translated: "Great Aunt! I'm not a bad person! Calm down, I wasn't chasing you!"
-    qcReviewedText: "Great Aunt! I'm not a bad person! Calm down, I wasn't chasing you!"
+    translated: "Madam! I really am not a bad person! Calm down, I wasn't chasing you!"
+    qcReviewedText: "Madam! I really am not a bad person! Calm down, I wasn't chasing you!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13785,6 +13782,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/D_3_1_5_2_2_1_026,够了，切磋武功，输赢都不稀奇，修养却不能失。停风，你当为师瞎了眼，没看清你那些龌龊的小动作吗？如此心性，枉费我平日教诲，更枉为青城弟子，给我下去！"
+  splits:
+  - split: 1
+    text: "够了，切磋武功，输赢都不稀奇，修养却不能失。停风，你当为师瞎了眼，没看清你那些龌龊的小动作吗？如此心性，枉费我平日教诲，更枉为青城弟子，给我下去！"
+    translated: "Enough. When sparring, winning or losing is normal, but one's cultivation cannot be compromised. Stop, Feng. Do you think I'm blind and didn't see your dirty little tricks? With such a heart, you've wasted my teachings all this time, and you're not worthy of being a disciple of Qingcheng. Get out!"
+    qcReviewedText: "Enough. When sparring, winning or losing is normal, but one's cultivation cannot be compromised. Stop, Feng. Do you think I'm blind and didn't see your dirty little tricks? With such a heart, you've wasted my teachings all this time, and you're not worthy of being a disciple of Qingcheng. Get out!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_3_1_5_2_2_1_013,够了，切磋武功，输赢都不稀奇，修养却不能失。停风，你如此心性，还嫌不够丢人吗？下去！"
   splits:
   - split: 1
@@ -15066,14 +15072,14 @@
   splits:
   - split: 1
     text: "掌门师弟这话问得未免笨了。老道不推派智秀，难道去火炎山剑阁，把来新捉回青城？"
-    translated: "This question from the Junior Disciple to the Sect Leader is rather foolish. If the old Taoist does not send Zhi Xiu out, why not go to Huo Yan Mountain Sword Pavilion and bring back Nei Xin to Qingcheng?"
-    qcReviewedText: "This question from the Junior Disciple to the Sect Leader is rather foolish. If the old Taoist does not send Zhi Xiu out, why not go to Huo Yan Mountain Sword Pavilion and bring back Nei Xin to Qingcheng?"
-    qcTranslated: "This question from the Junior Disciple to the Sect Leader is rather foolish. If the old Taoist does not send Zhi Xiu out, why not go to Huo Yan Mountain Sword Pavilion and capture Lai Xin to bring back to Qingcheng?"
+    translated: "Sect Leader Junior Brother, your question is rather naive. Do you expect me not to send Daoist Priest Zhixiu, but instead go to Flame Mountain Sword Pavilion and bring the newcomers back to Qingcheng?"
+    qcReviewedText: "Sect Leader Junior Brother, your question is rather naive. Do you expect me not to send Daoist Priest Zhixiu, but instead go to Flame Mountain Sword Pavilion and bring the newcomers back to Qingcheng?"
+    qcTranslated: "Sect Leader, Junior Brother, your question is rather naive. Do you expect me not to send Daoist Priest Zhixiu, but instead go to Flame Mountain Sword Pavilion and bring the newcomer back to Qingcheng?"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - MeaningReversal
+    - DroppedContent
 - raw: "Story/D_3_1_6_4_011,师兄，我忍你很久了，注意你说话的语气！掌门真人手握天师令，乃是当代青城至尊，喊你一声师兄是他修养了得，你若得意忘形不要老脸，连长老都不必当了！"
   splits:
   - split: 1
@@ -18622,8 +18628,8 @@
   splits:
   - split: 1
     text: "哦……哦哦……我成功了……我造谣成功了，好爽……！大名鼎鼎的苍松剑客，也被我一张嘴轻言摆布，我还不用负责，这就是言语的力量！"
-    translated: "Oh... Oh oh... I did it... I successfully spread the rumor, and it feels great! The famous Sword Guest of Azure Pine has been manipulated by just my words, and I don't have to take any responsibility. This is the power of speech!"
-    qcReviewedText: "Oh... Oh oh... I did it... I successfully spread the rumor, and it feels great! The famous Sword Guest of Azure Pine has been manipulated by just my words, and I don't have to take any responsibility. This is the power of speech!"
+    translated: "Oh... Oh, oh... I did it... I successfully spread the rumor. How satisfying...! The renowned Pine Swordsman was so easily manipulated by my mere words, and I bear no responsibility for it. This is the power of speech!"
+    qcReviewedText: "Oh... Oh, oh... I did it... I successfully spread the rumor. How satisfying...! The renowned Pine Swordsman was so easily manipulated by my mere words, and I bear no responsibility for it. This is the power of speech!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33338,8 +33344,8 @@
   splits:
   - split: 1
     text: "你，莫非就是苍松剑客叶云舟！"
-    translated: "You must be the Swordman Ye Yunzhou of the Azure Pine!"
-    qcReviewedText: "You must be the Swordman Ye Yunzhou of the Azure Pine!"
+    translated: "You... could you perhaps be Ye Yunzhou, the Pine Swordsman?"
+    qcReviewedText: "You... could you perhaps be Ye Yunzhou, the Pine Swordsman?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -33347,39 +33353,29 @@
   splits:
   - split: 1
     text: "解大侠好眼力！没错……叶某便是点苍第一快剑手，苍松剑客叶云舟！"
-    translated: "Great Hero Jie, you have sharp eyes! That's right...... I am Ye Yunzhou, the fastest Swordman of Diancang, the Cypress Swordmaster!"
-    qcReviewedText: "Great Hero Jie, you have sharp eyes! That's right...... I am Ye Yunzhou, the fastest Swordman of Diancang, the Cypress Swordmaster!"
-    qcTranslated: "Great Hero Jie, you have sharp eyes! That's right...... I am Ye Yunzhou, the fastest Swordman of Diancang, the Pine Swordmaster!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    translated: "Great Hero Jie has a keen eye! Indeed... I am Ye Yunzhou, the fastest swordsman of Diancang, known as the Pine Swordsman!"
+    qcReviewedText: "Great Hero Jie has a keen eye! Indeed... I am Ye Yunzhou, the fastest swordsman of Diancang, known as the Pine Swordsman!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S0208_01_001,鼎鼎大名的苍松剑客，原来是这样一位娇小的矮子。模样……倒是真的俊俏，就是胸前似乎还鼓鼓的，要是没那两撇胡子，我都以为是一位小娘子。"
   splits:
   - split: 1
     text: "鼎鼎大名的苍松剑客，原来是这样一位娇小的矮子。模样……倒是真的俊俏，就是胸前似乎还鼓鼓的，要是没那两撇胡子，我都以为是一位小娘子。"
-    translated: "The famed Cangsong Jianke, turned out to be such a diminutive figure. Appearance... well, truly handsome, but with that slight bulge in front, I would have thought he was a young miss without those two stubble cheeks."
-    qcReviewedText: "The famed Cangsong Jianke, turned out to be such a diminutive figure. Appearance... well, truly handsome, but with that slight bulge in front, I would have thought he was a young miss without those two stubble cheeks."
-    qcTranslated: "The renowned Cangsong Sword Guest turned out to be such a diminutive figure. Appearance... well, truly handsome, but with that slight bulge in front, I would have thought he was a young miss without those two tufts of beard."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - UnnaturalPhrasing
+    translated: "The renowned Pine Swordsman turned out to be such a small, short man. His appearance... was indeed quite handsome, though his chest seemed rather prominent. If it weren't for those two tufts of whiskers, I would have mistaken him for a young lady."
+    qcReviewedText: "The renowned Pine Swordsman turned out to be such a small, short man. His appearance... was indeed quite handsome, though his chest seemed rather prominent. If it weren't for those two tufts of whiskers, I would have mistaken him for a young lady."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0208_01_005,阁下是谁？为何冒充叶少侠？本公子几年之前，与苍松剑客叶云舟曾有一面之缘。他英姿挺拔，可不是阁下这副模样。"
   splits:
   - split: 1
     text: "阁下是谁？为何冒充叶少侠？本公子几年之前，与苍松剑客叶云舟曾有一面之缘。他英姿挺拔，可不是阁下这副模样。"
-    translated: "Who are you, and why are you impersonating Young Hero Ye? A few years ago, this Young Lord had the pleasure of meeting Swordman Ye Yunzhou. He was a striking figure, not at all like your appearance."
-    qcReviewedText: "Who are you, and why are you impersonating Young Hero Ye? A few years ago, this Young Lord had the pleasure of meeting Swordman Ye Yunzhou. He was a striking figure, not at all like your appearance."
-    qcTranslated: "Who are you, and why are you impersonating Young Hero Ye? A few years ago, this Young Lord had the pleasure of meeting the Blue Pine Swordsman, Ye Yunzhou. He was a striking figure, not at all like your appearance."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Who are you? Why do you impersonate Young Hero Ye? This young lord had a brief encounter with the Pine Swordsman, Ye Yunzhou, several years ago. He was tall and heroic in bearing, nothing like your appearance."
+    qcReviewedText: "Who are you? Why do you impersonate Young Hero Ye? This young lord had a brief encounter with the Pine Swordsman, Ye Yunzhou, several years ago. He was tall and heroic in bearing, nothing like your appearance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0208_01_006,我、我说我是叶云舟了吗？混账东西。"
   splits:
   - split: 1
@@ -34841,15 +34837,6 @@
     text: "不想更被嫌弃，我该死心了呀。"
     translated: "I guess I should give up and not risk being rejected further."
     qcReviewedText: "I guess I should give up and not risk being rejected further."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "Story/T_S0208_01_02_012,她没歧视我，肯陪我玩、喊我一声哥哥。便是逢场作戏也十分难得，怎么我却越来越贪心、越来越难舍。我是怎么回事，扮家家玩，还当了真，死皮赖脸缠上了。"
-  splits:
-  - split: 1
-    text: "她没歧视我，肯陪我玩、喊我一声哥哥。便是逢场作戏也十分难得，怎么我却越来越贪心、越来越难舍。我是怎么回事，扮家家玩，还当了真，死皮赖脸缠上了。"
-    translated: "She didn't discriminate against me; she was willing to play with me and call me brother. Even if it was just for show, it was already very rare. Why do I find myself becoming more greedy and finding it harder to let go? What's wrong with me that I became so serious about playing house and couldn't let it go, clinging on with thick skin?"
-    qcReviewedText: "She didn't discriminate against me; she was willing to play with me and call me brother. Even if it was just for show, it was already very rare. Why do I find myself becoming more greedy and finding it harder to let go? What's wrong with me that I became so serious about playing house and couldn't let it go, clinging on with thick skin?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -46438,11 +46425,14 @@
   splits:
   - split: 1
     text: "我招了！是崆峒派，铁拳门的嫡传女弟子，人称裂骨魔的郁竹郁小娘子造的！"
-    translated: "I admit it! It was Yu Zhu, Miss Yu Zhu, the direct female disciple of Kongtong Sect and Iron Fist School known as Magic Bone Lady, who did it!"
-    qcReviewedText: "I admit it! It was Yu Zhu, Miss Yu Zhu, the direct female disciple of Kongtong Sect and Iron Fist School known as Magic Bone Lady, who did it!"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "I confess! It was Yu Zhu, the Young Lady of the Iron Fist Sect, a direct-line female disciple of Kongtong, known as the Bone-Cracking Demon!"
+    qcReviewedText: "I confess! It was Yu Zhu, the Young Lady of the Iron Fist Sect, a direct-line female disciple of Kongtong, known as the Bone-Cracking Demon!"
+    qcTranslated: "I confess! It was Yu Zhu, the Young Lady of the Iron Fist Gate, a direct-line female disciple of Kongtong, known as the Bone-Cracking Demon!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Story/T_S0210_01_02_004,竟是女子造的？铁拳门郁竹，此人不容小觑，我得记住她。"
   splits:
   - split: 1
@@ -55688,8 +55678,8 @@
   splits:
   - split: 1
     text: "到底江湖事还是得江湖毕。得亏我们大师兄不要命，伙同三五好友，与道法将军合谋，以官兵为饵，直捣黄龙，于乱军之中击杀极乐左使，才免去一场中原大患。"
-    translated: "In the end, matters of Jianghu must be settled by those in Jianghu. Thanks to Big Senior Brother, who risked their life, and a few close friends, they collaborated with a Daoist General to lure officials and soldiers into a trap and strike directly at the heart of the enemy. In the midst of the chaos, they killed the Left Commander of Bliss, thus averting a major disaster for the Central Plains."
-    qcReviewedText: "In the end, matters of Jianghu must be settled by those in Jianghu. Thanks to Big Senior Brother, who risked their life, and a few close friends, they collaborated with a Daoist General to lure officials and soldiers into a trap and strike directly at the heart of the enemy. In the midst of the chaos, they killed the Left Commander of Bliss, thus averting a major disaster for the Central Plains."
+    translated: "In the end, matters of Jianghu are best left to those in Jianghu. Thanks to our Big Senior Brother who wasn't afraid to risk their life, along with a few close friends, they collaborated with the Dao Method General to use the soldiers as bait and strike directly at the heart of the enemy. In the midst of the chaos, they killed the Left Commander of Extreme Bliss, thus averting a major disaster for Central Plains."
+    qcReviewedText: "In the end, matters of Jianghu are best left to those in Jianghu. Thanks to our Big Senior Brother who wasn't afraid to risk their life, along with a few close friends, they collaborated with the Dao Method General to use the soldiers as bait and strike directly at the heart of the enemy. In the midst of the chaos, they killed the Left Commander of Extreme Bliss, thus averting a major disaster for Central Plains."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

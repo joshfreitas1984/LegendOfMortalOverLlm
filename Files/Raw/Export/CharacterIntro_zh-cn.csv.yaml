@@ -1000,10 +1000,16 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
-- raw: "CharacterIntro1/special205,少时曾先后拜马钰、刘处玄为师，但都被父母抓回家锁在柴房里，家人见他求道之心迫切，才终于放生。"
+- raw: "CharacterIntro1/special205,少时曾先后拜马钰、刘处玄为师，但都被父母抓回家锁在柴房里，家人见他求道之心迫切，才终于放生。\\n为人诙谐友善，武功高强又博学，却因为长相经常被当作坏人，明明没干什么事但大家都怀疑他是幕后黑手。"
   splits:
   - split: 1
     text: "少时曾先后拜马钰、刘处玄为师，但都被父母抓回家锁在柴房里，家人见他求道之心迫切，才终于放生。"
+  - split: 1
+    subIndex: 1
+    text: "为人诙谐友善，武功高强又博学，却因为长相经常被当作坏人，明明没干什么事但大家都怀疑他是幕后黑手。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
 - raw: "CharacterIntro0/special206,嵩山派的年轻弟子，云游大宋，弘扬佛法，筹措善款以期修缮败破的嵩山寺。"
   splits:
   - split: 1
@@ -1867,3 +1873,50 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
+- raw: "CharacterIntro0/player,唐门最后的外姓弟子，相貌丑陋，资质平庸，穷，没有人爱你。\\n之所以至今犹未死透，只因不甘认命。"
+  splits:
+  - split: 1
+    text: "唐门最后的外姓弟子，相貌丑陋，资质平庸，穷，没有人爱你。"
+  - split: 1
+    subIndex: 1
+    text: "之所以至今犹未死透，只因不甘认命。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CharacterIntro0/girl5_11,飞天嫡传女弟子，今日起就任崆峒探险队的探勘队长。\\n向往与人结伴行走江湖，但受身份所限不能远游，扮个家家过干瘾也好。"
+  splits:
+  - split: 1
+    text: "飞天嫡传女弟子，今日起就任崆峒探险队的探勘队长。"
+  - split: 1
+    subIndex: 1
+    text: "向往与人结伴行走江湖，但受身份所限不能远游，扮个家家过干瘾也好。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CharacterIntro0/special805_0,某个人的手。"
+  splits:
+  - split: 1
+    text: "某个人的手。"
+- raw: "CharacterIntro0/special831,京湖制置使兼知襄阳府赵方之外孙女，荆鄂都统制孟政宗之女。\\n其母有烈节，于枣阳战殁，方与政宗以哀疾求退，帝诏慰留之。政宗又请命推恩及女，帝允之，宣诏敕封，是为枣阳县主。"
+  splits:
+  - split: 1
+    text: "京湖制置使兼知襄阳府赵方之外孙女，荆鄂都统制孟政宗之女。"
+  - split: 1
+    subIndex: 1
+    text: "其母有烈节，于枣阳战殁，方与政宗以哀疾求退，帝诏慰留之。政宗又请命推恩及女，帝允之，宣诏敕封，是为枣阳县主。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CharacterIntro0/special215_1,荆鄂都统制兼知枣阳军孟宗政诸子之一。\\n熟读兵书，年少有成，以军功补授进勇副尉，隶属京湖制置使麾下，与道法将军俱为赵方座下猛将。\\n与孟仙谣是同父不同母的兄妹关系。"
+  splits:
+  - split: 1
+    text: "荆鄂都统制兼知枣阳军孟宗政诸子之一。"
+  - split: 1
+    subIndex: 1
+    text: "熟读兵书，年少有成，以军功补授进勇副尉，隶属京湖制置使麾下，与道法将军俱为赵方座下猛将。"
+  - split: 1
+    subIndex: 2
+    text: "与孟仙谣是同父不同母的兄妹关系。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"

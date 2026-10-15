@@ -1,309 +1,669 @@
-- raw: "储存"
+- raw: "1-5A 反間諜"
   splits:
-  - text: "储存"
-    translated: "Save"
-    qcReviewedText: "Save"
+  - text: "反間諜"
+    translated: "Counter-espionage"
+    qcReviewedText: "1-5A Counter-espionage"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "全屏幕(只适用16:9比例显示器)"
+  templates:
+  - template: "1-5A {0}"
+- raw: "三師兄"
   splits:
-  - text: "全屏幕"
-    translated: "Full screen"
-    qcReviewedText: "Full screen(Only applies to 16:9 ratio display)"
+  - text: "三師兄"
+    translated: "Third Senior Brother"
+    qcReviewedText: "Third Senior Brother"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "中"
+  splits:
+  - text: "中"
+    translated: "Middle"
+    qcReviewedText: "Middle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "使用 001 存檔資料"
+  splits:
+  - text: "使用"
+    translated: "Use"
+    qcReviewedText: "Use 001 Save Data"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - subIndex: 1
-    text: "只适用16"
-    translated: "Only applies to 16"
-  - subIndex: 2
-    text: "9比例显示器"
-    translated: "9 ratio display"
+    text: "存檔資料"
+    translated: "Save Data"
   templates:
-  - template: "{0}({1}:{2})"
-- raw: "养成"
+  - template: "{0} 001 {1}"
+- raw: "切磋 - 三師兄"
   splits:
-  - text: "养成"
-    translated: "Training"
-    qcReviewedText: "Training"
+  - text: "切磋"
+    translated: "Mutual training"
+    qcReviewedText: "Mutual training - Third Senior Brother"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "养成回合自动存档"
-  splits:
-  - text: "养成回合自动存档"
-    translated: "Save game at turn intervals"
-    qcReviewedText: "Save game at turn intervals"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "分辨率"
-  splits:
-  - text: "分辨率"
-    translated: "Resolution"
-    qcReviewedText: "Resolution"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "删除"
-  splits:
-  - text: "删除"
-    translated: "Delete"
-    qcReviewedText: "Delete"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "剧情"
-  splits:
-  - text: "剧情"
-    translated: "Plot"
-    qcReviewedText: "Plot"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "可快转未读文字"
-  splits:
-  - text: "可快转未读文字"
-    translated: "Skip unread text"
-    qcReviewedText: "Skip unread text"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "启程"
-  splits:
-  - text: "启程"
-    translated: "Departure"
-    qcReviewedText: "Departure"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "声音设定"
-  splits:
-  - text: "声音设定"
-    translated: "Sound settings"
-    qcReviewedText: "Sound settings"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "导出"
-  splits:
-  - text: "导出"
-    translated: "Export"
-    qcReviewedText: "Export"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "已读文字变色"
-  splits:
-  - text: "已读文字变色"
-    translated: "Read text changes color"
-    qcReviewedText: "Read text changes color"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "归隐山林"
-  splits:
-  - text: "归隐山林"
-    translated: "Retiring to the mountains"
-    qcReviewedText: "Retiring to the mountains"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "战斗"
-  splits:
-  - text: "战斗"
-    translated: "Battle"
-    qcReviewedText: "Battle"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "手动启动天命轮盘"
-  splits:
-  - text: "手动启动天命轮盘"
-    translated: "Manually activating the Mandate of Heaven Wheel"
-    qcReviewedText: "Manually activating the Mandate of Heaven Wheel"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "手动存档"
-  splits:
-  - text: "手动存档"
-    translated: "Manual save"
-    qcReviewedText: "Manual save"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "数据备份"
-  splits:
-  - text: "数据备份"
-    translated: "Data backup"
-    qcReviewedText: "Data backup"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "数据备份完成"
-  splits:
-  - text: "数据备份完成"
-    translated: "Data backup completed"
-    qcReviewedText: "Data backup completed"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "无记载"
-  splits:
-  - text: "无记载"
-    translated: "Not recorded"
-    qcReviewedText: "Not recorded"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "最近存档"
-  splits:
-  - text: "最近存档"
-    translated: "Recent save file"
-    qcReviewedText: "Recent save file"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "汗青书"
-  splits:
-  - text: "汗青书"
-    translated: "Records of the Bamboo Tablets"
-    qcReviewedText: "Records of the Bamboo Tablets"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "活侠传"
-  splits:
-  - text: "活侠传"
-    translated: "Legend of the Living Hero"
-    qcReviewedText: "Legend of the Living Hero"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "游戏设定"
-  splits:
-  - text: "游戏设定"
-    translated: "Game setting"
-    qcReviewedText: "Game setting"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "游戏语言"
-  splits:
-  - text: "游戏语言"
-    translated: "Game language"
-    qcReviewedText: "Game language"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "环境设定"
-  splits:
-  - text: "环境设定"
-    translated: "Environment settings"
-    qcReviewedText: "Environment settings"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "画面设定"
-  splits:
-  - text: "画面设定"
-    translated: "Scene settings"
-    qcReviewedText: "Scene settings"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "确定"
-  splits:
-  - text: "确定"
-    translated: "Confirm"
-    qcReviewedText: "Confirm"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "确定删除选择的纪录吗？"
-  splits:
-  - text: "确定删除选择的纪录吗？"
-    translated: "Are you sure you want to delete the selected records?"
-    qcReviewedText: "Are you sure you want to delete the selected records?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
-- raw: "确定覆盖目前的纪录吗?"
-  splits:
-  - text: "确定覆盖目前的纪录吗"
-    translated: "Are you sure you want to overwrite the current record"
-    qcReviewedText: "Are you sure you want to overwrite the current record?"
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+  - subIndex: 1
+    text: "三師兄"
+    translated: "Third Senior Brother"
   templates:
-  - template: "{0}?"
-- raw: "自动存档"
+  - template: "{0} - {1}"
+- raw: "劇情特效"
   splits:
-  - text: "自动存档"
-    translated: "Auto-save"
-    qcReviewedText: "Auto-save"
+  - text: "劇情特效"
+    translated: "Story Effects"
+    qcReviewedText: "Story Effects"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "记载活侠传故事"
+- raw: "劇本預覽1"
   splits:
-  - text: "记载活侠传故事"
-    translated: "The Story of the Heroic Wanderer"
-    qcReviewedText: "The Story of the Heroic Wanderer"
+  - text: "劇本預覽1"
+    translated: "Script Preview 1"
+    qcReviewedText: "Script Preview 1"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "讲经堂"
+- raw: "勇者模式"
   splits:
-  - text: "讲经堂"
-    translated: "Scripture Hall"
-    qcReviewedText: "Scripture Hall"
+  - text: "勇者模式"
+    translated: "Brave Mode"
+    qcReviewedText: "Brave Mode"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "设定"
+- raw: "千面人魔"
   splits:
-  - text: "设定"
-    translated: "Setting"
-    qcReviewedText: "Setting"
+  - text: "千面人魔"
+    translated: "Thousand Faced Demon"
+    qcReviewedText: "Thousand Faced Demon"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "读取游戏"
+- raw: "反向跳票"
   splits:
-  - text: "读取游戏"
-    translated: "Read the game instructions"
-    qcReviewedText: "Read the game instructions"
-    qcTranslated: "Load the game"
+  - text: "反向跳票"
+    translated: "Reverse delay release"
+    qcReviewedText: "Reverse delay release"
+    qcTranslated: "Reverse ticket delay"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "反間諜弟子"
+  splits:
+  - text: "反間諜弟子"
+    translated: "Counterintelligence Disciple"
+    qcReviewedText: "Counterintelligence Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "史瑞克"
+  splits:
+  - text: "史瑞克"
+    translated: "Shrek"
+    qcReviewedText: "Shrek"
+    qcTranslated: "Shi Ruike"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "唐大鯨1"
+  splits:
+  - text: "唐大鯨1"
+    translated: "Tang Dajing1"
+    qcReviewedText: "Tang Dajing1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "唐大鯨2"
+  splits:
+  - text: "唐大鯨2"
+    translated: "Tang Dajing2"
+    qcReviewedText: "Tang Dajing2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "壞結局"
+  splits:
+  - text: "壞結局"
+    translated: "Bad ending"
+    qcReviewedText: "Bad ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "大"
+  splits:
+  - text: "大"
+    translated: "Big"
+    qcReviewedText: "Big"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "大俠丙1"
+  splits:
+  - text: "大俠丙1"
+    translated: "Hero Bing 1"
+    qcReviewedText: "Hero Bing 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "大俠丙2"
+  splits:
+  - text: "大俠丙2"
+    translated: "Hero Bing 2"
+    qcReviewedText: "Hero Bing 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "大俠乙"
+  splits:
+  - text: "大俠乙"
+    translated: "Hero Yi"
+    qcReviewedText: "Hero Yi"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "大師兄"
+  splits:
+  - text: "大師兄"
+    translated: "Big Senior Brother"
+    qcReviewedText: "Big Senior Brother"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "对话介面"
+  splits:
+  - text: "对话介面"
+    translated: "Dialogue interface"
+    qcReviewedText: "Dialogue interface"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "小師妹"
+  splits:
+  - text: "小師妹"
+    translated: "Little Junior Sister"
+    qcReviewedText: "Little Junior Sister"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "小竹生日"
+  splits:
+  - text: "小竹生日"
+    translated: "Xiao Zhu's birthday"
+    qcReviewedText: "Xiao Zhu's birthday"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "彈珠檯"
+  splits:
+  - text: "彈珠檯"
+    translated: "Pinball machine"
+    qcReviewedText: "Pinball machine"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "戰役1"
+  splits:
+  - text: "戰役1"
+    translated: "Battle 1"
+    qcReviewedText: "Battle 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "戰役2"
+  splits:
+  - text: "戰役2"
+    translated: "Battle 2"
+    qcReviewedText: "Battle 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "戰役測試"
+  splits:
+  - text: "戰役測試"
+    translated: "Battle test"
+    qcReviewedText: "Battle test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "戰役特效"
+  splits:
+  - text: "戰役特效"
+    translated: "Battle effects"
+    qcReviewedText: "Battle effects"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "搶劫山賊"
+  splits:
+  - text: "搶劫山賊"
+    translated: "Robbing Mountain Bandits"
+    qcReviewedText: "Robbing Mountain Bandits"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "早操"
+  splits:
+  - text: "早操"
+    translated: "Morning exercise"
+    qcReviewedText: "Morning exercise"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "标准"
+  splits:
+  - text: "标准"
+    translated: "Standard"
+    qcReviewedText: "Standard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "樊嘯天1"
+  splits:
+  - text: "樊嘯天1"
+    translated: "Fan Xiaotian1"
+    qcReviewedText: "Fan Xiaotian1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "樊嘯天2"
+  splits:
+  - text: "樊嘯天2"
+    translated: "Fan Xiaotian2"
+    qcReviewedText: "Fan Xiaotian2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "樊嘯天3"
+  splits:
+  - text: "樊嘯天3"
+    translated: "Fan Xiaotian3"
+    qcReviewedText: "Fan Xiaotian3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "段考三師兄"
+  splits:
+  - text: "段考三師兄"
+    translated: "Third Senior Brother Duan Kao"
+    qcReviewedText: "Third Senior Brother Duan Kao"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "段考四師兄"
+  splits:
+  - text: "段考四師兄"
+    translated: "Fourth Senior Brother, let's take the exam"
+    qcReviewedText: "Fourth Senior Brother, let's take the exam"
+    qcTranslated: "Fourth Senior Brother, let's take the segment exam"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
     qcDefectCategories:
     - DroppedContent
-- raw: "阅读"
+- raw: "段考-弟子1"
   splits:
-  - text: "阅读"
-    translated: "Reading"
-    qcReviewedText: "Reading"
+  - text: "段考"
+    translated: "Midterm exam"
+    qcReviewedText: "Midterm exam-Disciple 1"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "音乐音量"
+  - subIndex: 1
+    text: "弟子1"
+    translated: "Disciple 1"
+  templates:
+  - template: "{0}-{1}"
+- raw: "段考-弟子2"
   splits:
-  - text: "音乐音量"
-    translated: "Music volume"
-    qcReviewedText: "Music volume"
+  - text: "段考"
+    translated: "Midterm exam"
+    qcReviewedText: "Midterm exam-Disciple 2"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "风云史"
+  - subIndex: 1
+    text: "弟子2"
+    translated: "Disciple 2"
+  templates:
+  - template: "{0}-{1}"
+- raw: "段考-弟子3"
   splits:
-  - text: "风云史"
-    translated: "Chronicles of Wind and Cloud"
-    qcReviewedText: "Chronicles of Wind and Cloud"
+  - text: "段考"
+    translated: "Midterm exam"
+    qcReviewedText: "Midterm exam-Disciple 3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - subIndex: 1
+    text: "弟子3"
+    translated: "Disciple 3"
+  templates:
+  - template: "{0}-{1}"
+- raw: "決鬥：大師兄"
+  splits:
+  - text: "決鬥"
+    translated: "Duels"
+    qcReviewedText: "Duels：Big Senior Brother"
+    qcTranslated: "Duel: Big Senior Brother"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - subIndex: 1
+    text: "大師兄"
+    translated: "Big Senior Brother"
+  templates:
+  - template: "{0}：{1}"
+- raw: "決鬥：聽海生"
+  splits:
+  - text: "決鬥"
+    translated: "Duels"
+    qcReviewedText: "Duels：Ting Haisheng"
+    qcTranslated: "Duel: Ting Haisheng"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - subIndex: 1
+    text: "聽海生"
+    translated: "Ting Haisheng"
+  templates:
+  - template: "{0}：{1}"
+- raw: "決鬥教學"
+  splits:
+  - text: "決鬥教學"
+    translated: "Duel Tutorial"
+    qcReviewedText: "Duel Tutorial"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "決鬥測試"
+  splits:
+  - text: "決鬥測試"
+    translated: "Duelling Test"
+    qcReviewedText: "Duelling Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "決鬥特效"
+  splits:
+  - text: "決鬥特效"
+    translated: "Duelling Effects"
+    qcReviewedText: "Duelling Effects"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "洛陽大俠"
+  splits:
+  - text: "洛陽大俠"
+    translated: "Luoyang Hero"
+    qcReviewedText: "Luoyang Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "測試"
+  splits:
+  - text: "測試"
+    translated: "Test"
+    qcReviewedText: "Test"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "測試任務"
+  splits:
+  - text: "測試任務"
+    translated: "Test mission"
+    qcReviewedText: "Test mission"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "測試戰役1"
+  splits:
+  - text: "測試戰役1"
+    translated: "Test Campaign 1"
+    qcReviewedText: "Test Campaign 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "測試戰役2"
+  splits:
+  - text: "測試戰役2"
+    translated: "Test Campaign 2"
+    qcReviewedText: "Test Campaign 2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "測試決鬥"
+  splits:
+  - text: "測試決鬥"
+    translated: "Test duel"
+    qcReviewedText: "Test duel"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "測試腳本"
+  splits:
+  - text: "測試腳本"
+    translated: "Test script"
+    qcReviewedText: "Test script"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "煎藥大師兄"
+  splits:
+  - text: "煎藥大師兄"
+    translated: "Master of Boiling Medicine, Big Senior Brother"
+    qcReviewedText: "Master of Boiling Medicine, Big Senior Brother"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "石公遠"
+  splits:
+  - text: "石公遠"
+    translated: "Shi Gongyuan"
+    qcReviewedText: "Shi Gongyuan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "空場景"
+  splits:
+  - text: "空場景"
+    translated: "Empty scene"
+    qcReviewedText: "Empty scene"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "老弟子"
+  splits:
+  - text: "老弟子"
+    translated: "Senior Disciple"
+    qcReviewedText: "Senior Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "萬里鵬程"
+  splits:
+  - text: "萬里鵬程"
+    translated: "Wanli Pengcheng"
+    qcReviewedText: "Wanli Pengcheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "萬里鵬程1"
+  splits:
+  - text: "萬里鵬程1"
+    translated: "Wanli Pengcheng1"
+    qcReviewedText: "Wanli Pengcheng1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "萬里鵬程2"
+  splits:
+  - text: "萬里鵬程2"
+    translated: "Wanli Pengcheng2"
+    qcReviewedText: "Wanli Pengcheng2"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "萬里鵬程3"
+  splits:
+  - text: "萬里鵬程3"
+    translated: "Wanli Pengcheng3"
+    qcReviewedText: "Wanli Pengcheng3"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "蒙面人"
+  splits:
+  - text: "蒙面人"
+    translated: "Masked Person"
+    qcReviewedText: "Masked Person"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "試玩版結尾"
+  splits:
+  - text: "試玩版結尾"
+    translated: "Demo Ending"
+    qcReviewedText: "Demo Ending"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "路人俠群"
+  splits:
+  - text: "路人俠群"
+    translated: "Passing Hero Group"
+    qcReviewedText: "Passing Hero Group"
+    qcTranslated: "Bystander Hero Group"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "輸入戰役關卡"
+  splits:
+  - text: "輸入戰役關卡"
+    translated: "Enter the campaign level"
+    qcReviewedText: "Enter the campaign level"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "輸入決鬥關卡"
+  splits:
+  - text: "輸入決鬥關卡"
+    translated: "Enter the Duel Stage"
+    qcReviewedText: "Enter the Duel Stage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "輸入腳本名稱"
+  splits:
+  - text: "輸入腳本名稱"
+    translated: "Enter script name"
+    qcReviewedText: "Enter script name"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "遊戲結束"
+  splits:
+  - text: "遊戲結束"
+    translated: "Game over"
+    qcReviewedText: "Game over"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "閻關三煞1"
+  splits:
+  - text: "閻關三煞1"
+    translated: "Yan Guan San Sha 1"
+    qcReviewedText: "Yan Guan San Sha 1"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "閻關三煞2"
+  splits:
+  - text: "閻關三煞2"
+    translated: "Yan Pass Three Sages 2"
+    qcReviewedText: "Yan Pass Three Sages 2"
+    qcTranslated: "Yan Pass Three Killings 2"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "閻關三煞3"
+  splits:
+  - text: "閻關三煞3"
+    translated: "Yan Pass Three Sages 3"
+    qcReviewedText: "Yan Pass Three Sages 3"
+    qcTranslated: "Yan Pass Three Killers 3"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "關閉"
+  splits:
+  - text: "關閉"
+    translated: "Close"
+    qcReviewedText: "Close"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "雪山後日談"
+  splits:
+  - text: "雪山後日談"
+    translated: "Day After Snow Mountain"
+    qcReviewedText: "Day After Snow Mountain"
+    qcTranslated: "Epilogue of Snow Mountain"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+- raw: "霸凌-弟子"
+  splits:
+  - text: "霸凌"
+    translated: "Bullying"
+    qcReviewedText: "Bullying-Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - subIndex: 1
+    text: "弟子"
+    translated: "Disciple"
+  templates:
+  - template: "{0}-{1}"
+- raw: "預覽"
+  splits:
+  - text: "預覽"
+    translated: "Preview"
+    qcReviewedText: "Preview"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "養成模式"
+  splits:
+  - text: "養成模式"
+    translated: "Raising Mode"
+    qcReviewedText: "Raising Mode"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "龍淵"
+  splits:
+  - text: "龍淵"
+    translated: "Long Yuan"
+    qcReviewedText: "Long Yuan"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

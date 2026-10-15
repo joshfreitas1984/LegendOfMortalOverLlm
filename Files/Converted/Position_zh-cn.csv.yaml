@@ -631,12 +631,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Position/desc/forge2,在崆峒大铁铺锻打铁器、制作民生用品，变售赚取钱财。"
+- raw: "Position/desc/forge2,忍受裂骨魔的凶恶目光凝视，借用铁锤。"
   splits:
   - split: 1
-    text: "在崆峒大铁铺锻打铁器、制作民生用品，变售赚取钱财。"
-    translated: "In Kongtong's large iron forge, they forge ironware, produce daily necessities, and sell them to make a profit."
-    qcReviewedText: "In Kongtong's large iron forge, they forge ironware, produce daily necessities, and sell them to make a profit."
+    text: "忍受裂骨魔的凶恶目光凝视，借用铁锤。"
+    translated: "Endure the malevolent gaze of the Bone-Cracking Demon and borrow the hammer."
+    qcReviewedText: "Endure the malevolent gaze of the Bone-Cracking Demon and borrow the hammer."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1468,12 +1468,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Position/Dialog/M3001_03_001,赶进下山找人吧！"
+- raw: "Position/Dialog/M3001_03_001,赶紧下山找人吧！"
   splits:
   - split: 1
-    text: "赶进下山找人吧！"
-    translated: "Hurry down the mountain to find people!"
-    qcReviewedText: "Hurry down the mountain to find people!"
+    text: "赶紧下山找人吧！"
+    translated: "Hurry down the mountain and find someone!"
+    qcReviewedText: "Hurry down the mountain and find someone!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1880,6 +1880,96 @@
     text: "帮惯性迟到的唐芳当一会儿坐堂大夫，诊金算你的。"
     translated: "Help Tang Fang be a sitting-in doctor for a while; the consultation fee is yours."
     qcReviewedText: "Help Tang Fang be a sitting-in doctor for a while; the consultation fee is yours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/title/training5,修练"
+  splits:
+  - split: 1
+    text: "修练"
+    translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/desc/training5,掌门闭关中，即使低声下气求教，亦无人搭理。你只能孤伶伶自个儿寻个静僻处，练你自己的。"
+  splits:
+  - split: 1
+    text: "掌门闭关中，即使低声下气求教，亦无人搭理。你只能孤伶伶自个儿寻个静僻处，练你自己的。"
+    translated: "The Sect Leader is in seclusion; even if you beg humbly for guidance, no one will pay you any mind. You can only find a quiet, secluded spot on your own and practice by yourself."
+    qcReviewedText: "The Sect Leader is in seclusion; even if you beg humbly for guidance, no one will pay you any mind. You can only find a quiet, secluded spot on your own and practice by yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/title/training6,修练"
+  splits:
+  - split: 1
+    text: "修练"
+    translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/desc/training6,即使向人求教，这群大老粗也没啥好传授的样子。竟还不如自个儿寻个静僻处，练你自己的。"
+  splits:
+  - split: 1
+    text: "即使向人求教，这群大老粗也没啥好传授的样子。竟还不如自个儿寻个静僻处，练你自己的。"
+    translated: "Even if they teach you, these roughnecks don't seem to have much to offer. It would be better for you to find a quiet place and practice on your own."
+    qcReviewedText: "Even if they teach you, these roughnecks don't seem to have much to offer. It would be better for you to find a quiet place and practice on your own."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/title/training7,修练"
+  splits:
+  - split: 1
+    text: "修练"
+    translated: "Cultivation"
+    qcReviewedText: "Cultivation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/desc/training7,即使向人求教，也被微笑敷衍。你只能孤伶伶自个儿寻个静僻处，练你自己的。"
+  splits:
+  - split: 1
+    text: "即使向人求教，也被微笑敷衍。你只能孤伶伶自个儿寻个静僻处，练你自己的。"
+    translated: "Even when you ask for help from others, you are met with polite but dismissive smiles. You can only seek out a quiet, secluded spot on your own and practice by yourself."
+    qcReviewedText: "Even when you ask for help from others, you are met with polite but dismissive smiles. You can only seek out a quiet, secluded spot on your own and practice by yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/title/craft1,杂匠"
+  splits:
+  - split: 1
+    text: "杂匠"
+    translated: "Craftsman"
+    qcReviewedText: "Craftsman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/desc/craft1,在崆峒大铁铺制作民生用品，变售赚取钱财。"
+  splits:
+  - split: 1
+    text: "在崆峒大铁铺制作民生用品，变售赚取钱财。"
+    translated: "At the Great Iron Workshop in Kongtong, they manufacture everyday items and sell them to earn money."
+    qcReviewedText: "At the Great Iron Workshop in Kongtong, they manufacture everyday items and sell them to earn money."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/title/craft2,杂匠"
+  splits:
+  - split: 1
+    text: "杂匠"
+    translated: "Craftsman"
+    qcReviewedText: "Craftsman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Position/desc/craft2,心怀美好憧憬，跟小竹一起接活计挣钱。"
+  splits:
+  - split: 1
+    text: "心怀美好憧憬，跟小竹一起接活计挣钱。"
+    translated: "With hopeful dreams, she takes on jobs with Xiao Zhu to earn money."
+    qcReviewedText: "With hopeful dreams, she takes on jobs with Xiao Zhu to earn money."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

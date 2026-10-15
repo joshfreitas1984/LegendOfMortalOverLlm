@@ -238,6 +238,8 @@
   allowalt:
   - slap
   - flap
+  - brush
+  - brushed
   direct: pat pat
   literal: Pai Pai
 - raw: 盟主
@@ -1310,3 +1312,22 @@
   rawSimplified: 养龙苑
   rawTraditional: 養龍苑
   result: Dragon Rearing Garden
+- raw: 拍拍屁股
+  result: Walk away
+  allowalt:
+  - leave
+  - pack up
+  - walk out
+  - up and leave
+  - skip town
+  - brush
+- raw: 唐老四
+  result: Old Fourth Tang
+  allowalt:
+  - Fourth Brother Tang
+- raw: 幕府将军
+  result: Shogun
+- raw: 苍松剑客
+  rawSimplified: 苍松剑客
+  rawTraditional: 蒼松劍客
+  result: Pine Swordsman

@@ -346,8 +346,8 @@
   splits:
   - split: 1
     text: "邹掌门，叶某虽非亲身经历，但信我兄弟为人。愿以苍松剑客的名声作赌，保证他所言非虚，还请邹真人明察秋毫，勿受奸人蒙蔽。"
-    translated: "Master Zou, although I, Ye, have not experienced this personally, I trust my brother's character. I am willing to wager the reputation of the Cang Song Swordmaster, guaranteeing that what they say is not false. I ask you, Daoist Zou, to discern the truth and not be deceived by deceitful individuals."
-    qcReviewedText: "Master Zou, although I, Ye, have not experienced this personally, I trust my brother's character. I am willing to wager the reputation of the Cang Song Swordmaster, guaranteeing that what they say is not false. I ask you, Daoist Zou, to discern the truth and not be deceived by deceitful individuals."
+    translated: "Sect Leader Zou, though Ye has not witnessed this firsthand, I trust my brother's character. I am willing to stake the reputation of the Pine Swordsman as a guarantee that his words are true. I beg you, Daoist Zou, to discern the truth with utmost clarity and not be deceived by treacherous individuals."
+    qcReviewedText: "Sect Leader Zou, though Ye has not witnessed this firsthand, I trust my brother's character. I am willing to stake the reputation of the Pine Swordsman as a guarantee that his words are true. I beg you, Daoist Zou, to discern the truth with utmost clarity and not be deceived by treacherous individuals."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -400,8 +400,8 @@
   splits:
   - split: 1
     text: "苍松剑客的侠义，修道人亦常耳闻。他对赵活这般推心置腹，敢以声名作保，物以类聚，足见赵小友也是难能可贵的义人。"
-    translated: "The chivalry of the Swordman of the Blue Pine is often heard about by those who practice cultivation. He is so open and sincere with Zhao Huo, willing to stake his reputation on it; birds of a feather flock together, which shows that Zhao, the Young One, is also a rare and virtuous person."
-    qcReviewedText: "The chivalry of the Swordman of the Blue Pine is often heard about by those who practice cultivation. He is so open and sincere with Zhao Huo, willing to stake his reputation on it; birds of a feather flock together, which shows that Zhao, the Young One, is also a rare and virtuous person."
+    translated: "The Pine Swordsman's chivalry is well known even among Daoist cultivators. That he would open his heart so fully to Zhao Huo and stake his reputation on him shows that Young Friend Zhao is likewise a rare and noble soul of righteousness."
+    qcReviewedText: "The Pine Swordsman's chivalry is well known even among Daoist cultivators. That he would open his heart so fully to Zhao Huo and stake his reputation on him shows that Young Friend Zhao is likewise a rare and noble soul of righteousness."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -841,8 +841,8 @@
   splits:
   - split: 1
     text: "苍松剑客叶云舟，阁下好大名声。本座与你同戴「叶云」二字，仅一字之差，雷同过甚。私以为，天底不需要两个名含叶云之人。"
-    translated: "Sir Swordman Ye Yunzhou, your reputation is quite grand. I, too, bear the Ye Yun characters, differing by just one character, making us too similar. In my view, the heavens do not need two people with names containing Ye Yun."
-    qcReviewedText: "Sir Swordman Ye Yunzhou, your reputation is quite grand. I, too, bear the Ye Yun characters, differing by just one character, making us too similar. In my view, the heavens do not need two people with names containing Ye Yun."
+    translated: "Pine Swordsman Ye Yunzhou, you have quite a reputation. I share the characters Ye Yun with you; we differ by only one character, which is far too similar. In my opinion, this world has no need for two people bearing Ye Yun in their names."
+    qcReviewedText: "Pine Swordsman Ye Yunzhou, you have quite a reputation. I share the characters Ye Yun with you; we differ by only one character, which is far too similar. In my opinion, this world has no need for two people bearing Ye Yun in their names."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4208,18 +4208,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/N_7_5_6_9_006,龙湘等你等到深更，抹掉眼泪，默默收起洞萧，穿回劲装，决心明日见面，佯装没事，绝口不提你今日失约。"
+- raw: "Story/N_7_5_6_9_006,龙湘等你等到深更，抹掉眼泪，默默收起洞箫，穿回劲装，决心明日见面，佯装没事，绝口不提你今日失约。"
   splits:
   - split: 1
-    text: "龙湘等你等到深更，抹掉眼泪，默默收起洞萧，穿回劲装，决心明日见面，佯装没事，绝口不提你今日失约。"
-    translated: "Long Xiang waited for you until the late hours, wiping away tears, silently putting away the flute, changing back into their sturdy outfit, determined to meet you tomorrow, pretending nothing happened, and vowing not to mention your missed appointment today."
-    qcReviewedText: "Long Xiang waited for you until the late hours, wiping away tears, silently putting away the flute, changing back into their sturdy outfit, determined to meet you tomorrow, pretending nothing happened, and vowing not to mention your missed appointment today."
-    qcTranslated: "Long Xiang waited for you until the deep night, wiping away tears, silently putting away the flute, changing back into her sturdy outfit, determined to meet you tomorrow, pretending nothing happened, and vowing not to mention your missed appointment today."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    text: "龙湘等你等到深更，抹掉眼泪，默默收起洞箫，穿回劲装，决心明日见面，佯装没事，绝口不提你今日失约。"
+    translated: "Long Xiang waited for you until late at night, wiped away their tears, quietly put away their flute, changed back into their martial attire, and resolved to act as if nothing happened when they met tomorrow, not mentioning your no-show today."
+    qcReviewedText: "Long Xiang waited for you until late at night, wiped away their tears, quietly put away their flute, changed back into their martial attire, and resolved to act as if nothing happened when they met tomorrow, not mentioning your no-show today."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Birth_01_01_001,吶，生辰礼物喜不喜欢？还不谢谢小竹姐姐。"
   splits:
   - split: 1
@@ -4959,8 +4956,8 @@
   splits:
   - split: 1
     text: "你说谁？我是阿鹤侠，不认识你说的人。"
-    translated: "Who are you talking about? I am Ah He Xia, I don't recognize the person you mentioned."
-    qcReviewedText: "Who are you talking about? I am Ah He Xia, I don't recognize the person you mentioned."
+    translated: "Who are you talking about? I'm Crane Hero. I don't know the person you're referring to."
+    qcReviewedText: "Who are you talking about? I'm Crane Hero. I don't know the person you're referring to."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6151,8 +6148,8 @@
   splits:
   - split: 1
     text: "苍松剑客的剑，已不仅是区区杀人快剑而已，是活人剑，是守护者之剑。"
-    translated: "The sword of the Cangsong Swordman is no longer merely a swift killing blade; it is a living sword, a guardian's sword."
-    qcReviewedText: "The sword of the Cangsong Swordman is no longer merely a swift killing blade; it is a living sword, a guardian's sword."
+    translated: "The Pine Swordsman's blade is no longer merely a swift sword for killing. It is a living sword, the Sword of the Guardian."
+    qcReviewedText: "The Pine Swordsman's blade is no longer merely a swift sword for killing. It is a living sword, the Sword of the Guardian."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -6895,12 +6892,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_8_4_11_1_006,误会，全是误会！我跟这飞爪一点干系也没有！是它忝不知耻非要缠上来的，我对你忠贞不二，绝无异心！"
+- raw: "Story/D_8_4_11_1_006,误会，全是误会！我跟这飞爪一点干系也没有！是它恬不知耻非要缠上来的，我对你忠贞不二，绝无异心！"
   splits:
   - split: 1
-    text: "误会，全是误会！我跟这飞爪一点干系也没有！是它忝不知耻非要缠上来的，我对你忠贞不二，绝无异心！"
-    translated: "It's all a misunderstanding! I have nothing to do with this flying claw! It's shameless and insists on clinging on. I am loyal to you without any wavering, absolutely no intention to betray!"
-    qcReviewedText: "It's all a misunderstanding! I have nothing to do with this flying claw! It's shameless and insists on clinging on. I am loyal to you without any wavering, absolutely no intention to betray!"
+    text: "误会，全是误会！我跟这飞爪一点干系也没有！是它恬不知耻非要缠上来的，我对你忠贞不二，绝无异心！"
+    translated: "It's all a misunderstanding! I have nothing to do with this flying claw! It shamelessly clung onto me of its own accord. I am loyal to you without any wavering of my allegiance!"
+    qcReviewedText: "It's all a misunderstanding! I have nothing to do with this flying claw! It shamelessly clung onto me of its own accord. I am loyal to you without any wavering of my allegiance!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

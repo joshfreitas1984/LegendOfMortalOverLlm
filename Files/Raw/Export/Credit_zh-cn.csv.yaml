@@ -139,13 +139,10 @@
   splits:
   - split: 1
     text: "子夜寄君书原曲"
-- raw: "Credit/Header/LocalizationKorean,韩文翻译 & QA"
+- raw: "Credit/Header/LocalizationKorean,韩文在地化"
   splits:
   - split: 1
-    text: "韩文翻译"
-  templates:
-  - split: 1
-    template: "{0} & QA"
+    text: "韩文在地化"
 - raw: "Credit/Header/Staff,工作人员"
   splits:
   - split: 1
@@ -194,3 +191,4 @@
   splits:
   - split: 1
     text: "社群营销"
+- raw: "Credit/Header/QA,QA"

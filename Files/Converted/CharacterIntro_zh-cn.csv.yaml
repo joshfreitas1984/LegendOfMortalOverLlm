@@ -885,13 +885,12 @@
   - split: 1
     text: "纵使身负绝艺，他为人处世始终兢兢业业，不骄不燥。"
     translated: "Although they possess extraordinary skills, they remain cautious and humble in their dealings with the world."
-    qcReviewedText: "Although they possess extraordinary skills, they remain cautious and humble in their dealings with the world.\\nNever engage in a fight lightly; when Cloud Sword leaves its scabbard, those who stand in its way will surely die without mercy.\\nSince coming down the mountain to venture into the world, there have never been any exceptions, even so,\\nFearless individuals continued to charge forward, one after another, to meet their deaths.\\nPerhaps because this journey involved his younger sister, he was especially cautious and even avoided meeting fellow disciples.\\nSuperb martial skills, a cool-headed mind, and a cautious personality,\\nHis handsome appearance made Ye Yunzhou a legendary swordsmen.\\nVarious flashy titles started being carelessly bestowed upon them, but they personally preferred Azure Pine Swordman.\\nBefore meeting you, he didn't have a good impression of the Tang Clan."
-    qcTranslated: "Although he possesses extraordinary skills, he remains cautious and humble in his dealings with the world.\\nNever does he engage in a fight lightly; when the Tingyun Sword leaves its scabbard, those who stand in its way will surely die without mercy.\\nSince coming down the mountain to venture into the world, there have never been any exceptions, even so,\\nFearless individuals continued to charge forward, one after another, to meet their deaths.\\nPerhaps because this journey involved his younger sister, he was especially cautious and even avoided meeting fellow disciples.\\nSuperb martial skills, a cool-headed mind, and a cautious personality,\\nHis handsome appearance made Ye Yunzhou a legendary swordsman.\\nVarious flashy titles started being carelessly bestowed upon him, but he personally preferred Azure Pine Swordsman.\\nBefore meeting you, he didn't have a good impression of the Tang Clan."
+    qcReviewedText: "Although they possess extraordinary skills, they remain cautious and humble in their dealings with the world.\\nNever engage in a fight lightly; when Cloud Sword leaves its scabbard, those who stand in its way will surely die without mercy.\\nSince coming down the mountain to venture into the world, there have never been any exceptions, even so,\\nFearless individuals continued to charge forward, one after another, to meet their deaths.\\nPerhaps because this journey involved his younger sister, he was especially cautious and even avoided meeting fellow disciples.\\nSuperb martial skills, a cool-headed mind, and a cautious personality,\\nHis handsome appearance made Ye Yunzhou a legendary swordsmen.\\nAll sorts of fancy titles were thrust upon him without regard for his feelings, but he personally preferred Pine Swordsman.\\nBefore meeting you, he didn't have a good impression of the Tang Clan."
+    qcTranslated: "Although he possesses extraordinary skills, he remains cautious and humble in his dealings with the world.\\nNever does he engage in a fight lightly; when the Cloud Sword leaves its scabbard, those who stand in its way will surely die without mercy.\\nSince coming down the mountain to venture into the world, there have never been any exceptions. Even so,\\nfearless individuals continued to charge forward, one after another, to meet their deaths.\\nPerhaps because this journey involved his younger sister, he was especially cautious and even avoided meeting fellow disciples.\\nSuperb martial skills, a cool-headed mind, and a cautious personality,\\nhis handsome appearance made Ye Yunzhou a legendary swordsman.\\nAll sorts of fancy titles were thrust upon him without regard for his feelings, but he personally preferred Pine Swordsman.\\nBefore meeting you, he didn't have a good impression of the Tang Clan."
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DroppedContent
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DroppedContent
     - UnnaturalPhrasing
   - split: 1
     subIndex: 1
@@ -920,7 +919,7 @@
   - split: 1
     subIndex: 7
     text: "各式各样花巧的头衔开始不顾当事人感受擅自戴到他顶上，但他个人还是比较中意「苍松剑客」。"
-    translated: "Various flashy titles started being carelessly bestowed upon them, but they personally preferred Azure Pine Swordman."
+    translated: "All sorts of fancy titles were thrust upon him without regard for his feelings, but he personally preferred Pine Swordsman."
   - split: 1
     subIndex: 8
     text: "在认识你之前，他对唐门的印象并不好。"
@@ -1604,15 +1603,22 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
-- raw: "CharacterIntro1/special205,少时曾先后拜马钰、刘处玄为师，但都被父母抓回家锁在柴房里，家人见他求道之心迫切，才终于放生。"
+- raw: "CharacterIntro1/special205,少时曾先后拜马钰、刘处玄为师，但都被父母抓回家锁在柴房里，家人见他求道之心迫切，才终于放生。\\n为人诙谐友善，武功高强又博学，却因为长相经常被当作坏人，明明没干什么事但大家都怀疑他是幕后黑手。"
   splits:
   - split: 1
     text: "少时曾先后拜马钰、刘处玄为师，但都被父母抓回家锁在柴房里，家人见他求道之心迫切，才终于放生。"
     translated: "In their youth, they had successively taken Ma Yu and Liu Chuxuan as teachers, but were caught by their parents and locked in the woodshed. Seeing their urgent desire to seek the Dao, their family finally let them go."
-    qcReviewedText: "In their youth, they had successively taken Ma Yu and Liu Chuxuan as teachers, but were caught by their parents and locked in the woodshed. Seeing their urgent desire to seek the Dao, their family finally let them go."
+    qcReviewedText: "In their youth, they had successively taken Ma Yu and Liu Chuxuan as teachers, but were caught by their parents and locked in the woodshed. Seeing their urgent desire to seek the Dao, their family finally let them go.\\nThey are humorous and friendly, skilled in martial arts and highly knowledgeable, yet they are often mistaken for a villain because of their appearance. Even though they haven't done anything wrong, everyone suspects them of being the mastermind behind the scenes."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "为人诙谐友善，武功高强又博学，却因为长相经常被当作坏人，明明没干什么事但大家都怀疑他是幕后黑手。"
+    translated: "They are humorous and friendly, skilled in martial arts and highly knowledgeable, yet they are often mistaken for a villain because of their appearance. Even though they haven't done anything wrong, everyone suspects them of being the mastermind behind the scenes."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
 - raw: "CharacterIntro0/special206,嵩山派的年轻弟子，云游大宋，弘扬佛法，筹措善款以期修缮败破的嵩山寺。"
   splits:
   - split: 1
@@ -1733,7 +1739,7 @@
   - split: 1
     text: "崆峒派"
     translated: "Kongtong Sect"
-    qcReviewedText: "Kongtong Sect·The eldest disciple under Sect Leader Fire Dragon Immortal Monarch of the Flying Heaven Sect.\\nAlso known as the Daoist Law General of the Xiangyang battlefield, they are undefeated after countless battles and are relied upon by the people and military of the Song Dynasty while being feared by the forces of the Jin Dynasty."
+    qcReviewedText: "Kongtong Sect·The eldest disciple under Sect Leader Fire Dragon Immortal Monarch of the Flying Heaven Sect.\\nAlso known as the renowned Dao Method General of the Xiangyang battlefield, they are undefeated after countless battles and are relied upon by the people and military of Song, while being feared by the forces of Jin."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1744,7 +1750,7 @@
   - split: 1
     subIndex: 2
     text: "亦是襄阳战场声名赫赫的「道法将军」，百战不殆，为宋国军民仰仗，为金国兵马忌惮。"
-    translated: "Also known as the Daoist Law General of the Xiangyang battlefield, they are undefeated after countless battles and are relied upon by the people and military of the Song Dynasty while being feared by the forces of the Jin Dynasty."
+    translated: "Also known as the renowned Dao Method General of the Xiangyang battlefield, they are undefeated after countless battles and are relied upon by the people and military of Song, while being feared by the forces of Jin."
   templates:
   - split: 1
     template: "{0}·{1}\\n{2}"
@@ -1753,7 +1759,7 @@
   - split: 1
     text: "豪爽而憨厚老实，一心求仙，跟随火龙仙君修真，对于自己修练多年始终不能喷火感到十分羞愧。"
     translated: "Straightforward and honest, they are single-minded in their quest for immortality, following the Fire Dragon Immortal Monarch in their cultivation. They feel deeply ashamed that after years of practice, they still cannot breathe fire."
-    qcReviewedText: "Straightforward and honest, they are single-minded in their quest for immortality, following the Fire Dragon Immortal Monarch in their cultivation. They feel deeply ashamed that after years of practice, they still cannot breathe fire.\\nThough they failed to cultivate divine arts, they are actually a person of great fortune. By chance, they learned Wind Blade and Fire Sword techniques, which aroused their master's jealousy. Thus, the master used the excuses that to break through to the Transcendent Stage, one must accumulate good deeds and the fastest way to accumulate good deeds is to fight for the country on the battlefield to deceive them into going to the Song-Jin battlefield to die.\\nAlthough they often reside on the battlefield, they have never died and instead have earned the trust of the military officers and soldiers. They are hailed as the Taoist Law General and have achieved remarkable military accomplishments, even earning special respect from the veteran General Zhao Fang, the garrison commander of Xiangyang."
+    qcReviewedText: "Straightforward and honest, they are single-minded in their quest for immortality, following the Fire Dragon Immortal Monarch in their cultivation. They feel deeply ashamed that after years of practice, they still cannot breathe fire.\\nThough they failed to cultivate divine arts, they are actually a person of great fortune. By chance, they learned Wind Blade and Fire Sword techniques, which aroused their master's jealousy. Thus, the master used the excuses that to break through to the Transcendent Stage, one must accumulate good deeds and the fastest way to accumulate good deeds is to fight for the country on the battlefield to deceive them into going to the Song-Jin battlefield to die.\\nBut they often reside on the battlefield, never dying, and instead earn the trust of soldiers and officers. They are hailed as the Dao Method General for their remarkable military achievements, even receiving special honors from the veteran General Zhao Fang, the commander of Xiangyang."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1764,7 +1770,7 @@
   - split: 1
     subIndex: 2
     text: "但他常住战场，始终没死，反而深受官兵将士信赖，被誉为「道法将军」，战功彪炳，连襄阳守将赵方老将军都破格礼遇。"
-    translated: "Although they often reside on the battlefield, they have never died and instead have earned the trust of the military officers and soldiers. They are hailed as the Taoist Law General and have achieved remarkable military accomplishments, even earning special respect from the veteran General Zhao Fang, the garrison commander of Xiangyang."
+    translated: "But they often reside on the battlefield, never dying, and instead earn the trust of soldiers and officers. They are hailed as the Dao Method General for their remarkable military achievements, even receiving special honors from the veteran General Zhao Fang, the commander of Xiangyang."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -2696,7 +2702,7 @@
   - split: 1
     text: "崆峒派．铁拳门当代的嫡传女弟子。"
     translated: "Kongtong Sect's Iron Fist Clan's current direct female disciple."
-    qcReviewedText: "Kongtong Sect's Iron Fist Clan's current direct female disciple.\\nA petite green-clad young woman with a menacing gaze.\\nBecause of her exceptional blacksmithing skills and great reputation, there are rumors that she has incredible strength, able to crush someone's hand bones with her bare hands. Thus, she is known in the Jianghu as the Bone-Crushing Demon."
+    qcReviewedText: "Kongtong Sect's Iron Fist Clan's current direct female disciple.\\nA petite green-clad young woman with a menacing gaze.\\nDue to their exceptional forging skills and renowned reputation, it is said that they possess incredible strength, capable of crushing others' hand bones with their bare hands. Thus, they are known in the Jianghu as the Bone-Cracking Demon."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2707,7 +2713,7 @@
   - split: 1
     subIndex: 2
     text: "因为锻冶手艺高明，颇负盛名，传闻她力大无穷，能徒手掐碎旁人手骨，故而江湖人称「裂骨魔」。"
-    translated: "Because of her exceptional blacksmithing skills and great reputation, there are rumors that she has incredible strength, able to crush someone's hand bones with her bare hands. Thus, she is known in the Jianghu as the Bone-Crushing Demon."
+    translated: "Due to their exceptional forging skills and renowned reputation, it is said that they possess incredible strength, capable of crushing others' hand bones with their bare hands. Thus, they are known in the Jianghu as the Bone-Cracking Demon."
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
@@ -3027,8 +3033,8 @@
   splits:
   - split: 1
     text: "点苍第一快剑手，苍松剑客……？"
-    translated: "Diancang's fastest swordsmaster, Cypress Sword Guest...?"
-    qcReviewedText: "Diancang's fastest swordsmaster, Cypress Sword Guest...?"
+    translated: "The fastest swordsman of Diancang, the Pine Swordsman...?"
+    qcReviewedText: "The fastest swordsman of Diancang, the Pine Swordsman...?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3048,3 +3054,88 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
+- raw: "CharacterIntro0/player,唐门最后的外姓弟子，相貌丑陋，资质平庸，穷，没有人爱你。\\n之所以至今犹未死透，只因不甘认命。"
+  splits:
+  - split: 1
+    text: "唐门最后的外姓弟子，相貌丑陋，资质平庸，穷，没有人爱你。"
+    translated: "The last unrelated disciple of the Tang Clan, ugly in appearance, with mediocre talent, poor, and no one loves them."
+    qcReviewedText: "The last unrelated disciple of the Tang Clan, ugly in appearance, with mediocre talent, poor, and no one loves them.\\nI have not yet accepted my fate, which is why I am not truly dead."
+    qcTranslated: "The last unrelated disciple of the Tang Clan, ugly in appearance, with mediocre talent, poor, and no one loves them.\\nThe reason I am not yet truly dead is simply that I refuse to accept my fate."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "之所以至今犹未死透，只因不甘认命。"
+    translated: "I have not yet accepted my fate, which is why I am not truly dead."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CharacterIntro0/girl5_11,飞天嫡传女弟子，今日起就任崆峒探险队的探勘队长。\\n向往与人结伴行走江湖，但受身份所限不能远游，扮个家家过干瘾也好。"
+  splits:
+  - split: 1
+    text: "飞天嫡传女弟子，今日起就任崆峒探险队的探勘队长。"
+    translated: "The flying celestial's direct descendant and top female disciple takes up the role of exploration team leader for the Kongtong expedition today."
+    qcReviewedText: "The flying celestial's direct descendant and top female disciple takes up the role of exploration team leader for the Kongtong expedition today.\\nLonging to travel the Jianghu with companions, but restricted by their status from traveling far, even pretending at home is better than nothing."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "向往与人结伴行走江湖，但受身份所限不能远游，扮个家家过干瘾也好。"
+    translated: "Longing to travel the Jianghu with companions, but restricted by their status from traveling far, even pretending at home is better than nothing."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CharacterIntro0/special805_0,某个人的手。"
+  splits:
+  - split: 1
+    text: "某个人的手。"
+    translated: "Someone's hand"
+    qcReviewedText: "Someone's hand"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CharacterIntro0/special831,京湖制置使兼知襄阳府赵方之外孙女，荆鄂都统制孟政宗之女。\\n其母有烈节，于枣阳战殁，方与政宗以哀疾求退，帝诏慰留之。政宗又请命推恩及女，帝允之，宣诏敕封，是为枣阳县主。"
+  splits:
+  - split: 1
+    text: "京湖制置使兼知襄阳府赵方之外孙女，荆鄂都统制孟政宗之女。"
+    translated: "Zhao Fang, the granddaughter of Jinghu ZhiZhi Shi and acting governor of Xiangyang Prefecture Zhao Fang, and the daughter of Jing-E DuoYongZhi Meng Zhengzong."
+    qcReviewedText: "Zhao Fang, the granddaughter of Jinghu ZhiZhi Shi and acting governor of Xiangyang Prefecture Zhao Fang, and the daughter of Jing-E DuoYongZhi Meng Zhengzong.\\nTheir mother was known for her bravery and died in the battle of ZaoYang. Just as they were seeking to retire due to illness and grief, the emperor issued an edict to comfort and retain them. They then requested that the emperor's favor extend to their daughter, which the emperor granted, issuing a decree to bestow upon her an honorific title. She was thus named the Lady of ZaoYang County."
+    qcTranslated: "Zhao Fang, the granddaughter of Zhao Fang, the Military Commissioner of Jinghu and concurrently governor of Xiangyang Prefecture, and the daughter of Meng Zhengzong, the Commander-in-Chief of Jing-E.\\nHer mother was known for her bravery and died in the battle of ZaoYang. Zhao Fang and Meng Zhengzong sought to retire due to illness and grief, but the emperor issued an edict to comfort and retain them. Meng Zhengzong then requested that the emperor's favor extend to his daughter, which the emperor granted, issuing a decree to bestow upon her an honorific title. She was thus named the Lady of ZaoYang County."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - UntranslatedPinyin
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "其母有烈节，于枣阳战殁，方与政宗以哀疾求退，帝诏慰留之。政宗又请命推恩及女，帝允之，宣诏敕封，是为枣阳县主。"
+    translated: "Their mother was known for her bravery and died in the battle of ZaoYang. Just as they were seeking to retire due to illness and grief, the emperor issued an edict to comfort and retain them. They then requested that the emperor's favor extend to their daughter, which the emperor granted, issuing a decree to bestow upon her an honorific title. She was thus named the Lady of ZaoYang County."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CharacterIntro0/special215_1,荆鄂都统制兼知枣阳军孟宗政诸子之一。\\n熟读兵书，年少有成，以军功补授进勇副尉，隶属京湖制置使麾下，与道法将军俱为赵方座下猛将。\\n与孟仙谣是同父不同母的兄妹关系。"
+  splits:
+  - split: 1
+    text: "荆鄂都统制兼知枣阳军孟宗政诸子之一。"
+    translated: "One of the sons of Meng Zongzheng, who was the Commander-in-Chief of Jing and E Provinces and the Governor of ZaoYang Army."
+    qcReviewedText: "One of the sons of Meng Zongzheng, who was the Commander-in-Chief of Jing and E Provinces and the Governor of ZaoYang Army.\\nWell-versed in military strategy, he achieved success at a young age and was promoted to the rank of Assistant Lieutenant through his military achievements. He served under the command of the Jinghu Governor and is one of General Zhao Fang's formidable generals, alongside the Dao Method General.\\nMeng Xianyao is their half-sibling, sharing the same father but different mothers."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "熟读兵书，年少有成，以军功补授进勇副尉，隶属京湖制置使麾下，与道法将军俱为赵方座下猛将。"
+    translated: "Well-versed in military strategy, he achieved success at a young age and was promoted to the rank of Assistant Lieutenant through his military achievements. He served under the command of the Jinghu Governor and is one of General Zhao Fang's formidable generals, alongside the Dao Method General."
+  - split: 1
+    subIndex: 2
+    text: "与孟仙谣是同父不同母的兄妹关系。"
+    translated: "Meng Xianyao is their half-sibling, sharing the same father but different mothers."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"

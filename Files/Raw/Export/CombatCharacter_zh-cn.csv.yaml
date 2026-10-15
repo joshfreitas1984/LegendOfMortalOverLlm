@@ -163,6 +163,14 @@
   splits:
   - split: 1
     text: "无相祖师"
+- raw: "CombatCharacter/Name/special214_0,护卫"
+  splits:
+  - split: 1
+    text: "护卫"
+- raw: "CombatCharacter/Name/special214_1,丁承烈"
+  splits:
+  - split: 1
+    text: "丁承烈"
 - raw: "CombatCharacter/Name/special401,王二壮"
   splits:
   - split: 1
@@ -171,6 +179,10 @@
   splits:
   - split: 1
     text: "温夫人"
+- raw: "CombatCharacter/Name/special404,丹霞子"
+  splits:
+  - split: 1
+    text: "丹霞子"
 - raw: "CombatCharacter/Name/special405,申屠龙"
   splits:
   - split: 1
@@ -203,6 +215,10 @@
   splits:
   - split: 1
     text: "袁无宪"
+- raw: "CombatCharacter/Name/special824,荆红"
+  splits:
+  - split: 1
+    text: "荆红"
 - raw: "CombatCharacter/Name/special826,释明"
   splits:
   - split: 1
@@ -227,6 +243,10 @@
   splits:
   - split: 1
     text: "南宮己"
+- raw: "CombatCharacter/Name/special844,胡嵩"
+  splits:
+  - split: 1
+    text: "胡嵩"
 - raw: "CombatCharacter/Name/scholar1,书生"
   splits:
   - split: 1
@@ -288,10 +308,34 @@
   splits:
   - split: 1
     text: "峨嵋弟子"
+- raw: "CombatCharacter/Name/trainee241,铁拳老弟子"
+  splits:
+  - split: 1
+    text: "铁拳老弟子"
+- raw: "CombatCharacter/Name/trainee204,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+- raw: "CombatCharacter/Name/trainee214,童大虫"
+  splits:
+  - split: 1
+    text: "童大虫"
+- raw: "CombatCharacter/Name/trainee224,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+- raw: "CombatCharacter/Name/trainee234,鞠冬音"
+  splits:
+  - split: 1
+    text: "鞠冬音"
 - raw: "CombatCharacter/Name/trainee_group_211,崆峒战队"
   splits:
   - split: 1
     text: "崆峒战队"
+- raw: "CombatCharacter/Name/trainee_group_212,崆峒弟子众"
+  splits:
+  - split: 1
+    text: "崆峒弟子众"
 - raw: "CombatCharacter/Name/trainee491,锦香弟子"
   splits:
   - split: 1
@@ -388,10 +432,22 @@
   splits:
   - split: 1
     text: "牛头马面"
-- raw: "CombatCharacter/Title/brother3,三师兄"
+- raw: "CombatCharacter/Name/firebird1,火闪电"
   splits:
   - split: 1
-    text: "三师兄"
+    text: "火闪电"
+- raw: "CombatCharacter/Name/tank1,虎战车"
+  splits:
+  - split: 1
+    text: "虎战车"
+- raw: "CombatCharacter/Name/assassin1,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+- raw: "CombatCharacter/Name/oldbeggar1,丐帮长老"
+  splits:
+  - split: 1
+    text: "丐帮长老"
 - raw: "CombatCharacter/Title/0000,"
 - raw: "CombatCharacter/Title/badguy1,"
 - raw: "CombatCharacter/Title/ranger1,"

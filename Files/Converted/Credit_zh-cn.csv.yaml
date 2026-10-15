@@ -304,18 +304,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Credit/Header/LocalizationKorean,韩文翻译 & QA"
+- raw: "Credit/Header/LocalizationKorean,韩文在地化"
   splits:
   - split: 1
-    text: "韩文翻译"
-    translated: "Korean Translation"
-    qcReviewedText: "Korean Translation & QA"
+    text: "韩文在地化"
+    translated: "Korean Localization"
+    qcReviewedText: "Korean Localization"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-  templates:
-  - split: 1
-    template: "{0} & QA"
 - raw: "Credit/Header/Staff,工作人员"
   splits:
   - split: 1
@@ -424,3 +421,4 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Credit/Header/QA,QA"

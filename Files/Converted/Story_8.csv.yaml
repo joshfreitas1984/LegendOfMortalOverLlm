@@ -2309,15 +2309,11 @@
   splits:
   - split: 1
     text: "喝哎咿——你们今日，谁也别想生离此处！看我大金养龙苑的翻云覆雨手！"
-    translated: "Hey, you all-no one is leaving this place today! Witness the master of the Golden Dragon Courtyard's ability to turn the tides!"
-    qcReviewedText: "Hey, you all-no one is leaving this place today! Witness the master of the Golden Dragon Courtyard's ability to turn the tides!"
-    qcTranslated: "Hey, you all-no one is leaving this place today! Witness the Cloud-Flipping and Rain-Turning Hand of the Golden Dragon Courtyard!"
-    qcStatus: Corrected
-    qcQualityScore: 88
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - UnnaturalPhrasing
+    translated: "Hah ah yi - none of you will leave here alive today! Watch the Dragon Rearing Garden's move that turns clouds and overturns rain!"
+    qcReviewedText: "Hah ah yi - none of you will leave here alive today! Watch the Dragon Rearing Garden's move that turns clouds and overturns rain!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0017_03_031,这才是你真面目吧，金国走狗！"
   splits:
   - split: 1
@@ -2713,14 +2709,11 @@
   splits:
   - split: 1
     text: "大金设立『养龙苑』，派我潜伏中原，专司网罗、劝诱尔等宋国武林人，经我中介，飞黄腾达者多不胜数，女侠这般好身手，若能由我保荐，将来身任女官，发家致富，岂不美哉！"
-    translated: "The Great Jin established the Dragon Nurturing Courtyard and sent me to infiltrate the Central Plains, specifically to recruit and persuade the martial artists of the Song nation. Many have achieved great success through my mediation. With your remarkable skills, if I were to recommend you, you could become a female official in the future and amass wealth. Wouldn't that be wonderful!"
-    qcReviewedText: "The Great Jin established the Dragon Nurturing Courtyard and sent me to infiltrate the Central Plains, specifically to recruit and persuade the martial artists of the Song nation. Many have achieved great success through my mediation. With your remarkable skills, if I were to recommend you, you could become a female official in the future and amass wealth. Wouldn't that be wonderful!"
-    qcTranslated: "The Great Jin established the Dragon Nurturing Courtyard and sent me to infiltrate the Central Plains, specifically to recruit and persuade the Wulin of the Song nation. Many have achieved great success through my mediation. With your remarkable skills, if I were to recommend you, you could become a female official in the future and amass wealth. Wouldn't that be wonderful!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
+    translated: "The Great Jin established the 'Dragon Rearing Garden,' sending me to infiltrate Central Plains to recruit and persuade you Wulin figures from the Song Kingdom. Through my mediation, countless have risen to great heights. With your skills, Heroine, if I were to recommend you, you could become a Lady Official and achieve wealth and success-wouldn't that be wonderful?"
+    qcReviewedText: "The Great Jin established the 'Dragon Rearing Garden,' sending me to infiltrate Central Plains to recruit and persuade you Wulin figures from the Song Kingdom. Through my mediation, countless have risen to great heights. With your skills, Heroine, if I were to recommend you, you could become a Lady Official and achieve wealth and success-wouldn't that be wonderful?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0017_03_068,……原来如此，原来某人一直传信呼唤我，不是安着好心啊。"
   splits:
   - split: 1
@@ -5879,8 +5872,8 @@
   splits:
   - split: 1
     text: "那苍松剑客，武功是真的高，一连刺伤几人，已没人敢轻越雷池。"
-    translated: "That Cang Song swordsman truly possesses remarkable martial skills; having wounded several people in succession, no one dares to lightly cross the threshold of danger anymore."
-    qcReviewedText: "That Cang Song swordsman truly possesses remarkable martial skills; having wounded several people in succession, no one dares to lightly cross the threshold of danger anymore."
+    translated: "That Pine Swordsman's martial arts are truly formidable. He wounded several people in a row, and now no one dares to cross the line."
+    qcReviewedText: "That Pine Swordsman's martial arts are truly formidable. He wounded several people in a row, and now no one dares to cross the line."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8751,8 +8744,8 @@
   splits:
   - split: 1
     text: "哼，好个走投无路，真是如此吗？点苍派武功不是很高明吗，而你苍松剑客更是鼎鼎大名。想来没有唐门庇护，也必安然无恙，这就请吧！慢走不送！"
-    translated: "Hmph, is it really a dead end? Isn't the Diancang Sect's martial arts quite impressive? And you, the Cangsong swordsman, are even more renowned. I suppose without the protection of the Tang Clan, you would still be safe and sound. Please, go ahead! No need for me to see you off!"
-    qcReviewedText: "Hmph, is it really a dead end? Isn't the Diancang Sect's martial arts quite impressive? And you, the Cangsong swordsman, are even more renowned. I suppose without the protection of the Tang Clan, you would still be safe and sound. Please, go ahead! No need for me to see you off!"
+    translated: "Hmph. Cornered, you say? Is that truly the case? The Diancang Sect's martial arts are renowned for their mastery, and you, the Pine Swordsman, carry a formidable reputation. Surely, even without the Tang Clan's protection, you would remain unscathed. Very well, please go! No need to see you off!"
+    qcReviewedText: "Hmph. Cornered, you say? Is that truly the case? The Diancang Sect's martial arts are renowned for their mastery, and you, the Pine Swordsman, carry a formidable reputation. Surely, even without the Tang Clan's protection, you would remain unscathed. Very well, please go! No need to see you off!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10800,8 +10793,8 @@
   splits:
   - split: 1
     text: "而且还不是普通的点苍弟子，是『苍松剑客』。"
-    translated: "Moreover, they are not just an ordinary Diancang disciple; they are the Cangsong Swordsman."
-    qcReviewedText: "Moreover, they are not just an ordinary Diancang disciple; they are the Cangsong Swordsman."
+    translated: "And not just any ordinary Diancang disciple, but the 'Pine Swordsman'."
+    qcReviewedText: "And not just any ordinary Diancang disciple, but the 'Pine Swordsman'."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10881,8 +10874,8 @@
   splits:
   - split: 1
     text: "师弟的朋友，也是我们的朋友。好极，我和『苍松剑客』当了朋友，够我出门吹嘘了。"
-    translated: "Junior Brother's friend is also our friend. Excellent, I have become friends with the Cangsong Sword Guest, which will suffice for me to boast about when I go out."
-    qcReviewedText: "Junior Brother's friend is also our friend. Excellent, I have become friends with the Cangsong Sword Guest, which will suffice for me to boast about when I go out."
+    translated: "Junior Brother's friend is also our friend. Wonderful! I've become friends with the Pine Swordsman; that's enough for me to brag about when I go out."
+    qcReviewedText: "Junior Brother's friend is also our friend. Wonderful! I've become friends with the Pine Swordsman; that's enough for me to brag about when I go out."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -12341,47 +12334,43 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0019_01_124,极乐教主李仁友是西夏皇亲，在中原聚众谋反，显是为了包夹河套地区。受宋国疆域保护，使金无从下手；而宋官家远在临安，疲于应对金国滋扰，没有余力弥平西疆叛乱。"
+- raw: "Story/D_S0019_01_124,极乐教主李仁友是西夏皇亲，在中原聚众谋反，显是为了包夹边域。他藏身在宋，受宋国疆域保护，使金无从下手；而宋官家远在临安，听任韩相蓄势北伐，没有余力弥平西疆叛乱。"
   splits:
   - split: 1
-    text: "极乐教主李仁友是西夏皇亲，在中原聚众谋反，显是为了包夹河套地区。受宋国疆域保护，使金无从下手；而宋官家远在临安，疲于应对金国滋扰，没有余力弥平西疆叛乱。"
-    translated: "Brother Li Renyou, the head of the Supreme Bliss Sect, is a member of the Western Xia royal family. He gathered followers to plot a rebellion in the Central Plains, clearly with the intention of encircling the Hetao region. With the protection of Song territory, it would be difficult for the Jin to make a move; and since the Song emperor was far away in Linan, busy dealing with Jin's harassment, he had no spare resources to quell the Western Regions' rebellion."
-    qcReviewedText: "Brother Li Renyou, the head of the Supreme Bliss Sect, is a member of the Western Xia royal family. He gathered followers to plot a rebellion in the Central Plains, clearly with the intention of encircling the Hetao region. With the protection of Song territory, it would be difficult for the Jin to make a move; and since the Song emperor was far away in Linan, busy dealing with Jin's harassment, he had no spare resources to quell the Western Regions' rebellion."
+    text: "极乐教主李仁友是西夏皇亲，在中原聚众谋反，显是为了包夹边域。他藏身在宋，受宋国疆域保护，使金无从下手；而宋官家远在临安，听任韩相蓄势北伐，没有余力弥平西疆叛乱。"
+    translated: "Master of the Paradise Sect Li Renyou is a royal relative of Western Xia and has gathered forces to rebel in Central Plain, seemingly aiming to encircle the border regions. He hides in Song territory, protected by Song's borders, which leaves Jin unable to take action; meanwhile, the Song emperor, far away in Lin'an, allows Chancellor Han to amass troops for a northern campaign, leaving no resources to quell the rebellion in the western frontier."
+    qcReviewedText: "Master of the Paradise Sect Li Renyou is a royal relative of Western Xia and has gathered forces to rebel in Central Plain, seemingly aiming to encircle the border regions. He hides in Song territory, protected by Song's borders, which leaves Jin unable to take action; meanwhile, the Song emperor, far away in Lin'an, allows Chancellor Han to amass troops for a northern campaign, leaving no resources to quell the rebellion in the western frontier."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Story/D_S0019_01_125,……。"
-- raw: "Story/D_S0019_01_126,金国若指望大宋派兵围剿极乐教，就必须放缓对宋的侵攻。可是如此一来，他们便不能靠掠夺而来的军资，支持对蒙古的战线。"
+- raw: "Story/D_S0019_01_126,金国若指望大宋派兵围剿极乐教，就必须放缓对宋施压。毕竟一个没拿捏好就会跟西夏全面开战，又被大宋夹击，那可不是闹着玩的。"
   splits:
   - split: 1
-    text: "金国若指望大宋派兵围剿极乐教，就必须放缓对宋的侵攻。可是如此一来，他们便不能靠掠夺而来的军资，支持对蒙古的战线。"
-    translated: "If the Jin state hopes for the Great Song to dispatch troops to suppress the Supreme Bliss Sect, they must slow down their invasion of Song. However, in doing so, they would not be able to rely on military supplies looted from Song to support their war against Mongolia."
-    qcReviewedText: "If the Jin state hopes for the Great Song to dispatch troops to suppress the Supreme Bliss Sect, they must slow down their invasion of Song. However, in doing so, they would not be able to rely on military supplies looted from Song to support their war against Mongolia."
+    text: "金国若指望大宋派兵围剿极乐教，就必须放缓对宋施压。毕竟一个没拿捏好就会跟西夏全面开战，又被大宋夹击，那可不是闹着玩的。"
+    translated: "If the Jin wants the Song Dynasty to send troops to suppress the Blissful Sect, they must ease up on pressuring the Song. After all, if they misstep, they could end up in a full-scale war with Western Xia while also facing an attack from the Song, and that's no game to play around with."
+    qcReviewedText: "If the Jin wants the Song Dynasty to send troops to suppress the Blissful Sect, they must ease up on pressuring the Song. After all, if they misstep, they could end up in a full-scale war with Western Xia while also facing an attack from the Song, and that's no game to play around with."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0019_01_127,所以金国若不想受制于人，只能借用中原在野势力，扑灭极乐教。翼王倘若从河西走廊断绝极乐教退路，可以令他们投鼠忌器，孤立无援。确实可以永绝后患。"
+- raw: "Story/D_S0019_01_127,所以金国若不想受制于人，只能借用中原在野势力，扑灭极乐教。翼王若有胆识，由秦陇西进，断绝极乐教退路，"
   splits:
   - split: 1
-    text: "所以金国若不想受制于人，只能借用中原在野势力，扑灭极乐教。翼王倘若从河西走廊断绝极乐教退路，可以令他们投鼠忌器，孤立无援。确实可以永绝后患。"
-    translated: "Therefore, if the Jin Kingdom does not want to be controlled by others, it can only rely on the forces in the Central Plains to eliminate the Supreme Bliss Sect. If Prince Yi were to cut off the Supreme Bliss Sect's retreat through the Hexi Corridor, it would force them into a corner, leaving them isolated and without support. This could indeed eliminate future troubles once and for all."
-    qcReviewedText: "Therefore, if the Jin Kingdom does not want to be controlled by others, it can only rely on the forces in the Central Plains to eliminate the Supreme Bliss Sect. If Prince Yi were to cut off the Supreme Bliss Sect's retreat through the Hexi Corridor, it would force them into a corner, leaving them isolated and without support. This could indeed eliminate future troubles once and for all."
+    text: "所以金国若不想受制于人，只能借用中原在野势力，扑灭极乐教。翼王若有胆识，由秦陇西进，断绝极乐教退路，"
+    translated: "So if the Jin Kingdom does not want to be controlled by others, they can only rely on the out-of-power factions in Central Plains to eliminate the Joyful Paradise Sect. If Prince Yi has courage, they could advance from Qin and Longxi, cutting off the Joyful Paradise Sect's retreat route,"
+    qcReviewedText: "So if the Jin Kingdom does not want to be controlled by others, they can only rely on the out-of-power factions in Central Plains to eliminate the Joyful Paradise Sect. If Prince Yi has courage, they could advance from Qin and Longxi, cutting off the Joyful Paradise Sect's retreat route,"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0019_01_128,但他却选择临阵变卦，坐收渔翁之利。让武林盟和极乐教两败俱伤，他好留存实力，争夺金国皇位。恐怕那胡沙虎杀卫绍王完颜永济，也是翼王借刀杀人！"
+- raw: "Story/D_S0019_01_128,往少说可以令极乐教投鼠忌器，孤立无援。往多了说，甚至可以藉势奠定将来伐夏的基础……当然，那得视乎西夏投注多少国力支持极乐教了。"
   splits:
   - split: 1
-    text: "但他却选择临阵变卦，坐收渔翁之利。让武林盟和极乐教两败俱伤，他好留存实力，争夺金国皇位。恐怕那胡沙虎杀卫绍王完颜永济，也是翼王借刀杀人！"
-    translated: "But he chose to change his mind at the last moment, reaping the benefit like a fisherman. Allowing the Wulin Alliance and the Supreme Bliss Sect to mutually weaken each other, he could preserve his strength to contest for the Golden State throne. Perhaps Hu Sang Hu's assassination of Wei Shao Wang Wan Yan Yong Ji was also the Wing King using someone else's blade!"
-    qcReviewedText: "But he chose to change his mind at the last moment, reaping the benefit like a fisherman. Allowing the Wulin Alliance and the Supreme Bliss Sect to mutually weaken each other, he could preserve his strength to contest for the Golden State throne. Perhaps Hu Sang Hu's assassination of Wei Shao Wang Wan Yan Yong Ji was also the Wing King using someone else's blade!"
-    qcTranslated: "But he chose to change his mind at the last moment, reaping the benefit like a fisherman. Allowing the Wulin Alliance and the Supreme Bliss Sect to mutually weaken each other, he could preserve his strength to contest for the Golden State throne. Perhaps Hu Sha Hu's assassination of King Wei Shao, Wan Yan Yong Ji, was also the Wing King using someone else's blade!"
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: UntranslatedPinyin
-    qcDefectCategories:
-    - UntranslatedPinyin
-    - OtherNamedDefect
+    text: "往少说可以令极乐教投鼠忌器，孤立无援。往多了说，甚至可以藉势奠定将来伐夏的基础……当然，那得视乎西夏投注多少国力支持极乐教了。"
+    translated: "On the one hand, it could make the Blissful Sect hesitate and act cautiously due to a lack of support; on the other hand, if they invest heavily in supporting the Blissful Sect, it could provide an opportunity to lay the groundwork for future campaigns against Western Xia... Of course, this depends on how much of their national resources Western Xia allocates to the Blissful Sect."
+    qcReviewedText: "On the one hand, it could make the Blissful Sect hesitate and act cautiously due to a lack of support; on the other hand, if they invest heavily in supporting the Blissful Sect, it could provide an opportunity to lay the groundwork for future campaigns against Western Xia... Of course, this depends on how much of their national resources Western Xia allocates to the Blissful Sect."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0019_01_129,……。"
 - raw: "Story/D_S0019_01_130,这些人一个个都各怀鬼胎，嘶，真可怕。"
   splits:
@@ -20107,12 +20096,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0301_01_01_007,还是打不过赵师兄。都说你是外姓弟子，怎么武功好似还强胜许多姓唐的入室师兄？"
+- raw: "Story/D_S0301_01_01_007,还是打不过赵大哥。都说你是外姓弟子，怎么武功好似还强胜许多姓唐的入室师兄？"
   splits:
   - split: 1
-    text: "还是打不过赵师兄。都说你是外姓弟子，怎么武功好似还强胜许多姓唐的入室师兄？"
-    translated: "I still can't match Brother Zhao. They say you are an outsider disciple, yet your martial arts seem to surpass many of the inner disciples with the surname Tang."
-    qcReviewedText: "I still can't match Brother Zhao. They say you are an outsider disciple, yet your martial arts seem to surpass many of the inner disciples with the surname Tang."
+    text: "还是打不过赵大哥。都说你是外姓弟子，怎么武功好似还强胜许多姓唐的入室师兄？"
+    translated: "I still can't beat Big Brother Zhao. They all say you're an outer-clan disciple, so how come your martial arts seem stronger than those of the inner-clan Senior Brothers surnamed Tang?"
+    qcReviewedText: "I still can't beat Big Brother Zhao. They all say you're an outer-clan disciple, so how come your martial arts seem stronger than those of the inner-clan Senior Brothers surnamed Tang?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24989,12 +24978,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0401_01_004,反正这地方没人住吗，好过去弟子房和人挤。"
+- raw: "Story/D_S0401_01_004,反正这地方没人住嘛，好过去弟子房和人挤。"
   splits:
   - split: 1
-    text: "反正这地方没人住吗，好过去弟子房和人挤。"
-    translated: "It's not like anyone lives here anyway. It's better than squeezing into the disciple quarters with everyone else."
-    qcReviewedText: "It's not like anyone lives here anyway. It's better than squeezing into the disciple quarters with everyone else."
+    text: "反正这地方没人住嘛，好过去弟子房和人挤。"
+    translated: "Anyway, there's no one living in this place anyway, so it's better than staying in the disciples' quarters and dealing with the crowds."
+    qcReviewedText: "Anyway, there's no one living in this place anyway, so it's better than staying in the disciples' quarters and dealing with the crowds."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25889,18 +25878,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0501_01_003,好个的吞天魔法，不单吸我内力，而且害人八脉皆伤。我被夺的内力从此不能再生，难道我真要从头练起吗……？"
+- raw: "Story/D_S0501_01_003,好个吞天魔法，不单吸我内力，而且害人八脉皆伤。我被夺的内力从此不能再生，难道我真要从头练起吗……？"
   splits:
   - split: 1
-    text: "好个的吞天魔法，不单吸我内力，而且害人八脉皆伤。我被夺的内力从此不能再生，难道我真要从头练起吗……？"
-    translated: "What a formidable swallowing magic! Not only does it drain my internal energy, but it also injures all eight meridians of others. The internal energy that has been taken from me can never be regenerated. Am I really going to have to start cultivating from scratch...?"
-    qcReviewedText: "What a formidable swallowing magic! Not only does it drain my internal energy, but it also injures all eight meridians of others. The internal energy that has been taken from me can never be regenerated. Am I really going to have to start cultivating from scratch...?"
-    qcTranslated: "What a formidable swallowing magic! Not only does it drain my Inner Power, but it also injures all eight meridians of others. The Inner Power that has been taken from me can never be regenerated. Am I really going to have to start cultivating from scratch...?"
+    text: "好个吞天魔法，不单吸我内力，而且害人八脉皆伤。我被夺的内力从此不能再生，难道我真要从头练起吗……？"
+    translated: "This Devouring Magic is no good; it not only drains my Inner Power but also damages the eight major energy channels, leaving me unable to regenerate the power that was taken from me. Am I really going to have to start over from scratch...?"
+    qcReviewedText: "This Devouring Magic is no good; it not only drains my Inner Power but also damages the eight major energy channels, leaving me unable to regenerate the power that was taken from me. Am I really going to have to start over from scratch...?"
+    qcTranslated: "What a Devouring Magic; it not only drains my Inner Power but also damages the eight major energy channels, leaving me unable to regenerate the power that was taken from me. Am I really going to have to start over from scratch...?"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DomainTerm
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - DomainTerm
+    - MeaningReversal
 - raw: "Story/D_S0501_01_004,偏生在师门正需要我出力的时候，我怎能如此不济。"
   splits:
   - split: 1
@@ -28247,12 +28236,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0601_01_008,我不肯，你就不会强迫我吗？半点气概都没有。"
+- raw: "Story/D_S0601_01_008,人家害羞嘛，我不肯，你就不会强迫我吗？半点气概都没有。"
   splits:
   - split: 1
-    text: "我不肯，你就不会强迫我吗？半点气概都没有。"
-    translated: "If I refuse, you won't force me, will you? You have no backbone at all."
-    qcReviewedText: "If I refuse, you won't force me, will you? You have no backbone at all."
+    text: "人家害羞嘛，我不肯，你就不会强迫我吗？半点气概都没有。"
+    translated: "I'm shy, you know. If I don't want to, wouldn't you force me? You don't have any courage at all."
+    qcReviewedText: "I'm shy, you know. If I don't want to, wouldn't you force me? You don't have any courage at all."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28292,15 +28281,6 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0601_01_013,……阿活，本梅有种不祥预感，总觉得一让你得手，你就会毫无悬念的消失，太不吉利了。"
-  splits:
-  - split: 1
-    text: "……阿活，本梅有种不祥预感，总觉得一让你得手，你就会毫无悬念的消失，太不吉利了。"
-    translated: "...A'Huo, Brother Mei has an ominous feeling. He feels that as soon as you get your hands on it, you will vanish without a trace, which is very inauspicious."
-    qcReviewedText: "...A'Huo, Brother Mei has an ominous feeling. He feels that as soon as you get your hands on it, you will vanish without a trace, which is very inauspicious."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
 - raw: "Story/D_S0601_01_014,掌派人点名，小梅自当随侍左右。无论是暗杀、护卫、烹饪，还是暖床，都是奴家拿手好戏。"
   splits:
   - split: 1
@@ -28319,12 +28299,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0601_01_016,是是是～谨遵掌派人谕令。别再说教啦，尝尝这个。"
+- raw: "Story/D_S0601_01_016,是是是～谨遵掌派人法谕。别再说教啦，尝尝这个。"
   splits:
   - split: 1
-    text: "是是是～谨遵掌派人谕令。别再说教啦，尝尝这个。"
-    translated: "Yes, yes, yes-I'll strictly follow the orders of the sect leader. Stop lecturing me, and try this instead."
-    qcReviewedText: "Yes, yes, yes-I'll strictly follow the orders of the sect leader. Stop lecturing me, and try this instead."
+    text: "是是是～谨遵掌派人法谕。别再说教啦，尝尝这个。"
+    translated: "Yes, yes, yes~ I will follow the master's instructions carefully. No more lecturing, try this instead."
+    qcReviewedText: "Yes, yes, yes~ I will follow the master's instructions carefully. No more lecturing, try this instead."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28585,15 +28565,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0601_01_041,……武林大会，我当然会去的。"
+- raw: "Story/D_S0601_01_041,……武林大会呢，我当然会去的。"
   splits:
   - split: 1
-    text: "……武林大会，我当然会去的。"
-    translated: "......Wulin Conference, I will definitely go."
-    qcReviewedText: "......Wulin Conference, I will definitely go."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    text: "……武林大会呢，我当然会去的。"
+    translated: "..."
+    qcReviewedText: "..."
+    qcTranslated: "...As for the Wulin Tournament, I will certainly attend."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
 - raw: "Story/D_S0601_01_042,就算你不吩咐我，我也会偷偷随行。谁想害你，我便抢先把谁推下楼梯。"
   splits:
   - split: 1
@@ -29116,12 +29099,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0603_02_004,你相貌太过娇美，扮作男子，还不是一点被人看穿？不成。"
+- raw: "Story/D_S0603_02_004,你相貌太过娇美，扮作男子，还不是一眼被人看穿？不成。"
   splits:
   - split: 1
-    text: "你相貌太过娇美，扮作男子，还不是一点被人看穿？不成。"
-    translated: "Your appearance is too delicate; disguising as a man won't work-how could you not be noticed? It's impossible."
-    qcReviewedText: "Your appearance is too delicate; disguising as a man won't work-how could you not be noticed? It's impossible."
+    text: "你相貌太过娇美，扮作男子，还不是一眼被人看穿？不成。"
+    translated: "You're too beautiful to pass off as a man; people would see through your disguise in an instant. No good."
+    qcReviewedText: "You're too beautiful to pass off as a man; people would see through your disguise in an instant. No good."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

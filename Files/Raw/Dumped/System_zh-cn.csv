@@ -43,6 +43,10 @@ System/AutoSaveBattle,战斗
 System/Skip,快带
 System/Operate,操作
 System/BackupSuccess,数据备份完成
+System/MultiKills_01,牛刀小试
+System/MultiKills_02,大显身手
+System/MultiKills_03,大开杀戒
+System/MultiKills_04,所向披靡
 System/Title/Setting,设定
 System/Title/Status,状态
 System/Title/Alchemy,炼丹
@@ -80,6 +84,7 @@ System/Title/Quit,离开
 System/Title/AlreadyDevelop,已开发
 System/Title/FateBonus,继承
 System/Title/Reset,复原
+System/Title/NextLevel,下一级
 System/Upgrade/Melee,武器
 System/Upgrade/Equip,防具
 System/Upgrade/Dart,平射
@@ -116,7 +121,8 @@ System/DevelopMouse,长按以开发
 System/ConfirmSave,确定覆盖目前的纪录吗?
 System/ConfirmDelete,确定删除选择的纪录吗？
 System/CostAction,消耗行动 {0}
-System/ConfirmBonusText,此页面有已分配的点数尚未确定
+System/ConfirmBonusText,确定以目前的分配开始游戏？
+System/FateBonus/Start,开始
 System/CharacterInfo,列传
 System/Shop,商店
 System/NoSellItem,没有任何的杂物。
@@ -143,6 +149,7 @@ System/BattleVictory,胜
 System/BattleLose,败
 System/BattleVictoryText_01,大获全胜
 System/BattleLoseText_01,一败涂地
+System/BattleDodge,闪避
 System/BattleTimeoutText_01,时间结束
 System/BattleGetMoney,获得 {0}钱
 System/EmptyBattleSkill,没朋友
@@ -204,6 +211,11 @@ SystemSetting/Game/ManualDestiny,手动启动天命轮盘
 SystemSetting/Game/AutoSave,养成回合自动存档
 SystemSetting/Game/SkipUnreadStory,可快转未读文字
 SystemSetting/Game/ReadStoryColor,已读文字变色
+SystemSetting/Game/BraveMode,勇者模式
+SystemSetting/Game/DialogUISize,对话介面
+SystemSetting/Game/DialogUISize_Normal,标准
+SystemSetting/Game/DialogUISize_Medium,中
+SystemSetting/Game/DialogUISize_Large,大
 SystemSetting/Graphic/Resolution,分辨率
 SystemSetting/Graphic/Fullscreen,全屏幕(只适用16:9比例显示器)
 SystemSetting/Graphic/GamepadIcon,控制器图示
@@ -266,3 +278,9 @@ BattleKey/Name/Skill_4,技能4
 BattleKey/Name/Setting,设定
 BattleKey/Name/Reset,预设
 System/StoryEvent,事件
+Pinball/Round,回合：{0}/{1}
+Pinball/Score,分数：{0}
+Pinball/TotalScore,总分：{0}
+Pinball/Shoot,发射
+Pinball/Shake,摇晃
+Pinball/Restart,下回合

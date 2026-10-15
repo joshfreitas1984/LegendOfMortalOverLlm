@@ -123,11 +123,14 @@
   splits:
   - split: 1
     text: "点苍双尊费尽心思勘误、制止，带得意弟子白虹剑客、朝阳剑客，加上苍松剑客，将杀亲犯全都斩去手腕，逐出师门，移送官府，这种邪说才终于消失。"
-    translated: "Diancang's dual masters put in great effort to correct errors and put a stop to them. They took their proud disciples, Bai Hong the Swordmaster and Chao Yang the Swordmaster, along with Cang Song the Swordmaster, to sever the wrists of all those who committed familial murder, expelling them from the sect and handing them over to the authorities. This kind of heresy finally came to an end."
-    qcReviewedText: "Diancang's dual masters put in great effort to correct errors and put a stop to them. They took their proud disciples, Bai Hong the Swordmaster and Chao Yang the Swordmaster, along with Cang Song the Swordmaster, to sever the wrists of all those who committed familial murder, expelling them from the sect and handing them over to the authorities. This kind of heresy finally came to an end."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "The Two Venerables of Diancang spared no effort to correct errors and put a stop to the heresy. They brought along their proud disciples, the White Rainbow Swordsman and the Rising Sun Swordsman, as well as the Pine Swordsman, and had all the kin-slaying offenders have their wrists severed, were expelled from the sect, and handed over to the authorities. Only then did this kind of evil doctrine finally disappear."
+    qcReviewedText: "The Two Venerables of Diancang spared no effort to correct errors and put a stop to the heresy. They brought along their proud disciples, the White Rainbow Swordsman and the Rising Sun Swordsman, as well as the Pine Swordsman, and had all the kin-slaying offenders have their wrists severed, were expelled from the sect, and handed over to the authorities. Only then did this kind of evil doctrine finally disappear."
+    qcTranslated: "The Two Venerables of Diancang spared no effort to correct errors and put a stop to the heresy. They brought along their proud disciples, the White Rainbow Swordsman and the Rising Sun Swordsman, as well as the Pine Swordsman, and had all the kin-slaying offenders' wrists severed, expelled them from the sect, and handed them over to the authorities. Only then did this kind of evil doctrine finally disappear."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
 - raw: "Story/D_Talk_Brother3_02_02_001,每个艺成下山闯荡的点苍弟子，回家都会被恩师赐一个外号。"
   splits:
   - split: 1
@@ -141,14 +144,11 @@
   splits:
   - split: 1
     text: "好比「白虹剑客」徐光辉、「朝阳剑客」盛鸿年、「苍松剑客」叶云舟，掌门观云客年轻时叫「观云剑客」，听海生叫「听海剑客」。以此推类。"
-    translated: "Just like White Rainbow Swordman Xu Guanghui, Rising Sun Swordman Sheng Hongnian, and Azure Pine Swordman Ye Yunzhou, Sect Leader Guan Yun Ke was known as the Cloud-Gazing Swordman in their youth, and Ting Haisheng was called the Sea-Listening Swordman. By this pattern, we can infer similar names."
-    qcReviewedText: "Just like White Rainbow Swordman Xu Guanghui, Rising Sun Swordman Sheng Hongnian, and Azure Pine Swordman Ye Yunzhou, Sect Leader Guan Yun Ke was known as the Cloud-Gazing Swordman in their youth, and Ting Haisheng was called the Sea-Listening Swordman. By this pattern, we can infer similar names."
-    qcTranslated: "Just like White Rainbow Swordman Xu Guanghui, Rising Sun Swordman Sheng Hongnian, and Azure Pine Swordman Ye Yunzhou, Sect Leader Guan Yun Ke was known as the Cloud-Gazing Swordman in his youth, and Ting Haisheng was called the Sea-Listening Swordman. By this pattern, we can infer similar names."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "Take the White Rainbow Swordsman Xu Guanghui, the Rising Sun Swordsman Sheng Hongnian, and the Pine Swordsman Ye Yunzhou. When the Sect Leader Guan Yun Ke was young, he was known as the Cloud-Gazing Swordsman, and Ting Haisheng was called the Sea-Listening Swordsman. By this analogy."
+    qcReviewedText: "Take the White Rainbow Swordsman Xu Guanghui, the Rising Sun Swordsman Sheng Hongnian, and the Pine Swordsman Ye Yunzhou. When the Sect Leader Guan Yun Ke was young, he was known as the Cloud-Gazing Swordsman, and Ting Haisheng was called the Sea-Listening Swordsman. By this analogy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Talk_Brother3_02_02_003,其中叶云舟更是点苍当代的佼佼者，一出道就以快剑震惊武林。人又谦虚，颇受江湖好评，都说他是点苍第一快剑手。"
   splits:
   - split: 1
@@ -1079,8 +1079,8 @@
   splits:
   - split: 1
     text: "铁拳掌门雷谦，在江湖不太出名，据说是一位铁匠。对了，铁拳门打造的兵器，也是江湖一绝。听说火炎山剑阁从前就是百年前铁拳门分家出去独立的。"
-    translated: "Iron Fist sect master Lei Qian is not very well-known in the Jianghu. It is said that he is a blacksmith by trade. By the way, weapons forged by the Iron Fist sect are also considered one of the marvels of the Jianghu. Legend has it that Fire Blaze Mountain Sword Pavilion once separated from the Iron Fist sect about a hundred years ago."
-    qcReviewedText: "Iron Fist sect master Lei Qian is not very well-known in the Jianghu. It is said that he is a blacksmith by trade. By the way, weapons forged by the Iron Fist sect are also considered one of the marvels of the Jianghu. Legend has it that Fire Blaze Mountain Sword Pavilion once separated from the Iron Fist sect about a hundred years ago."
+    translated: "Lei Qian, the Sect Leader of Iron Fist, is not very famous in Jianghu. It's said that he is a blacksmith. By the way, the weapons forged by the Iron Fist sect are also unparalleled in Jianghu. Apparently, Flame Mountain Sword Pavilion was once an independent branch that split off from Iron Fist a hundred years ago."
+    qcReviewedText: "Lei Qian, the Sect Leader of Iron Fist, is not very famous in Jianghu. It's said that he is a blacksmith. By the way, the weapons forged by the Iron Fist sect are also unparalleled in Jianghu. Apparently, Flame Mountain Sword Pavilion was once an independent branch that split off from Iron Fist a hundred years ago."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1167,9 +1167,9 @@
   splits:
   - split: 1
     text: "那便是火龙仙君座下，飞天门大弟子，人称「道法将军」的丹霞子道长。"
-    translated: "That is the great disciple of the Fire Dragon Immortal Monarch, Flying Heaven Gate, Daoist Danxiazi, known as the 'Way Law General.'"
-    qcReviewedText: "That is the great disciple of the Fire Dragon Immortal Monarch, Flying Heaven Gate, Daoist Danxiazi, known as the 'Way Law General.'"
-    qcTranslated: "That is the great disciple of the Fire Dragon Immortal Monarch, Flying Heaven Gate, Daoist Danxiazi, known as the 'Dao Fa General.'"
+    translated: "That is Danxiazi, the Daoist known as the Dao Method General, who is the top disciple of the Fire Dragon Immortal Monarch and the leader of the Flying Heaven Sect."
+    qcReviewedText: "That is Danxiazi, the Daoist known as the Dao Method General, who is the top disciple of the Fire Dragon Immortal Monarch and the leader of the Flying Heaven Sect."
+    qcTranslated: "That is Danxiazi, the Daoist known as the Dao Method General, who is the top disciple of the Fire Dragon Immortal Monarch and the leader of the Flying Heaven Gate."
     qcStatus: Corrected
     flaggedForQcReview: true
     qcQualityScore: 0
@@ -1189,14 +1189,14 @@
   splits:
   - split: 1
     text: "他与驻守襄阳的士兵同吃同住，与襄阳守将赵方老将军议论军机，虽不是真的入伍从军，却备得军中将士信赖，敢以性命相托。所以才被尊称为「道法将军」。"
-    translated: "He lived and ate with the soldiers stationed in Xiangyang, discussed military matters with the veteran general Zhao Fang, though he did not actually enlist. Yet, he earned the trust of the troops, to whom they would entrust their lives. This is why he was honored as the 'Daoist Law General.'"
-    qcReviewedText: "He lived and ate with the soldiers stationed in Xiangyang, discussed military matters with the veteran general Zhao Fang, though he did not actually enlist. Yet, he earned the trust of the troops, to whom they would entrust their lives. This is why he was honored as the 'Daoist Law General.'"
-    qcTranslated: "He lived and ate with the soldiers stationed in Xiangyang, discussed military matters with the veteran general Zhao Fang, the garrison commander of Xiangyang, though he did not actually enlist. Yet, he earned the trust of the troops, to whom they would entrust their lives. This is why he was honored as the 'Daoist Law General.'"
+    translated: "He lived and ate with the soldiers stationed in Xiangyang, discussing military affairs with General Zhao Fang, the veteran commander of Xiangyang. Though not officially enlisted, he earned the trust of the troops and was willing to entrust their lives to him. That's why he was respectfully referred to as the Dao Method General."
+    qcReviewedText: "He lived and ate with the soldiers stationed in Xiangyang, discussing military affairs with General Zhao Fang, the veteran commander of Xiangyang. Though not officially enlisted, he earned the trust of the troops and was willing to entrust their lives to him. That's why he was respectfully referred to as the Dao Method General."
+    qcTranslated: "He lived and ate with the soldiers stationed in Xiangyang, discussing military affairs with General Zhao Fang, the veteran commander of Xiangyang. Though not officially enlisted, he earned the trust of the troops, who were willing to entrust their lives to him. That's why he was respectfully referred to as the Dao Method General."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - DroppedContent
+    - MeaningReversal
 - raw: "Story/D_Talk_Brother3_06_03_005,依我看，这位丹霞子道长可能会是崆峒掌派人头选。武功既强，声望亦高，说不定当个武林盟主都成。"
   splits:
   - split: 1
@@ -7714,15 +7714,11 @@
   splits:
   - split: 1
     text: "那、那好，就依大娘子的，五十文就五十文吧！"
-    translated: "Well, well, okay, just follow the Great Aunt's, fifty coins, fifty coins!"
-    qcReviewedText: "Well, well, okay, just follow the Great Aunt's, fifty coins, fifty coins!"
-    qcTranslated: "Well, w-well, okay, I'll go with the Great Aunt's decision. Fifty coins it is!"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
-    - UnnaturalPhrasing
+    translated: "Then, then fine, as Madam wishes. Fifty wen it is!"
+    qcReviewedText: "Then, then fine, as Madam wishes. Fifty wen it is!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0202_02_01_026,我教了你这样一个秘诀，你不感谢我吗？这么多冰糖葫芦，却要我们三人怎么拿？不如我再加五文，你杆棍也一并给了我吧。"
   splits:
   - split: 1
@@ -24227,8 +24223,8 @@
   splits:
   - split: 1
     text: "大鹦哥，你在火炎山剑阁曾任要职，前途坦荡。所以被逐出师门，是因不忍业师欲效干将莫邪，以童子祭剑，私下放走孩童，以此触怒师门，反遭构陷。"
-    translated: "Big Parrot, you once held a high position in the Fire Mountain Sword Hall, with a bright future ahead. Therefore, being expelled from the sect was due to your refusal to let your master, who wished to imitate Ganjiang and Moxie, perform child sacrifices to forge swords. You secretly released the child, thus angering the sect and being framed as a result."
-    qcReviewedText: "Big Parrot, you once held a high position in the Fire Mountain Sword Hall, with a bright future ahead. Therefore, being expelled from the sect was due to your refusal to let your master, who wished to imitate Ganjiang and Moxie, perform child sacrifices to forge swords. You secretly released the child, thus angering the sect and being framed as a result."
+    translated: "Big Macaw, you once held a high position at the Flame Mountain Sword Pavilion and had a bright future ahead of you. But you were expelled from your sect because you couldn't bear to see your master emulate Gan Jiang and Moye by sacrificing a child to forge a sword. You secretly saved the child, which angered your sect and led to false accusations against you."
+    qcReviewedText: "Big Macaw, you once held a high position at the Flame Mountain Sword Pavilion and had a bright future ahead of you. But you were expelled from your sect because you couldn't bear to see your master emulate Gan Jiang and Moye by sacrificing a child to forge a sword. You secretly saved the child, which angered your sect and led to false accusations against you."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

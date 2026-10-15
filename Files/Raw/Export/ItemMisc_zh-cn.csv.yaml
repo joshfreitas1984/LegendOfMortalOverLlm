@@ -487,6 +487,42 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
+- raw: "Misc/Name/7004,赵活磨喝乐"
+  splits:
+  - split: 1
+    text: "赵活磨喝乐"
+- raw: "Misc/Desc/7004,赵活磨喝乐"
+  splits:
+  - split: 1
+    text: "赵活磨喝乐"
+- raw: "Misc/Name/7005,磨喝乐 红"
+  splits:
+  - split: 1
+    text: "磨喝乐"
+  - split: 1
+    subIndex: 1
+    text: "红"
+  templates:
+  - split: 1
+    template: "{0} {1}"
+- raw: "Misc/Desc/7005,某人手削的木头人像，比绿色的用心。"
+  splits:
+  - split: 1
+    text: "某人手削的木头人像，比绿色的用心。"
+- raw: "Misc/Name/7006,磨喝乐 绿"
+  splits:
+  - split: 1
+    text: "磨喝乐"
+  - split: 1
+    subIndex: 1
+    text: "绿"
+  templates:
+  - split: 1
+    template: "{0} {1}"
+- raw: "Misc/Desc/7006,某人手削的木头人像，做工粗糙。"
+  splits:
+  - split: 1
+    text: "某人手削的木头人像，做工粗糙。"
 - raw: "Misc/Name/7100,失败木剑"
   splits:
   - split: 1
@@ -525,6 +561,14 @@
   splits:
   - split: 1
     text: "龙湘被偷走的盘缠。"
+- raw: "Misc/Name/7201,金叶子"
+  splits:
+  - split: 1
+    text: "金叶子"
+- raw: "Misc/Desc/7201,江湖快报印花兑换的纪念金叶子，可以换钱。"
+  splits:
+  - split: 1
+    text: "江湖快报印花兑换的纪念金叶子，可以换钱。"
 - raw: "Misc/Name/7300,金念珠"
   splits:
   - split: 1

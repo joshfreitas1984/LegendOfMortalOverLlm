@@ -35,6 +35,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/player_hand,赵活的手"
+  splits:
+  - split: 1
+    text: "赵活的手"
+    translated: "Zhao Huo's hand"
+    qcReviewedText: "Zhao Huo's hand"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/player_young,少年赵活"
   splits:
   - split: 1
@@ -68,6 +77,15 @@
     text: "赵活"
     translated: "Zhao Huo"
     qcReviewedText: "Zhao Huo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/player_unknown,赵活（？）"
+  splits:
+  - split: 1
+    text: "赵活（？）"
+    translated: "Zhao Huo (?)"
+    qcReviewedText: "Zhao Huo (?)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -329,6 +347,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/special805_1,阿鹤侠"
+  splits:
+  - split: 1
+    text: "阿鹤侠"
+    translated: "Crane Hero"
+    qcReviewedText: "Crane Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/special806,勾魂叟"
   splits:
   - split: 1
@@ -376,6 +403,15 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/special811,唐衫"
+  splits:
+  - split: 1
+    text: "唐衫"
+    translated: "Tang Shan"
+    qcReviewedText: "Tang Shan"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special811_2,唐衫"
   splits:
   - split: 1
     text: "唐衫"
@@ -654,6 +690,135 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/special838,郁父"
+  splits:
+  - split: 1
+    text: "郁父"
+    translated: "Father Yu"
+    qcReviewedText: "Father Yu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special838_1,汉子"
+  splits:
+  - split: 1
+    text: "汉子"
+    translated: "Manly man"
+    qcReviewedText: "Manly man"
+    qcTranslated: "Man"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "Character/special838_2,郁父"
+  splits:
+  - split: 1
+    text: "郁父"
+    translated: "Father Yu"
+    qcReviewedText: "Father Yu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special839,郁母"
+  splits:
+  - split: 1
+    text: "郁母"
+    translated: "Mother Yu"
+    qcReviewedText: "Mother Yu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special839_1,妇人"
+  splits:
+  - split: 1
+    text: "妇人"
+    translated: "Woman"
+    qcReviewedText: "Woman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special840,郁宝花"
+  splits:
+  - split: 1
+    text: "郁宝花"
+    translated: "Yu Baohua"
+    qcReviewedText: "Yu Baohua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special840_1,少女"
+  splits:
+  - split: 1
+    text: "少女"
+    translated: "Young woman"
+    qcReviewedText: "Young woman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special841,郁城"
+  splits:
+  - split: 1
+    text: "郁城"
+    translated: "Yu Cheng"
+    qcReviewedText: "Yu Cheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special841_1,少年"
+  splits:
+  - split: 1
+    text: "少年"
+    translated: "Youth"
+    qcReviewedText: "Youth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special841_2,郁城"
+  splits:
+  - split: 1
+    text: "郁城"
+    translated: "Yu Cheng"
+    qcReviewedText: "Yu Cheng"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special842,赵方"
+  splits:
+  - split: 1
+    text: "赵方"
+    translated: "Zhao Fang"
+    qcReviewedText: "Zhao Fang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special843,周浊"
+  splits:
+  - split: 1
+    text: "周浊"
+    translated: "Zhou Zhuo"
+    qcReviewedText: "Zhou Zhuo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special844,胡嵩"
+  splits:
+  - split: 1
+    text: "胡嵩"
+    translated: "Hu Song"
+    qcReviewedText: "Hu Song"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special845,裘志攘"
+  splits:
+  - split: 1
+    text: "裘志攘"
+    translated: "Qiu Zhirang"
+    qcReviewedText: "Qiu Zhirang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/special101,南宫远"
   splits:
   - split: 1
@@ -862,6 +1027,52 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/special213_0,？？？"
+- raw: "Character/special214_0,护卫"
+  splits:
+  - split: 1
+    text: "护卫"
+    translated: "Guard"
+    qcReviewedText: "Guard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special214_1,丁承烈"
+  splits:
+  - split: 1
+    text: "丁承烈"
+    translated: "Ding Chenglie"
+    qcReviewedText: "Ding Chenglie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special215_0,？？？"
+- raw: "Character/special215_1,孟珙"
+  splits:
+  - split: 1
+    text: "孟珙"
+    translated: "Meng Gong"
+    qcReviewedText: "Meng Gong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special216,姚不知名"
+  splits:
+  - split: 1
+    text: "姚不知名"
+    translated: "Yao Buzhiming"
+    qcReviewedText: "Yao Buzhiming"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/special217,千面人魔"
+  splits:
+  - split: 1
+    text: "千面人魔"
+    translated: "Thousand Faced Demon"
+    qcReviewedText: "Thousand Faced Demon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/special401,王二壮"
   splits:
   - split: 1
@@ -1063,26 +1274,6 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Character/girl3_1,？？？"
-- raw: "Character/girl3,夏玉莲(暂)"
-  splits:
-  - split: 1
-    text: "夏玉莲"
-    translated: "Summer Jade Lotus"
-    qcReviewedText: "Summer Jade Lotus(Temporarily)"
-    qcTranslated: "Xia Yulian(Temporarily)"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
-  - split: 1
-    subIndex: 1
-    text: "暂"
-    translated: "Temporarily"
-  templates:
-  - split: 1
-    template: "{0}({1})"
 - raw: "Character/girl4_1,少女"
   splits:
   - split: 1
@@ -1164,6 +1355,48 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/girl5_7,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+    translated: "Yu Xiaomei"
+    qcReviewedText: "Yu Xiaomei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl5_8,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+    translated: "Yu Xiaomei"
+    qcReviewedText: "Yu Xiaomei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl5_9,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+    translated: "Yu Xiaomei"
+    qcReviewedText: "Yu Xiaomei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl5_10_1,██"
+- raw: "Character/girl5_10_2,██"
+- raw: "Character/girl5_10_3,██"
+- raw: "Character/girl5_10_4,██"
+- raw: "Character/girl5_10_5,██"
+- raw: "Character/girl5_10_6,██"
+- raw: "Character/girl5_11,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+    translated: "Yu Xiaomei"
+    qcReviewedText: "Yu Xiaomei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/girl6,夏侯兰"
   splits:
   - split: 1
@@ -1191,6 +1424,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/girl6_3,夏侯梅"
+  splits:
+  - split: 1
+    text: "夏侯梅"
+    translated: "Xiahou Mei"
+    qcReviewedText: "Xiahou Mei"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/girl7,郁竹"
   splits:
   - split: 1
@@ -1210,6 +1452,42 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/girl7_2,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl7_3,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl7_4,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl7_5,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl7_6,郁竹"
   splits:
   - split: 1
     text: "郁竹"
@@ -1242,6 +1520,24 @@
     text: "魏菊"
     translated: "Wei Ju"
     qcReviewedText: "Wei Ju"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl8_2,魏菊"
+  splits:
+  - split: 1
+    text: "魏菊"
+    translated: "Wei Ju"
+    qcReviewedText: "Wei Ju"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/girl8_3,魏菊？"
+  splits:
+  - split: 1
+    text: "魏菊？"
+    translated: "Wei Ju?"
+    qcReviewedText: "Wei Ju?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1371,6 +1667,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/trainee013,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+    translated: "Tang Clan Disciple"
+    qcReviewedText: "Tang Clan Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee014,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+    translated: "Tang Clan Disciple"
+    qcReviewedText: "Tang Clan Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/trainee020,唐门弟子"
   splits:
   - split: 1
@@ -1417,6 +1731,15 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/trainee030,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+    translated: "Tang Clan Disciple"
+    qcReviewedText: "Tang Clan Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee031,唐门弟子"
   splits:
   - split: 1
     text: "唐门弟子"
@@ -1542,7 +1865,25 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Character/trainee204,飞天弟子"
+- raw: "Character/trainee204,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+    translated: "Yan Jiang"
+    qcReviewedText: "Yan Jiang"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee205,飞天弟子"
+  splits:
+  - split: 1
+    text: "飞天弟子"
+    translated: "Flying Heaven Disciple"
+    qcReviewedText: "Flying Heaven Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee206,飞天弟子"
   splits:
   - split: 1
     text: "飞天弟子"
@@ -1578,12 +1919,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Character/trainee214,铁拳弟子"
+- raw: "Character/trainee214,童大虫"
   splits:
   - split: 1
-    text: "铁拳弟子"
-    translated: "Iron Fist Disciple"
-    qcReviewedText: "Iron Fist Disciple"
+    text: "童大虫"
+    translated: "Tong Dachong"
+    qcReviewedText: "Tong Dachong"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1597,6 +1938,24 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/trainee215_1,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+    translated: "Iron Fist Disciple"
+    qcReviewedText: "Iron Fist Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee216,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+    translated: "Iron Fist Disciple"
+    qcReviewedText: "Iron Fist Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee217,铁拳弟子"
   splits:
   - split: 1
     text: "铁拳弟子"
@@ -1632,7 +1991,34 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Character/trainee224,夺魄弟子"
+- raw: "Character/trainee224,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+    translated: "Yu Lin"
+    qcReviewedText: "Yu Lin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee225,夺魄弟子"
+  splits:
+  - split: 1
+    text: "夺魄弟子"
+    translated: "Soul Stealer disciple"
+    qcReviewedText: "Soul Stealer disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee226,夺魄弟子"
+  splits:
+  - split: 1
+    text: "夺魄弟子"
+    translated: "Soul Stealer disciple"
+    qcReviewedText: "Soul Stealer disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee227,夺魄弟子"
   splits:
   - split: 1
     text: "夺魄弟子"
@@ -1668,12 +2054,48 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Character/trainee234,玄功弟子"
+- raw: "Character/trainee234,鞠冬音"
+  splits:
+  - split: 1
+    text: "鞠冬音"
+    translated: "Ju Dongyin"
+    qcReviewedText: "Ju Dongyin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee235,黄佩华"
+  splits:
+  - split: 1
+    text: "黄佩华"
+    translated: "Huang Peihua"
+    qcReviewedText: "Huang Peihua"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee236,玄功弟子"
   splits:
   - split: 1
     text: "玄功弟子"
     translated: "Mystic Skill Disciple"
     qcReviewedText: "Mystic Skill Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee237,玄功弟子"
+  splits:
+  - split: 1
+    text: "玄功弟子"
+    translated: "Mystic Skill Disciple"
+    qcReviewedText: "Mystic Skill Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee241,铁拳老弟子"
+  splits:
+  - split: 1
+    text: "铁拳老弟子"
+    translated: "Iron Fist senior disciple"
+    qcReviewedText: "Iron Fist senior disciple"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1822,6 +2244,15 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/trainee324,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+    translated: "Emei Disciple"
+    qcReviewedText: "Emei Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee325,峨嵋弟子"
   splits:
   - split: 1
     text: "峨嵋弟子"
@@ -2001,6 +2432,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/trainee381,雪山弟子"
+  splits:
+  - split: 1
+    text: "雪山弟子"
+    translated: "Snow Mountain Disciple"
+    qcReviewedText: "Snow Mountain Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/trainee401,点苍女弟子"
   splits:
   - split: 1
@@ -2037,6 +2477,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/trainee431,飞天女弟子"
+  splits:
+  - split: 1
+    text: "飞天女弟子"
+    translated: "Flying Heaven female disciple"
+    qcReviewedText: "Flying Heaven female disciple"
+    qcTranslated: "Sky-Flying Female Disciple"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
 - raw: "Character/trainee491,锦香弟子"
   splits:
   - split: 1
@@ -2055,12 +2507,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Character/trainee493,锦香弟子"
+- raw: "Character/trainee493,盛雪"
   splits:
   - split: 1
-    text: "锦香弟子"
-    translated: "Jinxiang Disciple"
-    qcReviewedText: "Jinxiang Disciple"
+    text: "盛雪"
+    translated: "Sheng Xue"
+    qcReviewedText: "Sheng Xue"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -2173,6 +2625,15 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/trainee_girl10,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+    translated: "Tang Clan female disciple"
+    qcReviewedText: "Tang Clan female disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/trainee_girl11,唐门女弟子"
   splits:
   - split: 1
     text: "唐门女弟子"
@@ -2613,6 +3074,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/stranger4,路人"
+  splits:
+  - split: 1
+    text: "路人"
+    translated: "Passerby"
+    qcReviewedText: "Passerby"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/stranger5,路人"
+  splits:
+  - split: 1
+    text: "路人"
+    translated: "Passerby"
+    qcReviewedText: "Passerby"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/stone_trainee_1,飞石帮"
   splits:
   - split: 1
@@ -2982,6 +3461,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/blacksmith4,铁飞龙"
+  splits:
+  - split: 1
+    text: "铁飞龙"
+    translated: "Tie Feilong"
+    qcReviewedText: "Tie Feilong"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/blacksmith5,铁飞鹰"
+  splits:
+  - split: 1
+    text: "铁飞鹰"
+    translated: "Tie Feiying"
+    qcReviewedText: "Tie Feiying"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/master99,绝世高手"
   splits:
   - split: 1
@@ -3081,6 +3578,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/women5,妇人"
+  splits:
+  - split: 1
+    text: "妇人"
+    translated: "Woman"
+    qcReviewedText: "Woman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/women6,妇人"
+  splits:
+  - split: 1
+    text: "妇人"
+    translated: "Woman"
+    qcReviewedText: "Woman"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/female1,女子"
   splits:
   - split: 1
@@ -3127,6 +3642,15 @@
     qcQualityScore: 100
     qcDefectCategory: None
 - raw: "Character/aunt3,大妈"
+  splits:
+  - split: 1
+    text: "大妈"
+    translated: "Auntie"
+    qcReviewedText: "Auntie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/aunt4,大妈"
   splits:
   - split: 1
     text: "大妈"
@@ -3270,7 +3794,25 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Character/child_boy3,男童"
+  splits:
+  - split: 1
+    text: "男童"
+    translated: "Boy"
+    qcReviewedText: "Boy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Character/boy1,少年"
+  splits:
+  - split: 1
+    text: "少年"
+    translated: "Youth"
+    qcReviewedText: "Youth"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/boy2,少年"
   splits:
   - split: 1
     text: "少年"
@@ -3438,6 +3980,96 @@
     text: "回音"
     translated: "Echo"
     qcReviewedText: "Echo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/mother1,娘"
+  splits:
+  - split: 1
+    text: "娘"
+    translated: "Mother"
+    qcReviewedText: "Mother"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/father1,爹"
+  splits:
+  - split: 1
+    text: "爹"
+    translated: "Father"
+    qcReviewedText: "Father"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/maid1,婢女"
+  splits:
+  - split: 1
+    text: "婢女"
+    translated: "Maid"
+    qcReviewedText: "Maid"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/female_thief1,女飞贼"
+  splits:
+  - split: 1
+    text: "女飞贼"
+    translated: "Female Bandit"
+    qcReviewedText: "Female Bandit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/female_thief1_bucket,女飞贼"
+  splits:
+  - split: 1
+    text: "女飞贼"
+    translated: "Female Bandit"
+    qcReviewedText: "Female Bandit"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/military_doctor1,军医"
+  splits:
+  - split: 1
+    text: "军医"
+    translated: "Military Doctor"
+    qcReviewedText: "Military Doctor"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/drunkard1,醉汉"
+  splits:
+  - split: 1
+    text: "醉汉"
+    translated: "Drunkard"
+    qcReviewedText: "Drunkard"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/assassin1,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/assassin2,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Character/assassin3,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+    translated: "Assassin"
+    qcReviewedText: "Assassin"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

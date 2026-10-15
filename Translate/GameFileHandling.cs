@@ -82,5 +82,17 @@ public static class GameFileHandling
         "Mortal.Combat.TestCombatAvatarController/<Start>",
         "Mortal.Core.GameStatUtils,.cctor",
         "Mortal.Core.TestGameDateTime",
+
+        // Debug.Log/LogWarning/LogError-only text the player never sees (new in the Oct 2026 patch).
+        "Mortal.Battle.Girl_03_Npc_JumpState,OnUpdate,",
+        "Mortal.Battle.NpcSpawner,CreateReinforcement,",
+        "Mortal.Battle.BattleSupportEffectEvent,",
+        "Mortal.Core.AnimatorAssetController/<LoadData>",
+        "Mortal.Combat.S_053,AddStat,",
+        "Mortal.Combat.CombatVFXPreview,",
+        "Mortal.Combat.CombatActionController,GetActionByStat,",
+        "Mortal.Combat.CombatActionController,GetActionByPlayerAction,",
+        // LogMessage is gated on _debug. Offset-pinned so the other GetTotalDamage strings are unaffected.
+        "Mortal.Combat.CombatManager,GetTotalDamage,412,單次傷害上限",
     ];
 }

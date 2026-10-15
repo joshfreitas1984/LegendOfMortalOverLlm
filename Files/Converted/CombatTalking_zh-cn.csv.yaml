@@ -2401,8 +2401,8 @@
   splits:
   - split: 1
     text: "哇哈哈哈～阿活～阿鹤侠要啄出你的眼珠子！"
-    translated: "Wahahaha~ A'Huo~ A-Hexia wants to peck out your eyeballs!"
-    qcReviewedText: "Wahahaha~ A'Huo~ A-Hexia wants to peck out your eyeballs!"
+    translated: "Ha ha ha~ A'Huo~ Crane Hero is going to peck out your eyeballs!"
+    qcReviewedText: "Ha ha ha~ A'Huo~ Crane Hero is going to peck out your eyeballs!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3984,7 +3984,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatTalking/T0001_04_02_001,幸亏我只出了三成力，没伤着吧？"
+- raw: "CombatTalking/T0001_04_02_002,幸亏我只出了三成力，没伤着吧？"
   splits:
   - split: 1
     text: "幸亏我只出了三成力，没伤着吧？"
@@ -7906,7 +7906,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatTalking/S9904_01_02_001,少说废话，今天你我之中只能活一个！"
+- raw: "CombatTalking/S9904_01_02_002,少说废话，今天你我之中只能活一个！"
   splits:
   - split: 1
     text: "少说废话，今天你我之中只能活一个！"
@@ -8758,12 +8758,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatTalking/S0208_02_02_009,云裳！妳可千万抓稳了！"
+- raw: "CombatTalking/S0208_02_02_009,云裳！你可千万抓稳了！"
   splits:
   - split: 1
-    text: "云裳！妳可千万抓稳了！"
-    translated: "Yunshang! You must hold on tightly!"
-    qcReviewedText: "Yunshang! You must hold on tightly!"
+    text: "云裳！你可千万抓稳了！"
+    translated: "Cloud Robe! You have to hold on tight!"
+    qcReviewedText: "Cloud Robe! You have to hold on tight!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9175,6 +9175,2575 @@
     text: "这次你必死无疑！"
     translated: "This time, you are certain to die!"
     qcReviewedText: "This time, you are certain to die!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2600_01_01_001,欺人太甚！"
+  splits:
+  - split: 1
+    text: "欺人太甚！"
+    translated: "Too much bullying!"
+    qcReviewedText: "Too much bullying!"
+    qcTranslated: "You've gone too far!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "CombatTalking/S2600_01_01_002,就是欺负你，怎么样？怎么样啊！"
+  splits:
+  - split: 1
+    text: "就是欺负你，怎么样？怎么样啊！"
+    translated: "So what if I bully you? How are you going to do something about it?"
+    qcReviewedText: "So what if I bully you? How are you going to do something about it?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2600_02_01_001,还不适可而止吗！"
+  splits:
+  - split: 1
+    text: "还不适可而止吗！"
+    translated: "Isn't it time to stop now!"
+    qcReviewedText: "Isn't it time to stop now!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2600_02_01_002,要停止的只有你的呼吸，哇哈哈哈！"
+  splits:
+  - split: 1
+    text: "要停止的只有你的呼吸，哇哈哈哈！"
+    translated: "The only thing that will stop is your breathing, ha ha ha!"
+    qcReviewedText: "The only thing that will stop is your breathing, ha ha ha!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/2004_01_001,这鹤的步法非同小可，这……这是武功！\\n是极为奥妙的武功身法，牠真的是小梅！"
+  splits:
+  - split: 1
+    text: "这鹤的步法非同小可，这……这是武功！"
+    translated: "The crane's footwork is no ordinary skill; this... this is martial arts!"
+    qcReviewedText: "The crane's footwork is no ordinary skill; this... this is martial arts!\\nIt's an extremely profound martial arts agility technique; it really is Xiao Mei!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "是极为奥妙的武功身法，牠真的是小梅！"
+    translated: "It's an extremely profound martial arts agility technique; it really is Xiao Mei!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/2004_01_002,等等！等等，我不是故意撞见你变回原形的！女侠饶命！"
+  splits:
+  - split: 1
+    text: "等等！等等，我不是故意撞见你变回原形的！女侠饶命！"
+    translated: "Wait! Wait! I didn't mean to see you transform back to your original form! Lady Warrior, spare my life!"
+    qcReviewedText: "Wait! Wait! I didn't mean to see you transform back to your original form! Lady Warrior, spare my life!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/2004_01_003,等……你为何突然对我痛下杀手？\\n是因为我撞见你变回原形吗？"
+  splits:
+  - split: 1
+    text: "等……你为何突然对我痛下杀手？"
+    translated: "Wait... Why are you suddenly trying to kill me?"
+    qcReviewedText: "Wait... Why are you suddenly trying to kill me?\\nIs it because I saw you revert to your original form?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "是因为我撞见你变回原形吗？"
+    translated: "Is it because I saw you revert to your original form?"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/2004_01_004,有话好说！我不说出去便是！"
+  splits:
+  - split: 1
+    text: "有话好说！我不说出去便是！"
+    translated: "Let's talk reasonably! I won't say a word, okay!"
+    qcReviewedText: "Let's talk reasonably! I won't say a word, okay!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/2004_01_005,你、你再蛮不讲理，我可要还手了喔！"
+  splits:
+  - split: 1
+    text: "你、你再蛮不讲理，我可要还手了喔！"
+    translated: "You know, if you keep being unreasonable, I'll start fighting back!"
+    qcReviewedText: "You know, if you keep being unreasonable, I'll start fighting back!"
+    qcTranslated: "Y-y-you, if you keep being unreasonable, I'll start fighting back!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
+- raw: "CombatTalking/FireBird_001,嘎～～！"
+  splits:
+  - split: 1
+    text: "嘎～～！"
+    translated: "Gahhhh!!!"
+    qcReviewedText: "Gahhhh!!!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2900_03_01_001,啊哈哈……阿活，你武功真烂。"
+  splits:
+  - split: 1
+    text: "啊哈哈……阿活，你武功真烂。"
+    translated: "Hahaha...... A'Huo, your martial arts skills are really terrible."
+    qcReviewedText: "Hahaha...... A'Huo, your martial arts skills are really terrible."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_02_001,干嘛！不是要偷看小竹换衣的吗！"
+  splits:
+  - split: 1
+    text: "干嘛！不是要偷看小竹换衣的吗！"
+    translated: "What are you doing! Weren't you supposed to be sneaking a peek at Little Bamboo changing clothes!"
+    qcReviewedText: "What are you doing! Weren't you supposed to be sneaking a peek at Little Bamboo changing clothes!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_02_002,走啊！你走前面啊！突然拉开架式是想打架吗！"
+  splits:
+  - split: 1
+    text: "走啊！你走前面啊！突然拉开架式是想打架吗！"
+    translated: "Come on! You go ahead! Are you suddenly getting ready to fight or something?"
+    qcReviewedText: "Come on! You go ahead! Are you suddenly getting ready to fight or something?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_02_003,想我让道──"
+  splits:
+  - split: 1
+    text: "想我让道"
+    translated: "Want me to yield?"
+    qcReviewedText: "Want me to yield?──"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}──"
+- raw: "CombatTalking/S2901_03_02_004,先从你尸体上跨过去？好！"
+  splits:
+  - split: 1
+    text: "先从你尸体上跨过去？好！"
+    translated: "Step over your corpse first? Fine!"
+    qcReviewedText: "Step over your corpse first? Fine!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_02_005,至于杀人吗！"
+  splits:
+  - split: 1
+    text: "至于杀人吗！"
+    translated: "As for killing people!"
+    qcReviewedText: "As for killing people!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_02_006,有本事就来！"
+  splits:
+  - split: 1
+    text: "有本事就来！"
+    translated: "If you've got the guts, come on!"
+    qcReviewedText: "If you've got the guts, come on!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_03_001,你们别愣在那，快跑，这小子发狂了，我未必拦得住他！"
+  splits:
+  - split: 1
+    text: "你们别愣在那，快跑，这小子发狂了，我未必拦得住他！"
+    translated: "Don't just stand there, run! This kid has gone berserk, and I might not be able to stop him!"
+    qcReviewedText: "Don't just stand there, run! This kid has gone berserk, and I might not be able to stop him!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_04_001,大姊，别输给他！"
+  splits:
+  - split: 1
+    text: "大姊，别输给他！"
+    translated: "Big Sister, don't lose to them!"
+    qcReviewedText: "Big Sister, don't lose to them!"
+    qcTranslated: "Big Sister, don't lose to him!"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "CombatTalking/S2901_03_04_002,大姊！他在左边！现在到右边了！"
+  splits:
+  - split: 1
+    text: "大姊！他在左边！现在到右边了！"
+    translated: "Big sister! He's on the left! Now he's over on the right!"
+    qcReviewedText: "Big sister! He's on the left! Now he's over on the right!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2901_03_04_003,看招──铁臂神拳！"
+  splits:
+  - split: 1
+    text: "看招"
+    translated: "Watch out! Here I come!"
+    qcReviewedText: "Watch out! Here I come!──Iron Arm Divine Fist!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "铁臂神拳！"
+    translated: "Iron Arm Divine Fist!"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/S2910_01_001,喂，你这是干嘛！住手！"
+  splits:
+  - split: 1
+    text: "喂，你这是干嘛！住手！"
+    translated: "Hey, what are you doing! Stop!"
+    qcReviewedText: "Hey, what are you doing! Stop!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2910_01_002,小竹师妹，你别插手，当心受伤，来这边！"
+  splits:
+  - split: 1
+    text: "小竹师妹，你别插手，当心受伤，来这边！"
+    translated: "Junior Sister Xiaozhu, stay out of it, be careful not to get hurt, come over here!"
+    qcReviewedText: "Junior Sister Xiaozhu, stay out of it, be careful not to get hurt, come over here!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2910_01_003,废话少说，看剑！"
+  splits:
+  - split: 1
+    text: "废话少说，看剑！"
+    translated: "Less talk, more action! Watch the Sword!"
+    qcReviewedText: "Less talk, more action! Watch the Sword!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2310_01_001,两个小娃娃刀子戳人跟蚊子叮似的，使点劲啊！"
+  splits:
+  - split: 1
+    text: "两个小娃娃刀子戳人跟蚊子叮似的，使点劲啊！"
+    translated: "The two little kids are poking people with their knives like mosquitoes biting; put some effort into it!"
+    qcReviewedText: "The two little kids are poking people with their knives like mosquitoes biting; put some effort into it!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S0305_02_04_001,等、等等，赵活，不要打它！等会儿蓄力用尽，它自然就会停了！"
+  splits:
+  - split: 1
+    text: "等、等等，赵活，不要打它！等会儿蓄力用尽，它自然就会停了！"
+    translated: "Wait, wait, Zhao Huo, don't hit it! Soon enough, when its energy runs out, it will stop on its own!"
+    qcReviewedText: "Wait, wait, Zhao Huo, don't hit it! Soon enough, when its energy runs out, it will stop on its own!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S0305_02_04_002,我不打它，可它追着我打啊！"
+  splits:
+  - split: 1
+    text: "我不打它，可它追着我打啊！"
+    translated: "I don't hit them, but they keep hitting me!"
+    qcReviewedText: "I don't hit them, but they keep hitting me!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S0305_02_04_003,赵活，你……我只是叫你不要打牠，没叫你挨打啊！\\n没办法了，喝啊！"
+  splits:
+  - split: 1
+    text: "赵活，你……我只是叫你不要打牠，没叫你挨打啊！"
+    translated: "Zhao Huo, you... I just told you not to hit it, I didn't tell you to take the beating!"
+    qcReviewedText: "Zhao Huo, you... I just told you not to hit it, I didn't tell you to take the beating!\\nThere's no choice, drink up!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "没办法了，喝啊！"
+    translated: "There's no choice, drink up!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1508_01_01_001,……咦，不是要偷袭吗？"
+  splits:
+  - split: 1
+    text: "……咦，不是要偷袭吗？"
+    translated: "..."
+    qcReviewedText: "..."
+    qcTranslated: "...Huh, weren't you planning to sneak up on me?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1508_01_01_002,哈哈，讲讲而已啦，你若较真，就当自己被我偷袭得手了吧。"
+  splits:
+  - split: 1
+    text: "哈哈，讲讲而已啦，你若较真，就当自己被我偷袭得手了吧。"
+    translated: "Ha ha, I was just joking around. If you take it seriously, consider yourself caught off guard by my surprise attack!"
+    qcReviewedText: "Ha ha, I was just joking around. If you take it seriously, consider yourself caught off guard by my surprise attack!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1508_01_02_001,哇，你这人好卑鄙！"
+  splits:
+  - split: 1
+    text: "哇，你这人好卑鄙！"
+    translated: "Wow, you're so despicable!"
+    qcReviewedText: "Wow, you're so despicable!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1508_01_02_002,你说的，这叫兵不厌诈～"
+  splits:
+  - split: 1
+    text: "你说的，这叫兵不厌诈～"
+    translated: "That's what you get for underestimating the value of deception in warfare!"
+    qcReviewedText: "That's what you get for underestimating the value of deception in warfare!"
+    qcTranslated: "As you said, this is called the principle that deception is never too much in warfare."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1508_01_02_003,好样的。"
+  splits:
+  - split: 1
+    text: "好样的。"
+    translated: "Well done!"
+    qcReviewedText: "Well done!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/Special003_001,睁大眼睛，你就要死了。"
+  splits:
+  - split: 1
+    text: "睁大眼睛，你就要死了。"
+    translated: "Open your eyes; you're about to die"
+    qcReviewedText: "Open your eyes; you're about to die"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/Special003_002,你的呼吸会在下一眨眼停止。"
+  splits:
+  - split: 1
+    text: "你的呼吸会在下一眨眼停止。"
+    translated: "Your breath will stop with the next blink of an eye."
+    qcReviewedText: "Your breath will stop with the next blink of an eye."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/Special003_003,留神来了，点苍快剑绝非易与！"
+  splits:
+  - split: 1
+    text: "留神来了，点苍快剑绝非易与！"
+    translated: "Be on guard; Diancang's swift Sword is no easy opponent!"
+    qcReviewedText: "Be on guard; Diancang's swift Sword is no easy opponent!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/Special003_004,你已经死了。"
+  splits:
+  - split: 1
+    text: "你已经死了。"
+    translated: "You are already dead"
+    qcReviewedText: "You are already dead"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1510_01_01_001,喂，不要本末倒置，这两个小角色死活都无关痛痒！\\n关键是丹霞子！"
+  splits:
+  - split: 1
+    text: "喂，不要本末倒置，这两个小角色死活都无关痛痒！"
+    translated: "Hey, don't put the cart before the horse! Whether these two minor characters live or die is irrelevant!"
+    qcReviewedText: "Hey, don't put the cart before the horse! Whether these two minor characters live or die is irrelevant!\\nKey is Danxiazi!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "关键是丹霞子！"
+    translated: "Key is Danxiazi!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1510_01_01_002,对！留两个人对付他也就是了。"
+  splits:
+  - split: 1
+    text: "对！留两个人对付他也就是了。"
+    translated: "Right! Leaving two people to deal with them should be enough."
+    qcReviewedText: "Right! Leaving two people to deal with them should be enough."
+    qcTranslated: "Right! Leaving two people to deal with him should be enough."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "CombatTalking/1510_01_02_001,赵少侠，贫道来助你！"
+  splits:
+  - split: 1
+    text: "赵少侠，贫道来助你！"
+    translated: "Young Hero Zhao, I come to assist you!"
+    qcReviewedText: "Young Hero Zhao, I come to assist you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1510_01_02_002,啊！"
+  splits:
+  - split: 1
+    text: "啊！"
+    translated: "Ah!"
+    qcReviewedText: "Ah!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1510_01_02_003,这、这么多人！我的同伙呢？"
+  splits:
+  - split: 1
+    text: "这、这么多人！我的同伙呢？"
+    translated: "Hey, so many people! Where are my buddies?"
+    qcReviewedText: "Hey, so many people! Where are my buddies?"
+    qcTranslated: "H-hey, so many people! Where are my buddies?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
+- raw: "CombatTalking/1511_01_01_001,夏侯兰……夏侯兰！夏侯兰！\\n你终于现身出来了！我想死你了呀！"
+  splits:
+  - split: 1
+    text: "夏侯兰……夏侯兰！夏侯兰！"
+    translated: "Xiahou Lan...... Xiahou Lan! Xiahou Lan!"
+    qcReviewedText: "Xiahou Lan...... Xiahou Lan! Xiahou Lan!\\nYou finally showed up! I missed you so much!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "你终于现身出来了！我想死你了呀！"
+    translated: "You finally showed up! I missed you so much!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1511_01_01_002,你为什么不说话，你忘了我是谁吗！我是荆红！\\n是被你夺去一切、被你毁了容的受害者！"
+  splits:
+  - split: 1
+    text: "你为什么不说话，你忘了我是谁吗！我是荆红！"
+    translated: "Why aren't you saying anything? Have you forgotten who I am? I'm Jing Hong!"
+    qcReviewedText: "Why aren't you saying anything? Have you forgotten who I am? I'm Jing Hong!\\nI am the victim who lost everything and was disfigured by you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "是被你夺去一切、被你毁了容的受害者！"
+    translated: "I am the victim who lost everything and was disfigured by you!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1511_01_01_003,这些年来，我无一刻不想见你，我……我爱慕着你呀！\\n既美丽又强大，冷若冰霜，高不可攀的你！"
+  splits:
+  - split: 1
+    text: "这些年来，我无一刻不想见你，我……我爱慕着你呀！"
+    translated: "These past years, I haven't gone a moment without wanting to see you. I... I have adored you!"
+    qcReviewedText: "These past years, I haven't gone a moment without wanting to see you. I... I have adored you!\\nYou are beautiful and powerful, cold as ice, and unreachable!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "既美丽又强大，冷若冰霜，高不可攀的你！"
+    translated: "You are beautiful and powerful, cold as ice, and unreachable!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1511_01_01_004,所以我要斩断你的四肢，把你变成我的女人。"
+  splits:
+  - split: 1
+    text: "所以我要斩断你的四肢，把你变成我的女人。"
+    translated: "So I'll cut off your limbs and turn you into my woman."
+    qcReviewedText: "So I'll cut off your limbs and turn you into my woman."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1511_01_01_005,我要把你养在一瓮水缸里，只露出头来，我喂你吃什么，你就得吃什么！\\n我要独占你，让你也变成没有我就活不下去！"
+  splits:
+  - split: 1
+    text: "我要把你养在一瓮水缸里，只露出头来，我喂你吃什么，你就得吃什么！"
+    translated: "I'll raise you in a jar of water, with only your head above the surface. Whatever I feed you, you have to eat!"
+    qcReviewedText: "I'll raise you in a jar of water, with only your head above the surface. Whatever I feed you, you have to eat!\\nI want to have you all to myself, so that you can't survive without me!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "我要独占你，让你也变成没有我就活不下去！"
+    translated: "I want to have you all to myself, so that you can't survive without me!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1511_01_01_006,你这样的人，就应该死得唯美！\\n像花一样凋零，或者残酷无情地将我的生命夺走吧！"
+  splits:
+  - split: 1
+    text: "你这样的人，就应该死得唯美！"
+    translated: "You deserve to die beautifully!"
+    qcReviewedText: "You deserve to die beautifully!\\nFade like a wilting flower, or take my Health away with ruthless cruelty!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "像花一样凋零，或者残酷无情地将我的生命夺走吧！"
+    translated: "Fade like a wilting flower, or take my Health away with ruthless cruelty!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1512_01_01_001,赵老弟！听哥哥的劝，在这里意气用事，谁也保不住你！"
+  splits:
+  - split: 1
+    text: "赵老弟！听哥哥的劝，在这里意气用事，谁也保不住你！"
+    translated: "Little Brother Zhao! Listen to my advice, and don't act on impulse here. No one can guarantee your safety if you do!"
+    qcReviewedText: "Little Brother Zhao! Listen to my advice, and don't act on impulse here. No one can guarantee your safety if you do!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_01_002,你以为我想这样吗！这不是没有办法吗！"
+  splits:
+  - split: 1
+    text: "你以为我想这样吗！这不是没有办法吗！"
+    translated: "Do you think I want this?! Isn't there any other way?!"
+    qcReviewedText: "Do you think I want this?! Isn't there any other way?!"
+    qcTranslated: "Do you think I want this?! It's just that I have no choice!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1512_01_01_003,这就是传统，这就是习俗！"
+  splits:
+  - split: 1
+    text: "这就是传统，这就是习俗！"
+    translated: "This is tradition, this is custom!"
+    qcReviewedText: "This is tradition, this is custom!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_01_004,崆峒不是今天才有不公平的事，几百年都这样过来了啊！"
+  splits:
+  - split: 1
+    text: "崆峒不是今天才有不公平的事，几百年都这样过来了啊！"
+    translated: "Kongtong hasn't been fair just today; it's been this way for hundreds of years!"
+    qcReviewedText: "Kongtong hasn't been fair just today; it's been this way for hundreds of years!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_02_001,姓赵的，你活腻了！还真想坏我掌派人大选！"
+  splits:
+  - split: 1
+    text: "姓赵的，你活腻了！还真想坏我掌派人大选！"
+    translated: "Zhao, have you had enough of living? Do you really want to sabotage my faction's election?"
+    qcReviewedText: "Zhao, have you had enough of living? Do you really want to sabotage my faction's election?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_02_002,好啊，礼尚往来是吧？你非要这样，那崆峒跟唐门就不死不休了！"
+  splits:
+  - split: 1
+    text: "好啊，礼尚往来是吧？你非要这样，那崆峒跟唐门就不死不休了！"
+    translated: "Alright then, if that's what you want. Since you insist on it, let it be known that the Kongtong and Tang Clan will have no end to their enmity!"
+    qcReviewedText: "Alright then, if that's what you want. Since you insist on it, let it be known that the Kongtong and Tang Clan will have no end to their enmity!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_02_003,你唐门自己家事都理不清，还来管别派的闲事！\\n你以为你是武林盟主、是当朝天子吗！我看你是王八羔子！"
+  splits:
+  - split: 1
+    text: "你唐门自己家事都理不清，还来管别派的闲事！"
+    translated: "You can't even handle your own Tang Clan affairs, yet you meddle in other factions' business!"
+    qcReviewedText: "You can't even handle your own Tang Clan affairs, yet you meddle in other factions' business!\\nDo you think you're the Alliance Leader or even the emperor?! I say you're a son of a bitch!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "你以为你是武林盟主、是当朝天子吗！我看你是王八羔子！"
+    translated: "Do you think you're the Alliance Leader or even the emperor?! I say you're a son of a bitch!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1512_01_02_004,不必等掌派人发落，老子先在这里毙了你！"
+  splits:
+  - split: 1
+    text: "不必等掌派人发落，老子先在这里毙了你！"
+    translated: "I won't wait for Master Zhang to deal with you-I'll kill you right here and now!"
+    qcReviewedText: "I won't wait for Master Zhang to deal with you-I'll kill you right here and now!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_03_001,赵少侠，快住手！你疯了吗！"
+  splits:
+  - split: 1
+    text: "赵少侠，快住手！你疯了吗！"
+    translated: "Young Hero, stop! Are you crazy!"
+    qcReviewedText: "Young Hero, stop! Are you crazy!"
+    qcTranslated: "Young Hero Zhao, stop! Are you crazy!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1512_01_03_002,你这不是在帮忙，你这是在坏规矩！是在撒泼！"
+  splits:
+  - split: 1
+    text: "你这不是在帮忙，你这是在坏规矩！是在撒泼！"
+    translated: "You're not helping; you're breaking the rules! You're throwing a tantrum!"
+    qcReviewedText: "You're not helping; you're breaking the rules! You're throwing a tantrum!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_03_003,你以为我们就难道不怕被处置吗！谁也不愿意事情变成这样！"
+  splits:
+  - split: 1
+    text: "你以为我们就难道不怕被处置吗！谁也不愿意事情变成这样！"
+    translated: "Do you think we're not afraid of being punished?! No one wants things to end up this way!"
+    qcReviewedText: "Do you think we're not afraid of being punished?! No one wants things to end up this way!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1512_01_03_004,成王败寇，愿赌就要服输啊！\\n不是你甘心受的才叫天命！你应该最清楚了！"
+  splits:
+  - split: 1
+    text: "成王败寇，愿赌就要服输啊！"
+    translated: "Victory and defeat are decided by the outcome; if you gamble, you have to accept the result!"
+    qcReviewedText: "Victory and defeat are decided by the outcome; if you gamble, you have to accept the result!\\nIt's not what you passively accept that's called destiny! You should know this better than anyone!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "不是你甘心受的才叫天命！你应该最清楚了！"
+    translated: "It's not what you passively accept that's called destiny! You should know this better than anyone!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1513_01_01_001,小梅，住手！喂！"
+  splits:
+  - split: 1
+    text: "小梅，住手！喂！"
+    translated: "Xiao Mei, stop! Hey!"
+    qcReviewedText: "Xiao Mei, stop! Hey!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_01_01_002,啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+  splits:
+  - split: 1
+    text: "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+    translated: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+    qcReviewedText: "Ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_01_02_001,这人是你的谁？朋友？呵呵，真是杰作。\\n就从这个丑东西开始吧。"
+  splits:
+  - split: 1
+    text: "这人是你的谁？朋友？呵呵，真是杰作。"
+    translated: "Who is this person to you? A friend? Ha ha, what a masterpiece."
+    qcReviewedText: "Who is this person to you? A friend? Ha ha, what a masterpiece.\\nLet's start with this ugly thing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "就从这个丑东西开始吧。"
+    translated: "Let's start with this ugly thing"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1513_01_02_002,你……都是你！"
+  splits:
+  - split: 1
+    text: "你……都是你！"
+    translated: "It's all your fault!"
+    qcReviewedText: "It's all your fault!"
+    qcTranslated: "You... it's all your fault!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
+- raw: "CombatTalking/1513_01_02_003,少年人真沉不住气，这便恼了？呵呵呵。"
+  splits:
+  - split: 1
+    text: "少年人真沉不住气，这便恼了？呵呵呵。"
+    translated: "How impatient young people are; they get angry so easily, huh? Heh heh heh."
+    qcReviewedText: "How impatient young people are; they get angry so easily, huh? Heh heh heh."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_01_02_004,可恶，你堂堂前辈，竟拿晚辈当挡箭牌！无耻！"
+  splits:
+  - split: 1
+    text: "可恶，你堂堂前辈，竟拿晚辈当挡箭牌！无耻！"
+    translated: "Damn it, you're a senior, yet you use your junior as a shield! Shameless!"
+    qcReviewedText: "Damn it, you're a senior, yet you use your junior as a shield! Shameless!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_01_02_005,好了，做你该做的事，再诞生一次，抑或就此死去。\\n祖师爷爷从旁为你见证。"
+  splits:
+  - split: 1
+    text: "好了，做你该做的事，再诞生一次，抑或就此死去。"
+    translated: "Alright, do what you must and either be reborn or die right here."
+    qcReviewedText: "Alright, do what you must and either be reborn or die right here.\\nGrandmaster Grandpa bears witness to you from the side."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "祖师爷爷从旁为你见证。"
+    translated: "Grandmaster Grandpa bears witness to you from the side."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1513_01_03_001,小梅，听我说──"
+  splits:
+  - split: 1
+    text: "小梅，听我说"
+    translated: "Xiao Mei, listen to me"
+    qcReviewedText: "Xiao Mei, listen to me──"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}──"
+- raw: "CombatTalking/1513_01_03_002,你还喘得过气来说话？看来是徒孙你不够卖力呀。"
+  splits:
+  - split: 1
+    text: "你还喘得过气来说话？看来是徒孙你不够卖力呀。"
+    translated: "Do you still have breath left to speak? It seems you're not putting in enough effort, disciple."
+    qcReviewedText: "Do you still have breath left to speak? It seems you're not putting in enough effort, disciple."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_01_04_001,拖拖拉拉的，真是猴戏，连一个无足轻重的小卒都收拾不了，\\n你还能有什么屁用？老夫还不如去看金乌蹂躏那什么道法将军。"
+  splits:
+  - split: 1
+    text: "拖拖拉拉的，真是猴戏，连一个无足轻重的小卒都收拾不了，"
+    translated: "Dragging their feet, this is like a monkey show; they can't even handle a minor lackey."
+    qcReviewedText: "Dragging their feet, this is like a monkey show; they can't even handle a minor lackey.\\nWhat use are you? I might as well go watch the Golden Crow trample on that Dao Method General."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "你还能有什么屁用？老夫还不如去看金乌蹂躏那什么道法将军。"
+    translated: "What use are you? I might as well go watch the Golden Crow trample on that Dao Method General."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1513_02_01_001,师弟～两个坏消息。\\n第一，这家伙的真身是初代千面人魔，无相祖师。"
+  splits:
+  - split: 1
+    text: "师弟～两个坏消息。"
+    translated: "Junior Brother, there are two bad pieces of news."
+    qcReviewedText: "Junior Brother, there are two bad pieces of news.\\nFirst, this guy's true form is the original Thousand Faced Demon, the Wuxiang Patriarch."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "第一，这家伙的真身是初代千面人魔，无相祖师。"
+    translated: "First, this guy's true form is the original Thousand Faced Demon, the Wuxiang Patriarch."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1513_02_01_002,什……什么！"
+  splits:
+  - split: 1
+    text: "什……什么！"
+    translated: "W-What!"
+    qcReviewedText: "W-What!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_01_003,接二连三的骇人消息，令你大脑一片空白。"
+  splits:
+  - split: 1
+    text: "接二连三的骇人消息，令你大脑一片空白。"
+    translated: "One shocking piece of news after another left your mind blank."
+    qcReviewedText: "One shocking piece of news after another left your mind blank."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_01_004,然后第二个坏消息是，本仙儿打不过他。\\n至多帮你拖延几下，你要不抓紧把人放倒过来救我，\\n要不就说完遗言赶紧去死不要妨碍本仙儿逃生！"
+  splits:
+  - split: 1
+    text: "然后第二个坏消息是，本仙儿打不过他。"
+    translated: "The second piece of bad news is that Fairy Ben can't beat them."
+    qcReviewedText: "The second piece of bad news is that Fairy Ben can't beat them.\\nAt most, I can buy you some time. If you don't hurry up and flip the person over to save me, though...\\nEither finish your last words and hurry up to die so you don't hinder me from escaping, Immortal brat!"
+    qcTranslated: "The second piece of bad news is that I can't beat them.\\nAt most, I can buy you some time. If you don't hurry up and flip the person over to save me,\\nEither finish your last words and hurry up to die so you don't hinder me from escaping, Immortal brat!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "至多帮你拖延几下，你要不抓紧把人放倒过来救我，"
+    translated: "At most, I can buy you some time. If you don't hurry up and flip the person over to save me, though..."
+  - split: 1
+    subIndex: 2
+    text: "要不就说完遗言赶紧去死不要妨碍本仙儿逃生！"
+    translated: "Either finish your last words and hurry up to die so you don't hinder me from escaping, Immortal brat!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "CombatTalking/1513_02_01_005,啥！你不是来救我的吗！怎么反而叫我救你──"
+  splits:
+  - split: 1
+    text: "啥！你不是来救我的吗！怎么反而叫我救你"
+    translated: "What! Aren't you here to save me!? Why are you asking me to save you instead?"
+    qcReviewedText: "What! Aren't you here to save me!? Why are you asking me to save you instead?──"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}──"
+- raw: "CombatTalking/1513_02_01_006,啊啊啊啊啊阿阿活──！"
+  splits:
+  - split: 1
+    text: "啊啊啊啊啊阿阿活"
+    translated: "Ah ah ah ah ah A'Huo"
+    qcReviewedText: "Ah ah ah ah ah A'Huo──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}──！"
+- raw: "CombatTalking/1513_02_02_001,久疏问候，别来无恙啊？"
+  splits:
+  - split: 1
+    text: "久疏问候，别来无恙啊？"
+    translated: "It's been a while since I last sent my regards. How have you been?"
+    qcReviewedText: "It's been a while since I last sent my regards. How have you been?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_02_002,你这叛徒，为何会出现在此！难道是那一位……"
+  splits:
+  - split: 1
+    text: "你这叛徒，为何会出现在此！难道是那一位……"
+    translated: "Traitor, why are you here! Could it be that one person......"
+    qcReviewedText: "Traitor, why are you here! Could it be that one person......"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_02_003,有机可趁！"
+  splits:
+  - split: 1
+    text: "有机可趁！"
+    translated: "There's an opportunity to seize!"
+    qcReviewedText: "There's an opportunity to seize!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_02_004,两代千面人魔对决，无不聚精会神，再无分心旁骛的余地，\\n纵有千般疑虑，都只能暂且按下。"
+  splits:
+  - split: 1
+    text: "两代千面人魔对决，无不聚精会神，再无分心旁骛的余地，"
+    translated: "The two generations of Thousand Faced Demons faced off, fully focused with no room for distraction."
+    qcReviewedText: "The two generations of Thousand Faced Demons faced off, fully focused with no room for distraction.\\nDespite having countless doubts, they can only be put aside for now."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "纵有千般疑虑，都只能暂且按下。"
+    translated: "Despite having countless doubts, they can only be put aside for now."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1513_02_03_001,──你失了心智，我要怎么帮你？"
+  splits:
+  - split: 1
+    text: "你失了心智，我要怎么帮你？"
+    translated: "You've lost your mind; how can I help you?"
+    qcReviewedText: "──You've lost your mind; how can I help you?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "──{0}"
+- raw: "CombatTalking/1513_02_03_002,不要屈服了，区区的尸心丹！你可是虞小梅！"
+  splits:
+  - split: 1
+    text: "不要屈服了，区区的尸心丹！你可是虞小梅！"
+    translated: "Don't give up, you're not just some ordinary corpse-heart pill! You're Yu Xiaomei!"
+    qcReviewedText: "Don't give up, you're not just some ordinary corpse-heart pill! You're Yu Xiaomei!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_03_003,我是不会放弃的，你还在这里，我知道。"
+  splits:
+  - split: 1
+    text: "我是不会放弃的，你还在这里，我知道。"
+    translated: "I won't give up, and I know you're still here."
+    qcReviewedText: "I won't give up, and I know you're still here."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_03_004,我也在这里！还没有死去！"
+  splits:
+  - split: 1
+    text: "我也在这里！还没有死去！"
+    translated: "I'm still here! Far from dead!"
+    qcReviewedText: "I'm still here! Far from dead!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1513_02_03_005,……迟早有一天，再一起去旅行吧。"
+  splits:
+  - split: 1
+    text: "……迟早有一天，再一起去旅行吧。"
+    translated: "..."
+    qcReviewedText: "..."
+    qcTranslated: "...Someday, let's travel together again."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1513_02_03_006,我说的不是下辈子，就是某一日天气晴朗，你准备好的时候。\\n带上食盒，去郊游野餐吧。"
+  splits:
+  - split: 1
+    text: "我说的不是下辈子，就是某一日天气晴朗，你准备好的时候。"
+    translated: "I'm not talking about the next life; I mean some day when the weather is clear and you're ready."
+    qcReviewedText: "I'm not talking about the next life; I mean some day when the weather is clear and you're ready.\\nLet's take the food box and go for a picnic in the countryside."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "带上食盒，去郊游野餐吧。"
+    translated: "Let's take the food box and go for a picnic in the countryside."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S_1514_01_01_001,你们助纣为虐，崆峒开山祖师会给你们这群不肖子孙气到还阳！"
+  splits:
+  - split: 1
+    text: "你们助纣为虐，崆峒开山祖师会给你们这群不肖子孙气到还阳！"
+    translated: "You are aiding the wicked; the founding ancestor of Kongtong will be so furious with you lot of ungrateful descendants that he'll return from the dead to scold you!"
+    qcReviewedText: "You are aiding the wicked; the founding ancestor of Kongtong will be so furious with you lot of ungrateful descendants that he'll return from the dead to scold you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S_1514_01_01_002,还叫什么崆峒派，以后你们就是千灯楼的爪牙了！"
+  splits:
+  - split: 1
+    text: "还叫什么崆峒派，以后你们就是千灯楼的爪牙了！"
+    translated: "You used to be part of the Kongtong sect, but from now on, you'll be nothing more than lackeys for the Thousand Lantern Tower!"
+    qcReviewedText: "You used to be part of the Kongtong sect, but from now on, you'll be nothing more than lackeys for the Thousand Lantern Tower!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S_1514_01_01_003,西夏四色走狗！"
+  splits:
+  - split: 1
+    text: "西夏四色走狗！"
+    translated: "Western Xia's four lackeys!"
+    qcReviewedText: "Western Xia's four lackeys!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S_1514_01_01_004,那金乌分明不是好人，你们还维护他，活该你们受苦！"
+  splits:
+  - split: 1
+    text: "那金乌分明不是好人，你们还维护他，活该你们受苦！"
+    translated: "That Golden Crow is clearly no good, yet you defend them! You deserve to suffer!"
+    qcReviewedText: "That Golden Crow is clearly no good, yet you defend them! You deserve to suffer!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1514_01_01_001,哈哈哈！姓赵的，看看你的丑态！\\n叫你好管别人闲事，千里迢迢来找死！"
+  splits:
+  - split: 1
+    text: "哈哈哈！姓赵的，看看你的丑态！"
+    translated: "Ha ha ha! Mr. Zhao, take a look at your ridiculous appearance!"
+    qcReviewedText: "Ha ha ha! Mr. Zhao, take a look at your ridiculous appearance!\\nCourting death by coming all the way just to meddle in other people's business!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "叫你好管别人闲事，千里迢迢来找死！"
+    translated: "Courting death by coming all the way just to meddle in other people's business!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1514_01_01_002,在眉山那会儿不是很威风吗！不是很能耐吗你！\\n他妈的你可别走了狗屎运就得意忘形！撒泡尿照照，认清自己德行吧！"
+  splits:
+  - split: 1
+    text: "在眉山那会儿不是很威风吗！不是很能耐吗你！"
+    translated: "Aren't you pretty tough and capable over in Mei Mountain?!"
+    qcReviewedText: "Aren't you pretty tough and capable over in Mei Mountain?!\\nDon't get cocky just because you've had a lucky streak! Take a look at yourself and realize your true nature!"
+    qcTranslated: "Aren't you pretty tough and capable over in Mei Mountain?!\\nDon't get cocky just because you've had a lucky streak! Take a piss and look at yourself, and realize your true nature!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "他妈的你可别走了狗屎运就得意忘形！撒泡尿照照，认清自己德行吧！"
+    translated: "Don't get cocky just because you've had a lucky streak! Take a look at yourself and realize your true nature!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1514_01_01_003,你就是个废物！凡夫俗子！学人家逞什么英雄啊！\\n笑～死！"
+  splits:
+  - split: 1
+    text: "你就是个废物！凡夫俗子！学人家逞什么英雄啊！"
+    translated: "You're a good-for-nothing waste of space! A commoner! What are you trying to be a hero for?"
+    qcReviewedText: "You're a good-for-nothing waste of space! A commoner! What are you trying to be a hero for?\\nLaugh~ till you die!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "笑～死！"
+    translated: "Laugh~ till you die!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1514_01_01_004,话说你是干嘛来的？来寻仇？就你？\\n你唐门飞侠都死在我手头，你只道你能成什么气候？"
+  splits:
+  - split: 1
+    text: "话说你是干嘛来的？来寻仇？就你？"
+    translated: "What are you here for? Come to seek revenge? Just you?"
+    qcReviewedText: "What are you here for? Come to seek revenge? Just you?\\nYou Tang Clan Flying Hero are all dead at my hands; do you think you can amount to anything?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "你唐门飞侠都死在我手头，你只道你能成什么气候？"
+    translated: "You Tang Clan Flying Hero are all dead at my hands; do you think you can amount to anything?"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1514_01_01_005,好，这家伙气力已竭，都给我让开。\\n让本掌派人亲自手刃──哇！"
+  splits:
+  - split: 1
+    text: "好，这家伙气力已竭，都给我让开。"
+    translated: "All right, this guy has run out of steam. Clear the way for them."
+    qcReviewedText: "All right, this guy has run out of steam. Clear the way for them.\\nLet the head of my faction personally carry out the execution.──Wow!"
+    qcTranslated: "All right, this guy has run out of steam. Clear the way for me.\\nLet your Master personally execute him.──Wow!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "让本掌派人亲自手刃"
+    translated: "Let the head of my faction personally carry out the execution."
+  - split: 1
+    subIndex: 2
+    text: "哇！"
+    translated: "Wow!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}──{2}"
+- raw: "CombatTalking/1514_01_01_006,哎，怎么，啊！"
+  splits:
+  - split: 1
+    text: "哎，怎么，啊！"
+    translated: "Oh no, what? Ah!"
+    qcReviewedText: "Oh no, what? Ah!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1514_01_01_007,等等！不行，那个不行──！"
+  splits:
+  - split: 1
+    text: "等等！不行，那个不行"
+    translated: "Wait! No, that's not okay."
+    qcReviewedText: "Wait! No, that's not okay.──！"
+    qcTranslated: "Wait! No, that won't do!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 1
+    template: "{0}──！"
+- raw: "CombatTalking/1515_01_01_001,金乌上人料定你会瞄准首级，是以只守不攻，以双槌保护要害面门，\\n兵刃相交，劲力到处，你的小剑登时崩刃。"
+  splits:
+  - split: 1
+    text: "金乌上人料定你会瞄准首级，是以只守不攻，以双槌保护要害面门，"
+    translated: "Jinwu Shangren anticipated that you would aim for the head, so he only defends and does not attack, using his double hammers to protect his vital point, the face."
+    qcReviewedText: "Jinwu Shangren anticipated that you would aim for the head, so he only defends and does not attack, using his double hammers to protect his vital point, the face.\\nAs blades clashed and force was applied, your small sword immediately became chipped."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "兵刃相交，劲力到处，你的小剑登时崩刃。"
+    translated: "As blades clashed and force was applied, your small sword immediately became chipped."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1515_01_01_002,唔！我的小剑……！"
+  splits:
+  - split: 1
+    text: "唔！我的小剑……！"
+    translated: "Oh no! My little Sword...!"
+    qcReviewedText: "Oh no! My little Sword...!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_01_003,哈！你完了你！"
+  splits:
+  - split: 1
+    text: "哈！你完了你！"
+    translated: "Ha! You're done for!"
+    qcReviewedText: "Ha! You're done for!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_02_001,赵兄弟，会不会用单刀！接着！"
+  splits:
+  - split: 1
+    text: "赵兄弟，会不会用单刀！接着！"
+    translated: "Brother Zhao, can you use a saber! Catch it!"
+    qcReviewedText: "Brother Zhao, can you use a saber! Catch it!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_02_002,混、混蛋！丹霞子！又是你！你都自顾不暇了，别来坏我好事！"
+  splits:
+  - split: 1
+    text: "混、混蛋！丹霞子！又是你！你都自顾不暇了，别来坏我好事！"
+    translated: "Damn it, Danxiazi! It's you again! You're busy enough as it is, so don't mess with my plans!"
+    qcReviewedText: "Damn it, Danxiazi! It's you again! You're busy enough as it is, so don't mess with my plans!"
+    qcTranslated: "Damn it, you bastard! Danxiazi! It's you again! You're busy enough as it is, so don't mess with my plans!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
+- raw: "CombatTalking/1515_01_03_001,金乌上人故技重施，欺你所不得不攻，以铁琵琶功崩损你手里长刀。"
+  splits:
+  - split: 1
+    text: "金乌上人故技重施，欺你所不得不攻，以铁琵琶功崩损你手里长刀。"
+    translated: "Jinwu Shangren used his old tricks again, forcing you to defend yourself as he attacked with Iron Lute Palm, damaging the long blade in your hand."
+    qcReviewedText: "Jinwu Shangren used his old tricks again, forcing you to defend yourself as he attacked with Iron Lute Palm, damaging the long blade in your hand."
+    qcTranslated: "Jinwu Shangren used his old tricks again, forcing you to defend yourself as he attacked with Iron Pipa Kung Fu, damaging the long blade in your hand."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "CombatTalking/1515_01_03_002,竟连道长的宝刀也抵挡不住！"
+  splits:
+  - split: 1
+    text: "竟连道长的宝刀也抵挡不住！"
+    translated: "Even Daoist's precious blade couldn't withstand it!"
+    qcReviewedText: "Even Daoist's precious blade couldn't withstand it!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_03_003,你死期到了！"
+  splits:
+  - split: 1
+    text: "你死期到了！"
+    translated: "Your time is up!"
+    qcReviewedText: "Your time is up!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_04_001,长刀不趁手的话，用我的匕首！接着！"
+  splits:
+  - split: 1
+    text: "长刀不趁手的话，用我的匕首！接着！"
+    translated: "If the blade isn't to your liking, use my dagger! Go on, take it!"
+    qcReviewedText: "If the blade isn't to your liking, use my dagger! Go on, take it!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_04_002,王八蛋，颜疆，你等着，我要把你全家吊死！"
+  splits:
+  - split: 1
+    text: "王八蛋，颜疆，你等着，我要把你全家吊死！"
+    translated: "Son of a bitch, Yan Jiang, you wait, I'm going to hang your entire family!"
+    qcReviewedText: "Son of a bitch, Yan Jiang, you wait, I'm going to hang your entire family!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_04_003,赵活！接着！"
+  splits:
+  - split: 1
+    text: "赵活！接着！"
+    translated: "Zhao Huo! Keep it up!"
+    qcReviewedText: "Zhao Huo! Keep it up!"
+    qcTranslated: "Zhao Huo! Catch it!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1515_01_04_004,王八蛋，你叫什么名字？好啊，没关系啊，\\n你等着，我要把你全家吊死！"
+  splits:
+  - split: 1
+    text: "王八蛋，你叫什么名字？好啊，没关系啊，"
+    translated: "Son of a bitch, what's your name? Oh, that's fine, no problem."
+    qcReviewedText: "Son of a bitch, what's your name? Oh, that's fine, no problem.\\nWait and see, I'm going to hang your entire family!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "你等着，我要把你全家吊死！"
+    translated: "Wait and see, I'm going to hang your entire family!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1515_01_05_001,金乌上人食髓知味，第三次佯攻引你短兵相交，毁去你的兵器。"
+  splits:
+  - split: 1
+    text: "金乌上人食髓知味，第三次佯攻引你短兵相交，毁去你的兵器。"
+    translated: "Jinwu Shangren, having tasted your blood, lured you into close combat for a third time to destroy your weapon."
+    qcReviewedText: "Jinwu Shangren, having tasted your blood, lured you into close combat for a third time to destroy your weapon."
+    qcTranslated: "Jinwu Shangren, having tasted the marrow and found it to his liking, feigned a third attack to draw you into close combat and destroy your weapon."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1515_01_05_002,赵活，你闪开！"
+  splits:
+  - split: 1
+    text: "赵活，你闪开！"
+    translated: "Zhao Huo, move!"
+    qcReviewedText: "Zhao Huo, move!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_05_003,！"
+- raw: "CombatTalking/1515_01_05_004,哇啊！"
+  splits:
+  - split: 1
+    text: "哇啊！"
+    translated: "Wow!"
+    qcReviewedText: "Wow!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_05_005,金乌上人技能[铁琵琶功]消灭"
+  splits:
+  - split: 1
+    text: "金乌上人技能"
+    translated: "Jinwu Shangren's skills"
+    qcReviewedText: "Jinwu Shangren's skills[Iron Pipa Skill]Eliminate"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "铁琵琶功"
+    translated: "Iron Pipa Skill"
+  - split: 1
+    subIndex: 2
+    text: "消灭"
+    translated: "Eliminate"
+  templates:
+  - split: 1
+    template: "{0}[{1}]{2}"
+- raw: "CombatTalking/1515_01_05_006,金乌上人猝然受到严重内伤，那一身铁琵琶功力本来非他所有，\\n又没机会闭关化纳，十分不稳固，被这一击打得散诸百骸，无法凝聚。"
+  splits:
+  - split: 1
+    text: "金乌上人猝然受到严重内伤，那一身铁琵琶功力本来非他所有，"
+    translated: "Jinwu Shangren suddenly suffered severe internal injuries; that iron pipa skill was not originally his."
+    qcReviewedText: "Jinwu Shangren suddenly suffered severe internal injuries; that iron pipa skill was not originally his.\\nWithout the chance to retreat into seclusion and integrate their energy, they were extremely unstable and were shattered by this attack, scattering throughout their body and unable to coalesce."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "又没机会闭关化纳，十分不稳固，被这一击打得散诸百骸，无法凝聚。"
+    translated: "Without the chance to retreat into seclusion and integrate their energy, they were extremely unstable and were shattered by this attack, scattering throughout their body and unable to coalesce."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1515_01_05_007,我看你锤子有没有我的硬！"
+  splits:
+  - split: 1
+    text: "我看你锤子有没有我的硬！"
+    translated: "I'll show you how hard mine is compared to yours!"
+    qcReviewedText: "I'll show you how hard mine is compared to yours!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_05_008,小竹！"
+  splits:
+  - split: 1
+    text: "小竹！"
+    translated: "Xiao Zhu!"
+    qcReviewedText: "Xiao Zhu!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_05_009,小竹二话不说，将她领得之后视若珍宝，从来不曾使用的唐门小剑塞你手里。"
+  splits:
+  - split: 1
+    text: "小竹二话不说，将她领得之后视若珍宝，从来不曾使用的唐门小剑塞你手里。"
+    translated: "Little Bamboo said nothing and treated them as a precious treasure, handing you a small Tang Clan Sword that they had never used before."
+    qcReviewedText: "Little Bamboo said nothing and treated them as a precious treasure, handing you a small Tang Clan Sword that they had never used before."
+    qcTranslated: "Little Bamboo said nothing, led her away, and treated her as a precious treasure, handing you a small Tang Clan Sword that they had never used before."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1515_01_05_010,缩头乌龟，不躲正好，吃你大爷一拳！"
+  splits:
+  - split: 1
+    text: "缩头乌龟，不躲正好，吃你大爷一拳！"
+    translated: "Turtle in a shell, if you don't run, I'll give you a punch for your troubles!"
+    qcReviewedText: "Turtle in a shell, if you don't run, I'll give you a punch for your troubles!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1515_01_05_011,缩头乌龟，不躲正好，吃你大爷一槌！"
+  splits:
+  - split: 1
+    text: "缩头乌龟，不躲正好，吃你大爷一槌！"
+    translated: "Turtle, since you didn't hide, here's a hammer to your dad!"
+    qcReviewedText: "Turtle, since you didn't hide, here's a hammer to your dad!"
+    qcTranslated: "You cowardly turtle, not hiding is just what I wanted. Take this hammer from your grandpa!"
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+- raw: "CombatTalking/S2200_04_03_01_001,阿活与我同是力争上游的江湖杂鱼，我可不能光顾自己威风，不顾旁人脸面。"
+  splits:
+  - split: 1
+    text: "阿活与我同是力争上游的江湖杂鱼，我可不能光顾自己威风，不顾旁人脸面。"
+    translated: "A'Huo and I are both striving Jianghu riffraff; I can't just think of my own glory and ignore others' dignity."
+    qcReviewedText: "A'Huo and I are both striving Jianghu riffraff; I can't just think of my own glory and ignore others' dignity."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_01_002,他这是故意让我？"
+  splits:
+  - split: 1
+    text: "他这是故意让我？"
+    translated: "Are they deliberately trying to make things difficult for me?"
+    qcReviewedText: "Are they deliberately trying to make things difficult for me?"
+    qcTranslated: "Is he deliberately letting me win?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/S2200_04_03_01_003,别愣着，进招啊！不打得精彩些，如何成名！"
+  splits:
+  - split: 1
+    text: "别愣着，进招啊！不打得精彩些，如何成名！"
+    translated: "Don't just stand there! Make a move! If you don't fight with more flair, how will you become famous!"
+    qcReviewedText: "Don't just stand there! Make a move! If you don't fight with more flair, how will you become famous!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_01_004,让到这种地步，该算仁至义尽。"
+  splits:
+  - split: 1
+    text: "让到这种地步，该算仁至义尽。"
+    translated: "Reaching this point, one can be said to have done as much as can be expected of them."
+    qcReviewedText: "Reaching this point, one can be said to have done as much as can be expected of them."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_01_005,阿活，接下来须留心了喔！"
+  splits:
+  - split: 1
+    text: "阿活，接下来须留心了喔！"
+    translated: "A'Huo, you need to be careful from now on!"
+    qcReviewedText: "A'Huo, you need to be careful from now on!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_02_001,阿活与我同是力争上游的江湖杂鱼，还是患难之交。我可不能光顾自己威风，损伤朋友情义。"
+  splits:
+  - split: 1
+    text: "阿活与我同是力争上游的江湖杂鱼，还是患难之交。我可不能光顾自己威风，损伤朋友情义。"
+    translated: "A'Huo and I are both striving Jianghu riffraff, and we're also comrades in adversity. I can't just think of my own glory and damage our friendship."
+    qcReviewedText: "A'Huo and I are both striving Jianghu riffraff, and we're also comrades in adversity. I can't just think of my own glory and damage our friendship."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_02_002,他这是故意让我？"
+  splits:
+  - split: 1
+    text: "他这是故意让我？"
+    translated: "Are they deliberately trying to make things difficult for me?"
+    qcReviewedText: "Are they deliberately trying to make things difficult for me?"
+    qcTranslated: "Is he deliberately letting me win?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/S2200_04_03_02_003,别愣着，进招啊！不打得精彩些，如何成名！"
+  splits:
+  - split: 1
+    text: "别愣着，进招啊！不打得精彩些，如何成名！"
+    translated: "Don't just stand there! Make a move! If you don't fight with more flair, how will you become famous!"
+    qcReviewedText: "Don't just stand there! Make a move! If you don't fight with more flair, how will you become famous!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_02_004,在座高手云集，我若让得太过，恐会被人看出端倪！"
+  splits:
+  - split: 1
+    text: "在座高手云集，我若让得太过，恐会被人看出端倪！"
+    translated: "With so many skilled experts here, if I show too much restraint, it might give others a clue!"
+    qcReviewedText: "With so many skilled experts here, if I show too much restraint, it might give others a clue!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_02_005,阿活，接下来须留心了喔！"
+  splits:
+  - split: 1
+    text: "阿活，接下来须留心了喔！"
+    translated: "A'Huo, you need to be careful from now on!"
+    qcReviewedText: "A'Huo, you need to be careful from now on!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_03_001,哦……这招妙。"
+  splits:
+  - split: 1
+    text: "哦……这招妙。"
+    translated: "Oh... this move is clever."
+    qcReviewedText: "Oh... this move is clever."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2200_04_03_03_002,阿活的招式越使越活了，我只是不用内力相逼，招数上却已没有留情，他竟然能与我对拆到这种境地。"
+  splits:
+  - split: 1
+    text: "阿活的招式越使越活了，我只是不用内力相逼，招数上却已没有留情，他竟然能与我对拆到这种境地。"
+    translated: "A'Huo's techniques are becoming more lively with each move. I didn't use Inner Power to force the issue, but I didn't hold back in my moves either, and yet they managed to go toe-to-toe with me to this point."
+    qcReviewedText: "A'Huo's techniques are becoming more lively with each move. I didn't use Inner Power to force the issue, but I didn't hold back in my moves either, and yet they managed to go toe-to-toe with me to this point."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2321_02_001,呃～这家伙枪舞得太快，好难欺身！\\n阿活你快拿暗器丢他啊！"
+  splits:
+  - split: 1
+    text: "呃～这家伙枪舞得太快，好难欺身！"
+    translated: "Uh~ This guy's spear dance is too fast; it's hard to get close!"
+    qcReviewedText: "Uh~ This guy's spear dance is too fast; it's hard to get close!\\nA'Huo, quickly throw a hidden weapon at them!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "阿活你快拿暗器丢他啊！"
+    translated: "A'Huo, quickly throw a hidden weapon at them!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S2321_02_002,真没用，连两个江湖把式也拿不下来。\\n留心听我指挥。"
+  splits:
+  - split: 1
+    text: "真没用，连两个江湖把式也拿不下来。"
+    translated: "You're useless; you can't even handle two Jianghu fighters."
+    qcReviewedText: "You're useless; you can't even handle two Jianghu fighters.\\nPay attention to my commands"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "留心听我指挥。"
+    translated: "Pay attention to my commands"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S2321_02_003,是。"
+  splits:
+  - split: 1
+    text: "是。"
+    translated: "Yes"
+    qcReviewedText: "Yes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_01_001,你干嘛！"
+  splits:
+  - split: 1
+    text: "你干嘛！"
+    translated: "What are you doing!"
+    qcReviewedText: "What are you doing!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_01_002,那种事你怎么不问本梅我！"
+  splits:
+  - split: 1
+    text: "那种事你怎么不问本梅我！"
+    translated: "Why didn't you ask me, Mei, about that!"
+    qcReviewedText: "Why didn't you ask me, Mei, about that!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_01_003,我最讨厌别人说「为我好」，然后擅自替我下决定！\\n所以本梅要打死你！毕竟我是为你好！"
+  splits:
+  - split: 1
+    text: "我最讨厌别人说「为我好」，然后擅自替我下决定！"
+    translated: "I hate it when people say they're doing something 'for my own good' and then make decisions for me without asking!"
+    qcReviewedText: "I hate it when people say they're doing something 'for my own good' and then make decisions for me without asking!\\nSo I have to beat you up, Mei! After all, I'm doing it for your own good!"
+    qcTranslated: "I hate it when people say they're doing something 'for my own good' and then make decisions for me without asking!\\nSo this Mei is going to beat you up! After all, I'm doing it for your own good!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "所以本梅要打死你！毕竟我是为你好！"
+    translated: "So I have to beat you up, Mei! After all, I'm doing it for your own good!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/S2300_01_02_001,怎么回事？"
+  splits:
+  - split: 1
+    text: "怎么回事？"
+    translated: "What happened?"
+    qcReviewedText: "What happened?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_02_002,师弟跟新来的师妹打起来了！"
+  splits:
+  - split: 1
+    text: "师弟跟新来的师妹打起来了！"
+    translated: "Junior Brother got into a fight with the new Junior Sister!"
+    qcReviewedText: "Junior Brother got into a fight with the new Junior Sister!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_02_003,师姐！快、快帮忙！"
+  splits:
+  - split: 1
+    text: "师姐！快、快帮忙！"
+    translated: "Senior Sister! Hurry, please help!"
+    qcReviewedText: "Senior Sister! Hurry, please help!"
+    qcTranslated: "Senior Sister! H-h-hurry, please help!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
+- raw: "CombatTalking/S2300_01_02_004,好！"
+  splits:
+  - split: 1
+    text: "好！"
+    translated: "Good!"
+    qcReviewedText: "Good!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_03_001,他妈的，我就知道会这样！"
+  splits:
+  - split: 1
+    text: "他妈的，我就知道会这样！"
+    translated: "Damn it, I knew it would come to this!"
+    qcReviewedText: "Damn it, I knew it would come to this!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S2300_01_03_002,错边了！你们站错边了！"
+  splits:
+  - split: 1
+    text: "错边了！你们站错边了！"
+    translated: "You've taken the wrong side! You're standing on the wrong side!"
+    qcReviewedText: "You've taken the wrong side! You're standing on the wrong side!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/S161_001,看招！凝・雪．剑！"
+  splits:
+  - split: 1
+    text: "看招！凝・雪．剑！"
+    translated: "Look out! Concentrate-Snow Sword!"
+    qcReviewedText: "Look out! Concentrate-Snow Sword!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1624_01_02_001,咳，好你的丑男，爪子够硬啊！\\n喂，新来的，还不出手吗！"
+  splits:
+  - split: 1
+    text: "咳，好你的丑男，爪子够硬啊！"
+    translated: "Cough, you ugly guy, your claws are pretty sharp!"
+    qcReviewedText: "Cough, you ugly guy, your claws are pretty sharp!\\nHey, new guy, are you just going to stand there or do something!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "喂，新来的，还不出手吗！"
+    translated: "Hey, new guy, are you just going to stand there or do something!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1624_01_02_002,丁……丁护卫？！"
+  splits:
+  - split: 1
+    text: "丁……丁护卫？！"
+    translated: "Ding...... Ding, Guard?!"
+    qcReviewedText: "Ding...... Ding, Guard?!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1624_01_02_003,闲话休说，看枪！"
+  splits:
+  - split: 1
+    text: "闲话休说，看枪！"
+    translated: "No need for idle talk, watch the spear!"
+    qcReviewedText: "No need for idle talk, watch the spear!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1624_01_02_004,喂，你干啥，想连我一并收拾掉吧！"
+  splits:
+  - split: 1
+    text: "喂，你干啥，想连我一并收拾掉吧！"
+    translated: "Hey, what are you doing? Are you trying to take me out too?!"
+    qcReviewedText: "Hey, what are you doing? Are you trying to take me out too?!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/C941_001,咳──武林盟的，等我灵魂飞升上天，立马下凡报仇，你们给我等着……。"
+  splits:
+  - split: 1
+    text: "咳"
+    translated: "Cough"
+    qcReviewedText: "Cough──Wulin Alliance, wait until my soul ascends to heaven and then I'll immediately descend to take revenge on you... you better wait for me..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "武林盟的，等我灵魂飞升上天，立马下凡报仇，你们给我等着……。"
+    translated: "Wulin Alliance, wait until my soul ascends to heaven and then I'll immediately descend to take revenge on you... you better wait for me..."
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/C939_001,武林盟的，我先去地府向阎王老爷告你状啦！"
+  splits:
+  - split: 1
+    text: "武林盟的，我先去地府向阎王老爷告你状啦！"
+    translated: "Wulin Alliance, I'm going to the underworld to report you to Lord Yan Wang!"
+    qcReviewedText: "Wulin Alliance, I'm going to the underworld to report you to Lord Yan Wang!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/C940_001,咳──崆峒掌派人万岁！"
+  splits:
+  - split: 1
+    text: "咳"
+    translated: "Cough"
+    qcReviewedText: "Cough──Long live the leader of the Kongtong Palm School!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "崆峒掌派人万岁！"
+    translated: "Long live the leader of the Kongtong Palm School!"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/C942_001,掌派人，恕属下无能，就……就只能到这儿了。"
+  splits:
+  - split: 1
+    text: "掌派人，恕属下无能，就……就只能到这儿了。"
+    translated: "Master, please forgive me for my inability; this is as far as I can go."
+    qcReviewedText: "Master, please forgive me for my inability; this is as far as I can go."
+    qcTranslated: "Sect Leader, please forgive this subordinate's incompetence; this is all I can do."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/S162_001,是时候了！"
+  splits:
+  - split: 1
+    text: "是时候了！"
+    translated: "It's time!"
+    qcReviewedText: "It's time!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_01_001,本公子不妨來接你這跳樑小丑的招。\\n天底最俊的我，對戰人間最醜的你～我都還沒出手，你就已經面目全非。"
+  splits:
+  - split: 1
+    text: "本公子不妨來接你這跳樑小丑的招。"
+    translated: "Young Lord, I shall deign to accept your challenge, you little clown."
+    qcReviewedText: "Young Lord, I shall deign to accept your challenge, you little clown.\\nThe most handsome one under heaven, battling the ugliest one on earth~ Even before I make a move, your face is already all messed up."
+    qcTranslated: "I, the Young Lord, shall deign to accept your challenge, you little clown.\\nThe most handsome one under heaven, battling the ugliest one on earth~ Even before I make a move, your face is already all messed up."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "天底最俊的我，對戰人間最醜的你～我都還沒出手，你就已經面目全非。"
+    translated: "The most handsome one under heaven, battling the ugliest one on earth~ Even before I make a move, your face is already all messed up."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1806_02_01_002,你說什麼？媽的，再說一次看看！"
+  splits:
+  - split: 1
+    text: "你說什麼？媽的，再說一次看看！"
+    translated: "What did you say? Damn it, say that again and see what happens!"
+    qcReviewedText: "What did you say? Damn it, say that again and see what happens!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_01_003,我師弟有志有為，世上就只剩公子一個以貌取人。"
+  splits:
+  - split: 1
+    text: "我師弟有志有為，世上就只剩公子一個以貌取人。"
+    translated: "My junior brother is ambitious and capable; in this world, there's only one who judges people by their appearance-Young Lord."
+    qcReviewedText: "My junior brother is ambitious and capable; in this world, there's only one who judges people by their appearance-Young Lord."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_02_001,公子別著急，小僧等會兒拳腳交加，你也會面目全非。\\n到時一起毀容，你和趙施主又有什麼區別呢？"
+  splits:
+  - split: 1
+    text: "公子別著急，小僧等會兒拳腳交加，你也會面目全非。"
+    translated: "Young Lord, don't worry. Soon enough, when I lay my fists and feet upon you, your face will be unrecognizable too."
+    qcReviewedText: "Young Lord, don't worry. Soon enough, when I lay my fists and feet upon you, your face will be unrecognizable too.\\nWhat's the difference between you and Master Zhao if you both end up disfigured?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "到時一起毀容，你和趙施主又有什麼區別呢？"
+    translated: "What's the difference between you and Master Zhao if you both end up disfigured?"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1806_02_02_002,混蛋和尚，你說什麼！"
+  splits:
+  - split: 1
+    text: "混蛋和尚，你說什麼！"
+    translated: "Damn you, monk! What do you say!"
+    qcReviewedText: "Damn you, monk! What do you say!"
+    qcTranslated: "You bastard monk, what did you say!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1806_02_03_001,不許說我弟！"
+  splits:
+  - split: 1
+    text: "不許說我弟！"
+    translated: "Don't call me brother!"
+    qcReviewedText: "Don't call me brother!"
+    qcTranslated: "Don't talk about my brother!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1806_02_04_001,你又能是什麼好東西？一句話就暴露你不堪的人品！"
+  splits:
+  - split: 1
+    text: "你又能是什麼好東西？一句話就暴露你不堪的人品！"
+    translated: "What could you possibly be worth? One sentence exposes your despicable character!"
+    qcReviewedText: "What could you possibly be worth? One sentence exposes your despicable character!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_05_001,你別說這些沒用的！"
+  splits:
+  - split: 1
+    text: "你別說這些沒用的！"
+    translated: "Stop saying things that don't help!"
+    qcReviewedText: "Stop saying things that don't help!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_06_001,你對自己相貌就這麼滿意嗎？\\n嗯，那我把你臉皮撕下來，送還給你娘親吧，你配不上你自己的臉。"
+  splits:
+  - split: 1
+    text: "你對自己相貌就這麼滿意嗎？"
+    translated: "Are you really that satisfied with your appearance?"
+    qcReviewedText: "Are you really that satisfied with your appearance?\\nWell, then I'll tear off your face and return it to your mother, because you don't deserve to have it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "嗯，那我把你臉皮撕下來，送還給你娘親吧，你配不上你自己的臉。"
+    translated: "Well, then I'll tear off your face and return it to your mother, because you don't deserve to have it."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1806_02_07_001,……。"
+- raw: "CombatTalking/1806_02_07_002,呃啊！你……你偷襲！木仙姑，你當她對手的，怎就沒攔她一下？"
+  splits:
+  - split: 1
+    text: "呃啊！你……你偷襲！木仙姑，你當她對手的，怎就沒攔她一下？"
+    translated: "Uh! You... you attacked by surprise! Fairy Mu, why didn't you stop her when you were supposed to be her opponent?"
+    qcReviewedText: "Uh! You... you attacked by surprise! Fairy Mu, why didn't you stop her when you were supposed to be her opponent?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_07_003,我倒是想攔啊。"
+  splits:
+  - split: 1
+    text: "我倒是想攔啊。"
+    translated: "I'd love to stop them, but"
+    qcReviewedText: "I'd love to stop them, but"
+    qcTranslated: "I would actually like to stop them"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1806_02_08_001,余公子！\\n你这负心郎，安敢负我妹子！"
+  splits:
+  - split: 1
+    text: "余公子！"
+    translated: "Young Lord Yu!"
+    qcReviewedText: "Young Lord Yu!\\nYou heartless man, how dare you betray my sister!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "你这负心郎，安敢负我妹子！"
+    translated: "You heartless man, how dare you betray my sister!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1806_02_08_002,什么你妹？本公子没见过。"
+  splits:
+  - split: 1
+    text: "什么你妹？本公子没见过。"
+    translated: "What the hell? This Young Lord has never seen such a thing."
+    qcReviewedText: "What the hell? This Young Lord has never seen such a thing."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_08_003,睁眼说瞎话！狡辩也没用，吃你祖妈一锤子先！"
+  splits:
+  - split: 1
+    text: "睁眼说瞎话！狡辩也没用，吃你祖妈一锤子先！"
+    translated: "Talk nonsense with your eyes open! Your excuses won't work; I'll give you a taste of my hammer first!"
+    qcReviewedText: "Talk nonsense with your eyes open! Your excuses won't work; I'll give you a taste of my hammer first!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_08_004,就说没见过，竹娘子如何纠缠不清？"
+  splits:
+  - split: 1
+    text: "就说没见过，竹娘子如何纠缠不清？"
+    translated: "Just say you've never seen anything; how would you deal with the entanglements of Bamboo Lady?"
+    qcReviewedText: "Just say you've never seen anything; how would you deal with the entanglements of Bamboo Lady?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_08_005,可恶，你们别闪来闪去！"
+  splits:
+  - split: 1
+    text: "可恶，你们别闪来闪去！"
+    translated: "Damn it, stop dodging around!"
+    qcReviewedText: "Damn it, stop dodging around!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_08_006,不闪难道站着让你打吗？这小娘子也不知哪来这么大力气。\\n要没卸劲扎实挨上一下，不死也重伤。"
+  splits:
+  - split: 1
+    text: "不闪难道站着让你打吗？这小娘子也不知哪来这么大力气。"
+    translated: "Don't flinch, or are you letting them hit you while you stand there? This young miss sure has some powerful punches."
+    qcReviewedText: "Don't flinch, or are you letting them hit you while you stand there? This young miss sure has some powerful punches.\\nIf they don't manage to deflect it, whoever gets hit will either die or be seriously injured."
+    qcTranslated: "Don't dodge? Are you just standing there letting her hit you? I don't know where this young lady got such strength.\\nIf you hadn't dissipated the force, a solid hit would have killed you or caused serious injury."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "要没卸劲扎实挨上一下，不死也重伤。"
+    translated: "If they don't manage to deflect it, whoever gets hit will either die or be seriously injured."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1806_02_08_007,抓到了！"
+  splits:
+  - split: 1
+    text: "抓到了！"
+    translated: "Caught them!"
+    qcReviewedText: "Caught them!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_08_008,小竹抓到了对手的手臂，将人抡起来当人槌，旁边的猝不及防，当场被砸中，双双阵亡。"
+  splits:
+  - split: 1
+    text: "小竹抓到了对手的手臂，将人抡起来当人槌，旁边的猝不及防，当场被砸中，双双阵亡。"
+    translated: "Xiao Zhu grabbed her opponent's arm, swung them around like a human battering ram, and the person next to them was caught off guard and got hit right away. Both of them were instantly defeated."
+    qcReviewedText: "Xiao Zhu grabbed her opponent's arm, swung them around like a human battering ram, and the person next to them was caught off guard and got hit right away. Both of them were instantly defeated."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1806_02_08_009,……。"
+- raw: "CombatTalking/1807_02_01_001,这就是达摩院首座──我到底在跟何等人物过招！"
+  splits:
+  - split: 1
+    text: "这就是达摩院首座"
+    translated: "This is the head of the Damo Academy."
+    qcReviewedText: "This is the head of the Damo Academy.──Who am I sparring against?!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "我到底在跟何等人物过招！"
+    translated: "Who am I sparring against?!"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/1807_02_01_002,万里鹏程的武功并非出自快捷方式，而是几十年岁月苦心虔修而成，坚若盘石，无懈可击。"
+  splits:
+  - split: 1
+    text: "万里鹏程的武功并非出自快捷方式，而是几十年岁月苦心虔修而成，坚若盘石，无懈可击。"
+    translated: "Wanli Pengcheng's martial arts do not come from a shortcut; instead, they are the result of decades of diligent and devout practice, as solid as rock, without any weaknesses."
+    qcReviewedText: "Wanli Pengcheng's martial arts do not come from a shortcut; instead, they are the result of decades of diligent and devout practice, as solid as rock, without any weaknesses."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1807_02_02_001,！"
+- raw: "CombatTalking/1807_02_02_002,好你个唐门忘形篇，老夫遍阅天下武学，你便随手创招吗！哈！"
+  splits:
+  - split: 1
+    text: "好你个唐门忘形篇，老夫遍阅天下武学，你便随手创招吗！哈！"
+    translated: "Well, Tang Clan, you've forgotten yourself! I have studied all martial arts under the heavens, and you think you can just come up with moves off the top of your head! Ha!"
+    qcReviewedText: "Well, Tang Clan, you've forgotten yourself! I have studied all martial arts under the heavens, and you think you can just come up with moves off the top of your head! Ha!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1807_02_02_003,好！好！好！"
+  splits:
+  - split: 1
+    text: "好！好！好！"
+    translated: "Good! Good! Good!"
+    qcReviewedText: "Good! Good! Good!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1807_02_02_004,这才不愧是崆峒掌派人──不愧是唐门弟子！痛快！"
+  splits:
+  - split: 1
+    text: "这才不愧是崆峒掌派人"
+    translated: "This is finally worthy of the Kongtong Sect's leader."
+    qcReviewedText: "This is finally worthy of the Kongtong Sect's leader.──Well done, a true Tang Clan disciple! That's what I call a satisfying fight!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "不愧是唐门弟子！痛快！"
+    translated: "Well done, a true Tang Clan disciple! That's what I call a satisfying fight!"
+  templates:
+  - split: 1
+    template: "{0}──{1}"
+- raw: "CombatTalking/1815_01_01_001,三个老贼！休得冲撞崆峒掌派！"
+  splits:
+  - split: 1
+    text: "三个老贼！休得冲撞崆峒掌派！"
+    translated: "Three old villains! Do not dare to offend the headmaster of Kongtong!"
+    qcReviewedText: "Three old villains! Do not dare to offend the headmaster of Kongtong!"
+    qcTranslated: "Three old villains! Do not dare to offend the Kongtong Sect!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1815_01_01_002,崆峒护法，执行使命！"
+  splits:
+  - split: 1
+    text: "崆峒护法，执行使命！"
+    translated: "Kongtong Guardian, carry out your mission!"
+    qcReviewedText: "Kongtong Guardian, carry out your mission!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_01_003,几位护法，可是认准了此人？他可是唐门弟子！"
+  splits:
+  - split: 1
+    text: "几位护法，可是认准了此人？他可是唐门弟子！"
+    translated: "The guardians, have you identified this person? He is a disciple of the Tang Clan!"
+    qcReviewedText: "The guardians, have you identified this person? He is a disciple of the Tang Clan!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_01_004,同时也是崆峒掌派。成为两派桥梁，消弭纷争，不正是你南宫世家的宿愿吗？"
+  splits:
+  - split: 1
+    text: "同时也是崆峒掌派。成为两派桥梁，消弭纷争，不正是你南宫世家的宿愿吗？"
+    translated: "And you are also the head of the Kongtong sect. Serving as a bridge between the two sects and resolving conflicts is not exactly your Nangong family's lifelong wish?"
+    qcReviewedText: "And you are also the head of the Kongtong sect. Serving as a bridge between the two sects and resolving conflicts is not exactly your Nangong family's lifelong wish?"
+    qcTranslated: "And you are also the head of the Kongtong sect. Serving as a bridge between the two sects and resolving conflicts is not precisely your Nangong family's lifelong wish?"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1815_01_01_005,……。"
+- raw: "CombatTalking/1815_01_01_006,掌派人，请重整态势。"
+  splits:
+  - split: 1
+    text: "掌派人，请重整态势。"
+    translated: "Master, please reassess the situation"
+    qcReviewedText: "Master, please reassess the situation"
+    qcTranslated: "Master, please reorganize the formation"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1815_01_01_007,来得正好！"
+  splits:
+  - split: 1
+    text: "来得正好！"
+    translated: "Just in time!"
+    qcReviewedText: "Just in time!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_02_001,不要以为只有你们有帮手！\\n我武林盟人才济济，尔等不过是困兽之斗！"
+  splits:
+  - split: 1
+    text: "不要以为只有你们有帮手！"
+    translated: "Don't think you're the only ones with allies!"
+    qcReviewedText: "Don't think you're the only ones with allies!\\nOur Wulin Alliance is full of talented individuals; you are merely fighting like cornered beasts!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "我武林盟人才济济，尔等不过是困兽之斗！"
+    translated: "Our Wulin Alliance is full of talented individuals; you are merely fighting like cornered beasts!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1815_01_03_001,！"
+- raw: "CombatTalking/1815_01_03_002,这个动静……大家快闪开！"
+  splits:
+  - split: 1
+    text: "这个动静……大家快闪开！"
+    translated: "This commotion... everyone scatter quickly!"
+    qcReviewedText: "This commotion... everyone scatter quickly!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_03_003,咦！才刚要反击，你们这是上哪儿去！不是要帮我吗！"
+  splits:
+  - split: 1
+    text: "咦！才刚要反击，你们这是上哪儿去！不是要帮我吗！"
+    translated: "Hey! Just as I was about to counterattack, where are you guys going! Weren't you supposed to help me!"
+    qcReviewedText: "Hey! Just as I was about to counterattack, where are you guys going! Weren't you supposed to help me!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_03_004,敢动我老公！去死吧你们这群王八蛋！"
+  splits:
+  - split: 1
+    text: "敢动我老公！去死吧你们这群王八蛋！"
+    translated: "Dare to touch my husband! You bunch of bastards, go to hell!"
+    qcReviewedText: "Dare to touch my husband! You bunch of bastards, go to hell!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_03_005,咕噗──！"
+  splits:
+  - split: 1
+    text: "咕噗"
+    translated: "Cluck puff"
+    qcReviewedText: "Cluck puff──！"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}──！"
+- raw: "CombatTalking/1815_01_03_006,唔呃啊啊啊──！"
+  splits:
+  - split: 1
+    text: "唔呃啊啊啊"
+    translated: "Oh no, ah ah ah"
+    qcReviewedText: "Oh no, ah ah ah──！"
+    qcTranslated: "Ugh, ah ah ah──!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 1
+    template: "{0}──！"
+- raw: "CombatTalking/1815_01_03_007,得亏青蛇老怪江湖阅历丰富，一见护法纷纷避让，\\n他也立刻趴伏在地，避开了这雷霆一击，骇得魂飞天外。"
+  splits:
+  - split: 1
+    text: "得亏青蛇老怪江湖阅历丰富，一见护法纷纷避让，"
+    translated: "Thanks to the Green Snake Old Monster's extensive experience in the Jianghu, they immediately noticed the guards making way for someone."
+    qcReviewedText: "Thanks to the Green Snake Old Monster's extensive experience in the Jianghu, they immediately noticed the guards making way for someone.\\nThey immediately hit the ground, dodging the thunderous attack and feeling their soul flee to the heavens."
+    qcTranslated: "Thanks to the Green Snake Old Monster's extensive experience in the Jianghu, he immediately noticed the Dharma Protectors making way for someone.\\nHe immediately hit the ground, dodging the thunderous attack and feeling his soul flee to the heavens."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "他也立刻趴伏在地，避开了这雷霆一击，骇得魂飞天外。"
+    translated: "They immediately hit the ground, dodging the thunderous attack and feeling their soul flee to the heavens."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1815_01_03_008,小、小、小竹！妳手上那柄大剑，不，大铁块是什么玩意？\\n等等，妳身上穿的又是啥！"
+  splits:
+  - split: 1
+    text: "小、小、小竹！妳手上那柄大剑，不，大铁块是什么玩意？"
+    translated: "Little, little, Xiao Zhu! The big sword in your hand, no, the big chunk of iron, what is that thing?"
+    qcReviewedText: "Little, little, Xiao Zhu! The big sword in your hand, no, the big chunk of iron, what is that thing?\\nWait, what are you wearing now!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "等等，妳身上穿的又是啥！"
+    translated: "Wait, what are you wearing now!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1815_01_03_009,等会儿再说，还有漏网之鱼！"
+  splits:
+  - split: 1
+    text: "等会儿再说，还有漏网之鱼！"
+    translated: "Hold on, there are still some loose ends to tie up!"
+    qcReviewedText: "Hold on, there are still some loose ends to tie up!"
+    qcTranslated: "Hold on, there are still some fish that slipped through the net!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+- raw: "CombatTalking/1815_01_03_010,混蛋，竟敢伤我族老，饶你不得！"
+  splits:
+  - split: 1
+    text: "混蛋，竟敢伤我族老，饶你不得！"
+    translated: "Damn it, how dare you hurt our elder! I won't forgive you!"
+    qcReviewedText: "Damn it, how dare you hurt our elder! I won't forgive you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_03_011,长老，我们来助阵！"
+  splits:
+  - split: 1
+    text: "长老，我们来助阵！"
+    translated: "Elder, we're here to support you!"
+    qcReviewedText: "Elder, we're here to support you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_03_012,赵活，我来保护你。"
+  splits:
+  - split: 1
+    text: "赵活，我来保护你。"
+    translated: "Zhao Huo, I come to protect you"
+    qcReviewedText: "Zhao Huo, I come to protect you"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_04_001,恭迎第一掌派夫人驾临！"
+  splits:
+  - split: 1
+    text: "恭迎第一掌派夫人驾临！"
+    translated: "Welcome, Lady of the First Palm Sect!"
+    qcReviewedText: "Welcome, Lady of the First Palm Sect!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_04_002,！"
+- raw: "CombatTalking/1815_01_04_003,小竹！"
+  splits:
+  - split: 1
+    text: "小竹！"
+    translated: "Xiao Zhu!"
+    qcReviewedText: "Xiao Zhu!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_04_004,嘿嘿，我来啦！有话等会儿再说。"
+  splits:
+  - split: 1
+    text: "嘿嘿，我来啦！有话等会儿再说。"
+    translated: "Heh heh, I'm here! We'll talk later."
+    qcReviewedText: "Heh heh, I'm here! We'll talk later."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1815_01_04_005,崆峒裂骨魔在此！尔等安敢伤吾夫郎！\\n哪一个耐撕的上前来！"
+  splits:
+  - split: 1
+    text: "崆峒裂骨魔在此！尔等安敢伤吾夫郎！"
+    translated: "Bone-Cracking Demon of Kongtong! How dare you harm my husband!"
+    qcReviewedText: "Bone-Cracking Demon of Kongtong! How dare you harm my husband!\\nWho's tough enough to step forward!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "哪一个耐撕的上前来！"
+    translated: "Who's tough enough to step forward!"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "CombatTalking/1812_01_01_001,小心，小竹，妳身上木甲易燃！"
+  splits:
+  - split: 1
+    text: "小心，小竹，妳身上木甲易燃！"
+    translated: "Be careful, Xiao Zhu, your wooden armor is flammable!"
+    qcReviewedText: "Be careful, Xiao Zhu, your wooden armor is flammable!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_01_002,他敢过来，还没点着火，我就把他捉起来生撕成两半！"
+  splits:
+  - split: 1
+    text: "他敢过来，还没点着火，我就把他捉起来生撕成两半！"
+    translated: "If they dare to come over, I'll grab them before they even have a chance to light a fire and tear them apart!"
+    qcReviewedText: "If they dare to come over, I'll grab them before they even have a chance to light a fire and tear them apart!"
+    qcTranslated: "If they dare to come over, I'll grab them before they even have a chance to light a fire and tear them in two!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "CombatTalking/1812_01_01_003,南宫深陷入[胆怯]异常"
+  splits:
+  - split: 1
+    text: "南宫深陷入"
+    translated: "Nangong Shen found themselves entangled"
+    qcReviewedText: "Nangong Shen found themselves entangled[Timidity]Anomaly"
+    qcTranslated: "Nangong Shen fell into [Timidity] Anomaly"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "胆怯"
+    translated: "Timidity"
+  - split: 1
+    subIndex: 2
+    text: "异常"
+    translated: "Anomaly"
+  templates:
+  - split: 1
+    template: "{0}[{1}]{2}"
+- raw: "CombatTalking/1812_01_01_004,你也是"
+  splits:
+  - split: 1
+    text: "你也是"
+    translated: "Me too"
+    qcReviewedText: "Me too"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_02_001,慢着，妳那柄大剑又是怎么回事，我怎么好像似曾相识……。"
+  splits:
+  - split: 1
+    text: "慢着，妳那柄大剑又是怎么回事，我怎么好像似曾相识……。"
+    translated: "Hold on, I feel like I've seen your big sword before..."
+    qcReviewedText: "Hold on, I feel like I've seen your big sword before..."
+    qcTranslated: "Hold on, what's going on with that big sword of yours? I feel like I've seen it before..."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+- raw: "CombatTalking/1812_01_02_002,这不是火炎山剑阁天井处插的造景吗！"
+  splits:
+  - split: 1
+    text: "这不是火炎山剑阁天井处插的造景吗！"
+    translated: "Isn't this one of the decorative pieces in the courtyard of Flame Mountain Sword Pavilion!"
+    qcReviewedText: "Isn't this one of the decorative pieces in the courtyard of Flame Mountain Sword Pavilion!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_02_003,他们自己说拔得起来就送我！现在归我了！"
+  splits:
+  - split: 1
+    text: "他们自己说拔得起来就送我！现在归我了！"
+    translated: "They said I could have it if they could pull it out! Now it's mine!"
+    qcReviewedText: "They said I could have it if they could pull it out! Now it's mine!"
+    qcTranslated: "They said they'd give it to me if they could pull it out! Now it's mine!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1812_01_02_004,哦，哇……土匪。"
+  splits:
+  - split: 1
+    text: "哦，哇……土匪。"
+    translated: "Oh, wow......Bandits."
+    qcReviewedText: "Oh, wow......Bandits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_02_005,掌派人你一边凉快去！"
+  splits:
+  - split: 1
+    text: "掌派人你一边凉快去！"
+    translated: "Get lost, you palm-smoothing lackey!"
+    qcReviewedText: "Get lost, you palm-smoothing lackey!"
+    qcTranslated: "Get lost, you Sect Master's lackey!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "CombatTalking/1812_01_03_001,小心，小竹，他会喷火！"
+  splits:
+  - split: 1
+    text: "小心，小竹，他会喷火！"
+    translated: "Be careful, Xiao Zhu, they can breathe fire!"
+    qcReviewedText: "Be careful, Xiao Zhu, they can breathe fire!"
+    qcTranslated: "Be careful, Xiao Zhu, he can breathe fire!"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+- raw: "CombatTalking/1812_01_03_002,那有什么好怕的，我可是铁匠啊，玩火长大的！"
+  splits:
+  - split: 1
+    text: "那有什么好怕的，我可是铁匠啊，玩火长大的！"
+    translated: "What's there to be afraid of? I'm a blacksmith! I grew up playing with fire!"
+    qcReviewedText: "What's there to be afraid of? I'm a blacksmith! I grew up playing with fire!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_04_001,哇……哇！烧起来了！我的木甲烧起来了！"
+  splits:
+  - split: 1
+    text: "哇……哇！烧起来了！我的木甲烧起来了！"
+    translated: "Oh no... oh no! It's on fire! My wooden armor is on fire!"
+    qcReviewedText: "Oh no... oh no! It's on fire! My wooden armor is on fire!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_04_002,快脱掉，扑灭火焰！"
+  splits:
+  - split: 1
+    text: "快脱掉，扑灭火焰！"
+    translated: "Hurry up and take it off, put out the fire!"
+    qcReviewedText: "Hurry up and take it off, put out the fire!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_04_003,在那之前……看我火箭飞拳！"
+  splits:
+  - split: 1
+    text: "在那之前……看我火箭飞拳！"
+    translated: "Before that... watch me launch a rocket punch!"
+    qcReviewedText: "Before that... watch me launch a rocket punch!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1812_01_04_004,唔啊啊！拳头会飞！"
+  splits:
+  - split: 1
+    text: "唔啊啊！拳头会飞！"
+    translated: "Ow! My fist is flying!"
+    qcReviewedText: "Ow! My fist is flying!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1811_01_02_001,啊！"
+  splits:
+  - split: 1
+    text: "啊！"
+    translated: "Ah!"
+    qcReviewedText: "Ah!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1811_01_02_002,哇啊！"
+  splits:
+  - split: 1
+    text: "哇啊！"
+    translated: "Wow!"
+    qcReviewedText: "Wow!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1811_01_02_003,那边出了什么事？惨叫声不绝于耳。又是何方神圣往这边过来了？"
+  splits:
+  - split: 1
+    text: "那边出了什么事？惨叫声不绝于耳。又是何方神圣往这边过来了？"
+    translated: "What's going on over there? Scream after scream can be heard. And now who's coming this way?"
+    qcReviewedText: "What's going on over there? Scream after scream can be heard. And now who's coming this way?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1811_01_02_004,你因忧心战况，一时迟疑旁顾，向无忧看在眼里，竟不趁隙攻击。"
+  splits:
+  - split: 1
+    text: "你因忧心战况，一时迟疑旁顾，向无忧看在眼里，竟不趁隙攻击。"
+    translated: "Fretting over the battle situation, you hesitated for a moment and looked around. Xiang Wuyou noticed this but did not take advantage of the opportunity to attack."
+    qcReviewedText: "Fretting over the battle situation, you hesitated for a moment and looked around. Xiang Wuyou noticed this but did not take advantage of the opportunity to attack."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1811_01_03_001,全都给我让开！"
+  splits:
+  - split: 1
+    text: "全都给我让开！"
+    translated: "Get out of my way, all of you!"
+    qcReviewedText: "Get out of my way, all of you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1811_01_03_002,小竹？"
+  splits:
+  - split: 1
+    text: "小竹？"
+    translated: "Xiao Zhu?"
+    qcReviewedText: "Xiao Zhu?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1813_01_14_001,阿活，我来了。"
+  splits:
+  - split: 1
+    text: "阿活，我来了。"
+    translated: "A'Huo, I'm here"
+    qcReviewedText: "A'Huo, I'm here"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1813_01_14_002,放马过来。"
+  splits:
+  - split: 1
+    text: "放马过来。"
+    translated: "Bring it on!"
+    qcReviewedText: "Bring it on!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1813_01_15_001,你的人生那么的重，如何不来连累我？真不够意思。"
+  splits:
+  - split: 1
+    text: "你的人生那么的重，如何不来连累我？真不够意思。"
+    translated: "Your life is so heavy; why don't you spare me the trouble? That's not very considerate."
+    qcReviewedText: "Your life is so heavy; why don't you spare me the trouble? That's not very considerate."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1813_01_16_001,我也想象你一样快意恩仇，游历江湖都不揪！真不讲义气！"
+  splits:
+  - split: 1
+    text: "我也想象你一样快意恩仇，游历江湖都不揪！真不讲义气！"
+    translated: "I wish I could be as carefree and vengeful as you, traveling through Jianghu without a care! That's not very brotherly of you!"
+    qcReviewedText: "I wish I could be as carefree and vengeful as you, traveling through Jianghu without a care! That's not very brotherly of you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1813_01_17_001,不、不要，阿活！不要丢下我！"
+  splits:
+  - split: 1
+    text: "不、不要，阿活！不要丢下我！"
+    translated: "No, don't, A'Huo! Don't leave me behind!"
+    qcReviewedText: "No, don't, A'Huo! Don't leave me behind!"
+    qcTranslated: "N-no, don't, A'Huo! Don't leave me behind!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedStutter
+    qcDefectCategories:
+    - DroppedStutter
+- raw: "CombatTalking/1813_01_17_002,……哈，我是装死吓妳的！"
+  splits:
+  - split: 1
+    text: "……哈，我是装死吓妳的！"
+    translated: "..."
+    qcReviewedText: "..."
+    qcTranslated: "...Ha, I was just playing dead to scare you!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "CombatTalking/1813_01_18_001,赵活！你、你敢倒下，我哭给你看喔！"
+  splits:
+  - split: 1
+    text: "赵活！你、你敢倒下，我哭给你看喔！"
+    translated: "Zhao Huo! You, you dare to fall, and I'll cry for you!"
+    qcReviewedText: "Zhao Huo! You, you dare to fall, and I'll cry for you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatTalking/1813_01_18_002,……那我怎么敢输！"
+  splits:
+  - split: 1
+    text: "……那我怎么敢输！"
+    translated: "..."
+    qcReviewedText: "..."
+    qcTranslated: "...How dare I lose!"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "CombatTalking/1511_01_02_001,夏侯兰！！！！！"
+  splits:
+  - split: 1
+    text: "夏侯兰！！！！！"
+    translated: "Xiahou Lan!!!!!"
+    qcReviewedText: "Xiahou Lan!!!!!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -954,6 +954,87 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
+- raw: "Misc/Name/7004,赵活磨喝乐"
+  splits:
+  - split: 1
+    text: "赵活磨喝乐"
+    translated: "Zhao Huo grinds, drinks, and enjoys"
+    qcReviewedText: "Zhao Huo grinds, drinks, and enjoys"
+    qcTranslated: "Zhao Huo, the Grinding and Drinking Joy"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "Misc/Desc/7004,赵活磨喝乐"
+  splits:
+  - split: 1
+    text: "赵活磨喝乐"
+    translated: "Zhao Huo grinds, drinks, and enjoys"
+    qcReviewedText: "Zhao Huo grinds, drinks, and enjoys"
+    qcTranslated: "Zhao Huo, the Grinding and Drinking Joy"
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+- raw: "Misc/Name/7005,磨喝乐 红"
+  splits:
+  - split: 1
+    text: "磨喝乐"
+    translated: "Mo he le"
+    qcReviewedText: "Mo he le Red"
+    qcTranslated: "Mohale Red"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UntranslatedPinyin
+    qcDefectCategories:
+    - UntranslatedPinyin
+  - split: 1
+    subIndex: 1
+    text: "红"
+    translated: "Red"
+  templates:
+  - split: 1
+    template: "{0} {1}"
+- raw: "Misc/Desc/7005,某人手削的木头人像，比绿色的用心。"
+  splits:
+  - split: 1
+    text: "某人手削的木头人像，比绿色的用心。"
+    translated: "The wooden figurine carved by someone's hand shows more care than the green one."
+    qcReviewedText: "The wooden figurine carved by someone's hand shows more care than the green one."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Misc/Name/7006,磨喝乐 绿"
+  splits:
+  - split: 1
+    text: "磨喝乐"
+    translated: "Mo he le"
+    qcReviewedText: "Mo he le Green"
+    qcTranslated: "Mole Green"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "绿"
+    translated: "Green"
+  templates:
+  - split: 1
+    template: "{0} {1}"
+- raw: "Misc/Desc/7006,某人手削的木头人像，做工粗糙。"
+  splits:
+  - split: 1
+    text: "某人手削的木头人像，做工粗糙。"
+    translated: "A crudely carved wooden figurine, made by hand."
+    qcReviewedText: "A crudely carved wooden figurine, made by hand."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Misc/Name/7100,失败木剑"
   splits:
   - split: 1
@@ -1042,6 +1123,27 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
+- raw: "Misc/Name/7201,金叶子"
+  splits:
+  - split: 1
+    text: "金叶子"
+    translated: "Golden leaflets"
+    qcReviewedText: "Golden leaflets"
+    qcTranslated: "Gold ingots"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "Misc/Desc/7201,江湖快报印花兑换的纪念金叶子，可以换钱。"
+  splits:
+  - split: 1
+    text: "江湖快报印花兑换的纪念金叶子，可以换钱。"
+    translated: "The commemorative golden leaves from the Jianghu quick exchange can be traded for money."
+    qcReviewedText: "The commemorative golden leaves from the Jianghu quick exchange can be traded for money."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Misc/Name/7300,金念珠"
   splits:
   - split: 1

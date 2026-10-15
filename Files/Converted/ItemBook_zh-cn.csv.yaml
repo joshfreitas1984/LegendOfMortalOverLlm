@@ -528,8 +528,8 @@
   splits:
   - split: 1
     text: "苍松剑客叶云舟习剑半生一切所得，在风雨山与恩师诀别之际始终顿悟。"
-    translated: "The swordmaster Ye Yunzhou, after half a lifetime of sword practice and all that he had gained, finally achieved enlightenment when saying goodbye to his master on Fengyu Mountain."
-    qcReviewedText: "The swordmaster Ye Yunzhou, after half a lifetime of sword practice and all that he had gained, finally achieved enlightenment when saying goodbye to his master on Fengyu Mountain.\\nThe sword moves like a bolt of lightning, surpassing all the swift sword techniques of Diancang. It is the Sword Art of the Tang Clan."
+    translated: "Ye Yunzhou, the Pine Swordsman, had spent half his life mastering the sword. It was only at the moment of parting with his benefactor on Fengyu Mountain that he finally attained enlightenment."
+    qcReviewedText: "Ye Yunzhou, the Pine Swordsman, had spent half his life mastering the sword. It was only at the moment of parting with his benefactor on Fengyu Mountain that he finally attained enlightenment.\\nThe sword moves like a bolt of lightning, surpassing all the swift sword techniques of Diancang. It is the Sword Art of the Tang Clan."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -684,6 +684,51 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
+- raw: "Book/Name/2402,风刀火剑"
+  splits:
+  - split: 1
+    text: "风刀火剑"
+    translated: "Whirlwind Knives and Flames of Swords"
+    qcReviewedText: "Whirlwind Knives and Flames of Swords"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/2402,道法将军丹霞子的成名绝技，其实并不是一套武功。\\n崆峒开山立派之初，山中门派林立，崇尚暴力与混沌，尤以天竺「魔僧」鸠摩罗阇、突厥「杀星」执失贺鲁为最。\\n一使熔天魔炎剑，一使吞月苍狼刀，恰为至阳至阴，威力虽强，但心法偏激，都不是正派武功。\\n习练者功力越深，性情亦不免越发火爆、阴狠，当年若由此二人中任一位统霸崆峒，立威建国，中土版图恐怕就不会是今日模样。\\n幸有初代掌派横空出世，涤荡群邪，号召神雷殛毁魔功，崆峒才得以岁岁太平。\\n两部魔功残页随风飞舞，散落群山中，及至数百年后，丹霞子意外跌落弹筝湖，经湖洞沿路捡拾残页，汇聚成书，竟奇迹般将两部魔功合为一部，而且去芜存菁，阴阳相合，昔日魔典，遂成神功。"
+  splits:
+  - split: 1
+    text: "道法将军丹霞子的成名绝技，其实并不是一套武功。"
+    translated: "The signature technique of Dao Method General Danxiazi was not actually a martial art."
+    qcReviewedText: "The signature technique of Dao Method General Danxiazi was not actually a martial art.\\nThe Kongtong Sect is a powerful martial arts sect located in the heart of the mountains. They have strict rules and a rigorous training regimen for their disciples.\\nWhile one uses the Melted Sky Demon Flame Sword, the other wields the Moon-Eating Gray Wolf Knife; one is ultimate yang, the other ultimate yin. Though their power is formidable, their Heart Methods are extreme and do not belong to the orthodox schools of martial arts.\\nThe deeper a practitioner's power becomes, the more their temperament tends to turn explosive and ruthless. If either of these two had unified and dominated Kongtong, establishing their authority and founding a nation, the map of the Central Plains would likely not be what it is today.\\nThanks to the arrival of the first generation's leader, who cleansed the evil and called upon divine thunder to destroy demonic powers, Kongtong has enjoyed peace year after year.\\nTwo incomplete pages of dark arts danced in the wind and scattered among the mountains. Centuries later, Danxiazi stumbled upon Lake Zither and, along the way through the cave by the lake, collected the scattered pages. He managed to compile them into a book and, miraculously, combined the two dark arts into one. Moreover, he refined the text, balancing the opposing forces, turning what were once dark scriptures into divine techniques."
+    qcTranslated: "The signature technique of Dao Method General Danxiazi was not actually a martial art.\\nIn the early days of the founding of the Kongtong Sect, sects were rampant in the mountains, worshipping violence and chaos, with the Demon Monk Jiumoluoluo from Tianzhu and the Killing Star Zhishi Helu from the Turkic tribes being the most prominent.\\nOne used the Rongtian Demon Flame Sword, the other wielded the Swallowing Moon Azure Wolf Blade; they were exactly ultimate yang and ultimate yin. Though their power was formidable, their Heart Methods were extreme, and neither belonged to the orthodox schools of martial arts.\\nThe deeper a practitioner's power became, the more their temperament tended to turn explosive and ruthless. If either of these two had unified and dominated Kongtong back then, establishing their authority and founding a nation, the map of the Central Plains would likely not be what it is today.\\nFortunately, the first generation leader emerged from nowhere, cleansing the evil and calling upon divine thunder to destroy demonic powers, allowing Kongtong to enjoy peace year after year.\\nTwo incomplete pages of dark arts danced in the wind and scattered among the mountains. Centuries later, Danxiazi accidentally fell into Lake Zither and, along the way through the cave by the lake, collected the scattered pages. He managed to compile them into a book and, miraculously, combined the two dark arts into one. Moreover, he refined the text, balancing the opposing forces, turning what were once dark scriptures into divine techniques."
+    qcStatus: Corrected
+    qcQualityScore: 92
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+    - DomainTerm
+  - split: 1
+    subIndex: 1
+    text: "崆峒开山立派之初，山中门派林立，崇尚暴力与混沌，尤以天竺「魔僧」鸠摩罗阇、突厥「杀星」执失贺鲁为最。"
+    translated: "The Kongtong Sect is a powerful martial arts sect located in the heart of the mountains. They have strict rules and a rigorous training regimen for their disciples."
+  - split: 1
+    subIndex: 2
+    text: "一使熔天魔炎剑，一使吞月苍狼刀，恰为至阳至阴，威力虽强，但心法偏激，都不是正派武功。"
+    translated: "While one uses the Melted Sky Demon Flame Sword, the other wields the Moon-Eating Gray Wolf Knife; one is ultimate yang, the other ultimate yin. Though their power is formidable, their Heart Methods are extreme and do not belong to the orthodox schools of martial arts."
+  - split: 1
+    subIndex: 3
+    text: "习练者功力越深，性情亦不免越发火爆、阴狠，当年若由此二人中任一位统霸崆峒，立威建国，中土版图恐怕就不会是今日模样。"
+    translated: "The deeper a practitioner's power becomes, the more their temperament tends to turn explosive and ruthless. If either of these two had unified and dominated Kongtong, establishing their authority and founding a nation, the map of the Central Plains would likely not be what it is today."
+  - split: 1
+    subIndex: 4
+    text: "幸有初代掌派横空出世，涤荡群邪，号召神雷殛毁魔功，崆峒才得以岁岁太平。"
+    translated: "Thanks to the arrival of the first generation's leader, who cleansed the evil and called upon divine thunder to destroy demonic powers, Kongtong has enjoyed peace year after year."
+  - split: 1
+    subIndex: 5
+    text: "两部魔功残页随风飞舞，散落群山中，及至数百年后，丹霞子意外跌落弹筝湖，经湖洞沿路捡拾残页，汇聚成书，竟奇迹般将两部魔功合为一部，而且去芜存菁，阴阳相合，昔日魔典，遂成神功。"
+    translated: "Two incomplete pages of dark arts danced in the wind and scattered among the mountains. Centuries later, Danxiazi stumbled upon Lake Zither and, along the way through the cave by the lake, collected the scattered pages. He managed to compile them into a book and, miraculously, combined the two dark arts into one. Moreover, he refined the text, balancing the opposing forces, turning what were once dark scriptures into divine techniques."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
 - raw: "Book/Name/3000,苦恼拳"
   splits:
   - split: 1
@@ -1032,6 +1077,31 @@
     subIndex: 1
     text: "此腿法没有固定套路，有招无式，是为形意拳的究极型态，所象者乃天雷之形，是为雷神脚。"
     translated: "This leg technique has no fixed routine, with moves but no set forms. It is the ultimate form of Xingyi Quan, resembling the shape of heavenly thunder, hence it is called the Thunder God Foot."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Book/Name/4007,湘妃折梅手"
+  splits:
+  - split: 1
+    text: "湘妃折梅手"
+    translated: "Xiangfei's Plum Blossom Hands"
+    qcReviewedText: "Xiangfei's Plum Blossom Hands"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/4007,姿态优美，宛如画中美人跃出纸面，一颦一笑皆牵人心魄，乍看之下柔弱无力，其实每个举动都蕴含着精妙的后着，拿人穴道于言笑晏晏之间，既不快，也不狠，但就是教人无从闪避，百发百中。\\n不过被阁下的尊容中和后，命中率至少减半。"
+  splits:
+  - split: 1
+    text: "姿态优美，宛如画中美人跃出纸面，一颦一笑皆牵人心魄，乍看之下柔弱无力，其实每个举动都蕴含着精妙的后着，拿人穴道于言笑晏晏之间，既不快，也不狠，但就是教人无从闪避，百发百中。"
+    translated: "Their posture was graceful, like a beauty stepping out of a painting, every gesture and smile captivating the heart. Though they appeared delicate and weak, each movement concealed intricate strategies. They could target pressure points with ease, neither swiftly nor cruelly, but in a way that made it impossible to dodge, hitting their mark every time."
+    qcReviewedText: "Their posture was graceful, like a beauty stepping out of a painting, every gesture and smile captivating the heart. Though they appeared delicate and weak, each movement concealed intricate strategies. They could target pressure points with ease, neither swiftly nor cruelly, but in a way that made it impossible to dodge, hitting their mark every time.\\nHowever, your presence has at least halved my accuracy."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "不过被阁下的尊容中和后，命中率至少减半。"
+    translated: "However, your presence has at least halved my accuracy."
   templates:
   - split: 1
     template: "{0}\\n{1}"
@@ -1395,15 +1465,22 @@
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
-- raw: "Book/Desc/6006,峨嵋派白猿祖师的成名绝技，严格来说也算是一种猴拳，却与民间所传的猴拳南辕北辙。劲由背发，经肩过肘通达手指，是为通臂。"
+- raw: "Book/Desc/6006,峨嵋派白猿祖师的成名绝技，严格来说也算是一种猴拳，却与民间所传的猴拳南辕北辙。劲由背发，经肩过肘通达手指，是为通臂。\\n进手则缠，难攻则绕，揉身抢入，闪惊巧取，是一门十分灵动的拳法。"
   splits:
   - split: 1
     text: "峨嵋派白猿祖师的成名绝技，严格来说也算是一种猴拳，却与民间所传的猴拳南辕北辙。劲由背发，经肩过肘通达手指，是为通臂。"
     translated: "The signature skill of the White Ape Patriarch of the Emei School is strictly speaking a form of monkey fist, yet it diverges significantly from the folk versions of monkey fist. The power emanates from the back and travels through the shoulder to reach the elbow and fingers, which is known as reach arm."
-    qcReviewedText: "The signature skill of the White Ape Patriarch of the Emei School is strictly speaking a form of monkey fist, yet it diverges significantly from the folk versions of monkey fist. The power emanates from the back and travels through the shoulder to reach the elbow and fingers, which is known as reach arm."
+    qcReviewedText: "The signature skill of the White Ape Patriarch of the Emei School is strictly speaking a form of monkey fist, yet it diverges significantly from the folk versions of monkey fist. The power emanates from the back and travels through the shoulder to reach the elbow and fingers, which is known as reach arm.\\nEngage when you can entwine, bypass what is hard to attack, close in while blending with your opponent, and seize opportunities with clever timing; it is a highly agile fist technique."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "进手则缠，难攻则绕，揉身抢入，闪惊巧取，是一门十分灵动的拳法。"
+    translated: "Engage when you can entwine, bypass what is hard to attack, close in while blending with your opponent, and seize opportunities with clever timing; it is a highly agile fist technique."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
 - raw: "Book/Name/6007,夺魄幽灵爪"
   splits:
   - split: 1
@@ -1571,6 +1648,38 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
+- raw: "Book/Name/6014,醉拳"
+  splits:
+  - split: 1
+    text: "醉拳"
+    translated: "Drunk Fist"
+    qcReviewedText: "Drunk Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/6014,峨嵋拳法，有别于后世所传的醉拳套路，这套拳谱并无固定套路，却有八种架式，可以随意组合，令人摸不清头脑。开篇歌诀云：「撇步推肩臂如猿，挤身顿肘爪胜鞭，手脑争快脚蹒跚，此去无方浪流连。」了道尽这部拳法的精随。\\n既是醉拳，当然是喝个烂醉再练。"
+  splits:
+  - split: 1
+    text: "峨嵋拳法，有别于后世所传的醉拳套路，这套拳谱并无固定套路，却有八种架式，可以随意组合，令人摸不清头脑。开篇歌诀云"
+    translated: "Emei Quanfa is different from the drunken fist routines passed down in later generations. This set of martial arts techniques has no fixed routine but includes eight forms that can be combined freely, making it difficult for others to predict. The opening verse goes:"
+    qcReviewedText: "Emei Quanfa is different from the drunken fist routines passed down in later generations. This set of martial arts techniques has no fixed routine but includes eight forms that can be combined freely, making it difficult for others to predict. The opening verse goes:：Shoulder thrusts swift as a monkey, body squeeze and elbow jab fierce as a whip, hands and brain vie for speed while feet lag behind, wandering aimlessly henceforth. This sums up the essence of this martial art technique.\\nSince it's Drunken Fist, of course you have to practice after getting absolutely wasted."
+    qcTranslated: "Emei Quanfa is different from the drunken fist routines passed down in later generations. This set of martial arts techniques has no fixed routine but includes eight forms that can be combined freely, making it difficult for others to predict. The opening verse goes: Shoulder thrusts swift as a monkey, body squeeze and elbow jab fierce as a whip, hands and brain vie for speed while feet lag behind, wandering aimlessly henceforth. This sums up the essence of this martial art technique.\\nSince it's Drunken Fist, of course you have to practice after getting absolutely wasted."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "「撇步推肩臂如猿，挤身顿肘爪胜鞭，手脑争快脚蹒跚，此去无方浪流连。」了道尽这部拳法的精随。"
+    translated: "Shoulder thrusts swift as a monkey, body squeeze and elbow jab fierce as a whip, hands and brain vie for speed while feet lag behind, wandering aimlessly henceforth. This sums up the essence of this martial art technique."
+  - split: 1
+    subIndex: 2
+    text: "既是醉拳，当然是喝个烂醉再练。"
+    translated: "Since it's Drunken Fist, of course you have to practice after getting absolutely wasted."
+  templates:
+  - split: 1
+    template: "{0}：{1}\\n{2}"
 - raw: "Book/Name/7000,龟息功"
   splits:
   - split: 1
@@ -2201,6 +2310,38 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
+- raw: "Book/Name/8002,破金策"
+  splits:
+  - split: 1
+    text: "破金策"
+    translated: "Breakthrough Golden Strategy"
+    qcReviewedText: "Breakthrough Golden Strategy"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/8002,相传为武穆王岳飞随军所记，后经孟珙裨补阙漏，又以实战作例，才得以全其神形。\\n诸凡谋定、审事、攻伐、守御、练兵、遣将、布阵、接战无所遗漏，极尽能事针对金朝战术所制定的对策。\\n传言将得此书，金人拐子马、铁浮屠亦不足为惧也。"
+  splits:
+  - split: 1
+    text: "相传为武穆王岳飞随军所记，后经孟珙裨补阙漏，又以实战作例，才得以全其神形。"
+    translated: "It is said that this was recorded by Wu Mu Wang Yue Fei during his military campaigns. Later, Meng Gong filled in the gaps and corrected errors, adding practical examples to complete its essence and form."
+    qcReviewedText: "It is said that this was recorded by Wu Mu Wang Yue Fei during his military campaigns. Later, Meng Gong filled in the gaps and corrected errors, adding practical examples to complete its essence and form.\\nAll matters, from planning and deliberation to offensive and defensive strategies, training troops, deploying generals, arranging formations, and engaging in battle, have been thoroughly addressed with no details overlooked. This encompasses every possible countermeasure against the Jin Dynasty's tactics.\\nIt is said that with this book, even the Jin people's kidnapping horses and iron-clad mailed cavalry would be no match."
+    qcTranslated: "It is said that this was recorded by Wu Mu Wang Yue Fei during his military campaigns. Later, Meng Gong filled in the gaps and corrected errors, adding practical examples to complete its essence and form.\\nAll matters, from planning and deliberation to offensive and defensive strategies, training troops, deploying generals, arranging formations, and engaging in battle, have been thoroughly addressed with no details overlooked. This encompasses every possible countermeasure against the Jin Dynasty's tactics.\\nIt is said that with this book, even the Jin people's flanking cavalry and iron-clad mailed cavalry would be no match."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+  - split: 1
+    subIndex: 1
+    text: "诸凡谋定、审事、攻伐、守御、练兵、遣将、布阵、接战无所遗漏，极尽能事针对金朝战术所制定的对策。"
+    translated: "All matters, from planning and deliberation to offensive and defensive strategies, training troops, deploying generals, arranging formations, and engaging in battle, have been thoroughly addressed with no details overlooked. This encompasses every possible countermeasure against the Jin Dynasty's tactics."
+  - split: 1
+    subIndex: 2
+    text: "传言将得此书，金人拐子马、铁浮屠亦不足为惧也。"
+    translated: "It is said that with this book, even the Jin people's kidnapping horses and iron-clad mailed cavalry would be no match."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
 - raw: "Book/Name/8003,雪球教战守则"
   splits:
   - split: 1
@@ -2563,15 +2704,22 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Book/Desc/8102,东汉医国手张仲景所著，是汉医学经典。原典因战火辗转而失佚，此书是后人集《伤寒论》与《金匮要略》所编撰而成。"
+- raw: "Book/Desc/8102,东汉医国手张仲景所著，是汉医学经典。原典因战火辗转而失佚，此书是后人集《伤寒论》与《金匮要略》所编撰而成。\\n此书博采众方，创设六经辨证，被后世誉为「方书之祖」。"
   splits:
   - split: 1
     text: "东汉医国手张仲景所著，是汉医学经典。原典因战火辗转而失佚，此书是后人集《伤寒论》与《金匮要略》所编撰而成。"
     translated: "Written by Zhang Zhongjing, a physician of the Eastern Han dynasty, this is a classic of Han medicine. The original text was lost due to wars and battles, but this book was compiled from the Shang Huan Lun and the Jin Gu Yao Lue."
-    qcReviewedText: "Written by Zhang Zhongjing, a physician of the Eastern Han dynasty, this is a classic of Han medicine. The original text was lost due to wars and battles, but this book was compiled from the Shang Huan Lun and the Jin Gu Yao Lue."
+    qcReviewedText: "Written by Zhang Zhongjing, a physician of the Eastern Han dynasty, this is a classic of Han medicine. The original text was lost due to wars and battles, but this book was compiled from the Shang Huan Lun and the Jin Gu Yao Lue.\\nThis book draws extensively from various medical traditions and establishes the Six Jing diagnostic system, earning it the title of the ancestor of formula books in later generations."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "此书博采众方，创设六经辨证，被后世誉为「方书之祖」。"
+    translated: "This book draws extensively from various medical traditions and establishes the Six Jing diagnostic system, earning it the title of the ancestor of formula books in later generations."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
 - raw: "Book/Name/8104,唐门药典"
   splits:
   - split: 1
@@ -2760,6 +2908,42 @@
     text: "宋代重要医书，记载了多种本草植物的图录。"
     translated: "Important medical texts from the Song Dynasty recorded multiple illustrations of herbal plants."
     qcReviewedText: "Important medical texts from the Song Dynasty recorded multiple illustrations of herbal plants."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Name/7019,手抄全真剑法"
+  splits:
+  - split: 1
+    text: "手抄全真剑法"
+    translated: "Hand-copied Quanzhen Sword Technique"
+    qcReviewedText: "Hand-copied Quanzhen Sword Technique"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/7019,某人手抄的全真剑法，内容与全真健康操别无二致，只是字迹异常娟秀，宛如落纸云烟。"
+  splits:
+  - split: 1
+    text: "某人手抄的全真剑法，内容与全真健康操别无二致，只是字迹异常娟秀，宛如落纸云烟。"
+    translated: "Someone's handwritten Quanzhen Sword Technique is identical in content to the Quanzhen Health Exercises, except that the handwriting is unusually elegant, as if the words were clouds floating on paper."
+    qcReviewedText: "Someone's handwritten Quanzhen Sword Technique is identical in content to the Quanzhen Health Exercises, except that the handwriting is unusually elegant, as if the words were clouds floating on paper."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Name/9002,梅乡清供"
+  splits:
+  - split: 1
+    text: "梅乡清供"
+    translated: "Clear Offerings of Plum Village"
+    qcReviewedText: "Clear Offerings of Plum Village"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/9002,某人的烹饪杂记，纪录了许多天马行空的菜式，有分寒食篇、足食篇、挑食篇，从市井小吃到山珍海味，无所不包。"
+  splits:
+  - split: 1
+    text: "某人的烹饪杂记，纪录了许多天马行空的菜式，有分寒食篇、足食篇、挑食篇，从市井小吃到山珍海味，无所不包。"
+    translated: "Someone's culinary notebook, filled with imaginative dishes ranging from street snacks to delicacies. It is divided into sections such as the Cold Food Chapter, the Abundant Fare Chapter, and the Picky Eater Chapter, covering everything in between."
+    qcReviewedText: "Someone's culinary notebook, filled with imaginative dishes ranging from street snacks to delicacies. It is divided into sections such as the Cold Food Chapter, the Abundant Fare Chapter, and the Picky Eater Chapter, covering everything in between."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

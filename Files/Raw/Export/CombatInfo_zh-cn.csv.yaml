@@ -181,6 +181,10 @@
   splits:
   - split: 1
     text: "感到愤怒"
+- raw: "CombatInfo/getFear,感到恐惧"
+  splits:
+  - split: 1
+    text: "感到恐惧"
 - raw: "CombatInfo/collapse,虚脱"
   splits:
   - split: 1
@@ -352,6 +356,10 @@
   splits:
   - split: 1
     text: "枯荣神功"
+- raw: "CombatAction/block_007,飞天"
+  splits:
+  - split: 1
+    text: "飞天"
 - raw: "CombatAction/curse_001,战神语录"
   splits:
   - split: 1
@@ -472,3 +480,51 @@
   splits:
   - split: 1
     text: "第三极招"
+- raw: "CombatAction/ultimate_016,凝雪出窍"
+  splits:
+  - split: 1
+    text: "凝雪出窍"
+- raw: "CombatAction/ultimate_017,飞天脚"
+  splits:
+  - split: 1
+    text: "飞天脚"
+- raw: "CombatAction/block_008,好"
+  splits:
+  - split: 1
+    text: "好"
+- raw: "CombatAction/curse_006,才不要"
+  splits:
+  - split: 1
+    text: "才不要"
+- raw: "CombatAction/attack_008,反偷袭"
+  splits:
+  - split: 1
+    text: "反偷袭"
+- raw: "CombatAction/curse_007,咆哮"
+  splits:
+  - split: 1
+    text: "咆哮"
+- raw: "CombatAction/ultimate_018,烈阳锤"
+  splits:
+  - split: 1
+    text: "烈阳锤"
+- raw: "CombatAction/curse_008,吹法螺"
+  splits:
+  - split: 1
+    text: "吹法螺"
+- raw: "CombatAction/curse_009,聚气"
+  splits:
+  - split: 1
+    text: "聚气"
+- raw: "CombatAction/weapon_004,奇袭"
+  splits:
+  - split: 1
+    text: "奇袭"
+- raw: "CombatAction/block_009,防御"
+  splits:
+  - split: 1
+    text: "防御"
+- raw: "CombatAction/ultimate_019,崆峒神威"
+  splits:
+  - split: 1
+    text: "崆峒神威"

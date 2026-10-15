@@ -173,6 +173,26 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "Equip/Name/Melee_90,完竟剑"
+  splits:
+  - split: 1
+    text: "完竟剑"
+- raw: "Equip/Desc/Melee_90,旷古绝今，完美无缺的究极之剑。\\n呕心沥血尚不足矣，千锤百炼亦不能够，\\n应天命而铸就，集神技之大成。\\n剑若有灵，见此神兵无不伏首。"
+  splits:
+  - split: 1
+    text: "旷古绝今，完美无缺的究极之剑。"
+  - split: 1
+    subIndex: 1
+    text: "呕心沥血尚不足矣，千锤百炼亦不能够，"
+  - split: 1
+    subIndex: 2
+    text: "应天命而铸就，集神技之大成。"
+  - split: 1
+    subIndex: 3
+    text: "剑若有灵，见此神兵无不伏首。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "Equip/Name/Knife_01,脱手镖"
   splits:
   - split: 1
@@ -717,3 +737,40 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "Equip/Name/Cloth_23,乌蚕宝衣"
+  splits:
+  - split: 1
+    text: "乌蚕宝衣"
+- raw: "Equip/Desc/Cloth_23,小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。\\n她拙于言词，只能以此表明心迹，\\n只愿风雨雷电不能加诸你身，余生无病无灾。"
+  splits:
+  - split: 1
+    text: "小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。"
+  - split: 1
+    subIndex: 1
+    text: "她拙于言词，只能以此表明心迹，"
+  - split: 1
+    subIndex: 2
+    text: "只愿风雨雷电不能加诸你身，余生无病无灾。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Cloth_24,逆鳞宝衣"
+  splits:
+  - split: 1
+    text: "逆鳞宝衣"
+- raw: "Equip/Desc/Cloth_24,大师兄异想天开设计的机关宝衣，\\n能在受到攻击时自动发射暗器反击。\\n图纸所绘压根不可实行，\\n若无高人改良，这件甲衣决计无法现世。"
+  splits:
+  - split: 1
+    text: "大师兄异想天开设计的机关宝衣，"
+  - split: 1
+    subIndex: 1
+    text: "能在受到攻击时自动发射暗器反击。"
+  - split: 1
+    subIndex: 2
+    text: "图纸所绘压根不可实行，"
+  - split: 1
+    subIndex: 3
+    text: "若无高人改良，这件甲衣决计无法现世。"
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"

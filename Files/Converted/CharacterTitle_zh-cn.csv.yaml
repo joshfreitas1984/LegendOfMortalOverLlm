@@ -74,8 +74,8 @@
   splits:
   - split: 1
     text: "苍松剑客"
-    translated: "Cang Song Swordman"
-    qcReviewedText: "Cang Song Swordman"
+    translated: "Pine Swordsman"
+    qcReviewedText: "Pine Swordsman"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -134,6 +134,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CharacterTitle/girl5_11,飞天嫡传女弟子"
+  splits:
+  - split: 1
+    text: "飞天嫡传女弟子"
+    translated: "Flying Heaven's Direct Female Disciple"
+    qcReviewedText: "Flying Heaven's Direct Female Disciple"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CharacterTitle/girl6,夺魄幽兰"
   splits:
   - split: 1
@@ -161,7 +170,34 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "CharacterTitle/girl7_5,裂骨魔"
+  splits:
+  - split: 1
+    text: "裂骨魔"
+    translated: "Bone-Cracking Demon"
+    qcReviewedText: "Bone-Cracking Demon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CharacterTitle/girl7_6,裂骨魔"
+  splits:
+  - split: 1
+    text: "裂骨魔"
+    translated: "Bone-Cracking Demon"
+    qcReviewedText: "Bone-Cracking Demon"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CharacterTitle/girl8,玄功掌门"
+  splits:
+  - split: 1
+    text: "玄功掌门"
+    translated: "Mystic Skill Sect Leader"
+    qcReviewedText: "Mystic Skill Sect Leader"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CharacterTitle/girl8_2,玄功掌门"
   splits:
   - split: 1
     text: "玄功掌门"

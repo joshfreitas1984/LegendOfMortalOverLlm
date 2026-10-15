@@ -126,6 +126,14 @@
   splits:
   - split: 1
     text: "获得《叶云裳的梳子》"
+- raw: "Story/M_Add_Special_1006,获得《小梅的发带》"
+  splits:
+  - split: 1
+    text: "获得《小梅的发带》"
+- raw: "Story/M_Add_Special_1007,获得《小竹的手帕》"
+  splits:
+  - split: 1
+    text: "获得《小竹的手帕》"
 - raw: "Story/M_Add_Special_2001,获得《机巧飞蝗》"
   splits:
   - split: 1
@@ -142,6 +150,10 @@
   splits:
   - split: 1
     text: "获得《文房四宝》"
+- raw: "Story/M_Add_Special_2007,获得《壮士飞爪》"
+  splits:
+  - split: 1
+    text: "获得《壮士飞爪》"
 - raw: "Story/M_Add_Special_4001,获得《切鱼刀》"
   splits:
   - split: 1
@@ -274,6 +286,10 @@
   splits:
   - split: 1
     text: "获得秘笈《全真天遁剑法》"
+- raw: "Story/M_Add_Book_2402,获得秘笈《风刀火剑》"
+  splits:
+  - split: 1
+    text: "获得秘笈《风刀火剑》"
 - raw: "Story/M_Add_Book_3000,获得秘笈《苦恼拳》"
   splits:
   - split: 1
@@ -318,6 +334,10 @@
   splits:
   - split: 1
     text: "獲得秘笈《雷神脚》"
+- raw: "Story/M_Add_Book_4007,獲得秘笈《湘妃折梅手》"
+  splits:
+  - split: 1
+    text: "獲得秘笈《湘妃折梅手》"
 - raw: "Story/M_Add_Book_4008,獲得秘笈《蛇形拳》"
   splits:
   - split: 1
@@ -390,6 +410,10 @@
   splits:
   - split: 1
     text: "獲得秘笈《八仙指》"
+- raw: "Story/M_Add_Book_6014,獲得秘笈《醉拳》"
+  splits:
+  - split: 1
+    text: "獲得秘笈《醉拳》"
 - raw: "Story/M_Add_Book_7001,获得秘笈《莲花落》"
   splits:
   - split: 1
@@ -462,6 +486,10 @@
   splits:
   - split: 1
     text: "获得秘笈《阴阳夺》"
+- raw: "Story/M_Add_Book_8002,獲得秘笈《破金策》"
+  splits:
+  - split: 1
+    text: "獲得秘笈《破金策》"
 - raw: "Story/M_Add_Book_8003,獲得秘笈《雪球教战守则》"
   splits:
   - split: 1
@@ -686,3 +714,49 @@
   splits:
   - split: 1
     text: "南宫家宴"
+- raw: "Story/M_Add_Book_Format,获得秘笈《{0}》"
+  splits:
+  - split: 1
+    text: "获得秘笈"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Remove_Book_Format,失去秘笈《{0}》"
+  splits:
+  - split: 1
+    text: "失去秘笈"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Add_Misc_Format,获得物品《{0}》"
+  splits:
+  - split: 1
+    text: "获得物品"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Remove_Misc_Format,失去物品《{0}》"
+  splits:
+  - split: 1
+    text: "失去物品"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Add_Special_Format,获得贵重品《{0}》"
+  splits:
+  - split: 1
+    text: "获得贵重品"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Remove_Special_Format,失去贵重品《{0}》"
+  splits:
+  - split: 1
+    text: "失去贵重品"
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/Unlock_Cloth_24,解锁装备开发《逆鳞宝衣》"
+  splits:
+  - split: 1
+    text: "解锁装备开发《逆鳞宝衣》"

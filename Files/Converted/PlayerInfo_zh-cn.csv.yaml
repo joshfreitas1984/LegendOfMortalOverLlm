@@ -351,6 +351,154 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "PlayerInfo/Title/12,铜臭侠"
+  splits:
+  - split: 1
+    text: "铜臭侠"
+    translated: "Copper Smell Hero"
+    qcReviewedText: "Copper Smell Hero"
+    qcTranslated: "Copper Stink Hero"
+    qcStatus: Corrected
+    flaggedForQcReview: true
+    qcQualityScore: 0
+    qcDefectCategory: LostIdiom
+    qcDefectCategories:
+    - LostIdiom
+- raw: "PlayerInfo/Title/13,通缉犯"
+  splits:
+  - split: 1
+    text: "通缉犯"
+    translated: "Wanted criminal"
+    qcReviewedText: "Wanted criminal"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/14,扑屎鵰"
+  splits:
+  - split: 1
+    text: "扑屎鵰"
+    translated: "Penguin"
+    qcReviewedText: "Penguin"
+    qcTranslated: "Feces-Dropping Eagle"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "PlayerInfo/Title/15,青色霍闪"
+  splits:
+  - split: 1
+    text: "青色霍闪"
+    translated: "A flash of blue"
+    qcReviewedText: "A flash of blue"
+    qcTranslated: "A flash of cyan"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "PlayerInfo/Title/16,青衣大圣"
+  splits:
+  - split: 1
+    text: "青衣大圣"
+    translated: "Green Robe Great Sage"
+    qcReviewedText: "Green Robe Great Sage"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/17,可疑人士"
+  splits:
+  - split: 1
+    text: "可疑人士"
+    translated: "Suspicious individual"
+    qcReviewedText: "Suspicious individual"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/18,九天应雷赵真君"
+  splits:
+  - split: 1
+    text: "九天应雷赵真君"
+    translated: "Lord Thunder Divine Zhao Zhentian"
+    qcReviewedText: "Lord Thunder Divine Zhao Zhentian"
+    qcTranslated: "Nine Heavens Thunder-Responding Lord Zhao Zhenjun"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "PlayerInfo/Title/19,臀里藏针"
+  splits:
+  - split: 1
+    text: "臀里藏针"
+    translated: "Hiding needles in one's buttocks"
+    qcReviewedText: "Hiding needles in one's buttocks"
+    qcTranslated: "Concealing Needles in the Buttocks"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "PlayerInfo/Title/20,千锤铁面"
+  splits:
+  - split: 1
+    text: "千锤铁面"
+    translated: "Tempered Iron Face"
+    qcReviewedText: "Tempered Iron Face"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/21,崆峒掌派人"
+  splits:
+  - split: 1
+    text: "崆峒掌派人"
+    translated: "Kongtong Sect leader"
+    qcReviewedText: "Kongtong Sect leader"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/22,钢珠"
+  splits:
+  - split: 1
+    text: "钢珠"
+    translated: "Steel ball"
+    qcReviewedText: "Steel ball"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/23,弹珠侠"
+  splits:
+  - split: 1
+    text: "弹珠侠"
+    translated: "Marble Hero"
+    qcReviewedText: "Marble Hero"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerInfo/Title/24,弹星手"
+  splits:
+  - split: 1
+    text: "弹星手"
+    translated: "Star Bouncer"
+    qcReviewedText: "Star Bouncer"
+    qcTranslated: "Star Plucking Hand"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "PlayerInfo/Title/25,随便"
+  splits:
+  - split: 1
+    text: "随便"
+    translated: "Whatever they want"
+    qcReviewedText: "Whatever they want"
+    qcTranslated: "Whatever"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "PlayerInfo/Lover/4,上官萤"
   splits:
   - split: 1

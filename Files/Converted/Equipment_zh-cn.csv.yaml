@@ -307,6 +307,39 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}\\n{5}"
+- raw: "Equip/Name/Melee_90,完竟剑"
+  splits:
+  - split: 1
+    text: "完竟剑"
+    translated: "Wanjing Sword"
+    qcReviewedText: "Wanjing Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Equip/Desc/Melee_90,旷古绝今，完美无缺的究极之剑。\\n呕心沥血尚不足矣，千锤百炼亦不能够，\\n应天命而铸就，集神技之大成。\\n剑若有灵，见此神兵无不伏首。"
+  splits:
+  - split: 1
+    text: "旷古绝今，完美无缺的究极之剑。"
+    translated: "The ultimate sword, perfect and unparalleled throughout history."
+    qcReviewedText: "The ultimate sword, perfect and unparalleled throughout history.\\nEven pouring out one's heart and soul is not enough; even refining something a thousand times cannot suffice.\\nForged in accordance with destiny, embodying the pinnacle of divine techniques.\\nIf a sword has a spirit, it would bow to this divine weapon without exception."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "呕心沥血尚不足矣，千锤百炼亦不能够，"
+    translated: "Even pouring out one's heart and soul is not enough; even refining something a thousand times cannot suffice."
+  - split: 1
+    subIndex: 2
+    text: "应天命而铸就，集神技之大成。"
+    translated: "Forged in accordance with destiny, embodying the pinnacle of divine techniques."
+  - split: 1
+    subIndex: 3
+    text: "剑若有灵，见此神兵无不伏首。"
+    translated: "If a sword has a spirit, it would bow to this divine weapon without exception."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"
 - raw: "Equip/Name/Knife_01,脱手镖"
   splits:
   - split: 1
@@ -1267,3 +1300,68 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}\\n{3}\\n{4}"
+- raw: "Equip/Name/Cloth_23,乌蚕宝衣"
+  splits:
+  - split: 1
+    text: "乌蚕宝衣"
+    translated: "Black Silkworm Treasure Garment"
+    qcReviewedText: "Black Silkworm Treasure Garment"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Equip/Desc/Cloth_23,小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。\\n她拙于言词，只能以此表明心迹，\\n只愿风雨雷电不能加诸你身，余生无病无灾。"
+  splits:
+  - split: 1
+    text: "小竹将水火不侵的乌蚕丝手套拆了，缝进你衣里。"
+    translated: "Xiao Zhu removed the water and fireproof black silkworm gloves and sewed them into your clothes."
+    qcReviewedText: "Xiao Zhu removed the water and fireproof black silkworm gloves and sewed them into your clothes.\\nThey were tongue-tied and could only express their feelings in this way.\\nMay wind, rain, thunder, and lightning spare you, and may your remaining years be free from illness and misfortune."
+    qcTranslated: "Xiao Zhu removed the water and fireproof black silkworm gloves and sewed them into your clothes.\\nShe was tongue-tied and could only express her feelings in this way.\\nMay wind, rain, thunder, and lightning spare you, and may your remaining years be free from illness and misfortune."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "她拙于言词，只能以此表明心迹，"
+    translated: "They were tongue-tied and could only express their feelings in this way."
+  - split: 1
+    subIndex: 2
+    text: "只愿风雨雷电不能加诸你身，余生无病无灾。"
+    translated: "May wind, rain, thunder, and lightning spare you, and may your remaining years be free from illness and misfortune."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}"
+- raw: "Equip/Name/Cloth_24,逆鳞宝衣"
+  splits:
+  - split: 1
+    text: "逆鳞宝衣"
+    translated: "Rebellious Scale Treasure Robe"
+    qcReviewedText: "Rebellious Scale Treasure Robe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Equip/Desc/Cloth_24,大师兄异想天开设计的机关宝衣，\\n能在受到攻击时自动发射暗器反击。\\n图纸所绘压根不可实行，\\n若无高人改良，这件甲衣决计无法现世。"
+  splits:
+  - split: 1
+    text: "大师兄异想天开设计的机关宝衣，"
+    translated: "Big Senior Brother's outlandish design for the Mechanism Treasure Robe,"
+    qcReviewedText: "Big Senior Brother's outlandish design for the Mechanism Treasure Robe,\\nCan automatically launch a Hidden Weapon in retaliation when attacked.\\nBlueprint is completely impractical \\nWithout a skilled expert to improve it, this armor could never come into existence."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "能在受到攻击时自动发射暗器反击。"
+    translated: "Can automatically launch a Hidden Weapon in retaliation when attacked."
+  - split: 1
+    subIndex: 2
+    text: "图纸所绘压根不可实行，"
+    translated: "Blueprint is completely impractical"
+  - split: 1
+    subIndex: 3
+    text: "若无高人改良，这件甲衣决计无法现世。"
+    translated: "Without a skilled expert to improve it, this armor could never come into existence."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}\\n{2}\\n{3}"

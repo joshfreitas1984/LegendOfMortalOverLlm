@@ -480,12 +480,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "PlayerTalent/Desc/0015,[战役]\\可施展金刚罩。"
+- raw: "PlayerTalent/Desc/0015,[战役]\\n可施展金刚罩。"
   splits:
   - split: 1
     text: "战役"
     translated: "Battle"
-    qcReviewedText: "[Battle]\\Can use the Diamond Shield"
+    qcReviewedText: "[Battle]\\nCan use the Diamond Shield"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -495,7 +495,7 @@
     translated: "Can use the Diamond Shield"
   templates:
   - split: 1
-    template: "[{0}]\\{1}"
+    template: "[{0}]\\n{1}"
 - raw: "PlayerTalent/Name/0017,千机百变"
   splits:
   - split: 1
@@ -602,6 +602,56 @@
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0023,自信心"
+  splits:
+  - split: 1
+    text: "自信心"
+    translated: "Confidence"
+    qcReviewedText: "Confidence"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/0023,[决斗]\\n血量高于80%时，获得伤害增益。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen health is above 80%, gain a damage boost."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "血量高于80%时，获得伤害增益。"
+    translated: "When health is above 80%, gain a damage boost."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0024,背水一战"
+  splits:
+  - split: 1
+    text: "背水一战"
+    translated: "A desperate last stand with no retreat"
+    qcReviewedText: "A desperate last stand with no retreat"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/0024,[决斗]\\n血量低于20%时，获得伤害增益。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen health is below 20%, gain a damage boost."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "血量低于20%时，获得伤害增益。"
+    translated: "When health is below 20%, gain a damage boost."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
 - raw: "PlayerTalent/Name/0025,高手风范"
   splits:
   - split: 1
@@ -680,6 +730,34 @@
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0034,读势"
+  splits:
+  - split: 1
+    text: "读势"
+    translated: "Reading the situation"
+    qcReviewedText: "Reading the situation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/0034,[决斗]\\n根据临阵提升招架机率。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nIncrease your chance of blocking based on situational judgment."
+    qcTranslated: "[Duel]\\nIncrease your chance of blocking based on the opponent's actions."
+    qcStatus: Corrected
+    qcQualityScore: 85
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
+  - split: 1
+    subIndex: 1
+    text: "根据临阵提升招架机率。"
+    translated: "Increase your chance of blocking based on situational judgment."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
 - raw: "PlayerTalent/Name/0035,龙渊七绝"
   splits:
   - split: 1
@@ -755,6 +833,31 @@
     subIndex: 1
     text: "造成伤害时，根据连击数，追加气伤害。"
     translated: "When dealing damage, add Ki damage based on the number of consecutive hits."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/0038,盛气凌人"
+  splits:
+  - split: 1
+    text: "盛气凌人"
+    translated: "Arrogant and overbearing"
+    qcReviewedText: "Arrogant and overbearing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/0038,[决斗]\\n造成伤害时，根据连击数，追加气回复。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen dealing damage, based on the number of consecutive hits, additional mana recovery is added."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "造成伤害时，根据连击数，追加气回复。"
+    translated: "When dealing damage, based on the number of consecutive hits, additional mana recovery is added."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1081,6 +1184,42 @@
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1116,狂妄"
+  splits:
+  - split: 1
+    text: "狂妄"
+    translated: "Arrogance"
+    qcReviewedText: "Arrogance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/1116,[决斗]\\n嘴攻成功时，额外回复气力，有[胆怯]失效。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen verbal sparring is successful, restore additional chi.[Timidity]Expired"
+    qcTranslated: "[Duel]\\nWhen verbal sparring is successful, restore additional chi. [Timidity] is ineffective."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 1
+    subIndex: 1
+    text: "嘴攻成功时，额外回复气力，有"
+    translated: "When verbal sparring is successful, restore additional chi."
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+    translated: "Timidity"
+  - split: 1
+    subIndex: 3
+    text: "失效。"
+    translated: "Expired"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]{3}"
 - raw: "PlayerTalent/Name/1200,揍狗拳"
   splits:
   - split: 1
@@ -1413,19 +1552,19 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "PlayerTalent/Desc/2100,[决斗]\\n备揍时，根据等级加速代谢麻痹累积值。"
+- raw: "PlayerTalent/Desc/2100,[决斗]\\n备揍时，根据等级代谢毒麻累积值。"
   splits:
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nWhen preparing to take a beating, increase the accumulation of paralysis damage based on your level."
+    qcReviewedText: "[Duel]\\nWhen preparing to fight, metabolize the accumulated poison and numbness values according to your level."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
-    text: "备揍时，根据等级加速代谢麻痹累积值。"
-    translated: "When preparing to take a beating, increase the accumulation of paralysis damage based on your level."
+    text: "备揍时，根据等级代谢毒麻累积值。"
+    translated: "When preparing to fight, metabolize the accumulated poison and numbness values according to your level."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -1975,6 +2114,34 @@
   templates:
   - split: 1
     template: "[{0}]\\n{1}\\n{2}"
+- raw: "PlayerTalent/Name/3110,起手势"
+  splits:
+  - split: 1
+    text: "起手势"
+    translated: "Gesture to start"
+    qcReviewedText: "Gesture to start"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/3110,[决斗]\\n第一回合，格檔率+50%。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nFirst turn, guard rate+50%。"
+    qcTranslated: "[Duel]\\nFirst turn, guard rate +50%"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "第一回合，格檔率"
+    translated: "First turn, guard rate"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}+50%。"
 - raw: "PlayerTalent/Name/3112,无影爪"
   splits:
   - split: 1
@@ -2025,6 +2192,31 @@
     subIndex: 1
     text: "根据受到的伤害，大幅回升气。"
     translated: "Significantly restore qi based on the damage received."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3117,肥胖肉体"
+  splits:
+  - split: 1
+    text: "肥胖肉体"
+    translated: "Bloated body"
+    qcReviewedText: "Bloated body"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/3117,[决斗]\\n根据对手内力获得额外减伤。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nGain additional damage reduction based on the opponent's Inner Power."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "根据对手内力获得额外减伤。"
+    translated: "Gain additional damage reduction based on the opponent's Inner Power."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2392,6 +2584,31 @@
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/6012,点穴"
+  splits:
+  - split: 1
+    text: "点穴"
+    translated: "Acupoint striking"
+    qcReviewedText: "Acupoint striking"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/6012,[决斗]\\n攻击命中时，造成若干麻痹累积"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the attack hits, it causes a buildup of paralysis."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，造成若干麻痹累积"
+    translated: "When the attack hits, it causes a buildup of paralysis."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
 - raw: "PlayerTalent/Name/7001,火拂尘"
   splits:
   - split: 1
@@ -2641,6 +2858,70 @@
     subIndex: 2
     text: "金刚神枪指"
     translated: "Vajra Divine Spear Technique"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8005,透骨钉"
+  splits:
+  - split: 1
+    text: "透骨钉"
+    translated: "Bone-piercing nail"
+    qcReviewedText: "Bone-piercing nail"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/8005,[决斗]\\n暗器命中时，有30%机率造成[破甲]。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen a Hidden Weapon hits, there is a 30% chance to cause[Piercing Armor]。"
+    qcTranslated: "[Duel]\\nWhen a Hidden Weapon hits, there is a 30% chance to cause[Piercing Armor]."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时，有30%机率造成"
+    translated: "When a Hidden Weapon hits, there is a 30% chance to cause"
+  - split: 1
+    subIndex: 2
+    text: "破甲"
+    translated: "Piercing Armor"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8006,似草针"
+  splits:
+  - split: 1
+    text: "似草针"
+    translated: "Grass needle"
+    qcReviewedText: "Grass needle"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/8006,[决斗]\\n暗器命中时，有30%机率造成[失衡]。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen a Hidden Weapon hits, there is a 30% chance to cause[Imbalance]。"
+    qcTranslated: "[Duel]\\nWhen a Hidden Weapon hits, there is a 30% chance to cause[Imbalance]."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时，有30%机率造成"
+    translated: "When a Hidden Weapon hits, there is a 30% chance to cause"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
@@ -3057,6 +3338,38 @@
   templates:
   - split: 1
     template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/8129,飞天脚"
+  splits:
+  - split: 1
+    text: "飞天脚"
+    translated: "Flying Heaven Kick"
+    qcReviewedText: "Flying Heaven Kick"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/8129,[决斗]\\n境界一以上，绝招变为[飞天脚]。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nAbove the First Stage, the Ultimate moves to become[Flying Heaven Kick]。"
+    qcTranslated: "[Duel]\\nAbove the First Stage, the Ultimate becomes [Flying Heaven Kick]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "境界一以上，绝招变为"
+    translated: "Above the First Stage, the Ultimate moves to become"
+  - split: 1
+    subIndex: 2
+    text: "飞天脚"
+    translated: "Flying Heaven Kick"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
 - raw: "PlayerTalent/Name/9000,不洗澡"
   splits:
   - split: 1
@@ -3072,6 +3385,24 @@
     text: "不洗澡"
     translated: "No bath taken"
     qcReviewedText: "No bath taken"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Name/9001,轻微骨裂"
+  splits:
+  - split: 1
+    text: "轻微骨裂"
+    translated: "Minor bone fracture"
+    qcReviewedText: "Minor bone fracture"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/9001,受到巨力压迫，导致轻微骨裂。好好静养就会好。"
+  splits:
+  - split: 1
+    text: "受到巨力压迫，导致轻微骨裂。好好静养就会好。"
+    translated: "Suffered minor bone fractures due to intense pressure. With proper rest and recuperation, they will recover."
+    qcReviewedText: "Suffered minor bone fractures due to intense pressure. With proper rest and recuperation, they will recover."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -3548,3 +3879,280 @@
     qcDefectCategory: DomainTerm
     qcDefectCategories:
     - DomainTerm
+- raw: "PlayerTalent/Name/7002,嚣张"
+  splits:
+  - split: 1
+    text: "嚣张"
+    translated: "Arrogant and overbearing"
+    qcReviewedText: "Arrogant and overbearing"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/7002,[决斗]\\n绝招命中，自身追加[破甲]。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nUltimate hit, self-apply bonus[Piercing Armor]。"
+    qcTranslated: "[Duel]\\nUltimate hit, self-apply bonus[Piercing Armor]"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "绝招命中，自身追加"
+    translated: "Ultimate hit, self-apply bonus"
+  - split: 1
+    subIndex: 2
+    text: "破甲"
+    translated: "Piercing Armor"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/1210,风刀"
+  splits:
+  - split: 1
+    text: "风刀"
+    translated: "Wind Blade"
+    qcReviewedText: "Wind Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/1210,[决斗]\\n攻击命中时，获得额外连击数。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nGain additional combo hits when an attack lands."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "攻击命中时，获得额外连击数。"
+    translated: "Gain additional combo hits when an attack lands."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3116,火剑"
+  splits:
+  - split: 1
+    text: "火剑"
+    translated: "Fire Sword"
+    qcReviewedText: "Fire Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/3116,[决斗]\\n连击数>=6时清空连段，获得超大量气。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nCombo count>=Clear your combo at 6 to gain a huge amount of Qi."
+    qcTranslated: "[Duel]\\nWhen the combo count is >= 6, clear the combo and gain a huge amount of Qi."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+  - split: 1
+    subIndex: 1
+    text: "连击数"
+    translated: "Combo count"
+  - split: 1
+    subIndex: 2
+    text: "6时清空连段，获得超大量气。"
+    translated: "Clear your combo at 6 to gain a huge amount of Qi."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}>={2}"
+- raw: "PlayerTalent/Name/8008,霹雳小弹弓"
+  splits:
+  - split: 1
+    text: "霹雳小弹弓"
+    translated: "Thunderbolt Mini Slingshot"
+    qcReviewedText: "Thunderbolt Mini Slingshot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/8008,[决斗]\\n暗器命中时造成大额麻痹累积。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen the hidden weapon hits, it causes a large amount of paralysis buildup."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "暗器命中时造成大额麻痹累积。"
+    translated: "When the hidden weapon hits, it causes a large amount of paralysis buildup."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1211,追魂鞭"
+  splits:
+  - split: 1
+    text: "追魂鞭"
+    translated: "Soul-Chasing Whip"
+    qcReviewedText: "Soul-Chasing Whip"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/1211,[决斗]\\n伤害根据连击数提升。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nDamage increases based on the number of consecutive hits."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "伤害根据连击数提升。"
+    translated: "Damage increases based on the number of consecutive hits."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/1115,咆哮"
+  splits:
+  - split: 1
+    text: "咆哮"
+    translated: "Roar loudly"
+    qcReviewedText: "Roar loudly"
+    qcTranslated: "Roar"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "PlayerTalent/Desc/1115,[决斗]\\n嘴攻变为咆哮，不激怒敌人而是造成[胆怯]。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nShifting from verbal taunts to roars, not to provoke the enemy but to inflict[Timidity]。"
+    qcTranslated: "[Duel]\\nShifting from verbal taunts to roars, not to provoke the enemy but to inflict [Timidity]."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "嘴攻变为咆哮，不激怒敌人而是造成"
+    translated: "Shifting from verbal taunts to roars, not to provoke the enemy but to inflict"
+  - split: 1
+    subIndex: 2
+    text: "胆怯"
+    translated: "Timidity"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]。"
+- raw: "PlayerTalent/Name/3109,战鬼"
+  splits:
+  - split: 1
+    text: "战鬼"
+    translated: "War Ghost"
+    qcReviewedText: "War Ghost"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/3109,[决斗]\\n第六回合发动[咆哮]、[狂化]、[毅力]，造成对方[胆怯]。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nActivate for the sixth round[Roar loudly]、[Frenzy]、[Perseverance], Deal damage to the opponent[Timidity]。"
+    qcTranslated: "[Duel]\\nActivate [Roar], [Frenzy], and [Perseverance] in the sixth round, causing [Timidity] to the opponent."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "第六回合发动"
+    translated: "Activate for the sixth round"
+  - split: 1
+    subIndex: 2
+    text: "咆哮"
+    translated: "Roar loudly"
+  - split: 1
+    subIndex: 3
+    text: "狂化"
+    translated: "Frenzy"
+  - split: 1
+    subIndex: 4
+    text: "毅力"
+    translated: "Perseverance"
+    qcReviewedText: "Perseverance"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 5
+    text: "，造成对方"
+    translated: ", Deal damage to the opponent"
+  - split: 1
+    subIndex: 6
+    text: "胆怯"
+    translated: "Timidity"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}[{2}]、[{3}]、[{4}]{5}[{6}]。"
+- raw: "PlayerTalent/Name/2116,千手势"
+  splits:
+  - split: 1
+    text: "千手势"
+    translated: "Thousand Hand Sign"
+    qcReviewedText: "Thousand Hand Sign"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/2116,[决斗]\\n格档成功时，发动反击。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWhen they block successfully, initiate a counterattack"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "格档成功时，发动反击。"
+    translated: "When they block successfully, initiate a counterattack"
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"
+- raw: "PlayerTalent/Name/3118,不动禅"
+  splits:
+  - split: 1
+    text: "不动禅"
+    translated: "Seated Meditation"
+    qcReviewedText: "Seated Meditation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "PlayerTalent/Desc/3118,[决斗]\\n修养高的情况下，可以明心见性。"
+  splits:
+  - split: 1
+    text: "决斗"
+    translated: "Duel"
+    qcReviewedText: "[Duel]\\nWith high cultivation, one can see their true nature."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "修养高的情况下，可以明心见性。"
+    translated: "With high cultivation, one can see their true nature."
+  templates:
+  - split: 1
+    template: "[{0}]\\n{1}"

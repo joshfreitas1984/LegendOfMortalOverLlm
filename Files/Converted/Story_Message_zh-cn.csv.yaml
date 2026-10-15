@@ -289,6 +289,24 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/M_Add_Special_1006,获得《小梅的发带》"
+  splits:
+  - split: 1
+    text: "获得《小梅的发带》"
+    translated: "Obtain 'Xiao Mei's Hair Ribbon'"
+    qcReviewedText: "Obtain 'Xiao Mei's Hair Ribbon'"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/M_Add_Special_1007,获得《小竹的手帕》"
+  splits:
+  - split: 1
+    text: "获得《小竹的手帕》"
+    translated: "Obtain 'Little Bamboo's Handkerchief'"
+    qcReviewedText: "Obtain 'Little Bamboo's Handkerchief'"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/M_Add_Special_2001,获得《机巧飞蝗》"
   splits:
   - split: 1
@@ -328,6 +346,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/M_Add_Special_2007,获得《壮士飞爪》"
+  splits:
+  - split: 1
+    text: "获得《壮士飞爪》"
+    translated: "Obtain Heroic Flying Claws"
+    qcReviewedText: "Obtain Heroic Flying Claws"
+    qcTranslated: "Obtain the Brave Warrior's Flying Claw"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "Story/M_Add_Special_4001,获得《切鱼刀》"
   splits:
   - split: 1
@@ -625,6 +655,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/M_Add_Book_2402,获得秘笈《风刀火剑》"
+  splits:
+  - split: 1
+    text: "获得秘笈《风刀火剑》"
+    translated: "Obtained the secret manual, Wind Blade and Fire Sword"
+    qcReviewedText: "Obtained the secret manual, Wind Blade and Fire Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/M_Add_Book_3000,获得秘笈《苦恼拳》"
   splits:
   - split: 1
@@ -725,6 +764,15 @@
     text: "獲得秘笈《雷神脚》"
     translated: "Obtain the secret manual Thunder God's Foot"
     qcReviewedText: "Obtain the secret manual Thunder God's Foot"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/M_Add_Book_4007,獲得秘笈《湘妃折梅手》"
+  splits:
+  - split: 1
+    text: "獲得秘笈《湘妃折梅手》"
+    translated: "Obtained secret manual: Xiangfei Broken Plum Blossom Techniques"
+    qcReviewedText: "Obtained secret manual: Xiangfei Broken Plum Blossom Techniques"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -890,6 +938,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/M_Add_Book_6014,獲得秘笈《醉拳》"
+  splits:
+  - split: 1
+    text: "獲得秘笈《醉拳》"
+    translated: "Obtained the secret manual Drunken Fist"
+    qcReviewedText: "Obtained the secret manual Drunken Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/M_Add_Book_7001,获得秘笈《莲花落》"
   splits:
   - split: 1
@@ -1049,6 +1106,15 @@
     text: "获得秘笈《阴阳夺》"
     translated: "Acquired the secret manual 'Yin Yang Duo'"
     qcReviewedText: "Acquired the secret manual 'Yin Yang Duo'"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/M_Add_Book_8002,獲得秘笈《破金策》"
+  splits:
+  - split: 1
+    text: "獲得秘笈《破金策》"
+    translated: "Obtained the secret manual Breaking Through Golden Strategies"
+    qcReviewedText: "Obtained the secret manual Breaking Through Golden Strategies"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -1556,3 +1622,102 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/M_Add_Book_Format,获得秘笈《{0}》"
+  splits:
+  - split: 1
+    text: "获得秘笈"
+    translated: "Obtain the secret manual"
+    qcReviewedText: "Obtain the secret manual《{0}》"
+    qcTranslated: "Obtain the secret manual {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Remove_Book_Format,失去秘笈《{0}》"
+  splits:
+  - split: 1
+    text: "失去秘笈"
+    translated: "Losing the secret manual"
+    qcReviewedText: "Losing the secret manual《{0}》"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Add_Misc_Format,获得物品《{0}》"
+  splits:
+  - split: 1
+    text: "获得物品"
+    translated: "Obtain item"
+    qcReviewedText: "Obtain item《{0}》"
+    qcTranslated: "Obtained item {0}"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Remove_Misc_Format,失去物品《{0}》"
+  splits:
+  - split: 1
+    text: "失去物品"
+    translated: "Lost Item"
+    qcReviewedText: "Lost Item《{0}》"
+    qcTranslated: "Lost item {0}"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Add_Special_Format,获得贵重品《{0}》"
+  splits:
+  - split: 1
+    text: "获得贵重品"
+    translated: "Obtain Valuables"
+    qcReviewedText: "Obtain Valuables《{0}》"
+    qcTranslated: "Obtain the valuable item 《{0}》"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/M_Remove_Special_Format,失去贵重品《{0}》"
+  splits:
+  - split: 1
+    text: "失去贵重品"
+    translated: "Lost Valuables"
+    qcReviewedText: "Lost Valuables《{0}》"
+    qcTranslated: "Lost Valuable Item 《{0}》"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  templates:
+  - split: 1
+    template: "{0}《⟦0⟧》"
+- raw: "Story/Unlock_Cloth_24,解锁装备开发《逆鳞宝衣》"
+  splits:
+  - split: 1
+    text: "解锁装备开发《逆鳞宝衣》"
+    translated: "Unlock Equipment Development: 'Crimson Scale Armor'"
+    qcReviewedText: "Unlock Equipment Development: 'Crimson Scale Armor'"
+    qcTranslated: "Unlock Equipment Development: 'Reverse Scale Treasure Robe'"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm

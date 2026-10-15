@@ -1,119 +1,259 @@
-- raw: "储存"
+- raw: "1-5A 反間諜"
   splits:
-  - text: "储存"
-- raw: "全屏幕(只适用16:9比例显示器)"
+  - text: "反間諜"
+  templates:
+  - template: "1-5A {0}"
+- raw: "三師兄"
   splits:
-  - text: "全屏幕"
+  - text: "三師兄"
+- raw: "中"
+  splits:
+  - text: "中"
+- raw: "使用 001 存檔資料"
+  splits:
+  - text: "使用"
   - subIndex: 1
-    text: "只适用16"
-  - subIndex: 2
-    text: "9比例显示器"
+    text: "存檔資料"
   templates:
-  - template: "{0}({1}:{2})"
-- raw: "养成"
+  - template: "{0} 001 {1}"
+- raw: "切磋 - 三師兄"
   splits:
-  - text: "养成"
-- raw: "养成回合自动存档"
-  splits:
-  - text: "养成回合自动存档"
-- raw: "分辨率"
-  splits:
-  - text: "分辨率"
-- raw: "删除"
-  splits:
-  - text: "删除"
-- raw: "剧情"
-  splits:
-  - text: "剧情"
-- raw: "可快转未读文字"
-  splits:
-  - text: "可快转未读文字"
-- raw: "启程"
-  splits:
-  - text: "启程"
-- raw: "声音设定"
-  splits:
-  - text: "声音设定"
-- raw: "导出"
-  splits:
-  - text: "导出"
-- raw: "已读文字变色"
-  splits:
-  - text: "已读文字变色"
-- raw: "归隐山林"
-  splits:
-  - text: "归隐山林"
-- raw: "战斗"
-  splits:
-  - text: "战斗"
-- raw: "手动启动天命轮盘"
-  splits:
-  - text: "手动启动天命轮盘"
-- raw: "手动存档"
-  splits:
-  - text: "手动存档"
-- raw: "数据备份"
-  splits:
-  - text: "数据备份"
-- raw: "数据备份完成"
-  splits:
-  - text: "数据备份完成"
-- raw: "无记载"
-  splits:
-  - text: "无记载"
-- raw: "最近存档"
-  splits:
-  - text: "最近存档"
-- raw: "汗青书"
-  splits:
-  - text: "汗青书"
-- raw: "活侠传"
-  splits:
-  - text: "活侠传"
-- raw: "游戏设定"
-  splits:
-  - text: "游戏设定"
-- raw: "游戏语言"
-  splits:
-  - text: "游戏语言"
-- raw: "环境设定"
-  splits:
-  - text: "环境设定"
-- raw: "画面设定"
-  splits:
-  - text: "画面设定"
-- raw: "确定"
-  splits:
-  - text: "确定"
-- raw: "确定删除选择的纪录吗？"
-  splits:
-  - text: "确定删除选择的纪录吗？"
-- raw: "确定覆盖目前的纪录吗?"
-  splits:
-  - text: "确定覆盖目前的纪录吗"
+  - text: "切磋"
+  - subIndex: 1
+    text: "三師兄"
   templates:
-  - template: "{0}?"
-- raw: "自动存档"
+  - template: "{0} - {1}"
+- raw: "劇情特效"
   splits:
-  - text: "自动存档"
-- raw: "记载活侠传故事"
+  - text: "劇情特效"
+- raw: "劇本預覽1"
   splits:
-  - text: "记载活侠传故事"
-- raw: "讲经堂"
+  - text: "劇本預覽1"
+- raw: "勇者模式"
   splits:
-  - text: "讲经堂"
-- raw: "设定"
+  - text: "勇者模式"
+- raw: "千面人魔"
   splits:
-  - text: "设定"
-- raw: "读取游戏"
+  - text: "千面人魔"
+- raw: "反向跳票"
   splits:
-  - text: "读取游戏"
-- raw: "阅读"
+  - text: "反向跳票"
+- raw: "反間諜弟子"
   splits:
-  - text: "阅读"
-- raw: "音乐音量"
+  - text: "反間諜弟子"
+- raw: "史瑞克"
   splits:
-  - text: "音乐音量"
-- raw: "风云史"
+  - text: "史瑞克"
+- raw: "唐大鯨1"
   splits:
-  - text: "风云史"
+  - text: "唐大鯨1"
+- raw: "唐大鯨2"
+  splits:
+  - text: "唐大鯨2"
+- raw: "壞結局"
+  splits:
+  - text: "壞結局"
+- raw: "大"
+  splits:
+  - text: "大"
+- raw: "大俠丙1"
+  splits:
+  - text: "大俠丙1"
+- raw: "大俠丙2"
+  splits:
+  - text: "大俠丙2"
+- raw: "大俠乙"
+  splits:
+  - text: "大俠乙"
+- raw: "大師兄"
+  splits:
+  - text: "大師兄"
+- raw: "对话介面"
+  splits:
+  - text: "对话介面"
+- raw: "小師妹"
+  splits:
+  - text: "小師妹"
+- raw: "小竹生日"
+  splits:
+  - text: "小竹生日"
+- raw: "彈珠檯"
+  splits:
+  - text: "彈珠檯"
+- raw: "戰役1"
+  splits:
+  - text: "戰役1"
+- raw: "戰役2"
+  splits:
+  - text: "戰役2"
+- raw: "戰役測試"
+  splits:
+  - text: "戰役測試"
+- raw: "戰役特效"
+  splits:
+  - text: "戰役特效"
+- raw: "搶劫山賊"
+  splits:
+  - text: "搶劫山賊"
+- raw: "早操"
+  splits:
+  - text: "早操"
+- raw: "标准"
+  splits:
+  - text: "标准"
+- raw: "樊嘯天1"
+  splits:
+  - text: "樊嘯天1"
+- raw: "樊嘯天2"
+  splits:
+  - text: "樊嘯天2"
+- raw: "樊嘯天3"
+  splits:
+  - text: "樊嘯天3"
+- raw: "段考三師兄"
+  splits:
+  - text: "段考三師兄"
+- raw: "段考四師兄"
+  splits:
+  - text: "段考四師兄"
+- raw: "段考-弟子1"
+  splits:
+  - text: "段考"
+  - subIndex: 1
+    text: "弟子1"
+  templates:
+  - template: "{0}-{1}"
+- raw: "段考-弟子2"
+  splits:
+  - text: "段考"
+  - subIndex: 1
+    text: "弟子2"
+  templates:
+  - template: "{0}-{1}"
+- raw: "段考-弟子3"
+  splits:
+  - text: "段考"
+  - subIndex: 1
+    text: "弟子3"
+  templates:
+  - template: "{0}-{1}"
+- raw: "決鬥：大師兄"
+  splits:
+  - text: "決鬥"
+  - subIndex: 1
+    text: "大師兄"
+  templates:
+  - template: "{0}：{1}"
+- raw: "決鬥：聽海生"
+  splits:
+  - text: "決鬥"
+  - subIndex: 1
+    text: "聽海生"
+  templates:
+  - template: "{0}：{1}"
+- raw: "決鬥教學"
+  splits:
+  - text: "決鬥教學"
+- raw: "決鬥測試"
+  splits:
+  - text: "決鬥測試"
+- raw: "決鬥特效"
+  splits:
+  - text: "決鬥特效"
+- raw: "洛陽大俠"
+  splits:
+  - text: "洛陽大俠"
+- raw: "測試"
+  splits:
+  - text: "測試"
+- raw: "測試任務"
+  splits:
+  - text: "測試任務"
+- raw: "測試戰役1"
+  splits:
+  - text: "測試戰役1"
+- raw: "測試戰役2"
+  splits:
+  - text: "測試戰役2"
+- raw: "測試決鬥"
+  splits:
+  - text: "測試決鬥"
+- raw: "測試腳本"
+  splits:
+  - text: "測試腳本"
+- raw: "煎藥大師兄"
+  splits:
+  - text: "煎藥大師兄"
+- raw: "石公遠"
+  splits:
+  - text: "石公遠"
+- raw: "空場景"
+  splits:
+  - text: "空場景"
+- raw: "老弟子"
+  splits:
+  - text: "老弟子"
+- raw: "萬里鵬程"
+  splits:
+  - text: "萬里鵬程"
+- raw: "萬里鵬程1"
+  splits:
+  - text: "萬里鵬程1"
+- raw: "萬里鵬程2"
+  splits:
+  - text: "萬里鵬程2"
+- raw: "萬里鵬程3"
+  splits:
+  - text: "萬里鵬程3"
+- raw: "蒙面人"
+  splits:
+  - text: "蒙面人"
+- raw: "試玩版結尾"
+  splits:
+  - text: "試玩版結尾"
+- raw: "路人俠群"
+  splits:
+  - text: "路人俠群"
+- raw: "輸入戰役關卡"
+  splits:
+  - text: "輸入戰役關卡"
+- raw: "輸入決鬥關卡"
+  splits:
+  - text: "輸入決鬥關卡"
+- raw: "輸入腳本名稱"
+  splits:
+  - text: "輸入腳本名稱"
+- raw: "遊戲結束"
+  splits:
+  - text: "遊戲結束"
+- raw: "閻關三煞1"
+  splits:
+  - text: "閻關三煞1"
+- raw: "閻關三煞2"
+  splits:
+  - text: "閻關三煞2"
+- raw: "閻關三煞3"
+  splits:
+  - text: "閻關三煞3"
+- raw: "關閉"
+  splits:
+  - text: "關閉"
+- raw: "雪山後日談"
+  splits:
+  - text: "雪山後日談"
+- raw: "霸凌-弟子"
+  splits:
+  - text: "霸凌"
+  - subIndex: 1
+    text: "弟子"
+  templates:
+  - template: "{0}-{1}"
+- raw: "預覽"
+  splits:
+  - text: "預覽"
+- raw: "養成模式"
+  splits:
+  - text: "養成模式"
+- raw: "龍淵"
+  splits:
+  - text: "龍淵"

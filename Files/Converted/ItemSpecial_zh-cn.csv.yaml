@@ -155,6 +155,67 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
+- raw: "Special/Name/1006,小梅的发带"
+  splits:
+  - split: 1
+    text: "小梅的发带"
+    translated: "Xiao Mei's hair tie"
+    qcReviewedText: "Xiao Mei's hair tie"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/1006,小梅爱用发带，质地细腻，是上好的织品。"
+  splits:
+  - split: 1
+    text: "小梅爱用发带，质地细腻，是上好的织品。"
+    translated: "Xiao Mei loves using hair ties; they are made of fine, high-quality fabric."
+    qcReviewedText: "Xiao Mei loves using hair ties; they are made of fine, high-quality fabric."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Name/1007,小竹的手帕"
+  splits:
+  - split: 1
+    text: "小竹的手帕"
+    translated: "Xiao Zhu's handkerchief"
+    qcReviewedText: "Xiao Zhu's handkerchief"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/1007,小竹赠你的定情信物，是最心爱的衣裳上剪下来裁成的手帕。"
+  splits:
+  - split: 1
+    text: "小竹赠你的定情信物，是最心爱的衣裳上剪下来裁成的手帕。"
+    translated: "Xiao Zhu gave you a handkerchief cut from the most beloved piece of her clothing as a token of their affection."
+    qcReviewedText: "Xiao Zhu gave you a handkerchief cut from the most beloved piece of her clothing as a token of their affection."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Name/1008,小竹的香囊"
+  splits:
+  - split: 1
+    text: "小竹的香囊"
+    translated: "Xiao Zhu's sachet"
+    qcReviewedText: "Xiao Zhu's sachet"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/1008,小竹来到蜀中后，为了驱散蚊虫才配的香囊。\\n香囊是普通的香囊，装着一张老旧卷纸，记着一份承诺。"
+  splits:
+  - split: 1
+    text: "小竹来到蜀中后，为了驱散蚊虫才配的香囊。"
+    translated: "Xiao Zhu came to Shu and made a sachet to keep away mosquitoes."
+    qcReviewedText: "Xiao Zhu came to Shu and made a sachet to keep away mosquitoes.\\nThe sachet is an ordinary one, containing an old scroll of paper that bears a promise."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "香囊是普通的香囊，装着一张老旧卷纸，记着一份承诺。"
+    translated: "The sachet is an ordinary one, containing an old scroll of paper that bears a promise."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
 - raw: "Special/Name/2000,反唐门联盟成员清单"
   splits:
   - split: 1
@@ -312,6 +373,30 @@
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
+- raw: "Special/Name/2007,壮士飞爪"
+  splits:
+  - split: 1
+    text: "壮士飞爪"
+    translated: "Heroic Grappling Hook"
+    qcReviewedText: "Heroic Grappling Hook"
+    qcTranslated: "Warrior Flying Claw"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
+- raw: "Special/Desc/2007,壮士飞爪"
+  splits:
+  - split: 1
+    text: "壮士飞爪"
+    translated: "Heroic Grappling Hook"
+    qcReviewedText: "Heroic Grappling Hook"
+    qcTranslated: "Warrior Flying Claw"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DomainTerm
+    qcDefectCategories:
+    - DomainTerm
 - raw: "Special/Name/3104,江湖快报四月号"
   splits:
   - split: 1
@@ -1631,3 +1716,131 @@
   templates:
   - split: 1
     template: "{0}\\n{1}\\n{2}"
+- raw: "Special/Name/2008,马"
+  splits:
+  - split: 1
+    text: "马"
+    translated: "Horse"
+    qcReviewedText: "Horse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/2008,马"
+  splits:
+  - split: 1
+    text: "马"
+    translated: "Horse"
+    qcReviewedText: "Horse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Name/2009,铁剑令"
+  splits:
+  - split: 1
+    text: "铁剑令"
+    translated: "Iron Sword Order"
+    qcReviewedText: "Iron Sword Order"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/2009,火炎山剑阁所赠的信物，可以享有优先订制兵器的八折优惠。"
+  splits:
+  - split: 1
+    text: "火炎山剑阁所赠的信物，可以享有优先订制兵器的八折优惠。"
+    translated: "The token given by Flame Mountain Sword Pavilion allows you to enjoy an 80% discount on custom weapon orders."
+    qcReviewedText: "The token given by Flame Mountain Sword Pavilion allows you to enjoy an 80% discount on custom weapon orders."
+    qcTranslated: "The token given by Flame Mountain Sword Pavilion allows you to enjoy a 20% discount on custom weapon orders."
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+- raw: "Special/Name/2010,六戒刀"
+  splits:
+  - split: 1
+    text: "六戒刀"
+    translated: "Six Precepts Blade"
+    qcReviewedText: "Six Precepts Blade"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/2010,小竹所锻宝刀，锋芒不显，却削铁如泥，你不使刀，但可以留着当摆饰。"
+  splits:
+  - split: 1
+    text: "小竹所锻宝刀，锋芒不显，却削铁如泥，你不使刀，但可以留着当摆饰。"
+    translated: "Xiao Zhu's forged treasure blade may not be flashy, but it can cut through iron like it's mud. You don't use blades, but you can keep it as a decoration."
+    qcReviewedText: "Xiao Zhu's forged treasure blade may not be flashy, but it can cut through iron like it's mud. You don't use blades, but you can keep it as a decoration."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Name/4014,完竟剑"
+  splits:
+  - split: 1
+    text: "完竟剑"
+    translated: "Wanjing Sword"
+    qcReviewedText: "Wanjing Sword"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/4014,旷古绝今，完美无缺的究极之剑。呕心沥血尚不足矣，千锤百炼亦不能够，应天命而铸就，集神技之大成。剑若有灵，见此神兵无不伏首。"
+  splits:
+  - split: 1
+    text: "旷古绝今，完美无缺的究极之剑。呕心沥血尚不足矣，千锤百炼亦不能够，应天命而铸就，集神技之大成。剑若有灵，见此神兵无不伏首。"
+    translated: "The ultimate sword, unparalleled in ancient and modern times, perfect in every way. Even pouring one's heart and soul into its creation is not enough; even a thousand trials of forging cannot achieve it. It was forged in accordance with destiny, embodying the pinnacle of divine craftsmanship. If the sword has a spirit, all would bow before this divine weapon."
+    qcReviewedText: "The ultimate sword, unparalleled in ancient and modern times, perfect in every way. Even pouring one's heart and soul into its creation is not enough; even a thousand trials of forging cannot achieve it. It was forged in accordance with destiny, embodying the pinnacle of divine craftsmanship. If the sword has a spirit, all would bow before this divine weapon."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Name/2011,小竹打工券"
+  splits:
+  - split: 1
+    text: "小竹打工券"
+    translated: "Xiao Zhu's work voucher"
+    qcReviewedText: "Xiao Zhu's work voucher"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/2011,小竹被无良商人唐老四所哄骗，迷迷糊糊签下的打工债券。\\n透过使唤小竹，可以直接提高贡献度，顺便抵销小竹的债券。"
+  splits:
+  - split: 1
+    text: "小竹被无良商人唐老四所哄骗，迷迷糊糊签下的打工债券。"
+    translated: "The labor contract that Xiaozhu signed in a daze after being deceived by the unscrupulous merchant Old Fourth Tang."
+    qcReviewedText: "The labor contract that Xiaozhu signed in a daze after being deceived by the unscrupulous merchant Old Fourth Tang.\\nBy summoning Xiao Zhu, you can directly increase your contribution points and conveniently offset Xiao Zhu's debt."
+    qcTranslated: "The labor contract that Xiaozhu signed in a daze after being deceived by the unscrupulous merchant Old Fourth Tang.\\nBy commanding Xiaozhu, you can directly increase your contribution points and conveniently offset Xiaozhu's debt."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
+  - split: 1
+    subIndex: 1
+    text: "透过使唤小竹，可以直接提高贡献度，顺便抵销小竹的债券。"
+    translated: "By summoning Xiao Zhu, you can directly increase your contribution points and conveniently offset Xiao Zhu's debt."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"
+- raw: "Special/Name/4015,逆鳞宝衣"
+  splits:
+  - split: 1
+    text: "逆鳞宝衣"
+    translated: "Rebellious Scale Treasure Robe"
+    qcReviewedText: "Rebellious Scale Treasure Robe"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Special/Desc/4015,大师兄异想天开设计的机关宝衣，能在受到攻击时自动发射暗器反击。\\n图纸所绘压根不可实行，若无高人改良，这件甲衣决计无法现世。"
+  splits:
+  - split: 1
+    text: "大师兄异想天开设计的机关宝衣，能在受到攻击时自动发射暗器反击。"
+    translated: "Big Senior Brother designed a Mechanism Armor that automatically fires Hidden Weapons as counterattack when under attack."
+    qcReviewedText: "Big Senior Brother designed a Mechanism Armor that automatically fires Hidden Weapons as counterattack when under attack.\\nThe design is fundamentally unworkable; without a skilled expert to improve it, this suit of armor will never see the light of day."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "图纸所绘压根不可实行，若无高人改良，这件甲衣决计无法现世。"
+    translated: "The design is fundamentally unworkable; without a skilled expert to improve it, this suit of armor will never see the light of day."
+  templates:
+  - split: 1
+    template: "{0}\\n{1}"

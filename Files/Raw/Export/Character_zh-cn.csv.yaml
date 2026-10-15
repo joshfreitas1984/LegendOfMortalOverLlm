@@ -15,6 +15,10 @@
   splits:
   - split: 1
     text: "赵活屁股"
+- raw: "Character/player_hand,赵活的手"
+  splits:
+  - split: 1
+    text: "赵活的手"
 - raw: "Character/player_young,少年赵活"
   splits:
   - split: 1
@@ -31,6 +35,10 @@
   splits:
   - split: 1
     text: "赵活"
+- raw: "Character/player_unknown,赵活（？）"
+  splits:
+  - split: 1
+    text: "赵活（？）"
 - raw: "Character/brother1_0,？？？"
 - raw: "Character/brother1_1,蒙面人"
   splits:
@@ -149,6 +157,10 @@
   splits:
   - split: 1
     text: "鹤手"
+- raw: "Character/special805_1,阿鹤侠"
+  splits:
+  - split: 1
+    text: "阿鹤侠"
 - raw: "Character/special806,勾魂叟"
   splits:
   - split: 1
@@ -171,6 +183,10 @@
   - split: 1
     text: "乐屏"
 - raw: "Character/special811,唐衫"
+  splits:
+  - split: 1
+    text: "唐衫"
+- raw: "Character/special811_2,唐衫"
   splits:
   - split: 1
     text: "唐衫"
@@ -294,6 +310,62 @@
   splits:
   - split: 1
     text: "方独弱"
+- raw: "Character/special838,郁父"
+  splits:
+  - split: 1
+    text: "郁父"
+- raw: "Character/special838_1,汉子"
+  splits:
+  - split: 1
+    text: "汉子"
+- raw: "Character/special838_2,郁父"
+  splits:
+  - split: 1
+    text: "郁父"
+- raw: "Character/special839,郁母"
+  splits:
+  - split: 1
+    text: "郁母"
+- raw: "Character/special839_1,妇人"
+  splits:
+  - split: 1
+    text: "妇人"
+- raw: "Character/special840,郁宝花"
+  splits:
+  - split: 1
+    text: "郁宝花"
+- raw: "Character/special840_1,少女"
+  splits:
+  - split: 1
+    text: "少女"
+- raw: "Character/special841,郁城"
+  splits:
+  - split: 1
+    text: "郁城"
+- raw: "Character/special841_1,少年"
+  splits:
+  - split: 1
+    text: "少年"
+- raw: "Character/special841_2,郁城"
+  splits:
+  - split: 1
+    text: "郁城"
+- raw: "Character/special842,赵方"
+  splits:
+  - split: 1
+    text: "赵方"
+- raw: "Character/special843,周浊"
+  splits:
+  - split: 1
+    text: "周浊"
+- raw: "Character/special844,胡嵩"
+  splits:
+  - split: 1
+    text: "胡嵩"
+- raw: "Character/special845,裘志攘"
+  splits:
+  - split: 1
+    text: "裘志攘"
 - raw: "Character/special101,南宫远"
   splits:
   - split: 1
@@ -387,6 +459,27 @@
   - split: 1
     text: "吴乡"
 - raw: "Character/special213_0,？？？"
+- raw: "Character/special214_0,护卫"
+  splits:
+  - split: 1
+    text: "护卫"
+- raw: "Character/special214_1,丁承烈"
+  splits:
+  - split: 1
+    text: "丁承烈"
+- raw: "Character/special215_0,？？？"
+- raw: "Character/special215_1,孟珙"
+  splits:
+  - split: 1
+    text: "孟珙"
+- raw: "Character/special216,姚不知名"
+  splits:
+  - split: 1
+    text: "姚不知名"
+- raw: "Character/special217,千面人魔"
+  splits:
+  - split: 1
+    text: "千面人魔"
 - raw: "Character/special401,王二壮"
   splits:
   - split: 1
@@ -478,17 +571,6 @@
   splits:
   - split: 1
     text: "叶云裳"
-- raw: "Character/girl3_1,？？？"
-- raw: "Character/girl3,夏玉莲(暂)"
-  splits:
-  - split: 1
-    text: "夏玉莲"
-  - split: 1
-    subIndex: 1
-    text: "暂"
-  templates:
-  - split: 1
-    template: "{0}({1})"
 - raw: "Character/girl4_1,少女"
   splits:
   - split: 1
@@ -525,6 +607,28 @@
   splits:
   - split: 1
     text: "虞小梅"
+- raw: "Character/girl5_7,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "Character/girl5_8,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "Character/girl5_9,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
+- raw: "Character/girl5_10_1,██"
+- raw: "Character/girl5_10_2,██"
+- raw: "Character/girl5_10_3,██"
+- raw: "Character/girl5_10_4,██"
+- raw: "Character/girl5_10_5,██"
+- raw: "Character/girl5_10_6,██"
+- raw: "Character/girl5_11,虞小梅"
+  splits:
+  - split: 1
+    text: "虞小梅"
 - raw: "Character/girl6,夏侯兰"
   splits:
   - split: 1
@@ -537,6 +641,10 @@
   splits:
   - split: 1
     text: "夏侯兰"
+- raw: "Character/girl6_3,夏侯梅"
+  splits:
+  - split: 1
+    text: "夏侯梅"
 - raw: "Character/girl7,郁竹"
   splits:
   - split: 1
@@ -546,6 +654,22 @@
   - split: 1
     text: "郁竹"
 - raw: "Character/girl7_2,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "Character/girl7_3,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "Character/girl7_4,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "Character/girl7_5,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "Character/girl7_6,郁竹"
   splits:
   - split: 1
     text: "郁竹"
@@ -561,6 +685,14 @@
   splits:
   - split: 1
     text: "魏菊"
+- raw: "Character/girl8_2,魏菊"
+  splits:
+  - split: 1
+    text: "魏菊"
+- raw: "Character/girl8_3,魏菊？"
+  splits:
+  - split: 1
+    text: "魏菊？"
 - raw: "Character/girl9,上官萤"
   splits:
   - split: 1
@@ -617,6 +749,14 @@
   splits:
   - split: 1
     text: "唐门弟子"
+- raw: "Character/trainee013,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "Character/trainee014,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
 - raw: "Character/trainee020,唐门弟子"
   splits:
   - split: 1
@@ -638,6 +778,10 @@
   - split: 1
     text: "唐门弟子"
 - raw: "Character/trainee030,唐门弟子"
+  splits:
+  - split: 1
+    text: "唐门弟子"
+- raw: "Character/trainee031,唐门弟子"
   splits:
   - split: 1
     text: "唐门弟子"
@@ -693,7 +837,15 @@
   splits:
   - split: 1
     text: "飞天弟子"
-- raw: "Character/trainee204,飞天弟子"
+- raw: "Character/trainee204,颜疆"
+  splits:
+  - split: 1
+    text: "颜疆"
+- raw: "Character/trainee205,飞天弟子"
+  splits:
+  - split: 1
+    text: "飞天弟子"
+- raw: "Character/trainee206,飞天弟子"
   splits:
   - split: 1
     text: "飞天弟子"
@@ -709,15 +861,23 @@
   splits:
   - split: 1
     text: "铁拳弟子"
-- raw: "Character/trainee214,铁拳弟子"
+- raw: "Character/trainee214,童大虫"
   splits:
   - split: 1
-    text: "铁拳弟子"
+    text: "童大虫"
 - raw: "Character/trainee215,铁拳弟子"
   splits:
   - split: 1
     text: "铁拳弟子"
 - raw: "Character/trainee215_1,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+- raw: "Character/trainee216,铁拳弟子"
+  splits:
+  - split: 1
+    text: "铁拳弟子"
+- raw: "Character/trainee217,铁拳弟子"
   splits:
   - split: 1
     text: "铁拳弟子"
@@ -733,7 +893,19 @@
   splits:
   - split: 1
     text: "夺魄弟子"
-- raw: "Character/trainee224,夺魄弟子"
+- raw: "Character/trainee224,余麟"
+  splits:
+  - split: 1
+    text: "余麟"
+- raw: "Character/trainee225,夺魄弟子"
+  splits:
+  - split: 1
+    text: "夺魄弟子"
+- raw: "Character/trainee226,夺魄弟子"
+  splits:
+  - split: 1
+    text: "夺魄弟子"
+- raw: "Character/trainee227,夺魄弟子"
   splits:
   - split: 1
     text: "夺魄弟子"
@@ -749,10 +921,26 @@
   splits:
   - split: 1
     text: "玄功弟子"
-- raw: "Character/trainee234,玄功弟子"
+- raw: "Character/trainee234,鞠冬音"
+  splits:
+  - split: 1
+    text: "鞠冬音"
+- raw: "Character/trainee235,黄佩华"
+  splits:
+  - split: 1
+    text: "黄佩华"
+- raw: "Character/trainee236,玄功弟子"
   splits:
   - split: 1
     text: "玄功弟子"
+- raw: "Character/trainee237,玄功弟子"
+  splits:
+  - split: 1
+    text: "玄功弟子"
+- raw: "Character/trainee241,铁拳老弟子"
+  splits:
+  - split: 1
+    text: "铁拳老弟子"
 - raw: "Character/trainee301,点苍弟子"
   splits:
   - split: 1
@@ -818,6 +1006,10 @@
   - split: 1
     text: "峨嵋弟子"
 - raw: "Character/trainee324,峨嵋弟子"
+  splits:
+  - split: 1
+    text: "峨嵋弟子"
+- raw: "Character/trainee325,峨嵋弟子"
   splits:
   - split: 1
     text: "峨嵋弟子"
@@ -897,6 +1089,10 @@
   splits:
   - split: 1
     text: "岭南女弟子"
+- raw: "Character/trainee381,雪山弟子"
+  splits:
+  - split: 1
+    text: "雪山弟子"
 - raw: "Character/trainee401,点苍女弟子"
   splits:
   - split: 1
@@ -913,6 +1109,10 @@
   splits:
   - split: 1
     text: "峨嵋女弟子"
+- raw: "Character/trainee431,飞天女弟子"
+  splits:
+  - split: 1
+    text: "飞天女弟子"
 - raw: "Character/trainee491,锦香弟子"
   splits:
   - split: 1
@@ -921,10 +1121,10 @@
   splits:
   - split: 1
     text: "锦香弟子"
-- raw: "Character/trainee493,锦香弟子"
+- raw: "Character/trainee493,盛雪"
   splits:
   - split: 1
-    text: "锦香弟子"
+    text: "盛雪"
 - raw: "Character/trainee494,锦香弟子"
   splits:
   - split: 1
@@ -974,6 +1174,10 @@
   - split: 1
     text: "唐门女弟子"
 - raw: "Character/trainee_girl10,唐门女弟子"
+  splits:
+  - split: 1
+    text: "唐门女弟子"
+- raw: "Character/trainee_girl11,唐门女弟子"
   splits:
   - split: 1
     text: "唐门女弟子"
@@ -1169,6 +1373,14 @@
   splits:
   - split: 1
     text: "路人"
+- raw: "Character/stranger4,路人"
+  splits:
+  - split: 1
+    text: "路人"
+- raw: "Character/stranger5,路人"
+  splits:
+  - split: 1
+    text: "路人"
 - raw: "Character/stone_trainee_1,飞石帮"
   splits:
   - split: 1
@@ -1333,6 +1545,14 @@
   splits:
   - split: 1
     text: "铁匠"
+- raw: "Character/blacksmith4,铁飞龙"
+  splits:
+  - split: 1
+    text: "铁飞龙"
+- raw: "Character/blacksmith5,铁飞鹰"
+  splits:
+  - split: 1
+    text: "铁飞鹰"
 - raw: "Character/master99,绝世高手"
   splits:
   - split: 1
@@ -1377,6 +1597,14 @@
   splits:
   - split: 1
     text: "妇人"
+- raw: "Character/women5,妇人"
+  splits:
+  - split: 1
+    text: "妇人"
+- raw: "Character/women6,妇人"
+  splits:
+  - split: 1
+    text: "妇人"
 - raw: "Character/female1,女子"
   splits:
   - split: 1
@@ -1398,6 +1626,10 @@
   - split: 1
     text: "大妈"
 - raw: "Character/aunt3,大妈"
+  splits:
+  - split: 1
+    text: "大妈"
+- raw: "Character/aunt4,大妈"
   splits:
   - split: 1
     text: "大妈"
@@ -1461,7 +1693,15 @@
   splits:
   - split: 1
     text: "男童"
+- raw: "Character/child_boy3,男童"
+  splits:
+  - split: 1
+    text: "男童"
 - raw: "Character/boy1,少年"
+  splits:
+  - split: 1
+    text: "少年"
+- raw: "Character/boy2,少年"
   splits:
   - split: 1
     text: "少年"
@@ -1537,3 +1777,43 @@
   splits:
   - split: 1
     text: "回音"
+- raw: "Character/mother1,娘"
+  splits:
+  - split: 1
+    text: "娘"
+- raw: "Character/father1,爹"
+  splits:
+  - split: 1
+    text: "爹"
+- raw: "Character/maid1,婢女"
+  splits:
+  - split: 1
+    text: "婢女"
+- raw: "Character/female_thief1,女飞贼"
+  splits:
+  - split: 1
+    text: "女飞贼"
+- raw: "Character/female_thief1_bucket,女飞贼"
+  splits:
+  - split: 1
+    text: "女飞贼"
+- raw: "Character/military_doctor1,军医"
+  splits:
+  - split: 1
+    text: "军医"
+- raw: "Character/drunkard1,醉汉"
+  splits:
+  - split: 1
+    text: "醉汉"
+- raw: "Character/assassin1,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+- raw: "Character/assassin2,刺客"
+  splits:
+  - split: 1
+    text: "刺客"
+- raw: "Character/assassin3,刺客"
+  splits:
+  - split: 1
+    text: "刺客"

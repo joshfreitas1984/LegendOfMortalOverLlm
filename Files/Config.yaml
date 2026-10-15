@@ -42,6 +42,9 @@ pronounCheck:
   # Rewrites a line the model still writes with an invented he/she/his/her/him to they/their/them instead of leaving it flagged.
   autoRepairPronouns: true
 
+# Regular translation model (by name from models:). Unset = the first entry.
+translationModelName: Qwen38Qc-IQ4XS
+
 # Post-translation quality control pass - same options as DragonHierOverLlm's Config.yaml, see that
 # repo's docs/investigations/tests/qc-evaluator-model-selection.md for why.
 qualityControl:
