@@ -11,8 +11,8 @@ namespace Translate;
 /// (ChineseSimplified/ChineseTraditional/Korean); LegendOfMortalPlugin/StringTableDumpPatches.cs now filters to
 /// ChineseSimplified only, so every file below is a single unambiguous dump. Most categories'
 /// backing TextAsset names carry a "_zh-cn" suffix (the other two language variants use "_zh-tw"/
-/// "_kr", but those are never dumped); Story is split into 17 numbered chapter files
-/// ("Story_1".."Story_17") that carry no per-language suffix at all in the asset name itself
+/// "_kr", but those are never dumped); Story is split into 21 numbered chapter files
+/// ("Story_1".."Story_21") that carry no per-language suffix at all in the asset name itself
 /// (disambiguated purely by StringTableDumpPatches' Language filter, not by filename). Every row's
 /// column 0 key retains its ORIGINAL category prefix regardless of which physical file it lives in
 /// (e.g. Legend_01_zh-cn.csv's rows are still keyed "LegendInfo/...", CombatEffects_zh-cn.csv's
@@ -45,6 +45,7 @@ public static class TextFileConfiguration
         new() {Path = "CombatInfo_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "CombatTalking_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Credit_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
+        new() {Path = "DiceHeader_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "EnemyTeam_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Equipment_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Facility_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
@@ -75,6 +76,10 @@ public static class TextFileConfiguration
         new() {Path = "Story_15.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Story_16.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Story_17.csv", PackageOutput = true, SkipColumns = [0] },
+        new() {Path = "Story_18.csv", PackageOutput = true, SkipColumns = [0] },
+        new() {Path = "Story_19.csv", PackageOutput = true, SkipColumns = [0] },
+        new() {Path = "Story_20.csv", PackageOutput = true, SkipColumns = [0] },
+        new() {Path = "Story_21.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Story_Message_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "System_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
         new() {Path = "Talent_zh-cn.csv", PackageOutput = true, SkipColumns = [0] },
