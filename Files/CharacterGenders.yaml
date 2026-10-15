@@ -56,6 +56,8 @@
 - name: 郁竹
   englishName: Yu Zhu
   gender: female
+  aliases:
+  - 小竹
   evidence: "bio pronouns 他x3 她x11"
 - name: 魏菊
   englishName: Wei Ju
@@ -124,6 +126,83 @@
   englishName: Yan Luo
   gender: male
   evidence: "story text: 他也不如第三香刻苦…但凡有点血性的男子 (Legend_01); Xuangong Sect rival of 第三香; gender from the text, not the portrait"
+
+- name: 郁父
+  englishName: Father Yu
+  gender: male
+  evidence: "father of 郁竹; story text 郁父…他"
+- name: 郁母
+  englishName: Mother Yu
+  gender: female
+  evidence: "mother of 郁竹"
+- name: 郁宝花
+  englishName: Yu Baohua
+  gender: female
+  evidence: "铁拳嫡传女弟子, sister of 郁竹"
+- name: 郁城
+  englishName: Yu Cheng
+  gender: male
+  evidence: "story text 郁城…他; younger brother of 郁宝花"
+- name: 赵方
+  englishName: Zhao Fang
+  gender: male
+  evidence: "老将军; Xiangyang commander"
+- name: 孟珙
+  englishName: Meng Gong
+  gender: male
+  evidence: "四哥 of 孟仙谣; story text"
+- name: 孟仙谣
+  englishName: Meng Xianyao
+  gender: female
+  evidence: "县主, 孟政宗之女; story text 她"
+- name: 周浊
+  englishName: Zhou Zhuo
+  gender: male
+  evidence: "神算子; story text 此人"
+- name: 胡嵩
+  englishName: Hu Song
+  gender: male
+  evidence: "铁蜈蚣; story text 此人, 谢顶热血少年"
+- name: 裘志攘
+  englishName: Qiu Zhirang
+  gender: male
+  evidence: "老道长; story text 他"
+- name: 丁承烈
+  englishName: Ding Chenglie
+  gender: male
+  evidence: "story text 他; vows to marry 县主"
+- name: 童大虫
+  englishName: Tong Dachong
+  gender: male
+  evidence: "铁脊山君, 铁拳 地护法; addressed in male-voiced banter, no explicit pronoun"
+- name: 余麟
+  englishName: Yu Lin
+  gender: male
+  evidence: "夺魄护法; story text 他, 还未娶妻"
+- name: 鞠冬音
+  englishName: Ju Dongyin
+  gender: female
+  evidence: "玄功护法; story text 她"
+- name: 黄佩华
+  englishName: Huang Peihua
+  gender: female
+  evidence: "自称小妹"
+- name: 盛雪
+  englishName: Sheng Xue
+  gender: female
+  evidence: "自称小女子"
+- name: 铁飞龙
+  englishName: Tie Feilong
+  gender: male
+  evidence: "火炎山剑阁铁匠; story text 他"
+- name: 姚不知名
+  englishName: Yao Buzhiming
+  gender: male
+  evidence: "夺魄掌门 (truly 无相祖师); story text 他, 老东西"
+- name: 夏侯梅
+  englishName: Xiahou Mei
+  gender: female
+  evidence: "character id girl6_3 (female prefix)"
 
 # --- Candidates: gender left empty, so they are ignored until you fill in male or female. ---
 - name: 金乌上人
