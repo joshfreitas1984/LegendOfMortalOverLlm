@@ -487,12 +487,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/T_Section_01_Free_02_01_005,这小子……使的武功可古怪得很啊。出爪似是夺魄门武功，揉身又像是那唐布衣会使的身法，瞧他换气吐纳，又似有别派内功的影子。"
+- raw: "Story/T_Section_01_Free_02_01_005,这小子……使的武功可古怪得很啊。出爪似是夺魄门武功，猱身又像是那唐布衣会使的身法，瞧他换气吐纳，又似有别派内功的影子。"
   splits:
   - split: 1
-    text: "这小子……使的武功可古怪得很啊。出爪似是夺魄门武功，揉身又像是那唐布衣会使的身法，瞧他换气吐纳，又似有别派内功的影子。"
-    translated: "This kid... his martial arts are quite bizarre. His claw movements seem to be from the Soul Stealer style, but his body movement resembles something that Tang Buyi would use. Observing his breathing and cultivation, it also appears that there might be traces of another school's Neigong."
-    qcReviewedText: "This kid... his martial arts are quite bizarre. His claw movements seem to be from the Soul Stealer style, but his body movement resembles something that Tang Buyi would use. Observing his breathing and cultivation, it also appears that there might be traces of another school's Neigong."
+    text: "这小子……使的武功可古怪得很啊。出爪似是夺魄门武功，猱身又像是那唐布衣会使的身法，瞧他换气吐纳，又似有别派内功的影子。"
+    translated: "This young man... his martial arts are quite peculiar. His claw strikes resemble the Soul Stealer sect's techniques, his agile movements look like the Agility style practiced by Tang Buyi, and observing his breathing and internal energy circulation, it seems to bear traces of another school's Neigong."
+    qcReviewedText: "This young man... his martial arts are quite peculiar. His claw strikes resemble the Soul Stealer sect's techniques, his agile movements look like the Agility style practiced by Tang Buyi, and observing his breathing and internal energy circulation, it seems to bear traces of another school's Neigong."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -604,12 +604,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/N_Section_01_Free_02_201_001,你今天特别来劲，得意忘形乱打一气，忽然一刀子戳到自己腿上。连夏侯兰都吓了一跳，为了替你止血闹得手忙脚乱。见到了她难得慌张脸色的代价是，你修养了几天才能下床活动。"
+- raw: "Story/N_Section_01_Free_02_201_001,你今天特别来劲，得意忘形乱打一气，忽然一刀子戳到自己腿上。连夏侯兰都吓了一跳，为了替你止血闹得手忙脚乱。见到了她难得慌张脸色的代价是，你休养了几天才能下床活动。"
   splits:
   - split: 1
-    text: "你今天特别来劲，得意忘形乱打一气，忽然一刀子戳到自己腿上。连夏侯兰都吓了一跳，为了替你止血闹得手忙脚乱。见到了她难得慌张脸色的代价是，你修养了几天才能下床活动。"
-    translated: "You were particularly energetic today, lost in your excitement and swinging wildly, when suddenly you stabbed your own leg with a blade. Even Xiahou Lan was startled, and in her rush to stop the bleeding, she became flustered. The price of seeing her rarely flustered face was that it took you several days of cultivation before you could get out of bed and move around."
-    qcReviewedText: "You were particularly energetic today, lost in your excitement and swinging wildly, when suddenly you stabbed your own leg with a blade. Even Xiahou Lan was startled, and in her rush to stop the bleeding, she became flustered. The price of seeing her rarely flustered face was that it took you several days of cultivation before you could get out of bed and move around."
+    text: "你今天特别来劲，得意忘形乱打一气，忽然一刀子戳到自己腿上。连夏侯兰都吓了一跳，为了替你止血闹得手忙脚乱。见到了她难得慌张脸色的代价是，你休养了几天才能下床活动。"
+    translated: "You were in a particularly lively mood today, so carried away by your own bravado that you swung wildly. Suddenly, you stabbed yourself in the leg with your blade. Even Xiahou Lan was startled, flustered as she hurried to stop your bleeding. The price of seeing her rarely panicked expression was that you had to rest for several days before you could get out of bed and move around."
+    qcReviewedText: "You were in a particularly lively mood today, so carried away by your own bravado that you swung wildly. Suddenly, you stabbed yourself in the leg with your blade. Even Xiahou Lan was startled, flustered as she hurried to stop your bleeding. The price of seeing her rarely panicked expression was that you had to rest for several days before you could get out of bed and move around."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -4523,15 +4523,18 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_Talk_Girl5_02_017,自然是真的。这便是你的新娘子了，就在此搓土为香，结为夫妻吧。"
+- raw: "Story/D_Talk_Girl5_02_017,自然是真的。这便是你的新娘子了，就在此撮土为香，结为夫妻吧。"
   splits:
   - split: 1
-    text: "自然是真的。这便是你的新娘子了，就在此搓土为香，结为夫妻吧。"
-    translated: "Nature is indeed real. This is your bride; let us knead the earth here to create incense and unite as husband and wife."
-    qcReviewedText: "Nature is indeed real. This is your bride; let us knead the earth here to create incense and unite as husband and wife."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    text: "自然是真的。这便是你的新娘子了，就在此撮土为香，结为夫妻吧。"
+    translated: "Nature is truly real. This is your bride. Let us gather the earth as incense here and bind ourselves in marriage."
+    qcReviewedText: "Nature is truly real. This is your bride. Let us gather the earth as incense here and bind ourselves in marriage."
+    qcTranslated: "Nature is truly real. This is your bride. Let us gather the earth as incense here and bind you two in marriage."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: MeaningReversal
+    qcDefectCategories:
+    - MeaningReversal
 - raw: "Story/O_Talk_Girl5_02_003,被恶霸强抢的村姑"
   splits:
   - split: 1
@@ -4583,12 +4586,12 @@
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
-- raw: "Story/D_Talk_Girl5_02_022,既然幽兰师姐开口了，本座……小妹自然愿意略尽棉力。就不知是什么样的忙，需要把人装进布袋里呢。"
+- raw: "Story/D_Talk_Girl5_02_022,既然幽兰师姐开口了，本座……小妹自然愿意略尽绵力。就不知是什么样的忙，需要把人装进布袋里呢。"
   splits:
   - split: 1
-    text: "既然幽兰师姐开口了，本座……小妹自然愿意略尽棉力。就不知是什么样的忙，需要把人装进布袋里呢。"
-    translated: "Since Sister Youlan has spoken, I... naturally, as a younger sister, am willing to offer my humble assistance. However, I wonder what kind of trouble requires putting someone into a cloth bag."
-    qcReviewedText: "Since Sister Youlan has spoken, I... naturally, as a younger sister, am willing to offer my humble assistance. However, I wonder what kind of trouble requires putting someone into a cloth bag."
+    text: "既然幽兰师姐开口了，本座……小妹自然愿意略尽绵力。就不知是什么样的忙，需要把人装进布袋里呢。"
+    translated: "Since Senior Sister Youlan has spoken up, this seat... I naturally am willing to lend a small hand. I just wonder what kind of help requires stuffing someone into a sack."
+    qcReviewedText: "Since Senior Sister Youlan has spoken up, this seat... I naturally am willing to lend a small hand. I just wonder what kind of help requires stuffing someone into a sack."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -5834,12 +5837,12 @@
     qcDefectCategory: DroppedStutter
     qcDefectCategories:
     - DroppedStutter
-- raw: "Story/D_Talk_Girl5_02_133,是贪官女儿。我下到邻县打听，那知县贪赃枉法，百姓怨声载道，于是便决定捉她女儿了。"
+- raw: "Story/D_Talk_Girl5_02_133,是贪官女儿。我下到邻县打听，那知县贪赃枉法，百姓怨声载道，于是便决定捉他女儿了。"
   splits:
   - split: 1
-    text: "是贪官女儿。我下到邻县打听，那知县贪赃枉法，百姓怨声载道，于是便决定捉她女儿了。"
-    translated: "She was the daughter of a corrupt official. I went down to the neighboring county to make inquiries; the County Magistrate there took bribes and perverted the law, and the people were full of complaints, so I decided to capture her daughter."
-    qcReviewedText: "She was the daughter of a corrupt official. I went down to the neighboring county to make inquiries; the County Magistrate there took bribes and perverted the law, and the people were full of complaints, so I decided to capture her daughter."
+    text: "是贪官女儿。我下到邻县打听，那知县贪赃枉法，百姓怨声载道，于是便决定捉他女儿了。"
+    translated: "She is the daughter of a corrupt official. I went to the neighboring county to gather information and learned that the magistrate there was greedy and unjust, drawing widespread resentment from the people. So I decided to capture his daughter."
+    qcReviewedText: "She is the daughter of a corrupt official. I went to the neighboring county to gather information and learned that the magistrate there was greedy and unjust, drawing widespread resentment from the people. So I decided to capture his daughter."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -7140,12 +7143,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/T_Talk_Girl5_02_02_001,臭徒弟武功还真是长进不少，竟能顽抗到此。"
+- raw: "Story/T_Talk_Girl5_02_02_001,臭徒弟武功还真是长进不少，竟能顽抗至此。"
   splits:
   - split: 1
-    text: "臭徒弟武功还真是长进不少，竟能顽抗到此。"
-    translated: "That lousy disciple's martial arts have really improved - they actually managed to hold out this long."
-    qcReviewedText: "That lousy disciple's martial arts have really improved - they actually managed to hold out this long."
+    text: "臭徒弟武功还真是长进不少，竟能顽抗至此。"
+    translated: "My wretched disciple has certainly made great progress in martial arts, managing to hold out for so long."
+    qcReviewedText: "My wretched disciple has certainly made great progress in martial arts, managing to hold out for so long."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8642,12 +8645,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_Talk_Girl5_02_06_072,你脸皮可真厚，我不杀你已经算你走运了，竟还敢像我这样的女魔头套交情？"
+- raw: "Story/D_Talk_Girl5_02_06_072,你脸皮可真厚，我不杀你已经算你走运了，竟还敢向我这样的女魔头套交情？"
   splits:
   - split: 1
-    text: "你脸皮可真厚，我不杀你已经算你走运了，竟还敢像我这样的女魔头套交情？"
-    translated: "You've got some nerve. You're lucky I didn't kill you, and you still dare to try to cozy up to someone like me-a she-devil?"
-    qcReviewedText: "You've got some nerve. You're lucky I didn't kill you, and you still dare to try to cozy up to someone like me-a she-devil?"
+    text: "你脸皮可真厚，我不杀你已经算你走运了，竟还敢向我这样的女魔头套交情？"
+    translated: "You have quite the thick skin. I should consider myself lucky for not killing you, yet you still dare to try and ingratiate yourself with a demoness like me?"
+    qcReviewedText: "You have quite the thick skin. I should consider myself lucky for not killing you, yet you still dare to try and ingratiate yourself with a demoness like me?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10455,12 +10458,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_Talk_Girl5_13_044,前四代的小兰曾下药卖到青楼失身，感染梅毒而死。"
+- raw: "Story/D_Talk_Girl5_13_044,前四代的小兰曾下药卖到青楼失身，感染重病而死。"
   splits:
   - split: 1
-    text: "前四代的小兰曾下药卖到青楼失身，感染梅毒而死。"
-    translated: "The Xiao Lan from the previous generations had been drugged and sold to a pleasure house where she lost her virginity and contracted syphilis, ultimately dying as a result."
-    qcReviewedText: "The Xiao Lan from the previous generations had been drugged and sold to a pleasure house where she lost her virginity and contracted syphilis, ultimately dying as a result."
+    text: "前四代的小兰曾下药卖到青楼失身，感染重病而死。"
+    translated: "The first four generations of Xiao Lan were drugged and sold to a brothel, losing their virginity, and died from a severe illness."
+    qcReviewedText: "The first four generations of Xiao Lan were drugged and sold to a brothel, losing their virginity, and died from a severe illness."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

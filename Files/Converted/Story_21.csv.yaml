@@ -17791,3 +17791,293 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/O_3_16_5_004,不是"
+  splits:
+  - split: 1
+    text: "不是"
+    translated: "No"
+    qcReviewedText: "No"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_3_16_5_005,是"
+  splits:
+  - split: 1
+    text: "是"
+    translated: "Yes"
+    qcReviewedText: "Yes"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_3_16_5_001,忍耐住了"
+  splits:
+  - split: 1
+    text: "忍耐住了"
+    translated: "I held it in"
+    qcReviewedText: "I held it in"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_3_16_5_002,情不自禁嘴攻小竹"
+  splits:
+  - split: 1
+    text: "情不自禁嘴攻小竹"
+    translated: "Unable to resist, I kissed Xiaozhu"
+    qcReviewedText: "Unable to resist, I kissed Xiaozhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_3_16_5_003,喵"
+  splits:
+  - split: 1
+    text: "喵"
+    translated: "Meow"
+    qcReviewedText: "Meow"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_S0032_04_001,哎你他妈的，干什么你？好好的东西给你玩坏了啦！"
+  splits:
+  - split: 1
+    text: "哎你他妈的，干什么你？好好的东西给你玩坏了啦！"
+    translated: "Hey, what the hell are you doing? You broke something perfectly good!"
+    qcReviewedText: "Hey, what the hell are you doing? You broke something perfectly good!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_S0032_04_002,别、别急，我拿糨糊给你黏上，不就得了？"
+  splits:
+  - split: 1
+    text: "别、别急，我拿糨糊给你黏上，不就得了？"
+    translated: "Don't, don't panic. I'll use glue to fix it for you. Won't that do?"
+    qcReviewedText: "Don't, don't panic. I'll use glue to fix it for you. Won't that do?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_S0032_04_003,修好就当没坏过吗？赔钱！不赔的话，别怪我告到掌门跟前！"
+  splits:
+  - split: 1
+    text: "修好就当没坏过吗？赔钱！不赔的话，别怪我告到掌门跟前！"
+    translated: "Just because it's fixed means it was never broken? Pay up! If you don't, don't blame me for taking this to the Sect Leader!"
+    qcReviewedText: "Just because it's fixed means it was never broken? Pay up! If you don't, don't blame me for taking this to the Sect Leader!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_S0032_04_001,赔钱"
+  splits:
+  - split: 1
+    text: "赔钱"
+    translated: "Pay compensation"
+    qcReviewedText: "Pay compensation"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_S0032_04_002,解锁条件：银两>=1000"
+  splits:
+  - split: 1
+    text: "解锁条件"
+    translated: "Unlock conditions: ???"
+    qcReviewedText: "Unlock conditions: ???：???: Silver taels < 50>=1000"
+    qcTranslated: "Unlock conditions: Silver taels >= 1000"
+    qcStatus: Corrected
+    qcQualityScore: 100
+    qcDefectCategory: GarbledNumber
+    qcDefectCategories:
+    - GarbledNumber
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "银两"
+    translated: "???: Silver taels < 50"
+  templates:
+  - split: 1
+    template: "{0}：{1}>=1000"
+- raw: "Story/N_S0032_04_001,你明知道四师兄这是狮子大开口，仍心不甘情不愿，赔偿了他。"
+  splits:
+  - split: 1
+    text: "你明知道四师兄这是狮子大开口，仍心不甘情不愿，赔偿了他。"
+    translated: "You knew full well that Fourth Senior Brother was making an outrageous demand, yet you still paid him out of reluctance."
+    qcReviewedText: "You knew full well that Fourth Senior Brother was making an outrageous demand, yet you still paid him out of reluctance."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_S0032_04_003,没钱赔"
+  splits:
+  - split: 1
+    text: "没钱赔"
+    translated: "No money to pay"
+    qcReviewedText: "No money to pay"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/N_S0032_04_002,你把人家玩具弄坏了，经四师兄一番添油加醋，最后掌门掐着眉头，判你替四师兄代班抵债。"
+  splits:
+  - split: 1
+    text: "你把人家玩具弄坏了，经四师兄一番添油加醋，最后掌门掐着眉头，判你替四师兄代班抵债。"
+    translated: "You broke someone's toy. After Fourth Senior Brother exaggerated the incident, the Sect Master furrowed his brow and ruled that you must take over Fourth Senior Brother's shift to settle the debt."
+    qcReviewedText: "You broke someone's toy. After Fourth Senior Brother exaggerated the incident, the Sect Master furrowed his brow and ruled that you must take over Fourth Senior Brother's shift to settle the debt."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_097,小梅你变身好快！"
+  splits:
+  - split: 1
+    text: "小梅你变身好快！"
+    translated: "Xiao Mei, you transformed so quickly!"
+    qcReviewedText: "Xiao Mei, you transformed so quickly!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/T_Section_01_Free_08_04_010,旁边这一位是她的妖怪朋友吗？看来他法力还没这么高深，化身成人，还残留着些许精怪的形貌。"
+  splits:
+  - split: 1
+    text: "旁边这一位是她的妖怪朋友吗？看来他法力还没这么高深，化身成人，还残留着些许精怪的形貌。"
+    translated: "Is the one beside her her yokai friend? It seems his powers are not yet profound enough; even in human form, traces of his monstrous nature remain."
+    qcReviewedText: "Is the one beside her her yokai friend? It seems his powers are not yet profound enough; even in human form, traces of his monstrous nature remain."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/T_Section_01_Free_08_04_011,……虽然没把握，但你老兄是不是在想什么失礼的事情？"
+  splits:
+  - split: 1
+    text: "……虽然没把握，但你老兄是不是在想什么失礼的事情？"
+    translated: "...I have no certainty, but are you, my good friend, thinking of something improper?"
+    qcReviewedText: "...I have no certainty, but are you, my good friend, thinking of something improper?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_098,哇哈哈哈～"
+  splits:
+  - split: 1
+    text: "哇哈哈哈～"
+    translated: "Ha ha ha～"
+    qcReviewedText: "Ha ha ha～"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_099,没错，本梅来给你慎重介绍。旁边这一位，正是蜀中妖大王！唐门万年老屁股成的精，老屁精赵活！"
+  splits:
+  - split: 1
+    text: "没错，本梅来给你慎重介绍。旁边这一位，正是蜀中妖大王！唐门万年老屁股成的精，老屁精赵活！"
+    translated: "That's right. I'm here to formally introduce you. The one beside me is none other than the Demon King of Shu! A spirit formed from ten thousand years of Tang Clan butt-wiping, the ancient butt-spirit Zhao Huo!"
+    qcReviewedText: "That's right. I'm here to formally introduce you. The one beside me is none other than the Demon King of Shu! A spirit formed from ten thousand years of Tang Clan butt-wiping, the ancient butt-spirit Zhao Huo!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_100,屁啦！屁啦！"
+  splits:
+  - split: 1
+    text: "屁啦！屁啦！"
+    translated: "Nonsense! Nonsense!"
+    qcReviewedText: "Nonsense! Nonsense!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_101,你看他，开口就是屁，可不就是个屁精吗？"
+  splits:
+  - split: 1
+    text: "你看他，开口就是屁，可不就是个屁精吗？"
+    translated: "Look at him, spouting nonsense the moment he opens his mouth. Isn't he just a windbag?"
+    qcReviewedText: "Look at him, spouting nonsense the moment he opens his mouth. Isn't he just a windbag?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_102,失敬失敬。在下一介肉体凡胎，孤云山派剑客瑞笙，拜见老神仙。"
+  splits:
+  - split: 1
+    text: "失敬失敬。在下一介肉体凡胎，孤云山派剑客瑞笙，拜见老神仙。"
+    translated: "My apologies, my apologies. I am but a mere mortal, Rui Sheng, a swordsman of the Guyun Mountain Sect, paying my respects to the venerable immortal."
+    qcReviewedText: "My apologies, my apologies. I am but a mere mortal, Rui Sheng, a swordsman of the Guyun Mountain Sect, paying my respects to the venerable immortal."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_103,你别信她啊！我不是妖，我是人！"
+  splits:
+  - split: 1
+    text: "你别信她啊！我不是妖，我是人！"
+    translated: "Don't believe her! I'm not a demon, I'm human!"
+    qcReviewedText: "Don't believe her! I'm not a demon, I'm human!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_104,别争了，我们各执一词，吵来吵去没完没了。不如各退一半，我当你是妖，你当你是人。阿笙你就把他当妖人。"
+  splits:
+  - split: 1
+    text: "别争了，我们各执一词，吵来吵去没完没了。不如各退一半，我当你是妖，你当你是人。阿笙你就把他当妖人。"
+    translated: "Stop arguing. We each have our own view, and this quarrel will never end. Let us meet halfway: I shall treat you as a demon, and you may consider yourself human. A-Sheng, just regard him as a demonic one."
+    qcReviewedText: "Stop arguing. We each have our own view, and this quarrel will never end. Let us meet halfway: I shall treat you as a demon, and you may consider yourself human. A-Sheng, just regard him as a demonic one."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_105,好。"
+  splits:
+  - split: 1
+    text: "好。"
+    translated: "Okay"
+    qcReviewedText: "Okay"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_106,好屁喔！"
+  splits:
+  - split: 1
+    text: "好屁喔！"
+    translated: "What the hell!"
+    qcReviewedText: "What the hell!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_Section_01_Free_08_04_107,哇～哈哈哈！"
+  splits:
+  - split: 1
+    text: "哇～哈哈哈！"
+    translated: "Wow～Haha!"
+    qcReviewedText: "Wow～Haha!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_S2800_03_071,那啥，其实我是挂名飞天门下的……。"
+  splits:
+  - split: 1
+    text: "那啥，其实我是挂名飞天门下的……。"
+    translated: "Well, actually, I'm just a nominal member of the Flying Heaven Sect..."
+    qcReviewedText: "Well, actually, I'm just a nominal member of the Flying Heaven Sect..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_S2800_03_072,那又怎样？我不识得你！你挂名飞天门，可初来乍到也不来打声招呼，还要我来请你不成？"
+  splits:
+  - split: 1
+    text: "那又怎样？我不识得你！你挂名飞天门，可初来乍到也不来打声招呼，还要我来请你不成？"
+    translated: "So what? I don't know you! You're registered with the Flying Gate Sect, yet you arrive without so much as a greeting. Should I have to come invite you myself?"
+    qcReviewedText: "So what? I don't know you! You're registered with the Flying Gate Sect, yet you arrive without so much as a greeting. Should I have to come invite you myself?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_S2800_03_073,呃……。"
+  splits:
+  - split: 1
+    text: "呃……。"
+    translated: "Uh..."
+    qcReviewedText: "Uh..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_Center_Girl_03_01_003,无视"
+  splits:
+  - split: 1
+    text: "无视"
+    translated: "Ignore"
+    qcReviewedText: "Ignore"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/O_Center_Girl_03_01_004,接招"
+  splits:
+  - split: 1
+    text: "接招"
+    translated: "Take this!"
+    qcReviewedText: "Take this!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None

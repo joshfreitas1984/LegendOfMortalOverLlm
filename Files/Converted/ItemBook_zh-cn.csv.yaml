@@ -2069,19 +2069,17 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Book/Desc/7013,传奇一般的前任武林盟主龙渊的成名功夫，其实并不是一套武功，而是龙渊曾使过的七种绝技。\\n刀剑：斩落星辰纲；拳掌：割山掌；腿法：射日腿；枪棍：小霸王枪；长索：离奇点穴绳；暗器：如意指；内功：玄玄造化功。\\n当年龙渊号令群雄，攻入旧魔教天堂总坛，独斗极乐教主，斩星射日、霸王割山连番使出，震骇当世正邪两派高手，不约而同都想：「这便是当今天下第一了。」"
+- raw: "Book/Desc/7013,传奇一般的前任武林盟主龙渊的成名功夫，其实并不是一套武功，而是龙渊曾使过的七种绝技。\\n刀剑：斩落星辰纲；拳掌：割山掌；腿法：射日腿；枪棍：小霸王枪；长索：离奇点穴绳；暗器：玄玄如意指；内功：鸿蒙造化功。\\n当年龙渊号令群雄，攻入旧魔教天堂总坛，独斗极乐教主，斩星射日、霸王割山连番使出，震骇当世正邪两派高手，不约而同都想：「这便是当今天下第一了。」"
   splits:
   - split: 1
     text: "传奇一般的前任武林盟主龙渊的成名功夫，其实并不是一套武功，而是龙渊曾使过的七种绝技。"
     translated: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used."
-    qcReviewedText: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used.\\nBlade and sword：Slay the Stellar Net; Fist and Palm：Chopping Mountain Palm; Leg Techniques：Sun-Deflecting Kick; Spear & Staff：Tyrannical King Spear; Long Rope：Strange acupoint binding rope; Hidden Weapon：Magic wand; Neigong：Mystic Transformation Art \\nIn that Year, Long Yuan commanded the heroes to attack the Demon Sect's main headquarters, single-handedly challenging the Joyful King of the Demon Sect. They unleashed the Star-Slicing and Sun-Shooting techniques, followed by the Mountain-Cleaving Saber Art, shocking both the righteous and evil factions alike. Without any prior agreement, everyone was left wanting to...：That is the number one in the world today."
-    qcTranslated: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used.\\nBlade and sword：Slay the Stellar Net; Fist and Palm：Chopping Mountain Palm; Leg Techniques：Sun-Deflecting Kick; Spear & Staff：Tyrannical King Spear; Long Rope：Strange acupoint binding rope; Hidden Weapon：Magic wand; Neigong：Mystic Transformation Art \\nIn that Year, Long Yuan commanded the heroes to attack the Demon Sect's main headquarters, single-handedly challenging the Joyful King of the Demon Sect. He unleashed the Star-Slicing and Sun-Shooting techniques, followed by the Mountain-Cleaving Saber Art, shocking both the righteous and evil factions alike. Without any prior agreement, everyone was left thinking: That is the number one in the world today."
+    qcReviewedText: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used.\\nBlade and sword：Slay the Stellar Net; Fist and Palm：Chopping Mountain Palm; Leg Techniques：Sun-Deflecting Kick; Spear & Staff：Tyrannical King Spear; Long Rope：Strange acupoint binding rope; Hidden Weapon：Xuanxuan Ruyi Finger; Neigong：Hongmeng Creation Art \\nIn that Year, Long Yuan commanded the heroes to attack the Demon Sect's main headquarters, single-handedly challenging the Joyful King of the Demon Sect. They unleashed the Star-Slicing and Sun-Shooting techniques, followed by the Mountain-Cleaving Saber Art, shocking both the righteous and evil factions alike. Without any prior agreement, everyone was left wanting to...：That is the number one in the world today."
+    qcTranslated: "The legendary former Alliance Leader Long Yuan's renowned martial arts skills were not actually a single set of martial techniques, but rather seven unique and unparalleled skills that Long Yuan had once used.\\nBlade and sword：Slay the Stellar Net; Fist and Palm：Chopping Mountain Palm; Leg Techniques：Sun-Deflecting Kick; Spear & Staff：Tyrannical King Spear; Long Rope：Strange acupoint binding rope; Hidden Weapon：Xuanxuan Ruyi Finger; Neigong：Hongmeng Creation Art \\nIn that Year, Long Yuan commanded the heroes to attack the Demon Sect's main headquarters, single-handedly challenging the Joyful King of the Demon Sect. He unleashed the Star-Slicing and Sun-Shooting techniques, followed by the Mountain-Cleaving Saber Art, shocking both the righteous and evil factions alike. Without any prior agreement, everyone was left wanting to...：That is the number one in the world today."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 15
-    qcDefectCategory: DomainTerm
+    qcQualityScore: 90
+    qcDefectCategory: UnnaturalPhrasing
     qcDefectCategories:
-    - DomainTerm
     - UnnaturalPhrasing
   - split: 1
     subIndex: 1
@@ -2109,12 +2107,12 @@
     translated: "Strange acupoint binding rope; Hidden Weapon"
   - split: 1
     subIndex: 7
-    text: "如意指；内功"
-    translated: "Magic wand; Neigong"
+    text: "玄玄如意指；内功"
+    translated: "Xuanxuan Ruyi Finger; Neigong"
   - split: 1
     subIndex: 8
-    text: "玄玄造化功。"
-    translated: "Mystic Transformation Art"
+    text: "鸿蒙造化功。"
+    translated: "Hongmeng Creation Art"
   - split: 1
     subIndex: 9
     text: "当年龙渊号令群雄，攻入旧魔教天堂总坛，独斗极乐教主，斩星射日、霸王割山连番使出，震骇当世正邪两派高手，不约而同都想"

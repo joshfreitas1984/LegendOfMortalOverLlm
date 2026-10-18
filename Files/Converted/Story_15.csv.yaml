@@ -3127,12 +3127,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_Section_02_Free_01_02_901_015,这沱是个什么玩意！是人吗？"
+- raw: "Story/D_Section_02_Free_01_02_901_015,这坨是个什么玩意！是人吗？"
   splits:
   - split: 1
-    text: "这沱是个什么玩意！是人吗？"
-    translated: "What in the world is this thing! Is it a person?"
-    qcReviewedText: "What in the world is this thing! Is it a person?"
+    text: "这坨是个什么玩意！是人吗？"
+    translated: "What on earth is this thing! Is it even human?"
+    qcReviewedText: "What on earth is this thing! Is it even human?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -10955,18 +10955,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/T_3_1_4_3_1_003,她心里果然记着我，竟连我祖辈都如属家珍。"
+- raw: "Story/T_3_1_4_3_1_003,她心里果然记着我，竟连我祖辈都如数家珍。"
   splits:
   - split: 1
-    text: "她心里果然记着我，竟连我祖辈都如属家珍。"
-    translated: "She indeed remembers me in her heart, unexpectedly even my ancestors are as if they are household treasures."
-    qcReviewedText: "She indeed remembers me in her heart, unexpectedly even my ancestors are as if they are household treasures."
-    qcTranslated: "She indeed keeps me close to her heart, so much so that even my ancestors are as familiar to her as household lore."
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    text: "她心里果然记着我，竟连我祖辈都如数家珍。"
+    translated: "She truly kept me in her heart; she even knew my ancestors as if they were her own."
+    qcReviewedText: "She truly kept me in her heart; she even knew my ancestors as if they were her own."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_3_1_4_3_1_035,稍微说过一点。"
   splits:
   - split: 1
@@ -30161,12 +30158,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0028_02_084,事情要从哥哥们出发去劫郡主车嫁那时说起，我人在点苍。"
+- raw: "Story/D_S0028_02_084,事情要从哥哥们出发去劫郡主车驾那时说起，我人在点苍。"
   splits:
   - split: 1
-    text: "事情要从哥哥们出发去劫郡主车嫁那时说起，我人在点苍。"
-    translated: "The story begins with the brothers setting out to kidnap the princess's wedding convoy, and I am at Diancang."
-    qcReviewedText: "The story begins with the brothers setting out to kidnap the princess's wedding convoy, and I am at Diancang."
+    text: "事情要从哥哥们出发去劫郡主车驾那时说起，我人在点苍。"
+    translated: "The story begins when my brothers set out to ambush the princess's carriage. I was in Diancang at the time."
+    qcReviewedText: "The story begins when my brothers set out to ambush the princess's carriage. I was in Diancang at the time."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -30394,12 +30391,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0028_02_109,这……你先别使姓子，我同她交代一些事情，马上就到。"
+- raw: "Story/D_S0028_02_109,这……你先别使性子，我同她交代一些事情，马上就到。"
   splits:
   - split: 1
-    text: "这……你先别使姓子，我同她交代一些事情，马上就到。"
-    translated: "This... you don't need to be difficult, I need to talk to her about some things, I'll be there soon."
-    qcReviewedText: "This... you don't need to be difficult, I need to talk to her about some things, I'll be there soon."
+    text: "这……你先别使性子，我同她交代一些事情，马上就到。"
+    translated: "This... please don't get upset. I need to discuss a few things with her, and I'll be right there."
+    qcReviewedText: "This... please don't get upset. I need to discuss a few things with her, and I'll be right there."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -45362,12 +45359,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0210_01_009,那你、你都没遇着什么怪事吗？比如说，空旷无人的地方，突然有只手用力跩你一下之类的？"
+- raw: "Story/D_S0210_01_009,那你、你都没遇着什么怪事吗？比如说，空旷无人的地方，突然有只手用力拽你一下之类的？"
   splits:
   - split: 1
-    text: "那你、你都没遇着什么怪事吗？比如说，空旷无人的地方，突然有只手用力跩你一下之类的？"
-    translated: "Then you didn't encounter any strange incidents, right? Like being yanked by an invisible hand in an empty place?"
-    qcReviewedText: "Then you didn't encounter any strange incidents, right? Like being yanked by an invisible hand in an empty place?"
+    text: "那你、你都没遇着什么怪事吗？比如说，空旷无人的地方，突然有只手用力拽你一下之类的？"
+    translated: "Then, you... you haven't encountered any strange occurrences? For example, in a desolate, empty place, suddenly having someone grab you hard by the hand or something?"
+    qcReviewedText: "Then, you... you haven't encountered any strange occurrences? For example, in a desolate, empty place, suddenly having someone grab you hard by the hand or something?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

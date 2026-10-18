@@ -21139,12 +21139,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_Meet_Option_01_02_020,那便到此为此，都退下吧。"
+- raw: "Story/D_Meet_Option_01_02_020,那便到此为止，都退下吧。"
   splits:
   - split: 1
-    text: "那便到此为此，都退下吧。"
-    translated: "Very well, then. All of you may retire."
-    qcReviewedText: "Very well, then. All of you may retire."
+    text: "那便到此为止，都退下吧。"
+    translated: "Then let's stop here. Everyone, you may withdraw."
+    qcReviewedText: "Then let's stop here. Everyone, you may withdraw."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26510,12 +26510,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0003_01_045,这是家教问题，我要是人品有毛病，都是我爹的错。总之你请回吧，大黄我是绝计不肯卖的，牠辛苦了一辈子，如今老了，耕不了田，我就伺候牠到寿终便是。"
+- raw: "Story/D_S0003_01_045,这是家教问题，我要是人品有毛病，都是我爹的错。总之你请回吧，大黄我是決计不肯卖的，牠辛苦了一辈子，如今老了，耕不了田，我就伺候牠到寿终便是。"
   splits:
   - split: 1
-    text: "这是家教问题，我要是人品有毛病，都是我爹的错。总之你请回吧，大黄我是绝计不肯卖的，牠辛苦了一辈子，如今老了，耕不了田，我就伺候牠到寿终便是。"
-    translated: "This is a matter of upbringing. If I have character flaws, it's all my father's fault. In any case, please go back. Big Yellow is absolutely not for sale; she has worked hard her entire life. Now that she is old and can no longer plow fields, I will take care of her until the end of her days."
-    qcReviewedText: "This is a matter of upbringing. If I have character flaws, it's all my father's fault. In any case, please go back. Big Yellow is absolutely not for sale; she has worked hard her entire life. Now that she is old and can no longer plow fields, I will take care of her until the end of her days."
+    text: "这是家教问题，我要是人品有毛病，都是我爹的错。总之你请回吧，大黄我是決计不肯卖的，牠辛苦了一辈子，如今老了，耕不了田，我就伺候牠到寿终便是。"
+    translated: "This is a matter of family upbringing. If I have any flaws in my character, it's all my father's fault. In any case, please leave. I absolutely refuse to sell Dahuang. He has worked hard his whole life; now that he is old and can no longer plow the fields, I will care for him until the end of his days."
+    qcReviewedText: "This is a matter of family upbringing. If I have any flaws in my character, it's all my father's fault. In any case, please leave. I absolutely refuse to sell Dahuang. He has worked hard his whole life; now that he is old and can no longer plow the fields, I will care for him until the end of his days."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -35603,18 +35603,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0014_01_05_018,某一日爹娘难得叫我先回家洗手，瞒着其它兄弟姊妹，先给我吃了一顿饱。"
+- raw: "Story/D_S0014_01_05_018,某一日爹娘难得叫我先回家洗手，瞒着其他兄弟姊妹，先给我吃了一顿饱。"
   splits:
   - split: 1
-    text: "某一日爹娘难得叫我先回家洗手，瞒着其它兄弟姊妹，先给我吃了一顿饱。"
-    translated: "One day, my parents unusually let me come home first to wash up, while the other brothers and sisters got a good meal instead."
-    qcReviewedText: "One day, my parents unusually let me come home first to wash up, while the other brothers and sisters got a good meal instead."
-    qcTranslated: "One day, my parents unusually let me come home first to wash up, and secretly gave me a good meal before the other brothers and sisters."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    text: "某一日爹娘难得叫我先回家洗手，瞒着其他兄弟姊妹，先给我吃了一顿饱。"
+    translated: "One day, Father and Mother rarely let me go home first to wash my hands. They secretly gave me a full meal before the other brothers and sisters."
+    qcReviewedText: "One day, Father and Mother rarely let me go home first to wash my hands. They secretly gave me a full meal before the other brothers and sisters."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0014_01_05_019,我生得丑，从小就是最受冷遇的一个，连吃饭都不许我同桌，说是看到我的脸会倒胃口，我总是一个人夹了饭菜，在厨房里吃的。夹多了还会被爹用筷子敲手，哪曾吃过一顿饱？"
   splits:
   - split: 1
@@ -35781,12 +35778,12 @@
     qcDefectCategory: DroppedStutter
     qcDefectCategories:
     - DroppedStutter
-- raw: "Story/D_S0014_01_05_033,呵，你这般胆小，一惊一乍，真是好笑。上一刻说我是女鬼，这回却叫神仙姊姊呢，好不要脸。丑小子，你叫什么名字？"
+- raw: "Story/D_S0014_01_05_033,呵，你这般胆小，一惊一乍，真是好笑。上一刻说我是女鬼，这回却叫神仙姐姐呢，好不要脸。丑小子，你叫什么名字？"
   splits:
   - split: 1
-    text: "呵，你这般胆小，一惊一乍，真是好笑。上一刻说我是女鬼，这回却叫神仙姊姊呢，好不要脸。丑小子，你叫什么名字？"
-    translated: "Huh, you're such a coward, jumping at every little thing-quite amusing. You called me a female ghost just now, but now you're addressing me as Sister Immortal, what shame! Ugly boy, what's your name?"
-    qcReviewedText: "Huh, you're such a coward, jumping at every little thing-quite amusing. You called me a female ghost just now, but now you're addressing me as Sister Immortal, what shame! Ugly boy, what's your name?"
+    text: "呵，你这般胆小，一惊一乍，真是好笑。上一刻说我是女鬼，这回却叫神仙姐姐呢，好不要脸。丑小子，你叫什么名字？"
+    translated: "Hmph. You're so timid, always jumping at every little thing. How ridiculous. One moment you call me a female ghost, and the next you address me as an immortal sister. What shameless audacity. Ugly boy, what is your name?"
+    qcReviewedText: "Hmph. You're so timid, always jumping at every little thing. How ridiculous. One moment you call me a female ghost, and the next you address me as an immortal sister. What shameless audacity. Ugly boy, what is your name?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -36643,12 +36640,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S0014_01_06_045,你是第一位愿意指点我功夫的人。既授我秘籍，又以口传点拨于我，对我而言，等同师恩。何况师姐于我有救命之恩，我拜你也不算违背礼数。"
+- raw: "Story/D_S0014_01_06_045,你是第一位愿意指点我功夫的人，对我而言，等同师恩。何况师姐于我有救命之恩，我拜你也不算违背礼数。"
   splits:
   - split: 1
-    text: "你是第一位愿意指点我功夫的人。既授我秘籍，又以口传点拨于我，对我而言，等同师恩。何况师姐于我有救命之恩，我拜你也不算违背礼数。"
-    translated: "You are the first person willing to instruct me in martial arts. Not only did you bestow upon me the secret manuals, but you also verbally guided me, which to me is akin to a master's teachings. Moreover, Senior Sister saved my life, so I would not be violating propriety by venerating you."
-    qcReviewedText: "You are the first person willing to instruct me in martial arts. Not only did you bestow upon me the secret manuals, but you also verbally guided me, which to me is akin to a master's teachings. Moreover, Senior Sister saved my life, so I would not be violating propriety by venerating you."
+    text: "你是第一位愿意指点我功夫的人，对我而言，等同师恩。何况师姐于我有救命之恩，我拜你也不算违背礼数。"
+    translated: "You are the first person willing to instruct me in martial arts; to me, that is a master's grace. Besides, Senior Sister saved my life, so paying respects to you would not violate propriety."
+    qcReviewedText: "You are the first person willing to instruct me in martial arts; to me, that is a master's grace. Besides, Senior Sister saved my life, so paying respects to you would not violate propriety."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

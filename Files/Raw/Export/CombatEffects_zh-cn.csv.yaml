@@ -11326,3 +11326,17 @@
   templates:
   - split: 1
     template: "{0}Lv9：{1}"
+- raw: "CombatSkill/Name/S168,尸心蛊反噬"
+  splits:
+  - split: 1
+    text: "尸心蛊反噬"
+- raw: "CombatSkill/Desc/S168,尸心蛊反噬：心蛊发作，每回合损失最大生命的33%。"
+  splits:
+  - split: 1
+    text: "尸心蛊反噬"
+  - split: 1
+    subIndex: 1
+    text: "心蛊发作，每回合损失最大生命的33%。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"

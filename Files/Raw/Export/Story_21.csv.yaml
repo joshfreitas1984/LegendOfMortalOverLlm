@@ -7765,3 +7765,133 @@
   splits:
   - split: 1
     text: "唉……搞砸了。"
+- raw: "Story/O_3_16_5_004,不是"
+  splits:
+  - split: 1
+    text: "不是"
+- raw: "Story/O_3_16_5_005,是"
+  splits:
+  - split: 1
+    text: "是"
+- raw: "Story/O_3_16_5_001,忍耐住了"
+  splits:
+  - split: 1
+    text: "忍耐住了"
+- raw: "Story/O_3_16_5_002,情不自禁嘴攻小竹"
+  splits:
+  - split: 1
+    text: "情不自禁嘴攻小竹"
+- raw: "Story/O_3_16_5_003,喵"
+  splits:
+  - split: 1
+    text: "喵"
+- raw: "Story/D_S0032_04_001,哎你他妈的，干什么你？好好的东西给你玩坏了啦！"
+  splits:
+  - split: 1
+    text: "哎你他妈的，干什么你？好好的东西给你玩坏了啦！"
+- raw: "Story/D_S0032_04_002,别、别急，我拿糨糊给你黏上，不就得了？"
+  splits:
+  - split: 1
+    text: "别、别急，我拿糨糊给你黏上，不就得了？"
+- raw: "Story/D_S0032_04_003,修好就当没坏过吗？赔钱！不赔的话，别怪我告到掌门跟前！"
+  splits:
+  - split: 1
+    text: "修好就当没坏过吗？赔钱！不赔的话，别怪我告到掌门跟前！"
+- raw: "Story/O_S0032_04_001,赔钱"
+  splits:
+  - split: 1
+    text: "赔钱"
+- raw: "Story/O_S0032_04_002,解锁条件：银两>=1000"
+  splits:
+  - split: 1
+    text: "解锁条件"
+  - split: 1
+    subIndex: 1
+    text: "银两"
+  templates:
+  - split: 1
+    template: "{0}：{1}>=1000"
+- raw: "Story/N_S0032_04_001,你明知道四师兄这是狮子大开口，仍心不甘情不愿，赔偿了他。"
+  splits:
+  - split: 1
+    text: "你明知道四师兄这是狮子大开口，仍心不甘情不愿，赔偿了他。"
+- raw: "Story/O_S0032_04_003,没钱赔"
+  splits:
+  - split: 1
+    text: "没钱赔"
+- raw: "Story/N_S0032_04_002,你把人家玩具弄坏了，经四师兄一番添油加醋，最后掌门掐着眉头，判你替四师兄代班抵债。"
+  splits:
+  - split: 1
+    text: "你把人家玩具弄坏了，经四师兄一番添油加醋，最后掌门掐着眉头，判你替四师兄代班抵债。"
+- raw: "Story/D_Section_01_Free_08_04_097,小梅你变身好快！"
+  splits:
+  - split: 1
+    text: "小梅你变身好快！"
+- raw: "Story/T_Section_01_Free_08_04_010,旁边这一位是她的妖怪朋友吗？看来他法力还没这么高深，化身成人，还残留着些许精怪的形貌。"
+  splits:
+  - split: 1
+    text: "旁边这一位是她的妖怪朋友吗？看来他法力还没这么高深，化身成人，还残留着些许精怪的形貌。"
+- raw: "Story/T_Section_01_Free_08_04_011,……虽然没把握，但你老兄是不是在想什么失礼的事情？"
+  splits:
+  - split: 1
+    text: "……虽然没把握，但你老兄是不是在想什么失礼的事情？"
+- raw: "Story/D_Section_01_Free_08_04_098,哇哈哈哈～"
+  splits:
+  - split: 1
+    text: "哇哈哈哈～"
+- raw: "Story/D_Section_01_Free_08_04_099,没错，本梅来给你慎重介绍。旁边这一位，正是蜀中妖大王！唐门万年老屁股成的精，老屁精赵活！"
+  splits:
+  - split: 1
+    text: "没错，本梅来给你慎重介绍。旁边这一位，正是蜀中妖大王！唐门万年老屁股成的精，老屁精赵活！"
+- raw: "Story/D_Section_01_Free_08_04_100,屁啦！屁啦！"
+  splits:
+  - split: 1
+    text: "屁啦！屁啦！"
+- raw: "Story/D_Section_01_Free_08_04_101,你看他，开口就是屁，可不就是个屁精吗？"
+  splits:
+  - split: 1
+    text: "你看他，开口就是屁，可不就是个屁精吗？"
+- raw: "Story/D_Section_01_Free_08_04_102,失敬失敬。在下一介肉体凡胎，孤云山派剑客瑞笙，拜见老神仙。"
+  splits:
+  - split: 1
+    text: "失敬失敬。在下一介肉体凡胎，孤云山派剑客瑞笙，拜见老神仙。"
+- raw: "Story/D_Section_01_Free_08_04_103,你别信她啊！我不是妖，我是人！"
+  splits:
+  - split: 1
+    text: "你别信她啊！我不是妖，我是人！"
+- raw: "Story/D_Section_01_Free_08_04_104,别争了，我们各执一词，吵来吵去没完没了。不如各退一半，我当你是妖，你当你是人。阿笙你就把他当妖人。"
+  splits:
+  - split: 1
+    text: "别争了，我们各执一词，吵来吵去没完没了。不如各退一半，我当你是妖，你当你是人。阿笙你就把他当妖人。"
+- raw: "Story/D_Section_01_Free_08_04_105,好。"
+  splits:
+  - split: 1
+    text: "好。"
+- raw: "Story/D_Section_01_Free_08_04_106,好屁喔！"
+  splits:
+  - split: 1
+    text: "好屁喔！"
+- raw: "Story/D_Section_01_Free_08_04_107,哇～哈哈哈！"
+  splits:
+  - split: 1
+    text: "哇～哈哈哈！"
+- raw: "Story/D_S2800_03_071,那啥，其实我是挂名飞天门下的……。"
+  splits:
+  - split: 1
+    text: "那啥，其实我是挂名飞天门下的……。"
+- raw: "Story/D_S2800_03_072,那又怎样？我不识得你！你挂名飞天门，可初来乍到也不来打声招呼，还要我来请你不成？"
+  splits:
+  - split: 1
+    text: "那又怎样？我不识得你！你挂名飞天门，可初来乍到也不来打声招呼，还要我来请你不成？"
+- raw: "Story/D_S2800_03_073,呃……。"
+  splits:
+  - split: 1
+    text: "呃……。"
+- raw: "Story/O_Center_Girl_03_01_003,无视"
+  splits:
+  - split: 1
+    text: "无视"
+- raw: "Story/O_Center_Girl_03_01_004,接招"
+  splits:
+  - split: 1
+    text: "接招"

@@ -15635,18 +15635,15 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S2504_01_094,为师那时正是二八年华，情窦初开，一心一意都扑在第三师兄身上。见他疑心我与同行男子有染，为了自证清白，旅行回来不久，为师便与第三师兄作了夫妻。"
+- raw: "Story/D_S2504_01_094,为师那时正是情窦初开，一心一意都扑在第三师兄身上。见他疑心我与同行男子有染，为了自证清白，旅行回来不久，为师便与第三师兄作了夫妻。"
   splits:
   - split: 1
-    text: "为师那时正是二八年华，情窦初开，一心一意都扑在第三师兄身上。见他疑心我与同行男子有染，为了自证清白，旅行回来不久，为师便与第三师兄作了夫妻。"
-    translated: "I, the master, was twenty-eight years old at the time, my heart just beginning to bloom with affection, entirely devoted to the Third Senior Brother. When he suspected I had an affair with a fellow traveler, to prove my innocence, shortly after returning from a trip, I married the Third Senior Brother."
-    qcReviewedText: "I, the master, was twenty-eight years old at the time, my heart just beginning to bloom with affection, entirely devoted to the Third Senior Brother. When he suspected I had an affair with a fellow traveler, to prove my innocence, shortly after returning from a trip, I married the Third Senior Brother."
-    qcTranslated: "I, the master, was sixteen years old at the time, my heart just beginning to bloom with affection, entirely devoted to the Third Senior Brother. When he suspected I had an affair with a fellow traveler, to prove my innocence, shortly after returning from a trip, I married the Third Senior Brother."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    text: "为师那时正是情窦初开，一心一意都扑在第三师兄身上。见他疑心我与同行男子有染，为了自证清白，旅行回来不久，为师便与第三师兄作了夫妻。"
+    translated: "At that time, I was just blossoming into love, with all my heart set on Third Senior Brother. When he suspected I had an affair with a man I traveled with, I married him shortly after returning from the trip to prove my innocence."
+    qcReviewedText: "At that time, I was just blossoming into love, with all my heart set on Third Senior Brother. When he suspected I had an affair with a man I traveled with, I married him shortly after returning from the trip to prove my innocence."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S2504_01_002,是了，师父是江湖第一美人，花容月貌，追求者多不胜数，又不屑掌派夫人之位，怎能一直没有钟意的郎君？原来她早已嫁了人。"
   splits:
   - split: 1

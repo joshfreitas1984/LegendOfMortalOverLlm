@@ -1611,12 +1611,12 @@
   templates:
   - split: 1
     template: "{0}\\n{1}"
-- raw: "Position/Dialog/Center_2_4_8_001,练武场……需要有人守吗？我该躲哪儿？登柱后面？"
+- raw: "Position/Dialog/Center_2_4_8_001,练武场……需要有人守吗？我该躲哪儿？灯柱后面？"
   splits:
   - split: 1
-    text: "练武场……需要有人守吗？我该躲哪儿？登柱后面？"
-    translated: "Training ground... do we need someone to guard it? Where should I hide? Behind the pillar?"
-    qcReviewedText: "Training ground... do we need someone to guard it? Where should I hide? Behind the pillar?"
+    text: "练武场……需要有人守吗？我该躲哪儿？灯柱后面？"
+    translated: "The training ground... Does anyone need to guard it? Where should I hide? Behind the lamp post?"
+    qcReviewedText: "The training ground... Does anyone need to guard it? Where should I hide? Behind the lamp post?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

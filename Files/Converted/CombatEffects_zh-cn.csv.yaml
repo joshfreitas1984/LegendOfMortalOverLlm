@@ -20931,3 +20931,31 @@
   templates:
   - split: 1
     template: "{0}Lv9：{1}"
+- raw: "CombatSkill/Name/S168,尸心蛊反噬"
+  splits:
+  - split: 1
+    text: "尸心蛊反噬"
+    translated: "Corpse Heart Gu Backlash"
+    qcReviewedText: "Corpse Heart Gu Backlash"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/S168,尸心蛊反噬：心蛊发作，每回合损失最大生命的33%。"
+  splits:
+  - split: 1
+    text: "尸心蛊反噬"
+    translated: "Corpse Heart Gu Backlash"
+    qcReviewedText: "Corpse Heart Gu Backlash：Heart Gu activates, causing 33% of maximum Health to be lost each turn."
+    qcTranslated: "Corpse Heart Gu Backlash: Heart Gu activates, causing 33% of maximum Health to be lost each turn."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "心蛊发作，每回合损失最大生命的33%。"
+    translated: "Heart Gu activates, causing 33% of maximum Health to be lost each turn."
+  templates:
+  - split: 1
+    template: "{0}：{1}"

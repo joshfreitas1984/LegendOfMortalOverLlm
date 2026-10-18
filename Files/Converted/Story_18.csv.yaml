@@ -14463,14 +14463,11 @@
   splits:
   - split: 1
     text: "总得有些馊主意来作衬，方能显出我的主意有多高明。"
-    translated: "Sure, please provide the specific text that needs to be corrected so I can ensure it meets all the criteria you've outlined."
-    qcReviewedText: "Sure, please provide the specific text that needs to be corrected so I can ensure it meets all the criteria you've outlined."
-    qcTranslated: "There have to be some bad ideas as a foil, otherwise how would my brilliant plan stand out?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "One must have some foolish ideas as a foil to show just how brilliant my plan truly is."
+    qcReviewedText: "One must have some foolish ideas as a foil to show just how brilliant my plan truly is."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2321_01_046,你有打算了？不早说。"
   splits:
   - split: 1
