@@ -10538,7 +10538,7 @@
   splits:
   - split: 1
     text: "痛苦回忆・千灯楼"
-- raw: "CombatSkill/Desc/S153,痛苦回忆・千灯楼：每回合有高机率陷入[胆怯]异常。"
+- raw: "CombatSkill/Desc/S153,痛苦回忆・千灯楼：每回合有高机率陷入[胆怯]异常，并降低攻击欲望。"
   splits:
   - split: 1
     text: "痛苦回忆・千灯楼"
@@ -10550,7 +10550,7 @@
     text: "胆怯"
   - split: 1
     subIndex: 3
-    text: "异常。"
+    text: "异常，并降低攻击欲望。"
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}"
@@ -10558,13 +10558,13 @@
   splits:
   - split: 1
     text: "痛苦回忆・一无所有"
-- raw: "CombatSkill/Desc/S154,痛苦回忆・一无所有：失去所有求生的勇气，不会再获得气。"
+- raw: "CombatSkill/Desc/S154,痛苦回忆・一无所有：失去所有求生的勇气，不会再获得气，并降低攻击欲望。"
   splits:
   - split: 1
     text: "痛苦回忆・一无所有"
   - split: 1
     subIndex: 1
-    text: "失去所有求生的勇气，不会再获得气。"
+    text: "失去所有求生的勇气，不会再获得气，并降低攻击欲望。"
   templates:
   - split: 1
     template: "{0}：{1}"

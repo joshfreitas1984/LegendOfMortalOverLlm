@@ -19440,13 +19440,13 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatSkill/Desc/S153,痛苦回忆・千灯楼：每回合有高机率陷入[胆怯]异常。"
+- raw: "CombatSkill/Desc/S153,痛苦回忆・千灯楼：每回合有高机率陷入[胆怯]异常，并降低攻击欲望。"
   splits:
   - split: 1
     text: "痛苦回忆・千灯楼"
     translated: "Painful Memories • Thousand Lantern Tower"
-    qcReviewedText: "Painful Memories • Thousand Lantern Tower：Each turn presents a high chance of becoming trapped, fall into.[Timidity]Anomaly"
-    qcTranslated: "Painful Memories • Thousand Lantern Tower: Each turn has a high chance of inflicting the [Timidity] status."
+    qcReviewedText: "Painful Memories • Thousand Lantern Tower：Each turn presents a high chance of becoming trapped, fall into.[Timidity]Abnormal, and reduce the desire to attack"
+    qcTranslated: "Painful Memories • Thousand Lantern Tower: Each turn has a high chance of inflicting the [Timidity] status and reducing attack desire."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: HardToParseSeam
@@ -19463,8 +19463,8 @@
     translated: "Timidity"
   - split: 1
     subIndex: 3
-    text: "异常。"
-    translated: "Anomaly"
+    text: "异常，并降低攻击欲望。"
+    translated: "Abnormal, and reduce the desire to attack"
   templates:
   - split: 1
     template: "{0}：{1}[{2}]{3}"
@@ -19477,13 +19477,13 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "CombatSkill/Desc/S154,痛苦回忆・一无所有：失去所有求生的勇气，不会再获得气。"
+- raw: "CombatSkill/Desc/S154,痛苦回忆・一无所有：失去所有求生的勇气，不会再获得气，并降低攻击欲望。"
   splits:
   - split: 1
     text: "痛苦回忆・一无所有"
     translated: "Painful Memories • Having Nothing"
-    qcReviewedText: "Painful Memories • Having Nothing：Having lost all courage to survive, they will no longer gain any qi."
-    qcTranslated: "Painful Memories • Having Nothing: Having lost all courage to survive, they will no longer gain any qi."
+    qcReviewedText: "Painful Memories • Having Nothing：Loses all will to survive, can no longer gain Qi, and has reduced attack desire."
+    qcTranslated: "Painful Memories • Having Nothing: Loses all will to survive, can no longer gain Qi, and has reduced attack desire."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -19491,8 +19491,8 @@
     - OtherNamedDefect
   - split: 1
     subIndex: 1
-    text: "失去所有求生的勇气，不会再获得气。"
-    translated: "Having lost all courage to survive, they will no longer gain any qi."
+    text: "失去所有求生的勇气，不会再获得气，并降低攻击欲望。"
+    translated: "Loses all will to survive, can no longer gain Qi, and has reduced attack desire."
   templates:
   - split: 1
     template: "{0}：{1}"

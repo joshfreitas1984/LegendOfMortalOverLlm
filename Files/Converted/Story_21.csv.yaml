@@ -16004,21 +16004,21 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S2201_01_027,听说铁拳、玄功嫡传女弟子一日之中相继失踪。正疑心是飞天嫡传女弟子下的毒手时，连小梅也失踪了。"
+- raw: "Story/D_S2201_01_027,听说铁拳、玄功嫡传女弟子一日之中相继失踪。都说是飞天嫡传女弟子为了排除竞争对手而下的毒手……小梅师妹竟然做出这种事……我真是看错了她。"
   splits:
   - split: 1
-    text: "听说铁拳、玄功嫡传女弟子一日之中相继失踪。正疑心是飞天嫡传女弟子下的毒手时，连小梅也失踪了。"
-    translated: "I heard that the Iron Fist and Mystic Skill's direct female disciples went missing one after another within a day. Just as I suspected it might be the Flying Heaven's direct female disciple behind it, even Little Plum has gone missing."
-    qcReviewedText: "I heard that the Iron Fist and Mystic Skill's direct female disciples went missing one after another within a day. Just as I suspected it might be the Flying Heaven's direct female disciple behind it, even Little Plum has gone missing."
+    text: "听说铁拳、玄功嫡传女弟子一日之中相继失踪。都说是飞天嫡传女弟子为了排除竞争对手而下的毒手……小梅师妹竟然做出这种事……我真是看错了她。"
+    translated: "I heard that the Iron Fist's direct-line female disciples disappeared one after another in a single day. They say it was the Flying Heaven's direct-line female disciple who poisoned them to eliminate rivals... Junior Sister Xiaomei actually did such a thing... I truly misjudged her."
+    qcReviewedText: "I heard that the Iron Fist's direct-line female disciples disappeared one after another in a single day. They say it was the Flying Heaven's direct-line female disciple who poisoned them to eliminate rivals... Junior Sister Xiaomei actually did such a thing... I truly misjudged her."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S2201_01_028,听说铁拳、玄功嫡传女弟子一日之中相继失踪。正疑心是飞天嫡传女弟子下的毒手时，连那梅夫人也失踪了。"
+- raw: "Story/D_S2201_01_028,听说铁拳门嫡传女弟子失踪，临时换人顶替。都说是飞天嫡传女弟子为了排除竞争对手而下的毒手。该怎么说呢？真是最毒妇人心。"
   splits:
   - split: 1
-    text: "听说铁拳、玄功嫡传女弟子一日之中相继失踪。正疑心是飞天嫡传女弟子下的毒手时，连那梅夫人也失踪了。"
-    translated: "It was heard that the Iron Fist and Mystic Skill's direct female disciples went missing one after another within a single day. Just as suspicion fell on the Flying Heaven's direct female disciples, even Lady Mei went missing."
-    qcReviewedText: "It was heard that the Iron Fist and Mystic Skill's direct female disciples went missing one after another within a single day. Just as suspicion fell on the Flying Heaven's direct female disciples, even Lady Mei went missing."
+    text: "听说铁拳门嫡传女弟子失踪，临时换人顶替。都说是飞天嫡传女弟子为了排除竞争对手而下的毒手。该怎么说呢？真是最毒妇人心。"
+    translated: "I heard that the direct-line female disciple of the Iron Fist Sect went missing, and a substitute was hastily arranged. Rumor has it that the direct-line female disciple of the Flying Heaven Sect poisoned her to eliminate a rival. How should I put this? Truly, women's hearts are the most venomous."
+    qcReviewedText: "I heard that the direct-line female disciple of the Iron Fist Sect went missing, and a substitute was hastily arranged. Rumor has it that the direct-line female disciple of the Flying Heaven Sect poisoned her to eliminate a rival. How should I put this? Truly, women's hearts are the most venomous."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16040,32 +16040,21 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/D_S2201_01_031,很怪吧？都说崆峒四姝勾心斗角，争作第一掌派夫人。结果 一决出掌派人，她们反而一哄而散。怕不是因为那金乌死胖子太恶心吧。"
+- raw: "Story/D_S2201_01_031,如此一来，谁当第一掌派夫人，显而易见。"
   splits:
   - split: 1
-    text: "很怪吧？都说崆峒四姝勾心斗角，争作第一掌派夫人。结果"
-    translated: "That's strange, right? Everyone says the Four Beauties of Kongtong are always scheming and vying to be the First Lady of the Palms Sect. But in the end,"
-    qcReviewedText: "That's strange, right? Everyone says the Four Beauties of Kongtong are always scheming and vying to be the First Lady of the Palms Sect. But in the end, As soon as they heard about the envoy being sent, they scattered in a panic. Could it be that they're afraid of the disgusting Goldcrow fatty?"
-    qcTranslated: "That's strange, right? Everyone says the Four Beauties of Kongtong are always scheming and vying to be the First Lady of the Palms Sect. But in the end, as soon as the envoy was decided, they scattered in a panic. Could it be that they're afraid of the disgusting Goldcrow fatty?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - DomainTerm
-  - split: 1
-    subIndex: 1
-    text: "一决出掌派人，她们反而一哄而散。怕不是因为那金乌死胖子太恶心吧。"
-    translated: "As soon as they heard about the envoy being sent, they scattered in a panic. Could it be that they're afraid of the disgusting Goldcrow fatty?"
-  templates:
-  - split: 1
-    template: "{0} {1}"
-- raw: "Story/T_S2201_01_002,虽说那是个该死的混蛋，半点不值得同情。但若我易地而处，八成也是同样的下场……唉。"
+    text: "如此一来，谁当第一掌派夫人，显而易见。"
+    translated: "Thus, who should be the First Lady of the Sect is obvious."
+    qcReviewedText: "Thus, who should be the First Lady of the Sect is obvious."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/T_S2201_01_002,最后还是变成了这样吗……天命难违。"
   splits:
   - split: 1
-    text: "虽说那是个该死的混蛋，半点不值得同情。但若我易地而处，八成也是同样的下场……唉。"
-    translated: "Though he's a damn scoundrel not worth feeling sorry for, if I were in his shoes, I'd probably end up the same way... Sigh."
-    qcReviewedText: "Though he's a damn scoundrel not worth feeling sorry for, if I were in his shoes, I'd probably end up the same way... Sigh."
+    text: "最后还是变成了这样吗……天命难违。"
+    translated: "So this is how it ends after all... Fate cannot be defied."
+    qcReviewedText: "So this is how it ends after all... Fate cannot be defied."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -18081,3 +18070,25 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "Story/D_S2201_01_032,{size=30}什么！{/size}"
+  splits:
+  - split: 1
+    text: "什么！"
+    translated: "What!"
+    qcReviewedText: "{size=21} What!{/size}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "⟦size=21⟧{0}⟦/size⟧"
+- raw: "Story/D_8_2_5_6_018,今非昔比，此刻我乃唐门之敌，专程过来杀你全家的。赵少侠还是别天真念旧比较好吧。"
+  splits:
+  - split: 1
+    text: "今非昔比，此刻我乃唐门之敌，专程过来杀你全家的。赵少侠还是别天真念旧比较好吧。"
+    translated: "Times have changed. I am now an enemy of the Tang Clan, and I have come here specifically to slaughter your entire family. Young Hero Zhao, it would be best if you did not cling to naive nostalgia."
+    qcReviewedText: "Times have changed. I am now an enemy of the Tang Clan, and I have come here specifically to slaughter your entire family. Young Hero Zhao, it would be best if you did not cling to naive nostalgia."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Story/D_8_2_5_6_019,……。"
