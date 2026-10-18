@@ -9335,12 +9335,9 @@
     text: "嘴攻他"
     translated: "Mouth attack him"
     qcReviewedText: "Mouth attack him"
-    qcTranslated: "Attack him with your mouth"
-    qcStatus: Corrected
-    qcQualityScore: 85
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_3_6_3_3_1_011,南宫家学，同样很厉害。"
   splits:
   - split: 1
@@ -20727,8 +20724,8 @@
   splits:
   - split: 1
     text: "……好。你只需看着主炉不出变故，无须特意做点什么。留意通风即可，要在旁摸鱼打混，也由着你，废物。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Very well. You need only watch the main furnace to ensure nothing goes wrong; there is no need for you to do anything in particular. Just keep an eye on the ventilation. If you wish to slack off and idle away your time, that is up to you, you useless wretch."
+    qcReviewedText: "...Very well. You need only watch the main furnace to ensure nothing goes wrong; there is no need for you to do anything in particular. Just keep an eye on the ventilation. If you wish to slack off and idle away your time, that is up to you, you useless wretch."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

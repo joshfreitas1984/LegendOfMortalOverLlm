@@ -9474,14 +9474,11 @@
   splits:
   - split: 1
     text: "……咦，不是要偷袭吗？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Huh, weren't you planning to sneak up on me?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Huh, weren't we supposed to sneak up on them?"
+    qcReviewedText: "...Huh, weren't we supposed to sneak up on them?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatTalking/1508_01_01_002,哈哈，讲讲而已啦，你若较真，就当自己被我偷袭得手了吧。"
   splits:
   - split: 1
@@ -10116,14 +10113,11 @@
   splits:
   - split: 1
     text: "……迟早有一天，再一起去旅行吧。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Someday, let's travel together again."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Someday, let's travel together again."
+    qcReviewedText: "...Someday, let's travel together again."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatTalking/1513_02_03_006,我说的不是下辈子，就是某一日天气晴朗，你准备好的时候。\\n带上食盒，去郊游野餐吧。"
   splits:
   - split: 1
@@ -11709,14 +11703,11 @@
   splits:
   - split: 1
     text: "……哈，我是装死吓妳的！"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Ha, I was just playing dead to scare you!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Hah, I was faking my death to scare you!"
+    qcReviewedText: "...Hah, I was faking my death to scare you!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "CombatTalking/1813_01_18_001,赵活！你、你敢倒下，我哭给你看喔！"
   splits:
   - split: 1
@@ -11730,14 +11721,14 @@
   splits:
   - split: 1
     text: "……那我怎么敢输！"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...How dare I lose!"
+    translated: "...How dare I lose!"
+    qcReviewedText: "...How dare I lose!"
+    qcTranslated: "...How could I dare to lose!"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - OtherNamedDefect
+    - MeaningReversal
 - raw: "CombatTalking/1511_01_02_001,夏侯兰！！！！！"
   splits:
   - split: 1

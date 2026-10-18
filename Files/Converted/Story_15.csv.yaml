@@ -48235,8 +48235,8 @@
   - split: 1
     text: "解锁条件"
     translated: "Unlock conditions: ???"
-    qcReviewedText: "Unlock conditions: ???：［Morality］ is below ［Good Person］ and ［Verbal Combat］>=40"
-    qcTranslated: "Unlock conditions: ［Morality］ is below ［Good Person］ and ［Verbal Combat］>=40"
+    qcReviewedText: "Unlock conditions: ???：[Morality] is [Good Person] or below and [Mouth Power]>=40"
+    qcTranslated: "Unlock conditions: [Morality] is [Good Person] or below and [Mouth Power]>=40"
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -48245,7 +48245,7 @@
   - split: 1
     subIndex: 1
     text: "［道德］为［好人］以下且［嘴力］"
-    translated: "［Morality］ is below ［Good Person］ and ［Verbal Combat］"
+    translated: "[Morality] is [Good Person] or below and [Mouth Power]"
   templates:
   - split: 1
     template: "{0}：{1}>=40"

@@ -5737,17 +5737,14 @@
   - split: 1
     text: "虚张声势"
     translated: "Bluffing"
-    qcReviewedText: "Bluffing：When a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
-    qcTranslated: "Bluffing: When a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: GarbledNumber
-    qcDefectCategories:
-    - GarbledNumber
+    qcReviewedText: "Bluffing：At the start of the duel, -10 is generated, increasing Mouth Power by 100%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
-    translated: "When a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
+    translated: "At the start of the duel, -10 is generated, increasing Mouth Power by 100%."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -10940,14 +10937,14 @@
   - split: 1
     text: "唐布衣《光说不练》"
     translated: "Tang Buyi 'Talking the Talk But Not Walking the Walk'"
-    qcReviewedText: "Tang Buyi 'Talking the Talk But Not Walking the Walk'：Each turn, verbally taunt the enemy to slightly reduce their qi and have a chance to enrage them."
+    qcReviewedText: "Tang Buyi 'Talking the Talk But Not Walking the Walk'：Each turn, use Verbal Attack to provoke the enemy, slightly reducing their stamina and having a chance to inflict Anger."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "每回合进行嘴攻刺激敌人，小幅减少敌人气力，有机率造成愤怒。"
-    translated: "Each turn, verbally taunt the enemy to slightly reduce their qi and have a chance to enrage them."
+    translated: "Each turn, use Verbal Attack to provoke the enemy, slightly reducing their stamina and having a chance to inflict Anger."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -11344,17 +11341,17 @@
   - split: 1
     text: "狂妄"
     translated: "Arrogance"
-    qcReviewedText: "Arrogance：When verbal sparring is successful, restore additional stamina."
-    qcTranslated: "Arrogance: When a verbal attack succeeds, restore additional stamina."
+    qcReviewedText: "Arrogance：On a successful Verbal Attack, restore additional Stamina."
+    qcTranslated: "Arrogance: On a successful Verbal Attack, restore additional Stamina."
     qcStatus: Corrected
-    qcQualityScore: 95
+    qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "嘴攻成功时，额外回复气力。"
-    translated: "When verbal sparring is successful, restore additional stamina."
+    translated: "On a successful Verbal Attack, restore additional Stamina."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -17491,18 +17488,14 @@
   - split: 1
     text: "锐利的喙"
     translated: "Sharp beak"
-    qcReviewedText: "Sharp beak：Pecking with their beak to deal minor damage."
-    qcTranslated: "Sharp Beak: When attacking with the beak, peck the target to deal minor damage."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
-    - OtherNamedDefect
+    qcReviewedText: "Sharp beak：When performing a Verbal Attack, pecking the target with its beak deals minor damage."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "嘴攻时，用喙啄人造成小幅伤害。"
-    translated: "Pecking with their beak to deal minor damage."
+    translated: "When performing a Verbal Attack, pecking the target with its beak deals minor damage."
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -18188,8 +18181,8 @@
   - split: 1
     text: "火焰喷射"
     translated: "Flame spewing"
-    qcReviewedText: "Flame spewing：While spinning, spray flames! Additional effect:[Burning]Anomaly"
-    qcTranslated: "Flame Spew: While spinning, spray flames! Inflicts [Burning] Anomaly."
+    qcReviewedText: "Flame spewing：While performing a Verbal Attack, spin while erupting in flames! Additional[Burning]Anomaly"
+    qcTranslated: "Flame Spew: While performing a Verbal Attack, spin while spewing flames! Applies the [Burning] anomaly."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: UnnaturalPhrasing
@@ -18198,7 +18191,7 @@
   - split: 1
     subIndex: 1
     text: "嘴攻时，一边旋转一边喷发火焰！附加"
-    translated: "While spinning, spray flames! Additional effect:"
+    translated: "While performing a Verbal Attack, spin while erupting in flames! Additional"
   - split: 1
     subIndex: 2
     text: "燃烧"
@@ -19369,17 +19362,18 @@
   - split: 1
     text: "咆哮"
     translated: "Roar loudly"
-    qcReviewedText: "Roar loudly：Shifting from verbal taunts to roars, not to provoke the enemy but to inflict[Timidity]。"
-    qcTranslated: "Roar: Shifting from verbal taunts to roars, not to provoke the enemy but to inflict [Timidity]."
+    qcReviewedText: "Roar loudly：Verbal Attack changes to Roar, dealing damage without enraging enemies[Timidity]。"
+    qcTranslated: "Roar: Verbal Attack changes to Roar, inflicting [Timidity] instead of enraging enemies."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcDefectCategory: GarbledNumber
     qcDefectCategories:
+    - GarbledNumber
     - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "嘴攻变为咆哮，不激怒敌人而是造成"
-    translated: "Shifting from verbal taunts to roars, not to provoke the enemy but to inflict"
+    translated: "Verbal Attack changes to Roar, dealing damage without enraging enemies"
   - split: 1
     subIndex: 2
     text: "胆怯"
@@ -20105,17 +20099,14 @@
   - split: 1
     text: "颜疆《濒死》"
     translated: "Yan Jiang 'On the Verge of Death'"
-    qcReviewedText: "Yan Jiang 'On the Verge of Death'：Unable to use mouth techniques; execute ultimate move."
-    qcTranslated: "Yan Jiang 'On the Verge of Death': Unable to use mouth techniques or execute Ultimate moves."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcReviewedText: "Yan Jiang 'On the Verge of Death'：Cannot use Verbal Attack or Ultimate commands"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "无法使用嘴攻、绝招指令。"
-    translated: "Unable to use mouth techniques; execute ultimate move."
+    translated: "Cannot use Verbal Attack or Ultimate commands"
   templates:
   - split: 1
     template: "{0}：{1}"
@@ -20165,17 +20156,14 @@
   - split: 1
     text: "黄佩华《濒死》"
     translated: "Huang Peihua's On the Brink of Death"
-    qcReviewedText: "Huang Peihua's On the Brink of Death：Unable to use mouth techniques; execute ultimate move."
-    qcTranslated: "Huang Peihua's On the Brink of Death: Unable to use mouth techniques or execute Ultimate moves."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcReviewedText: "Huang Peihua's On the Brink of Death：Cannot use Verbal Attack or Ultimate commands"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "无法使用嘴攻、绝招指令。"
-    translated: "Unable to use mouth techniques; execute ultimate move."
+    translated: "Cannot use Verbal Attack or Ultimate commands"
   templates:
   - split: 1
     template: "{0}：{1}"

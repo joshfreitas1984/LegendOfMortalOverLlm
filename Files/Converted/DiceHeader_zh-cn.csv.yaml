@@ -881,14 +881,11 @@
   splits:
   - split: 1
     text: "你的嘴攻冲动"
-    translated: "Their mouth is acting on impulse"
-    qcReviewedText: "Their mouth is acting on impulse"
-    qcTranslated: "Your mouth is acting on impulse"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Your Verbal Attack impulse"
+    qcReviewedText: "Your Verbal Attack impulse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "DiceHeader/Ch_4_4_1_001,你的召唤咒文"
   splits:
   - split: 1
@@ -4219,14 +4216,11 @@
   splits:
   - split: 1
     text: "你的嘴力冲动"
-    translated: "Your mouth is as impulsive as your actions."
-    qcReviewedText: "Your mouth is as impulsive as your actions."
-    qcTranslated: "Your mouth is more impulsive than your actions."
-    qcStatus: Corrected
-    qcQualityScore: 90
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "Your Mouth Power impulse"
+    qcReviewedText: "Your Mouth Power impulse"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "DiceHeader/Ch_4_5_6_2_001,你的记忆"
   splits:
   - split: 1

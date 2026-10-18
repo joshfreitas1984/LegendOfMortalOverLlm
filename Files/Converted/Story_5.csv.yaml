@@ -8296,14 +8296,11 @@
   splits:
   - split: 1
     text: "……你他妈的。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...You fucking bastard."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...You fucking bastard."
+    qcReviewedText: "...You fucking bastard."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_5_4_7_3_3_010,什么都不必说了，快追吧。"
   splits:
   - split: 1
@@ -27226,8 +27223,8 @@
   splits:
   - split: 1
     text: "正面嘴攻"
-    translated: "Frontal verbal confrontation"
-    qcReviewedText: "Frontal verbal confrontation"
+    translated: "Direct Verbal Attack"
+    qcReviewedText: "Direct Verbal Attack"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -28426,14 +28423,11 @@
   splits:
   - split: 1
     text: "不友善的带回正题（嘴攻）"
-    translated: "Unpleasantly bringing back to the main topic (verbal sparring)"
-    qcReviewedText: "Unpleasantly bringing back to the main topic (verbal sparring)"
-    qcTranslated: "Unpleasantly steering the conversation back to the main topic (verbal sparring)"
-    qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Unfriendly return to the main topic (Verbal Attack)"
+    qcReviewedText: "Unfriendly return to the main topic (Verbal Attack)"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_6_2_3_008,好了，好了，三师兄你别管范文正公怎样，先管好我们活人再说。否则就不是你在这边缅怀别人落泪，而是别人缅怀你去哭坟。"
   splits:
   - split: 1
@@ -38556,14 +38550,11 @@
   splits:
   - split: 1
     text: "……你抱得再大力，我也不怕，我也结实的。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "No matter how hard you hug me, I'm not afraid. I'm sturdy too."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...No matter how hard you hold me, I'm not afraid. I'm sturdy too."
+    qcReviewedText: "...No matter how hard you hold me, I'm not afraid. I'm sturdy too."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/N_6_4_3_3_3_1_009,小竹浑身软绵绵的，倒不是她刻意为之，实是浓情蜜意，将骨头都浸酥了，良久才舍得分开。"
   splits:
   - split: 1

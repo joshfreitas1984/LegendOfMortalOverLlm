@@ -1331,3 +1331,19 @@
   rawSimplified: 苍松剑客
   rawTraditional: 蒼松劍客
   result: Pine Swordsman
+# 嘴攻 is this game's verbal-attack combat command (never "kiss"); matches the already-shipped CombatAction/curse
+- raw: 嘴攻
+  rawSimplified: 嘴攻
+  rawTraditional: 嘴攻
+  result: Verbal Attack
+  allowalt:
+  - Verbal Attacks
+  - Verbal Assault
+  - Mouth Attack
+  direct: verbal attack
+  literal: zui gong
+# 嘴力 is the talking stat (PlayerStat/talking = "Mouth Power")
+- raw: 嘴力
+  result: Mouth Power
+  direct: mouth power
+  literal: zui li

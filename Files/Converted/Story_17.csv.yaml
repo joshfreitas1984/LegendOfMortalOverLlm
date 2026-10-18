@@ -5297,14 +5297,11 @@
   splits:
   - split: 1
     text: "……要过年了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...It's almost New Year."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...It's almost the New Year."
+    qcReviewedText: "...It's almost the New Year."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Snow_01_002,腊月隆冬，又一岁去了，星霜露重重。"
   splits:
   - split: 1
@@ -5399,11 +5396,14 @@
   splits:
   - split: 1
     text: "……煮好径自去吃便了，为师想事，不饿。你让我一个人静静。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcStatus: Passed
-    qcQualityScore: 100
-    qcDefectCategory: None
+    translated: "...Just go eat once it's ready. I need to think and am not hungry. Leave me alone for a moment."
+    qcReviewedText: "...Just go eat once it's ready. I need to think and am not hungry. Leave me alone for a moment."
+    qcTranslated: "...Just go eat once it's ready. Your Master needs to think and is not hungry. Leave me alone for a moment."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: DroppedContent
+    qcDefectCategories:
+    - DroppedContent
 - raw: "Story/T_Snow_01_001,师父怕是又触景伤情了。每回伤怀，便茶饭不思，人清减几分，心便清冷几分。"
   splits:
   - split: 1
@@ -5984,14 +5984,11 @@
   splits:
   - split: 1
     text: "……他妈的，好不会看人脸色，这也不要那也不行，烦死个人！"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "Damn, he's so bad at reading the room. He doesn't want this, he can't do that. It's driving me crazy!"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Damn it, what a hopeless judge of character. Nothing is good enough, everything is wrong. It's driving me crazy!"
+    qcReviewedText: "...Damn it, what a hopeless judge of character. Nothing is good enough, everything is wrong. It's driving me crazy!"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2600_01_027,什么？"
   splits:
   - split: 1
@@ -6259,14 +6256,11 @@
   splits:
   - split: 1
     text: "……他妈的，还真是。丑人我见多了，这么丑的还真不常见，吓了我一跳。喂，你小子该不会是妖怪化形的吧？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "Damn, it really is. I've seen my fair share of ugly people, but this kind of ugliness is truly rare; it gave me quite a fright. Hey, could it be that you're actually a demon in human form?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Damn, you're right. I've seen plenty of ugly people, but this is a first. You scared the hell out of me. Hey, are you some kind of demon in disguise?"
+    qcReviewedText: "...Damn, you're right. I've seen plenty of ugly people, but this is a first. You scared the hell out of me. Hey, are you some kind of demon in disguise?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2600_01_053,哈哈哈哈！"
   splits:
   - split: 1
@@ -7249,14 +7243,11 @@
   splits:
   - split: 1
     text: "……死了没有？没死的话，叫上人，追。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Is he dead? If not, get some men and chase him."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Is he dead? If not, get some men and chase him."
+    qcReviewedText: "...Is he dead? If not, get some men and chase him."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2600_02_02_014,是。"
   splits:
   - split: 1
@@ -7546,8 +7537,8 @@
   splits:
   - split: 1
     text: "……罢了，我没睡好，没精神对付你们。有一个算一个，参与到这事儿里的人，都给我自己滚进镇魂狱去吧。太阳下山的时候，还在外边游荡的，就会死。明白吗？"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Forget it. I didn't sleep well and have no energy to deal with you. Every single one of you who was involved in this matter, get out of here and go to the Soul Prison on your own. Anyone still wandering outside when the sun sets will die. Understood?"
+    qcReviewedText: "...Forget it. I didn't sleep well and have no energy to deal with you. Every single one of you who was involved in this matter, get out of here and go to the Soul Prison on your own. Anyone still wandering outside when the sun sets will die. Understood?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -8441,12 +8432,11 @@
   splits:
   - split: 1
     text: "……现在把你当祭品抓过去，认错道歉还来得及吗？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...If I take you as a sacrifice now, is it still in time to admit my mistake and apologize?"
+    translated: "...Is it still too late to apologize and make amends if I'm taken as a sacrifice now?"
+    qcReviewedText: "...Is it still too late to apologize and make amends if I'm taken as a sacrifice now?"
+    qcTranslated: "...Is it still too late to apologize and make amends if you take me as a sacrifice now?"
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
+    qcQualityScore: 95
     qcDefectCategory: MeaningReversal
     qcDefectCategories:
     - MeaningReversal
@@ -8955,8 +8945,8 @@
   splits:
   - split: 1
     text: "……别的嫡传女弟子都很优秀，能为师门争光。反观我吧，注定是垫底。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "... The other legitimate female disciples are all outstanding and bring honor to our sect. In contrast, I am destined to be the last."
+    qcReviewedText: "... The other legitimate female disciples are all outstanding and bring honor to our sect. In contrast, I am destined to be the last."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -9897,14 +9887,11 @@
   splits:
   - split: 1
     text: "……滚出去。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Get out."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Get out."
+    qcReviewedText: "...Get out."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_040,滚出去！"
   splits:
   - split: 1
@@ -9969,14 +9956,11 @@
   splits:
   - split: 1
     text: "……对不住，我不会说话，其实我想说的不是这个，重来。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I'm sorry, I don't know how to express myself. That's not what I meant to say at all. Let me start over."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I apologize, I'm not good with words. That's not what I meant to say. Let me start over."
+    qcReviewedText: "...I apologize, I'm not good with words. That's not what I meant to say. Let me start over."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_047,多谢你，赵兄弟。为了我的嘱托，这般费心尽力。"
   splits:
   - split: 1
@@ -10221,14 +10205,11 @@
   splits:
   - split: 1
     text: "……是这样吗？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Is that how it is?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "......Is that the case?"
+    qcReviewedText: "......Is that the case?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_070,你若当我是坏人，信不过我请的吃食，那我亦不便勉强于你。你若当我是好的，那便赏脸吃点！你痛痛快快一句话：我赵某人究竟是好是坏？"
   splits:
   - split: 1
@@ -10324,14 +10305,11 @@
   splits:
   - split: 1
     text: "……谢谢。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Thank you."
-    qcStatus: Corrected
+    translated: "...Thank you"
+    qcReviewedText: "...Thank you"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_078,走！立刻走！"
   splits:
   - split: 1
@@ -10914,14 +10892,11 @@
   splits:
   - split: 1
     text: "……我将旋鼓送他，就不算是盗窃了吧。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I'll spin the drum to send him off; that way, it won't count as theft, will it?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...I'll give him the spinning drum. That way, it won't count as theft, right?"
+    qcReviewedText: "...I'll give him the spinning drum. That way, it won't count as theft, right?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_131,你是逗我玩儿呢？下回他又到你家偷东西，偷你的钱、偷你珍爱的铁锤。你也要送给他吗？整屋子东西都送他吗？"
   splits:
   - split: 1
@@ -11121,15 +11096,11 @@
   splits:
   - split: 1
     text: "……我、我没学问，口才不好，不晓得怎么说。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I-I don't have much education, my eloquence is poor, and I don't know how to say it."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
-    - DroppedContent
+    translated: "...I, I'm not well-educated, I'm bad with words, I don't know how to say it."
+    qcReviewedText: "...I, I'm not well-educated, I'm bad with words, I don't know how to say it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_155,说不好也得说，你不叫我心服口服，我便上告贵掌门！以铁拳门家法，治你滥用权势压人之罪！"
   splits:
   - split: 1
@@ -11161,8 +11132,8 @@
   splits:
   - split: 1
     text: "……因为，人生在世只图餬口的话，老来回想，不全都是辛苦的事吗。正因为生活不如意，人才会努力，想让日子变好呀。想吃更好吃的食物、穿更好看的衣服，都是人之常情呀。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Because if one lives only to scrape by, looking back on life reveals nothing but hardship. It is precisely because life is unsatisfying that people strive to make things better. Wanting to eat more delicious food and wear finer clothes is perfectly natural."
+    qcReviewedText: "...Because if one lives only to scrape by, looking back on life reveals nothing but hardship. It is precisely because life is unsatisfying that people strive to make things better. Wanting to eat more delicious food and wear finer clothes is perfectly natural."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -11316,14 +11287,11 @@
   splits:
   - split: 1
     text: "……是呢。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Yes, indeed."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Indeed."
+    qcReviewedText: "...Indeed."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_174,你说的对，我没想到那么远。"
   splits:
   - split: 1
@@ -11379,14 +11347,11 @@
   splits:
   - split: 1
     text: "……你看，这个情由不就动听多了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Look, doesn't this explanation sound much more convincing?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...See, that makes the story sound much more compelling."
+    qcReviewedText: "...See, that makes the story sound much more compelling."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_01_180,我也有个好娘亲，她虽然没给我买玩具，但有教我当个正直的人。"
   splits:
   - split: 1
@@ -12604,14 +12569,11 @@
   splits:
   - split: 1
     text: "……你若一定不肯换，"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...If you absolutely refuse to exchange,"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...If you absolutely refuse to exchange,"
+    qcReviewedText: "...If you absolutely refuse to exchange,"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_02_093,那便只能把剑熔回钢胚，重新锻造了。"
   splits:
   - split: 1
@@ -13497,14 +13459,11 @@
   splits:
   - split: 1
     text: "……没有办法了，先将人拿下再说。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...There's no other way. Let's subdue them first and deal with the rest later."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...There's no other choice. Subdue them first, then we'll deal with the rest."
+    qcReviewedText: "...There's no other choice. Subdue them first, then we'll deal with the rest."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_03_01_032,怎么还有！"
   splits:
   - split: 1
@@ -13564,14 +13523,11 @@
   splits:
   - split: 1
     text: "……对。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Right."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "......That's right."
+    qcReviewedText: "......That's right."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2700_02_03_01_038,道理不会因为人多人少而有曲折，道就是道，理就是理。仗义敢于犯禁，我等何惧之有！"
   splits:
   - split: 1
@@ -13621,8 +13577,8 @@
   splits:
   - split: 1
     text: "……好，客随主便，既然你们执意如此，我便随你们走一趟，将前因后果分辩明白。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Very well. Guests follow the host's lead. Since you insist on this course of action, I shall accompany you and clarify the full circumstances."
+    qcReviewedText: "...Very well. Guests follow the host's lead. Since you insist on this course of action, I shall accompany you and clarify the full circumstances."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -13802,8 +13758,8 @@
   splits:
   - split: 1
     text: "……你得意得未免太早了。给你撑腰，是不愿因你之故，连累师门受人看轻。动摇威信，往后难以服众。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...You are celebrating far too soon. I back you not out of favor, but because I refuse to let the sect be looked down upon on your account. If our authority is shaken, it will be hard to command respect in the future."
+    qcReviewedText: "...You are celebrating far too soon. I back you not out of favor, but because I refuse to let the sect be looked down upon on your account. If our authority is shaken, it will be hard to command respect in the future."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14058,14 +14014,11 @@
   splits:
   - split: 1
     text: "……会有这种结果不是理所当然的事吗？还真当自个儿万夫莫敌，没脑蠢材。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Isn't it only natural that this is the outcome? You really think you're invincible, you brainless fool."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Isn't this outcome perfectly natural? You really think you're invincible, you brainless fool."
+    qcReviewedText: "...Isn't this outcome perfectly natural? You really think you're invincible, you brainless fool."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S2700_02_03_02_001,那亦不然。那白衣的瑞少侠还能说是艺高人胆大，青衣的显然并非如此。虽无万夫莫敌之勇，却有一夫当关之志，虽是外人，却都殊为可敬。"
   splits:
   - split: 1
@@ -14091,14 +14044,11 @@
   splits:
   - split: 1
     text: "……会有这种结果不是理所当然的事吗？还真当自个儿万夫莫敌，没脑蠢材。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Isn't it only natural that this is the outcome? You really think you're invincible, you brainless fool."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Isn't this outcome perfectly natural? You really think you're invincible, you brainless fool."
+    qcReviewedText: "...Isn't this outcome perfectly natural? You really think you're invincible, you brainless fool."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S2700_02_03_02_002,那亦不然。此人独斗我夺魄群秀，虽无万夫莫敌之勇，却有一夫当关之志。虽是外人，却殊为可敬。"
   splits:
   - split: 1
@@ -14320,8 +14270,8 @@
   splits:
   - split: 1
     text: "……那边那个青衣倒地不醒的，我能否一并出保？"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Could I also post bail for that person in blue who is lying unconscious over there?"
+    qcReviewedText: "...Could I also post bail for that person in blue who is lying unconscious over there?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14519,14 +14469,11 @@
   splits:
   - split: 1
     text: "……喂。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Hey."
-    qcStatus: Corrected
+    translated: "...Hey..."
+    qcReviewedText: "...Hey..."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/D_S2800_01_01_016,你夺魄门是不是有什么用嘴使的阴毒招数？"
   splits:
   - split: 1
@@ -14636,8 +14583,8 @@
   splits:
   - split: 1
     text: "……冷静下来一看，这名字取得吓人，实则也不过就是普通的监牢嘛。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Once I calmed down and took a closer look, the name was indeed intimidating, but in reality, it was just an ordinary prison."
+    qcReviewedText: "...Once I calmed down and took a closer look, the name was indeed intimidating, but in reality, it was just an ordinary prison."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -14691,14 +14638,11 @@
   splits:
   - split: 1
     text: "……我没有。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I didn't."
-    qcStatus: Corrected
+    translated: "...I don't have"
+    qcReviewedText: "...I don't have"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/D_S2800_01_02_005,还狡辩，没有的话，你怎会被关在这。"
   splits:
   - split: 1
@@ -14937,14 +14881,11 @@
   splits:
   - split: 1
     text: "……我又没说不是我砸的，就是我砸的，那又怎样。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I never said it wasn't me who smashed it. It was me, so what?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I never said it wasn't me who smashed it. It was me. So what?"
+    qcReviewedText: "...I never said it wasn't me who smashed it. It was me. So what?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2800_01_02_028,你不是去照顾别人生意吗，怎么又砸人家店。到底哪句才是实话。"
   splits:
   - split: 1
@@ -16530,8 +16471,8 @@
   splits:
   - split: 1
     text: "……但我不妨把话说白了吧，这事传出去，谁也没好处，怎么说呢？"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...But let me be blunt: if this gets out, no one benefits. How shall I put it?"
+    qcReviewedText: "...But let me be blunt: if this gets out, no one benefits. How shall I put it?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -16817,14 +16758,11 @@
   splits:
   - split: 1
     text: "……你再说一次？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Say that again?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Say that again?"
+    qcReviewedText: "...Say that again?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Birth_02_01_011,最终……最终决战兵器。掌握这件兵器，就算是公主也不能与抗……。我区区凡人，不是只能被玩弄于鼓掌之间吗！"
   splits:
   - split: 1
@@ -17091,14 +17029,11 @@
   splits:
   - split: 1
     text: "……说出来各位可能不信，其实我是无辜的。我今天一早，不过就是去飞天门报到，哪知凑巧被卷入人家纷争……。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...You might not believe me, but I'm actually innocent. This morning, I simply went to report at Feitian Gate, only to be caught up in their dispute by chance..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...You may not believe me, but I am truly innocent. This morning, I merely went to report at the Feitian Gate, only to be caught up in someone else's dispute by sheer coincidence..."
+    qcReviewedText: "...You may not believe me, but I am truly innocent. This morning, I merely went to report at the Feitian Gate, only to be caught up in someone else's dispute by sheer coincidence..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2800_03_02_002,听到没有？他说他是无辜的哎。笑死。"
   splits:
   - split: 1
@@ -17487,14 +17422,11 @@
   splits:
   - split: 1
     text: "……总算走了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Finally, they're gone."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "....Finally, they have left."
+    qcReviewedText: "....Finally, they have left."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2800_03_05_013,不打紧吗？"
   splits:
   - split: 1
@@ -18622,14 +18554,11 @@
   splits:
   - split: 1
     text: "……真是个好人。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...What a good person."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...What a good person."
+    qcReviewedText: "...What a good person."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2800_03_05_02_084,对啊，跟某活不一样。"
   splits:
   - split: 1
@@ -18883,14 +18812,11 @@
   splits:
   - split: 1
     text: "……我可以等。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I can wait."
-    qcStatus: Corrected
+    translated: "...I can wait."
+    qcReviewedText: "...I can wait."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/D_S2800_03_06_025,是吗，你耐心真好，我可等不了。"
   splits:
   - split: 1
@@ -19087,14 +19013,11 @@
   splits:
   - split: 1
     text: "……刚那家伙可真气人，你说是吧？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...That guy just now was really infuriating, don't you think?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...That guy was really infuriating just now, don't you think?"
+    qcReviewedText: "...That guy was really infuriating just now, don't you think?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2800_03_06_046,之后自有二位掌门定夺，我才不放心上。我只是天生眼神凶，才没有生气！"
   splits:
   - split: 1
@@ -19164,14 +19087,14 @@
   splits:
   - split: 1
     text: "……其实他从前照顾我生意，我自然十分感激。"
-    translated: "..."
-    qcReviewedText: "{size=17}...{/size} {size=17} But it seems they can't stand to see me succeed; every time the Blacksmith Shop starts to do well, they find a way to bring me down.{/size} {size=17} I'm getting more and more confused about this person.{/size}"
-    qcTranslated: "{size=17}...Actually, he used to look after my business, so I am naturally very grateful.{/size} {size=17} But it seems he can't stand to see me succeed; every time the Blacksmith Shop starts to do well, he finds a way to bring me down.{/size} {size=17} I'm getting more and more confused about this person.{/size}"
+    translated: "...In truth, he used to look after my business, so I am naturally very grateful."
+    qcReviewedText: "{size=17}...In truth, he used to look after my business, so I am naturally very grateful.{/size} {size=17} But it seems they can't stand to see me succeed; every time the Blacksmith Shop starts to do well, they find a way to bring me down.{/size} {size=17} I'm getting more and more confused about this person.{/size}"
+    qcTranslated: "{size=17}...In truth, he used to look after my business, so I am naturally very grateful.{/size} {size=17} But it seems he can't stand to see me succeed; every time the Blacksmith Shop starts to do well, he finds a way to bring me down.{/size} {size=17} I'm getting more and more confused about this person.{/size}"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: MeaningReversal
     qcDefectCategories:
-    - DroppedContent
+    - MeaningReversal
   - split: 1
     subIndex: 1
     text: "但他似乎又见不得我好，每当大铁铺生意有点起色，就会设法打击。"
@@ -19583,20 +19506,17 @@
   splits:
   - split: 1
     text: "……真是个好人啊。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...What a good person you truly are."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...What a good person."
+    qcReviewedText: "...What a good person."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2800_03_06_093,……这位瑞老兄还真是个滥好人。我原没指望他真能为我这种人奔走。"
   splits:
   - split: 1
     text: "……这位瑞老兄还真是个滥好人。我原没指望他真能为我这种人奔走。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "... This old man Rui is truly a hopeless good soul. I never expected he would go to such lengths for someone like me."
+    qcReviewedText: "... This old man Rui is truly a hopeless good soul. I never expected he would go to such lengths for someone like me."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -19704,14 +19624,11 @@
   splits:
   - split: 1
     text: "……是我该有自知之明吧。人家是嫡传女弟子，偶发善心，难道还真能折节与我结交吗。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I should have known my place. She is a direct-line female disciple who merely felt a fleeting kindness; how could she truly lower herself to befriend me?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I should have known my place. She is a direct disciple of the main lineage; if she occasionally shows kindness, could she truly lower herself to befriend me?"
+    qcReviewedText: "...I should have known my place. She is a direct disciple of the main lineage; if she occasionally shows kindness, could she truly lower herself to befriend me?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_01_013,回去吧。"
   splits:
   - split: 1
@@ -19743,14 +19660,11 @@
   splits:
   - split: 1
     text: "……小梅？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Xiao Mei?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Xiao Mei?"
+    qcReviewedText: "...Xiao Mei?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_01_017,嘎。"
   splits:
   - split: 1
@@ -20151,14 +20065,11 @@
   splits:
   - split: 1
     text: "……哦，哦哦～等等等等。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "... Oh, oh-oh~ Wait, wait."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Oh, oh-oh~ Wait, wait."
+    qcReviewedText: "...Oh, oh-oh~ Wait, wait."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_01_01_036,等啥？"
   splits:
   - split: 1
@@ -20965,14 +20876,11 @@
   splits:
   - split: 1
     text: "……没办法，我又不会飞，追不上，只好下回碰面再赔罪了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...There's nothing I can do; I can't fly, so I couldn't catch up. I'll have to apologize next time we meet."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...There's nothing I can do. I can't fly, so I couldn't catch up. I'll have to apologize the next time we meet."
+    qcReviewedText: "...There's nothing I can do. I can't fly, so I couldn't catch up. I'll have to apologize the next time we meet."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_04_020,偷袭！"
   splits:
   - split: 1
@@ -21478,14 +21386,11 @@
   splits:
   - split: 1
     text: "……那么说，凶手不是小梅师姐你了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Then that means you, Senior Sister Xiaomei, are not the culprit."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...So that means you, Senior Sister Xiaomei, are not the culprit."
+    qcReviewedText: "...So that means you, Senior Sister Xiaomei, are not the culprit."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_04_061,当然不是，虽然不知道你所言何事，不过肯定跟我没干系。"
   splits:
   - split: 1
@@ -21601,14 +21506,11 @@
   splits:
   - split: 1
     text: "……你刚说啥？再说一次？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...What did you just say? Say it again?"
-    qcStatus: Corrected
+    translated: "...What did you just say? Say it again?"
+    qcReviewedText: "...What did you just say? Say it again?"
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_04_071,幸亏掌派祖师庇佑，金乌师兄福大命大，虽然遭人暗害身受重伤，却无性命之忧。昏厥之前，沾血书写了一个「梅」字。"
   splits:
   - split: 1
@@ -21826,8 +21728,8 @@
   splits:
   - split: 1
     text: "……你说，小梅该不会有事吧？"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...You think something might have happened to Xiao Mei?"
+    qcReviewedText: "...You think something might have happened to Xiao Mei?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22029,8 +21931,8 @@
   splits:
   - split: 1
     text: "……怕就只怕，我去改投别的门派，照样不会受人待见。毕竟我不论走到哪儿去，这张丑脸都长在脖子上。没钱没势，资质也平庸至极，天底有那个门派愿意费心栽培我？"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...I'm only afraid that even if I switch to another sect, I still won't be welcomed. After all, no matter where I go, this ugly face is stuck on my neck. With no money, no influence, and utterly mediocre talent, which sect under heaven would bother to cultivate me?"
+    qcReviewedText: "...I'm only afraid that even if I switch to another sect, I still won't be welcomed. After all, no matter where I go, this ugly face is stuck on my neck. With no money, no influence, and utterly mediocre talent, which sect under heaven would bother to cultivate me?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22069,8 +21971,8 @@
   splits:
   - split: 1
     text: "……罢了，多想无益。死了我便认命，再练一遍才回去。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Enough. It is useless to dwell on this. If I die, I shall accept my fate. Let me practice once more before returning."
+    qcReviewedText: "...Enough. It is useless to dwell on this. If I die, I shall accept my fate. Let me practice once more before returning."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -22087,14 +21989,11 @@
   splits:
   - split: 1
     text: "……不关我的事哦，你自己笨又死心眼，自讨苦吃。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...It's none of my business. You're the one who's stupid and stubborn, asking for trouble."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...It's not my fault. You're just stubborn and foolish, asking for trouble yourself."
+    qcReviewedText: "...It's not my fault. You're just stubborn and foolish, asking for trouble yourself."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_020,还没死心啊。"
   splits:
   - split: 1
@@ -22108,14 +22007,11 @@
   splits:
   - split: 1
     text: "……下雨耶。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...It's raining."
-    qcStatus: Corrected
+    translated: "...It's raining."
+    qcReviewedText: "...It's raining."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_022,这人何时才会清醒？"
   splits:
   - split: 1
@@ -22129,26 +22025,20 @@
   splits:
   - split: 1
     text: "……傻不傻啊。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Are you stupid or what?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Are you being silly?"
+    qcReviewedText: "...Are you being silly?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_024,……好像不大对，脚步不大顺。我可没有翅膀，可以在空中改变体势。"
   splits:
   - split: 1
     text: "……好像不大对，脚步不大顺。我可没有翅膀，可以在空中改变体势。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Something seems off; my steps aren't quite right. I don't have wings, so I can't change my posture in mid-air."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Something feels off; my footing is unsteady. I have no wings to shift my posture midair."
+    qcReviewedText: "...Something feels off; my footing is unsteady. I have no wings to shift my posture midair."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_025,重来一次。"
   splits:
   - split: 1
@@ -22301,26 +22191,20 @@
   splits:
   - split: 1
     text: "……你好端端的蒙我眼睛做甚？也不先讲一声，我还道今日要命丧于你手。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Why are you covering my eyes when you're perfectly fine? You didn't even say a word first. I thought I was going to lose my life at your hands today."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Why did you blindfold me without warning? I thought you were about to kill me today."
+    qcReviewedText: "...Why did you blindfold me without warning? I thought you were about to kill me today."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_040,……对不住，我今日没心情同你玩闹。其实我已经很累了。"
   splits:
   - split: 1
     text: "……对不住，我今日没心情同你玩闹。其实我已经很累了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I'm sorry, I don't have the mood to play around with you today. Actually, I'm already very tired."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I apologize, but I have no mood for games today. In truth, I am already exhausted."
+    qcReviewedText: "...I apologize, but I have no mood for games today. In truth, I am already exhausted."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_041,你先别急着摘下美色，就这样听我说。"
   splits:
   - split: 1
@@ -22756,14 +22640,11 @@
   splits:
   - split: 1
     text: "……好。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Fine."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...good."
+    qcReviewedText: "...good."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_Section_01_Free_08_05_085,不是，等等，我才没哭！"
   splits:
   - split: 1
@@ -22931,14 +22812,11 @@
   splits:
   - split: 1
     text: "……明天见。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...See you tomorrow."
-    qcStatus: Corrected
+    translated: "...See you tomorrow."
+    qcReviewedText: "...See you tomorrow."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/N_Section_01_Free_08_05_003,你依言去书店买了一本空白书，挑灯将今日体悟或书或画纪录下来。题字为《仙鹤迷踪拳》。"
   splits:
   - split: 1
@@ -24882,8 +24760,8 @@
   splits:
   - split: 1
     text: "……我撒谎说，我被耕阳读书斋收留，读了很多书。一直都养尊处优，只管提笔写字，但凡重一点的东西都拿不动。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...I lied and said I had been taken in by the Gengyang Academy of Learning, where I read many books. I lived in comfort all along, only ever lifting a brush to write, unable to carry anything heavy."
+    qcReviewedText: "...I lied and said I had been taken in by the Gengyang Academy of Learning, where I read many books. I lived in comfort all along, only ever lifting a brush to write, unable to carry anything heavy."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -24918,14 +24796,11 @@
   splits:
   - split: 1
     text: "……说来不怕人笑，我、我还撒了谎，说……说……"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...To be honest, I'm not afraid of being laughed at, but I, I lied. I said... I said..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...I don't mind if you laugh at me, but I... I lied. I said... I said..."
+    qcReviewedText: "...I don't mind if you laugh at me, but I... I lied. I said... I said..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2900_03_068,说我……有了未婚夫婿，订了婚约，就等过门。是一位面目英俊，风度翩翩，家财万贯的富家子弟。"
   splits:
   - split: 1
@@ -25331,8 +25206,8 @@
   splits:
   - split: 1
     text: "……我是追上去好，还是不追为妙？"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Should I chase after them, or is it better to leave them be?"
+    qcReviewedText: "...Should I chase after them, or is it better to leave them be?"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -25869,14 +25744,11 @@
   splits:
   - split: 1
     text: "……真是的。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Really, I'm so fed up."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Really."
+    qcReviewedText: "...Really."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2900_03_160,酬金我先替你收着，你要是乱演，我就不给你了。"
   splits:
   - split: 1
@@ -26160,14 +26032,11 @@
   splits:
   - split: 1
     text: "……是有几分像男嗓，但很微妙。然后你别用那张脸靠近我。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "It does sound a bit like a man's voice, but it's very subtle. And don't come near me with that face of yours."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...It does sound somewhat like a man's voice, but in a subtle way. And don't come near me with that face of yours."
+    qcReviewedText: "...It does sound somewhat like a man's voice, but in a subtle way. And don't come near me with that face of yours."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2900_03_01_018,什么啦，你才是比较丑的那个好吗，居然嫌他的脸。"
   splits:
   - split: 1
@@ -26292,14 +26161,11 @@
   splits:
   - split: 1
     text: "……你干嘛一直笑？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Why are you always laughing?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Why are you always smiling?"
+    qcReviewedText: "...Why are you always smiling?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2900_03_01_029,当然是因为很好笑……噗噗，哈哈！好了，手镜拿着自己看，哇哈哈哈哈！"
   splits:
   - split: 1
@@ -26515,14 +26381,11 @@
   splits:
   - split: 1
     text: "……这个就不劳公子费心了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...No need for the Young Lord to trouble himself with this."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "... There is no need for the Young Lord to trouble himself with this."
+    qcReviewedText: "... There is no need for the Young Lord to trouble himself with this."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_01_020,别生气，倒是你，还叫我公子吗？也不是不行，但显得有点儿生份了，不如小可踰矩唤你小竹，你也称我作余郎，如何？"
   splits:
   - split: 1
@@ -26847,14 +26710,11 @@
   splits:
   - split: 1
     text: "……到了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...We've arrived."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...We've arrived."
+    qcReviewedText: "...We've arrived."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_002,此树以南出了林子，便是老虎山田寨村。"
   splits:
   - split: 1
@@ -26913,14 +26773,11 @@
   splits:
   - split: 1
     text: "……想来时机差不多了。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I suppose the time is about right."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...It seems the time is right."
+    qcReviewedText: "...It seems the time is right."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_01_002,什么时机？"
   splits:
   - split: 1
@@ -27073,14 +26930,11 @@
   splits:
   - split: 1
     text: "……我才想不到你呢，生得这么龌龊，为人居然这么正派。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I never would have imagined it of you. You look so sordid, yet you are surprisingly upright in your conduct."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I never would have guessed you'd be like this. You look so shabby, yet you're surprisingly honorable."
+    qcReviewedText: "...I never would have guessed you'd be like this. You look so shabby, yet you're surprisingly honorable."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_01_015,想都别想。"
   splits:
   - split: 1
@@ -27732,14 +27586,11 @@
   splits:
   - split: 1
     text: "……那种东西，换算成钱想必很贵吧。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...That kind of thing, converted into money, must be quite expensive."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...That kind of thing must be quite expensive when converted into money."
+    qcReviewedText: "...That kind of thing must be quite expensive when converted into money."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_03_019,一千文，买不买？"
   splits:
   - split: 1
@@ -28085,8 +27936,8 @@
   splits:
   - split: 1
     text: "……老兄，我跟你有啥深仇大恨，你这嘴力也太惊人。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Brother, what deep grudge do I have against you? Your Mouth Power is truly astonishing."
+    qcReviewedText: "...Brother, what deep grudge do I have against you? Your Mouth Power is truly astonishing."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -29115,14 +28966,11 @@
   splits:
   - split: 1
     text: "……你能有这么好心？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Could you really be so kind?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...You're really that kind?"
+    qcReviewedText: "...You're really that kind?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_05_064,用说的太没敬意，郁老兄一家今日店里花销，都算我的如何？小二。"
   splits:
   - split: 1
@@ -29166,14 +29014,11 @@
   splits:
   - split: 1
     text: "……公子这么阔绰，我这怎么好意思。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Young Lord is so generous, how could I possibly accept?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Young Lord is so generous. I really feel unworthy of such kindness."
+    qcReviewedText: "...Young Lord is so generous. I really feel unworthy of such kindness."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_05_069,不必客气，有缘嘛。敝姓余，老兄姓郁，加起来不就是余裕？吉利的很，这朋友非交不可。何况令媛订了亲，想来喜事将近，这顿饭既算是赔罪，也有庆贺的意思。"
   splits:
   - split: 1
@@ -29346,14 +29191,14 @@
   splits:
   - split: 1
     text: "……等等，你、你方才说你家住临安，有个未婚妻子，妻子不与爹娘同住，却是夫子拉拔长大的？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Wait, you, you just said your home is in Lin'an, and you have a fiancee who doesn't live with her Father and mother, but was raised by a tutor?"
+    translated: "...Wait, you just said that your home is in Lin'an, and you have a fiancee who does not live with her parents, but was raised by a tutor?"
+    qcReviewedText: "...Wait, you just said that your home is in Lin'an, and you have a fiancee who does not live with her parents, but was raised by a tutor?"
+    qcTranslated: "...Wait, y-you just said that your home is in Lin'an, and you have a fiancee who does not live with her Father and mother, but was raised by a tutor?"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: DroppedStutter
     qcDefectCategories:
-    - DroppedContent
+    - DroppedStutter
 - raw: "Story/D_S2901_03_01_05_080,我方才就是这么说的。"
   splits:
   - split: 1
@@ -30148,14 +29993,14 @@
   splits:
   - split: 1
     text: "……呃，嗯。我、我去看看娘。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "... Uh, um. I-I'll go check on Mother."
+    translated: "...Uh, um. I'll go check on Mother."
+    qcReviewedText: "...Uh, um. I'll go check on Mother."
+    qcTranslated: "...Uh, um. I-I'll go check on Mother."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: DroppedStutter
     qcDefectCategories:
-    - DroppedContent
+    - DroppedStutter
 - raw: "Story/D_S2901_03_01_05_151,公子，您做人可不能负心。我家大闺女连名字都告诉你了，你要是看上临安哪家闺秀，变心另外娶妻，我家小竹还有什么脸面苟活于世？"
   splits:
   - split: 1
@@ -30625,14 +30470,11 @@
   splits:
   - split: 1
     text: "……谁说我是要凶他的？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Who said I was going to be mean to him?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Who said I was going to be mean to him?"
+    qcReviewedText: "...Who said I was going to be mean to him?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_06_01_025,小公子，你要剑吗？我这儿有。"
   splits:
   - split: 1
@@ -31234,26 +31076,23 @@
   splits:
   - split: 1
     text: "……赵……赵郎……！"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Zhao... Zhao Lang...!"
+    translated: "...Zhao... Zhao Lang...!"
+    qcReviewedText: "...Zhao... Zhao Lang...!"
+    qcTranslated: "...Zhao... Z-z-Zhao Lang...!"
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: DroppedStutter
     qcDefectCategories:
-    - DroppedContent
+    - DroppedStutter
 - raw: "Story/T_S2901_03_01_06_01_002,……玩笑开过头了，她好像对我动了杀意。"
   splits:
   - split: 1
     text: "……玩笑开过头了，她好像对我动了杀意。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I've gone too far with the joke; she seems to have developed a killing intent toward me."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...I took the joke too far. She seems to have developed murderous intent toward me."
+    qcReviewedText: "...I took the joke too far. She seems to have developed murderous intent toward me."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_06_01_084,我说笑呢。"
   splits:
   - split: 1
@@ -32030,14 +31869,11 @@
   splits:
   - split: 1
     text: "……汪。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Woof."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Woof."
+    qcReviewedText: "...Woof."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_06_02_028,你听，本公子没说错吧？"
   splits:
   - split: 1
@@ -32105,26 +31941,20 @@
   splits:
   - split: 1
     text: "……我可不想一辈子在泥里打滚受人轻贱，非要选的话，我要当居高凌下的那一方，为了这个，非得攀住公子不可。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I don't want to spend my life rolling in the mud, looked down upon by others. If I must choose, I want to be the one looking down from above. For that reason, I have no choice but to cling to Young Lord."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I have no desire to spend my life rolling in the mud, despised by all. If I must choose, I will be the one standing above, looking down. To achieve this, I must cling to Young Lord."
+    qcReviewedText: "...I have no desire to spend my life rolling in the mud, despised by all. If I must choose, I will be the one standing above, looking down. To achieve this, I must cling to Young Lord."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/O_S2901_03_01_06_02_002,你的嘴力"
   splits:
   - split: 1
     text: "你的嘴力"
-    translated: "Your mouth skills"
-    qcReviewedText: "Your mouth skills"
-    qcTranslated: "Your verbal skills"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Your Mouth Power"
+    qcReviewedText: "Your Mouth Power"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_06_02_031,郁姑娘有所不知，这些钱都不是我们带的。"
   splits:
   - split: 1
@@ -32268,8 +32098,8 @@
   splits:
   - split: 1
     text: "……那些都是小竹给的钱啊，可恶的家伙。说是让你零花，却不是这样拿来挥霍的吧。"
-    translated: "..."
-    qcReviewedText: "..."
+    translated: "...Those were all coins Xiaozhu gave you. You wretched one. She said it was for your allowance, not to be squandered like that."
+    qcReviewedText: "...Those were all coins Xiaozhu gave you. You wretched one. She said it was for your allowance, not to be squandered like that."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -32770,14 +32600,11 @@
   splits:
   - split: 1
     text: "……我没你那么坚强啊。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...I'm not as strong as you are."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I'm not as strong as you are."
+    qcReviewedText: "...I'm not as strong as you are."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_012,不会吧？你真是被赶出家门的？"
   splits:
   - split: 1
@@ -32800,14 +32627,11 @@
   splits:
   - split: 1
     text: "……抱歉了，我不知道你家里的情况。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Sorry, I didn't know about your family's situation."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I'm sorry. I didn't know about your family's situation."
+    qcReviewedText: "...I'm sorry. I didn't know about your family's situation."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_015,没事，不知者不罪。"
   splits:
   - split: 1
@@ -32953,14 +32777,11 @@
   splits:
   - split: 1
     text: "……这还是我生平第一次被如此评价。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...This is the first time in my life I've been evaluated like this."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...This is the first time in my life I've been described this way."
+    qcReviewedText: "...This is the first time in my life I've been described this way."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_030,感觉还不坏。"
   splits:
   - split: 1
@@ -33002,8 +32823,8 @@
   - split: 1
     text: "解锁条件"
     translated: "Unlock conditions: ???"
-    qcReviewedText: "Unlock conditions: ???：[Verbal Skills]>=30"
-    qcTranslated: "Unlock conditions: [Verbal Skills]>=30"
+    qcReviewedText: "Unlock conditions: ???：[Mouth Power]>=30"
+    qcTranslated: "Unlock conditions: [Mouth Power]>=30"
     qcStatus: Corrected
     qcQualityScore: 100
     qcDefectCategory: OtherNamedDefect
@@ -33012,7 +32833,7 @@
   - split: 1
     subIndex: 1
     text: "［嘴力］"
-    translated: "[Verbal Skills]"
+    translated: "[Mouth Power]"
   templates:
   - split: 1
     template: "{0}：{1}>=30"
@@ -33555,14 +33376,11 @@
   splits:
   - split: 1
     text: "……大姊，宝花信你。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "... Big Sister, Baohua trusts you."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "... Sister, Baohua trusts you."
+    qcReviewedText: "... Sister, Baohua trusts you."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_090,太好了。"
   splits:
   - split: 1
@@ -33753,14 +33571,11 @@
   splits:
   - split: 1
     text: "……你们一家人闹够了吧？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Have you all had enough of this family drama?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Have you all finished making a scene?"
+    qcReviewedText: "...Have you all finished making a scene?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_110,实在没脸，家丑不可外扬，却让公子看了咱家笑话。如您方才所见，劣女实在配不上公子家世，倒不如让宝花代替。"
   splits:
   - split: 1
@@ -33822,14 +33637,11 @@
   splits:
   - split: 1
     text: "……哈，哈哈哈。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "... Ha, hahaha."
-    qcStatus: Corrected
+    translated: "...Ha, hahaha."
+    qcReviewedText: "...Ha, hahaha."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_117,你看，这真是，唉。"
   splits:
   - split: 1
@@ -33951,14 +33763,11 @@
   splits:
   - split: 1
     text: "……是。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Yes."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...is."
+    qcReviewedText: "...is."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/T_S2901_03_01_07_003,事前没想到会变成这样，怎么办……怎么圆才好。"
   splits:
   - split: 1
@@ -34312,14 +34121,11 @@
   splits:
   - split: 1
     text: "……有啦有啦。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Got it, got it."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Got it, got it."
+    qcReviewedText: "...Got it, got it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_163,钱呢！钱哪里去了？"
   splits:
   - split: 1
@@ -34378,15 +34184,11 @@
   splits:
   - split: 1
     text: "……爹、娘、宝花、阿城。你们说我该让吗？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Fa-father, Mother, Baohua, Acheng. Do you think I should yield?"
-    qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedStutter
-    qcDefectCategories:
-    - DroppedStutter
+    translated: "... Father, Mother, Baohua, Acheng. Should I yield?"
+    qcReviewedText: "... Father, Mother, Baohua, Acheng. Should I yield?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_170,废话。"
   splits:
   - split: 1
@@ -34457,14 +34259,11 @@
   splits:
   - split: 1
     text: "……为什么啊。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Why?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Why?"
+    qcReviewedText: "...Why?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_178,为什么不爱我？为什么要把我丢掉！为什么都要欺负我……。"
   splits:
   - split: 1
@@ -34739,14 +34538,11 @@
   splits:
   - split: 1
     text: "……这样真的好吗？"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Is this really okay?"
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Is this really okay?"
+    qcReviewedText: "...Is this really okay?"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_204,你也看到了，有这样的家人，若不当机立断的话，以后还有苦头吃。"
   splits:
   - split: 1
@@ -34772,14 +34568,11 @@
   splits:
   - split: 1
     text: "……遵命。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...As you command."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "......As you command."
+    qcReviewedText: "......As you command."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/N_S2901_03_01_07_003,当下你去问小二拿纸笔，小梅鼓励宝花提笔起草，看了一遍断亲声明书。让郁家人都盖了手印，不管有无法律效力，说服小竹死心足矣。"
   splits:
   - split: 1
@@ -34910,14 +34703,11 @@
   splits:
   - split: 1
     text: "……嗯，你说的对。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Mm, you're right."
-    qcStatus: Corrected
+    translated: "...Mm, you're right."
+    qcReviewedText: "...Mm, you're right."
+    qcStatus: Passed
     qcQualityScore: 100
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    qcDefectCategory: None
 - raw: "Story/O_S2901_03_01_07_008,你说的对"
   splits:
   - split: 1
@@ -34931,14 +34721,11 @@
   splits:
   - split: 1
     text: "……那我们就是共犯了呢。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Then we're accomplices now."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DroppedContent
-    qcDefectCategories:
-    - DroppedContent
+    translated: "...Then we are accomplices now."
+    qcReviewedText: "...Then we are accomplices now."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_07_221,是呢！"
   splits:
   - split: 1
@@ -35116,14 +34903,14 @@
   splits:
   - split: 1
     text: "……君子六艺，所谓的射就是武功。本公子跟着家中武师学的把式而已。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...The Six Arts of a gentleman; the so-called archery is martial arts. I, the Young Lord, merely learned some moves from my family's martial arts instructor."
+    translated: "...The Six Arts of a gentleman; the so-called archery is martial arts. I merely learned these techniques from my family's martial instructor."
+    qcReviewedText: "...The Six Arts of a gentleman; the so-called archery is martial arts. I merely learned these techniques from my family's martial instructor."
+    qcTranslated: "...The Six Arts of a gentleman; the so-called archery is martial arts. I, Young Lord, merely learned these techniques from my family's martial instructor."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
+    qcDefectCategory: DroppedContent
     qcDefectCategories:
-    - OtherNamedDefect
+    - DroppedContent
 - raw: "Story/D_S2901_03_01_08_01_004,原来是这样。"
   splits:
   - split: 1
@@ -35305,14 +35092,11 @@
   splits:
   - split: 1
     text: "……你信吗？我知道你的感受。我也是被家人赶出家门的，因为长太丑了，呵呵。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "...Do you believe it? I know how you feel. I was also driven out of my family's home for being too ugly, heh."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...Do you believe me? I know how you feel. I was also cast out by my family because I grew up too ugly. Heh."
+    qcReviewedText: "...Do you believe me? I know how you feel. I was also cast out by my family because I grew up too ugly. Heh."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_08_01_024,我们真的是同病相怜呢。"
   splits:
   - split: 1
@@ -35936,14 +35720,11 @@
   splits:
   - split: 1
     text: "……我才抱歉，我、我其实知道……不是你的错。对不住，你、你别管我了，我睡一觉、睡一觉就好了……。"
-    translated: "..."
-    qcReviewedText: "..."
-    qcTranslated: "I'm the one who should apologize. I, I actually know... it's not your fault. I'm sorry. You, you don't worry about me. I'll sleep for a while, just a little sleep, and I'll be fine..."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: OtherNamedDefect
-    qcDefectCategories:
-    - OtherNamedDefect
+    translated: "...I'm the one who should apologize. I... I actually know... It's not your fault. I'm sorry. Please... don't worry about me. I'll just sleep for a while. A good night's rest will fix everything..."
+    qcReviewedText: "...I'm the one who should apologize. I... I actually know... It's not your fault. I'm sorry. Please... don't worry about me. I'll just sleep for a while. A good night's rest will fix everything..."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S2901_03_01_08_02_052,唉。"
   splits:
   - split: 1

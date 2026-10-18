@@ -1198,8 +1198,8 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nWhen verbal sparring is successful, restore additional chi.[Timidity]Expired"
-    qcTranslated: "[Duel]\\nWhen verbal sparring is successful, restore additional chi. [Timidity] is ineffective."
+    qcReviewedText: "[Duel]\\nOn a successful Verbal Attack, restore additional Stamina.[Timidity]Expired"
+    qcTranslated: "[Duel]\\nOn a successful Verbal Attack, restore additional Stamina. [Timidity] is ineffective."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: HardToParseSeam
@@ -1208,7 +1208,7 @@
   - split: 1
     subIndex: 1
     text: "嘴攻成功时，额外回复气力，有"
-    translated: "When verbal sparring is successful, restore additional chi."
+    translated: "On a successful Verbal Attack, restore additional Stamina."
   - split: 1
     subIndex: 2
     text: "胆怯"
@@ -2334,17 +2334,14 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nUse the skill Tactics to boost charm"
-    qcTranslated: "[Duel]\\nUse the skill Tactics to boost jaw strength."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: DomainTerm
-    qcDefectCategories:
-    - DomainTerm
+    qcReviewedText: "[Duel]\\nIncrease Mouth Power based on the skill Tactics."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "根据技能「战术」提升嘴力。"
-    translated: "Use the skill Tactics to boost charm"
+    translated: "Increase Mouth Power based on the skill Tactics."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -2424,17 +2421,14 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nWhen a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
-    qcTranslated: "[Duel]\\nWhen a duel begins, their qi decreases by 10, and their verbal prowess improves by 100%."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcReviewedText: "[Duel]\\nAt the start of the duel, -10 is generated, increasing Mouth Power by 100%."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
   - split: 1
     subIndex: 1
     text: "决斗开始时，气-10，嘴力提升100%。"
-    translated: "When a duel begins, their qi increases by -10, and their verbal prowess improves by 100%."
+    translated: "At the start of the duel, -10 is generated, increasing Mouth Power by 100%."
   templates:
   - split: 1
     template: "[{0}]\\n{1}"
@@ -4035,8 +4029,8 @@
   - split: 1
     text: "决斗"
     translated: "Duel"
-    qcReviewedText: "[Duel]\\nShifting from verbal taunts to roars, not to provoke the enemy but to inflict[Timidity]。"
-    qcTranslated: "[Duel]\\nShifting from verbal taunts to roars, not to provoke the enemy but to inflict [Timidity]."
+    qcReviewedText: "[Duel]\\nVerbal Attack changes to Roar, dealing damage without enraging enemies[Timidity]。"
+    qcTranslated: "[Duel]\\nVerbal Attack changes to Roar, causing [Timidity] instead of enraging enemies."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
@@ -4045,7 +4039,7 @@
   - split: 1
     subIndex: 1
     text: "嘴攻变为咆哮，不激怒敌人而是造成"
-    translated: "Shifting from verbal taunts to roars, not to provoke the enemy but to inflict"
+    translated: "Verbal Attack changes to Roar, dealing damage without enraging enemies"
   - split: 1
     subIndex: 2
     text: "胆怯"
