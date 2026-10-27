@@ -467,16 +467,19 @@
   splits:
   - split: 1
     text: "恐惧而死"
-- raw: "Library/Desc/10045,你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，\\n令你无法喘息，最终被掐停了呼吸。"
+- raw: "Library/Desc/10045,你没能战胜内心的恐惧，\\n任由那不真实的幻影无边无际扩散，\\n令你无法喘息，最终被掐停了呼吸。"
   splits:
   - split: 1
-    text: "你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，"
+    text: "你没能战胜内心的恐惧，"
   - split: 1
     subIndex: 1
+    text: "任由那不真实的幻影无边无际扩散，"
+  - split: 1
+    subIndex: 2
     text: "令你无法喘息，最终被掐停了呼吸。"
   templates:
   - split: 1
-    template: "{0}\\n{1}"
+    template: "{0}\\n{1}\\n{2}"
 - raw: "Library/Title/10046,为虎作伥"
   splits:
   - split: 1

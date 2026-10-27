@@ -11340,3 +11340,54 @@
   templates:
   - split: 1
     template: "{0}：{1}"
+- raw: "CombatSkill/Name/C947,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+- raw: "CombatSkill/Desc/C947,郁竹《唐门暗器・大铁锤》：蓄势待发，逮到破绽就会扔出去，中机率造成超绝大伤害，追加[失衡]、[震撼]异常后，转变效果。"
+  splits:
+  - split: 1
+    text: "郁竹《唐门暗器・大铁锤》"
+  - split: 1
+    subIndex: 1
+    text: "蓄势待发，逮到破绽就会扔出去，中机率造成超绝大伤害，追加"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+  - split: 1
+    subIndex: 3
+    text: "震撼"
+  - split: 1
+    subIndex: 4
+    text: "异常后，转变效果。"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]{4}"
+- raw: "CombatSkill/Name/C948_1,四护法"
+  splits:
+  - split: 1
+    text: "四护法"
+- raw: "CombatSkill/Desc/C948_1,四护法《崆峒护法》：每回合发动四次高爆击小幅度攻击，扰乱对手，令我方回避、格档率上升。"
+  splits:
+  - split: 1
+    text: "四护法《崆峒护法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动四次高爆击小幅度攻击，扰乱对手，令我方回避、格档率上升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C948_2,三护法"
+  splits:
+  - split: 1
+    text: "三护法"
+- raw: "CombatSkill/Desc/C948_2,三护法《崆峒护法》：每回合发动三次高爆击小幅度攻击，扰乱对手，令我方回避、格档率小幅上升。"
+  splits:
+  - split: 1
+    text: "三护法《崆峒护法》"
+  - split: 1
+    subIndex: 1
+    text: "每回合发动三次高爆击小幅度攻击，扰乱对手，令我方回避、格档率小幅上升。"
+  templates:
+  - split: 1
+    template: "{0}：{1}"

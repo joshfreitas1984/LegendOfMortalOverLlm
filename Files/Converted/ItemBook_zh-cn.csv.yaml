@@ -1680,6 +1680,24 @@
   templates:
   - split: 1
     template: "{0}：{1}\\n{2}"
+- raw: "Book/Name/6015,手抄仙鹤迷踪拳"
+  splits:
+  - split: 1
+    text: "手抄仙鹤迷踪拳"
+    translated: "Hand-Copied Crane's Lost Trail Fist"
+    qcReviewedText: "Hand-Copied Crane's Lost Trail Fist"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Book/Desc/6015,你和小梅共舞所悟之飞天门绝学，去其形而得其真义的仙鹤迷踪舞。"
+  splits:
+  - split: 1
+    text: "你和小梅共舞所悟之飞天门绝学，去其形而得其真义的仙鹤迷踪舞。"
+    translated: "The Crane's Illusory Steps, a technique derived from the Flying Gate School that you and Xiao Mei mastered through dancing together, stripped of its form to reveal its true essence."
+    qcReviewedText: "The Crane's Illusory Steps, a technique derived from the Flying Gate School that you and Xiao Mei mastered through dancing together, stripped of its form to reveal its true essence."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Book/Name/7000,龟息功"
   splits:
   - split: 1

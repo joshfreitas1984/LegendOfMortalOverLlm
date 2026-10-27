@@ -29327,12 +29327,13 @@
     text: "如您所知，那主谋段智秀与晚辈渊源颇深。只怕这一次唐门遇袭，便和叶某脱不了干系，于情于理，不敢相瞒。"
     translated: "As you know, the mastermind Duan Zhixiu has long-standing ties with my junior. This attack on the Tang Clan is surely inextricably linked to Ye Mou. On both grounds of sentiment and reason, I dare not conceal the truth."
     qcReviewedText: "As you know, the mastermind Duan Zhixiu has long-standing ties with my junior. This attack on the Tang Clan is surely inextricably linked to Ye Mou. On both grounds of sentiment and reason, I dare not conceal the truth."
-    qcTranslated: "As you know, the mastermind Duan Zhixiu has long-standing ties with this junior. This attack on the Tang Clan is surely inextricably linked to Ye Mou. On both grounds of sentiment and reason, I dare not conceal the truth."
+    qcTranslated: "As you know, the mastermind Duan Zhixiu has long-standing ties with me. This attack on the Tang Clan is surely inextricably linked to me, Ye. On both grounds of sentiment and reason, I dare not conceal the truth."
     qcStatus: Corrected
     qcQualityScore: 95
     qcDefectCategory: DroppedContent
     qcDefectCategories:
     - DroppedContent
+    - OtherNamedDefect
 - raw: "Story/D_S0028_02_004,……那你便说些，你认为老夫应当知晓的事情吧。"
   splits:
   - split: 1
@@ -31606,12 +31607,9 @@
     text: "吐蕃人知道叶某出身大宋，自不愿茂洲蕃部与大理联姻。与他们可说是利害一致，虽然不至于喊打喊杀，却也可没这么讲道理。"
     translated: "The Tubo people knew Ye Mou was from the Great Song, so they naturally opposed the Maozhou Tubo tribe's marriage alliance with Dali. Though their interests were aligned, they weren't being reasonable, though they wouldn't go so far as to shout for war."
     qcReviewedText: "The Tubo people knew Ye Mou was from the Great Song, so they naturally opposed the Maozhou Tubo tribe's marriage alliance with Dali. Though their interests were aligned, they weren't being reasonable, though they wouldn't go so far as to shout for war."
-    qcTranslated: "The Tubo people knew Ye Mou was from the Great Song, so they naturally opposed the Maozhou Tubo tribe's marriage alliance with Dali. Though their interests were aligned, they wouldn't go so far as to shout for war, yet they weren't exactly being reasonable either."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_S0028_02_Break_01_040,听得懂人话、无理才取闹，那就不叫蛮夷了。"
   splits:
   - split: 1

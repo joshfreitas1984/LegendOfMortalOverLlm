@@ -975,22 +975,26 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Library/Desc/10045,你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，\\n令你无法喘息，最终被掐停了呼吸。"
+- raw: "Library/Desc/10045,你没能战胜内心的恐惧，\\n任由那不真实的幻影无边无际扩散，\\n令你无法喘息，最终被掐停了呼吸。"
   splits:
   - split: 1
-    text: "你没能战胜内心的恐惧，任由那不真实的幻影无边无际扩散，"
-    translated: "You failed to overcome your fear, letting the illusory shadow spread without limit."
-    qcReviewedText: "You failed to overcome your fear, letting the illusory shadow spread without limit.\\nLeaving you gasping for air until your breath is finally cut off."
+    text: "你没能战胜内心的恐惧，"
+    translated: "You failed to conquer your inner fears,"
+    qcReviewedText: "You failed to conquer your inner fears,\\nLet the false illusion spread endlessly,\\nLeaving you gasping for air until your breath is finally cut off."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
   - split: 1
     subIndex: 1
+    text: "任由那不真实的幻影无边无际扩散，"
+    translated: "Let the false illusion spread endlessly,"
+  - split: 1
+    subIndex: 2
     text: "令你无法喘息，最终被掐停了呼吸。"
     translated: "Leaving you gasping for air until your breath is finally cut off."
   templates:
   - split: 1
-    template: "{0}\\n{1}"
+    template: "{0}\\n{1}\\n{2}"
 - raw: "Library/Title/10046,为虎作伥"
   splits:
   - split: 1

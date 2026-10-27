@@ -48,7 +48,7 @@
   - split: 3
     text: "[BattleSupportEffectEvent] {0} 特效索引 {1} 未設定 Prefab"
     safeToTranslate: false
-- raw: "Mortal.Battle.GameLevelManager/<Setup>d__121,MoveNext,228,找不到資源 ,[]"
+- raw: "Mortal.Battle.GameLevelManager/<Setup>d__121,MoveNext,235,找不到資源 ,[]"
   splits:
   - split: 3
     text: "找不到資源 "
@@ -120,6 +120,15 @@
     text: "{0} 暗器命中 {1}"
     translated: "{0}'s Hidden Weapon hits {1}."
     qcReviewedText: "{0}'s Hidden Weapon hits {1}."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatCharacterController/<TakeDamageProcess>d__60,MoveNext,347,{0} TriggerEffectDuringAttack (第 {1} 段),[]"
+  splits:
+  - split: 3
+    text: "{0} TriggerEffectDuringAttack (第 {1} 段)"
+    translated: "{0} TriggerEffectDuringAttack (Stage {1})"
+    qcReviewedText: "{0} TriggerEffectDuringAttack (Stage {1})"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -288,7 +297,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.C_Attack_009/<ApplyAfterResult>d__12,MoveNext,947,{0}血量{1},[]"
+- raw: "Mortal.Combat.C_Attack_009/<ApplyAfterResult>d__15,MoveNext,951,{0}血量{1},[]"
   splits:
   - split: 3
     text: "{0}血量{1}"
@@ -474,7 +483,16 @@
     text: "找不到特效位置 {0}，改用預覽物件位置"
     translated: "Cannot find the effect position {0}; using the preview object position instead."
     safeToTranslate: false
-- raw: "Mortal.Combat.CombatManager/<LoadCombatLevelAsset>d__92,MoveNext,89,找不到資源 ,[]"
+- raw: "Mortal.Combat.CombatFrameProfiler,Log,30,{0} {1}: {2} 幀， {3:F0} ms,[System.String，System.Int32，System.Single]"
+  splits:
+  - split: 3
+    text: "{0} {1}: {2} 幀， {3:F0} ms"
+    translated: "{0} {1}: {2} FPS, {3:F0} ms"
+    qcReviewedText: "{0} {1}: {2} FPS, {3:F0} ms"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<LoadCombatLevelAsset>d__93,MoveNext,89,找不到資源 ,[]"
   splits:
   - split: 3
     text: "找不到資源 "
@@ -483,7 +501,88 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<StartRound>d__110,MoveNext,244,回合數: {0},[]"
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,323,玩家 ApplyEffectBeforeResult,[]"
+  splits:
+  - split: 3
+    text: "玩家 ApplyEffectBeforeResult"
+    translated: "Player ApplyEffectBeforeResult"
+    qcReviewedText: "Player ApplyEffectBeforeResult"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,366,敵人 ApplyEffectBeforeResult,[]"
+  splits:
+  - split: 3
+    text: "敵人 ApplyEffectBeforeResult"
+    translated: "Enemy ApplyEffectBeforeResult"
+    qcReviewedText: "Enemy ApplyEffectBeforeResult"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,627,玩家 ApplyEffectAfterResult,[]"
+  splits:
+  - split: 3
+    text: "玩家 ApplyEffectAfterResult"
+    translated: "Player ApplyEffectAfterResult"
+    qcReviewedText: "Player ApplyEffectAfterResult"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,671,敵人 ApplyEffectAfterResult,[]"
+  splits:
+  - split: 3
+    text: "敵人 ApplyEffectAfterResult"
+    translated: "Enemy ApplyEffectAfterResult"
+    qcReviewedText: "Enemy ApplyEffectAfterResult"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,715,玩家 UpdateRemainEffect,[]"
+  splits:
+  - split: 3
+    text: "玩家 UpdateRemainEffect"
+    translated: "Player UpdateRemainEffect"
+    qcReviewedText: "Player UpdateRemainEffect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,765,敵人 UpdateRemainEffect,[]"
+  splits:
+  - split: 3
+    text: "敵人 UpdateRemainEffect"
+    translated: "Enemy UpdateRemainEffect"
+    qcReviewedText: "Enemy UpdateRemainEffect"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,815,玩家 ResetAttackCombo,[]"
+  splits:
+  - split: 3
+    text: "玩家 ResetAttackCombo"
+    translated: "Player ResetAttackCombo"
+    qcReviewedText: "Player ResetAttackCombo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,859,敵人 ResetAttackCombo,[]"
+  splits:
+  - split: 3
+    text: "敵人 ResetAttackCombo"
+    translated: "Enemy ResetAttackCombo"
+    qcReviewedText: "Enemy ResetAttackCombo"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartAction>d__105,MoveNext,902,回合 {0} 行動結算總計,[]"
+  splits:
+  - split: 3
+    text: "回合 {0} 行動結算總計"
+    translated: "Turn {0} Action Settlement Total"
+    qcReviewedText: "Turn {0} Action Settlement Total"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,266,回合數: {0},[]"
   splits:
   - split: 3
     text: "回合數: {0}"
@@ -492,7 +591,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<StartRound>d__110,MoveNext,332,玩家狀態效果,[]"
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,374,玩家狀態效果,[]"
   splits:
   - split: 3
     text: "玩家狀態效果"
@@ -501,7 +600,16 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<StartRound>d__110,MoveNext,479,敵人狀態效果,[]"
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,477,玩家 ApplyEffectBeforeAction,[]"
+  splits:
+  - split: 3
+    text: "玩家 ApplyEffectBeforeAction"
+    translated: "Player ApplyEffectBeforeAction"
+    qcReviewedText: "Player ApplyEffectBeforeAction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,531,敵人狀態效果,[]"
   splits:
   - split: 3
     text: "敵人狀態效果"
@@ -510,7 +618,46 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<RestoreStamina>d__114,MoveNext,54,雙方每回合恢復氣力,[]"
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,638,敵人 ApplyEffectBeforeAction,[]"
+  splits:
+  - split: 3
+    text: "敵人 ApplyEffectBeforeAction"
+    translated: "Enemy ApplyEffectBeforeAction"
+    qcReviewedText: "Enemy ApplyEffectBeforeAction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,898,玩家 ApplyEffectInitAction,[]"
+  splits:
+  - split: 3
+    text: "玩家 ApplyEffectInitAction"
+    translated: "Player ApplyEffectInitAction"
+    qcReviewedText: "Player ApplyEffectInitAction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,942,敵人 ApplyEffectInitAction,[]"
+  splits:
+  - split: 3
+    text: "敵人 ApplyEffectInitAction"
+    translated: "Enemy ApplyEffectInitAction"
+    qcReviewedText: "Enemy ApplyEffectInitAction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<StartRound>d__111,MoveNext,985,回合 {0} 開始總計,[]"
+  splits:
+  - split: 3
+    text: "回合 {0} 開始總計"
+    translated: "Round {0} Total Start"
+    qcReviewedText: "Round {0} Total Start"
+    qcTranslated: "Round {0} Start Total"
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: UnnaturalPhrasing
+    qcDefectCategories:
+    - UnnaturalPhrasing
+- raw: "Mortal.Combat.CombatManager/<RestoreStamina>d__115,MoveNext,54,雙方每回合恢復氣力,[]"
   splits:
   - split: 3
     text: "雙方每回合恢復氣力"
@@ -519,7 +666,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<GameOver>d__115,MoveNext,92,決鬥結束，你贏了,[]"
+- raw: "Mortal.Combat.CombatManager/<GameOver>d__116,MoveNext,92,決鬥結束，你贏了,[]"
   splits:
   - split: 3
     text: "決鬥結束，你贏了"
@@ -528,7 +675,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<GameOver>d__115,MoveNext,244,決鬥結束，你死了,[]"
+- raw: "Mortal.Combat.CombatManager/<GameOver>d__116,MoveNext,250,決鬥結束，你死了,[]"
   splits:
   - split: 3
     text: "決鬥結束，你死了"
@@ -537,7 +684,25 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<ActionRoundHandle>d__120,MoveNext,608,玩家動作: {0}， 敵人動作: {1},[]"
+- raw: "Mortal.Combat.CombatManager/<ActionRoundHandle>d__122,MoveNext,320,玩家 ApplyEffectAfterAction,[]"
+  splits:
+  - split: 3
+    text: "玩家 ApplyEffectAfterAction"
+    translated: "Player ApplyEffectAfterAction"
+    qcReviewedText: "Player ApplyEffectAfterAction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<ActionRoundHandle>d__122,MoveNext,363,敵人 ApplyEffectAfterAction,[]"
+  splits:
+  - split: 3
+    text: "敵人 ApplyEffectAfterAction"
+    translated: "Enemy ApplyEffectAfterAction"
+    qcReviewedText: "Enemy ApplyEffectAfterAction"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Combat.CombatManager/<ActionRoundHandle>d__122,MoveNext,628,玩家動作: {0}， 敵人動作: {1},[]"
   splits:
   - split: 3
     text: "玩家動作: {0}， 敵人動作: {1}"
@@ -546,7 +711,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<SimpleActionHandle>d__123,MoveNext,360,{0}的暗器命中率: {1},[]"
+- raw: "Mortal.Combat.CombatManager/<SimpleActionHandle>d__125,MoveNext,360,{0}的暗器命中率: {1},[]"
   splits:
   - split: 3
     text: "{0}的暗器命中率: {1}"
@@ -555,7 +720,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,559,嘴力 > ,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,559,嘴力 > ,[]"
   splits:
   - split: 3
     text: "嘴力 > "
@@ -564,7 +729,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,642,嘴力 < ,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,642,嘴力 < ,[]"
   splits:
   - split: 3
     text: "嘴力 < "
@@ -573,7 +738,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,753,的嘴攻被克制,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,753,的嘴攻被克制,[]"
   splits:
   - split: 3
     text: "的嘴攻被克制"
@@ -582,7 +747,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,913,的暗器未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,913,的暗器未命中,[]"
   splits:
   - split: 3
     text: "的暗器未命中"
@@ -591,7 +756,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,2334,的捅人被克制,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,2334,的捅人被克制,[]"
   splits:
   - split: 3
     text: "的捅人被克制"
@@ -600,7 +765,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,2443,的暗器未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,2443,的暗器未命中,[]"
   splits:
   - split: 3
     text: "的暗器未命中"
@@ -609,7 +774,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,3259,的捅人被克制,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,3259,的捅人被克制,[]"
   splits:
   - split: 3
     text: "的捅人被克制"
@@ -618,7 +783,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,3617,的嘴攻被克制,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,3617,的嘴攻被克制,[]"
   splits:
   - split: 3
     text: "的嘴攻被克制"
@@ -627,7 +792,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,3779,的暗器未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,3779,的暗器未命中,[]"
   splits:
   - split: 3
     text: "的暗器未命中"
@@ -636,7 +801,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,4135,的暗器未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,4135,的暗器未命中,[]"
   splits:
   - split: 3
     text: "的暗器未命中"
@@ -645,7 +810,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,4854,雙方內勁相等,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,4854,雙方內勁相等,[]"
   splits:
   - split: 3
     text: "雙方內勁相等"
@@ -654,7 +819,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,5091,的內勁勝出,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,5091,的內勁勝出,[]"
   splits:
   - split: 3
     text: "的內勁勝出"
@@ -663,7 +828,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,5292,的內勁勝出,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,5292,的內勁勝出,[]"
   splits:
   - split: 3
     text: "的內勁勝出"
@@ -672,7 +837,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,5586,的絕招未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,5586,的絕招未命中,[]"
   splits:
   - split: 3
     text: "的絕招未命中"
@@ -681,7 +846,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,5775,的絕招未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,5775,的絕招未命中,[]"
   splits:
   - split: 3
     text: "的絕招未命中"
@@ -690,7 +855,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__124,MoveNext,5977,的絕招未命中,[]"
+- raw: "Mortal.Combat.CombatManager/<CompareActionHandle>d__126,MoveNext,5977,的絕招未命中,[]"
   splits:
   - split: 3
     text: "的絕招未命中"
@@ -699,7 +864,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<ActionCost>d__126,MoveNext,201,{0}使用{1}，氣力{2},[]"
+- raw: "Mortal.Combat.CombatManager/<ActionCost>d__128,MoveNext,201,{0}使用{1}，氣力{2},[]"
   splits:
   - split: 3
     text: "{0}使用{1}，氣力{2}"
@@ -708,7 +873,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__127,MoveNext,153,嘴攻基礎傷害: {0},[]"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__129,MoveNext,153,嘴攻基礎傷害: {0},[]"
   splits:
   - split: 3
     text: "嘴攻基礎傷害: {0}"
@@ -717,7 +882,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__127,MoveNext,556,因受到嘴攻而,[]"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__129,MoveNext,556,因受到嘴攻而,[]"
   splits:
   - split: 3
     text: "因受到嘴攻而"
@@ -726,7 +891,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__127,MoveNext,748,{0} 嘴功傷害:{1} 加成率:{2} 結果:{3},[]"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__129,MoveNext,748,{0} 嘴功傷害:{1} 加成率:{2} 結果:{3},[]"
   splits:
   - split: 3
     text: "{0} 嘴功傷害:{1} 加成率:{2} 結果:{3}"
@@ -735,7 +900,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__127,MoveNext,988,的氣力 ,[]"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__129,MoveNext,988,的氣力 ,[]"
   splits:
   - split: 3
     text: "的氣力 "
@@ -744,7 +909,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__127,MoveNext,1027,的氣力 ,[]"
+- raw: "Mortal.Combat.CombatManager/<TalkActionHandle>d__129,MoveNext,1027,的氣力 ,[]"
   splits:
   - split: 3
     text: "的氣力 "
@@ -753,7 +918,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__128,MoveNext,144,基礎傷害: {0},[]"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__130,MoveNext,144,基礎傷害: {0},[]"
   splits:
   - split: 3
     text: "基礎傷害: {0}"
@@ -762,7 +927,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__128,MoveNext,349,{0}的血量 {1},[]"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__130,MoveNext,349,{0}的血量 {1},[]"
   splits:
   - split: 3
     text: "{0}的血量 {1}"
@@ -771,7 +936,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__128,MoveNext,577, 這刀好像捅太深了，有點心慌。,[]"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__130,MoveNext,577, 這刀好像捅太深了，有點心慌。,[]"
   splits:
   - split: 3
     text: " 這刀好像捅太深了，有點心慌。"
@@ -780,7 +945,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__128,MoveNext,706,被捅了，氣力,[]"
+- raw: "Mortal.Combat.CombatManager/<AttackActionHandle>d__130,MoveNext,706,被捅了，氣力,[]"
   splits:
   - split: 3
     text: "被捅了，氣力"
@@ -789,7 +954,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__129,MoveNext,181,基礎傷害: {0},[]"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__131,MoveNext,181,基礎傷害: {0},[]"
   splits:
   - split: 3
     text: "基礎傷害: {0}"
@@ -798,7 +963,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__129,MoveNext,370,{0}的血量 {1},[]"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__131,MoveNext,370,{0}的血量 {1},[]"
   splits:
   - split: 3
     text: "{0}的血量 {1}"
@@ -807,7 +972,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__129,MoveNext,562,中毒累積值,[]"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__131,MoveNext,562,中毒累積值,[]"
   splits:
   - split: 3
     text: "中毒累積值"
@@ -816,7 +981,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__129,MoveNext,649,麻痺累積值,[]"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__131,MoveNext,649,麻痺累積值,[]"
   splits:
   - split: 3
     text: "麻痺累積值"
@@ -825,7 +990,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__129,MoveNext,852,被擊中，氣力,[]"
+- raw: "Mortal.Combat.CombatManager/<WeaponActionHandle>d__131,MoveNext,852,被擊中，氣力,[]"
   splits:
   - split: 3
     text: "被擊中，氣力"
@@ -834,7 +999,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<UltimateActionHandle>d__130,MoveNext,344,基礎傷害: {0},[]"
+- raw: "Mortal.Combat.CombatManager/<UltimateActionHandle>d__132,MoveNext,344,基礎傷害: {0},[]"
   splits:
   - split: 3
     text: "基礎傷害: {0}"
@@ -843,7 +1008,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<UltimateActionHandle>d__130,MoveNext,376,{0}的血量{1},[]"
+- raw: "Mortal.Combat.CombatManager/<UltimateActionHandle>d__132,MoveNext,376,{0}的血量{1},[]"
   splits:
   - split: 3
     text: "{0}的血量{1}"
@@ -852,7 +1017,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Combat.CombatManager/<ShowDiceResult>d__135,MoveNext,61,骰子總數: ,[]"
+- raw: "Mortal.Combat.CombatManager/<ShowDiceResult>d__137,MoveNext,61,骰子總數: ,[]"
   splits:
   - split: 3
     text: "骰子總數: "
@@ -1276,6 +1441,51 @@
   - split: 3
     text: "[StoryMainUI] 修改屬性 {0} {1}"
     safeToTranslate: false
+- raw: "Mortal.Core.StoryLogFormatter,TryGetContent,224,回想紀錄：未處理的類型 {0}，已隱藏,[Mortal.Core.StoryLogEntry，Mortal.Core.ILocaleResolver，System.String&]"
+  splits:
+  - split: 3
+    text: "回想紀錄：未處理的類型 {0}，已隱藏"
+    translated: "Memory Record: Unhandled type {0}, hidden"
+    qcReviewedText: "Memory Record: Unhandled type {0}, hidden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Core.StoryLogFormatter,TryGetRelationshipChangeContent,38,回想紀錄：好感度角色 Id 不存在，已隱藏 ,[Mortal.Core.StoryLogEntry，Mortal.Core.ILocaleResolver，System.String&]"
+  splits:
+  - split: 3
+    text: "回想紀錄：好感度角色 Id 不存在，已隱藏 "
+    translated: "Memory Record: Affinity character ID does not exist; hidden"
+    qcReviewedText: "Memory Record: Affinity character ID does not exist; hidden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Core.StoryLogFormatter,TryGetStatChangeContent,38,回想紀錄：數值 Id 不存在，已隱藏 ,[Mortal.Core.StoryLogEntry，Mortal.Core.ILocaleResolver，System.String&]"
+  splits:
+  - split: 3
+    text: "回想紀錄：數值 Id 不存在，已隱藏 "
+    translated: "Memory Record: Value ID does not exist; hidden"
+    qcReviewedText: "Memory Record: Value ID does not exist; hidden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Core.StoryLogFormatter,TryGetStoryText,53,回想紀錄：劇情文本 KEY 不存在，已隱藏 ,[System.String，Mortal.Core.ILocaleResolver，System.String&]"
+  splits:
+  - split: 3
+    text: "回想紀錄：劇情文本 KEY 不存在，已隱藏 "
+    translated: "Memory Record: Plot text KEY does not exist, hidden"
+    qcReviewedText: "Memory Record: Plot text KEY does not exist, hidden"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Core.StoryLogFormatter,TryGetString,34,回想紀錄：目前語系缺少文字 KEY ,[System.String，Mortal.Core.ILocaleResolver，System.String&]"
+  splits:
+  - split: 3
+    text: "回想紀錄：目前語系缺少文字 KEY "
+    translated: "Memory Record: The current language pack is missing text keys"
+    qcReviewedText: "Memory Record: The current language pack is missing text keys"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Mortal.Core.TwoFormsStatModification,UpdateSign,19,下降,[System.Int32]"
   splits:
   - split: 3
@@ -1339,7 +1549,7 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Mortal.Story.StatModifyManager,Player,164,修改 {0}， 數值: {1},[System.String，System.Int32，System.String，System.Int32]"
+- raw: "Mortal.Story.StatModifyManager,Player,168,修改 {0}， 數值: {1},[System.String，System.Int32，System.String，System.Int32]"
   splits:
   - split: 3
     text: "修改 {0}， 數值: {1}"
@@ -1363,6 +1573,15 @@
     text: "設定 {0}， 數值: {1}"
     translated: "Set {0}, value:  {1}"
     qcReviewedText: "Set {0}, value:  {1}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "Mortal.Story.StatModifyManager,FlagChange,29,（旗標未定義）,[System.String，System.String，System.String，System.Action]"
+  splits:
+  - split: 3
+    text: "（旗標未定義）"
+    translated: "(Flag Undefined)"
+    qcReviewedText: "(Flag Undefined)"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

@@ -5784,13 +5784,12 @@
     text: "我一来不愿背信，二来不想伤你性命，害尊夫人伤心，可你冥顽不灵，又再三恫吓要恃众欲攻我山门，唐某别无办法，只得请你下台了，下一招，便决生死。"
     translated: "First, I don't want to break my word, and second, I don't wish to harm your life and cause Lady to grieve. But since you remain obstinate and repeatedly threaten to attack my mountain gate with your followers, Tang Mou has no choice but to ask you to step down. The next move will decide our fate."
     qcReviewedText: "First, I don't want to break my word, and second, I don't wish to harm your life and cause Lady to grieve. But since you remain obstinate and repeatedly threaten to attack my mountain gate with your followers, Tang Mou has no choice but to ask you to step down. The next move will decide our fate."
-    qcTranslated: "First, I don't want to break my word, and second, I don't wish to harm your life and cause your Lady to grieve. But since you remain obstinate and repeatedly threaten to rely on your numbers to attack my mountain gate, Tang Mou has no choice but to ask you to step down. The next move will decide our fate."
+    qcTranslated: "First, I don't want to break my word, and second, I don't wish to harm your life and cause Lady to grieve. But since you remain obstinate and repeatedly threaten to attack my mountain gate with your followers, this Tang has no choice but to ask you to step down. The next move will decide our fate."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
-    qcDefectCategory: DroppedContent
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - DroppedContent
+    - OtherNamedDefect
 - raw: "Story/D_4_6_2_030,好的很。"
   splits:
   - split: 1
@@ -13131,8 +13130,8 @@
   splits:
   - split: 1
     text: "就算是我冤枉你了，就算是我刺你的，我也有在尽量补偿了啊！你怎么对我就这样恶毒，呜呜……现在我走到哪，大家都叫我杀人魔！我明明都在行侠仗义！我杀的……我杀的都是十恶不赦的坏人啊！"
-    translated: "Even if I wronged you and even if I stabbed you, I have been trying to make amends! Why are you being so vicious to me, Wuwu... Now wherever I go, everyone calls me a Murderer Mage! I was actually helping the righteous and fighting evil! The people I killed... they were all irredeemably wicked criminals!"
-    qcReviewedText: "Even if I wronged you and even if I stabbed you, I have been trying to make amends! Why are you being so vicious to me, Wuwu... Now wherever I go, everyone calls me a Murderer Mage! I was actually helping the righteous and fighting evil! The people I killed... they were all irredeemably wicked criminals!"
+    translated: "Even if I wronged you, even if I was the one who stabbed you, I've been trying my best to make amends! Why are you so cruel to me? Wuwu... Now wherever I go, everyone calls me a murderer! I've been doing good deeds and upholding justice! The ones I killed... they were all evil beyond redemption!"
+    qcReviewedText: "Even if I wronged you, even if I was the one who stabbed you, I've been trying my best to make amends! Why are you so cruel to me? Wuwu... Now wherever I go, everyone calls me a murderer! I've been doing good deeds and upholding justice! The ones I killed... they were all evil beyond redemption!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -21139,13 +21138,12 @@
     text: "放屁～谁舍得打她。我赵某侠是要趁她不能动弹，跟她拜堂成亲！"
     translated: "Farting~ Who would dare to hit her? I, Zhao Mouxia, intend to take advantage of her inability to move and marry her!"
     qcReviewedText: "Farting~ Who would dare to hit her? I, Zhao Mouxia, intend to take advantage of her inability to move and marry her!"
-    qcTranslated: "Bullshit~ Who would bear to hit her? I, Zhao Mouxia, intend to take advantage of her inability to move and marry her!"
+    qcTranslated: "Farting~ Who would dare to hit her? I, Zhao, intend to take advantage of her inability to move and marry her!"
     qcStatus: Corrected
-    qcQualityScore: 92
-    qcDefectCategory: MeaningReversal
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - MeaningReversal
-    - UnnaturalPhrasing
+    - OtherNamedDefect
 - raw: "Story/D_4_8_8_2_008,呃……你这么大声，他们可能听得见哦。"
   splits:
   - split: 1
@@ -25403,9 +25401,9 @@
     text: "法师认为，这一切都是注定的？"
     translated: "Monk believes that all of this is destined?"
     qcReviewedText: "Monk believes that all of this is destined?"
-    qcTranslated: "The mage believes that all of this is destined?"
+    qcTranslated: "Dharma Master believes that all of this is destined?"
     qcStatus: Corrected
-    qcQualityScore: 95
+    qcQualityScore: 100
     qcDefectCategory: DomainTerm
     qcDefectCategories:
     - DomainTerm
@@ -25422,8 +25420,8 @@
   splits:
   - split: 1
     text: "法师！我一介丑陋凡躯，您未免太言重！"
-    translated: "Mage! I'm just an ugly mortal; you're flattering me too much!"
-    qcReviewedText: "Mage! I'm just an ugly mortal; you're flattering me too much!"
+    translated: "Master! I am but a wretched mortal; you are far too kind in your words!"
+    qcReviewedText: "Master! I am but a wretched mortal; you are far too kind in your words!"
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

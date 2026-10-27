@@ -1084,6 +1084,34 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
+- raw: "System/StoryLog/Relationship,{0} 好感度 {1}"
+  splits:
+  - split: 1
+    text: "好感度"
+    translated: "Affinity"
+    qcReviewedText: "{0} Affinity {1}"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "⟦0⟧ {0} ⟦1⟧"
+- raw: "System/StoryLog/Stat,{0} {1}"
+- raw: "System/StoryLog/EnemyModify,{0} {1} {2}"
+- raw: "System/StoryLog/Choice,▶ {0}"
+- raw: "System/StoryLog/Dice,【{0}】{1}（{2}）→ {3}"
+- raw: "System/StoryLog/DiceFate,【{0}】{1}（{2}）→ {3}　逆天"
+  splits:
+  - split: 1
+    text: "　逆天"
+    translated: "Defying Heaven"
+    qcReviewedText: "【{0}】{1}（{2}）→ {3} Defying Heaven"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  templates:
+  - split: 1
+    template: "【⟦0⟧】⟦1⟧（⟦2⟧）→ ⟦3⟧{0}"
 - raw: "System/Develop,开发项目"
   splits:
   - split: 1

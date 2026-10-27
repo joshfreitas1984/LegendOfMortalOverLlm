@@ -20947,3 +20947,101 @@
   templates:
   - split: 1
     template: "{0}：{1}"
+- raw: "CombatSkill/Name/C947,郁竹"
+  splits:
+  - split: 1
+    text: "郁竹"
+    translated: "Yu Zhu"
+    qcReviewedText: "Yu Zhu"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C947,郁竹《唐门暗器・大铁锤》：蓄势待发，逮到破绽就会扔出去，中机率造成超绝大伤害，追加[失衡]、[震撼]异常后，转变效果。"
+  splits:
+  - split: 1
+    text: "郁竹《唐门暗器・大铁锤》"
+    translated: "Yu Zhu, Tang Clan Hidden Weapon: Great Iron Hammer"
+    qcReviewedText: "Yu Zhu, Tang Clan Hidden Weapon: Great Iron Hammer：Ready to strike, unleash the attack when an opening appears, with a high chance of dealing massive damage and applying[Imbalance]、[Shock]After the anomaly, the transformation effect"
+    qcTranslated: "Yu Zhu, Tang Clan Hidden Weapon: Great Iron Hammer: Ready to strike, unleash the attack when an opening appears, with a high chance of dealing massive damage and applying [Imbalance] and [Shock] anomalies, then triggering the transformation effect."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: HardToParseSeam
+    qcDefectCategories:
+    - HardToParseSeam
+    - UnnaturalPhrasing
+  - split: 1
+    subIndex: 1
+    text: "蓄势待发，逮到破绽就会扔出去，中机率造成超绝大伤害，追加"
+    translated: "Ready to strike, unleash the attack when an opening appears, with a high chance of dealing massive damage and applying"
+  - split: 1
+    subIndex: 2
+    text: "失衡"
+    translated: "Imbalance"
+  - split: 1
+    subIndex: 3
+    text: "震撼"
+    translated: "Shock"
+    qcReviewedText: "Shock"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 4
+    text: "异常后，转变效果。"
+    translated: "After the anomaly, the transformation effect"
+  templates:
+  - split: 1
+    template: "{0}：{1}[{2}]、[{3}]{4}"
+- raw: "CombatSkill/Name/C948_1,四护法"
+  splits:
+  - split: 1
+    text: "四护法"
+    translated: "Four Protectors"
+    qcReviewedText: "Four Protectors"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C948_1,四护法《崆峒护法》：每回合发动四次高爆击小幅度攻击，扰乱对手，令我方回避、格档率上升。"
+  splits:
+  - split: 1
+    text: "四护法《崆峒护法》"
+    translated: "The Four Protectors: Protector of Kongtong"
+    qcReviewedText: "The Four Protectors: Protector of Kongtong：Launches four high-crit small attacks each turn to disrupt the opponent, increasing our evasion and block rates."
+    qcTranslated: "The Four Protectors: Kongtong Protector: Launches four high-crit small attacks each turn to disrupt the opponent, increasing our evasion and block rates."
+    qcStatus: Corrected
+    qcQualityScore: 95
+    qcDefectCategory: OtherNamedDefect
+    qcDefectCategories:
+    - OtherNamedDefect
+  - split: 1
+    subIndex: 1
+    text: "每回合发动四次高爆击小幅度攻击，扰乱对手，令我方回避、格档率上升。"
+    translated: "Launches four high-crit small attacks each turn to disrupt the opponent, increasing our evasion and block rates."
+  templates:
+  - split: 1
+    template: "{0}：{1}"
+- raw: "CombatSkill/Name/C948_2,三护法"
+  splits:
+  - split: 1
+    text: "三护法"
+    translated: "Three Protectors"
+    qcReviewedText: "Three Protectors"
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+- raw: "CombatSkill/Desc/C948_2,三护法《崆峒护法》：每回合发动三次高爆击小幅度攻击，扰乱对手，令我方回避、格档率小幅上升。"
+  splits:
+  - split: 1
+    text: "三护法《崆峒护法》"
+    translated: "The Three Protectors 《Protectors of Kongtong》"
+    qcReviewedText: "The Three Protectors 《Protectors of Kongtong》：Each turn, unleash three high-critical small attacks to disrupt the opponent, slightly increasing your side's evasion and block rates."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
+  - split: 1
+    subIndex: 1
+    text: "每回合发动三次高爆击小幅度攻击，扰乱对手，令我方回避、格档率小幅上升。"
+    translated: "Each turn, unleash three high-critical small attacks to disrupt the opponent, slightly increasing your side's evasion and block rates."
+  templates:
+  - split: 1
+    template: "{0}：{1}"

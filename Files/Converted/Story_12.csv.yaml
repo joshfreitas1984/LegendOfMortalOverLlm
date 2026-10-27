@@ -9274,14 +9274,11 @@
   splits:
   - split: 1
     text: "法师出口，所向披靡。但是在下也有一席话语如鲠在喉，不如还是由赵某来说吧。"
-    translated: "The mage spoke, and all fell silent before them. However, I also have something to say that feels stuck in my throat; it would be better if Zhao spoke instead."
-    qcReviewedText: "The mage spoke, and all fell silent before them. However, I also have something to say that feels stuck in my throat; it would be better if Zhao spoke instead."
-    qcTranslated: "The mage's words carried the force of a sweeping victory. However, I also have something to say that feels stuck in my throat; it would be better if Zhao spoke instead."
-    qcStatus: Corrected
-    qcQualityScore: 85
-    qcDefectCategory: LostIdiom
-    qcDefectCategories:
-    - LostIdiom
+    translated: "The Dharma Master's words carry the force to shatter all opposition. Yet I too have a word stuck in my throat; perhaps it is best that I, Zhao, speak it."
+    qcReviewedText: "The Dharma Master's words carry the force to shatter all opposition. Yet I too have a word stuck in my throat; perhaps it is best that I, Zhao, speak it."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_8_1_2_2_006,……可以，这是你唐门的主场，小僧把机会让你。"
   splits:
   - split: 1
@@ -44103,10 +44100,9 @@
     text: "唐三爷，我石某人脑子不灵光，从前没少干傻事，得罪好人。在这里给你们赔礼道歉，你们大人不计小人过，别跟我这老粗计较吧。"
     translated: "Third Master Tang, I am Li Shi. My mind isn't very sharp, and I've done a lot of foolish things in the past, offending good people. Here, I offer my apologies to you both. As they say, gentlemen forgive petty mistakes-don't hold this rustic like me to strict account."
     qcReviewedText: "Third Master Tang, I am Li Shi. My mind isn't very sharp, and I've done a lot of foolish things in the past, offending good people. Here, I offer my apologies to you both. As they say, gentlemen forgive petty mistakes-don't hold this rustic like me to strict account."
-    qcTranslated: "Third Master Tang, I am Shi Mouren. My mind isn't very sharp, and I've done a lot of foolish things in the past, offending good people. Here, I offer my apologies to you both. As they say, gentlemen forgive petty mistakes-don't hold this rustic like me to strict account."
+    qcTranslated: "Third Master Tang, I am Shi. My mind isn't very sharp, and I've done a lot of foolish things in the past, offending good people. Here, I offer my apologies to you both. As they say, gentlemen forgive petty mistakes-don't hold this rustic like me to strict account."
     qcStatus: Corrected
-    flaggedForQcReview: true
-    qcQualityScore: 0
+    qcQualityScore: 95
     qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
     - OtherNamedDefect
@@ -44605,12 +44601,14 @@
     text: "赵少侠，请代掌门收执，笑纳此物，聊表石某夫妻的心意。"
     translated: "Young Hero Zhao, please represent the sect leader to receive and accept this item, to convey the intentions of Shi Mou and his wife."
     qcReviewedText: "Young Hero Zhao, please represent the sect leader to receive and accept this item, to convey the intentions of Shi Mou and his wife."
-    qcTranslated: "Young Hero Zhao, please receive and accept this item on behalf of the Sect Leader, as a token of Shi Mou and his wife's gratitude."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
+    qcStatus: FailedValidation
+    flaggedForQcReview: true
+    qcRejectedCorrection: "Young Hero Zhao, please accept this item on behalf of the Sect Leader and graciously receive it as a token of Shi Mou and his wife's heartfelt intentions."
+    qcFailureReason: "'Shi Mou' makes 某 part of a name. 某 stands in for a name and is usually the speaker saying \"I\"; write \"I\" or \"this [Surname]\" and never the surname followed by \"Mou\"."
     qcDefectCategories:
-    - MeaningReversal
+    - Unknown
+    qcRuleCheckFailureCount: 4
+    qcRuleCheckFailureBaseline: "Young Hero Zhao, please represent the sect leader to receive and accept this item, to convey the intentions of Shi Mou and his wife."
 - raw: "Story/D_S0703_01_01_056,这是……唐门外堡的地契。"
   splits:
   - split: 1

@@ -17321,12 +17321,12 @@
     text: "此刻再回老太爷的话"
     translated: "Now is the time to respond to the old grandpa."
     qcReviewedText: "Now is the time to respond to the old grandpa.：Wang Mou's siege of the city was intended to unite the military and civilians of Jiangling. By putting aside old grievances and uniting against a common enemy, they can work together to resist external threats. This is the true remedy for saving the country. The battle of Jiangling is merely the catalyst; the real enemy lies beyond Xiangyang."
-    qcTranslated: "Now is the time to respond to the old grandpa's words: Wang Mou's siege of the city was intended to unite the military and civilians of Jiangling. By putting aside old grievances and uniting against a common enemy, they can work together to resist external threats. This is the true remedy for saving the country. The battle of Jiangling is merely the catalyst; the real enemy lies beyond Xiangyang."
+    qcTranslated: "Now is the time to respond to the old grandpa.：My siege of the city was intended to unite the military and civilians of Jiangling. By putting aside old grievances and uniting against a common enemy, they can work together to resist external threats. This is the true remedy for saving the country. The battle of Jiangling is merely the catalyst; the real enemy lies beyond Xiangyang."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - DroppedContent
+    - OtherNamedDefect
   - split: 1
     subIndex: 1
     text: "王某围城，为的便是要令江陵军民一心。消弭旧恨，同仇敌忾，携手共抗外侮，这才是救国良方。江陵之战不过是药引，真正的敌人，在襄阳之外。"
@@ -34260,12 +34260,12 @@
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
-- raw: "Story/N_4_5_1_002,趁自己午睡时，把自己放到木筏里顺流漂走，木筏散架了吃到水才惊醒；"
+- raw: "Story/N_4_5_1_002,趁自己午睡时，把自己放到纸船里顺流漂走，船沉了吃到水才惊醒；"
   splits:
   - split: 1
-    text: "趁自己午睡时，把自己放到木筏里顺流漂走，木筏散架了吃到水才惊醒；"
-    translated: "While taking a nap, they placed themselves on a wooden raft and drifted away with the current. The raft fell apart, and they only woke up when they got wet."
-    qcReviewedText: "While taking a nap, they placed themselves on a wooden raft and drifted away with the current. The raft fell apart, and they only woke up when they got wet."
+    text: "趁自己午睡时，把自己放到纸船里顺流漂走，船沉了吃到水才惊醒；"
+    translated: "While napping, he placed himself in a paper boat and drifted downstream; the boat sank, and he only woke up after swallowing water."
+    qcReviewedText: "While napping, he placed himself in a paper boat and drifted downstream; the boat sank, and he only woke up after swallowing water."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None

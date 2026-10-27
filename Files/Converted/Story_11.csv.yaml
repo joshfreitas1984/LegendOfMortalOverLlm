@@ -5466,14 +5466,11 @@
   splits:
   - split: 1
     text: "当真吗？凭法师的佛法修为、名声名望，峨嵋掌门一定迎为座上宾。"
-    translated: "Is that really true? With a Mage's Buddhist cultivation and reputation, the Emei Sect Master would certainly welcome them as a honored guest."
-    qcReviewedText: "Is that really true? With a Mage's Buddhist cultivation and reputation, the Emei Sect Master would certainly welcome them as a honored guest."
-    qcTranslated: "Is that really true? With a Mage's Buddhist cultivation and reputation, the Emei Sect Master would certainly welcome them as an honored guest."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: UnnaturalPhrasing
-    qcDefectCategories:
-    - UnnaturalPhrasing
+    translated: "Is that true? With your Dharma cultivation and reputation, the Emei Sect Leader will surely welcome you as a guest of honor."
+    qcReviewedText: "Is that true? With your Dharma cultivation and reputation, the Emei Sect Leader will surely welcome you as a guest of honor."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_7_5_4_3_005,峨嵋也信佛，小僧曾到金顶听峨嵋大师开坛说法，与向掌门有数面之缘，想来小僧的言语，他不至于充耳不闻。"
   splits:
   - split: 1
@@ -5490,14 +5487,11 @@
   splits:
   - split: 1
     text: "法师口若悬河，向掌门要完蛋。"
-    translated: "The mage talked nonstop, begging the Sect Master to have him finished off."
-    qcReviewedText: "The mage talked nonstop, begging the Sect Master to have him finished off."
-    qcTranslated: "The mage talked nonstop, demanding that the Sect Master be finished off."
-    qcStatus: Corrected
-    qcQualityScore: 95
-    qcDefectCategory: MeaningReversal
-    qcDefectCategories:
-    - MeaningReversal
+    translated: "The Dharma Master spoke eloquently, demanding the Sect Leader's head."
+    qcReviewedText: "The Dharma Master spoke eloquently, demanding the Sect Leader's head."
+    qcStatus: Passed
+    qcQualityScore: 100
+    qcDefectCategory: None
 - raw: "Story/D_7_5_4_3_007,哪有这么严重，小僧又不会把人给骂死。"
   splits:
   - split: 1
@@ -24065,8 +24059,8 @@
   splits:
   - split: 1
     text: "法师，我先上，说不赢他，等会你再出马教育他。"
-    translated: "Mage, I'll go first. If I can't convince him, you step in later to educate him."
-    qcReviewedText: "Mage, I'll go first. If I can't convince him, you step in later to educate him."
+    translated: "Master, I'll go first. If I can't win against him, you step in later to teach him a lesson."
+    qcReviewedText: "Master, I'll go first. If I can't win against him, you step in later to teach him a lesson."
     qcStatus: Passed
     qcQualityScore: 100
     qcDefectCategory: None
@@ -26313,12 +26307,12 @@
     text: "我向你保证，即使唐门最终兵败不复存，天下也无人可以欺侮默铃。与之相对，万一我阵亡了，希望你念着我们的交情，多多照拂瑞某遗孀。"
     translated: "I assure you that even if Tang Clan ultimately falls and no longer exists, none in the world shall dare to bully Mo Reeling. In contrast, should I fall in battle, I hope you will remember our friendship and take good care of my widow Rui."
     qcReviewedText: "I assure you that even if Tang Clan ultimately falls and no longer exists, none in the world shall dare to bully Mo Reeling. In contrast, should I fall in battle, I hope you will remember our friendship and take good care of my widow Rui."
-    qcTranslated: "I assure you that even if Tang Clan ultimately falls and no longer exists, none in the world shall dare to bully Mo Reeling. In contrast, should I fall in battle, I hope you will remember our friendship and take good care of my widow, Rui Mou."
+    qcTranslated: "I assure you that even if Tang Clan ultimately falls and no longer exists, none in the world shall dare to bully Mo Reeling. In contrast, should I fall in battle, I hope you will remember our friendship and take good care of my widow, Rui."
     qcStatus: Corrected
     qcQualityScore: 95
-    qcDefectCategory: DroppedContent
+    qcDefectCategory: OtherNamedDefect
     qcDefectCategories:
-    - DroppedContent
+    - OtherNamedDefect
 - raw: "Story/D_S0702_01_03_Break_01_123,……不行，你还得保证要偏心她，多花一点时间陪她，对她最好。"
   splits:
   - split: 1

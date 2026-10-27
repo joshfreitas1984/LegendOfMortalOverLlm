@@ -610,6 +610,14 @@
   rawSimplified: 僧侣
   rawTraditional: 僧侶
   result: Monk
+- raw: 法师
+  rawSimplified: 法师
+  rawTraditional: 法師
+  result: Dharma Master
+  allowalt:
+  - Master
+  context: Honorific for a Buddhist monk (e.g. Fuyun Dharma Master); never "mage", which is on the bad-words list
+  badtrans: false
 - raw: 侠客
   rawSimplified: 侠客
   rawTraditional: 俠客
